@@ -1,0 +1,3323 @@
+WEBVTT
+
+00:05:34.450 --> 00:05:37.270
+okay so hi everyone i believe i'm audible and visible to all
+
+00:05:37.270 --> 00:05:39.290
+of you guys so please confirm so that we can start with the
+
+00:05:39.290 --> 00:05:46.640
+class yeah so uh good afternoon everyone good afternoon okay
+
+00:05:46.640 --> 00:05:49.740
+so let's start with the class uh i believe agenda is clear
+
+00:05:49.740 --> 00:05:53.460
+so today we'll be talking about basically uh graphs uh
+
+00:05:53.460 --> 00:05:55.880
+visualization basically data visualization so that is
+
+00:05:55.880 --> 00:05:58.200
+something that we'll be talking about and after this class
+
+00:05:58.200 --> 00:06:00.740
+i'm going to give you basically a project a very first
+
+00:06:00.740 --> 00:06:05.260
+project that you have to like do it in python so as i have
+
+00:06:05.260 --> 00:06:10.260
+already announced in my last set last sunday's class right
+
+00:06:10.260 --> 00:06:13.160
+that i'll be giving you a project this week so yeah i'm
+
+00:06:13.160 --> 00:06:15.000
+going to give you a project and
+
+00:06:18.930 --> 00:06:21.330
+going forward so i'm going to teach you like deployment and
+
+00:06:21.330 --> 00:06:25.430
+all those things as we'll progress but yeah let's see how
+
+00:06:25.430 --> 00:06:30.690
+many of you will be able to do the projects now vs code and
+
+00:06:32.680 --> 00:06:34.200
+okay
+
+00:07:11.960 --> 00:07:15.240
+so today what we are going to do is that you that we'll try
+
+00:07:15.240 --> 00:07:18.360
+to explore a couple of libraries by which uh we'll see how
+
+00:07:18.360 --> 00:07:21.720
+we can do a visualization because uh visualization is one of
+
+00:07:21.720 --> 00:07:24.720
+the you know crucial part from a business perspective and
+
+00:07:24.720 --> 00:07:27.140
+from a project perspective going forward so when you are
+
+00:07:27.140 --> 00:07:29.780
+going to learn machine learning even or even deep learning
+
+00:07:29.780 --> 00:07:33.860
+or in any part of your life so obviously we look into a
+
+00:07:33.860 --> 00:07:37.520
+graphs we look into a charts basically and you know just by
+
+00:07:37.520 --> 00:07:40.240
+looking into a graphs and charts so obviously we can try to
+
+00:07:40.240 --> 00:07:44.340
+understand analyze and you know we can see the trend of the
+
+00:07:44.340 --> 00:07:47.900
+data or whatever data is trying to showcase because it's it
+
+00:07:47.900 --> 00:07:52.020
+will be very difficult if uh any one of you will just go and
+
+00:07:52.020 --> 00:07:55.400
+start looking into a millions of records you will not be
+
+00:07:55.400 --> 00:07:58.560
+able to understand the pattern right so if you have a
+
+00:07:58.560 --> 00:08:00.580
+limited number of records obviously you can try to
+
+00:08:00.580 --> 00:08:03.100
+understand the pattern but in case of huge amount of data
+
+00:08:03.100 --> 00:08:07.360
+it's very difficult right everyone yeah i believe all of you
+
+00:08:07.360 --> 00:08:10.360
+will agree with me uh that you know as your data will grow
+
+00:08:10.360 --> 00:08:13.620
+so obviously you need some tool you need something by which
+
+00:08:14.200 --> 00:08:16.600
+you can do a visualization and eventually after the
+
+00:08:16.600 --> 00:08:18.680
+visualization you will be able to understand the trend this
+
+00:08:18.680 --> 00:08:22.260
+is where this graph comes into picture now uh if i'll talk
+
+00:08:22.260 --> 00:08:24.880
+about a graph library wise so there are so many libraries
+
+00:08:24.880 --> 00:08:27.740
+you will be able to find out in almost all the programming
+
+00:08:27.740 --> 00:08:30.800
+languages and especially if i'll talk about a python so
+
+00:08:30.800 --> 00:08:33.620
+again there are a lot of libraries you all will be able to
+
+00:08:33.620 --> 00:08:36.880
+find out let's uh you know go through some of these
+
+00:08:36.880 --> 00:08:40.300
+libraries one by one so just go to google and try to search
+
+00:08:40.300 --> 00:08:42.020
+for a c a b o r n seaborn
+
+00:08:45.020 --> 00:08:49.160
+seaborn so this is one of the library that you can try to
+
+00:08:49.160 --> 00:08:54.060
+use along with that matplotlib so this is another library
+
+00:08:54.060 --> 00:08:59.180
+you will be able to find out plotly so this is another
+
+00:08:59.180 --> 00:09:02.340
+library plus a complete ecosystem you will be able to find
+
+00:09:02.340 --> 00:09:05.780
+out for graph there is something called as bokeh so
+
+00:09:08.700 --> 00:09:11.640
+again you will be able to find out like a almost everything
+
+00:09:11.640 --> 00:09:13.600
+so there is something called as altire
+
+00:09:20.090 --> 00:09:24.590
+again there is something called as pigle so likewise inside
+
+00:09:24.590 --> 00:09:28.230
+python or python supported libraries there are so many like
+
+00:09:28.230 --> 00:09:30.610
+you know things which is already available in a market since
+
+00:09:30.610 --> 00:09:34.150
+a decade right and whatsoever kind of a graph that you would
+
+00:09:34.150 --> 00:09:37.630
+like to plot to understand the sentiment of the data it is
+
+00:09:37.630 --> 00:09:40.790
+possible right it is possible even sample code will be given
+
+00:09:40.790 --> 00:09:44.990
+for each and every kind of a plot so here again same goes
+
+00:09:44.990 --> 00:09:48.170
+with a matplotlib a tons of example you will be able to find
+
+00:09:48.170 --> 00:09:52.030
+out and again so plotting wise you just have to put a data
+
+00:09:52.030 --> 00:09:57.210
+on x-axis y-axis or max a graph and then you have to just do
+
+00:09:57.210 --> 00:10:00.630
+it and after that automatically everything will be done so
+
+00:10:00.630 --> 00:10:05.130
+you can try to opt for any of these libraries and you will
+
+00:10:05.130 --> 00:10:09.070
+be able to do a plotting now the question arises over here
+
+00:10:09.070 --> 00:10:12.170
+that which one i'm supposed to use let's say if i'm going
+
+00:10:12.170 --> 00:10:14.230
+ahead with python so which one i'm supposed to technically
+
+00:10:14.230 --> 00:10:18.450
+use it because like there are like 50 plus libraries which
+
+00:10:18.450 --> 00:10:21.050
+is available just inside a python so which is going to help
+
+00:10:21.050 --> 00:10:24.750
+me out in terms of doing a visualization and graph in each
+
+00:10:24.750 --> 00:10:28.370
+and everything so as per me and my experience the best
+
+00:10:28.370 --> 00:10:31.350
+library that you will be able to find out for doing
+
+00:10:31.350 --> 00:10:35.790
+everything is a plotly best in the market since last like a
+
+00:10:35.790 --> 00:10:38.870
+five six year i would say uh or four to five year right so
+
+00:10:38.870 --> 00:10:42.310
+i'm using this library and it's one of the amazing one that
+
+00:10:42.310 --> 00:10:44.870
+all of you will be able to find out and this is not just a
+
+00:10:44.870 --> 00:10:48.190
+library by the way so plotly is giving you a complete
+
+00:10:48.190 --> 00:10:52.330
+ecosystem as well for example we use a tableau we use a
+
+00:10:52.330 --> 00:10:54.810
+power bi right so what plotly have done so they have
+
+00:10:54.810 --> 00:10:55.950
+released the library a power bi is a library which is a
+
+00:10:55.950 --> 00:10:56.190
+library which is a library which is a studio in which they
+
+00:10:56.190 --> 00:10:56.590
+are están on what they have found you want to do so they
+
+00:10:56.590 --> 00:11:00.250
+have basically even released the plotly studio so where you
+
+00:11:00.250 --> 00:11:03.010
+can just go you can try to connect with the data and then
+
+00:11:03.010 --> 00:11:06.190
+you will be able to do a reporting and now they are trying
+
+00:11:06.190 --> 00:11:09.290
+to even bring on agentic things over there so that with the
+
+00:11:09.290 --> 00:11:12.470
+minimalistic of minimalistic effort you will be able to plot
+
+00:11:12.470 --> 00:11:15.110
+the data you will be able to visualize whatsoever that you
+
+00:11:15.110 --> 00:11:20.390
+want so it's one of the best one uh in that term i would say
+
+00:11:20.390 --> 00:11:24.370
+uh in terms of like a real-time usability along with that so
+
+00:11:24.370 --> 00:11:26.850
+yes we can write a python code and then you will be able to
+
+00:11:26.850 --> 00:11:29.890
+visualize it that's also possible right with respect to a
+
+00:11:29.890 --> 00:11:33.330
+plotly and all the other libraries as well along with that
+
+00:11:33.330 --> 00:11:36.470
+so plotly gives you a very interactive graph right very
+
+00:11:36.470 --> 00:11:39.610
+interactive plot for example so maybe you can click on this
+
+00:11:39.610 --> 00:11:44.090
+example and yeah so you can try to click on any of these
+
+00:11:44.090 --> 00:11:47.950
+like a public app that they have already published right uh
+
+00:11:47.950 --> 00:11:50.690
+to understand that what kind of a feature they are giving
+
+00:11:50.690 --> 00:11:53.870
+you and it's very very amazing right so if you go and hover
+
+00:11:53.870 --> 00:11:57.310
+your mouse or maybe if you can select so data changes a very
+
+00:11:57.310 --> 00:11:59.710
+very amazing and very interactive one right you will be able
+
+00:11:59.710 --> 00:12:04.250
+to see it inside this plotly uh so you know all these
+
+00:12:04.250 --> 00:12:06.190
+dashboards right all of these dashboards which has been
+
+00:12:06.190 --> 00:12:08.990
+prepared so eventually you will be able to prepare every
+
+00:12:08.990 --> 00:12:12.770
+kind of a dashboard that you want like i have said that you
+
+00:12:12.770 --> 00:12:16.350
+know as an alternative of w and power bi you can try to use
+
+00:12:16.350 --> 00:12:19.550
+it right even cost wise it's very cost effective by the way
+
+00:12:19.550 --> 00:12:20.150
+if you'll go and see that you can see that you can see that
+
+00:12:20.150 --> 00:12:20.290
+you can see that you can see that you can see that you check
+
+00:12:20.290 --> 00:12:24.270
+its licensing with with respect to a tableau or power bi a
+
+00:12:24.270 --> 00:12:29.170
+licensing right so yeah and nowadays many people so they are
+
+00:12:29.170 --> 00:12:35.450
+like not spending much on uh i would say like uh tools uh
+
+00:12:35.450 --> 00:12:37.990
+those tools which is very very expensive like a power bi and
+
+00:12:37.990 --> 00:12:40.630
+w a new organization so they always try to go ahead with the
+
+00:12:40.630 --> 00:12:43.550
+agentic approach nowadays because we know that that you know
+
+00:12:43.550 --> 00:12:46.330
+connect uh with the agents and then just go and ask some
+
+00:12:46.330 --> 00:12:49.490
+sort of a question and it will be able to bring a data it
+
+00:12:49.490 --> 00:12:52.210
+will be able to plot a graph in a real time right so now
+
+00:12:52.210 --> 00:12:55.750
+even trend is changing in terms of doing a visualization but
+
+00:12:55.750 --> 00:13:00.130
+yeah uh visualization is important even now right even now
+
+00:13:00.130 --> 00:13:03.090
+visualization is important to take uh like you know to
+
+00:13:03.090 --> 00:13:05.750
+understand the data understand the pattern and take a action
+
+00:13:05.750 --> 00:13:08.990
+or take a decision on top of that so what we will be doing
+
+00:13:08.990 --> 00:13:12.850
+so we are going to use basically a plotly library and we
+
+00:13:12.850 --> 00:13:15.770
+will be using a matplotlib so matplotlib is kind of you can
+
+00:13:15.770 --> 00:13:20.050
+say uh like a legacy one a very very old one right it is a
+
+00:13:20.050 --> 00:13:20.050
+very very old one it is a very very old one it is a very
+
+00:13:20.050 --> 00:13:20.750
+very old one it is a very very old one it is a very very old
+
+00:13:20.750 --> 00:13:20.750
+one it is a very very old one it is a very very old one but
+
+00:13:20.750 --> 00:13:23.110
+yeah interaction wise this interactiveness you will be able
+
+00:13:23.110 --> 00:13:28.390
+to find out not in matplotlib but in plotly rest you can try
+
+00:13:28.390 --> 00:13:30.810
+to use any other libraries of your choice it's completely
+
+00:13:30.810 --> 00:13:35.230
+fine everything is going to technically like work for all of
+
+00:13:35.230 --> 00:13:38.870
+you yeah so everything is going to work so let me close this
+
+00:13:38.870 --> 00:13:41.870
+one and now coming back to the code part so let's start
+
+00:13:41.870 --> 00:13:45.970
+talking about a visualization one by one one by one now to
+
+00:13:45.970 --> 00:13:49.170
+do a visualization so you need these libraries to be
+
+00:13:49.170 --> 00:13:52.210
+available inside your local system so to like make it
+
+00:13:52.210 --> 00:13:56.270
+available so you can do pip install and then you can try to
+
+00:13:56.270 --> 00:14:01.610
+write basically mat plot lib and then basically plotly so
+
+00:14:01.610 --> 00:14:05.130
+these two libraries are actually required and if you have
+
+00:14:05.130 --> 00:14:08.030
+these libraries you will be able to do a visualization so
+
+00:14:08.030 --> 00:14:11.810
+i'm pinging you this one guys inside your chat box if you
+
+00:14:11.810 --> 00:14:14.870
+don't have this inside your local system so please install
+
+00:14:14.870 --> 00:14:22.360
+it quickly simple pip install matplotlib and plotly so in my
+
+00:14:22.360 --> 00:14:24.360
+system requirement always satisfied so i don't have to like
+
+00:14:24.360 --> 00:14:29.320
+do an installation done everyone yes so
+
+00:14:34.920 --> 00:14:37.960
+just just confirm me guys uh i can i can wait for maybe a
+
+00:14:37.960 --> 00:14:42.950
+couple of minutes okay sanket is saying done selva is saying
+
+00:14:42.950 --> 00:14:49.460
+done okay okay fine yeah what about others so okay
+
+00:14:49.460 --> 00:14:52.020
+installing it will not take much time i mean like two three
+
+00:14:52.020 --> 00:14:54.980
+minutes max two max uh depends upon your system and internet
+
+00:14:54.980 --> 00:15:01.280
+speed yeah okay so if it is done then what we can do we can
+
+00:15:01.280 --> 00:15:04.140
+start plotting all of these things uh we can start learning
+
+00:15:04.140 --> 00:15:08.240
+the graph part yeah so couple of imports we have to do so
+
+00:15:08.240 --> 00:15:10.920
+yesterday we were talking about pandas and numpy so let's
+
+00:15:10.920 --> 00:15:19.440
+try to import pandas pandas basically numpy
+
+00:15:19.440 --> 00:15:23.640
+we have already used it matt prot님 and plotly express as px
+
+00:15:23.640 --> 00:15:27.700
+fine so these are the import which is required so just
+
+00:15:27.700 --> 00:15:30.080
+import it not true importadenco.nmp so these are the import
+
+00:15:30.080 --> 00:15:31.140
+which is required so just import it able to install the
+
+00:15:31.140 --> 00:15:36.840
+libraries so here is the import command by the way yeah okay
+
+00:15:36.840 --> 00:15:40.520
+so once this import is done uh because i have to create a
+
+00:15:40.520 --> 00:15:42.660
+data and then only i will be able to do some sort of
+
+00:15:42.660 --> 00:15:45.560
+visualization right so i can try to load some sort of a data
+
+00:15:45.560 --> 00:15:48.580
+and then i can decide that okay fine so which graph i have
+
+00:15:48.580 --> 00:15:51.600
+to plot or maybe i can go and i can try to create a data
+
+00:15:51.600 --> 00:15:55.680
+yeah i'll try to create a data so let's try to create a data
+
+00:15:55.680 --> 00:15:59.280
+so let me create a date data over here so there is a
+
+00:15:59.280 --> 00:16:02.920
+something called as pandas dot date range function which is
+
+00:16:02.920 --> 00:16:06.540
+going to help you out in terms of creating a date based data
+
+00:16:06.540 --> 00:16:12.440
+so uh it's by default it's taking what it's taking so let me
+
+00:16:12.440 --> 00:16:23.040
+give a date uh 2026 0101 okay
+
+00:16:25.540 --> 00:16:30.880
+let me remove this frequency part it's fine i can try to
+
+00:16:30.880 --> 00:16:35.060
+give periods over here so let's say 100 days uh period and
+
+00:16:35.060 --> 00:16:39.220
+i'll try to generate okay so now this is how this date data
+
+00:16:39.220 --> 00:16:42.200
+will look like so it has generated technically a hundred
+
+00:16:42.200 --> 00:16:44.680
+dates right this is what it means so this date range
+
+00:16:44.680 --> 00:16:47.600
+function what it does so i have given this point now from
+
+00:16:47.600 --> 00:16:51.120
+this point it will try to generate a hundred dates yeah
+
+00:16:51.120 --> 00:16:54.040
+hundred dates so as you can see it has generated a hundred
+
+00:16:54.040 --> 00:16:57.420
+dates uh and again so frequency is day by default and this
+
+00:16:57.420 --> 00:16:59.920
+function is very powerful function which is available inside
+
+00:16:59.920 --> 00:17:02.180
+the pandas which is going to help you out to deal with the
+
+00:17:02.220 --> 00:17:06.860
+dates yeah okay so date i am able to generate it now once i
+
+00:17:06.860 --> 00:17:08.640
+am able to do that so
+
+00:17:12.220 --> 00:17:16.020
+let's do one thing so let's try to create a complete table a
+
+00:17:16.020 --> 00:17:22.360
+data frame so data frame is equals to pandas dot data frame
+
+00:17:22.360 --> 00:17:31.180
+i can write over here and let me not use this date is equals
+
+00:17:31.180 --> 00:17:35.520
+to date that's completely fine and then uh let me create.
+
+00:17:35.800 --> 00:17:40.460
+valuable data. So let me create some sales data. So here I
+
+00:17:40.460 --> 00:17:43.700
+can try to do numpy random end. So yesterday we have already
+
+00:17:43.700 --> 00:17:46.220
+talked about it right. So we have already talked about this
+
+00:17:46.220 --> 00:17:49.800
+numpy.random.rand end. So what it does it produce a data
+
+00:17:49.800 --> 00:17:54.240
+right. It simply produce the data and then pro fit profit so
+
+00:17:54.240 --> 00:17:58.740
+again this one let me give comma
+
+00:18:01.400 --> 00:18:09.940
+yeah. Okay so profit then customers so maybe this data add
+
+00:18:09.940 --> 00:18:11.380
+spend add
+
+00:18:21.460 --> 00:18:22.880
+spend and
+
+00:18:26.590 --> 00:18:33.830
+then maybe like reason so this one I can try to give and
+
+00:18:36.140 --> 00:18:44.100
+then like category so let's say category wise I
+
+00:18:49.740 --> 00:18:55.640
+can try to say not ABC but some course name maybe Python
+
+00:18:55.640 --> 00:18:56.900
+Python data
+
+00:19:00.930 --> 00:19:02.610
+science Gen
+
+00:19:11.020 --> 00:19:12.420
+AI cloud
+
+00:19:14.660 --> 00:19:18.360
+so it's yeah so that's a permit given this has a category on
+
+00:19:18.360 --> 00:19:22.320
+O a rating let's say I'm trying to give like a rating we're
+
+00:19:22.320 --> 00:19:29.160
+here okay so this is going to my dataset. Okay so I have
+
+00:19:29.160 --> 00:19:33.360
+missed this a comma. So let me do that find so now if I'm
+
+00:19:33.360 --> 00:19:35.800
+going to show you my data frame so this is how many of them
+
+00:19:35.800 --> 00:19:38.460
+looks like so we have a date feels probably customer is
+
+00:19:38.460 --> 00:19:42.080
+spent the reason a can nearly relating sold all of these
+
+00:19:42.080 --> 00:19:45.440
+things we already have over here right we already have over
+
+00:19:45.440 --> 00:19:49.260
+here let me increase our sales uh data so sales data should
+
+00:19:49.260 --> 00:19:58.580
+uh fall between let's say uh 10 000 to 20 000 okay fine that
+
+00:19:58.580 --> 00:20:02.080
+number has changed so basically this is our data that we
+
+00:20:02.080 --> 00:20:04.900
+have produced right it's a 100 record that we have produced
+
+00:20:04.900 --> 00:20:09.060
+so far where we have a date sales profit uh then customer
+
+00:20:09.060 --> 00:20:12.040
+and customers how many customers we have for this one then
+
+00:20:12.040 --> 00:20:16.040
+how much like ad spend we have done uh reason west east
+
+00:20:16.040 --> 00:20:18.320
+south all those things category so in which category we are
+
+00:20:18.320 --> 00:20:20.360
+able to sell and then rating and everything which is
+
+00:20:20.360 --> 00:20:23.400
+mentioned over here in a random order so this looks like a
+
+00:20:23.400 --> 00:20:27.200
+good data right i am able to produce it uh with the help of
+
+00:20:27.200 --> 00:20:30.560
+like whatsoever we have learned yesterday now once i am able
+
+00:20:30.560 --> 00:20:34.000
+to produce this data because without data i can't do
+
+00:20:34.000 --> 00:20:37.780
+anything right without data i can't do anything so now i
+
+00:20:37.780 --> 00:20:40.560
+have to do some sort of a plots yeah i have to do some sort
+
+00:20:40.560 --> 00:20:44.840
+of plot even we can do this data dot info or sorry data
+
+00:20:44.840 --> 00:20:50.760
+frame dot info info so it is going to give you some sort of
+
+00:20:50.760 --> 00:20:57.680
+information with respect to the data set so let me yeah so
+
+00:20:57.680 --> 00:21:00.860
+basically the very first column type is date time right so
+
+00:21:00.860 --> 00:21:03.880
+database data type it is having second one is basically
+
+00:21:03.880 --> 00:21:07.700
+integer integer integer object and integer yeah now let me
+
+00:21:07.700 --> 00:21:11.280
+give you this code base so that all of you can use it yeah
+
+00:21:11.280 --> 00:21:16.940
+okay just use it fine so here uh we have produced the data
+
+00:21:16.940 --> 00:21:20.440
+and it's a very relevant data that we have produced now if
+
+00:21:20.440 --> 00:21:24.580
+someone is asking me to do a plot right do a plot so where i
+
+00:21:24.580 --> 00:21:29.780
+can see a date versus sale right date versus sale so maybe
+
+00:21:29.780 --> 00:21:33.040
+on a x-axis there will be like a date and then on a y-axis
+
+00:21:33.040 --> 00:21:37.340
+maybe sale so how my sales is moving actually with respect
+
+00:21:37.340 --> 00:21:41.060
+to a date or sales even in a sale market right so we all uh
+
+00:21:41.060 --> 00:21:44.900
+does a similar kind of things right so here i would like to
+
+00:21:44.900 --> 00:21:48.160
+understand that what is our date versus a sale scenario that
+
+00:21:48.160 --> 00:21:51.700
+i have or situation that i have so fine uh i can plot a
+
+00:21:51.700 --> 00:21:54.460
+graph and with the help of graph i will be able to do that
+
+00:21:54.460 --> 00:21:58.780
+so let me do this one so let me show you this entire things
+
+00:21:58.780 --> 00:22:03.660
+by using a matplotlib yeah so plt plt is the alias that we
+
+00:22:03.660 --> 00:22:07.940
+have done so plt dot plot and then here so what we can do so
+
+00:22:07.940 --> 00:22:11.940
+date versus sales we are trying to plot right so okay now uh
+
+00:22:11.940 --> 00:22:15.780
+label uh on x-axis label is going to be date on y-axis label
+
+00:22:15.780 --> 00:22:18.260
+is going to be sales and graph title is going to be sales
+
+00:22:18.260 --> 00:22:22.740
+over a time and then we can try to do plt dot show now once
+
+00:22:22.740 --> 00:22:26.140
+i am going to do this right so you will be able to see this
+
+00:22:26.140 --> 00:22:29.720
+kind of a graph right sales over time is a title which we
+
+00:22:29.720 --> 00:22:33.600
+have given over here right uh label we have given so x label
+
+00:22:33.600 --> 00:22:37.360
+is date so as you can see over here right and then y label
+
+00:22:37.360 --> 00:22:41.120
+is basically sales so yes y label is sales that you are able
+
+00:22:41.120 --> 00:22:44.360
+to see over here so automatically it is able to put all of
+
+00:22:44.360 --> 00:22:47.540
+these dates over here all these 100 days of dates and then
+
+00:22:47.540 --> 00:22:51.020
+automatically it is trying to put things and then it's a
+
+00:22:51.020 --> 00:22:56.080
+line chart or it's a line graph that it is able to
+
+00:22:56.080 --> 00:23:00.160
+technically plot right that it is technically able to plot
+
+00:23:00.160 --> 00:23:03.240
+that okay this is basically a this is how sales is moving
+
+00:23:03.240 --> 00:23:06.960
+this is how sales is moving with respect to a like uh you
+
+00:23:06.960 --> 00:23:10.280
+know time or with respect to a particular date i can try to
+
+00:23:10.280 --> 00:23:14.860
+even in hands this particular uh like you know the graph
+
+00:23:14.860 --> 00:23:17.520
+basically so i can try to take the same thing and maybe
+
+00:23:17.520 --> 00:23:21.220
+someone told me that okay so you are showing me basically a
+
+00:23:21.220 --> 00:23:25.280
+date versus sales uh try to show me even a profit right try
+
+00:23:25.280 --> 00:23:27.700
+to show me even a profit i would like to understand i would
+
+00:23:27.700 --> 00:23:31.780
+like to see a trend inside a profit as well so okay uh so
+
+00:23:31.780 --> 00:23:34.040
+technically you are asking me to plot two things so i can
+
+00:23:34.040 --> 00:23:38.340
+try to plot two things over here so simple plt uh dot plot
+
+00:23:38.340 --> 00:23:43.540
+and date versus profit so on the same one right on the same
+
+00:23:43.540 --> 00:23:46.540
+one as you can see so it is able to show me profit as well
+
+00:23:46.540 --> 00:23:50.100
+so this uh orange line is basically representing the profit
+
+00:23:50.100 --> 00:23:52.920
+which is like a flat right even if you look into the data
+
+00:23:52.920 --> 00:23:56.000
+right even if you look into the data so profit is not
+
+00:23:56.000 --> 00:24:00.280
+fluctuating much as compared to the date maybe i can try to
+
+00:24:00.280 --> 00:24:05.040
+you know create this profit uh i can i can i can just try to
+
+00:24:05.040 --> 00:24:09.040
+produce some very random data with respect to the profit two
+
+00:24:09.040 --> 00:24:12.300
+thousand five thousand if i'm going to so obviously it is
+
+00:24:12.300 --> 00:24:15.080
+going to fluctuate so now you can see that that there is a
+
+00:24:15.080 --> 00:24:17.680
+fluctuation right there is like some up and down that you
+
+00:24:17.680 --> 00:24:21.560
+will be able to see on the scale range right uh so and again
+
+00:24:21.560 --> 00:24:27.580
+my sales is like sales data is too high so maybe i can try
+
+00:24:27.580 --> 00:24:32.100
+to it's like two lakh i have given right yeah
+
+00:24:34.340 --> 00:24:36.860
+so now you will be able to see that that how my sales is
+
+00:24:36.860 --> 00:24:40.220
+fluctuating and how my basically profit is fluctuating so
+
+00:24:40.220 --> 00:24:42.580
+sales has been represented by this blue line and profit has
+
+00:24:42.580 --> 00:24:43.160
+been represented by this blue line and profit has been
+
+00:24:43.160 --> 00:24:44.540
+represented by this blue line and by this particular yellow
+
+00:24:44.540 --> 00:24:47.640
+line so i've just made little bit of enhancement so multiple
+
+00:24:47.640 --> 00:24:51.420
+like variations or multiple comparison date versus sales
+
+00:24:51.420 --> 00:24:54.620
+days well the profit i am able to showcase there itself yeah
+
+00:24:54.620 --> 00:24:58.180
+uh let's say uh here is a blue line and here is a yellow
+
+00:24:58.180 --> 00:25:01.720
+orange line and if some random person is looking at these
+
+00:25:01.720 --> 00:25:04.900
+lines so they will not be able to understand right they will
+
+00:25:04.900 --> 00:25:07.480
+they will not be able to understand basically like you know
+
+00:25:07.480 --> 00:25:11.360
+uh what is what right so what this this basically uh blue
+
+00:25:11.360 --> 00:25:13.160
+line is representing what basically this blue line is
+
+00:25:13.160 --> 00:25:15.000
+representing what this yellow line or like this your orange
+
+00:25:15.000 --> 00:25:18.260
+line is representing so i can i can do that so basically
+
+00:25:18.260 --> 00:25:23.160
+there is something called a legend right so plt dot le gnd
+
+00:25:23.160 --> 00:25:27.120
+legend so now here it will show you this kind of things
+
+00:25:27.120 --> 00:25:30.640
+legends basically this is called a legend label so sales is
+
+00:25:30.640 --> 00:25:32.800
+been represented by blue lines and then profit has been
+
+00:25:32.800 --> 00:25:35.800
+represented by orange line so legend i am able to see it so
+
+00:25:35.800 --> 00:25:39.100
+now anyone random person who is looking at this they will be
+
+00:25:39.100 --> 00:25:40.820
+able to understand that okay fine so you are basically
+
+00:25:40.820 --> 00:25:43.160
+talking about this one yeah so let's go ahead and let's go
+
+00:25:43.160 --> 00:25:43.400
+ahead and let's go ahead and let's go ahead and let's go
+
+00:25:43.400 --> 00:25:43.400
+ahead and let's go ahead and let's go ahead and let's go
+
+00:25:43.400 --> 00:25:44.220
+ahead and let's go that means that legend is something that
+
+00:25:44.220 --> 00:25:48.540
+that you can try to showcase fine making sense guys to all
+
+00:25:48.540 --> 00:25:53.960
+of us so now let's take this one yes
+
+00:25:57.160 --> 00:26:04.820
+okay so uh this is what you will be able to see uh in terms
+
+00:26:04.820 --> 00:26:07.700
+of basically legend you will be able to even control you
+
+00:26:07.700 --> 00:26:10.500
+will be even able to like you you know change the type of
+
+00:26:10.500 --> 00:26:14.200
+the graph so all of these things are technically possible
+
+00:26:14.200 --> 00:26:17.620
+right. So let's try to understand different different kind
+
+00:26:17.620 --> 00:26:22.500
+of graphs over here. So here I am able to plot a line graph
+
+00:26:22.500 --> 00:26:26.520
+right. Let's try to plot something called as scatter plot
+
+00:26:26.520 --> 00:26:29.740
+yeah. Let's try to plot something called as scatter plot. So
+
+00:26:29.740 --> 00:26:32.600
+I will just try to copy the same code maybe I don't have to
+
+00:26:32.600 --> 00:26:38.840
+change much right. Now here so plt.plot that we have
+
+00:26:38.840 --> 00:26:42.620
+basically done. So instead of doing that I can try to call
+
+00:26:42.620 --> 00:26:49.070
+scatter yeah scatter execute. So as you can see scatter plot
+
+00:26:49.070 --> 00:26:51.550
+is nothing but it is trying to represent one one points and
+
+00:26:51.550 --> 00:26:54.190
+this is how scatter plot looks like. So this dots are
+
+00:26:54.190 --> 00:26:57.390
+basically scatter plot. Data versus sales so whatsoever
+
+00:26:57.390 --> 00:27:00.810
+points that we had so at that point you will be able to see
+
+00:27:00.810 --> 00:27:04.710
+a dot right. Line was nothing but it has connected.
+
+00:27:04.710 --> 00:27:07.050
+Connected all the dots and that was eventually the lines
+
+00:27:07.050 --> 00:27:10.670
+right as per the date. But now it's a scatter plot that we
+
+00:27:10.670 --> 00:27:13.290
+are able to plot it over here. So this is again another kind
+
+00:27:13.290 --> 00:27:17.130
+of a graph that all of you will be able to find out. There
+
+00:27:17.130 --> 00:27:20.570
+is another kind of a graph called as a bar plot right. So
+
+00:27:20.570 --> 00:27:25.310
+let me show you a bar chart as well. So here data frame wise
+
+00:27:25.310 --> 00:27:29.930
+we have basically a sales data and basically we have a
+
+00:27:29.930 --> 00:27:33.170
+category right. So we have sales and we have a category.
+
+00:27:33.290 --> 00:27:35.830
+Category wise. So let's say I am selling some courses in a
+
+00:27:35.830 --> 00:27:38.310
+python segment or cloud segment or data science segment or
+
+00:27:38.310 --> 00:27:41.510
+gen AI segment. So these are the technically category which
+
+00:27:41.510 --> 00:27:47.090
+is available to me. Now category wise sales let me find out
+
+00:27:47.090 --> 00:27:49.790
+yeah. So let me find out a category wise sales for example
+
+00:27:49.790 --> 00:27:53.890
+like in a cloud courses how many sales I have made, gen AI
+
+00:27:53.890 --> 00:27:56.390
+how many sales I have made, python how many sales I have
+
+00:27:56.390 --> 00:27:59.990
+made and data science how many sales I have made. Do that as
+
+00:27:59.990 --> 00:28:02.950
+we have discussed already yesterday. So we can do a group by
+
+00:28:02.950 --> 00:28:09.630
+operations. So like here category sales is equals to data
+
+00:28:09.630 --> 00:28:13.150
+frame dot group by. Group by what? Category right. Group by
+
+00:28:13.150 --> 00:28:17.190
+category and then you know summation. So we can try to find
+
+00:28:17.190 --> 00:28:21.730
+out a summation of it. So execute. Now category sales this
+
+00:28:21.730 --> 00:28:24.030
+is something that we have discussed already yesterday. So
+
+00:28:24.030 --> 00:28:27.290
+gen AI wise this is the total sale, cloud wise this is the
+
+00:28:27.290 --> 00:28:29.990
+total sale, data science wise this is the total sale, python
+
+00:28:29.990 --> 00:28:34.150
+wise this is the total sale that we have done. Okay. Now
+
+00:28:34.150 --> 00:28:38.670
+someone is asking me that can you please try to plot it with
+
+00:28:38.670 --> 00:28:43.150
+respect to the graph right where someone can see these
+
+00:28:43.150 --> 00:28:46.950
+numbers right. So maybe in a x axis there will be a label on
+
+00:28:46.950 --> 00:28:51.270
+y axis there will be the numbers. So someone is asking me to
+
+00:28:51.270 --> 00:28:54.830
+you know represent that. To represent that I will try to
+
+00:28:54.830 --> 00:28:57.830
+choose basically a bar chart. So I will try to create a bar
+
+00:28:57.830 --> 00:28:59.850
+and with the help of bar I will try to represent category
+
+00:28:59.850 --> 00:29:04.250
+versus numerical representation. So here what I will do, so
+
+00:29:04.250 --> 00:29:11.690
+I will try to call plt matplotlib so plt dot basically bar
+
+00:29:11.690 --> 00:29:19.930
+and then sales value y label x label total sale title of
+
+00:29:19.930 --> 00:29:24.310
+graph plt so. So now this is how you will be able to see the
+
+00:29:24.310 --> 00:29:27.250
+graph. Now just by looking at graph anyone will be able to
+
+00:29:27.250 --> 00:29:30.610
+understand that in gen AI how much sales is been made. In
+
+00:29:30.610 --> 00:29:33.270
+cloud how much sales is been made, data science how much
+
+00:29:33.270 --> 00:29:35.950
+sales is been made and in python how much sales is been
+
+00:29:35.950 --> 00:29:39.870
+made. So on x axis what I am trying to do, so on x axis so I
+
+00:29:39.870 --> 00:29:42.570
+am trying to represent the category right. As you can see
+
+00:29:42.570 --> 00:29:46.070
+over here category indexes. So this is something which I am
+
+00:29:46.070 --> 00:29:49.770
+trying to represent and on y axis I am trying to represent a
+
+00:29:49.770 --> 00:29:53.170
+category sales dot values, category sales dot values. This
+
+00:29:53.170 --> 00:29:56.070
+is what I am trying to represent on y axis. Rest is same,
+
+00:29:56.170 --> 00:29:58.630
+label, title, show all of these things are technically same.
+
+00:29:58.630 --> 00:30:01.710
+So only in this one single line I am able to plot this
+
+00:30:01.710 --> 00:30:05.110
+particular graph. Yeah I am able to plot this particular
+
+00:30:05.110 --> 00:30:08.150
+graph. Someone is asking sir it is generating an image or
+
+00:30:08.150 --> 00:30:11.250
+graph can we display numbers on hover mouse it will display
+
+00:30:11.250 --> 00:30:14.950
+the value. No so matplotlib never gives you interactiveness
+
+00:30:14.950 --> 00:30:17.670
+that is the reason so we are going to use plotlib. I will
+
+00:30:17.670 --> 00:30:20.170
+show it to you. So whenever you are going to hover your
+
+00:30:20.170 --> 00:30:24.910
+mouse so basically it is going to like a technically like
+
+00:30:24.910 --> 00:30:28.390
+show you the numbers. So that is not available inside
+
+00:30:28.390 --> 00:30:30.770
+matplotlib. matplotlib that is available inside plotly and
+
+00:30:30.770 --> 00:30:33.810
+that is the reason so we have installed a plotly. Make sense
+
+00:30:33.810 --> 00:30:36.690
+guys, everyone? Yeah
+
+00:30:40.820 --> 00:30:44.360
+okay. So let me show you a plotly example because we have
+
+00:30:44.360 --> 00:30:47.640
+already done an import of plotly as a px I believe right so
+
+00:30:47.640 --> 00:30:51.620
+in our above. So here what I will do I will try to call px
+
+00:30:51.620 --> 00:30:56.220
+dot line. So let's say I am trying to call px 9 and here
+
+00:30:56.220 --> 00:31:00.660
+maybe I can try to use same data yeah. So let's say I am
+
+00:31:00.660 --> 00:31:06.160
+saying a data frame. Same data and here on x axis a date and
+
+00:31:06.160 --> 00:31:10.780
+all these things that we have done and execute. So now you
+
+00:31:10.780 --> 00:31:14.720
+will be able to see that that this is a graph same similar
+
+00:31:14.720 --> 00:31:17.780
+to the previous the very first graph that we have plotted.
+
+00:31:17.980 --> 00:31:21.180
+So this is a graph that we are able to get but this is
+
+00:31:21.180 --> 00:31:24.440
+beautiful one interactive one. So if you are going to hover
+
+00:31:24.440 --> 00:31:27.520
+your mouse anywhere you will be able to see a record you
+
+00:31:27.520 --> 00:31:30.280
+will be able to see the data. That is the reason. So in a
+
+00:31:30.280 --> 00:31:33.220
+beginning itself. I have advised you that the best library
+
+00:31:33.220 --> 00:31:36.960
+is plotly. So whenever you are trying to use it. So just go
+
+00:31:36.960 --> 00:31:40.700
+ahead and use plotly not a matplotlib not a seaborn not a
+
+00:31:40.700 --> 00:31:45.260
+pandasplot. Eventually every will everyone will be able to
+
+00:31:45.260 --> 00:31:48.020
+like you know plot the graph but again interactiveness will
+
+00:31:48.020 --> 00:31:51.740
+be missing if you are not using plotly. So it's one of the
+
+00:31:51.740 --> 00:31:55.060
+best I would say in terms of graph whatsoever kind of a
+
+00:31:55.060 --> 00:31:58.720
+graph and again code wise it's very simple right. So px
+
+00:31:58.720 --> 00:32:01.140
+plotly dot line graph. I am trying to. I am trying to plot I
+
+00:32:01.140 --> 00:32:03.860
+have passed a data from that data my x axis is representing
+
+00:32:03.860 --> 00:32:07.960
+what date right and my y axis is representing what sales and
+
+00:32:07.960 --> 00:32:11.900
+profit this is my title deal done yeah as simple as that. So
+
+00:32:11.900 --> 00:32:14.760
+very very simple not not all rocket science I would say and
+
+00:32:14.760 --> 00:32:17.040
+in one single line I am able to generate this interactive
+
+00:32:17.040 --> 00:32:21.740
+graph line chart I would say right. So maybe I can try to
+
+00:32:21.740 --> 00:32:26.320
+you know plot this bar plot as well the bar that we have
+
+00:32:26.320 --> 00:32:31.100
+plotted. So maybe we can try to do px dot bar. And category
+
+00:32:31.100 --> 00:32:36.520
+sales done. So here now you can hover your mouse and you
+
+00:32:36.520 --> 00:32:40.220
+will be able to see total sales by category. So category
+
+00:32:40.220 --> 00:32:49.840
+sales index title label x category y total sales. Okay so
+
+00:32:49.840 --> 00:32:52.920
+here maybe I can try to put one more parameter.
+
+00:32:57.480 --> 00:33:03.280
+Color is fine. Color I can control. Okay. Apart from that
+
+00:33:03.280 --> 00:33:05.900
+orientation or
+
+00:33:13.260 --> 00:33:14.880
+I orientation
+
+00:33:22.080 --> 00:33:25.120
+vertical let's say and
+
+00:33:32.060 --> 00:33:36.960
+on x axis why it is not giving me a category
+
+00:33:39.780 --> 00:33:46.060
+sales index in generic cloud data science which looks good
+
+00:33:46.060 --> 00:33:50.360
+to me. Oh fine okay.
+
+00:33:58.850 --> 00:34:01.830
+So here px
+
+00:34:09.960 --> 00:34:18.220
+dot bar chart graph. And then. Category gory category
+
+00:34:24.170 --> 00:34:30.950
+underscore sales maybe I can call reset index x category y
+
+00:34:30.950 --> 00:34:40.420
+category fine. Error. Category sales reset index.
+
+00:34:42.550 --> 00:34:43.390
+It
+
+00:34:48.700 --> 00:34:56.110
+should plot a graph for me. So category sales right. So code
+
+00:34:56.110 --> 00:34:58.310
+looks fine. Category
+
+00:35:08.230 --> 00:35:14.770
+sales is not defined by what is a variable name category
+
+00:35:14.770 --> 00:35:20.680
+sales right. So why it is telling me that it's not defined.
+
+00:35:25.200 --> 00:35:31.300
+Value x is not in the name of column in data frame. Okay.
+
+00:35:33.200 --> 00:35:37.800
+Category sales reset index looks fine x axis is equals to
+
+00:35:37.800 --> 00:35:42.610
+category y axis is equals to sales.
+
+00:36:16.780 --> 00:36:19.720
+Okay. So yeah. I'm able to replicate the same graph with the
+
+00:36:19.720 --> 00:36:23.000
+interactiveness nothing much. So I've just given x axis and
+
+00:36:23.000 --> 00:36:27.180
+y axis title and then reset indexes so that you know I will
+
+00:36:27.180 --> 00:36:29.780
+be able to get this graph. So now if you'll go and if you'll
+
+00:36:29.780 --> 00:36:32.340
+try to hover your mouse anywhere right so you will be able
+
+00:36:32.340 --> 00:36:34.660
+to see basically a category name as well as you will be able
+
+00:36:34.660 --> 00:36:37.420
+to see the total value very very simple and interactive
+
+00:36:37.420 --> 00:36:42.260
+graph we are able to plot it. So yeah. I mean like this is
+
+00:36:42.260 --> 00:36:45.560
+how things happens basically right. So let's say if I have
+
+00:36:45.560 --> 00:36:49.240
+to show you a scatterplot. So px dot. I can try to call px
+
+00:36:49.240 --> 00:36:54.020
+dot sca double ter scatterplot and then you will be able to
+
+00:36:54.020 --> 00:36:57.800
+see a sales versus profit let's say. So sales on x axis and
+
+00:36:57.800 --> 00:37:01.620
+profit on y axis. You can try to hover on any of these
+
+00:37:01.620 --> 00:37:05.000
+points and then you will be able to see the information that
+
+00:37:05.000 --> 00:37:08.300
+okay fine so what this point is trying to represent. So this
+
+00:37:08.300 --> 00:37:10.800
+point is trying to represent sales is equals to this much
+
+00:37:10.800 --> 00:37:13.860
+profit is equals to this much right and in which category so
+
+00:37:13.860 --> 00:37:16.780
+in python category basically this deal was done and this is
+
+00:37:16.780 --> 00:37:20.360
+what it is trying to represent. So again very interactive
+
+00:37:20.360 --> 00:37:23.820
+graph scatterplot we are able to plot it. So lineplot done,
+
+00:37:23.960 --> 00:37:28.600
+barplot done, scatterplot is basically done. You can even
+
+00:37:28.600 --> 00:37:31.160
+control all the colors whatsoever you want you will be able
+
+00:37:31.160 --> 00:37:34.580
+to basically like control it. So there is some conversation
+
+00:37:34.580 --> 00:37:39.980
+which is going inside this graph. So getting error for the
+
+00:37:39.980 --> 00:37:44.660
+code line this this this sales profit plotting but with
+
+00:37:44.660 --> 00:37:54.480
+error. Okay. So maybe you can try try using this one fine.
+
+00:37:57.540 --> 00:38:00.800
+Now let's try to plot some different different graph as
+
+00:38:00.800 --> 00:38:05.020
+well. So here let's say I have done a scatterplot right. So
+
+00:38:05.020 --> 00:38:06.980
+there are a lot of control you will be able to find out
+
+00:38:06.980 --> 00:38:08.380
+inside as do.
+
+00:38:12.720 --> 00:38:19.240
+So we can basically data frame is fine x is fine y is fine
+
+00:38:19.240 --> 00:38:24.020
+size is so let's say I am going to define one parameter
+
+00:38:24.020 --> 00:38:27.800
+called as size. Size is basically customer over data is
+
+00:38:27.800 --> 00:38:30.920
+equal to reason. So this is something called as scatterplot
+
+00:38:30.920 --> 00:38:34.160
+but yeah bubble right. So we are able to create a bubble. So
+
+00:38:34.160 --> 00:38:38.800
+where based on the like a customer right based on the
+
+00:38:38.800 --> 00:38:41.680
+customer so number of customers so it is going to define the
+
+00:38:41.680 --> 00:38:45.420
+size of the bubble. So size of the bubble so wherever like
+
+00:38:45.420 --> 00:38:48.420
+here customer is 27 bubble will be little bigger. Here
+
+00:38:48.420 --> 00:38:51.080
+customer is 12 as you can see. So size of the customer so
+
+00:38:51.080 --> 00:38:53.780
+maybe you can try to even define size is equal to sales as
+
+00:38:53.780 --> 00:38:56.460
+well. So based on that. It is going to decide the bubble
+
+00:38:56.460 --> 00:38:59.460
+right. So technically it's a scatterplot but yeah. So there
+
+00:38:59.460 --> 00:39:02.380
+is a parameter called a size and you can try to give any
+
+00:39:02.380 --> 00:39:05.740
+columns over here to define the size and accordingly it will
+
+00:39:05.740 --> 00:39:09.500
+try to adopt it very very simple once again. Now there is a
+
+00:39:09.500 --> 00:39:13.080
+graph called as histogram right. There is something called a
+
+00:39:13.080 --> 00:39:15.460
+histogram. So let's try to understand histogram. You will be
+
+00:39:15.460 --> 00:39:18.460
+able to find out histogram again everywhere. So px dot
+
+00:39:18.460 --> 00:39:25.020
+histogram and color category fine. So what histogram
+
+00:39:25.020 --> 00:39:30.680
+technically does let me do one thing so data frame sales
+
+00:39:30.680 --> 00:39:35.200
+color is equals to category. Let me remove this unit as of
+
+00:39:35.200 --> 00:39:35.500
+now.
+
+00:39:42.060 --> 00:39:45.600
+So basically I have just removed this category part so that
+
+00:39:45.600 --> 00:39:47.480
+you know we will be having only one color and this is
+
+00:39:47.480 --> 00:39:49.780
+something called as like something you will be able to find
+
+00:39:49.780 --> 00:39:53.880
+out as a histogram. Now what it says basically right what it
+
+00:39:53.880 --> 00:39:58.100
+says. So if you will just hover your mouse here. Or maybe
+
+00:39:58.100 --> 00:40:02.300
+here maybe here maybe here. So you will be able to see two
+
+00:40:02.300 --> 00:40:05.880
+things. So a representation on x axis and representation on
+
+00:40:05.880 --> 00:40:10.560
+a y axis. So what x axis is representing the x axis is
+
+00:40:10.560 --> 00:40:14.220
+representing basically a range. So from this range to this
+
+00:40:14.220 --> 00:40:18.400
+range right. How many data we have. So this is what is being
+
+00:40:18.400 --> 00:40:22.700
+represented inside a y axis for example. So here so how much
+
+00:40:22.700 --> 00:40:27.380
+sales happens between 10k to 10.99k. So technically. There
+
+00:40:27.380 --> 00:40:30.200
+are six counts. So in between this to this point this is the
+
+00:40:30.200 --> 00:40:32.660
+number of the sales which happened. How much sales happens
+
+00:40:32.660 --> 00:40:36.340
+between 11k to 11.99k. So total number of sales was actually
+
+00:40:36.340 --> 00:40:41.820
+8 right. How much sales happens between 12k to 12.99k. So
+
+00:40:41.820 --> 00:40:45.160
+total sales is actually 8. So again over here how much sales
+
+00:40:45.160 --> 00:40:48.640
+has happened between 13k to 13.99k. Total sales is basically
+
+00:40:48.640 --> 00:40:53.160
+10. So in case of histogram whatsoever library you are going
+
+00:40:53.160 --> 00:40:56.600
+to use it. So histogram simply says that that on my x axis.
+
+00:40:56.600 --> 00:41:00.300
+I will try to represent the distribution. And on y axis I
+
+00:41:00.300 --> 00:41:03.300
+will try to show you the numbers between that distribution
+
+00:41:03.300 --> 00:41:07.280
+right. And that is technically called as histogram. Very
+
+00:41:07.280 --> 00:41:10.840
+very simple. So this is my histogram. So where on x axis
+
+00:41:10.840 --> 00:41:15.060
+range and on y axis a frequency I am able to find out. So
+
+00:41:15.060 --> 00:41:17.380
+technically it is a frequency that it try to plot at any
+
+00:41:17.380 --> 00:41:21.640
+point of a time. Ok now there is something called as box
+
+00:41:21.640 --> 00:41:28.720
+plot. So let me do that. So px dot box. Ok. and let's say we
+
+00:41:28.720 --> 00:41:31.960
+are doing this box plot right so we are doing this box plot
+
+00:41:31.960 --> 00:41:35.280
+for what so we are basically trying to do this box plot so x
+
+00:41:35.280 --> 00:41:37.960
+-axis is having a category data science python cloud and gen
+
+00:41:37.960 --> 00:41:42.000
+ai right and y-axis is representing technically a sales y
+
+00:41:42.000 --> 00:41:45.260
+-axis representing technically a sales right title is
+
+00:41:45.260 --> 00:41:48.780
+completely fine so this is what it is trying to represent
+
+00:41:48.780 --> 00:41:52.300
+now if you will hover your mouse right if you are going to
+
+00:41:52.300 --> 00:41:56.960
+hover your mouse over here so it is going to show you a lot
+
+00:41:56.960 --> 00:42:01.760
+of information so here just start from the bottom yeah just
+
+00:42:01.760 --> 00:42:06.740
+start from the bottom so minimum is like a you know so i
+
+00:42:06.740 --> 00:42:08.840
+have just hovered and just look into this data science
+
+00:42:08.840 --> 00:42:13.800
+minimum 10.362k so this is this point is representing this
+
+00:42:13.800 --> 00:42:16.480
+point means this particular point is representing this 10
+
+00:42:16.480 --> 00:42:20.920
+.362k yeah this point is representing 10.362k then there is
+
+00:42:20.920 --> 00:42:24.900
+something called as like a you know you know for quartile so
+
+00:42:24.900 --> 00:42:29.020
+q1 right so this q1 is basically been represented by this
+
+00:42:29.020 --> 00:42:31.980
+particular one this particular line there is something
+
+00:42:31.980 --> 00:42:35.340
+called as median right so median will be represented by this
+
+00:42:35.340 --> 00:42:39.080
+particular line and then quartile 3 will be represented by
+
+00:42:39.080 --> 00:42:42.200
+this line and then max will be represented by this line so 1
+
+00:42:42.200 --> 00:42:48.060
+2 3 4 5 in total it represents five points and again this is
+
+00:42:48.060 --> 00:42:51.880
+a very very significant graph for any one of you by the way
+
+00:42:51.880 --> 00:42:55.220
+the box plot right very very significant graph i would say
+
+00:42:55.220 --> 00:42:59.680
+and again there is a lot of meaning you will be able to find
+
+00:42:59.680 --> 00:43:02.820
+out with respect to a box plot a lot of lot of meaning you
+
+00:43:02.820 --> 00:43:05.740
+will be able to find out with respect to a box plot so let
+
+00:43:05.740 --> 00:43:08.120
+me discuss about that because again and again you will be
+
+00:43:08.120 --> 00:43:12.660
+able to see uh you know uh this this uh particular like a
+
+00:43:12.660 --> 00:43:15.520
+box plot every time every time you are going to see this
+
+00:43:15.520 --> 00:43:18.820
+kind of a box plot so once for all let me like you know
+
+00:43:18.820 --> 00:43:21.840
+discuss about this entire things and its uh calculation
+
+00:43:21.840 --> 00:43:28.080
+basically yeah So here let me use my pen like I said so this
+
+00:43:28.080 --> 00:43:31.560
+point is representing what a minimum point right this point
+
+00:43:31.560 --> 00:43:34.180
+is representing minimum point this point is technically
+
+00:43:34.180 --> 00:43:38.460
+going to represent let's say a quartile 1 this point is
+
+00:43:38.460 --> 00:43:41.620
+representing this label this label is going to represent
+
+00:43:41.620 --> 00:43:45.660
+basically a Q3 quartile 3 and this is going to represent
+
+00:43:45.660 --> 00:43:49.920
+basically a max yeah this is going to represent a max this
+
+00:43:49.920 --> 00:43:54.460
+one is going to represent what median yeah so we are going
+
+00:43:54.460 --> 00:43:57.180
+to discuss about mean median mode even inside the statistics
+
+00:43:57.180 --> 00:44:01.660
+but let's say like before that we are going to discuss about
+
+00:44:01.660 --> 00:44:07.800
+this one yeah so here the minimum point right the minimum
+
+00:44:07.800 --> 00:44:12.900
+point is nothing but basically this Q1 that you are able to
+
+00:44:12.900 --> 00:44:17.880
+see so this Q1 that you are able to see minus 1.5 times.
+
+00:44:17.880 --> 00:44:23.580
+There is something called as IQR interquartile range right
+
+00:44:23.580 --> 00:44:27.300
+and what is this interquartile range so this is technically
+
+00:44:27.300 --> 00:44:31.220
+called as IQR this is technically called as interquartile
+
+00:44:31.220 --> 00:44:35.760
+range so whenever if you have this kind of a plot and if you
+
+00:44:35.760 --> 00:44:38.180
+have to find out a minimum so minimum is going to be what
+
+00:44:38.180 --> 00:44:43.460
+this minus 1.5 times interquartile range and what is going
+
+00:44:43.460 --> 00:44:46.760
+to be the maximum at any point of a time. So maximum is
+
+00:44:46.760 --> 00:44:50.260
+going to be. So minimum is going to be basically Q1 right so
+
+00:44:50.260 --> 00:44:57.820
+Q1 plus 1.5 times I would say IQR interquartile range this
+
+00:44:57.820 --> 00:45:01.380
+is how you will be able to like you know find out so what is
+
+00:45:01.380 --> 00:45:04.420
+the value of a minimum and what is the value of the maximum
+
+00:45:04.420 --> 00:45:10.460
+at any point of a time sorry my bad this one is Q3 let me
+
+00:45:10.460 --> 00:45:16.020
+rewrite so not Q1 Q1 is here right so for minimum this is Q3
+
+00:45:16.020 --> 00:45:22.320
+for a max. Simple so Q3 plus 1.5 times IQR now where you are
+
+00:45:22.320 --> 00:45:25.480
+going to use this graph by the way so let's say I have an
+
+00:45:25.480 --> 00:45:28.700
+outlier so there are some data beyond this point so
+
+00:45:28.700 --> 00:45:31.100
+basically this graph has been used to find out the outliers
+
+00:45:31.100 --> 00:45:34.660
+in general right and see or check whether my data set is
+
+00:45:34.660 --> 00:45:38.180
+evenly distributed or not between all the quartiles right
+
+00:45:38.180 --> 00:45:40.440
+all the quartiles basically my data set is evenly
+
+00:45:40.440 --> 00:45:43.780
+distributed or not. So to check even that we still try to do
+
+00:45:43.780 --> 00:45:46.920
+a box plot even in share market you will be able to see. So
+
+00:45:46.920 --> 00:45:49.880
+for example graph has been used heavily right or similar
+
+00:45:49.880 --> 00:45:52.240
+kind of like you know stats and graphs has been used heavily
+
+00:45:52.240 --> 00:45:55.240
+so maximum is going to max point is going to be always this
+
+00:45:55.240 --> 00:45:57.680
+one minimum point is going to be always this one IQR
+
+00:45:57.680 --> 00:46:00.300
+interquartile range is going to be difference between this
+
+00:46:00.300 --> 00:46:04.560
+and this so Q3 and Q1 is going to be IQR so Q3 minus Q1 is
+
+00:46:04.560 --> 00:46:08.540
+equal to IQR median is basically this one right so this is
+
+00:46:08.540 --> 00:46:11.400
+what graph is going to represent now anything above this and
+
+00:46:11.400 --> 00:46:14.420
+anything below this is going to be outlier as simple as
+
+00:46:14.420 --> 00:46:14.900
+that.
+
+00:46:25.260 --> 00:46:31.380
+So if my data set is evenly distributed you will be able to
+
+00:46:31.380 --> 00:46:40.160
+find out that 25% of the data belongs here 25% data belongs
+
+00:46:40.160 --> 00:46:44.740
+here 25% data belongs here 25% data belongs here if it is
+
+00:46:44.740 --> 00:46:48.000
+evenly distributed in this one it is not because I am able
+
+00:46:48.000 --> 00:46:51.480
+to see that this line is longer this line is little bit
+
+00:46:51.480 --> 00:46:54.260
+shorter I do not think that this is in a middle even right.
+
+00:46:55.240 --> 00:47:00.280
+25% 25% 25% 25% if my data set is normalized or if my data
+
+00:47:00.280 --> 00:47:04.560
+set is evenly distributed if my data set is not evenly
+
+00:47:04.560 --> 00:47:07.940
+distributed then obviously i can look into this graph and
+
+00:47:07.940 --> 00:47:10.900
+then i will be able to understand that where my data set is
+
+00:47:10.900 --> 00:47:14.400
+basically concentrated for example in this case this line is
+
+00:47:14.400 --> 00:47:17.360
+little bit longer so i can say that that okay between a
+
+00:47:17.360 --> 00:47:20.680
+quartile one and the minimum my maximum data has been
+
+00:47:20.680 --> 00:47:23.820
+concentrated that particular line is a little bit bigger
+
+00:47:23.820 --> 00:47:28.080
+right so between my like this point which is a quartile
+
+00:47:28.080 --> 00:47:31.960
+three and the maximum point so there are very less data
+
+00:47:31.960 --> 00:47:34.080
+right there are very less data means there are very less
+
+00:47:34.080 --> 00:47:39.320
+chance that anything belongs to that particular segment over
+
+00:47:39.320 --> 00:47:43.100
+there so make sense guys everyone yeah so with respect to a
+
+00:47:43.100 --> 00:47:47.360
+sales i can say that that on a high label right so basically
+
+00:47:47.360 --> 00:47:53.180
+i have not seen a sales much sales between maybe 18k or 18.5
+
+00:47:53.180 --> 00:47:54.240
+or 3k you can say that that on a high label right so
+
+00:47:54.240 --> 00:47:55.020
+basically i have not seen a sales much sales between between
+
+00:47:55.020 --> 00:47:59.520
+20k in a data science category basically so that sales are
+
+00:47:59.520 --> 00:48:04.500
+very very low between 10k or you can say like you know 11k
+
+00:48:04.500 --> 00:48:07.740
+let's say right let's take that referral point so 11k and a
+
+00:48:07.740 --> 00:48:11.940
+14k majority of sales are happening so maybe you can try to
+
+00:48:11.940 --> 00:48:16.140
+take a call for a data science category based on that make
+
+00:48:16.140 --> 00:48:18.780
+sense so what is the story that this data is trying to tell
+
+00:48:18.780 --> 00:48:22.820
+us or this plot is trying to tell us yes
+
+00:48:26.430 --> 00:48:27.490
+yeah
+
+00:48:50.410 --> 00:48:54.110
+so how is he saying iqr is equals to q1 plus q3 no it's
+
+00:48:54.110 --> 00:48:59.670
+actually q3 minus q1 not q1 plus q3 yeah so q3 minus q1 is
+
+00:48:59.670 --> 00:49:02.570
+equals to interquartile range iqr okay
+
+00:49:06.630 --> 00:49:10.170
+so now uh okay let's let's try to understand a little bit
+
+00:49:10.170 --> 00:49:13.670
+like a more over here uh so what is a box in between see
+
+00:49:13.670 --> 00:49:17.190
+every plot or the range that you are able to see over here
+
+00:49:17.190 --> 00:49:19.790
+so it is trying to tell you the is that same story that okay
+
+00:49:19.790 --> 00:49:23.850
+fine so between 14k to 16k this much sales has happened and
+
+00:49:23.850 --> 00:49:26.930
+uh you know in data science category and and there are like
+
+00:49:26.930 --> 00:49:33.030
+you know uh almost uh 16k to 14k and 16k to 18k on this
+
+00:49:33.030 --> 00:49:35.970
+particular range number of sales are almost same almost
+
+00:49:35.970 --> 00:49:39.270
+close close to like a same i would say so this is a decision
+
+00:49:39.270 --> 00:49:41.950
+that you will be able to take in case of python category so
+
+00:49:41.950 --> 00:49:44.770
+between this to this right this to this so basically there
+
+00:49:44.770 --> 00:49:48.610
+was like a high sales and between this to this this to this
+
+00:49:48.610 --> 00:49:52.030
+price range so there was a low sale this is what you will be
+
+00:49:52.030 --> 00:49:55.730
+able to draw so as per the data so what you are trying to
+
+00:49:55.730 --> 00:49:59.790
+draw like with respect to like what x and y axis you are
+
+00:49:59.790 --> 00:50:01.790
+trying to understand something so this is something that it
+
+00:50:01.790 --> 00:50:04.910
+is going to tell you at any point of a time now in stats
+
+00:50:04.910 --> 00:50:10.050
+there is something called as a normal distribution which i
+
+00:50:10.050 --> 00:50:14.070
+will be discussing about so again this particular part
+
+00:50:14.070 --> 00:50:17.910
+interquartile range or this entire like a box plot things
+
+00:50:17.910 --> 00:50:21.630
+will come into picture just to give you a glimpse of it so
+
+00:50:21.630 --> 00:50:24.950
+in case of like a normal distribution so we always think
+
+00:50:24.950 --> 00:50:28.930
+that that data is going to form a bell-shaped curve this
+
+00:50:28.930 --> 00:50:34.150
+kind of a data if data is equally distributed 25 25 25 25 25
+
+00:50:34.150 --> 00:50:38.450
+and in that situation basically right so in that situation
+
+00:50:38.450 --> 00:50:41.710
+if i am going to like you know a plot uh basically this box
+
+00:50:41.710 --> 00:50:47.280
+plot so my box plot will look something like this one means
+
+00:50:47.280 --> 00:50:52.640
+so this is my uh let's say uh q1 this is my q2 which is
+
+00:50:52.640 --> 00:50:56.340
+median right and this is my q3 this is my min and this is my
+
+00:50:56.340 --> 00:50:56.340
+min and this is my min and this is my min and this is my min
+
+00:50:56.340 --> 00:51:00.320
+and and this is my let's say max so if my data set is trying
+
+00:51:00.320 --> 00:51:03.060
+to form or data set is trying to show me
+
+00:51:05.890 --> 00:51:10.710
+okay now it's not even visible so now if my data set is
+
+00:51:10.710 --> 00:51:14.170
+uniformly distributed so at any point of a time so i will be
+
+00:51:14.170 --> 00:51:16.730
+able to get this kind of a box plot which is a perfect one
+
+00:51:16.730 --> 00:51:19.850
+right which is a perfect one that in every segment in every
+
+00:51:19.850 --> 00:51:23.090
+like you know four uh different different units so data set
+
+00:51:23.090 --> 00:51:26.810
+is technically distributed equally if not in that case iqr
+
+00:51:26.810 --> 00:51:30.130
+is going to basically like a change and eventually your
+
+00:51:30.130 --> 00:51:33.110
+whole graph is going to change so a lot of significance you
+
+00:51:33.110 --> 00:51:35.510
+will be able to find out everywhere with respect to this
+
+00:51:35.510 --> 00:51:39.230
+graph which we'll discuss a lot yeah but as of now yes this
+
+00:51:39.230 --> 00:51:45.110
+is what this entire things is all about now so moving from a
+
+00:51:45.110 --> 00:51:49.350
+box plot there is something called as violin plot so let me
+
+00:51:49.350 --> 00:51:52.350
+do a violin plot yeah
+
+00:52:09.790 --> 00:52:16.790
+so it's again uh more like i would say a box plot but yeah
+
+00:52:16.790 --> 00:52:21.550
+so shape is a bit like a violin and almost like it is trying
+
+00:52:21.550 --> 00:52:26.570
+to define the like max and mean and then like a median so
+
+00:52:26.570 --> 00:52:32.170
+similar to just a shape is different right like you know
+
+00:52:32.170 --> 00:52:35.510
+this this particular one is going to basically define the
+
+00:52:35.510 --> 00:52:39.070
+the width basically that you are able to see so it's going
+
+00:52:39.070 --> 00:52:43.110
+to define again a data distribution so if width is more it
+
+00:52:43.110 --> 00:52:46.390
+simply means that that more data is concentrated over there
+
+00:52:46.390 --> 00:52:49.970
+so that you will be able to see even inside the readings so
+
+00:52:49.970 --> 00:52:52.750
+this is basically a volume plot now there is something
+
+00:52:52.750 --> 00:52:57.830
+called as pi plot so let's try to do a pi plot so px dot pie
+
+00:52:57.830 --> 00:53:02.570
+pi so category versus sales let's say we are trying to do
+
+00:53:02.570 --> 00:53:05.350
+and i believe you must have seen this kind of a plot a lot
+
+00:53:05.350 --> 00:53:08.770
+even in like a normal life or maybe over a new channel or
+
+00:53:08.770 --> 00:53:14.090
+any reports so this is basically a pi plot p i e pi very
+
+00:53:14.090 --> 00:53:16.250
+very simple so we have given a category and then we have
+
+00:53:16.250 --> 00:53:20.790
+given a value of the sales so total sale it is trying to
+
+00:53:20.790 --> 00:53:23.990
+consider and then here i am able to understand that that
+
+00:53:23.990 --> 00:53:26.930
+what is a percentage of a data science what is the
+
+00:53:26.930 --> 00:53:30.030
+percentage of a gen ai what is the percentage of a cloud and
+
+00:53:30.030 --> 00:53:32.990
+what is the percentage of a python that i am able to sell
+
+00:53:32.990 --> 00:53:36.470
+over here that's it with the help of this particular plot
+
+00:53:36.470 --> 00:53:38.030
+there is another plot that is a new channel or any reports
+
+00:53:38.030 --> 00:53:38.030
+so this is basically a pi plot p i e pi very simple so we
+
+00:53:38.030 --> 00:53:41.450
+plot you will be able to find out called as area plot so px
+
+00:53:41.450 --> 00:53:46.810
+dot a r e a area so area is nothing but uh it is going to do
+
+00:53:46.810 --> 00:53:49.710
+actually a line plot and then it is going to set the area
+
+00:53:49.710 --> 00:53:53.550
+right technically it's a line plot if you look at closely uh
+
+00:53:53.550 --> 00:53:56.710
+rest it is just trying to create a sets over there nothing
+
+00:53:56.710 --> 00:54:02.450
+nothing much uh by the way yeah nothing much now there is
+
+00:54:02.450 --> 00:54:07.130
+something called as a tree map plot so let me plot that px
+
+00:54:07.130 --> 00:54:14.830
+dot tree map yeah so here what we have done so basically we
+
+00:54:14.830 --> 00:54:19.510
+have given a reason and a category value is equals to sale
+
+00:54:19.510 --> 00:54:23.550
+so here you will be able to see that that the outer box is
+
+00:54:23.550 --> 00:54:27.490
+trying to represent a reason right inside that let's say in
+
+00:54:27.490 --> 00:54:32.190
+a vest right in a vest basically how much sales i am able to
+
+00:54:32.190 --> 00:54:34.890
+do it with respect to gen ai data science cloud and python
+
+00:54:34.890 --> 00:54:38.750
+right so overall for a vest i am able to see the sale which
+
+00:54:38.750 --> 00:54:42.350
+is called as hierarchical tree map right and then in gen ai
+
+00:54:42.350 --> 00:54:45.470
+uh in a vest how much i am able to sell data science in a
+
+00:54:45.470 --> 00:54:48.250
+vest how much i am able to sell cloud in a vest how much i
+
+00:54:48.250 --> 00:54:51.810
+am able to sell i can get it east same thing right so there
+
+00:54:51.810 --> 00:54:54.790
+is a two level hierarchy one is basically representing the
+
+00:54:54.790 --> 00:54:57.970
+reason another one is representing a category inside that
+
+00:54:57.970 --> 00:55:01.050
+particular reason so how much sales i am able to do it i
+
+00:55:01.050 --> 00:55:04.410
+will get to know north side again in all the categories how
+
+00:55:04.410 --> 00:55:07.990
+much sale i am able to make so it's clearly visible that gen
+
+00:55:07.990 --> 00:55:13.050
+ai sales is minimum in a north side right minimum in a north
+
+00:55:13.050 --> 00:55:17.090
+side just by looking at the graph and yeah so overall west
+
+00:55:17.090 --> 00:55:20.850
+side is performing better as compared to any other like a
+
+00:55:20.850 --> 00:55:23.030
+site so maybe i should focus more and more on that
+
+00:55:23.030 --> 00:55:26.410
+particular sale and eventually i should grow more on other
+
+00:55:26.410 --> 00:55:28.910
+sites as well so this is what this graph is trying to tell
+
+00:55:28.910 --> 00:55:33.190
+me as a story okay so this is called as tree map again uh
+
+00:55:33.190 --> 00:55:38.390
+important one basically in terms of doing analysis and many
+
+00:55:38.390 --> 00:55:41.750
+time when we do a dashboarding so we end up using these like
+
+00:55:41.750 --> 00:55:48.170
+you know graphs basically apart from a tree map let me show
+
+00:55:48.170 --> 00:55:57.150
+some other interesting graph so let me show you heat map
+
+00:55:57.150 --> 00:56:00.610
+okay let me show you heat map that's also you are important
+
+00:56:00.610 --> 00:56:03.490
+one so what
+
+00:56:14.280 --> 00:56:18.720
+went wrong so could not convert a string flow to the string
+
+00:56:18.720 --> 00:56:26.140
+to float okay south so correlation text auto true yeah
+
+00:56:29.780 --> 00:56:34.220
+so data frame dot correlation it should work no
+
+00:56:38.380 --> 00:56:40.460
+this is let
+
+00:56:56.720 --> 00:56:59.460
+me check what is the issue let
+
+00:57:28.260 --> 00:57:30.460
+me show you some other example so
+
+00:57:44.990 --> 00:57:49.430
+for that we have to prepare the data so that i can show you
+
+00:57:49.430 --> 00:57:55.690
+the heat map uh okay so data frame dot pivot table sales
+
+00:57:55.690 --> 00:58:00.830
+reason column fine aggregation function this one so this is
+
+00:58:00.830 --> 00:58:09.450
+going to create a pivot table for me and once this is done
+
+00:58:09.450 --> 00:58:18.100
+so maybe i can try to call px dot i am show and here so
+
+00:58:18.100 --> 00:58:23.000
+instead of df i can try to use basically this pivot table
+
+00:58:23.000 --> 00:58:23.840
+yeah
+
+00:58:28.380 --> 00:58:33.280
+now heat map uh is coming so heat map is nothing but like
+
+00:58:33.280 --> 00:58:36.080
+you know a heat kind of a heat signature you will be able to
+
+00:58:36.080 --> 00:58:38.580
+see on this side and you must have seen a lot of like this
+
+00:58:38.580 --> 00:58:41.840
+kind of a graph even inside a news weather news weather
+
+00:58:41.840 --> 00:58:44.560
+forecasting news basically so what it does it try to
+
+00:58:44.560 --> 00:58:46.540
+represent a multiple things so as you can see it is
+
+00:58:46.540 --> 00:58:49.340
+representing category it is representing a reason so on x
+
+00:58:49.340 --> 00:58:53.160
+-axis category on y-axis reason right and it is changing its
+
+00:58:53.160 --> 00:58:55.420
+color right it is changing its color and it is changing its
+
+00:58:55.420 --> 00:58:55.560
+color and it is changing its color and it is changing its
+
+00:58:55.560 --> 00:58:55.560
+color and it is changing its color and it is changing its
+
+00:58:55.560 --> 00:58:57.720
+color in a different different reason based on this number
+
+00:58:57.720 --> 00:59:02.140
+yeah based on this particular number so here uh basically it
+
+00:59:02.140 --> 00:59:04.760
+is trying to like you know take this color based on this one
+
+00:59:04.760 --> 00:59:10.000
+yeah so in a gen ai west side basically what is the total
+
+00:59:10.000 --> 00:59:14.240
+number of the sales so again similarly so like a cloud west
+
+00:59:14.240 --> 00:59:17.740
+side how much is the sales and then data science so it is
+
+00:59:17.740 --> 00:59:21.200
+trying to take a signature or like colors basically from
+
+00:59:21.200 --> 00:59:24.220
+this one this is technically called as heat map uh defined
+
+00:59:24.220 --> 00:59:28.400
+by this one so you can see that in a Кон valley you can see
+
+00:59:28.400 --> 00:59:32.320
+that the concept of here willid i comes
+
+00:59:33.960 --> 00:59:38.380
+from central rai and it will come from central y nos thank
+
+00:59:38.380 --> 00:59:38.500
+you for watching um i hope you have just started with the
+
+00:59:38.500 --> 00:59:38.820
+content for here with building a cloud for uh for service
+
+00:59:38.820 --> 00:59:41.540
+right now we are talking about yes of course that form has
+
+00:59:41.540 --> 00:59:45.620
+been started as well for uh rank not just as it might be in
+
+00:59:45.620 --> 00:59:47.560
+ebooks right afterré for those of you know news ojos are
+
+00:59:47.560 --> 00:59:52.390
+used to uh run
+
+00:59:55.530 --> 00:59:56.150
+your accounts from
+
+00:59:58.960 --> 01:00:04.700
+top to bottom as too this is an amazing graph masking graph
+
+01:00:04.700 --> 01:00:08.520
+i give you an example is my 3d plot by the way guys and i
+
+01:00:08.520 --> 01:00:12.440
+can try to even rotate this one as you can see right and
+
+01:00:12.440 --> 01:00:16.860
+yeah so i can try to hover on any of these dots and i will
+
+01:00:16.860 --> 01:00:19.740
+be able to see that that what this dot is trying to
+
+01:00:19.740 --> 01:00:22.400
+represent so there are three things which i am considering
+
+01:00:22.400 --> 01:00:25.900
+so one is a sales one is a profit one is a ad spend so sales
+
+01:00:25.900 --> 01:00:29.880
+versus profit versus ad spend and then color mapping wise so
+
+01:00:29.880 --> 01:00:32.660
+i am considering a category so for a respective category it
+
+01:00:32.660 --> 01:00:36.160
+is going to do a color mapping right and you can even rotate
+
+01:00:36.160 --> 01:00:41.500
+and then you can even like zoom in basically just like
+
+01:00:41.500 --> 01:00:44.960
+moving into the room and then you can check each and every
+
+01:00:44.960 --> 01:00:51.180
+points by yourself yeah so again plotting this one is not at
+
+01:00:51.180 --> 01:00:54.020
+all a big deal scatter 3d there is something called as
+
+01:00:54.020 --> 01:00:57.240
+surface 3d as well right so which is going to like connect
+
+01:00:57.240 --> 01:01:01.000
+all of these dots and it is going to like show you like a
+
+01:01:01.000 --> 01:01:04.080
+surface a smooth curve or a smooth surface so that kind of a
+
+01:01:04.080 --> 01:01:07.380
+graph also you can try to plot it so making sense guys
+
+01:01:07.380 --> 01:01:12.900
+everyone yeah these graphs uh
+
+01:01:20.620 --> 01:01:23.860
+we need to do a practice i mean like 10 20 graph you will
+
+01:01:23.860 --> 01:01:27.080
+you can just go and plot and i believe that will be more
+
+01:01:27.080 --> 01:01:30.060
+than enough in all the categories uh for a lifetime
+
+01:01:30.060 --> 01:01:34.700
+basically right for a lifetime because uh it's not about you
+
+01:01:34.700 --> 01:01:38.300
+know uh basically like a graph it's all about knowing that
+
+01:01:38.300 --> 01:01:42.660
+okay this kind of a graph exists basically and then a
+
+01:01:42.660 --> 01:01:45.940
+business use case so what uh business is looking for so what
+
+01:01:45.940 --> 01:01:49.260
+kind of uh you know data or what kind of uh uh you know
+
+01:01:49.260 --> 01:01:51.680
+stats finally business is looking for and based on that you
+
+01:01:51.680 --> 01:01:54.300
+will go and you will try to pick a particular graph and then
+
+01:01:54.300 --> 01:01:59.000
+you can try to showcase that numbers that's it yeah but yeah
+
+01:01:59.000 --> 01:02:01.560
+a plotly is one of the best library i would say so i
+
+01:02:01.560 --> 01:02:03.820
+strongly recommend to all of you that go ahead and try to
+
+01:02:03.820 --> 01:02:09.560
+use always a plotly right not other uh libraries although
+
+01:02:09.560 --> 01:02:11.300
+there are like a lot of libraries which is available
+
+01:02:11.300 --> 01:02:13.880
+everywhere you will be able to use a plotly and you will be
+
+01:02:13.880 --> 01:02:16.520
+able to use a plotly to plot these things but uh as far as
+
+01:02:16.520 --> 01:02:19.420
+the internet interactiveness is concerned you will not be
+
+01:02:19.420 --> 01:02:24.280
+able to get this kind of interactiveness so i mean like your
+
+01:02:24.280 --> 01:02:27.040
+stakeholder are not going to enjoy it basically but in case
+
+01:02:27.040 --> 01:02:33.570
+of plotly yes it is pretty much amazing okay so let me show
+
+01:02:33.570 --> 01:02:37.030
+you a couple of like a more thing name
+
+01:03:29.290 --> 01:03:31.310
+is same okay
+
+01:03:47.600 --> 01:03:49.840
+so basically what i'm trying to show you is that animated
+
+01:03:49.840 --> 01:03:50.260
+graph
+
+01:03:54.200 --> 01:03:55.300
+you can see how data is moving in a time frame right now i
+
+01:03:55.300 --> 01:03:55.300
+have done already kind of a very fast way to do that which
+
+01:03:55.300 --> 01:03:56.340
+is like i have a clear map of this one and as you can see
+
+01:03:56.340 --> 01:04:00.280
+now data has started playing right and you can you can try
+
+01:04:00.280 --> 01:04:03.620
+to control basically an animation so again this is another
+
+01:04:03.620 --> 01:04:07.860
+feature that you will be able to find out so data wise it is
+
+01:04:07.860 --> 01:04:10.680
+trying to animate it so animation frame wise see date is
+
+01:04:10.680 --> 01:04:13.940
+moving and then your animation is also moving so a very good
+
+01:04:13.940 --> 01:04:18.820
+interesting one at least for uh like a social media post and
+
+01:04:18.820 --> 01:04:23.060
+basically right so on this animation frame so we have a date
+
+01:04:23.060 --> 01:04:24.120
+so data wise how my data is moving it will be on another
+
+01:04:24.120 --> 01:04:26.240
+website right now data set is moving you will be able to
+
+01:04:26.240 --> 01:04:29.800
+even control you will be able to even control the like a
+
+01:04:29.800 --> 01:04:33.640
+animation frame and basically like you know the way it is it
+
+01:04:33.640 --> 01:04:36.960
+is going to move so time lapses basically you will be able
+
+01:04:36.960 --> 01:04:39.460
+to control that part as well and then you can try to
+
+01:04:39.460 --> 01:04:42.980
+showcase yeah so that option is also available which is not
+
+01:04:42.980 --> 01:04:48.240
+available in any other python based at least libraries by
+
+01:04:48.240 --> 01:04:53.760
+the way yeah now let me show you a couple of more things so
+
+01:04:59.390 --> 01:05:02.630
+now i'm map based so here what i have done so here there is
+
+01:05:02.630 --> 01:05:04.730
+a data frame that i have created bangalore delhi mumbai
+
+01:05:04.730 --> 01:05:08.310
+kolkata and latitude and longitude is given and then some
+
+01:05:08.310 --> 01:05:11.010
+sales is given so this is going to create my data yeah data
+
+01:05:11.010 --> 01:05:14.170
+with city lat long and then sales now what we are trying to
+
+01:05:14.170 --> 01:05:17.450
+do so a scattered map box is something that we are trying to
+
+01:05:17.450 --> 01:05:20.710
+call and we are trying to pass this data and then latitude
+
+01:05:20.710 --> 01:05:21.870
+and longitude and then latitude and longitude and then
+
+01:05:21.870 --> 01:05:23.730
+latitude and longitude and then size size wise scale we are
+
+01:05:23.730 --> 01:05:26.750
+trying to provide a hover name is equals to city name always
+
+01:05:26.750 --> 01:05:29.290
+it should showcase right zoom is equal to four title is city
+
+01:05:29.290 --> 01:05:33.870
+wise sales map and then fig dot update layout so open seat
+
+01:05:33.870 --> 01:05:36.790
+map so this is one of the pre-built map that we are trying
+
+01:05:36.790 --> 01:05:40.710
+to use and as a result so you will be able to see that that
+
+01:05:40.710 --> 01:05:44.530
+in a india map so we are able to showcase the numbers very
+
+01:05:44.530 --> 01:05:48.250
+very simple and interesting so again map wise also you will
+
+01:05:48.250 --> 01:05:50.810
+be able to see a very very interactive maps which is already
+
+01:05:50.810 --> 01:05:54.990
+available over a media and you can try to basically use it
+
+01:05:54.990 --> 01:05:59.130
+yeah i don't worry this entire jupiter node will be shared
+
+01:05:59.130 --> 01:06:03.410
+inside your dashboard yeah don't worry about that so and why
+
+01:06:03.410 --> 01:06:06.810
+i'm trying to show you that everything is possible now let's
+
+01:06:06.810 --> 01:06:10.470
+go to a plotly official website itself uh
+
+01:06:23.940 --> 01:06:31.300
+so just go to google plotly documentation now here they have
+
+01:06:31.300 --> 01:06:36.460
+already given you every kind of a code right every kind of a
+
+01:06:36.460 --> 01:06:40.100
+code and that too will expect to what tons of examples so
+
+01:06:40.100 --> 01:06:42.920
+like i said we were talking about a maps right uh let's say
+
+01:06:42.920 --> 01:06:47.320
+aiml or maybe a 3d right subplot animations animation that
+
+01:06:47.320 --> 01:06:49.300
+we have already discussed right so click and then it will
+
+01:06:49.300 --> 01:06:52.860
+show you or maybe this kind of animation uh you you must be
+
+01:06:52.860 --> 01:06:55.760
+like a looking for yeah maybe this kind of animation this
+
+01:06:55.760 --> 01:06:59.700
+kind of animation so tons of example you will be able to
+
+01:06:59.700 --> 01:07:03.060
+find out in a different different category map wise right so
+
+01:07:03.060 --> 01:07:05.440
+let's say i'm looking for this kind of a map that kind of a
+
+01:07:05.440 --> 01:07:08.300
+map and i would like to like showcase my own data over there
+
+01:07:08.300 --> 01:07:12.480
+so they have already given you a proper things proper
+
+01:07:12.480 --> 01:07:15.160
+example and proper map and everything they have given to you
+
+01:07:15.160 --> 01:07:19.000
+you just have to like pick that one and then use it that's
+
+01:07:19.000 --> 01:07:21.300
+it you don't have to reinvent the wheel by the way and don't
+
+01:07:21.300 --> 01:07:24.680
+have to like even remember anything so you just have to find
+
+01:07:24.680 --> 01:07:27.540
+out the business case that okay in in my business this is
+
+01:07:27.540 --> 01:07:30.720
+the requirement and i'll go i'll just try to use that
+
+01:07:30.720 --> 01:07:34.060
+particular one 3d wise again amazing like this is what i was
+
+01:07:34.060 --> 01:07:36.600
+talking about surface 3d right this is a surface 3d by the
+
+01:07:36.600 --> 01:07:40.220
+way so where things will be things looks connected see yeah
+
+01:07:42.680 --> 01:07:46.440
+so they have already given you the code above and at the end
+
+01:07:46.440 --> 01:07:49.720
+of the day if it's a 3d so what will go into x what will go
+
+01:07:49.720 --> 01:07:52.600
+into a y what will go into a z that's it that's the only
+
+01:07:52.600 --> 01:07:55.580
+thing which matters and then maybe your size matters so you
+
+01:07:55.580 --> 01:07:57.860
+can try to assign one column which will be able to control
+
+01:07:57.860 --> 01:08:01.080
+the size apart from that in terms of graph nothing matters i
+
+01:08:01.080 --> 01:08:03.820
+mean like it's kind of a the easiest the easiest way to do
+
+01:08:03.820 --> 01:08:03.820
+it is to assign a column which will be able to control the
+
+01:08:03.820 --> 01:08:07.760
+size job in this entire world in terms of you know uh
+
+01:08:07.760 --> 01:08:11.880
+plotting this graph and with the help of ai i will say
+
+01:08:11.880 --> 01:08:18.970
+pretty much very much easy right but yes interesting because
+
+01:08:18.970 --> 01:08:22.550
+it is it is having like a lot of like you know uh use cases
+
+01:08:22.550 --> 01:08:25.690
+everywhere everywhere whatsoever you are going to do it so
+
+01:08:25.690 --> 01:08:29.290
+obviously uh you you will end up using these kind of uh you
+
+01:08:29.290 --> 01:08:30.990
+know graphs animation
+
+01:08:37.930 --> 01:08:42.870
+wise again so if you have to like animate it custom control
+
+01:08:42.870 --> 01:08:47.590
+right if you have to add it so again year
+
+01:08:56.390 --> 01:09:00.870
+wise how data set is moving like i said uh pretty much
+
+01:09:00.870 --> 01:09:03.470
+useful for your social media post if you are trying to
+
+01:09:03.470 --> 01:09:05.950
+showcase some stats or some data so maybe you just animate
+
+01:09:05.950 --> 01:09:09.530
+it take a recording of that and then post it many people
+
+01:09:09.530 --> 01:09:12.090
+used to post it and they used to get like a thousands of
+
+01:09:12.090 --> 01:09:18.370
+likes there right so the reach of those kind of uh posts are
+
+01:09:18.370 --> 01:09:19.970
+too high so
+
+01:09:55.560 --> 01:09:57.960
+here again cluster wise finance
+
+01:10:03.270 --> 01:10:06.630
+data basically this is how we see the finance data right so
+
+01:10:06.630 --> 01:10:08.270
+french data so
+
+01:10:32.040 --> 01:10:35.740
+interesting right guys yes anyone so
+
+01:10:39.300 --> 01:10:43.400
+i believe now we all know that that how to plot a graph and
+
+01:10:43.400 --> 01:10:48.180
+which library we are supposed to use and uh yeah it's no
+
+01:10:48.180 --> 01:10:52.040
+brainer like just go and then whatsoever data you have in a
+
+01:10:52.040 --> 01:10:56.980
+pandas data frame use it put it on x y g from csv we can
+
+01:10:56.980 --> 01:11:00.200
+also generate the graph whatever it is csv means you have a
+
+01:11:00.200 --> 01:11:03.020
+data right so whatsoever you want you can just like use it
+
+01:11:03.020 --> 01:11:07.100
+at the end of the day like pass it as a data frame and then
+
+01:11:07.100 --> 01:11:10.460
+use it simple right okay
+
+01:12:00.470 --> 01:12:03.410
+so i'm pinging you this link uh maybe you can just go
+
+01:12:03.410 --> 01:12:07.310
+through this particular link and explore more right every
+
+01:12:07.310 --> 01:12:10.410
+kind of examples are already available statistics scientific
+
+01:12:10.410 --> 01:12:15.870
+whatsoever you want uh and yeah with tons of examples so
+
+01:12:15.870 --> 01:12:18.390
+maybe you can get some sort of a inspiration at the end of
+
+01:12:18.390 --> 01:12:21.530
+the day you will be plotting a graph based on the use cases
+
+01:12:21.530 --> 01:12:27.530
+nothing much yeah so this is all about this uh graph guys uh
+
+01:12:27.530 --> 01:12:33.890
+by the way now so let's talk about a python project yeah so
+
+01:12:33.890 --> 01:12:40.110
+basically uh you know i want you to build or i want you to
+
+01:12:40.110 --> 01:12:44.330
+create one small application uh based on this discussions
+
+01:12:44.330 --> 01:12:48.430
+that we have done recently so let me open up
+
+01:12:51.130 --> 01:12:52.910
+my scribbling yeah
+
+01:12:57.100 --> 01:13:01.880
+so what i want you to build is like python
+
+01:13:33.660 --> 01:13:36.620
+application for a election commission so recently there was
+
+01:13:36.620 --> 01:13:39.160
+an election right in a multiple states i believe there was a
+
+01:13:39.160 --> 01:13:42.900
+five like in a five states there was election so which was a
+
+01:13:42.900 --> 01:13:46.540
+west bengal which was basically a pondicherry as well as
+
+01:13:46.540 --> 01:13:51.400
+asam as well as tamilnadu so in all of these states there
+
+01:13:51.400 --> 01:13:54.920
+was a election yeah now so what you can do you can go to
+
+01:13:54.920 --> 01:13:57.340
+election commission website which is official website for
+
+01:13:57.340 --> 01:13:59.800
+election commission so where they try to you know publish
+
+01:13:59.800 --> 01:14:02.820
+all the results and then they also try to publish a stats
+
+01:14:02.820 --> 01:14:09.160
+let me open up that election commission of india so over
+
+01:14:09.160 --> 01:14:15.300
+here you will be able to find out all the detail right so
+
+01:14:15.300 --> 01:14:19.860
+election commission result and then what is the final result
+
+01:14:19.860 --> 01:14:23.980
+and then if you are going to click on this so like who has
+
+01:14:23.980 --> 01:14:26.800
+won what so again it is going to show you each of the
+
+01:14:26.800 --> 01:14:27.520
+election commission results each and everything again
+
+01:14:27.520 --> 01:14:30.720
+constituency wise you will be able to see the result so who
+
+01:14:30.720 --> 01:14:33.580
+have received what vote and then if you are going to click
+
+01:14:33.580 --> 01:14:37.180
+it then you will be able to see constituency detail so till
+
+01:14:37.180 --> 01:14:40.180
+till a lower level so you will be able to see the numbers
+
+01:14:40.180 --> 01:14:44.100
+that who was a candidate in which basically constituency and
+
+01:14:44.100 --> 01:14:48.040
+then what is a number of vote that they were able to get it
+
+01:14:48.040 --> 01:14:50.940
+and comparison with respect to the previous one right
+
+01:14:50.940 --> 01:14:53.780
+comparison with respect to the previous one all of these
+
+01:14:53.780 --> 01:14:57.120
+informations are available over a election commission
+
+01:14:57.120 --> 01:15:01.540
+website so basically what i and again in tabular format in
+
+01:15:01.540 --> 01:15:04.200
+this format in this format in a multiple formats you will be
+
+01:15:04.200 --> 01:15:07.680
+able to like see it right and then even round wise so
+
+01:15:07.680 --> 01:15:10.900
+basically whenever there will be a there is a counting so
+
+01:15:10.900 --> 01:15:14.100
+obviously counting happens in a multiple round depends upon
+
+01:15:14.100 --> 01:15:18.960
+the booths and depends upon number of voters right so if
+
+01:15:18.960 --> 01:15:21.000
+voters are more obviously it will take more rounds to
+
+01:15:21.000 --> 01:15:24.780
+complete it so round by round so they try to publish the evm
+
+01:15:24.780 --> 01:15:27.200
+results this is how election happens right and essentially
+
+01:15:27.200 --> 01:15:31.800
+this election has happened so what i want you to do is that
+
+01:15:31.800 --> 01:15:38.620
+that try to re-replicate basically a similar kind of a
+
+01:15:38.620 --> 01:15:43.280
+system where you are so basically you have to create a
+
+01:15:43.280 --> 01:15:47.920
+python application so in that python application you have to
+
+01:15:47.920 --> 01:15:53.560
+showcase first of all so let's say screen number one wise if
+
+01:15:53.560 --> 01:15:57.280
+i'm moving so on screen number one i can select the state
+
+01:15:57.280 --> 01:16:02.240
+right and then inside a state i will be able to like see so
+
+01:16:02.240 --> 01:16:04.420
+what has happened in terms of their election so basically
+
+01:16:04.420 --> 01:16:07.160
+you have to create the complete ui flow so where i will like
+
+01:16:07.160 --> 01:16:09.760
+click on states then inside the states i can go into the
+
+01:16:09.760 --> 01:16:12.020
+constituency inside a constituency i will be able to see the
+
+01:16:12.020 --> 01:16:14.440
+candidate i will be able to see the comparison between their
+
+01:16:14.440 --> 01:16:18.600
+votes now this application is very very simple right
+
+01:16:18.600 --> 01:16:22.580
+applications sidewise or storyline wise but what i want you
+
+01:16:22.580 --> 01:16:26.020
+to do is that that you have to use first of all a db
+
+01:16:26.820 --> 01:16:31.260
+database you have to write basically a api yeah you have to
+
+01:16:31.260 --> 01:16:38.620
+basically work on the ui interface you have to even use
+
+01:16:38.620 --> 01:16:41.620
+pandas data frame number by default you will end up using it
+
+01:16:41.620 --> 01:16:46.340
+and then you have to use basically a visualization so all of
+
+01:16:46.340 --> 01:16:51.300
+these things you are supposed to use it db for what so just
+
+01:16:51.300 --> 01:16:55.320
+try to read all of these data from election commission
+
+01:16:55.320 --> 01:16:58.040
+website or maybe scrap the data you can figure out the ways
+
+01:16:58.260 --> 01:17:02.320
+and then all the data must be available into your databases
+
+01:17:02.320 --> 01:17:07.040
+database wise i want you to use a super base as of now super
+
+01:17:07.040 --> 01:17:11.440
+base as of now or maybe you can try to use a neon db as well
+
+01:17:11.440 --> 01:17:15.120
+i don't mind so super base or neon db you are supposed to
+
+01:17:15.120 --> 01:17:18.960
+use it database wise very very simple api wise so you have
+
+01:17:18.960 --> 01:17:22.080
+to use a flask library and you have to basically create a
+
+01:17:22.080 --> 01:17:25.780
+api put get post delete update whatsoever is required for
+
+01:17:25.780 --> 01:17:28.240
+that one ui wise so you are supposed to use a flask library
+
+01:17:28.240 --> 01:17:33.880
+and you have to use a streamlint streamlint library and
+
+01:17:33.880 --> 01:17:40.920
+graph wise plotly you are supposed to use it and you have to
+
+01:17:40.920 --> 01:17:44.880
+re-replicate a python application for a election commission
+
+01:17:44.880 --> 01:17:49.100
+it should be your own version yeah it should be your own
+
+01:17:49.100 --> 01:17:53.960
+version now once you will end up doing that so next class
+
+01:17:53.960 --> 01:17:57.800
+right next class what we will do so we'll try to pick your
+
+01:17:57.800 --> 01:17:58.240
+application and we'll try to pick your application and we'll
+
+01:17:58.260 --> 01:18:02.040
+try to pick your application so i'll see right so i'll just
+
+01:18:02.040 --> 01:18:05.040
+just like you know send me a github repository so once you
+
+01:18:05.040 --> 01:18:07.760
+will be able to do it plus a screenshot right plus a
+
+01:18:07.760 --> 01:18:10.740
+screenshot so what we are going to do so we will go ahead
+
+01:18:10.740 --> 01:18:13.460
+with the deployment deployment
+
+01:18:15.570 --> 01:18:22.530
+so next class i'm going to teach you aws services why i'm
+
+01:18:22.530 --> 01:18:25.250
+going to teach you this one because you will end up using
+
+01:18:25.250 --> 01:18:29.090
+this service in every class now onwards so whenever i'm
+
+01:18:29.090 --> 01:18:31.970
+going to ask you to do a project you will have to understand
+
+01:18:31.970 --> 01:18:36.470
+and you should know how we can do a deployment and this aws
+
+01:18:36.470 --> 01:18:39.210
+class which i'm going to take so i will not be using any
+
+01:18:39.210 --> 01:18:42.590
+kind of automation over there so i'm going to teach each and
+
+01:18:42.590 --> 01:18:45.550
+every services which will be required so whatsoever like a
+
+01:18:45.550 --> 01:18:48.570
+let's say 15 service i'm going to discuss so i'll be talking
+
+01:18:48.570 --> 01:18:51.570
+about all of these services in a manual manner that how we
+
+01:18:51.570 --> 01:18:53.630
+can try to go and we can try to configure what and all
+
+01:18:53.630 --> 01:18:55.570
+services you should use what and all services you should
+
+01:18:55.570 --> 01:18:59.490
+basically not use inside a aws for for whatsoever purposes
+
+01:18:59.490 --> 01:19:01.750
+that we are going to talk about we have so we'll try to you
+
+01:19:01.750 --> 01:19:04.450
+know deploy this entire application your ui your back end
+
+01:19:04.450 --> 01:19:08.630
+and front end everything right inside a aws and once i'm
+
+01:19:08.630 --> 01:19:10.850
+going to show you a deployment then you can go and you can
+
+01:19:10.850 --> 01:19:14.410
+try to do a deployment so i'll just pick one of your project
+
+01:19:14.410 --> 01:19:17.330
+right and i'll do the deployment and that too in a manual
+
+01:19:17.330 --> 01:19:21.470
+manner after teaching you the aws services and then going
+
+01:19:21.470 --> 01:19:26.830
+forward we all will be able to do a deployment we all will
+
+01:19:26.830 --> 01:19:31.290
+be able to build an application and for example after that
+
+01:19:31.290 --> 01:19:34.970
+i'm going to start the stats part math uh for data science
+
+01:19:34.970 --> 01:19:37.630
+and then i'm going to start with the machine learning then
+
+01:19:37.630 --> 01:19:40.390
+deep learning then computer version then nlp then generative
+
+01:19:40.390 --> 01:19:43.610
+ai so we'll keep on adding things on top of that make sense
+
+01:19:43.610 --> 01:19:47.660
+yes what
+
+01:19:51.600 --> 01:19:55.400
+is the second point second point is api application
+
+01:19:55.400 --> 01:19:59.420
+programming interface could you please write in a chat what
+
+01:19:59.420 --> 01:20:01.660
+you want me to write in a chat take a screenshot you are
+
+01:20:01.660 --> 01:20:05.280
+able to see it right this is what you have to build uh
+
+01:20:07.610 --> 01:20:08.250
+okay so i'm going to start with the stats part math for data
+
+01:20:08.250 --> 01:20:09.550
+science and then i'm going okay so you can use flask or
+
+01:20:09.550 --> 01:20:14.110
+maybe you can use fast api fast api will be better i i
+
+01:20:14.110 --> 01:20:19.610
+taught you fast api itself yeah fast api flask is also like
+
+01:20:19.610 --> 01:20:22.330
+a python library a fast api is also python library in my
+
+01:20:22.330 --> 01:20:26.210
+class i have discussed about fast api yeah go ahead and use
+
+01:20:26.210 --> 01:20:31.130
+that make sense everyone so can i expect some project before
+
+01:20:31.130 --> 01:20:36.460
+next saturday class yes okay
+
+01:20:41.060 --> 01:20:45.440
+fine cool so this is it this is the screen shot by the way
+
+01:20:45.440 --> 01:20:48.860
+maybe uh any one of you can take a screenshot and then uh
+
+01:20:48.860 --> 01:20:51.620
+put it inside a group that will be better we have a whatsapp
+
+01:20:51.620 --> 01:20:54.060
+group right for this particular batch so just put it inside
+
+01:20:54.060 --> 01:20:57.400
+the whatsapp group quickly guys any one of you so that we
+
+01:20:57.400 --> 01:20:59.960
+all can see it and those who have not joined so even they
+
+01:20:59.960 --> 01:21:03.700
+will be able to see and they will be able to work on it do
+
+01:21:05.020 --> 01:21:05.820
+it quickly
+
+01:21:13.850 --> 01:21:17.490
+okay so bhaves has already pinged and yeah bhaves so just
+
+01:21:17.490 --> 01:21:20.970
+try to you know create one small write-up right with respect
+
+01:21:20.970 --> 01:21:23.070
+to the things that i have discussed and put that in the chat
+
+01:21:23.070 --> 01:21:23.670
+box and then put that inside the group
+
+01:21:27.280 --> 01:21:32.320
+expectation wise so that uh you know next week so we can try
+
+01:21:32.320 --> 01:21:37.120
+to go ahead with uh deployment yeah i think yeah don't like
+
+01:21:37.120 --> 01:21:41.120
+try to ping everyone inside the group so one person is fine
+
+01:21:41.120 --> 01:21:44.880
+otherwise you know same image will be replicated multiple
+
+01:21:44.880 --> 01:21:51.320
+times people will feel spammed there then yeah so just try
+
+01:21:51.320 --> 01:21:53.660
+to give a write-ups inside a group that what is the task
+
+01:21:53.660 --> 01:21:57.800
+what is the task and then just be ready with the project by
+
+01:21:57.800 --> 01:22:01.720
+next weekend uh i'll be talking about aws very very
+
+01:22:01.720 --> 01:22:07.480
+important once again for entire life in case of any question
+
+01:22:07.480 --> 01:22:10.920
+for me so yes please feel free to put your question inside a
+
+01:22:10.920 --> 01:22:15.400
+chat or maybe you can uh even raise your hand if you want so
+
+01:22:15.400 --> 01:22:18.840
+yeah i would love to answer your question if you don't have
+
+01:22:18.840 --> 01:22:21.140
+any question then we'll try to like you know close the class
+
+01:22:21.140 --> 01:22:27.360
+for today and then next saturday we'll join how can i join
+
+01:22:27.360 --> 01:22:30.140
+the whatsapp group okay anyone who can ping a whatsapp group
+
+01:22:30.140 --> 01:22:30.140
+is welcome you can join the whatsapp group on your whatsapp
+
+01:22:30.140 --> 01:22:33.100
+group or just a group link here inside a zoom so
+
+01:22:37.580 --> 01:22:40.580
+i think i think your batchmate can help you out here
+
+01:23:00.980 --> 01:23:05.080
+i want to know from where we get the dummy data set for
+
+01:23:05.080 --> 01:23:08.520
+practice why to get a dummy data set when you can scrap a
+
+01:23:08.520 --> 01:23:12.400
+real data set yeah and whenever there is a dummy data set
+
+01:23:12.400 --> 01:23:14.820
+requirement so in that case write a simple python script
+
+01:23:14.820 --> 01:23:18.740
+which will produce a data any kind of a data medical data
+
+01:23:18.740 --> 01:23:23.060
+finance data right education data or some survey kind of a
+
+01:23:23.060 --> 01:23:26.360
+data so i believe uh just a simple python script yeah i will
+
+01:23:26.360 --> 01:23:29.840
+write and then run that particular script and you will be
+
+01:23:29.840 --> 01:23:33.800
+able to generate millions of record so i mean like in
+
+01:23:33.800 --> 01:23:38.820
+abundance you will be able to get that data yeah and and i
+
+01:23:38.820 --> 01:23:41.240
+don't think that like no dummy data is required so real data
+
+01:23:41.240 --> 01:23:45.280
+set is also available uh so over multiple like a platform
+
+01:23:45.280 --> 01:23:48.500
+there is something called as uh google data set there is uh
+
+01:23:49.240 --> 01:23:53.900
+like a platform so yeah google data set is one of the
+
+01:23:53.900 --> 01:23:56.980
+platform uh by the way there is something called as uci
+
+01:23:56.980 --> 01:23:59.660
+repository even over there you will be able to see the data
+
+01:23:59.660 --> 01:24:03.160
+kegel we all know you will be able to see the data hugging
+
+01:24:03.160 --> 01:24:05.880
+face again you can go and you can download a huge amount of
+
+01:24:05.880 --> 01:24:09.480
+the data so those data sets are basically a data set which
+
+01:24:09.480 --> 01:24:14.160
+has been contributed by globe so yeah real data set is
+
+01:24:14.160 --> 01:24:17.080
+already available by the way so finally do you want with
+
+01:24:17.080 --> 01:24:20.180
+that thank you so much take care and uh see you again in my
+
+01:24:20.180 --> 01:24:21.760
+next session thank you so much everyone
+

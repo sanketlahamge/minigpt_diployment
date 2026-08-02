@@ -1,0 +1,4775 @@
+WEBVTT
+
+00:09:31.060 --> 00:09:34.480
+okay so hi everyone i think i'm audible and visible to all
+
+00:09:34.480 --> 00:09:36.720
+of you guys so please confirm how audible and visible so
+
+00:09:36.720 --> 00:09:40.220
+that we can start the class good afternoon everyone good
+
+00:09:40.220 --> 00:09:40.540
+afternoon
+
+00:09:46.400 --> 00:09:52.120
+yes i'm audible and visible okay so yes guys please tell me
+
+00:09:52.120 --> 00:09:54.980
+what is the topic that we are going to discuss today any
+
+00:09:54.980 --> 00:09:56.380
+idea what
+
+00:09:58.620 --> 00:09:59.740
+we will be discussing today
+
+00:10:03.030 --> 00:10:07.310
+apis specifically there is a library there is a framework
+
+00:10:07.310 --> 00:10:11.550
+called as fast api so yes that is something that we are
+
+00:10:11.550 --> 00:10:14.470
+going to discuss this chapter is very very important for
+
+00:10:14.470 --> 00:10:17.990
+your entire life i would say unless and until you are not
+
+00:10:17.990 --> 00:10:21.410
+going to leave a coding so obviously api will be very very
+
+00:10:21.410 --> 00:10:24.590
+important pretty much relevant for every kind of operation
+
+00:10:24.590 --> 00:10:28.550
+every kind of a work that you will end up doing so now let
+
+00:10:28.550 --> 00:10:31.010
+me share my screen and first of all let's try to understand
+
+00:10:31.010 --> 00:10:35.810
+the basic concept behind an api so what is this api is and
+
+00:10:35.930 --> 00:10:39.270
+how it is going to work what it does by the way so all sort
+
+00:10:39.270 --> 00:10:41.650
+of things we'll try to understand it in a step-by-step
+
+00:10:41.650 --> 00:10:48.150
+manner so guys uh we all are using a lot of application on a
+
+00:10:48.150 --> 00:10:53.670
+day-to-day basis right configure and exit okay i
+
+00:11:05.580 --> 00:11:08.640
+don't know why my system is giving me some sort of a issue
+
+00:11:08.640 --> 00:11:12.340
+out of sudden so everything
+
+00:11:14.220 --> 00:11:19.420
+was fine till today morning yeah looks like it's fine again
+
+00:11:19.420 --> 00:11:24.800
+okay so first of all let's try to understand that what this
+
+00:11:24.800 --> 00:11:30.120
+api is so api what is the full form of api by the way anyone
+
+00:11:30.120 --> 00:11:36.540
+what is the full form of api yes application
+
+00:11:39.610 --> 00:11:44.090
+programming interface yes that's correct so any idea what
+
+00:11:44.090 --> 00:11:46.610
+this api does by the way yeah
+
+00:11:57.780 --> 00:12:01.240
+any idea so okay people are saying that communicate with a
+
+00:12:01.240 --> 00:12:03.900
+different app it lets application talk to each other
+
+00:12:03.900 --> 00:12:09.000
+response request help interact between uh two apps okay fine
+
+00:12:09.000 --> 00:12:13.960
+establish a comms between different application fine it will
+
+00:12:13.960 --> 00:12:17.340
+fetch the data from a server communication between two
+
+00:12:17.340 --> 00:12:21.860
+systems it helps to connect a different system connect a
+
+00:12:21.860 --> 00:12:24.820
+different system each other okay allow to talk to
+
+00:12:24.820 --> 00:12:29.560
+application and access it's all capabilities i believe you
+
+00:12:29.560 --> 00:12:32.760
+are trying to say bridges okay so yeah i think i think most
+
+00:12:32.760 --> 00:12:37.720
+of us are right if we think about the api in this particular
+
+00:12:37.720 --> 00:12:41.560
+manner but again so some of you are trying to say that that
+
+00:12:41.560 --> 00:12:44.400
+whenever we have to establish a communication between two
+
+00:12:44.400 --> 00:12:46.580
+different different applications so in that situation we can
+
+00:12:46.580 --> 00:12:50.920
+try to use a api that's true but again uh even inside an
+
+00:12:50.920 --> 00:12:53.440
+application so if we have to establish a communication so
+
+00:12:53.440 --> 00:12:56.480
+obviously we are going to take care of or we are going to
+
+00:12:56.480 --> 00:12:59.300
+basically take a help of api i'll give you one beautiful
+
+00:12:59.300 --> 00:13:02.060
+example over here so that you know it will help you out in
+
+00:13:02.060 --> 00:13:04.920
+terms of explaining this api concept to anyone in this
+
+00:13:04.920 --> 00:13:08.020
+entire world going forward right after today's class plus
+
+00:13:08.020 --> 00:13:11.080
+we'll try to see how we can build an api with the help of
+
+00:13:11.080 --> 00:13:15.040
+fast api as a library right so inside a python you can try
+
+00:13:15.040 --> 00:13:17.880
+to use fast api you can try to use there is another library
+
+00:13:17.880 --> 00:13:21.120
+called as flask uh in case of like you know a bed
+
+00:13:21.120 --> 00:13:23.400
+development so generally we try to build an api with the
+
+00:13:23.400 --> 00:13:26.600
+help of a backend uh like a framework which is called as
+
+00:13:26.600 --> 00:13:30.320
+node js which is a javascript based framework so there are
+
+00:13:30.320 --> 00:13:32.860
+so many other framework which is available in a market and
+
+00:13:32.860 --> 00:13:35.040
+yeah so some of those frameworks are available in a very
+
+00:13:35.040 --> 00:13:38.940
+very popular one and we try to use it to build an api but
+
+00:13:38.940 --> 00:13:43.660
+again as a newbie if i have to understand an api so maybe we
+
+00:13:43.660 --> 00:13:46.560
+can try to take one example right we can try to take one
+
+00:13:46.560 --> 00:13:49.420
+example and with the help of that maybe we can try to
+
+00:13:49.420 --> 00:13:53.320
+simulate it we can try to understand it so here i would like
+
+00:13:53.320 --> 00:13:57.000
+to take an example of a payment system let's say right so
+
+00:13:57.000 --> 00:14:00.840
+most of us as an indian so we all are using upi we are using
+
+00:14:00.840 --> 00:14:04.600
+heavily right day and night we are using upi so let's say
+
+00:14:04.820 --> 00:14:07.720
+i'm trying to use a google pay yeah so i'm trying to use
+
+00:14:07.720 --> 00:14:12.160
+basically a gpay and whenever i'm trying to use a gpay so
+
+00:14:12.160 --> 00:14:15.060
+obviously with the help of gpay i can try to do a bill
+
+00:14:15.060 --> 00:14:17.620
+payment i can try to transfer money to someone i can scan
+
+00:14:17.620 --> 00:14:20.740
+the qr code and then again transaction uh do that like a
+
+00:14:20.740 --> 00:14:24.060
+money transfer i can try to give a upi id and then i will be
+
+00:14:24.060 --> 00:14:26.340
+able to do a money transfer i can search someone with their
+
+00:14:26.340 --> 00:14:29.740
+phone number and then i will be able to do a money transfer
+
+00:14:29.740 --> 00:14:31.940
+so many different different kind of use cases and
+
+00:14:31.940 --> 00:14:35.240
+applications are already available inside a gpay right so
+
+00:14:35.240 --> 00:14:39.620
+gpay is not a banking system by the way right gpay is
+
+00:14:39.620 --> 00:14:44.000
+technically not a banking system so gpay is not someone so
+
+00:14:44.000 --> 00:14:47.100
+who is going to keep your money unless and until you are not
+
+00:14:47.100 --> 00:14:49.580
+going to top up inside the wallet they have a wallet system
+
+00:14:49.580 --> 00:14:52.280
+as well but yeah so generally when we try to do a
+
+00:14:52.280 --> 00:14:55.560
+transaction so it will try to communicate it will try to
+
+00:14:55.560 --> 00:15:00.100
+communicate with a bank maybe hdfc icici kotak axis bank
+
+00:15:00.100 --> 00:15:03.620
+whatsoever banking services that we are trying to use so it
+
+00:15:03.620 --> 00:15:07.800
+will try to basically communicate uh to a bank and then bank
+
+00:15:07.800 --> 00:15:11.200
+is going to check basically bank server because again bank
+
+00:15:11.200 --> 00:15:14.520
+is a disguised one right so it will try to check that
+
+00:15:14.520 --> 00:15:17.200
+whether this user is authorized one or not whether there is
+
+00:15:17.200 --> 00:15:20.520
+a balance available inside that particular account or not
+
+00:15:20.520 --> 00:15:24.700
+whether a person have reached their today's upi limit or not
+
+00:15:24.700 --> 00:15:28.000
+so a lot of like a checks it is going to do and then it will
+
+00:15:28.000 --> 00:15:31.800
+try to approve or maybe it will try to reject a transaction
+
+00:15:31.800 --> 00:15:36.060
+right now so that is not the main part that's not a part of
+
+00:15:36.060 --> 00:15:39.500
+actual story so if we have to understand the API what I'm
+
+00:15:39.500 --> 00:15:42.940
+trying to explain it over here is that that gpay is one of
+
+00:15:42.940 --> 00:15:46.760
+the system and then on the other side let's say we have a
+
+00:15:46.760 --> 00:15:52.540
+bank right we have a bank hdfc bank let's say we are going
+
+00:15:52.540 --> 00:15:56.860
+to consider right so now uh upi obviously like they have
+
+00:15:56.860 --> 00:16:00.260
+their own server and basically upi is something which try to
+
+00:16:00.260 --> 00:16:03.200
+connect with all the banking services and then on other side
+
+00:16:03.200 --> 00:16:06.480
+so any vendor will be able to consume it right for example
+
+00:16:06.480 --> 00:16:10.460
+gpay maybe like a phone pay maybe uh paytm different
+
+00:16:10.460 --> 00:16:12.420
+different kind of application which is available already
+
+00:16:12.420 --> 00:16:16.100
+inside the market right but let's try to remove that barrier
+
+00:16:16.100 --> 00:16:18.880
+we'll try to like you know keep it very very simple let's
+
+00:16:18.880 --> 00:16:22.600
+say that we are doing a direct communication not via upi so
+
+00:16:22.600 --> 00:16:25.560
+upi interface we are doing a direct communication between
+
+00:16:25.560 --> 00:16:28.760
+gpay and hdfc bank let's try to understand this situation
+
+00:16:28.760 --> 00:16:31.900
+first in a real life obviously there will be a middleware so
+
+00:16:31.900 --> 00:16:35.520
+where upi Gateway comes into picture technically gpay will
+
+00:16:35.520 --> 00:16:38.720
+try to you know access upi Gateway and then upi will try to
+
+00:16:38.720 --> 00:16:41.440
+interact with the banking system and then back and forth it
+
+00:16:41.440 --> 00:16:44.420
+will go for the request and it will give a response and then
+
+00:16:44.420 --> 00:16:48.460
+transaction technically happens but let's say uh you are as
+
+00:16:48.460 --> 00:16:53.700
+a user going to a gpay right so I'll go to a gpay and then I
+
+00:16:53.700 --> 00:16:56.560
+will try to transfer a money right I'll try to transfer
+
+00:16:56.560 --> 00:16:59.480
+money so let's say you are trying to send a hundred rupees
+
+00:16:59.480 --> 00:17:03.840
+right to me on sudh let's suppose at the
+
+00:17:06.900 --> 00:17:12.900
+same time you are trying to send hundred rupees so gpay is a
+
+00:17:12.900 --> 00:17:16.660
+software application accordingly a software right so gpay is
+
+00:17:16.660 --> 00:17:20.460
+a software and let's say gpay is something which has been
+
+00:17:20.460 --> 00:17:24.680
+written by using a more mean kind of a stack right so a man
+
+00:17:24.680 --> 00:17:27.100
+mean kind of a stack has been used and then GPA has been
+
+00:17:27.100 --> 00:17:30.820
+built so gpay is trying to use maybe a JavaScript I'm
+
+00:17:30.820 --> 00:17:35.920
+assuming it again right so gpay is using a Javascript
+
+00:17:35.920 --> 00:17:39.860
+framework, a JS framework, right, .js framework and this
+
+00:17:39.860 --> 00:17:43.360
+HDFC bank system is been written with the help of let's say
+
+00:17:43.360 --> 00:17:46.740
+Python framework, yeah, Python framework. So entire backend
+
+00:17:46.740 --> 00:17:49.300
+is written with the help of Python framework. Again don't
+
+00:17:49.300 --> 00:17:52.360
+take it as a fact, basically I'm just giving you an example,
+
+00:17:52.480 --> 00:17:54.960
+scenario I'm trying to build so that we all will be able to
+
+00:17:54.960 --> 00:17:58.280
+understand the API system, what is the actual meaning of an
+
+00:17:58.280 --> 00:18:03.100
+API. So here, GPay is basically using a programming
+
+00:18:03.100 --> 00:18:06.320
+language, Javascript. So maybe they are using a node, next
+
+00:18:06.320 --> 00:18:09.100
+type script, all sort of things and then they have built
+
+00:18:09.100 --> 00:18:11.160
+their entire like a front end, back end everything, their
+
+00:18:11.160 --> 00:18:14.520
+servers. And then HDFC bank, so again they are using Python
+
+00:18:14.520 --> 00:18:18.180
+and they have built their entire server. So whenever via
+
+00:18:18.180 --> 00:18:22.660
+GPay you will try to send me, right, you will try to send me
+
+00:18:22.660 --> 00:18:26.780
+a 100 rupees, so it simply means that that GPay application
+
+00:18:26.780 --> 00:18:31.360
+is requesting. Whom? It is trying to request basically HDFC
+
+00:18:31.360 --> 00:18:35.240
+bank. So it is going to send a request, yeah, send a
+
+00:18:35.240 --> 00:18:38.540
+request. Now when it is sending a request, so it will try to
+
+00:18:38.540 --> 00:18:41.920
+send some data as well, right. So what kind of a data it is
+
+00:18:41.920 --> 00:18:45.080
+going to send? So basically it is going to send this ID,
+
+00:18:45.300 --> 00:18:49.800
+this UPI ID plus the amount, yeah, plus the amount that
+
+00:18:49.800 --> 00:18:53.340
+okay, fine. So GPay is already connected with HDFC bank and
+
+00:18:53.340 --> 00:18:55.800
+I have to do a transaction, so it will try to send a
+
+00:18:55.800 --> 00:18:58.540
+request. Now with the request. It is going to send this
+
+00:18:58.540 --> 00:19:02.080
+particular data as well plus a key, a token, right, so which
+
+00:19:02.080 --> 00:19:05.580
+has been used for the verification. So fine, it is sending a
+
+00:19:05.580 --> 00:19:10.240
+request. Now HDFC bank server, so request means it is trying
+
+00:19:10.240 --> 00:19:13.020
+to like send some sort of a data. It is trying to send some
+
+00:19:13.020 --> 00:19:17.500
+sort of a data. Now when we say that HDFC bank will try to
+
+00:19:17.500 --> 00:19:21.080
+assess it, it will try to evaluate it and then based on that
+
+00:19:21.080 --> 00:19:24.180
+it is going to give a response. It simply means that that
+
+00:19:24.180 --> 00:19:28.040
+there will be a function. Some people must have written a
+
+00:19:28.040 --> 00:19:30.940
+function as we have already studied a function, right. So
+
+00:19:30.940 --> 00:19:35.300
+someone has written a function so that whenever request will
+
+00:19:35.300 --> 00:19:39.800
+come and with that data will come, right, so that function
+
+00:19:39.800 --> 00:19:43.840
+will try to execute itself. So let's say here on this side
+
+00:19:43.840 --> 00:19:46.700
+there is a function which has been written. So validate
+
+00:19:46.700 --> 00:19:52.960
+user, validate user function is written. Then there is
+
+00:19:52.960 --> 00:19:55.820
+another function which has been written over here. So let's
+
+00:19:55.820 --> 00:19:58.500
+say like a check balance, balance
+
+00:20:01.320 --> 00:20:03.800
+function has been written. Then there is another function
+
+00:20:03.800 --> 00:20:07.580
+which has been written over here that confirm
+
+00:20:09.530 --> 00:20:13.530
+transaction. Then there is another function written over
+
+00:20:13.530 --> 00:20:17.690
+here that reject transaction. Then there is another function
+
+00:20:17.690 --> 00:20:25.030
+written over here that deduct money. So on this side many
+
+00:20:25.030 --> 00:20:27.570
+function must have written, right, someone have written
+
+00:20:27.570 --> 00:20:30.070
+those functions so that you know. Whenever request will
+
+00:20:30.070 --> 00:20:33.430
+come, so these function will try to take these inputs
+
+00:20:33.430 --> 00:20:36.010
+basically whatsoever input is required because function will
+
+00:20:36.010 --> 00:20:38.290
+always take a input and then it will try to give you output
+
+00:20:38.290 --> 00:20:41.250
+as simple as that. So someone has written these functions
+
+00:20:41.250 --> 00:20:45.730
+inside a python and this function must get executed in a
+
+00:20:45.730 --> 00:20:48.530
+particular sequence depends upon the design that we have
+
+00:20:48.530 --> 00:20:51.230
+done, right, depends upon the flow, a business flow
+
+00:20:51.230 --> 00:20:54.190
+basically. So this request will come with that request data
+
+00:20:54.190 --> 00:20:56.470
+will come. So maybe it will go to this function, then it
+
+00:20:56.470 --> 00:21:00.970
+will go to this function, then it will go to this. So in
+
+00:21:00.970 --> 00:21:04.350
+this particular sequence we are supposed to execute all of
+
+00:21:04.350 --> 00:21:07.330
+these function one by one, one by one, one by one as per the
+
+00:21:07.330 --> 00:21:12.450
+business logic let's say, right. Now once it will be able to
+
+00:21:12.450 --> 00:21:16.930
+confirm the transaction then HDFC bank will try to send a
+
+00:21:16.930 --> 00:21:19.950
+response
+
+00:21:20.350 --> 00:21:23.090
+right with a response code saying that okay fine so this
+
+00:21:23.090 --> 00:21:25.350
+transaction was successful or this transaction was not
+
+00:21:25.350 --> 00:21:28.830
+successful maybe in case of not successful it will try to
+
+00:21:28.830 --> 00:21:31.090
+give some sort of a reason as well means a message, right.
+
+00:21:31.170 --> 00:21:33.350
+It will try to showcase a message to a user that
+
+00:21:33.350 --> 00:21:36.870
+insufficient balance or wrong UPI ID something like that
+
+00:21:36.870 --> 00:21:42.650
+that we try to face all the time, okay fine. Now again I am
+
+00:21:42.650 --> 00:21:45.270
+not trying to explain you this payment system by the way,
+
+00:21:45.290 --> 00:21:47.150
+right. I am not trying to explain you at all this payment
+
+00:21:47.150 --> 00:21:49.390
+system. What I am trying to explain you over here is that
+
+00:21:49.390 --> 00:21:54.330
+that communication part. So here someone has written a code
+
+00:21:54.330 --> 00:21:58.730
+in JavaScript and then on other side there is a code which
+
+00:21:58.730 --> 00:22:01.730
+has been written in Python, right. There is a code which has
+
+00:22:01.730 --> 00:22:05.210
+been written in Python. Now with the help of this JavaScript
+
+00:22:05.210 --> 00:22:08.590
+code means technically JavaScript code is supposed to
+
+00:22:08.590 --> 00:22:14.310
+execute something which has been written in Python, yeah. So
+
+00:22:14.310 --> 00:22:17.470
+JavaScript code is supposed to execute something which is
+
+00:22:17.470 --> 00:22:20.650
+written actually in Python. I am not trying to say that that
+
+00:22:20.650 --> 00:22:23.130
+you have to convert the JavaScript code into a Python and
+
+00:22:23.130 --> 00:22:25.790
+then execute, no not at all. So someone has written because
+
+00:22:25.790 --> 00:22:29.950
+HDFC bank is not going to change their bank. And as per GPay
+
+00:22:29.950 --> 00:22:32.910
+because like GPay there will be a number of application on
+
+00:22:32.910 --> 00:22:35.550
+the other side, right. Again for a GPay there will be a
+
+00:22:35.550 --> 00:22:38.450
+number of banking system on the other side. So they are not
+
+00:22:38.450 --> 00:22:41.150
+going to change it. So what we are supposed to do? So we are
+
+00:22:41.150 --> 00:22:46.490
+supposed to find out a solution that okay fine. So even if a
+
+00:22:46.490 --> 00:22:48.950
+different different system is been written in a different
+
+00:22:48.950 --> 00:22:51.110
+different programming language by using a different
+
+00:22:51.110 --> 00:22:54.670
+different kind of a framework. But at the end of the day I
+
+00:22:54.670 --> 00:22:58.150
+would like to get an access of that particular function. Or
+
+00:22:58.150 --> 00:23:01.370
+maybe a classes, right. Maybe a variable something, right.
+
+00:23:01.450 --> 00:23:05.670
+So I have to get an access of all of those things. So how I
+
+00:23:05.670 --> 00:23:09.130
+will be able to get it and this is where, right. This is
+
+00:23:09.130 --> 00:23:12.010
+where this API comes into picture. Application programming
+
+00:23:12.010 --> 00:23:16.650
+interface comes into picture. It says that, that okay you
+
+00:23:16.650 --> 00:23:20.690
+are JavaScript and you are basically Python. So basically
+
+00:23:20.690 --> 00:23:23.830
+both of you are a completely different programming language.
+
+00:23:24.070 --> 00:23:27.570
+Now if you can't do a conversion of JavaScript to Python. So
+
+00:23:27.570 --> 00:23:27.570
+basically both of you are a completely different programming
+
+00:23:27.570 --> 00:23:27.730
+language. Now if you can't do a conversion of Python or
+
+00:23:27.730 --> 00:23:30.310
+Python to JavaScript, it will be a super super costly and
+
+00:23:30.310 --> 00:23:33.210
+expensive operation. Can't be done, right. It's a big system
+
+00:23:33.210 --> 00:23:36.330
+that we are talking about. Millions of lines of code. Maybe
+
+00:23:36.330 --> 00:23:38.850
+a thousand ten thousands of functions and lot of complex
+
+00:23:38.850 --> 00:23:41.630
+operations and processes in between, right. Lot of security
+
+00:23:41.630 --> 00:23:46.190
+checks in between. So what we can do, so maybe we can try to
+
+00:23:46.190 --> 00:23:49.270
+find out some sort of a solution. So solution wise, maybe we
+
+00:23:49.270 --> 00:23:54.030
+can try to define a set of rules, a protocol, right, a
+
+00:23:54.030 --> 00:23:58.950
+protocol that, okay. At this route, because at the end of
+
+00:23:58.950 --> 00:24:01.150
+the day, I have to execute that function. Execute this
+
+00:24:01.150 --> 00:24:03.590
+function means call the function, right. Call the function.
+
+00:24:03.670 --> 00:24:05.190
+We have already done that, right. In a Jupyter notebook,
+
+00:24:05.410 --> 00:24:08.830
+call the function. So they said that, that, okay, we can try
+
+00:24:08.830 --> 00:24:12.710
+to define some sort of a protocol, basically a set of rules
+
+00:24:12.710 --> 00:24:17.170
+by which any programming language will be able to access
+
+00:24:17.170 --> 00:24:20.230
+means, access means what? Just execute, execute it
+
+00:24:20.230 --> 00:24:23.690
+whatsoever output it is going to give, return it, right. And
+
+00:24:23.690 --> 00:24:26.810
+then in my format, I will be able to consume it. Right. As
+
+00:24:26.810 --> 00:24:29.310
+simple as that. So they said that, that, okay, let's go and
+
+00:24:29.310 --> 00:24:32.430
+let's try to define some set of a rules, which should be a
+
+00:24:32.430 --> 00:24:37.170
+neutral one means it should not depends upon the programming
+
+00:24:37.170 --> 00:24:39.470
+languages. Any programming language that we are going to
+
+00:24:39.470 --> 00:24:42.150
+talk about in this entire world, right. So that with the
+
+00:24:42.150 --> 00:24:44.610
+help of that particular rule, anyone can reach out to my
+
+00:24:44.610 --> 00:24:49.190
+system and then they will be able to technically execute X,
+
+00:24:49.230 --> 00:24:52.330
+Y, G things. They will be able to access X, Y, G things
+
+00:24:52.330 --> 00:24:56.710
+very, very simple. Right. So that is something called as
+
+00:24:56.710 --> 00:25:01.630
+API, application programming interface. So it says that,
+
+00:25:01.650 --> 00:25:04.750
+that, okay, so whatsoever function is written from HDFC
+
+00:25:04.750 --> 00:25:07.970
+side, it must be running on some server, server means
+
+00:25:07.970 --> 00:25:11.690
+computer, right? So if it is running on some computer, it
+
+00:25:11.690 --> 00:25:15.650
+must be having an IP address, server means for sure it will
+
+00:25:15.650 --> 00:25:18.010
+be having public private kind of IP addresses, masking,
+
+00:25:18.150 --> 00:25:22.170
+subnet and internally all those things and same goes for GP.
+
+00:25:22.410 --> 00:25:26.550
+Okay. So what if, if we can try to define a rule, HTTP,
+
+00:25:26.850 --> 00:25:29.710
+HTTPS based rule, hypertext transfer protocol, secure based
+
+00:25:29.710 --> 00:25:32.650
+rules, if we can try to define or only HTTP hypertext
+
+00:25:32.650 --> 00:25:37.370
+transfer protocol rule, we can try to define by which if I
+
+00:25:37.370 --> 00:25:40.550
+can reach out to this system, right? So let's say IP address
+
+00:25:40.550 --> 00:25:46.630
+of this HDFC bank is a 12.0.19.1, right? So let's say I'm
+
+00:25:46.630 --> 00:25:49.570
+able to reach out to this particular system and then like a
+
+00:25:49.570 --> 00:25:52.990
+port number because every application is going to run. So
+
+00:25:52.990 --> 00:25:57.150
+let's say a 3000 port number. And then if I have to execute
+
+00:25:57.150 --> 00:26:00.750
+this function, this function, this function, so maybe I can
+
+00:26:00.750 --> 00:26:06.050
+try to create a kind of a rule value date user, right? Or
+
+00:26:06.050 --> 00:26:09.430
+maybe I can try to create a check balance or like a, you
+
+00:26:09.430 --> 00:26:12.530
+know, confirm or maybe reject or maybe deduct money. So this
+
+00:26:12.530 --> 00:26:16.330
+kind of a route I can try to create. So if someone is going
+
+00:26:16.330 --> 00:26:19.850
+to call this route, right, if someone is going to call this
+
+00:26:19.850 --> 00:26:24.110
+particular route. Then system will be able to understand you
+
+00:26:24.110 --> 00:26:27.370
+are trying to execute this time this function. And then if
+
+00:26:27.370 --> 00:26:29.810
+you are using this route, then system will be able to
+
+00:26:29.810 --> 00:26:31.990
+understand you are trying to execute this confirm function.
+
+00:26:32.310 --> 00:26:35.730
+If route is basically reject, so you are trying to execute
+
+00:26:35.730 --> 00:26:39.070
+basically a reject function. If route is basically deduct
+
+00:26:39.070 --> 00:26:41.250
+money, so you are trying to execute basically this
+
+00:26:41.250 --> 00:26:43.570
+particular function. That is something which people have
+
+00:26:43.570 --> 00:26:47.570
+defined. Now this is not something which belongs to a
+
+00:26:47.570 --> 00:26:50.530
+programming language, right? This is not something which
+
+00:26:50.530 --> 00:26:53.110
+belongs to a programming language. It's a protocol, it's a
+
+00:26:53.110 --> 00:26:56.390
+set of the rules that, okay, go to a system, access the port
+
+00:26:56.390 --> 00:26:59.770
+and then execute. Very, very simple, right? If something is
+
+00:26:59.770 --> 00:27:02.890
+running at that particular server. So and this is how, so
+
+00:27:02.890 --> 00:27:06.650
+entire world, right, entire world and every application that
+
+00:27:06.650 --> 00:27:09.330
+you are accessing even now, whether it's a zoom, whether
+
+00:27:09.330 --> 00:27:11.350
+it's a, I mean like again, there is a different, different
+
+00:27:11.350 --> 00:27:13.770
+kind of a protocol, web RTC protocol and all those things
+
+00:27:13.770 --> 00:27:16.290
+has been defined. Right. But first of all, let's try to
+
+00:27:16.290 --> 00:27:18.850
+understand API part. So whatsoever application that we are
+
+00:27:18.850 --> 00:27:21.830
+using, whenever we are going to click, so it will try to hit
+
+00:27:21.830 --> 00:27:24.430
+something, some server, some function that is going to
+
+00:27:24.430 --> 00:27:26.490
+execute, then it is going to bring the data. You will be
+
+00:27:26.490 --> 00:27:30.030
+able to see it. And this is how the entire digital world
+
+00:27:30.030 --> 00:27:33.230
+works. And this is how entire digital world even
+
+00:27:33.230 --> 00:27:36.370
+communicates within the application and between the
+
+00:27:36.370 --> 00:27:39.410
+application, right? Within the application as well as
+
+00:27:39.410 --> 00:27:42.130
+between the application with the same programming language
+
+00:27:42.130 --> 00:27:44.570
+as well as different programming languages. So if it is
+
+00:27:44.570 --> 00:27:46.450
+going to work for heterogeneous programming languages,
+
+00:27:46.510 --> 00:27:49.270
+obviously it is going to work for homogeneous programming
+
+00:27:49.270 --> 00:27:53.170
+languages or framework as well. So this is a set of the rule
+
+00:27:53.170 --> 00:27:55.670
+that people have defined that go to this particular path,
+
+00:27:55.890 --> 00:27:59.130
+access the port, and then you will be able to access this
+
+00:27:59.130 --> 00:28:02.530
+particular function and then you will be able to execute it.
+
+00:28:02.730 --> 00:28:07.950
+Is it making sense to all of us guys? Yes. Is it making
+
+00:28:07.950 --> 00:28:15.350
+sense theoretically five, 10% only. Yes. Yeah. Fine. How
+
+00:28:15.350 --> 00:28:17.990
+will HDFC validate that request is coming from the valid
+
+00:28:17.990 --> 00:28:21.690
+application. So basically whenever technically in a real
+
+00:28:21.690 --> 00:28:24.270
+life. So whenever you try to like, you know, download a
+
+00:28:24.270 --> 00:28:26.610
+Google pay, you try to log in first of all, and then you try
+
+00:28:26.610 --> 00:28:29.570
+to connect it and then you try to submit the OTP with the
+
+00:28:29.570 --> 00:28:32.230
+OTP. So it will be connected to the UPI server, then UPI
+
+00:28:32.230 --> 00:28:35.650
+server will be connected to the HDFC. So that this, this is
+
+00:28:35.650 --> 00:28:38.070
+how all three party will be involved. GPay and then UPI
+
+00:28:38.070 --> 00:28:40.390
+server and the, your banking system, right? This is what you
+
+00:28:40.390 --> 00:28:42.750
+do all the time. So whenever you are going to set up a new
+
+00:28:42.750 --> 00:28:44.750
+mobile, or maybe if you're going to uninstall the
+
+00:28:44.750 --> 00:28:47.470
+application, so what you do, so you try to do a validation,
+
+00:28:47.630 --> 00:28:50.750
+right? With the proper like account number or a login phone
+
+00:28:50.750 --> 00:28:53.270
+number. Yeah. Which has been associated with your account
+
+00:28:53.270 --> 00:28:57.230
+and a bank. Yeah. So you already do the validation in a very
+
+00:28:57.230 --> 00:29:04.830
+first place. Right. Resolve. Yeah. So fine. Now, so this is
+
+00:29:04.830 --> 00:29:08.190
+a basic concept behind the like API. Now same thing we'll
+
+00:29:08.190 --> 00:29:10.630
+try to understand even with the help of practical example.
+
+00:29:10.890 --> 00:29:13.050
+Yeah. So let's dig deeper into it and let's try to
+
+00:29:13.050 --> 00:29:16.190
+understand it. It's very simple. Like, you know, very, very
+
+00:29:16.190 --> 00:29:18.510
+simple to understand every logical, I would say, right? So
+
+00:29:18.510 --> 00:29:20.250
+once we are going to write a couple of line of a code,
+
+00:29:20.350 --> 00:29:22.950
+believe me, you all will be able to understand it that yes,
+
+00:29:23.010 --> 00:29:26.110
+it is literally very, very simple and anyone and everyone
+
+00:29:26.110 --> 00:29:30.730
+can do all such sort of things with respect to like this API
+
+00:29:30.730 --> 00:29:34.430
+and things. Okay. So let me open up a VS code over here,
+
+00:29:43.460 --> 00:29:44.500
+API.
+
+00:29:47.940 --> 00:29:51.040
+Now what I will do, I'll just go over here and then I'll try
+
+00:29:51.040 --> 00:29:54.940
+to create a Python file. Yeah. Let's say I'm giving a name
+
+00:29:54.940 --> 00:29:58.380
+as a fast API dot by file. Let's just try to give this
+
+00:29:58.380 --> 00:30:02.120
+particular name to a file. Now before that, what you will
+
+00:30:02.120 --> 00:30:04.400
+have to do. So. So you have to do an installation. If you're
+
+00:30:04.400 --> 00:30:06.260
+doing it for the very first time, then you have to do an
+
+00:30:06.260 --> 00:30:08.640
+installation. So what installation you have to do? So you
+
+00:30:08.640 --> 00:30:11.960
+have to do basically pip install, pip install, fast API,
+
+00:30:12.120 --> 00:30:16.260
+fast API and UV corn. So which will help us out to like run
+
+00:30:16.260 --> 00:30:20.840
+the server. So this is the installation, FAST API and UV is
+
+00:30:20.840 --> 00:30:23.540
+you are in here. So this is basically an installation that
+
+00:30:23.540 --> 00:30:25.500
+you have to do inside your terminal. So I have pinged you
+
+00:30:25.500 --> 00:30:27.920
+this command guys, so you can try to do installation. So let
+
+00:30:27.920 --> 00:30:30.520
+me do an installation already in my system. It's already
+
+00:30:30.520 --> 00:30:33.900
+available. So yeah. It's like requirement already satisfied
+
+00:30:33.900 --> 00:30:36.900
+if you have not installed it. So in that case it will give
+
+00:30:36.900 --> 00:30:40.900
+you, it will start installing it automatically. Yeah. Okay.
+
+00:30:41.700 --> 00:30:44.240
+Makes sense. Are we able to install? I've just pinged the
+
+00:30:44.240 --> 00:30:48.340
+command inside the chat. So please check the chat and do the
+
+00:30:48.340 --> 00:30:48.620
+installation.
+
+00:30:59.160 --> 00:31:00.000
+Yes. Done.
+
+00:31:08.230 --> 00:31:11.210
+Okay. So I'll try to start with the very simple, you know,
+
+00:31:11.250 --> 00:31:15.270
+example. So let's say what I will do. So I will try to do
+
+00:31:15.270 --> 00:31:18.870
+some sort of a import in a very, very first place. Yeah. So
+
+00:31:18.870 --> 00:31:26.350
+let's try to import a, so from FAST API, FAST API, import
+
+00:31:26.350 --> 00:31:30.090
+FAST API. Simple. Right? So you just have to install this
+
+00:31:30.090 --> 00:31:33.630
+one. Nothing much. First line of a code. Then once you are
+
+00:31:33.630 --> 00:31:38.110
+able to do this import, then you have to create a object of
+
+00:31:38.110 --> 00:31:41.390
+this FAST API. How you will be able to create it? Simple.
+
+00:31:41.570 --> 00:31:44.290
+Give an object name. I believe we all know what is the
+
+00:31:44.290 --> 00:31:46.270
+meaning of the object. Yesterday I have already discussed
+
+00:31:46.270 --> 00:31:48.310
+about classes and objects. So object name. Object name is
+
+00:31:48.310 --> 00:31:51.150
+nothing but a variable of the class so that I will be able
+
+00:31:51.150 --> 00:31:56.810
+to access a FAST API class. Okay. So this is done. Now let's
+
+00:31:56.810 --> 00:32:00.110
+do one thing. So try to create one function over here. Def.
+
+00:32:00.270 --> 00:32:04.670
+Right? I will give a name as test and it is going to return
+
+00:32:04.670 --> 00:32:07.890
+what? So it is going to return basically hello world or not
+
+00:32:07.890 --> 00:32:13.950
+hello world. I mean like my name is, my name is Sudhanshu
+
+00:32:13.950 --> 00:32:17.850
+Kumar. So let's say this is a very simple function. I have
+
+00:32:17.850 --> 00:32:20.630
+written. Okay. Fine. This is a very simple function which I
+
+00:32:20.630 --> 00:32:25.390
+have written. Now what I am supposed to do. So basically I
+
+00:32:25.390 --> 00:32:31.470
+am supposed to execute this function. Yeah. I have to
+
+00:32:31.470 --> 00:32:33.990
+basically execute this function. So if I have to execute
+
+00:32:33.990 --> 00:32:36.970
+this function, so what I will do, I will try to call test.
+
+00:32:37.290 --> 00:32:40.550
+Done. Right. And then maybe I will try to execute this
+
+00:32:40.550 --> 00:32:43.370
+particular file and eventually it will be able to execute my
+
+00:32:43.370 --> 00:32:47.630
+function. Very very simple. Right. So here I will go and I
+
+00:32:47.630 --> 00:32:54.350
+will try to write like a python and then fast api api.py
+
+00:32:54.350 --> 00:33:01.070
+file and no such file or directory python can't find fast
+
+00:33:02.350 --> 00:33:11.260
+api. Okay I have written py right. Okay so fast api most
+
+00:33:11.260 --> 00:33:15.020
+likely due to the circular this this this from fast api
+
+00:33:15.020 --> 00:33:18.800
+import fast api why it is not working. Error. There is no
+
+00:33:18.800 --> 00:33:20.520
+such file or directory. This is fine.
+
+00:33:29.250 --> 00:33:32.310
+Have I made some sort of a spelling mistake somewhere which
+
+00:33:32.310 --> 00:33:37.010
+I am not able to see. Cannot import a name fast api from
+
+00:33:37.010 --> 00:33:44.740
+partially initialized module fast api. Okay so fast api yes
+
+00:33:44.740 --> 00:33:47.860
+that's import is yeah
+
+00:33:51.920 --> 00:33:57.560
+this import is fine app fast api. So this is also fine.
+
+00:34:00.510 --> 00:34:02.410
+No I don't want to do this.
+
+00:34:14.600 --> 00:34:16.980
+It should execute. And I have written. Why it is giving me
+
+00:34:16.980 --> 00:34:19.480
+fast api import. Cannot import the name fast api from
+
+00:34:19.480 --> 00:34:24.590
+partially initialized module fast api. Oh got it.
+
+00:34:27.480 --> 00:34:33.020
+Let me do one thing fast api one I'll tell you the reason
+
+00:34:33.020 --> 00:34:34.700
+behind this one fast
+
+00:34:40.650 --> 00:34:41.410
+api one
+
+00:34:48.260 --> 00:34:51.740
+circular import must have gone right. Why it is giving me
+
+00:34:51.740 --> 00:34:54.260
+like a circular import.
+
+00:34:57.170 --> 00:35:00.750
+Just a minute guys. We'll fix it in like one or two minute.
+
+00:35:08.470 --> 00:35:17.250
+Fast api. Oh. AI is getting crazy. I have not I don't want
+
+00:35:17.250 --> 00:35:23.010
+AI to modify my code but it's like doing it yeah
+
+00:35:28.230 --> 00:35:31.810
+so it was not an issue by the way as you can see so it's
+
+00:35:31.810 --> 00:35:35.270
+it's working so what it was like AI has done so it has just
+
+00:35:35.270 --> 00:35:38.330
+changed the name to fast api one that was the only issue. So
+
+00:35:38.330 --> 00:35:41.330
+now it's fine. Yeah now it's fine. So I have just changed my
+
+00:35:41.330 --> 00:35:44.050
+file name to fast api one so that it will be able to remove
+
+00:35:44.050 --> 00:35:46.510
+the circular issue. File name and this one should not be
+
+00:35:46.510 --> 00:35:49.150
+same otherwise it will be considering that from the same
+
+00:35:49.150 --> 00:35:51.550
+model I'm trying to import it. Hope you remember the package
+
+00:35:51.550 --> 00:35:53.770
+and model classes. That was the reason it was giving me
+
+00:35:53.770 --> 00:35:57.290
+circular import error. So it was looping into the same file
+
+00:35:57.290 --> 00:35:59.490
+and looking for the same but it should look into the library
+
+00:35:59.490 --> 00:36:04.650
+and it should give a import from the library. Okay so it is
+
+00:36:04.650 --> 00:36:07.710
+able to do it now instead of return because I'm looking for
+
+00:36:07.710 --> 00:36:11.910
+something in my console so I can try to do basically print
+
+00:36:11.910 --> 00:36:16.450
+so that I will be able to get something in my console. Yeah
+
+00:36:16.450 --> 00:36:20.830
+so here I'm able to get my name is dhanshu kumar in my
+
+00:36:20.830 --> 00:36:24.090
+console. So technically I'm able to execute a particular
+
+00:36:24.090 --> 00:36:26.790
+function a very small function I'm able to execute it. I'm
+
+00:36:26.790 --> 00:36:31.410
+able to call it but this is not my case right. I don't want
+
+00:36:31.410 --> 00:36:34.570
+to basically call this function in this particular manner.
+
+00:36:35.350 --> 00:36:39.590
+What I wanted to do is that that let's say maybe from a
+
+00:36:39.590 --> 00:36:43.110
+browser right maybe from a browser if someone would like to
+
+00:36:43.110 --> 00:36:47.490
+access my function. From Google Chrome or maybe from some
+
+00:36:47.490 --> 00:36:49.930
+different tools and software maybe from some different
+
+00:36:49.930 --> 00:36:53.730
+programming language maybe from some console if someone
+
+00:36:53.730 --> 00:36:57.730
+would like to access my function they must be able to access
+
+00:36:57.730 --> 00:37:00.810
+it. Then only I can say that that okay fine so my code is
+
+00:37:00.810 --> 00:37:04.030
+written in Python. Yes my code is basically written in
+
+00:37:04.030 --> 00:37:07.750
+Python but still I'm able to access it from a Google Chrome
+
+00:37:07.750 --> 00:37:11.430
+or maybe from a Mozilla Firefox maybe from my command line
+
+00:37:11.430 --> 00:37:14.690
+right maybe from like some other tool. Like a postman or
+
+00:37:14.690 --> 00:37:17.990
+something I am able to access it. So in that situation I can
+
+00:37:17.990 --> 00:37:21.710
+say that that okay from anywhere I'm able to access this
+
+00:37:21.710 --> 00:37:25.190
+particular function and if I'm able to do it I can claim
+
+00:37:25.190 --> 00:37:29.270
+that that I'm able to create the API right. So I can give
+
+00:37:29.270 --> 00:37:32.230
+that API to anyone and anyone and everyone will be able to
+
+00:37:32.230 --> 00:37:34.950
+use my function and they will be able to execute it
+
+00:37:34.950 --> 00:37:38.230
+irrespective of the programming languages right. So they can
+
+00:37:38.230 --> 00:37:40.470
+use it in their own tool in their own programming languages
+
+00:37:40.470 --> 00:37:43.010
+and they will be able to basically consume all of the
+
+00:37:43.010 --> 00:37:45.830
+function which I have created. That's my whole idea that's
+
+00:37:45.830 --> 00:37:47.890
+my whole objective and this is what I was trying to discuss
+
+00:37:47.890 --> 00:37:51.370
+right. So I'm able to access and execute this function which
+
+00:37:51.370 --> 00:37:54.450
+is not a big deal. We have already done that right. So now
+
+00:37:54.450 --> 00:37:57.210
+it's confirmed that okay we are able to execute this
+
+00:37:57.210 --> 00:38:01.330
+particular function but that's not a case right. I'm looking
+
+00:38:01.330 --> 00:38:04.850
+for a function this particular function to get converted as
+
+00:38:04.850 --> 00:38:08.030
+an API and so that I can expose that function as an API to
+
+00:38:08.030 --> 00:38:11.990
+someone to do that what I can do over here. So to do this
+
+00:38:11.990 --> 00:38:16.530
+one. I can try to basically convert that in a API and to
+
+00:38:16.530 --> 00:38:20.190
+convert it there is a fast API library which is going to
+
+00:38:20.190 --> 00:38:23.290
+help me out. So what I can do I can just decorate it. I can
+
+00:38:23.290 --> 00:38:27.430
+write at the rate app get and then I can try to write slash.
+
+00:38:27.610 --> 00:38:29.770
+What is the meaning of slash. I'll come to that point as
+
+00:38:29.770 --> 00:38:34.450
+well. Yeah now remove the print and keep a return over here
+
+00:38:34.450 --> 00:38:37.250
+because print is just for console. I think I told you
+
+00:38:37.250 --> 00:38:40.790
+before. So here what we have done. So we have decorated the
+
+00:38:40.790 --> 00:38:44.830
+same function. With what with app app is what fast API
+
+00:38:44.830 --> 00:38:48.770
+variable. So at the rate app get is a function which is
+
+00:38:48.770 --> 00:38:51.310
+available inside fast API come to get part as well. There is
+
+00:38:51.310 --> 00:38:53.750
+something called as get post put delete all sort of
+
+00:38:53.750 --> 00:38:56.990
+functions right. So get and then I have given slash over
+
+00:38:56.990 --> 00:39:00.570
+here. I'll tell you about a slash as well. So what is the
+
+00:39:00.570 --> 00:39:03.050
+meaning of this slash and what is the meaning of maybe
+
+00:39:03.050 --> 00:39:06.190
+grieving our routes. For example a validate user route or
+
+00:39:06.190 --> 00:39:09.170
+check balance route or confirm route or reject out all of
+
+00:39:09.170 --> 00:39:12.290
+these routes. We'll be talking about that. Yeah. So here I
+
+00:39:12.290 --> 00:39:16.470
+have given now save it control is just just this much we
+
+00:39:16.470 --> 00:39:20.130
+have to do save it and then this time what we can do so we
+
+00:39:20.130 --> 00:39:25.490
+can try to execute this entire file as a server. Yeah as a
+
+00:39:25.490 --> 00:39:29.070
+server. Now this is where your unicorn will come into
+
+00:39:29.070 --> 00:39:32.150
+picture. So if you remember we have done the installation of
+
+00:39:32.150 --> 00:39:35.550
+unicorn. So pip install fast API and unicorn so which
+
+00:39:35.550 --> 00:39:39.930
+technically convert my things into a black you know. The
+
+00:39:39.930 --> 00:39:43.150
+entire. Which which converts entire things into technically
+
+00:39:43.150 --> 00:39:47.190
+like a server basically right. This is this is what it is
+
+00:39:47.190 --> 00:39:52.370
+going to do it. OK so let's try to like you know do it. So
+
+00:39:52.370 --> 00:39:55.850
+here what we can do so we can try to write a command you we
+
+00:39:55.850 --> 00:40:03.110
+call you we call main colon app and then hyphen hyphen
+
+00:40:03.110 --> 00:40:06.470
+reload. Now let's try to understand what is the meaning of
+
+00:40:06.470 --> 00:40:09.590
+generally this is the command you all will be able to see.
+
+00:40:09.590 --> 00:40:12.190
+Right. This is the command you all will be able to see
+
+00:40:12.190 --> 00:40:17.350
+basically. So like you know like what is the meaning of this
+
+00:40:17.350 --> 00:40:20.570
+particular command. So here you we call right. So you we
+
+00:40:20.570 --> 00:40:24.450
+call is what. So you we call is basically things which is
+
+00:40:24.450 --> 00:40:28.390
+going to spin the server yeah which is going to spin the
+
+00:40:28.390 --> 00:40:31.830
+server and this and then there is something called as main.
+
+00:40:31.990 --> 00:40:36.310
+So main is what. So main is something like your file. So
+
+00:40:36.310 --> 00:40:39.670
+what is my file name by the way guys. Yeah. What is my file
+
+00:40:39.670 --> 00:40:48.440
+name. Yes. What is my file name. Fast API one. So what so
+
+00:40:48.440 --> 00:40:50.240
+this is the general command you will be able to find out
+
+00:40:50.240 --> 00:40:52.640
+over the Internet. People will tell you and generally people
+
+00:40:52.640 --> 00:40:55.480
+gets confused that OK fine so it's a main main main. So
+
+00:40:55.480 --> 00:40:58.240
+every time we have to keep men but no not like that. So you
+
+00:40:58.240 --> 00:41:02.120
+can try to keep fast API one. This is your file name the
+
+00:41:02.120 --> 00:41:04.300
+file name that you have created the file that you are going
+
+00:41:04.300 --> 00:41:07.620
+to execute the Python file. Right. App is nothing but the
+
+00:41:07.620 --> 00:41:10.300
+instance variable that we have created over here. Right.
+
+00:41:10.800 --> 00:41:13.500
+Reload means. So whenever you will try to make a changes so
+
+00:41:13.500 --> 00:41:15.960
+automatically it will try to read on the entire server. If
+
+00:41:15.960 --> 00:41:18.280
+you are going to remove the reload then every time whenever
+
+00:41:18.280 --> 00:41:20.560
+you will make a changes so you have to come and execute once
+
+00:41:20.560 --> 00:41:24.680
+again command. Right. OK. So you will go on fast API one and
+
+00:41:24.680 --> 00:41:28.200
+then reload. We are going to execute it. I'm bringing you
+
+00:41:28.200 --> 00:41:30.540
+this command. So whatsoever file name that you have given if
+
+00:41:30.540 --> 00:41:34.240
+your file name is not same change it. Yeah. Like I have done
+
+00:41:34.240 --> 00:41:38.580
+that. So OK. Now here you will go on this. This this. And
+
+00:41:38.580 --> 00:41:41.560
+you will be able to see this. You will see that that now
+
+00:41:41.560 --> 00:41:46.980
+this program is not terminating itself. Now it will be up
+
+00:41:46.980 --> 00:41:49.900
+and running unless and until I'm not going to come and I'm
+
+00:41:49.900 --> 00:41:53.060
+not going to terminate it unless until I'm not going to do
+
+00:41:53.060 --> 00:41:56.000
+control X or C. Right. So unless and until I'm not doing the
+
+00:41:56.000 --> 00:41:59.240
+control C it will not be gone. And what it is trying to say
+
+00:41:59.240 --> 00:42:02.060
+it is trying to say that that will watch for the changes in
+
+00:42:02.060 --> 00:42:05.340
+this territories. You will go on running at this particular
+
+00:42:05.340 --> 00:42:09.940
+URL. Now this is basically a HTTP URL. This is basically a
+
+00:42:09.940 --> 00:42:12.000
+Python URL. This is a protocol. Right. So it is telling me
+
+00:42:12.000 --> 00:42:15.340
+that UV core means your server server means this particular
+
+00:42:15.340 --> 00:42:17.880
+file that we have created. This particular file that we have
+
+00:42:17.880 --> 00:42:23.200
+created is running at this particular location means 127.0.0
+
+00:42:23.200 --> 00:42:28.500
+.1 means what a local host. My computer local address
+
+00:42:28.500 --> 00:42:32.560
+basically. Right. So local host and 8000 is what 8000 is a
+
+00:42:32.560 --> 00:42:35.460
+port number at which we are running this fast API
+
+00:42:35.460 --> 00:42:37.400
+application. I can change port number as well. Eight
+
+00:42:37.400 --> 00:42:39.920
+thousand one two three four ten hundred whatsoever I want. I
+
+00:42:39.920 --> 00:42:42.940
+can change it. That is also you can you can provision. So it
+
+00:42:42.940 --> 00:42:45.620
+is telling me that okay it is running at this particular
+
+00:42:45.620 --> 00:42:49.260
+port number. Let's do one thing. Let's copy this and maybe
+
+00:42:49.260 --> 00:42:53.920
+go to a browser. Right and then try to basically hit this
+
+00:42:53.920 --> 00:42:58.980
+one. So just try to hit this particular URL. What you are
+
+00:42:58.980 --> 00:43:05.590
+able to see. My name is Dhanchuk Kumar from browser. Right.
+
+00:43:05.630 --> 00:43:08.210
+This is a Google Chrome a completely different application.
+
+00:43:08.810 --> 00:43:11.890
+My code is written. My function is written. In which
+
+00:43:11.890 --> 00:43:15.730
+programming language Python. I'm using my browser and with
+
+00:43:15.730 --> 00:43:18.710
+the help of browser I'm able to access what I'm able to
+
+00:43:18.710 --> 00:43:23.920
+access my Python function. Can I say that from my Google
+
+00:43:23.920 --> 00:43:26.780
+Chrome browser I'm able to execute my Python function. Can I
+
+00:43:26.780 --> 00:43:31.920
+say that. Yeah. Yes. Can I say that. Okay fine. Now here if
+
+00:43:31.920 --> 00:43:34.540
+you will come and if you'll try to check. So it will tell
+
+00:43:34.540 --> 00:43:38.760
+you that okay it's a 200 200 means okay. Now again if I'm
+
+00:43:38.760 --> 00:43:42.600
+going to refresh it. Right. 200 again. Again if I'm going to
+
+00:43:42.600 --> 00:43:45.520
+refresh it. 200 again. Right. Again if I'm going to refresh
+
+00:43:45.520 --> 00:43:49.340
+it. 200 again. So it will. It is up and running. Right. It's
+
+00:43:49.340 --> 00:43:51.200
+up and running and we'll keep on showing you that. Okay
+
+00:43:51.200 --> 00:43:53.960
+fine. So at this particular URL this is something which is
+
+00:43:53.960 --> 00:43:57.460
+running. Now why I'm able to access this at this particular
+
+00:43:57.460 --> 00:44:01.060
+URL because I have given slash slash means what at home
+
+00:44:01.060 --> 00:44:06.000
+location. Let's say if I'm going to say that that okay so my
+
+00:44:06.000 --> 00:44:08.960
+function test function you will be able to execute it at
+
+00:44:08.960 --> 00:44:13.020
+which route. At so the route. Right. At so the route. Now.
+
+00:44:13.140 --> 00:44:15.520
+So it's running already in reload. So it will be able to
+
+00:44:15.520 --> 00:44:18.440
+reload itself. Now if you will go and if you will try to
+
+00:44:18.440 --> 00:44:21.380
+execute this one it will tell you that details not found
+
+00:44:21.380 --> 00:44:27.480
+why. And what I'm supposed to do to execute my function. See
+
+00:44:27.480 --> 00:44:30.760
+this is what I've done right. Now my function is running at
+
+00:44:30.760 --> 00:44:31.140
+which path.
+
+00:44:34.440 --> 00:44:39.480
+Yes. Slash Sudhanshu. So means my system IP address. Then
+
+00:44:39.480 --> 00:44:43.240
+then basically. Sorry. My system IP address then port number
+
+00:44:43.240 --> 00:44:47.760
+and then I have given my own route that at this route you
+
+00:44:47.760 --> 00:44:50.320
+will be able to execute what you will be able to execute
+
+00:44:50.320 --> 00:44:53.280
+this particular function only at this route. So now I have
+
+00:44:53.280 --> 00:44:56.760
+to do what I have to write slash sudh then only I will be
+
+00:44:56.760 --> 00:45:01.060
+able to access this particular function. Is it making sense.
+
+00:45:01.200 --> 00:45:03.680
+What is the meaning of a routing and we can try to give my
+
+00:45:03.680 --> 00:45:06.040
+own custom route. I can say that that okay slash Sudhanshu
+
+00:45:06.040 --> 00:45:11.720
+slash sudh slash kumar slash maybe like a ram. Right. Let's
+
+00:45:11.720 --> 00:45:16.100
+say in this way. So at this route this function will be
+
+00:45:16.100 --> 00:45:18.400
+accessible. So I'm just trying to create my own custom
+
+00:45:18.400 --> 00:45:20.520
+routes and go to this go to this go to this and then you
+
+00:45:20.520 --> 00:45:22.900
+will be able to access it. So now if I have to execute
+
+00:45:22.900 --> 00:45:27.340
+something so at this route it is not going to work. But if
+
+00:45:27.340 --> 00:45:30.460
+I'm going to change the route right if I'm going to change
+
+00:45:30.460 --> 00:45:32.700
+the route slash Sudhanshu slash Sudhanshu slash kumar slash
+
+00:45:32.700 --> 00:45:35.800
+ram. So I will be able to access it. So it's just up to me
+
+00:45:35.800 --> 00:45:39.520
+how we are going to do a routing. How API works. So
+
+00:45:39.520 --> 00:45:41.700
+basically it will try to reach out to this. The system a
+
+00:45:41.700 --> 00:45:45.840
+port number and the function route. That's it. Game over.
+
+00:45:46.100 --> 00:45:50.860
+Right. So technically this is my API getting
+
+00:45:52.750 --> 00:45:56.090
+my point everyone. Yeah yes.
+
+00:46:00.110 --> 00:46:05.110
+Are you able to get my point. Yes pretty much easy right.
+
+00:46:06.010 --> 00:46:09.010
+Yeah so API simply means that that I'm trying to reach out
+
+00:46:09.010 --> 00:46:12.970
+to some system to some port number and then inside that some
+
+00:46:12.970 --> 00:46:16.330
+program is running. Right. Some like you know like
+
+00:46:16.330 --> 00:46:18.830
+application is running. Some function is running. I just
+
+00:46:18.830 --> 00:46:26.210
+have to execute that function. Fine. OK. Now. So here right.
+
+00:46:26.390 --> 00:46:28.890
+So here we have created this particular function. So
+
+00:46:28.890 --> 00:46:31.630
+likewise now I can try to create any number of functions
+
+00:46:31.630 --> 00:46:35.810
+over here. So maybe def and then I can try to create maybe
+
+00:46:35.810 --> 00:46:39.490
+this kind of a function. So validate a user function then
+
+00:46:39.490 --> 00:46:43.970
+check balance function. Validate data. Let's say I'm trying
+
+00:46:43.970 --> 00:46:51.500
+to create this function then. Check balance function. Let's
+
+00:46:51.500 --> 00:46:54.920
+say I'm trying to create and then I'm trying to create maybe
+
+00:46:54.920 --> 00:46:58.620
+like a process transaction function. Right. Then I'm going
+
+00:46:58.620 --> 00:47:06.520
+to create maybe like a reject transaction function. Then I'm
+
+00:47:06.520 --> 00:47:11.880
+going to create maybe def deduct money fine.
+
+00:47:15.770 --> 00:47:19.310
+So now these are the function let's say we have created so
+
+00:47:19.310 --> 00:47:22.090
+many functions we have created. Yeah. Only one function I
+
+00:47:22.090 --> 00:47:24.790
+have degraded it with some like a sort of a API. But yeah.
+
+00:47:24.850 --> 00:47:27.910
+So for every function what we can do. So maybe we can try to
+
+00:47:27.910 --> 00:47:32.450
+give this one. So at the rate app. Yeah. So check balance
+
+00:47:32.450 --> 00:47:37.690
+and then at the rate basically like this one maybe we can
+
+00:47:37.690 --> 00:47:43.210
+try to write at the rate this one maybe we can try to write
+
+00:47:43.210 --> 00:47:47.290
+at the rate this one. So here now you will be able to see
+
+00:47:47.290 --> 00:47:51.130
+that that it was a plain route which I had created. Right.
+
+00:47:51.610 --> 00:47:55.590
+It was a plain route I have created. Now here so validate a
+
+00:47:55.590 --> 00:47:58.970
+data. Right. So this is one of my function let's say
+
+00:47:58.970 --> 00:48:01.470
+validate data and simple normal function. Nothing fancy.
+
+00:48:01.530 --> 00:48:04.110
+Right. So this is a simple normal function I have created
+
+00:48:04.110 --> 00:48:09.130
+but this function takes input. Yeah. Validated data means so
+
+00:48:09.130 --> 00:48:11.370
+whenever you will send a data so it will try to like you
+
+00:48:11.370 --> 00:48:14.650
+know check it and then it will try to return the data if
+
+00:48:14.650 --> 00:48:16.890
+data is valid or maybe some sort of a message some sort of
+
+00:48:16.890 --> 00:48:19.570
+other function it is going to execute it if data is not
+
+00:48:19.570 --> 00:48:21.910
+valid as per the validation which I have written over here.
+
+00:48:22.350 --> 00:48:25.730
+So it will try to tell you data must not be like data must
+
+00:48:25.730 --> 00:48:28.450
+be a positive integer something like that. Right. So
+
+00:48:28.450 --> 00:48:31.670
+obviously if you have to execute this particular function
+
+00:48:31.670 --> 00:48:35.550
+right so via the same route the route that you have been
+
+00:48:35.550 --> 00:48:39.590
+using so via same route you have to send what. So via same
+
+00:48:39.590 --> 00:48:43.530
+route you have to send some data some input agree everyone
+
+00:48:43.530 --> 00:48:47.930
+then only this function will be executed. Right. This entire
+
+00:48:47.930 --> 00:48:55.360
+function will be executed. Agree. Yes. If I have to execute
+
+00:48:55.360 --> 00:48:57.760
+this function because this is just a normal python function.
+
+00:48:57.840 --> 00:49:00.980
+Right guys. Yeah. So anyone who is having difficulty with
+
+00:49:00.980 --> 00:49:03.900
+respect to understanding this function. I don't think so.
+
+00:49:05.560 --> 00:49:08.580
+Anyone in this class who is having any kind of difficulties
+
+00:49:08.580 --> 00:49:13.580
+in terms of understanding the function. So guys communicate
+
+00:49:13.580 --> 00:49:19.930
+communicate as fast as possible. Yeah. Okay. So basically
+
+00:49:19.930 --> 00:49:24.830
+this function I have exposed it with this route. So someone
+
+00:49:24.830 --> 00:49:27.850
+will go to this route first of all. Right. Someone will go
+
+00:49:27.850 --> 00:49:32.590
+to this route and then they are supposed to pass a data in
+
+00:49:32.590 --> 00:49:36.850
+some format. Once that person is going to send a data then
+
+00:49:36.850 --> 00:49:39.490
+this data will be given to this particular function and then
+
+00:49:39.490 --> 00:49:41.790
+accordingly this function is going to work this function is
+
+00:49:41.790 --> 00:49:45.950
+going to behave. Right. As simple as that. So here with the
+
+00:49:45.950 --> 00:49:49.230
+help of this API this route that we have created so we can
+
+00:49:49.230 --> 00:49:52.050
+try to pass the data. Because to execute this function I
+
+00:49:52.050 --> 00:49:56.090
+have to pass the data at that particular route. So that it
+
+00:49:56.090 --> 00:50:00.270
+will come here and then this will be executed. So now I have
+
+00:50:00.270 --> 00:50:04.290
+to test this particular functionality. Yeah. I have to test
+
+00:50:04.290 --> 00:50:08.470
+this particular functionality. Okay. So let's try to test
+
+00:50:08.470 --> 00:50:13.290
+it. So any idea how we can try to pass the data. Yes. Any
+
+00:50:13.290 --> 00:50:15.770
+idea how we can try to pass the data. Because here in this
+
+00:50:15.770 --> 00:50:18.110
+situation it was very simple. Right. Go to the route and
+
+00:50:18.110 --> 00:50:21.010
+then you will be able to access it. But here situation is
+
+00:50:21.010 --> 00:50:23.510
+different and going forward even over here we are passing a
+
+00:50:23.510 --> 00:50:25.830
+data. Even over here we are trying to pass the data. Even
+
+00:50:25.830 --> 00:50:28.710
+over here we are trying to pass the data. Even over here we
+
+00:50:28.710 --> 00:50:31.230
+are trying to pass the data. So if I can understand that how
+
+00:50:31.230 --> 00:50:34.610
+to pass a data over here I think we all will be able to
+
+00:50:34.610 --> 00:50:37.750
+understand that how I will be able to pass a data in other
+
+00:50:37.750 --> 00:50:43.250
+situation as well. Can I say that? Yes. Can I say that?
+
+00:50:48.200 --> 00:50:52.880
+Okay. So here first of all just control S and then it will
+
+00:50:52.880 --> 00:50:55.900
+be able to refer. So you will be able to see that it has
+
+00:50:55.900 --> 00:51:00.340
+refreshed the server. Okay. Now let's do one thing. So we
+
+00:51:00.340 --> 00:51:03.120
+have to pass the data. So maybe some numbers we have to
+
+00:51:03.120 --> 00:51:06.860
+pass. So slash validate. This is my route. So I will just go
+
+00:51:06.860 --> 00:51:11.380
+to this route. So I will simply go to this particular route.
+
+00:51:11.620 --> 00:51:16.560
+Yeah. Slash validate. And then if I have to pass a data. If
+
+00:51:16.560 --> 00:51:19.760
+I have to basically pass a data. So maybe we can try to
+
+00:51:19.760 --> 00:51:25.400
+write slash 10 over here. Enter. Now. I am able to get the
+
+00:51:25.400 --> 00:51:28.420
+output. What is the output that I am able to get? 10.
+
+00:51:29.780 --> 00:51:33.780
+Simple. Because in case of a data, valid data, if you are
+
+00:51:33.780 --> 00:51:36.800
+going to pass. In case if you are passing a valid data, it
+
+00:51:36.800 --> 00:51:41.280
+returns what? A data itself. If data is lesser than 0, let's
+
+00:51:41.280 --> 00:51:45.980
+say. So for example if I am trying to pass, minus 10 over
+
+00:51:45.980 --> 00:51:53.300
+here. Sorry. Minus 10. Minus 10 over here. Internal server
+
+00:51:53.300 --> 00:51:58.920
+error. Here data must be positive integer. It should pass.
+
+00:51:59.740 --> 00:52:03.700
+So it is raising a value error exception. That is completely
+
+00:52:03.700 --> 00:52:09.000
+fine. So yeah. Internal server error is something that I am
+
+00:52:09.000 --> 00:52:12.040
+getting from that particular one. If I am going to pass some
+
+00:52:12.040 --> 00:52:14.280
+positive data, so in that case obviously I will be able to
+
+00:52:14.280 --> 00:52:19.260
+get the correct response. Very very simple. Right. Very very
+
+00:52:19.260 --> 00:52:25.140
+simple. We are able to pass a data over here. Ok. So but
+
+00:52:25.140 --> 00:52:28.020
+here it should not give me internal server error. In case of
+
+00:52:28.020 --> 00:52:32.380
+a negative, it should give me the exact message. So maybe I
+
+00:52:32.380 --> 00:52:37.620
+will have to change this exception handling. Raise value
+
+00:52:37.620 --> 00:52:41.600
+error data must be a positive integer. Why it is not giving
+
+00:52:41.600 --> 00:52:46.480
+me? Yeah. Raise should actually give this particular
+
+00:52:46.480 --> 00:52:49.520
+message. Not internal server error. I don't know. What's
+
+00:52:49.520 --> 00:52:53.860
+the. So here it is telling me data must be a positive
+
+00:52:53.860 --> 00:52:56.340
+integer. In a console.
+
+00:53:00.070 --> 00:53:03.670
+Maybe a pidentic issue. I will try to check in a later
+
+00:53:03.670 --> 00:53:06.510
+stage. Because of version mismatch.
+
+00:53:16.440 --> 00:53:21.280
+Still internal server error in case of like a positive. So
+
+00:53:21.280 --> 00:53:25.700
+fine. It is giving me positive network response
+
+00:53:29.350 --> 00:53:32.550
+number. Now in case of negative.
+
+00:53:38.820 --> 00:53:43.340
+500. Ok. So it is giving me 500. And that's the reason it is
+
+00:53:43.340 --> 00:53:47.420
+printing this response wise internal server error. It is
+
+00:53:47.420 --> 00:53:51.720
+sending a good request. But yeah. It is not able to do a
+
+00:53:51.720 --> 00:53:54.120
+data validation it seems. Ok. Not an issue.
+
+00:54:03.000 --> 00:54:06.280
+Fine. So I am able to access that particular function that I
+
+00:54:06.280 --> 00:54:09.660
+have written. Ok. Well we can try to fix it. We can try to
+
+00:54:09.660 --> 00:54:12.100
+fix it by just handling exception in a better manner.
+
+00:54:14.880 --> 00:54:21.820
+Or maybe I can try to. Return over here. This one.
+
+00:54:29.420 --> 00:54:32.360
+Ha. So any data must be a positive integer. So whatsoever
+
+00:54:32.360 --> 00:54:34.740
+that I am returning from there. So it is able to capture
+
+00:54:34.740 --> 00:54:38.300
+that particular part. Yeah. So now it is working. Like the
+
+00:54:38.300 --> 00:54:41.760
+way I was expecting. Right. So that issue is also fixed. So
+
+00:54:41.760 --> 00:54:44.120
+here. Now we are able to understand that. That how we can
+
+00:54:44.120 --> 00:54:46.480
+try to pass a data and then how I will be able to
+
+00:54:46.480 --> 00:54:49.020
+technically test it. Yeah. How will be able to technically
+
+00:54:49.020 --> 00:54:52.160
+test it. Likewise I will be able to test all the other
+
+00:54:52.160 --> 00:54:55.620
+functions as well. Now the beautiful part about this fast
+
+00:54:55.620 --> 00:54:59.600
+API is that. That. Gives you. For a beginner. For a newbies.
+
+00:54:59.760 --> 00:55:03.180
+Right. So let's say. I am trying to like. You know. Test
+
+00:55:03.180 --> 00:55:07.680
+some of the API. Which is a fast API based API. So it gives
+
+00:55:07.680 --> 00:55:13.400
+you basically a very beautiful UI as well. Where you can go
+
+00:55:13.400 --> 00:55:15.820
+and you can try to test it. So let's say my API is running
+
+00:55:15.820 --> 00:55:19.640
+at this particular location 127.0.0.0.1 8000 port number.
+
+00:55:19.920 --> 00:55:24.680
+You can try to write docs over here. DOCS. Yeah. DOCS over
+
+00:55:24.680 --> 00:55:29.160
+here. And it gives you a swagger UI. What so ever things
+
+00:55:29.160 --> 00:55:31.760
+that is been running. So for that it is going to give you a
+
+00:55:31.760 --> 00:55:34.700
+beautiful UI interface. And with the help of this UI
+
+00:55:34.700 --> 00:55:38.820
+interface itself. You will be able to even test it. Yeah.
+
+00:55:38.920 --> 00:55:40.960
+With the help of this UI interface. Which is pretty much
+
+00:55:40.960 --> 00:55:45.600
+easy to test it. From the browser itself. So just write your
+
+00:55:45.600 --> 00:55:48.880
+localhost 8000 and then slash docs and you will be able to
+
+00:55:48.880 --> 00:55:52.340
+land into a swagger UI. This UI is called a swagger UI. S-W
+
+00:55:52.340 --> 00:55:56.600
+-A-G-G-E-R swagger UI interface. Okay. So let's say if I
+
+00:55:56.600 --> 00:55:59.400
+have to test this particular function. So what I can do. I
+
+00:55:59.400 --> 00:56:02.660
+can just expand. I can click try it out. And then once I am
+
+00:56:02.660 --> 00:56:05.360
+going to click try it out. So I can try to pass my data over
+
+00:56:05.360 --> 00:56:08.480
+here. For example 5 I am trying to pass. Right. So here it
+
+00:56:08.480 --> 00:56:10.500
+is telling me. It is giving me some hint as well. And then
+
+00:56:10.500 --> 00:56:13.760
+execute. So what so ever response it is going to give.
+
+00:56:13.840 --> 00:56:17.220
+Right. So it is giving me 200. Response is equals to 5. So
+
+00:56:17.220 --> 00:56:19.920
+yes I am able to access this one. I will be able to
+
+00:56:19.920 --> 00:56:22.660
+basically test it. Let's say if I am going to pass maybe a
+
+00:56:22.660 --> 00:56:26.360
+minus 5 over here. Click on execute. And then this is the
+
+00:56:26.360 --> 00:56:29.680
+response. Error data must be positive integer. So even with
+
+00:56:29.680 --> 00:56:33.280
+the help of swagger UI I will be able to test all of my
+
+00:56:33.280 --> 00:56:36.760
+APIs. So what is our request which it is taking means what
+
+00:56:36.760 --> 00:56:40.600
+is the input. I am sending and what is the output which I am
+
+00:56:40.600 --> 00:56:45.340
+able to technically get it. Is it making sense to all of us
+
+00:56:45.340 --> 00:56:51.060
+guys. And by default it is going to create your testing URL
+
+00:56:51.060 --> 00:56:54.540
+as well. So request URL as well. Plus there is something
+
+00:56:54.540 --> 00:56:57.320
+called as curl by which you will be able to test it inside a
+
+00:56:57.320 --> 00:57:00.120
+console from a command prompt command line you will be able
+
+00:57:00.120 --> 00:57:04.720
+to execute it and you will be able to basically test it.
+
+00:57:27.760 --> 00:57:30.500
+So I am able to test it even with the help of command line
+
+00:57:30.500 --> 00:57:33.480
+or if you are a Linux user or if you are a Mac user you will
+
+00:57:33.480 --> 00:57:36.280
+be able to test it even from here. So this is basically a
+
+00:57:36.280 --> 00:57:39.320
+curl command. So curl command. So basically curl is a
+
+00:57:39.320 --> 00:57:42.280
+command and then there is a method called as get by which we
+
+00:57:42.280 --> 00:57:45.340
+are trying to hit the URL. And this is the technically URL.
+
+00:57:45.340 --> 00:57:47.880
+It is going to execute it and whatsoever return it is going
+
+00:57:47.880 --> 00:57:49.980
+to give it to you. So you will be able to see that
+
+00:57:49.980 --> 00:57:53.140
+particular return inside a command line. So I am able to
+
+00:57:53.140 --> 00:57:56.860
+test my API with the help of like you know browser as of now
+
+00:57:56.860 --> 00:57:59.500
+I am able to test it with the help of swagger UI. I am able
+
+00:57:59.500 --> 00:58:02.940
+to test it even with the help of command line a curl command
+
+00:58:02.940 --> 00:58:07.300
+that okay my API is working. So whenever I am trying to hit
+
+00:58:07.300 --> 00:58:10.260
+this one. So yes I am able to execute a respective function
+
+00:58:10.260 --> 00:58:13.900
+and I am able to get my data back or I am able to even pass
+
+00:58:13.900 --> 00:58:18.220
+the data. And then I am able to receive the data back. As
+
+00:58:18.220 --> 00:58:21.680
+simple as it is. Very very simple. Right. Very very simple.
+
+00:58:21.840 --> 00:58:26.460
+So we all are able to do it. Okay. Fine. Now another
+
+00:58:26.460 --> 00:58:29.820
+situation. Right. So likewise I will be able to test all the
+
+00:58:29.820 --> 00:58:32.200
+API that I have created with the help of this one. Yeah.
+
+00:58:32.260 --> 00:58:34.620
+Everything I will be able to test it. I can enter maybe like
+
+00:58:34.620 --> 00:58:37.740
+an amount. So try this out and then I can enter maybe the
+
+00:58:37.740 --> 00:58:41.340
+amount over here and then balance is basically this one and
+
+00:58:41.340 --> 00:58:44.080
+then execute it. Whatsoever response it is supposed to give.
+
+00:58:44.340 --> 00:58:49.160
+It is going to give it to you and you can test each and
+
+00:58:49.160 --> 00:58:54.180
+every API one by one one by one. Okay. Now let's say as of
+
+00:58:54.180 --> 00:58:57.420
+now in my system I am able to test it. Right. In my local
+
+00:58:57.420 --> 00:59:02.840
+system I am able to test it. But what if I would like to
+
+00:59:02.840 --> 00:59:08.880
+treat my system as a server as a cloud server. Right. And if
+
+00:59:08.880 --> 00:59:12.920
+you wanted to access all of these API which I have created.
+
+00:59:13.660 --> 00:59:18.240
+Right. So is it is it possible guys that I can you know make
+
+00:59:18.240 --> 00:59:21.680
+my system as a server and then maybe I can give an access to
+
+00:59:21.680 --> 00:59:23.800
+you and now you will be able to test it inside the live
+
+00:59:23.800 --> 00:59:26.340
+class itself. Yeah. Is it possible.
+
+00:59:32.390 --> 00:59:34.490
+Yes. So any any idea how.
+
+00:59:44.170 --> 00:59:48.690
+No. Okay. Someone is saying NGINX. Okay. Okay. Fine.
+
+01:00:00.410 --> 01:00:05.330
+By going in a C drive host name maybe. Okay. Okay. Someone
+
+01:00:05.330 --> 01:00:09.890
+is saying NGROCK. Hmm. Okay. Fine. So there is something
+
+01:00:09.890 --> 01:00:14.770
+called as NGROCK. So let me like go to a Google and let me
+
+01:00:14.770 --> 01:00:19.230
+like you know show it to you. So there is something called
+
+01:00:19.230 --> 01:00:24.650
+as if you will go to Google. Yeah. So you will be able to
+
+01:00:24.650 --> 01:00:26.510
+find out something called as NGROCK.
+
+01:00:29.080 --> 01:00:33.040
+Why Google is not working. Why it's slow.
+
+01:00:42.190 --> 01:00:45.630
+Okay. It's maybe my internet problem or something.
+
+01:01:13.070 --> 01:01:18.680
+Okay. So am I am audible guys. To all of us. Yeah. I think
+
+01:01:18.680 --> 01:01:23.800
+there was some sort of a non-responsive in between. So there
+
+01:01:23.800 --> 01:01:26.240
+is something called as basically
+
+01:01:31.490 --> 01:01:37.970
+NGROCK. Yeah. So just go to Google. Try to search for NGROCK
+
+01:01:37.970 --> 01:01:41.990
+and then you can try to you know download it for a Windows
+
+01:01:41.990 --> 01:01:44.250
+machine. You can download it for a Linux machine. You can
+
+01:01:44.250 --> 01:01:47.630
+download it for a Mac machine as well. So you can try to
+
+01:01:47.630 --> 01:01:50.850
+download it for all the machines that you want. Now what you
+
+01:01:50.850 --> 01:01:54.350
+can do. So you can if you are into a Mac or maybe a Linux or
+
+01:01:54.350 --> 01:01:57.970
+maybe into a Windows. So just go here and then you can try
+
+01:01:57.970 --> 01:02:02.050
+to download it. Yeah. So download it 64 bit for a Windows
+
+01:02:02.050 --> 01:02:05.490
+and once you will be able to download it it will not take
+
+01:02:05.490 --> 01:02:08.050
+much of your time and you will be able to install it. It's a
+
+01:02:08.050 --> 01:02:12.130
+very small software by the way only 11.4 MB of software. So
+
+01:02:12.130 --> 01:02:15.710
+let's say I have downloaded this NGROCK right click and then
+
+01:02:15.710 --> 01:02:20.790
+extract all extract. Okay. So NGROCK. Now NGROCK is here.
+
+01:02:20.870 --> 01:02:25.050
+Okay. So I can try to basically open up NGROCK or maybe I
+
+01:02:25.050 --> 01:02:28.670
+can try to call CMD in this particular location. So where
+
+01:02:28.670 --> 01:02:33.490
+NGROCK is available NGROCK is available. So yeah NGROCK is
+
+01:02:33.490 --> 01:02:35.630
+available at this particular location. So I have just opened
+
+01:02:35.630 --> 01:02:41.390
+it up CLS and then what I can do so I can try to basically
+
+01:02:41.390 --> 01:02:45.710
+do a port forwarding. Yes. I can try to do basically a port
+
+01:02:45.710 --> 01:02:49.290
+forwarding so means whatsoever is running at a particular
+
+01:02:49.290 --> 01:02:53.250
+port. I will be able to basically forward that particular
+
+01:02:53.250 --> 01:02:58.050
+port to a NGROCK and NGROCK is going to make my entire
+
+01:02:58.050 --> 01:03:04.050
+system available to internet. This is what it does. So for
+
+01:03:04.050 --> 01:03:08.670
+example like you know if I some application is running at
+
+01:03:08.670 --> 01:03:10.990
+some particular port for example this application is running
+
+01:03:10.990 --> 01:03:15.710
+in my system at port number 8000. So what I can do. I can
+
+01:03:15.710 --> 01:03:19.830
+try to expose this entire things. The 8000 port number. And
+
+01:03:19.830 --> 01:03:24.970
+my system with the help of NGROCK to make it global. So just
+
+01:03:24.970 --> 01:03:27.730
+download NGROCK guys then I am going to show you it is just
+
+01:03:27.730 --> 01:03:30.490
+going to take 30 second of your time and then my application
+
+01:03:30.490 --> 01:03:34.110
+will simply go global. I am going to share my API and my URL
+
+01:03:34.110 --> 01:03:37.130
+with all of you and you all will be able to test it in a
+
+01:03:37.130 --> 01:03:39.710
+real time and I will show you that how many of you are
+
+01:03:39.710 --> 01:03:42.710
+hitting my system. So that stats also I will be able to show
+
+01:03:42.710 --> 01:03:45.210
+it to you. So download NGROCK guys. Yes.
+
+01:03:50.960 --> 01:03:54.100
+Done. Yeah. Everyone.
+
+01:03:58.180 --> 01:04:03.540
+Yes. Okay. Now so if you have done that open up NGROCK and
+
+01:04:03.540 --> 01:04:06.900
+something is running at my 8000 port number. Right.
+
+01:04:07.300 --> 01:04:09.740
+Something means literally anything as of now I am talking
+
+01:04:09.740 --> 01:04:11.820
+about a Python programming but going forward you will be
+
+01:04:11.820 --> 01:04:14.080
+able to find out that anything means anything you can expose
+
+01:04:14.080 --> 01:04:17.240
+it from your system. So here the command is going to be very
+
+01:04:17.240 --> 01:04:22.680
+simple NGROCK right NGROCK HTTP and then you have to write
+
+01:04:22.680 --> 01:04:25.700
+8000 over here. It simply means when I am going to hit
+
+01:04:25.700 --> 01:04:29.980
+enter. Right. In no time you will be able to see this kind
+
+01:04:29.980 --> 01:04:32.560
+of a URL and what the meaning of what is the meaning of this
+
+01:04:32.560 --> 01:04:35.920
+URL meaning of this URL is that that whatsoever is running
+
+01:04:35.920 --> 01:04:38.920
+at this particular URL whatsoever is running at this
+
+01:04:38.920 --> 01:04:42.820
+particular URL. So now it's been forwarded to HTTPS
+
+01:04:42.820 --> 01:04:47.340
+hypertext transfer protocol secure and it is been available
+
+01:04:47.340 --> 01:04:52.320
+at this particular URL as simple as that I can do my own
+
+01:04:52.320 --> 01:04:55.720
+custom URL binding as well. That is also possible. So this
+
+01:04:55.720 --> 01:04:59.500
+is something called as port forwarding simple this is
+
+01:04:59.500 --> 01:05:02.240
+something called as port forwarding. So basically whatsoever
+
+01:05:02.240 --> 01:05:05.560
+is running at this particular location in my system I have
+
+01:05:05.560 --> 01:05:09.220
+forwarded that to this particular URL and this is where
+
+01:05:09.220 --> 01:05:13.040
+NGROCK as a software comes into picture. So now whatsoever
+
+01:05:13.040 --> 01:05:17.200
+is running at 8000 port number everything is global. Now you
+
+01:05:17.200 --> 01:05:20.600
+can try to copy this URL and then you can go to a browser
+
+01:05:20.600 --> 01:05:25.000
+right go to a browser hit it. Right. And you will be visit
+
+01:05:25.000 --> 01:05:28.620
+site for the very first time and yes everything is now live.
+
+01:05:28.780 --> 01:05:32.820
+If I'm going to call slash DOCS I will be able to see a
+
+01:05:32.820 --> 01:05:37.360
+swagger UI right. If I'm going to call this URL and then
+
+01:05:37.360 --> 01:05:42.720
+slash basically and this SUDH SUDH and then this you know
+
+01:05:42.720 --> 01:05:51.000
+this URL SUDH SUDH and Kumar slash Ram right so I will be
+
+01:05:51.000 --> 01:05:53.220
+able to print my name is Anshu Kumar. It means whatsoever
+
+01:05:53.220 --> 01:05:56.440
+function is there so I am able to basically access it. So
+
+01:05:56.440 --> 01:06:01.020
+this is the URL. So just I'm pinging you this URL. Now all
+
+01:06:01.020 --> 01:06:05.460
+of you will be able to access my system. Do it guys. Hit
+
+01:06:05.460 --> 01:06:11.700
+this URL and I will be able to see like who is doing what
+
+01:06:11.700 --> 01:06:16.160
+basically in a real time. How many people are trying to hit
+
+01:06:16.160 --> 01:06:20.560
+my API. I will be able to see it even over here. And I will
+
+01:06:20.560 --> 01:06:23.740
+be able to see it. Okay. Over here. See how many people are
+
+01:06:23.740 --> 01:06:27.680
+hitting it in a real time right and what they are hitting
+
+01:06:27.680 --> 01:06:30.400
+it. So which which path which function you are trying to
+
+01:06:30.400 --> 01:06:32.520
+access I will be able to see each and everything in a real
+
+01:06:32.520 --> 01:06:35.740
+time as you can see in my machine right. So now my machine
+
+01:06:35.740 --> 01:06:38.660
+went global and unless and until I'm not going to terminate
+
+01:06:38.660 --> 01:06:41.880
+my ng-rog all of you will be able to access my machine and
+
+01:06:41.880 --> 01:06:44.540
+all of you will be able to execute my python function which
+
+01:06:44.540 --> 01:06:45.680
+is running in my system.
+
+01:06:49.360 --> 01:06:52.900
+Making sense all of us guys. Yeah. So you can access any
+
+01:06:52.900 --> 01:06:54.660
+function by the way guys. Any function. Any function means
+
+01:06:54.660 --> 01:06:57.040
+any function that we have written right. Every function is
+
+01:06:57.040 --> 01:06:59.860
+having its own path. You will be able to see it even inside
+
+01:06:59.860 --> 01:07:03.320
+the swagger UI slash docs. So you will be able to execute
+
+01:07:03.320 --> 01:07:08.060
+and you will be able to like do whatsoever you want. Are you
+
+01:07:08.060 --> 01:07:11.720
+are you able to do it. And yes if you are going to get some
+
+01:07:11.720 --> 01:07:13.820
+sort of error I will be getting error as well. And this is
+
+01:07:13.820 --> 01:07:15.640
+where I taught you about a logging.
+
+01:07:18.400 --> 01:07:22.540
+Hope all of you remember logging right. Yeah. So as of now
+
+01:07:22.540 --> 01:07:25.520
+I'm able to see everything inside a console and I can even
+
+01:07:25.520 --> 01:07:28.020
+see that that some of you have tried executing. Some like
+
+01:07:28.020 --> 01:07:30.360
+you know some of my function and it has given you some sort
+
+01:07:30.360 --> 01:07:33.990
+of error. Now I have to log it.
+
+01:07:36.950 --> 01:07:39.770
+Yes so ng-rog has been used everywhere wherever you have to
+
+01:07:39.770 --> 01:07:41.930
+do a tunneling means port forwarding.
+
+01:07:46.790 --> 01:07:51.310
+Yes so yeah use my URL and then you will be having an access
+
+01:07:51.310 --> 01:07:54.090
+of my entire system whatsoever is running at 8000 port
+
+01:07:54.090 --> 01:07:58.310
+number you will be able to technically access it as simple
+
+01:07:58.310 --> 01:08:02.270
+as that. So now my API went global. And from your browser.
+
+01:08:02.270 --> 01:08:05.270
+From anywhere sitting in this entire world you all are able
+
+01:08:05.270 --> 01:08:08.270
+to access my system at only this port number. Nothing else.
+
+01:08:08.350 --> 01:08:11.570
+Nothing different. Nothing else has been execute or nothing
+
+01:08:11.570 --> 01:08:14.350
+else has been like you will be able to access it from my
+
+01:08:14.350 --> 01:08:17.710
+system whatsoever is running at 8000 port number only that
+
+01:08:17.710 --> 01:08:22.590
+you will be able to access it. So you don't have an access
+
+01:08:22.590 --> 01:08:24.310
+of my entire system but only this one.
+
+01:08:27.650 --> 01:08:30.470
+Transaction rejected. No fund. Okay fine. Value error.
+
+01:08:34.000 --> 01:08:37.760
+Okay. So hope all of you have liked it. This practical
+
+01:08:37.760 --> 01:08:43.360
+example. Of API how to make an API how to test in a local
+
+01:08:43.360 --> 01:08:46.180
+system and then how to you know make it global.
+
+01:08:49.280 --> 01:08:52.880
+Yes. Yeah. So are you are you guys able to understand the
+
+01:08:52.880 --> 01:08:56.140
+meaning of API little bit. I mean like 20 30 percent now.
+
+01:08:59.580 --> 01:09:03.740
+Yeah. Okay. Fine. So if you are able to understand 20 30
+
+01:09:03.740 --> 01:09:07.360
+percent so let's take another steps into the same and let's
+
+01:09:07.360 --> 01:09:09.620
+try to understand couple of more things. So now I'm going to
+
+01:09:09.620 --> 01:09:14.940
+stop my ng-rog none of you will be able to access it. So it
+
+01:09:14.940 --> 01:09:19.380
+has stopped and now no one will be able to send any kind of
+
+01:09:19.380 --> 01:09:24.500
+a request to my machine. Okay. So here we are basically
+
+01:09:24.500 --> 01:09:27.620
+trying to talk about this get function and now with the help
+
+01:09:27.620 --> 01:09:30.240
+of this get function so we are able to send a request and
+
+01:09:30.240 --> 01:09:33.220
+yes we are able to basically serve the responses. So there
+
+01:09:33.220 --> 01:09:35.720
+is no doubt about it. It's everything is like you know
+
+01:09:35.720 --> 01:09:40.340
+working as per the expectation as simple as that. Okay. Now.
+
+01:09:40.340 --> 01:09:44.180
+So I would like to show you. So get is one of the function
+
+01:09:44.180 --> 01:09:46.880
+by which you are basically sending a data and then
+
+01:09:46.880 --> 01:09:50.060
+eventually you are able to get the responses you are able to
+
+01:09:50.060 --> 01:09:53.620
+get something in return and then eventually you will be able
+
+01:09:53.620 --> 01:09:56.280
+to do like whatsoever you want with respect to that
+
+01:09:56.280 --> 01:10:00.500
+particular data set. Now I would like to show you something
+
+01:10:00.500 --> 01:10:04.460
+called as post basically. Yeah. So I would like to show you
+
+01:10:04.460 --> 01:10:09.340
+something called as post. So here. Yeah. So instead of
+
+01:10:09.340 --> 01:10:13.900
+writing app dot get I can try to write basically app dot
+
+01:10:13.900 --> 01:10:18.180
+post and then maybe I can write one of the functions. So
+
+01:10:18.180 --> 01:10:21.260
+let's say I have written a function called as create user.
+
+01:10:21.760 --> 01:10:24.400
+Now what will happen with respect to a create user. So
+
+01:10:24.400 --> 01:10:27.660
+whenever you are going to call this create user. Right. So
+
+01:10:27.660 --> 01:10:32.460
+you can try to pass a user name and if not user name then it
+
+01:10:32.460 --> 01:10:35.900
+will tell you that it's a empty response you have given.
+
+01:10:36.260 --> 01:10:39.040
+Otherwise. Otherwise it is going to send you a final
+
+01:10:39.040 --> 01:10:42.700
+response saying that that user created successfully means
+
+01:10:42.700 --> 01:10:45.440
+this particular user that you have sent. So it has created
+
+01:10:45.440 --> 01:10:48.440
+successfully. Now this is a very normal function which I
+
+01:10:48.440 --> 01:10:51.540
+have created. Nothing fancy. Right. The only thing which I
+
+01:10:51.540 --> 01:10:54.100
+have changed it over here is that that it's a post request.
+
+01:10:54.500 --> 01:10:58.940
+Yes. It's a post request. Now previous request that we were
+
+01:10:58.940 --> 01:11:01.260
+trying to send. So the nature of that request was basically
+
+01:11:01.260 --> 01:11:05.000
+get and then here the request that we are trying to send.
+
+01:11:05.140 --> 01:11:10.380
+So. So this is technically a post request that we are trying
+
+01:11:10.380 --> 01:11:16.600
+to technically send. So now how I will be able to test this
+
+01:11:16.600 --> 01:11:20.940
+post request. Let's say. Right. Let's see. So control s and
+
+01:11:20.940 --> 01:11:24.100
+then slash create user. Right. So I'll try to go to this
+
+01:11:24.100 --> 01:11:27.700
+particular path and then I'll try to pass the user name. So
+
+01:11:27.700 --> 01:11:29.920
+let me go to this particular path and
+
+01:11:38.560 --> 01:11:43.720
+then here. So I'll try to pass basically a C U D H. Is it
+
+01:11:43.720 --> 01:11:46.640
+going to pass? Is it going to work by the way? So let's say
+
+01:11:46.640 --> 01:11:49.060
+I'm trying to do slash create user slash S U D H from a
+
+01:11:49.060 --> 01:11:54.220
+browser. My question is that that is it going to work? See I
+
+01:11:54.220 --> 01:11:58.800
+have created slash create user slash S U D H. Yeah. Okay.
+
+01:11:58.860 --> 01:12:01.260
+Many people are saying yes it is going to work. Let's hit
+
+01:12:01.260 --> 01:12:06.200
+enter and it is telling me that not found. Now right click
+
+01:12:06.200 --> 01:12:10.400
+inspect, go to a network over here and then execute once
+
+01:12:10.400 --> 01:12:15.020
+again and then here. Now it is telling me the error five
+
+01:12:15.020 --> 01:12:17.440
+four zero five. What is the, and it is telling me that
+
+01:12:17.440 --> 01:12:22.900
+method not allowed. Yeah. So basically I'm trying to hit
+
+01:12:22.900 --> 01:12:25.700
+create user and then I'm trying to provide the username
+
+01:12:26.060 --> 01:12:29.220
+which is, which looks like valid as per the discussions that
+
+01:12:29.220 --> 01:12:32.480
+we have done so far. Right. Doesn't like a looks anything
+
+01:12:32.480 --> 01:12:35.520
+different, but here, so when you are going to check your
+
+01:12:35.520 --> 01:12:39.020
+network and when you will try to see the error over here, so
+
+01:12:39.020 --> 01:12:42.280
+error is not saying that you have a invalid input. Right.
+
+01:12:42.780 --> 01:12:46.460
+Error tells me that four zero five method not allowed means
+
+01:12:46.460 --> 01:12:51.660
+the way you are sending a data is not at all allowed. This
+
+01:12:51.660 --> 01:12:54.940
+is what it is trying to say, yes, this is what it is trying
+
+01:12:54.940 --> 01:12:58.720
+to say. And in response you are able to get method not
+
+01:12:58.720 --> 01:13:02.220
+allowed as simple as that. Right. If you will go to your
+
+01:13:02.220 --> 01:13:04.620
+like, you know, console and then you will try to check over
+
+01:13:04.620 --> 01:13:07.840
+here four zero five method not allowed four zero five and
+
+01:13:07.840 --> 01:13:10.180
+then four zero four, like I'm not able to find out this
+
+01:13:10.180 --> 01:13:12.380
+particular route or something like that. It is going to give
+
+01:13:12.380 --> 01:13:16.100
+it to you. So here, uh, what I have done, so I have made
+
+01:13:16.100 --> 01:13:19.760
+just a very, very small changes. So instead of using a get,
+
+01:13:19.920 --> 01:13:22.640
+what I'm trying to use, I'm trying to use basically a post.
+
+01:13:23.120 --> 01:13:27.360
+Yes. I'm trying to use basically a post. Now there is a
+
+01:13:27.360 --> 01:13:29.920
+difference between get and post. And I would like to explain
+
+01:13:29.920 --> 01:13:33.080
+you with the help of very, very simple example over here. So
+
+01:13:33.080 --> 01:13:36.120
+let's say I'll go to Google night and I'll try to search
+
+01:13:36.120 --> 01:13:40.420
+about Sudhanshu Kumar. Right. Right. So here if I'm
+
+01:13:40.420 --> 01:13:44.200
+searching about Sudhanshu Kumar, so what Google will do, so
+
+01:13:44.200 --> 01:13:46.980
+Google, okay, so it is giving me like a, this response, my
+
+01:13:46.980 --> 01:13:49.460
+LinkedIn ID, some of my pictures also, it is trying to give
+
+01:13:49.460 --> 01:13:52.060
+me my Instagram profile also it is able to fetch my YouTube
+
+01:13:52.060 --> 01:13:54.560
+also it is able to fetch. So yeah, a lot of, lot of things
+
+01:13:54.560 --> 01:13:57.000
+even like, you know, some of my pictures it is able to
+
+01:13:57.000 --> 01:14:00.860
+fetch. So that's completely fine. Now this is not the
+
+01:14:00.860 --> 01:14:03.520
+agenda. So what I'm trying to show you over here is that,
+
+01:14:03.540 --> 01:14:06.220
+that when I'm trying to search something Sudhanshu Kumar, so
+
+01:14:06.220 --> 01:14:09.520
+just try to check the URL. So inside a URL. You will be able
+
+01:14:09.520 --> 01:14:12.440
+to see that, that as a query, it is sending Sudhanshu plus
+
+01:14:12.440 --> 01:14:16.520
+Kumar, right? So whatsoever data, which I have searched for.
+
+01:14:16.660 --> 01:14:20.600
+So now that data set is visible here, right? That data set
+
+01:14:20.600 --> 01:14:23.720
+is visible over here. So basically it will go to a Google
+
+01:14:23.720 --> 01:14:26.940
+search, then we like search into all those pages and then in
+
+01:14:26.940 --> 01:14:30.400
+that web and then whatsoever like a server is going to give
+
+01:14:30.400 --> 01:14:33.080
+an immediate response. It will try to bring those response
+
+01:14:33.080 --> 01:14:36.180
+and it will try to show you in your Google page, right? As
+
+01:14:36.180 --> 01:14:39.060
+simple as that. Again, that is not a point. The point over
+
+01:14:39.060 --> 01:14:41.580
+here is that, that the kind of a request that I have done
+
+01:14:41.580 --> 01:14:44.400
+means when I'm sending this Sudhanshu Kumar, right? It is
+
+01:14:44.400 --> 01:14:50.300
+appending my data in a URL, right? It is trying to append my
+
+01:14:50.300 --> 01:14:55.580
+data into the URL and it's visible basically. It's basically
+
+01:14:55.580 --> 01:14:58.480
+visible to all of us, right? Anyone can come and anyone will
+
+01:14:58.480 --> 01:15:01.860
+be able to see this particular data means what is the kind
+
+01:15:01.860 --> 01:15:05.020
+of a search which has been done. So anyone and everyone will
+
+01:15:05.020 --> 01:15:08.580
+be able to see it. And anyone and everyone will be able to
+
+01:15:08.580 --> 01:15:11.400
+access this particular data. I mean like they can see it
+
+01:15:11.400 --> 01:15:15.660
+basically, right? So technically it's exposed. Now I would
+
+01:15:15.660 --> 01:15:18.140
+like to give you another example. So let's say I'll go to
+
+01:15:18.140 --> 01:15:24.820
+maybe Gmail, right? Let me use maybe like incognito. Here I
+
+01:15:24.820 --> 01:15:30.070
+have already logged in. So I'll go to Gmail. Now whenever
+
+01:15:30.070 --> 01:15:32.970
+you try to do a sign in, right? So let's say if I'm going to
+
+01:15:32.970 --> 01:15:36.470
+pass my email ID over here, will you be able to see that
+
+01:15:36.470 --> 01:15:38.770
+email ID here? Exactly. Will you be able to see inside the
+
+01:15:38.770 --> 01:15:42.030
+URL and then it is going to ask you for the password. So
+
+01:15:42.030 --> 01:15:43.810
+will you be able to see the password over here?
+
+01:15:46.540 --> 01:15:50.440
+No, right? You will not be able to see a email ID. You will
+
+01:15:50.440 --> 01:15:53.140
+not be able to see a password. Now that is the difference
+
+01:15:53.140 --> 01:15:55.860
+which I was trying to explain it to you. So basically when
+
+01:15:55.860 --> 01:15:59.080
+I'm trying to do this, get this data, I'm trying to pass
+
+01:15:59.080 --> 01:16:03.980
+inside a URL. So basically it will be possible if the method
+
+01:16:03.980 --> 01:16:09.460
+that you have created is a get method. It will be possible.
+
+01:16:09.460 --> 01:16:12.580
+If the method that you have created is a get method, very,
+
+01:16:12.660 --> 01:16:16.100
+very simple. But here, so what I have done, so I have
+
+01:16:16.100 --> 01:16:18.520
+basically created a method and I have decorated it with the
+
+01:16:18.520 --> 01:16:21.980
+post. It simply means that I'm saying a user whosoever is
+
+01:16:21.980 --> 01:16:24.800
+going to use my API, I'm saying that that whenever you're
+
+01:16:24.800 --> 01:16:29.220
+sending a data, always try to send a data with a security
+
+01:16:29.220 --> 01:16:32.480
+means with a security means do not show the data means it
+
+01:16:32.480 --> 01:16:36.200
+should not be visible inside the URL at all. I mean like do
+
+01:16:36.200 --> 01:16:39.220
+not expose it. So this is where post comes into picture. And
+
+01:16:39.220 --> 01:16:41.160
+that is the reason. So when you're trying to hit this URL
+
+01:16:41.160 --> 01:16:43.740
+with the data, it is telling you that method not allowed
+
+01:16:43.740 --> 01:16:46.940
+means this method is not allowing me to do a request in this
+
+01:16:46.940 --> 01:16:51.840
+particular manner. That is what it means. Yeah. So whenever
+
+01:16:51.840 --> 01:16:54.880
+I'm going to make, so it just like Gmail versus Google
+
+01:16:54.880 --> 01:17:02.950
+search to Google search is what guys get a post get right
+
+01:17:02.950 --> 01:17:04.990
+and Gmail post.
+
+01:17:07.270 --> 01:17:10.010
+Yes. So now I think you are able to understand and you will
+
+01:17:10.010 --> 01:17:12.770
+be able to remember it for the very, very long time. Right.
+
+01:17:13.450 --> 01:17:15.490
+So you can log into Gmail and whenever you will try to do a
+
+01:17:15.490 --> 01:17:19.350
+Google search, right. So just for the like a put and patch
+
+01:17:19.350 --> 01:17:22.770
+will will come to that. So do you want me to, you know, spit
+
+01:17:22.770 --> 01:17:30.330
+out all the words and names altogether, go step by step if
+
+01:17:30.330 --> 01:17:32.290
+you have to understand it like, you know, for a very, very
+
+01:17:32.290 --> 01:17:32.710
+long time.
+
+01:17:36.360 --> 01:17:41.540
+Okay. So here basically this method is not allowed. So means
+
+01:17:41.540 --> 01:17:43.680
+I will not be able to access this particular method. I will
+
+01:17:43.680 --> 01:17:47.380
+not be able to basically send a request. Then how I will be
+
+01:17:47.380 --> 01:17:51.540
+able to send the request. Yes. Any idea how I will be able
+
+01:17:51.540 --> 01:17:53.480
+to send the request postman.
+
+01:18:00.920 --> 01:18:03.980
+Yes. True. Even with the help of curl, I will be able to
+
+01:18:03.980 --> 01:18:07.480
+send the request. Even with the help of swagger UI, I will
+
+01:18:07.480 --> 01:18:11.580
+be able to send the request. So maybe I can try to use us.
+
+01:18:11.600 --> 01:18:13.700
+You can install postman, but yeah, that will be the another
+
+01:18:13.700 --> 01:18:17.400
+step. So maybe I can try to, you know, uh, go over here as
+
+01:18:17.400 --> 01:18:20.360
+you can see it's a post, right? So I can come over here and
+
+01:18:20.360 --> 01:18:22.820
+then I can click on, try this out and then I can try to pass
+
+01:18:22.820 --> 01:18:26.780
+SUDH as an user execute it. And, uh, it is giving me message
+
+01:18:26.780 --> 01:18:31.080
+user SUDH created successfully. So with the help of swagger
+
+01:18:31.080 --> 01:18:35.060
+UI, I will be able to execute it if it is a fast API based
+
+01:18:35.900 --> 01:18:39.360
+framework that I have used. Yeah. Otherwise I can try to use
+
+01:18:39.360 --> 01:18:42.800
+postman. I can even use a curl over here. So curl command is
+
+01:18:42.800 --> 01:18:46.460
+given to you so I can try to use this and then I can try to
+
+01:18:46.460 --> 01:18:50.120
+even go to my, uh, this
+
+01:18:53.420 --> 01:18:58.500
+one and then I will be able to execute it. Fine everyone.
+
+01:18:59.120 --> 01:19:08.520
+Yes. Okay. Okay. Fine. So, uh, let's do one thing. I think
+
+01:19:08.520 --> 01:19:11.180
+we have discussed so many things back to back. So let's do
+
+01:19:11.180 --> 01:19:15.360
+one thing. Let's take a break for 10 minute night so that I
+
+01:19:15.360 --> 01:19:20.440
+can have my tea. So a family group, family person is calling
+
+01:19:20.440 --> 01:19:24.180
+me like to have a tea and then in 10 minutes. So again, we
+
+01:19:24.180 --> 01:19:26.340
+are going to start and we'll learn a couple of more
+
+01:19:26.340 --> 01:19:31.820
+concepts. Yeah. So it's now 5 0 20 sharp at 5 0 30. We are
+
+01:19:31.820 --> 01:19:35.580
+going to resume. And then we are going to see a lot of like
+
+01:19:35.580 --> 01:19:37.860
+a different, different example with respect to the API
+
+01:19:37.860 --> 01:19:40.600
+itself. Fine guys. Yeah. So take 10 minute break.
+
+01:31:49.770 --> 01:31:52.710
+Okay. So how do you want? I think we are back. Everyone.
+
+01:31:53.010 --> 01:31:53.330
+Yes.
+
+01:31:56.650 --> 01:32:02.570
+So shall we start now after a break? Yeah. Okay. So, so far
+
+01:32:02.570 --> 01:32:04.810
+we are able to understand that, that, okay, fine. So we can
+
+01:32:04.810 --> 01:32:07.690
+try to send a request with the get, and then we can try to
+
+01:32:07.690 --> 01:32:10.450
+send a request via post. And what is the difference between
+
+01:32:10.450 --> 01:32:12.950
+get and post? That is also, we are able to understand it.
+
+01:32:13.550 --> 01:32:17.110
+Now there is something called as put that you all will be
+
+01:32:17.110 --> 01:32:19.590
+able to find out. So let's try to understand that particular
+
+01:32:19.590 --> 01:32:21.690
+part as well. So what is the meaning of a put and how
+
+01:32:21.690 --> 01:32:27.130
+technically like, you know, put actually works. So how, how
+
+01:32:27.130 --> 01:32:30.950
+we can try to like make it as a put or how we can try to use
+
+01:32:30.950 --> 01:32:35.750
+a put method. So here what I will do. So I'll just go here
+
+01:32:35.750 --> 01:32:41.210
+app dot and then put. And then let's say I have to update a
+
+01:32:41.210 --> 01:32:44.230
+user. So put is basically been used whenever you have to
+
+01:32:44.230 --> 01:32:47.210
+update something. So, uh, in the next class, when I'm going
+
+01:32:47.210 --> 01:32:49.770
+to talk about a data basis, I'll be showing you that part,
+
+01:32:49.930 --> 01:32:52.950
+like with respect to the API. So how we can expose an API,
+
+01:32:53.070 --> 01:32:56.190
+how we can communicate with the databases, but put simply
+
+01:32:56.190 --> 01:32:59.390
+means that that update. So whenever we have to update some
+
+01:32:59.390 --> 01:33:03.050
+sort of a record at that point of time, the method that we
+
+01:33:03.050 --> 01:33:06.050
+are going to use is called as basically put and, uh,
+
+01:33:06.050 --> 01:33:08.730
+respectively, you will be able to see something called as
+
+01:33:08.730 --> 01:33:12.310
+delete, right? So you can, whenever delete means whenever
+
+01:33:12.310 --> 01:33:14.370
+you have to delete something, so you can try to use
+
+01:33:14.370 --> 01:33:19.310
+basically a delete. So this is where this put, delete, post
+
+01:33:19.310 --> 01:33:23.990
+and get comes into picture. So put means update, delete
+
+01:33:23.990 --> 01:33:27.830
+means wipe out, uh, post means basically send our data or
+
+01:33:27.830 --> 01:33:31.050
+communicate, but with the secure channel. I mean, like, uh,
+
+01:33:31.090 --> 01:33:34.170
+securely as a body, we used to say, so instead of sending a
+
+01:33:34.170 --> 01:33:37.650
+data into the URL, send a data into a body. And then. Then
+
+01:33:37.650 --> 01:33:41.110
+basically get means so get a data, but technically sending a
+
+01:33:41.110 --> 01:33:44.130
+data in a unsecured manner. I mean like through a URL. So
+
+01:33:44.130 --> 01:33:46.170
+you can try to send the data and then you will be able to
+
+01:33:46.170 --> 01:33:51.190
+get a response. So these four are technically, um, famous
+
+01:33:51.190 --> 01:33:55.630
+functions. You all will be able to find out making sense
+
+01:33:55.630 --> 01:34:03.330
+guys. Oh, I think I'm not sharing my screen. Okay. So here,
+
+01:34:03.370 --> 01:34:05.830
+what I've done, so app dot put, and then I'm trying to
+
+01:34:05.830 --> 01:34:08.430
+update the user and then app dot delete. And then, and then
+
+01:34:08.430 --> 01:34:11.910
+I'm trying to delete the user. Right? Uh, so basically
+
+01:34:11.910 --> 01:34:15.090
+update put means what? So put is going to allow you to
+
+01:34:15.090 --> 01:34:17.750
+update some sort of a data. So whenever you are going to use
+
+01:34:17.750 --> 01:34:20.670
+up, whenever you have to update something, you are supposed
+
+01:34:20.670 --> 01:34:24.070
+to use put over there whenever you have to delete something.
+
+01:34:24.270 --> 01:34:28.970
+So you have to basically use delete making sense. Yeah. I
+
+01:34:28.970 --> 01:34:30.410
+think now my screen is visible, right?
+
+01:34:36.240 --> 01:34:38.820
+Yeah. So this is the meaning of a put, and this is the
+
+01:34:38.820 --> 01:34:41.220
+meaning of a delete. And similarly, you will be able to
+
+01:34:41.220 --> 01:34:43.880
+basically like, uh, tell me. Test a put method. You will be
+
+01:34:43.880 --> 01:34:47.780
+able to delete a put method. So you can, you can do
+
+01:34:47.780 --> 01:34:51.380
+whatsoever that you want with respect to a API. Very, very,
+
+01:34:51.380 --> 01:34:56.540
+very, very simple. Now. Uh, so basically, uh, there is
+
+01:34:56.540 --> 01:34:59.740
+something called as patch patch means just applying a patch.
+
+01:34:59.880 --> 01:35:02.580
+So in a layman manner, if I had to talk about the definition
+
+01:35:02.580 --> 01:35:05.400
+of the patch, it simply means that that whenever we are
+
+01:35:05.400 --> 01:35:08.580
+looking for a partial update. So in that case, we can try to
+
+01:35:08.580 --> 01:35:13.340
+call a patch in case of a partial update. So there are in
+
+01:35:13.340 --> 01:35:20.180
+total five methods, get, put, post, delete, and then patch.
+
+01:35:20.460 --> 01:35:23.080
+So these are the five things that you are supposed to
+
+01:35:23.080 --> 01:35:25.760
+understand. And then you are supposed to implement anywhere
+
+01:35:25.760 --> 01:35:28.500
+and everywhere, whenever you are going to do some sort of
+
+01:35:28.500 --> 01:35:32.100
+implementation. So now I'll try to close this file and I'll
+
+01:35:32.100 --> 01:35:34.840
+try to create one file and even I'll try to close the server
+
+01:35:34.840 --> 01:35:37.320
+over here. So let me like, uh, you know, terminate the
+
+01:35:37.320 --> 01:35:40.860
+server and let's do one thing. So let's try to create one. I
+
+01:35:40.860 --> 01:35:44.480
+want a fresh file. Yeah. So new file. And then I'm going to
+
+01:35:44.480 --> 01:35:48.760
+call it main.py file, let's say, and here. So let's try to
+
+01:35:48.760 --> 01:35:52.800
+do all of these implementation, uh, uh, in a, in a, like,
+
+01:35:52.880 --> 01:35:55.700
+you know, uh, smoothest possible manner. And here I'm going
+
+01:35:55.700 --> 01:35:59.500
+to even introduce a pidentic, basically a validation, a data
+
+01:35:59.500 --> 01:36:02.820
+validation wise. So here what we can do, so we can try to
+
+01:36:02.820 --> 01:36:07.720
+import first of all. So from a fast API, so import fast API
+
+01:36:07.720 --> 01:36:11.660
+and then HTTPS exception. So that it will not, it should not
+
+01:36:11.660 --> 01:36:17.260
+give me like a error. And then let's try to do from pidentic
+
+01:36:17.260 --> 01:36:21.320
+import based model, import UV corn. So fine. All of these
+
+01:36:21.320 --> 01:36:24.500
+things are technically done. These are the imports that all
+
+01:36:24.500 --> 01:36:28.660
+of you are supposed to do it. Now let's try to create a
+
+01:36:28.660 --> 01:36:32.540
+object of a fast API. So fine app is an object app is a
+
+01:36:32.540 --> 01:36:36.060
+variable of the fast API that we have created now here. So I
+
+01:36:36.060 --> 01:36:39.620
+would like to like introduce basically a pidentic. Pidentic
+
+01:36:39.620 --> 01:36:43.240
+means? A validation. So whenever you are sending a data, so
+
+01:36:43.240 --> 01:36:46.560
+basically on your server side, so what you have done, so you
+
+01:36:46.560 --> 01:36:50.360
+can try to write a validation that only send me a data in
+
+01:36:50.360 --> 01:36:53.880
+this particular data type or in this particular format only,
+
+01:36:53.960 --> 01:36:56.400
+you should send me a data apart from this, you should not
+
+01:36:56.400 --> 01:36:58.900
+send me a data in any other format. This is something called
+
+01:36:58.900 --> 01:37:03.980
+as pidentic, right? Pidentic. So here, uh, let's say I would
+
+01:37:03.980 --> 01:37:06.640
+like to like, you know, implement all these things like a
+
+01:37:06.640 --> 01:37:10.500
+get, put, post, delete and patch. Uh, an update, all of
+
+01:37:10.500 --> 01:37:12.880
+these things I would like to implement one by one. And
+
+01:37:12.880 --> 01:37:15.920
+obviously I would like to like, uh, you know, uh, move it
+
+01:37:15.920 --> 01:37:19.320
+with a validation. Yeah. I would like to move it with a
+
+01:37:19.320 --> 01:37:22.660
+validation and uh, yeah, so I would like to add and then I
+
+01:37:22.660 --> 01:37:26.040
+would like to delete something. So here let's do one thing.
+
+01:37:26.120 --> 01:37:29.100
+So let's try to create one dictionary. Yeah. So maybe I can
+
+01:37:29.100 --> 01:37:31.620
+try to create a empty dictionary. So where I will be, no
+
+01:37:31.620 --> 01:37:33.740
+storing the data, I will be updating the data, I will be
+
+01:37:33.740 --> 01:37:37.160
+deleting the data. I'll be doing all sort of activities over
+
+01:37:37.160 --> 01:37:40.120
+here. Right. So I will be doing all of these activities over
+
+01:37:40.120 --> 01:37:43.020
+here. So fine. And then I will be like even doing a
+
+01:37:43.020 --> 01:37:45.820
+validation. So validation wise, what you can do, you can try
+
+01:37:45.820 --> 01:37:49.380
+to implement a class. So here I can try to say that, that,
+
+01:37:49.380 --> 01:37:51.620
+okay, class item, just a minute guys.
+
+01:38:55.000 --> 01:38:58.340
+Okay. Just a minute, everyone. So people are facing issue.
+
+01:39:01.180 --> 01:39:01.580
+Okay.
+
+01:39:39.460 --> 01:39:42.600
+So fine. So here, what, what I want basically. So whenever
+
+01:39:42.600 --> 01:39:45.080
+I'm trying to do something, right. So I would like to like
+
+01:39:45.080 --> 01:39:47.640
+validate something in a very first place, for example,
+
+01:39:47.640 --> 01:39:50.200
+whenever someone is sending a data. So I would like to
+
+01:39:50.200 --> 01:39:52.780
+validate it now to do that. So you have to implement a
+
+01:39:52.780 --> 01:39:57.240
+pidentic class and that you will be able to inherit it from
+
+01:39:57.240 --> 01:39:59.860
+a base model. So base model always basically it's a class.
+
+01:39:59.980 --> 01:40:02.260
+So it is going to give you a power by which you will be able
+
+01:40:02.260 --> 01:40:05.260
+to implement a pidentic. Okay. So here, let's say if I'm
+
+01:40:05.260 --> 01:40:08.520
+going to like a call class and I'm going to give this class
+
+01:40:08.520 --> 01:40:12.160
+name as item, I can give any name, right. And then I can try
+
+01:40:12.160 --> 01:40:14.980
+to give a base model. It simply means that I'm trying to
+
+01:40:14.980 --> 01:40:17.780
+inherit a base model class from here, the import that I have
+
+01:40:17.780 --> 01:40:21.280
+done. And then that is a part of item. And here, so inside
+
+01:40:21.280 --> 01:40:23.840
+this class, this is called as pidentic class, right? This is
+
+01:40:23.840 --> 01:40:26.180
+called as pidentic class and pidentic nature. It will be
+
+01:40:26.180 --> 01:40:28.220
+able to inherit it from here. So all this pidentic
+
+01:40:28.220 --> 01:40:30.400
+validation implementation has been implemented here itself
+
+01:40:30.400 --> 01:40:34.120
+in this particular class, which makes your class pidentic.
+
+01:40:34.140 --> 01:40:37.000
+So yesterday itself, we have talked about inheritance. So
+
+01:40:37.000 --> 01:40:39.660
+this is what we are trying to inherit very, very simple. Now
+
+01:40:39.660 --> 01:40:42.580
+here as a part of this pidentic class, you will be able to
+
+01:40:42.580 --> 01:40:47.320
+see that, that we are writing a rules. We are saying that,
+
+01:40:47.320 --> 01:40:51.220
+that, okay. Whenever you are going to give me name, uh, name
+
+01:40:51.220 --> 01:40:54.380
+data, it should be a string. Whenever you are going to give
+
+01:40:54.380 --> 01:40:57.780
+me a description, so it can be string none that that is, or
+
+01:40:57.780 --> 01:41:00.900
+maybe like, uh, you, it should be string or it can be null
+
+01:41:00.900 --> 01:41:03.700
+data as well. Whenever you are sending me a price, it should
+
+01:41:03.700 --> 01:41:05.940
+be in a float format. Whenever you are sending me a tax
+
+01:41:05.940 --> 01:41:10.100
+data, the data for tax, let's say for my application, it can
+
+01:41:10.100 --> 01:41:13.880
+be none also, right. But yeah, it can be float. So this is
+
+01:41:13.880 --> 01:41:17.560
+what I'm trying to set it as a rule as simple as that. So
+
+01:41:17.560 --> 01:41:20.000
+that, you know, it is, it is, my system is going to follow
+
+01:41:20.000 --> 01:41:22.860
+the same rule and whenever someone is sending the data. So
+
+01:41:22.860 --> 01:41:26.400
+if, uh, like, you know, data is incorrect, so it should be
+
+01:41:26.400 --> 01:41:30.200
+able to do a validation in a very, very first place. Okay.
+
+01:41:30.280 --> 01:41:34.120
+Fine. Now here I'm going to create a very first, uh, like a,
+
+01:41:34.220 --> 01:41:37.080
+you know, function list item, let's say, and what it does.
+
+01:41:37.200 --> 01:41:41.840
+So it returns items very, very simple. So it is, it is going
+
+01:41:41.840 --> 01:41:44.500
+to return all the items. This is the function. Let's say I'm
+
+01:41:44.500 --> 01:41:48.240
+going to implement. Okay. Okay. Let's say to apply a
+
+01:41:48.240 --> 01:41:53.860
+decorator. So app dot get, and then get a watch. So at this
+
+01:41:53.860 --> 01:41:57.280
+URL, anyone will be able to see all the items. So items
+
+01:41:57.280 --> 01:41:59.640
+means whatsoever is available inside my dictionary, they
+
+01:41:59.640 --> 01:42:02.320
+will be able to see it. So list item and returning what
+
+01:42:02.320 --> 01:42:05.140
+returning item, returning water, running this dictionary. So
+
+01:42:05.140 --> 01:42:07.840
+let's say here, if I'm going to keep something, for example,
+
+01:42:07.840 --> 01:42:14.400
+name is equals to, uh, Sudhanshu. So if someone is going to
+
+01:42:14.400 --> 01:42:18.760
+technically call this URL. This is out, they will be able to
+
+01:42:18.760 --> 01:42:21.700
+get this items means this data, they will be able to get it.
+
+01:42:22.100 --> 01:42:25.800
+Okay. Fine. So good. Now let me do one thing. So let me try
+
+01:42:25.800 --> 01:42:28.440
+to execute this entire application and I will keep on
+
+01:42:28.440 --> 01:42:31.200
+executing it. Keep on updating the same application. So what
+
+01:42:31.200 --> 01:42:32.340
+should we, the command guys, anyone?
+
+01:42:50.870 --> 01:42:51.230
+Yes.
+
+01:43:00.280 --> 01:43:02.560
+So basically, uh, we have already discussed, right? So
+
+01:43:02.560 --> 01:43:05.400
+command is UV. So you are in UV call. And then I think many
+
+01:43:05.400 --> 01:43:07.300
+people, many of you have already like, uh, given a correct
+
+01:43:07.300 --> 01:43:10.440
+response and then file name. What is my file name? Main. Uh,
+
+01:43:10.540 --> 01:43:12.980
+what is my, like, uh, you know, the app instance. Or my, uh.
+
+01:43:13.000 --> 01:43:15.620
+My variable name for a fast API. So technically it's an app
+
+01:43:15.620 --> 01:43:18.880
+and then I can try to run it as a reload. If I'm not doing
+
+01:43:18.880 --> 01:43:21.620
+it, then every time I have to run it. So let's run it as a
+
+01:43:21.620 --> 01:43:24.160
+reload so that, you know, it will try to reload it whenever
+
+01:43:24.160 --> 01:43:28.320
+I will try to do something, uh, you know, updates. So fine.
+
+01:43:28.440 --> 01:43:32.040
+Run it. Now at this URL, everything is up and running. Now
+
+01:43:32.040 --> 01:43:35.240
+you can, you can try to like do slash DOCS and then at that
+
+01:43:35.240 --> 01:43:38.380
+point you will be able to see the Swagger UI. So let me
+
+01:43:38.380 --> 01:43:42.140
+close everything for now. And then.
+
+01:43:53.590 --> 01:43:59.110
+Okay. So slash basically DOCS, DOCS. So as of now, only one
+
+01:43:59.110 --> 01:44:01.470
+function is available. Let's say if I would like to execute
+
+01:44:01.470 --> 01:44:05.170
+this function, so try this out and then execute. So when I'm
+
+01:44:05.170 --> 01:44:07.610
+executing it, what I'm able to get, I'm able to get name
+
+01:44:07.610 --> 01:44:10.550
+Sudhanshu. So yes, this was the part of the item. So I'm
+
+01:44:10.550 --> 01:44:13.450
+able to get that particular item. Very, very simple. So my
+
+01:44:13.450 --> 01:44:16.050
+API is working. I'm able to hit it. I'm able to get this
+
+01:44:16.050 --> 01:44:19.070
+data. So this function, I'm able to execute it. Right. And
+
+01:44:19.070 --> 01:44:22.470
+I'm able to see this particular data. Okay. Now move to the
+
+01:44:22.470 --> 01:44:25.730
+next function. So let's say I would like to, you know,
+
+01:44:25.750 --> 01:44:30.670
+access some of these data, maybe with like, you know, item
+
+01:44:30.670 --> 01:44:34.410
+ID or something like that. Right. So maybe like a def and
+
+01:44:34.410 --> 01:44:38.810
+then I can try to write over here, get underscore item and
+
+01:44:38.810 --> 01:44:43.910
+then item ID. I can try to pass and yeah. So if that data is
+
+01:44:43.910 --> 01:44:46.810
+available, so it is going to give it to me and here so I can
+
+01:44:46.810 --> 01:44:51.550
+try to post it as a get. So get a method. So get items and
+
+01:44:51.550 --> 01:44:54.610
+person is supposed to pass item ID. Simply means that if I'm
+
+01:44:54.610 --> 01:44:58.410
+going to pass name, it should give me right dictionary query
+
+01:44:58.410 --> 01:45:01.410
+as simple as that. Right. So I'm going to pass key. It
+
+01:45:01.410 --> 01:45:03.530
+should give me value. This is what it is going to return. If
+
+01:45:03.530 --> 01:45:05.810
+it is a valid one, otherwise it is going to return not
+
+01:45:05.810 --> 01:45:10.470
+found. Okay. So control S and then I will go to my swagger
+
+01:45:10.470 --> 01:45:15.330
+UI once again, I'll try to refresh it. So now I have second
+
+01:45:15.330 --> 01:45:17.750
+function. I must be having second function as well. So item
+
+01:45:17.750 --> 01:45:22.290
+item ID. So here I will go, I will call tight out and then
+
+01:45:22.290 --> 01:45:27.710
+here. So name, if I'm going to send, so item ID must be a
+
+01:45:27.710 --> 01:45:32.950
+valid integer. Now this is something it is trying to tell me
+
+01:45:32.950 --> 01:45:37.890
+item ID value must be an integer. So any idea from where it
+
+01:45:37.890 --> 01:45:41.270
+is coming? This item ID must be a valid integer.
+
+01:45:46.870 --> 01:45:49.730
+Yes. From where it is coming. This is what I was trying to
+
+01:45:49.730 --> 01:45:51.910
+show you with respect to upidentity basically. And this is
+
+01:45:51.910 --> 01:45:54.770
+the standard you will be able to, uh, technically like, you
+
+01:45:54.770 --> 01:46:00.610
+know, uh, find out. Yeah. So from where it is coming, is it,
+
+01:46:00.630 --> 01:46:02.750
+is it coming from the pidentic? See this is the pidentic
+
+01:46:02.750 --> 01:46:05.070
+model class. I have not mentioned item ID by the way over
+
+01:46:05.070 --> 01:46:08.910
+here, but here. So I have said that, that, uh, you know, uh,
+
+01:46:09.190 --> 01:46:13.030
+you know, so get item item ID is equals to integer and then,
+
+01:46:13.210 --> 01:46:15.890
+uh, it is somewhere trying to call this particular
+
+01:46:15.890 --> 01:46:18.770
+validation. Let's do one thing. Let's remove this one. Yeah.
+
+01:46:19.170 --> 01:46:21.130
+I'll try to show you some permutation combination, which
+
+01:46:21.130 --> 01:46:23.930
+will help you out in terms of understanding the entire, uh,
+
+01:46:24.110 --> 01:46:29.250
+like a pidentic. So let me do that. Now I'll refresh this
+
+01:46:29.250 --> 01:46:31.990
+one, fail to load API.
+
+01:46:35.910 --> 01:46:42.490
+Okay. Fine. Now here, try it out. And then here I can try to
+
+01:46:42.490 --> 01:46:47.390
+pass basically name. Okay. Now I'm able to get down to,
+
+01:46:47.510 --> 01:46:50.290
+yeah, what I have done. So I have simply removed the
+
+01:46:50.290 --> 01:46:53.010
+validation as you can see, I have simply removed the
+
+01:46:53.010 --> 01:46:56.010
+validation from here. Very, very simple. Right. So I have
+
+01:46:56.010 --> 01:46:58.470
+simply removed the validation in this particular place and
+
+01:46:58.470 --> 01:47:01.090
+yeah, it is, it is like a, you know, working basically for,
+
+01:47:01.230 --> 01:47:07.390
+uh, me. Okay. In this particular situation. Okay. So it is,
+
+01:47:07.490 --> 01:47:10.130
+uh, technically working for me in this particular situation
+
+01:47:10.130 --> 01:47:15.390
+now. So, uh, here I can write a validation in this
+
+01:47:15.390 --> 01:47:17.450
+particular place. I can simply say that, okay, fine item ID
+
+01:47:17.450 --> 01:47:20.750
+is with this, that, and yeah, it is, it is, uh, technically
+
+01:47:20.750 --> 01:47:24.610
+like, you know, uh, going to obey this entire things. Right.
+
+01:47:24.630 --> 01:47:27.210
+It is, it is technically going to obey this entire things.
+
+01:47:27.910 --> 01:47:32.850
+Uh, but, uh, let's say that, that you know, uh, we, we can,
+
+01:47:32.850 --> 01:47:35.350
+we can apply this, say, uh, We have to you know pass a
+
+01:47:35.350 --> 01:47:40.490
+validation through this class. So any idea what we can do.
+
+01:47:42.940 --> 01:47:46.360
+So let's say if I am going to mention item
+
+01:47:50.160 --> 01:47:51.440
+id.
+
+01:47:56.050 --> 01:47:59.530
+So let's say I have written a validation over here. I have
+
+01:47:59.530 --> 01:48:02.450
+just written a validation over here which is a part of my
+
+01:48:02.450 --> 01:48:05.930
+class right. This is a pidenty class which I am trying to
+
+01:48:05.930 --> 01:48:10.310
+make it over here and I just wanted that my entire
+
+01:48:10.310 --> 01:48:15.270
+validation right. So my entire validation should go through
+
+01:48:15.270 --> 01:48:20.530
+this one at the end of the day. So what I can do. I can try
+
+01:48:20.530 --> 01:48:25.570
+to basically mention it inside my class and then I can try
+
+01:48:25.570 --> 01:48:30.550
+to do implementation I can try to do a call for that one
+
+01:48:30.550 --> 01:48:34.750
+here itself. So there is a item id fine and then I can try
+
+01:48:34.750 --> 01:48:38.150
+to write over here item id must follow
+
+01:48:41.800 --> 01:48:45.860
+item class. So here I can try to write it in this particular
+
+01:48:45.860 --> 01:48:48.440
+manner that it must follow the item class. Item class means
+
+01:48:48.440 --> 01:48:51.460
+inside item, item id and validation I have already defined.
+
+01:48:51.620 --> 01:48:55.620
+So even in this case I can try to enforce the validation. So
+
+01:48:55.620 --> 01:48:58.180
+now let's go back and let's like you know try to check it.
+
+01:48:58.380 --> 01:49:02.440
+Let me remove this url part as it will not work.
+
+01:49:06.470 --> 01:49:09.090
+Ok it's refreshing taking
+
+01:49:22.150 --> 01:49:24.030
+so much of time to refresh
+
+01:49:31.550 --> 01:49:35.050
+assertion error ok
+
+01:49:56.840 --> 01:50:04.700
+so there is some issue here package fine so it's a run
+
+01:50:07.360 --> 01:50:09.580
+alt incomplete ok
+
+01:50:14.250 --> 01:50:17.650
+so this this this ok item
+
+01:50:24.500 --> 01:50:29.040
+looks fine item id coming from item type error
+
+01:50:46.960 --> 01:50:51.920
+is item id as an integer I have defined so let me keep 4
+
+01:50:51.920 --> 01:50:53.400
+over here again
+
+01:51:01.490 --> 01:51:02.350
+let
+
+01:51:11.500 --> 01:51:19.520
+me create a proper data with the structure. So yeah yeah
+
+01:51:19.520 --> 01:51:22.640
+name ok
+
+01:51:26.900 --> 01:51:30.660
+so fine this is one of the data structure so basically here
+
+01:51:30.660 --> 01:51:33.360
+we have defined item id is equal to integer so if we are
+
+01:51:33.360 --> 01:51:35.300
+trying to create a data so obviously it should follow the
+
+01:51:35.300 --> 01:51:39.640
+similar kind of things right and then like we have defined a
+
+01:51:39.640 --> 01:51:42.440
+name then description so name description price and then
+
+01:51:42.440 --> 01:51:46.700
+taxes item id so these are some of these things some of this
+
+01:51:46.700 --> 01:51:49.640
+data we have technically created right and inside that we
+
+01:51:49.640 --> 01:51:54.160
+have like a. Other data set so here technically now I have
+
+01:51:54.160 --> 01:51:57.240
+written the validation so this validation is going to
+
+01:51:57.240 --> 01:52:03.500
+basically work let's see so docs hope
+
+01:52:05.870 --> 01:52:08.010
+my server is running again
+
+01:52:14.090 --> 01:52:15.790
+an error why
+
+01:52:25.100 --> 01:52:29.380
+now there is no error which I can see so why it is giving me
+
+01:52:29.380 --> 01:52:30.860
+an error because
+
+01:52:57.970 --> 01:53:03.790
+I am not able to see anything let's say int I have given
+
+01:53:03.790 --> 01:53:05.530
+here. Sorry
+
+01:53:09.620 --> 01:53:12.200
+wrong application ok
+
+01:53:17.100 --> 01:53:20.640
+so the problem was class so
+
+01:53:25.340 --> 01:53:28.840
+for integer it is working fine but when I am trying to say
+
+01:53:28.840 --> 01:53:31.240
+that try to do a validation with respect to my pidentic
+
+01:53:31.240 --> 01:53:37.880
+class directly so it is not taking it ideally it should take
+
+01:53:37.880 --> 01:53:44.330
+ok fine so here simple means that that it will try to do a
+
+01:53:44.330 --> 01:53:47.530
+validation and which we have already seen that right now
+
+01:53:47.530 --> 01:53:51.730
+majorly so the new library. That you will be able to find
+
+01:53:51.730 --> 01:53:54.910
+out so over there basically people have done this
+
+01:53:54.910 --> 01:54:00.690
+implementation or people just to make a secure data transfer
+
+01:54:00.690 --> 01:54:05.290
+via post method so they have made it mandatory for any kind
+
+01:54:05.290 --> 01:54:07.870
+of a post method if you are trying to test it inside a fast
+
+01:54:07.870 --> 01:54:10.870
+api so you have to go ahead with the pidentic validation
+
+01:54:10.870 --> 01:54:15.090
+then only you will be able to technically do it so let's try
+
+01:54:15.090 --> 01:54:20.670
+to understand how we can try to do that validation. So here
+
+01:54:20.670 --> 01:54:21.790
+def
+
+01:54:23.810 --> 01:54:33.250
+and then we can try to write like create item and then
+
+01:54:33.250 --> 01:54:40.810
+execute so and let me make it as a post and
+
+01:54:59.300 --> 01:55:05.260
+then here item id ok so basically here I am trying to like
+
+01:55:05.260 --> 01:55:08.520
+write one function. So which is going to create an item. And
+
+01:55:08.520 --> 01:55:09.700
+here I am going to create a post. So here I am going to
+
+01:55:09.700 --> 01:55:13.200
+write so on item so we are going to pass this item id and
+
+01:55:13.200 --> 01:55:15.900
+then eventually like you know it will be able to do what so
+
+01:55:15.900 --> 01:55:20.620
+ever it want so just do control s and then come over here
+
+01:55:20.620 --> 01:55:27.840
+and refresh it item now try it out so here when I am trying
+
+01:55:27.840 --> 01:55:31.280
+to call a post so it is giving me a template that ok so
+
+01:55:31.280 --> 01:55:33.840
+whenever you are trying to pass a data so always try to pass
+
+01:55:33.840 --> 01:55:37.140
+a data in this particular template so let's say name is
+
+01:55:37.140 --> 01:55:40.420
+equals to sudh. Name is equals to something I have given
+
+01:55:40.420 --> 01:55:44.580
+price and everything I am keeping it like a same and then it
+
+01:55:44.580 --> 01:55:48.000
+will be able to it is giving me a response body saying that
+
+01:55:48.000 --> 01:55:50.940
+that ok fine so this is something which is been created as
+
+01:55:50.940 --> 01:55:56.100
+per your need so yeah things was basically successful so
+
+01:55:56.100 --> 01:55:59.940
+this is how I am able to hit the post yeah so I am able to
+
+01:55:59.940 --> 01:56:03.520
+hit basically the post over here now similarly so you can
+
+01:56:03.520 --> 01:56:10.120
+try to write it for a put as well so def and then here you
+
+01:56:10.120 --> 01:56:15.880
+can try to write but I just wanted to show you one thing
+
+01:56:15.880 --> 01:56:20.240
+validation right so by default validation is working it
+
+01:56:20.240 --> 01:56:26.220
+should also work here I don't know why it is showing the
+
+01:56:26.220 --> 01:56:28.860
+error because the validation is working over here and by
+
+01:56:28.860 --> 01:56:32.500
+default whenever we are trying to send the request so yeah
+
+01:56:32.500 --> 01:56:35.280
+it is giving me a instruction saying that ok fine so this is
+
+01:56:35.280 --> 01:56:38.300
+the schema format in which you are supposed to send the post
+
+01:56:38.300 --> 01:56:43.660
+request. so it should technically work uh even for like a
+
+01:56:43.660 --> 01:56:50.360
+get but yeah fine for post it's working now let's say we are
+
+01:56:50.360 --> 01:56:55.100
+writing a put right so put minvost update item so let's say
+
+01:56:55.100 --> 01:56:58.680
+if i'm going to call update item validation is already done
+
+01:56:58.680 --> 01:57:02.280
+right so now ctrl s and then go here
+
+01:57:05.720 --> 01:57:06.200
+execute
+
+01:57:09.180 --> 01:57:13.580
+yeah so now this is put now try this out now so it is uh
+
+01:57:13.580 --> 01:57:17.020
+like you know giving me a description that what i would like
+
+01:57:17.020 --> 01:57:20.320
+to like a update so for which item i would like to basically
+
+01:57:20.320 --> 01:57:25.600
+update it so here i can give that that for item number four
+
+01:57:25.600 --> 01:57:29.760
+i would like to update so maybe like name should be this and
+
+01:57:29.760 --> 01:57:32.440
+this should be this and then price should be something
+
+01:57:32.440 --> 01:57:35.900
+different i can try to click on execute and then if
+
+01:57:35.900 --> 01:57:38.320
+everything is going to be fine so in that case it is going
+
+01:57:38.320 --> 01:57:42.420
+to update as simple as that so it is going to create the
+
+01:57:42.420 --> 01:57:45.620
+complete update for item number four that is something that
+
+01:57:45.620 --> 01:57:50.040
+put is going to do now similarly so if i have to do a delete
+
+01:57:50.040 --> 01:57:54.400
+operation let's say so at the rate delete operation so i can
+
+01:57:54.400 --> 01:57:57.340
+try to pass item id over here and then it will be able to
+
+01:57:57.340 --> 01:58:00.420
+delete if i have to do some sort of a partial update so in
+
+01:58:00.420 --> 01:58:05.980
+that case i can try to do patch and then i can try to pass
+
+01:58:07.060 --> 01:58:11.060
+item id and it will be able to patch it so this is how i can
+
+01:58:11.060 --> 01:58:13.820
+implement all of this function guys so whether it's a patch
+
+01:58:13.820 --> 01:58:17.560
+delete put post so again it's just a revision same thing i
+
+01:58:17.560 --> 01:58:20.600
+have shown you and here so one small thing which i have
+
+01:58:20.600 --> 01:58:23.600
+added is that that pidentic so parenting means a validation
+
+01:58:23.600 --> 01:58:27.920
+so it is going to stop anyone to input anything because yeah
+
+01:58:27.920 --> 01:58:31.640
+technically python allows it right so python uh like is a
+
+01:58:31.640 --> 01:58:34.000
+self-typed language it can understand all the data type
+
+01:58:34.000 --> 01:58:37.020
+automatically but here so if you are trying to implement a
+
+01:58:37.060 --> 01:58:41.720
+pidentic then like uh it will be able to do a validation
+
+01:58:41.720 --> 01:58:44.740
+first which is nowadays mandatory so even when we try to
+
+01:58:44.740 --> 01:58:47.560
+create a agents right language and line graph everywhere you
+
+01:58:47.560 --> 01:58:51.060
+will be able to see in a latest version that they have made
+
+01:58:51.060 --> 01:58:53.680
+this pidentic things mandatory everywhere means literally
+
+01:58:53.680 --> 01:58:56.720
+everywhere these things are mandatory you will be able to
+
+01:58:56.720 --> 01:59:02.200
+find out so hope all of you are able to understand a core
+
+01:59:02.200 --> 01:59:06.400
+concept behind a api uh what is the difference between get
+
+01:59:06.400 --> 01:59:10.780
+put delete and patch these five functions apart from that
+
+01:59:10.780 --> 01:59:14.040
+how we can try to test the api apart from that so how i will
+
+01:59:14.040 --> 01:59:18.300
+be able to uh basically expose my entire system to the outer
+
+01:59:18.300 --> 01:59:21.080
+world how i can try to make it like a live to the entire
+
+01:59:21.080 --> 01:59:23.660
+world so hope all of us are able to understand this
+
+01:59:23.660 --> 01:59:28.140
+particular part now i will be using api again and again for
+
+01:59:28.140 --> 01:59:31.900
+example in my next class i'll be talking about a databases
+
+01:59:31.900 --> 01:59:36.540
+right so in terms of database fine we can attach a string
+
+01:59:36.540 --> 01:59:38.920
+and then we'll be able to communicate with the databases
+
+01:59:38.920 --> 01:59:41.820
+which i'm going to show you with respect to a sql database
+
+01:59:41.820 --> 01:59:44.900
+as well as with respect to a no sql database in my next
+
+01:59:44.900 --> 01:59:47.100
+saturday class by the way yeah so agenda is going to be
+
+01:59:47.100 --> 01:59:51.200
+database but with the same what i will do so as of now i'm
+
+01:59:51.200 --> 01:59:54.580
+trying to you know create a local data in a dictionary and
+
+01:59:54.580 --> 01:59:58.300
+then i'm doing some sort of operation but what we can do we
+
+01:59:58.300 --> 02:00:03.180
+will try to write a api and if someone is having that api
+
+02:00:03.180 --> 02:00:06.180
+access because in real time for back-end services means for
+
+02:00:06.180 --> 02:00:09.200
+a database services we try to create a api right so what we
+
+02:00:09.200 --> 02:00:12.760
+will do we will be writing a api and with the help of api
+
+02:00:12.760 --> 02:00:15.300
+anyone will be able to perform any kind of operation inside
+
+02:00:15.300 --> 02:00:19.820
+the databases by using some tool by using maybe a command
+
+02:00:19.820 --> 02:00:22.920
+line by using some other programming language or maybe by
+
+02:00:22.920 --> 02:00:25.360
+using python programming language itself in your system but
+
+02:00:25.360 --> 02:00:28.940
+by using my api you will be able to perform all sort of
+
+02:00:28.940 --> 02:00:32.640
+operations with respect to my database as per the access
+
+02:00:32.640 --> 02:00:35.740
+which i am going to give it to you part number one part
+
+02:00:35.740 --> 02:00:39.760
+number two so we have a api over here that's completely fine
+
+02:00:39.760 --> 02:00:45.940
+but how we can secure this api because for example so i have
+
+02:00:45.940 --> 02:00:49.240
+you know made my system available over the internet with the
+
+02:00:49.240 --> 02:00:52.860
+help of ng rock all of you were able to access it right all
+
+02:00:52.860 --> 02:00:55.180
+of you were able to hit it all of you were able to access it
+
+02:00:55.180 --> 02:00:58.460
+right unlimited many of you must be able to even send an
+
+02:00:58.460 --> 02:01:00.660
+infinite number of traffic which is going to choke my entire
+
+02:01:00.660 --> 02:01:04.800
+system so my system will be down in that situation so how i
+
+02:01:04.800 --> 02:01:07.980
+I will be able to secure that's our first part in terms of
+
+02:01:07.980 --> 02:01:10.360
+an API because that's a very important concept all of you
+
+02:01:10.360 --> 02:01:12.920
+have to understand how we can try to integrate an auth with
+
+02:01:12.920 --> 02:01:17.620
+respect to API and along with that because I can't open up
+
+02:01:17.620 --> 02:01:20.240
+my DB to everyone right so obviously there must be some sort
+
+02:01:20.240 --> 02:01:23.580
+of an auth so through auth only you are supposed to come
+
+02:01:23.580 --> 02:01:25.620
+into my system and then you should access any of the
+
+02:01:25.620 --> 02:01:30.080
+database or any tables inside my system and apart from that
+
+02:01:30.080 --> 02:01:34.720
+so how we can try to you know apply a best practices so that
+
+02:01:34.720 --> 02:01:37.820
+if someone will try to hit my API someone will try to attack
+
+02:01:37.820 --> 02:01:41.880
+my API right someone will try to send an infinite traffic or
+
+02:01:41.880 --> 02:01:45.160
+DDoS kind of attack so how I will be able to prevent it so
+
+02:01:45.160 --> 02:01:48.020
+all of these operations with respect to a database which is
+
+02:01:48.020 --> 02:01:51.140
+a real time we will try to understand because in every
+
+02:01:51.140 --> 02:01:53.820
+project there will be an API and in every project there will
+
+02:01:53.820 --> 02:01:57.060
+be a database by default right in every project you have to
+
+02:01:57.060 --> 02:01:59.360
+implement the auth every project without any kind of API.
+
+02:01:59.380 --> 02:02:02.160
+kind of an exception you have to do it so these concepts are
+
+02:02:02.160 --> 02:02:04.900
+pretty much important and obviously whatsoever we have
+
+02:02:04.900 --> 02:02:07.400
+discussed so far so we will try to recall all of these
+
+02:02:07.400 --> 02:02:14.020
+concepts making sense yes everyone yeah the agenda of our
+
+02:02:14.020 --> 02:02:15.440
+next class okay
+
+02:02:22.320 --> 02:02:24.840
+so now in case of any question go ahead with your question
+
+02:02:24.840 --> 02:02:27.440
+maybe you can raise your hand or maybe you can type it
+
+02:02:27.440 --> 02:02:33.140
+whatsoever like you like and I will try to answer your
+
+02:02:33.140 --> 02:02:36.640
+question yeah so Ram is like Ram has raised hand yeah Ram go
+
+02:02:36.640 --> 02:02:36.840
+ahead.
+
+02:02:42.720 --> 02:02:47.980
+yeah Ram I think I'm all able to you okay maybe Priyanka you
+
+02:02:47.980 --> 02:02:49.340
+can go ahead hello
+
+02:02:53.310 --> 02:02:58.690
+sir so I wanted to get it clarified like while writing the
+
+02:02:58.690 --> 02:03:01.730
+definition we are passing parameter kind of thing get item
+
+02:03:01.730 --> 02:03:10.230
+item id integer right so that will work as a like validation
+
+02:03:10.230 --> 02:03:13.930
+thing or that base model whenever yeah whenever you are
+
+02:03:13.930 --> 02:03:17.110
+sending a data right so let's say you are sending maybe text
+
+02:03:17.110 --> 02:03:20.190
+text as a string but here you have mentioned that no tags
+
+02:03:20.190 --> 02:03:23.330
+should always come as a floating point number right so if
+
+02:03:23.330 --> 02:03:25.910
+someone is going to send a data text a string so it will try
+
+02:03:25.910 --> 02:03:29.610
+to stop it there itself means before hitting your API okay
+
+02:03:29.610 --> 02:03:32.470
+before hitting your API before executing your API it will
+
+02:03:32.470 --> 02:03:36.570
+try to stop there itself that is a meaning of this so both
+
+02:03:36.570 --> 02:03:42.010
+work the same way which one that get item is there item id
+
+02:03:42.010 --> 02:03:46.430
+colon int is there no that one yeah. Yeah. validation so
+
+02:03:46.430 --> 02:03:48.850
+basically i'm trying to stop you that's okay you should not
+
+02:03:48.850 --> 02:03:53.350
+like you know give me any other data set except integer for
+
+02:03:53.350 --> 02:03:57.610
+this particular one for a get and generally yeah so instead
+
+02:03:57.610 --> 02:03:59.930
+of writing this this kind of things again and again so what
+
+02:03:59.930 --> 02:04:02.550
+we do so here you must be able to see that that i'm trying
+
+02:04:02.550 --> 02:04:05.230
+to inherit or i'm trying to basically call the pidentic
+
+02:04:05.230 --> 02:04:08.670
+class this item is what capital i is what it's technically a
+
+02:04:08.670 --> 02:04:12.010
+class right so it will be able to understand that okay fine
+
+02:04:12.010 --> 02:04:14.530
+so whatsoever data we are dealing with so everywhere this
+
+02:04:14.530 --> 02:04:19.130
+class must be applicable means okay then uh in that case uh
+
+02:04:19.130 --> 02:04:24.430
+we can skip writing item id in high colon yeah exactly
+
+02:04:24.430 --> 02:04:28.030
+exactly you can you can skip writing that part basically so
+
+02:04:28.030 --> 02:04:31.590
+once you know and it will take care of it okay okay thank
+
+02:04:31.590 --> 02:04:35.650
+you yeah yeah thanks okay yeah so any other question guys
+
+02:04:35.650 --> 02:04:40.190
+ram or someone ram has i believe raised his hand uh
+
+02:04:43.810 --> 02:04:46.310
+bridges and we have a small session where someone can help
+
+02:04:46.310 --> 02:04:48.810
+us to keep our environment ready for such fast epi kind of
+
+02:04:48.810 --> 02:04:52.190
+practice just a small session uh i don't think that you know
+
+02:04:52.190 --> 02:04:54.670
+you need a session so it's a very simple like a command
+
+02:04:54.670 --> 02:04:57.330
+right so pip install and then pip install fast epi pip
+
+02:04:57.330 --> 02:05:02.050
+install ubicon deal done that's it right so for that uh you
+
+02:05:02.050 --> 02:05:05.570
+want someone to give you a session i mean like that will be
+
+02:05:05.570 --> 02:05:11.650
+pretty much weird to even call a session so where like a job
+
+02:05:11.650 --> 02:05:14.970
+can be done in 30 second of time yeah
+
+02:05:16.530 --> 02:05:18.690
+yeah bridges you have raised your hand i believe i have
+
+02:05:18.690 --> 02:05:20.350
+already answered your question but yeah if you have any
+
+02:05:20.350 --> 02:05:21.830
+other question yeah
+
+02:05:24.260 --> 02:05:26.080
+go ahead i think you are on unmute
+
+02:05:30.310 --> 02:05:33.890
+hello bridges am audible yeah am i audible now yeah you're
+
+02:05:33.890 --> 02:05:38.130
+audible okay yeah yes uh that that's a very like a quick
+
+02:05:38.130 --> 02:05:40.470
+work what you have shown us but i couldn't follow you today
+
+02:05:40.470 --> 02:05:43.810
+uh unable to install it so so yeah so in that case you have
+
+02:05:43.810 --> 02:05:46.010
+to join on time and then you have to you know sit in front
+
+02:05:46.010 --> 02:05:49.050
+of your system for that particular period because it is just
+
+02:05:49.050 --> 02:05:52.610
+30 second of things right yes 30 second and i have already
+
+02:05:52.610 --> 02:05:53.990
+pinged that command inside your chat
+
+02:05:57.790 --> 02:06:02.490
+yes okay fine okay okay so fine everyone can you explain how
+
+02:06:02.490 --> 02:06:05.710
+different kind of api works like a fast api flask rest uh
+
+02:06:05.710 --> 02:06:10.050
+understand this fast api first yeah you will be able to
+
+02:06:10.050 --> 02:06:12.870
+understand flask automatically flask is exact same but yeah
+
+02:06:12.870 --> 02:06:16.910
+not as secure as fast api just another framework but yes
+
+02:06:16.910 --> 02:06:19.950
+syntax wise exactly same and every api syntax wise is like
+
+02:06:19.950 --> 02:06:23.590
+almost the same i mean like because the logic behind it uh
+
+02:06:23.590 --> 02:06:26.390
+and the like the kind of a code that we try to write behind
+
+02:06:26.390 --> 02:06:29.570
+this one is exactly same doesn't matter you are writing an
+
+02:06:29.570 --> 02:06:33.710
+api in java or in any other javascript node js or maybe in
+
+02:06:33.710 --> 02:06:37.070
+python flask or like a you know fast api everywhere you will
+
+02:06:37.070 --> 02:06:40.190
+be able to find out the exact same concept on api so it's
+
+02:06:40.190 --> 02:06:44.130
+basically a very generic concept which uh like uh enables
+
+02:06:44.130 --> 02:06:47.790
+every programming language to do an implementation so fine
+
+02:06:47.790 --> 02:06:49.790
+everyone with that thank you so much i think agenda for next
+
+02:06:49.790 --> 02:06:51.970
+class is fixed so next class we are going to talk about a
+
+02:06:51.970 --> 02:06:55.890
+database integrations and uh again api so how we can try to
+
+02:06:55.890 --> 02:06:59.470
+secure the api and then uh next to next class uh means
+
+02:06:59.470 --> 02:07:02.370
+saturday saturday and sunday that eventually you all will be
+
+02:07:02.370 --> 02:07:05.730
+able to see it on a screen uh so as we have started
+
+02:07:05.730 --> 02:07:11.010
+publishing the next class so i think very soon by tonight
+
+02:07:11.010 --> 02:07:14.130
+itself you will be able to see the update over here right
+
+02:07:14.130 --> 02:07:17.690
+for like next week of classes so you will be able to see it
+
+02:07:17.690 --> 02:07:21.630
+over here that database and api security and everything we
+
+02:07:21.630 --> 02:07:24.970
+are going to discuss plus git github means ci cd basically
+
+02:07:24.970 --> 02:07:27.930
+so git github how git github works how we can take a
+
+02:07:27.930 --> 02:07:31.470
+securely check in the code how we can try to take a pull how
+
+02:07:31.470 --> 02:07:35.150
+we do a push how we raise a pr basically how we can try to
+
+02:07:35.150 --> 02:07:39.370
+resolve the conflict uh whenever it arrives how as a team we
+
+02:07:39.370 --> 02:07:42.690
+can contribute in a particular project so all of these
+
+02:07:42.690 --> 02:07:45.630
+things uh will be discussed by next week saturday and sunday
+
+02:07:45.630 --> 02:07:50.780
+both the days yeah so fine with that thank you so much
+
+02:07:50.780 --> 02:07:53.600
+everyone take care and see you again next week i'll give you
+
+02:07:53.600 --> 02:07:57.180
+uh after discussing this database and github git github
+
+02:08:00.000 --> 02:08:02.520
+some small project some small like a kind of a task
+

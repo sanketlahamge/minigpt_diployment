@@ -1,0 +1,4379 @@
+WEBVTT
+
+00:04:14.960 --> 00:04:18.140
+okay so hi everyone i think i'm audible and visible to all
+
+00:04:18.140 --> 00:04:21.080
+of you guys so good evening uh please bring me a chat if i'm
+
+00:04:21.080 --> 00:04:24.760
+audible and visible to all of you yeah so that we can start
+
+00:04:26.180 --> 00:04:29.400
+uh okay so i'm audible and visible fine good evening
+
+00:04:29.400 --> 00:04:34.580
+everyone you are using writing in a screen i also have
+
+00:04:34.580 --> 00:04:38.180
+writing pen uh to write on anywhere on your screen so you
+
+00:04:38.180 --> 00:04:42.880
+can try to use epic pen e-p-i-c-p-e-n epic pen it's
+
+00:04:42.880 --> 00:04:43.180
+available
+
+00:04:46.660 --> 00:04:51.500
+i'm like using that by the way so you can see this one is
+
+00:04:51.500 --> 00:04:57.560
+the like a epic pen and yeah it's like free you can try to
+
+00:04:57.560 --> 00:05:01.000
+do whatsoever you want on your screen okay
+
+00:05:13.160 --> 00:05:18.240
+so shall we start guys with the class yeah everyone okay
+
+00:05:23.010 --> 00:05:29.130
+fine so let me open up my uh vs code python
+
+00:05:49.000 --> 00:05:54.180
+basic the folder that we have created yesterday right so
+
+00:05:54.180 --> 00:05:56.400
+let's create
+
+00:05:58.290 --> 00:06:05.290
+a new file here so maybe a list or yeah i can name it as a
+
+00:06:05.290 --> 00:06:10.370
+list dot i p y n b so basically a jupyter notebook file and
+
+00:06:10.370 --> 00:06:14.450
+yes so whatsoever we have discussed in my yesterday's class
+
+00:06:14.450 --> 00:06:18.270
+so i believe that is already available uh inside your
+
+00:06:18.270 --> 00:06:22.090
+dashboard so you can go over there let me go and check by
+
+00:06:22.090 --> 00:06:26.390
+myself i believe team has already uploaded it but yeah so i
+
+00:06:26.390 --> 00:06:30.790
+believe some of you are new so maybe you can check this out
+
+00:06:30.790 --> 00:06:35.070
+so yesterday 4th april python basic right so this was the
+
+00:06:35.070 --> 00:06:38.190
+class that we have taken and yeah so material is also
+
+00:06:38.190 --> 00:06:41.910
+available in the similar manner so every classes we are
+
+00:06:41.910 --> 00:06:44.550
+going to take and write up as a class so we are going to
+
+00:06:44.550 --> 00:06:48.430
+upload the video it will take some time to process and you
+
+00:06:48.430 --> 00:06:51.290
+will be able to find out all the resources as well in the
+
+00:06:51.290 --> 00:06:54.410
+same class if i have like a shared or if i have discussed
+
+00:06:54.410 --> 00:06:57.290
+something any anything means like whatsoever i have
+
+00:06:57.290 --> 00:06:59.230
+discussed inside the class you will be able to find out
+
+00:06:59.230 --> 00:07:02.550
+inside the resource tab and as long as you have a platform
+
+00:07:02.550 --> 00:07:07.030
+access so you will be able to simply access it okay so now
+
+00:07:07.030 --> 00:07:10.690
+uh today let's talk about a list then after that i'll be
+
+00:07:10.690 --> 00:07:13.530
+talking about basically a tuples i'll be talking about a
+
+00:07:13.530 --> 00:07:16.450
+dictionary i'll be talking about a set and then if time
+
+00:07:16.450 --> 00:07:20.210
+allows then we'll jump into other topics maybe if else or
+
+00:07:20.210 --> 00:07:23.910
+for loop but i don't think that will be possible today uh so
+
+00:07:23.910 --> 00:07:26.770
+let's talk about all of these things now
+
+00:07:28.910 --> 00:07:31.470
+so basically a business thing could you please explain the
+
+00:07:31.470 --> 00:07:34.850
+ipo nba and its uses just a notebook file i have already
+
+00:07:34.850 --> 00:07:38.410
+explained that in my uh today's class not just explained so
+
+00:07:38.410 --> 00:07:40.990
+basically we have we have started using it yeah an
+
+00:07:40.990 --> 00:07:45.390
+alternative is basically collab google collab so yesterday i
+
+00:07:45.390 --> 00:07:48.670
+was talking about basic and yeah so we discussed about
+
+00:07:48.670 --> 00:07:51.690
+basically um different different kind of primitive data
+
+00:07:51.690 --> 00:07:56.850
+types so where integer string uh floating point number then
+
+00:07:56.850 --> 00:07:59.570
+we talked about a complex number then we talked about a
+
+00:07:59.570 --> 00:08:02.810
+boolean variable printf statement some of the inbuilt
+
+00:08:02.810 --> 00:08:06.130
+function like a type int type casting we have also discussed
+
+00:08:06.130 --> 00:08:09.250
+so all of these things we have started with in my studies
+
+00:08:09.250 --> 00:08:13.730
+class now let's talk about a list so yesterday we were able
+
+00:08:13.730 --> 00:08:18.330
+to hold an integer that is completely fine and yeah so we
+
+00:08:18.330 --> 00:08:21.890
+were able to call those integer we'll be able to use it but
+
+00:08:21.890 --> 00:08:25.650
+let's say i'm into a situation so where i have to you know
+
+00:08:25.650 --> 00:08:30.590
+hold a integer float or just a integer but many more
+
+00:08:30.590 --> 00:08:33.730
+integers not just one single integer like a is equal to 10.
+
+00:08:33.990 --> 00:08:39.190
+i would like to hold many more such things so then what is a
+
+00:08:39.190 --> 00:08:43.110
+way where i will be able to hold it so python gives you a
+
+00:08:43.110 --> 00:08:46.210
+provision for that so basically you can try to create a list
+
+00:08:46.210 --> 00:08:51.910
+and then list notation is basically open and close square
+
+00:08:51.910 --> 00:08:56.110
+bracket basically open and close square bracket so by
+
+00:08:56.110 --> 00:08:59.790
+default when you are trying to keep these things in this
+
+00:08:59.790 --> 00:09:02.390
+particular manner so where you have a square bracket and
+
+00:09:02.390 --> 00:09:05.570
+then inside that you can try to keep any item that you want
+
+00:09:05.570 --> 00:09:09.050
+so for example i'm trying to keep a integer over here right
+
+00:09:09.050 --> 00:09:12.490
+now if i'll go and if i'll try to check what is the type of
+
+00:09:12.490 --> 00:09:15.550
+this l variable which i have created so automatically it
+
+00:09:15.550 --> 00:09:18.670
+will be able to understand that that i'm trying to talk
+
+00:09:18.670 --> 00:09:23.210
+about a list over here very very simple right so and list is
+
+00:09:23.210 --> 00:09:23.990
+basically a kind of a list and list is basically a kind of a
+
+00:09:23.990 --> 00:09:25.910
+list and list is of a entity so where you can go and you can
+
+00:09:25.910 --> 00:09:31.190
+hold as many data as you want as simple as that so
+
+00:09:31.190 --> 00:09:34.710
+individual data you will be able to like hold it you will be
+
+00:09:34.710 --> 00:09:37.670
+able to extract it you will be able to do a lot of different
+
+00:09:37.670 --> 00:09:40.270
+different kind of operation which we will be doing it in
+
+00:09:40.270 --> 00:09:44.510
+some time today itself yeah so list now so let's say if i'm
+
+00:09:44.510 --> 00:09:47.530
+going to create l1 so it's not like i can just hold an
+
+00:09:47.530 --> 00:09:51.010
+integer inside a list i can hold whatsoever i want let's say
+
+00:09:51.010 --> 00:09:55.290
+integer let's say like i would like to hold maybe a floating
+
+00:09:55.290 --> 00:09:59.390
+point number i would like to hold a string over here i would
+
+00:09:59.390 --> 00:10:04.550
+like to hold maybe a boolean variable so true over here i
+
+00:10:04.550 --> 00:10:07.890
+would like to hold maybe some sort of a complex number over
+
+00:10:07.890 --> 00:10:12.570
+here so i can hold anything and everything that i basically
+
+00:10:12.570 --> 00:10:16.270
+want right i can hold anything and everything that i want so
+
+00:10:16.270 --> 00:10:19.090
+as you can see so i have a integer i have a floating point
+
+00:10:19.090 --> 00:10:21.910
+number i have a string over here i have a boolean value over
+
+00:10:21.910 --> 00:10:24.690
+here i have a complex number over here Everything I am able
+
+00:10:24.690 --> 00:10:27.670
+to hold it inside list L1. Again if I will try to check what
+
+00:10:27.670 --> 00:10:30.930
+is the type of this L1, eventually it will be list. Because
+
+00:10:30.930 --> 00:10:34.770
+I have used a square bracket and then inside that I am able
+
+00:10:34.770 --> 00:10:37.950
+to hold all of this information, all of this data. Very very
+
+00:10:37.950 --> 00:10:42.990
+simple. So list is a kind of a data type where you can hold
+
+00:10:42.990 --> 00:10:47.750
+any other data set in your own way. And what list does
+
+00:10:47.750 --> 00:10:51.530
+internally? So let me talk about that as well. So here let's
+
+00:10:51.530 --> 00:10:54.670
+say if I am trying to create this list L1, if I am going to
+
+00:10:54.670 --> 00:10:58.090
+call this L1, so these are the data set which is available
+
+00:10:58.090 --> 00:11:04.670
+inside my list. Now how system
+
+00:11:04.670 --> 00:11:09.290
+will be able to arrange all of this data internally inside a
+
+00:11:09.290 --> 00:11:12.230
+memory so that I will be able to access it. So basically
+
+00:11:12.230 --> 00:11:16.130
+when you try to create a list by using this open and closing
+
+00:11:16.130 --> 00:11:21.350
+a square bracket, by using this one. So here inside this
+
+00:11:21.350 --> 00:11:25.150
+list, inside this entire entity, so it try to create a
+
+00:11:25.150 --> 00:11:29.890
+indexes. So indexes always starts from a zero in a forward
+
+00:11:29.890 --> 00:11:32.390
+direction. Indexes always starts from a minus one in a
+
+00:11:32.390 --> 00:11:35.190
+backward direction. So how it happens? So basically it will
+
+00:11:35.190 --> 00:11:38.230
+give an index zero, which you will not be able to see it.
+
+00:11:38.270 --> 00:11:40.670
+But yeah, you can use it to do an operation on top of this.
+
+00:11:40.850 --> 00:11:45.810
+So zero, one, two, three, four and five in a forward
+
+00:11:45.810 --> 00:11:47.890
+direction. So it has given an indexes internally
+
+00:11:47.890 --> 00:11:51.010
+automatically. So this is something, not something that you
+
+00:11:51.010 --> 00:11:54.350
+are asking a system to do it. System will do it. By default
+
+00:11:54.350 --> 00:11:58.570
+now in a reverse manner, minus one minus two minus three
+
+00:11:58.570 --> 00:12:03.450
+minus four minus five minus six. So you can try to use this
+
+00:12:03.450 --> 00:12:06.270
+forward indexes or you can try to use even a backward
+
+00:12:06.270 --> 00:12:09.010
+indexes. And with the help of this, you will be able to
+
+00:12:09.010 --> 00:12:11.910
+extract a data. You will be able to slice a data whatsoever
+
+00:12:11.910 --> 00:12:14.210
+you want with respect to this data, which you are holding
+
+00:12:14.210 --> 00:12:17.470
+inside a list. You will be able to do it with ease, which I
+
+00:12:17.470 --> 00:12:21.930
+will show you now. So like I said, list is going to hold all
+
+00:12:21.930 --> 00:12:24.630
+the information internally. It is going to allocate an
+
+00:12:24.630 --> 00:12:28.590
+indexes. So let's say I'm going to create a list L2, a fresh
+
+00:12:28.590 --> 00:12:31.770
+list. I'm going to keep one integer over here. I'm going to
+
+00:12:31.770 --> 00:12:35.390
+keep my name over here. I'm going to keep a boolean. I'm
+
+00:12:35.390 --> 00:12:39.550
+going to keep a complex number over here. So T R U E, a
+
+00:12:39.550 --> 00:12:40.050
+spelling mistake,
+
+00:12:43.840 --> 00:12:49.660
+T R U E. Okay. So this is my list. Okay. This is my list.
+
+00:12:49.800 --> 00:12:55.600
+Now, let me write this down. So here we have a list, let's
+
+00:12:55.600 --> 00:13:01.300
+say, and we have four. We have S U D H. We have basically a
+
+00:13:01.300 --> 00:13:06.400
+boolean over here and we have basically this complex number
+
+00:13:06.400 --> 00:13:09.180
+that we have already discussed. So like I have mentioned
+
+00:13:09.180 --> 00:13:14.640
+that list is going to give a indexes. So in a forward
+
+00:13:14.640 --> 00:13:17.700
+direction, there will be an indexes and then in a backward
+
+00:13:17.700 --> 00:13:19.500
+direction, there will be an indexes. So in a forward
+
+00:13:19.500 --> 00:13:25.040
+direction, it always starts from where 0. So 0, 1, 2 and
+
+00:13:25.040 --> 00:13:28.900
+then 3. So 0, 1, 2, 3, 4 element we have. In a backward
+
+00:13:28.900 --> 00:13:33.820
+direction, minus 1, minus 2, minus 3 and then minus 4. Now,
+
+00:13:33.860 --> 00:13:37.140
+let's say if someone is asking you a question that can you
+
+00:13:37.140 --> 00:13:40.600
+please try to extract S U D H? Yeah. Can you please try to
+
+00:13:40.600 --> 00:13:44.040
+extract S U D H? Only S U D H because as a whole, this is a
+
+00:13:44.040 --> 00:13:47.200
+list, right? But I would like to extract this entity. I
+
+00:13:47.200 --> 00:13:49.720
+would like to maybe extract this entity. I would like to
+
+00:13:49.720 --> 00:13:52.080
+extract this entity. I would like to extract maybe this and
+
+00:13:52.080 --> 00:13:56.140
+this together. Depends, right? Depends. Depends what I would
+
+00:13:56.140 --> 00:14:00.640
+like to like, you know, extract it. So yes, it is possible
+
+00:14:00.640 --> 00:14:04.360
+and it is possible because of the nature of the list. So
+
+00:14:04.360 --> 00:14:07.540
+here, if someone is telling me that try to extract S U D H,
+
+00:14:07.640 --> 00:14:11.900
+what I will do, so L2, inside a L2, my data is being stored.
+
+00:14:12.300 --> 00:14:15.240
+I can just try to do bracket, bracket, square bracket once
+
+00:14:15.240 --> 00:14:18.740
+again, right? And I can just write a name of the indexes. So
+
+00:14:18.740 --> 00:14:25.360
+at what index S U D H is available guys? Yeah. At what index
+
+00:14:25.360 --> 00:14:28.440
+S U D H is available? Simple. I believe it's visible to all
+
+00:14:28.440 --> 00:14:32.940
+of us, right? So I'll write one over here. So L2 of one L2
+
+00:14:32.940 --> 00:14:37.660
+of one means simple S U D H. Yeah. Uh, even we can try to
+
+00:14:37.660 --> 00:14:40.640
+give minus three. So both indexes are going to work forward
+
+00:14:40.640 --> 00:14:42.880
+indexes as well as backward index. Both are going to work.
+
+00:14:43.020 --> 00:14:46.660
+So here I can write L2 and then here I can write even minus
+
+00:14:46.660 --> 00:14:50.520
+three and at minus three, what is available? S U D H is
+
+00:14:50.520 --> 00:14:53.260
+available. I will be able to get the same answer. So
+
+00:14:53.260 --> 00:14:56.100
+basically I'm trying to extract one particular entity and
+
+00:14:56.100 --> 00:14:58.860
+yes, it is pretty much possible. I'm able to do it, right?
+
+00:14:58.880 --> 00:15:01.580
+I'm able to do it. Now if you will try to check what is the
+
+00:15:01.580 --> 00:15:06.320
+type of this entity. So as python is a self typed
+
+00:15:06.320 --> 00:15:08.340
+programming language that we have already discussed
+
+00:15:08.340 --> 00:15:11.200
+yesterday, right? So what is the meaning of self typed? So
+
+00:15:11.200 --> 00:15:14.260
+it will be able to understand that, okay, this entity is
+
+00:15:14.260 --> 00:15:17.720
+basically a string that we are talking about. Let's say L2
+
+00:15:17.720 --> 00:15:22.480
+of L2 of basically I'm going to start maybe like a three. So
+
+00:15:22.480 --> 00:15:25.500
+I will be able to get complex number. If I'm going to check
+
+00:15:25.500 --> 00:15:30.680
+that what is basically right, what is basically a type of
+
+00:15:30.680 --> 00:15:33.700
+this one automatically it will be able to understand. So we
+
+00:15:33.700 --> 00:15:36.240
+don't have to say anything. Basically python does these
+
+00:15:36.240 --> 00:15:39.020
+things by itself. We don't have to like, you know, worry
+
+00:15:39.020 --> 00:15:42.900
+about such things. So typecasting, sorry, like a self typed
+
+00:15:42.900 --> 00:15:45.040
+programming language. It will be able to understand type of
+
+00:15:45.040 --> 00:15:49.520
+the data automatically. Okay, now that is done. Let's say if
+
+00:15:49.520 --> 00:15:53.740
+I'm going to write L2 of basically, six, what is the data I
+
+00:15:53.740 --> 00:15:55.460
+will be able to get? L2 of six.
+
+00:15:58.340 --> 00:16:04.580
+Yeah, L2 of six guys. Output, which is saying null, then
+
+00:16:04.580 --> 00:16:08.240
+Bobby saying error, uh, my, my body is saying true out of
+
+00:16:08.240 --> 00:16:13.220
+bound empty list. Okay. Okay. It'll out of indexes. Exactly.
+
+00:16:13.720 --> 00:16:17.400
+Out of index error, list index out of range. So this is a
+
+00:16:17.400 --> 00:16:20.580
+error, which I will be able to get. So at the sixth
+
+00:16:20.580 --> 00:16:22.920
+position, there is nothing which is available in my data
+
+00:16:22.920 --> 00:16:25.320
+set, right? At the sixth position, there is nothing which is
+
+00:16:25.320 --> 00:16:28.840
+available. Sixth index doesn't even exist. So if that index
+
+00:16:28.840 --> 00:16:31.980
+doesn't even exist in that case, and if you are doing a
+
+00:16:31.980 --> 00:16:35.880
+indexing operation, indexing, right? So this operation that
+
+00:16:35.880 --> 00:16:38.800
+we are trying to do, so where I'm writing L2 of one, L2 of
+
+00:16:38.800 --> 00:16:42.500
+minus three, L2 of three or L2 of six, this operation is
+
+00:16:42.500 --> 00:16:46.320
+technically called as indexing from a particular index. We
+
+00:16:46.320 --> 00:16:49.040
+are trying to extract them data. So this is called as
+
+00:16:49.040 --> 00:16:51.940
+indexing operation. Now, if data set is not available,
+
+00:16:52.200 --> 00:16:55.640
+obviously, uh, sorry, if, if, if index is not available by
+
+00:16:55.640 --> 00:16:58.480
+default, it is going to give you an error in case of a
+
+00:16:58.480 --> 00:17:01.940
+indexing operation. Whereas very soon I'm going to talk
+
+00:17:01.940 --> 00:17:05.440
+about a slicing operation, right? In slicing operation, it
+
+00:17:05.440 --> 00:17:08.160
+will not give you errors, but in case of indexing operation,
+
+00:17:08.420 --> 00:17:11.120
+yes, it is going to give you error. So at sixth position,
+
+00:17:11.280 --> 00:17:13.340
+there is nothing which is available in my data. So obviously
+
+00:17:13.340 --> 00:17:17.260
+it is giving me a error over here as simple as that. Okay.
+
+00:17:17.820 --> 00:17:23.460
+Now, so this is a list that is given to me. Now someone is
+
+00:17:23.460 --> 00:17:25.940
+asking, asking me a question saying that, that can you
+
+00:17:25.940 --> 00:17:29.680
+please try to extract a data, right? So can you please try
+
+00:17:29.680 --> 00:17:31.480
+to basically extract a data?
+
+00:17:35.340 --> 00:17:38.760
+Yeah. So can you please try to extract a data, but this time
+
+00:17:38.760 --> 00:17:42.420
+not just individual one, but maybe for an SUDH together,
+
+00:17:42.960 --> 00:17:46.900
+right? A subset of the list basically. So for an SUDH
+
+00:17:46.900 --> 00:17:49.360
+together, can you please try to bring me this data set,
+
+00:17:49.460 --> 00:17:52.660
+right? This particular data set. Yes, that is possible. That
+
+00:17:52.660 --> 00:17:55.220
+is basically possible. I can try to bring that data set as
+
+00:17:55.220 --> 00:17:57.980
+well. That is called as slicing operation. Indexing means
+
+00:17:57.980 --> 00:18:00.280
+from one particular index by using forward, by using
+
+00:18:00.280 --> 00:18:03.660
+backward, that can be done now slicing wise. So what I
+
+00:18:03.660 --> 00:18:07.960
+should write, so L2, which is the name of the variable and
+
+00:18:07.960 --> 00:18:13.820
+basically someone is asking me for till SUDH, right? So
+
+00:18:13.820 --> 00:18:18.360
+basically four is starting from which index zero to index.
+
+00:18:18.540 --> 00:18:22.360
+Yeah. So what I will do, I will write zero over here. I'll
+
+00:18:22.360 --> 00:18:26.200
+write zero over here that okay. Start from zero. Fine. Start
+
+00:18:26.200 --> 00:18:32.760
+from zero. Now call them. Yeah. And go till basically. So
+
+00:18:32.760 --> 00:18:39.380
+start from zero and go till what? One, right? Yeah. Start
+
+00:18:39.380 --> 00:18:41.540
+from zero. Go till one. I will be able to get my data.
+
+00:18:44.530 --> 00:18:52.230
+Yeah. Agree. Okay. Some people writing two. Okay. I got your
+
+00:18:52.230 --> 00:18:57.230
+point. Okay. So basically see, I'll write one first. Yeah.
+
+00:18:57.730 --> 00:19:00.270
+Then you will see what kind of a data I will be able to get.
+
+00:19:00.270 --> 00:19:04.610
+So basically this is the starting point and this is the end
+
+00:19:04.610 --> 00:19:07.270
+point we used to write. So start from here. Go till there.
+
+00:19:07.410 --> 00:19:10.690
+Yeah. So this is what it means in a layman manner, right?
+
+00:19:10.770 --> 00:19:14.630
+This is what it means. So start from zero and go till one. I
+
+00:19:14.630 --> 00:19:18.550
+was expecting that, that it will give me four and SUDH both.
+
+00:19:18.710 --> 00:19:21.350
+This was my expectation and I believe many of us was
+
+00:19:21.350 --> 00:19:24.530
+expecting the same thing, right? That you know, it should
+
+00:19:24.530 --> 00:19:27.810
+give me a data for an SUDH, but what we are able to get, we
+
+00:19:27.810 --> 00:19:32.390
+are able to get four only. Okay. Not SUDH. Now if I'm going
+
+00:19:32.390 --> 00:19:36.490
+to make it two, right, I will be able to get four and SUDH.
+
+00:19:36.630 --> 00:19:40.730
+Yeah. Now if I'm going to make three, right, three, I am
+
+00:19:40.730 --> 00:19:44.470
+able to get four SUDH and true, right? Four SUDH and true
+
+00:19:44.470 --> 00:19:48.110
+means till second indexes, I'm able to get the data. So
+
+00:19:48.110 --> 00:19:51.270
+basically creator of Python, again, there is no logic behind
+
+00:19:51.270 --> 00:19:55.010
+that, by the way, much. So creator of Python. So they have
+
+00:19:55.010 --> 00:19:57.950
+written a code in such a way that, that this is my starting
+
+00:19:57.950 --> 00:20:01.390
+point, starting point. This is my end point, let's say,
+
+00:20:01.410 --> 00:20:03.950
+right? This is my starting point. This is my end point. So
+
+00:20:03.950 --> 00:20:09.910
+it will always try to bring a data till end point minus one.
+
+00:20:10.410 --> 00:20:13.750
+So if I'm giving three, it will just bring a data till two.
+
+00:20:13.970 --> 00:20:17.730
+If I'm giving two, it will bring a data till one. This is
+
+00:20:17.730 --> 00:20:21.790
+how the slicing is going to basically work. This is how
+
+00:20:21.790 --> 00:20:24.390
+slicing is going to basically work. So you can give a
+
+00:20:24.390 --> 00:20:26.790
+starting point, you can try to give an end point. It will
+
+00:20:26.790 --> 00:20:30.430
+always try to bring a data end point minus one. In a reverse
+
+00:20:30.430 --> 00:20:33.010
+order, if you have given or in a forward order you have
+
+00:20:33.010 --> 00:20:37.070
+given, it is going to follow the exact same rule. Now let's
+
+00:20:37.070 --> 00:20:40.710
+say someone is telling me that, you know, bring me SUDH and
+
+00:20:40.710 --> 00:20:44.190
+true. Yeah. What I should write guys? So if someone is
+
+00:20:44.190 --> 00:20:47.930
+telling me that bring like, you know, SUDH plus true. So
+
+00:20:47.930 --> 00:20:51.850
+what, what I'm supposed to like write? Only SUDH and true.
+
+00:20:52.550 --> 00:20:59.370
+Yeah. Quick everyone, SUDH and true. So simple, right? Start
+
+00:20:59.370 --> 00:21:03.510
+from one. True is available at second indexes, right? So if
+
+00:21:03.510 --> 00:21:05.950
+I am looking for a data till second indexes, what I should
+
+00:21:05.950 --> 00:21:08.710
+write three. So three minus one till two, it will be able to
+
+00:21:08.710 --> 00:21:12.290
+bring the data. So one colon three, very, very simple SUDH
+
+00:21:12.290 --> 00:21:14.990
+and true. I'm able to get it. Right. I'm able to get it.
+
+00:21:15.330 --> 00:21:19.810
+Let's say if I'm writing over here, 30, so we are going to
+
+00:21:19.810 --> 00:21:24.460
+get an error, right? This time. Yeah. Let's say I have
+
+00:21:24.460 --> 00:21:32.960
+written 30. I will get it. Yes. Yeah. So I told you. I told
+
+00:21:32.960 --> 00:21:35.980
+you, right? In case of indexing operation, it gives you
+
+00:21:35.980 --> 00:21:39.560
+error, right? If data is not available at indexes, this time
+
+00:21:39.560 --> 00:21:42.120
+will not get it. We know that, that there is no data which
+
+00:21:42.120 --> 00:21:44.780
+is available till 30. We don't have like, you know, any
+
+00:21:44.780 --> 00:21:48.000
+indexes beyond three, right? We don't have any indexes, but
+
+00:21:48.000 --> 00:21:50.320
+still in case of a slicing operation, if you are writing
+
+00:21:50.320 --> 00:21:52.440
+like upper bound, it is, it is not going to give you any
+
+00:21:52.440 --> 00:21:55.760
+kind of error as simple as that. So if it is going to
+
+00:21:55.760 --> 00:21:59.600
+surpass your entire range of the list, it'll simply give you
+
+00:21:59.600 --> 00:22:02.200
+all the data till that point. So, it is giving me all the
+
+00:22:02.200 --> 00:22:06.460
+data till my complex number. Okay. Looks cool. Delete
+
+00:22:06.460 --> 00:22:11.520
+everything. Now here, let me create another list L3, by the
+
+00:22:11.520 --> 00:22:14.780
+way, yeah, let me keep some data set over here. So 1, 2, 3,
+
+00:22:14.820 --> 00:22:18.120
+4, 5. Let me keep it. Let me keep couple of more data here.
+
+00:22:22.600 --> 00:22:23.880
+Okay. Fine.
+
+00:22:29.480 --> 00:22:33.380
+1, 2, 3, 4, 5,
+
+00:22:35.710 --> 00:22:38.910
+SUDH, true.
+
+00:22:43.630 --> 00:22:44.030
+Okay.
+
+00:22:51.800 --> 00:22:52.740
+Now. Now.
+
+00:23:09.730 --> 00:23:12.250
+Okay. So forward indexes, reverse indexes. I have written
+
+00:23:12.250 --> 00:23:16.190
+over there. Okay. Now. So if someone is coming to me and
+
+00:23:16.190 --> 00:23:19.430
+saying that, that I'm looking for a data, right? I'm looking
+
+00:23:19.430 --> 00:23:24.910
+for a data, but I'm looking for a data basically, uh, for
+
+00:23:24.910 --> 00:23:30.110
+example, like one, then three, then five and then two. So 1,
+
+00:23:30.270 --> 00:23:34.870
+3, 5, true. This is a data which I'm looking for. Yeah. This
+
+00:23:34.870 --> 00:23:38.110
+is the data which I'm looking for. So how I will be able to
+
+00:23:38.110 --> 00:23:42.730
+get that particular data. Set. So here, uh, let's say I'm
+
+00:23:42.730 --> 00:23:47.090
+writing L3 night L3. I can try to write my starting point
+
+00:23:47.090 --> 00:23:49.390
+and what is my starting point by the way? So my starting
+
+00:23:49.390 --> 00:23:52.910
+point is technically zeroth index one. I have to bring that
+
+00:23:52.910 --> 00:23:56.950
+data, right? So starting point is my zeroth indexes. So I
+
+00:23:56.950 --> 00:24:00.350
+will go over here. I will write like a zero over here. So
+
+00:24:00.350 --> 00:24:04.390
+start from zero. What is my end point? So true. So maybe I
+
+00:24:04.390 --> 00:24:07.230
+can try to write upper bound seven if I have to get a data
+
+00:24:07.230 --> 00:24:10.770
+till true. So I'll try to write over here. Let's say seven.
+
+00:24:10.930 --> 00:24:15.270
+Yeah. Now execute. It has given me all the data one, two,
+
+00:24:15.330 --> 00:24:19.370
+three, four, five, and then SUDH and then two throughout.
+
+00:24:19.530 --> 00:24:23.450
+Right. But that was not my requirement. My requirement was
+
+00:24:23.450 --> 00:24:27.630
+to bring a alternate data. Yeah. One, then three, then five,
+
+00:24:27.690 --> 00:24:31.050
+then true. So this is the data which I was looking for. Not
+
+00:24:31.050 --> 00:24:35.590
+this particular data. So inside the slicing operation, you
+
+00:24:35.590 --> 00:24:39.510
+will be able to see basically. Something called as jump or
+
+00:24:39.510 --> 00:24:44.150
+step basically. Yeah. The step. So by default, the value of
+
+00:24:44.150 --> 00:24:49.790
+a step. So here start from one. So this is my starting
+
+00:24:49.790 --> 00:24:53.910
+point. This is my seven end point end point basically. And
+
+00:24:53.910 --> 00:24:57.450
+then this is basically called as steps or you can say jump.
+
+00:24:57.630 --> 00:25:02.870
+Yeah. So every time it is starting from zero and jumping one
+
+00:25:02.870 --> 00:25:07.330
+step. So zero, then going to one, then going to two. Then
+
+00:25:07.330 --> 00:25:10.770
+going to three. Three, four, five, six, zero plus one, one,
+
+00:25:10.790 --> 00:25:12.830
+one plus one, two, two plus one, three, three plus one,
+
+00:25:12.910 --> 00:25:15.610
+five, four, four plus one, five, five plus one, six. And
+
+00:25:15.610 --> 00:25:18.990
+then when it will encounter this end point, end point minus
+
+00:25:18.990 --> 00:25:22.970
+one data, it is going to bring. So by default, a step is
+
+00:25:22.970 --> 00:25:26.150
+equals to one. And when I say one, I'm talking about a
+
+00:25:26.150 --> 00:25:30.450
+positive one because there is a difference between positive
+
+00:25:30.450 --> 00:25:34.590
+one and a negative one. Right. So here I'm talking about
+
+00:25:34.590 --> 00:25:38.190
+basically a positive one. Yeah. So positive one. So in a
+
+00:25:38.190 --> 00:25:43.150
+positive direction, basically it will start moving and by
+
+00:25:43.150 --> 00:25:47.050
+default it is taking a jump of one next, next, next, next,
+
+00:25:47.050 --> 00:25:52.310
+next. But I don't want that. What I want is that that I want
+
+00:25:52.310 --> 00:25:58.170
+a alternative one means after the zero to after two, four
+
+00:25:58.170 --> 00:26:02.450
+after four, six. So this is a jump which I was looking for.
+
+00:26:02.590 --> 00:26:07.210
+So here to bring such kind of a data. That I'm looking for.
+
+00:26:07.330 --> 00:26:10.090
+So maybe what I can do, I can try to change this particular
+
+00:26:10.090 --> 00:26:14.150
+jump. I can say that, that, okay, take a jump off to yeah.
+
+00:26:14.570 --> 00:26:17.590
+Now see one, three, five, two, one, three, five, two. That
+
+00:26:17.590 --> 00:26:20.350
+was my requirement. I'm able to get it. So starting from
+
+00:26:20.350 --> 00:26:24.290
+zero, zero plus two, two plus two, four, four plus two, six,
+
+00:26:24.410 --> 00:26:27.970
+six plus two, eight. But yeah, then my upper bound will come
+
+00:26:27.970 --> 00:26:30.490
+into picture or my end point will come into picture. Right.
+
+00:26:30.670 --> 00:26:34.090
+So it will terminate it and will come out of the situation.
+
+00:26:34.290 --> 00:26:36.430
+Out of the situation. Out of the scenario. It will try to
+
+00:26:36.430 --> 00:26:38.830
+come. And this is how I will be able to get a alternate
+
+00:26:38.830 --> 00:26:43.250
+data. Very, very simple. Right. Very, very simple. So I will
+
+00:26:43.250 --> 00:26:45.870
+be able to get a alternate data. I will be able to do a
+
+00:26:45.870 --> 00:26:50.330
+slicing on top of this entire things. Now
+
+00:26:54.750 --> 00:26:59.090
+okay. So this is something that we have that's like looks
+
+00:26:59.090 --> 00:27:04.830
+cool by the way. Let's say here I'm going to write down
+
+00:27:04.830 --> 00:27:11.270
+maybe like a minus one execution. Okay. Very cute. We are
+
+00:27:11.270 --> 00:27:14.690
+getting blank, not an error, but we are getting blank. Why?
+
+00:27:14.830 --> 00:27:15.510
+Any reason guys?
+
+00:27:19.360 --> 00:27:22.420
+Yes. Any reason why we are getting this?
+
+00:27:32.010 --> 00:27:40.030
+Yep. It can go before zero. Okay. Okay. Okay. So see, very
+
+00:27:40.030 --> 00:27:43.470
+simple logic and very easy to understand. Right. So let me
+
+00:27:43.470 --> 00:27:48.930
+explain you that particular part. So here let's draw a
+
+00:27:48.930 --> 00:27:54.190
+scale. Yeah. Let's draw a scale, scale zero, one, two,
+
+00:27:54.390 --> 00:28:01.510
+three, four, five, six and so on. Then minus one, minus two,
+
+00:28:01.590 --> 00:28:06.390
+minus three, minus four, minus five and so on. Right. Okay.
+
+00:28:06.730 --> 00:28:12.830
+Now you are going to move from where to where you have
+
+00:28:12.830 --> 00:28:16.690
+written. You are supposed to go from zero till seven. Okay.
+
+00:28:16.790 --> 00:28:19.850
+So zero till seven. Somewhere in this direction you will
+
+00:28:19.850 --> 00:28:22.530
+move. Right. So zero till seven, somewhere in this direction
+
+00:28:22.530 --> 00:28:27.010
+you are moving and here. So you are jumping in which
+
+00:28:27.010 --> 00:28:31.590
+direction can I say you have to, or you are supposed to move
+
+00:28:31.590 --> 00:28:36.330
+from zero to seven as per this one, right? And you are
+
+00:28:36.330 --> 00:28:40.010
+jumping, you are taking a steps in which direction, negative
+
+00:28:40.010 --> 00:28:43.810
+direction minus one at a direction and there is a conflict
+
+00:28:43.810 --> 00:28:47.310
+over there. Yeah. There is a conflict over there. And
+
+00:28:47.310 --> 00:28:51.130
+because of that it is giving me blank. If there is like
+
+00:28:51.130 --> 00:28:54.290
+because of conflict it is, there is no data and it is giving
+
+00:28:54.290 --> 00:28:57.010
+me basically a empty. Right. This is giving me basically
+
+00:28:57.010 --> 00:29:02.390
+empty. Okay. Fine. Sounds great. So now if someone is going
+
+00:29:02.390 --> 00:29:05.530
+to ask you that, can you please try to reverse this entire
+
+00:29:05.530 --> 00:29:10.490
+list that we have? Yeah. I mean like I'm looking for 44.7 J
+
+00:29:10.490 --> 00:29:14.170
+then true, then SUDS, then five, four, three, two, one. So
+
+00:29:14.170 --> 00:29:17.670
+can you please try to reverse this entire list? Yeah. With
+
+00:29:17.670 --> 00:29:20.090
+the same logic? Yeah. Can you please try to reverse this
+
+00:29:20.090 --> 00:29:23.450
+entire list with the same logic? So to reverse this entire
+
+00:29:23.450 --> 00:29:27.510
+list with the same logic, what I'm supposed to do? So maybe
+
+00:29:27.510 --> 00:29:31.950
+I have to start from seven, right? I have to go till zero.
+
+00:29:32.290 --> 00:29:36.670
+Yes. I have to start from seven. I have to go till zero and
+
+00:29:36.670 --> 00:29:41.110
+then I have to jump into a negative direction. Seven to
+
+00:29:41.110 --> 00:29:45.250
+zero, right? So basically seven, seven
+
+00:29:47.200 --> 00:29:50.960
+will be somewhere over here. So seven to zero, I have to
+
+00:29:50.960 --> 00:29:55.000
+move and then even I have to take a steps into a same
+
+00:29:55.000 --> 00:29:58.380
+direction. Then only there is a chance, right? There is a
+
+00:29:58.380 --> 00:30:01.840
+chance that, that I will be able to get my desired result.
+
+00:30:02.040 --> 00:30:04.360
+Again there is a chance. Very soon you will be able to
+
+00:30:04.360 --> 00:30:07.580
+understand that why I'm telling you there is a chance. Yeah.
+
+00:30:08.340 --> 00:30:11.740
+Let's, let's not reveal that part for now. So you will be
+
+00:30:11.740 --> 00:30:16.460
+able to get a data. Okay. Fine. Let's try to do it. So here
+
+00:30:16.460 --> 00:30:22.680
+I will try to write L3, right? L3 start from a seven. Okay.
+
+00:30:22.880 --> 00:30:27.680
+Fine. So this is my starting point. Fine. Starting point. Go
+
+00:30:27.680 --> 00:30:32.560
+till zero. So now zero will become my end point and then
+
+00:30:32.560 --> 00:30:36.440
+jump into a negative direction. Right? So that it will be
+
+00:30:36.440 --> 00:30:39.080
+like same start from zero till seven. Then go in, jump into
+
+00:30:39.080 --> 00:30:44.300
+a negative direction. Execute. So I think we are able to get
+
+00:30:44.300 --> 00:30:46.660
+all the data, right? Yes. Or something is missing.
+
+00:30:50.870 --> 00:30:51.270
+Yes.
+
+00:30:55.860 --> 00:30:58.900
+We are not able to get all the data or like we are able to
+
+00:30:58.900 --> 00:31:02.460
+get all the data. Okay. So now everyone is saying that one
+
+00:31:02.460 --> 00:31:06.160
+is missing. Yes. So I am able to get till two, but in my
+
+00:31:06.160 --> 00:31:10.980
+actual data I have one. Why? What is the reason?
+
+00:31:16.180 --> 00:31:20.440
+Yes. What is the reason? So I simply told you, right, that
+
+00:31:20.440 --> 00:31:23.640
+whenever you are going to mention an upper bound, so upper
+
+00:31:23.640 --> 00:31:27.740
+bound minus one. So this time upper bound is zero. Upper
+
+00:31:27.740 --> 00:31:31.140
+bound minus one. So till that point it will be able to bring
+
+00:31:31.140 --> 00:31:35.040
+the data. Right? Upper bound minus one till that point it
+
+00:31:35.040 --> 00:31:37.740
+will be able to bring the data. So my upper bound index is
+
+00:31:37.740 --> 00:31:41.280
+basically zero. So now it is able to bring a data below one.
+
+00:31:41.400 --> 00:31:43.940
+Right? So till one I am able to get the data. Till the first
+
+00:31:43.940 --> 00:31:47.260
+indexes I am able to get the data, but at zeroth indexes. So
+
+00:31:47.260 --> 00:31:51.120
+yes, it will not be able to give me a data. What I should
+
+00:31:51.120 --> 00:31:53.860
+do? Because see, I am looking for a reversal of the list.
+
+00:31:53.960 --> 00:31:57.880
+Right? So I am looking for all the data. Now tell me what I
+
+00:31:57.880 --> 00:32:02.680
+am supposed to do. Yes. So what kind of a changes I am
+
+00:32:02.680 --> 00:32:03.640
+supposed to make over here?
+
+00:32:06.600 --> 00:32:07.560
+Yes. Anyone?
+
+00:32:10.860 --> 00:32:15.220
+Okay. Someone is saying remove zero. Okay. Fine. So I will
+
+00:32:15.220 --> 00:32:19.360
+try to like, you know, remove zero. Execute. Yes. We are
+
+00:32:19.360 --> 00:32:23.000
+able to get the data. One. So I have not mentioned upper
+
+00:32:23.000 --> 00:32:25.300
+bound. So it will be able to take all the end of the list. I
+
+00:32:25.300 --> 00:32:28.780
+mean like beyond end of the list basically. You can even
+
+00:32:28.780 --> 00:32:32.060
+write over here. Okay. Like if you have to do a reverse, so
+
+00:32:32.060 --> 00:32:35.280
+you can write colon colon minus one. So colon colon minus
+
+00:32:35.280 --> 00:32:37.560
+one means automatically it will be able to understand that.
+
+00:32:37.620 --> 00:32:40.800
+Okay, fine. So you have to move into a reverse direction and
+
+00:32:40.800 --> 00:32:43.600
+it will reverse the entire list. You have to take a steps
+
+00:32:43.600 --> 00:32:45.520
+into a reverse direction. So basically it will be able to
+
+00:32:45.520 --> 00:32:48.940
+reverse the entire list in the same order. So now you will
+
+00:32:48.940 --> 00:32:51.420
+be able to get the data. So colon colon minus one, even that
+
+00:32:51.420 --> 00:32:54.220
+is going to work. Right. That is going to give you the final
+
+00:32:54.220 --> 00:32:57.340
+list because the rest of the value, it will be able to
+
+00:32:57.340 --> 00:33:01.160
+consider it automatically. Yeah. There are many other ways
+
+00:33:01.160 --> 00:33:04.280
+with the help of indexes while playing with the indexes,
+
+00:33:04.320 --> 00:33:06.780
+even you will be able to fetch the data. That's, that's not
+
+00:33:06.780 --> 00:33:09.280
+a big deal. Yeah. That's pretty much easy and possible.
+
+00:33:09.940 --> 00:33:13.620
+Okay. So here we are able to do a reversal of this
+
+00:33:13.620 --> 00:33:17.840
+particular list and we are able to get the data. Now many
+
+00:33:17.840 --> 00:33:20.600
+more operation, likewise many permutation combination. You
+
+00:33:20.600 --> 00:33:22.660
+all will be able to do it, which I'm going to give you in a
+
+00:33:22.660 --> 00:33:25.020
+homework. Right. But yeah, this is something called as
+
+00:33:25.020 --> 00:33:28.940
+slicing operation. Right. Slicing operation. Now let's say
+
+00:33:28.940 --> 00:33:33.680
+if I have S is equals to, uh, S U D H A N S H U. Yeah.
+
+00:33:34.720 --> 00:33:39.260
+String. Now, whatsoever we have discussed with respect to
+
+00:33:39.260 --> 00:33:44.260
+list just now, right? Indexing and slicing. It is applicable
+
+00:33:44.260 --> 00:33:49.220
+in the exactly, exactly same manner, even on a string, exact
+
+00:33:49.220 --> 00:33:52.600
+same manner, indexing and slicing. Two things that we have
+
+00:33:52.600 --> 00:33:55.180
+discussed in the exact same manner. It is applicable over
+
+00:33:55.180 --> 00:33:59.520
+here as well. Now let me show you that particular part. So
+
+00:33:59.520 --> 00:34:09.200
+we have S U D H A N S H U. Yeah. So indexes are going to
+
+00:34:09.200 --> 00:34:16.900
+start in our forward direction from 0 1 2 3 4 5 6 7 8. There
+
+00:34:16.900 --> 00:34:21.560
+was way minus 1 minus 2 minus 3 minus 4 minus 5 minus 6
+
+00:34:21.560 --> 00:34:26.060
+minus 7 minus 8 minus 9. Yeah. Now you will be able to
+
+00:34:26.060 --> 00:34:29.000
+perform the indexing operation and you can extract a
+
+00:34:29.000 --> 00:34:31.640
+character or subset of that character with the help of solid
+
+00:34:31.640 --> 00:34:35.660
+slicing operation. So here S is a variable. If I'm writing S
+
+00:34:35.660 --> 00:34:40.020
+of zero. So at S of zero, what is our label? Yes. Right. I'm
+
+00:34:40.020 --> 00:34:44.320
+able to fetch it. I will write S of basically, uh, like, uh,
+
+00:34:44.380 --> 00:34:48.040
+I'm in same bracket square bracket. So S of minus one. So at
+
+00:34:48.040 --> 00:34:51.000
+S of minus one, you is available. I'm able to get it. Yeah.
+
+00:34:51.200 --> 00:34:54.240
+So indexing wise, it's completely fine. Same error it will
+
+00:34:54.240 --> 00:34:56.720
+give you. So let's say if I'm writing, uh, bring me some
+
+00:34:56.720 --> 00:35:00.660
+data from 67th index, six seven index doesn't even exist. It
+
+00:35:00.660 --> 00:35:04.460
+will give me error. The string index out of range, even in
+
+00:35:04.460 --> 00:35:06.960
+list, it was the same error, right? List index out of range.
+
+00:35:07.080 --> 00:35:10.060
+Here is string index out of the range. Now let's say someone
+
+00:35:10.060 --> 00:35:13.800
+is telling you that try to extract only S U D H only S U D
+
+00:35:13.800 --> 00:35:17.300
+H. Same logic, right? Same slicing logic. So variable name
+
+00:35:17.300 --> 00:35:21.640
+start from what zero go till what? So till H if I have to
+
+00:35:21.640 --> 00:35:24.540
+extract, right? Till H if I have to extract. So I'll be
+
+00:35:24.540 --> 00:35:27.640
+writing what four over here. So simple. I will be writing
+
+00:35:27.640 --> 00:35:31.880
+four over here. Now S U D H upper bound minus one. Very
+
+00:35:31.880 --> 00:35:35.080
+simple. Yeah. I mean like there is, there is no changes. You
+
+00:35:35.080 --> 00:35:37.600
+will be able to find it over here. If I have to reverse this
+
+00:35:37.600 --> 00:35:41.040
+entire to the Hamsu, right? Simple. I can write S variable
+
+00:35:41.040 --> 00:35:46.140
+colon colon minus one reversed entire string. Yeah. Entire
+
+00:35:46.140 --> 00:35:50.880
+string reversed. Now we are doing our reversal. Does that
+
+00:35:50.880 --> 00:35:53.120
+mean that we are changing? Yeah. Are we changing the actual
+
+00:35:53.120 --> 00:35:54.580
+variable value?
+
+00:35:58.580 --> 00:36:02.560
+My question is that, that we have done a reversal operation.
+
+00:36:02.920 --> 00:36:07.820
+So have we changed the actual variable? Someone is saying
+
+00:36:07.820 --> 00:36:12.740
+yes, no, basically. Now if you'll go and print S it's same S
+
+00:36:12.740 --> 00:36:17.240
+U D H. So basically it is doing it in a runtime, right? It
+
+00:36:17.240 --> 00:36:20.800
+has not changed it permanently. If you have to change it
+
+00:36:20.800 --> 00:36:24.100
+permanently, then what you have to do? So basically you can
+
+00:36:24.100 --> 00:36:27.300
+try to reassign. Right? You can try to reassign. So
+
+00:36:27.300 --> 00:36:29.980
+basically you can try to write it down over here that S is
+
+00:36:29.980 --> 00:36:32.420
+equals to. So basically I'm overriding the previous value.
+
+00:36:32.480 --> 00:36:35.020
+It will delete the previous value. It will call a garbage
+
+00:36:35.020 --> 00:36:38.000
+collector for the previous one. And then this new value
+
+00:36:38.000 --> 00:36:40.960
+whatsoever, the new value is right. So it will try to assign
+
+00:36:40.960 --> 00:36:45.540
+to S. Now it will do the permanent assignment, but not by
+
+00:36:45.540 --> 00:36:49.380
+default. Same is applicable even with respect to a list. So
+
+00:36:49.380 --> 00:36:52.220
+what's your operation that we have discussed with respect to
+
+00:36:52.220 --> 00:36:55.420
+a list in terms of indexing and slicing? It's applicable in
+
+00:36:55.420 --> 00:36:59.400
+the exact same manner, even on a string system does this
+
+00:36:59.400 --> 00:37:03.440
+indexing operation by default. We don't do it right. System
+
+00:37:03.440 --> 00:37:06.500
+always try to start from zero and then go till a final
+
+00:37:06.500 --> 00:37:10.080
+indexes in a forward order in a backward direction. So
+
+00:37:10.080 --> 00:37:14.000
+system always try to start from minus one and then till the
+
+00:37:14.000 --> 00:37:18.200
+last of the indexes making sense guys to all of us easy,
+
+00:37:18.360 --> 00:37:20.900
+right? I don't think it's a difficult things to understand.
+
+00:37:20.980 --> 00:37:26.420
+Yes guys. Yeah. So I want a lot of activities guys inside a
+
+00:37:26.420 --> 00:37:31.560
+chat basically during a live class. Okay, fine. And I'm
+
+00:37:31.560 --> 00:37:33.560
+assuming that all of you are writing it, all of you are
+
+00:37:33.560 --> 00:37:34.000
+doing it.
+
+00:37:43.170 --> 00:37:50.750
+Yeah. Okay. No, no. So a string and list now. So let's say
+
+00:37:50.750 --> 00:37:56.470
+we have a list L and we have this data now inside. So for
+
+00:37:56.470 --> 00:38:00.030
+list people who have created Python or who have contributed
+
+00:38:00.030 --> 00:38:03.950
+inside a Python library. So they have already created a lot
+
+00:38:03.950 --> 00:38:08.010
+of function inbuilt function, right? I can create my own
+
+00:38:08.010 --> 00:38:10.450
+function, but yeah, people have also created a lot of
+
+00:38:10.450 --> 00:38:14.150
+inbuilt function just for list. So here, if I'm going to
+
+00:38:14.150 --> 00:38:20.070
+type L and then if I'm going to put dot over here, so you
+
+00:38:20.070 --> 00:38:25.270
+will be able to see a lot of functions over there. Yeah. A
+
+00:38:25.270 --> 00:38:27.410
+lot of functions over there with respect to list, I think
+
+00:38:27.410 --> 00:38:30.850
+20, 30 functions are available with respect to a list over.
+
+00:38:30.930 --> 00:38:33.950
+Okay. Yeah. So let's try to talk about all of these
+
+00:38:33.950 --> 00:38:36.850
+functions one by one, one by one, one by one, right?
+
+00:38:39.980 --> 00:38:45.720
+It should, I just wanted to show you all the, yeah.
+
+00:39:04.160 --> 00:39:07.200
+So let's start like, you know, implementing all of this
+
+00:39:07.200 --> 00:39:10.020
+function one by one, one by one, one by one. Yeah.
+
+00:39:35.690 --> 00:39:39.550
+So the very first function is, let's say append. What append
+
+00:39:39.550 --> 00:39:41.490
+does, again it's an inbuilt function, right? So list
+
+00:39:41.490 --> 00:39:44.950
+variable and then dot you can call. So what append does, so
+
+00:39:44.950 --> 00:39:48.410
+by default append is going to append. A data at the end of
+
+00:39:48.410 --> 00:39:52.170
+the list, very, very simple. So this L now, if I'm going to
+
+00:39:52.170 --> 00:39:55.330
+call L so previously there was like a one, two, three, four,
+
+00:39:55.390 --> 00:39:58.290
+five. And then now I'm able to see three, four, five, six,
+
+00:39:58.450 --> 00:40:02.430
+right? So I can try to again call append over here, append.
+
+00:40:02.750 --> 00:40:06.170
+And then this time I would like to append maybe a string. So
+
+00:40:06.170 --> 00:40:09.490
+yeah, it will be able to append a string. Let's say I would
+
+00:40:09.490 --> 00:40:12.070
+like to like, you know, call append and I would like to like
+
+00:40:12.070 --> 00:40:15.270
+append one list itself. So list, which is having three,
+
+00:40:15.350 --> 00:40:19.710
+four, five value. So yes, it will be able to append a list,
+
+00:40:19.970 --> 00:40:25.210
+right? So I can keep on appending as much data as I want.
+
+00:40:25.450 --> 00:40:30.590
+Very, very simple. Yeah. Very, very simple over here. Then
+
+00:40:30.590 --> 00:40:34.890
+there is another function, right? So this is append. So then
+
+00:40:34.890 --> 00:40:37.310
+there is another function called as list dot extend.
+
+00:40:37.470 --> 00:40:41.870
+Basically what extend does, right? So let's say if I'm
+
+00:40:41.870 --> 00:40:46.530
+keeping a su d h inside extend, executing it. And then if
+
+00:40:46.530 --> 00:40:52.150
+I'm going to show you list, so what it has done as string is
+
+00:40:52.150 --> 00:40:55.710
+a iterable entity, I can iterate it right one by one means
+
+00:40:55.710 --> 00:40:58.030
+there is an index which is available for now, right? As per
+
+00:40:58.030 --> 00:41:00.750
+like whatsoever we have discussed based on that, you can say
+
+00:41:00.750 --> 00:41:05.850
+that that inside a string I can access a data with the
+
+00:41:05.850 --> 00:41:12.430
+indexes, indexes. So if I have an iterable entity in that
+
+00:41:12.430 --> 00:41:15.970
+case, what extend function does, it will try to break it
+
+00:41:15.970 --> 00:41:20.390
+down into a lower label elements and then one by one it will
+
+00:41:20.390 --> 00:41:25.030
+insert that element not as a whole, whereas append has done
+
+00:41:25.030 --> 00:41:29.370
+what? So append has appended the entire entity all together.
+
+00:41:29.750 --> 00:41:34.090
+Now let's say if I'm going to call this dot extend, yeah,
+
+00:41:34.190 --> 00:41:39.210
+and instead of giving su d h, I will try to give 45. What
+
+00:41:39.210 --> 00:41:46.850
+will happen guys? Yeah. What will happen now? If I'm calling
+
+00:41:46.850 --> 00:41:49.390
+list dot extend. Extend and 45 I'm trying to give what will
+
+00:41:49.390 --> 00:41:49.650
+happen?
+
+00:41:53.110 --> 00:41:56.590
+Yeah. Okay. People are saying error. Why?
+
+00:42:03.770 --> 00:42:06.650
+It's an integer. Can we do indexing slicing operation with
+
+00:42:06.650 --> 00:42:10.850
+respect to integer? Can we extract four and five separately
+
+00:42:10.850 --> 00:42:17.020
+as an integer from an integer? No, right? That is the
+
+00:42:17.020 --> 00:42:20.560
+reason. So basically integer is not a iterable entity as it
+
+00:42:20.560 --> 00:42:23.320
+is giving you an error. I will not be able to extract four
+
+00:42:23.320 --> 00:42:25.940
+and five just like I was able to extract something from the
+
+00:42:25.940 --> 00:42:30.720
+string or maybe a list. It is not going to work. So extend
+
+00:42:30.720 --> 00:42:34.580
+always expects basically a iterable entity. If iterable
+
+00:42:34.580 --> 00:42:38.160
+entities are not available, then it is not going to work.
+
+00:42:38.240 --> 00:42:40.940
+Even you can try to hold your mouse and then it is going to
+
+00:42:40.940 --> 00:42:43.500
+give you a definition, a doc string. Basically it is going
+
+00:42:43.500 --> 00:42:45.960
+to show you like what extend function does. But yeah, this
+
+00:42:45.960 --> 00:42:50.060
+is how extend function going to behave. Okay. Then there is
+
+00:42:50.060 --> 00:42:54.000
+another function called as insert basically. So what is the
+
+00:42:54.000 --> 00:42:57.600
+meaning of insert by the way? Right? So we are able to see
+
+00:42:57.600 --> 00:43:00.840
+append. What append does? So append always try to append a
+
+00:43:00.840 --> 00:43:04.980
+data at the end. What extend does? So extend try to break
+
+00:43:04.980 --> 00:43:08.360
+down everything if it is a iterable and then it tried to
+
+00:43:08.360 --> 00:43:12.140
+append it element wise. Now what insert does? So let's say
+
+00:43:12.140 --> 00:43:16.920
+if I have to insert some data at some position, yeah, at
+
+00:43:16.920 --> 00:43:21.020
+some position, I would like to insert that data. So insert
+
+00:43:21.020 --> 00:43:24.300
+takes two argument as you can see over here, right? Insert
+
+00:43:24.300 --> 00:43:27.420
+is taking technically two arguments. So the very first
+
+00:43:27.420 --> 00:43:29.800
+argument that you are able to see, so this is nothing but
+
+00:43:29.800 --> 00:43:34.300
+our index where to insert and then here you are going to
+
+00:43:34.300 --> 00:43:38.140
+give what to insert means your data basically. So in this
+
+00:43:38.140 --> 00:43:42.500
+manner, insert function will try to insert a record at a
+
+00:43:42.500 --> 00:43:46.900
+particular location. Very, very simple. So I said that
+
+00:43:46.900 --> 00:43:51.700
+insert this SUDH at third location, so 0, 1, 2, 3 at third
+
+00:43:51.700 --> 00:43:56.500
+location it is available. Yeah. So very, very simple list
+
+00:43:56.500 --> 00:44:00.860
+dot insert basically and insert this data at a zeroth
+
+00:44:00.860 --> 00:44:04.040
+location. Let's say I'm saying fine, it will be able to
+
+00:44:04.040 --> 00:44:08.360
+insert it. So now at zeroth location, my data set is
+
+00:44:08.360 --> 00:44:11.840
+available. Simple right? At zeroth location, my data set is
+
+00:44:11.840 --> 00:44:14.780
+available. It has shifted all the other things altogether.
+
+00:44:15.260 --> 00:44:19.820
+So this is how insert append and extend works. Append at
+
+00:44:19.820 --> 00:44:23.280
+last. Extend if iterable, break it down and then insert.
+
+00:44:23.280 --> 00:44:27.580
+Insert element wise, insert at a particular position. If I
+
+00:44:27.580 --> 00:44:30.860
+have to put the data, then I will be able to use a insert
+
+00:44:30.860 --> 00:44:35.440
+function. Very, very simple. Now so this is my current list,
+
+00:44:35.560 --> 00:44:39.200
+right? I have added so many data over here. Now let's say if
+
+00:44:39.200 --> 00:44:43.640
+I have to remove the data, yeah, if I have to remove the
+
+00:44:43.640 --> 00:44:47.160
+data out of this like, you know, entire things. So how I
+
+00:44:47.160 --> 00:44:51.600
+will be able to remove the data. So to remove the data,
+
+00:44:51.680 --> 00:44:54.220
+there is again a function. Which is given to you. So there
+
+00:44:54.220 --> 00:44:59.440
+is something called as a remove and remove sudh, yeah. So we
+
+00:44:59.440 --> 00:45:03.800
+have sudh here and we have sudh here. We have twice, right?
+
+00:45:03.900 --> 00:45:09.480
+This sudh appears twice inside a particular list. Now when
+
+00:45:09.480 --> 00:45:12.980
+I'm trying to call this remove, let's call it, right? Now
+
+00:45:12.980 --> 00:45:17.660
+let me show you list over here. Now which one it has
+
+00:45:17.660 --> 00:45:18.000
+removed?
+
+00:45:22.080 --> 00:45:23.900
+Yes, which one it has removed?
+
+00:45:29.000 --> 00:45:32.000
+I think we got the answer. Right? So everyone is saying the
+
+00:45:32.000 --> 00:45:35.800
+first one. So whatever has appeared in a very, very first
+
+00:45:35.800 --> 00:45:40.420
+place in a forward order, right? It has removed that very,
+
+00:45:40.520 --> 00:45:43.120
+very simple. So it is not removing all the occurrences
+
+00:45:43.120 --> 00:45:48.060
+basically. It is only removing the very, very first
+
+00:45:48.060 --> 00:45:50.600
+occurrence, very first occurrence. It is trying to remove
+
+00:45:50.600 --> 00:45:53.840
+it. It is not removing anything else or like any other one.
+
+00:45:53.920 --> 00:45:57.020
+If I remove the second one again, I have to call the remove
+
+00:45:57.020 --> 00:45:59.820
+functions. This is what remove does by the way. So remove.
+
+00:46:00.680 --> 00:46:05.440
+So remove a data with the first occurrence. Okay. Now list
+
+00:46:05.440 --> 00:46:08.140
+dot. So remove is one of the function. There is a function
+
+00:46:08.140 --> 00:46:13.420
+called as pop execute. So what pop does if I'm not giving an
+
+00:46:13.420 --> 00:46:16.440
+indexes over here, right? If I'm not giving an indexes over
+
+00:46:16.440 --> 00:46:19.940
+here. So in that case it will always try to pop the data
+
+00:46:19.940 --> 00:46:24.360
+means to remove the data from last. So it has removed H. Now
+
+00:46:24.360 --> 00:46:27.960
+if I'll go and check my list, it is gone, which was at last,
+
+00:46:28.100 --> 00:46:32.260
+right? In the previous one. List dot pop. Again I'm going to
+
+00:46:32.260 --> 00:46:35.920
+call and this time I'm giving four, right? I'm giving
+
+00:46:35.920 --> 00:46:39.700
+basically four or maybe let's say like I'm giving two over
+
+00:46:39.700 --> 00:46:46.780
+here execute. It has executed it. Now if you'll go and check
+
+00:46:46.780 --> 00:46:51.180
+what is the data which is removed. So pop actually works on
+
+00:46:51.180 --> 00:46:55.040
+indexes, not on data. Remove works on data, right? So let's
+
+00:46:55.040 --> 00:46:57.280
+say I have written two, right? So it's not like it will
+
+00:46:57.280 --> 00:47:02.540
+remove. Two as a data, it will go to a second indexes and
+
+00:47:02.540 --> 00:47:05.520
+then it will remove. So what was available at second
+
+00:47:05.520 --> 00:47:09.860
+indexes? So this is at the zeroth. This is at one. This is
+
+00:47:09.860 --> 00:47:12.620
+at two. Yeah. So at two it was available at second indexes.
+
+00:47:12.680 --> 00:47:16.080
+It has basically removed it, right? Okay. Let me call this
+
+00:47:16.080 --> 00:47:23.140
+function a couple of more times. So list dot pop, pop
+
+00:47:25.480 --> 00:47:30.520
+and pop from what? Let's suppose seventh indexes. So at
+
+00:47:30.520 --> 00:47:34.000
+seventh indexes, what is available? This is available. Maybe
+
+00:47:34.000 --> 00:47:39.460
+you can check, right? So zero, one, two, three, four, five,
+
+00:47:39.640 --> 00:47:43.300
+six, seven. Yeah. So at seven indexes, this is available. It
+
+00:47:43.300 --> 00:47:46.240
+has popped this one means it has removed basically this one.
+
+00:47:46.320 --> 00:47:49.460
+So pop always take our indexes. If you are not giving an
+
+00:47:49.460 --> 00:47:52.580
+indexes, it will by default consider the last index and then
+
+00:47:52.580 --> 00:47:55.320
+it will try to remove it something from the last. So pop
+
+00:47:55.320 --> 00:47:59.820
+works on the indexes basis. Now there is a. Another function
+
+00:47:59.820 --> 00:48:03.540
+list dot clear. So let's say I have to delete the clear the
+
+00:48:03.540 --> 00:48:07.020
+entire list. Now check the list. It's empty. So clear means
+
+00:48:07.020 --> 00:48:11.800
+wipe out each and everything. Very very simple. Yeah. Very
+
+00:48:11.800 --> 00:48:15.800
+very simple. So my list is empty. Let me assign some values
+
+00:48:15.800 --> 00:48:21.960
+to it. Yeah. Now let's say let me let me assign some more
+
+00:48:21.960 --> 00:48:22.340
+value.
+
+00:48:28.090 --> 00:48:32.790
+Yeah. So these are these are the values which I have over
+
+00:48:32.790 --> 00:48:39.410
+here. Now let's say I would like to like, you know, find out
+
+00:48:39.410 --> 00:48:44.610
+that what is index of basically some of the data. For
+
+00:48:44.610 --> 00:48:48.130
+example, I would like to know that what is our index of two
+
+00:48:48.130 --> 00:48:52.170
+as a data. Yeah. So maybe I can try to call list dot. There
+
+00:48:52.170 --> 00:48:57.770
+is an inbuilt function called as index function. So what is
+
+00:48:57.770 --> 00:49:01.450
+the index of basically two? So index of two is what? One.
+
+00:49:02.350 --> 00:49:07.670
+It's visible. Right. So zero, one, two, three, four, five,
+
+00:49:07.850 --> 00:49:11.790
+six, seven. So yeah, index of two is what index of two is
+
+00:49:11.790 --> 00:49:15.370
+technically one. So fine. I'm able to get it. Cool.
+
+00:49:18.930 --> 00:49:21.230
+So this is the index function. So which will always try to
+
+00:49:21.230 --> 00:49:25.150
+give you the indexes of like some of the element again first
+
+00:49:25.150 --> 00:49:27.770
+occurrence. If element is occurring multiple times, it will
+
+00:49:27.770 --> 00:49:30.770
+not work. It will only work for the very, very fast
+
+00:49:30.770 --> 00:49:34.570
+occurrence. Then let's say I have a list. Let me create a
+
+00:49:34.570 --> 00:49:35.870
+list with some duplicate data.
+
+00:49:53.190 --> 00:49:55.390
+Okay. This is the list I've created. So many duplicate data
+
+00:49:55.390 --> 00:50:00.190
+purposely I have introduced. Now list dot index index of
+
+00:50:00.190 --> 00:50:03.410
+what? So index of basically three should
+
+00:50:07.920 --> 00:50:12.440
+be L index of three. So I have three multiple times, right?
+
+00:50:12.500 --> 00:50:15.140
+But it is not giving me index of all. It is giving me index
+
+00:50:15.140 --> 00:50:18.780
+of only the very first occurrence. Very, very simple. Yeah.
+
+00:50:19.060 --> 00:50:22.720
+Now there is something called as like a count function. So
+
+00:50:22.720 --> 00:50:26.500
+count. So count. So how many times three is appearing? So
+
+00:50:26.500 --> 00:50:30.380
+three has appeared basically three times. Again count. How
+
+00:50:30.380 --> 00:50:32.940
+many times basically like a, you know, I would like to
+
+00:50:32.940 --> 00:50:37.040
+check, uh, five have eight have appeared. So eight have
+
+00:50:37.040 --> 00:50:40.880
+appeared three times. So yes, eight, eight I can see here
+
+00:50:40.880 --> 00:50:44.080
+and eight I can see over here. So eight has appeared three
+
+00:50:44.080 --> 00:50:47.080
+times. So it is going to tell me the count of the entire
+
+00:50:47.080 --> 00:50:53.860
+entity count of the entire entity. Fine. Is it making sense
+
+00:50:53.860 --> 00:50:55.680
+to all of us? Guys? Yes.
+
+00:51:00.500 --> 00:51:03.000
+So no need to remember all of this function. This functions
+
+00:51:03.000 --> 00:51:05.920
+are very easy and again in a day to day basis, you will end
+
+00:51:05.920 --> 00:51:09.060
+up using it and you will get used to it. So no need to take
+
+00:51:09.060 --> 00:51:12.260
+a note of it. No need to, you know, uh, remember any of
+
+00:51:12.260 --> 00:51:16.720
+these functions that we are like, uh, discussing. Yeah. Not
+
+00:51:16.720 --> 00:51:19.620
+even a single function basically not means literally no.
+
+00:51:21.180 --> 00:51:26.220
+Okay. That's cool. Uh, so now let's go ahead and, uh, count
+
+00:51:26.220 --> 00:51:30.020
+index. This, uh, index function is done. Append, list, pop,
+
+00:51:30.120 --> 00:51:31.380
+clear. All these functions are done.
+
+00:51:34.690 --> 00:51:40.850
+Now let's talk about a string. So string down to, let's say,
+
+00:51:40.930 --> 00:51:41.230
+yeah.
+
+00:51:50.780 --> 00:51:54.080
+So again, inside a string, you will be able to find out a
+
+00:51:54.080 --> 00:51:57.240
+couple of inbuilt function. For example, so there is
+
+00:51:57.240 --> 00:52:01.400
+something called as lower, yeah, lower. Now if I'm going to
+
+00:52:01.400 --> 00:52:04.940
+call s.lower, so what it will do, it will convert everything
+
+00:52:04.940 --> 00:52:09.560
+into a lowercase. Let's see if I'm calling s.upper. So
+
+00:52:09.560 --> 00:52:13.540
+upper. It will convert everything into a uppercase is very,
+
+00:52:13.640 --> 00:52:16.280
+very simple. Let's say if I'm going to call, there is
+
+00:52:16.280 --> 00:52:19.660
+something, there is a function called as s.title. Yeah. So
+
+00:52:19.660 --> 00:52:21.960
+if I'm going to call title, so it will convert the very
+
+00:52:21.960 --> 00:52:27.720
+first character right into an uppercase. Let me like save it
+
+00:52:27.720 --> 00:52:29.720
+as Sudhanshu Kumar.
+
+00:52:33.220 --> 00:52:36.720
+Yeah. Okay. Now s.title.
+
+00:52:39.300 --> 00:52:43.460
+So basically it is converting this one into an uppercase and
+
+00:52:43.460 --> 00:52:46.320
+K into an uppercase. This was one. This is what I was like
+
+00:52:46.320 --> 00:52:49.900
+trying to show it to you. Now there is a function called as
+
+00:52:49.900 --> 00:52:54.080
+capitalize, right? So it will always convert the very first
+
+00:52:54.080 --> 00:52:57.180
+one, not both one, right into an uppercase. So it has
+
+00:52:57.180 --> 00:53:01.480
+converted only s into a upper cases. Very, very simple,
+
+00:53:01.620 --> 00:53:07.920
+right? So upper lower, then I can try to call like s is
+
+00:53:07.920 --> 00:53:17.540
+equals to s.udh, let's suppose, yeah, udh. Now, s.u.dh. So
+
+00:53:17.540 --> 00:53:21.880
+what it does, whatsoever is available in uppercase, it will
+
+00:53:21.880 --> 00:53:24.420
+convert that into a lowercase and whatsoever is available to
+
+00:53:24.420 --> 00:53:27.240
+a lowercase, it will try to convert that into a upper cases.
+
+00:53:27.480 --> 00:53:30.680
+So there is something called as swap case. You all will be
+
+00:53:30.680 --> 00:53:36.040
+able to find out, right now. So s is equals to dhanshu.
+
+00:53:38.310 --> 00:53:44.490
+Okay. Now there is something called as find. So what it will
+
+00:53:44.490 --> 00:53:47.310
+do? You can try to give a substring over there. Right. And
+
+00:53:47.310 --> 00:53:49.930
+then it will try to find out the starting point or very
+
+00:53:49.930 --> 00:53:54.210
+first index of that particular substring. So dhanshu kubar
+
+00:53:54.210 --> 00:53:59.110
+and I have given s.find, s.u.dh. So s.u.dh started from
+
+00:53:59.110 --> 00:54:01.750
+where? So it started from index zero. So it will give you
+
+00:54:01.750 --> 00:54:06.430
+that. Let's say if I'm writing s.find and this time I'm
+
+00:54:06.430 --> 00:54:11.330
+writing maybe like a ma, right?
+
+00:54:14.870 --> 00:54:19.770
+Yeah. So ma. So this m has started. So let's say I have this
+
+00:54:19.770 --> 00:54:22.930
+combination over here. So this m has started from 12th
+
+00:54:22.930 --> 00:54:26.210
+index. It is giving me 12th index. So it consider even like
+
+00:54:26.210 --> 00:54:29.150
+a space as an index. Yeah. It's part of a string by the way.
+
+00:54:29.190 --> 00:54:33.430
+Space is also a part of a string. Now s.find and let's say
+
+00:54:33.430 --> 00:54:39.670
+I'm trying to give over here something like, you know, z, z
+
+00:54:39.670 --> 00:54:42.690
+is not available. So whatsoever is not available, it is
+
+00:54:42.690 --> 00:54:46.890
+going to return always a minus one. Very, very simple.
+
+00:54:47.050 --> 00:54:51.710
+Right. Like a list. So we have count function. So count how
+
+00:54:51.710 --> 00:54:56.170
+many times s has appeared into my, you know, the entire
+
+00:54:56.170 --> 00:55:00.130
+string. So s has appeared twice as you can go and check. So
+
+00:55:00.130 --> 00:55:04.890
+s is available here and s is available even over here. Now
+
+00:55:04.890 --> 00:55:14.760
+if I'm going to check s.count, c-o-u-n-t, count and I would
+
+00:55:14.760 --> 00:55:18.560
+like to like count s once again. Now it is giving me zero.
+
+00:55:20.000 --> 00:55:23.780
+Very simple. I have written this time s in uppercase and
+
+00:55:23.780 --> 00:55:26.840
+Python is basically a case sensitive programming language.
+
+00:55:27.060 --> 00:55:29.600
+So obviously uppercase and lowercase is not going to be same
+
+00:55:29.600 --> 00:55:33.340
+and keeping that in a mind, it has given me that count is
+
+00:55:33.340 --> 00:55:36.960
+equals to basically zero. So we are just having only like
+
+00:55:36.960 --> 00:55:43.960
+this capital S only one times inside a s by the way. So now
+
+00:55:43.960 --> 00:55:46.340
+this is, these are some of the like, you know, functions
+
+00:55:46.340 --> 00:55:49.420
+which is available with respect to string. Likewise. There
+
+00:55:49.420 --> 00:55:50.180
+are some other functions which is available, which
+
+00:55:50.180 --> 00:55:52.620
+eventually will iterate and we'll try to like, you know,
+
+00:55:52.680 --> 00:55:57.080
+call those functions as we will like need it. Right. There
+
+00:55:57.080 --> 00:55:59.560
+are like 30 plus function which is available. So obviously
+
+00:55:59.560 --> 00:56:02.680
+I'll try to basically like use those functions and I'll try
+
+00:56:02.680 --> 00:56:08.340
+to call it. Now making sense guys, to all of us, yeah, how
+
+00:56:10.070 --> 00:56:12.970
+we can count the mix of s and s. So you can count all these
+
+00:56:12.970 --> 00:56:16.230
+things separately and then club it means try to add it.
+
+00:56:18.780 --> 00:56:22.380
+That's one way. The other way is write your own function.
+
+00:56:22.480 --> 00:56:24.780
+Okay. But yeah, as we have not discussed about our own
+
+00:56:24.780 --> 00:56:31.960
+function, so we can't do it. What is the shortcut to see all
+
+00:56:31.960 --> 00:56:34.400
+the functions? Shortcut to see all the functions like, you
+
+00:56:34.400 --> 00:56:38.760
+know, like let's say I have this string and the variable dot
+
+00:56:38.760 --> 00:56:43.760
+and then by default it shows all the functions. But yeah, so
+
+00:56:43.760 --> 00:56:46.980
+I think I have to restart my Jupyter notebook. But by the
+
+00:56:46.980 --> 00:56:49.840
+time you are going to put dot right, it's list down all the
+
+00:56:49.840 --> 00:56:54.160
+functions. So it works basically. But yeah. Yeah. So I just
+
+00:56:54.160 --> 00:56:56.160
+have to restart my system. I have not restarted. So sometime
+
+00:56:56.160 --> 00:56:59.640
+it creates a problem. But yeah, just dot, press dot and then
+
+00:56:59.640 --> 00:57:00.580
+it will give the list.
+
+00:57:04.180 --> 00:57:06.800
+Maybe it's, it must be working in your system. There's a
+
+00:57:06.800 --> 00:57:11.160
+chance. Yeah. There's a chance. Okay. So a string is fine. A
+
+00:57:11.160 --> 00:57:16.080
+list is fine. Now there is another entity you all will be
+
+00:57:16.080 --> 00:57:20.820
+able to find out and that, yeah, working for me. For many of
+
+00:57:20.820 --> 00:57:23.760
+you it will work. So don't worry. Now there are other
+
+00:57:23.760 --> 00:57:25.740
+functions. Almost all of you. Those who have done new
+
+00:57:25.740 --> 00:57:27.860
+installation and maybe you have restarted the system, it
+
+00:57:27.860 --> 00:57:30.640
+will work. Even for me it will work. But yeah. After
+
+00:57:30.640 --> 00:57:37.660
+restart. Yep. Okay. Now. So let's try to basically do one
+
+00:57:37.660 --> 00:57:41.960
+thing. So let's talk about another data type. There is
+
+00:57:41.960 --> 00:57:44.300
+something called as tuples. Yeah. There is something called
+
+00:57:44.300 --> 00:57:48.920
+as tuples. So basically we can create a tuples by using open
+
+00:57:48.920 --> 00:57:53.280
+and close parenthesis. In case of list, the notation was
+
+00:57:53.280 --> 00:57:57.760
+square bracket. In case of tuples, the notation is basically
+
+00:57:57.760 --> 00:58:02.440
+parenthesis, open and close parenthesis. Okay. Fine. Now. So
+
+00:58:02.440 --> 00:58:05.660
+this is what a tuple is. Let's say if I'm going to check
+
+00:58:05.660 --> 00:58:08.680
+what is the type of this T variable. So it will tell me that
+
+00:58:08.680 --> 00:58:13.840
+it's a tuple. Now here inside this tuple, I can try to store
+
+00:58:13.840 --> 00:58:17.320
+whatsoever that I want. So one comma two comma three comma
+
+00:58:17.320 --> 00:58:21.240
+four, something like that. Some floating point number, let's
+
+00:58:21.240 --> 00:58:24.720
+say if I would like to store it so I can store it. Maybe a
+
+00:58:24.720 --> 00:58:27.660
+string. If I would like to store, I can store it. Maybe
+
+00:58:27.660 --> 00:58:30.640
+Boolean. If I want, I can store it. Complex number I want. I
+
+00:58:30.640 --> 00:58:34.660
+can store it. Right. I can even store a list inside it.
+
+00:58:34.760 --> 00:58:40.080
+Three comma four comma five. Right. Execute. So even in
+
+00:58:40.080 --> 00:58:42.900
+tuples, just like a list that we have discussed, we are able
+
+00:58:42.900 --> 00:58:46.500
+to store all the data. Yeah. We are able to technically
+
+00:58:46.500 --> 00:58:52.360
+store all the data. Now the question arises over here. That.
+
+00:58:52.360 --> 00:58:56.400
+List was doing the same thing, right? List was doing the
+
+00:58:56.400 --> 00:59:00.960
+same thing. Let's say I'm writing like a T or T of zero. I'm
+
+00:59:00.960 --> 00:59:03.100
+able to get the data. Let's say I'm writing a slicing
+
+00:59:03.100 --> 00:59:05.660
+function over here. So start from zero and go till four.
+
+00:59:05.820 --> 00:59:10.100
+That is also working, right? So I believe like all these
+
+00:59:10.100 --> 00:59:13.580
+things we were able to achieve, even in case of a list, then
+
+00:59:13.580 --> 00:59:15.600
+how tuples is different.
+
+00:59:17.910 --> 00:59:19.150
+Yes. Any idea?
+
+00:59:23.130 --> 00:59:23.570
+Yeah.
+
+00:59:31.580 --> 00:59:34.820
+So people are saying that tuple is immutable. Yeah. Tuples
+
+00:59:34.820 --> 00:59:36.920
+are immutable. Okay. So everyone is saying the same thing
+
+00:59:36.920 --> 00:59:41.920
+that tuples is immutable. And what is that by the way? What
+
+00:59:41.920 --> 00:59:46.360
+is that? Like a definition of a mutability and immutability.
+
+00:59:52.910 --> 00:59:57.010
+We can't change a data in tuple cannot change once declared.
+
+00:59:57.190 --> 01:00:01.590
+Yeah, that's true. So basically whatsoever we can do in
+
+01:00:01.590 --> 01:00:04.770
+list, we are able to do it even over here in case of storing
+
+01:00:04.770 --> 01:00:07.870
+the data in case of indexing in case of slicing. That's
+
+01:00:07.870 --> 01:00:12.730
+fine. Now here. Let me create a list, a smaller list, right?
+
+01:00:12.850 --> 01:00:19.470
+This one. Now let's say in list at zeroth index one is
+
+01:00:19.470 --> 01:00:23.610
+available, right? At list zeroth index. So list of basically
+
+01:00:23.610 --> 01:00:29.510
+this zero data is one which is available. I don't want this
+
+01:00:29.510 --> 01:00:33.850
+data at zeroth index. What I want, I would like to override
+
+01:00:33.850 --> 01:00:38.310
+that data. So basically I would like to store my name over
+
+01:00:38.310 --> 01:00:43.110
+there. At zeroth index, my name must be available, not one.
+
+01:00:43.470 --> 01:00:47.030
+So I have just done a reassignment operation. That list of
+
+01:00:47.030 --> 01:00:51.510
+zero is equal to Sudhanshu. So at zeroth index, just try to
+
+01:00:51.510 --> 01:00:55.130
+store Sudhanshu. Now if I'm going to call list, it has
+
+01:00:55.130 --> 01:01:00.250
+changed. At zeroth index one was available. Now it's my name
+
+01:01:00.250 --> 01:01:04.670
+which is available over there. Yeah. Okay. Now tuples.
+
+01:01:04.730 --> 01:01:10.270
+Right? I have tuples. So tuples of zero. Okay. And at zeroth
+
+01:01:10.270 --> 01:01:15.010
+indexes, four is available. I'll do the same thing. Tuples
+
+01:01:15.010 --> 01:01:18.710
+of zero. Let's try to replace that with my name. Is it going
+
+01:01:18.710 --> 01:01:19.130
+to work?
+
+01:01:27.390 --> 01:01:33.660
+Yes. No, it is not going to work, right? It says that that
+
+01:01:33.660 --> 01:01:37.500
+tuple object doesn't support a item assignment means if I
+
+01:01:37.500 --> 01:01:42.360
+have created a tuples at a particular index, you will not be
+
+01:01:42.360 --> 01:01:45.840
+able to change a data and this concept is called as
+
+01:01:45.840 --> 01:01:51.080
+immutability. Right? If I'm not able to change it at a
+
+01:01:51.080 --> 01:01:54.840
+particular index in a particular data type or in a data,
+
+01:01:54.920 --> 01:01:57.360
+right? In a particular variable in a particular place at a
+
+01:01:57.360 --> 01:02:01.300
+particular index, if I'm not able to modify the data, I can
+
+01:02:01.300 --> 01:02:04.240
+say that that this element, this entity is basically
+
+01:02:04.240 --> 01:02:11.160
+immutable. So list is basically a mutable entity. Tuples is
+
+01:02:11.160 --> 01:02:15.100
+basically immutable entity. You can't reassign some values
+
+01:02:15.100 --> 01:02:18.220
+or assign some values at a given indexes. Very, very simple.
+
+01:02:18.240 --> 01:02:23.000
+Now let's say I'm creating a string over here. So a string
+
+01:02:23.000 --> 01:02:29.860
+wise, basically it's the hanshu. S of zero is what? S of
+
+01:02:29.860 --> 01:02:33.680
+zero at zeroth index, S is available. I would like to
+
+01:02:33.680 --> 01:02:39.000
+basically change this with A. Will I be able to do it?
+
+01:02:42.290 --> 01:02:46.190
+So at zeroth index, instead of S, I would like to make it as
+
+01:02:46.190 --> 01:02:53.670
+a A. Rishabh is saying yes. Anves is saying yes. Nidhi is
+
+01:02:53.670 --> 01:02:57.210
+saying yes. Okay. Everyone is saying yes. Rahul is saying
+
+01:02:57.210 --> 01:03:03.010
+no. Those who are saying yes, they have not even tried. See
+
+01:03:03.010 --> 01:03:05.990
+the result. What is the conclusion?
+
+01:03:12.080 --> 01:03:20.140
+String is a mutable entity or immutable entity? Yes. I think
+
+01:03:20.140 --> 01:03:26.560
+we know the answer. Yeah. String is immutable at a
+
+01:03:26.560 --> 01:03:29.760
+particular index inside a string. I will not be able to
+
+01:03:29.760 --> 01:03:32.380
+change it. Now some people will come to me and say that
+
+01:03:32.380 --> 01:03:36.620
+instead of S, I can reassign the entire value. Now that is
+
+01:03:36.620 --> 01:03:38.600
+not called as mutability, immutability. You are reassigning
+
+01:03:38.600 --> 01:03:41.700
+the entire value. That's different. That's reassignment
+
+01:03:41.700 --> 01:03:45.740
+operation basically. But here, so string and tuples is
+
+01:03:45.740 --> 01:03:49.820
+basically immutable entity list, whereas we have a mutable
+
+01:03:49.820 --> 01:03:54.800
+entity. We can mutate it basically. Yes. This is again a
+
+01:03:54.800 --> 01:03:58.060
+comparison. Now tuples, we were talking about. Right? So
+
+01:03:58.060 --> 01:04:00.480
+inside a tuples, you will not be able to find out much
+
+01:04:00.480 --> 01:04:04.060
+function. For example, we have tuples T. You will not be
+
+01:04:04.060 --> 01:04:06.580
+able to find out append, extend kind of a function inside a
+
+01:04:06.580 --> 01:04:09.660
+tuples because it's not possible. That's reason function is
+
+01:04:09.660 --> 01:04:13.760
+not available. So tuples dot, you can call like a count
+
+01:04:13.760 --> 01:04:16.480
+function. So count just like a string, sorry, just like a
+
+01:04:16.480 --> 01:04:19.240
+list. It just tried to count it how many times this element
+
+01:04:19.240 --> 01:04:22.900
+has actually appeared. And then like a tuples dot index
+
+01:04:22.900 --> 01:04:27.720
+operation, you will be able to index operation. Index
+
+01:04:27.720 --> 01:04:31.000
+operation, you will be able to call. So it will tell you
+
+01:04:31.000 --> 01:04:33.620
+that basically what is the index of this particular element
+
+01:04:33.620 --> 01:04:37.460
+if element is available. So three is not available here as
+
+01:04:37.460 --> 01:04:41.420
+we can see, right? So it is telling me that x is not in
+
+01:04:41.420 --> 01:04:44.240
+tuples means this three is not in tuples. Maybe we can try
+
+01:04:44.240 --> 01:04:45.340
+to search for like a seven.
+
+01:04:58.290 --> 01:05:02.710
+Yeah. So seven is available at third indexes, right? This is
+
+01:05:02.710 --> 01:05:05.690
+what it has given. So yeah, zero, one, two, three, third
+
+01:05:05.690 --> 01:05:09.050
+index, seven is available. Fine. So tuple, we are, we are
+
+01:05:09.050 --> 01:05:13.430
+basically able to understand it now. So tuple is basically
+
+01:05:13.430 --> 01:05:16.630
+immutable. String is immutable. List is mutable. You can
+
+01:05:16.630 --> 01:05:19.690
+mutate a data indexing slicing. Also we are able to
+
+01:05:19.690 --> 01:05:23.150
+understand string, tuples and list all three inbuilt
+
+01:05:23.150 --> 01:05:25.070
+functions. Some of the inbuilt function we are able to
+
+01:05:25.070 --> 01:05:27.970
+discuss with respect to string, tuples and a list all three.
+
+01:05:28.290 --> 01:05:33.070
+Now there is another kind of a data type you will be able to
+
+01:05:33.070 --> 01:05:37.390
+find out inside a Python and that data type is called. As
+
+01:05:37.390 --> 01:05:41.130
+basically set a data type. Yeah. That data type is
+
+01:05:41.130 --> 01:05:47.130
+technically called as set data type. Okay. So, and set a
+
+01:05:47.130 --> 01:05:50.170
+data type, you will be able to create it inside a curly
+
+01:05:50.170 --> 01:05:55.050
+braces. Yeah. So now if I'm going to put some sort of a data
+
+01:05:55.050 --> 01:05:58.770
+over here, right? And then if I'm going to check what is the
+
+01:05:58.770 --> 01:06:02.070
+type of this S which is available inside the curly braces.
+
+01:06:02.250 --> 01:06:05.810
+So data type by default, Python is telling me that it's a
+
+01:06:05.810 --> 01:06:10.330
+set a data type. Yeah. It's a set data type by the way.
+
+01:06:10.670 --> 01:06:15.090
+Okay. Fine. It's a set data type. Now, what is the property
+
+01:06:15.090 --> 01:06:18.530
+of set by the way? Yes. What is the property of set? So
+
+01:06:18.530 --> 01:06:24.530
+here, let me do one thing. Create. Let me create a set curly
+
+01:06:24.530 --> 01:06:26.290
+braces, open and closed, right?
+
+01:06:33.560 --> 01:06:38.400
+Okay. Execute. Now, if I'm going to call S, this
+
+01:06:40.440 --> 01:06:45.360
+is what it is giving me as a result. So what is the property
+
+01:06:45.360 --> 01:06:46.440
+of set by the way guys?
+
+01:06:50.160 --> 01:06:53.220
+Nice. You understand concept. First time. Thank you. Yeah.
+
+01:06:53.460 --> 01:06:56.460
+Thank you. Good. Try to focus in a class. Everything is
+
+01:06:56.460 --> 01:07:01.360
+easy. It's very easy. Yes. I just see what, what I have
+
+01:07:01.360 --> 01:07:03.760
+done. So I have created a set over here, but when I'm trying
+
+01:07:03.760 --> 01:07:07.140
+to print it, I'm only getting this data. So what happened to
+
+01:07:07.140 --> 01:07:11.440
+all the data, other data? I think we have like answering a
+
+01:07:11.440 --> 01:07:14.240
+group chat, right? So everyone is saying that unique value,
+
+01:07:14.360 --> 01:07:16.900
+no duplicates. Okay. Fine. Remove duplicate. Yes. This is
+
+01:07:16.900 --> 01:07:20.600
+what set does, right? So what set does? So set will try to
+
+01:07:20.600 --> 01:07:25.840
+basically remove all the duplicates by default. So I have
+
+01:07:25.840 --> 01:07:29.560
+only this three, four, five, three, four, five, and 54 as a
+
+01:07:29.560 --> 01:07:32.520
+unique value. So it has removed all the values and it has
+
+01:07:32.520 --> 01:07:35.680
+basically given me this values only. So set by default,
+
+01:07:35.740 --> 01:07:38.400
+remove a duplicate. So wherever, let's say I'm trying to
+
+01:07:38.400 --> 01:07:41.120
+read a files, read a data, and let's say I have to remove a
+
+01:07:41.120 --> 01:07:44.140
+duplicates, not an issue, read the data and then pass all
+
+01:07:44.140 --> 01:07:47.640
+those data into a set. Automatically set will give you or it
+
+01:07:47.640 --> 01:07:51.400
+will remove the duplicate data. Very, very simple. Let's say
+
+01:07:51.400 --> 01:07:57.320
+I have a, you know, S U D H over here and basically I have a
+
+01:07:57.320 --> 01:08:00.760
+S U D H over here. Now it has not removed. Why?
+
+01:08:09.740 --> 01:08:14.640
+Python is a case sensitive programming language. So
+
+01:08:14.640 --> 01:08:17.740
+uppercase and lowercase is actually different for Python.
+
+01:08:18.020 --> 01:08:24.090
+Simple answer. Yeah. It's not same in a Python. I think we
+
+01:08:24.090 --> 01:08:27.970
+all understand this part. Good. Now,
+
+01:08:33.510 --> 01:08:37.890
+now some people, uh, have, was saying in a chat that, uh,
+
+01:08:37.890 --> 01:08:42.230
+basically it tried to give you a data in a ascending order.
+
+01:08:46.020 --> 01:08:47.760
+Is it, you
+
+01:08:51.020 --> 01:08:56.380
+got the answer, right? No, it never gives you a data into a
+
+01:08:56.380 --> 01:08:59.160
+ascending order. It always tried to give you a data in a
+
+01:08:59.160 --> 01:09:04.440
+random order. Basically tell me where is the order three,
+
+01:09:04.540 --> 01:09:07.900
+four, three 45, this one again, 45, which is lesser than
+
+01:09:07.900 --> 01:09:10.700
+this, right? Again, five, I'm able to get over here. So
+
+01:09:10.700 --> 01:09:14.480
+there is no order by the way. So generally when we try to
+
+01:09:14.480 --> 01:09:16.920
+deal with the, you know, integer or something, so it gives
+
+01:09:16.920 --> 01:09:19.740
+you like data in a range manner. People think that, uh,
+
+01:09:19.820 --> 01:09:23.340
+like, you know, sets always try to, uh, do a data ordering
+
+01:09:23.340 --> 01:09:29.340
+in ascending order, but no, it never does that. Yeah. Uh,
+
+01:09:29.380 --> 01:09:31.940
+how is he saying? Try this, sir. I know that's the reason.
+
+01:09:32.040 --> 01:09:37.740
+So I've given you this and like this example. Yup. I do. By
+
+01:09:37.740 --> 01:09:42.780
+the way. Yeah. So generally people thinks it's, but if
+
+01:09:42.780 --> 01:09:45.820
+you'll go and check a Python documentation about a set, it
+
+01:09:45.820 --> 01:09:50.240
+clearly says that, that I give you a data as a unordered
+
+01:09:50.240 --> 01:09:54.160
+data set. It's an official definition in a doc string of
+
+01:09:54.160 --> 01:09:56.900
+set, you will be able to find out. But yeah, I'm like,
+
+01:09:56.980 --> 01:09:59.360
+initially it looks like, for example, harvest has pinged
+
+01:09:59.360 --> 01:10:01.340
+this one and if you're going to execute it, it will give you
+
+01:10:01.340 --> 01:10:03.960
+data in a ascending order. It looks like it is giving you
+
+01:10:03.960 --> 01:10:08.220
+data in ascending order, but no, check my example. Very
+
+01:10:08.220 --> 01:10:11.160
+simple, right? So this is what the official statement of
+
+01:10:11.160 --> 01:10:14.300
+even set is. If you'll go and check a Python documentation
+
+01:10:14.300 --> 01:10:19.460
+in unordered way, it is going to give you the data. Yeah. By
+
+01:10:19.460 --> 01:10:22.840
+default, it removes the duplicates very, very simple. That's
+
+01:10:22.840 --> 01:10:26.000
+a core property of a set making sense guys.
+
+01:10:31.550 --> 01:10:33.090
+Yup. Okay.
+
+01:10:36.170 --> 01:10:40.450
+Now. So let's say if I'm writing S dot, which is my set of
+
+01:10:40.450 --> 01:10:43.850
+zero. So indexing operation, you will not be able to do it.
+
+01:10:43.970 --> 01:10:48.110
+The reason is very simple. It's an unordered output. If it
+
+01:10:48.110 --> 01:10:53.170
+is an unordered, there is no like a concept of 0, 1, 2, 3,
+
+01:10:53.230 --> 01:10:58.690
+because those are available for what? For a fixed indexes, a
+
+01:10:58.690 --> 01:11:03.510
+fixed entity. But inside set as a definition itself says
+
+01:11:03.510 --> 01:11:07.130
+that, that I will give you an unordered data set. So that is
+
+01:11:07.130 --> 01:11:16.260
+not applicable. Making sense everyone. Yes. Yeah. So again,
+
+01:11:16.400 --> 01:11:19.540
+derivation from your ordering and unordering. So there is no
+
+01:11:19.540 --> 01:11:21.880
+indexing and there is no slicing operation, which is
+
+01:11:21.880 --> 01:11:26.040
+available inside a set. Now set dot add, there is an inbuilt
+
+01:11:26.040 --> 01:11:28.820
+function which is available. So S is equals to, so it will
+
+01:11:28.820 --> 01:11:32.820
+try to add it over here. Now S dot I will write basically
+
+01:11:32.820 --> 01:11:39.700
+add and this time, so try to add maybe some random data. Now
+
+01:11:39.700 --> 01:11:43.000
+S, so it has added some random data in some random places,
+
+01:11:43.120 --> 01:11:46.580
+right? Random places. So not in an ordered way. If I'm going
+
+01:11:46.580 --> 01:11:49.440
+to call set dot add, and then if I'm going to say that,
+
+01:11:49.500 --> 01:11:53.360
+that, okay, so try to, you know, add basically this like a
+
+01:11:53.360 --> 01:12:01.420
+1, 2, 3, 4 number. So now it will try to add that data 1, 2,
+
+01:12:01.420 --> 01:12:04.380
+3, 4 somewhere in a random order, random places, right? So
+
+01:12:04.380 --> 01:12:07.940
+it is not following any kind of order as you are able to see
+
+01:12:07.940 --> 01:12:12.160
+because set is not follow set. Set never follows. Actually
+
+01:12:12.160 --> 01:12:15.440
+set never follows a indexing. There is no such concept
+
+01:12:15.440 --> 01:12:19.120
+called as indexing available inside a set as simple as that.
+
+01:12:19.400 --> 01:12:22.900
+Now let's say if I have to remove the data. So there is a
+
+01:12:22.900 --> 01:12:26.900
+remove function which is available, remove 3. So it will
+
+01:12:26.900 --> 01:12:31.220
+remove 3. So if you will go to set, it has removed 3. If you
+
+01:12:31.220 --> 01:12:34.180
+will ask like remove this, remove that, it will be removing
+
+01:12:34.180 --> 01:12:39.000
+that, right? Even set is having a function called as pop. So
+
+01:12:39.000 --> 01:12:43.220
+pop and then execute. So it has popped up 4, 3, 5, 3. I have
+
+01:12:43.220 --> 01:12:45.460
+not given any indexes. So randomly it has popped up any
+
+01:12:45.460 --> 01:12:49.060
+data. It has, it has basically popped up any data, the
+
+01:12:49.060 --> 01:12:51.620
+random element, basically it is popping up, right? There is
+
+01:12:51.620 --> 01:12:54.440
+something called a set.clear. So it will clear out the
+
+01:12:54.440 --> 01:12:58.020
+entire set means it will wipe out the entire data set. So
+
+01:12:58.020 --> 01:13:01.460
+now there is no data set inside a set. Now let's say I have
+
+01:13:01.460 --> 01:13:06.720
+a set, right? I was set a small set I have. So 1 comma 2
+
+01:13:06.720 --> 01:13:10.560
+comma 3 comma 4 comma 5. This is my set, right? Let's say I
+
+01:13:10.560 --> 01:13:13.720
+have to convert this set into a list. So that I will be able
+
+01:13:13.720 --> 01:13:17.360
+to do. A list kind of operation. So type casting is
+
+01:13:17.360 --> 01:13:20.720
+possible. I can convert my set into a list by calling what
+
+01:13:20.720 --> 01:13:25.200
+simple list function pass it. Now you can do an indexing
+
+01:13:25.200 --> 01:13:28.800
+slicing operation that is possible now. Yeah indexing
+
+01:13:28.800 --> 01:13:31.740
+slicing all those operation. Now you will be able to see it
+
+01:13:31.740 --> 01:13:35.280
+again. So tuples. So let's say if I have to convert set into
+
+01:13:35.280 --> 01:13:38.840
+tuples, I can do that again. It will become immutable and
+
+01:13:38.840 --> 01:13:41.260
+you will be able to do an indexing slicing operation once
+
+01:13:41.260 --> 01:13:45.660
+again with this one. Now let's suppose if I have a list of
+
+01:13:45.660 --> 01:13:49.260
+the data, right? Now this list I have to, for example,
+
+01:13:49.260 --> 01:13:53.340
+inside this list, I have so many duplicates, right? I have
+
+01:13:53.340 --> 01:13:56.620
+this list and I have so many duplicate inside this list. Now
+
+01:13:56.620 --> 01:14:00.340
+if I have to, you know, remove all the duplicate from this
+
+01:14:00.340 --> 01:14:05.060
+list, what I will do guys? See I have so many duplicates. My
+
+01:14:05.060 --> 01:14:06.460
+requirement is to remove the duplicates.
+
+01:14:10.210 --> 01:14:16.770
+Yeah simple call set. Yeah. Call set over here, pass a list.
+
+01:14:16.970 --> 01:14:20.010
+So now it will remove all the duplicate and then typecast
+
+01:14:20.010 --> 01:14:24.210
+once again, right? Convert back into a list once again and
+
+01:14:24.210 --> 01:14:29.650
+then save it inside your variable l. Now I have this l
+
+01:14:29.650 --> 01:14:37.100
+without any duplicates. Simple. Right? Yeah. So typecasting.
+
+01:14:37.260 --> 01:14:38.280
+I'm able to do it.
+
+01:14:46.170 --> 01:14:50.730
+Yes. Okay. So now how to get a value from the set? You can't
+
+01:14:50.730 --> 01:14:54.130
+get a value from the set. By the way, because there is no
+
+01:14:54.130 --> 01:14:56.810
+indexes, which is available, right? So there is no concept
+
+01:14:56.810 --> 01:14:59.930
+of indexing. So if you have to get the value, you can
+
+01:14:59.930 --> 01:15:02.390
+convert it into maybe like a, you know, some other thing
+
+01:15:02.390 --> 01:15:05.370
+index wise value. If you have to fetch in that case, you
+
+01:15:05.370 --> 01:15:07.310
+have, you can convert that into a list. You can convert that
+
+01:15:07.310 --> 01:15:10.370
+into a tuples and then you can get it easily. This is what
+
+01:15:10.370 --> 01:15:13.330
+we are doing it, right? This is what we are looking at as of
+
+01:15:13.330 --> 01:15:18.710
+now. Okay. Now this is basically done. So list to pulse and
+
+01:15:18.710 --> 01:15:22.010
+a set, there is another entity. You will be able to find.
+
+01:15:22.030 --> 01:15:25.710
+And that you can do it again with the help of this open and
+
+01:15:25.710 --> 01:15:30.210
+close curly braces. It's called as dictionary, right? So I
+
+01:15:30.210 --> 01:15:32.950
+think we all have gone through like dictionary in maybe in
+
+01:15:32.950 --> 01:15:36.410
+childhood. So where we'll be having like a word and its
+
+01:15:36.410 --> 01:15:40.050
+meaning. So basically there is a data type, which is
+
+01:15:40.050 --> 01:15:43.010
+available inside a Python. So where you can try to store a
+
+01:15:43.010 --> 01:15:46.470
+data as a key and value pair, yeah. Key and value pair in
+
+01:15:46.470 --> 01:15:49.910
+that manner, you will be able to store the data. So key
+
+01:15:49.910 --> 01:15:56.850
+wise, let's say I am. Trying to let me type it, yeah. So key
+
+01:15:56.850 --> 01:15:58.850
+and then value
+
+01:16:06.400 --> 01:16:09.900
+wise, you will be able to like store the data. So this is my
+
+01:16:09.900 --> 01:16:13.340
+key and this is my value. Now the condition is there that
+
+01:16:13.340 --> 01:16:17.260
+key must be unique all the time. For example, if I'm trying
+
+01:16:17.260 --> 01:16:23.860
+to create a data, so bracket, curly braces, right? And here,
+
+01:16:24.040 --> 01:16:28.560
+so my name is what? My name is Sudhanshu, let's say, right?
+
+01:16:33.360 --> 01:16:38.400
+Mobile number, let's say, right? So this one, maybe
+
+01:16:41.340 --> 01:16:46.880
+I can keep it as an integer, mobile number, mail.
+
+01:16:51.160 --> 01:16:54.080
+So mail is basically run
+
+01:16:59.040 --> 01:17:04.060
+dot one. So yeah. So here I'm trying to store this name,
+
+01:17:04.160 --> 01:17:08.420
+mobile number and a mail. So here this name is basically a
+
+01:17:08.420 --> 01:17:12.680
+key, yeah. So name is basically key value. This is key. This
+
+01:17:12.680 --> 01:17:17.720
+is value. This is key. This is value. Now let me show you
+
+01:17:17.720 --> 01:17:21.700
+some like a operation over here with respect to this one. So
+
+01:17:21.700 --> 01:17:24.640
+let's say if I have to extract a name, right? If I have to
+
+01:17:24.640 --> 01:17:27.680
+extract a name, so what I will do, I can do basically deed a
+
+01:17:27.680 --> 01:17:33.020
+D of D of basically just like we used to give our indexes,
+
+01:17:33.020 --> 01:17:36.080
+right? In the similar manner, we can write a key over here
+
+01:17:36.080 --> 01:17:39.760
+and against this key whatsoever value will be available. It
+
+01:17:39.760 --> 01:17:42.060
+is going to fetch that particular value. This is how it is
+
+01:17:42.060 --> 01:17:44.560
+going to store it by the way. So key value, key value, key
+
+01:17:44.560 --> 01:17:50.120
+value. So. So it will be able to give me the value. Now D of
+
+01:17:50.120 --> 01:17:54.900
+if I'm writing like a mail, if I'm writing like a mail over
+
+01:17:54.900 --> 01:17:58.360
+here, so it will be able to give me my mail ID in this
+
+01:17:58.360 --> 01:18:03.340
+particular place. Very, very simple. Now so let's say I have
+
+01:18:03.340 --> 01:18:07.940
+this dictionary and here so name is equals to Sudhanshu,
+
+01:18:08.180 --> 01:18:13.400
+right? H is missing in my name. Now again, I'm going to
+
+01:18:13.400 --> 01:18:19.800
+create name is equal to Sudhanshu. Yeah. Execute now deal.
+
+01:18:22.310 --> 01:18:26.010
+So I have basically used a name key, which was already
+
+01:18:26.010 --> 01:18:30.450
+available twice. Names don't show names don't show which one
+
+01:18:30.450 --> 01:18:35.180
+it is trying to keep by the way. Yes. Which one is trying to
+
+01:18:35.180 --> 01:18:40.280
+keep. So can I say that the latest one? Yeah. So I told you
+
+01:18:40.280 --> 01:18:44.040
+that in any situation inside a dictionary, there can't be
+
+01:18:44.040 --> 01:18:47.220
+duplicate keys. There can be values, duplicate values.
+
+01:18:47.340 --> 01:18:50.880
+Doesn't matter at all. Yeah. But key should always be
+
+01:18:50.880 --> 01:18:54.940
+unique. And if there is a duplicate key, for example, name
+
+01:18:54.940 --> 01:18:58.320
+is available here. Name is available even over here. So it
+
+01:18:58.320 --> 01:19:00.960
+will try to do what? Start from here. But when it will
+
+01:19:00.960 --> 01:19:04.140
+encounter the latest one, it will try to basically hold that
+
+01:19:04.140 --> 01:19:06.660
+particular value. So as you can see with H U, it is trying
+
+01:19:06.660 --> 01:19:09.420
+to hold it where this was like, I mean, like whatsoever is
+
+01:19:09.420 --> 01:19:11.840
+the latest one. It is trying to hold that one. Key will
+
+01:19:11.840 --> 01:19:14.760
+always be unique. Again, Python is a case in programming
+
+01:19:14.760 --> 01:19:17.160
+language. So if your key is having uppercase, lowercase
+
+01:19:17.160 --> 01:19:18.200
+differences, it will keep it unique. It will try to keep
+
+01:19:18.200 --> 01:19:21.580
+both because both are technically different. So here, key
+
+01:19:21.580 --> 01:19:24.460
+wise, I can try to keep like integer. I can try to keep a
+
+01:19:24.460 --> 01:19:27.820
+string. I can try to create a key value wise. I can try to
+
+01:19:27.820 --> 01:19:31.380
+basically, you know, uh, keep any, any kind of our values
+
+01:19:31.380 --> 01:19:34.400
+that I want. So we have basically like a dictionary.
+
+01:19:37.520 --> 01:19:37.920
+So
+
+01:19:43.620 --> 01:19:48.280
+yeah, we have dictionary. So let's say I would like to like,
+
+01:19:48.340 --> 01:19:51.280
+you know, uh, store a subject, a
+
+01:19:55.540 --> 01:19:58.600
+subject. So subject. I, let's say I used to teach a lot of
+
+01:19:58.600 --> 01:20:01.780
+like a subject. So architecture, this, that, uh, things,
+
+01:20:02.040 --> 01:20:05.220
+right? So here may be architecture,
+
+01:20:07.460 --> 01:20:11.940
+design, data science masters, a lot of things. So I can try
+
+01:20:11.940 --> 01:20:14.580
+to keep data into, uh, as
+
+01:20:20.080 --> 01:20:24.100
+a list as a list as well, right? Even I can try to, you
+
+01:20:24.100 --> 01:20:28.660
+know, keep our data, uh, as a dictionary, dictionary inside
+
+01:20:28.660 --> 01:20:32.840
+dictionary, even I can try to keep our data. So let's say,
+
+01:20:32.920 --> 01:20:33.540
+um,
+
+01:20:40.730 --> 01:20:45.650
+Courses as a tuples. So everything is possible as you can
+
+01:20:45.650 --> 01:20:49.730
+see, everything is possible. So key value, key value, key
+
+01:20:49.730 --> 01:20:53.790
+value. So the value can be list value can be basically like
+
+01:20:53.790 --> 01:20:57.650
+a dictionary itself. Value can be basically a tuples value
+
+01:20:57.650 --> 01:21:01.190
+can be a string value can be an integer value can be complex
+
+01:21:01.190 --> 01:21:04.730
+value can be anything and everything that we have discussed
+
+01:21:04.730 --> 01:21:08.670
+so far. So in a key value, key value, key value fashion, you
+
+01:21:08.670 --> 01:21:09.970
+will be able to store all done.
+
+01:21:15.370 --> 01:21:19.410
+Data. Yeah. Okay. Now. So let's say if I have to print all
+
+01:21:19.410 --> 01:21:22.830
+the keys, so what I will be able to do. So if I have to
+
+01:21:22.830 --> 01:21:25.970
+print all the keys, so maybe I can try to call big study dot
+
+01:21:25.970 --> 01:21:28.570
+keys and it is going to print all the keys. So name, mobile,
+
+01:21:28.670 --> 01:21:31.310
+mail, subject marks, courses, everything, it is able to
+
+01:21:31.310 --> 01:21:33.410
+print it. Name mobile, mail, subject marks, courses,
+
+01:21:33.550 --> 01:21:36.830
+everything. Let's say if I would like to like, uh, print all
+
+01:21:36.830 --> 01:21:39.010
+the values. So there is an inbuilt function, which is
+
+01:21:39.010 --> 01:21:42.270
+available. So all the values it is able to print it very,
+
+01:21:42.310 --> 01:21:46.290
+very simple, right? Uh, let's say. I would like to basically
+
+01:21:46.290 --> 01:21:49.510
+print all the key value pair. So there is a function called
+
+01:21:49.510 --> 01:21:54.990
+as items, I T E M S. Yeah. So it will be able to give you
+
+01:21:54.990 --> 01:21:58.350
+key value as a tuples. So list of tuples. So names done to
+
+01:21:58.350 --> 01:22:01.850
+mobile, this mail, this one. So key value, key value pair as
+
+01:22:01.850 --> 01:22:05.410
+an item in a list format to list of tuples, right? List of
+
+01:22:05.410 --> 01:22:08.230
+tuples format. It is going to give it to you very, very
+
+01:22:08.230 --> 01:22:13.490
+simple, right now. So here I have written dictionary of,
+
+01:22:13.630 --> 01:22:17.110
+let's say. Give me name. It has given me name. You can even
+
+01:22:17.110 --> 01:22:19.870
+write dictionary dot get, and then name. It will give you
+
+01:22:19.870 --> 01:22:22.690
+the same thing. So either you can try to fetch a data in
+
+01:22:22.690 --> 01:22:25.590
+this manner, or maybe you can try to fetch a data by using a
+
+01:22:25.590 --> 01:22:28.550
+get function. Get is a inbuilt function, by the way, which
+
+01:22:28.550 --> 01:22:32.850
+is available. Now let's say I have a dictionary and I would
+
+01:22:32.850 --> 01:22:38.010
+like to attach new key and values. Yeah. I would like to
+
+01:22:38.010 --> 01:22:40.950
+attach new key and values. I can do that. So dictionary of.
+
+01:22:41.130 --> 01:22:50.430
+Let's say. Uh. attach my address fine address so I can try
+
+01:22:50.430 --> 01:22:55.270
+to attach it so now if this key is available it will try to
+
+01:22:55.270 --> 01:22:59.010
+update the value if this key is not available it will create
+
+01:22:59.010 --> 01:23:02.470
+and restore the value so now if I am going to print my D it
+
+01:23:02.470 --> 01:23:07.830
+has added address simple it has added basically address over
+
+01:23:07.830 --> 01:23:12.330
+here so like it has it has basically allocated a address in
+
+01:23:12.330 --> 01:23:15.370
+this particular place so this is what like you know my
+
+01:23:15.370 --> 01:23:19.190
+dictionary looks like I can try to like you know do
+
+01:23:19.190 --> 01:23:23.570
+whatsoever I want now if I have to update some item so maybe
+
+01:23:23.570 --> 01:23:28.830
+name I have to change it so dictionary D similar things name
+
+01:23:28.830 --> 01:23:31.730
+and instead of Sudhanshu, Sudhanshu Kumar I would like to
+
+01:23:31.730 --> 01:23:36.410
+hold so fine it has changed to Sudhanshu Kumar simple right
+
+01:23:36.410 --> 01:23:40.370
+I can use even dictionary dot update function it will do the
+
+01:23:40.370 --> 01:23:43.010
+same thing right so you can try to make a changes make
+
+01:23:43.010 --> 01:23:46.370
+update for one or multiple so you can use update function as
+
+01:23:46.370 --> 01:23:50.850
+well and that is technically going to work you can even do
+
+01:23:50.850 --> 01:23:55.610
+like a dictionary dot I would say pop
+
+01:23:57.880 --> 01:24:02.780
+pop the name now if I'll show you dictionary so this name
+
+01:24:02.780 --> 01:24:07.520
+key and its value has gone so pop is also available clear
+
+01:24:07.520 --> 01:24:10.140
+function is also available so likewise all such functions
+
+01:24:10.140 --> 01:24:13.980
+are available you can even try to call a function called as
+
+01:24:13.980 --> 01:24:17.300
+length so length of this D so it will tell you how many
+
+01:24:17.300 --> 01:24:20.480
+elements are there so one two three four five six in total
+
+01:24:20.480 --> 01:24:25.040
+six items are there length even works with the string so
+
+01:24:25.040 --> 01:24:28.860
+let's say if I am going to pass a string it will tell me how
+
+01:24:28.860 --> 01:24:31.940
+many items are there so characters in terms of a string
+
+01:24:31.940 --> 01:24:35.720
+length also works with list so
+
+01:24:38.760 --> 01:24:41.400
+there are six element which is available so length works
+
+01:24:41.400 --> 01:24:45.420
+with almost everything I would say even with list and sorry
+
+01:24:45.420 --> 01:24:48.600
+two plus and a set so this is a dictionary where like you
+
+01:24:48.600 --> 01:24:51.360
+know you can you can try to hold a data you can try to
+
+01:24:51.360 --> 01:24:54.900
+extract a data you can try to do a data manipulation as a
+
+01:24:54.900 --> 01:24:59.700
+key value key value key value pair so whole and sole the
+
+01:24:59.700 --> 01:25:04.780
+story that we have seen today is basically list string
+
+01:25:04.780 --> 01:25:07.420
+tuples
+
+01:25:09.380 --> 01:25:14.220
+set dictionary now so list wise we have seen basically
+
+01:25:14.220 --> 01:25:15.320
+creation
+
+01:25:20.760 --> 01:25:25.320
+manipulation indexing slicing right and then inbuilt method
+
+01:25:25.320 --> 01:25:30.380
+string wise we have seen basically creation and like this
+
+01:25:30.380 --> 01:25:32.940
+one we have already seen that is today so basically
+
+01:25:32.940 --> 01:25:36.060
+manipulation and tuples wise so creation manipulation
+
+01:25:36.060 --> 01:25:38.800
+indexing slicing yeah we have seen that then creation
+
+01:25:38.800 --> 01:25:41.680
+manipulation indexing slicing the method so yeah so in all
+
+01:25:41.680 --> 01:25:47.200
+of these things we have done this much list string tuples
+
+01:25:47.200 --> 01:25:50.400
+set and dictionary and in every class we are going to use it
+
+01:25:50.400 --> 01:25:53.400
+every class means literally every class so next class let's
+
+01:25:53.400 --> 01:25:55.520
+say I am going to talk about like a conditional statement
+
+01:25:55.520 --> 01:26:02.200
+and a loop basically I'll be using it every time yeah now
+
+01:26:02.200 --> 01:26:05.480
+any question for me anything
+
+01:26:08.240 --> 01:26:09.460
+yes
+
+01:26:29.300 --> 01:26:34.220
+so are you are you able to understand that guys yeah Omanis
+
+01:26:34.220 --> 01:26:36.340
+is saying where I can see the recorded session in a
+
+01:26:36.340 --> 01:26:40.980
+dashboard I think I have shown you right that I in case if
+
+01:26:40.980 --> 01:26:43.780
+you are missing any session so so resources and recordings
+
+01:26:43.780 --> 01:26:46.560
+both will be available yesterday whatsoever we have
+
+01:26:46.560 --> 01:26:48.520
+discussed it's already available inside your dashboard so
+
+01:26:48.520 --> 01:26:54.660
+anyone can go and check that out yeah why first entity won't
+
+01:26:54.660 --> 01:27:01.020
+be coming in a result so 0 till 7 you are saying 0 till 7
+
+01:27:01.020 --> 01:27:04.860
+and then you are saying minus 1 so move from 0 to 7 and then
+
+01:27:04.860 --> 01:27:08.080
+move into a reverse direction so your direction itself is
+
+01:27:08.080 --> 01:27:11.420
+conflicting right that's a reason nice session nicely
+
+01:27:11.420 --> 01:27:14.080
+experienced sir thank you any assignment yeah I'm giving you
+
+01:27:14.080 --> 01:27:16.580
+assignment yes yes so
+
+01:27:25.920 --> 01:27:28.360
+I'm giving assignment now so hope all of you are able to
+
+01:27:28.360 --> 01:27:31.620
+understand can you tell about a new courses in TKI on 12th
+
+01:27:31.620 --> 01:27:36.060
+April okay so yeah so as we keep on launching live classes
+
+01:27:36.060 --> 01:27:40.260
+basically we'll keep on bringing hundreds of classes this
+
+01:27:40.260 --> 01:27:43.780
+year itself from next month onwards so we are like you know
+
+01:27:43.780 --> 01:27:46.500
+going to launch even more and more classes even in weekdays
+
+01:27:46.500 --> 01:27:49.680
+will be launching classes for almost all the technical
+
+01:27:49.680 --> 01:27:52.180
+classes so we are going to take a step so this agent ik
+
+01:27:52.180 --> 01:27:55.400
+system is going to start from 12th of April as you can see I
+
+01:27:55.400 --> 01:27:58.100
+have not created a video but yeah soon I'll be I will be
+
+01:27:58.100 --> 01:28:00.880
+creating a videos so those who would like to launch the or
+
+01:28:00.880 --> 01:28:03.680
+learn the entire agent ik system from the scratch land chain
+
+01:28:03.680 --> 01:28:07.360
+land graph how we can try to create a single agent multi
+
+01:28:07.360 --> 01:28:10.060
+agent what is the actual meaning of agent how do we do a
+
+01:28:10.060 --> 01:28:12.960
+memory management how we can try to manage a context over
+
+01:28:12.960 --> 01:28:15.300
+there so each and everything will be discussed over here
+
+01:28:15.300 --> 01:28:18.500
+with LLMs and RIG applications everything will be discussed
+
+01:28:19.700 --> 01:28:21.360
+over here and again from the very very scratch so this is
+
+01:28:21.360 --> 01:28:24.880
+where this agent TKI systems comes into picture mentor is
+
+01:28:24.880 --> 01:28:27.260
+going to be Sachin Sachin is again very good mentor you can
+
+01:28:27.260 --> 01:28:30.680
+go and check some of his classes which he has taken which
+
+01:28:30.680 --> 01:28:33.160
+was like a beautiful one I would say I really appreciate
+
+01:28:33.160 --> 01:28:36.320
+this mentor right he is taking like a lot of classes from
+
+01:28:36.320 --> 01:28:38.680
+our side he has already so done lot of like our recordings
+
+01:28:38.680 --> 01:28:43.800
+for analytics for even like agent ik systems so yeah that is
+
+01:28:43.800 --> 01:28:47.200
+that is something which is going to start from like 12th so
+
+01:28:47.200 --> 01:28:49.660
+you can check the time and then if you want you can you can
+
+01:28:49.660 --> 01:28:51.040
+join it in
+
+01:28:56.100 --> 01:28:59.000
+this batch also you will create a group for the project no
+
+01:28:59.000 --> 01:29:01.880
+not at all that batch is different that is basically a
+
+01:29:01.880 --> 01:29:06.380
+project batch so in this one we only have only one what's a
+
+01:29:06.380 --> 01:29:08.960
+group I'm not creating any group for the project for this
+
+01:29:08.960 --> 01:29:10.360
+patch I'm
+
+01:29:12.240 --> 01:29:14.420
+sorry but not able to find where the dashboard the recording
+
+01:29:14.420 --> 01:29:20.520
+session is is it this is your batch click here right click
+
+01:29:20.520 --> 01:29:25.000
+on continue learning this is your dashboard live session 4th
+
+01:29:25.000 --> 01:29:31.130
+April yesterday lecture yeah it's available already over
+
+01:29:31.130 --> 01:29:36.330
+here resources that is also available it's very easy all
+
+01:29:36.330 --> 01:29:38.690
+else you can just go to like my learning if you have already
+
+01:29:38.690 --> 01:29:41.430
+accessed those courses and it will show you like a recently
+
+01:29:41.430 --> 01:29:46.220
+viewed courses in your my learning same it will show you
+
+01:29:46.220 --> 01:29:48.940
+even in your mobile devices so you can even log in in your
+
+01:29:48.940 --> 01:29:52.420
+iOS or Android and yeah so you can try to like you know
+
+01:29:52.420 --> 01:29:56.500
+browse all your like latest courses and many many more
+
+01:29:56.500 --> 01:30:00.940
+courses books projects everything yeah for example we have
+
+01:30:00.940 --> 01:30:04.660
+so many projects I think 96 plus project we have so project
+
+01:30:04.660 --> 01:30:07.240
+it will show you young you know this was basically for our
+
+01:30:07.240 --> 01:30:10.340
+kids so many live classes we have so all those live classes
+
+01:30:10.340 --> 01:30:15.980
+see how many live classes we have not just one tons and tons
+
+01:30:15.980 --> 01:30:18.660
+and tons of live classes we have so everything it will show
+
+01:30:18.660 --> 01:30:18.880
+you
+
+01:30:22.430 --> 01:30:27.310
+okay so you used to your stories today you shared really
+
+01:30:27.310 --> 01:30:32.310
+motivating yeah try to follow that I'm a bit of a person who
+
+01:30:32.310 --> 01:30:32.310
+is like a kid I mean it's not like I'm gonna say I'm an
+
+01:30:32.310 --> 01:30:32.310
+think it's it's a it's a little bit of a challenge but you
+
+01:30:32.310 --> 01:30:33.990
+know you you will be able to do something I think everyone
+
+01:30:33.990 --> 01:30:38.290
+can do things like if they are consistent enough so for the
+
+01:30:38.290 --> 01:30:41.450
+person with a total 25 year experience in IT currently
+
+01:30:41.450 --> 01:30:43.530
+working as a full-time developer with the divorce mostly
+
+01:30:43.530 --> 01:30:47.270
+Microsoft technology no income growth and come you where I
+
+01:30:47.270 --> 01:30:49.630
+can complete Krishna
+
+01:30:53.950 --> 01:30:57.950
+Pradhaap I think your line is bit conflicting you are saying
+
+01:30:57.950 --> 01:31:01.130
+25 years then 11 years I'm not able to understand this is
+
+01:31:01.130 --> 01:31:06.110
+better so for architect one only one i mean like two even
+
+01:31:06.110 --> 01:31:08.950
+yesterday i have suggested right so for architect one the ai
+
+01:31:08.950 --> 01:31:13.190
+architect mastery and this ai product engineering these two
+
+01:31:13.190 --> 01:31:17.870
+right so this this is where we build a project so i so i am
+
+01:31:17.870 --> 01:31:21.030
+soon going to announce maybe like this week i have already
+
+01:31:21.030 --> 01:31:23.730
+said that by 15th or before 15th i'll make announcement so
+
+01:31:23.730 --> 01:31:28.590
+we are like a bringing that batch in a way where we will not
+
+01:31:28.590 --> 01:31:31.350
+take like a much of enrollment we are going to take very
+
+01:31:31.350 --> 01:31:33.610
+limited enrollment let's say 200 element we are going to
+
+01:31:33.610 --> 01:31:37.390
+take in one single batches right and we'll divide the entire
+
+01:31:37.390 --> 01:31:40.910
+batch into our 20 groups we'll take i'll take a couple of
+
+01:31:40.910 --> 01:31:44.090
+classes there so that i can align the entire group i'll be
+
+01:31:44.090 --> 01:31:47.610
+talking about hld lld wire framings how to architect the
+
+01:31:47.610 --> 01:31:50.630
+particular project and then all those 10 project which will
+
+01:31:50.630 --> 01:31:52.930
+be a part of syllabus or whatsoever project which will be a
+
+01:31:52.930 --> 01:31:53.290
+part of syllabus and then all those 10 projects which will
+
+01:31:53.290 --> 01:31:54.670
+be a part of syllabus or whatsoever project which will be a
+
+01:31:54.670 --> 01:31:57.650
+part of syllabus and then assigning all those project across
+
+01:31:57.650 --> 01:32:02.670
+our groups i will define a lead like that who will be like a
+
+01:32:02.670 --> 01:32:04.910
+leading that particular project there can be one there can
+
+01:32:04.910 --> 01:32:08.510
+be multiple and then people will start working on this as a
+
+01:32:08.510 --> 01:32:12.290
+team and then we'll be having a regular meeting and yeah so
+
+01:32:12.290 --> 01:32:14.930
+within three to four week all the project will be ready in
+
+01:32:14.930 --> 01:32:18.370
+parallel and then one by one one by one like we can we can
+
+01:32:18.370 --> 01:32:21.650
+go for a public demo and we can open source that project for
+
+01:32:21.650 --> 01:32:25.710
+the entire world so this is what we are currently doing so
+
+01:32:25.710 --> 01:32:28.910
+yesterday i had a lot of like a discussion people have given
+
+01:32:28.910 --> 01:32:32.810
+a internal demo uh i have already asked them to like you
+
+01:32:32.810 --> 01:32:36.550
+know build more create more features as per me right so as
+
+01:32:36.550 --> 01:32:39.230
+per business requirement and yeah they are doing it i
+
+01:32:39.230 --> 01:32:42.970
+believe soon we'll like go for a public demo you all will be
+
+01:32:42.970 --> 01:32:46.370
+able to see how beautifully like uh you guys have created
+
+01:32:46.370 --> 01:32:50.090
+the project right so my students basically have created the
+
+01:32:50.090 --> 01:32:53.950
+project so that that is a whole that is a whole behind this
+
+01:32:53.950 --> 01:32:57.550
+particular badge right so that under my guidance uh people
+
+01:32:57.550 --> 01:33:03.470
+can build more right people can do more complex things again
+
+01:33:03.470 --> 01:33:08.340
+books are not comfortable with the screen i try to open dsf
+
+01:33:08.340 --> 01:33:11.760
+books on my android tab unable to view the pages in a proper
+
+01:33:11.760 --> 01:33:14.900
+page size is it uh it was working in a while i'll just ask
+
+01:33:14.900 --> 01:33:18.420
+my team to check but in a current company 11 year experience
+
+01:33:18.420 --> 01:33:23.220
+oh okay so i i think uh this is this is good this is good
+
+01:33:23.220 --> 01:33:25.700
+and then maybe like you know you try to lead one of the
+
+01:33:25.700 --> 01:33:28.800
+project when i'm going to launch the new project batches
+
+01:33:28.800 --> 01:33:31.540
+that that will be my device yeah but
+
+01:33:37.300 --> 01:33:41.580
+yes uh again do it asap because uh 25
+
+01:33:43.880 --> 01:33:48.140
+year experience is like literally too much and uh industry
+
+01:33:48.140 --> 01:33:50.780
+situation i think we all know okay
+
+01:33:55.000 --> 01:33:59.420
+so any question for me uh look okay before that let me give
+
+01:33:59.420 --> 01:34:02.040
+you some like you know some
+
+01:34:16.280 --> 01:34:20.180
+of this assignment it
+
+01:34:25.270 --> 01:34:26.690
+will be uploaded inside your so yeah data technology inward
+
+01:34:26.690 --> 01:34:26.690
+uh assignment your stuff in perhaps in delhi orAsia going to
+
+01:34:26.690 --> 01:34:29.810
+talk about guys by the way ficar想umm so yeah uh this is the
+
+01:34:29.810 --> 01:34:36.470
+assignment again like a you can try to document download
+
+01:34:36.470 --> 01:34:38.030
+class
+
+01:34:41.320 --> 01:34:43.000
+assignment
+
+01:34:48.380 --> 01:34:49.840
+one uh
+
+01:35:06.580 --> 01:35:12.120
+date is 5th right so fifth of april basically fifth april
+
+01:35:12.120 --> 01:35:13.640
+assignment again
+
+01:35:16.480 --> 01:35:19.580
+so let me write the guidance or here so all of you have to
+
+01:35:19.580 --> 01:35:22.260
+complete this assignment uh and some of the questions are
+
+01:35:22.260 --> 01:35:24.240
+coming from the topic that we have discussed some of the
+
+01:35:24.240 --> 01:35:29.270
+topic you have to also explore and now so make sure that you
+
+01:35:29.270 --> 01:35:33.630
+are exploring it without you know taking a help from gpt or
+
+01:35:33.630 --> 01:35:37.130
+any other llms for now going forward obviously we all are
+
+01:35:37.130 --> 01:35:39.750
+going to use lms but for now you are not supposed to use the
+
+01:35:39.750 --> 01:35:44.810
+llms or take a help but you know try to write more the way
+
+01:35:44.810 --> 01:35:47.890
+i'm doing it going forward when i will start using llms or
+
+01:35:47.890 --> 01:35:53.010
+agents inside my classes you can also start using it that's
+
+01:35:53.010 --> 01:35:56.830
+the instruction right so you have to basically complete all
+
+01:35:56.830 --> 01:36:00.030
+of this assignment discuss this assignment amongst your
+
+01:36:00.030 --> 01:36:03.490
+groups maybe share those assignment ask someone to check and
+
+01:36:03.490 --> 01:36:07.550
+basically it's a self-check kind of assignment so that you
+
+01:36:07.550 --> 01:36:10.510
+will be able to see a multiple scenario and again so you can
+
+01:36:10.510 --> 01:36:14.190
+you know try to understand and try to write a code this
+
+01:36:14.190 --> 01:36:17.830
+assignment is a very very basic one but yes anyone and
+
+01:36:17.830 --> 01:36:20.350
+everyone who is trying to learn and start from the ground
+
+01:36:20.350 --> 01:36:23.330
+zero you have to complete that assignment okay
+
+01:36:25.890 --> 01:36:31.770
+so i have written all the instruction right so what you
+
+01:36:31.770 --> 01:36:35.450
+should do what you should not do and here is a assignment so
+
+01:36:35.450 --> 01:36:40.670
+ctrl s and that i will ask your admin who manages a
+
+01:36:40.670 --> 01:36:44.650
+dashboard to upload into a resource section along with the
+
+01:36:44.650 --> 01:36:48.470
+recordings so i think in next like three four hour it will
+
+01:36:48.470 --> 01:36:52.230
+be uploaded yeah so they will upload this this one and also
+
+01:36:52.230 --> 01:36:53.210
+they will try to upload it so that you can see that you have
+
+01:36:53.210 --> 01:36:56.610
+completed that assignment let me change its name okay
+
+01:37:11.230 --> 01:37:12.130
+set
+
+01:37:18.400 --> 01:37:21.860
+source alphabet in order i have tried this one yeah i mean
+
+01:37:21.860 --> 01:37:25.280
+see this is the confusion you all will be able to get so
+
+01:37:25.280 --> 01:37:29.800
+basically he is sanket and sanket is bringing me that that
+
+01:37:29.800 --> 01:37:35.520
+is a confusion that's a known thing even for me by the way
+
+01:37:35.520 --> 01:37:40.420
+that it will always try to show you in this particular order
+
+01:37:40.420 --> 01:37:46.120
+which looks like i said looks like but in reality if you are
+
+01:37:46.120 --> 01:37:51.320
+going to change your data it is not going to give you the
+
+01:37:51.320 --> 01:37:55.080
+same so python sets definition
+
+01:37:57.000 --> 01:38:03.380
+official documentation let me open up the official
+
+01:38:03.380 --> 01:38:05.160
+documentation and
+
+01:38:09.930 --> 01:38:11.670
+what it says yes
+
+01:38:17.910 --> 01:38:22.710
+what it says in a very first line because see i'm telling
+
+01:38:22.710 --> 01:38:25.530
+you this because in every class it happens and since last
+
+01:38:25.530 --> 01:38:30.210
+eight years right in every class basically we will come
+
+01:38:30.210 --> 01:38:33.050
+there's no sets the sets basically order the data i mean
+
+01:38:33.050 --> 01:38:35.070
+like no it
+
+01:38:37.150 --> 01:38:40.530
+looks like right just change the data and then you will be
+
+01:38:40.530 --> 01:38:44.350
+able to see that that it is not doing the same thing agree
+
+01:38:44.350 --> 01:38:45.850
+everyone yes
+
+01:38:48.090 --> 01:38:51.830
+done this is the official page by the way not on my page so
+
+01:38:51.830 --> 01:38:58.390
+i'm not saying that yes okay so you got your answer what is
+
+01:38:58.390 --> 01:39:00.590
+your recommendation for the additional course along with
+
+01:39:00.590 --> 01:39:01.330
+this one who is having a hard time with this one so i'm not
+
+01:39:01.330 --> 01:39:02.710
+saying that you are having 12 plus more year of experience
+
+01:39:02.710 --> 01:39:05.970
+see those who is having 12 plus more so if you would like to
+
+01:39:05.970 --> 01:39:08.870
+get into agentics so go with the generative ai and then like
+
+01:39:08.870 --> 01:39:12.390
+a architect mastery or go with the project one if you would
+
+01:39:12.390 --> 01:39:15.410
+like to get into a big data then there is a big data courses
+
+01:39:15.410 --> 01:39:18.770
+with azure with databricks with like a aws all these things
+
+01:39:18.770 --> 01:39:22.450
+are available even in live mode we have conducted that uh if
+
+01:39:22.450 --> 01:39:24.970
+you would like to get into a web development uh mobile
+
+01:39:24.970 --> 01:39:27.830
+development that is also there so you can choose your track
+
+01:39:27.830 --> 01:39:31.330
+uh so yeah these are tracks which are available in live mode
+
+01:39:31.350 --> 01:39:34.150
+like already available and you can go and you can explore
+
+01:39:34.150 --> 01:39:35.190
+yeah
+
+01:39:38.330 --> 01:39:41.930
+okay if you would like to learn something from the scratch
+
+01:39:41.930 --> 01:39:46.190
+ai journalist fsds aiml right even generative ai from the
+
+01:39:46.190 --> 01:39:50.650
+scratch even sachin is taking a lot of batches from his
+
+01:39:50.650 --> 01:39:54.730
+classes you all will be able to learn so yes any any
+
+01:39:54.730 --> 01:39:57.170
+question for me anyone who is having any question who would
+
+01:39:57.170 --> 01:40:01.470
+like to like you know raise hand unmute themselves and ask
+
+01:40:01.470 --> 01:40:04.950
+question maybe you can raise hand if you want i can unmute
+
+01:40:04.950 --> 01:40:08.790
+you thank you sir for today's session learn very basic
+
+01:40:08.790 --> 01:40:11.430
+things yeah i mean like these are the building blocks and i
+
+01:40:11.430 --> 01:40:15.630
+believe we all should know about that skills you things are
+
+01:40:15.630 --> 01:40:19.610
+very important in ai age it will remain for a long time see
+
+01:40:19.610 --> 01:40:25.270
+uh your experience of building anything big and complex is
+
+01:40:25.270 --> 01:40:29.350
+not going anywhere right uh this is where your relevancy
+
+01:40:29.350 --> 01:40:33.230
+will be right and your relevancy will exist even in future
+
+01:40:34.490 --> 01:40:39.870
+but yes that comes from building a big big things and even
+
+01:40:39.870 --> 01:40:45.690
+though it is easy but it is not easy to think about all
+
+01:40:45.690 --> 01:40:48.890
+those big architecture production grade system is scale
+
+01:40:48.890 --> 01:40:53.370
+basically a security across it still it's not possible for
+
+01:40:53.370 --> 01:40:57.330
+everyone the reason is very simple you are not or you maybe
+
+01:40:57.330 --> 01:41:01.370
+you have not seen that kind of an environment that kind of a
+
+01:41:01.370 --> 01:41:05.090
+situation right so try to get into such kind of environment
+
+01:41:05.090 --> 01:41:08.830
+try to get into such kind of a situation as soon as possible
+
+01:41:09.450 --> 01:41:12.010
+believe me then only you will be relevant for a very very
+
+01:41:12.010 --> 01:41:15.370
+long time as far as the coding is concerned as far as
+
+01:41:15.370 --> 01:41:18.430
+documentation architecture diagram and design is concerned i
+
+01:41:18.430 --> 01:41:22.430
+think it's already been done by ai coding almost reaching
+
+01:41:22.430 --> 01:41:27.830
+towards a hundred percent by ai right but again uh see many
+
+01:41:27.830 --> 01:41:31.070
+people think that that coding is gone so maybe many jobs are
+
+01:41:31.070 --> 01:41:36.770
+gone coding was actually uh never been a kind of a concern
+
+01:41:36.770 --> 01:41:41.110
+even before right it was always about a business it was
+
+01:41:41.110 --> 01:41:43.850
+always about a feature that we are trying to develop it was
+
+01:41:43.850 --> 01:41:46.950
+always about a problem that we were trying to solve and then
+
+01:41:46.950 --> 01:41:50.710
+how we are breaking down that problem right so yeah if you
+
+01:41:50.710 --> 01:41:53.110
+are good with that i think you will be relevant and
+
+01:41:53.110 --> 01:41:56.290
+obviously like you have like and you will be able to use ai
+
+01:41:56.290 --> 01:42:00.670
+in an efficient manner otherwise you will not be able to use
+
+01:42:00.670 --> 01:42:02.890
+ai in an efficient manner yes
+
+01:42:06.080 --> 01:42:09.300
+do your class on a products of niza i try and try to attend
+
+01:42:09.300 --> 01:42:13.220
+your all your classes weekend or you know we have a ai
+
+01:42:13.220 --> 01:42:17.320
+product which one today we had a class right yeah
+
+01:42:19.300 --> 01:42:24.600
+okay so fine everyone uh with that thank you so much uh take
+
+01:42:24.600 --> 01:42:29.140
+care see you again next week right so next weekend uh i'll
+
+01:42:29.140 --> 01:42:32.860
+be talking about basically uh evil statement for loop and
+
+01:42:32.860 --> 01:42:39.500
+all those things uh which will come and this chapter cloud
+
+01:42:39.500 --> 01:42:42.420
+skill setup in a project which course we got a recording
+
+01:42:42.420 --> 01:42:46.420
+okay so in a generative way i have discussed it even drew
+
+01:42:46.420 --> 01:42:50.060
+has discussed about that uh even in my eye architect mastery
+
+01:42:50.060 --> 01:42:53.560
+recently i have discussed about that so yes cloud skills and
+
+01:42:53.560 --> 01:42:57.580
+even for a cursor so cloud md file and then cursor as skills
+
+01:42:57.580 --> 01:43:00.200
+and then hooks how we can try to set rules how we can try to
+
+01:43:00.200 --> 01:43:03.060
+set that that's already like not just discussed i would say
+
+01:43:03.060 --> 01:43:07.340
+i have already so shared the template and i have also no
+
+01:43:07.340 --> 01:43:07.340
+maturity but i can switch to the content i can switch to the
+
+01:43:07.340 --> 01:43:09.300
+efficiency basically like a shown all of these things in a
+
+01:43:09.300 --> 01:43:14.630
+live class itself in a live mode so yeah that's there i mean
+
+01:43:14.630 --> 01:43:17.010
+like today no today i have just asked them to work on the
+
+01:43:17.010 --> 01:43:19.950
+project and then like call me in so when they are doing a
+
+01:43:19.950 --> 01:43:23.350
+team discussion yeah so that you know we can close the
+
+01:43:23.350 --> 01:43:25.910
+project and we can go with the demo so after demo only it
+
+01:43:25.910 --> 01:43:29.570
+will be closed but demo i will do it in a like a youtube
+
+01:43:29.570 --> 01:43:32.030
+basically demo not inside the class and we'll invite
+
+01:43:32.030 --> 01:43:35.370
+everyone over there to see the demo i'm like i just want
+
+01:43:35.370 --> 01:43:39.090
+everyone to see that that how project has been developed and
+
+01:43:39.090 --> 01:43:42.830
+yeah like students are able to develop it okay
+
+01:43:45.640 --> 01:43:48.760
+so fine guys with that thank you so much if you don't have
+
+01:43:48.760 --> 01:43:51.920
+any kind of a question uh see you again next week and so
+
+01:43:51.920 --> 01:43:55.280
+like anyhow we are connected inside a group uh so yeah feel
+
+01:43:55.280 --> 01:43:57.920
+free to drop your questions your concerns whatsoever that
+
+01:43:57.920 --> 01:44:01.100
+you have in your mind in a group and with my best obviously
+
+01:44:01.100 --> 01:44:05.500
+i'll try to answer all the time yes and try to connect more
+
+01:44:05.500 --> 01:44:08.760
+and more right uh another thing is uh try to activate
+
+01:44:08.760 --> 01:44:11.580
+yourself on social media build your own personal brand
+
+01:44:11.580 --> 01:44:14.440
+because no one is going to do that for you and if you are
+
+01:44:14.440 --> 01:44:16.800
+not doing it if you're not building your own identity
+
+01:44:17.840 --> 01:44:22.620
+believe me uh you will regret very soon so build your own
+
+01:44:22.620 --> 01:44:27.500
+identity that's also a part of your job so consider that as
+
+01:44:27.500 --> 01:44:31.060
+a job by the way yeah building your own identity in
+
+01:44:31.060 --> 01:44:34.000
+whatsoever flavor and way you want everyone is having a
+
+01:44:34.000 --> 01:44:36.700
+different kind of a skill set and then you know like energy
+
+01:44:37.520 --> 01:44:41.940
+uh so just just go with that thank you thanks everyone take
+
+01:44:41.940 --> 01:44:42.720
+care you
+

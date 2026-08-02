@@ -1,0 +1,3248 @@
+WEBVTT
+
+00:05:25.360 --> 00:05:28.340
+okay so hi everyone i believe i'm audible and visual guys so
+
+00:05:28.340 --> 00:05:33.560
+please confirm so that we can start with the class okay
+
+00:05:40.120 --> 00:05:42.960
+so good evening everyone let's start the class so yesterday
+
+00:05:42.960 --> 00:05:47.440
+guys we were talking about basically uh linear regression
+
+00:05:47.440 --> 00:05:51.660
+and we have seen a theoretical explanation or you can say a
+
+00:05:51.660 --> 00:05:55.260
+mathematical explanation of the linear regression so again
+
+00:05:55.260 --> 00:05:59.180
+let's try to understand basically a practical implication of
+
+00:05:59.180 --> 00:06:05.560
+a linear regression so let me open up a vs code and inside
+
+00:06:05.560 --> 00:06:06.460
+our vs code
+
+00:06:09.720 --> 00:06:18.300
+let me create a folder ml practical ai journalist okay
+
+00:06:20.060 --> 00:06:21.100
+now
+
+00:06:23.270 --> 00:06:24.250
+so
+
+00:06:26.400 --> 00:06:31.780
+let's try to create a new file linear regression dot i p y n
+
+00:06:31.780 --> 00:06:35.660
+right now inside this file so obviously we are going to
+
+00:06:35.660 --> 00:06:38.900
+write all of these codes and in terms of like a practical so
+
+00:06:38.900 --> 00:06:41.880
+we'll try to understand how linear regression actually works
+
+00:06:41.880 --> 00:06:45.240
+and how we can try to use it with respect to a particular
+
+00:06:45.240 --> 00:06:48.380
+data set right so we are going to pick some data set and
+
+00:06:48.380 --> 00:06:52.300
+then on top of this so we will be doing like a eda operation
+
+00:06:52.300 --> 00:06:56.700
+exploratory data analysis operation and once we'll do that
+
+00:06:56.700 --> 00:06:59.420
+after that so we'll try to do any kind of correction which
+
+00:06:59.420 --> 00:07:03.620
+is required inside a data set and then eventually we'll try
+
+00:07:03.620 --> 00:07:08.260
+to train the model right so a complete whole picture or
+
+00:07:08.260 --> 00:07:12.400
+overview you will be able to get in a practical manner so
+
+00:07:12.400 --> 00:07:17.200
+first of all let me select my uh kernel so i believe yeah
+
+00:07:17.200 --> 00:07:21.800
+this is going to work now so first of all our data we have
+
+00:07:21.800 --> 00:07:25.460
+to select so data wise maybe we can go to a kegel so there
+
+00:07:25.460 --> 00:07:27.940
+are so many data sources you will be able to find out so
+
+00:07:27.940 --> 00:07:32.800
+maybe you can go to k double gl kegel and you will be able
+
+00:07:32.800 --> 00:07:37.540
+to get a data from there uh you can go to a uci repository
+
+00:07:37.540 --> 00:07:42.540
+so there is something called as uci repository so even from
+
+00:07:42.540 --> 00:07:45.960
+there you will be able to get a data set a lot of data set
+
+00:07:45.960 --> 00:07:49.040
+you will be able to see over here even there is something
+
+00:07:49.040 --> 00:07:53.100
+called as google data set so google is having a search
+
+00:07:53.100 --> 00:07:56.080
+engine just for the data set so you can come over here and
+
+00:07:56.080 --> 00:07:59.980
+then you can try to even get a data set or maybe you can try
+
+00:07:59.980 --> 00:08:04.520
+to use lm nowadays and you can try to create a data set so
+
+00:08:04.520 --> 00:08:07.340
+in any way it's like a you know you will be able to get a
+
+00:08:07.340 --> 00:08:12.320
+data and yes so lot of very very huge amount of a data set
+
+00:08:12.320 --> 00:08:16.280
+these repositories are going to provide you now these are
+
+00:08:16.280 --> 00:08:18.920
+the famous one apart from that there are so many other data
+
+00:08:18.920 --> 00:08:22.460
+set provider as well even with the help of like apis you
+
+00:08:22.460 --> 00:08:25.160
+will be able to pull the data for many different different
+
+00:08:25.160 --> 00:08:27.880
+kind of a domain or whatsoever data set that you are looking
+
+00:08:27.880 --> 00:08:32.680
+for in a particular segment yeah now so we are looking for a
+
+00:08:32.680 --> 00:08:37.160
+data set as this is the very first example for us for all of
+
+00:08:37.160 --> 00:08:39.400
+us basically in terms of machine learning algorithm
+
+00:08:39.400 --> 00:08:43.220
+implementation so we'll try to look for a easiest possible
+
+00:08:43.220 --> 00:08:48.900
+data set so maybe i can try to search for data car price
+
+00:08:48.900 --> 00:08:56.380
+prediction data set kegel yeah so it is going to give me a
+
+00:08:56.380 --> 00:09:00.300
+direct link it's a good one i mean like on a day zero at
+
+00:09:00.300 --> 00:09:03.820
+least you can say that that yes it is one of the most
+
+00:09:03.820 --> 00:09:03.820
+important data sets that we have in the world and it is
+
+00:09:03.820 --> 00:09:06.300
+going to give me a direct link the best one that i can use
+
+00:09:06.300 --> 00:09:11.300
+for a learning purposes right so here about a data set so in
+
+00:09:11.300 --> 00:09:14.540
+this about you will be able to see a feature so what and all
+
+00:09:14.540 --> 00:09:17.180
+features are available features means columns are available
+
+00:09:17.180 --> 00:09:21.080
+inside a data set so inside this data set so we have a
+
+00:09:21.080 --> 00:09:24.280
+column called as car name we have column called as here so
+
+00:09:24.280 --> 00:09:27.240
+car name is basically like you know identify the brand or
+
+00:09:27.240 --> 00:09:30.540
+company name logo basically so bmw mercedes or whatsoever it
+
+00:09:30.540 --> 00:09:34.480
+is here so manufacturing year of the vehicle selling price
+
+00:09:34.480 --> 00:09:37.300
+so selling price of the car it is going to represent and a
+
+00:09:37.300 --> 00:09:39.840
+present price so current original price origin price of the
+
+00:09:39.840 --> 00:09:42.980
+car kilometer driven so it is going to tell you that how
+
+00:09:42.980 --> 00:09:46.020
+many kilometer it's been driven so far a fuel type so
+
+00:09:46.020 --> 00:09:49.540
+basically like you know petrol or diesel seller type so
+
+00:09:49.540 --> 00:09:53.160
+whether like it's a dealer or individual transmission type
+
+00:09:53.160 --> 00:09:55.960
+so yes it is going to determine basically it's automatic
+
+00:09:55.960 --> 00:09:59.660
+manual or anything else and owner so how many owner of the
+
+00:09:59.660 --> 00:10:03.040
+car so one two three four or so on right so this is
+
+00:10:03.040 --> 00:10:03.820
+basically a data set so we have a column called as car name
+
+00:10:03.820 --> 00:10:04.000
+and here you can see that like we can see that like we can
+
+00:10:04.000 --> 00:10:06.840
+see here the data set that we have over here and these are
+
+00:10:06.840 --> 00:10:10.480
+the feature which is available to all of us now so along
+
+00:10:10.480 --> 00:10:14.560
+with these feature you will be able to find out something
+
+00:10:14.560 --> 00:10:20.940
+called as a yes car price so this price or maybe like we'll
+
+00:10:20.940 --> 00:10:23.740
+we'll talk about that in later stage but yeah so more or
+
+00:10:23.740 --> 00:10:25.900
+less this is a feature which is available we can try to
+
+00:10:25.900 --> 00:10:32.000
+consider one of these feature as a y and then rest of the
+
+00:10:32.000 --> 00:10:34.700
+feature as an x and then based on that we can on that we can
+
+00:10:34.700 --> 00:10:38.340
+try to build a equation as per our learning as per our
+
+00:10:38.340 --> 00:10:41.700
+discussion so first of all what you will have to do so you
+
+00:10:41.700 --> 00:10:45.820
+will have to go and acquire the data so i can try to click
+
+00:10:45.820 --> 00:10:50.500
+here and then it will ask me for a login sign up and after
+
+00:10:50.500 --> 00:10:52.220
+doing the sign up yeah
+
+00:11:04.500 --> 00:11:08.240
+so now data set is downloaded right so now you all can
+
+00:11:08.240 --> 00:11:12.040
+download this data set and based on this you can try to do
+
+00:11:12.040 --> 00:11:14.920
+this entire thing so i'm going to ping you this link guys so
+
+00:11:14.920 --> 00:11:19.560
+please download this data set all of you yeah so here is a
+
+00:11:19.560 --> 00:11:21.980
+link inside your chat so
+
+00:11:24.930 --> 00:11:27.230
+with respect to this particular data set so we are going to
+
+00:11:27.230 --> 00:11:30.810
+do each and every operation yeah so you have to basically
+
+00:11:30.810 --> 00:11:35.990
+use this particular data set that everyone are we able to
+
+00:11:35.990 --> 00:11:37.350
+download yes
+
+00:11:47.330 --> 00:11:51.190
+okay so sarvam is saying that he is able to download what
+
+00:11:51.190 --> 00:11:55.800
+about others do it quickly okay
+
+00:12:01.720 --> 00:12:05.360
+so it's very simple i mean like go click and then you will
+
+00:12:05.360 --> 00:12:09.920
+be able to get the data now once i have a data so let me
+
+00:12:09.920 --> 00:12:13.780
+open up this data set first of all in my local system okay
+
+00:12:25.110 --> 00:12:27.690
+so as i have this data
+
+00:12:30.580 --> 00:12:33.990
+and this data is representing what car name year selling
+
+00:12:33.990 --> 00:12:37.230
+price present price kilometer driven fuel type seller type
+
+00:12:37.230 --> 00:12:42.370
+transmission and a owner right so likewise i have how many
+
+00:12:42.370 --> 00:12:48.250
+data so i have in total 302 data set available typically 301
+
+00:12:48.250 --> 00:12:54.990
+data set available inside my entire data seat right so first
+
+00:12:54.990 --> 00:12:57.770
+of all what i will do i'll try to read this particular data
+
+00:12:57.770 --> 00:13:00.550
+once i will be able to read this particular data then maybe
+
+00:13:00.550 --> 00:13:03.410
+i can try to process this particular data set in a later
+
+00:13:03.410 --> 00:13:07.930
+stage okay so let me bring this data here itself directly so
+
+00:13:07.930 --> 00:13:11.250
+in the same folder so this data set extension is basically
+
+00:13:11.250 --> 00:13:14.430
+dot csv i'll be using a pandas library and with the help of
+
+00:13:14.430 --> 00:13:17.130
+this pandas library i will be loading this particular data
+
+00:13:17.130 --> 00:13:23.450
+set so first of all import pandas p-a-n-d-s pandas as pd
+
+00:13:23.450 --> 00:13:28.250
+yeah so first of all just try to import this one pandas as
+
+00:13:28.250 --> 00:13:32.990
+pd now once you are able to import in this one pandas is not
+
+00:13:32.990 --> 00:13:35.750
+available let me change my kernel okay
+
+00:13:40.740 --> 00:13:43.640
+it's available in this one if not available then install it
+
+00:13:43.640 --> 00:13:47.380
+as simple as that so import pandas as pd so i'm able to like
+
+00:13:47.380 --> 00:13:50.540
+you know import this library which we are going to use it
+
+00:13:50.540 --> 00:13:55.200
+for a eda operation and then here so we can try to do pandas
+
+00:13:55.200 --> 00:13:59.460
+dot read csv i believe we all have seen this operations
+
+00:13:59.460 --> 00:14:03.140
+right so i have to read this particular data set car
+
+00:14:03.140 --> 00:14:06.560
+prediction data dot csv which is available here itself right
+
+00:14:06.560 --> 00:14:09.640
+which is available in the same folder if you are keeping it
+
+00:14:09.640 --> 00:14:12.140
+in some other folder so in that case you can give a full
+
+00:14:12.140 --> 00:14:17.140
+path so data frame i'm able to create now so this is the
+
+00:14:17.140 --> 00:14:21.260
+total data set 301 row and nine columns technically
+
+00:14:21.260 --> 00:14:26.340
+available to me okay cool now so maybe i can do some sort of
+
+00:14:26.340 --> 00:14:30.140
+a eda operation so maybe i can do data frame dot head over
+
+00:14:30.140 --> 00:14:33.620
+here so which is going to show me first five data set i can
+
+00:14:33.620 --> 00:14:36.480
+try to look into this i can try to understand there is a car
+
+00:14:36.480 --> 00:14:41.960
+name called as ridge x64 siage wagon r swift all this year
+
+00:14:41.960 --> 00:14:46.120
+model year is basically like 2014 13 17 14. all sort of
+
+00:14:46.120 --> 00:14:48.620
+things right selling prices this much and then present price
+
+00:14:48.620 --> 00:14:51.340
+is this much so yeah more or less i'm able to understand
+
+00:14:51.340 --> 00:14:54.520
+this data very very simple to understand right now we can
+
+00:14:54.520 --> 00:14:58.700
+try to do something like maybe a data frame dot safe and it
+
+00:14:58.700 --> 00:15:03.320
+is going to tell me about a shape of this data so 301 row
+
+00:15:03.320 --> 00:15:08.620
+versus 9 column that's a save i can even call dataframe.info
+
+00:15:08.620 --> 00:15:12.480
+info and yeah so it is going to give me basically a little
+
+00:15:12.480 --> 00:15:16.240
+bit of information in terms of the columns and basically
+
+00:15:16.240 --> 00:15:19.640
+it's a data type so again coming from the pandas itself so
+
+00:15:19.640 --> 00:15:24.020
+car name this much data non-null and yeah type is basically
+
+00:15:24.020 --> 00:15:27.980
+object string so object integer float integer object object
+
+00:15:27.980 --> 00:15:33.040
+object integer and here so everywhere i am able to see 301
+
+00:15:33.040 --> 00:15:38.300
+301 301 301 so there is no null value i am able to find out
+
+00:15:38.300 --> 00:15:41.640
+in any of the columns right so every column is having 301
+
+00:15:41.640 --> 00:15:45.460
+301 301 kind of a record so there is no null value so i
+
+00:15:45.460 --> 00:15:45.680
+don't have to find out the columns right so every column is
+
+00:15:45.680 --> 00:15:47.260
+having 301 301 301 i don't have to go and do a null value
+
+00:15:47.260 --> 00:15:52.040
+treatment if uh if there was a null value then on that case
+
+00:15:52.040 --> 00:15:54.860
+obviously i have to go and i have to basically treat those
+
+00:15:54.860 --> 00:15:57.640
+null values but in this situation i believe it's completely
+
+00:15:57.640 --> 00:16:00.180
+fine we don't have to go and do those kind of a treatment
+
+00:16:00.180 --> 00:16:08.720
+okay cool now next so here uh we can try to call even a data
+
+00:16:08.720 --> 00:16:13.460
+frame of the stripes or data frame dot df dot the stripe
+
+00:16:13.460 --> 00:16:15.920
+over here so which is going to give me a description of the
+
+00:16:15.920 --> 00:16:19.820
+data like count and then mean average uh and then like uh
+
+00:16:19.820 --> 00:16:23.160
+again so everything is not going to make sense but yeah i
+
+00:16:23.160 --> 00:16:25.180
+mean like some of this data is going to make sense for
+
+00:16:25.180 --> 00:16:29.660
+example average kilometer driven so obviously that is some
+
+00:16:29.660 --> 00:16:32.860
+useful information which i can try to use so average
+
+00:16:32.860 --> 00:16:38.480
+kilometer driven is 36 947 right uh so these are the detail
+
+00:16:38.480 --> 00:16:41.260
+it is going to give you deviation mean and then 25th
+
+00:16:41.260 --> 00:16:45.920
+percentile 50th percentile 75th percentile and a maximum so
+
+00:16:45.920 --> 00:16:49.180
+again a regular things it is going to give me from my data
+
+00:16:49.180 --> 00:16:54.800
+set now so i can try to even like call data frame dot is
+
+00:16:54.800 --> 00:16:59.440
+null is null
+
+00:17:01.360 --> 00:17:06.160
+summation yeah so how many like a null values do we have so
+
+00:17:06.160 --> 00:17:09.140
+we have already seen in our info part itself that there is
+
+00:17:09.140 --> 00:17:12.560
+no null value but here again i'm just trying to like run
+
+00:17:12.560 --> 00:17:14.960
+another command so which is going to give me eventually the
+
+00:17:14.960 --> 00:17:19.640
+same result that is available in any of these column because
+
+00:17:19.640 --> 00:17:23.460
+if there is a null value we try to do a null value treatment
+
+00:17:23.460 --> 00:17:28.060
+yeah we can also do a duplicate analysis so do we have a
+
+00:17:28.060 --> 00:17:33.000
+duplicate inside a data so data frame dot duplicate there is
+
+00:17:33.000 --> 00:17:36.940
+a function available so duplicate sum so do we have a
+
+00:17:36.940 --> 00:17:41.720
+duplicate so here basically it is telling me that you know
+
+00:17:41.720 --> 00:17:47.860
+there are two duplicates are available two records are same
+
+00:17:47.860 --> 00:17:52.840
+right two duplicates are basically same so maybe i can try
+
+00:17:52.840 --> 00:17:57.500
+to call this one yeah data frame dot duplicate uh so again
+
+00:17:57.500 --> 00:18:00.740
+here it is it is like giving you a very long one you will
+
+00:18:00.740 --> 00:18:03.080
+not be able to understand so we have like basically found
+
+00:18:03.080 --> 00:18:05.960
+out some right so there are two data set which is like a
+
+00:18:05.960 --> 00:18:09.720
+duplicate so what i can do i can try to run a drop duplicate
+
+00:18:09.720 --> 00:18:14.580
+so data frame dot drop duplicate and here in place is equals
+
+00:18:14.580 --> 00:18:17.780
+to true means drop it and make our changes into the original
+
+00:18:17.780 --> 00:18:20.780
+one this is the meaning of in place is equal to true so here
+
+00:18:20.780 --> 00:18:24.740
+data frame dot duplicate and i'm dropping the duplicate okay
+
+00:18:24.740 --> 00:18:30.940
+cool so duplicate has been dropped now data frame dot if i'm
+
+00:18:30.940 --> 00:18:35.180
+going to call maybe info so
+
+00:18:38.060 --> 00:18:46.420
+yes now i have in total 299 entries right so uh zero to 300
+
+00:18:46.420 --> 00:18:49.400
+basically index is zero to 300 so technically it must be
+
+00:18:49.400 --> 00:18:53.800
+having like a hundred let me print it 299 rows okay two
+
+00:18:53.800 --> 00:18:59.020
+duplicate has been dropped out of 301 so now it's a 299 okay
+
+00:18:59.020 --> 00:19:03.580
+fine so 299 to duplicate i have already dropped and now it's
+
+00:19:03.580 --> 00:19:09.440
+been confirmed now so once this is done maybe we can try to
+
+00:19:09.440 --> 00:19:12.640
+do some sort of uh you know feature engineering over here
+
+00:19:12.640 --> 00:19:17.740
+now so if i'm going to show you data frame dot header so we
+
+00:19:17.740 --> 00:19:21.520
+have car name we have ear and we have selling price present
+
+00:19:21.520 --> 00:19:24.920
+price kilometer driven fuel type sale type transmission and
+
+00:19:24.920 --> 00:19:31.660
+owner right now so i have to convert this i have to
+
+00:19:31.660 --> 00:19:34.600
+basically you know create one more column so technically i
+
+00:19:34.600 --> 00:19:39.520
+have to do a feature engineering so where i have to find out
+
+00:19:39.520 --> 00:19:45.300
+a age of a car age of a car means so if car uh was first
+
+00:19:45.300 --> 00:19:50.600
+purchased or manufacturing year is 2014 and in 2016 a sorry
+
+00:19:50.600 --> 00:19:54.120
+2026 if i'm trying to find out what is the age of this car
+
+00:19:54.120 --> 00:19:58.060
+then obviously it should tell me or it should give me a 12
+
+00:19:58.060 --> 00:20:01.620
+year right for this one it should give me like a 13 year for
+
+00:20:01.620 --> 00:20:04.960
+this one it should give me like a nine years so i would like
+
+00:20:04.960 --> 00:20:08.620
+to find out the age of the car i would like to create one
+
+00:20:08.620 --> 00:20:11.860
+more column which is going to a derived column i would say
+
+00:20:11.860 --> 00:20:15.980
+right because this ear column uh is not going to give me any
+
+00:20:15.980 --> 00:20:19.660
+kind of a significance in terms of a regression right here
+
+00:20:19.660 --> 00:20:24.300
+is not going to justify the actual meaning or it is not
+
+00:20:24.300 --> 00:20:27.140
+going to help me out in terms of establishing a relationship
+
+00:20:27.140 --> 00:20:30.660
+so what i will do just by looking into this data maybe i can
+
+00:20:30.660 --> 00:20:34.580
+try to create one more derived column right so let's say uh
+
+00:20:34.580 --> 00:20:38.320
+if i'm going to like create a derived column so data frame
+
+00:20:38.320 --> 00:20:42.280
+and then again i'm going to create a column called as car
+
+00:20:42.280 --> 00:20:47.620
+age let's say yeah car age so car age is equals to 2026
+
+00:20:47.620 --> 00:20:52.820
+which is a current year minus data frame here this year
+
+00:20:52.820 --> 00:20:56.120
+column execute so now if i'm going to show you a data frame
+
+00:20:56.120 --> 00:20:59.580
+so here it has created basically what here this is created
+
+00:20:59.580 --> 00:21:04.700
+basically car age and here inside a car age so car is 12 car
+
+00:21:04.700 --> 00:21:08.560
+is 13 car age is 19 so this is a new column i have created
+
+00:21:08.560 --> 00:21:13.060
+so where i can see or i can think that that okay so maybe
+
+00:21:13.060 --> 00:21:18.060
+this one is going to help me out in terms of creating or in
+
+00:21:18.060 --> 00:21:20.420
+terms of including this particular column in terms of
+
+00:21:20.420 --> 00:21:20.540
+creating a car age so i'm going to create a new column and
+
+00:21:20.540 --> 00:21:22.480
+i'm going to add a new column to my equation right i can't
+
+00:21:22.480 --> 00:21:24.920
+include everything here is not going to give me any kind of
+
+00:21:24.920 --> 00:21:29.040
+a relation or any kind of a significance by the way yeah and
+
+00:21:29.040 --> 00:21:32.420
+then you can maybe drop this year column because this year
+
+00:21:32.420 --> 00:21:35.180
+column is not going to give me any relationship agree
+
+00:21:35.180 --> 00:21:39.220
+everyone yeah ultimately we have to set this entire things
+
+00:21:39.220 --> 00:21:43.880
+on y is equals to m1 x1 m2 x2 m3 x3 kind of our situation
+
+00:21:43.880 --> 00:21:47.080
+right so in that kind of us like you know equation i have to
+
+00:21:47.080 --> 00:21:50.060
+fit and this year column is not going to give me any kind of
+
+00:21:50.060 --> 00:21:53.660
+a relation right age is going to give me obviously so i have
+
+00:21:53.660 --> 00:21:57.120
+already derived the age car age and then let me drop this
+
+00:21:57.120 --> 00:22:02.700
+one so to drop this one so data frame dot drop and drop what
+
+00:22:02.700 --> 00:22:07.200
+so drop basically this year column from axis one in place is
+
+00:22:07.200 --> 00:22:10.960
+equals to two means drop it and then persist it yeah so now
+
+00:22:10.960 --> 00:22:15.460
+data frame dot head and i have just dropped now here is gone
+
+00:22:15.460 --> 00:22:19.960
+yeah here is gone now so this is something called as feature
+
+00:22:19.960 --> 00:22:20.080
+relation now here is gone now so this is something called as
+
+00:22:20.080 --> 00:22:22.540
+feature engineering i have done on feature so i have done
+
+00:22:22.540 --> 00:22:24.860
+some sort of engineering and out of that so i have derived
+
+00:22:24.860 --> 00:22:28.200
+some more feature generally what happens so as a data
+
+00:22:28.200 --> 00:22:30.740
+scientist you have to understand the domain you have to
+
+00:22:30.740 --> 00:22:34.240
+understand a business uh you have to understand the whole
+
+00:22:34.240 --> 00:22:37.100
+environment you have to understand what kind of a problem
+
+00:22:37.100 --> 00:22:40.860
+you are trying to solve and based on that you have to
+
+00:22:40.860 --> 00:22:44.840
+prepare the data for example so i was like going through a
+
+00:22:44.840 --> 00:22:47.760
+data i found out that okay here is not going to work in
+
+00:22:47.760 --> 00:22:50.560
+terms of building a relation so i have dropped it but yeah i
+
+00:22:50.560 --> 00:22:53.560
+have derived one new column out of the ear column itself
+
+00:22:53.560 --> 00:22:57.000
+again as a data scientist what happens so we try to look
+
+00:22:57.000 --> 00:23:01.020
+into the internet and even a real-time apis or maybe some
+
+00:23:01.020 --> 00:23:04.580
+third-party apis or data set we try to even introduce those
+
+00:23:04.580 --> 00:23:07.940
+if it is required if it is required for that particular use
+
+00:23:07.940 --> 00:23:12.200
+cases so everything like depends upon us by the way yeah the
+
+00:23:12.200 --> 00:23:14.380
+kind of a decision that we used to take and the similar
+
+00:23:14.380 --> 00:23:17.360
+things we used to implement it so feature engineering okay
+
+00:23:17.360 --> 00:23:20.820
+fine it's done let's do some sort of a eda as well
+
+00:23:20.820 --> 00:23:24.920
+exploratory data analysis as well right eda so we'll try to
+
+00:23:24.920 --> 00:23:27.580
+understand a relationship basically that's the meaning of a
+
+00:23:27.580 --> 00:23:31.260
+eda exploratory right exploratory data analysis so let's go
+
+00:23:31.260 --> 00:23:34.880
+and let's try to understand it so here what i will do i'll
+
+00:23:34.880 --> 00:23:37.460
+try to import some of the graph library which we have
+
+00:23:37.460 --> 00:23:40.420
+already like discussed right so matplotlib and maybe i can
+
+00:23:40.420 --> 00:23:46.320
+try to you know uh import seaborn seaborne so these are the
+
+00:23:46.320 --> 00:23:49.100
+graph library i have done as an import let me check yeah
+
+00:23:50.080 --> 00:23:56.440
+okay now here so uh let's say i would like to understand a
+
+00:23:56.440 --> 00:24:01.200
+sales price distribution so how the sales price has been uh
+
+00:24:01.200 --> 00:24:05.300
+basically like uh distributed so i can call maybe a library
+
+00:24:05.300 --> 00:24:12.640
+dot a histogram right a hist plot and then here so we have
+
+00:24:12.640 --> 00:24:16.920
+selling price column selling
+
+00:24:20.630 --> 00:24:26.930
+price okay basically i'm trying to understand what is a
+
+00:24:26.930 --> 00:24:31.890
+selling point in general so i'm able to understand that that
+
+00:24:31.890 --> 00:24:35.250
+you know this is basically a histogram and i believe we all
+
+00:24:35.250 --> 00:24:38.410
+understand what is the meaning of this histogram graph so in
+
+00:24:38.410 --> 00:24:42.370
+x-axis it is representing a range and on y-axis it is
+
+00:24:42.370 --> 00:24:45.610
+representing the volume i mean like in that range so what is
+
+00:24:45.610 --> 00:24:49.510
+the total count so here maybe like you know till this it's a
+
+00:24:49.510 --> 00:24:52.730
+five so let's say this is going to be two point five and
+
+00:24:52.730 --> 00:24:56.550
+below two point five so i can see that that there are so
+
+00:24:56.550 --> 00:25:00.330
+many car available for sale below two point five as well
+
+00:25:00.330 --> 00:25:04.390
+right below 2.5 then this to this range yes these many cars
+
+00:25:04.390 --> 00:25:06.830
+are available this to this name these many cars are
+
+00:25:06.830 --> 00:25:09.250
+available this to this length this many cars are technically
+
+00:25:09.250 --> 00:25:14.430
+available for a sales on a high end right so high end like a
+
+00:25:14.430 --> 00:25:19.210
+35 or 40 or 25 there are very few car which is available on
+
+00:25:19.210 --> 00:25:23.050
+a high end for a sales right there are very few car so
+
+00:25:23.050 --> 00:25:26.970
+majority of people are selling their low ends car but yeah
+
+00:25:26.970 --> 00:25:31.730
+people are not selling or i can say that for majority of car
+
+00:25:31.730 --> 00:25:35.490
+the selling price is basically very very low right you can
+
+00:25:35.490 --> 00:25:38.830
+try to do an interpretation and uh yeah so selling point for
+
+00:25:38.830 --> 00:25:42.570
+like a high selling point is very very less inside my data
+
+00:25:42.570 --> 00:25:47.230
+set okay fine right so we are able to uh get this kind of
+
+00:25:47.230 --> 00:25:52.500
+information so this is a price distribution that we are able
+
+00:25:52.500 --> 00:25:56.600
+to see let's try to like you know uh understand couple of
+
+00:25:56.600 --> 00:25:59.340
+more things so let's try to understand what is our
+
+00:25:59.340 --> 00:26:03.080
+relationship between car age and a selling price right what
+
+00:26:03.080 --> 00:26:05.660
+is the relationship between car age and relationship car
+
+00:26:05.660 --> 00:26:10.280
+agents selling point so sns dot scatter plot i can try to
+
+00:26:10.280 --> 00:26:15.920
+call and car age versus selling price right okay execute so
+
+00:26:15.920 --> 00:26:20.680
+here car age is mentioned over here and then selling price
+
+00:26:20.680 --> 00:26:28.600
+is mentioned on y-axis so just by looking into this let me
+
+00:26:28.600 --> 00:26:35.980
+reverse the axis so y is equal to x x is equals to y okay
+
+00:26:39.240 --> 00:26:45.880
+so selling price right so selling price is like a 0 to 5 and
+
+00:26:45.880 --> 00:26:51.140
+age so yes for all age of the car i am able to see it inside
+
+00:26:51.140 --> 00:26:56.140
+this particular selling price 0 to 5 so car with the age and
+
+00:26:56.140 --> 00:26:59.480
+one more thing one more surprising things so whosoever is
+
+00:26:59.480 --> 00:27:05.700
+selling their car right as per 2026 if i'll say so the
+
+00:27:05.700 --> 00:27:11.600
+minimum age is 80 or above right minimum age is technically
+
+00:27:11.600 --> 00:27:14.780
+80 or above let me reword it back okay
+
+00:27:18.720 --> 00:27:23.840
+so basically uh like you know a car which is having ages
+
+00:27:23.840 --> 00:27:29.620
+somewhere like a nine i would say so most of those cars are
+
+00:27:29.620 --> 00:27:35.800
+available in a price range of above zero till 10 or 8 you
+
+00:27:35.800 --> 00:27:38.760
+can say right just by looking into this distribution again
+
+00:27:38.760 --> 00:27:41.940
+car which is having age like a 10 it's available in this
+
+00:27:41.940 --> 00:27:48.900
+particular range and yeah so if car age is increasing like
+
+00:27:48.900 --> 00:27:52.300
+if car age is increasing so i can clearly see a pattern over
+
+00:27:52.300 --> 00:27:57.720
+here that if car age is increasing in that case their
+
+00:27:57.720 --> 00:28:01.620
+selling price are very very low their selling price are very
+
+00:28:01.620 --> 00:28:05.880
+very low technically right so again that's a right
+
+00:28:05.880 --> 00:28:09.220
+assumption so if car age will increase obviously your
+
+00:28:09.220 --> 00:28:11.820
+selling price is going to decrease which which i can see
+
+00:28:11.820 --> 00:28:15.940
+inside my data set now let's try to understand a couple of
+
+00:28:15.940 --> 00:28:19.620
+more things so kilometer driven right with respect to the
+
+00:28:19.620 --> 00:28:22.600
+selling price right so how this relation right so how this
+
+00:28:22.600 --> 00:28:26.500
+relation works so sns dot a scatter plot i can try to call
+
+00:28:26.500 --> 00:28:37.900
+and here so on x axis kms driven versus sales price there is
+
+00:28:37.900 --> 00:28:43.540
+a error i believe so what is the spelling of kms k capital
+
+00:28:43.540 --> 00:28:45.820
+and d capital fine
+
+00:28:51.800 --> 00:28:57.160
+so kilometer driven versus selling price so here kilometer
+
+00:28:57.160 --> 00:29:03.460
+so for every car that we have so kilometer driven is uh
+
+00:29:03.460 --> 00:29:08.940
+somewhere around zero to hundred thousand basically right
+
+00:29:08.940 --> 00:29:13.720
+one lakh and uh yeah so i mean it's it's very much
+
+00:29:13.720 --> 00:29:16.840
+concentrated over here in a in a single place very much
+
+00:29:16.840 --> 00:29:23.240
+concentrated so selling price is between zero to ten and
+
+00:29:23.240 --> 00:29:27.520
+almost all the data set is concentrated in one single place
+
+00:29:27.520 --> 00:29:31.540
+itself in a single place so almost all the data is available
+
+00:29:31.540 --> 00:29:34.680
+here itself available here itself right in this one so we
+
+00:29:34.680 --> 00:29:39.940
+are kilometer driven isской between zero to like one lakh
+
+00:29:39.940 --> 00:29:46.900
+kilometer and price is around or under ten right around or
+
+00:29:46.900 --> 00:29:52.280
+under ten okay so this is again another uh detail you will
+
+00:29:52.280 --> 00:29:53.260
+be able to see okay so this is again another uh detail you
+
+00:29:53.260 --> 00:29:54.880
+will be able to see that yes there is some sort of a
+
+00:29:54.880 --> 00:29:58.380
+relationship we have right then we can try to calculate
+
+00:29:58.380 --> 00:29:59.660
+under training value Sonic per unit even do a fuel type
+
+00:29:59.660 --> 00:30:04.300
+analysis so which type of like a fuel is like what kind of a
+
+00:30:04.300 --> 00:30:07.520
+fuel car is available like is it a petrol or is it a diesel
+
+00:30:07.520 --> 00:30:14.980
+so maybe i can do sns dot box plot and then fuel type versus
+
+00:30:14.980 --> 00:30:20.600
+selling price okay so petrol then diesel and then we have a
+
+00:30:20.600 --> 00:30:24.680
+cng right so petrol and then we have some sort of outlier
+
+00:30:24.680 --> 00:30:29.880
+over here and in a diesel also we have some low end outlier
+
+00:30:29.880 --> 00:30:34.440
+and high end outlier both and then we have a cng over here
+
+00:30:34.440 --> 00:30:37.360
+so fine that's again uh three different different type of
+
+00:30:37.360 --> 00:30:41.340
+the fuel that we are able to find out let's try to
+
+00:30:41.340 --> 00:30:46.120
+understand our seller type so sns dot box plot box
+
+00:30:48.870 --> 00:30:57.300
+plot so x axis is equals to data frame and then so seller
+
+00:30:57.300 --> 00:30:58.200
+type why
+
+00:31:04.370 --> 00:31:07.330
+it is giving me this it should not so
+
+00:31:15.490 --> 00:31:20.790
+here x is equals to data frame and then inside that so we
+
+00:31:20.790 --> 00:31:30.270
+should have a seller type okay again maybe spelling or
+
+00:31:30.270 --> 00:31:35.470
+something so data frame dot columns so seller type is
+
+00:31:35.470 --> 00:31:37.010
+capital okay
+
+00:31:41.300 --> 00:31:47.180
+so dealer so most of the car like you know you know is been
+
+00:31:47.180 --> 00:31:49.780
+sold by dealer and then there are some cars which has been
+
+00:31:49.780 --> 00:31:55.100
+sold by individual okay fine again we can try to find out a
+
+00:31:55.100 --> 00:31:59.680
+transmission basically so transmission type and then selling
+
+00:31:59.680 --> 00:32:02.880
+price so likewise we can try to find out all the
+
+00:32:02.880 --> 00:32:05.760
+relationship that what is the relationship between price and
+
+00:32:05.760 --> 00:32:09.280
+then transmission price and then seller type price and then
+
+00:32:09.280 --> 00:32:12.440
+any other things which is available inside my data set we
+
+00:32:12.440 --> 00:32:15.140
+can also try to plot uh here and then we can try to find out
+
+00:32:15.160 --> 00:32:21.460
+out what
+
+00:32:21.460 --> 00:32:24.660
+is
+
+00:32:24.660 --> 00:32:28.240
+a
+
+00:32:28.240 --> 00:32:34.400
+we have basically this data frame dot head so we have
+
+00:32:34.400 --> 00:32:40.720
+basically all of these columns so car name selling price
+
+00:32:40.720 --> 00:32:43.600
+present price kilometer driven fuel type seller type
+
+00:32:43.600 --> 00:32:48.980
+transmission owner and car age now out of this we have to
+
+00:32:48.980 --> 00:32:53.840
+decide that what is going to my x and what is going to my y
+
+00:32:53.840 --> 00:32:58.000
+so x is nothing but it's called as feature and y is nothing
+
+00:32:58.000 --> 00:33:01.680
+but it's called as basically a prepare variable or maybe
+
+00:33:01.680 --> 00:33:04.420
+like the things that we are trying to basically predict yeah
+
+00:33:04.420 --> 00:33:08.800
+so we we and the outcome that we are expecting so we have to
+
+00:33:08.800 --> 00:33:13.540
+basically build our x we have to build our y so my y is
+
+00:33:13.540 --> 00:33:18.180
+basically what my y is basically a selling price and i can
+
+00:33:18.180 --> 00:33:23.560
+say that that my x is the whole except this selling price so
+
+00:33:23.560 --> 00:33:27.460
+if i have to build my x data because x versus y is something
+
+00:33:27.460 --> 00:33:30.860
+that we are we are supposed to find out so we have to like
+
+00:33:30.860 --> 00:33:33.800
+basically like build the x so data frame dot drop selling
+
+00:33:33.800 --> 00:33:37.400
+price right and y is what y is going to be the selling price
+
+00:33:37.400 --> 00:33:44.060
+so now if i'm going to print x dot head so x dot head is one
+
+00:33:44.060 --> 00:33:47.260
+two three four five six seven eight so eight columns and
+
+00:33:47.260 --> 00:33:50.080
+this is going to behave as a x let's suppose and then y is
+
+00:33:50.080 --> 00:33:53.760
+nothing but my selling price so both of these data set is
+
+00:33:53.760 --> 00:33:53.820
+going to be the selling price so x dot head is going to be
+
+00:33:53.820 --> 00:33:55.860
+the selling price so my x is ready my x is ready my y is
+
+00:33:55.860 --> 00:34:01.620
+ready now once this is like a ready right once this part is
+
+00:34:01.620 --> 00:34:06.140
+this particular part is ready then what we have to do so
+
+00:34:06.140 --> 00:34:10.500
+here you will be able to see that that inside my data set i
+
+00:34:10.500 --> 00:34:16.900
+have a car name i have basically a fuel type i have a seller
+
+00:34:16.900 --> 00:34:21.240
+type i have a transmission now these data set is available
+
+00:34:21.240 --> 00:34:24.800
+in a object format right these data sets are available in a
+
+00:34:24.800 --> 00:34:28.900
+object format now if i'm writing a equation y is equals to
+
+00:34:28.900 --> 00:34:36.580
+m1 x1 plus m2 x2 plus so on plus c right so i need all of
+
+00:34:36.580 --> 00:34:41.260
+this x to be numerical right i need all of this x to be
+
+00:34:41.260 --> 00:34:46.500
+numerical but here uh car name is categorical fuel type is
+
+00:34:46.500 --> 00:34:49.360
+categorical sales type seller type is categorical
+
+00:34:49.360 --> 00:34:52.700
+transmission is categorical so in this kind of a situation
+
+00:34:53.840 --> 00:34:56.660
+what we have to do and i know that that these are going to
+
+00:34:56.660 --> 00:35:00.120
+contribute in terms of building the relation so what we can
+
+00:35:00.120 --> 00:35:04.540
+do we can try to convert this entire things into a different
+
+00:35:04.540 --> 00:35:09.360
+data format right into a different data format so
+
+00:35:09.360 --> 00:35:12.280
+technically what we can do so we can try to do a encoding
+
+00:35:12.280 --> 00:35:16.560
+right i can we can try to do a encoding and with the help of
+
+00:35:16.560 --> 00:35:20.100
+this encoding so we can try to transform this entire data
+
+00:35:20.100 --> 00:35:26.580
+set into a respective numerical data set right respective
+
+00:35:26.580 --> 00:35:31.640
+numerical data set so now to do that right so first of all
+
+00:35:31.640 --> 00:35:36.960
+let me try to filter out these entire data sets so x dot uh
+
+00:35:36.960 --> 00:35:41.720
+let's say i can try to do select data type include object
+
+00:35:41.720 --> 00:35:45.800
+columns so car name fuel type seller type and transmission
+
+00:35:45.800 --> 00:35:49.780
+these are the four columns right so these are the four
+
+00:35:49.780 --> 00:35:53.840
+columns which is available to me and this is available as an
+
+00:35:53.840 --> 00:35:56.940
+object technically i mean like it's it's not available in a
+
+00:35:56.940 --> 00:36:01.160
+of like a numerical format it's available as an object so
+
+00:36:01.160 --> 00:36:06.040
+what i will do i can try to encode this into a data format
+
+00:36:06.040 --> 00:36:11.740
+which i will be using right because at the end of the day i
+
+00:36:11.740 --> 00:36:15.300
+need basically like you know numerical values so okay let's
+
+00:36:15.300 --> 00:36:18.540
+go ahead and do it so there are multiple encoding technique
+
+00:36:18.540 --> 00:36:23.540
+you all will be able to find out right so if you have to
+
+00:36:23.840 --> 00:36:27.200
+encode those data sets so you can try to use those uh
+
+00:36:27.200 --> 00:36:31.220
+different different kind of a encoding technique so here
+
+00:36:31.220 --> 00:36:33.920
+what we can do so we can try to use basically something
+
+00:36:33.920 --> 00:36:37.200
+called as one hot encoder let's try to understand that
+
+00:36:37.200 --> 00:36:40.340
+particular part so to use one hundred encoder i can call
+
+00:36:40.340 --> 00:36:44.620
+from sklearn so there is something called a label encoder
+
+00:36:44.620 --> 00:36:54.440
+sklearn pre-processing one hot encoder okay one hot encoder
+
+00:36:55.180 --> 00:36:57.540
+o is capital okay
+
+00:37:04.610 --> 00:37:08.090
+so one hot encoder so one hot encoder is something that we
+
+00:37:08.090 --> 00:37:10.670
+can try to use it over here and with the help of one hot
+
+00:37:10.670 --> 00:37:15.330
+encoder so i can convert this uh categorical data into a
+
+00:37:15.330 --> 00:37:19.510
+numerical data so here what i can do one hot encoder i have
+
+00:37:19.510 --> 00:37:25.450
+imported i can try to call uh one hot encoder and let's
+
+00:37:25.450 --> 00:37:31.290
+create a object for this one encoder object okay fine so
+
+00:37:31.290 --> 00:37:34.490
+encoder object now what i can do so i can try to basically
+
+00:37:34.490 --> 00:37:40.890
+select the columns same so this is my column so here using
+
+00:37:40.890 --> 00:37:44.710
+it again so this is going to give me categorical let's say
+
+00:37:44.710 --> 00:37:47.750
+column so i have named it as a categorical column okay fine
+
+00:37:47.750 --> 00:37:51.570
+it is having all these four columns by the way at the end of
+
+00:37:51.570 --> 00:37:55.910
+the day now what i can do so i can try to basically pass all
+
+00:37:55.910 --> 00:38:00.510
+of these one hot all of these like a column one by one into
+
+00:38:00.510 --> 00:38:04.990
+one hot is it making sense guys are we able to follow so far
+
+00:38:04.990 --> 00:38:08.210
+are we able to understand why we are doing this one hot
+
+00:38:08.210 --> 00:38:10.990
+encoding yes yes
+
+00:38:23.790 --> 00:38:27.130
+everyone in the chat please everyone yeah
+
+00:38:30.590 --> 00:38:33.970
+so let's let's convert so these are the four column that we
+
+00:38:33.970 --> 00:38:36.410
+have so for all these four columns so we have to convert
+
+00:38:36.410 --> 00:38:38.890
+this four column into a numerical representation car name
+
+00:38:38.890 --> 00:38:42.190
+fuel type select type transmission all of these four so
+
+00:38:42.190 --> 00:38:45.130
+let's do it uh yeah converting category to numerical yeah
+
+00:38:45.130 --> 00:38:48.610
+exactly this is what we are trying to do by the way so Okay,
+
+00:38:48.630 --> 00:38:52.730
+let's try to do it. So there is a library by which you will
+
+00:38:52.730 --> 00:38:54.830
+be able to do a transformation. And that library is
+
+00:38:54.830 --> 00:38:57.370
+basically sklearn. Inside that, there is a one-hot encoder.
+
+00:38:57.370 --> 00:39:00.110
+Very, very simple. Now let's try to do some sort of import.
+
+00:39:00.370 --> 00:39:06.470
+So sklearn.compose
+
+00:39:06.470 --> 00:39:11.830
+import column transformer. And then one-hot I have already
+
+00:39:11.830 --> 00:39:19.430
+imported from sklearn.preprocessing
+
+00:39:19.430 --> 00:39:23.010
+standard
+
+00:39:23.010 --> 00:39:30.490
+scaler.
+
+00:39:32.340 --> 00:39:38.180
+Okay, just import column transformer. And then inside that
+
+00:39:38.180 --> 00:39:40.940
+one-hot standard scaler. All this. This transformation, we
+
+00:39:40.940 --> 00:39:45.640
+are going to import it. So now column transformer. Let's try
+
+00:39:45.640 --> 00:39:49.680
+to use it. So column transformer. And what we are trying to
+
+00:39:49.680 --> 00:39:54.620
+transform. So we are trying to basically. Yeah. So column
+
+00:39:54.620 --> 00:39:57.340
+transformer. So we are trying to basically, you know,
+
+00:39:57.340 --> 00:40:02.500
+transform this categorical column. The categorical column
+
+00:40:02.500 --> 00:40:05.900
+that we have with the help of encoder. What kind of encoder?
+
+00:40:06.060 --> 00:40:10.760
+One-hot encoder. Right. One-hot encoder. And. As simple as
+
+00:40:10.760 --> 00:40:16.560
+that. This is what we are trying to basically do it. And
+
+00:40:16.560 --> 00:40:22.660
+let's try to basically close it. So square bracket. And then
+
+00:40:22.660 --> 00:40:27.760
+close. Fine. Now, eventually what it will do. So it will try
+
+00:40:27.760 --> 00:40:33.970
+to transform my. Let me store it as a pre-processing. Fine.
+
+00:40:34.470 --> 00:40:37.830
+So what it will do. It will technically try to transform all
+
+00:40:37.830 --> 00:40:42.730
+of my data. With the help of this one-hot encoder. Into a
+
+00:40:42.730 --> 00:40:47.490
+numerical. Equivalent. Right. In a numerical equivalent. Not
+
+00:40:47.490 --> 00:40:51.410
+just that. So let's say if I would like to basically do one
+
+00:40:51.410 --> 00:40:54.590
+more thing. So whatsoever like a numerical column that we
+
+00:40:54.590 --> 00:40:57.390
+have. Right. Whatsoever numerical column that we have. So I
+
+00:40:57.390 --> 00:41:01.710
+would like to convert those numerical column in a standard
+
+00:41:01.710 --> 00:41:05.370
+format. A normalized format. So Z is equals to data minus
+
+00:41:05.370 --> 00:41:08.790
+mean divided by a standard deviation. This is what we have
+
+00:41:08.790 --> 00:41:12.010
+studied in our stats class. So. So same kind of a
+
+00:41:12.010 --> 00:41:15.730
+transformation if we have to do it. And basically we have to
+
+00:41:15.730 --> 00:41:18.730
+do it with respect to what a numerical columns. Yeah.
+
+00:41:18.990 --> 00:41:22.590
+Numerical columns. All those numerical columns. So we can
+
+00:41:22.590 --> 00:41:26.590
+try to even call this one. Right. We can also call this one.
+
+00:41:26.670 --> 00:41:29.590
+And we can try to use a standard scalar. And standard scalar
+
+00:41:29.590 --> 00:41:32.330
+wise. If you remember. Can I say that this is the same
+
+00:41:32.330 --> 00:41:34.570
+formula that you are able to see on your screen. We have
+
+00:41:34.570 --> 00:41:41.350
+studied. Yes. So from a normal distribution. Right. Let's
+
+00:41:41.350 --> 00:41:43.650
+say my data set is available in a normal distribution. So
+
+00:41:43.650 --> 00:41:46.710
+I'm trying to convert those data set into a standard normal
+
+00:41:46.710 --> 00:41:51.210
+distribution. Reason is very simple. So that you know mean
+
+00:41:51.210 --> 00:41:53.750
+is equals to zero. Shining deviation is going to be one. All
+
+00:41:53.750 --> 00:41:57.010
+data set will be basically fluctuating between certain
+
+00:41:57.010 --> 00:42:03.670
+range. Not in a very big range. Yes. So this is what we can
+
+00:42:03.670 --> 00:42:06.210
+do. So we can try to like a call. And we have seen said
+
+00:42:06.210 --> 00:42:08.690
+that. Okay fine. So just try to do this column. This column
+
+00:42:08.690 --> 00:42:12.290
+and this column. And then try to convert this one. Hope we
+
+00:42:12.290 --> 00:42:16.370
+are not leaving anything. Present price. KMS driven. Let me.
+
+00:42:17.630 --> 00:42:20.370
+Call. Data frame dot columns.
+
+00:42:27.150 --> 00:42:31.630
+So car name. Sale price. Present price. KMS. Instead of
+
+00:42:31.630 --> 00:42:33.050
+that. I can call info.
+
+00:42:37.990 --> 00:42:42.330
+Okay. So object. Float. Selling price. Selling price is
+
+00:42:42.330 --> 00:42:45.110
+going to be my. Why by the way. Present price I have already
+
+00:42:45.110 --> 00:42:49.490
+taken. And then kilometer driven. Already taken. Object.
+
+00:42:49.610 --> 00:42:55.210
+Object. Object. Owner. Okay. So 0. 1. 2. 3. This we have not
+
+00:42:55.210 --> 00:43:01.430
+taken. Car age. So basically it's a. Int. 64. So maybe I can
+
+00:43:01.430 --> 00:43:02.990
+take this owner. Why to leave this one.
+
+00:43:11.330 --> 00:43:11.770
+Okay.
+
+00:43:18.180 --> 00:43:21.500
+So now this is going to do a. Transformation. This is going
+
+00:43:21.500 --> 00:43:25.100
+to transform my entire data set. Okay. So once it is going
+
+00:43:25.100 --> 00:43:29.440
+to do. Entire data transformation. Now let's try to
+
+00:43:29.440 --> 00:43:34.080
+understand. How my data set actually looks like. So it has
+
+00:43:34.080 --> 00:43:36.980
+used. One hot encoder. It has used a standard scaler. And
+
+00:43:36.980 --> 00:43:40.540
+then it has done some sort of a transformation. For these
+
+00:43:40.540 --> 00:43:43.340
+columns. And then for all of these particular columns.
+
+00:44:08.960 --> 00:44:12.420
+Fine. So here clearly I'm able to see that. That a standard
+
+00:44:12.420 --> 00:44:15.120
+scale has been implemented on all of these four column. And
+
+00:44:15.120 --> 00:44:18.540
+then. This one hot encoding has been done after this
+
+00:44:18.540 --> 00:44:24.720
+particular column. Now. So it's time to basically use all of
+
+00:44:24.720 --> 00:44:28.720
+these data set. So after like a, you know, pre-processing.
+
+00:44:29.300 --> 00:44:34.780
+So let me check type of pre-processing. So column
+
+00:44:34.780 --> 00:44:39.420
+transformer fine. Pre-processing dot
+
+00:44:42.430 --> 00:44:50.350
+directly. I can fit get params number of feature.
+
+00:44:55.650 --> 00:44:56.570
+I
+
+00:45:05.940 --> 00:45:11.340
+just want you to see the data before sending that to the
+
+00:45:11.340 --> 00:45:20.400
+training. So pre-processing pre-processing dot. I can try to
+
+00:45:20.400 --> 00:45:29.860
+call. Maybe dot to array. Let's see. Yeah. To array. Oh,
+
+00:45:37.790 --> 00:45:40.050
+it is not having any array.
+
+00:45:42.120 --> 00:45:44.560
+I'm just trying to show you the data guys. I mean, like we
+
+00:45:44.560 --> 00:45:47.020
+have already done this transformation, right? But after
+
+00:45:47.020 --> 00:45:49.580
+transformation, so I just wanted to show you one time that,
+
+00:45:49.600 --> 00:45:52.740
+you know, after doing one hot encoding, how my data actually
+
+00:45:52.740 --> 00:45:53.960
+looks like. I'm
+
+00:46:07.970 --> 00:46:10.530
+looking for a function. So which can.
+
+00:46:29.060 --> 00:46:33.640
+So pre-processing. Dot transform.
+
+00:46:44.760 --> 00:46:51.900
+And, uh, let's say it is going to take my X data.
+
+00:46:56.460 --> 00:46:57.380
+It's transformed
+
+00:47:02.760 --> 00:47:08.680
+instant is not fitted the year to call fit. Okay, fine. I
+
+00:47:08.680 --> 00:47:12.820
+have to call it. So this is the object for
+
+00:47:15.700 --> 00:47:15.860
+the
+
+00:47:19.020 --> 00:47:21.540
+processing dot fit
+
+00:47:23.940 --> 00:47:24.820
+on
+
+00:47:27.000 --> 00:47:28.500
+X. Uh,
+
+00:48:02.600 --> 00:48:05.500
+yes, this was something which I was trying to show you. Let
+
+00:48:05.500 --> 00:48:10.080
+me show you this. This particular data set. So here I can
+
+00:48:10.080 --> 00:48:13.940
+simply print this data again,
+
+00:48:16.930 --> 00:48:22.710
+very scattered one, which you will not be able to understand
+
+00:48:22.710 --> 00:48:23.470
+clearly.
+
+00:49:07.540 --> 00:49:10.600
+Okay. So I was just trying to explain you guys. So what
+
+00:49:10.600 --> 00:49:13.340
+happens with respect to a one hot encoder? I started the
+
+00:49:13.340 --> 00:49:15.940
+scale. It is like a pretty much formula implementation, but
+
+00:49:15.940 --> 00:49:19.400
+with respect to one hot encoding, uh, what actually like
+
+00:49:19.400 --> 00:49:23.720
+happens and how it is going to. Uh, you know, represent this
+
+00:49:23.720 --> 00:49:27.180
+one hot encoding. So let me, let me explain you because the
+
+00:49:27.180 --> 00:49:29.460
+data set, it has already transformed and there are so many
+
+00:49:29.460 --> 00:49:33.160
+columns. So maybe because of that, uh, even if I'll explain
+
+00:49:33.160 --> 00:49:35.560
+you, you will not be able to visualize it. So let me explain
+
+00:49:35.560 --> 00:49:38.620
+you theoretically that how one hot encoding actually works,
+
+00:49:38.780 --> 00:49:41.440
+because again, it's important. You should understand this
+
+00:49:41.440 --> 00:49:46.040
+one. So let's say, uh, we have three categorical values, a,
+
+00:49:46.220 --> 00:49:50.800
+B and C, right? So one of in one column, right? In one
+
+00:49:50.800 --> 00:49:54.040
+column. So for example, we have. We have a car name. Let me
+
+00:49:54.040 --> 00:49:58.480
+take that car name itself. So let's say we have a car name.
+
+00:49:58.620 --> 00:50:06.400
+Uh, so let's say we have a Mercedes Audi and BMW. Now this
+
+00:50:06.400 --> 00:50:10.620
+is a car name column across this car name. These are the car
+
+00:50:10.620 --> 00:50:12.580
+names, which is available, or these are the brand name,
+
+00:50:12.640 --> 00:50:16.500
+which is available. Now, if someone is asking me to
+
+00:50:16.500 --> 00:50:21.180
+represent this into a numerical format, so how I will be
+
+00:50:21.180 --> 00:50:24.400
+able to represent it. Especially with, uh, with the help of
+
+00:50:24.400 --> 00:50:28.240
+this one hot encoding, I can try to use label encoding as
+
+00:50:28.240 --> 00:50:30.480
+well. I can try to use one hot encoding, but yeah, let's try
+
+00:50:30.480 --> 00:50:33.340
+to understand how one hot encoding works because here we
+
+00:50:33.340 --> 00:50:36.440
+have used one hot encoding. So in terms of one hot encoding,
+
+00:50:36.740 --> 00:50:40.620
+what happens? Uh, so let's say we have three categorical
+
+00:50:40.620 --> 00:50:44.700
+values, so we are going to take three places, place number
+
+00:50:44.700 --> 00:50:47.900
+one, place number two place. Number three means to represent
+
+00:50:47.900 --> 00:50:51.340
+this car name column to represent this car name column,
+
+00:50:51.420 --> 00:50:55.660
+which was one. So now I have three unique car names. So I'll
+
+00:50:55.660 --> 00:51:00.120
+take this three name, right? And then what I will do. So
+
+00:51:00.120 --> 00:51:04.600
+let's say, uh, this is our first one. This is like a first
+
+00:51:04.600 --> 00:51:07.540
+place. It is going to hold to represent. This is the second,
+
+00:51:07.600 --> 00:51:11.480
+this is the third. So what I will do one, zero, zero means
+
+00:51:11.480 --> 00:51:14.460
+it is representing Mercedes. So wherever most of these will
+
+00:51:14.460 --> 00:51:18.860
+come one, zero, zero, then zero one, zero. So wherever Audi
+
+00:51:18.860 --> 00:51:22.560
+will come, it will be zero one, zero. Beyond the loop. Zero,
+
+00:51:22.660 --> 00:51:25.860
+zero one, zero, zero one. So this is how this one hot
+
+00:51:25.860 --> 00:51:28.560
+encoding works. And eventually I will be able to get instead
+
+00:51:28.560 --> 00:51:31.880
+of one single column, these many columns, I will be able to
+
+00:51:31.880 --> 00:51:34.780
+get, I mean like number of the unique values, which is
+
+00:51:34.780 --> 00:51:36.700
+available inside the data. So that is the number of column.
+
+00:51:36.820 --> 00:51:40.480
+I will be able to observe it over here. So in this way, like
+
+00:51:40.480 --> 00:51:44.340
+I know one hot encoding works at any point of time, one will
+
+00:51:44.340 --> 00:51:48.160
+be hot means one at any point of time, one will be hot,
+
+00:51:48.280 --> 00:51:51.960
+which is representing that particular entities. So this is
+
+00:51:51.960 --> 00:51:55.080
+how one. Hot encoding works all the time. If you have so
+
+00:51:55.080 --> 00:51:57.540
+many categories, so, so many categories in that case, one
+
+00:51:57.540 --> 00:52:00.720
+hot encoding is not advisable because what will happen, it
+
+00:52:00.720 --> 00:52:02.700
+will try to create that way. Number of the column
+
+00:52:02.700 --> 00:52:06.120
+automatically, but yes, as you can see, even it has done it
+
+00:52:06.120 --> 00:52:09.640
+over here, right? Even it has done the same thing in this
+
+00:52:09.640 --> 00:52:12.980
+particular places. Okay. So, uh,
+
+00:52:22.470 --> 00:52:28.370
+processed pre is fine. So here, what I can do, uh,
+
+00:52:30.350 --> 00:52:37.210
+it is done. So pre dot transform, pre
+
+00:52:50.400 --> 00:52:52.880
+dot transform,
+
+00:52:56.380 --> 00:52:58.100
+transform what transform X.
+
+00:53:17.120 --> 00:53:21.300
+Okay, fine. So anyhow, you were able to see the data. Okay.
+
+00:53:30.880 --> 00:53:36.100
+As we can see. So here now there are 109 columns, right? So
+
+00:53:36.100 --> 00:53:39.280
+299 rows and then one in nine columns. So obviously there
+
+00:53:39.280 --> 00:53:41.760
+are so many unique values in each and every, uh, like a
+
+00:53:41.760 --> 00:53:44.520
+column, which we were trying to do a transformation. So
+
+00:53:44.520 --> 00:53:47.820
+eventually it has. Converted in that one, if I'm going to
+
+00:53:47.820 --> 00:53:50.580
+use a label encoding, so it is not going to do anything, but
+
+00:53:50.580 --> 00:53:53.540
+it is going to just like, you know, say, uh, like, uh, just
+
+00:53:53.540 --> 00:53:56.580
+give a label, right? So just give a label apart from that,
+
+00:53:56.660 --> 00:53:57.940
+nothing. It is going to perform.
+
+00:54:02.650 --> 00:54:09.560
+Let me show you one very basic example of, uh, this entire
+
+00:54:09.560 --> 00:54:10.920
+things, uh,
+
+00:54:14.350 --> 00:54:15.490
+DF is fine.
+
+00:54:20.100 --> 00:54:23.200
+Then what is the use of transform function? So basically it
+
+00:54:23.200 --> 00:54:27.320
+is trying to transform the data. That's it. I mean, like to,
+
+00:54:27.340 --> 00:54:30.480
+uh, NumPy format to a array format, it is trying to
+
+00:54:30.480 --> 00:54:33.960
+transform the data. That's it. Nothing much. So pre
+
+00:54:33.960 --> 00:54:38.160
+-processing is done pre-processing dot fit. I have done, and
+
+00:54:38.160 --> 00:54:43.680
+I have done that on X data. Uh, once this particular part is
+
+00:54:43.680 --> 00:54:48.980
+done, so maybe call the transform and I'm going to save it.
+
+00:54:50.740 --> 00:55:02.440
+X training data. Free. Processed. Let's save it there. Uh,
+
+00:55:02.580 --> 00:55:05.480
+let me convert this data. I just wanted to see, uh, see
+
+00:55:05.480 --> 00:55:08.320
+this, you know, in that data frame. So let me convert that
+
+00:55:08.320 --> 00:55:13.840
+to a data frame itself. And I'll got data frame and X train
+
+00:55:13.840 --> 00:55:19.600
+processed. Okay. Data frame is fine, but it is just showing
+
+00:55:19.600 --> 00:55:23.700
+me all the data in one single one. So what I can do pre
+
+00:55:23.700 --> 00:55:27.180
+-processed, I can convert to array.
+
+00:55:30.460 --> 00:55:34.920
+This was a data guys, which I was actually looking for, and
+
+00:55:34.920 --> 00:55:40.000
+this is the data, which I wanted you to see. Right. So here,
+
+00:55:40.100 --> 00:55:45.420
+uh, again, there are like 109 columns and, uh, obviously
+
+00:55:45.420 --> 00:55:49.420
+this system can't show you all of these columns all
+
+00:55:49.420 --> 00:55:53.300
+together. Right. And, uh, here, let me give one more
+
+00:55:53.300 --> 00:55:59.140
+parameter. So columns. Good feature names out. Hmm.
+
+00:56:10.220 --> 00:56:12.700
+You, you won't be able to analyze this data by the way,
+
+00:56:12.760 --> 00:56:18.260
+anyone will not be able to do it. So X train underscore P P
+
+00:56:18.260 --> 00:56:19.980
+R O processed
+
+00:56:22.260 --> 00:56:27.480
+D F I'm going to store it in that. And then let me do one
+
+00:56:27.480 --> 00:56:32.860
+thing. Let me save it inside the file dot two CSV.
+
+00:56:36.180 --> 00:56:39.840
+Hmm. Now this data is saved. Now you will be able to analyze
+
+00:56:39.840 --> 00:56:44.000
+this particular data set because I can open up this data in
+
+00:56:44.000 --> 00:56:47.100
+a. A seat. And then I can show it to you inside your Jupiter
+
+00:56:47.100 --> 00:56:50.600
+notebook for sure. You can see it now.
+
+00:56:52.640 --> 00:56:56.180
+See guys, this is the data, right? This is the
+
+00:56:56.180 --> 00:57:00.240
+transformation that we have basically done. So car name,
+
+00:57:00.340 --> 00:57:04.060
+encoder, car name, car name. So car name was 800. Car name
+
+00:57:04.060 --> 00:57:07.400
+was active. A three G car name was active. A four G car name
+
+00:57:07.400 --> 00:57:12.120
+was Bajaj city. Car name was this, uh, Bajaj Avenger, one 50
+
+00:57:12.120 --> 00:57:16.280
+Bajaj Avenger, one 50 street. All of these. Car names,
+
+00:57:16.400 --> 00:57:19.380
+right? Only car name, encoder, car name, encoder, car name,
+
+00:57:19.400 --> 00:57:22.900
+encoder, car name. So all of these things are just a car
+
+00:57:22.900 --> 00:57:28.720
+name and there are so, so many car name which was available.
+
+00:57:29.080 --> 00:57:34.620
+And because of that, it has ended up creating so many
+
+00:57:34.620 --> 00:57:39.580
+columns, right? And somewhere in the entire one single row,
+
+00:57:39.680 --> 00:57:45.080
+you will be able to see only one unit as hot means one.
+
+00:57:45.600 --> 00:57:50.220
+Right? So here rich. So rich is one rest is zero for this
+
+00:57:50.220 --> 00:57:56.000
+one here. A six, four is one rest is zero, right? So in the
+
+00:57:56.000 --> 00:58:00.100
+entire record for a car name only, you will be able to see
+
+00:58:00.100 --> 00:58:05.240
+only one hot all cool, right? So this is the number of
+
+00:58:05.240 --> 00:58:09.240
+column it has created by the way, which is like a very, very
+
+00:58:09.240 --> 00:58:13.960
+huge. And for this data set, it has done the standardization
+
+00:58:13.960 --> 00:58:16.720
+means data minus mean divided. By standard deviation, right?
+
+00:58:16.760 --> 00:58:19.140
+So from like a normal distribution, you're just trying to
+
+00:58:19.140 --> 00:58:22.360
+convert those data into a standard distribution. So that
+
+00:58:22.360 --> 00:58:24.160
+would come really fine that anyone can like, you know,
+
+00:58:24.160 --> 00:58:27.500
+understand such. So whatsoever numerical values that we had,
+
+00:58:27.600 --> 00:58:30.860
+it has like, you know, done the same thing, uh, again,
+
+00:58:30.960 --> 00:58:35.720
+transmission or wise. So we had like, you know, uh, two
+
+00:58:35.720 --> 00:58:38.980
+kinds of a transmission, it seems automatic and a manual. So
+
+00:58:38.980 --> 00:58:41.840
+there are only two column, right? Only two columns, uh,
+
+00:58:41.900 --> 00:58:44.340
+because only there were two categorical value, right? Only
+
+00:58:44.340 --> 00:58:47.920
+two category value. So here, what it has done either zero or
+
+00:58:47.920 --> 00:58:50.880
+one, zero, one, zero, one, zero, one now, uh, seller type.
+
+00:58:51.340 --> 00:58:54.660
+So seller type wise, we had like two dealer or individual.
+
+00:58:54.900 --> 00:58:58.840
+So one, so only two, uh, when it comes to one hot, only two
+
+00:58:58.840 --> 00:59:04.340
+new column, it has created now here. So fuel type wise CNG,
+
+00:59:04.380 --> 00:59:08.960
+diesel and patrol, right? So yes, anyone will be one, right?
+
+00:59:09.000 --> 00:59:11.620
+Anyone will be one. So three column, it has created out of
+
+00:59:11.620 --> 00:59:14.780
+fuel type. So out of seller type, it has created two column
+
+00:59:14.780 --> 00:59:17.140
+out of. Transmission type. It has created two column out of
+
+00:59:17.140 --> 00:59:20.800
+fuel type. It has created three columns out of car name
+
+00:59:20.800 --> 00:59:23.800
+type. It has literally created a hell lot of colors because
+
+00:59:23.800 --> 00:59:27.780
+there was like a lot of, uh, unique name, which was
+
+00:59:27.780 --> 00:59:33.280
+available. I'm just counting it now. 98. So there was 98
+
+00:59:33.280 --> 00:59:37.400
+unique car was available. So it has ended up creating 98
+
+00:59:37.400 --> 00:59:40.860
+columns. Only one will be hot, right? That's going to be
+
+00:59:40.860 --> 00:59:44.880
+zero to convert those data into this one. So maybe for this.
+
+00:59:45.140 --> 00:59:49.640
+A car name, uh, one hot is not a good choice. So maybe I can
+
+00:59:49.640 --> 00:59:56.940
+go ahead with a label encoding, but can anyone tell me why I
+
+00:59:56.940 --> 00:59:58.840
+should not use even a label encoding?
+
+01:00:01.660 --> 01:00:04.260
+Label encoding means like, say, let's say 98 different,
+
+01:00:04.320 --> 01:00:06.960
+different car we have. Right? So this is equal to one. This
+
+01:00:06.960 --> 01:00:08.900
+is equal to two. This is equal to three. This is equal to
+
+01:00:08.900 --> 01:00:13.400
+four. I mean, like in that way we can label those cars, but
+
+01:00:13.400 --> 01:00:15.740
+why I'm not supposed to like a go ahead and use a label
+
+01:00:15.740 --> 01:00:19.900
+encoding. Range is one to 98. That's completely fine. But
+
+01:00:19.900 --> 01:00:22.340
+again, why the question is why lots
+
+01:00:26.540 --> 01:00:29.560
+of unique values or cardinality? Hmm.
+
+01:00:32.530 --> 01:00:32.970
+No.
+
+01:00:36.560 --> 01:00:39.700
+So as you think in this manner, so technically what we are
+
+01:00:39.700 --> 01:00:42.820
+going to do, uh, we are going to take this equation. Y is
+
+01:00:42.820 --> 01:00:50.580
+equal to M one X one M two X two M three X three, right?
+
+01:00:50.720 --> 01:00:54.380
+Likewise, plus C. Now this is the equation on which we are
+
+01:00:54.380 --> 01:00:58.800
+trying to fit our data. Agree. Okay. Now here. So if my X
+
+01:00:58.800 --> 01:01:03.400
+value is one to 98 and which is available in terms of
+
+01:01:03.400 --> 01:01:09.160
+numeric, so can I say that it is going to influence maybe 98
+
+01:01:09.160 --> 01:01:15.190
+will be having more influence as compared to one? Yes. In
+
+01:01:15.190 --> 01:01:17.770
+terms of numeric, 98 will be having more influence as
+
+01:01:17.770 --> 01:01:21.310
+compared to one or maybe 95 or maybe 90. Right. But that's
+
+01:01:21.310 --> 01:01:24.870
+not actual relation. Yes, that's not an actual relation.
+
+01:01:25.050 --> 01:01:28.410
+Right. So. So if that's the reason, so we are not using a
+
+01:01:28.410 --> 01:01:31.430
+label encoder over there, we are using one hot, one hot is a
+
+01:01:31.430 --> 01:01:34.010
+neutral basically, although there are a number of columns it
+
+01:01:34.010 --> 01:01:37.390
+has ended up creating. But yeah, it's a neutral one. It is
+
+01:01:37.390 --> 01:01:40.530
+not going to influence my entire relation. So that's the
+
+01:01:40.530 --> 01:01:45.810
+reason my choice is one hot as of now. Okay, fine. So we are
+
+01:01:45.810 --> 01:01:51.850
+able to, you know, get this data into one hot format. Now
+
+01:01:51.850 --> 01:01:56.370
+what I can do, I can try to use this data. For our training
+
+01:01:56.370 --> 01:01:59.190
+purpose, right for our training purpose, we can try to use
+
+01:01:59.190 --> 01:02:04.090
+this particular data set done guys. Everyone. Yes.
+
+01:02:14.400 --> 01:02:17.720
+Lots of unique values are cardinality. Yes. Yeah.
+
+01:02:20.280 --> 01:02:25.540
+So let's do one thing. So we can try to basically, uh, you
+
+01:02:25.540 --> 01:02:30.700
+know, send this data now for a training purpose. Right. So
+
+01:02:30.700 --> 01:02:33.120
+for a training purpose, we can try to send this data, which
+
+01:02:33.120 --> 01:02:37.200
+is very easy. I mean, like it's not, uh. Uh, big one. Yes.
+
+01:02:37.580 --> 01:02:39.900
+There is so much number of columns is model performance
+
+01:02:39.900 --> 01:02:43.720
+getting to be slow. Uh, no, it's just one single equation,
+
+01:02:43.980 --> 01:02:47.140
+right? You are trying to get, so it doesn't matter whether
+
+01:02:47.140 --> 01:02:51.600
+you have like, uh, yes, at the time of training, it is going
+
+01:02:51.600 --> 01:02:54.600
+to take more time to adjust because it is supposed to add
+
+01:02:54.600 --> 01:02:55.660
+just that many number of values.
+
+01:02:59.980 --> 01:03:03.820
+No, let's try to do one thing. So let's try to, you know,
+
+01:03:03.840 --> 01:03:05.580
+uh, call
+
+01:03:08.330 --> 01:03:12.490
+the algorithm. Let's try to pass this. Entire data set into
+
+01:03:12.490 --> 01:03:17.290
+the algorithm. And then after that, so we are going to
+
+01:03:17.290 --> 01:03:22.690
+basically check the final result. So here X train pre
+
+01:03:22.690 --> 01:03:28.430
+-processed DF. So here, what I can do, so I can try to maybe
+
+01:03:28.430 --> 01:03:34.410
+split this entire data set into a training and a testing
+
+01:03:34.410 --> 01:03:37.110
+data set. So whenever we do this, uh, you know, uh,
+
+01:03:37.270 --> 01:03:40.210
+operation, these operations, so always what we do. So we try
+
+01:03:40.210 --> 01:03:44.670
+to. Uh, basically, you know, split the data set into train
+
+01:03:44.670 --> 01:03:48.670
+and test data set. So this is what we can do it even with
+
+01:03:48.670 --> 01:03:52.250
+respect to this particular data set, which is simple, just
+
+01:03:52.250 --> 01:03:55.810
+call the library and then it is going to basically split the
+
+01:03:55.810 --> 01:03:58.710
+data set into a train data set into a testing data set. And
+
+01:03:58.710 --> 01:04:03.490
+after that you can try to technically use it. Yeah. So fine,
+
+01:04:03.730 --> 01:04:08.410
+let's, uh, do this, then do these things. So here, what I
+
+01:04:08.410 --> 01:04:11.450
+can do, so I can try to call it. Uh, X, uh, underscore
+
+01:04:11.450 --> 01:04:18.450
+train. Bama. Yeah. So train test split.
+
+01:04:23.410 --> 01:04:28.570
+So from a skill and model selection. So just try to call
+
+01:04:28.570 --> 01:04:32.930
+train and test split. So I have passed this data and this Y
+
+01:04:32.930 --> 01:04:36.310
+data, and we are saying that, that, uh, for training, I'm
+
+01:04:36.310 --> 01:04:39.530
+going to keep 80% of the data and for testing, I'm going to
+
+01:04:39.530 --> 01:04:43.510
+keep only 20% of the data. So now this is going to split
+
+01:04:43.510 --> 01:04:47.210
+the. Data set once it is going to split the data set, what
+
+01:04:47.210 --> 01:04:50.670
+you are supposed to do. So you have to basically call a
+
+01:04:50.670 --> 01:04:53.970
+linear regression, and then you can try to set the data. So
+
+01:04:53.970 --> 01:04:58.290
+from a skill on dot
+
+01:05:00.850 --> 01:05:03.490
+model selection or
+
+01:05:07.870 --> 01:05:09.550
+regression, let's scale on.
+
+01:05:13.480 --> 01:05:15.760
+Regression. So just try to import what, so just try to
+
+01:05:15.760 --> 01:05:18.760
+import a linear regression, no model call. It's a skill on
+
+01:05:18.760 --> 01:05:20.240
+the aggression, the
+
+01:05:42.670 --> 01:05:46.990
+skill on regression. If I have to import. Root.
+
+01:05:51.250 --> 01:05:53.010
+So a scale on.
+
+01:05:58.380 --> 01:06:02.520
+Got linear model. Yeah. In the integration. So this is the
+
+01:06:02.520 --> 01:06:06.360
+algorithm that we are going to use. And after this step is
+
+01:06:06.360 --> 01:06:09.360
+very, very simple. So you have to create the object. So
+
+01:06:09.360 --> 01:06:12.120
+let's say I'm calling a model. Model is going to
+
+01:06:12.120 --> 01:06:15.740
+integration, then model dot fit, fit what? So train data. So
+
+01:06:15.740 --> 01:06:19.160
+X train and Y train, you have to just quit it. Now, once you
+
+01:06:19.160 --> 01:06:21.520
+are going to fit it. So this is the place where it is going
+
+01:06:21.520 --> 01:06:24.180
+to build the model. So it has already. Did it build the
+
+01:06:24.180 --> 01:06:28.120
+model now once model has been built, so maybe you can go and
+
+01:06:28.120 --> 01:06:31.860
+you can try to test that particular model. Yeah. You would
+
+01:06:31.860 --> 01:06:34.740
+like to like, you know, test that particular model. So here
+
+01:06:34.740 --> 01:06:38.860
+you can try to pass your own data set by which you will be
+
+01:06:38.860 --> 01:06:43.540
+able to test that particular model as simple as that. So
+
+01:06:43.540 --> 01:06:47.540
+let's do it. So let's try to test this particular model. So
+
+01:06:47.540 --> 01:06:52.060
+now to test this particular model, we can try to call from a
+
+01:06:52.060 --> 01:06:58.120
+skill on. Okay. Metrics import. There is something called as
+
+01:06:58.120 --> 01:07:01.380
+mean squared error. And then there is something called as R2
+
+01:07:01.380 --> 01:07:05.700
+score. I think. R is called school. So first of all, let's
+
+01:07:05.700 --> 01:07:09.240
+try to check what is mean squared error that we are able to
+
+01:07:09.240 --> 01:07:13.140
+get. So mean squared error is nothing but the original data
+
+01:07:13.140 --> 01:07:16.300
+and then model dot predict. So just try to pause the test
+
+01:07:16.300 --> 01:07:20.040
+data. It is going to do a prediction and the mean squared
+
+01:07:20.040 --> 01:07:25.760
+error is technically like seven over here. fine now there is
+
+01:07:25.760 --> 01:07:29.040
+something called as mean absolute error let me find that as
+
+01:07:29.040 --> 01:07:34.120
+well so mean absolute error so let's say if i'm going to
+
+01:07:34.120 --> 01:07:38.500
+calculate mean absolute error mean absolute
+
+01:07:41.920 --> 01:07:46.520
+error so mean absolute error is 1.43 okay and then there is
+
+01:07:46.520 --> 01:07:50.960
+something called as a root mean squared error so root mean
+
+01:07:50.960 --> 01:07:55.040
+squared error means the squared error we are able to find
+
+01:07:55.040 --> 01:08:03.060
+out so just try to do numpy dot sqrt and before that so i
+
+01:08:03.060 --> 01:08:09.580
+have to obviously import numpy as np so basically root mean
+
+01:08:09.580 --> 01:08:15.940
+squared error so mean squared error fine and then this one
+
+01:08:15.940 --> 01:08:19.300
+so okay this is the error that we are able to find out and
+
+01:08:19.300 --> 01:08:24.980
+then we can try to find out basically a r2 score so r2 score
+
+01:08:24.980 --> 01:08:31.580
+r2 score r2 score is 0.7271 so here this are the way by
+
+01:08:31.580 --> 01:08:35.860
+which you can try to find out all of these errors majorly we
+
+01:08:35.860 --> 01:08:40.260
+have to focus on this r2 score so r2 score is telling me
+
+01:08:40.260 --> 01:08:44.120
+that you know my model accuracy is somewhere around 72
+
+01:08:44.120 --> 01:08:49.600
+percent right this is what it is trying to tell me error
+
+01:08:49.600 --> 01:08:54.080
+wise so if your error will come closer to zero that will be
+
+01:08:54.080 --> 01:08:56.860
+better all the time so we can see that my absolute error is
+
+01:08:56.860 --> 01:09:00.040
+not coming to zero my even a squared error is not coming to
+
+01:09:00.040 --> 01:09:03.260
+zero yesterday we have used a squared error right so which
+
+01:09:03.260 --> 01:09:05.420
+can be used for the training purpose so it should be close
+
+01:09:05.420 --> 01:09:08.840
+to zero all the time if it is not close to zero your r2
+
+01:09:08.840 --> 01:09:12.100
+score is not going to be 100 percent so we can see that
+
+01:09:12.100 --> 01:09:17.440
+clearly over here that my model accuracy is around 72.71
+
+01:09:17.440 --> 01:09:20.460
+percent yes
+
+01:09:23.150 --> 01:09:26.590
+error means each row or combined error range so basically
+
+01:09:26.590 --> 01:09:30.250
+error means a combined error we are we are talking about
+
+01:09:30.250 --> 01:09:34.170
+basically a difference between test data y test data and the
+
+01:09:34.170 --> 01:09:37.770
+predicted one right so that is something that we are trying
+
+01:09:37.770 --> 01:09:41.810
+to find out it's a combined one now let me explain you this
+
+01:09:41.810 --> 01:09:46.450
+r squared error that but before that maybe i can try to go
+
+01:09:46.450 --> 01:09:50.510
+and save the model so here to save the model into a physical
+
+01:09:50.510 --> 01:09:54.250
+state we can try to use a job leave library and job leave or
+
+01:09:54.250 --> 01:09:57.790
+dump so i can try to dump what model model is what a
+
+01:09:57.790 --> 01:10:02.430
+variable right model is nothing but a variable and then dot
+
+01:10:02.430 --> 01:10:05.990
+and i can try to give a name pickle pickle file so execute
+
+01:10:05.990 --> 01:10:10.550
+now it is going to save the model into a pickle file format
+
+01:10:10.550 --> 01:10:14.050
+as you can see now this is my physical model this is
+
+01:10:14.050 --> 01:10:17.790
+basically a pickle file or you can say a serialized file or
+
+01:10:17.790 --> 01:10:21.330
+binary file i can use this particular model and then i can
+
+01:10:21.330 --> 01:10:25.650
+host it anywhere of my choice on any cloud platform and
+
+01:10:25.650 --> 01:10:29.470
+anyone can go over there they can try to feed a data they
+
+01:10:29.470 --> 01:10:32.310
+will be able to get a technically prediction prediction
+
+01:10:32.310 --> 01:10:34.990
+means what so basically this is the prediction we are able
+
+01:10:34.990 --> 01:10:39.030
+to get so this is the prediction x test right so if i'm
+
+01:10:39.030 --> 01:10:43.490
+going to send this data so my prediction is this one so here
+
+01:10:43.490 --> 01:10:46.570
+i'm sending like a lot of data 20 of the data so for every
+
+01:10:46.570 --> 01:10:49.790
+data this is the car price prediction and again i can try to
+
+01:10:49.790 --> 01:10:54.430
+decode it and i will be able to get the actual price now
+
+01:10:54.430 --> 01:10:58.610
+let's try to understand this r square yeah so here we have
+
+01:10:58.610 --> 01:11:01.830
+written r square so what is the meaning of r square how r
+
+01:11:01.830 --> 01:11:06.170
+square will be like you know calculated basically and how
+
+01:11:06.170 --> 01:11:08.530
+you will be able to visualize this r square because again
+
+01:11:08.530 --> 01:11:10.970
+this is very very important and everywhere you all are going
+
+01:11:10.970 --> 01:11:15.370
+to find out this r square yeah so first of all try to find
+
+01:11:15.370 --> 01:11:18.970
+out how r square actually looks like and it's very easy very
+
+01:11:18.970 --> 01:11:21.530
+logical very easy all of you will be able to see it you know
+
+01:11:21.530 --> 01:11:25.170
+or all of you will be able to visualize it in a easiest
+
+01:11:25.170 --> 01:11:30.910
+possible manner so let's say we have this
+
+01:11:34.080 --> 01:11:40.660
+and this now we have x over here and we have y over here now
+
+01:11:40.660 --> 01:11:44.460
+there are some data set which has been scattered yeah which
+
+01:11:44.460 --> 01:11:47.480
+has been scattered now based on this data set what i have
+
+01:11:47.480 --> 01:11:51.200
+done so i have found out the line so this is my line this is
+
+01:11:51.200 --> 01:11:56.140
+my equation of the line which i am able to find out now at
+
+01:11:56.140 --> 01:12:00.040
+the time of testing what we are going to do so let's say i
+
+01:12:00.040 --> 01:12:03.360
+am going to pass a value of x so let's say i'm trying to
+
+01:12:03.360 --> 01:12:08.200
+pass a value over here right value over here input right or
+
+01:12:08.200 --> 01:12:11.320
+for example so i'm trying to test it for this particular
+
+01:12:11.320 --> 01:12:13.480
+data point right this is the data point for which i am
+
+01:12:13.480 --> 01:12:16.540
+trying to test it so obviously for this data point this is
+
+01:12:16.540 --> 01:12:22.540
+my x and this is my y so this is my x and this is my y for
+
+01:12:22.540 --> 01:12:26.400
+this particular data point so original x and original y so
+
+01:12:26.400 --> 01:12:31.240
+this is my actual y but when you are trying to pass this x
+
+01:12:31.240 --> 01:12:36.500
+on line right on this equation so you will be able to get a
+
+01:12:36.500 --> 01:12:38.780
+prediction so actually you will be able to get prediction
+
+01:12:38.780 --> 01:12:42.720
+over here for this x prediction is what this one this is my
+
+01:12:42.720 --> 01:12:48.460
+y hat right this is my y hat and this is my y so this is my
+
+01:12:48.460 --> 01:12:54.240
+predicted y and this is my original y make sense guys yes
+
+01:12:54.240 --> 01:12:57.920
+make sense yes
+
+01:13:08.290 --> 01:13:09.390
+so
+
+01:13:11.880 --> 01:13:15.300
+i'm clearly saying yes what about others again
+
+01:13:26.340 --> 01:13:31.380
+so here basically uh what happens uh so there is a
+
+01:13:31.380 --> 01:13:34.620
+difference right there is a difference and technically this
+
+01:13:34.620 --> 01:13:39.520
+is trying to define your entire i would say like a error or
+
+01:13:39.520 --> 01:13:43.120
+difference between y and y hat for a given point of a time
+
+01:13:43.120 --> 01:13:46.600
+for a particular input you that you are going to give yeah
+
+01:13:46.600 --> 01:13:51.580
+input that you are going to give so here what we try to find
+
+01:13:51.580 --> 01:13:55.040
+out so we try to find out basically something called as ssr
+
+01:13:55.040 --> 01:14:01.320
+and we try to find out basically a ss t so here there are
+
+01:14:01.320 --> 01:14:05.140
+term which has been introduced called as ssr and there is
+
+01:14:05.140 --> 01:14:09.520
+something called as ss t what is the meaning of this ssr so
+
+01:14:09.520 --> 01:14:13.660
+ssr is nothing but summation of a squared regression right
+
+01:14:13.660 --> 01:14:17.060
+so so summation of a squared regression and what is the ss t
+
+01:14:17.060 --> 01:14:20.820
+so ss t is nothing but a total variation in the data at any
+
+01:14:20.820 --> 01:14:23.520
+point of a time or given point of a time i would say right
+
+01:14:23.520 --> 01:14:29.700
+so here let me write down the formula for
+
+01:14:34.410 --> 01:14:36.310
+r squared yeah
+
+01:14:57.780 --> 01:15:03.360
+so here i can say that that directly r square formula is
+
+01:15:03.360 --> 01:15:11.680
+going to be 1 minus ssr by ss t so summation of summation of
+
+01:15:11.680 --> 01:15:21.420
+y minus y hat of square divided by summation of y
+
+01:15:23.720 --> 01:15:28.920
+minus y mean of square this is the actual formula of
+
+01:15:28.920 --> 01:15:34.040
+basically r squared right closer to 1 i mean like whatsoever
+
+01:15:34.040 --> 01:15:37.020
+value which is going to come closer to 1 simply means that
+
+01:15:37.020 --> 01:15:41.260
+my model is giving me 100% accuracy closer to 0 means it is
+
+01:15:41.260 --> 01:15:46.160
+giving me like a 0% accuracy or less accuracy now these term
+
+01:15:46.160 --> 01:15:50.340
+right these two terms are going to basically define so what
+
+01:15:50.340 --> 01:15:53.440
+this terms is going to define by the way so the above term
+
+01:15:53.440 --> 01:15:56.040
+is difference between summation of all the difference i mean
+
+01:15:56.040 --> 01:15:57.860
+like there are so many data points right this is the data
+
+01:15:57.860 --> 01:16:01.440
+points now for this data points my predicted y is going to
+
+01:16:01.440 --> 01:16:05.120
+be here right my actual y is basically here this is my
+
+01:16:05.120 --> 01:16:08.180
+actual y for this point predicted y is this one again for
+
+01:16:08.180 --> 01:16:12.560
+this point actual y is somewhere here predicted y is online
+
+01:16:12.560 --> 01:16:18.040
+somewhere over here so y minus y hat means original y minus
+
+01:16:18.040 --> 01:16:25.080
+predicted y divided by y minus y mean means y average so
+
+01:16:25.080 --> 01:16:31.720
+just take all the y find the average and then subtract it
+
+01:16:31.720 --> 01:16:35.300
+from original y so this is technically going to give you the
+
+01:16:35.300 --> 01:16:39.660
+r squared uh maybe i can write it down
+
+01:16:46.950 --> 01:16:48.970
+there is my scribbling okay
+
+01:17:52.040 --> 01:17:55.960
+so what does this y mean so for every dot that we have
+
+01:17:55.960 --> 01:17:58.900
+obviously there will be y the average of that is going to be
+
+01:17:58.900 --> 01:18:03.300
+y mean what is the y original y by the way and what is y hat
+
+01:18:03.300 --> 01:18:06.680
+y hat is nothing but anything on line so whatsoever dot that
+
+01:18:06.680 --> 01:18:09.300
+we have obviously if you will try to take it with respect to
+
+01:18:09.300 --> 01:18:12.380
+line that will become y hat for that particular point an
+
+01:18:12.380 --> 01:18:15.080
+original y means what original one right so for this
+
+01:18:15.080 --> 01:18:17.880
+particular dot original is this and then predicted is online
+
+01:18:17.880 --> 01:18:20.320
+right so whatsoever like value you are going to pass and
+
+01:18:20.320 --> 01:18:24.080
+then it will give you the prediction so we just try to find
+
+01:18:24.080 --> 01:18:27.400
+out this one and eventually this is going to give you the r
+
+01:18:27.400 --> 01:18:30.580
+squared value there are another term which is called as
+
+01:18:30.580 --> 01:18:35.900
+adjusted r square right adjusted r square now uh i have
+
+01:18:35.900 --> 01:18:38.700
+written a term called as ssr right so this is basically
+
+01:18:38.700 --> 01:18:42.660
+called as ssr or you can say rss as well some term someone
+
+01:18:42.660 --> 01:18:47.400
+says rss or someone says ssr so ssr is nothing but sum of
+
+01:18:47.400 --> 01:18:51.000
+squared of the residual residual means actual versus
+
+01:18:51.000 --> 01:18:54.140
+predicted one so summation of a square of the actual versus
+
+01:18:54.140 --> 01:18:59.340
+predicted basically this is called as ssr right and this
+
+01:18:59.340 --> 01:19:02.620
+term the denominator is called as ssd which i have already
+
+01:19:02.620 --> 01:19:05.420
+taken the summation of a square of the basically total or
+
+01:19:05.420 --> 01:19:08.400
+total summation of square tss also you can try to say so
+
+01:19:08.400 --> 01:19:12.160
+this is nothing but uh total variations means the data minus
+
+01:19:12.160 --> 01:19:15.660
+its mean obviously any data is going to fluctuate around its
+
+01:19:15.660 --> 01:19:19.300
+mean is what it is going to count it so it's called as ssd
+
+01:19:19.300 --> 01:19:23.180
+so r square is nothing but 1 minus ssr divided by ssd in
+
+01:19:23.180 --> 01:19:26.100
+very simple word so r square is nothing but 1 minus
+
+01:19:26.100 --> 01:19:29.800
+summation of data versus prediction square divided by data
+
+01:19:29.800 --> 01:19:34.000
+versus its mean square that's it make sense guys so this is
+
+01:19:34.000 --> 01:19:37.080
+where r square comes into picture one
+
+01:19:40.220 --> 01:19:42.800
+small example with the data set it's easy to clear which one
+
+01:19:43.640 --> 01:19:46.980
+this one i think i've already explained it to you yeah
+
+01:19:51.300 --> 01:19:55.380
+any any doubt anyone just just tell me i can try to like
+
+01:19:55.380 --> 01:20:03.490
+maybe explain you otherwise it's fine okay error calculation
+
+01:20:03.490 --> 01:20:06.510
+formula another calculation formula okay with respect to our
+
+01:20:06.510 --> 01:20:13.190
+data set fine maybe i can do that so let's say uh we have
+
+01:20:13.190 --> 01:20:20.270
+basically y and then we have a y hat right and then we have
+
+01:20:20.270 --> 01:20:24.810
+basically a difference over here and then we have a square
+
+01:20:24.810 --> 01:20:29.890
+over here so it is telling you let's say uh that that y is
+
+01:20:29.890 --> 01:20:33.870
+equals to 10 your prediction is equals to 12 y is equals to
+
+01:20:33.870 --> 01:20:37.790
+20 your prediction is equals to 18 y is equals to basically
+
+01:20:37.790 --> 01:20:41.410
+30 your prediction is basically 32 y is equals to 40 your
+
+01:20:41.410 --> 01:20:45.350
+prediction is going to be 39 y is equals to 50 right so your
+
+01:20:45.350 --> 01:20:48.690
+prediction is going to be 49 so what is the difference 10 12
+
+01:20:48.690 --> 01:20:54.170
+so it's a minus 2 right y minus y hat then 20 minus 18 2 30
+
+01:20:54.170 --> 01:20:58.210
+minus 32 minus 2 and then like a 40 minus 39 is equals to
+
+01:20:58.210 --> 01:21:02.910
+plus 1 50 minus 49 so it's going to be 1 yeah so this is the
+
+01:21:02.910 --> 01:21:05.490
+difference now what is the square of the difference y minus
+
+01:21:05.490 --> 01:21:09.650
+y hat of square of difference the you know numerator term so
+
+01:21:09.650 --> 01:21:12.810
+minus 2 of a square 4 2 of a square 4 2 of a minus 2 of a
+
+01:21:12.810 --> 01:21:17.170
+square basically 4 1 of a square 1 1 of a square 1 okay so r
+
+01:21:17.170 --> 01:21:21.150
+square formula what it says 1 minus uh this uh ss r
+
+01:21:21.150 --> 01:21:25.070
+technically y minus y hat of a square total summation
+
+01:21:25.070 --> 01:21:29.290
+divided by summation of y minus y mean of the square so 1
+
+01:21:29.290 --> 01:21:32.330
+minus this numerator term i am able to find out so summation
+
+01:21:32.330 --> 01:21:36.930
+of all of this 4 plus 4 plus 4 12 13 14. so technically it's
+
+01:21:36.930 --> 01:21:41.550
+a 14 divided by y minus y mean so this is my y and what is
+
+01:21:41.550 --> 01:21:46.350
+the y b so y mean is going to be uh 50 plus 40 90 90 plus 30
+
+01:21:46.350 --> 01:21:53.710
+120 120 140 140 100 uh 150 divided by uh 150 divided by 5 is
+
+01:21:53.710 --> 01:21:58.930
+going to be 30. so y minus y mean of difference if i have to
+
+01:21:58.930 --> 01:22:13.170
+find out so uh 30 right minus 20 minus 10 0 10 and 20 okay
+
+01:22:13.170 --> 01:22:22.290
+so 20 square uh 400 plus 100 plus 100 plus 400 so it is
+
+01:22:22.290 --> 01:22:28.310
+going to be 404 800 1000 basically 1000 1000 so 1 minus 14
+
+01:22:28.310 --> 01:22:35.090
+divided by 1000 now how much it is going to be uh 14 so it's
+
+01:22:35.090 --> 01:22:40.430
+going to be 0.1 minus 0.014 so it's going to be uh
+
+01:22:40.430 --> 01:22:50.070
+technically somewhere around if my calculation is correct so
+
+01:22:50.070 --> 01:22:51.710
+in that case it's going to be
+
+01:22:55.350 --> 01:22:59.710
+98.6 percent so what is my accuracy for this model so where
+
+01:22:59.710 --> 01:23:03.530
+y and y hat is this one 98.6 this is how r square
+
+01:23:03.530 --> 01:23:07.870
+calculation happens make sense guys so you will pass x value
+
+01:23:07.870 --> 01:23:14.690
+you will get y hat and then rest is this done this is how we
+
+01:23:14.690 --> 01:23:20.570
+can try to calculate the accuracy r square rest mean
+
+01:23:20.570 --> 01:23:24.330
+absolute error or mean squared error so again we all know
+
+01:23:24.350 --> 01:23:27.350
+the formula same thing y minus y hat of a square and then
+
+01:23:27.350 --> 01:23:34.970
+done so now we are able to technically train the model right
+
+01:23:34.970 --> 01:23:39.770
+we are able to find out a prediction we are able to even
+
+01:23:39.770 --> 01:23:44.070
+understand how we can try to evaluate the model and we are
+
+01:23:44.070 --> 01:23:48.210
+able to even save that particular model so anyone can load
+
+01:23:48.210 --> 01:23:52.530
+this model and anyone can pass a data after passing a data
+
+01:23:52.530 --> 01:23:56.310
+so anyone will be able to do any kind of a prediction now
+
+01:23:56.310 --> 01:24:00.950
+there is a small thing that you all are supposed to
+
+01:24:00.950 --> 01:24:05.850
+understand you have this model now what i have done so i
+
+01:24:05.850 --> 01:24:09.630
+have done a lot of transformation between a data set right a
+
+01:24:09.630 --> 01:24:12.690
+lot of transformation between the data set uh transformation
+
+01:24:12.690 --> 01:24:16.930
+in terms of i have standardized the data transformation in
+
+01:24:16.930 --> 01:24:20.230
+terms of i have done one hot encoding with respect to our
+
+01:24:20.230 --> 01:24:24.290
+data so whenever you will try to do any kind of a prediction
+
+01:24:24.290 --> 01:24:28.390
+the kind of a data format that you have prepared for a
+
+01:24:28.390 --> 01:24:32.530
+training and a testing over here you have to prepare a exact
+
+01:24:32.530 --> 01:24:36.610
+similar kind of a data set means if you have one type of
+
+01:24:36.610 --> 01:24:39.990
+encoder you have to use a similar type of encoder to encode
+
+01:24:39.990 --> 01:24:43.410
+the data you have to use a similar type of a standard scaler
+
+01:24:43.410 --> 01:24:48.050
+to even scale the data or even like do a reverse calculation
+
+01:24:48.050 --> 01:24:52.990
+so whatsoever you want but but yes those things also you are
+
+01:24:52.990 --> 01:24:57.650
+supposed to store not just that not just that so basically
+
+01:24:58.390 --> 01:25:04.550
+here in my original data so i had a year column right anyone
+
+01:25:04.550 --> 01:25:06.890
+who is generating this data obviously they will be having
+
+01:25:06.890 --> 01:25:11.110
+this year column i have not used it i have basically created
+
+01:25:11.110 --> 01:25:14.930
+a new column called as age column right new column called as
+
+01:25:14.930 --> 01:25:17.770
+age column so whenever you are building a prediction
+
+01:25:17.770 --> 01:25:21.090
+pipeline you have to make sure that you are keeping all of
+
+01:25:21.090 --> 01:25:24.250
+these things in a mind what so conversion what so
+
+01:25:24.250 --> 01:25:26.410
+transformation that you have done with respect to your
+
+01:25:26.410 --> 01:25:29.810
+training data because your model is nothing but a equation
+
+01:25:29.810 --> 01:25:35.070
+right and that equation is already built it's already been
+
+01:25:35.070 --> 01:25:38.750
+trained and let's say if i'm going to use that equation so
+
+01:25:38.750 --> 01:25:41.930
+whatsoever parameter it requires whatsoever x values it
+
+01:25:41.930 --> 01:25:44.990
+requires you have to provide those values in the same format
+
+01:25:44.990 --> 01:25:53.180
+otherwise it is going to fail make sense guys everyone yes
+
+01:25:56.640 --> 01:25:58.520
+in a chat so
+
+01:26:04.470 --> 01:26:08.970
+just make sure that you are going to do the exact same thing
+
+01:26:08.970 --> 01:26:11.010
+and we'll see it we'll we'll see this kind of a phenomena
+
+01:26:11.010 --> 01:26:14.210
+with everything that we are going to do everything we are
+
+01:26:14.210 --> 01:26:17.110
+going to discuss every model or every algorithm we will be
+
+01:26:17.110 --> 01:26:20.470
+basically talking about right so just try to digest this
+
+01:26:20.470 --> 01:26:23.690
+much of information uh for now right i think i think this
+
+01:26:23.690 --> 01:26:27.290
+much is like a fine for now so try to digest this entire
+
+01:26:27.290 --> 01:26:31.230
+information then i'll even show you that particular part and
+
+01:26:31.230 --> 01:26:33.190
+even more even in linear regression so there is something
+
+01:26:33.190 --> 01:26:35.550
+called as this there is something called a lasso there is
+
+01:26:35.550 --> 01:26:39.610
+something called as like you know uh um uh like uh you know
+
+01:26:39.610 --> 01:26:44.230
+uh uh res lasso l1 l2 nine so there are so many terms again
+
+01:26:44.230 --> 01:26:47.110
+there is something called as adjusted r squared right so i
+
+01:26:47.110 --> 01:26:50.290
+will be talking about that what is the tradeoff between uh r
+
+01:26:50.290 --> 01:26:53.390
+square and resist r squared what is the meaning of l1 l2
+
+01:26:53.390 --> 01:26:55.890
+this lasso and all those things we will talk all of these
+
+01:26:55.890 --> 01:26:58.430
+things in my next class which is going to happen on next
+
+01:26:58.430 --> 01:27:03.650
+saturday fine what encoder to choose as per the data set
+
+01:27:03.650 --> 01:27:08.130
+object as of now just try to use this one hot right so it
+
+01:27:08.130 --> 01:27:10.670
+doesn't depends upon just a data set depends upon a
+
+01:27:10.670 --> 01:27:13.430
+relationship that you are building the equation that you are
+
+01:27:13.430 --> 01:27:19.030
+building basically yeah so as of now just use one hot then
+
+01:27:19.030 --> 01:27:22.130
+going forward so i'll be using other encoding format as well
+
+01:27:22.130 --> 01:27:26.730
+so any question for me guys so please put that question
+
+01:27:26.730 --> 01:27:28.850
+inside the chat or maybe you can raise your hand anything
+
+01:27:28.850 --> 01:27:31.670
+that suits you so
+
+01:27:35.000 --> 01:27:37.400
+we walk into an interview based on python they have given a
+
+01:27:37.400 --> 01:27:39.880
+code to write on paper i wrote the logic and when the
+
+01:27:39.880 --> 01:27:41.780
+interview checking the code i explained the approach which
+
+01:27:41.780 --> 01:27:45.520
+is correct but they want exact answer what do you think
+
+01:27:45.520 --> 01:27:47.720
+correct answer in the study a kind of approach is important
+
+01:27:47.720 --> 01:27:51.000
+uh the one checked also said your understanding and approach
+
+01:27:51.000 --> 01:27:55.680
+is fine but uh what about the answer uh see technically like
+
+01:27:55.680 --> 01:27:59.540
+you know it's person to person things and uh a person like
+
+01:27:59.540 --> 01:28:04.960
+looks for both approach and explanation both so you must be
+
+01:28:05.000 --> 01:28:06.700
+ready with that okay
+
+01:28:09.450 --> 01:28:11.650
+so fine everyone thank you so much take care if you don't
+
+01:28:11.650 --> 01:28:13.950
+have any questions so let's wrap up the class for today and
+
+01:28:13.950 --> 01:28:18.730
+uh yeah so see you again on next saturday 4 p.m thank you
+
+01:28:18.730 --> 01:28:19.530
+everyone take care
+

@@ -1,0 +1,3539 @@
+WEBVTT
+
+00:06:50.220 --> 00:06:52.580
+okay so hi everyone i believe i am audible and visible
+
+00:06:52.580 --> 00:06:55.220
+everyone uh so please confirm if i'm audible and visible so
+
+00:06:55.220 --> 00:06:56.740
+that we can start okay
+
+00:07:03.080 --> 00:07:07.140
+so let's start guys so i believe we all are aware about the
+
+00:07:07.140 --> 00:07:09.980
+fact that what we are going to start in today's class and
+
+00:07:09.980 --> 00:07:12.160
+yesterday we were having like a you know aws conversation
+
+00:07:12.160 --> 00:07:17.360
+and uh yeah so it was basically a day one and we'll try to
+
+00:07:17.360 --> 00:07:19.580
+bring as i have already made an announcement we'll try to
+
+00:07:19.580 --> 00:07:22.620
+bring more and more aws centric session in a parallel track
+
+00:07:22.620 --> 00:07:25.720
+so basically there will be a workshop and you all can join
+
+00:07:25.720 --> 00:07:29.020
+that particular workshop in a parallel track so that you
+
+00:07:29.020 --> 00:07:32.700
+will be aware about aws now let's start with the today's
+
+00:07:32.700 --> 00:07:35.740
+session so today i'll be talking about basically a
+
+00:07:35.740 --> 00:07:38.940
+mathematics now this is not going to be one day session so i
+
+00:07:38.940 --> 00:07:41.760
+think we'll have to take like a two three sessions on that
+
+00:07:41.760 --> 00:07:44.280
+and because we have to understand a lot of like a
+
+00:07:44.280 --> 00:07:48.900
+mathematics part so let me open up my scribble ink and let's
+
+00:07:55.780 --> 00:07:59.100
+see okay so i believe my screen is visible right guys yes
+
+00:08:01.940 --> 00:08:08.040
+okay fine good so uh see uh now we are going to talk about
+
+00:08:08.040 --> 00:08:11.280
+uh mathematics and i believe i have also given you uh one of
+
+00:08:11.280 --> 00:08:14.120
+the task in my previous week uh right and i asked to
+
+00:08:14.120 --> 00:08:16.720
+complete it so we'll be talking about that particular task
+
+00:08:16.720 --> 00:08:19.360
+as well at the end of this particular session today's
+
+00:08:19.360 --> 00:08:22.840
+session uh but before that so let's try to talk about the
+
+00:08:22.840 --> 00:08:25.960
+chapter so technically we are going to talk about our
+
+00:08:25.960 --> 00:08:30.600
+mathematics and why this is important uh a very simple
+
+00:08:30.600 --> 00:08:33.580
+answer to this one is that it's a building block it's
+
+00:08:33.580 --> 00:08:37.820
+basically a building block for whatsoever you would like to
+
+00:08:37.820 --> 00:08:42.860
+learn in depth in data science or in ai so whenever you will
+
+00:08:42.860 --> 00:08:46.140
+try to explore any kind of i would say a machine learning
+
+00:08:46.140 --> 00:08:48.920
+algorithm a deep learning algorithm or maybe a computer
+
+00:08:48.920 --> 00:08:53.080
+vision algorithm nlp algorithms so you will be able to find
+
+00:08:53.080 --> 00:08:57.600
+out that almost everywhere so it's all about uh mathematics
+
+00:08:58.180 --> 00:09:01.880
+is all about uh mathematics but it's not tough to understand
+
+00:09:01.880 --> 00:09:07.860
+believe me so i believe we all should have a kind of a ninth
+
+00:09:07.860 --> 00:09:11.900
+class or tenth class label of mathematical understanding i
+
+00:09:11.900 --> 00:09:14.560
+think in most of the cases again i'm not saying that in all
+
+00:09:14.560 --> 00:09:19.340
+the cases no it's not true again but to understand the ai
+
+00:09:19.340 --> 00:09:22.140
+part to understand the machine learning part or deep
+
+00:09:22.140 --> 00:09:25.860
+learning part or computer vision part so obviously some sort
+
+00:09:25.860 --> 00:09:28.980
+of a mathematics is required and this is what we are going
+
+00:09:28.980 --> 00:09:35.140
+to learn we'll try to basically uh like you know uh try to
+
+00:09:35.140 --> 00:09:38.160
+learn all of these things in such a manner that we will be
+
+00:09:38.160 --> 00:09:41.240
+able to utilize it immediately when i say immediately means
+
+00:09:41.240 --> 00:09:44.160
+from machine learning chapter itself we will be utilizing
+
+00:09:44.160 --> 00:09:47.900
+all of these things in a step by step manner now when we
+
+00:09:47.900 --> 00:09:50.300
+talk about mathematics right so there are a couple of things
+
+00:09:50.300 --> 00:09:53.400
+i would like to highlight over here which comes into picture
+
+00:09:53.400 --> 00:09:56.480
+so let's say i'm writing math for
+
+00:09:58.900 --> 00:10:04.680
+data science right so a couple of things that i would like
+
+00:10:04.680 --> 00:10:08.760
+to highlight over here so one thing is stats stats
+
+00:10:13.120 --> 00:10:17.100
+that you are supposed to understand again so stats itself is
+
+00:10:17.100 --> 00:10:20.060
+a very very advanced topic but i'm not telling you that you
+
+00:10:20.060 --> 00:10:24.140
+know go and get knowledge on a phd label no that is not
+
+00:10:24.140 --> 00:10:27.640
+required that's completely fine a little bit of i would say
+
+00:10:27.640 --> 00:10:31.540
+a calculus right a little bit of algebra
+
+00:10:36.660 --> 00:10:39.660
+and then why i think a little bit of probability probability
+
+00:10:43.630 --> 00:10:47.650
+so these combinations are technically required to understand
+
+00:10:47.650 --> 00:10:51.990
+any of these like you know phenomena or fundamentals of
+
+00:10:51.990 --> 00:10:55.610
+machine learning deep learning or maybe a computer vision
+
+00:10:55.610 --> 00:10:59.830
+nlp so we'll try to build a base around it so that we will
+
+00:10:59.830 --> 00:11:03.550
+be able to use all of these mathematical concepts wherever
+
+00:11:03.550 --> 00:11:08.370
+and whenever we want uh before that so let's try to
+
+00:11:08.370 --> 00:11:10.610
+understand that why do we need a mathematical concept so
+
+00:11:10.610 --> 00:11:12.490
+let's start with you all A very simple reason again is that
+
+00:11:12.490 --> 00:11:18.290
+in case of data science, in case of AI, mostly we will be
+
+00:11:18.290 --> 00:11:21.350
+talking about data, mostly we will be talking about
+
+00:11:21.350 --> 00:11:24.530
+insights, mostly we will try to derive some of the use cases
+
+00:11:24.530 --> 00:11:27.990
+out of the data, any kind of a data at the end of the day
+
+00:11:27.990 --> 00:11:32.190
+and when we talk about this derivation, so obviously without
+
+00:11:32.190 --> 00:11:36.670
+statistics, without a mathematical formula, we will not be
+
+00:11:36.670 --> 00:11:40.410
+able to derive and that's a part number one. Now that's not
+
+00:11:40.410 --> 00:11:44.830
+a 100% answer I would say, so even if when we talk about
+
+00:11:44.830 --> 00:11:47.910
+algorithms, so what's the algorithm that you will be able to
+
+00:11:47.910 --> 00:11:51.890
+find out, eventually algorithms is all about a mathematics,
+
+00:11:52.290 --> 00:11:56.970
+simple, as simple as that and you will be able to realize it
+
+00:11:56.970 --> 00:11:59.990
+when I am going to teach you a very very first algorithm, so
+
+00:11:59.990 --> 00:12:03.710
+which is basically a linear regression, so where I will be
+
+00:12:03.710 --> 00:12:06.730
+using a calculus, I will be using a chain rule, I am going
+
+00:12:06.730 --> 00:12:09.410
+to basically derive the entire part. I will try to teach you
+
+00:12:09.410 --> 00:12:10.990
+the whole thing. I will teach you that what is the actual
+
+00:12:10.990 --> 00:12:14.890
+meaning of learning basically, so when we say machine is
+
+00:12:14.890 --> 00:12:17.870
+trying to learn something, so how it is trying to learn and
+
+00:12:17.870 --> 00:12:21.830
+you all will be able to correlate only with the help of
+
+00:12:21.830 --> 00:12:24.870
+mathematics, right, you all will be able to build that
+
+00:12:24.870 --> 00:12:28.950
+particular understanding if you understand some mathematics,
+
+00:12:29.150 --> 00:12:31.450
+so obviously you will be able to understand, that's my
+
+00:12:31.450 --> 00:12:34.130
+assurity, I am going to explain you in that particular
+
+00:12:34.130 --> 00:12:37.530
+manner, kind of a story I would say and it is very logical,
+
+00:12:37.670 --> 00:12:41.070
+right, so whatsoever mathematics, I believe it is very
+
+00:12:41.070 --> 00:12:43.870
+logical, beautiful and anyone and everyone can understand it
+
+00:12:43.870 --> 00:12:47.650
+with ease if you have a interest. Now let's start talking
+
+00:12:47.650 --> 00:12:52.070
+about a topic and chapter. So here in case of statistics,
+
+00:12:52.450 --> 00:12:54.930
+right, in case of statistics, so let's start talking about
+
+00:12:54.930 --> 00:12:58.990
+some of the term and I believe most of us are already aware
+
+00:12:58.990 --> 00:13:02.930
+about this particular terms, but let's try to revise all of
+
+00:13:02.930 --> 00:13:06.790
+these terms one by one, one by one, one by one. So yes,
+
+00:13:07.010 --> 00:13:10.930
+first of all, let's talk about a stats. Right, let's talk
+
+00:13:10.930 --> 00:13:14.770
+about the stats. Now here, so when we say stats, so what is
+
+00:13:14.770 --> 00:13:17.630
+stats by the way, so stats is all about basically like you
+
+00:13:17.630 --> 00:13:21.290
+know, collecting a data, understanding a data and eventually
+
+00:13:21.290 --> 00:13:24.750
+finding out some sort of a pattern in between a data
+
+00:13:24.750 --> 00:13:28.770
+correlation between a data set, right and then eventually,
+
+00:13:28.870 --> 00:13:32.570
+you know, making some sort of a decision out of the data,
+
+00:13:32.710 --> 00:13:35.950
+for example, we have done like same thing in an election
+
+00:13:35.950 --> 00:13:38.670
+campaign that okay, fine, so this much vote percentage will
+
+00:13:38.670 --> 00:13:40.710
+go to this party, this much of vote percentage will go to
+
+00:13:40.710 --> 00:13:44.010
+this party, then this is eventually going to be the result.
+
+00:13:44.710 --> 00:13:47.950
+In case of census data, again, we do the same thing. In case
+
+00:13:47.950 --> 00:13:51.250
+of economics data, we do the same thing, right? And data is
+
+00:13:51.250 --> 00:13:54.550
+everywhere. Our life is all about a data morning till
+
+00:13:54.550 --> 00:13:58.630
+evening, I would say, right? So in terms of like maintaining
+
+00:13:58.630 --> 00:14:01.670
+and managing our financials, maybe like your kids or maybe
+
+00:14:01.670 --> 00:14:04.470
+you are going to schools or college or university, so again,
+
+00:14:04.530 --> 00:14:07.630
+you give exams based on those exams based on the scores.
+
+00:14:07.630 --> 00:14:10.590
+Based on the averaging, based on some sort of a mathematical
+
+00:14:10.590 --> 00:14:13.930
+formula, you eventually get a grade or maybe you get a rank.
+
+00:14:14.090 --> 00:14:17.450
+So everywhere you will be able to find out some derivation,
+
+00:14:17.570 --> 00:14:21.290
+some mathematical concept and most of the time obviously you
+
+00:14:21.290 --> 00:14:23.610
+will end up dealing with the statistics. So stats is all
+
+00:14:23.610 --> 00:14:26.650
+about collecting a data, understanding a data, finding a
+
+00:14:26.650 --> 00:14:29.670
+pattern and then eventually making a decision out of this
+
+00:14:29.670 --> 00:14:32.690
+one out of it, right, which is like available everywhere.
+
+00:14:32.990 --> 00:14:37.850
+Now like let's talk about some of the concepts. Some of the
+
+00:14:37.850 --> 00:14:41.790
+concepts inside a statistics. So the very first part that we
+
+00:14:41.790 --> 00:14:46.150
+all know, I believe comes as a mean and yeah, before that,
+
+00:14:46.310 --> 00:14:50.310
+so let's talk about a kind of a data. So in the stats, so
+
+00:14:50.310 --> 00:14:53.170
+there are something called as population and
+
+00:14:56.310 --> 00:14:58.070
+there is something called as sample.
+
+00:15:01.810 --> 00:15:05.050
+So when we talk about collecting a data, right, so there are
+
+00:15:05.050 --> 00:15:07.550
+on a very high level, there are two kinds of data. Again,
+
+00:15:07.650 --> 00:15:10.530
+there is a breakdown inside this one as well. So there are
+
+00:15:10.530 --> 00:15:13.530
+two kinds of data you are going to encounter. One is
+
+00:15:13.530 --> 00:15:16.090
+basically a population means what is the meaning of
+
+00:15:16.090 --> 00:15:19.690
+population? So let's say if I have an access of all the data
+
+00:15:19.690 --> 00:15:23.390
+in a respective situation, in a respective scenario, then we
+
+00:15:23.390 --> 00:15:26.650
+say that, that, okay, so basically we have a population
+
+00:15:26.650 --> 00:15:30.550
+data. For example, right, for example, so government is
+
+00:15:30.550 --> 00:15:33.770
+trying to make a certain policies, right? Certain policies
+
+00:15:33.770 --> 00:15:38.450
+for all the youngsters, let's say youngsters means, uh,
+
+00:15:38.650 --> 00:15:43.430
+whose age is more than 25, right? So they have to basically
+
+00:15:43.430 --> 00:15:47.990
+do the estimation in every state that, okay, so how many
+
+00:15:47.990 --> 00:15:52.810
+youngsters are available in general so that I will be able
+
+00:15:52.810 --> 00:15:55.570
+to make some sort of a policies for each and every one of
+
+00:15:55.570 --> 00:16:00.150
+them. So maybe when government is trying to like make this
+
+00:16:00.150 --> 00:16:04.370
+kind of a decision, so maybe, maybe a government, not just
+
+00:16:04.370 --> 00:16:07.050
+like a, you know, they would like to collect a data in terms
+
+00:16:07.050 --> 00:16:10.210
+of just a name and age. But again, their qualification,
+
+00:16:10.550 --> 00:16:13.230
+obviously their family background. They are economical
+
+00:16:13.230 --> 00:16:15.750
+background, all of these things, all of this data got them
+
+00:16:15.750 --> 00:16:19.090
+right to collect. But sometime it's difficult, right? It's
+
+00:16:19.090 --> 00:16:22.790
+difficult to reach out to each and every household, right?
+
+00:16:22.930 --> 00:16:25.710
+Because consensus happens in every 10 year, right? In India,
+
+00:16:25.770 --> 00:16:29.470
+if I, if I have to talk about, so government, it's, it's
+
+00:16:29.470 --> 00:16:33.110
+very difficult for anyone and everyone for every use cases
+
+00:16:33.110 --> 00:16:37.530
+to reach out to all the data or mean like reach out to all
+
+00:16:37.530 --> 00:16:41.690
+the person out there whose age is more than 25 year. Uh,
+
+00:16:42.070 --> 00:16:45.130
+maybe, uh, like, you know, uh, because it requires a lot of
+
+00:16:45.130 --> 00:16:47.710
+resources. So, but it's still, I have to make a policy,
+
+00:16:47.870 --> 00:16:50.610
+right? I have to make a decision. So what I will do instead
+
+00:16:50.610 --> 00:16:53.950
+of reaching out to a hundred percent audience, what I will
+
+00:16:53.950 --> 00:16:57.150
+do, I will go and I will try to collect a sample out there.
+
+00:16:57.510 --> 00:17:00.230
+If I'm able to collect the whole data, then obviously it
+
+00:17:00.230 --> 00:17:03.190
+will be called as a population. So if I'm having all the
+
+00:17:03.190 --> 00:17:08.010
+data where age of a youth is more than 25 year, right, all
+
+00:17:08.010 --> 00:17:11.190
+the data from all the states, like India, right? So. So if I
+
+00:17:11.190 --> 00:17:13.870
+have all the data, then I'll say I have a population data,
+
+00:17:14.070 --> 00:17:17.970
+right? For a particular policies, which I'm trying to make,
+
+00:17:18.150 --> 00:17:22.470
+right? Which needs every information about a youth whose age
+
+00:17:22.470 --> 00:17:26.370
+is more than 25 and less than let's say 35, this 10 year of
+
+00:17:26.370 --> 00:17:30.930
+gap, right? All like a bracket, but it's difficult. It's not
+
+00:17:30.930 --> 00:17:34.350
+possible to gather all of these data in this particular
+
+00:17:34.350 --> 00:17:38.210
+band. So what government can do, so maybe they can just try
+
+00:17:38.210 --> 00:17:43.110
+to give a direction that, okay, just do one thing. Maybe you
+
+00:17:43.110 --> 00:17:48.110
+can go and reach out to all the pin codes, right? And then
+
+00:17:48.110 --> 00:17:52.030
+from every pin code, just try to gather maybe a hundred
+
+00:17:52.030 --> 00:17:55.170
+data, thousand data, something like that, right? So no need
+
+00:17:55.170 --> 00:17:58.710
+to focus on the whole population. Just try to gather
+
+00:17:58.710 --> 00:18:03.110
+information of a hundred people, 150 people, 200 people,
+
+00:18:03.210 --> 00:18:06.370
+right? And maybe based on that, so we can try to generalize
+
+00:18:06.370 --> 00:18:09.210
+it and then we will try to make a call. We'll try to make a
+
+00:18:09.210 --> 00:18:11.590
+decision. We'll try to make a policy. Now, in that
+
+00:18:11.590 --> 00:18:15.290
+situation, that data will be called as a sample data and
+
+00:18:15.290 --> 00:18:18.130
+based on sample data. So we are going to make a decision. We
+
+00:18:18.130 --> 00:18:21.530
+are going to make a call. So in real life, right? In real
+
+00:18:21.530 --> 00:18:24.950
+life, so most of the decision that we try to make,
+
+00:18:25.070 --> 00:18:29.410
+government try to make basically as a policy or even a
+
+00:18:29.410 --> 00:18:32.750
+statistician, right? So who tried to take this decision
+
+00:18:32.750 --> 00:18:35.070
+because yeah, this is what the Statistical Institute of
+
+00:18:35.070 --> 00:18:37.090
+India does, right? So there is a proper organization for
+
+00:18:37.090 --> 00:18:40.070
+that one. So what they do? So instead of collecting the
+
+00:18:40.070 --> 00:18:42.450
+whole data because they know it's not possible, it's a very,
+
+00:18:42.490 --> 00:18:47.270
+very resource intensive work basically, they always go ahead
+
+00:18:47.270 --> 00:18:51.090
+with the sample. So again, story of the stats start with the
+
+00:18:51.090 --> 00:18:53.890
+data and data wise, we will be having population data or
+
+00:18:53.890 --> 00:18:56.230
+sample data. In most of the cases, we'll be dealing with the
+
+00:18:56.230 --> 00:18:59.350
+sample data and if population data is available, it's well
+
+00:18:59.350 --> 00:19:05.090
+and good. Otherwise it's not. Okay. Now, so inside this, you
+
+00:19:05.090 --> 00:19:07.850
+will be able to find out again, a couple of more concepts.
+
+00:19:07.910 --> 00:19:11.290
+So when we talk about data. So we talk about basically a
+
+00:19:11.290 --> 00:19:16.770
+mean, we talk about a median and we talk about a mode. We
+
+00:19:16.770 --> 00:19:20.050
+talk about mean, median and mode about the data and I
+
+00:19:20.050 --> 00:19:21.930
+believe we all know the definition, right? What is the
+
+00:19:21.930 --> 00:19:24.310
+meaning of a mean? Mean is nothing but an average, right?
+
+00:19:24.970 --> 00:19:27.970
+Median so mean, then median, median is nothing but a middle
+
+00:19:27.970 --> 00:19:31.290
+value, mean is and mode is nothing but a frequently occurred
+
+00:19:31.290 --> 00:19:35.770
+values basically. So here there are three terms you will be
+
+00:19:35.770 --> 00:19:38.750
+able to find out. Mean, median
+
+00:19:42.110 --> 00:19:42.110
+and mode.
+
+00:19:46.770 --> 00:19:50.990
+So mean is nothing but a average. So let's say if I have
+
+00:19:50.990 --> 00:19:54.590
+given you some sort of a data, so let's say a data set says
+
+00:19:54.590 --> 00:19:58.030
+that, that one comma, two comma, three comma, four comma,
+
+00:19:58.150 --> 00:20:02.870
+two comma, one comma, eight, right? So if I have given you
+
+00:20:02.870 --> 00:20:06.550
+this particular kind of a data and then like a, let's say a
+
+00:20:06.550 --> 00:20:10.470
+two, yeah, so I've given you this kind of a data and if
+
+00:20:10.470 --> 00:20:13.550
+someone is going to ask you a question, that. What will be
+
+00:20:13.550 --> 00:20:16.630
+the mean of this data? Simple average of this data. So what
+
+00:20:16.630 --> 00:20:18.810
+do you will do? You will try to do a summation divided by
+
+00:20:18.810 --> 00:20:21.570
+total number of data. So how many data we have? One, two,
+
+00:20:21.630 --> 00:20:24.270
+three, four, five, six, seven, eight. In total eight data we
+
+00:20:24.270 --> 00:20:27.510
+have, right? And then we'll try to do a summation. So one
+
+00:20:27.510 --> 00:20:29.750
+plus two, three, three plus three, six, six plus four, 10,
+
+00:20:29.790 --> 00:20:32.650
+10 plus two, 12, 12 plus one, like a 13, 13 plus eight is
+
+00:20:32.650 --> 00:20:36.590
+equal to 21, 21 plus two is equal to 23. So 23 divided by,
+
+00:20:36.610 --> 00:20:42.610
+23 divided by eight and that is going to my mean in general.
+
+00:20:42.650 --> 00:20:47.070
+Okay. So average of the data is called as mean, right? And
+
+00:20:47.070 --> 00:20:50.350
+again, so averaging works and averaging, like, you know, uh,
+
+00:20:50.470 --> 00:20:53.990
+you will be able to use it in multiple places. Then if I'm
+
+00:20:53.990 --> 00:20:56.990
+going to ask you a question that what is going to be a
+
+00:20:56.990 --> 00:21:00.710
+median, yeah, what is going to be the median? So any idea
+
+00:21:00.710 --> 00:21:02.170
+guys, yes,
+
+00:21:05.950 --> 00:21:07.130
+median.
+
+00:21:12.640 --> 00:21:14.980
+So first of all, if someone is asking you to like, you know,
+
+00:21:14.980 --> 00:21:17.740
+find out the median, what you will do, you will try to sort
+
+00:21:17.740 --> 00:21:20.720
+this data first of all, right? So here we have one. So one
+
+00:21:20.720 --> 00:21:24.740
+and then one and then two and then two and then two and then
+
+00:21:24.740 --> 00:21:28.000
+three and then four and eight, right? So I have sorted all
+
+00:21:28.000 --> 00:21:31.060
+of this data. Now if I have to find out a median, so one,
+
+00:21:31.200 --> 00:21:34.040
+two, three, four, five, six, seven, eight in total, I have
+
+00:21:34.040 --> 00:21:36.940
+eight data, right? So basically I have a even, so median
+
+00:21:36.940 --> 00:21:39.840
+means in general middle, if there is a odd number of data.
+
+00:21:39.920 --> 00:21:42.780
+So in that case you will be able to find out a middle one
+
+00:21:42.780 --> 00:21:46.480
+right now easily. But in case of even number, so what you
+
+00:21:46.480 --> 00:21:48.960
+will do, you will try to take this middle two data and try
+
+00:21:48.960 --> 00:21:51.120
+to take the average of it. So two plus two, four, four
+
+00:21:51.120 --> 00:21:54.320
+divided by two is equal to two. So that is going to be by
+
+00:21:54.320 --> 00:21:57.800
+median by the way, yes, that is going to be by median. So
+
+00:21:57.800 --> 00:22:00.620
+median means simply arrange the data and then after that, so
+
+00:22:00.620 --> 00:22:04.680
+middle value, right? So in case of odd number of data, it is
+
+00:22:04.680 --> 00:22:08.420
+going to be one middle value in terms of even number of the
+
+00:22:08.420 --> 00:22:11.840
+data. So it is going to be the summation of, so average of
+
+00:22:11.840 --> 00:22:15.160
+basically those two middle value of the data set, right? So
+
+00:22:15.160 --> 00:22:17.960
+after arranging this entire data set in a particular
+
+00:22:17.960 --> 00:22:22.020
+sequence. And then there is something called as, right,
+
+00:22:22.140 --> 00:22:25.520
+there is something called as mode. So what is the meaning of
+
+00:22:25.520 --> 00:22:28.800
+mode by the way, yes, yeah.
+
+00:22:31.990 --> 00:22:36.910
+So mode is technically all about a data which has appeared
+
+00:22:36.910 --> 00:22:41.790
+frequently, right, which has appeared frequently. So one has
+
+00:22:41.790 --> 00:22:44.010
+appeared two times, two has appeared three times, three has
+
+00:22:44.010 --> 00:22:46.330
+appeared one times, four has appeared one times, eight has
+
+00:22:46.330 --> 00:22:49.390
+appeared eight times, sorry, one time, right? So here. So
+
+00:22:49.390 --> 00:22:53.810
+here our mode is going to be basically two, yeah, mode is
+
+00:22:53.810 --> 00:22:57.830
+going to be basically two. So if I will talk about maybe my
+
+00:22:57.830 --> 00:23:01.210
+mean, which is my average, so average is around 23 divided
+
+00:23:01.210 --> 00:23:09.170
+by eight. It will be around, so 16 and 47, so somewhere
+
+00:23:09.170 --> 00:23:12.270
+around 2.6 I would say. Maybe you can use a calculator, but
+
+00:23:12.270 --> 00:23:15.990
+yeah, somewhere around 2.6 it will come. Now mean, median
+
+00:23:15.990 --> 00:23:18.610
+and mode, I am able to find out easily as per the
+
+00:23:18.610 --> 00:23:21.950
+definition. Okay. What is the meaning of it? What it like,
+
+00:23:22.050 --> 00:23:24.270
+you know, where, where I can try to use this mean, median
+
+00:23:24.270 --> 00:23:27.310
+and mode. What is the significance of this one, right? What
+
+00:23:27.310 --> 00:23:31.510
+is the significance of this one? How I will be able to
+
+00:23:31.510 --> 00:23:36.350
+maybe, you know, derive a meaning about the data, right?
+
+00:23:36.410 --> 00:23:39.870
+That what this mean 2.6 is talking about, what this median
+
+00:23:39.870 --> 00:23:42.590
+two is talking about and what this mode is technically
+
+00:23:42.590 --> 00:23:47.990
+talking about. Yes. So any, any idea guys? Yeah. Any idea?
+
+00:23:47.990 --> 00:23:48.830
+Yes.
+
+00:23:56.680 --> 00:23:57.400
+Any, anyone?
+
+00:24:15.860 --> 00:24:19.460
+Okay. So people are saying that frequently, okay fine, most
+
+00:24:19.460 --> 00:24:22.340
+of the measure of the center tendency and where data is
+
+00:24:22.340 --> 00:24:26.160
+concentrated. Okay. I'll come to the center tendency part in
+
+00:24:26.160 --> 00:24:28.860
+some time. So if mean is greater than the median, then
+
+00:24:28.860 --> 00:24:33.140
+distribution is really, we have not discussed about skewness
+
+00:24:33.140 --> 00:24:35.820
+as of now. So I think many people will not be able to
+
+00:24:35.820 --> 00:24:39.000
+understand. Once I'll talk about skewness of the data, left,
+
+00:24:39.080 --> 00:24:43.860
+right skewness. So then maybe we can talk about it. Help to
+
+00:24:43.860 --> 00:24:47.840
+understand a distribution of the data. Yes. Overall, I mean
+
+00:24:47.840 --> 00:24:50.680
+like mean median mode always help us out in terms of
+
+00:24:50.680 --> 00:24:53.580
+understanding the distribution of the data. That that's
+
+00:24:53.580 --> 00:24:58.700
+pretty much true. Right. Okay. Uh, so basically see, uh,
+
+00:24:58.880 --> 00:25:03.020
+let's talk about mean over here. Right. So we know that that
+
+00:25:03.020 --> 00:25:06.720
+mean is somewhere like average. Yeah. Somewhere like average
+
+00:25:06.720 --> 00:25:13.300
+of the data. So here, right. So here. In general, uh, if I
+
+00:25:13.300 --> 00:25:17.100
+have to generalize the whole meaning or tendency of the data
+
+00:25:17.100 --> 00:25:20.660
+distribution, eventually, which I will like, uh, uh, come to
+
+00:25:20.660 --> 00:25:24.920
+it very soon. Right. So in general, if I have to like, uh,
+
+00:25:24.980 --> 00:25:28.180
+you know, talk about that, so maybe we can take an average.
+
+00:25:28.320 --> 00:25:31.000
+So generally we say that, that, okay, fine. So on an
+
+00:25:31.000 --> 00:25:35.100
+average, uh, data scientist will get this much a package in
+
+00:25:35.100 --> 00:25:37.740
+this particular company. Right. So again, we try to average
+
+00:25:37.740 --> 00:25:40.120
+out. It's not like that average is going to be true for
+
+00:25:40.120 --> 00:25:43.280
+everyone, but yeah. So let's say we talk about salary,
+
+00:25:43.360 --> 00:25:46.600
+right? So position by salary or company by salary startup by
+
+00:25:46.600 --> 00:25:49.080
+salary, maybe product based companies by salary. So we try
+
+00:25:49.080 --> 00:25:51.800
+to estimate a salary that, okay, fine. So on an average, uh,
+
+00:25:51.860 --> 00:25:54.560
+maybe this person must be getting this much or that much,
+
+00:25:54.680 --> 00:25:58.200
+uh, again, in terms of weather prediction. So we say that,
+
+00:25:58.220 --> 00:26:01.160
+okay, fine. So on an average, this much millimeter of
+
+00:26:01.160 --> 00:26:05.120
+millimeter of water, maybe we can, we can expect or rain. We
+
+00:26:05.120 --> 00:26:08.640
+can expect. Right. On an average, this is going to be the
+
+00:26:08.640 --> 00:26:11.640
+temperature on an average. This is going to be the humidity.
+
+00:26:11.940 --> 00:26:15.220
+And again, so we talk about hundreds, such kind of a
+
+00:26:15.220 --> 00:26:18.440
+scenario on a daily basis, right? So we say that, that,
+
+00:26:18.460 --> 00:26:23.020
+okay, uh, so, you know, this will be the average. This is
+
+00:26:23.020 --> 00:26:26.980
+the expectation that I have. There is a chance that, you
+
+00:26:26.980 --> 00:26:31.700
+know, other data will be on this side or that side. But yes,
+
+00:26:31.740 --> 00:26:35.540
+most of the data will be focusing around the temperature.
+
+00:26:35.540 --> 00:26:38.960
+Mean means most of the data that you will be able to get it.
+
+00:26:39.020 --> 00:26:43.040
+So basically you will get it around a mean itself. Now here,
+
+00:26:43.100 --> 00:26:47.160
+if you will go and observe, so let's say our mean is
+
+00:26:47.160 --> 00:26:50.940
+basically 2.6, right? Our mean is basically 2.6. So you will
+
+00:26:50.940 --> 00:26:56.040
+be able to find out that most of our data is actually right.
+
+00:26:56.320 --> 00:27:00.260
+Most of our data is actually revolving around which one. So
+
+00:27:00.260 --> 00:27:04.340
+it's revolving around a mean, uh, sorry, it is going to be 2
+
+00:27:04.340 --> 00:27:08.980
+.87. So 2.87. So 2.9, it is going to be 2.9, yeah, not 2.6,
+
+00:27:09.040 --> 00:27:13.380
+so 2.875. So it's technically 2.9. So here I can say that,
+
+00:27:13.420 --> 00:27:18.320
+that, okay, most of the data is revolving around this 2.9,
+
+00:27:18.380 --> 00:27:23.540
+1, 2, 3, 4, 2, 1. So either it's this data set is on this
+
+00:27:23.540 --> 00:27:27.200
+side or maybe on that side, there is one data set, which is
+
+00:27:27.200 --> 00:27:30.900
+like eight, uh, which is far, far away from this 2.9. So
+
+00:27:30.900 --> 00:27:33.080
+maybe I can say that, okay, fine. So this data is
+
+00:27:33.080 --> 00:27:36.340
+technically a outlier kind of a data. Which is not falling
+
+00:27:36.340 --> 00:27:40.880
+around the averaging out that we are technically talking
+
+00:27:40.880 --> 00:27:44.620
+about. So this is how you can try to understand a mean when
+
+00:27:44.620 --> 00:27:47.200
+we'll try to talk about a distribution of the data. Again,
+
+00:27:47.280 --> 00:27:49.620
+we'll talk about a mean, but as of now, yeah, this is what
+
+00:27:49.620 --> 00:27:55.460
+you can understand now here, right? So let's talk about a
+
+00:27:55.460 --> 00:27:59.660
+median. So median means a middle value, very, very simple,
+
+00:27:59.860 --> 00:28:03.680
+right? A middle value. So middle value based on the
+
+00:28:03.680 --> 00:28:07.800
+arrangements of the data. So generally, you know, uh, like,
+
+00:28:07.920 --> 00:28:11.680
+uh, it, it always try to like, uh, you know, uh, tells us
+
+00:28:11.680 --> 00:28:16.660
+that, uh, what will be, I mean, like, let's say if I'm
+
+00:28:16.660 --> 00:28:19.720
+talking about, uh, house prices, right? So there are so many
+
+00:28:19.720 --> 00:28:23.240
+house luxury houses, which is available, uh, maybe a market,
+
+00:28:23.380 --> 00:28:26.640
+right? Uh, again, so with the different, different kind of a
+
+00:28:26.640 --> 00:28:29.840
+price and let's say price tag is given to you 1, 2, 3, 4, 5,
+
+00:28:29.880 --> 00:28:33.060
+6 on in this particular manner, price tag is given to a you.
+
+00:28:33.700 --> 00:28:37.540
+Now. Okay. So there will be something on a higher side, for
+
+00:28:37.540 --> 00:28:41.060
+example, eight in our cases, right? Uh, there is, uh, again,
+
+00:28:41.120 --> 00:28:43.860
+four, there'll be something on our lower side. Let's say
+
+00:28:43.860 --> 00:28:46.880
+like one, right? On a very, very lower side, there is a one.
+
+00:28:48.460 --> 00:28:52.100
+Now basically if someone is going to ask you a question
+
+00:28:52.100 --> 00:28:56.720
+that, okay, so what is a middle range of these house
+
+00:28:56.720 --> 00:29:00.260
+pricing, right? Middle range of this house pricing. So you
+
+00:29:00.260 --> 00:29:02.400
+will say that, that, okay, fine. So the middle range is
+
+00:29:02.400 --> 00:29:05.360
+basically two CR, right? Two CR is something. Which has been
+
+00:29:05.360 --> 00:29:07.720
+charged or two is something which has been charged over
+
+00:29:07.720 --> 00:29:11.300
+here. So median will simply a middle value, right? That's
+
+00:29:11.300 --> 00:29:16.500
+it. Right. A middle value. Now there is a mode mode means
+
+00:29:16.500 --> 00:29:19.980
+what are frequently occurred values. So there are data set.
+
+00:29:20.100 --> 00:29:23.400
+Let's say, you know, I have like a houses and it's pricing
+
+00:29:23.400 --> 00:29:27.540
+basically, if someone is going to ask you a question that,
+
+00:29:27.540 --> 00:29:31.800
+uh, what is a price on which majority of house has been
+
+00:29:31.800 --> 00:29:35.960
+sold? Yes. Two CR. Two CR. Simple. And which is coming from
+
+00:29:35.960 --> 00:29:40.020
+there? A mode because two is something which is occurring,
+
+00:29:40.180 --> 00:29:42.500
+which is, which is like a appearing again and again and
+
+00:29:42.500 --> 00:29:46.260
+again inside my data set. So mean simple average out and
+
+00:29:46.260 --> 00:29:50.660
+around that data will revolve median. So obviously a middle
+
+00:29:50.660 --> 00:29:55.380
+value, core middle value mode, the frequency of the data. So
+
+00:29:55.380 --> 00:29:57.980
+whatsoever data that has appeared like a frequently. So that
+
+00:29:57.980 --> 00:30:01.160
+is something called as basically mode. Now there is
+
+00:30:01.160 --> 00:30:04.500
+something called as variance. Again. Another factor comes
+
+00:30:04.500 --> 00:30:08.440
+into picture. So let's talk about a variance variance.
+
+00:30:11.680 --> 00:30:14.520
+And then there is something called as a standard deviation.
+
+00:30:14.820 --> 00:30:17.580
+So any idea guys, what is the meaning of a variance? What is
+
+00:30:17.580 --> 00:30:20.540
+the meaning of a standard deviation? Yes.
+
+00:30:25.420 --> 00:30:25.860
+Yep.
+
+00:30:30.810 --> 00:30:36.360
+What is the meaning of a variance? So basically see as its
+
+00:30:36.360 --> 00:30:40.040
+name suggests a variance, right? So let's say I had an
+
+00:30:40.040 --> 00:30:43.320
+average, right? I had an average 2.9, let's suppose in my
+
+00:30:43.320 --> 00:30:47.860
+data set. Very simple. I had average 2.9 over here. Now
+
+00:30:47.860 --> 00:30:53.400
+variance always tells you that how much your data set has
+
+00:30:53.400 --> 00:31:00.080
+been spread basically from its average. Like I said, so we
+
+00:31:00.080 --> 00:31:04.740
+have average is equal to 2.9, right? But it's not like all
+
+00:31:04.740 --> 00:31:07.920
+the data set is closer to our very, very close to our is
+
+00:31:07.920 --> 00:31:12.100
+exactly equal to 2.9 data set is either on this side or
+
+00:31:12.100 --> 00:31:16.360
+maybe on that side of 2.9. Basically, right? So this is what
+
+00:31:16.360 --> 00:31:20.240
+a variance tells you all about that if there is an average,
+
+00:31:20.540 --> 00:31:24.640
+let's say if there is an average. So how much data is spread
+
+00:31:24.640 --> 00:31:29.240
+on this side and this side of the average, right? From the
+
+00:31:29.240 --> 00:31:33.160
+mean. So this is what variance tells you about. And variance
+
+00:31:33.160 --> 00:31:37.340
+formula says that that summation of basically data, which is
+
+00:31:37.340 --> 00:31:43.080
+X minus its mean of a square divided by total number of the
+
+00:31:43.080 --> 00:31:47.420
+data. So data minus average. So always, always it tried to
+
+00:31:47.420 --> 00:31:50.720
+talk about what? So how much data is dispersed or how much
+
+00:31:50.720 --> 00:31:54.300
+data is spread out on left hand side as well as on a right
+
+00:31:54.300 --> 00:31:58.120
+hand side, right? So basically we try to estimate it that
+
+00:31:58.120 --> 00:32:02.900
+that if variance is a smaller, it simply means that that
+
+00:32:02.900 --> 00:32:06.300
+data points are close to each other, very, very close to
+
+00:32:06.300 --> 00:32:09.240
+each other, very, very similar kind of a data. If we are
+
+00:32:09.240 --> 00:32:12.880
+getting a large variance, it simply means that that data
+
+00:32:12.880 --> 00:32:17.140
+points are very, very far basically. So one data is very far
+
+00:32:17.140 --> 00:32:21.200
+from the other data set. This is the meaning of that one. So
+
+00:32:21.200 --> 00:32:24.800
+here with respect to this data, so where we have 1 2 3 4 2 1
+
+00:32:24.800 --> 00:32:35.160
+8 2 1 2 3 4 2 1 8 and 2. What is going to be the variance?
+
+00:32:35.360 --> 00:32:39.360
+So variance is going to be basically data. So 1 minus mu, mu
+
+00:32:39.360 --> 00:32:45.400
+is nothing but your average. So 2.9 of a square. Plus 2
+
+00:32:45.400 --> 00:32:55.240
+minus 2.9 of a square plus 3 minus 2.9 of a square plus 4
+
+00:32:55.240 --> 00:33:05.060
+minus 2.9 of a square plus 2 minus 2.9 of a square plus 1
+
+00:33:05.060 --> 00:33:15.060
+minus 2.9 of a square plus 8 minus 2.9 of a square plus 2
+
+00:33:15.060 --> 00:33:20.760
+minus 2.9 of square divided by total number of data which is
+
+00:33:20.760 --> 00:33:25.240
+8 so anyone who can tell me what is the variance value yes
+
+00:33:26.840 --> 00:33:33.160
+anyone who can do that math do the calculation yes
+
+00:33:45.640 --> 00:33:47.620
+guys 4
+
+00:34:09.670 --> 00:34:14.210
+.61 approx g1 is saying so anyone else guys yes
+
+00:34:30.660 --> 00:34:31.860
+4
+
+00:34:35.220 --> 00:34:39.760
+.6 okay so everyone is saying 4.6 fine everyone is saying
+
+00:34:39.760 --> 00:34:46.160
+basically 4.6 okay so basically it is talking about so 4.6
+
+00:34:46.160 --> 00:34:48.580
+is a variance that we are able to receive from this data now
+
+00:34:48.580 --> 00:34:51.220
+what does this means what is the meaning of this 4.6 by the
+
+00:34:51.220 --> 00:34:54.460
+way so what is the meaning of variance so variance says that
+
+00:34:54.460 --> 00:34:58.360
+that how much data spread out is or how much data basically
+
+00:34:58.360 --> 00:35:01.580
+have a spread it out from a mean this is what it means right
+
+00:35:01.580 --> 00:35:08.120
+4.6 so let's say maybe like you know i have this point on a
+
+00:35:08.120 --> 00:35:13.800
+scale 2.9 right i have on a scale 2.9 so it is telling me
+
+00:35:13.800 --> 00:35:19.040
+that okay maybe on this direction till 4.6 data has spread
+
+00:35:19.040 --> 00:35:22.980
+out and maybe on this side so 4.6 data has spread out right
+
+00:35:22.980 --> 00:35:27.900
+this is just talking about the spread of the data right
+
+00:35:27.900 --> 00:35:31.440
+spread of the data and in general you are not going to
+
+00:35:31.440 --> 00:35:34.840
+consider this one there is a reason behind it right there is
+
+00:35:34.840 --> 00:35:38.220
+a reason behind it basically the reason is very simple. It's
+
+00:35:38.220 --> 00:35:42.300
+unit is technically a square we are trying to find out a
+
+00:35:42.300 --> 00:35:45.360
+difference between data and average but what is the unit
+
+00:35:45.360 --> 00:35:48.820
+unit is technically a square that we are trying to consider
+
+00:35:48.820 --> 00:35:52.660
+so it's not available or whatsoever you are trying to find
+
+00:35:52.660 --> 00:35:56.260
+out which is eventually a 4.6 right that you are able to
+
+00:35:56.260 --> 00:36:01.000
+find out so technically it's not available in the original
+
+00:36:01.000 --> 00:36:04.420
+unit of the data technically it is trying to give you a
+
+00:36:04.420 --> 00:36:09.260
+representation with respect to a unit. A square right with
+
+00:36:09.260 --> 00:36:12.360
+respect to a square and this is where right this is where
+
+00:36:12.360 --> 00:36:14.880
+there is another term comes into picture and which is
+
+00:36:14.880 --> 00:36:18.300
+eventually called as a standard deviation so let's talk
+
+00:36:18.300 --> 00:36:20.640
+about that which is depend which depends upon the variance
+
+00:36:20.640 --> 00:36:23.160
+so a standard standard
+
+00:36:28.280 --> 00:36:32.460
+deviation now what it says basically it says that that it's
+
+00:36:32.460 --> 00:36:38.030
+going to be a square root of variance right square root of
+
+00:36:38.030 --> 00:36:43.090
+the variance so basically it measures how far data has
+
+00:36:43.090 --> 00:36:46.310
+actually moving from the mean so variance talking about the
+
+00:36:46.310 --> 00:36:50.030
+spread but its unit is a square right its unit is a square
+
+00:36:50.030 --> 00:36:53.190
+so what I have done so we have basically done a square root
+
+00:36:53.190 --> 00:36:57.970
+of it I mean like a square root of 4.6 how much guys so what
+
+00:36:57.970 --> 00:37:02.550
+would be the square root of 4.6 by the way so 2.14 let's say
+
+00:37:02.550 --> 00:37:06.570
+right 2.14 I think Nitesh has picked that number so 2.14
+
+00:37:06.570 --> 00:37:11.130
+let's say it's true so 2.14 is a standard deviation now we
+
+00:37:11.130 --> 00:37:15.630
+can say that that okay we can say that okay fine so like it
+
+00:37:15.630 --> 00:37:18.450
+and again so we have done a square root so we have nullified
+
+00:37:18.450 --> 00:37:21.570
+the square term so we have nullified the square term over
+
+00:37:21.570 --> 00:37:26.310
+here now we can say that that okay fine so this unit on left
+
+00:37:26.310 --> 00:37:29.570
+hand side and this unit on right hand side so technically
+
+00:37:29.570 --> 00:37:35.030
+helping me out in terms of measuring that how data actually
+
+00:37:35.030 --> 00:37:40.910
+moving from a mean means so let's say on a scale if this dot
+
+00:37:40.910 --> 00:37:48.190
+is representing 2.9. So on this side 2.14 2.9 plus 2.14 and
+
+00:37:48.190 --> 00:37:54.570
+on this side minus 2.14 scale till 1 2.14 a scale right on
+
+00:37:54.570 --> 00:37:59.550
+this side so maybe in between this and this my data is going
+
+00:37:59.550 --> 00:38:04.150
+to move again so as we will progress I'll be talking about
+
+00:38:04.150 --> 00:38:06.850
+one standard deviation two standard deviation and three
+
+00:38:06.850 --> 00:38:09.990
+standard deviation right so again this is basically
+
+00:38:09.990 --> 00:38:14.170
+representing only one standard deviation. There is a term
+
+00:38:14.170 --> 00:38:16.770
+called as three standard deviation it will be like coming to
+
+00:38:16.770 --> 00:38:19.890
+that particular part as well but yeah first of all just try
+
+00:38:19.890 --> 00:38:22.410
+to understand a standard deviation so a standard deviation
+
+00:38:22.410 --> 00:38:27.670
+in a unit or scale of the data itself it always try to tells
+
+00:38:27.670 --> 00:38:31.970
+you that how far my data is moving from a mean on left hand
+
+00:38:31.970 --> 00:38:37.310
+side or on right hand side so here 2.19 2.14 so
+
+00:38:37.310 --> 00:38:42.750
+approximately close to like a 5. So 2.9 means 3 plus almost.
+
+00:38:43.070 --> 00:38:48.110
+Yeah so 5 so most of the data will be between a range of
+
+00:38:48.110 --> 00:38:54.410
+this 5 and on this side so approximately close to 0.7 you
+
+00:38:54.410 --> 00:38:57.950
+can say right. So yeah this is basically a scale in which
+
+00:38:57.950 --> 00:39:01.430
+most of the data you will be able to find out if you are
+
+00:39:01.430 --> 00:39:03.530
+going to take this particular scale on left as well as on
+
+00:39:03.530 --> 00:39:07.250
+right and this is where the other term standard deviation 1
+
+00:39:07.250 --> 00:39:12.810
+2 and 3 comes into picture yep so as a conclusion. Variance
+
+00:39:12.810 --> 00:39:17.690
+is always about right so variance is always about like you
+
+00:39:17.690 --> 00:39:22.530
+know checking how much data is spreading away from the
+
+00:39:22.530 --> 00:39:26.550
+center that's variance right that's variance and what a
+
+00:39:26.550 --> 00:39:29.030
+standard deviation does so a standard deviation basically
+
+00:39:29.030 --> 00:39:35.670
+converts variance back into a same unit in which number was
+
+00:39:35.670 --> 00:39:38.870
+available because variance was square right so again a
+
+00:39:38.870 --> 00:39:41.790
+square root. If I am going to do. It will try to bring down.
+
+00:39:41.810 --> 00:39:45.650
+Your entire like you know a numeric value into the same unit
+
+00:39:45.650 --> 00:39:50.210
+which is going to give you a real picture basically so mean
+
+00:39:50.210 --> 00:39:53.630
+median mode variance and a standard deviation so technically
+
+00:39:53.630 --> 00:39:57.670
+these are the things which is going to help you out in terms
+
+00:39:57.670 --> 00:40:03.150
+of a distribution of the data yes so any question guys with
+
+00:40:03.150 --> 00:40:06.710
+respect to a definition at all definition at least yes
+
+00:40:11.760 --> 00:40:18.020
+definition okay. Now. Let's talk about a use basically so
+
+00:40:18.020 --> 00:40:22.300
+let's talk about use of first of all mean median and mode
+
+00:40:22.300 --> 00:40:26.760
+fine use of mean median and mode that where directly you
+
+00:40:26.760 --> 00:40:29.780
+will be able to use mean median and mode and what kind of a
+
+00:40:29.780 --> 00:40:33.380
+conclusion you all will be able to derive so there is
+
+00:40:33.380 --> 00:40:37.820
+something called as outlier finding or skewness into a data
+
+00:40:37.820 --> 00:40:40.400
+so let's just start from that particular place where you
+
+00:40:40.400 --> 00:40:43.620
+will be able to find out a real life use cases that okay so
+
+00:40:43.620 --> 00:40:46.540
+here. I am using mean median mode and again eventually we
+
+00:40:46.540 --> 00:40:49.880
+will try to fall into a data distribution as well so
+
+00:40:49.880 --> 00:40:55.480
+skewness into a data basically so technically this skewness
+
+00:40:55.480 --> 00:40:57.680
+that we are talking about right so skewness always try to
+
+00:40:57.680 --> 00:41:02.740
+tells you that you know how data is spread in which side
+
+00:41:02.740 --> 00:41:06.140
+data has spreaded more in which side data has spreaded like
+
+00:41:06.140 --> 00:41:09.320
+you know less and we will try to like you know understand
+
+00:41:09.320 --> 00:41:12.060
+these things with the help of examples yeah
+
+00:41:14.880 --> 00:41:18.360
+so sir. Is the in simple terms is the in simple terms like
+
+00:41:18.360 --> 00:41:23.480
+how far data can go on left and right from mean that's it
+
+00:41:23.480 --> 00:41:29.760
+that's called as SD standard distribution fine but again so
+
+00:41:29.760 --> 00:41:33.180
+we are talking about just one is the which is not a actual
+
+00:41:33.180 --> 00:41:37.920
+representation of hundred percent of the data one is the
+
+00:41:37.920 --> 00:41:40.920
+that we have derived over here which was which was happens
+
+00:41:40.920 --> 00:41:43.620
+to be two point one four. I'll show you that in a graph in a
+
+00:41:43.620 --> 00:41:47.100
+curve itself. Okay. Okay. I'm representing not all the data
+
+00:41:47.100 --> 00:41:49.900
+I'll prove that part as well with respect to maybe this data
+
+00:41:49.900 --> 00:41:54.600
+or some other data set. Which will which will you know help
+
+00:41:54.600 --> 00:41:59.560
+you out understand like you know things right so let's try
+
+00:41:59.560 --> 00:42:02.200
+to talk about first of all like I said is curious of the
+
+00:42:02.200 --> 00:42:03.560
+data so
+
+00:42:07.940 --> 00:42:11.560
+we know that what is the meaning of mean median and mode
+
+00:42:11.560 --> 00:42:13.920
+right we know what is the meaning of mean median and mode
+
+00:42:13.920 --> 00:42:19.200
+now how it is going to affect the skewness of the data. so
+
+00:42:19.200 --> 00:42:24.160
+let's say I'll take one data right 1
+
+00:42:27.650 --> 00:42:42.620
+1 2 3 1 1 4 5 7 and then 100 101 now this is the data let's
+
+00:42:42.620 --> 00:42:46.240
+say we have fine this is the data that let's say we have now
+
+00:42:46.240 --> 00:42:50.180
+here if I'm going to ask you that give me a mean of this
+
+00:42:50.180 --> 00:42:51.840
+data median
+
+00:42:53.570 --> 00:42:58.750
+of this data and mode of this data now give me that race for
+
+00:42:58.750 --> 00:43:00.770
+this data tell me what does mean what is median what is mode
+
+00:43:00.770 --> 00:43:01.850
+yes
+
+00:43:13.210 --> 00:43:16.610
+what does mean what is median what is mode for this data
+
+00:43:16.610 --> 00:43:18.350
+quickly guys okay
+
+00:43:54.220 --> 00:43:56.940
+so it's always saying mean is twenty four point four okay
+
+00:43:56.940 --> 00:44:01.060
+anyone else if you can cross check G1 has also cross-checked
+
+00:44:01.060 --> 00:44:04.860
+so twenty four point four so I'm considering that as a
+
+00:44:04.860 --> 00:44:08.640
+source of truth for me median is going to be like a four
+
+00:44:08.640 --> 00:44:12.040
+point five okay fine median is going to be four one five and
+
+00:44:12.040 --> 00:44:14.820
+what is the mode i think it's going to be one right okay
+
+00:44:14.820 --> 00:44:20.840
+it's one fine so here mean median mode you can clearly see
+
+00:44:20.840 --> 00:44:25.080
+that that mean is greater than median
+
+00:44:26.780 --> 00:44:32.460
+is greater than basically mode can i say that that this one
+
+00:44:32.460 --> 00:44:36.160
+holds true right this one holds true in this particular
+
+00:44:36.160 --> 00:44:40.840
+situation so where my mean is greater than median and it's
+
+00:44:40.840 --> 00:44:45.140
+greater than basically mode right it's greater than
+
+00:44:45.140 --> 00:44:50.720
+basically mode so in this case if i have to basically you
+
+00:44:50.720 --> 00:44:56.260
+know maybe represent this on a graph so here let's say if
+
+00:44:56.260 --> 00:45:02.040
+i'm going to represent a mean so this is my y axis this is
+
+00:45:02.040 --> 00:45:07.400
+my x axis this is my center zero right so mean so mean will
+
+00:45:07.400 --> 00:45:11.060
+come somewhere over here median will come somewhere over
+
+00:45:11.060 --> 00:45:14.280
+here and then mode will come somewhere over here in terms of
+
+00:45:14.280 --> 00:45:17.960
+value right so mean is the highest one so maybe this is my
+
+00:45:17.960 --> 00:45:23.820
+mean this is my median right this is my median and this is
+
+00:45:23.820 --> 00:45:28.500
+my mode mean value is the highest one right so on x axis i'm
+
+00:45:28.500 --> 00:45:32.640
+trying to represent basically my mean median and my mode
+
+00:45:32.640 --> 00:45:35.880
+technically right i'm trying to represent this mean median
+
+00:45:35.880 --> 00:45:42.300
+median and mode. Now when mean means average will be more as
+
+00:45:42.300 --> 00:45:46.580
+compared to a median, median is a middle value right and
+
+00:45:46.580 --> 00:45:50.540
+eventually like median is greater than mode. What does that
+
+00:45:50.540 --> 00:45:52.460
+mean yes.
+
+00:45:55.130 --> 00:46:00.070
+So what does that mean. So look into this data right again
+
+00:46:00.070 --> 00:46:04.190
+don't go after this graph look into this data. Who has
+
+00:46:04.190 --> 00:46:08.230
+contributed basically right, who has contributed basically
+
+00:46:08.230 --> 00:46:15.230
+to get a spike into a mean or to increase of like you know
+
+00:46:15.230 --> 00:46:19.510
+average of the whole data, who has contributed. So can I say
+
+00:46:19.510 --> 00:46:23.450
+that that this upper side of the data right the upper side
+
+00:46:23.450 --> 00:46:28.150
+of the data that we have that has technically contributed to
+
+00:46:28.150 --> 00:46:31.970
+increase the average. If you are going to remove. Maybe this
+
+00:46:31.970 --> 00:46:34.870
+particular data your average will be normalized right
+
+00:46:34.870 --> 00:46:38.650
+because majority of data is not falling in this bracket.
+
+00:46:39.430 --> 00:46:43.230
+Majority of data is falling in between a very very lesser
+
+00:46:43.230 --> 00:46:46.590
+range as compared to this particular data. So it's just like
+
+00:46:46.590 --> 00:46:51.410
+you know saying that that you are basically talking about
+
+00:46:51.410 --> 00:46:56.950
+you know let's say a company and then you say that that what
+
+00:46:56.950 --> 00:46:59.850
+is the average salary of data scientist. So someone said
+
+00:46:59.850 --> 00:47:04.030
+that that okay fine. So it's a $100,000 yearly is a salary
+
+00:47:04.030 --> 00:47:08.530
+right. Now that's average that's average for data scientist
+
+00:47:08.530 --> 00:47:12.690
+let's say right. Now someone will come and they will try to
+
+00:47:12.690 --> 00:47:17.090
+you know consider like you know company CEO manager director
+
+00:47:17.090 --> 00:47:21.010
+salary as well and then they will try to average it out. So
+
+00:47:21.010 --> 00:47:23.110
+can I say that the average of salary will automatically
+
+00:47:23.110 --> 00:47:28.010
+spike yeah average of salary will automatically spike on a
+
+00:47:28.010 --> 00:47:31.610
+right hand side basically. So this is this is what happens
+
+00:47:31.610 --> 00:47:35.870
+right. So here in the general tendency of the data says that
+
+00:47:35.870 --> 00:47:39.430
+that okay so it's ranging in between a smaller range one to
+
+00:47:39.430 --> 00:47:41.710
+seven range right one to seven range my data set is
+
+00:47:41.710 --> 00:47:44.710
+fluctuating. But there are two contributor who came into
+
+00:47:44.710 --> 00:47:47.030
+picture and they have just increased or they have just
+
+00:47:47.030 --> 00:47:50.070
+changed the entire trend of the data itself right. And
+
+00:47:50.070 --> 00:47:53.590
+because of that because of that my average has spiked right.
+
+00:47:53.910 --> 00:47:57.630
+But but but although there are like these these data set
+
+00:47:57.630 --> 00:48:00.350
+basically the data set who has like created a kind of
+
+00:48:00.350 --> 00:48:05.050
+outlier a skewness I would say into my data there are very
+
+00:48:05.050 --> 00:48:08.450
+few in general all those data are not available in the
+
+00:48:08.450 --> 00:48:12.250
+certain range. So obviously what my median will do so median
+
+00:48:12.250 --> 00:48:15.050
+will try to give a justification because median is a middle
+
+00:48:15.050 --> 00:48:18.910
+value right. And if this data set is not available in
+
+00:48:18.910 --> 00:48:22.430
+majority they will never come in a middle because median is
+
+00:48:22.430 --> 00:48:25.310
+all about arrange the data and then take the middle value
+
+00:48:25.310 --> 00:48:28.450
+that's about median right. So eventually median will be
+
+00:48:28.450 --> 00:48:32.110
+less. And here in this case there is a huge difference 24.4
+
+00:48:32.110 --> 00:48:36.610
+versus 4.5. So there is a huge differences you will be able
+
+00:48:36.610 --> 00:48:40.230
+to basically find out right. So median is trying to tell you
+
+00:48:40.230 --> 00:48:43.690
+the truth that okay the average that you are able to get
+
+00:48:43.690 --> 00:48:47.310
+maybe that's not a correct justification of the whole data
+
+00:48:47.310 --> 00:48:50.670
+as there is a huge difference between a middle value and the
+
+00:48:50.670 --> 00:48:54.910
+average. So technically my data set is what skewed.
+
+00:48:57.610 --> 00:49:01.390
+Yes SKEWED. Yes. SKEWED. My data set is skewed. Means my
+
+00:49:01.390 --> 00:49:05.850
+data set is you know inclined towards like a certain
+
+00:49:05.850 --> 00:49:09.170
+direction or certain points. So in which direction my data
+
+00:49:09.170 --> 00:49:12.750
+set is inclined towards basically. So I can say that that my
+
+00:49:12.750 --> 00:49:15.670
+data set as per this particular data set right. So my data
+
+00:49:15.670 --> 00:49:20.170
+set is inclined towards may be right my data set is inclined
+
+00:49:20.170 --> 00:49:24.630
+towards may be this positive axis right we can say a
+
+00:49:24.630 --> 00:49:28.310
+positive skewness or a right skewness because on higher side
+
+00:49:28.310 --> 00:49:33.570
+we have a data we have outlier right but on a higher side we
+
+00:49:33.570 --> 00:49:38.050
+have outlier and because of that so my mean but yes as you
+
+00:49:38.050 --> 00:49:41.750
+can see it's tailing right it's tailing over here. It simply
+
+00:49:41.750 --> 00:49:44.710
+means that that concentration of this data set is very very
+
+00:49:44.710 --> 00:49:49.110
+less. I mean yes there is a skewness into this data right
+
+00:49:49.110 --> 00:49:51.750
+but concentration is very less I mean like there are very
+
+00:49:51.750 --> 00:49:54.090
+few data which is available in this particular range
+
+00:49:54.090 --> 00:49:57.670
+basically otherwise what happens. I'll talk about a normal
+
+00:49:57.670 --> 00:50:01.070
+distribution as well a bell shaped curve right. So if your
+
+00:50:01.070 --> 00:50:03.910
+data set is not having any kind of a skewness if your data
+
+00:50:03.910 --> 00:50:07.830
+set is properly distributed your data set is going to form a
+
+00:50:07.830 --> 00:50:10.910
+bell shaped curve. I'll be talking about bell shaped curve
+
+00:50:10.910 --> 00:50:14.990
+or like you know normal distribution formula as well right.
+
+00:50:15.090 --> 00:50:17.790
+And if you remember so we have already talked about in our
+
+00:50:17.790 --> 00:50:20.530
+graph chapters we talked about a histogram. So somewhere
+
+00:50:20.530 --> 00:50:23.290
+histogram is basically representing the same thing. So we'll
+
+00:50:23.290 --> 00:50:26.630
+try to get into that kind of a conclusion as well. Very soon
+
+00:50:26.630 --> 00:50:30.830
+we'll try to get into those conclusions basically. But as of
+
+00:50:30.830 --> 00:50:34.170
+now just try to understand thing in that way that okay my
+
+00:50:34.170 --> 00:50:39.190
+data set is skewed. Why there are some data which is not
+
+00:50:39.190 --> 00:50:42.830
+falling within the range of majority of my data. So my data
+
+00:50:42.830 --> 00:50:47.270
+set has skewed skewed means in one side maybe it is not
+
+00:50:47.270 --> 00:50:51.170
+normally distributed and eventually as a result of that
+
+00:50:51.170 --> 00:50:54.250
+right as a result of that so we can say that that my data
+
+00:50:54.250 --> 00:50:58.530
+set is right skewed. Or positively skewed means I have more
+
+00:50:58.530 --> 00:51:01.750
+outlier on a positive side higher side basically right
+
+00:51:01.750 --> 00:51:06.250
+higher side of it. So here this is first use of mean median
+
+00:51:06.250 --> 00:51:08.870
+and mode. You can do the comparison and then you will be
+
+00:51:08.870 --> 00:51:12.070
+able to find out whether I have a skewness into my data set
+
+00:51:12.070 --> 00:51:16.550
+or not. And if I have a skewness into my data set right if I
+
+00:51:16.550 --> 00:51:19.850
+have a skewness into my data set at the end of the day you
+
+00:51:19.850 --> 00:51:25.890
+have to remove it. So meaning is simple. So you have to. If
+
+00:51:25.890 --> 00:51:29.730
+you have a treatment to a skewness then only you will be
+
+00:51:29.730 --> 00:51:34.450
+able to use it to train any kind of a algorithm to train any
+
+00:51:34.450 --> 00:51:37.130
+kind of a model. If you are not removing those skewness and
+
+00:51:37.130 --> 00:51:40.870
+you are using that data directly your entire model will go
+
+00:51:40.870 --> 00:51:44.870
+for the toss right. So these are the significance. Now let's
+
+00:51:44.870 --> 00:51:48.270
+talk about another situation right. Let's talk about another
+
+00:51:48.270 --> 00:51:53.330
+situation. So let's say I have a data. Maybe I have a data
+
+00:51:53.330 --> 00:52:04.690
+something like 100. Right. 100. 500. 400. 300. 250. 200.
+
+00:52:05.230 --> 00:52:08.390
+100. 150.
+
+00:52:11.110 --> 00:52:20.010
+248. Yeah. 248. Now tell me what is mean median
+
+00:52:21.960 --> 00:52:27.000
+and mode. Yeah. Tell me. what is the mean what is mean what
+
+00:52:27.000 --> 00:52:32.650
+is median what is mode for this particular data quick guys
+
+00:52:32.650 --> 00:52:35.990
+do the calculation i'm waiting for you so
+
+00:52:44.280 --> 00:52:49.800
+mean is 184.5 utsa is saying okay uh just cross check guys
+
+00:52:49.800 --> 00:52:54.100
+anyone so that we can take these values so
+
+00:53:08.270 --> 00:53:13.470
+okay swamudha swamudhu is saying mean is median is 175 and
+
+00:53:13.470 --> 00:53:17.690
+then mode is so okay mean is basically so i think all the
+
+00:53:17.690 --> 00:53:19.950
+value are correct everyone is saying the same thing right
+
+00:53:19.950 --> 00:53:28.870
+okay so 184.5 is my mean my median is 175 technically and my
+
+00:53:28.870 --> 00:53:38.250
+mode is going to be 150 right uh sorry 100 and 200 yeah 100
+
+00:53:38.250 --> 00:53:43.510
+or 200 let's say okay so this is going to my mode so in this
+
+00:53:43.510 --> 00:53:48.030
+situation uh you will be able to uh basically find out that
+
+00:53:48.870 --> 00:53:56.190
+my mode if i'm considering 100 is greater than median and
+
+00:53:56.190 --> 00:54:03.110
+this is greater than basically mean what does this means yes
+
+00:54:05.030 --> 00:54:09.210
+everyone what does this particular things means so
+
+00:54:15.260 --> 00:54:19.080
+here i can clearly see and say let's say 100 is a mode i'm
+
+00:54:19.080 --> 00:54:24.820
+considering one of the mode so mode is greater than median
+
+00:54:28.340 --> 00:54:30.500
+then basically sorry
+
+00:54:35.210 --> 00:54:44.110
+uh so median is my bad not greater how it can be greater so
+
+00:54:44.110 --> 00:54:52.040
+mode is basically lesser than median mean
+
+00:54:55.970 --> 00:54:58.730
+is greater than median than mode so
+
+00:55:02.160 --> 00:55:04.580
+even in this case so mean is greater than median and median
+
+00:55:04.580 --> 00:55:09.180
+is greater than mode so and values are very very close to
+
+00:55:09.180 --> 00:55:15.940
+each other so i think this is the most normalized uh what we
+
+00:55:15.940 --> 00:55:20.840
+can do so we can try to i have taken three values right
+
+00:55:20.840 --> 00:55:24.580
+because of that so it is not showing you is skewness let's
+
+00:55:24.580 --> 00:55:28.540
+remove these two values guys remove four and eight i just
+
+00:55:28.540 --> 00:55:32.760
+have two it is not creating a skew basically because i have
+
+00:55:32.760 --> 00:55:38.420
+taken three values so which is eventually disturbing my mean
+
+00:55:38.420 --> 00:55:40.920
+skewness yeah now tell me what is mean median and mode
+
+00:55:56.860 --> 00:56:00.920
+median 200 okay fine median 200 mean
+
+00:56:05.330 --> 00:56:13.880
+mean is the important part mean is 220 or 210 someone is
+
+00:56:13.880 --> 00:56:20.580
+saying brijesh saying mean is 210 median is 175 okay
+
+00:56:33.350 --> 00:56:35.810
+and mode again
+
+00:56:45.860 --> 00:56:48.360
+this is not a correct representation so i'm basically like
+
+00:56:48.360 --> 00:56:54.180
+trying to build up a case over here so where mean should be
+
+00:56:54.180 --> 00:56:59.240
+lesser actually so that i can show you a negative side of
+
+00:56:59.240 --> 00:57:02.220
+skewness that's the whole thing which i'm trying to showcase
+
+00:57:03.020 --> 00:57:08.700
+where mode should be greater than median and mean let me
+
+00:57:08.700 --> 00:57:13.480
+take some other data maybe a smaller scale let me remove
+
+00:57:13.480 --> 00:57:15.960
+this entire things so i'm just trying to show you a negative
+
+00:57:15.960 --> 00:57:19.560
+skewness guys which is like a you know opposite of the above
+
+00:57:19.560 --> 00:57:23.960
+one let's do one thing uh maybe we can try to build up a
+
+00:57:23.960 --> 00:57:32.280
+data where okay so 1 comma 2 minus
+
+00:57:42.680 --> 00:57:44.740
+5 minus
+
+00:57:47.070 --> 00:57:51.250
+50 let's say yeah that's a huge number so it will for sure
+
+00:57:51.250 --> 00:57:55.230
+skew minus 60 yeah
+
+00:57:59.010 --> 00:58:02.690
+so this is the data now right now tell me mean median and
+
+00:58:02.690 --> 00:58:15.270
+mode mean median and mode yeah for this data i have taken
+
+00:58:15.270 --> 00:58:16.970
+like a minus 50 and now let me go back to and 60 which is a
+
+00:58:16.970 --> 00:58:20.690
+huge number on negative side of this entire range of this
+
+00:58:20.690 --> 00:58:21.970
+data so
+
+00:58:24.750 --> 00:58:29.610
+mean is minus 5.29 ok fine Utsav
+
+00:58:34.120 --> 00:58:37.200
+has calculated can anyone confirm ok
+
+00:58:43.030 --> 00:58:49.690
+so Sumedhu is saying mean is minus 7.7 someone is saying
+
+00:58:49.690 --> 00:58:54.410
+Bhavesh is saying 5.2 Netesh is saying 5.28 so do a
+
+00:58:54.410 --> 00:58:56.590
+calculation guys once again so that I can take a final
+
+00:58:56.590 --> 00:59:00.810
+number for sure mean will be very very less because I have
+
+00:59:00.810 --> 00:59:02.930
+like a very huge negative number
+
+00:59:06.610 --> 00:59:11.730
+Netesh is saying minus 5.28 I think most of you are saying 5
+
+00:59:11.730 --> 00:59:16.070
+.2829 let's do that so 5.28 is something which I am going to
+
+00:59:16.070 --> 00:59:22.890
+consider median is 2 ok and mode is 1 and 2 ok fine so here
+
+00:59:22.890 --> 00:59:28.370
+clearly you will be able to see that that you know. Let's do
+
+00:59:28.370 --> 00:59:32.450
+a comparison between median mode so may be I can consider 2
+
+00:59:32.450 --> 00:59:37.690
+as a mode so 2 is almost equivalent to a 2 right so both are
+
+00:59:37.690 --> 00:59:42.110
+mean and like a mode is almost equivalent and mean is
+
+00:59:42.110 --> 00:59:46.690
+basically way more lesser means this data set is way more
+
+00:59:46.690 --> 00:59:54.050
+greater than basically a mean. So here on axis if I will try
+
+00:59:54.050 --> 00:59:58.730
+to represent right. On axis if I will try to represent. Ok.
+
+00:59:58.750 --> 01:00:02.030
+So maybe if I am representing a mean so it will come
+
+01:00:02.030 --> 01:00:06.250
+somewhere over here on negative side right and then there
+
+01:00:06.250 --> 01:00:09.590
+will be a median comes into picture and then on the same
+
+01:00:09.590 --> 01:00:13.990
+place modes comes into picture as we know that that data
+
+01:00:13.990 --> 01:00:17.430
+sets are very very less on this side the volume of the data
+
+01:00:17.430 --> 01:00:19.830
+set is very very less we have only 2 data set concentrated
+
+01:00:19.830 --> 01:00:23.450
+in this particular place. So in this manner you can say that
+
+01:00:23.450 --> 01:00:28.650
+that my data set is basically negatively skewed or left hand
+
+01:00:28.650 --> 01:00:31.710
+skewness on left hand side so we have a skewness means on
+
+01:00:31.710 --> 01:00:35.210
+left hand side we have less amount of the data on negative
+
+01:00:35.210 --> 01:00:38.070
+side we have less amount of the data as compared to the
+
+01:00:38.070 --> 01:00:42.310
+positive side and this skewness is called as basically
+
+01:00:42.310 --> 01:00:46.570
+negative skewness or left side skewness or left hand
+
+01:00:46.570 --> 01:00:50.890
+skewness you can say right. So wherever mean is basically
+
+01:00:50.890 --> 01:00:54.970
+lesser than median and mode in that case you can say it's a
+
+01:00:54.970 --> 01:00:57.870
+negative skewness. Whenever mean is average skewness. If
+
+01:00:57.870 --> 01:01:01.810
+average is more in that case you can say it's a positive
+
+01:01:01.810 --> 01:01:06.970
+skewness. Now this mean median and mode comparison always
+
+01:01:06.970 --> 01:01:10.330
+helps us out in terms of finding or doing an investigation
+
+01:01:10.330 --> 01:01:14.590
+about the data that on which side my data set is aligned
+
+01:01:14.590 --> 01:01:17.870
+basically in what to what range my data set is technically
+
+01:01:17.870 --> 01:01:22.790
+you know skewed and then eventually you can go and decide
+
+01:01:22.790 --> 01:01:26.450
+that what kind of a treatment of the data I am supposed to
+
+01:01:26.450 --> 01:01:30.690
+do. Very very simple this is the real world significance of
+
+01:01:30.690 --> 01:01:34.290
+mean median and mode comparison yeah real world significance
+
+01:01:34.290 --> 01:01:37.950
+of mean median and mode comparison. So it is is it clear
+
+01:01:37.950 --> 01:01:39.030
+yeah
+
+01:01:43.250 --> 01:01:45.190
+is it clear okay
+
+01:01:56.650 --> 01:02:03.690
+now now so here if this this part is technically clear so
+
+01:02:03.690 --> 01:02:08.490
+let's talk one data let us take talk about one data set over
+
+01:02:08.490 --> 01:02:20.370
+here so maybe 1 2 3 4. 5 6 8 10 11 2 8 3 4 some random data
+
+01:02:20.370 --> 01:02:23.030
+I have taken right but it looks like data set is like
+
+01:02:23.030 --> 01:02:26.930
+falling between a normal range right normal range so
+
+01:02:26.930 --> 01:02:32.170
+basically people have given us a thesis people have given us
+
+01:02:32.170 --> 01:02:36.170
+a theory that there is something called as normal
+
+01:02:36.170 --> 01:02:38.830
+distribution right what does that mean and this normal
+
+01:02:38.830 --> 01:02:42.530
+distribution matters a lot not just here almost in. In every
+
+01:02:42.530 --> 01:02:45.290
+kind of a statistical study in every domain you will be able
+
+01:02:45.290 --> 01:02:48.530
+to find out this particular thesis means it's it's a pretty
+
+01:02:48.530 --> 01:02:51.130
+much normalized one right pretty much it's a normalized one
+
+01:02:51.130 --> 01:02:59.490
+so it says that that you know if data set is there let's say
+
+01:02:59.490 --> 01:03:02.670
+this is our final set of the data I am going to consider
+
+01:03:02.670 --> 01:03:09.230
+right so obviously if someone has to find out the
+
+01:03:09.230 --> 01:03:14.470
+probability of occurrence. Of. Of a particular data set for
+
+01:03:14.470 --> 01:03:19.930
+example probability of occurrence of one out of this entire
+
+01:03:19.930 --> 01:03:24.890
+data set can I say I will be able to find out that part if I
+
+01:03:24.890 --> 01:03:27.850
+am going to ask you a question that what is a probability of
+
+01:03:27.850 --> 01:03:32.850
+occurrence of one right out of this entire data set if I am
+
+01:03:32.850 --> 01:03:36.230
+going to ask someone to pick that data can I say I will be
+
+01:03:36.230 --> 01:03:42.170
+able to find out a probability yes everyone. Yeah and
+
+01:03:42.170 --> 01:03:46.250
+probability ranges between what to what probability always
+
+01:03:46.250 --> 01:03:50.350
+ranges between zero to one probability can't be lesser than
+
+01:03:50.350 --> 01:03:53.470
+zero probability of anything can't be more than one
+
+01:03:53.470 --> 01:03:57.190
+basically right that's that that is also we know all of us
+
+01:03:57.190 --> 01:04:01.950
+basically right so they said that that okay if that is a
+
+01:04:01.950 --> 01:04:05.690
+case right it doesn't matter like you have thousand data ten
+
+01:04:05.690 --> 01:04:09.030
+thousand data or maybe a millions of data probability will
+
+01:04:09.030 --> 01:04:12.550
+be in between zero to one at any point of a time for a
+
+01:04:12.550 --> 01:04:14.410
+certain type of the data so probability always ranges
+
+01:04:14.410 --> 01:04:19.450
+between zero to one so they said that that okay maybe we can
+
+01:04:19.450 --> 01:04:22.990
+try to derive some sort of a formula some sort of a thesis
+
+01:04:22.990 --> 01:04:28.630
+by which if I can represent right again listen carefully
+
+01:04:28.630 --> 01:04:33.950
+it's very important concept so if I can represent all of
+
+01:04:33.950 --> 01:04:40.450
+this data set in somehow right somehow away where there will
+
+01:04:40.450 --> 01:04:45.770
+be. an area which is equivalent to let's say one right and
+
+01:04:45.770 --> 01:04:50.130
+what if if I can you know distribute this entire data in
+
+01:04:50.130 --> 01:04:55.050
+that particular area right and if distribution is going to
+
+01:04:55.050 --> 01:04:58.210
+be equal in that situation it is going to form some
+
+01:04:58.210 --> 01:05:01.150
+particular shape and that shape is technically called as
+
+01:05:01.150 --> 01:05:07.250
+bell curve so people have given us a theory that okay it is
+
+01:05:07.250 --> 01:05:11.910
+possible right it is technically possible. that we can try
+
+01:05:11.910 --> 01:05:16.730
+to distribute a data this particular data itself right we
+
+01:05:16.730 --> 01:05:19.330
+can try to distribute a data this particular data set itself
+
+01:05:19.330 --> 01:05:24.650
+in a particular area right in a particular area in such a
+
+01:05:24.650 --> 01:05:28.270
+way that this is going to form a bell curve let's say I am
+
+01:05:28.270 --> 01:05:30.490
+not able to understand this part yeah bell curve I don't
+
+01:05:30.490 --> 01:05:34.050
+know what is bell curve I don't know let's try to understand
+
+01:05:34.050 --> 01:05:37.390
+it based on our previous basically like you know
+
+01:05:37.390 --> 01:05:39.310
+understanding yeah previous understanding. okay.
+
+01:05:39.330 --> 01:05:42.190
+understanding itself so I believe when I was talking about a
+
+01:05:42.190 --> 01:05:46.950
+graph I have talked about a histogram right now I will just
+
+01:05:46.950 --> 01:05:50.250
+ask you a couple of question and you should give me just an
+
+01:05:50.250 --> 01:05:54.250
+answer okay you should give me just an answer so let's say I
+
+01:05:54.250 --> 01:05:58.910
+have a data set between range of 1 to 10 okay so 0 and then
+
+01:05:58.910 --> 01:06:04.190
+I can say over here like 3 and then I will be like 3 3 of a
+
+01:06:04.190 --> 01:06:09.210
+scale 6 and then 6 9 or maybe let's talk about 2 scale of
+
+01:06:09.210 --> 01:06:16.530
+10. so 2 and then like 4 and then 6 and then 8 and then 10
+
+01:06:16.530 --> 01:06:22.670
+okay now I will ask you a question that how many data set
+
+01:06:22.670 --> 01:06:25.830
+which we have in this data set right the data set which I
+
+01:06:25.830 --> 01:06:28.310
+have written down so how many data set which we have over
+
+01:06:28.310 --> 01:06:34.170
+here in this data set which is ranging between 0 to 2 yeah
+
+01:06:34.170 --> 01:06:37.970
+how many data set we have my question is very simple how
+
+01:06:37.970 --> 01:06:40.910
+many data set we have between 0 to 2 in this data set the
+
+01:06:40.910 --> 01:06:42.910
+data set which I have mentioned yes
+
+01:06:45.470 --> 01:06:55.820
+0 to 2 Raj is saying 0 how I said 0 to 2 do we have 1 we
+
+01:06:55.820 --> 01:07:00.100
+have 2 again we have 2 right
+
+01:07:01.990 --> 01:07:07.750
+so technically 3 and what histogram does so on this x axis
+
+01:07:07.750 --> 01:07:12.110
+it will try to consider basically a range and y axis
+
+01:07:12.110 --> 01:07:20.650
+basically occurrences. We have like 0 1 2 and then 3 and
+
+01:07:20.650 --> 01:07:26.130
+then 4 and then 5 and so on right so how many data set we
+
+01:07:26.130 --> 01:07:30.350
+have between range of 0 to 2 so 3 right okay fine I will try
+
+01:07:30.350 --> 01:07:33.630
+to draw this histogram then how many data set we have
+
+01:07:33.630 --> 01:07:38.330
+between 2 to 4 yes 2 to 4 let's
+
+01:07:40.640 --> 01:07:43.300
+say we are going to make a condition excluding and including
+
+01:07:43.300 --> 01:07:46.100
+right so let's say I am saying that that upper bound should
+
+01:07:46.100 --> 01:07:48.800
+be excluded. So upper bound should be excluded means you
+
+01:07:48.800 --> 01:07:50.980
+should not consider the upper bound so in that situation 0
+
+01:07:50.980 --> 01:07:56.220
+to 2 there will be only 1 data yeah excluded case so if I am
+
+01:07:56.220 --> 01:07:59.420
+saying 0 to 2 excluding 2 so you are not supposed to
+
+01:07:59.420 --> 01:08:03.040
+consider 2 so in that case how many data 1 data so okay
+
+01:08:03.040 --> 01:08:05.820
+let's say I am drawing a histogram in this manner. Now 2 to
+
+01:08:05.820 --> 01:08:13.880
+4 excluding 4 including 2 2 to 4 2 to 4 so we have 2 we have
+
+01:08:13.880 --> 01:08:17.580
+3 we can't consider 4 by the way. And then we have again 2
+
+01:08:17.580 --> 01:08:21.680
+we have 3 so in total 4 data set okay fine so in total we
+
+01:08:21.680 --> 01:08:25.380
+have not good with the drawing guys so okay fine this is the
+
+01:08:25.380 --> 01:08:29.440
+data that we have 4 to 6 excluding 6 yeah
+
+01:08:32.640 --> 01:08:38.300
+4 to 6 excluding 6 3 okay so fine we have technically 3 4 to
+
+01:08:38.300 --> 01:08:43.500
+6 fine now 6 to 8 excluding 8 okay
+
+01:08:48.520 --> 01:08:52.560
+1 now 8 to 10 excluding 10 2.
+
+01:08:55.980 --> 01:08:58.520
+So. So. So we are drawing 10 to 12 maybe like here this one
+
+01:08:58.520 --> 01:09:04.780
+now 10 and beyond let's say yeah 10 to 12 I am saying right
+
+01:09:04.780 --> 01:09:09.620
+10 to 12 so we will be having 2 right we will be having 2
+
+01:09:09.620 --> 01:09:13.900
+now this is something called as histogram now just try to
+
+01:09:13.900 --> 01:09:17.160
+and we have like drawn this things with the very less amount
+
+01:09:17.160 --> 01:09:20.140
+of the data by the way right so our data set sample itself
+
+01:09:20.140 --> 01:09:24.500
+is very very less now if you are going to combine all of
+
+01:09:24.500 --> 01:09:28.700
+these edges right so all of this edges 1 by 1. You will be
+
+01:09:28.700 --> 01:09:32.760
+able to see some sort of a shape over here, right, shape
+
+01:09:32.760 --> 01:09:35.700
+over here, not a perfect bell curve by the way, but yeah, so
+
+01:09:35.700 --> 01:09:39.440
+you will be able to see a perfect, sorry, imperfect or
+
+01:09:39.440 --> 01:09:42.220
+perfect kind of a bell kind of a shape. So this is where
+
+01:09:42.220 --> 01:09:45.520
+people have started talking about a bell curve. Technically
+
+01:09:45.520 --> 01:09:50.280
+what it represents, on x axis the range, on y axis the
+
+01:09:50.280 --> 01:09:54.840
+distribution, on x axis the range, y axis how many times in
+
+01:09:54.840 --> 01:09:57.540
+between this to this range actual data has actually
+
+01:09:57.540 --> 01:10:01.920
+appeared. And this bell curve is eventually in terms of
+
+01:10:01.920 --> 01:10:06.120
+probability, right, in terms of probability is going to
+
+01:10:06.120 --> 01:10:14.020
+represent a area is equals to 1. Means to accommodate all of
+
+01:10:14.020 --> 01:10:16.760
+these data, if I am trying to talk about this bell curve,
+
+01:10:16.940 --> 01:10:21.420
+right, this bell curve, so this entire area is going to be 1
+
+01:10:21.420 --> 01:10:27.700
+at max, not beyond 1. And what you do? So basically instead
+
+01:10:27.700 --> 01:10:31.060
+of finding out a probability, you try to find out the things
+
+01:10:31.060 --> 01:10:35.200
+in terms of area, right, in terms of area. And that area
+
+01:10:35.200 --> 01:10:38.940
+will become the representation of a probability. And this
+
+01:10:38.940 --> 01:10:42.740
+will eventually be called as normal distribution, simple,
+
+01:10:42.900 --> 01:10:47.160
+normal distribution or bell curve you can say. So here it is
+
+01:10:47.160 --> 01:10:49.760
+again getting derived from the histogram, right, the range
+
+01:10:49.760 --> 01:10:53.180
+and the frequency of the occurrence of the data set. Now
+
+01:10:53.180 --> 01:10:56.560
+falling back to the previous concept. And let's move on.
+
+01:10:56.560 --> 01:10:59.640
+Let's try to connect the things, yeah, connect the dots. So
+
+01:10:59.640 --> 01:11:03.360
+normal distribution, formula wise if you are going to like
+
+01:11:03.360 --> 01:11:07.340
+you know find out the formula. So it's little bit complex,
+
+01:11:07.400 --> 01:11:10.420
+not very complex to remember. So it says that that f of x
+
+01:11:10.420 --> 01:11:14.140
+technically y is nothing but 1 by standard
+
+01:11:17.780 --> 01:11:26.400
+deviation 2 pi e to the power minus 1 by 2 data minus
+
+01:11:26.400 --> 01:11:32.060
+average divided by standard deviation of 2 pi e to the power
+
+01:11:32.060 --> 01:11:36.860
+of square where x can range between minus
+
+01:11:38.520 --> 01:11:42.640
+infinity to plus infinity, yeah, minus infinity to plus
+
+01:11:42.640 --> 01:11:47.260
+infinity. Now this is the formula. This is the formula that
+
+01:11:47.260 --> 01:11:49.480
+people have derived, the histogram which I have shown you.
+
+01:11:49.580 --> 01:11:51.680
+So almost from the same part people have derived the
+
+01:11:51.680 --> 01:11:56.540
+formula. Now what it says by the way, so see when I say
+
+01:11:56.540 --> 01:11:58.480
+this, when
+
+01:12:05.680 --> 01:12:13.570
+I say basically this bell shaped curve, right. What my x
+
+01:12:13.570 --> 01:12:18.510
+axis is representing, what my x axis is representing guys,
+
+01:12:18.790 --> 01:12:19.750
+yeah.
+
+01:12:22.830 --> 01:12:24.210
+What this x axis is representing?
+
+01:12:32.460 --> 01:12:34.860
+Some people are saying occurrence, some people are saying
+
+01:12:34.860 --> 01:12:38.360
+sample, some people are saying range. X axis is representing
+
+01:12:38.360 --> 01:12:41.600
+basically a data, the original data, right. If you will look
+
+01:12:41.600 --> 01:12:44.780
+into even this one, so basically data between 0 to 2. So
+
+01:12:44.780 --> 01:12:46.980
+obviously there will be 0, there will be 1, there will be 2,
+
+01:12:47.060 --> 01:12:49.520
+something like this, right. So x axis is technically
+
+01:12:49.520 --> 01:12:53.680
+representing a data, right. X axis always represents a data,
+
+01:12:53.840 --> 01:13:01.180
+fine. So let's say I have to plot this area, right, I have
+
+01:13:01.180 --> 01:13:04.920
+to plot this area and you have this kind of a data, 1, 2, 3,
+
+01:13:04.960 --> 01:13:11.440
+4, 5, 6, 8, 10, 11, 12, right. Let me write down 1, 2, 3, 4,
+
+01:13:11.520 --> 01:13:16.880
+5, 6, 11, 8, 10, something like this, right, all of this
+
+01:13:16.880 --> 01:13:21.340
+data. Now this data set, can I say this data set is
+
+01:13:21.340 --> 01:13:24.140
+basically 1, 2, 3, 4, 5, 6, 11, 8, 10, something like this,
+
+01:13:24.140 --> 01:13:27.180
+right. Can I say this data set is 1 dimensional, yes.
+
+01:13:31.750 --> 01:13:34.990
+Now with this 1 dimensional data, will you be able to plot
+
+01:13:34.990 --> 01:13:35.470
+this curve?
+
+01:13:40.960 --> 01:13:43.500
+With 1 dimensional data, will you be able to plot this
+
+01:13:43.500 --> 01:13:47.140
+curve? Because to plot this kind of a curve, bell curve,
+
+01:13:47.340 --> 01:13:52.340
+right, or maybe like a skewed curve, let's say, can I say to
+
+01:13:52.340 --> 01:13:54.480
+any data which we are representing, let's say this is the
+
+01:13:54.480 --> 01:13:57.320
+dot which we are representing. Now this dot is having how
+
+01:13:57.320 --> 01:14:00.100
+many coordinates? So can I say this will be having x axis as
+
+01:14:00.100 --> 01:14:03.720
+well as y axis? So unless and until you are not aware about
+
+01:14:03.720 --> 01:14:08.500
+its x value and a y value, will you be able to plot even a
+
+01:14:08.500 --> 01:14:12.520
+single dot anywhere, will you be able to plot even a single
+
+01:14:12.520 --> 01:14:15.800
+dot anywhere if you are not aware about it, right. So
+
+01:14:15.800 --> 01:14:17.980
+technically this data set which is given to you, it's a 1
+
+01:14:17.980 --> 01:14:21.040
+dimensional data. You have to find out whether this data set
+
+01:14:21.040 --> 01:14:23.260
+is skewed or not. Obviously mean-median mode comparison you
+
+01:14:23.260 --> 01:14:26.500
+are going to do it. Let's say you have to like plot the same
+
+01:14:26.500 --> 01:14:29.680
+data, right, for which mean-median mode comparison you have
+
+01:14:29.680 --> 01:14:34.040
+done, right. In a bell-shaped curve to do analysis, right,
+
+01:14:34.080 --> 01:14:37.020
+further analysis, will you be able to do it? No, not at all
+
+01:14:37.020 --> 01:14:40.960
+because it's a 1D data, right and to plot this curve I need
+
+01:14:40.960 --> 01:14:44.160
+2D means I need y coordinate as well, who will give you y
+
+01:14:44.160 --> 01:14:44.540
+coordinate,
+
+01:14:47.830 --> 01:14:50.330
+yes, who will give you y coordinate.
+
+01:14:53.390 --> 01:14:56.930
+This is a formula of normal distribution, 1 by standard
+
+01:14:56.930 --> 01:15:01.210
+deviation root of 2 pi e to the power 1 by 2 bracket of data
+
+01:15:01.210 --> 01:15:03.950
+minus average divided by standard deviation of a square,
+
+01:15:05.050 --> 01:15:07.710
+where x can be. It can be ranging from minus infinity to
+
+01:15:07.710 --> 01:15:12.350
+positive infinity. So for every data, now this is the whole
+
+01:15:12.350 --> 01:15:14.790
+data that we have, right and this bell curve is been plotted
+
+01:15:14.790 --> 01:15:17.650
+for whole data, not just for single data, right, whole data
+
+01:15:17.650 --> 01:15:20.930
+so that it can represent the distribution of the data. So
+
+01:15:20.930 --> 01:15:23.770
+can I say that for this entire data set I will be able to
+
+01:15:23.770 --> 01:15:30.270
+find out average, yes, I will be able to find out average. I
+
+01:15:30.270 --> 01:15:33.110
+will be able to find out its standard deviation as well,
+
+01:15:33.270 --> 01:15:36.690
+root of variance and variance nothing but data minus.
+
+01:15:37.850 --> 01:15:41.630
+Average of a square divided by total data, summation of it,
+
+01:15:41.710 --> 01:15:45.650
+right. That is called as variance. Now I know the value of
+
+01:15:45.650 --> 01:15:49.030
+pi, I know the value of e, I know this one, right, so I know
+
+01:15:49.030 --> 01:15:53.230
+everything. One by one I will keep on putting x. So x is
+
+01:15:53.230 --> 01:15:56.250
+equal to 1, then 2, then 3, then 4, then 5, then 6, then 11,
+
+01:15:56.370 --> 01:16:00.730
+then 8, then 10, right. Can I say I will be able to get
+
+01:16:00.730 --> 01:16:08.280
+equivalent y and so that I will be able to draw that dot. So
+
+01:16:08.280 --> 01:16:12.460
+once you are going to draw that kind of a dot, right, once
+
+01:16:12.460 --> 01:16:15.660
+you are going to draw that kind of a dot, you will be
+
+01:16:15.660 --> 01:16:18.380
+eventually able to see the shape inside it.
+
+01:16:21.250 --> 01:16:25.750
+And if that shape is a perfect Bell shape curve, what you
+
+01:16:25.750 --> 01:16:30.010
+will say? You will say that my data set is normally
+
+01:16:30.010 --> 01:16:30.990
+distributed.
+
+01:16:34.130 --> 01:16:39.110
+If, right, if it is not forming, it is not able to form a
+
+01:16:39.110 --> 01:16:41.710
+perfect Bell shape curve, then let's say if it is forming
+
+01:16:41.710 --> 01:16:42.950
+something,
+
+01:16:45.440 --> 01:16:49.300
+this kind of a curve, can I say that it is skewed on right
+
+01:16:49.300 --> 01:16:55.230
+hand side? It means there are positive outliers. If it has
+
+01:16:55.230 --> 01:16:58.070
+skewed in this manner, can I say that it is skewed
+
+01:16:58.070 --> 01:17:02.230
+negatively, right? So we will be having a negative value or
+
+01:17:02.230 --> 01:17:05.470
+negative side more values, right. Otherwise you will be able
+
+01:17:05.470 --> 01:17:09.390
+to get this kind of a situation. A perfect Bell shape curve.
+
+01:17:09.530 --> 01:17:12.350
+So that can be three kind of a situation. No skewness, right
+
+01:17:12.350 --> 01:17:14.670
+skewness, left skewness. No skewness, left skewness, right
+
+01:17:14.670 --> 01:17:16.930
+skewness. Positive skewness or negative skewness. As simple
+
+01:17:16.930 --> 01:17:21.390
+as that. Whatsoever you say, right? So basically this again
+
+01:17:21.390 --> 01:17:23.930
+is skewness. I will be able to check it with the help of
+
+01:17:23.930 --> 01:17:29.230
+normal distribution curve, basically, right? Normal
+
+01:17:29.230 --> 01:17:31.370
+distribution curve. I will be able to basically check
+
+01:17:31.370 --> 01:17:34.870
+whether there is a skewness into my data or whether there is
+
+01:17:34.870 --> 01:17:38.690
+no skewness. This is the formula. So for any given data as
+
+01:17:38.690 --> 01:17:41.730
+data is going to be 1D, right? You have to find out Y axis
+
+01:17:41.730 --> 01:17:44.670
+as well so that you will be able to plot the data. This is
+
+01:17:44.670 --> 01:17:45.410
+what we are going to do. This is what we are doing. And
+
+01:17:45.410 --> 01:17:48.770
+eventually I will be able to find out whether my data set is
+
+01:17:48.770 --> 01:17:52.210
+skewed or whether my data set is not skewed. Make sense
+
+01:17:52.210 --> 01:17:52.610
+everyone?
+
+01:17:55.420 --> 01:17:57.980
+What is the meaning of normal distribution? Why we are
+
+01:17:57.980 --> 01:18:03.220
+talking about it? What is the advantage of it? Yeah. Okay.
+
+01:18:04.140 --> 01:18:06.540
+Now, so there is something called as normal distribution.
+
+01:18:06.800 --> 01:18:09.200
+There is something called as standard normal distribution.
+
+01:18:09.520 --> 01:18:12.800
+So basically it's a sift that we try to take. We'll talk
+
+01:18:12.800 --> 01:18:18.920
+about that more. But yeah, before that. So. Normal skewness
+
+01:18:18.920 --> 01:18:23.420
+is fine. All these things are fine. Now let's say I
+
+01:18:25.620 --> 01:18:26.060
+have a data.
+
+01:18:43.430 --> 01:18:48.450
+Okay. Now just do one thing or try to find out a mean of the
+
+01:18:48.450 --> 01:18:52.890
+data. Try to find out the standard deviation of the data.
+
+01:18:53.010 --> 01:18:57.490
+Give me two things. Mean and standard deviation of this data
+
+01:18:57.490 --> 01:18:58.550
+quickly.
+
+01:19:27.710 --> 01:19:32.010
+So mean is 4.53. That's why it's saying okay. So confirm
+
+01:19:32.010 --> 01:19:34.850
+guys. If that's the correct value. We can take.
+
+01:19:51.330 --> 01:19:56.730
+So 4.53. Mean is 4.53. So I think many people said the same
+
+01:19:56.730 --> 01:20:00.770
+thing. I can take that value. Okay. So you're saying a
+
+01:20:00.770 --> 01:20:06.090
+standard deviation is 2.85. Okay. So mean is basically 4.53
+
+01:20:07.370 --> 01:20:16.290
+and standard deviation is 2.85. Okay. Cool. Fine. Now. So
+
+01:20:16.290 --> 01:20:19.310
+I'm assuming that that there is no outlier. Maybe you can
+
+01:20:19.310 --> 01:20:22.130
+come and you can check with. Basically mean median and mode
+
+01:20:22.130 --> 01:20:25.470
+as well. So mode and like you know median you can consider
+
+01:20:25.470 --> 01:20:28.410
+it will be almost equivalent to the mean. This is the kind
+
+01:20:28.410 --> 01:20:31.510
+of a data I have taken. So it simply means that my data set
+
+01:20:31.510 --> 01:20:33.810
+is normally distributed. It simply means once again that
+
+01:20:33.810 --> 01:20:39.170
+that it is going to form a bell shape curve. Right. Now here
+
+01:20:39.170 --> 01:20:44.030
+the middle line of this bell shape curve will be my mu which
+
+01:20:44.030 --> 01:20:50.070
+is my mean. Right. Which is my mean. So 4.53. Yes. 4.53.
+
+01:20:50.310 --> 01:20:54.250
+Okay. Now 4.53 plus
+
+01:20:56.040 --> 01:21:05.300
+2.85. What is the value? And 4.53 minus 2.85. What is the
+
+01:21:05.300 --> 01:21:05.560
+value?
+
+01:21:10.340 --> 01:21:12.900
+So my mean inside my normal distribution is this one the
+
+01:21:12.900 --> 01:21:17.620
+middle line. Right. What is the value of plus and minus?
+
+01:21:36.740 --> 01:21:39.020
+Yes everyone. What is the value of this?
+
+01:21:41.950 --> 01:21:51.970
+7.38 1.68. 7.38 1.68. Okay. Now so in your data set the data
+
+01:21:51.970 --> 01:21:54.930
+set that you have taken right the data set that you have
+
+01:21:54.930 --> 01:21:58.850
+taken what is the minimum value 1 what is the maximum value
+
+01:21:58.850 --> 01:22:01.670
+9 yeah what is the minimum what is the maximum means your
+
+01:22:01.670 --> 01:22:05.830
+data set is actually ranging between 1 to 9. Now this is a
+
+01:22:05.830 --> 01:22:09.550
+one standard deviation right on positive side one standard
+
+01:22:09.550 --> 01:22:14.610
+deviation on negative side. So can I say that that if from
+
+01:22:14.610 --> 01:22:18.510
+mean from mean right. From this particular point this
+
+01:22:18.510 --> 01:22:25.090
+particular mean if I will start moving on this side and if I
+
+01:22:25.090 --> 01:22:29.650
+will start moving maybe on this side right and let's say if
+
+01:22:29.650 --> 01:22:33.930
+I'm going to draw right this cut let's say right at this
+
+01:22:33.930 --> 01:22:36.570
+particular point at this particular point right. So this
+
+01:22:36.570 --> 01:22:43.470
+point is basically 7.38 7.38 and this point is basically 1
+
+01:22:43.470 --> 01:22:50.830
+.68 yeah this point is basically 1.68. Yes okay. But I in my
+
+01:22:50.830 --> 01:22:55.730
+data set right in my data set I have a data beyond even this
+
+01:22:55.730 --> 01:23:00.730
+point right and I have a data even lesser than this point 1
+
+01:23:00.730 --> 01:23:03.810
+right so beyond this point 9 and lesser than this I have 1.
+
+01:23:04.270 --> 01:23:07.750
+Now what does this means this simply means that that
+
+01:23:07.750 --> 01:23:10.750
+although standard deviation talks about a distribution of
+
+01:23:10.750 --> 01:23:13.410
+the data on left hand side and right hand side or across a
+
+01:23:13.410 --> 01:23:15.210
+mean forget about left hand side and right hand side across
+
+01:23:15.210 --> 01:23:18.890
+the mean right. It represents the data but one standard
+
+01:23:18.890 --> 01:23:23.950
+deviation is not representing the whole data there is a data
+
+01:23:23.950 --> 01:23:28.630
+beyond this point as well. Now the next question is that how
+
+01:23:28.630 --> 01:23:31.450
+much data it is representing right how much data it is
+
+01:23:31.450 --> 01:23:34.390
+representing. So as this normal distribution is representing
+
+01:23:34.390 --> 01:23:37.970
+an area area is equal to 1. So this is representing
+
+01:23:37.970 --> 01:23:43.290
+basically on this side 34 percent and on this side it's
+
+01:23:43.290 --> 01:23:47.610
+representing 34 percent only. Even if you can well if you
+
+01:23:47.610 --> 01:23:50.330
+would like to validate you can validate it. So this is my
+
+01:23:50.330 --> 01:23:53.250
+one standard deviation left hand side and one standard
+
+01:23:53.250 --> 01:23:55.910
+deviation right hand side. Yeah one standard deviation left
+
+01:23:55.910 --> 01:23:59.150
+one standard deviation right and in total if you are going
+
+01:23:59.150 --> 01:24:01.650
+to combine this entire range so it is technically
+
+01:24:01.650 --> 01:24:07.050
+representing only 68 percent of the data set only 68 percent
+
+01:24:07.050 --> 01:24:10.490
+of the data set falls between a standard deviation if one
+
+01:24:10.490 --> 01:24:13.910
+standard deviation both hand side combined right not more
+
+01:24:13.910 --> 01:24:18.290
+than that. Okay. Now what data beyond this point as well in
+
+01:24:18.290 --> 01:24:20.670
+my original data set right in my original data set and if I
+
+01:24:20.670 --> 01:24:23.530
+am going to increase the data point will be even more clear
+
+01:24:23.530 --> 01:24:26.790
+but even in this one it's clear. So this one standard
+
+01:24:26.790 --> 01:24:30.070
+deviation on one side and other side so it's represent only
+
+01:24:30.070 --> 01:24:33.730
+68 percent of the data which is majority right which is
+
+01:24:33.730 --> 01:24:41.430
+technically a majority. Then now tell me 4.53 plus 2 into 2
+
+01:24:41.430 --> 01:24:49.050
+.85. And 4.53 minus 2.85. 2 into 2.85. So means two standard
+
+01:24:49.050 --> 01:24:54.190
+deviation I am considering right. So what is the value 10.23
+
+01:24:54.190 --> 01:25:01.430
+as Adil has said and then minus 1.17. So now this is my
+
+01:25:01.430 --> 01:25:04.830
+let's say two standard deviation right. So from here if I
+
+01:25:04.830 --> 01:25:07.450
+will consider this is my two standard deviation on this side
+
+01:25:07.450 --> 01:25:09.750
+and two standard deviation on this side. Let me change the
+
+01:25:09.750 --> 01:25:13.150
+color. Okay. So two on this side two on this side. So now
+
+01:25:13.150 --> 01:25:16.050
+this range is technically represented. Okay. So this
+
+01:25:16.050 --> 01:25:18.130
+represents what and how much of data so this technically
+
+01:25:18.130 --> 01:25:23.190
+represents a 95 percent of the data means this is adding
+
+01:25:23.190 --> 01:25:29.030
+more of 13.5 percent on this side and this is adding 13.5 on
+
+01:25:29.030 --> 01:25:31.830
+this side. So 95 percent of the data will come in between
+
+01:25:31.830 --> 01:25:35.450
+this one within two standard deviation range and now if you
+
+01:25:35.450 --> 01:25:38.490
+will see all this data within this one all this data within
+
+01:25:38.490 --> 01:25:42.490
+this one right. So if this is my minus 1.17 and this point
+
+01:25:42.490 --> 01:25:46.550
+is the basically my 10.23. Almost all the data I am able to
+
+01:25:46.550 --> 01:25:49.310
+accommodate right although this is a very small data right
+
+01:25:49.310 --> 01:25:53.350
+we are able to accommodate technically as per distribution
+
+01:25:53.350 --> 01:25:57.430
+95 percent of the data. If you are going to consider three
+
+01:25:57.430 --> 01:26:00.550
+standard deviation basically right three standard deviation.
+
+01:26:00.830 --> 01:26:03.690
+So three standard deviation will be able to accommodate how
+
+01:26:03.690 --> 01:26:06.650
+much of data. So it will be able to accommodate technically
+
+01:26:06.650 --> 01:26:13.230
+99.7 percent of the data not 100 percent right not 100
+
+01:26:13.230 --> 01:26:16.430
+percent. Okay. So on this normal distribution score whenever
+
+01:26:16.430 --> 01:26:18.670
+you are trying to represent the data so one standard
+
+01:26:18.670 --> 01:26:21.310
+deviation never represents the whole data it only represents
+
+01:26:21.310 --> 01:26:25.810
+significant which is a 68 percent right of the data further
+
+01:26:25.810 --> 01:26:29.950
+95 further 99.7 percent. So in general three standard we
+
+01:26:29.950 --> 01:26:32.470
+generally we consider that three standard deviation is
+
+01:26:32.470 --> 01:26:35.470
+representing the whole data. So although it is not 99.7 but
+
+01:26:35.470 --> 01:26:38.650
+yeah we say that it is representing and based on that
+
+01:26:38.650 --> 01:26:42.270
+assumption so we try to consider that okay fine so like you
+
+01:26:42.270 --> 01:26:46.810
+know area of this one is basically one right now let me draw
+
+01:26:46.810 --> 01:26:49.950
+a neat and clean I will tell you the significance of it now.
+
+01:26:51.190 --> 01:26:54.790
+So let us say this is the bell curve I talked about
+
+01:26:54.790 --> 01:27:00.650
+basically a one standard distribution which is 64 percent in
+
+01:27:00.650 --> 01:27:06.650
+total then I talked about a two standard deviation which is
+
+01:27:06.650 --> 01:27:11.210
+95 percent in total and then I talked about basically a
+
+01:27:11.210 --> 01:27:15.030
+three standard deviation which is 99.7 percent.
+
+01:27:18.150 --> 01:27:21.970
+So as this whole bell curve is representing area is equals
+
+01:27:21.970 --> 01:27:26.870
+to one so if data set falls between this range right if data
+
+01:27:26.870 --> 01:27:30.550
+set falls between this particular range and if someone is
+
+01:27:30.550 --> 01:27:33.390
+saying that what is the probability of occurrence of this
+
+01:27:33.390 --> 01:27:40.050
+data we say that it is a 0.64 or 64 percent in terms of
+
+01:27:40.050 --> 01:27:43.350
+probability 0.64 right. So this is what this is going to
+
+01:27:43.350 --> 01:27:45.550
+represent or we can say that that okay fine. So this is like
+
+01:27:45.550 --> 01:27:48.610
+in this area this data set is basically like you know
+
+01:27:48.610 --> 01:27:52.830
+available right in general at the end of the day. So this is
+
+01:27:52.830 --> 01:27:55.650
+the significance of normal distribution guys and yeah so we
+
+01:27:55.650 --> 01:27:57.650
+will be talking about a standard normal distribution and
+
+01:27:57.650 --> 01:28:00.830
+further things on top of this one itself right and it is a
+
+01:28:00.830 --> 01:28:02.550
+very important concept believe me it is very important
+
+01:28:02.550 --> 01:28:06.330
+concept and we will try to explore more and more this entire
+
+01:28:06.330 --> 01:28:08.930
+part. So hope all of you are able to understand the
+
+01:28:08.930 --> 01:28:11.810
+distribution of the data yeah. So there is something called
+
+01:28:11.810 --> 01:28:14.050
+as Z statistics there is something called as T statistics
+
+01:28:14.930 --> 01:28:16.950
+there is something called as P values which you will end up
+
+01:28:16.950 --> 01:28:18.890
+using again and again and again even in algorithm
+
+01:28:18.890 --> 01:28:22.470
+classification regression every algorithm. So yeah we will
+
+01:28:22.470 --> 01:28:26.530
+try to understand these things in depth. So this normal
+
+01:28:26.530 --> 01:28:28.750
+distribution are used in LLM training model testing
+
+01:28:28.750 --> 01:28:32.490
+everywhere see this is a base of mathematics everywhere
+
+01:28:32.490 --> 01:28:35.430
+everywhere means literally everywhere 65
+
+01:28:37.290 --> 01:28:39.910
+percent means the data set are following normal no 65
+
+01:28:39.910 --> 01:28:42.830
+percent means 65 percent the data will be ranging between
+
+01:28:42.830 --> 01:28:46.590
+this to this means mean of the data standard deviation. This
+
+01:28:46.590 --> 01:28:47.870
+is the meaning of 65 percent.
+
+01:29:10.680 --> 01:29:12.920
+How we can say that it is following with the normal
+
+01:29:12.920 --> 01:29:15.040
+distribution yes guys how we can say it is following with
+
+01:29:15.040 --> 01:29:17.320
+the normal distribution I think we have we have the answer.
+
+01:29:18.740 --> 01:29:22.360
+How we can say any data set is falling under normal
+
+01:29:22.360 --> 01:29:26.080
+distribution means they are going to form a bell curve yes
+
+01:29:26.080 --> 01:29:28.280
+how we can say answers
+
+01:29:36.800 --> 01:29:38.280
+68
+
+01:29:47.300 --> 01:29:51.380
+percent represented in one SD no that is fine but how we can
+
+01:29:51.380 --> 01:29:53.860
+say that my data set is normally normally distributed in a
+
+01:29:53.860 --> 01:29:54.580
+very first place.
+
+01:29:59.200 --> 01:30:01.260
+What we are doing 0 to 1 no yes
+
+01:30:03.530 --> 01:30:08.190
+Adil is giving you a correct answer I told you right mean
+
+01:30:08.190 --> 01:30:09.730
+median mode so
+
+01:30:12.770 --> 01:30:17.210
+if mean is equal to median is equal to mode your data set is
+
+01:30:17.210 --> 01:30:22.110
+normally distributed means it is forming the bell curve and
+
+01:30:22.110 --> 01:30:25.610
+then other concepts fall into picture that 68 percent data
+
+01:30:25.610 --> 01:30:28.750
+between one standard deviation 95 between two standard
+
+01:30:28.750 --> 01:30:32.310
+deviation and then if you will start spreading the data on a
+
+01:30:32.310 --> 01:30:38.560
+bell curve right. So that is the answer okay so in the
+
+01:30:38.560 --> 01:30:41.820
+question guys if there is no question then you know the like
+
+01:30:41.820 --> 01:30:43.980
+assignment that I have given to you so please try to
+
+01:30:43.980 --> 01:30:47.100
+complete the assignment maybe send it over my mail id or we
+
+01:30:47.100 --> 01:30:50.620
+can distribute we can even discuss it inside your groups and
+
+01:30:50.620 --> 01:30:55.000
+yeah so let us try to close your first assignment next week
+
+01:30:55.000 --> 01:30:57.980
+again I am going to give you another assignment Sunday not
+
+01:30:57.980 --> 01:31:00.740
+Saturday yeah Sunday I will give you another assignment so
+
+01:31:00.740 --> 01:31:03.720
+that you can complete those assignments as well Sunday
+
+01:31:03.720 --> 01:31:05.660
+assignment is going to be like a heavy method. It is a
+
+01:31:05.660 --> 01:31:07.620
+mathematical assignment which I am going to give you so that
+
+01:31:07.620 --> 01:31:10.480
+you can practice lot of like you know stuff which we are
+
+01:31:10.480 --> 01:31:14.900
+going to learn inside a class so if there is no question for
+
+01:31:14.900 --> 01:31:21.360
+me then we will try to rest the class for today if data is
+
+01:31:21.360 --> 01:31:23.980
+skewness more it is not normal distribution how we can
+
+01:31:23.980 --> 01:31:27.540
+handle those data set we can remove those data set we can
+
+01:31:27.540 --> 01:31:30.060
+try to basically normalize those data set there is something
+
+01:31:30.060 --> 01:31:32.300
+called as standard normal distribution so we can try to
+
+01:31:32.300 --> 01:31:35.220
+standardize those data set we can try to downgrade the scale
+
+01:31:35.220 --> 01:31:38.660
+of the data set. So these are the treatment that we try to
+
+01:31:38.660 --> 01:31:44.180
+do it if data set is skewed or we can like eliminate yeah
+
+01:31:47.820 --> 01:31:50.400
+there are many technique eventually we will try to explore
+
+01:31:50.400 --> 01:31:54.480
+those things so find everyone with that you know hope all of
+
+01:31:54.480 --> 01:31:57.260
+us are able to understand although it is a new concept for
+
+01:31:57.260 --> 01:31:59.960
+many of us but yeah I am assuming that most of us are able
+
+01:31:59.960 --> 01:32:03.760
+to grasp the concept that is the whole idea if not revise it
+
+01:32:03.760 --> 01:32:06.400
+and then try to grasp the concept with that thank you so
+
+01:32:06.400 --> 01:32:09.140
+much everyone take care and see you again in my next lesson.
+
+01:32:11.300 --> 01:32:15.080
+Assignment 7 no it was assignment I don't know like last
+
+01:32:15.080 --> 01:32:17.260
+time I have given you the assignment right in a class so I
+
+01:32:17.260 --> 01:32:18.980
+was talking about that data
+
+01:32:21.030 --> 01:32:23.430
+cleaning like removing outlier from the data will improve
+
+01:32:23.430 --> 01:32:28.590
+the model right yes yeah that's true yep okay take care
+
+01:32:28.590 --> 01:32:29.430
+everyone thank you so much
+

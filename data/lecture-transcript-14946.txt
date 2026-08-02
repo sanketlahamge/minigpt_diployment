@@ -1,0 +1,3698 @@
+WEBVTT
+
+00:07:46.640 --> 00:07:49.780
+Okay, so hi everyone. I believe I'm already visible to all
+
+00:07:49.780 --> 00:07:51.440
+of you guys. So please confirm so that we can start.
+
+00:07:58.940 --> 00:08:02.680
+Okay, so what do you mean everyone? Now let's start with the
+
+00:08:02.680 --> 00:08:06.140
+class. So basically in my last class, I was talking about a
+
+00:08:06.140 --> 00:08:08.680
+logistic regression. So now in this class, let's talk about
+
+00:08:08.680 --> 00:08:12.060
+a next algorithm called as decision-free. Very important
+
+00:08:12.060 --> 00:08:14.820
+algorithm, I would say. And yeah, so with the help of this
+
+00:08:14.820 --> 00:08:17.820
+decision-free, you will be able to do a regression as well
+
+00:08:17.820 --> 00:08:21.020
+as classification. So we'll try to understand first of all a
+
+00:08:21.020 --> 00:08:23.220
+classification problem, how we can solve it and
+
+00:08:23.460 --> 00:08:25.660
+theoretically and then practically then we'll try to
+
+00:08:25.660 --> 00:08:29.800
+understand a regression model so here we go
+
+00:08:34.390 --> 00:08:40.790
+now so basically last class i was talking about a logistic
+
+00:08:40.790 --> 00:08:43.330
+regression and we have seen that that yes it is one of the
+
+00:08:43.330 --> 00:08:45.910
+algorithm by which we can try to basically train the model
+
+00:08:45.910 --> 00:08:49.830
+and eventually i will be able to do a classification so
+
+00:08:49.830 --> 00:08:52.910
+whether things belongs to this class or that class whether
+
+00:08:52.910 --> 00:08:55.170
+this is going to happen then what will be the final result
+
+00:08:55.170 --> 00:08:57.890
+so all sort of a scenario we have seen already before that
+
+00:08:57.890 --> 00:09:00.670
+so we have even gone through a regression and now we know
+
+00:09:00.670 --> 00:09:03.690
+that that okay so there are two kind of a problem which you
+
+00:09:03.690 --> 00:09:06.550
+know like comes inside a machine learning one is a
+
+00:09:06.550 --> 00:09:09.950
+regression one is a classification there are other tasks as
+
+00:09:09.950 --> 00:09:12.250
+well so there is something called as clustering uh going
+
+00:09:12.250 --> 00:09:14.410
+forward so we are going to explore that but as of now let's
+
+00:09:14.410 --> 00:09:17.550
+talk about regression classification itself so again inside
+
+00:09:17.550 --> 00:09:20.130
+this regression and classification you will be able to find
+
+00:09:20.130 --> 00:09:23.050
+out multiple algorithms so which is going to help you out to
+
+00:09:23.050 --> 00:09:26.910
+do a classification or to do a regression again one such
+
+00:09:26.910 --> 00:09:30.350
+algorithm is a decision tree and this entry is a very very
+
+00:09:30.350 --> 00:09:34.070
+important i would say algorithm because it's one of the
+
+00:09:34.070 --> 00:09:37.790
+robust one a best one and this algorithm will be used in a
+
+00:09:37.790 --> 00:09:40.670
+multiple places so even the next algorithm which we are
+
+00:09:40.670 --> 00:09:44.350
+going to discuss which is a random forest next algorithm
+
+00:09:44.350 --> 00:09:47.170
+which i'm going to discuss which is called as xg boost or
+
+00:09:47.170 --> 00:09:49.870
+any kind of a boosting algorithm gradient boosting ada boost
+
+00:09:49.870 --> 00:09:54.930
+or maybe like a you know like any other algorithm which
+
+00:09:54.930 --> 00:09:57.890
+comes in under the category of this boosting uh things so
+
+00:09:57.890 --> 00:10:00.610
+you will be able to find out that that everywhere this
+
+00:10:00.610 --> 00:10:03.290
+decision tree algorithm is going to behave as a base
+
+00:10:03.290 --> 00:10:06.210
+algorithm and then based on that so people have basically
+
+00:10:06.210 --> 00:10:09.370
+created another different different kind of algorithm so
+
+00:10:09.370 --> 00:10:13.630
+here what is a decision tree let's try to understand that
+
+00:10:13.630 --> 00:10:18.010
+particular part in a very very first place right so
+
+00:10:18.010 --> 00:10:21.370
+algorithm name as i said is basically
+
+00:10:24.160 --> 00:10:30.300
+decision tree now so how decision tree is going to work
+
+00:10:30.300 --> 00:10:32.960
+basically how it is going to do a classification how it is
+
+00:10:32.960 --> 00:10:35.320
+going to do a regression so all of these things we'll try to
+
+00:10:35.320 --> 00:10:38.860
+understand in a step-by-step manner and that too in a very
+
+00:10:38.860 --> 00:10:42.040
+clean derivative manner we'll try to understand so that you
+
+00:10:42.040 --> 00:10:45.300
+can visualize that okay how this is going to create a tree
+
+00:10:45.300 --> 00:10:48.080
+and how it is going to basically you know make a decision at
+
+00:10:48.080 --> 00:10:50.860
+the end of the day i'll give you a beautiful example for
+
+00:10:50.860 --> 00:10:53.360
+both classification as well as for a regression in terms of
+
+00:10:53.360 --> 00:10:56.460
+theory or practical both so here when we talk about decision
+
+00:10:56.460 --> 00:10:59.900
+tree so it's nothing but a kind of a structure you will be
+
+00:10:59.900 --> 00:11:05.440
+able to find out so where what do we do so we try to prepare
+
+00:11:05.440 --> 00:11:08.860
+something like this so where there will be you can say a
+
+00:11:08.860 --> 00:11:13.120
+head start or master node right and then if something will
+
+00:11:13.120 --> 00:11:16.420
+happen come this side if something will happen come this
+
+00:11:16.420 --> 00:11:18.960
+side if something will happen again come this side and then
+
+00:11:18.960 --> 00:11:22.240
+after that nowhere you can go so this is going to be the
+
+00:11:22.240 --> 00:11:25.720
+decision so there is something called as leaf node so these
+
+00:11:25.720 --> 00:11:28.700
+are nothing but these are basically a leaf node the ender
+
+00:11:28.700 --> 00:11:32.380
+node you can say right and here so you will be able to find
+
+00:11:32.380 --> 00:11:35.000
+out that we are going to build a condition maybe greater
+
+00:11:35.000 --> 00:11:38.480
+than this lesser than this or maybe this will happen that
+
+00:11:38.480 --> 00:11:40.660
+will happen so you can think in this manner in a layman
+
+00:11:40.660 --> 00:11:43.100
+manner you can think in this particular way that you know
+
+00:11:43.100 --> 00:11:45.400
+decision tree is going to create a tree based on the
+
+00:11:45.400 --> 00:11:49.000
+instances are based on basically if this is going to happen
+
+00:11:49.000 --> 00:11:51.400
+then go to left side if this is going to happen then go to
+
+00:11:51.400 --> 00:11:54.820
+right hand side right side for example in a real life if i'm
+
+00:11:54.820 --> 00:11:56.720
+going to give you an example that if you know machine
+
+00:11:56.720 --> 00:11:59.020
+learning then obviously you can apply for a machine learning
+
+00:11:59.020 --> 00:12:01.760
+job if you don't know machine learning so in that case you
+
+00:12:01.760 --> 00:12:04.340
+can't apply for the machine learning job as simple as that
+
+00:12:04.340 --> 00:12:07.940
+so again we can try to make a decision and everywhere every
+
+00:12:07.940 --> 00:12:10.400
+time in our day to day life morning till evening so we try
+
+00:12:10.400 --> 00:12:13.040
+to make a lot of decisions right if it is raining i will not
+
+00:12:13.040 --> 00:12:15.940
+go for a walk if it is not raining if it is like a sunny so
+
+00:12:15.940 --> 00:12:19.480
+obviously i'll go for a walk so every day every minute maybe
+
+00:12:19.480 --> 00:12:23.000
+like you know uh we try to make a decision even before
+
+00:12:23.000 --> 00:12:25.640
+attending this classes so you must have made a decision that
+
+00:12:25.640 --> 00:12:28.100
+okay so maybe we can go and learn something so let's join
+
+00:12:28.100 --> 00:12:30.640
+the class maybe if you're thinking that okay fine so let's
+
+00:12:30.640 --> 00:12:33.440
+just go and watch or maybe i already know decision tree
+
+00:12:33.440 --> 00:12:35.660
+maybe i'll not learn anything new then you will not join the
+
+00:12:35.660 --> 00:12:39.240
+class so in life we keep on making a decision so if this is
+
+00:12:39.240 --> 00:12:41.340
+going to happen do this that is going to happen do that
+
+00:12:41.340 --> 00:12:43.920
+decision tree works on the same philosophy decision tree
+
+00:12:43.920 --> 00:12:48.540
+works on the same principle but here uh you know uh there
+
+00:12:48.540 --> 00:12:51.480
+will be like a you know one crucial things you will be able
+
+00:12:51.480 --> 00:12:56.020
+to find out which decision tree tries to solve now what is
+
+00:12:56.020 --> 00:13:00.340
+that by the way so let's say if i'm going to give you a data
+
+00:13:00.340 --> 00:13:05.000
+like if i'm going to give you a data so here let's say we
+
+00:13:05.000 --> 00:13:09.620
+have let me take a clean picture okay
+
+00:13:11.760 --> 00:13:15.680
+so if i'm going to give you basically a very simple data so
+
+00:13:15.680 --> 00:13:26.100
+let's say we have here study hour a study hour result so
+
+00:13:26.100 --> 00:13:33.900
+study hour let's say four five six one two one right so
+
+00:13:33.900 --> 00:13:41.540
+result pass pass pass and then here so maybe I can write
+
+00:13:41.540 --> 00:13:48.500
+fail fail fail right so let's say I have this kind of a data
+
+00:13:48.500 --> 00:13:51.760
+set which is available to me now if someone is going to you
+
+00:13:51.760 --> 00:13:54.680
+know ask me to build a tree obviously I will be able to
+
+00:13:54.680 --> 00:13:57.660
+build it in an easiest possible manner so a study hour is
+
+00:13:57.660 --> 00:14:01.480
+what it's my feature column and this is my basically label
+
+00:14:01.480 --> 00:14:04.260
+column label means a resultant column basically we have so
+
+00:14:04.260 --> 00:14:07.080
+study hour and we are able to analyze we are able to
+
+00:14:07.080 --> 00:14:10.340
+understand that that if a study hour is more than or equal
+
+00:14:10.340 --> 00:14:13.040
+more than or equal to basically greater than equal to four
+
+00:14:13.040 --> 00:14:16.100
+so in that case it's passed just by looking into this data
+
+00:14:16.100 --> 00:14:21.520
+and if a study hour is i would say a lesser than two hour or
+
+00:14:21.520 --> 00:14:24.060
+lesser than equal to two hours so in that case it will be
+
+00:14:24.060 --> 00:14:27.940
+fail so if you have to make a decision or if you have to
+
+00:14:27.940 --> 00:14:31.240
+create a tree so maybe probably what you can do so you will
+
+00:14:31.240 --> 00:14:35.900
+try to create one head node or start node over here and then
+
+00:14:35.900 --> 00:14:39.980
+you can try to label it as a study hour right and then you
+
+00:14:39.980 --> 00:14:42.860
+will create two branches and you will say that that greater
+
+00:14:42.860 --> 00:14:47.140
+than four hour what will be a result so result is going to
+
+00:14:47.140 --> 00:14:52.200
+be pass and lesser than basically two hour so what will be a
+
+00:14:52.200 --> 00:14:56.060
+result result is going to be fail right so let's say if i'm
+
+00:14:56.060 --> 00:14:59.060
+going to add some sort of a data over here so maybe if i'm
+
+00:14:59.060 --> 00:15:05.940
+going to uh let's say add over here uh 4.5 hours and if i'm
+
+00:15:05.940 --> 00:15:08.780
+looking for a prediction over here so easily you will try to
+
+00:15:08.780 --> 00:15:12.360
+go over here so study hour is 4.5 so obviously it will fall
+
+00:15:12.360 --> 00:15:15.440
+in this particular region so person result is going to be
+
+00:15:15.440 --> 00:15:17.720
+basically a class is going to be passed for me in this
+
+00:15:17.720 --> 00:15:20.920
+particular situation so easily i will be able to make a
+
+00:15:20.920 --> 00:15:23.760
+prediction make sense guys with respect to this data very
+
+00:15:23.760 --> 00:15:26.900
+very simple right one of the simplest decision we have made
+
+00:15:26.900 --> 00:15:34.160
+very simple right so everyone in chat please yes everyone in
+
+00:15:34.160 --> 00:15:38.560
+chat simple decision right we are able to make a very simple
+
+00:15:38.560 --> 00:15:41.440
+decision if I have only one feature column right if I have
+
+00:15:41.440 --> 00:15:45.180
+only one column so in that case I'm not like you know even
+
+00:15:45.180 --> 00:15:47.920
+considering much it's a simple calculation which I am trying
+
+00:15:47.920 --> 00:15:51.020
+to do and I'm able to create a tree over here but the
+
+00:15:51.020 --> 00:15:54.240
+problem will arise right a problem will arise then let's say
+
+00:15:54.240 --> 00:15:59.300
+I have right so i have technically
+
+00:16:06.820 --> 00:16:16.100
+x1 x2 x3 x4 x5 x6 and then final y i have technically six
+
+00:16:16.100 --> 00:16:19.140
+feature column for example so for the same example our
+
+00:16:19.140 --> 00:16:23.580
+example so we have a study hour right uh we have basically
+
+00:16:23.580 --> 00:16:29.080
+like you know uh study hour and then uh class attendance
+
+00:16:29.080 --> 00:16:38.320
+over here and then maybe like uh you know uh sleep time wake
+
+00:16:38.320 --> 00:16:44.220
+up time maybe right uh daily activities and so on so when i
+
+00:16:44.220 --> 00:16:48.680
+have a multiple columns and all of these data for a multiple
+
+00:16:48.680 --> 00:16:52.840
+columns are available right multiple columns are available
+
+00:16:52.840 --> 00:16:57.040
+over here right and then based on that we have to make a
+
+00:16:57.040 --> 00:17:00.580
+decision pass fail pass fail or maybe multiple decisions so
+
+00:17:00.580 --> 00:17:03.840
+here we just have a two classes there could be any number of
+
+00:17:03.840 --> 00:17:06.980
+classes 100 number of classes as well a final result as well
+
+00:17:06.980 --> 00:17:11.260
+so when we will be into this kind of a situation now if i'm
+
+00:17:11.260 --> 00:17:15.800
+going to ask you to create a tree right so who will be like
+
+00:17:15.800 --> 00:17:18.900
+you know who will be the candidate over here who will be
+
+00:17:18.900 --> 00:17:22.240
+candidate over here who will be candidate over here so how
+
+00:17:22.240 --> 00:17:24.660
+you are going to make a decision in that situation candidate
+
+00:17:24.660 --> 00:17:27.380
+means so based on which column value you are going to say
+
+00:17:27.380 --> 00:17:30.940
+that okay if value is greater than this go this side value
+
+00:17:30.940 --> 00:17:33.280
+is greater than this go this side how you are going to say
+
+00:17:33.280 --> 00:17:36.660
+that any idea yes
+
+00:17:38.230 --> 00:17:41.070
+how you will be able to say that okay fine so if this is
+
+00:17:41.070 --> 00:17:45.030
+because in a previous example study hour right so study hour
+
+00:17:45.030 --> 00:17:47.410
+more than this go this side study hour less than this go
+
+00:17:47.410 --> 00:17:50.910
+this side you are able to make a decision simple but here so
+
+00:17:50.910 --> 00:17:53.430
+we had not just have a study hour we have a study hour or
+
+00:17:53.430 --> 00:17:56.490
+maybe like you know class attendance we have a study sleep
+
+00:17:56.490 --> 00:17:59.810
+time waking time many things is available over here so who
+
+00:17:59.810 --> 00:18:02.310
+will be the candidate over here so based on what i will be
+
+00:18:02.310 --> 00:18:08.090
+able to create a split any idea anyone because that's a
+
+00:18:08.090 --> 00:18:10.150
+major part unless and until I'm not able to create a split
+
+00:18:10.150 --> 00:18:13.070
+unless and until I'm not able to you know generalize a
+
+00:18:13.070 --> 00:18:16.310
+particular model on this particular data I will not be able
+
+00:18:16.310 --> 00:18:19.450
+to build the algorithm so Sangeet is saying study time how
+
+00:18:19.450 --> 00:18:22.830
+maybe
+
+00:18:27.150 --> 00:18:30.130
+a study hour is going to like doesn't matter at what time
+
+00:18:30.130 --> 00:18:32.810
+like I'm trying to like a study but yeah maybe a number of
+
+00:18:32.810 --> 00:18:36.990
+hours matters more that's possible right maybe my class and
+
+00:18:36.990 --> 00:18:43.310
+this matters more possible so based on what okay what so is
+
+00:18:43.310 --> 00:18:47.050
+saying that all but again one node the node that you are
+
+00:18:47.050 --> 00:18:49.650
+able to see so let's say this is the my master node a parent
+
+00:18:49.650 --> 00:18:54.350
+node right so basically one node is going to consider only
+
+00:18:54.350 --> 00:18:57.970
+one feature means only one column how you will be able to
+
+00:18:57.970 --> 00:19:01.150
+make it to see I'm like if you start doing it and if you'll
+
+00:19:01.150 --> 00:19:04.730
+consider one row considering all the columns right I mean
+
+00:19:04.730 --> 00:19:06.810
+you will not be able to make a decision? Which one will be
+
+00:19:06.810 --> 00:19:09.710
+like a greater than, lesser than, equal to all those things.
+
+00:19:11.050 --> 00:19:13.790
+Business problem, a statement feature? No, not at all.
+
+00:19:14.730 --> 00:19:22.120
+Collective set of values? No. Any other answers? Are you
+
+00:19:22.120 --> 00:19:24.060
+able to understand the problem guys? The real problem?
+
+00:19:28.340 --> 00:19:31.040
+Yeah. Are you able to understand the problem? So what is the
+
+00:19:31.040 --> 00:19:33.480
+problem that we are facing? Yes.
+
+00:19:37.110 --> 00:19:42.170
+yes so that's a decision tree algorithm which we are going
+
+00:19:42.170 --> 00:19:46.390
+to discuss now that's an actual problem right and this is
+
+00:19:46.390 --> 00:19:48.970
+what a decision tree try to solve and this is where you will
+
+00:19:48.970 --> 00:19:52.450
+learn the real algorithm so philosophy we are able to
+
+00:19:52.450 --> 00:19:54.530
+understand behind a decision tree with the help of this
+
+00:19:54.530 --> 00:19:57.730
+particular example but this is the problem that you have to
+
+00:19:57.730 --> 00:20:00.090
+understand and you have to solve it and then only you can
+
+00:20:00.090 --> 00:20:03.110
+say that that yes i'm able to understand a decision tree
+
+00:20:03.110 --> 00:20:06.770
+algorithm if we are able to build a tree for this kind of a
+
+00:20:06.770 --> 00:20:11.190
+data set as simple as that very very simple right okay let's
+
+00:20:11.190 --> 00:20:13.950
+do it then so let's take one data right i'm going to
+
+00:20:13.950 --> 00:20:17.550
+consider one data and based on that data so we will try to
+
+00:20:17.550 --> 00:20:19.910
+do a derivation so there is something called as entropy
+
+00:20:20.510 --> 00:20:23.090
+there is something called as getting indexing there is
+
+00:20:23.090 --> 00:20:26.130
+something called as information gain so these are three four
+
+00:20:26.130 --> 00:20:28.890
+terms you have to understand and once you will be able to
+
+00:20:28.890 --> 00:20:31.430
+understand these three four terms then only you will be able
+
+00:20:31.430 --> 00:20:34.330
+to understand what is a decision tree and that too with
+
+00:20:34.330 --> 00:20:38.970
+respect to the data right so let's try to take one set of
+
+00:20:38.970 --> 00:20:43.530
+the data over here fine so here what i'm going to do so i'm
+
+00:20:43.530 --> 00:20:48.490
+going to consider this data so here let's say we have a
+
+00:20:48.490 --> 00:20:56.090
+student and then we have a study hour then
+
+00:20:59.450 --> 00:21:02.830
+we have attendance then
+
+00:21:05.360 --> 00:21:05.900
+we have
+
+00:21:10.570 --> 00:21:17.770
+assignment then we have result right so let's say we have a
+
+00:21:17.770 --> 00:21:19.530
+data for 10
+
+00:21:22.060 --> 00:21:23.720
+student so
+
+00:21:41.930 --> 00:21:50.490
+we have basically s1 we have s2 we have s3 we have s4 s5 s6
+
+00:21:50.490 --> 00:21:58.510
+s7 s8 s9 s10 okay now study hour so let's say it's a high
+
+00:21:58.510 --> 00:22:01.730
+which has been given it can be numerical value as well so in
+
+00:22:01.730 --> 00:22:04.390
+both the cases it's possible numerical categorical doesn't
+
+00:22:04.390 --> 00:22:10.510
+matter at all study hour is high then this is low let's say
+
+00:22:10.510 --> 00:22:23.200
+low and then this is medium medium medium and then this is
+
+00:22:23.200 --> 00:22:29.420
+basically low attendance basically what so it's high high
+
+00:22:29.420 --> 00:22:48.220
+low high low low high low high high I. Now, assignment
+
+00:22:49.660 --> 00:22:51.220
+completed,
+
+00:22:54.330 --> 00:22:55.510
+incomplete,
+
+00:23:05.320 --> 00:23:06.160
+complete,
+
+00:23:10.600 --> 00:23:11.360
+incomplete,
+
+00:23:16.020 --> 00:23:16.740
+complete,
+
+00:23:19.120 --> 00:23:19.900
+incomplete,
+
+00:23:22.380 --> 00:23:34.910
+incomplete, incomplete. complete result pass pass pass
+
+00:23:34.910 --> 00:23:38.390
+pass fail
+
+00:23:39.960 --> 00:23:53.270
+fail pass fail pass fail so now we have this data right we
+
+00:23:53.270 --> 00:23:56.310
+have this data over here and based on this data so maybe we
+
+00:23:56.310 --> 00:23:59.050
+can try to create a decision tree problem is again same so
+
+00:23:59.050 --> 00:24:02.890
+if i'm trying to create a parent over here now which one is
+
+00:24:02.890 --> 00:24:05.090
+going to contribute a study hour is going to contribute
+
+00:24:05.090 --> 00:24:07.470
+attendance is going to contribute or assignment is going to
+
+00:24:07.470 --> 00:24:10.850
+contribute based on what i can try to decide or divide right
+
+00:24:10.850 --> 00:24:14.750
+so again greater than this one lesser than this one and not
+
+00:24:14.750 --> 00:24:17.310
+just that one so even inside the study hour we have three
+
+00:24:17.310 --> 00:24:20.290
+things high low or medium so in a numerical data set there
+
+00:24:20.290 --> 00:24:22.990
+can be a lot of variance you will be able to find out so
+
+00:24:22.990 --> 00:24:25.450
+again i can't create this three kind of a condition right
+
+00:24:25.450 --> 00:24:28.870
+that if i go through this low this one medium this one so in
+
+00:24:28.870 --> 00:24:32.230
+a single attribute or in a single feature also so we have a
+
+00:24:32.230 --> 00:24:34.670
+multiple variant same we have a multiple variant same we
+
+00:24:34.670 --> 00:24:37.990
+have a multiple variants and that is going to create a real
+
+00:24:37.990 --> 00:24:41.290
+problem for me i'm not able to decide technically that which
+
+00:24:41.290 --> 00:24:44.350
+one is going to be my parent which one is going to my child
+
+00:24:44.350 --> 00:24:48.010
+at the end of the day and and again so the respective
+
+00:24:48.010 --> 00:24:51.770
+breakdowns i'm not able to achieve it okay so let's say this
+
+00:24:51.770 --> 00:24:55.670
+is my entire like a parent table which is available to me
+
+00:24:55.670 --> 00:24:58.430
+and result wise so here if you will count so we have pass
+
+00:24:58.430 --> 00:25:02.990
+pass pass pass pass and pass so we have 10 data out of this
+
+00:25:02.990 --> 00:25:06.610
+10 data we have pass is equals to 6 and we have fail is
+
+00:25:06.610 --> 00:25:09.190
+equals to basically 4 so we have a data set which is
+
+00:25:09.190 --> 00:25:14.070
+available to me in this particular place okay so now there
+
+00:25:14.070 --> 00:25:16.930
+is something called as entropy right so there is something
+
+00:25:16.930 --> 00:25:21.290
+called as entropy we try to find out so here let's say this
+
+00:25:21.290 --> 00:25:24.850
+whole data i'm going to consider at a time right as of now
+
+00:25:24.850 --> 00:25:28.070
+i'm going to consider whole data over here and what i will
+
+00:25:28.070 --> 00:25:32.050
+do so i will try to basically you know calculate uh entropy
+
+00:25:32.050 --> 00:25:35.750
+over here so entropy if you remember and if you will recall
+
+00:25:35.750 --> 00:25:38.890
+from your chemistry class uh maybe that you have studied in
+
+00:25:38.890 --> 00:25:42.270
+a childhood class 7th or 8th right so it's nothing but it
+
+00:25:42.270 --> 00:25:45.410
+always try to signify the impurity right impurity so
+
+00:25:45.410 --> 00:25:48.170
+generally in a gas chapter so we try to study these things
+
+00:25:48.170 --> 00:25:50.230
+entropy and everything and again you know many other
+
+00:25:50.230 --> 00:25:53.450
+sections you will be able to find out the entropy so again i
+
+00:25:53.450 --> 00:25:56.570
+mean like definition is more or less same for entropy even
+
+00:25:56.570 --> 00:26:00.050
+over here so impurity entropy always try to represent the
+
+00:26:00.050 --> 00:26:05.130
+impurity at any point of a time and formula of impurity says
+
+00:26:05.130 --> 00:26:08.890
+that that it's nothing but if i'll have to write down the
+
+00:26:08.890 --> 00:26:12.610
+formula of an impurity sorry if i have to write down the
+
+00:26:12.610 --> 00:26:17.250
+formula of a entropy So it says that entropy is
+
+00:26:22.460 --> 00:26:24.920
+equal to negative, a very simple formula, easy to remember,
+
+00:26:25.160 --> 00:26:30.560
+summation of PI probability log of PI. Simple, right? So
+
+00:26:30.560 --> 00:26:35.820
+this is the formula. So here, so what we can do, so we can
+
+00:26:35.820 --> 00:26:38.720
+try to calculate the entropy, basically, we can try to
+
+00:26:38.720 --> 00:26:41.720
+calculate the entropy, and entropy always tries to tell you
+
+00:26:41.720 --> 00:26:44.000
+what entropy always tries to tell you that, okay, what is
+
+00:26:44.000 --> 00:26:48.400
+the impurity that you all or you will be having technically.
+
+00:26:49.120 --> 00:26:54.480
+Okay fine so here if I'm going to ask you a question so as
+
+00:26:54.480 --> 00:26:57.620
+of now it is available in this particular state this entire
+
+00:26:57.620 --> 00:27:00.800
+data it is available in this state and this is the decision
+
+00:27:00.800 --> 00:27:03.120
+this is the classification that we have somewhere pass
+
+00:27:03.120 --> 00:27:06.620
+somewhere fail somewhere pass somewhere fail so if I'm going
+
+00:27:06.620 --> 00:27:10.940
+to ask you a question that what will be a entropy as of now
+
+00:27:10.940 --> 00:27:15.040
+right what will be the entropy as of now so to calculate a
+
+00:27:15.040 --> 00:27:18.640
+entropy as of now so we have pass pass feature and we have
+
+00:27:18.640 --> 00:27:22.120
+fail feature so now let's try to calculate entropy of a
+
+00:27:22.120 --> 00:27:25.320
+parent as of now of this one right this is the parent let's
+
+00:27:25.320 --> 00:27:28.800
+say we have the whole table so here it is going to be
+
+00:27:28.800 --> 00:27:34.040
+probability of basically pass log of probability of pass
+
+00:27:34.040 --> 00:27:37.760
+minus right so it's a summation right so minus of
+
+00:27:37.760 --> 00:27:43.180
+probability of fail log of probability of fail now what is
+
+00:27:43.180 --> 00:27:46.560
+the probability of pass by the way guys what is the
+
+00:27:46.560 --> 00:27:48.440
+probability of pass yeah
+
+00:27:52.640 --> 00:27:57.840
+six by ten very very simple so negative of six by ten log of
+
+00:27:57.840 --> 00:28:01.360
+six by ten very simple calculation and then this is
+
+00:28:01.360 --> 00:28:04.260
+probability of fail is basically four by ten log of
+
+00:28:04.260 --> 00:28:08.560
+basically four by ten yeah so if you are going to do the
+
+00:28:08.560 --> 00:28:13.040
+math so you will be able to find out basically entropy is
+
+00:28:13.040 --> 00:28:17.720
+equals to 0.971 log of base two just try to find out the
+
+00:28:17.720 --> 00:28:20.480
+probability of this one so this one is going to be somewhere
+
+00:28:20.480 --> 00:28:23.840
+around 0.373 and this one is going to be somewhere around
+
+00:28:23.840 --> 00:28:30.740
+log of basically 1.322 so basically it's going to be 0.971
+
+00:28:30.740 --> 00:28:36.320
+it's closer to one i would say right it's closer to one now
+
+00:28:36.320 --> 00:28:42.540
+basically entropy is very very high means impurity is very
+
+00:28:42.540 --> 00:28:47.040
+very high This is what I'm able to figure out, right? This
+
+00:28:47.040 --> 00:28:51.300
+is what I'm able to figure out over here. Okay, fine. At
+
+00:28:51.300 --> 00:28:54.660
+this stage, when my data set is available in an original
+
+00:28:54.660 --> 00:28:57.140
+state. So at this point of a time, entropy is very, very
+
+00:28:57.140 --> 00:29:01.280
+high. It's going closer to one. If there is no impurity,
+
+00:29:01.640 --> 00:29:04.720
+then it should come closer to zero. And obviously it's true,
+
+00:29:04.800 --> 00:29:07.480
+right? I'm able to see it. It's a complete mixture of pass,
+
+00:29:07.540 --> 00:29:09.620
+fill, pass, fill, pass, fill. There is no segregation at
+
+00:29:09.620 --> 00:29:12.660
+all. So it's a complete mixture. it's a complete mixture of
+
+00:29:12.660 --> 00:29:17.580
+data and that's the reason there is a very high impurity
+
+00:29:17.580 --> 00:29:21.720
+okay fine there is a very high impurity now if there is a
+
+00:29:21.720 --> 00:29:28.700
+very high impurity who is contributing more study hour or
+
+00:29:28.700 --> 00:29:33.140
+attendance or assignment column to give me a very high
+
+00:29:33.140 --> 00:29:36.740
+impurity who is contributing more maybe i can try to find
+
+00:29:36.740 --> 00:29:40.180
+out that right or who is contributing less maybe i can try
+
+00:29:40.180 --> 00:29:43.880
+to find out that one how to find out so there is something
+
+00:29:43.880 --> 00:29:47.340
+now entropy of this state i'm able to see i'm able to get it
+
+00:29:47.340 --> 00:29:50.420
+now there is something called as information gain so what i
+
+00:29:50.420 --> 00:29:53.100
+will do i will try to find out basically what i will try to
+
+00:29:53.100 --> 00:29:56.880
+find out the information gain so how i will be able to find
+
+00:29:56.880 --> 00:30:00.040
+out basically a information gain so i can try to find out
+
+00:30:00.040 --> 00:30:04.400
+information gain basically by using a information gain
+
+00:30:04.400 --> 00:30:07.780
+formula right and information in what it always tried to say
+
+00:30:07.780 --> 00:30:11.180
+is or what it try to signify so information gain always try
+
+00:30:11.180 --> 00:30:15.360
+to tell you that okay so if you have this particular column
+
+00:30:15.360 --> 00:30:20.360
+or that particular column then what is the gain that you
+
+00:30:20.360 --> 00:30:23.260
+will be able to get if this is going to be the parent or
+
+00:30:23.260 --> 00:30:25.920
+that is going to be the parent that's whole idea behind this
+
+00:30:25.920 --> 00:30:31.400
+one so entropy is completely fine we are able to find out
+
+00:30:31.400 --> 00:30:35.880
+the entropy but but but we have to find out basically
+
+00:30:35.880 --> 00:30:39.620
+information gain and information gain formula says that IG
+
+00:30:39.620 --> 00:30:43.920
+again very simple formula so basically it says that that
+
+00:30:43.920 --> 00:30:48.160
+it's a entropy of a parent maybe we can try to consider so
+
+00:30:48.160 --> 00:30:56.800
+entropy of parent minus weighted entropy of weighted entropy
+
+00:30:56.800 --> 00:31:02.860
+of children information gain okay fine so let's try to do
+
+00:31:02.860 --> 00:31:06.140
+one calculation so let's try to do a information gain let's
+
+00:31:06.140 --> 00:31:10.080
+try to find out information gain uh based on this study hour
+
+00:31:10.080 --> 00:31:14.260
+now if you will try to look into a study hours right study
+
+00:31:14.260 --> 00:31:19.620
+hours and if you will look into maybe row s1 s2 and s3 so
+
+00:31:19.620 --> 00:31:24.760
+you will be able to find out that it's high right high and
+
+00:31:24.760 --> 00:31:30.520
+for high basically pass count is three and fail count is
+
+00:31:30.520 --> 00:31:35.160
+basically zero right for high so here if you will try to
+
+00:31:35.160 --> 00:31:39.040
+find out the entropy of this high entropy of this high so
+
+00:31:39.040 --> 00:31:42.580
+what will be entropy guys yeah what will be the entropy
+
+00:31:44.270 --> 00:31:47.930
+entropy of only high for study hour what is going to be
+
+00:31:47.930 --> 00:31:48.210
+entropy
+
+00:31:55.860 --> 00:32:03.370
+yes can i say zero so see just try to consider this set of
+
+00:32:03.370 --> 00:32:06.070
+the data the data which i'm marking only try to consider
+
+00:32:06.070 --> 00:32:09.410
+that forget about all the data so let's say inside this
+
+00:32:09.410 --> 00:32:12.150
+study hour we have high low and medium forget about
+
+00:32:12.150 --> 00:32:15.410
+everything so just consider high and whenever there is a
+
+00:32:15.410 --> 00:32:18.710
+high so what is our final output you are able to get passed
+
+00:32:18.710 --> 00:32:21.210
+now if I'm going to ask you that calculate the entropy we
+
+00:32:21.210 --> 00:32:25.890
+all know formula of entropy so now high so we have three
+
+00:32:25.890 --> 00:32:28.750
+high and we have basically pass is equal to what pass is
+
+00:32:28.750 --> 00:32:31.110
+equal to three how many fail is there so fail is equals to
+
+00:32:31.110 --> 00:32:35.110
+zero so now pass is equals to three and fail is equals to
+
+00:32:35.110 --> 00:32:38.070
+zero so if I'm going to ask you that probability of pass,
+
+00:32:38.150 --> 00:32:40.730
+probability of pass is going to be three by three, right?
+
+00:32:40.990 --> 00:32:44.310
+Uh, into log of three by three probability of fail is zero
+
+00:32:44.310 --> 00:32:48.690
+by three log of zero by three. So it's going to be zero at
+
+00:32:48.690 --> 00:32:50.950
+the end of the day, right? It's going to be zero log of one
+
+00:32:50.950 --> 00:32:53.970
+is equal to zero, right? So it's going to be entropy. And
+
+00:32:53.970 --> 00:32:56.310
+again, it's visible over here. So there is no impurity by
+
+00:32:56.310 --> 00:32:58.410
+the way, right? There is no impurity everywhere. High
+
+00:32:58.410 --> 00:33:01.010
+everywhere pass simple. There is no segregation itself.
+
+00:33:01.230 --> 00:33:03.810
+There is no pass and fail, right? There is no mix basically
+
+00:33:03.810 --> 00:33:07.230
+in a result that you will be able to get at any point of a
+
+00:33:07.230 --> 00:33:13.190
+time okay fine cool now so let's look into this medium let's
+
+00:33:13.190 --> 00:33:17.870
+look into this medium so medium right three medium and what
+
+00:33:17.870 --> 00:33:21.630
+is our entropy of this medium by the way so pass is equals
+
+00:33:21.630 --> 00:33:27.450
+to entropy for this medium study our column right study our
+
+00:33:27.450 --> 00:33:30.390
+column so basically we have three medium and we have two
+
+00:33:30.390 --> 00:33:35.290
+pass one fail so it's going to be what it's going to be uh 2
+
+00:33:35.290 --> 00:33:43.550
+for pass basically 2 by 3 log of 2 by 3 minus of 1 by 3 log
+
+00:33:43.550 --> 00:33:48.790
+of 1 by 3 right everyone yes so eventually it is going to be
+
+00:33:48.790 --> 00:33:54.110
+0.918 0.918 if you will do the math so entropy of this
+
+00:33:54.110 --> 00:33:58.110
+medium for the study hour column study our column now
+
+00:33:58.110 --> 00:34:02.990
+entropy for low entropy for low low and then low we have
+
+00:34:02.990 --> 00:34:09.450
+four lows and pass low fail low fail low fail so okay so
+
+00:34:09.450 --> 00:34:14.770
+here entropy of low for study our column so we have three
+
+00:34:14.770 --> 00:34:20.230
+fail one pass so basically one by four log of one by four
+
+00:34:20.230 --> 00:34:29.190
+plus three by sorry minus 3 by 4 log of log of basically 3
+
+00:34:29.190 --> 00:34:36.610
+by 4 so entropy of medium entropy of low and entropy of high
+
+00:34:36.610 --> 00:34:41.670
+for study hour column is equals to zero right entropy of
+
+00:34:41.670 --> 00:34:48.550
+this one is equals to zero okay cool right cool so here i
+
+00:34:48.550 --> 00:34:54.490
+told you information gain so what is the information gain of
+
+00:34:54.490 --> 00:34:58.990
+a study hour all this calculation we have done just to
+
+00:34:58.990 --> 00:35:01.690
+calculate the information gain for the entire column study
+
+00:35:01.690 --> 00:35:06.590
+hour column so what is our information gain so entropy of
+
+00:35:06.590 --> 00:35:10.450
+what a parent what is the parent entropy of the whole table
+
+00:35:10.450 --> 00:35:18.510
+0.971 right minus weighted entropy of children weighted
+
+00:35:18.510 --> 00:35:21.970
+entropy of whom weighted entropy of basically children so
+
+00:35:21.970 --> 00:35:25.510
+here if you will go and if you will try to calculate the
+
+00:35:25.510 --> 00:35:29.470
+weighted entropy of children so what is that guys what will
+
+00:35:29.470 --> 00:35:34.960
+be that weighted entropy of the children so
+
+00:35:37.360 --> 00:35:41.540
+weighted entropy of children is going to be c for high 0
+
+00:35:41.540 --> 00:35:47.660
+right for low it was a final calculation is going to be for
+
+00:35:47.660 --> 00:35:59.380
+low it's 0.811 and for medium so it's 0.918 right so 0.918
+
+00:35:59.380 --> 00:36:02.060
+this this these are the only three variations we have inside
+
+00:36:02.060 --> 00:36:05.560
+our column right the very first study our column so if i
+
+00:36:05.560 --> 00:36:09.180
+have to calculate the weighted entropy of the entire study
+
+00:36:09.180 --> 00:36:14.600
+our column so what we can do so we can try to calculate a
+
+00:36:14.600 --> 00:36:20.420
+weighted entropy in this manner so number of high was 3
+
+00:36:20.420 --> 00:36:24.300
+divided by total number of data probability of this weighted
+
+00:36:24.300 --> 00:36:31.200
+entropy we are calculating log of 3 by 10 sorry this one
+
+00:36:31.200 --> 00:36:40.600
+into my bad 3 by 10 entropy of high plus so
+
+00:36:42.550 --> 00:36:49.470
+entropy of high plus we have medium so basically 3 by 10
+
+00:36:49.470 --> 00:36:59.670
+into entropy of basically medium 0.918 plus 4 by so we have
+
+00:36:59.670 --> 00:37:07.510
+four number of lows so 4 by 10 into entropy of low 0.811 so
+
+00:37:07.510 --> 00:37:11.010
+this is going to be my information gain for which column
+
+00:37:11.010 --> 00:37:17.190
+study our column so total parent entropy minus this one so
+
+00:37:17.190 --> 00:37:21.930
+information gain for this column is going to be 372 this is
+
+00:37:21.930 --> 00:37:25.910
+the result you will be able to find out so information gain
+
+00:37:25.910 --> 00:37:32.490
+of my study our column is 0.372 I'm able to find out okay
+
+00:37:32.490 --> 00:37:36.630
+fine now you have to find out similarly information gain of
+
+00:37:36.630 --> 00:37:40.270
+attendance column you have to find out information gain of
+
+00:37:40.270 --> 00:37:47.200
+basically a assignment column assignment column information
+
+00:37:47.200 --> 00:37:49.640
+gain of attendance column and information gain of a
+
+00:37:49.640 --> 00:37:53.260
+attendance column simple you have to find out so here if you
+
+00:37:53.260 --> 00:37:56.960
+will try to calculate this information gain for the
+
+00:37:56.960 --> 00:38:00.280
+attendance column. Philosophy is going to be same. So it is
+
+00:38:00.280 --> 00:38:03.880
+going to be 0.5655.
+
+00:38:04.060 --> 00:38:07.080
+If you want I can write it down. I have the calculation with
+
+00:38:07.080 --> 00:38:11.460
+me. Information gain of basically this assignment column is
+
+00:38:11.460 --> 00:38:15.400
+0.1245.
+
+00:38:17.980 --> 00:38:22.320
+So here these are the information gain. Now who is having
+
+00:38:22.320 --> 00:38:27.500
+the highest information gain? Yes, who is having the highest
+
+00:38:27.500 --> 00:38:29.260
+information gain at
+
+00:38:33.780 --> 00:38:37.760
+this level guys? Who is having the highest information gain?
+
+00:38:42.180 --> 00:38:46.760
+I think, I think it's visible right to all of us. So can I
+
+00:38:46.760 --> 00:38:49.280
+say that that attendance column is actually having the
+
+00:38:49.280 --> 00:38:52.740
+highest information gain, right? Attendance column. So now
+
+00:38:52.740 --> 00:38:56.240
+my attendance column is having the highest information again
+
+00:38:56.240 --> 00:39:01.440
+so i can make a decision that okay so my parent node is
+
+00:39:01.440 --> 00:39:05.980
+going to be attendance right attendance now look into this
+
+00:39:05.980 --> 00:39:10.380
+data back right so we have basically high low high low high
+
+00:39:10.380 --> 00:39:15.060
+low high low so here what will happen so we have high low
+
+00:39:15.060 --> 00:39:18.120
+high low high low this kind of a data set which is available
+
+00:39:18.120 --> 00:39:24.680
+to us so here on one side there will be high right high and
+
+00:39:24.680 --> 00:39:27.800
+another side there will be low means whenever new data will
+
+00:39:27.800 --> 00:39:31.060
+come right whenever new data will come so it will check
+
+00:39:31.060 --> 00:39:33.520
+first of all which column it will check first of all
+
+00:39:33.520 --> 00:39:36.120
+attendance column let's say new data has come and then we
+
+00:39:36.120 --> 00:39:38.340
+have a study hour we have attendance and we have assignment
+
+00:39:38.340 --> 00:39:41.240
+all three we have it will go and check what attendance
+
+00:39:41.240 --> 00:39:45.520
+column okay high go this side low go this side basically now
+
+00:39:45.520 --> 00:39:49.700
+as per now current division of the data how my data will
+
+00:39:49.700 --> 00:39:52.960
+actually look like right let's try to see that part as well
+
+00:39:52.960 --> 00:39:55.320
+which will give you the actual visualization so at this
+
+00:39:55.320 --> 00:39:59.480
+stage i have actually divided the data on two part right on
+
+00:39:59.480 --> 00:40:04.040
+two part so which part we have so now we have technically a
+
+00:40:04.040 --> 00:40:07.680
+study hour and we have a assignment and we have a result
+
+00:40:07.680 --> 00:40:12.380
+again on this side we have basically what we have a study
+
+00:40:12.380 --> 00:40:17.240
+hour study hour we have assignment and we have basically a
+
+00:40:17.240 --> 00:40:20.860
+result right assignment and we have result attendance is
+
+00:40:20.860 --> 00:40:22.440
+already gone because Because based on attendance, I have
+
+00:40:22.440 --> 00:40:24.800
+already made a division. So attendance is high. Come this
+
+00:40:24.800 --> 00:40:27.180
+side. Attendance is low. Come this side. So let's go and
+
+00:40:27.180 --> 00:40:34.460
+check. So basically, high means student one, student two,
+
+00:40:34.960 --> 00:40:40.800
+student four, student seven, student nine, and student 10,
+
+00:40:41.240 --> 00:40:44.560
+right? All of this data will come on this side, right hand
+
+00:40:44.560 --> 00:40:49.600
+side. so one two four seven nine ten one two four seven nine
+
+00:40:49.600 --> 00:40:49.840
+ten
+
+00:40:56.310 --> 00:41:00.210
+will come on this side basically so their study hour their
+
+00:41:00.210 --> 00:41:03.210
+assignment their result their study hour again assignment
+
+00:41:03.210 --> 00:41:06.890
+these results do two four six data total six data out of ten
+
+00:41:06.890 --> 00:41:10.890
+data will come on this side and then basically what so your
+
+00:41:10.890 --> 00:41:17.470
+fail so who have failed so eight six five so basically three
+
+00:41:17.470 --> 00:41:25.210
+five eight and six so a student three a student five a
+
+00:41:25.210 --> 00:41:29.890
+student six and a student eight right so this four student
+
+00:41:29.890 --> 00:41:34.470
+will come on this side so now we have a new table and this
+
+00:41:34.470 --> 00:41:38.970
+time we have to make a decision based on what based on these
+
+00:41:38.970 --> 00:41:42.990
+three i mean like two x and then one y so are you able to
+
+00:41:42.990 --> 00:41:45.370
+understand guys how we have done the split on this
+
+00:41:45.370 --> 00:41:49.110
+particular label yes how we have done the split on this
+
+00:41:49.110 --> 00:41:54.950
+label are we able to understand easy right yeah easy so the
+
+00:41:54.950 --> 00:41:58.750
+first step the first like a division that we have done based
+
+00:41:58.750 --> 00:42:02.390
+on what and now we have two separate data so now we have
+
+00:42:02.390 --> 00:42:06.850
+broken down this entire table into two tables yeah now the
+
+00:42:06.850 --> 00:42:09.930
+table is not same right on second level so basically we have
+
+00:42:09.930 --> 00:42:12.550
+broken down this table on two levels so six data came this
+
+00:42:12.550 --> 00:42:15.030
+side and then four data came this side one column gone
+
+00:42:15.030 --> 00:42:18.770
+because one column I have consumed here itself then again I
+
+00:42:18.770 --> 00:42:21.690
+will try to split i will try to break down this one same way
+
+00:42:21.690 --> 00:42:24.990
+right so now this time i will try to understand that at this
+
+00:42:24.990 --> 00:42:30.330
+level at second level to get the result pass or fail even on
+
+00:42:30.330 --> 00:42:33.910
+both the side right even on both the side which column is
+
+00:42:33.910 --> 00:42:37.510
+contributing and on what condition which column is
+
+00:42:37.510 --> 00:42:40.630
+contributing and on what condition this is technically
+
+00:42:40.630 --> 00:42:45.670
+contributing so this side again calculation will be separate
+
+00:42:45.670 --> 00:42:48.290
+again on this side calculation will be separate because
+
+00:42:48.290 --> 00:42:51.450
+there are two data set now. So try to consider these two
+
+00:42:51.450 --> 00:42:55.290
+data set as a completely new data set for you. And then you
+
+00:42:55.290 --> 00:42:57.670
+will start breaking it down. Then again, new data. Then
+
+00:42:57.670 --> 00:43:00.930
+again, you will start breaking it down. So based on this,
+
+00:43:01.110 --> 00:43:06.530
+you will be able to split the entire data set. Basically,
+
+00:43:06.870 --> 00:43:09.730
+you will try to split the entire data set at the end of the
+
+00:43:09.730 --> 00:43:13.850
+day. So here, I
+
+00:43:15.130 --> 00:43:19.590
+think three, five, six, eight, three, five, six, eight. 10
+
+00:43:19.590 --> 00:43:24.890
+will not come on this side i believe high right attendance
+
+00:43:24.890 --> 00:43:32.660
+uh no 10 will come on this side yeah it was having high
+
+00:43:51.760 --> 00:43:58.020
+attendance okay yeah it's fine 10 will be on this side s10
+
+00:43:58.020 --> 00:44:02.320
+not in this side fine okay so now we have basically like
+
+00:44:02.320 --> 00:44:05.460
+these two tables again we'll try to break it down by using
+
+00:44:05.460 --> 00:44:08.580
+first of all what by using entropy so first of all i will
+
+00:44:08.580 --> 00:44:12.320
+try to find out entropy entropy of both and both like a
+
+00:44:12.320 --> 00:44:15.900
+whole table and then entropy minus weighted entropy of the
+
+00:44:15.900 --> 00:44:19.620
+entire section. So maybe we can do it. So let's try to
+
+00:44:19.620 --> 00:44:23.220
+separate the data just for this side. Right. So let's say we
+
+00:44:23.220 --> 00:44:26.520
+have like this one as a left hand side and this one as a
+
+00:44:26.520 --> 00:44:29.340
+right hand or a high side you can say. Right. So for high,
+
+00:44:29.600 --> 00:44:32.720
+let me show you once again how we can break down on a second
+
+00:44:32.720 --> 00:44:37.840
+level. So let me split the data set. Let me create a table
+
+00:44:37.840 --> 00:44:42.900
+for this data set so fine so
+
+00:44:46.740 --> 00:45:01.140
+here one two three student number wise one two four
+
+00:45:01.140 --> 00:45:13.910
+seven nine 10 okay now study hour and then assignment and
+
+00:45:13.910 --> 00:45:20.570
+then result so for student one study hour was basically high
+
+00:45:20.570 --> 00:45:28.550
+assignment was complete result was now pass student two so
+
+00:45:28.550 --> 00:45:34.860
+it was high student two and then assignment is incomplete
+
+00:45:34.860 --> 00:45:42.580
+and then result was passed student four so study hour was
+
+00:45:42.580 --> 00:45:48.380
+basically low attendance is sorry assignment is for student
+
+00:45:48.380 --> 00:45:55.920
+four it was complete complete result was passed student 7
+
+00:45:55.920 --> 00:46:05.700
+medium study hour assignment is complete complete and then
+
+00:46:05.700 --> 00:46:15.440
+basically pass then student 9 so basically medium attendance
+
+00:46:15.440 --> 00:46:19.840
+assignment is complete or incomplete
+
+00:46:23.200 --> 00:46:27.400
+incomplete incomplete result is basically what result is
+
+00:46:27.400 --> 00:46:37.640
+pass student 10 study hour is low assignment is complete and
+
+00:46:37.640 --> 00:46:41.280
+basically it's fail so now we have basically this particular
+
+00:46:41.280 --> 00:46:45.120
+table and for this particular table so we have to take a
+
+00:46:45.120 --> 00:46:48.660
+decision that to get a result right so which one is going to
+
+00:46:48.660 --> 00:46:51.840
+contribute in terms of division because it's again it's not
+
+00:46:51.840 --> 00:46:54.920
+pure right it's not pure as you can see we have passed we
+
+00:46:54.920 --> 00:46:57.600
+have majority in pass but we have failed as well right we
+
+00:46:57.600 --> 00:47:00.920
+have failed as well so if i'm going to ask you that entropy
+
+00:47:00.920 --> 00:47:04.580
+of parent or entropy of this high table whole high table is
+
+00:47:04.580 --> 00:47:07.480
+going to be what so can i say that we have six data set over
+
+00:47:07.480 --> 00:47:17.420
+here minus of 1 by 6 p of 1 by sorry log of 1 by 6 minus 5
+
+00:47:17.420 --> 00:47:22.780
+by 6 log of 5 by 6. Can I say that guys this is going to be
+
+00:47:22.780 --> 00:47:27.140
+the entropy for this whole table? Yes entropy of the parent
+
+00:47:27.140 --> 00:47:34.360
+table entropy of this parent make sense yes everyone yeah
+
+00:47:34.360 --> 00:47:39.200
+okay so entropy we are able to like find out now find out
+
+00:47:39.200 --> 00:47:41.920
+find out this entropy do the math log of base 2 by the way
+
+00:47:41.920 --> 00:47:45.080
+use calculator so entropy of this whole table we are able to
+
+00:47:45.080 --> 00:47:48.720
+find out now we have to find out information gain so
+
+00:47:48.720 --> 00:47:51.220
+information gain is nothing but my entropy of whole table
+
+00:47:51.220 --> 00:47:55.000
+for this high minus weighted entropy of the children right
+
+00:47:55.000 --> 00:47:58.780
+so weighted entropy of all the children i have to calculate
+
+00:47:58.780 --> 00:48:01.420
+over here not to calculate a weighted entropy of all the
+
+00:48:01.420 --> 00:48:04.800
+children right so basically information gain for this one i
+
+00:48:04.800 --> 00:48:07.120
+have to calculate and the information gain for this one i
+
+00:48:07.120 --> 00:48:09.240
+have to calculate fine information gain of this and
+
+00:48:09.240 --> 00:48:11.400
+information gain of this one so fine information gain of
+
+00:48:11.400 --> 00:48:14.020
+first of all study hour i will try to calculate information
+
+00:48:14.020 --> 00:48:16.900
+gain of study hour i will try to calculate and then
+
+00:48:16.900 --> 00:48:20.600
+information gain of assignment i will try to calculate over
+
+00:48:20.600 --> 00:48:23.760
+here not to calculate the information gain of this study
+
+00:48:23.760 --> 00:48:27.180
+hour there is a high there is a medium and there is a low
+
+00:48:27.180 --> 00:48:31.620
+right too high all pass so entropy is going to be zero uh
+
+00:48:31.620 --> 00:48:36.020
+too low so it's uh not a pass one pass one fail medium so
+
+00:48:36.020 --> 00:48:38.840
+for medium entropy is going to be zero okay so for a study
+
+00:48:38.840 --> 00:48:45.060
+hour entropy of a study hour high is going to be zero anyhow
+
+00:48:45.060 --> 00:48:50.620
+entropy of a study hour uh medium pass pass right so
+
+00:48:50.620 --> 00:49:00.740
+basically it is going to be 0. Entropy of study hour low
+
+00:49:00.740 --> 00:49:08.360
+is going to be minus of 1 by 2 log of 1 by 2 minus of 1 by 2
+
+00:49:08.360 --> 00:49:12.120
+log of 1 by 2. So calculate guys. Calculate entropy of low,
+
+00:49:12.680 --> 00:49:15.200
+entropy of high and entropy of medium is again going to be
+
+00:49:15.200 --> 00:49:18.220
+0. It's just pass pass right. So it's going to be 0 just
+
+00:49:18.220 --> 00:49:21.560
+like a low. So this is the formula. So 1 by 2 log of 1 by 2
+
+00:49:21.560 --> 00:49:24.240
+minus 1 by 2 log of 1 by 2 because one pass one fail right
+
+00:49:24.240 --> 00:49:29.140
+out of two. So simple. Now if I know this this this right I
+
+00:49:29.140 --> 00:49:32.020
+can calculate the weighted entropy and then I will be able
+
+00:49:32.020 --> 00:49:33.820
+to calculate the information gain for a study hour.
+
+00:49:34.000 --> 00:49:37.280
+Similarly entropy for assignment is what? So complete pass,
+
+00:49:37.400 --> 00:49:42.220
+complete pass, complete pass. Okay so for complete for this
+
+00:49:42.220 --> 00:49:46.920
+assignment column. so entropy of assignment sorry entropy of
+
+00:49:46.920 --> 00:49:50.960
+assignment column complete is going to be zero and then
+
+00:49:50.960 --> 00:49:57.700
+incomplete pass pass fail so entropy of assignment column uh
+
+00:49:57.700 --> 00:50:03.060
+assignment column incomplete is going to be uh incomplete
+
+00:50:03.060 --> 00:50:07.780
+pass incomplete pass incomplete fail So 3, 2 pass, so minus
+
+00:50:07.780 --> 00:50:15.680
+2 by 3, log of 2 by 3, minus 1 by 3, log of 1 by 3. Yes,
+
+00:50:16.120 --> 00:50:19.600
+give me the calculation guys. 1, 2, 3, 3 calculation. Quick.
+
+00:50:20.500 --> 00:50:21.620
+Anyone who can do it?
+
+00:50:27.200 --> 00:50:32.960
+Yeah, anyone? So entropy of basically study hour, low.
+
+00:50:33.480 --> 00:50:36.840
+Entropy of basically assignment column, incomplete. And then
+
+00:50:36.840 --> 00:50:40.260
+entropy of the parent. These three values I am looking for.
+
+00:50:41.260 --> 00:50:44.420
+So that I will be able to calculate the information gain.
+
+00:50:44.620 --> 00:50:48.880
+Information gain of my basically this column and this column
+
+00:50:50.700 --> 00:50:55.880
+and whosoever will be giving me the most information gain. I
+
+00:50:55.880 --> 00:50:59.240
+will make them as a splitter over here. So one condition,
+
+00:50:59.480 --> 00:51:01.640
+two condition, simple. I'll divide the data.
+
+00:51:07.990 --> 00:51:09.310
+Anyone guys who is calculating?
+
+00:51:14.510 --> 00:51:20.550
+Yes. Anyone? No one? Okay. looks like everyone is sleeping
+
+00:51:20.550 --> 00:51:21.870
+no
+
+00:52:29.970 --> 00:52:36.020
+one is calculating okay that's cool then i believe you can
+
+00:52:36.020 --> 00:52:39.380
+now understand how this entry actually works so yeah just go
+
+00:52:39.380 --> 00:52:41.400
+ahead do the calculation and then whichever is going to give
+
+00:52:41.400 --> 00:52:44.360
+you the most information again so that is going to be the
+
+00:52:44.360 --> 00:52:47.540
+divisor and similarly so you will do it for right hand side
+
+00:52:47.540 --> 00:52:49.880
+so for left hand side you will do this and then for right
+
+00:52:49.880 --> 00:52:52.420
+hand side you will do the exact same thing you will keep on
+
+00:52:52.420 --> 00:52:54.400
+breaking it down unless and until you are not able to reach
+
+00:52:54.400 --> 00:52:57.160
+out to the leaf node once you will be able to reach out the
+
+00:52:57.160 --> 00:52:59.480
+leaf node where like you know further division is not
+
+00:52:59.480 --> 00:53:03.400
+possible that is finally going to be your like a complete
+
+00:53:03.400 --> 00:53:06.580
+model so this is how we build a model so technically this
+
+00:53:06.580 --> 00:53:10.620
+decision tree is nothing but uh like you know uh like a node
+
+00:53:10.620 --> 00:53:14.220
+based kind of a model so where every time you take a data
+
+00:53:14.220 --> 00:53:17.340
+take a division and then you try to reach out to the leaf
+
+00:53:17.340 --> 00:53:20.120
+node and once you reach out to the leaf node then you make a
+
+00:53:20.120 --> 00:53:24.440
+final decision as simple as that so this is one of the way
+
+00:53:24.440 --> 00:53:28.720
+by which decision tree actually works basically now there is
+
+00:53:28.720 --> 00:53:31.780
+a another way you will be able to find out so there is
+
+00:53:31.780 --> 00:53:34.740
+something called as guinea indexing right there is something
+
+00:53:34.740 --> 00:53:36.660
+called as guinea indexing and even with the help of guinea
+
+00:53:36.660 --> 00:53:40.440
+indexing one is a entropy right based on the entropy we have
+
+00:53:40.440 --> 00:53:42.780
+already seen that now there is something called as guinea
+
+00:53:42.780 --> 00:53:46.260
+indexing and based on that you can do the classification so
+
+00:53:46.260 --> 00:53:49.860
+what is the formula of this guinea so formula of guinea is
+
+00:53:49.860 --> 00:53:53.840
+nothing but one minus summation of pi of square same based
+
+00:53:53.840 --> 00:53:57.220
+on the probability they try to you know calculate it so if
+
+00:53:57.220 --> 00:54:00.180
+you have a like a table for example we have a pass and we
+
+00:54:00.180 --> 00:54:03.740
+have a fail right so first of all what i will do i'll try to
+
+00:54:03.740 --> 00:54:06.760
+calculate the guinea of the parent or whole table so whole
+
+00:54:06.760 --> 00:54:10.380
+table we have let's say pass so basically probability of
+
+00:54:10.380 --> 00:54:15.200
+pass square and then probability of fail of a square so this
+
+00:54:15.200 --> 00:54:19.220
+is going to give you the guinea of my parent so in my case i
+
+00:54:19.220 --> 00:54:23.660
+had six pass and four fail so one minus six by a ten out of
+
+00:54:23.660 --> 00:54:28.900
+ten data of a square minus four by ten of a square so if i'm
+
+00:54:28.900 --> 00:54:32.260
+going to do a math so 0.6 and 0.4 so it is going to be
+
+00:54:32.260 --> 00:54:37.680
+approximately 0.48 yeah so guinea of my parent is going to
+
+00:54:37.680 --> 00:54:41.140
+be 0.48 the way we have calculated the entropy we are
+
+00:54:41.140 --> 00:54:45.160
+calculating the guinea just another method i would say now
+
+00:54:45.160 --> 00:54:48.440
+what you will do you will follow the same so you will try to
+
+00:54:48.440 --> 00:54:51.780
+calculate a guinea for a study hour you will try to
+
+00:54:51.780 --> 00:54:55.000
+calculate a guinea for attendance column and the assignment
+
+00:54:55.000 --> 00:54:58.740
+column same formula right i mean like just by using a guinea
+
+00:54:58.740 --> 00:55:02.720
+formula you are going to calculate it for the study hour so
+
+00:55:02.720 --> 00:55:05.400
+how many like you know pass and then how many basically like
+
+00:55:05.400 --> 00:55:09.020
+a fail for high and then medium and then for low so for
+
+00:55:09.020 --> 00:55:12.200
+example if i have to calculate for this one study hour high
+
+00:55:12.200 --> 00:55:16.220
+medium and low so high three low three sorry high three low
+
+00:55:16.220 --> 00:55:21.880
+four medium three and high pass three low one pass two fail
+
+00:55:21.880 --> 00:55:26.640
+and sorry four right so two pass two fail medium pass fail
+
+00:55:26.640 --> 00:55:29.700
+pass okay so with respect to the same table if i have to
+
+00:55:29.700 --> 00:55:31.960
+calculate so this is for parent this is for parent we are
+
+00:55:31.960 --> 00:55:35.820
+able to find out now so we can try to find out basically
+
+00:55:35.820 --> 00:55:43.720
+guinea for guinea for study hour column now inside the study
+
+00:55:43.720 --> 00:55:49.340
+hour we have basically high then we have low and then we
+
+00:55:49.340 --> 00:55:53.720
+have medium so let's calculate my high so in case of high
+
+00:55:53.720 --> 00:55:58.660
+basically pass is equals to three and then fail is equals to
+
+00:55:58.660 --> 00:56:05.440
+zero in case of like a you know low pass is equals to 1 and
+
+00:56:05.440 --> 00:56:10.100
+then fail is equals to 3 and then medium so pass is equals
+
+00:56:10.100 --> 00:56:17.240
+to 2 and then fail is equals to 1. Now here so guinea for
+
+00:56:17.240 --> 00:56:21.860
+this one is going to be 1 minus 1 of square minus 0 of
+
+00:56:21.860 --> 00:56:25.620
+square is equals to 0. For this one guinea is going to be
+
+00:56:25.620 --> 00:56:34.820
+for low 1 minus 1 by 4 of a square 3 plus 1 4 so total 4 and
+
+00:56:34.820 --> 00:56:38.380
+then pass and then 4 of a square. So this is going to be 0
+
+00:56:38.380 --> 00:56:40.820
+.375.
+
+00:56:42.220 --> 00:56:46.740
+And then for like you know for median so it is going to be
+
+00:56:48.270 --> 00:56:54.830
+guinea is equals to 1 minus 2 by 3 of a square minus 1 by 3
+
+00:56:54.830 --> 00:57:00.570
+of a square which is equals to 0.444. Simple. So high low
+
+00:57:00.570 --> 00:57:04.030
+medium for the study hour column we are able to find out now
+
+00:57:04.030 --> 00:57:07.090
+what we can do so we can try to find out the guinea for the
+
+00:57:07.090 --> 00:57:11.770
+whole column so again it's it's like a same so guinea for a
+
+00:57:11.770 --> 00:57:15.490
+study hour column is going to be what so your high low and
+
+00:57:15.490 --> 00:57:25.990
+medium 3 by 10 into 0 3 by 10 into 0.44 for medium and then
+
+00:57:25.990 --> 00:57:36.530
+4 by 10 into 0.375 for low is going to be 0.283 so guinea
+
+00:57:36.530 --> 00:57:39.370
+for study our column we are able to find out just
+
+00:57:39.370 --> 00:57:42.390
+information gain right that we were trying to find out so
+
+00:57:42.390 --> 00:57:45.070
+basically here we don't call information again we call
+
+00:57:45.070 --> 00:57:49.190
+guinea combined guinea we used to call so here guinea gain
+
+00:57:49.190 --> 00:57:53.930
+we say guinea gain so what is my guinea gain guinea gain is
+
+00:57:53.930 --> 00:57:55.490
+nothing but this
+
+00:57:59.720 --> 00:58:07.840
+one guinea for the whole so basically 0.48 minus weighted 0
+
+00:58:07.840 --> 00:58:15.520
+.283 so guinea gain is 0.197 for study hour column only only
+
+00:58:15.520 --> 00:58:19.180
+study hour similarly guinea gain you will have to find out
+
+00:58:19.180 --> 00:58:24.980
+for your assignment attendance column and guinea gain you
+
+00:58:24.980 --> 00:58:31.200
+have to find out for the assignment column so guinea gain
+
+00:58:31.200 --> 00:58:38.400
+for attendance column is going to be attendance column 0.32
+
+00:58:38.400 --> 00:58:41.360
+guinea gain for assignment column is going to be same
+
+00:58:41.360 --> 00:58:47.420
+procedure to calculate 0.08 so guinea gain for this one is
+
+00:58:47.420 --> 00:58:49.980
+this and then this one is this this one is this so for all
+
+00:58:49.980 --> 00:58:54.280
+three column now we have basically uh guinea gain available
+
+00:58:54.280 --> 00:58:59.460
+to me right guinea get available to me so now uh which one
+
+00:58:59.460 --> 00:59:03.420
+is giving me most gain clear attendance column is giving me
+
+00:59:03.420 --> 00:59:06.360
+most of the gain so what i will do i'll try to select the
+
+00:59:06.360 --> 00:59:08.920
+attendance column even last time we did the same thing so
+
+00:59:08.920 --> 00:59:11.520
+just to achieve the same thing we have entropy and
+
+00:59:11.520 --> 00:59:15.060
+information gate uh entropy and information gain uh like a
+
+00:59:15.060 --> 00:59:19.560
+path route or i can try to use guinea and guinea gain path
+
+00:59:19.560 --> 00:59:22.240
+or guinea path basically so in either of these two approach
+
+00:59:22.240 --> 00:59:25.520
+you will be able to reach out to the similar kind of a
+
+00:59:25.520 --> 00:59:27.520
+result so as you can see we are reaching out to the similar
+
+00:59:27.520 --> 00:59:30.000
+result we are able to make a decision that that first
+
+00:59:30.000 --> 00:59:33.460
+divisor or first node parent node is going to be my
+
+00:59:33.460 --> 00:59:36.340
+attendance column same thing i was able to derive even with
+
+00:59:36.340 --> 00:59:40.060
+respect to entropy so both are giving me the same result now
+
+00:59:40.060 --> 00:59:43.300
+again so based on this table will be created on this side
+
+00:59:43.300 --> 00:59:45.940
+and table will be created on this side and then you will
+
+00:59:45.940 --> 00:59:49.020
+keep on like breaking it down unless and until you are not
+
+00:59:49.020 --> 00:59:51.800
+able to reach out to the leaf node which is going to be my
+
+00:59:51.800 --> 00:59:57.660
+decision making node. Make sense? Yeah. So both the formulas
+
+00:59:57.660 --> 01:00:00.920
+are very easy. I mean like one is a simple minus of
+
+01:00:00.920 --> 01:00:03.740
+probability summation of like a log of probability. As
+
+01:00:03.740 --> 01:00:05.840
+simple as that entropy. Information gain is what?
+
+01:00:05.920 --> 01:00:09.180
+Information gain of the whole table and then minus weighted
+
+01:00:09.180 --> 01:00:12.860
+information gain. We all know the way to calculate it.
+
+01:00:13.060 --> 01:00:15.640
+Guinea means a one minus summation of probability square.
+
+01:00:15.960 --> 01:00:18.360
+That's it. And in this way, you will be able to derive the
+
+01:00:18.360 --> 01:00:21.560
+whole thing. So you can either choose whenever you are going
+
+01:00:21.560 --> 01:00:23.840
+to pick the algorithm. So you can either go ahead with the
+
+01:00:23.840 --> 01:00:26.780
+entropy information gain way or maybe you can go ahead with
+
+01:00:26.780 --> 01:00:29.680
+the guinea in both the situation. More or less, you will be
+
+01:00:29.680 --> 01:00:33.560
+able to generate similar solution. As simple as that. So
+
+01:00:33.560 --> 01:00:37.200
+this is the theory, by the way, I would say. so this is a
+
+01:00:37.200 --> 01:00:39.880
+theory for a classification right this is a theory for a
+
+01:00:39.880 --> 01:00:43.840
+classification now classification is one of the part you can
+
+01:00:43.840 --> 01:00:47.420
+try to achieve with the help of decision free you will be
+
+01:00:47.420 --> 01:00:50.720
+able to achieve even a regression yeah you will be able to
+
+01:00:50.720 --> 01:00:55.180
+achieve even a regression more or less we try to split the
+
+01:00:55.180 --> 01:00:59.040
+data by using the exact same approach entropy and guinea
+
+01:00:59.040 --> 01:01:02.140
+right entropy and guinea is something that we try to by
+
+01:01:02.140 --> 01:01:07.240
+which i we try to split the data the only thing that we try
+
+01:01:07.240 --> 01:01:09.380
+to like you know take care of at the time of prediction is
+
+01:01:09.380 --> 01:01:13.360
+so whenever we have to do prediction we simply try to take
+
+01:01:13.360 --> 01:01:16.660
+care of a summation of left hand side and summation of right
+
+01:01:16.660 --> 01:01:20.040
+hand side and then summation of the parents and in this way
+
+01:01:20.040 --> 01:01:23.220
+we used to like a take one formula and that formula is going
+
+01:01:23.220 --> 01:01:28.740
+to give us ideally a final y hat i mean like my prediction
+
+01:01:28.740 --> 01:01:32.760
+so which which I'll show you right which I'll try to show
+
+01:01:32.760 --> 01:01:35.900
+you in some time. So you can try to solve a regression
+
+01:01:35.900 --> 01:01:40.040
+problem as well as you can try to solve a classification
+
+01:01:40.040 --> 01:01:42.900
+problem both with the help of decision tree. So let's go
+
+01:01:42.900 --> 01:01:45.960
+ahead and let's do one thing. So let's try to see this
+
+01:01:45.960 --> 01:01:49.200
+decision tree in a practical way as well so that you know
+
+01:01:49.200 --> 01:01:53.300
+you will be able to digest and understand.
+
+01:01:57.300 --> 01:02:02.280
+let me open up my vs code decision
+
+01:02:12.680 --> 01:02:15.440
+tree ai journalist okay
+
+01:02:53.620 --> 01:02:54.960
+so fine
+
+01:03:02.510 --> 01:03:06.670
+so let's uh try to implement this let me check whether i
+
+01:03:06.670 --> 01:03:12.930
+have a library or python configured or not yeah it's there
+
+01:03:12.930 --> 01:03:13.830
+fine
+
+01:03:17.000 --> 01:03:20.600
+so what we can do so maybe we can try to take our data and
+
+01:03:20.600 --> 01:03:23.700
+uh yeah so based on that data so we can try to you know uh
+
+01:03:23.700 --> 01:03:29.420
+basically uh like uh do a classification right basically do
+
+01:03:29.420 --> 01:03:32.420
+a classification and eventually we can try to perform the
+
+01:03:32.420 --> 01:03:35.600
+operations on top of that one and we can even try to plot
+
+01:03:35.600 --> 01:03:38.500
+the decision tree so you will be able to even visualize that
+
+01:03:38.500 --> 01:03:41.560
+how it is like it has actually plotted the entire things
+
+01:03:41.560 --> 01:03:45.540
+internally yeah internal entire things internally so fine
+
+01:03:45.540 --> 01:03:52.550
+let's do one thing so let me create one excel file
+
+01:03:55.590 --> 01:04:00.070
+inside that there is a data i'm going to take a small data
+
+01:04:00.070 --> 01:04:04.170
+reason is very very simple you will be able to do a
+
+01:04:04.170 --> 01:04:06.550
+visualization otherwise you will not be able to do a
+
+01:04:06.550 --> 01:04:10.590
+visualization in case of a big data so here i'm just trying
+
+01:04:10.590 --> 01:04:14.230
+to take a very very simple data age salary year of company
+
+01:04:14.230 --> 01:04:18.010
+year at company job satisfaction over time promotion last
+
+01:04:18.010 --> 01:04:21.390
+two years and then what will be the attrition rate so this
+
+01:04:21.390 --> 01:04:23.430
+is something that we have to predict i mean like this is
+
+01:04:23.430 --> 01:04:27.050
+basically my class yes no yes no yes no class based on all
+
+01:04:27.050 --> 01:04:30.950
+of these inputs that we have so we i'm taking small data
+
+01:04:30.950 --> 01:04:33.530
+because big data if you know if you can do it with a small
+
+01:04:33.530 --> 01:04:35.890
+data you can do it with a big data in an easiest possible
+
+01:04:35.890 --> 01:04:39.470
+manner uh but yeah visualization you will not be able to get
+
+01:04:39.470 --> 01:04:41.990
+it if you are taking a very big amount of data it will be
+
+01:04:41.990 --> 01:04:49.230
+very clumsy uh so emp regression i'm going to save it as a
+
+01:04:49.230 --> 01:04:54.970
+csv maybe so comma delimiter okay fine
+
+01:05:05.620 --> 01:05:09.600
+so data set is available to me as you can see and i'll be
+
+01:05:09.600 --> 01:05:13.280
+using like this particular data entropy or guinea feature
+
+01:05:13.280 --> 01:05:17.000
+help the same in addition tree which one is better in a
+
+01:05:17.000 --> 01:05:20.380
+mathematical way so so see like i told you that entropy and
+
+01:05:20.380 --> 01:05:23.920
+guinea indexing in my case even right in my case when i have
+
+01:05:23.920 --> 01:05:26.560
+like done these things you were able to find out that from
+
+01:05:26.560 --> 01:05:29.100
+entropy information gain things i'm able to reach out to the
+
+01:05:29.100 --> 01:05:34.320
+same part right and even from the this one like guinea
+
+01:05:34.320 --> 01:05:39.900
+indexing i was able to get into the same basically like a
+
+01:05:39.900 --> 01:05:43.340
+part because both are trying to do what both are trying to
+
+01:05:43.340 --> 01:05:47.000
+check the impurity and because of this impurity why why i'm
+
+01:05:47.000 --> 01:05:50.940
+getting this like a you know final result so if you'll ask
+
+01:05:50.940 --> 01:05:53.940
+me like a unbiased answer then both are equal basically
+
+01:05:53.940 --> 01:05:59.260
+right so you can you can try to like you know use any of
+
+01:05:59.260 --> 01:06:04.980
+these but yeah if you will ask me on a compute side then i
+
+01:06:04.980 --> 01:06:08.560
+would say guinea reason is very simple there is no log
+
+01:06:08.560 --> 01:06:11.660
+computation because if my data set is very big let's say i
+
+01:06:11.660 --> 01:06:15.320
+have a million of like you know rows and like hundreds of
+
+01:06:15.320 --> 01:06:19.200
+columns and every time I'm going to calculate it so in case
+
+01:06:19.200 --> 01:06:22.560
+of those logs is going to give you more mathematical
+
+01:06:22.560 --> 01:06:26.580
+complexity as compared to guinea because it's just like one
+
+01:06:26.580 --> 01:06:29.560
+minus summation of p square that's it so yeah that's my
+
+01:06:29.560 --> 01:06:34.300
+answer in a mathematical term but yeah in terms of you know
+
+01:06:34.300 --> 01:06:42.440
+accuracy it's actually same both are equal okay so now just
+
+01:06:42.440 --> 01:06:50.380
+do one thing so let's read the data so here import pandas as
+
+01:06:50.380 --> 01:06:58.720
+pd import pandas as 3d so that i can read the data let me
+
+01:06:58.720 --> 01:07:03.140
+check pandas is available or not yes it is available so
+
+01:07:08.900 --> 01:07:13.840
+pandas dot reads csv and I
+
+01:07:15.180 --> 01:07:22.740
+have to read which data emp attrition.csv
+
+01:07:30.070 --> 01:07:33.790
+okay so I'm trying to just read the data now let's try to
+
+01:07:33.790 --> 01:07:39.050
+hold it inside the data frame so fine now data frame is this
+
+01:07:39.050 --> 01:07:42.630
+one so I'm able to read the data a salary year of company
+
+01:07:42.630 --> 01:07:44.990
+satisfaction all those things are available in this
+
+01:07:44.990 --> 01:07:47.970
+particular place now you can do those describe info all
+
+01:07:47.970 --> 01:07:50.030
+those things that you want you can you can just go ahead and
+
+01:07:50.030 --> 01:07:54.310
+like you can do it it's completely up to you right uh but
+
+01:07:54.310 --> 01:07:57.890
+let's jump into a final like a conclusion and let's do one
+
+01:07:57.890 --> 01:08:01.150
+thing so let's try to solve the actual problem right let's
+
+01:08:01.150 --> 01:08:04.310
+try to solve the actual problem so here we have age column
+
+01:08:04.310 --> 01:08:07.470
+available in numeric salary numeric year of company numeric
+
+01:08:07.470 --> 01:08:11.090
+job satisfaction numeric overtime yes no yes no yes no
+
+01:08:11.090 --> 01:08:13.830
+promotion last year yes no yes, no, yes, no. Now I can't
+
+01:08:13.830 --> 01:08:17.770
+send this overtime data and promotion data as it is because
+
+01:08:17.770 --> 01:08:20.950
+it's not available into a numeric format, right? So what I
+
+01:08:20.950 --> 01:08:23.390
+will do, I'll try to maybe like there is only yes, no,
+
+01:08:23.470 --> 01:08:26.210
+right? I can, I can just try to like, you know, do it in a
+
+01:08:26.210 --> 01:08:29.810
+binary. I'll try to do the recomputation in a binary so data
+
+01:08:29.810 --> 01:08:41.370
+frame let me override so data frame this over time over over
+
+01:08:45.410 --> 01:08:50.090
+time and what i have to do so let me map so data frame over
+
+01:08:50.090 --> 01:08:53.210
+time new over time is what so map yes is equals to one no is
+
+01:08:53.210 --> 01:08:55.810
+equal to you so wherever we have yes it will convert that to
+
+01:08:55.810 --> 01:08:58.850
+like a one and then wherever we have like a no it will
+
+01:08:58.850 --> 01:09:04.170
+convert that to zero then data frame promotion last two year
+
+01:09:04.170 --> 01:09:04.850
+just
+
+01:09:11.920 --> 01:09:18.800
+copy this one promotion last two year so basically yes no
+
+01:09:18.800 --> 01:09:22.120
+yes no so we have mapped it so this mapping is done now if
+
+01:09:22.120 --> 01:09:25.680
+i'll show you my data frame so yeah yes no yes no so 1010 so
+
+01:09:25.680 --> 01:09:29.000
+now this data set is technically eligible i would say means
+
+01:09:29.000 --> 01:09:32.600
+all of my features are available into a numeric format so i
+
+01:09:32.600 --> 01:09:35.640
+will be able to do a calculation right let's say i will be
+
+01:09:35.640 --> 01:09:37.980
+able to do a calculation uh
+
+01:09:40.250 --> 01:09:44.110
+function and then even attrition so let me convert that to a
+
+01:09:44.110 --> 01:09:47.010
+1010 so here data frame
+
+01:09:50.120 --> 01:09:56.000
+attrition okay so vf fine this is done now what i can do so
+
+01:09:56.000 --> 01:09:59.700
+i can try to create my x basically so my x is what drop the
+
+01:09:59.700 --> 01:10:03.820
+attrition column that is my x my y is what so my y is
+
+01:10:03.820 --> 01:10:07.100
+nothing but attrition call okay so x is basically all the
+
+01:10:07.100 --> 01:10:09.780
+columns age salary year of company job satisfaction over
+
+01:10:09.780 --> 01:10:12.640
+time promotion last two year and my y is technically
+
+01:10:12.640 --> 01:10:16.520
+attrition over here okay cool so x and y is prepared right
+
+01:10:16.520 --> 01:10:21.100
+now just like every time let's do a training and test split
+
+01:10:21.100 --> 01:10:25.480
+of the data so from a skill learn model selection call train
+
+01:10:25.480 --> 01:10:29.940
+and test split and then here so try to do x train x test y
+
+01:10:29.940 --> 01:10:33.540
+train y test split it right 80 is to 20 ratio so here i'm
+
+01:10:33.540 --> 01:10:36.900
+splitting the data as you can see so 80 is to 20 ratio which
+
+01:10:36.900 --> 01:10:40.920
+we always do right all the time we try to do it then what we
+
+01:10:40.920 --> 01:10:44.360
+are supposed to do so once my data is prepared now and i'm
+
+01:10:44.360 --> 01:10:47.460
+able to do all the conversion so from sklearn
+
+01:10:53.170 --> 01:10:58.290
+sklearn learn dot free import decision tree classifier so
+
+01:10:58.290 --> 01:11:00.790
+this is the algorithm which i'm trying to import over here
+
+01:11:00.790 --> 01:11:05.350
+and then try to basically create a model so model decision
+
+01:11:05.350 --> 01:11:08.530
+tree classifier you can try to create over here just execute
+
+01:11:08.530 --> 01:11:11.570
+it and try to call this model as of now we have not done the
+
+01:11:11.570 --> 01:11:14.510
+training just try to call this particular model as of now
+
+01:11:14.510 --> 01:11:18.110
+now here so what you can do you can try to basically you
+
+01:11:18.110 --> 01:11:21.830
+know create a decision tree classifier you can try to
+
+01:11:21.830 --> 01:11:25.510
+basically set a criteria for this one for example so i told
+
+01:11:25.510 --> 01:11:28.050
+you you can go ahead with entropy you can go ahead with the
+
+01:11:28.050 --> 01:11:32.010
+guinea right so there is something called as crit criteria
+
+01:11:32.010 --> 01:11:35.870
+so criteria is equals to entropy you can try to set so the
+
+01:11:35.870 --> 01:11:38.170
+entropy calculation that we have done it will go ahead with
+
+01:11:38.170 --> 01:11:42.370
+that calculation if you will do basically a guinea over here
+
+01:11:42.370 --> 01:11:45.510
+so in that case it will go ahead with the guinea calculation
+
+01:11:45.510 --> 01:11:49.390
+now here let me not set this maximum depth for now let's
+
+01:11:49.390 --> 01:11:52.170
+like i'll leave it as it is as of now let's play with only a
+
+01:11:52.170 --> 01:11:55.110
+entropy i'll tell you a maximum depth as well There is
+
+01:11:55.110 --> 01:11:59.270
+something called as tree pruning, basically, we'll talk
+
+01:11:59.270 --> 01:12:01.830
+about that in a later stage. So model and this time I'm
+
+01:12:01.830 --> 01:12:04.770
+doing what with entropy, the first like a method, which I
+
+01:12:04.770 --> 01:12:07.350
+told you, I can do it with Guinea as well. I'll do it with
+
+01:12:07.350 --> 01:12:10.850
+both. Right. So let's say I'm going to name it as a model
+
+01:12:10.850 --> 01:12:15.930
+with entropy and I'm going to like a, let's say build it
+
+01:12:15.930 --> 01:12:20.790
+fine. So model with entropy, let's say, so model with
+
+01:12:20.790 --> 01:12:27.610
+entropy and then just call the fit over here. so model in
+
+01:12:31.070 --> 01:12:35.170
+choppy fit fit means pass the data so now this is my model
+
+01:12:35.170 --> 01:12:38.630
+this is technically my model which has been built now if i
+
+01:12:38.630 --> 01:12:41.470
+have to like a check what my model is because now model has
+
+01:12:41.470 --> 01:12:44.630
+been built and uh you know i can i can go and i can try to
+
+01:12:44.630 --> 01:12:49.410
+uh technically you know uh do the prediction right i can
+
+01:12:49.410 --> 01:12:52.870
+pass the new data and yes it will be able to do a prediction
+
+01:12:52.870 --> 01:12:58.010
+it will be even able to i would say give you the accuracy so
+
+01:12:58.010 --> 01:13:00.730
+you can try to basically check the classification report you
+
+01:13:00.730 --> 01:13:04.950
+can try to check basically uh like uh you know accuracy you
+
+01:13:04.950 --> 01:13:07.310
+can check basically a f1 score you can try to check
+
+01:13:07.310 --> 01:13:10.250
+basically a precision you can try to check recall all these
+
+01:13:10.250 --> 01:13:12.230
+things that we have done in my logistic regression class
+
+01:13:12.230 --> 01:13:14.990
+same thing you can do it accuracy f1 precision everything
+
+01:13:14.990 --> 01:13:19.990
+you can try to try to map it but i wanted to you know uh
+
+01:13:19.990 --> 01:13:23.330
+show you the actual visualization of the tree that's the
+
+01:13:23.330 --> 01:13:25.470
+reason i have taken a small data right that was the whole
+
+01:13:25.470 --> 01:13:29.530
+idea so where i can show you basically the actual plot of
+
+01:13:29.530 --> 01:13:33.450
+this decision tree so let me show you that part guys which
+
+01:13:33.450 --> 01:13:35.950
+will amaze you and you will be able to see the reality
+
+01:13:35.950 --> 01:13:38.970
+behind it so skler and learn because the rest of the thing
+
+01:13:38.970 --> 01:13:48.070
+is like regular things tree sklearn tree import plot
+
+01:13:49.960 --> 01:13:58.220
+tree okay fine now what we can do so plt dot figure plot
+
+01:13:58.220 --> 01:14:02.620
+tree model entropy i'm going to pass no attrition class name
+
+01:14:02.620 --> 01:14:03.520
+class
+
+01:14:10.940 --> 01:14:11.780
+name basically
+
+01:14:18.500 --> 01:14:22.560
+attrition plus no attrition yeah no attrition yes attrition
+
+01:14:22.560 --> 01:14:25.640
+let's say this is the class name fine feature column we
+
+01:14:25.640 --> 01:14:29.620
+already have based on this model we are trying to basically
+
+01:14:29.620 --> 01:14:32.080
+plot it okay show
+
+01:14:36.400 --> 01:14:42.800
+me the tree plt is not okay so basically what we can do so
+
+01:14:42.800 --> 01:14:52.820
+we can try to import the plt in a very very first place so
+
+01:14:55.830 --> 01:15:05.790
+here import matplotlib 5.0 oh no model called as mat.lib set
+
+01:15:05.790 --> 01:15:13.550
+so click install nstll mat.lib okay
+
+01:15:29.100 --> 01:15:33.760
+so installation is basically done okay
+
+01:15:44.700 --> 01:15:45.580
+this is gone
+
+01:15:48.570 --> 01:15:56.200
+so this is a tree which it has basically created let me
+
+01:15:56.200 --> 01:15:59.980
+configure it even for a feature
+
+01:16:07.660 --> 01:16:08.800
+column class name
+
+01:16:18.690 --> 01:16:28.980
+rounded true font size 12 let me keep it a small uh 8 so
+
+01:16:28.980 --> 01:16:30.900
+that it will be a little bit smaller
+
+01:16:34.860 --> 01:16:38.220
+field is equals to true
+
+01:16:44.400 --> 01:16:50.280
+f i double l a d yeah so this looks good uh
+
+01:16:56.100 --> 01:17:00.600
+okay so basically uh here it
+
+01:17:04.890 --> 01:17:08.210
+is able to plot the tree.
+
+01:17:16.370 --> 01:17:22.150
+This is not seems to be right everyone.
+
+01:17:33.430 --> 01:17:39.450
+Here at company lesser than equal to poor and if that is
+
+01:17:39.450 --> 01:17:49.670
+basically true. So in that case yes. So basically this tree
+
+01:17:49.670 --> 01:17:55.370
+this plot is just trying to tell me that if year at company
+
+01:17:55.370 --> 01:18:01.790
+is lesser than equal to four so in that case if true there
+
+01:18:01.790 --> 01:18:04.330
+will be an attrition there is a chance that employee will
+
+01:18:04.330 --> 01:18:09.710
+leave and if it is like a false so in that case there will
+
+01:18:09.710 --> 01:18:16.030
+be no attrition so just based on year at company if i'll
+
+01:18:16.030 --> 01:18:21.830
+show you my df so year at company is one of the factor other
+
+01:18:21.830 --> 01:18:27.310
+factors was salary age as well let me do one thing while
+
+01:18:27.310 --> 01:18:34.530
+creating a model depth is equals to let me set as it
+
+01:18:48.230 --> 01:18:50.550
+is not showing all the and
+
+01:19:31.380 --> 01:19:35.100
+let me it is it is able to plot but yeah so i mean like i
+
+01:19:35.100 --> 01:19:40.220
+was expecting that it will plot the whole story it is i mean
+
+01:19:40.220 --> 01:19:42.680
+like it looks like it is just trying to take only one column
+
+01:19:42.680 --> 01:19:47.100
+and then it is trying to do a division let me change that to
+
+01:19:47.100 --> 01:19:52.460
+guinea and here so model guinea
+
+01:19:55.980 --> 01:20:04.780
+model guinea fit and then here so let me do one thing we can
+
+01:20:04.780 --> 01:20:08.080
+try to plot the same model
+
+01:20:16.180 --> 01:20:21.800
+guinea okay so even as per model so it is okay as per model
+
+01:20:21.800 --> 01:20:27.240
+guinea uh it is trying to consider over time so if on an
+
+01:20:27.240 --> 01:20:32.300
+average as per guinea uh if it is if employees over time is
+
+01:20:32.300 --> 01:20:38.600
+lesser than equal to 0.5 true then no attrition if over time
+
+01:20:38.600 --> 01:20:42.740
+means if employees are working over time over time like more
+
+01:20:42.740 --> 01:20:47.080
+than 0.5 then in that case there will be an attrition i mean
+
+01:20:47.080 --> 01:20:51.000
+like there is a chance that employee is going to leave okay
+
+01:20:51.000 --> 01:20:52.080
+let
+
+01:21:00.810 --> 01:21:03.650
+me do some sort of a tweaking here
+
+01:21:06.370 --> 01:21:11.230
+so max depth none minimum
+
+01:21:14.270 --> 01:21:17.150
+sample split okay
+
+01:22:06.180 --> 01:22:09.400
+so looks like data set itself is very very small and because
+
+01:22:09.400 --> 01:22:15.880
+of that so it is even i have like said that minimum sample
+
+01:22:15.880 --> 01:22:18.380
+split is equals to two and minimum sample if is equals to
+
+01:22:18.380 --> 01:22:25.000
+one so this mean criteria is set but still i
+
+01:22:27.750 --> 01:22:31.610
+have to change the data set because uh it's clearly visible
+
+01:22:31.610 --> 01:22:34.130
+i mean like uh the theory that we have studied that yes
+
+01:22:34.130 --> 01:22:37.970
+based on a condition but a whole and soul idea is all the
+
+01:22:37.970 --> 01:22:42.490
+columns are not participating so in case of my this case
+
+01:22:42.490 --> 01:22:46.510
+overtime lesser than this one is going to like a participate
+
+01:22:46.510 --> 01:22:54.330
+entropy there's this yes okay this time I have taken entropy
+
+01:22:54.330 --> 01:22:55.070
+and
+
+01:23:02.450 --> 01:23:05.630
+yeah so overtime is the only column and
+
+01:23:12.730 --> 01:23:17.590
+overtime value is basically 1010 so technically it doesn't
+
+01:23:17.590 --> 01:23:21.570
+make sense for me if I look in closely into the result
+
+01:23:21.570 --> 01:23:26.790
+because technically overtime was my yes no yes no yes no so
+
+01:23:55.110 --> 01:23:58.190
+which is which is not correct uh technically because based
+
+01:23:58.190 --> 01:24:01.650
+on overtime i can't bet oh
+
+01:24:07.190 --> 01:24:12.190
+yeah i'll change i'm changing the data let me see that let
+
+01:24:14.560 --> 01:24:22.720
+me take let me change this data here itself so okay
+
+01:24:39.900 --> 01:24:47.480
+so here is a new data let me build it with the same i just
+
+01:24:47.480 --> 01:24:51.920
+want you to visualize that tree i mean so that all of you
+
+01:24:51.920 --> 01:24:54.240
+will be able to get a clear picture about it
+
+01:25:11.230 --> 01:25:17.420
+data load this will not work this
+
+01:25:20.530 --> 01:25:24.960
+will also not work data load is done
+
+01:25:30.970 --> 01:25:34.410
+remove this part as well then
+
+01:25:37.740 --> 01:25:44.260
+my x is going to be basically result pass
+
+01:26:20.770 --> 01:26:21.350
+oh
+
+01:26:56.420 --> 01:26:59.220
+there is a nan value somewhere
+
+01:27:49.270 --> 01:27:53.490
+over time so based on okay
+
+01:27:56.370 --> 01:27:59.890
+so again based on only one column so this is the another
+
+01:27:59.890 --> 01:28:05.930
+data i believe i should change the entire plotting library
+
+01:28:05.930 --> 01:28:11.290
+itself because this library it seems there
+
+01:28:16.410 --> 01:28:19.210
+is something called a graph which i can try that one i
+
+01:28:53.450 --> 01:28:55.990
+have to change the
+
+01:29:49.340 --> 01:29:54.500
+graph which is giving me the same result previous marks
+
+01:29:54.500 --> 01:29:58.680
+lesser than three so it's not a graph problem graph is
+
+01:29:58.680 --> 01:30:04.100
+trying to predict what model have learned so it's issue with
+
+01:30:04.100 --> 01:30:09.200
+the data set itself guys we'll have to take a new data set
+
+01:30:09.200 --> 01:30:13.440
+let me take a new it. I just wanted you to show that how
+
+01:30:13.440 --> 01:30:16.780
+every column is participating. I mean like multi-layered. So
+
+01:30:16.780 --> 01:30:19.640
+once you will see that, otherwise I can take a full scale
+
+01:30:19.640 --> 01:30:22.660
+data. So that is going to give you a very, very big graph, a
+
+01:30:22.660 --> 01:30:25.360
+cluttered one. Maybe you will not be able to see it clearly
+
+01:30:25.360 --> 01:30:27.920
+each and every division, but yeah, I mean like it will be a
+
+01:30:27.920 --> 01:30:30.940
+big, big one. That's the reason. So I'm trying to take a
+
+01:30:30.940 --> 01:30:33.900
+small data. Otherwise with a big amount of data, I'm like,
+
+01:30:34.140 --> 01:30:38.300
+it will give me the result immediately let
+
+01:30:42.970 --> 01:30:46.410
+me change some data in
+
+01:31:21.100 --> 01:31:24.880
+just a minute i'm generating the data which can show you the
+
+01:31:24.880 --> 01:31:25.580
+full graph
+
+01:32:11.240 --> 01:32:16.040
+yeah so now see so this is what the kind of situation i mean
+
+01:32:16.040 --> 01:32:19.220
+like it was just a data right so based on the data and now
+
+01:32:19.220 --> 01:32:22.540
+every graph will give you the similar kind of i mean like
+
+01:32:22.540 --> 01:32:27.760
+result so now if you will check this particular graph so
+
+01:32:27.760 --> 01:32:30.960
+here you are able to find out a tree kind of graph let me
+
+01:32:30.960 --> 01:32:37.340
+increase its font size so let me keep it at 12 so that it
+
+01:32:37.340 --> 01:32:41.560
+can be visible bit clearly so yeah we had a lot of columns
+
+01:32:41.560 --> 01:32:44.800
+inside our data set so we this data set that i have taken so
+
+01:32:44.800 --> 01:32:47.800
+i had like a study our attendance assignment uh previous
+
+01:32:47.800 --> 01:32:50.800
+marks extra classes and then internet access sleep our
+
+01:32:50.800 --> 01:32:55.660
+result now so the final model that my system is able to
+
+01:32:55.660 --> 01:32:59.140
+build is this one it is not considering first of all all the
+
+01:32:59.140 --> 01:33:02.720
+columns right so because maybe their entropy or their
+
+01:33:02.720 --> 01:33:06.700
+information gain was very very low it simply means that at
+
+01:33:06.700 --> 01:33:09.080
+any point of a time they are not contributing they are not
+
+01:33:09.080 --> 01:33:11.960
+contributing in terms of making a division right if their
+
+01:33:11.960 --> 01:33:14.800
+information gain is very very low because it will always try
+
+01:33:14.800 --> 01:33:17.040
+to select what it will always try to select at any level
+
+01:33:17.040 --> 01:33:19.820
+right at any level it will always have to select a column so
+
+01:33:19.820 --> 01:33:23.440
+which information gain is maximum so here on a very first
+
+01:33:23.440 --> 01:33:27.420
+place itself out of my study hour attendance assignment
+
+01:33:27.420 --> 01:33:31.520
+previous marks extra classes internet access sleep hour
+
+01:33:31.520 --> 01:33:35.400
+result all of these column it has considered previous marks
+
+01:33:35.400 --> 01:33:38.220
+because it i'm taking entropy right so obviously information
+
+01:33:38.220 --> 01:33:41.560
+gain was highest for this particular one so previous marks
+
+01:33:41.560 --> 01:33:45.260
+and then based on a previous marks is basically like uh you
+
+01:33:45.260 --> 01:33:52.380
+know uh entropy is this one value is uh 12 and 7 and class i
+
+01:33:52.380 --> 01:33:55.520
+have to change this label by the way let me change this
+
+01:33:55.520 --> 01:34:02.320
+label it is coming from the previous one itself so
+
+01:34:15.120 --> 01:34:17.280
+class name so
+
+01:34:33.530 --> 01:34:37.670
+basically here uh previous sparks is this one entropy is
+
+01:34:37.670 --> 01:34:41.010
+this one and then sample is like a 19 it has considered a
+
+01:34:41.010 --> 01:34:44.150
+total sample which was available inside my data set and then
+
+01:34:44.150 --> 01:34:49.410
+value is equal to like 12 and 7 so it is 12 versus basically
+
+01:34:49.410 --> 01:34:53.490
+7 total out of 19 data so basically it has like you know
+
+01:34:53.490 --> 01:34:58.750
+made a conclusion that okay at any point of a time so like
+
+01:34:58.750 --> 01:35:04.810
+you know basically person is going to be like a fail on this
+
+01:35:04.810 --> 01:35:08.490
+situation completely fail sorry it is it is going to be like
+
+01:35:08.490 --> 01:35:12.230
+a class fail i mean if fail is equal to true it will fall
+
+01:35:12.230 --> 01:35:16.490
+here and then fail is equals to false so it will fall here
+
+01:35:16.490 --> 01:35:20.910
+so again here we have an entropy so if you look closely you
+
+01:35:20.910 --> 01:35:24.350
+will be able to find out like a very very clear manner that
+
+01:35:24.350 --> 01:35:28.770
+that if previous marks is this one entropy is this one class
+
+01:35:28.770 --> 01:35:34.930
+is fail so fail is equals to true right true now 11 data set
+
+01:35:34.930 --> 01:35:38.170
+we have over here such data set we have over here with value
+
+01:35:38.170 --> 01:35:40.890
+is equals to let's say zero right value is equals to
+
+01:35:40.890 --> 01:35:44.130
+basically 0. So now here you will be able to see that that
+
+01:35:44.130 --> 01:35:48.230
+you know if class if it is falling under this region class
+
+01:35:48.230 --> 01:35:52.570
+is equals to fail prediction will be done. If it is not fail
+
+01:35:52.570 --> 01:35:58.130
+right then again to predict pass and fail you have to do a
+
+01:35:58.130 --> 01:36:01.450
+division because the data that we have gotten over here the
+
+01:36:01.450 --> 01:36:05.030
+table that will come in this particular place it is still
+
+01:36:05.030 --> 01:36:08.310
+having the entropy. So if there is an entropy if there is an
+
+01:36:08.310 --> 01:36:10.650
+impurity it simply means that we have a mix we have pass
+
+01:36:10.650 --> 01:36:12.990
+fail pass fail pass fail both so in that case again it will
+
+01:36:12.990 --> 01:36:15.650
+go for the split so here it is trying to split based on what
+
+01:36:15.650 --> 01:36:19.010
+based on the internet access it is trying to split the data
+
+01:36:19.010 --> 01:36:22.410
+set and then again it is trying to predict basically pass or
+
+01:36:22.410 --> 01:36:26.050
+fail in this particular situation so hope this makes sense
+
+01:36:26.050 --> 01:36:29.690
+to all of us guys right and same thing we have discussed in
+
+01:36:29.690 --> 01:36:33.150
+theory so basically i was just trying to prove that that
+
+01:36:33.150 --> 01:36:36.610
+whatsoever we have discussed with respect to a theory same
+
+01:36:36.610 --> 01:36:40.190
+thing it is trying to follow even in terms of a internal
+
+01:36:40.190 --> 01:36:42.930
+algorithm that's it that that's the only thing which i was
+
+01:36:42.930 --> 01:36:45.590
+trying to like prove over here and that's the only thing
+
+01:36:45.590 --> 01:36:48.270
+where i was trying to you know create this multiple division
+
+01:36:48.270 --> 01:36:52.110
+and you are able to find out that with this practical
+
+01:36:52.110 --> 01:36:55.230
+example that it's not like every time every column is going
+
+01:36:55.230 --> 01:36:59.230
+to participate no who is going to participate with the
+
+01:36:59.230 --> 01:37:03.090
+maximum entropy right with the maximum entropy who sorry
+
+01:37:03.090 --> 01:37:05.750
+maximum information gain is going to participate at any
+
+01:37:05.750 --> 01:37:10.490
+point of any level entropy should always comes to zero and
+
+01:37:10.490 --> 01:37:13.870
+as soon as entropy will become zero right it will stop
+
+01:37:13.870 --> 01:37:16.710
+dividing so it's not like it will keep on dividing further
+
+01:37:16.710 --> 01:37:20.310
+as you can see over here that it will not divide because it
+
+01:37:20.310 --> 01:37:22.870
+is able to make the decision entropy is equal to zero now it
+
+01:37:22.870 --> 01:37:25.830
+is not dividing even on this level right because entropy is
+
+01:37:25.830 --> 01:37:28.010
+equal to zero so there is no impurity so there is no reason
+
+01:37:28.010 --> 01:37:31.730
+of doing a division there is only one class in a result part
+
+01:37:31.730 --> 01:37:34.790
+so why you will divide basically again entropy is equal to
+
+01:37:34.790 --> 01:37:37.550
+zero so this is one of the reason where other columns are
+
+01:37:37.550 --> 01:37:39.410
+not participating yes
+
+01:37:41.430 --> 01:37:47.130
+so the whole agenda over here is to get a leaf node where
+
+01:37:47.130 --> 01:37:50.930
+entropy is equals to zero so these are what these are three
+
+01:37:52.350 --> 01:37:56.190
+leaf nodes basically the decision making node and everywhere
+
+01:37:56.190 --> 01:38:00.510
+entropy is what entropy is equals to zero so if you will
+
+01:38:00.510 --> 01:38:03.810
+take a very very huge amount of data a very very complex
+
+01:38:03.810 --> 01:38:07.450
+amount of a data so there is a possibility that it will keep
+
+01:38:07.450 --> 01:38:10.490
+on dividing keep on dividing keep on dividing right maybe on
+
+01:38:10.490 --> 01:38:12.790
+other branches maybe on other branches it will keep on
+
+01:38:12.790 --> 01:38:16.490
+dividing and in that manner what happens so your entire
+
+01:38:16.490 --> 01:38:19.490
+decision will become very very complex for certain situation
+
+01:38:19.490 --> 01:38:21.710
+for certain situation in a couple of steps it is going to
+
+01:38:21.710 --> 01:38:24.650
+make a decision in three step four step or three depth is
+
+01:38:24.650 --> 01:38:27.070
+equal to three it will be our four or maybe five it will be
+
+01:38:27.070 --> 01:38:29.870
+able to make a decision but sometime it will go even till a
+
+01:38:29.870 --> 01:38:32.930
+50th step which is again going to hallucinate the entire
+
+01:38:32.930 --> 01:38:36.790
+model which is going to create an overfitted model. Now in
+
+01:38:36.790 --> 01:38:39.730
+that situation what we try to do we always go ahead with the
+
+01:38:39.730 --> 01:38:43.330
+tree pruning. This is what we have done even above. So we
+
+01:38:43.330 --> 01:38:46.050
+try to do what we try to do a tree pruning. So we say that
+
+01:38:46.050 --> 01:38:48.470
+so we try to say that okay fine so this is going to be the
+
+01:38:48.470 --> 01:38:51.130
+maximum depth this is going to be the minimum depth this
+
+01:38:51.130 --> 01:38:54.930
+should be the minimum sample of like a minimum sample split
+
+01:38:54.930 --> 01:38:58.450
+or the maximum sample split. So all of these things, we can
+
+01:38:58.450 --> 01:39:02.030
+try to set it up while building the algorithm as well as
+
+01:39:02.030 --> 01:39:09.200
+that. But yeah, this is a very simple like, so yeah, minimum
+
+01:39:09.200 --> 01:39:11.480
+sample split, we have taken minimum sample leave, we have
+
+01:39:11.480 --> 01:39:14.500
+taken that it should be one at least. Likewise, so we can
+
+01:39:14.500 --> 01:39:17.240
+try to set even a maximum. And with the help of that, we can
+
+01:39:17.240 --> 01:39:20.560
+try to control the growth of this entire decision tree.
+
+01:39:21.480 --> 01:39:25.060
+Making sense everyone to all of us yeah
+
+01:39:30.630 --> 01:39:34.390
+so it's like this is how it is going to technically work now
+
+01:39:35.070 --> 01:39:38.710
+so let's do one thing uh go
+
+01:39:54.330 --> 01:39:58.250
+to uci repository and then so
+
+01:40:47.020 --> 01:40:49.760
+you can go over here and then you can try to download this
+
+01:40:49.760 --> 01:40:52.340
+particular data a variable computing classification for body
+
+01:40:52.340 --> 01:40:55.340
+posture and a movement right so this is basically a
+
+01:40:55.340 --> 01:40:58.820
+classification data uh then you can try to perform the eda
+
+01:40:58.820 --> 01:41:00.760
+with respect to this particular data set there are so many
+
+01:41:00.760 --> 01:41:03.440
+columns which you can try to understand out of this entire
+
+01:41:03.440 --> 01:41:06.980
+data set so just read out read out and then try to download
+
+01:41:06.980 --> 01:41:11.160
+this particular data set and then try to basically use a
+
+01:41:11.160 --> 01:41:14.160
+decision tree right here you will be able to find out five
+
+01:41:14.160 --> 01:41:16.740
+classes so sitting down standing up standing walking and
+
+01:41:16.740 --> 01:41:20.740
+sitting so basically it is like it has collected the entire
+
+01:41:20.740 --> 01:41:23.760
+activity of a particular person and based on that you can
+
+01:41:23.760 --> 01:41:27.060
+try to do a classification five class classification over
+
+01:41:27.060 --> 01:41:32.600
+here so try to build this entire model and then not just
+
+01:41:32.600 --> 01:41:42.370
+build it i would say so try to even divide it so let me show
+
+01:41:42.370 --> 01:41:45.550
+you how the actual data set is
+
+01:41:56.400 --> 01:41:57.420
+there but
+
+01:42:10.640 --> 01:42:17.950
+it's only 4kb very small let
+
+01:42:20.290 --> 01:42:23.110
+me check some other data set guys for you
+
+01:42:27.010 --> 01:42:30.230
+maybe on kegel it's
+
+01:42:32.700 --> 01:42:37.380
+very very small so not good as per me
+
+01:42:40.990 --> 01:42:49.550
+classification so here let me apply some filter data set so
+
+01:42:49.550 --> 01:42:53.690
+muslim classification no it will be easy garbage
+
+01:42:53.690 --> 01:42:59.530
+classification okay let's check this data let's check this
+
+01:42:59.530 --> 01:43:03.430
+one glass cyber bullying classification okay let's check
+
+01:43:03.430 --> 01:43:11.460
+that as well let me see what are the column that we have
+
+01:43:11.460 --> 01:43:12.160
+glass
+
+01:43:17.250 --> 01:43:18.670
+metal paper
+
+01:43:22.010 --> 01:43:27.810
+here basically it's a jpeg file it looks like so it's a
+
+01:43:27.810 --> 01:43:30.550
+computer vision based problem not a machine learning based
+
+01:43:30.550 --> 01:43:35.130
+problem this looks like feature sets are a sex blood
+
+01:43:35.130 --> 01:43:39.230
+pressure cholesterol no potassium ratio the target feature
+
+01:43:39.230 --> 01:43:45.310
+is drug type yes this is and how many data we have here
+
+01:43:57.370 --> 01:44:00.010
+we can see the it's
+
+01:44:05.900 --> 01:44:12.140
+again very small it seems only kb in zip only
+
+01:44:21.040 --> 01:44:26.440
+200 records let me find something big
+
+01:44:57.670 --> 01:45:01.090
+this looks to be a little bit bigger
+
+01:45:05.220 --> 01:45:07.020
+47 kb
+
+01:45:18.830 --> 01:45:20.590
+this is good
+
+01:45:28.270 --> 01:45:34.770
+so even column wise and number of data wise around 2127
+
+01:45:34.770 --> 01:45:39.270
+means 26 so yeah i mean like it's a good data so maybe you
+
+01:45:39.270 --> 01:45:43.730
+can try to use this data guys data set is good even in terms
+
+01:45:43.730 --> 01:45:47.010
+of number of records and even in terms of number of columns
+
+01:45:47.010 --> 01:45:50.770
+so they have like a 22 columns in this one so i'm pinging
+
+01:45:50.770 --> 01:45:54.870
+you this one just do one thing so try to implement a
+
+01:45:54.870 --> 01:45:58.370
+decision tree classification on top of this particular data
+
+01:45:58.370 --> 01:46:01.330
+set all these details are already mentioned as you can see
+
+01:46:01.330 --> 01:46:04.890
+over here right and yeah so with the help of this try to
+
+01:46:04.890 --> 01:46:08.910
+build a model then try to even plot it basically try to
+
+01:46:08.910 --> 01:46:13.230
+check that you know how this final tree final tree that i
+
+01:46:13.230 --> 01:46:18.550
+have created actually looks like and then deploy this entire
+
+01:46:18.550 --> 01:46:22.030
+solution on a render i believe we all know the deployment
+
+01:46:22.030 --> 01:46:25.210
+even last time i have given you this task and some of you
+
+01:46:25.210 --> 01:46:27.510
+have sent me a mail saying that they have completed the task
+
+01:46:27.510 --> 01:46:31.090
+basically and yeah it was amazing so just try to deploy this
+
+01:46:31.090 --> 01:46:34.350
+one then so that you know anyone who can go and do the
+
+01:46:34.350 --> 01:46:37.550
+prediction a plus while doing a deployment so try to
+
+01:46:37.550 --> 01:46:40.990
+showcase that tree structure as well so just try to save it
+
+01:46:40.990 --> 01:46:44.750
+as a png and then you know try to showcase that as a png so
+
+01:46:44.750 --> 01:46:47.190
+that anyone will be able to understand that okay fine this
+
+01:46:47.190 --> 01:46:50.670
+is the model that you have created make sense everyone about
+
+01:46:50.670 --> 01:46:56.190
+the task yeah so in a deployed link i want this picture as
+
+01:46:56.190 --> 01:46:59.130
+well the picture which we are trying to plot over here right
+
+01:46:59.130 --> 01:47:01.870
+so that anyone can go and anyone can observe and with
+
+01:47:01.870 --> 01:47:04.090
+respect to this data set believe me it is going to be a
+
+01:47:04.090 --> 01:47:07.210
+little bit bigger so try to do one thing so try to do a tree
+
+01:47:07.210 --> 01:47:11.310
+pruning means stop it at third level or fourth level so do
+
+01:47:11.310 --> 01:47:14.290
+not allow to grow your tree beyond third level or fourth
+
+01:47:14.290 --> 01:47:17.530
+level so in that case your picture will be better and
+
+01:47:17.530 --> 01:47:20.230
+visible to each and everyone otherwise it will be like you
+
+01:47:20.230 --> 01:47:23.490
+know kind of a hodgepodge and no one will be able to see the
+
+01:47:23.490 --> 01:47:26.970
+actual diagram of the decision tree so just do it just try
+
+01:47:26.970 --> 01:47:29.630
+to complete this one guys and yeah so tomorrow we will be
+
+01:47:29.630 --> 01:47:32.750
+talking about basically a random forest random forest
+
+01:47:32.750 --> 01:47:36.210
+technically depends upon the decision tree that we have
+
+01:47:36.210 --> 01:47:40.370
+discussed and yeah so random forest is nothing but it's a
+
+01:47:40.370 --> 01:47:43.950
+forest right so forest is what a combination of trees so
+
+01:47:43.950 --> 01:47:46.350
+this is what random forest is so there's something called an
+
+01:47:46.350 --> 01:47:48.210
+ensemble technique so we'll be talking about ensemble
+
+01:47:48.210 --> 01:47:51.510
+technique uh bagging inside that there is a concept called
+
+01:47:51.510 --> 01:47:53.570
+as backing comes into picture there is a concept called as
+
+01:47:53.570 --> 01:47:56.590
+boosting comes into picture so we'll try to introduce you
+
+01:47:56.590 --> 01:47:59.950
+those things so we are not just one single model so multiple
+
+01:47:59.950 --> 01:48:03.150
+model will be created and finally multiple model will be
+
+01:48:03.150 --> 01:48:07.110
+able to take a decision so far in case of linear or like in
+
+01:48:07.110 --> 01:48:10.930
+case of linear regression or logistic regression and
+
+01:48:10.930 --> 01:48:13.570
+decision tree so every time we are trying to create one one
+
+01:48:13.570 --> 01:48:16.650
+one one models right but what if if we can try to to create
+
+01:48:16.650 --> 01:48:20.310
+a multiple models out of one data set for one single problem
+
+01:48:20.310 --> 01:48:23.230
+and those models are going to make a decision just like a
+
+01:48:23.230 --> 01:48:26.450
+parliament right so we have a lot of mps and not just one
+
+01:48:26.450 --> 01:48:29.390
+single person make a decision many people try to make a
+
+01:48:29.390 --> 01:48:31.710
+decision at the end of the day so those kind of situation
+
+01:48:31.710 --> 01:48:33.950
+those kind of scenario we are going to talk about which is
+
+01:48:33.950 --> 01:48:36.710
+called as ensemble technique inside that again there is a
+
+01:48:36.710 --> 01:48:39.410
+bifurcation called as bagging and boosting so i'll be
+
+01:48:39.410 --> 01:48:41.570
+talking about both the concept i'll be talking about the
+
+01:48:41.570 --> 01:48:43.730
+algorithm which falls under bagging the algorithm which
+
+01:48:43.730 --> 01:48:47.590
+falls under boosting and then underlying algorithm with
+
+01:48:47.590 --> 01:48:51.710
+explanation. So that will be the agenda. Finally one in
+
+01:48:51.710 --> 01:48:58.940
+between complete the task. It will be done right task wise.
+
+01:49:01.540 --> 01:49:05.780
+Okay, great. Cool. So any question for me, so please feel
+
+01:49:05.780 --> 01:49:07.660
+free to raise your hand or maybe you can try to put your
+
+01:49:07.660 --> 01:49:11.080
+question inside a chat box. I'll be happy to answer.
+
+01:49:13.100 --> 01:49:16.900
+If we don't have any kind of a question then we'll conclude
+
+01:49:16.900 --> 01:49:18.660
+the class okay
+
+01:49:22.380 --> 01:49:24.720
+so no question so far in
+
+01:49:28.520 --> 01:49:30.940
+that situation so let's try to conclude the class so fine
+
+01:49:30.940 --> 01:49:34.660
+guys thank you so much and see you again in my tomorrow's
+
+01:49:34.660 --> 01:49:35.460
+class take care everyone
+

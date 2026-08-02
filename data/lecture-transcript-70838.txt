@@ -1,0 +1,2969 @@
+WEBVTT
+
+00:04:29.460 --> 00:04:31.880
+Hey, hi everyone. So I believe I'm audible and visible guys.
+
+00:04:32.100 --> 00:04:35.660
+So please confirm so that we can start. Yeah. So in a chat,
+
+00:04:36.080 --> 00:04:37.660
+we want to.
+
+00:04:42.300 --> 00:04:44.620
+Okay, guys, so let's start with the class. So today we'll be
+
+00:04:44.620 --> 00:04:48.380
+talking about basically two algorithms. So which is a part
+
+00:04:48.380 --> 00:04:52.560
+of ensemble technique. So let me share my screen. I think
+
+00:04:52.560 --> 00:04:56.240
+it's visible. And let me open up my notebook.
+
+00:05:00.270 --> 00:05:03.710
+Okay. So basically, there are two algorithms that we'll be
+
+00:05:03.710 --> 00:05:06.370
+talking about. so one is a random forest and one is a
+
+00:05:06.370 --> 00:05:11.550
+exhibit now uh both are somewhat related to a decision to
+
+00:05:11.550 --> 00:05:13.910
+example that we have already discussed in my today's class
+
+00:05:13.910 --> 00:05:17.250
+so we talked about a decision tree and we have seen that how
+
+00:05:17.250 --> 00:05:21.810
+decision tree actually going to work and again how it is
+
+00:05:21.810 --> 00:05:24.810
+going to make a decision at the end of the day so now here
+
+00:05:24.810 --> 00:05:28.370
+so we'll try to understand one technique called as ensemble
+
+00:05:28.370 --> 00:05:31.410
+learning and when we say ensemble learning it simply means
+
+00:05:31.410 --> 00:05:37.010
+that that you are trying to involve a multiple model all
+
+00:05:37.010 --> 00:05:40.530
+together to make a final prediction or to make a final
+
+00:05:40.530 --> 00:05:43.450
+decision and this is where this ensemble learning comes into
+
+00:05:43.450 --> 00:05:43.950
+picture.
+
+00:05:51.280 --> 00:05:54.900
+So let's try to understand what is the meaning of ensemble
+
+00:05:54.900 --> 00:05:58.220
+learning, how it is going to work and it's very very easy to
+
+00:05:58.220 --> 00:06:02.340
+technically understand this entire thing basically. So
+
+00:06:02.340 --> 00:06:06.360
+ensemble learning simply means that that multiple things
+
+00:06:06.360 --> 00:06:09.120
+coming together and then trying to do some sort of a
+
+00:06:09.120 --> 00:06:12.580
+operation now why it is required so where my decision tree
+
+00:06:12.580 --> 00:06:15.940
+is going to fail so my decision tree is going to fail
+
+00:06:15.940 --> 00:06:19.600
+because there will be there is a possibility that my
+
+00:06:19.600 --> 00:06:23.100
+decision tree is going to overfit when i say overfitting it
+
+00:06:23.100 --> 00:06:26.060
+simply means that that system is working fine model is
+
+00:06:26.060 --> 00:06:28.920
+working fine on the data which it has seen means training
+
+00:06:28.920 --> 00:06:32.240
+kind of a data and again so when i'm trying to test it with
+
+00:06:32.240 --> 00:06:35.940
+the unknown data so maybe it is not working fine for me and
+
+00:06:35.940 --> 00:06:39.260
+that happens a lot with respect to a decision tree there
+
+00:06:39.260 --> 00:06:41.640
+will be a very very high variance so again decision tree
+
+00:06:41.640 --> 00:06:45.340
+will not be able to handle those high variances and this is
+
+00:06:45.340 --> 00:06:48.380
+where i would say ensemble learning comes into picture they
+
+00:06:48.380 --> 00:06:52.240
+said that that okay so if one person is making decision then
+
+00:06:52.240 --> 00:06:55.820
+there is a high chances that it will vary a lot what we can
+
+00:06:55.820 --> 00:06:58.700
+do and especially on unseen data so what we can do so we can
+
+00:06:58.700 --> 00:07:01.160
+try to maybe like you know control this particular part and
+
+00:07:01.160 --> 00:07:05.040
+we can try to introduce a multiple person who can make a
+
+00:07:05.040 --> 00:07:07.880
+decision and this is where they said that that okay fine so
+
+00:07:07.880 --> 00:07:10.860
+let's talk about ensemble learning so where we can try to
+
+00:07:10.860 --> 00:07:13.660
+bring multiple things and then we will be able to do a
+
+00:07:13.660 --> 00:07:17.000
+prediction or we will be able to technically do a
+
+00:07:17.000 --> 00:07:20.960
+forecasting now inside ensemble learning so people have
+
+00:07:20.960 --> 00:07:26.580
+defined three approaches so one is called as bagging one is
+
+00:07:26.580 --> 00:07:30.200
+called as bagging second one is called as actually like a
+
+00:07:30.200 --> 00:07:39.160
+boosting and third one is called as a stacking so as per our
+
+00:07:39.160 --> 00:07:41.480
+syllabus we'll try to talk about this one and this one right
+
+00:07:41.480 --> 00:07:45.560
+so here when we say bagging so we try to understand what is
+
+00:07:45.560 --> 00:07:47.920
+the meaning of a bagging but yeah in all the three approach
+
+00:07:47.920 --> 00:07:51.480
+what we do and what is common multiple decision maker will
+
+00:07:51.480 --> 00:07:54.620
+be involved means multiple model it tried to build and
+
+00:07:54.620 --> 00:07:57.820
+technically we try to call it as one final model and then
+
+00:07:57.820 --> 00:08:01.180
+all this like a multiple model will try to do a prediction
+
+00:08:01.180 --> 00:08:06.140
+at any point of time now so let's say we are talking about a
+
+00:08:06.140 --> 00:08:09.180
+bagging so what is this bagging by the way first of all we
+
+00:08:09.180 --> 00:08:12.140
+have to understand that particular part so bagging is
+
+00:08:12.140 --> 00:08:16.600
+nothing but it's called as bootstrap aggregation so let's
+
+00:08:16.600 --> 00:08:19.860
+talk about a very first point which is a bagging
+
+00:08:24.020 --> 00:08:27.860
+bagging now what is this bagging so it's simple bootstrap
+
+00:08:27.860 --> 00:08:28.480
+aggregation
+
+00:08:38.300 --> 00:08:43.760
+now what is a meaning of a bootstrap aggregation yeah so
+
+00:08:43.760 --> 00:08:47.080
+bootstrap simply means that that if i have a data set so
+
+00:08:47.080 --> 00:08:51.060
+randomly i will try to create a multiple set of the data
+
+00:08:51.060 --> 00:08:55.020
+where there can be a overlap for example so if i have to
+
+00:08:55.020 --> 00:08:58.560
+give you a data set so maybe we can try to take this kind of
+
+00:08:58.560 --> 00:09:02.540
+a sample data set so where we have let's say
+
+00:09:06.890 --> 00:09:13.890
+id and then we have let's say feature and then we have a
+
+00:09:13.890 --> 00:09:17.530
+class right in case of a classification problem so id one
+
+00:09:17.530 --> 00:09:23.990
+two three four five and then we have let's say feature a b c
+
+00:09:23.990 --> 00:09:30.750
+d e and then we have a class maybe zero one zero one one so
+
+00:09:30.750 --> 00:09:33.830
+this is a kind of a data set that I have now what this
+
+00:09:33.830 --> 00:09:37.530
+bagging technique will do in a very first place so in a very
+
+00:09:37.530 --> 00:09:41.250
+first place bagging will try to select a data for a
+
+00:09:41.250 --> 00:09:43.530
+different different model because we are talking about a
+
+00:09:43.530 --> 00:09:47.790
+multiple model creation so let's say we have model number
+
+00:09:47.790 --> 00:09:50.970
+one we have model number two we have model number three we
+
+00:09:50.970 --> 00:09:53.270
+have model number four so multiple model we are trying to
+
+00:09:53.270 --> 00:09:57.850
+create now if I'm going to send a same data to model number
+
+00:09:57.850 --> 00:10:00.890
+one model number two model number three and model number
+
+00:10:00.890 --> 00:10:04.170
+four, it is not going to create any kind of a differences
+
+00:10:04.170 --> 00:10:07.910
+for me. Let's say this model number one is a tree, this is a
+
+00:10:07.910 --> 00:10:10.990
+tree, this is a tree, this is a tree, decision tree. So if
+
+00:10:10.990 --> 00:10:14.410
+I'm sending same data to all of this model, it is not going
+
+00:10:14.410 --> 00:10:17.290
+to create any kind of a difference for me. It is not going
+
+00:10:17.290 --> 00:10:19.210
+to create any kind of a difference for me. So people said
+
+00:10:19.210 --> 00:10:23.190
+that okay, let's not do that. Let's not send a same kind of
+
+00:10:23.190 --> 00:10:26.490
+data. I mean like the whole data to model number one two
+
+00:10:26.490 --> 00:10:31.110
+three and four because it is going to work well so this was
+
+00:10:31.110 --> 00:10:32.830
+the problem with the decision tree right so decision tree
+
+00:10:32.830 --> 00:10:35.570
+works well with the seen data but with unseen data so it is
+
+00:10:35.570 --> 00:10:38.410
+not going to give you a correct result which is called as
+
+00:10:38.410 --> 00:10:41.610
+overfitting so if i have to reduce that overfitting
+
+00:10:41.610 --> 00:10:44.990
+situation so in that case i have to play with the data as
+
+00:10:44.990 --> 00:10:47.770
+well so this is where the bootstrap aggregation comes into
+
+00:10:47.770 --> 00:10:51.130
+picture and it's a very simple concept so it says that that
+
+00:10:51.130 --> 00:10:54.730
+the model number one right so model number one will not get
+
+00:10:54.730 --> 00:10:59.330
+all the data what it can get so maybe it can get a set of
+
+00:10:59.330 --> 00:11:03.470
+one then three then two then three and then five so maybe
+
+00:11:03.470 --> 00:11:06.830
+this is the combination model number one is going to see so
+
+00:11:06.830 --> 00:11:11.350
+one three two again three four and like a five right then
+
+00:11:11.350 --> 00:11:14.230
+model number two will be able to get some different set of
+
+00:11:14.230 --> 00:11:18.750
+the data right so two two four five one different
+
+00:11:18.750 --> 00:11:21.870
+combination model number three will be able to get some
+
+00:11:21.870 --> 00:11:26.090
+different set of the data so three four four one five two
+
+00:11:26.090 --> 00:11:30.010
+right so here you are able to see that that i'm not sending
+
+00:11:30.010 --> 00:11:33.230
+a same combination of the data to model number one when i
+
+00:11:33.230 --> 00:11:36.910
+say data i'm talking about the records row wise right row
+
+00:11:36.910 --> 00:11:39.530
+wise and the number which i have written over here is the
+
+00:11:39.530 --> 00:11:42.710
+row numbers id number which i have written over there so
+
+00:11:42.710 --> 00:11:45.150
+this this data will go to model number one this is the data
+
+00:11:45.150 --> 00:11:47.950
+will go to model number two and three so i'm trying to
+
+00:11:47.950 --> 00:11:51.650
+create our variations into a data set itself so this data
+
+00:11:51.650 --> 00:11:55.090
+set creation is technically called as what it's technically
+
+00:11:55.090 --> 00:11:57.930
+called as bootstrap aggregation make sense everyone
+
+00:12:02.640 --> 00:12:08.100
+yes yeah because every model i can't send the whole data
+
+00:12:08.100 --> 00:12:11.120
+because if i'm going to do it again there will be like no
+
+00:12:11.120 --> 00:12:13.620
+separations no segregations right everyone is going to see
+
+00:12:13.620 --> 00:12:16.780
+the same data so bootstrapping aggregation has been like you
+
+00:12:16.780 --> 00:12:19.520
+know derived and it said that that okay fine so let's try to
+
+00:12:19.520 --> 00:12:22.820
+send like from the data set a subset of the data or maybe
+
+00:12:22.820 --> 00:12:26.360
+combination of the data you can try to send okay fine now
+
+00:12:26.360 --> 00:12:30.220
+this is called as bootstrap sampling so bootstrap sampling
+
+00:12:30.220 --> 00:12:32.880
+bootstrap sampling bootstrap sampling so this is called as
+
+00:12:32.880 --> 00:12:37.340
+basically bootstrap sampling okay fine now so everyone is
+
+00:12:37.340 --> 00:12:40.260
+not going to see the similar kind of information everyone is
+
+00:12:40.260 --> 00:12:44.220
+not going to see the same kind of a data and then like a
+
+00:12:44.220 --> 00:12:46.740
+model number one, two, three, four, all those things, we can
+
+00:12:46.740 --> 00:12:50.040
+try to train it. So model number one will be trained. Model
+
+00:12:50.040 --> 00:12:52.060
+number two will be trained. Model number three will be
+
+00:12:52.060 --> 00:12:55.460
+trained. So now we have three models, right? So in case of
+
+00:12:55.460 --> 00:12:58.700
+classification, how decision is going to happen in case of
+
+00:12:58.700 --> 00:13:02.240
+classification. So model number one is going to predict,
+
+00:13:02.400 --> 00:13:04.620
+let's say, class zero. Model number two is going to predict
+
+00:13:04.620 --> 00:13:07.260
+class one. Model number three is going to predict class one.
+
+00:13:07.700 --> 00:13:12.230
+So what is going to be the final class? I have sent this
+
+00:13:12.230 --> 00:13:14.510
+data to model number one, two, and three. model number one
+
+00:13:14.510 --> 00:13:17.610
+two and three is trained now i'm sending a new data for a
+
+00:13:17.610 --> 00:13:21.410
+prediction right so one is predicted zero two is predicted
+
+00:13:21.410 --> 00:13:24.630
+class one and like you know three is predicted model number
+
+00:13:24.630 --> 00:13:27.090
+three is predicted class one so what is going to be the
+
+00:13:27.090 --> 00:13:28.670
+final result i
+
+00:13:30.940 --> 00:13:33.300
+think we all know the answer majority wins just like a
+
+00:13:33.300 --> 00:13:37.020
+parliament right so it will go for the voting and then again
+
+00:13:37.020 --> 00:13:38.840
+in case of a regression so it is going to work for
+
+00:13:38.840 --> 00:13:41.180
+regression as well so classification regression both the
+
+00:13:41.180 --> 00:13:43.400
+problem you will be able to solve and in case of a
+
+00:13:43.400 --> 00:13:45.840
+regression model number one will do some prediction two will
+
+00:13:45.840 --> 00:13:47.960
+do some prediction three will do some prediction summation
+
+00:13:47.960 --> 00:13:52.200
+divided by total number of models means average right that
+
+00:13:52.200 --> 00:13:55.400
+is going to be the final prediction okay cool so yeah
+
+00:13:55.400 --> 00:13:57.880
+everyone has said like a you know a model number so
+
+00:13:57.880 --> 00:14:02.340
+basically it's going to be the class one fine so here right
+
+00:14:02.340 --> 00:14:06.760
+so here when i say that i'm taking model number one two and
+
+00:14:06.760 --> 00:14:10.380
+three and then i'm trying to give you a final prediction so
+
+00:14:10.380 --> 00:14:16.600
+technically i'm talking about what i'm talking about a oh
+
+00:14:16.600 --> 00:14:23.320
+technically i'm talking about a bagging basically so
+
+00:14:26.200 --> 00:14:29.320
+i'm trying to create one bag i'm keeping model number one
+
+00:14:29.320 --> 00:14:32.500
+model number two model number three and all together these
+
+00:14:32.500 --> 00:14:36.940
+three models will be used to do one single prediction this
+
+00:14:36.940 --> 00:14:40.000
+approach is called as bag approach just like a school bag
+
+00:14:40.000 --> 00:14:42.700
+right or any other bag so in that we try to keep like our
+
+00:14:42.700 --> 00:14:45.780
+stuff in the similar manner so this approach is called as
+
+00:14:45.780 --> 00:14:50.440
+bagging so is this approach or idea clear to everyone what
+
+00:14:50.440 --> 00:14:52.940
+is the meaning of a bagging and what is the meaning of a
+
+00:14:52.940 --> 00:15:00.120
+bootstrap aggregation two terms clear the meaning of bagging
+
+00:15:00.120 --> 00:15:03.800
+and meaning of a bootstrapping so bootstrapping is basically
+
+00:15:03.800 --> 00:15:07.660
+a process by which you choose the data right bagging means
+
+00:15:07.660 --> 00:15:10.720
+simple if i have like a multiple models and i'm trying to
+
+00:15:10.720 --> 00:15:14.000
+bring it together and then i'm trying to do a prediction and
+
+00:15:14.000 --> 00:15:17.580
+so this is basically called as a bagging okay fine so bag of
+
+00:15:17.580 --> 00:15:20.060
+the model will be created and bag of the model will be
+
+00:15:20.060 --> 00:15:27.160
+basically used over here okay so now now now the algorithm
+
+00:15:27.160 --> 00:15:36.240
+part will come into picture algorithm name is random forest
+
+00:15:36.240 --> 00:15:40.300
+now anyone who can tell me why its name is a random forest
+
+00:15:40.300 --> 00:15:44.360
+forest means like a you know we all know forest like a lot
+
+00:15:44.360 --> 00:15:48.100
+of trees right so why it is called as random forest by the
+
+00:15:48.100 --> 00:15:49.200
+way so
+
+00:15:54.070 --> 00:15:58.010
+basically uh they said that that okay so we are trying to
+
+00:15:58.010 --> 00:16:02.210
+like you know do a bootstrapping by which i am trying to
+
+00:16:02.210 --> 00:16:06.830
+select a combination of the records row label basically and
+
+00:16:06.830 --> 00:16:11.530
+then i'm sending to one or the other model right one or the
+
+00:16:11.530 --> 00:16:16.790
+other model uh so here that's completely fine it's like a
+
+00:16:16.790 --> 00:16:22.470
+you know completely cool but what we can do so we can even
+
+00:16:22.470 --> 00:16:27.210
+try to maybe do something with the features so far we have
+
+00:16:27.210 --> 00:16:29.790
+not dealt with the feature we were talking about just a
+
+00:16:29.790 --> 00:16:33.970
+record label a row label right which is called as bootstrap
+
+00:16:35.950 --> 00:16:37.730
+bootstrap sampling
+
+00:16:40.420 --> 00:16:44.200
+that we have already done right so random forest is nothing
+
+00:16:44.200 --> 00:16:47.260
+but a bootstrap sampling the approach that we have already
+
+00:16:47.260 --> 00:16:51.020
+adopted the approach that we have already done plus random
+
+00:16:51.020 --> 00:16:52.420
+feature
+
+00:16:58.310 --> 00:17:03.230
+selection so what they said they added one more thing so in
+
+00:17:03.230 --> 00:17:05.790
+case of random forest algorithm they have added one more
+
+00:17:05.790 --> 00:17:08.850
+thing they said that that okay we'll be doing bootstrap
+
+00:17:08.850 --> 00:17:11.010
+sampling and we all know what is the meaning of bootstrap
+
+00:17:11.010 --> 00:17:14.150
+sampling in terms of selecting the data right so we'll be
+
+00:17:14.150 --> 00:17:16.450
+doing a bootstrap sampling that's completely cool and okay
+
+00:17:16.450 --> 00:17:21.110
+but what i will do i can try to also introduce basically a
+
+00:17:21.110 --> 00:17:27.630
+random feature it simply means that that if i have a data
+
+00:17:27.630 --> 00:17:32.770
+and inside this data i have a multiple feature x1 x2 x3 x4
+
+00:17:32.770 --> 00:17:39.150
+x5 and so on x1 x2 x3 and so on and then y if i have for a
+
+00:17:39.150 --> 00:17:42.450
+prediction duration or classification whatsoever it is so
+
+00:17:42.450 --> 00:17:48.370
+and and then again row right record label so row 1 row 2 row
+
+00:17:48.370 --> 00:17:53.030
+3 and so on so they said that that okay uh with the help of
+
+00:17:53.030 --> 00:17:57.070
+this bootstrap sampling you are able to randomize a row
+
+00:17:57.070 --> 00:17:59.650
+selection right you are able to randomize a row selection
+
+00:17:59.650 --> 00:18:04.290
+over here but all of these records in case of bootstrap
+
+00:18:04.290 --> 00:18:07.390
+sampling so you are trying to send basically all the
+
+00:18:07.390 --> 00:18:10.130
+features right all the features whatsoever feature that we
+
+00:18:10.130 --> 00:18:12.770
+have so you're trying to send all the features what we can
+
+00:18:12.770 --> 00:18:16.910
+do so we can try to basically select a random feature and
+
+00:18:16.910 --> 00:18:21.230
+this is where this algorithm name became random forest so
+
+00:18:21.230 --> 00:18:25.290
+random feature selection idea or random feature selection
+
+00:18:25.290 --> 00:18:31.110
+approach we can try to adopt and based on that we are not
+
+00:18:31.110 --> 00:18:34.970
+going to send all the feature and all the rows and based on
+
+00:18:34.970 --> 00:18:38.450
+that so we can try to train the model right we can try to
+
+00:18:38.450 --> 00:18:41.570
+train a multiple model a bag of the model and then
+
+00:18:41.570 --> 00:18:45.370
+eventually that will be able to do a final prediction so
+
+00:18:45.370 --> 00:18:49.270
+here let's say if i have a 10 columns 10 feature column one
+
+00:18:49.270 --> 00:18:53.390
+two three four x 10 right so maybe root of these many
+
+00:18:53.390 --> 00:18:57.110
+features which will be around three point something so only
+
+00:18:57.110 --> 00:19:01.470
+these feature on an average will go to one single model
+
+00:19:01.470 --> 00:19:05.830
+right one single model so here there will be like you know
+
+00:19:05.830 --> 00:19:09.390
+uh three term you will be able to find out one is a number
+
+00:19:09.390 --> 00:19:10.250
+of sample
+
+00:19:14.470 --> 00:19:18.450
+sample means number of records by the way right so we have
+
+00:19:18.450 --> 00:19:20.710
+maybe thousand ten thousand two thousand records whatsoever
+
+00:19:20.710 --> 00:19:25.210
+it is and then we will be having a p a feature x1 and xn
+
+00:19:25.210 --> 00:19:29.570
+till xn right number of columns basically right and then
+
+00:19:29.570 --> 00:19:35.230
+number of trees so tree we are going to create now so let's
+
+00:19:35.230 --> 00:19:38.510
+say if we are saying that that i will be creating five trees
+
+00:19:38.510 --> 00:19:41.930
+which five tree will be a part of forest means part of one
+
+00:19:41.930 --> 00:19:45.510
+single bag and every tree will be able to get around every
+
+00:19:45.510 --> 00:19:49.350
+tree will be able to get a bootstrap sampling means a random
+
+00:19:49.350 --> 00:19:54.070
+rows basically a overlap also possible and then a features
+
+00:19:54.070 --> 00:19:57.250
+right then a features but not all the features this time so
+
+00:19:57.250 --> 00:20:00.530
+what I will do so I'll try to cut sort the feature as simple
+
+00:20:00.530 --> 00:20:05.370
+as that right as simple as that and then everyone is going
+
+00:20:05.370 --> 00:20:08.250
+to do a prediction and everyone will be able to basically
+
+00:20:08.250 --> 00:20:12.970
+give me the final output just in case of classification of
+
+00:20:12.970 --> 00:20:17.530
+voting in case of regression averaging so this is where this
+
+00:20:17.530 --> 00:20:20.410
+random forest comes into picture makes sense guys to all of
+
+00:20:20.410 --> 00:20:24.050
+us how random forest actually works yes
+
+00:20:28.530 --> 00:20:32.090
+yeah so it's a very simple algorithm to understand there is
+
+00:20:32.090 --> 00:20:34.850
+only couple of terms that you are supposed to know one is a
+
+00:20:34.850 --> 00:20:37.830
+bagging i mean like random forest is by default algorithm
+
+00:20:37.830 --> 00:20:42.030
+wise it's a bagging algorithm right and yeah so it follows
+
+00:20:42.030 --> 00:20:44.970
+what it follows bootstrap sampling plus a random feature
+
+00:20:44.970 --> 00:20:47.650
+selection both if you are going to combine it it becomes a
+
+00:20:47.650 --> 00:20:51.110
+random forest algorithm that's it nothing as a rocket
+
+00:20:51.110 --> 00:20:54.830
+science now when i talk about a model it's a same model that
+
+00:20:54.830 --> 00:20:57.770
+we have discussed so mathematical formula wise on a model
+
+00:20:57.770 --> 00:21:01.390
+basis same things guinea and then your entropy comes into
+
+00:21:01.390 --> 00:21:04.230
+picture information gain come into picture that we have
+
+00:21:04.230 --> 00:21:07.130
+already derived and that we have already discussed as a part
+
+00:21:07.130 --> 00:21:13.190
+of formula as simple as that okay now so this is basically
+
+00:21:13.190 --> 00:21:16.430
+called as bagging right this is basically called as bagging
+
+00:21:16.430 --> 00:21:20.430
+a bag of model we are trying to create and then in parallel
+
+00:21:20.430 --> 00:21:24.550
+we are training all the model based on the data that we are
+
+00:21:24.550 --> 00:21:28.170
+trying to send into our respective model and data selection
+
+00:21:28.170 --> 00:21:31.170
+approach is important that that's the only part which is
+
+00:21:31.170 --> 00:21:34.090
+important apart from that it's just a decision tree that we
+
+00:21:34.090 --> 00:21:37.510
+have already discussed right then there is another approach
+
+00:21:37.510 --> 00:21:41.330
+comes into picture and that approach is called as boosting
+
+00:21:41.330 --> 00:21:46.350
+approach that approach is basically called as boosting
+
+00:21:46.350 --> 00:21:51.010
+approach now what is this boosting approach so here in case
+
+00:21:51.010 --> 00:21:54.530
+of bagging approach we are trying to do a parallel training
+
+00:21:54.530 --> 00:21:58.690
+and then we are basically trying to do a prediction when we
+
+00:21:58.690 --> 00:22:01.450
+are trying to do a prediction so obviously everyone will try
+
+00:22:01.450 --> 00:22:04.670
+to participate into a prediction and then in case of
+
+00:22:04.670 --> 00:22:07.410
+classification we go with the voting just like a parliament
+
+00:22:07.410 --> 00:22:11.150
+right and in case of like you know every parliament member
+
+00:22:11.150 --> 00:22:13.770
+is basically one of the three one of the model and then
+
+00:22:13.770 --> 00:22:16.290
+everyone like you know give a vote based on their like
+
+00:22:16.290 --> 00:22:18.890
+learnings and based on their data set i mean like whatever
+
+00:22:18.890 --> 00:22:22.150
+understanding that they have about a particular bill in case
+
+00:22:22.150 --> 00:22:24.450
+of regression average out and then you will be able to get
+
+00:22:24.450 --> 00:22:30.330
+the answer then people have introduced that okay so another
+
+00:22:30.330 --> 00:22:33.730
+ensemble technique which is like a boosting and they said
+
+00:22:33.730 --> 00:22:39.170
+that that what if if we can you know try to instead of
+
+00:22:39.170 --> 00:22:44.410
+taking a parallel approach means everyone every model we are
+
+00:22:44.410 --> 00:22:48.330
+trying to train all together after just segregating the data
+
+00:22:48.330 --> 00:22:53.170
+set what if if we can try to do in a sequential manner right
+
+00:22:53.170 --> 00:22:57.110
+what if we can try to do it in a sequential manner so maybe
+
+00:22:57.110 --> 00:23:01.050
+i will be able to build a better model right better model
+
+00:23:01.050 --> 00:23:03.490
+and this is where this boosting approach came into picture
+
+00:23:03.490 --> 00:23:08.170
+so what boosting says right what boosting says it says that
+
+00:23:08.170 --> 00:23:11.990
+that okay uh let's say i'm going to create one model
+
+00:23:11.990 --> 00:23:16.390
+eventually it is going to be tree right tree itself one
+
+00:23:16.390 --> 00:23:21.770
+model now this model is making a mistake while doing a
+
+00:23:21.770 --> 00:23:25.330
+prediction right while doing a prediction so what i will do
+
+00:23:25.330 --> 00:23:30.310
+i will not try to rectify this model right i will try to
+
+00:23:30.310 --> 00:23:34.930
+recreate this model while rectifying the issue or while
+
+00:23:34.930 --> 00:23:40.050
+correcting this model where this model was not able to do a
+
+00:23:40.050 --> 00:23:44.290
+good prediction then next model will try to basically
+
+00:23:44.290 --> 00:23:48.370
+rectify the previous one so whatsoever mistake that model
+
+00:23:48.370 --> 00:23:52.350
+number two will make it will try to rectify those mistakes
+
+00:23:52.350 --> 00:23:56.230
+means it will try to learn in a better and better way and in
+
+00:23:56.230 --> 00:23:58.590
+a layman term you can say that we are trying to reduce the
+
+00:23:58.590 --> 00:24:02.890
+loss very very simple. The way we have discussed in the very
+
+00:24:02.890 --> 00:24:05.910
+first algorithm. So what we are trying to do? We are trying
+
+00:24:05.910 --> 00:24:09.110
+to reduce the loss, right? With the help of gradients,
+
+00:24:09.330 --> 00:24:12.690
+basically. So where I will be able to get a perfect value of
+
+00:24:12.690 --> 00:24:16.190
+M and C. This is what we have discussed. So here they said
+
+00:24:16.190 --> 00:24:19.950
+that, that, okay, so we will keep on creating our models,
+
+00:24:20.210 --> 00:24:23.570
+right? We will keep on creating our models and every next
+
+00:24:23.570 --> 00:24:28.070
+model will be a better model of the previous one right so
+
+00:24:28.070 --> 00:24:30.770
+every next model is going to be the better model of the
+
+00:24:30.770 --> 00:24:35.070
+previous one and every next model will try to focus only on
+
+00:24:35.070 --> 00:24:38.330
+the mistake which has been made by the previous one that's
+
+00:24:38.330 --> 00:24:44.650
+it so we will boost the next one then next one the next one
+
+00:24:44.650 --> 00:24:47.990
+so even in this approach you will end up creating a multiple
+
+00:24:47.990 --> 00:24:51.590
+models right you will end up creating basically a multiple
+
+00:24:51.590 --> 00:24:54.810
+models so technically it will fall under ensemble technique
+
+00:24:54.810 --> 00:24:57.670
+but as your approach is different this approach is called as
+
+00:24:57.670 --> 00:25:03.030
+boosting the previous one was called as bagging so bagging
+
+00:25:03.030 --> 00:25:06.110
+random forest boosting this one right that we are talking
+
+00:25:06.110 --> 00:25:09.510
+about okay so that was the whole idea that was the whole
+
+00:25:09.510 --> 00:25:13.710
+philosophy behind this entire boosting approach you will be
+
+00:25:13.710 --> 00:25:17.090
+able to find out so in case of bagging we were trying to do
+
+00:25:17.090 --> 00:25:20.470
+a parallel training in case of boosting we are trying to do
+
+00:25:20.470 --> 00:25:23.750
+a sequential training one after another after another so in
+
+00:25:23.750 --> 00:25:27.570
+this way we are trying to basically do it in case of bagging
+
+00:25:27.570 --> 00:25:31.310
+you will be able to find out independent tree every tree is
+
+00:25:31.310 --> 00:25:35.070
+independent of each other right when there will be like a
+
+00:25:35.070 --> 00:25:37.690
+decision making scenario only at that point of a time
+
+00:25:37.690 --> 00:25:41.370
+everyone will come together right here everyone is dependent
+
+00:25:41.370 --> 00:25:45.570
+so everyone depends upon the previous one basically right
+
+00:25:45.570 --> 00:25:50.190
+previous one so now in this category in this category there
+
+00:25:50.190 --> 00:25:54.010
+is an algorithm called as gradient boosting algorithm and
+
+00:25:54.010 --> 00:25:57.590
+inside that xg boost kind of algorithm falls under picture
+
+00:25:57.590 --> 00:26:01.310
+right falls under picture so again there is a you know
+
+00:26:01.310 --> 00:26:04.150
+ancestors of this particular series you will be able to find
+
+00:26:04.150 --> 00:26:07.150
+out so there is something called as ada boosting right there
+
+00:26:07.150 --> 00:26:10.570
+is something so like ada boosting was there then gradient
+
+00:26:10.570 --> 00:26:13.770
+boosting comes into picture then the latest one which was
+
+00:26:13.770 --> 00:26:16.790
+introduced recently in 2014 itself and it was a winner for
+
+00:26:16.790 --> 00:26:19.190
+the very it was actually a winner right for a tabular
+
+00:26:19.190 --> 00:26:23.750
+machine learning competition so uh which was introduced by
+
+00:26:23.750 --> 00:26:26.650
+tyaki chen he became very famous after after this one and
+
+00:26:26.650 --> 00:26:29.770
+it's not very old it's been introduced in around 2014 i
+
+00:26:29.770 --> 00:26:33.250
+believe right so in 2014 itself it became literally very
+
+00:26:33.250 --> 00:26:37.410
+famous right literally very famous so xg boost basically so
+
+00:26:37.410 --> 00:26:41.250
+xg boost is an algorithm which was introduced by tiaki chain
+
+00:26:41.250 --> 00:26:47.110
+xg boost now what is our meaning of this xg boost so it's
+
+00:26:47.110 --> 00:26:48.090
+called as extreme
+
+00:26:54.750 --> 00:27:00.450
+gradient boosting right philosophy is simple right
+
+00:27:00.450 --> 00:27:04.070
+philosophy is simple that what i will do let me take one
+
+00:27:04.070 --> 00:27:08.610
+data so let's say we have data x and we have a data y and
+
+00:27:08.610 --> 00:27:13.030
+then what this is something which is given to you so for one
+
+00:27:13.030 --> 00:27:17.370
+as an input you should get 10 for two you should get 20 for
+
+00:27:17.370 --> 00:27:21.710
+three you should get 30 for four you should get 40 so this
+
+00:27:21.710 --> 00:27:25.330
+is my original data right this is my original data now when
+
+00:27:25.330 --> 00:27:28.130
+i'm asking a model to do a prediction so what model is
+
+00:27:28.130 --> 00:27:32.490
+trying to do so model is trying to predict 25 right model is
+
+00:27:32.490 --> 00:27:38.830
+trying to predict 25 so 25 25 25 and 25 for all it is trying
+
+00:27:38.830 --> 00:27:42.910
+to predict so what will be my delta or what will be my
+
+00:27:42.910 --> 00:27:49.400
+residual right residual so my residual for this one is going
+
+00:27:49.400 --> 00:27:52.940
+to be minus 15 my residual for this one is going to be minus
+
+00:27:52.940 --> 00:27:55.820
+5 my residual is going to be like 5 my residual for this one
+
+00:27:55.820 --> 00:28:00.800
+is going to be 15 so i have a residual everywhere means it
+
+00:28:00.800 --> 00:28:05.080
+has made a mistake by the way right it has made a mistake so
+
+00:28:05.080 --> 00:28:09.080
+what i will do so let's suppose this is a m1 so this 25 is
+
+00:28:09.080 --> 00:28:13.680
+been given by m1 model number one now i know that that there
+
+00:28:13.680 --> 00:28:16.860
+is a residual once it has made a mistake so i have to
+
+00:28:16.860 --> 00:28:21.880
+rectify its mistake so here to rectify its mistake what i
+
+00:28:21.880 --> 00:28:26.580
+will do so i will try to create a new model right new model
+
+00:28:26.580 --> 00:28:30.960
+so let's say model number two is nothing but output of model
+
+00:28:30.960 --> 00:28:34.940
+number two is nothing but model number one plus a learning
+
+00:28:34.940 --> 00:28:39.300
+rate eta that i have already introduced into the prediction
+
+00:28:39.300 --> 00:28:46.500
+right so basically like a into i would say the residual so
+
+00:28:46.500 --> 00:28:47.020
+here
+
+00:28:51.600 --> 00:28:57.700
+residual so here let's say if eta is equals to 0.1 so model
+
+00:28:57.700 --> 00:29:00.740
+number one what it has done as a prediction right so it has
+
+00:29:00.740 --> 00:29:06.660
+done prediction is equals to uh 25 right so 25 plus and
+
+00:29:06.660 --> 00:29:09.720
+again you can you can say that okay and 0.1 let's say we
+
+00:29:09.720 --> 00:29:13.620
+have and then residual is equals to minus of 15 so if you
+
+00:29:13.620 --> 00:29:18.720
+will do the math you will be able to get around 23.5 so now
+
+00:29:18.720 --> 00:29:23.580
+next prediction is what next prediction is basically 23.5 so
+
+00:29:23.580 --> 00:29:27.520
+came a little bit closer right or maybe i'm able to reduce a
+
+00:29:27.520 --> 00:29:30.940
+little bit so came a little bit closer towards a 10 which
+
+00:29:30.940 --> 00:29:34.360
+was the actual like you know the actual prediction that we
+
+00:29:34.360 --> 00:29:38.540
+are supposed to do it so in this way what will happen so
+
+00:29:38.540 --> 00:29:41.440
+again next tree will come into picture the next tree will
+
+00:29:41.440 --> 00:29:44.340
+come into picture next model will come into picture and it
+
+00:29:44.340 --> 00:29:47.560
+will try to do again the prediction based on this one right
+
+00:29:47.560 --> 00:29:51.200
+so model number three is equals to model number two plus eta
+
+00:29:51.200 --> 00:29:55.840
+into learning rate into residual right so every model next
+
+00:29:55.840 --> 00:29:59.420
+next next next next three four five six seven ten right it
+
+00:29:59.420 --> 00:30:03.160
+will keep on rectifying this mistake. It will keep on
+
+00:30:03.160 --> 00:30:06.400
+rectifying this mistake. So now we have 23.5. Again, I'll
+
+00:30:06.400 --> 00:30:08.380
+calculate the residual with respect to the original data.
+
+00:30:08.800 --> 00:30:12.380
+Right. So now before it was like a minus 15. Now it will
+
+00:30:12.380 --> 00:30:16.640
+become minus 13.5. So I'm just trying to come closer, come
+
+00:30:16.640 --> 00:30:22.120
+closer towards my basically like the final output or Y.
+
+00:30:22.480 --> 00:30:28.400
+Right. A final output or y. So this approach is called as XG
+
+00:30:28.400 --> 00:30:33.100
+boost or extreme gradient boosting. Model wise again we will
+
+00:30:33.100 --> 00:30:36.660
+be using our decision free in general even inside this
+
+00:30:36.660 --> 00:30:42.620
+particular model. Make sense guys? So here if you will look
+
+00:30:42.620 --> 00:30:46.020
+into this formula more or less you will be able to see a
+
+00:30:46.020 --> 00:30:48.780
+sense of gradient boosting. Can I say that this is what we
+
+00:30:48.780 --> 00:30:56.360
+have discussed even as a chain rule? Yes, so new weight is
+
+00:30:56.360 --> 00:31:01.860
+equals to old weight plus eta into rate of change of loss
+
+00:31:01.860 --> 00:31:03.160
+with respect to weights.
+
+00:31:05.960 --> 00:31:09.460
+So here, the approach, it's not a new thing I would say,
+
+00:31:09.700 --> 00:31:12.220
+it's like an old thing, the way we are just trying to
+
+00:31:12.220 --> 00:31:16.880
+arrange it, that's new, that was new and that has created a
+
+00:31:16.880 --> 00:31:20.280
+lot of impact. Again, in a random forest, it's nothing new,
+
+00:31:20.480 --> 00:31:24.220
+we are trying to use the same thing. but just combination
+
+00:31:24.220 --> 00:31:27.040
+collection of the model right and the way we are trying to
+
+00:31:27.040 --> 00:31:29.700
+use the data that is something that we have changed that's
+
+00:31:29.700 --> 00:31:31.960
+the only changes that we have done apart from that we have
+
+00:31:31.960 --> 00:31:35.500
+not done any other changes so this is how bagging and
+
+00:31:35.500 --> 00:31:39.780
+boosting in general is going to work without getting into a
+
+00:31:39.780 --> 00:31:43.900
+much of mathematics it will get to no mathematics then again
+
+00:31:43.900 --> 00:31:46.820
+there is a lot of like a mathematical formula again falls
+
+00:31:46.820 --> 00:31:50.480
+inside even xg boost right there is something called as
+
+00:31:50.480 --> 00:31:52.000
+objective function there is something called as a
+
+00:31:52.000 --> 00:31:54.960
+realization term comes into picture but yeah if you have to
+
+00:31:54.960 --> 00:31:57.940
+understand this xgboost in a very simple term maybe this is
+
+00:31:57.940 --> 00:32:03.800
+how we can try to understand okay now so let's do one thing
+
+00:32:03.800 --> 00:32:08.560
+uh so let's try to look into the practical approach let's
+
+00:32:08.560 --> 00:32:10.980
+see how we can try to build
+
+00:32:14.120 --> 00:32:15.600
+this model so
+
+00:32:21.040 --> 00:32:21.920
+random forest
+
+00:32:28.320 --> 00:32:31.640
+xgboost okay so
+
+00:32:34.810 --> 00:32:39.470
+now here let's try to create a new iphone file called as
+
+00:32:39.470 --> 00:32:51.490
+rfxg boost.ibynv fine now so let's take our data set so
+
+00:33:00.260 --> 00:33:02.900
+i have a data set for today uh so basically i'll be taking
+
+00:33:02.900 --> 00:33:05.860
+this data set so where we have like our age income loan
+
+00:33:05.860 --> 00:33:10.260
+amount credit score employment year existing loan and then
+
+00:33:10.260 --> 00:33:14.100
+we have a late payment we have a debit to income we have
+
+00:33:14.100 --> 00:33:18.380
+education and then we have a city tier wise and then we have
+
+00:33:18.380 --> 00:33:23.400
+a classes 0 1 0 1 0 1 kind of a class so based on this we
+
+00:33:23.400 --> 00:33:26.400
+have to basically predict that that whether person is going
+
+00:33:26.400 --> 00:33:30.640
+to be do a loan default or person will not be doing a loan
+
+00:33:30.640 --> 00:33:33.640
+default that is a something that we have to predict one
+
+00:33:33.640 --> 00:33:36.700
+means person will be like doing a loan default and the zero
+
+00:33:36.700 --> 00:33:40.000
+means person will not be doing a loan default that is
+
+00:33:40.000 --> 00:33:42.540
+something that we have to predict so that you know we can we
+
+00:33:42.540 --> 00:33:44.820
+can try to like you know predict a criteria that whether we
+
+00:33:44.820 --> 00:33:48.480
+should give a new loan to a particular person or not that's
+
+00:33:48.480 --> 00:33:52.480
+a whole idea we will be talking about so let's do one thing
+
+00:33:52.480 --> 00:33:57.600
+so let me take this data into my vscore so
+
+00:34:05.120 --> 00:34:07.380
+this is the data it's around
+
+00:34:09.400 --> 00:34:13.500
+1500 records oh we have 2000 records so we have a huge
+
+00:34:13.500 --> 00:34:17.680
+number of records for this particular data set now what we
+
+00:34:17.680 --> 00:34:23.320
+are going to do so let's start like you know writing uh code
+
+00:34:23.320 --> 00:34:26.760
+one by one line by line so let me first of all write all the
+
+00:34:26.760 --> 00:34:30.500
+imports so import
+
+00:34:40.510 --> 00:34:43.530
+pandas as pd then
+
+00:34:47.280 --> 00:34:55.580
+np then import job lib so that i can save the model then
+
+00:34:55.580 --> 00:35:04.570
+import from sklearn dot model selection so i can try to
+
+00:35:04.570 --> 00:35:05.450
+import train test
+
+00:35:10.500 --> 00:35:17.420
+test split right okay we can try to check cross validation
+
+00:35:17.420 --> 00:35:22.360
+as well so and then grid grid
+
+00:35:24.480 --> 00:35:25.000
+search
+
+00:35:28.320 --> 00:35:33.100
+okay so that I can tell you and I can even show you that how
+
+00:35:33.100 --> 00:35:36.640
+we can try to find out best possible hyper parameter so
+
+00:35:36.640 --> 00:35:40.000
+basically hyper parameter tuning also will try to do it now
+
+00:35:40.000 --> 00:35:46.480
+from a scalar dot pre-processing
+
+00:35:49.240 --> 00:35:53.040
+pre-processing import
+
+00:35:56.040 --> 00:36:04.820
+standard scalar and then import one hot encoder okay then
+
+00:36:04.820 --> 00:36:06.720
+from a
+
+00:36:08.580 --> 00:36:11.920
+scalar dot compose
+
+00:36:13.170 --> 00:36:14.990
+import
+
+00:36:16.270 --> 00:36:21.090
+column transformers. Then from sklearn
+
+00:36:23.810 --> 00:36:34.650
+dot pipeline so import pipeline okay.
+
+00:36:35.550 --> 00:36:43.990
+Then from sklearn learn dot metrics import
+
+00:36:46.480 --> 00:36:52.860
+so we can try to import maybe accuracy score we can try to
+
+00:36:52.860 --> 00:36:57.900
+import maybe precision score
+
+00:37:02.250 --> 00:37:08.430
+if one score we can try to import and then classification
+
+00:37:08.430 --> 00:37:12.210
+report only one report which will give like everything yeah
+
+00:37:12.210 --> 00:37:19.310
+and then now it's coming to a final model so from sklearn
+
+00:37:19.310 --> 00:37:30.590
+dot ensemble so i can try to import basically random forest
+
+00:37:30.590 --> 00:37:33.770
+classifier so even random forest like a regression you will
+
+00:37:33.770 --> 00:37:36.170
+be able to find out but yeah we have solved the
+
+00:37:36.170 --> 00:37:38.610
+classification problem so i'm just trying to import that one
+
+00:37:38.610 --> 00:37:42.190
+from xgboost
+
+00:37:44.660 --> 00:37:52.220
+import xgb classifier so xgb
+
+00:37:59.100 --> 00:38:03.380
+classifier i think this is not installed let me check so
+
+00:38:03.380 --> 00:38:09.180
+kernel field start doing to model packaging okay no
+
+00:38:24.980 --> 00:38:29.940
+model name is xgboost yeah i had a doubt so yes click
+
+00:38:29.940 --> 00:38:36.180
+install hgboost so you have to install hgboost separately as
+
+00:38:36.180 --> 00:38:37.660
+the library okay
+
+00:38:48.860 --> 00:38:52.840
+this is done so now execute once again now everything looks
+
+00:38:52.840 --> 00:38:57.360
+fine to me let me ping you this piece of the code so if you
+
+00:38:57.360 --> 00:39:05.020
+want to do you can do it along with me and also let me drop
+
+00:39:05.020 --> 00:39:09.060
+uh data set uh
+
+00:39:55.650 --> 00:40:02.010
+okay so maybe data set i can't send you uh now so let me
+
+00:40:02.010 --> 00:40:05.030
+drop that data set
+
+00:40:07.680 --> 00:40:09.360
+in your group
+
+00:40:17.390 --> 00:40:20.010
+yeah so data set is available in your whatsapp group right
+
+00:40:20.010 --> 00:40:22.830
+you can pick that from there okay
+
+00:40:25.300 --> 00:40:28.700
+so now let's start doing it so data set is available and we
+
+00:40:28.700 --> 00:40:32.320
+are able to do all the import and again so most probably you
+
+00:40:32.320 --> 00:40:35.580
+will also get the same error so try to do a exiboot
+
+00:40:35.580 --> 00:40:40.560
+installation now once this part is done so simple first of
+
+00:40:40.560 --> 00:40:45.840
+all go and read the data so here i have a data set so pandas
+
+00:40:45.840 --> 00:40:54.260
+dot read csv it's available in a csv format so yeah csv and
+
+00:40:54.260 --> 00:41:00.040
+then try to write a data set name loan and
+
+00:41:14.690 --> 00:41:20.330
+then try to hold it as a df so fine data set is available to
+
+00:41:20.330 --> 00:41:25.870
+me df dot head so this is the data is income loan amount
+
+00:41:25.870 --> 00:41:31.010
+credit score employment year existing loan fine late payment
+
+00:41:31.010 --> 00:41:37.370
+then debit income uh education city and then whether this
+
+00:41:37.370 --> 00:41:42.480
+person has done any time default or no default so this is
+
+00:41:42.480 --> 00:41:45.940
+something which is available to me you can try to run like
+
+00:41:45.940 --> 00:41:49.380
+uh you know safe info uh all those things and then you will
+
+00:41:49.380 --> 00:41:53.760
+be able to like get the things now here so we have to create
+
+00:41:53.760 --> 00:41:58.460
+first of all x and y so my x column my feature column is
+
+00:41:58.460 --> 00:42:01.120
+going to be what so my feature column is going to be data
+
+00:42:01.120 --> 00:42:07.480
+frame dot dot drop drop what so drop default column
+
+00:42:11.190 --> 00:42:14.410
+from axis x is equals to
+
+00:42:17.480 --> 00:42:23.100
+okay so my x is ready my y is nothing but data from and
+
+00:42:23.100 --> 00:42:30.060
+select default column so my x and my y is ready so once my x
+
+00:42:30.060 --> 00:42:36.060
+and y is ready uh what we can do so we can try to maybe work
+
+00:42:36.060 --> 00:42:41.020
+on some of the data pre-processing basically and especially
+
+00:42:41.020 --> 00:42:45.880
+our data so which is not available into a numeric format for
+
+00:42:45.880 --> 00:42:49.260
+example education and tier one city tier so this is not
+
+00:42:49.260 --> 00:42:51.880
+available into a numeric format so obviously i have to do
+
+00:42:51.880 --> 00:42:56.380
+this particular treatment then only uh you know i i will be
+
+00:42:56.380 --> 00:43:00.680
+able to like a perform and i will be able to consider this
+
+00:43:00.680 --> 00:43:06.000
+entire column otherwise i will not be able to do it uh not
+
+00:43:06.000 --> 00:43:10.780
+just that so obviously i have to hit this column along with
+
+00:43:10.780 --> 00:43:14.840
+this there is a huge variance into our data you will be able
+
+00:43:14.840 --> 00:43:18.520
+to find out again inside the age column huge variance you
+
+00:43:18.520 --> 00:43:22.040
+can try to like run basically like a stats and then you will
+
+00:43:22.040 --> 00:43:24.140
+get to know about it income again there will be huge
+
+00:43:24.140 --> 00:43:28.760
+variance loan amount huge variations small to big so again
+
+00:43:28.760 --> 00:43:32.800
+in my numerical data i have a huge variance what i can do i
+
+00:43:32.800 --> 00:43:36.740
+can try to reduce it and to do that i can call a standard
+
+00:43:36.740 --> 00:43:40.800
+scaler so on my categorical data maybe i can try to run one
+
+00:43:40.800 --> 00:43:44.940
+hot encoding and on my numerical data so maybe i can try to
+
+00:43:44.940 --> 00:43:48.100
+run the standard scaling so that i will be able to bring
+
+00:43:48.100 --> 00:43:52.600
+data into a normalized format okay let's do it so here to do
+
+00:43:52.600 --> 00:43:55.960
+that first of all try to segregate a numerical column and a
+
+00:43:57.200 --> 00:44:05.140
+categorical column so numerical column i can say numerical
+
+00:44:05.140 --> 00:44:10.100
+column so my x data dot select
+
+00:44:11.460 --> 00:44:19.540
+data types and then here so i can say include what so
+
+00:44:19.540 --> 00:44:30.960
+include always integer 64 value and then try to include
+
+00:44:30.960 --> 00:44:41.880
+float 64 fine dot columns so technically this is going to
+
+00:44:41.880 --> 00:44:45.820
+give you all the numerical columns so where its data type is
+
+00:44:45.820 --> 00:44:50.460
+equals to int64 and float64 similarly i can try to create a
+
+00:44:50.460 --> 00:44:56.330
+categorical column so categorical column is equals to a data
+
+00:44:56.330 --> 00:45:03.570
+means x whole x solid data type and then here so include is
+
+00:45:03.570 --> 00:45:08.570
+equals to i can simply say objective right so here i can say
+
+00:45:10.010 --> 00:45:13.030
+objective dot columns
+
+00:45:15.870 --> 00:45:20.190
+columns so my numerical column this is my answer right all
+
+00:45:20.190 --> 00:45:22.790
+the numerical column is here right so wherever data type is
+
+00:45:22.790 --> 00:45:28.170
+having this type and then my category column so i have that
+
+00:45:28.170 --> 00:45:32.070
+so education and city tier these are the two columns so
+
+00:45:32.070 --> 00:45:36.210
+where i have a data type is equals to string or object okay
+
+00:45:36.210 --> 00:45:40.390
+so these columns i am able to get it now i have to basically
+
+00:45:40.390 --> 00:45:44.210
+run a transformation so i wanted to run basically a standard
+
+00:45:44.210 --> 00:45:47.550
+scalar transformation on my numerical column and basically
+
+00:45:47.550 --> 00:45:51.110
+one hot on my categorical column all together right i can do
+
+00:45:51.110 --> 00:45:53.530
+it individually then i can come and combine the data but
+
+00:45:53.530 --> 00:45:56.270
+there is a library which people have already created so i
+
+00:45:56.270 --> 00:45:59.070
+think in my previous examples so we were doing it like you
+
+00:45:59.070 --> 00:46:02.070
+know one by one by one so here we can try to use a library
+
+00:46:02.070 --> 00:46:05.370
+library that we have already done as an import so column
+
+00:46:05.370 --> 00:46:08.970
+transformer we have already imported and inside this what we
+
+00:46:08.970 --> 00:46:12.250
+can do it's a very beautiful like a library you will be able
+
+00:46:12.250 --> 00:46:15.550
+to find out so inside this what we can do so we can try to
+
+00:46:15.550 --> 00:46:18.170
+write a logic for numerical column we can try to write a
+
+00:46:18.170 --> 00:46:21.990
+logic for basically category column so for like a numerical
+
+00:46:21.990 --> 00:46:26.170
+column right the column so what we can do so we can say that
+
+00:46:26.170 --> 00:46:29.390
+that try to call a standard scalar so automatically on all
+
+00:46:29.390 --> 00:46:32.130
+the new column it will be calling a standard scalar which
+
+00:46:32.130 --> 00:46:36.030
+column the column that we have segregated right we have
+
+00:46:36.030 --> 00:46:38.570
+already created a column separate separate column and
+
+00:46:38.570 --> 00:46:40.170
+categorical so
+
+00:46:42.310 --> 00:46:44.730
+this is just a label category
+
+00:46:51.610 --> 00:46:57.270
+column so call what so try to call basically one hot hot
+
+00:46:57.270 --> 00:47:02.130
+encoder right and then maybe i can try to like handle
+
+00:47:02.130 --> 00:47:07.010
+unknown so ignore and
+
+00:47:09.220 --> 00:47:12.420
+which column should go for this one so category column that
+
+00:47:12.420 --> 00:47:15.320
+we have created so that should go over here so this is going
+
+00:47:15.320 --> 00:47:18.040
+to do a column transformation and finally you will be able
+
+00:47:18.040 --> 00:47:21.960
+to get the data so maybe i can try to store that into your
+
+00:47:21.960 --> 00:47:28.020
+pre processor variable okay so now this is going to give you
+
+00:47:28.020 --> 00:47:31.880
+the complete data transformation and maybe i can i can try
+
+00:47:31.880 --> 00:47:38.260
+to use this particular data at any point of a time in terms
+
+00:47:38.260 --> 00:47:45.750
+of you know like uh using it for my final creation of the
+
+00:47:45.750 --> 00:47:50.330
+model yeah so maybe i can try to yeah
+
+00:47:54.880 --> 00:47:57.920
+so as you can see standard scalar and one hot encoder so
+
+00:47:57.920 --> 00:48:00.320
+these are the two things that we have implemented and then
+
+00:48:00.320 --> 00:48:03.460
+everything will be done so on which column it is implemented
+
+00:48:03.460 --> 00:48:07.240
+these columns on which column this one was implemented so on
+
+00:48:07.240 --> 00:48:10.040
+these education and city tier column so all of these things
+
+00:48:10.040 --> 00:48:12.660
+it is going to give it to you so it will try to process the
+
+00:48:12.660 --> 00:48:16.260
+data like column transformation it is going to do it now
+
+00:48:16.260 --> 00:48:19.560
+once this pre-processing will be done now we are okay to
+
+00:48:19.560 --> 00:48:24.040
+create a model right we are okay to create a model over here
+
+00:48:24.040 --> 00:48:27.140
+so let's go ahead let's try to create the model so this time
+
+00:48:27.140 --> 00:48:31.000
+what i can do i can try to use a pipeline pipeline is like
+
+00:48:31.000 --> 00:48:33.960
+basically it is going to connect the pre-processor and then
+
+00:48:33.960 --> 00:48:36.900
+model all together so you don't have to again do a things
+
+00:48:36.900 --> 00:48:41.020
+separately this is what it like uh you know means so let's
+
+00:48:41.020 --> 00:48:43.760
+go and try to create a pipeline over here so pipeline wise
+
+00:48:43.760 --> 00:48:47.180
+what we can do so we can try to create a pipeline that try
+
+00:48:47.180 --> 00:48:50.980
+to take this pre-processor the the above one and then after
+
+00:48:50.980 --> 00:48:55.480
+that try to implement the model so here again we can say
+
+00:48:55.480 --> 00:49:02.600
+that pre-processing and here so try to send pre-processor
+
+00:49:02.600 --> 00:49:07.720
+variable that you have already created and then next one is
+
+00:49:07.720 --> 00:49:11.400
+basically a model so you have to basically send the model
+
+00:49:11.400 --> 00:49:16.620
+your own model right so here just you have to do it like a
+
+00:49:16.620 --> 00:49:21.480
+model which model you are going to send so random forest
+
+00:49:21.480 --> 00:49:24.460
+classifier you are going to send now this random forest
+
+00:49:24.460 --> 00:49:28.840
+classifier will be having its own like a parameters for
+
+00:49:28.840 --> 00:49:33.180
+example number of estimator n number of estimator number of
+
+00:49:33.180 --> 00:49:36.360
+estimator is nothing but a number of tree it will create
+
+00:49:36.360 --> 00:49:39.520
+right so let's say i'm saying that create 200 estimated 200
+
+00:49:39.520 --> 00:49:43.460
+trees inside this one what will be a maximum depth of a
+
+00:49:43.460 --> 00:49:46.260
+particular tree so maximum depth which i'm aligning is equal
+
+00:49:46.260 --> 00:49:48.560
+to let's say 10 this is another parameter likewise there are
+
+00:49:48.560 --> 00:49:53.840
+hundreds of parameter by the way random state uh let's say
+
+00:49:53.840 --> 00:49:59.460
+give like a 42 and then number of jobs it is going to fire
+
+00:49:59.460 --> 00:50:06.780
+is equals to like let's say one and class weight so these
+
+00:50:06.780 --> 00:50:12.850
+are the parameter in balanced okay so this is the pipeline
+
+00:50:12.850 --> 00:50:15.730
+which i have created and let's say i'm calling this one as a
+
+00:50:15.730 --> 00:50:21.750
+random forest rf model so i just have to send if i'm going
+
+00:50:21.750 --> 00:50:24.970
+to call this pipe rf model it is going to show you the
+
+00:50:24.970 --> 00:50:28.630
+picture that okay so first of all data will be like a
+
+00:50:28.630 --> 00:50:30.990
+transformed and then it will be sent inside this random
+
+00:50:30.990 --> 00:50:33.050
+forest so this is the pipeline that we have created and
+
+00:50:33.050 --> 00:50:35.530
+these are the parameter that we have set although there are
+
+00:50:35.530 --> 00:50:39.790
+hundreds of parameter it will take like you know you can you
+
+00:50:39.790 --> 00:50:42.530
+can try to like play with all those hundreds of parameter or
+
+00:50:42.530 --> 00:50:46.070
+maybe you can do a fine tuning now once pipeline is done
+
+00:50:46.070 --> 00:50:49.230
+inside this pipeline i have to provide the data right i have
+
+00:50:49.230 --> 00:50:52.190
+to provide the data so now from where i will be able to get
+
+00:50:52.190 --> 00:50:55.410
+a data so first of all to create a data let's try to create
+
+00:50:55.410 --> 00:50:58.290
+x train x test y train y test instead train data and test
+
+00:50:58.290 --> 00:51:13.590
+data like always x train and then x test y train y test is
+
+00:51:13.590 --> 00:51:20.610
+equals to what train test split train test split and then to
+
+00:51:20.610 --> 00:51:23.790
+split the data you can pass x data and you can pass y data
+
+00:51:23.790 --> 00:51:27.310
+and then you can try to give like a ratio in which you have
+
+00:51:27.310 --> 00:51:34.750
+to like split the data so test size is equals to 80 20 and
+
+00:51:34.750 --> 00:51:40.030
+then maybe you can try to give a random state is equals to
+
+00:51:40.030 --> 00:51:48.990
+42 okay what what happened so invalid syntax x train x test
+
+00:51:48.990 --> 00:51:58.000
+a y train y test x i'm trying to pass y oh there is double
+
+00:51:58.000 --> 00:52:02.980
+equal to fine so now i'm able to create a data set train and
+
+00:52:02.980 --> 00:52:06.860
+test which i can send inside this pipeline so now what i can
+
+00:52:06.860 --> 00:52:10.580
+do i can simply call the pipeline so model this pipeline
+
+00:52:10.580 --> 00:52:15.260
+right this entire pipeline so rf model and let's try to pass
+
+00:52:15.260 --> 00:52:20.060
+what let's try to pass basically my x train and y train so x
+
+00:52:20.060 --> 00:52:27.660
+train and my y train over here so now this is where actual
+
+00:52:27.660 --> 00:52:30.620
+training is going to happen right so this is where training
+
+00:52:30.620 --> 00:52:33.720
+is going to happen it is going to create the model so rf
+
+00:52:33.720 --> 00:52:37.660
+model dot pit i am going to call and it is going to train
+
+00:52:37.660 --> 00:52:41.460
+the model so now model has been trained as per the pipeline
+
+00:52:41.460 --> 00:52:45.300
+as per this particular pipeline so now you can try to send
+
+00:52:45.300 --> 00:52:51.180
+this test data and then you can try to do a prediction
+
+00:52:51.180 --> 00:52:54.900
+basically right everything should go through a same pipeline
+
+00:52:54.900 --> 00:52:56.900
+so that's the reason so you just have to call this model
+
+00:52:56.900 --> 00:52:59.840
+this model is already having this pipeline so you are
+
+00:52:59.840 --> 00:53:03.420
+explicitly not supposed to take care of anything you can
+
+00:53:03.420 --> 00:53:06.580
+pass your x and y everything is happening inside this model
+
+00:53:06.580 --> 00:53:10.300
+so model itself is holding a pipeline as well you could have
+
+00:53:10.300 --> 00:53:13.020
+done these things in a other way as well i mean like first
+
+00:53:13.020 --> 00:53:15.500
+you will do a data transformation and then you will create a
+
+00:53:15.500 --> 00:53:17.980
+separate model object and then you will try to pass in that
+
+00:53:17.980 --> 00:53:21.280
+situation again and again even at the time of prediction you
+
+00:53:21.280 --> 00:53:24.520
+will have to like a go for a same transformation but here
+
+00:53:24.520 --> 00:53:27.280
+i'm not doing it because model itself is a part of the
+
+00:53:27.280 --> 00:53:30.140
+pipeline so i will just pass the original data rest will be
+
+00:53:30.140 --> 00:53:33.660
+taken care by my model itself in a very very simplistic
+
+00:53:33.660 --> 00:53:39.100
+manner so here what we can do so maybe we can try to print
+
+00:53:40.700 --> 00:53:44.920
+classification oh not this one so maybe we can try to do
+
+00:53:44.920 --> 00:53:49.760
+classification report so only one report and i think it is
+
+00:53:49.760 --> 00:53:52.760
+going to give me like everything so here classification
+
+00:53:52.760 --> 00:53:59.160
+report wise we can try to basically do over here y test and
+
+00:53:59.160 --> 00:54:09.680
+then rf model dot predict and predict what so based on x
+
+00:54:09.680 --> 00:54:14.120
+test try to do the prediction so it is going to give me y
+
+00:54:14.120 --> 00:54:21.520
+print by the way x test so now it is able to show me
+
+00:54:21.520 --> 00:54:23.960
+everything let me show you in a little bit beautiful manner
+
+00:54:23.960 --> 00:54:26.600
+so i can try to put it inside print so
+
+00:54:29.900 --> 00:54:33.300
+now in one sort itself instead of calculating like precision
+
+00:54:33.300 --> 00:54:36.060
+recall f1 score and all those things everything i'm able to
+
+00:54:36.060 --> 00:54:38.780
+get it for class 0 as well as for class 1 what is the
+
+00:54:38.780 --> 00:54:41.920
+precision what is the recall what is the f1 score right what
+
+00:54:41.920 --> 00:54:45.020
+is the accuracy accuracy is 89 percent what is the micro
+
+00:54:45.020 --> 00:54:47.940
+average what is the weighted average so all of these reports
+
+00:54:47.940 --> 00:54:51.520
+i'm able to get it in one single place if i have to print
+
+00:54:51.520 --> 00:54:55.140
+maybe a confusion matrixes i can try to print that as well
+
+00:54:55.140 --> 00:54:57.160
+print i
+
+00:55:02.600 --> 00:55:04.880
+think i have not done the import same
+
+00:55:27.690 --> 00:55:31.710
+thing will go inside the confusion matrices so why test and
+
+00:55:31.710 --> 00:55:33.310
+why pred so
+
+00:55:38.980 --> 00:55:41.160
+this is my confusion matrix so true positive true negative
+
+00:55:41.160 --> 00:55:43.960
+false positive false negative all of these things you will
+
+00:55:43.960 --> 00:55:47.720
+be able to get it from here itself very very simple so this
+
+00:55:47.720 --> 00:55:53.180
+is fine this is done now a random forest is fine and inside
+
+00:55:53.180 --> 00:55:55.960
+a random forest if you will go and check so there are so
+
+00:55:55.960 --> 00:55:59.420
+many parameter you will be able to find out and as of now my
+
+00:55:59.420 --> 00:56:03.280
+accuracy is 89 percent right so accuracy is 89 percent with
+
+00:56:03.280 --> 00:56:06.660
+respect to the test data that i have and even test data wise
+
+00:56:06.660 --> 00:56:10.500
+i have a huge data 400 data set i have as a test data set
+
+00:56:10.500 --> 00:56:13.980
+which is a sufficient one and total data set was technically
+
+00:56:13.980 --> 00:56:20.340
+like a 2000 right 2000 data set that i had okay now here
+
+00:56:20.340 --> 00:56:25.260
+what we can do so we can try to improvise a model accuracy
+
+00:56:25.260 --> 00:56:32.880
+now to model accuracy so maybe we have to perform some of
+
+00:56:32.880 --> 00:56:36.600
+the operations by which we can try to improvise there is a
+
+00:56:36.600 --> 00:56:38.900
+chance right there is a chance that we can try to improvise
+
+00:56:38.900 --> 00:56:43.580
+it so there is something called as a grid search cv there is
+
+00:56:43.580 --> 00:56:46.840
+something called as optuna likewise so there are multiple
+
+00:56:46.840 --> 00:56:49.740
+like libraries you will be able to find out by which you
+
+00:56:49.740 --> 00:56:54.620
+will be able to increase the accuracy or you will be able to
+
+00:56:54.620 --> 00:56:58.340
+get a better stable model right better stable model so let's
+
+00:56:58.340 --> 00:57:02.700
+talk about one of these approach a grid search basically cv
+
+00:57:02.700 --> 00:57:07.740
+approach so where we can try to make our model better right
+
+00:57:07.740 --> 00:57:12.360
+make our model better so here how grid search cv actually
+
+00:57:12.360 --> 00:57:17.220
+works so basically grid search cv is going to like you know
+
+00:57:17.220 --> 00:57:23.760
+take a parameter value for all those like whatever parameter
+
+00:57:23.760 --> 00:57:27.560
+that you are going to set and it will try to test it with
+
+00:57:27.560 --> 00:57:30.280
+all the parameter for example so when i was trying to create
+
+00:57:30.280 --> 00:57:34.140
+this model so i have given couple of parameter right number
+
+00:57:34.140 --> 00:57:37.980
+of estimated 200 maybe for 200 it is not going to work well
+
+00:57:37.980 --> 00:57:41.780
+maybe if i'm going to make 400 it is going to increase the
+
+00:57:41.780 --> 00:57:45.960
+accuracy maximum depth i have kept it as 10 maybe maximum
+
+00:57:45.960 --> 00:57:50.620
+depth 5 is going to work well so likewise there can be a
+
+00:57:50.620 --> 00:57:55.020
+multiple parameters which i can tune which i can tweak and i
+
+00:57:55.020 --> 00:57:58.620
+will be able to get a better model maybe a stable model i'm
+
+00:57:58.620 --> 00:58:01.100
+not just talking about in terms of accuracy but i'm talking
+
+00:58:01.100 --> 00:58:04.460
+about even in terms of a variance of the model or like
+
+00:58:04.460 --> 00:58:07.280
+overfitting and refitting of the model so there is a
+
+00:58:07.280 --> 00:58:09.760
+possibility there is a chance that i will be able to get the
+
+00:58:09.760 --> 00:58:15.200
+better one right so this is possible maybe with the help of
+
+00:58:15.200 --> 00:58:18.720
+like if i'll do the comparison between all the parameters
+
+00:58:18.720 --> 00:58:22.240
+right and this is where you will be able to find out a grid
+
+00:58:22.240 --> 00:58:28.300
+search cv right so grid search cv so to do that basically we
+
+00:58:28.300 --> 00:58:33.080
+have to create those ranges of the parameter so random
+
+00:58:33.080 --> 00:58:36.420
+forest grid let's say i'm going to create it and here so
+
+00:58:36.420 --> 00:58:40.060
+i'll try to set a parameter where model will go and model
+
+00:58:40.060 --> 00:58:44.060
+will try to like you know do some sort of experimentation so
+
+00:58:44.060 --> 00:58:53.740
+here model and estimator and let's say i'm saying that that
+
+00:58:53.740 --> 00:58:58.440
+okay so try to test it with 100 number of trees with 200
+
+00:58:58.440 --> 00:59:02.180
+number of trees and even try to test it with 300 number of
+
+00:59:02.180 --> 00:59:07.120
+trees simple right then here i'm going to say that model
+
+00:59:07.120 --> 00:59:14.200
+model max depth last time i've given 10 right depth i'm
+
+00:59:14.200 --> 00:59:17.180
+saying that okay do one thing so try to test it with even
+
+00:59:18.940 --> 00:59:25.040
+like 5 10 maybe try to test it with like a 15 and maybe try
+
+00:59:25.040 --> 00:59:31.040
+to test it with none let's say yes so it will take those
+
+00:59:31.040 --> 00:59:32.940
+combinations then model
+
+00:59:43.690 --> 00:59:51.970
+model and then minimum sample split two
+
+00:59:55.080 --> 00:59:58.040
+comma let's say minimum sample split could be two and then
+
+00:59:58.040 --> 01:00:01.500
+maybe five or maybe ten so try to test it with this one as
+
+01:00:01.500 --> 01:00:04.760
+well and then model
+
+01:00:07.460 --> 01:00:11.620
+minimum sample of leave right so this is another parameter
+
+01:00:11.620 --> 01:00:14.640
+so i can say that okay fine so minimum sample leave maybe
+
+01:00:14.640 --> 01:00:17.260
+try to test it with one comma two comma four something like
+
+01:00:17.260 --> 01:00:20.580
+that so likewise for all the hundreds of parameter i can try
+
+01:00:20.580 --> 01:00:22.520
+to set the range of the value so what it will do it will
+
+01:00:22.520 --> 01:00:27.720
+take the combination so 105 then 2 1 then 110 to something
+
+01:00:27.720 --> 01:00:30.360
+like so every combination it will try to take right every
+
+01:00:30.360 --> 01:00:32.900
+combination it will try to take and with everything it will
+
+01:00:32.900 --> 01:00:37.220
+try to build the model test the model basically so here a
+
+01:00:37.220 --> 01:00:45.980
+random forest grid search right so I can try to use
+
+01:00:45.980 --> 01:00:53.380
+basically grid search glid grid search CV algorithm now here
+
+01:00:53.380 --> 01:00:56.780
+so we can try to put our model so the model that we have
+
+01:00:56.780 --> 01:01:02.260
+created now for this model the parameter so RF grid that we
+
+01:01:02.260 --> 01:01:07.340
+have created the above one right now we can try to basically
+
+01:01:07.340 --> 01:01:11.180
+say that there is something called as cross validation so
+
+01:01:11.180 --> 01:01:13.040
+there is something called as like you know cross validation
+
+01:01:13.040 --> 01:01:15.780
+and what it means so it will try to basically divide the
+
+01:01:15.780 --> 01:01:18.980
+data into five different different set and then set wise it
+
+01:01:18.980 --> 01:01:23.200
+will try to use the data so one set i mean like five five to
+
+01:01:23.200 --> 01:01:26.260
+five set maybe four set for training one set for testing in
+
+01:01:26.260 --> 01:01:29.760
+this way internally it will try to do the do that so cross
+
+01:01:29.760 --> 01:01:34.600
+-validation is equals to five and then scoring. So I'm
+
+01:01:34.600 --> 01:01:39.580
+saying that that is C-O-R-I-N-G. Yeah. So I'm saying that,
+
+01:01:39.580 --> 01:01:43.320
+that try to check always a F1 score and
+
+01:01:45.270 --> 01:01:49.270
+then number of jobs. So number of jobs means basically
+
+01:01:49.270 --> 01:01:51.670
+number of processor that it is going to consume from your
+
+01:01:51.670 --> 01:01:54.650
+computer. So if I'm saying one, it will consume only one
+
+01:01:54.650 --> 01:01:59.670
+processor, right? From my CPU or like if I'm going to say
+
+01:01:59.670 --> 01:02:02.470
+minus one then whatsoever is available it will take it so
+
+01:02:02.470 --> 01:02:05.710
+because this this required a resource if I'm going to
+
+01:02:05.710 --> 01:02:08.930
+increase even a range and number of parameters so it takes a
+
+01:02:08.930 --> 01:02:11.630
+combination right because at a time one model will take only
+
+01:02:11.630 --> 01:02:14.630
+one set of combination and just imagine three and four and
+
+01:02:14.630 --> 01:02:17.410
+like how many combination it will become so it will become a
+
+01:02:17.410 --> 01:02:20.070
+huge combination and for every combination it has to do a
+
+01:02:20.070 --> 01:02:25.030
+comparison and then finally it has to do the compute. Barbos
+
+01:02:25.030 --> 01:02:31.620
+means whatsoever is happening just show it to me. So V-E-R-B
+
+01:02:31.620 --> 01:02:34.120
+-O-S-C Barbos Barbos is equals to 1 let's say I am going to
+
+01:02:34.120 --> 01:02:38.620
+keep so that show me everything in my console. So now this
+
+01:02:38.620 --> 01:02:44.260
+is basically my algorithm GridSearchCV so here just try to
+
+01:02:44.260 --> 01:02:51.220
+call RF GridSearch dot fit and fit what? So fit your X-train
+
+01:02:51.220 --> 01:02:56.140
+and Y-train. why train
+
+01:02:59.110 --> 01:03:09.570
+okay so now oh failed so fitting five fold for each under a
+
+01:03:09.570 --> 01:03:13.970
+candidate fortling five foot and then
+
+01:03:18.860 --> 01:03:23.650
+index education city tld type what is the issue it has
+
+01:03:23.650 --> 01:03:26.270
+raised step kw asks
+
+01:03:33.610 --> 01:03:40.730
+where is the error let me check that so
+
+01:04:06.900 --> 01:04:12.100
+some parameter name is wrong localized fine index education
+
+01:04:12.100 --> 01:04:19.020
+city tier model an estimator n job looks correct to me
+
+01:04:26.860 --> 01:04:35.280
+okay it should be double underscore model
+
+01:04:38.900 --> 01:04:45.880
+double underscore and then double underscore now let's see
+
+01:04:45.880 --> 01:04:51.900
+again same issue so an invalid parameter minimum sample
+
+01:04:51.900 --> 01:04:58.200
+leave for estimator okay invalid parameter minimum sample
+
+01:05:13.700 --> 01:05:17.220
+again an issue so what is the issue invalid parameter
+
+01:05:17.220 --> 01:05:22.080
+minimum sample leave for estimator rhino forest okay aim
+
+01:05:40.160 --> 01:05:49.280
+issue so minimum model minimum sample samples leave yeah it
+
+01:05:49.280 --> 01:05:50.380
+was s basically
+
+01:06:00.020 --> 01:06:03.620
+again and issue minimum
+
+01:06:24.260 --> 01:06:28.800
+sample leaf i mean i'll have to go and check the parameter
+
+01:06:28.800 --> 01:06:31.320
+let me remove it for now what
+
+01:06:37.490 --> 01:06:41.570
+happened minimum invalid parameter minimum sample leave for
+
+01:06:41.570 --> 01:06:42.090
+estimator
+
+01:06:46.690 --> 01:06:50.310
+minimum sample leave i
+
+01:06:57.030 --> 01:07:04.220
+think it's coming from number of estimator maximum left i
+
+01:07:19.160 --> 01:07:23.060
+have just removed minimum sample for estimator random forest
+
+01:07:23.060 --> 01:07:27.120
+so class balanced maximum the five number of estimator is
+
+01:07:27.120 --> 01:07:32.400
+equal to 100 number of job valid parameters are bootstrap cc
+
+01:07:32.400 --> 01:07:37.980
+alpha class weight criterion maximum depth maximum feature
+
+01:07:37.980 --> 01:07:45.900
+maximum leave node minimum samples leave minimum sample
+
+01:07:45.900 --> 01:07:48.000
+split okay so
+
+01:08:03.240 --> 01:08:06.900
+let me check uh it's maybe a name or something because of
+
+01:08:06.900 --> 01:08:09.220
+that it is giving an issue
+
+01:08:28.410 --> 01:08:33.970
+model minimum samples split rf
+
+01:08:42.480 --> 01:08:43.800
+model but
+
+01:09:02.300 --> 01:09:05.720
+it seems that there is an issue with the catching not with
+
+01:09:05.720 --> 01:09:10.080
+this parameter let me restart rf
+
+01:09:24.600 --> 01:09:27.600
+grid search is not defined yeah
+
+01:09:58.710 --> 01:10:01.350
+so it was not an issue with the parameter name it was a
+
+01:10:01.350 --> 01:10:03.490
+catching issue i have just restarted and everything is
+
+01:10:03.490 --> 01:10:08.730
+working fine as you can see and in between uh if i would
+
+01:10:08.730 --> 01:10:13.610
+have shown you my like a cpu so my cpu went high because i
+
+01:10:13.610 --> 01:10:16.590
+have set jobs is equals to minus one it simply means that
+
+01:10:16.590 --> 01:10:19.010
+take all the processors so same thing you will be able to
+
+01:10:19.010 --> 01:10:22.330
+see even in my hardware side even in my memory side you will
+
+01:10:22.330 --> 01:10:25.770
+be able to see that it went high for some time and finally
+
+01:10:25.770 --> 01:10:29.030
+it is able to do a i mean like it is it is basically able to
+
+01:10:29.030 --> 01:10:34.130
+give me the prediction so best parameter grid search cv
+
+01:10:34.130 --> 01:10:37.410
+inside that best parameter estimator and then it has
+
+01:10:37.410 --> 01:10:40.950
+basically tested with this pipeline now i can go and i can
+
+01:10:40.950 --> 01:10:43.710
+try to check that what is the best parameter which i will be
+
+01:10:43.710 --> 01:10:53.870
+able to uh like see so here rf grid search this one and then
+
+01:10:53.870 --> 01:11:01.990
+dot best estimator or best parameter i can try to check so
+
+01:11:01.990 --> 01:11:06.670
+best parameter or ideal parameter should be maximum a model
+
+01:11:06.670 --> 01:11:10.550
+number of estimators should be 300 minimum sample split
+
+01:11:10.550 --> 01:11:12.830
+should be 10 so these should be the best parameter so
+
+01:11:12.830 --> 01:11:15.910
+whenever i'm trying to train the model so i'm supposed to
+
+01:11:15.910 --> 01:11:21.370
+use this as a parameter and again so let me check uh even a
+
+01:11:21.370 --> 01:11:24.630
+best score so if i'm going to choose this parameter so grid
+
+01:11:24.630 --> 01:11:31.050
+search dot dot uh so best score so what will be my best
+
+01:11:31.050 --> 01:11:34.830
+score so best score is going to be 0.74 percentage but like
+
+01:11:34.830 --> 01:11:37.870
+i told you so we are looking for more like a stability like
+
+01:11:37.870 --> 01:11:41.930
+plus like a more like a value like 90 percent 100 percent of
+
+01:11:41.930 --> 01:11:45.950
+accuracy because that can be a hallucinating one so if as
+
+01:11:45.950 --> 01:11:49.590
+for this like a combination which I have given so the
+
+01:11:49.590 --> 01:11:53.490
+parameter and its value should be this one so maximum depth
+
+01:11:53.490 --> 01:11:55.890
+is equal to 10 maximum feature is equal to squad feature
+
+01:11:55.890 --> 01:11:58.810
+minimum feature minimum sample leaf should be one minimum
+
+01:11:58.810 --> 01:12:01.730
+sample speed should be 10 number of estimators should be 300
+
+01:12:01.730 --> 01:12:04.430
+so whenever I'm training the model I should use this and
+
+01:12:04.430 --> 01:12:08.890
+then I should train the model make sense guys yeah so with
+
+01:12:08.890 --> 01:12:13.890
+the help of this one i am able to find out technically the
+
+01:12:13.890 --> 01:12:15.750
+best parameter for my model
+
+01:12:23.510 --> 01:12:25.470
+yes everyone now
+
+01:12:28.090 --> 01:12:32.910
+so let's try to basically understand uh xg boost right so xg
+
+01:12:32.910 --> 01:12:35.490
+boost wise so again we'll try to do the same thing so we'll
+
+01:12:35.490 --> 01:12:38.250
+try to build the pipeline and then uh we'll try to you know
+
+01:12:38.250 --> 01:12:41.150
+train the model and then after training the model with the
+
+01:12:41.150 --> 01:12:43.850
+same data right training the model so we'll try to do maybe
+
+01:12:43.850 --> 01:12:47.290
+a a grid search so where we can try to find out the best
+
+01:12:47.290 --> 01:12:49.570
+possible parameter. For example, the way we have found out
+
+01:12:49.570 --> 01:12:53.750
+this one for the random conversion. So fine, let's do it. So
+
+01:12:53.750 --> 01:12:58.430
+let's try to build a pipeline. P-I-P-L-I-N-E. Pipeline.
+
+01:12:58.530 --> 01:13:05.910
+Pipeline for XGBoost. So XGB underscore pipeline.
+
+01:13:12.360 --> 01:13:17.060
+Now, so inside that what we can do? So we can try to take
+
+01:13:19.300 --> 01:13:25.920
+two things. One is a pre-processing and pre-processing wise.
+
+01:13:26.100 --> 01:13:28.660
+So I can try to take pre-processor pre
+
+01:13:30.700 --> 01:13:32.220
+-processor
+
+01:13:34.720 --> 01:13:42.380
+and then here so we can try to train the model now xgb
+
+01:13:42.380 --> 01:13:46.380
+classifier i think we have already done as an import so xgb
+
+01:13:46.380 --> 01:13:49.300
+classifier and then inside this we can try to set the
+
+01:13:49.300 --> 01:13:52.460
+parameter so again even over here number of estimator you
+
+01:13:52.460 --> 01:13:57.160
+will be able to find out this number of tree it is going to
+
+01:13:57.160 --> 01:13:59.780
+take so let's say i'm sending like a 200 trees over here
+
+01:13:59.780 --> 01:14:05.700
+right max depth so let's say i'm saying that max depth is
+
+01:14:05.700 --> 01:14:11.060
+equals to four learning rate i can try to set over here so
+
+01:14:13.550 --> 01:14:17.850
+learning rate is equals to let's say i'm saying like a 0.05
+
+01:14:19.910 --> 01:14:27.160
+earlier in ang okay then subsampling so likewise again there
+
+01:14:27.160 --> 01:14:27.960
+are hundreds of parameter
+
+01:14:31.240 --> 01:14:35.260
+okay uh in it take two percent with three we are given uh
+
+01:14:35.260 --> 01:14:41.100
+where pipeline so one okay
+
+01:14:52.110 --> 01:14:57.580
+you have to put it inside square bracket okay
+
+01:15:00.710 --> 01:15:03.610
+so xgb this is the model so now if i'm going to print like
+
+01:15:03.610 --> 01:15:07.910
+xgb so it is going to show you the pipeline so first of all
+
+01:15:07.910 --> 01:15:10.630
+standard scalar one hot encoder on market critical column
+
+01:15:10.630 --> 01:15:14.070
+and then there will be xgb right and these are the default
+
+01:15:14.070 --> 01:15:16.330
+parameter you will be able to find out with respect to a
+
+01:15:16.330 --> 01:15:19.410
+XGBoosh classifier. Now if I have to train the XGBoosh
+
+01:15:19.410 --> 01:15:22.390
+classifier, very, very simple. So just try to call the
+
+01:15:22.390 --> 01:15:28.310
+pipeline XGB, pipeline dot fit, fit what? So the data that
+
+01:15:28.310 --> 01:15:31.110
+you have created Xtrain and Ytrain,
+
+01:15:34.200 --> 01:15:40.400
+Xtrain, Ytrain, now model will be trained. Now this is the
+
+01:15:40.400 --> 01:15:43.600
+model which has been trained. Now here, so we can do a
+
+01:15:43.600 --> 01:15:46.780
+prediction or maybe we can try to generate a classification
+
+01:15:46.780 --> 01:15:54.700
+report. so print classification CLWSI classification
+
+01:15:59.920 --> 01:16:06.220
+report is equals to y underscore test and then my model so
+
+01:16:06.220 --> 01:16:09.160
+what is my model xgb pipeline
+
+01:16:11.750 --> 01:16:21.310
+pipeline dot predict and here so try to pass x test so it's
+
+01:16:21.310 --> 01:16:25.250
+giving me 91 percent accuracy so in a random forest for the
+
+01:16:25.250 --> 01:16:28.050
+very first time it has given me 89 percent accuracy for the
+
+01:16:28.050 --> 01:16:31.270
+same model for the same data set and here it is giving me 0
+
+01:16:31.270 --> 01:16:34.830
+.91 percent of accuracy then i can go and i can try to find
+
+01:16:34.830 --> 01:16:38.310
+out a best possible parameter with the help of grid search
+
+01:16:38.310 --> 01:16:42.390
+and then again i can try to evaluate my xgb in the similar
+
+01:16:42.390 --> 01:16:45.750
+manner similar manner the way we have done over here so try
+
+01:16:45.750 --> 01:16:48.050
+to create a number of parameter out of which you would like
+
+01:16:48.050 --> 01:16:51.770
+to search the best parameter create a grid and pass the grid
+
+01:16:51.770 --> 01:16:55.550
+it will be able to do a search automatically and then you
+
+01:16:55.550 --> 01:16:58.090
+know you can try to use that particular parameter to train
+
+01:16:58.090 --> 01:17:02.390
+the model at the end of the day so this is all about i would
+
+01:17:02.390 --> 01:17:06.570
+say guys xgboost and random forest plus grid search tv so
+
+01:17:06.570 --> 01:17:11.050
+how we can try to find out a best possible parameter there
+
+01:17:11.050 --> 01:17:14.270
+is another library you will be able to find out optuna so
+
+01:17:14.270 --> 01:17:16.950
+this is another library maybe you can go and you can try to
+
+01:17:16.950 --> 01:17:23.730
+like little bit search about it of tuner have a parameter
+
+01:17:23.730 --> 01:17:27.710
+tuning right so it's just a library nothing much right of
+
+01:17:27.710 --> 01:17:31.130
+tuner is a library so you can try to basically use this
+
+01:17:31.130 --> 01:17:35.610
+library and then you can try to pass those libraries uh like
+
+01:17:35.610 --> 01:17:39.670
+after passing uh the same parameter grid inside that you
+
+01:17:39.670 --> 01:17:43.830
+will be able to see a basically a best possible uh parameter
+
+01:17:43.830 --> 01:17:48.110
+right so here it's approach is same so approach is not at
+
+01:17:48.110 --> 01:17:51.670
+all different we just have to do one thing so import optuna
+
+01:17:51.670 --> 01:17:55.250
+means first of all install optuna and then import optuna the
+
+01:17:55.250 --> 01:17:58.770
+way you are trying to pass a number of parameter inside a
+
+01:17:58.770 --> 01:18:02.030
+grid search similar manner you have to pass even over there
+
+01:18:02.030 --> 01:18:05.970
+that's it right that's it and then it will be able to find
+
+01:18:05.970 --> 01:18:08.850
+out the best possible parameter so it's it's not like a
+
+01:18:09.310 --> 01:18:11.930
+different so maybe you can try this out and let me know if
+
+01:18:11.930 --> 01:18:16.410
+you are able to get a better accuracy by using optuna or by
+
+01:18:16.410 --> 01:18:19.310
+using a git search cv i'm leaving that up to you so just go
+
+01:18:19.310 --> 01:18:23.210
+and explore just do people install optuna and replace this
+
+01:18:23.210 --> 01:18:29.150
+git search with optuna make sense everyone so
+
+01:18:32.090 --> 01:18:36.230
+this is it from my side guys for today uh so in case of any
+
+01:18:36.230 --> 01:18:39.350
+question please let me know anyone who is having any
+
+01:18:39.350 --> 01:18:43.930
+question i think i'm audible right so people are either not
+
+01:18:43.930 --> 01:18:46.110
+asking I can see a lot of people but yeah people are not
+
+01:18:46.110 --> 01:18:47.930
+asking questions maybe they are able to understand
+
+01:18:47.930 --> 01:18:50.350
+everything and then maybe they are not able to understand
+
+01:18:50.350 --> 01:18:56.020
+anything or maybe like everyone is sleeping so which one is
+
+01:18:56.020 --> 01:18:57.740
+the case guys am
+
+01:18:59.820 --> 01:19:00.120
+I not able
+
+01:19:04.990 --> 01:19:07.370
+you said a data set in a whatsapp group but I am not a part
+
+01:19:07.370 --> 01:19:10.170
+of that not an issue I will upload that inside a password
+
+01:19:10.170 --> 01:19:14.050
+you can download that from there yes sir I understand 50-50
+
+01:19:14.050 --> 01:19:19.450
+okay fine I am saying yes what is the meaning of your yes by
+
+01:19:19.450 --> 01:19:24.170
+the way I am not able to understand okay fine everyone so
+
+01:19:24.170 --> 01:19:26.970
+just just practice right so just try to practice uh all of
+
+01:19:26.970 --> 01:19:30.390
+these things one by one uh along with that so yeah go with
+
+01:19:30.390 --> 01:19:34.490
+that deployment so i want to link uh basically one is a
+
+01:19:34.490 --> 01:19:38.990
+random forest and one is a xgboost so just do a deployment
+
+01:19:38.990 --> 01:19:43.730
+of a random forest and do a deployment of uh i understand
+
+01:19:43.730 --> 01:19:47.690
+need practice okay great need to go through a lecture once
+
+01:19:47.690 --> 01:19:51.150
+again that's why understand need to practice okay cool so
+
+01:19:51.150 --> 01:19:54.910
+fine guys just go just try to do a practice right next
+
+01:19:54.910 --> 01:19:58.530
+weekend right next saturday sunday so we'll be talking about
+
+01:19:58.530 --> 01:20:02.450
+a support vector machine it is going to be little bit math
+
+01:20:02.450 --> 01:20:05.550
+heavy there are something called as like you know a lang
+
+01:20:05.550 --> 01:20:09.050
+region equation so we have to understand that lang region
+
+01:20:09.050 --> 01:20:12.750
+equation that is the only complex part apart from that
+
+01:20:12.750 --> 01:20:16.090
+everything is easy and then we'll be talking about even a
+
+01:20:16.090 --> 01:20:20.590
+plus string algorithm So, like K-mean clustering algorithm,
+
+01:20:21.110 --> 01:20:25.310
+then density-based parcels, like DBS scan algorithm, we are
+
+01:20:25.310 --> 01:20:28.410
+going to talk about. HC clustering, agglomerative
+
+01:20:28.410 --> 01:20:30.450
+clustering, we'll be talking about. So, that will be the
+
+01:20:30.450 --> 01:20:32.910
+agenda of the next class, in theory as well as practical.
+
+01:20:33.110 --> 01:20:37.090
+So, in total, we'll target four algorithms, and that will
+
+01:20:37.090 --> 01:20:41.290
+bring, and the rest of the other topics, for like the topic
+
+01:20:41.290 --> 01:20:45.990
+which has been mentioned. so that will bring end to a
+
+01:20:46.630 --> 01:20:50.510
+machine learning then we will be starting a deep learning a
+
+01:20:50.510 --> 01:20:54.230
+neural network concept so most probably by next week we are
+
+01:20:54.230 --> 01:20:56.810
+going to close a machine learning path in case of any
+
+01:20:56.810 --> 01:21:00.990
+question come to the class and ask that question and I will
+
+01:21:00.990 --> 01:21:05.830
+be there to help you out so fine everyone with that thank
+
+01:21:05.830 --> 01:21:09.690
+you so much guys see you again next Saturday class please do
+
+01:21:09.690 --> 01:21:13.050
+a deployment and this material will be available inside your
+
+01:21:13.050 --> 01:21:16.290
+dashboard so when team is going to upload a recording so
+
+01:21:16.290 --> 01:21:18.570
+till then take care everyone bye
+

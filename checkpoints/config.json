@@ -1,0 +1,17 @@
+{
+  "data_dir": "data",
+  "vocab_size": 6647,
+  "max_train_tokens": 400000,
+  "block_size": 128,
+  "n_layer": 4,
+  "n_head": 4,
+  "n_embd": 256,
+  "dropout": 0.1,
+  "batch_size": 32,
+  "steps_per_epoch": 200,
+  "epochs": 15,
+  "learning_rate": 0.0003,
+  "shuffle_buffer": 2000,
+  "stride": 64,
+  "out_dir": "checkpoints"
+}

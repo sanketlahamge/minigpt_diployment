@@ -1,0 +1,2774 @@
+WEBVTT
+
+00:06:04.240 --> 00:06:06.640
+okay so hi everyone i believe i'm what i'm going to visual
+
+00:06:06.640 --> 00:06:09.600
+guys so please confirm so that we can start okay
+
+00:06:13.280 --> 00:06:16.400
+so fine good evening everyone happy
+
+00:06:47.760 --> 00:06:55.280
+saturday yes happy saturday okay guys so today we'll try to
+
+00:06:55.280 --> 00:06:59.500
+understand a machine learning concept and then from here
+
+00:06:59.500 --> 00:07:03.200
+onward so we'll try to understand all the machine learning
+
+00:07:03.200 --> 00:07:06.460
+algorithm one by one one by one yeah so in theoretical
+
+00:07:06.460 --> 00:07:11.620
+manner and then in a practical manner so today is a day zero
+
+00:07:11.620 --> 00:07:14.320
+for machine learning so
+
+00:07:19.500 --> 00:07:24.320
+now when we say that machine is trying to learn so what does
+
+00:07:24.320 --> 00:07:28.000
+that mean and what is the meaning of basically like you know
+
+00:07:28.000 --> 00:07:31.620
+saying that that machine is trying to learn how machine
+
+00:07:31.620 --> 00:07:34.440
+eventually can learn so that is something that we'll try to
+
+00:07:34.440 --> 00:07:39.760
+find out in this entire lecture throughout so basically when
+
+00:07:39.760 --> 00:07:43.800
+we say that that machine is trying to learn so technically
+
+00:07:43.800 --> 00:07:48.440
+like you know it's a piece of hardware you can say it just
+
+00:07:48.440 --> 00:07:53.100
+understands uh zero and one and it does a computation or any
+
+00:07:53.100 --> 00:07:57.500
+kind of a calculation in terms of binary zero and one right
+
+00:07:57.500 --> 00:08:01.860
+we as a human so yes we can try to give our input in any
+
+00:08:01.860 --> 00:08:04.740
+format we can try to store any kind of information or data
+
+00:08:04.740 --> 00:08:08.600
+maybe audio video text structure unstructured but still at
+
+00:08:08.600 --> 00:08:10.840
+the end of the day machine is going to process each and
+
+00:08:10.840 --> 00:08:14.060
+every information in terms of zero and one so what is the
+
+00:08:14.060 --> 00:08:17.080
+meaning of this machine learning right how machine is going
+
+00:08:17.080 --> 00:08:21.660
+to learn technically so think in this particular manner that
+
+00:08:21.660 --> 00:08:24.880
+when someone is trying to say that that machine is trying to
+
+00:08:24.880 --> 00:08:29.040
+learn it simply means that that machine is trying to
+
+00:08:29.040 --> 00:08:34.560
+basically you know understand or maybe it is trying to
+
+00:08:34.560 --> 00:08:37.460
+relate something with respect to some of the mathematical
+
+00:08:37.460 --> 00:08:41.100
+equation we'll try to understand this in a better and better
+
+00:08:41.100 --> 00:08:44.320
+manner yeah but yes this is what it means it simply means
+
+00:08:44.320 --> 00:08:48.640
+that that machine is trying to maybe set or maybe machine is
+
+00:08:48.640 --> 00:08:52.060
+trying to find out some sort of a pattern or maybe
+
+00:08:52.060 --> 00:08:55.600
+repetitive kind of a pattern with the help of some of the
+
+00:08:55.600 --> 00:09:00.980
+you know like a established mathematical equation now if you
+
+00:09:00.980 --> 00:09:03.480
+will forget about this machine learning and if you will
+
+00:09:03.480 --> 00:09:07.900
+think about a human learning so how we as a human so we used
+
+00:09:07.900 --> 00:09:12.040
+to learn so we always try to see a multiple things since a
+
+00:09:12.040 --> 00:09:17.980
+childhood right and then we try to observe a pattern we try
+
+00:09:17.980 --> 00:09:22.000
+to find a relationship between those patterns and then
+
+00:09:22.000 --> 00:09:27.740
+eventually human uses to learn for example so we all have
+
+00:09:27.740 --> 00:09:30.460
+learned some sort of a language maybe hindi english tamil
+
+00:09:30.460 --> 00:09:34.940
+talgu right we all have learned some of the concept right so
+
+00:09:34.940 --> 00:09:34.940
+we all have learned some of the concept right so we all have
+
+00:09:34.940 --> 00:09:36.920
+learned some of the concept we are still learning something
+
+00:09:36.920 --> 00:09:40.400
+so you are trying to look at your screen in your system and
+
+00:09:40.400 --> 00:09:43.500
+then i'm giving you a lecture you are trying to understand
+
+00:09:43.500 --> 00:09:46.740
+that what i'm trying to say and by and you are trying to
+
+00:09:46.740 --> 00:09:51.260
+find out the pattern in between right and by this entire
+
+00:09:51.260 --> 00:09:55.220
+approach so you are trying to establish a relationship you
+
+00:09:55.220 --> 00:09:59.500
+are trying to understand that what is a relationship between
+
+00:09:59.500 --> 00:10:03.000
+what i'm saying and what i have written over there so
+
+00:10:03.000 --> 00:10:06.620
+eventually even as a human so we trying to you know find out
+
+00:10:06.620 --> 00:10:10.060
+the pattern right and based on those patterns if we are able
+
+00:10:10.060 --> 00:10:13.940
+to establish some sort of a correlation we say that that yes
+
+00:10:13.940 --> 00:10:17.920
+i have learned these things this is how we say that human
+
+00:10:17.920 --> 00:10:21.560
+uses to learn obviously when we talk about a human so we
+
+00:10:21.560 --> 00:10:26.660
+have a lot of neurons so by which uh you know we try to
+
+00:10:26.660 --> 00:10:29.940
+process a data we try to understand things and human so
+
+00:10:29.940 --> 00:10:34.600
+obviously we have a leverage of like a infinite pattern kind
+
+00:10:34.600 --> 00:10:37.880
+of an infinite pattern we can recognize and we can try to
+
+00:10:37.880 --> 00:10:41.940
+learn right so there is no limit to this one as per the
+
+00:10:41.940 --> 00:10:45.240
+human in terms of machine what machine will do so obviously
+
+00:10:45.240 --> 00:10:47.620
+machine will try to find out the similar kind of a pattern
+
+00:10:47.620 --> 00:10:50.360
+but as machine is a piece of hardware so obviously it works
+
+00:10:50.360 --> 00:10:54.420
+on a set mathematical equation and yes so it will try to
+
+00:10:54.420 --> 00:10:57.200
+adopt each and everything based on that particular set
+
+00:10:57.200 --> 00:11:00.340
+mathematical equation now when we talk about machine
+
+00:11:00.340 --> 00:11:02.940
+learning so there is something called as you know uh
+
+00:11:02.940 --> 00:11:05.660
+supervised machine learning there is something called as
+
+00:11:05.660 --> 00:11:08.420
+semi-supervised machine learning and there is something
+
+00:11:08.420 --> 00:11:11.920
+called as unsupervised machine learning so again you can
+
+00:11:11.920 --> 00:11:14.900
+divide this entire machine learning things into a multiple
+
+00:11:14.900 --> 00:11:19.260
+different factors right overall if i'll talk about a data
+
+00:11:19.260 --> 00:11:23.000
+science so basically inside a data science you will be able
+
+00:11:23.000 --> 00:11:27.240
+to see a machine learning as a segment deep learning as a
+
+00:11:27.240 --> 00:11:32.100
+segment natural language processing is a segment computer
+
+00:11:32.100 --> 00:11:36.880
+vision is a segment and then generative ai is a segment so
+
+00:11:36.880 --> 00:11:41.420
+this five broader segment you will be able to find out but
+
+00:11:41.420 --> 00:11:44.600
+eventually in all of these segments one thing is common
+
+00:11:44.600 --> 00:11:50.640
+system try to learn something system try to find out some
+
+00:11:50.640 --> 00:11:54.540
+sort of a pattern in between the given data set this is
+
+00:11:54.540 --> 00:11:57.720
+something that you will be able to find out as a common so
+
+00:11:57.720 --> 00:12:02.160
+let's start with a machine learning by looking at some of
+
+00:12:02.160 --> 00:12:08.920
+the example so here if i'm going to give you one very very
+
+00:12:08.920 --> 00:12:12.240
+simple example i believe even you can recognize the pattern
+
+00:12:12.240 --> 00:12:17.480
+so let's say if i'm saying that that here we have a
+
+00:12:17.480 --> 00:12:22.540
+experience so written and then we have a salary right salary
+
+00:12:22.540 --> 00:12:26.840
+so let's say i'm giving you this data so experience is
+
+00:12:26.840 --> 00:12:31.080
+equals to one salary is equals to three lpa let's say right
+
+00:12:31.080 --> 00:12:35.160
+experience is equals to two salary is equals to four lpa
+
+00:12:35.160 --> 00:12:39.320
+experience is equals to three salary is going to be five lpa
+
+00:12:39.320 --> 00:12:43.660
+experience is going to be four salary is going to be six lpa
+
+00:12:43.660 --> 00:12:49.240
+experience is going to be five salary is basically uh seven
+
+00:12:49.240 --> 00:12:53.860
+lpa right experience is going to be six what will be the
+
+00:12:53.860 --> 00:12:59.140
+salary guys yes what will be the salary i
+
+00:13:02.180 --> 00:13:06.900
+think all of you will be able to give me an answer yes so
+
+00:13:06.900 --> 00:13:07.120
+here we are let's say i'm going to give you an answer but
+
+00:13:07.120 --> 00:13:10.040
+here this answer is not important how you are giving an
+
+00:13:10.040 --> 00:13:13.740
+answer how you are able to interpret these things that is
+
+00:13:13.740 --> 00:13:17.620
+important basically so every one of you are saying that it
+
+00:13:17.620 --> 00:13:21.420
+should be eight lpa okay fine it is going to be eight lpa
+
+00:13:21.420 --> 00:13:28.700
+but how you are able to give me this answer anyone yeah how
+
+00:13:28.700 --> 00:13:31.040
+you are able to give me this answer navin
+
+00:13:36.160 --> 00:13:39.800
+is saying pattern sanket saying pattern yes obviously he is
+
+00:13:39.800 --> 00:13:43.460
+saying based on the previous pattern yeah what you have done
+
+00:13:43.460 --> 00:13:47.460
+so you as a human right you as a human have observed this
+
+00:13:47.460 --> 00:13:52.920
+entire pattern pattern can be infinite right i can like a
+
+00:13:52.920 --> 00:13:56.140
+right salary uh experience is equal to one three lpa two is
+
+00:13:56.140 --> 00:13:59.540
+equals to five lpa three is equal to seven lpa so means two
+
+00:13:59.540 --> 00:14:02.620
+to two i can try to increase or maybe i can increase by
+
+00:14:02.620 --> 00:14:05.700
+percentage there are there are many ways right many ways by
+
+00:14:05.700 --> 00:14:09.420
+which i can write this entire pattern but yes you as a human
+
+00:14:09.420 --> 00:14:11.920
+so once you will be able to understand that particular
+
+00:14:11.920 --> 00:14:16.620
+pattern uh so the next one right when i have asked you that
+
+00:14:16.620 --> 00:14:21.040
+when salary is when year of experience is equal to six what
+
+00:14:21.040 --> 00:14:25.520
+should be the salary so yes you as a human are able to give
+
+00:14:25.520 --> 00:14:29.300
+me the answer because of this entire pattern if i'm going to
+
+00:14:29.300 --> 00:14:33.760
+change the pattern you will be able to adopt it right so can
+
+00:14:33.760 --> 00:14:37.920
+i say that you all have learned this pattern can i make a
+
+00:14:37.920 --> 00:14:39.780
+statement here yes
+
+00:14:42.460 --> 00:14:48.320
+yeah okay fine now let's say that you know uh you as a human
+
+00:14:48.320 --> 00:14:53.580
+so you have a very dynamic you know neural network approach
+
+00:14:53.580 --> 00:14:56.420
+and by which you are able to basically like you know do
+
+00:14:56.420 --> 00:15:03.320
+these things if i have to right if i have to establish a
+
+00:15:03.320 --> 00:15:07.720
+equation for this one a mathematical equation by which even
+
+00:15:07.720 --> 00:15:12.600
+right by which even like you know a machine will be able to
+
+00:15:12.600 --> 00:15:14.700
+give me this calculation so what should be that equation by
+
+00:15:14.700 --> 00:15:17.440
+the way anyone what
+
+00:15:19.680 --> 00:15:22.000
+should be that equation yes
+
+00:15:25.840 --> 00:15:27.020
+can
+
+00:15:29.840 --> 00:15:34.540
+i say that that you know salary is going to be salary
+
+00:15:36.710 --> 00:15:40.970
+as per this entire pattern that we are able to see right so
+
+00:15:40.970 --> 00:15:46.270
+salary is going to be maybe uh i would say like uh
+
+00:15:46.270 --> 00:15:47.650
+experience
+
+00:15:52.630 --> 00:15:58.850
+right and plus two can i write this equation um experience
+
+00:15:58.850 --> 00:16:01.930
+plus two experience plus two experience plus two experience
+
+00:16:01.930 --> 00:16:05.130
+plus two experience plus two experience plus two can i write
+
+00:16:05.130 --> 00:16:08.970
+this equation guys so salary is equal to experience plus two
+
+00:16:08.970 --> 00:16:12.310
+yes for this particular pattern this is basically a equation
+
+00:16:12.310 --> 00:16:17.450
+i can try to write down okay fine so now even machine will
+
+00:16:17.450 --> 00:16:20.690
+be able to do the calculation even i will be able to write a
+
+00:16:20.690 --> 00:16:24.130
+function right so function will take a experience as an
+
+00:16:24.130 --> 00:16:28.650
+input it will do plus two and it is going to new basically a
+
+00:16:28.650 --> 00:16:32.190
+salary so can i say that that this is one of the
+
+00:16:32.190 --> 00:16:36.410
+mathematical equation based on this particular data pattern
+
+00:16:36.410 --> 00:16:40.750
+we have derived and now if i have this kind of equation
+
+00:16:40.750 --> 00:16:45.910
+based on this data pattern which i have derived anyone can
+
+00:16:45.910 --> 00:16:48.790
+do the calculation right anyone any machine can do a
+
+00:16:48.790 --> 00:16:51.850
+calculation any like anyone can write a function and then
+
+00:16:51.850 --> 00:16:55.390
+they will be able to do a computation right so and then we
+
+00:16:55.390 --> 00:17:00.390
+will say that machine have learned yeah machine have learned
+
+00:17:00.390 --> 00:17:05.590
+so we as a human being right we as a human being are able to
+
+00:17:05.590 --> 00:17:11.050
+find out that this is experience plus two means we are able
+
+00:17:11.050 --> 00:17:13.970
+to find out or we are able to establish this particular
+
+00:17:13.970 --> 00:17:19.970
+equation yes but how machine will be able to find out this
+
+00:17:19.970 --> 00:17:23.390
+particular equation that's again a machine another problem
+
+00:17:23.390 --> 00:17:26.690
+statement right so here we have written that that okay
+
+00:17:26.690 --> 00:17:30.230
+experience plus two but yeah we as a human being we have
+
+00:17:30.230 --> 00:17:33.230
+observed it and we said okay it should be two right it
+
+00:17:33.230 --> 00:17:36.210
+should be experience plus two but how machine can define
+
+00:17:36.210 --> 00:17:39.290
+this two how machine will be able to understand that this is
+
+00:17:39.290 --> 00:17:42.810
+going to be two or four or five or ten uh experience plus
+
+00:17:42.810 --> 00:17:45.550
+ten experience plus two experience plus one any idea guys
+
+00:17:45.550 --> 00:17:50.350
+yeah here we as a human being have defined this two right
+
+00:17:50.350 --> 00:17:52.850
+for this particular pattern if pattern is going to change
+
+00:17:52.870 --> 00:17:57.290
+that is going to change equation will be changed so how
+
+00:17:57.290 --> 00:18:02.490
+machine will be able to define it by iterations iterations
+
+00:18:02.490 --> 00:18:04.350
+of what yes
+
+00:18:09.470 --> 00:18:11.850
+iterations of what learning
+
+00:18:21.900 --> 00:18:24.200
+data i mean like that is what we are trying to learn right
+
+00:18:24.200 --> 00:18:28.560
+so how machine will be able to learn when you say learning
+
+00:18:28.560 --> 00:18:32.160
+data means what what is the meaning of it training
+
+00:18:35.070 --> 00:18:37.470
+what is the meaning of training over here what
+
+00:18:40.120 --> 00:18:45.240
+is the meaning of training variable what variable okay
+
+00:18:54.420 --> 00:19:00.060
+So, basically, this equation is written by us, not by
+
+00:19:00.060 --> 00:19:03.680
+machine. Machine never knows that, okay, what will be the
+
+00:19:03.680 --> 00:19:07.580
+value, like 2 or some, what kind of equations that it will
+
+00:19:07.580 --> 00:19:12.480
+be able to establish, right? So, this is where, right, so
+
+00:19:12.480 --> 00:19:16.440
+this is where machine learning comes into picture. And this
+
+00:19:16.440 --> 00:19:20.420
+is what you all are supposed to understand. After today's
+
+00:19:20.420 --> 00:19:23.920
+class, you all are supposed to be very, very clear with
+
+00:19:23.920 --> 00:19:26.680
+respect to a machine learning because in every class, almost
+
+00:19:26.680 --> 00:19:29.540
+similar kind of a concept with a different mathematical
+
+00:19:29.540 --> 00:19:32.680
+equation will come into picture. So, after today's class,
+
+00:19:32.820 --> 00:19:36.960
+none of you should say that I do not understand how machine
+
+00:19:36.960 --> 00:19:42.820
+learns, right, after today's class itself. So, for next 30
+
+00:19:42.820 --> 00:19:47.460
+to 45 minutes, all of you are going to focus over here
+
+00:19:47.460 --> 00:19:51.960
+without understanding. If you have mobile in your hand,
+
+00:19:52.060 --> 00:19:55.220
+leave it aside for next 45 minutes because if you are able
+
+00:19:55.220 --> 00:19:58.380
+to understand how these things actually works, believe me,
+
+00:19:58.400 --> 00:20:01.900
+for your entire life and whenever you will try to explore
+
+00:20:01.900 --> 00:20:04.720
+any other algorithm, it is going to help you out. This is
+
+00:20:04.720 --> 00:20:08.580
+how important this very first class is, which I am going to
+
+00:20:08.580 --> 00:20:14.260
+explain you now, yeah? So, just try to focus with undivided
+
+00:20:14.260 --> 00:20:18.680
+attention. So, here, right, so here, basically, what
+
+00:20:18.680 --> 00:20:23.060
+happens, we have a data, right? We have a data. So, let's
+
+00:20:23.060 --> 00:20:28.040
+say we have a experience over here and then we have a salary
+
+00:20:28.040 --> 00:20:32.860
+over here. Now, experience is equal to 1, salary is equal to
+
+00:20:32.860 --> 00:20:35.220
+3, experience is equal to 2, salary is equal to 4,
+
+00:20:35.280 --> 00:20:45.000
+experience is equal to 3, 4, 5, 6, 7, 5, then 6, then 7,
+
+00:20:45.160 --> 00:20:50.200
+then 8, and then 9. Okay. Now, this is the data, let's say,
+
+00:20:50.220 --> 00:20:57.400
+which is available to us. Now, what I will do, let's say, if
+
+00:20:57.400 --> 00:21:02.440
+I have to represent any of these data, so as this data set
+
+00:21:02.440 --> 00:21:06.300
+is having two columns, so it simply means that, that on a
+
+00:21:06.300 --> 00:21:10.500
+vector space, it is going to, like, take two coordinates to
+
+00:21:10.500 --> 00:21:14.300
+represent this entire data, right? So, let's say we have a x
+
+00:21:14.300 --> 00:21:18.120
+-axis over here, we have a y-axis over here, on x-axis, I am
+
+00:21:18.120 --> 00:21:19.160
+representing this entire data. I am representing, let's say,
+
+00:21:19.160 --> 00:21:22.700
+experience, on y-axis, I am representing, let's say, a
+
+00:21:23.740 --> 00:21:28.160
+salary, right, on a salary, fine. Now, here, the coordinate
+
+00:21:28.160 --> 00:21:31.800
+is 0, 0, so which is nothing but an origin, by the way, and
+
+00:21:32.360 --> 00:21:38.360
+then let's say we have a 1, we have 2, we have 3, we have 4,
+
+00:21:38.540 --> 00:21:44.260
+we have 5, we have 6, we have 7, we have 8, let's say,
+
+00:21:44.280 --> 00:21:48.060
+right? On y-axis, so let's say I am taking a scale of 2, so
+
+00:21:48.060 --> 00:21:59.980
+2. 4, 6, 8, 10, and then 12, fine, okay. Now, here, so when
+
+00:21:59.980 --> 00:22:03.140
+experience is equals to 1, so when experience is equals to
+
+00:22:03.140 --> 00:22:07.300
+1, this point, right, so when experience is equals to 1,
+
+00:22:07.520 --> 00:22:11.500
+salary is equal to 3, experience 1, salary is equals to 3,
+
+00:22:11.600 --> 00:22:15.280
+so somewhere over here, it will come, yeah, so experience 1,
+
+00:22:15.360 --> 00:22:20.160
+salary 3, okay. So, this is representing 1. 3, 1 on x-axis,
+
+00:22:20.240 --> 00:22:24.060
+3 on y-axis, this is the particular point. Now, when
+
+00:22:24.060 --> 00:22:26.720
+experience is equal to 2, salary is equal to 4, so 2 and
+
+00:22:26.720 --> 00:22:30.760
+then 4, somewhere here, it is going to represent 2, 4.
+
+00:22:31.760 --> 00:22:34.860
+Experience is equal to 3, salary is equal to 5, so 3, 5, so
+
+00:22:34.860 --> 00:22:39.220
+somewhere like 3, 5, so somewhere over here, it is going to
+
+00:22:39.220 --> 00:22:47.260
+represent, yeah, 3, 5. Now, 4, 6, so 4, and then let's say
+
+00:22:47.260 --> 00:22:51.060
+it will be like a... 6 somewhere over here, right, so 4 and
+
+00:22:51.060 --> 00:22:57.520
+6, so 4, 6 I can write, then 5, 7, so 5 we have and then 7
+
+00:22:57.520 --> 00:23:04.560
+will be somewhere here, you can say, yeah, so 5, 7, and then
+
+00:23:04.560 --> 00:23:09.020
+6, 8, so 6, 8 somewhere here, you will be able to find out,
+
+00:23:09.060 --> 00:23:17.280
+6, 8, then 7, 9, so 7, 9 will be somewhere over here, 7, 9.
+
+00:23:17.440 --> 00:23:22.880
+You will be able to... Are you able to see some pattern over
+
+00:23:22.880 --> 00:23:23.420
+here, guys?
+
+00:23:26.270 --> 00:23:35.440
+Are you able to see some pattern? Yes? Yeah? So,
+
+00:23:35.440 --> 00:23:38.480
+technically, it is forming some sort of a line, right?
+
+00:23:38.940 --> 00:23:42.760
+Technically, it is trying to form some sort of a line as we
+
+00:23:42.760 --> 00:23:46.440
+all can see, right? A kind of a straight line it is trying
+
+00:23:46.440 --> 00:23:51.440
+to form, this kind of a data, right? Even if I am going to
+
+00:23:51.440 --> 00:23:53.960
+consider maybe a little bit of different kind of data,
+
+00:23:53.960 --> 00:23:57.200
+right? A little bit of different kind of a data, let's say,
+
+00:23:57.220 --> 00:24:01.280
+a lot of data, all dots are representing 1, 1 points. So,
+
+00:24:01.300 --> 00:24:03.620
+can I say that even this is forming some sort of a straight
+
+00:24:03.620 --> 00:24:07.520
+line, even if I am going to take maybe this kind of a data,
+
+00:24:07.660 --> 00:24:11.040
+right? So, pattern-wise, just a pattern-wise, right? So this
+
+00:24:11.040 --> 00:24:13.860
+is also forming some sort of a straight line, this is also
+
+00:24:13.860 --> 00:24:17.040
+forming some sort of a straight line over here. Again, I can
+
+00:24:17.040 --> 00:24:19.680
+draw maybe like, you know, this kind of a data over here,
+
+00:24:19.760 --> 00:24:23.280
+right? This kind of a data over here. And, again, this is
+
+00:24:23.280 --> 00:24:24.940
+forming kind of a pattern. This is a pattern of the straight
+
+00:24:24.940 --> 00:24:29.360
+line, right? So when I am trying to plot this versus this,
+
+00:24:29.600 --> 00:24:33.220
+so I am able to find out that this is showcasing some sort
+
+00:24:33.220 --> 00:24:37.360
+of a pattern, right, pattern. So technically it is trying to
+
+00:24:37.360 --> 00:24:39.440
+showcase me what kind of a pattern, a kind of a straight
+
+00:24:39.440 --> 00:24:42.380
+line. Let's say I am taking some different kind of a data
+
+00:24:42.380 --> 00:24:45.400
+set, so again, it is going to form some this kind of a
+
+00:24:45.400 --> 00:24:47.340
+pattern, this kind of pattern, but everyone is technically
+
+00:24:47.340 --> 00:24:53.260
+forming a straight line, okay, fine. So what if I am going
+
+00:24:53.260 --> 00:24:56.960
+to... If I am going to find an equation, right, what if I am
+
+00:24:56.960 --> 00:25:01.900
+going to find an equation, right, which is going to
+
+00:25:01.900 --> 00:25:06.380
+generalize my data, which is going to generalize my data. So
+
+00:25:06.380 --> 00:25:09.620
+what is a, what is a, like an equation of a straight line,
+
+00:25:09.640 --> 00:25:13.660
+by the way? Someone is saying exponential. I think you
+
+00:25:13.660 --> 00:25:17.520
+should go and join, again, 8th standard and give a 10th exam
+
+00:25:17.520 --> 00:25:18.080
+once again.
+
+00:25:23.160 --> 00:25:29.620
+So basically, you know... Okay. So there is an equation, y
+
+00:25:29.620 --> 00:25:36.880
+is equals to mx plus c, yeah, y is equals to mx plus c. Now
+
+00:25:36.880 --> 00:25:40.660
+this is an equation of a straight line. We all know, we all
+
+00:25:40.660 --> 00:25:43.040
+have studied in childhood as well, equation of a straight
+
+00:25:43.040 --> 00:25:47.160
+line exponential, equation of parabola, hyperbola, right. So
+
+00:25:47.160 --> 00:25:49.260
+many equations we have studied, but yeah, I mean like
+
+00:25:49.260 --> 00:25:52.580
+equation of a straight line was the simplest one that we
+
+00:25:52.580 --> 00:25:54.940
+have studied in 8th, 9th standard, right, even back then.
+
+00:25:54.940 --> 00:26:01.340
+Now when we say y is equals to mx plus c, yes, y is equal to
+
+00:26:01.340 --> 00:26:06.780
+mx plus c, now x, meaning of x is completely fine, x is
+
+00:26:06.780 --> 00:26:10.060
+going to be the input, right, and if I know value of m and
+
+00:26:10.060 --> 00:26:15.340
+c, I will be able to give you y. But here the problem is
+
+00:26:15.340 --> 00:26:19.040
+that, that, you know, let's talk about this one, this
+
+00:26:19.040 --> 00:26:22.840
+particular example. So when I say I can draw a straight
+
+00:26:22.840 --> 00:26:26.020
+line. I can draw a straight line. I can draw even this as a
+
+00:26:26.020 --> 00:26:29.080
+straight line. I can draw even this as a straight line. I
+
+00:26:29.080 --> 00:26:33.700
+can draw even this as a straight line. I can draw even this
+
+00:26:33.700 --> 00:26:36.780
+as a straight line. Even in this situation, I can draw even
+
+00:26:36.780 --> 00:26:39.280
+this as a straight line. This as a straight line. This as a
+
+00:26:39.280 --> 00:26:42.620
+straight line. This as a straight line. Now I can draw this
+
+00:26:42.620 --> 00:26:45.060
+as a straight line. Even this as a straight line. This as a
+
+00:26:45.060 --> 00:26:47.680
+straight line. So in every situation, we are able to find
+
+00:26:47.680 --> 00:26:50.660
+out that there are many straight lines I can draw, right,
+
+00:26:50.800 --> 00:26:51.880
+agree?
+
+00:26:53.920 --> 00:26:57.300
+There can be many straight lines. with respect to this data
+
+00:26:57.300 --> 00:27:04.220
+pattern i can draw yes now which one i am supposed to choose
+
+00:27:05.240 --> 00:27:09.440
+that's a question right which one i am supposed to choose
+
+00:27:09.440 --> 00:27:13.440
+because if i have this kind of a data pattern i can draw so
+
+00:27:13.440 --> 00:27:16.140
+many straight lines right so many straight lines so many
+
+00:27:16.140 --> 00:27:19.760
+straight line even over here but which straight line i am
+
+00:27:19.760 --> 00:27:25.080
+supposed to choose that's a major problem now how do we
+
+00:27:25.080 --> 00:27:29.180
+decide right that which straight line question number one
+
+00:27:29.180 --> 00:27:37.960
+right and can i say that that this value of m and c actually
+
+00:27:37.960 --> 00:27:40.380
+controls the straight line can
+
+00:27:42.980 --> 00:27:46.740
+i say that that this value m and c actually controls the
+
+00:27:46.740 --> 00:27:48.360
+straight line yes
+
+00:27:50.600 --> 00:27:56.920
+yeah so when i say y is equals to mx plus c y is equals to
+
+00:27:56.920 --> 00:28:03.500
+mx plus c so y is equals to 2 x plus 1 c y could be 3 x plus
+
+00:28:03.500 --> 00:28:09.880
+2 c y could be like you know minus 3 x plus 1 c right c is
+
+00:28:09.880 --> 00:28:12.940
+equals to 1 i mean like there can be infinite number of
+
+00:28:12.940 --> 00:28:15.840
+possibilities very very simple right there can be infinite
+
+00:28:15.840 --> 00:28:19.160
+number of possibilities i will be able to see that is going
+
+00:28:19.160 --> 00:28:22.120
+to define technically which straight line i am supposed to
+
+00:28:22.120 --> 00:28:24.920
+draw right which straight line technically i am supposed to
+
+00:28:24.920 --> 00:28:29.640
+draw and a possibility can be infinite in that particular
+
+00:28:29.800 --> 00:28:35.460
+situation agree everyone yes yeah
+
+00:28:45.930 --> 00:28:50.950
+so so many so so many straight lines are technically
+
+00:28:50.950 --> 00:28:55.590
+possible hypothetically speaking hypothetically speaking so
+
+00:28:55.590 --> 00:29:00.310
+what if if we will be able to find out right what if we will
+
+00:29:00.310 --> 00:29:04.130
+be able to find out that which straight line so can i say
+
+00:29:04.130 --> 00:29:08.370
+that if i am able to find out that which straight line my
+
+00:29:08.370 --> 00:29:09.590
+objective will be clear
+
+00:29:12.690 --> 00:29:15.610
+i mean like that's the whole idea right find a straight line
+
+00:29:15.610 --> 00:29:21.890
+in this situation yes so if somehow i will be able to find
+
+00:29:21.890 --> 00:29:25.150
+out my straight line so the very first part is that that my
+
+00:29:25.150 --> 00:29:29.130
+problem will be solved so let's say if i am able to find out
+
+00:29:29.130 --> 00:29:33.770
+basically y is equals to 2x plus 1 so at any point of a time
+
+00:29:33.770 --> 00:29:37.090
+i can just pass the value of x for example value of this
+
+00:29:37.090 --> 00:29:42.090
+experience i will be able to get which is my salary so can i
+
+00:29:42.090 --> 00:29:44.970
+say that if i will be able to find out somehow i don't know
+
+00:29:44.970 --> 00:29:47.750
+how as of now we'll try to figure it out that's where like a
+
+00:29:47.750 --> 00:29:50.670
+you know this learning part comes into picture but somehow
+
+00:29:50.670 --> 00:29:54.690
+if i am able to find out this uh you know relations my work
+
+00:29:54.690 --> 00:29:57.670
+will be done basically i can at any point of a time i can
+
+00:29:57.670 --> 00:30:01.230
+just give a value of x and then i will be able to get the
+
+00:30:01.230 --> 00:30:05.850
+value of y right so again for any x i will be able to get
+
+00:30:05.850 --> 00:30:09.430
+any value of the y but the major question is that that what
+
+00:30:09.430 --> 00:30:11.650
+will be the value of m and c so if i am able to find out
+
+00:30:11.650 --> 00:30:11.650
+this you know relations my work will be done basically
+
+00:30:11.670 --> 00:30:17.110
+that's a major question for all of us okay now that's a
+
+00:30:17.110 --> 00:30:20.570
+question that's completely fine but what is m and c that's
+
+00:30:20.570 --> 00:30:24.590
+also you are supposed to know what is m and c so what is
+
+00:30:24.590 --> 00:30:26.650
+this m by the way yes
+
+00:30:35.380 --> 00:30:40.520
+so m is nothing but a slope yes m is nothing but the slope
+
+00:30:40.520 --> 00:30:46.960
+so here y is equals to mx plus c so if c is equals to zero
+
+00:30:46.960 --> 00:30:53.260
+so y will be what mx so m will be what y by x basically so
+
+00:30:53.260 --> 00:30:57.600
+on this straight line at any point of a time this slope this
+
+00:30:57.600 --> 00:31:00.860
+one this hypotenuse if i'm trying to draw this like you know
+
+00:31:00.860 --> 00:31:04.980
+uh the triangle over here so hypotenuse is basically going
+
+00:31:04.980 --> 00:31:08.620
+to be my slope right this slope tangent you can say in other
+
+00:31:08.620 --> 00:31:11.700
+word or you can say it's a slope or you can say it's a y by
+
+00:31:11.700 --> 00:31:15.300
+x y by x is technically a slope so this is where m comes
+
+00:31:15.300 --> 00:31:18.420
+into picture what is c by the way
+
+00:31:22.760 --> 00:31:29.620
+c so c is nothing but when x is equals to zero so if x is
+
+00:31:29.620 --> 00:31:33.960
+equal to zero so what will happen so y is equal to c so at
+
+00:31:33.960 --> 00:31:37.380
+origin what is the value of y so this is technically called
+
+00:31:37.380 --> 00:31:41.560
+as what intercept c simple right even from the mathematical
+
+00:31:41.560 --> 00:31:45.040
+equation so at a point at a origin when x is equals to zero
+
+00:31:45.040 --> 00:31:49.020
+so whatsoever you have for a y so that is going to be
+
+00:31:49.020 --> 00:31:52.140
+basically c and this is technically going to define a
+
+00:31:52.140 --> 00:31:55.140
+straight line so if you know m and c your straight line
+
+00:31:55.140 --> 00:31:57.860
+equation is done right equation of a straight line is
+
+00:31:57.860 --> 00:32:01.980
+technically done question is that that what m and what c
+
+00:32:01.980 --> 00:32:06.880
+that's a major question for me at any point of a time and
+
+00:32:06.880 --> 00:32:10.400
+that is eventually my goal right that is eventually my goal
+
+00:32:10.400 --> 00:32:16.620
+so here my goal is to find out basically m
+
+00:32:20.270 --> 00:32:25.490
+and c so m is nothing but your slope y by x when c is equal
+
+00:32:25.490 --> 00:32:29.790
+to zero and c is nothing but equal to y when it is at origin
+
+00:32:29.790 --> 00:32:33.090
+right so what is the value of a y at that point of a time
+
+00:32:33.090 --> 00:32:37.650
+when x is equals to zero okay so m and c how i will be able
+
+00:32:37.650 --> 00:32:41.210
+to find out right how i will be able to find out the value
+
+00:32:41.210 --> 00:32:45.810
+of m and c and if i am able to find out value of m and c
+
+00:32:45.810 --> 00:32:53.210
+then i can rewrite this equation mx plus c y hat so this y
+
+00:32:53.210 --> 00:32:56.590
+is nothing but the original y and this y hat so wherever i
+
+00:32:56.590 --> 00:33:01.050
+am going hat it simply means that the predicted one right
+
+00:33:01.050 --> 00:33:04.430
+the prediction basically i am trying to find out over here
+
+00:33:04.430 --> 00:33:10.370
+okay fine cool now let's do one thing let's do one
+
+00:33:10.370 --> 00:33:13.790
+experimentation by which you will be able to understand or
+
+00:33:13.790 --> 00:33:17.750
+you will go closer towards finding value of m and c so we'll
+
+00:33:17.750 --> 00:33:21.270
+do one experimentation guys over here by taking some random
+
+00:33:21.270 --> 00:33:26.150
+kind of a data so here is x here is y right let me take this
+
+00:33:26.150 --> 00:33:30.790
+random data and we'll try to establish the relation so x is
+
+00:33:30.790 --> 00:33:36.750
+equals to 2 y is equals to 6 x is equals to 3 y is equals to
+
+00:33:36.750 --> 00:33:45.430
+10 x is equals to 7 y is equals to maybe like 16 x is equals
+
+00:33:45.430 --> 00:33:50.670
+to sorry so x is equals to maybe like a 8 y is equals to 20
+
+00:33:50.670 --> 00:33:57.550
+x is equals to maybe 9 y is equals to maybe 22 x is equals
+
+00:33:57.550 --> 00:34:03.290
+to may be one and y is equals to maybe a three yeah now tell
+
+00:34:03.290 --> 00:34:08.110
+me one thing x is equals to four what is the value of y
+
+00:34:08.110 --> 00:34:11.690
+anyone who can give me this answer yeah
+
+00:34:15.020 --> 00:34:19.210
+anyone what is the value of y
+
+00:34:26.120 --> 00:34:29.680
+when x is equals to four what is the value of y yes
+
+00:34:35.540 --> 00:34:38.860
+guys give me the answer or
+
+00:34:41.680 --> 00:34:45.540
+tell me you will you are not able to find out both the cases
+
+00:34:45.540 --> 00:34:53.150
+are okay for me Imtiaz is saying no pattern okay is it i
+
+00:34:55.550 --> 00:34:57.770
+can see some pattern yes
+
+00:35:07.140 --> 00:35:11.900
+maybe not the exact one okay so fine let's start solving it
+
+00:35:11.900 --> 00:35:16.280
+and now you will see how machine learns basically so now we
+
+00:35:16.280 --> 00:35:20.160
+understand the problem now let's say y is equals to mx plus
+
+00:35:20.160 --> 00:35:25.480
+c so i'm assuming that as of now right because when equation
+
+00:35:25.480 --> 00:35:26.440
+y there can be multiplication of y equals to mx plus c so
+
+00:35:26.440 --> 00:35:26.680
+i'm assuming that as of now right because when equation y
+
+00:35:26.680 --> 00:35:26.680
+there can be multiplication of y equals to mx plus c so i'm
+
+00:35:26.680 --> 00:35:27.960
+assuming that as of now multiple equations as per the
+
+00:35:27.960 --> 00:35:32.080
+pattern which is saying like a 12 thesis saying eight okay
+
+00:35:32.080 --> 00:35:34.780
+fine i don't know what is the correct answer even i i don't
+
+00:35:34.780 --> 00:35:37.700
+have any idea and i'm not guessing anything by the way yeah
+
+00:35:37.700 --> 00:35:41.100
+so we'll try to prove something over here so let's say i'm
+
+00:35:41.100 --> 00:35:43.940
+assuming that you know this pattern is forming somewhere
+
+00:35:43.940 --> 00:35:46.460
+straight line not the straight straight line but somehow
+
+00:35:46.460 --> 00:35:49.340
+that pattern it is trying to showcase maybe something
+
+00:35:49.340 --> 00:35:52.460
+something like this kind of a situation right this kind of a
+
+00:35:52.460 --> 00:35:55.540
+situation we are into so somehow it is showing me that kind
+
+00:35:55.540 --> 00:35:58.960
+of a pattern okay this is my assumptions if it will show
+
+00:35:58.960 --> 00:36:01.940
+some different pattern i'll take some different equation but
+
+00:36:01.940 --> 00:36:07.660
+as of now this is my assumption okay so now i have to
+
+00:36:07.660 --> 00:36:11.760
+formalize the straight line so what i will do i'll take this
+
+00:36:11.760 --> 00:36:15.040
+data and i'll take this data two record i will take and then
+
+00:36:15.040 --> 00:36:18.000
+i'll try to put because we have two variable right so two
+
+00:36:18.000 --> 00:36:20.960
+variable means two equation is required so for one for
+
+00:36:20.960 --> 00:36:24.720
+example so i'm going to take like a six is equals to so
+
+00:36:24.720 --> 00:36:30.160
+basically it will start with 6 is equals to m into 2 x is
+
+00:36:30.160 --> 00:36:35.440
+equals to 2 right plus c equation number 1 now 10 is equals
+
+00:36:35.440 --> 00:36:41.660
+to i will say uh 3 m plus c two variable two equation now
+
+00:36:41.660 --> 00:36:46.640
+give me the value of m and c quick give me the value of m
+
+00:36:46.640 --> 00:36:47.980
+and c yes
+
+00:36:50.920 --> 00:36:54.300
+quickly what is the value of m and c sravan
+
+00:36:59.320 --> 00:37:02.440
+is saying m is equal to 4 siddharth is saying m is equal to
+
+00:37:02.440 --> 00:37:06.100
+4 okay cool now next okay
+
+00:37:08.820 --> 00:37:13.720
+fine i am considering m is equal to 4 tell me c c is equals
+
+00:37:13.720 --> 00:37:17.900
+to minus 2 okay c is equals to minus 2 okay everyone is
+
+00:37:17.900 --> 00:37:21.820
+saying c is equal to minus 2 cool so now if i have to
+
+00:37:21.820 --> 00:37:29.120
+rewrite this original equation so y is equals to 4x minus 2
+
+00:37:29.120 --> 00:37:33.180
+right c is equal to 2 so as of now based on these two
+
+00:37:33.180 --> 00:37:33.400
+different equations i am considering m is equal to 4 okay
+
+00:37:33.400 --> 00:37:35.020
+cool now next okay fine i am considering data these two data
+
+00:37:35.020 --> 00:37:39.020
+basically i am able to build this equation y is equals to 4x
+
+00:37:39.020 --> 00:37:44.820
+minus 2 okay i have another data as well right i have a
+
+00:37:44.820 --> 00:37:49.320
+another data as well over here so now let's do one thing try
+
+00:37:49.320 --> 00:37:53.880
+to test this equation with respect to this data so here uh
+
+00:37:53.880 --> 00:37:58.520
+let's say i'm trying to find out y right so predicted y
+
+00:37:58.520 --> 00:38:04.780
+let's see right so if i'm going to put 7 as x so 4 into 7
+
+00:38:04.780 --> 00:38:07.780
+minus 2 what is the result 4
+
+00:38:09.960 --> 00:38:19.380
+into 7 minus 2 what is the result 26 yes okay 26 now y hat y
+
+00:38:19.380 --> 00:38:26.220
+hat means predicted one is 26 so y hat for x is equals to 7
+
+00:38:26.220 --> 00:38:32.260
+x is equals to 7 is 26 what is the actual y which i was
+
+00:38:32.260 --> 00:38:35.640
+expecting what was my expectation
+
+00:38:39.100 --> 00:38:46.800
+yes 16 right i was expecting 16 as a y right my original y
+
+00:38:46.800 --> 00:38:50.880
+was my original y was basically 16 but as this equation
+
+00:38:50.880 --> 00:38:55.100
+these two equations are completely based on initial two data
+
+00:38:55.100 --> 00:39:00.300
+not on other data it has not even seen other data right it
+
+00:39:00.300 --> 00:39:04.800
+has not even seen other data so it it was not able to adopt
+
+00:39:04.800 --> 00:39:09.820
+so my technically y hat is basically predicted is is 26 i
+
+00:39:09.820 --> 00:39:15.520
+was expecting 16 as per my data set now tell me what i'm
+
+00:39:15.520 --> 00:39:17.140
+supposed to do tell
+
+00:39:19.600 --> 00:39:21.500
+me what i'm supposed to do yes
+
+00:39:33.240 --> 00:39:34.360
+so
+
+00:39:37.790 --> 00:39:43.630
+g1 is saying that recalculate m and c yes i am supposed to
+
+00:39:43.630 --> 00:39:46.650
+find out because this m and c will work well with first two
+
+00:39:46.650 --> 00:39:50.010
+data but not the remaining data set because it has not seen
+
+00:39:50.010 --> 00:39:53.130
+it has not basically you know optimized or regularized on
+
+00:39:53.130 --> 00:39:56.850
+top of that one so here what i'm supposed to do i'm supposed
+
+00:39:56.850 --> 00:40:01.350
+to find out a new value of m and new value of c based on
+
+00:40:01.350 --> 00:40:08.490
+what so based on this difference so generally what we do we
+
+00:40:08.490 --> 00:40:12.050
+will try to find out basically error what is error error is
+
+00:40:12.050 --> 00:40:14.750
+nothing but difference between the expected one and the
+
+00:40:14.750 --> 00:40:18.870
+predicted one what is the expected one so expected one is
+
+00:40:18.870 --> 00:40:22.270
+basically 16 what is the predicted one predicted one is
+
+00:40:22.270 --> 00:40:25.210
+basically minus 26 so the whole difference is basically
+
+00:40:25.210 --> 00:40:29.630
+minus 10 right the whole difference is let's say minus of 10
+
+00:40:29.630 --> 00:40:35.750
+over here so it was a big big i would say right big big i
+
+00:40:35.750 --> 00:40:39.490
+would say a difference which we were able to find out yes
+
+00:40:39.490 --> 00:40:44.110
+and it's a huge mistake that it has done error means it's a
+
+00:40:44.110 --> 00:40:49.850
+huge mistake it has technically done what do we do so we try
+
+00:40:49.850 --> 00:40:53.430
+to take a square error always so that you know this negative
+
+00:40:53.430 --> 00:40:57.210
+point will be gone so if i'm going to write it it will be
+
+00:40:57.210 --> 00:41:01.670
+100 let's say but positive 100 it is going to be by the way
+
+00:41:01.670 --> 00:41:07.910
+so generally what we uh you know try to do right what we try
+
+00:41:07.910 --> 00:41:12.830
+to do over here so we try to take some sort of a error
+
+00:41:12.830 --> 00:41:16.690
+equation so in this case we can try to say that that we can
+
+00:41:16.690 --> 00:41:24.330
+try to take mean squared error what is its responsibility
+
+00:41:24.330 --> 00:41:30.110
+nothing so it is equation is going to be summation y minus y
+
+00:41:30.110 --> 00:41:34.750
+hat of square right y minus y hat of square where n is
+
+00:41:34.750 --> 00:41:38.070
+nothing but total number of the sample that you are going to
+
+00:41:38.070 --> 00:41:42.950
+take okay fine y is equals to y hat i mean like a square now
+
+00:41:42.950 --> 00:41:46.330
+this is going to give you just a difference between expected
+
+00:41:46.330 --> 00:41:49.990
+and the predicted one right expected and the predicted one
+
+00:41:49.990 --> 00:41:53.070
+why we are taking a square a reason is very simple i'm going
+
+00:41:53.070 --> 00:41:56.150
+to talk about a derivative so in that case it is going to
+
+00:41:56.150 --> 00:41:58.150
+help you out because we are taking a with respect to this
+
+00:41:58.150 --> 00:42:01.930
+one now tell me one thing over here error
+
+00:42:03.910 --> 00:42:12.830
+we have received right this one or there is a difference but
+
+00:42:12.830 --> 00:42:15.830
+who is responsible for this error yes
+
+00:42:18.420 --> 00:42:23.580
+tell me who is responsible in this equation who is
+
+00:42:23.580 --> 00:42:25.880
+responsible for this error kumar
+
+00:42:30.910 --> 00:42:40.210
+is saying m okay agree and psi is saying m exactly who is
+
+00:42:40.210 --> 00:42:47.070
+responsible m and c right because m and c is forming the
+
+00:42:47.070 --> 00:42:50.550
+equation and even because of m and c if i am able to find
+
+00:42:50.550 --> 00:42:53.550
+out some perfect m and c there won't be any kind of a
+
+00:42:53.550 --> 00:42:55.470
+difference means there won't be any kind of a like a
+
+00:42:55.470 --> 00:42:58.090
+difference between y and y hat so there won't be any kind of
+
+00:42:58.090 --> 00:43:02.850
+a error as simple as that right so technically for error who
+
+00:43:02.850 --> 00:43:08.130
+is responsible so responsible person is m and c over here
+
+00:43:08.610 --> 00:43:13.910
+okay fine and i have to find out a new value of what yes
+
+00:43:13.910 --> 00:43:18.070
+again tell me i have to find out new value of what yes
+
+00:43:22.970 --> 00:43:24.190
+m
+
+00:43:26.520 --> 00:43:31.240
+and c again right so error response who should take a
+
+00:43:31.240 --> 00:43:34.700
+responsibility of this error m and c what i have to find out
+
+00:43:34.700 --> 00:43:39.500
+next i mean like new value m and c right okay cool so now
+
+00:43:39.500 --> 00:43:42.760
+what i will do so can i make a statement over here that this
+
+00:43:42.760 --> 00:43:48.240
+equation actually depends on m and c right m and c somehow
+
+00:43:48.240 --> 00:43:52.840
+related right because for this error for to like to uh like
+
+00:43:52.840 --> 00:43:55.820
+uh for the existence of this equation this error equation
+
+00:43:55.820 --> 00:43:59.460
+right m and c is responsible if m and c is not there this
+
+00:43:59.460 --> 00:44:01.940
+error will not be there right so basically it depends it
+
+00:44:01.940 --> 00:44:04.840
+should depends upon m and c so basically what do we do so
+
+00:44:04.840 --> 00:44:07.640
+we'll write write j over here j is nothing but representing
+
+00:44:07.640 --> 00:44:12.680
+the error and it depends upon what m and c by the way i can
+
+00:44:12.680 --> 00:44:15.820
+write one by right uh for now let's say m and c right so i
+
+00:44:15.820 --> 00:44:20.060
+can say one by n i'm going to write down and then y minus y
+
+00:44:20.060 --> 00:44:22.980
+hat of square let's write it down in this particular way
+
+00:44:22.980 --> 00:44:26.540
+right this particular way we'll try to find the derivative
+
+00:44:26.540 --> 00:44:32.400
+as well so basically this equation depends upon two variable
+
+00:44:32.400 --> 00:44:36.620
+right two variable and again if i'm going to break down y
+
+00:44:36.620 --> 00:44:40.280
+and y hat there is m and c and y there is m and c and y hat
+
+00:44:40.280 --> 00:44:43.640
+as well in both the places there is m and c right so now
+
+00:44:43.640 --> 00:44:47.400
+basically what we can do so we can we have a error function
+
+00:44:47.400 --> 00:44:50.520
+and error function obviously depends upon this one and i
+
+00:44:50.520 --> 00:44:55.480
+have to find out a value of m new and i have to find out
+
+00:44:55.480 --> 00:44:59.560
+value of c new right we'll talk about that in a little bit
+
+00:44:59.560 --> 00:45:04.660
+later stage i would say right little bit of later stage so
+
+00:45:04.660 --> 00:45:12.340
+here right so here uh basically uh what we are trying to
+
+00:45:12.340 --> 00:45:17.500
+eventually like uh find out so we are eventually trying to
+
+00:45:17.500 --> 00:45:22.620
+find out or what we will what we should minimize so can i
+
+00:45:22.620 --> 00:45:28.940
+say that we should minimize this error yeah we have to find
+
+00:45:28.940 --> 00:45:33.180
+out a new value of m and c and when i say we have to find
+
+00:45:33.180 --> 00:45:36.500
+out a new value of m and c it simply means that we are
+
+00:45:36.500 --> 00:45:41.000
+talking about error minimization so we have to approach
+
+00:45:41.000 --> 00:45:44.900
+closer towards a minimum error right that should be my
+
+00:45:44.900 --> 00:45:48.240
+policy that should i approach so eventually say i have to
+
+00:45:48.240 --> 00:45:51.380
+find a new value of m and c that's also true when i say
+
+00:45:51.380 --> 00:45:54.520
+error depends upon m and c that's also true when i say we
+
+00:45:54.520 --> 00:45:57.400
+have to minimize the error that's also true right so
+
+00:45:57.400 --> 00:46:00.320
+everything is technically true and connected with each and
+
+00:46:00.320 --> 00:46:06.800
+every one okay cool so when we say that you know we have to
+
+00:46:06.800 --> 00:46:13.800
+find out a new value of m and c so m new is nothing but m
+
+00:46:13.800 --> 00:46:18.700
+old depends right so depends upon m old there is something
+
+00:46:18.700 --> 00:46:25.760
+called as eta rate of change of error with respect to m or
+
+00:46:25.760 --> 00:46:32.120
+partial order derivative of error with respect to m when we
+
+00:46:32.120 --> 00:46:40.260
+say c new so c new is nothing but c old minus eta into rate
+
+00:46:40.260 --> 00:46:46.800
+of change of error with respect to c this is what we used to
+
+00:46:46.800 --> 00:46:50.540
+write so every time we have to find out a new value of m
+
+00:46:50.540 --> 00:46:53.800
+every time we have to find out a new value of c obviously we
+
+00:46:53.800 --> 00:46:58.000
+can't find out out of sudden it should depends upon the old
+
+00:46:58.000 --> 00:47:02.960
+value right minus when we say eta i'll be talking about it
+
+00:47:02.960 --> 00:47:05.860
+what is the meaning of eta actually so it's called as
+
+00:47:05.860 --> 00:47:09.460
+learning rate and why this learning rate is significant i'll
+
+00:47:09.460 --> 00:47:13.860
+be talking about that as well in detail right focus on this
+
+00:47:13.860 --> 00:47:15.340
+particular value of c and c particular term so this says
+
+00:47:15.340 --> 00:47:20.420
+that that rate of change of error with respect to m right
+
+00:47:20.420 --> 00:47:24.020
+only with respect to m rate of change of error with respect
+
+00:47:24.020 --> 00:47:27.880
+to c and here i'm talking about a partial order derivative
+
+00:47:27.880 --> 00:47:31.400
+because i know this rate this depends upon what this
+
+00:47:31.400 --> 00:47:35.320
+particular equation right this particular equation okay fine
+
+00:47:35.320 --> 00:47:41.480
+so here if somehow i will be able to you know find out
+
+00:47:41.480 --> 00:47:45.620
+basically the rate of change of error with respect to like
+
+00:47:45.620 --> 00:47:49.960
+you know uh m and rate of change of error with respect to c
+
+00:47:50.440 --> 00:47:54.520
+i think i will be having my own answer right i will be
+
+00:47:54.520 --> 00:47:59.500
+having my own answer at any point of time so shall we go
+
+00:47:59.500 --> 00:48:02.320
+ahead and do it guys yes yeah
+
+00:48:05.910 --> 00:48:08.810
+this is the factor that we have to find out rate of change
+
+00:48:08.810 --> 00:48:11.350
+of error with respect to m and rate of change of error with
+
+00:48:11.350 --> 00:48:12.170
+respect to this one
+
+00:48:22.150 --> 00:48:24.130
+okay now
+
+00:48:53.540 --> 00:48:56.900
+this is my error function j okay i'm going to write down
+
+00:48:56.900 --> 00:49:04.440
+once again 1 by n summation y minus y hat of square okay now
+
+00:49:04.440 --> 00:49:09.120
+if i'm going to tell you guys that find out the derivative
+
+00:49:09.120 --> 00:49:15.180
+partial derivative of j with respect to m now what you are
+
+00:49:15.180 --> 00:49:20.280
+going to basically like a write down over here yes so what
+
+00:49:20.280 --> 00:49:23.120
+would be the partial order derivative of this one yes
+
+00:49:26.090 --> 00:49:33.770
+with respect to m idea anyone no that is not m nu by the way
+
+00:49:33.770 --> 00:49:35.950
+m nu equation is different i'm just i've given you this
+
+00:49:35.950 --> 00:49:39.310
+equation right so let's say this is my equation number one
+
+00:49:39.310 --> 00:49:42.470
+i've given to you now tell me rate of change of j with
+
+00:49:42.470 --> 00:49:44.070
+respect to m yes
+
+00:50:01.420 --> 00:50:02.660
+what
+
+00:50:14.400 --> 00:50:16.820
+will be the partial derivative of this one so
+
+00:50:20.440 --> 00:50:24.760
+let's write down in this particular manner 1 by n summation
+
+00:50:24.760 --> 00:50:32.620
+y minus y hat so basically y hat is what mx plus c right of
+
+00:50:32.620 --> 00:50:38.660
+square fine now if you will try to you know unwrap this
+
+00:50:38.660 --> 00:50:43.720
+entire things so it is going to be e
+
+00:50:46.050 --> 00:50:49.070
+j let me write down guys divided
+
+00:50:50.740 --> 00:50:57.480
+by m is equals to 1 by n summation y minus i have just
+
+00:50:57.480 --> 00:51:03.080
+replaced y hat with mx plus c of technically a a square
+
+00:51:03.080 --> 00:51:10.240
+right now so let's say that that there is a inner term over
+
+00:51:10.240 --> 00:51:16.400
+here so i'm going to consider this inner term as u right as
+
+00:51:16.400 --> 00:51:26.920
+u so this equation will be dm 1 by n 1 by n summation u of
+
+00:51:26.920 --> 00:51:31.900
+square make sense u is nothing but your internal one so y
+
+00:51:31.900 --> 00:51:37.480
+minus mx plus c this is basically i'm representing as u u
+
+00:51:37.480 --> 00:51:41.580
+square so now if you understand a chain rule which i have
+
+00:51:41.580 --> 00:51:44.540
+discussed in my previous class itself right if you
+
+00:51:44.540 --> 00:51:49.640
+understand that so based on this chain rule basically i can
+
+00:51:49.640 --> 00:51:57.040
+i can simply come and say over here that dj dj is the inner
+
+00:51:57.040 --> 00:51:57.040
+term of the inner term of the inner term of the inner term
+
+00:51:57.040 --> 00:52:03.740
+of the inner term by du into du by dm is equals to 1 by n
+
+00:52:03.740 --> 00:52:10.000
+summation u of square make sense everyone yes
+
+00:52:13.200 --> 00:52:18.670
+yeah so here okay
+
+00:52:33.650 --> 00:52:41.510
+so this u is square and i can try to basically substitute dj
+
+00:52:41.510 --> 00:52:46.430
+by dm is equals to dj by du so rate of change with respect
+
+00:52:46.430 --> 00:52:47.830
+to this one is going to be 2u
+
+00:52:56.310 --> 00:52:59.490
+yeah so i can write dj by dm
+
+00:53:05.540 --> 00:53:14.900
+dj by dm u square is equals to i can write 2u du by dw
+
+00:53:14.900 --> 00:53:21.960
+simple so for dj by du i have 2u very very simple over here
+
+00:53:21.960 --> 00:53:26.140
+right i have written in this particular place okay so now
+
+00:53:26.140 --> 00:53:32.920
+basically this uh 2u and u is what so u is technically i
+
+00:53:32.920 --> 00:53:39.880
+would say y minus mx plus c this was my u if i'm going to
+
+00:53:39.880 --> 00:53:45.760
+find out a derivative with respect to m so it is going to be
+
+00:53:45.760 --> 00:53:56.130
+2u minus of 2 u minus of m
+
+00:54:03.650 --> 00:54:07.450
+let me write down once again in a little bit of clean manner
+
+00:54:07.450 --> 00:54:08.430
+it's
+
+00:54:10.670 --> 00:54:11.870
+been very long time since the y moins 2u-m梅 m debate has
+
+00:54:11.870 --> 00:54:16.010
+been conducted. I have derived this equation. So, let me
+
+00:54:16.010 --> 00:54:25.360
+write down in a flow. Okay, so start from here itself. Error
+
+00:54:25.360 --> 00:54:34.680
+with respect to m is nothing but 1 by n summation of y minus
+
+00:54:34.680 --> 00:54:41.720
+mx plus c of square. Okay, now I am considering u is equals
+
+00:54:41.720 --> 00:54:48.620
+to y minus mx plus c. Okay, now here, so I can rewrite this
+
+00:54:48.620 --> 00:54:54.540
+equation dj by dm is equals to 1 by n summation of this
+
+00:54:54.540 --> 00:55:00.520
+whole term is u, right? So, u of square. Okay, so now dj by
+
+00:55:00.520 --> 00:55:07.660
+dm u and u depends upon I know like, you know, m. So, dj by
+
+00:55:07.660 --> 00:55:12.400
+as per chain rule dj by du I can write is equals to du by dm
+
+00:55:12.400 --> 00:55:16.040
+as per chain rule. So, as per chain rule dj by du will
+
+00:55:16.040 --> 00:55:26.180
+become what? So, 2 by n du by dm. Now, what is this du by
+
+00:55:26.180 --> 00:55:29.840
+dm? Rate of change of u with respect to m if I have to find
+
+00:55:29.840 --> 00:55:37.240
+out. So, y minus mx plus c, right? So, with respect to m, if
+
+00:55:37.240 --> 00:55:37.640
+I am going to write dm, I can write dm by dm. So, dm by dm
+
+00:55:37.640 --> 00:55:38.140
+is equal to dm. So, dm by dm is equal to dm. Now, what is
+
+00:55:38.140 --> 00:55:40.240
+this du by dm? So, I am going to like find out a derivative.
+
+00:55:40.820 --> 00:55:44.520
+So, it is going to be minus of x technically, right? m. So,
+
+00:55:44.560 --> 00:55:47.420
+it is going to be minus of x. So, I can substitute it over
+
+00:55:47.420 --> 00:55:56.700
+here. So, 2x by n. So, can I say that guys now that dj by dm
+
+00:55:56.700 --> 00:56:03.080
+rate of change of this by this m is equals to 2x by n? Yes.
+
+00:56:04.300 --> 00:56:05.360
+Now, this is simple.
+
+00:56:14.700 --> 00:56:16.460
+So, dj by dm is equal to 2x by n. So, dj by dm is equal to
+
+00:56:16.460 --> 00:56:16.460
+2x by n. So, dj by dm is equal to 2x by n. So, dj by dm is
+
+00:56:16.460 --> 00:56:17.440
+equal to 2x by n. and
+
+00:56:25.240 --> 00:56:29.920
+2u right over here there will be u so here 2x u technically
+
+00:56:29.920 --> 00:56:37.360
+this is going to be 2x u so 2x u so minus of 2x divided by n
+
+00:56:37.360 --> 00:56:42.460
+and what is the value of u so y minus y hat is technically a
+
+00:56:42.460 --> 00:56:48.740
+u right so this is the final equation so rate of change of
+
+00:56:48.740 --> 00:56:55.320
+rate of change of error with respect to with respect to m is
+
+00:56:55.320 --> 00:57:04.400
+technically minus of 2x y minus y hat divided by n this is
+
+00:57:04.400 --> 00:57:08.740
+my final equation which i will be able to get so this is my
+
+00:57:08.740 --> 00:57:12.980
+rate of change of error with respect to m similarly so what
+
+00:57:12.980 --> 00:57:16.640
+i will do i will try to find out a rate of change of error
+
+00:57:16.640 --> 00:57:21.780
+with respect to c so a rate of change of error with respect
+
+00:57:21.780 --> 00:57:21.780
+to c so i will try to find out a rate of change of error
+
+00:57:21.780 --> 00:57:24.360
+with respect to c equation is going to be same so summation
+
+00:57:24.360 --> 00:57:33.160
+of y minus y hat of square so 1 by n summation y minus mx
+
+00:57:33.160 --> 00:57:40.240
+plus c of square so considering this as a u once again so
+
+00:57:40.240 --> 00:57:45.600
+now here rate of change of error with respect to c is going
+
+00:57:45.600 --> 00:57:52.720
+to be 1 by n summation u of square so again chain rule i am
+
+00:57:52.720 --> 00:57:58.500
+going to consider by du into du by du by dc is equals to 1
+
+00:57:58.500 --> 00:58:06.540
+by n substitute of this one is going to be 2u 2u into du by
+
+00:58:06.540 --> 00:58:13.180
+dc okay so 2u by n du by dc so value of u is basically this
+
+00:58:13.180 --> 00:58:18.740
+one if i am going to find out a derivative with respect to c
+
+00:58:18.740 --> 00:58:23.720
+it is going to be 1 so this entire term is going to be 1 you
+
+00:58:23.720 --> 00:58:29.960
+can find out derivative with respect to c it's 1 so here 2u
+
+00:58:29.960 --> 00:58:39.080
+u means y minus y hat divided by n so now i know dj by du i
+
+00:58:39.080 --> 00:58:49.660
+know basic sorry dj by dc and now i know dj by dm both so
+
+00:58:49.660 --> 00:58:53.160
+now why i am trying to find out this one because of this
+
+00:58:53.160 --> 00:58:57.140
+equation because of this equation because to find out a new
+
+00:58:57.140 --> 00:59:01.340
+value of let me rewrite once again to find out a new value
+
+00:59:01.340 --> 00:59:08.320
+of m m new is nothing but m old minus eta rate of change of
+
+00:59:08.320 --> 00:59:15.260
+error with respect to m okay now c new is nothing but c old
+
+00:59:15.260 --> 00:59:22.420
+minus eta of change of error with respect to c this is what
+
+00:59:22.420 --> 00:59:26.860
+i was supposed to find out now i have this and this one this
+
+00:59:26.860 --> 00:59:29.160
+was the derivative right this was the derivative so now i
+
+00:59:29.160 --> 00:59:33.200
+have this one as well as i have this one so if i am going to
+
+00:59:33.200 --> 00:59:37.040
+substitute this one and this one multiply with eta and the
+
+00:59:37.040 --> 00:59:40.880
+old value i will be able to find out the new value of c let
+
+00:59:40.880 --> 00:59:44.400
+me write it down so dj by dm
+
+00:59:46.960 --> 00:59:53.580
+is what equation wise dj by dm dj by dm minus of 2x y minus
+
+00:59:53.580 --> 01:00:02.940
+y hat by n so minus of 2x y minus y hat by number of data dj
+
+01:00:02.940 --> 01:00:13.660
+by dc is what so minus 2 of y minus y hat by n can i say
+
+01:00:13.660 --> 01:00:17.320
+that at any point of a time i will be having a value of x
+
+01:00:17.320 --> 01:00:22.120
+value of y value of y hat and value of n so i will be able
+
+01:00:22.120 --> 01:00:26.920
+to find out the concrete value of dj by dm so dj by dc can i
+
+01:00:26.920 --> 01:00:29.900
+say that i will be able to find out the exact value yes
+
+01:00:31.340 --> 01:00:35.800
+everyone can i say that i will be able to find out at any
+
+01:00:35.800 --> 01:00:38.680
+point of a time dj by dm and dj by dc right because now i
+
+01:00:38.680 --> 01:00:42.700
+have a things in terms of values right in terms of values so
+
+01:00:42.700 --> 01:00:45.980
+i will be able to find out this one okay this particular
+
+01:00:45.980 --> 01:00:49.460
+term i will be able to find out now what is eta eta is
+
+01:00:49.460 --> 01:00:52.100
+nothing but it's called as learning rate it's basically
+
+01:00:52.100 --> 01:00:57.980
+called as learning rate why it is important let me talk
+
+01:00:57.980 --> 01:01:00.900
+about that eta is in both the places and what is the value
+
+01:01:00.900 --> 01:01:04.400
+range for this one so see you are trying to find out a new
+
+01:01:04.400 --> 01:01:07.940
+value of m because old value was giving you error right old
+
+01:01:07.940 --> 01:01:13.000
+value was giving you error huge error like a small error but
+
+01:01:13.000 --> 01:01:16.740
+it was a error you are trying to make a changes now when you
+
+01:01:16.740 --> 01:01:19.920
+are trying to make a changes maybe this this can be addition
+
+01:01:19.920 --> 01:01:23.320
+and subtraction means because depends upon like a this value
+
+01:01:23.320 --> 01:01:28.020
+and you know the whole calculation so when you are trying to
+
+01:01:28.020 --> 01:01:33.420
+make the changes basically you should always make a balanced
+
+01:01:33.420 --> 01:01:37.780
+change right you should always make a balanced change means
+
+01:01:37.780 --> 01:01:42.760
+your change should not be very high or very low with respect
+
+01:01:42.760 --> 01:01:46.180
+to the error so let's say this term is going to be very very
+
+01:01:46.180 --> 01:01:50.420
+huge it means what forget about eta as of now if this term
+
+01:01:50.420 --> 01:01:54.080
+is very very huge this the rate of change of error with
+
+01:01:54.080 --> 01:01:57.840
+respect to m is very very huge rate of change of c with
+
+01:01:57.840 --> 01:02:00.640
+respect rate of change of error with respect to c is very
+
+01:02:00.640 --> 01:02:06.480
+very huge right means error is changing a lot with respect
+
+01:02:06.480 --> 01:02:09.200
+to c error is changing a lot with respect to m if it is
+
+01:02:09.200 --> 01:02:12.640
+going to be very very huge then can i say that your m new
+
+01:02:12.640 --> 01:02:19.920
+value will be very different from the m old value yes it is
+
+01:02:19.920 --> 01:02:24.880
+going to be very the old value if it is a sharp change right
+
+01:02:24.880 --> 01:02:29.600
+for example uh let me like give you some numeric example so
+
+01:02:29.600 --> 01:02:34.760
+m new so let's say m old is 10 right and then this dj by dm
+
+01:02:34.760 --> 01:02:40.640
+is going to be 50 so now m new is what minus 40 very huge
+
+01:02:40.640 --> 01:02:44.460
+change you have made right are we supposed to make those
+
+01:02:44.460 --> 01:02:46.300
+huge changes yes
+
+01:02:51.230 --> 01:02:55.990
+are we supposed to make those huge or sharp changes bridge
+
+01:02:57.270 --> 01:03:00.070
+is saying no okay everyone will say no so it's just like a
+
+01:03:00.070 --> 01:03:04.010
+human learning right if you will try to learn very fast very
+
+01:03:04.010 --> 01:03:06.470
+fast means so maybe you will start like you know rolling
+
+01:03:06.470 --> 01:03:10.430
+your pages one by one one by one by one and you will think
+
+01:03:10.430 --> 01:03:13.470
+that that i'll finish 10 chapter today not possible you will
+
+01:03:13.470 --> 01:03:16.070
+not be able to learn maybe you will be able to learn couple
+
+01:03:16.070 --> 01:03:19.790
+of words from all the chapters but not all chapters right so
+
+01:03:19.790 --> 01:03:20.850
+if you are learning very fast you will be able to learn a
+
+01:03:20.850 --> 01:03:20.850
+couple of words from all the chapters but not all chapters
+
+01:03:20.850 --> 01:03:24.590
+means you are changing very far adopting very fast if you
+
+01:03:24.590 --> 01:03:28.190
+will adopt very slow then again it will take time maybe
+
+01:03:28.190 --> 01:03:30.970
+instead of six months you will take six year of time right
+
+01:03:30.970 --> 01:03:34.910
+so in both the cases there is a problem so this is where
+
+01:03:34.910 --> 01:03:38.150
+this learning rate comes into picture and it says that that
+
+01:03:38.150 --> 01:03:41.750
+do not make a drastic changes so i'm a parameter i'm a hyper
+
+01:03:41.750 --> 01:03:45.290
+parameter so play with me a little bit and you know uh
+
+01:03:45.290 --> 01:03:48.630
+whatsoever rate of error with respect to m is there rate of
+
+01:03:48.630 --> 01:03:52.030
+error with respect to c is there do not make a instant
+
+01:03:52.030 --> 01:03:54.550
+change try to do one thing so try to like you know make a
+
+01:03:54.550 --> 01:03:57.930
+smaller changes over there so this is where this eta comes
+
+01:03:57.930 --> 01:04:01.750
+into picture which is between 10 to 0.00001 kind of things
+
+01:04:02.310 --> 01:04:06.510
+generally you can start with 0.01 as a value of this eta
+
+01:04:06.510 --> 01:04:09.130
+this is a hyper parameter means you can try to basically
+
+01:04:09.130 --> 01:04:11.370
+change it you can experiment with right it's experimental
+
+01:04:11.370 --> 01:04:14.650
+parameter so this is called as learning rate so it controls
+
+01:04:14.650 --> 01:04:18.550
+the changes it always controls the changes it simply says
+
+01:04:18.550 --> 01:04:22.330
+that that i'm not owing you to make a changes means if your
+
+01:04:22.330 --> 01:04:25.870
+error is here it's not like you will fall here no you will
+
+01:04:25.870 --> 01:04:29.050
+come here change the error still in the error right here
+
+01:04:29.050 --> 01:04:33.550
+then here then here then here then here then here then here
+
+01:04:33.550 --> 01:04:38.330
+then here then here then you will try to come in this
+
+01:04:38.330 --> 01:04:42.270
+particular place right in this particular place which is
+
+01:04:42.270 --> 01:04:46.030
+what a minima point which is a minimum means your error is
+
+01:04:46.030 --> 01:04:48.610
+menu because the whole idea and objective to do this
+
+01:04:48.610 --> 01:04:51.970
+exercise is what minimizer is the error so every time you
+
+01:04:51.970 --> 01:04:54.730
+will try to find out the value new value of m new value of c
+
+01:04:54.730 --> 01:04:57.850
+new value of new value of c again evaluate again find again
+
+01:04:57.850 --> 01:05:01.070
+evaluate again find keep on doing that unless and until we
+
+01:05:01.070 --> 01:05:05.430
+are not able to get the optimal value of m and optimal value
+
+01:05:05.430 --> 01:05:10.130
+of a c right optimal value of m optimal value of a c now
+
+01:05:10.130 --> 01:05:14.790
+this approach by which we are trying to find out a new value
+
+01:05:14.790 --> 01:05:19.450
+of m new value of c it's called as learning yes
+
+01:05:21.760 --> 01:05:24.540
+is this a gradient descent approach exactly i'll take those
+
+01:05:24.540 --> 01:05:28.360
+words i'll take those names right so basically you are
+
+01:05:28.360 --> 01:05:31.380
+trying to find out a gradient can i say this is a gradient
+
+01:05:35.040 --> 01:05:37.200
+you would you have done what you're trying to find a
+
+01:05:37.200 --> 01:05:40.980
+derivative right technically you have done what you
+
+01:05:42.740 --> 01:05:45.860
+are trying to find out a gradient what is the meaning of
+
+01:05:45.860 --> 01:05:51.080
+gradient differentiation what's the difference what's the
+
+01:05:51.080 --> 01:05:54.360
+difference between derivative and gradients i
+
+01:05:57.050 --> 01:05:59.890
+think in my last class itself last sunday's class right i
+
+01:05:59.890 --> 01:06:02.690
+talked about it what is the difference between derivative
+
+01:06:02.690 --> 01:06:06.790
+and gradients and i told you even chain rule right i i
+
+01:06:06.790 --> 01:06:09.910
+talked about talked about it i told you that in next class
+
+01:06:09.910 --> 01:06:15.070
+itself i'm going to use it plus sunday so psi is saying
+
+01:06:15.070 --> 01:06:17.670
+multiple variable now it is saying multiple direction
+
+01:06:17.670 --> 01:06:21.170
+multiple variable exactly multiple variables right so when
+
+01:06:21.170 --> 01:06:25.430
+one equation depends upon the multiple variables so in that
+
+01:06:25.430 --> 01:06:31.110
+situation it's called as gradient right so here my error
+
+01:06:31.110 --> 01:06:36.650
+depends upon what can i say two things yes
+
+01:06:39.790 --> 01:06:42.670
+two things and what are those two things
+
+01:06:47.130 --> 01:06:52.310
+m and c so what we are doing here we are trying to find out
+
+01:06:52.310 --> 01:06:56.810
+a derivative with respect to m and with respect to c right
+
+01:06:56.810 --> 01:07:02.030
+and then eventually that is helping me out in terms of
+
+01:07:02.030 --> 01:07:06.750
+finding out the new value of m so finding out this new value
+
+01:07:06.750 --> 01:07:13.350
+of m and new value of c is called as technically what can i
+
+01:07:13.350 --> 01:07:16.350
+say it's a machine learning machine is trying to learn the
+
+01:07:16.350 --> 01:07:17.810
+pattern yes
+
+01:07:20.210 --> 01:07:22.650
+so this is called as machine learning even till neural
+
+01:07:22.650 --> 01:07:26.170
+network you will see the same concept same philosophy even
+
+01:07:26.170 --> 01:07:31.030
+in your neural network class yes so over there w and b i
+
+01:07:31.030 --> 01:07:34.070
+mean like equivalent m and c right so we try to find out on
+
+01:07:34.070 --> 01:07:36.570
+every layer layer by layer layer by layer layer by layer we
+
+01:07:36.570 --> 01:07:40.190
+try to find out in a backward propagation yeah in a backward
+
+01:07:40.190 --> 01:07:44.310
+propagation so if you are able to understand this believe me
+
+01:07:44.310 --> 01:07:50.010
+your life will be easy even going forward right machine
+
+01:07:50.010 --> 01:07:53.630
+learning will not be a black box for you it will be kind of
+
+01:07:53.630 --> 01:07:57.270
+a complete open box where every term you will be able to
+
+01:07:57.270 --> 01:08:02.230
+understand derive and even by using pen and pencil you will
+
+01:08:02.230 --> 01:08:05.390
+be able to do a prediction not with the complex data i mean
+
+01:08:05.390 --> 01:08:08.450
+like big one but yeah small data you can do the prediction
+
+01:08:08.450 --> 01:08:11.690
+right because everything is basically very mathematical and
+
+01:08:11.790 --> 01:08:15.770
+a logical one but not tough at all very like a connected one
+
+01:08:15.770 --> 01:08:21.030
+i would say right very very connected one so here in this
+
+01:08:21.030 --> 01:08:23.930
+manner what we are able to do and what we are able to
+
+01:08:23.930 --> 01:08:28.130
+achieve so we are able to achieve a new value of m and c so
+
+01:08:28.130 --> 01:08:31.090
+again we'll find a new value of m and c again we'll try to
+
+01:08:31.090 --> 01:08:35.610
+test it right again we'll like that new will become old so
+
+01:08:35.610 --> 01:08:38.390
+again we'll try to find out the error so every time we'll
+
+01:08:38.390 --> 01:08:40.870
+try to find out the error we try to check what is the
+
+01:08:40.870 --> 01:08:44.130
+difference between y and y hat again error again derivative
+
+01:08:44.130 --> 01:08:48.890
+again error it will keep on going unless and until it is not
+
+01:08:48.890 --> 01:08:53.570
+able to find out the optimal one means the responsibility of
+
+01:08:53.570 --> 01:09:00.210
+this entire loop is to minimize a error a difference between
+
+01:09:00.210 --> 01:09:04.810
+y and the y hat the predicted one and the expected one
+
+01:09:04.810 --> 01:09:09.210
+that's the only objective so it will keep on doing it unless
+
+01:09:09.210 --> 01:09:11.530
+and until we are not going to stop or system will not be
+
+01:09:11.790 --> 01:09:17.550
+able to exhaust the entire options can i say five or ten
+
+01:09:17.550 --> 01:09:20.890
+percent of machine learning we are able to understand five
+
+01:09:20.890 --> 01:09:26.790
+or ten percent especially this equation this linear yes not
+
+01:09:26.790 --> 01:09:28.590
+hundred percent i'm not expecting hundred percent from any
+
+01:09:28.590 --> 01:09:34.070
+one of you at least like uh on day zero of ml yeah but at
+
+01:09:34.070 --> 01:09:37.550
+least we are able to get some sense of it right some pattern
+
+01:09:37.550 --> 01:09:40.750
+like how machine are able to find out the pattern i am just
+
+01:09:40.750 --> 01:09:44.030
+like expecting this much of your understanding nothing more
+
+01:09:44.030 --> 01:09:50.210
+than that by the way yeah okay so if we are able to do this
+
+01:09:50.210 --> 01:09:53.570
+much then i think we are cool we are good right we'll keep
+
+01:09:53.570 --> 01:09:56.570
+on adding a lot of concept because we have just started
+
+01:09:56.570 --> 01:09:57.390
+learning
+
+01:10:00.450 --> 01:10:05.010
+yes uh but quick check how we derived the old value of m is
+
+01:10:05.010 --> 01:10:07.670
+equal to 4 c is equal to minus 4 by solving two equations by
+
+01:10:07.670 --> 01:10:12.090
+taking two data see i have taken these two data right i have
+
+01:10:12.090 --> 01:10:16.250
+taken these two data by using the function of right and left
+
+01:10:16.250 --> 01:10:16.250
+for the first time l takes the new value of m and c there
+
+01:10:16.250 --> 01:10:19.430
+are like again multiple concept inside inside this one so we
+
+01:10:19.430 --> 01:10:22.090
+can start with the random value of m and c we can start with
+
+01:10:22.090 --> 01:10:25.630
+some of the random data from a data itself here for
+
+01:10:25.630 --> 01:10:28.590
+explanation purpose i have taken first two set of the data
+
+01:10:28.590 --> 01:10:31.750
+so that i will be able to find out first value of m and c
+
+01:10:31.750 --> 01:10:36.610
+make sense yeah again there are multiple approaches to start
+
+01:10:36.610 --> 01:10:39.950
+with the m and c so which value of m and c we are supposed
+
+01:10:39.950 --> 01:10:42.070
+to take i have just taken my approach over here
+
+01:10:46.490 --> 01:10:50.110
+this approach works with non-linear relationship also uh yes
+
+01:10:50.110 --> 01:10:56.790
+knowledge linear as well if you are able to establish like
+
+01:10:56.790 --> 01:11:00.170
+some equation maybe some exponential equation or maybe
+
+01:11:00.170 --> 01:11:03.050
+higher order equation basically right quadratic equation
+
+01:11:03.050 --> 01:11:06.250
+something like that higher order equation if you are able to
+
+01:11:06.250 --> 01:11:09.150
+like a so yeah it will work in a similar manner because at
+
+01:11:09.150 --> 01:11:11.730
+the end of the day in every equation there will be input
+
+01:11:11.730 --> 01:11:14.810
+there will be output right and then there will be a
+
+01:11:14.810 --> 01:11:18.690
+parameter at least at so at the end of the day you have to
+
+01:11:18.690 --> 01:11:22.490
+find out those parameters because those parameters are the
+
+01:11:22.490 --> 01:11:27.810
+one which makes equation as a relation so here m and c every
+
+01:11:27.810 --> 01:11:31.270
+time people will give x then people will be able to get y
+
+01:11:31.270 --> 01:11:36.550
+but what defines this entire like a equation is m and c so m
+
+01:11:36.550 --> 01:11:39.330
+and c is basically helping you out to establish the
+
+01:11:39.330 --> 01:11:44.450
+relations between x and y right in every equation even in a
+
+01:11:44.450 --> 01:11:46.230
+non-linear equation you will be able to find out the same
+
+01:11:46.230 --> 01:11:54.150
+thing make sense yeah so that relation the finding those
+
+01:11:54.150 --> 01:11:56.850
+relation is called as machine learning in mathematical term
+
+01:11:56.850 --> 01:12:00.770
+finding my m and c new value of m and c which gives me the
+
+01:12:00.770 --> 01:12:05.850
+minimum error is a learning formula right so technically the
+
+01:12:05.850 --> 01:12:08.810
+algorithm that we have discussed i have not given any name
+
+01:12:08.810 --> 01:12:14.650
+to it right it's called as what yes it's called as what
+
+01:12:17.610 --> 01:12:21.190
+i think some of us know the name yeah linear regression
+
+01:12:21.190 --> 01:12:24.030
+linear regression
+
+01:12:28.090 --> 01:12:32.510
+so this y is equal to mx plus c that we have discussed so
+
+01:12:32.510 --> 01:12:36.030
+this is technically called as linear regression why
+
+01:12:36.030 --> 01:12:40.650
+regression what is the meaning of regression yes
+
+01:12:49.390 --> 01:12:50.710
+regression
+
+01:12:52.470 --> 01:12:54.970
+simply means that see there are like something called as
+
+01:12:54.970 --> 01:12:57.170
+regression there is something called as classification there
+
+01:12:57.170 --> 01:13:00.370
+is something called as clustering so you will be able to see
+
+01:13:00.370 --> 01:13:03.050
+three things right you will be able to see three things so
+
+01:13:03.050 --> 01:13:05.950
+regression simply means that that if you are looking for
+
+01:13:05.950 --> 01:13:09.650
+output as a continuous values right one two three four one
+
+01:13:09.650 --> 01:13:11.770
+point zero two point zero something like that a numerical
+
+01:13:11.770 --> 01:13:14.370
+value if you are looking for as an output a continuous
+
+01:13:14.370 --> 01:13:17.810
+numerical value so it's called as a regression right and
+
+01:13:17.810 --> 01:13:21.710
+many problem falls under this category classifications when
+
+01:13:21.710 --> 01:13:24.150
+time will come i'll talk about it but classification simply
+
+01:13:24.150 --> 01:13:27.850
+means that that abc kind of for you know abc yes no binary
+
+01:13:27.850 --> 01:13:30.190
+binary tersenary something like that called as
+
+01:13:30.190 --> 01:13:34.590
+classification so we'll see those example and algorithms as
+
+01:13:34.590 --> 01:13:36.970
+well and then there is a third category called as clustering
+
+01:13:36.970 --> 01:13:40.270
+clustering is nothing but bundling the things right so
+
+01:13:40.270 --> 01:13:42.910
+bundling are things are keeping things in a particular
+
+01:13:42.910 --> 01:13:44.890
+different different basket so that is called as basically
+
+01:13:44.890 --> 01:13:48.030
+clustering so we'll be talking about all three category of
+
+01:13:48.030 --> 01:13:52.850
+the equations basically yeah so this is basically a linear
+
+01:13:52.850 --> 01:13:57.410
+regression algorithm that we have discussed we'll try to
+
+01:13:57.410 --> 01:14:01.070
+take some data and then we'll try to see some practical
+
+01:14:01.070 --> 01:14:04.930
+example not today maybe tomorrow we'll try to see those
+
+01:14:04.930 --> 01:14:07.690
+things but yeah this equation is called as linear regression
+
+01:14:07.690 --> 01:14:10.750
+inside this there is something called as l1 there is
+
+01:14:10.750 --> 01:14:13.390
+something called as l2 comes into picture inside this one
+
+01:14:13.390 --> 01:14:17.630
+itself there is something called as evaluation so r square
+
+01:14:17.630 --> 01:14:20.470
+adjusted r square comes into picture so i'll be talking
+
+01:14:20.470 --> 01:14:25.930
+about those things in tomorrow's class yes in neural network
+
+01:14:25.930 --> 01:14:28.410
+all kind of a data point go through a gradient descent
+
+01:14:28.410 --> 01:14:31.310
+approach does that mean all kind of a data evaluative with a
+
+01:14:31.310 --> 01:14:33.850
+linear regression algorithm no that statement itself is
+
+01:14:33.850 --> 01:14:36.830
+incorrect so none of the data goes to those point at all
+
+01:14:36.830 --> 01:14:39.690
+right so there is something called as forward propagation in
+
+01:14:39.690 --> 01:14:44.350
+forward propagation data goes and based on the existing w
+
+01:14:44.350 --> 01:14:48.230
+and b weight and bias basically all calculation happens on
+
+01:14:48.230 --> 01:14:55.050
+every layer in backward propagation depends upon the set
+
+01:14:55.050 --> 01:14:58.010
+value of those things in a forward propagation eventually
+
+01:14:58.010 --> 01:15:01.330
+based on the data so it tried to do a changes into a backup
+
+01:15:01.330 --> 01:15:05.810
+propagation not i mean like uh it doesn't like you know make
+
+01:15:05.810 --> 01:15:10.530
+a changes i would say with respect to a kind of i mean like
+
+01:15:10.530 --> 01:15:13.250
+in a gradient descent data point doesn't go directly it's
+
+01:15:13.250 --> 01:15:16.650
+always the cost loss or error based on that it make the
+
+01:15:16.650 --> 01:15:19.750
+changes in backward so data point goes in a forward
+
+01:15:19.750 --> 01:15:24.650
+propagation changes happens in a backward propagation so
+
+01:15:24.650 --> 01:15:26.850
+once that chapter will come we'll be talking about it it's
+
+01:15:26.850 --> 01:15:27.730
+an interesting one by the way so that's the end of this
+
+01:15:27.730 --> 01:15:32.930
+class the way a very logical one yes so fine guys uh thank
+
+01:15:32.930 --> 01:15:35.590
+you so much for today and uh yeah so see you again tomorrow
+
+01:15:35.590 --> 01:15:39.610
+uh so where i will be talking about another part of linear
+
+01:15:39.610 --> 01:15:42.650
+regression so there are so many things to discuss inside
+
+01:15:42.650 --> 01:15:44.750
+this linear regressions i'll be talking about this in my
+
+01:15:44.750 --> 01:15:47.430
+tomorrow's class so hope all of you are able to understand
+
+01:15:47.430 --> 01:15:52.070
+and uh yeah so linear
+
+01:15:55.650 --> 01:15:58.690
+regression part one fine part two i'll be discussing
+
+01:15:58.690 --> 01:16:00.090
+tomorrow okay
+
+01:16:04.440 --> 01:16:06.800
+with that thank you so much take care everyone see you again
+
+01:16:06.800 --> 01:16:08.620
+in my tomorrow's class thank you
+

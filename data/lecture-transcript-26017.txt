@@ -1,0 +1,5111 @@
+WEBVTT
+
+00:06:40.110 --> 00:06:42.710
+Okay, so hi everyone. Good afternoon. I believe I'm audible
+
+00:06:42.710 --> 00:06:46.150
+and visible to all of you guys. So please confirm Aman's
+
+00:06:46.150 --> 00:06:48.550
+good evening. Good evening, everyone. Good evening and good
+
+00:06:48.550 --> 00:06:51.270
+afternoon, by the way, let me switch on my light
+
+00:07:01.310 --> 00:07:02.550
+Okay, everyone. Shall we start?
+
+00:07:09.060 --> 00:07:12.240
+Yeah. Okay. So any any idea what is the topic that we are
+
+00:07:12.240 --> 00:07:16.620
+going to discuss? Good evening. Good evening. Good evening.
+
+00:07:18.550 --> 00:07:19.590
+GitHub. Yes
+
+00:07:23.520 --> 00:07:26.980
+So today's topic is believe me. It's it's very very useful
+
+00:07:26.980 --> 00:07:31.480
+for anyone and everyone Who is going to write a code in a
+
+00:07:31.480 --> 00:07:34.520
+production? Without this you will not be able to write a
+
+00:07:34.520 --> 00:07:37.600
+code. You will not be able to you know Build a feature you
+
+00:07:37.600 --> 00:07:40.100
+will not be able to build a project or whatsoever. You can
+
+00:07:40.100 --> 00:07:42.860
+say So technically you will not be able to do a development
+
+00:07:43.400 --> 00:07:48.140
+If you are missing this particular session And yeah So
+
+00:07:48.140 --> 00:07:51.840
+throughout your life as long as you will be a part of this
+
+00:07:51.840 --> 00:07:55.340
+it industry in terms of development basically Not like
+
+00:07:55.340 --> 00:07:58.600
+everyone in it industry. But yeah in terms of development So
+
+00:07:58.600 --> 00:08:02.200
+So You will end up using this particular session or
+
+00:08:02.200 --> 00:08:04.500
+whatsoever that we are going to discuss in this particular
+
+00:08:04.500 --> 00:08:09.080
+session Throughout your life as long as you are going to do
+
+00:08:09.080 --> 00:08:12.300
+a development. So this is how Important this particular
+
+00:08:12.300 --> 00:08:16.000
+topic is so we'll try to understand each and every command
+
+00:08:16.000 --> 00:08:18.840
+We'll try to understand each and everything with respect to
+
+00:08:18.840 --> 00:08:23.380
+git and github Yeah, so today I enroll in work and learn
+
+00:08:23.380 --> 00:08:27.040
+also. That's amazing So welcome to like a super 30 that is
+
+00:08:27.040 --> 00:08:30.300
+going to start from 10th uh I believe we'll meet again and
+
+00:08:30.300 --> 00:08:34.380
+again over there. So a lot of like a you know A conversation
+
+00:08:34.380 --> 00:08:38.340
+is going to happen between me you and my team every one of
+
+00:08:38.340 --> 00:08:42.640
+us A lot for next six months starting from 10th. Yeah Okay,
+
+00:08:42.900 --> 00:08:48.580
+so let me share my screen everyone and let's start basically
+
+00:08:49.460 --> 00:08:52.520
+So I believe my screen is visible to all of you. Let me open
+
+00:08:52.520 --> 00:08:58.300
+up my uh vs code So vs code fine So I believe vs code is
+
+00:08:58.300 --> 00:08:58.440
+visible to all of you. Let me open up my uh vs code is
+
+00:08:58.440 --> 00:09:02.800
+already installed in everyone's system uh so let me just
+
+00:09:02.800 --> 00:09:07.600
+open it up yeah and then apart from that so we need a
+
+00:09:07.600 --> 00:09:11.640
+browser so just try to open up google and try to search for
+
+00:09:11.640 --> 00:09:15.580
+git download so git download for windows git download for
+
+00:09:15.580 --> 00:09:19.560
+mac git download for the linux anything so git is already
+
+00:09:19.560 --> 00:09:23.620
+available for like all three kind of machines so here this
+
+00:09:23.620 --> 00:09:26.940
+is a very first link which i am going to give you now uh so
+
+00:09:26.940 --> 00:09:29.800
+let me give you this link inside a chat box so that all of
+
+00:09:29.800 --> 00:09:32.720
+you will be able to access it yeah so here is a link guys in
+
+00:09:32.720 --> 00:09:35.860
+a chat box so please try to open up this particular link and
+
+00:09:35.860 --> 00:09:39.880
+here so inside this particular link you will be able to see
+
+00:09:39.880 --> 00:09:43.480
+a windows uh you will be able to see a mac os you will be
+
+00:09:43.480 --> 00:09:47.060
+able to see a linux you will be able to see a raw build so
+
+00:09:47.060 --> 00:09:49.660
+mostly we have been using like a windows mac or linux so
+
+00:09:49.660 --> 00:09:52.440
+whatsoever machine that you have you can try to basically
+
+00:09:52.440 --> 00:09:56.860
+download a git so for example i'm using uh like a windows
+
+00:09:56.860 --> 00:09:59.560
+machine so i'll be downloading this if you're using mac then
+
+00:09:59.560 --> 00:10:02.540
+you can download this one or maybe go with the command and
+
+00:10:02.540 --> 00:10:04.880
+then try to install it if you are using linux so again just
+
+00:10:04.880 --> 00:10:08.320
+try to follow the exact same thing so click download it's a
+
+00:10:08.320 --> 00:10:13.040
+very very small file by the way uh like a 62 mbo file in no
+
+00:10:13.040 --> 00:10:16.020
+time you will be able to download this particular file and
+
+00:10:16.020 --> 00:10:19.780
+then click click click and execute so basically like a click
+
+00:10:19.780 --> 00:10:20.800
+and then execute
+
+00:10:24.660 --> 00:10:28.620
+automatically so this is how easy in terms of doing a git
+
+00:10:28.620 --> 00:10:32.820
+installation now any idea guys so what is the difference
+
+00:10:32.820 --> 00:10:36.920
+between git and github yeah because i have seen that like
+
+00:10:36.920 --> 00:10:40.480
+you know many people gets confused between a git and github
+
+00:10:40.480 --> 00:10:43.340
+so any idea what is the difference between git and github
+
+00:10:43.340 --> 00:10:48.740
+anyone in a chat please git
+
+00:10:50.790 --> 00:10:53.250
+for worsening okay rahul
+
+00:10:58.180 --> 00:11:00.920
+is saying it is a tool sab is saying git is a local and
+
+00:11:00.920 --> 00:11:01.620
+github is a local tool and github is a local tool and github
+
+00:11:01.620 --> 00:11:05.400
+is a local tool are centralized in internet okay git is open
+
+00:11:05.400 --> 00:11:08.480
+source git is a software github is a tool okay fine
+
+00:11:11.070 --> 00:11:13.390
+git
+
+00:11:15.150 --> 00:11:17.470
+is a version control system while github is a software
+
+00:11:17.470 --> 00:11:21.770
+github is a platform to facilitate git okay github is a
+
+00:11:21.770 --> 00:11:24.470
+marketplace git makes connection between github your local
+
+00:11:24.470 --> 00:11:28.170
+system okay fine so many people is having a different you
+
+00:11:28.170 --> 00:11:33.630
+know version definition in their own way in their own words
+
+00:11:33.630 --> 00:11:37.870
+and i believe most of us are correct so you know most of us
+
+00:11:37.870 --> 00:11:41.330
+are basically correct so basically see uh let me let me tell
+
+00:11:41.330 --> 00:11:44.350
+you what is git and what is github by the way so git is
+
+00:11:44.350 --> 00:11:49.570
+basically a kind of a library or a software or you can say
+
+00:11:49.570 --> 00:11:52.290
+open source software open source means you can try to use it
+
+00:11:52.290 --> 00:11:55.950
+without you know paying uh even a single rupees basically
+
+00:11:55.950 --> 00:11:59.450
+you can try to use it under their licensing and on top of
+
+00:11:59.450 --> 00:12:01.730
+that so you would like to build anything with respect to a
+
+00:12:01.730 --> 00:12:02.650
+git you will be able to use it so you can try to use it
+
+00:12:02.650 --> 00:12:05.570
+under their licensing to build it so what is a major like
+
+00:12:05.570 --> 00:12:09.070
+you know idea behind a git so we keep on writing a lot of
+
+00:12:09.070 --> 00:12:12.490
+code right so far we have been writing a lot of code let's
+
+00:12:12.490 --> 00:12:15.950
+say uh going forward so we will start building a project now
+
+00:12:15.950 --> 00:12:19.310
+inside a project so obviously i'm not going to write all set
+
+00:12:19.310 --> 00:12:22.890
+of the code in a single day so i'll take my own time maybe a
+
+00:12:22.890 --> 00:12:26.110
+week of time two week of time and previously so like there
+
+00:12:26.110 --> 00:12:29.030
+are so many software that we have built so where we do a
+
+00:12:29.030 --> 00:12:32.210
+development years on years right as per the business needs
+
+00:12:32.210 --> 00:12:32.630
+so we keep on writing a lot of code and we keep on writing a
+
+00:12:32.630 --> 00:12:34.450
+lot of code and we keep on doing a development now when it
+
+00:12:34.450 --> 00:12:37.710
+comes to a development so there is a possibility that i'm
+
+00:12:37.710 --> 00:12:40.630
+doing a development in a particular project in a particular
+
+00:12:40.630 --> 00:12:45.130
+feature and maybe other people who is a part of my team so
+
+00:12:45.130 --> 00:12:47.810
+they are also doing some sort of a development some sort of
+
+00:12:47.810 --> 00:12:50.610
+a feature this is how entire it industry works right so for
+
+00:12:50.610 --> 00:12:53.610
+a particular project there will be a team and the team will
+
+00:12:53.610 --> 00:12:57.330
+end up developing you know like uh things basically based on
+
+00:12:57.330 --> 00:13:00.870
+the assigned task and this is where this git comes into
+
+00:13:00.870 --> 00:13:02.610
+picture so git is a project that you can do a lot of work on
+
+00:13:02.630 --> 00:13:05.030
+and that project is basically a library so which helps you
+
+00:13:05.030 --> 00:13:09.710
+out in terms of doing a version control so what is the
+
+00:13:09.710 --> 00:13:12.110
+meaning of version control by the way so let's say today i
+
+00:13:12.110 --> 00:13:15.650
+have written one line of a code right now version number one
+
+00:13:15.650 --> 00:13:19.110
+let's say now tomorrow so someone else is going to come or
+
+00:13:19.110 --> 00:13:22.670
+me myself is going to write another line of a code so again
+
+00:13:22.670 --> 00:13:26.450
+i have to basically merge that particular code with the
+
+00:13:26.450 --> 00:13:30.950
+previous version of the code right so i have to control all
+
+00:13:30.950 --> 00:13:33.710
+of those versions there is is a possibility that I have made
+
+00:13:33.710 --> 00:13:36.830
+some sort of a changes in one line and even my teammates
+
+00:13:36.830 --> 00:13:40.250
+have made a changes in the same line or maybe in a same file
+
+00:13:40.250 --> 00:13:43.710
+or maybe in a different file. So again I have to collaborate
+
+00:13:43.710 --> 00:13:46.430
+each and everything I have to merge and at the end of the
+
+00:13:46.430 --> 00:13:51.210
+day I should maintain a final main repository. So which I am
+
+00:13:51.210 --> 00:13:54.170
+going to use it as a final product which I will be deploying
+
+00:13:54.170 --> 00:13:58.850
+across all the platform. So this is where this git comes
+
+00:13:58.850 --> 00:14:02.370
+into picture. So basically it's a version control tool. So
+
+00:14:02.370 --> 00:14:06.510
+as you can see over here fast version control that's it a
+
+00:14:06.510 --> 00:14:09.050
+file management we can say a layer by layer file management
+
+00:14:09.050 --> 00:14:11.510
+or version control will be able to do it with the help of
+
+00:14:11.510 --> 00:14:15.590
+git. Now when it comes to github right so I believe all of
+
+00:14:15.590 --> 00:14:18.870
+you must be having an account a github account if you don't
+
+00:14:18.870 --> 00:14:21.650
+have a github account I am sending you a link so please try
+
+00:14:21.650 --> 00:14:25.090
+to create a github account quickly. So again it's free
+
+00:14:25.090 --> 00:14:29.210
+basically you can try to create it not like all the features
+
+00:14:29.210 --> 00:14:31.370
+are not free. So obviously you have to like make a payment
+
+00:14:31.370 --> 00:14:35.330
+if you are going into some extensive development and if you
+
+00:14:35.330 --> 00:14:38.450
+have to manage the organization and the team. But here is a
+
+00:14:38.450 --> 00:14:41.930
+github like you know a link which I have mentioned. So
+
+00:14:41.930 --> 00:14:45.870
+github is basically a platform that people have created so
+
+00:14:45.870 --> 00:14:51.490
+where you will be able to manage or maintain basically your
+
+00:14:51.490 --> 00:14:56.150
+code your same version over the internet. And now from this
+
+00:14:56.150 --> 00:14:59.530
+github you will be able to connect all the data. All the
+
+00:14:59.530 --> 00:15:02.050
+different different kind of a cloud platform all the
+
+00:15:02.050 --> 00:15:04.550
+different different kind of our tools which exist in this
+
+00:15:04.550 --> 00:15:08.630
+entire universe and then you will be able to maintain manage
+
+00:15:08.630 --> 00:15:12.330
+deploy each and everything may be in a autonomous mode and
+
+00:15:12.330 --> 00:15:15.710
+if something goes wrong you will be able to fall back to the
+
+00:15:15.710 --> 00:15:20.230
+previous version as well. So github is basically a tool
+
+00:15:20.230 --> 00:15:23.750
+which has been designed which has been developed on top of
+
+00:15:23.750 --> 00:15:27.590
+the same philosophy a git philosophy right. So git is an
+
+00:15:27.590 --> 00:15:30.030
+open source tool. And again github is basically an
+
+00:15:30.030 --> 00:15:33.470
+application which is given to us which we all are going to
+
+00:15:33.470 --> 00:15:36.510
+consume with the help of that over the internet. I will be
+
+00:15:36.510 --> 00:15:38.950
+able to maintain manage each and everything and I will be
+
+00:15:38.950 --> 00:15:41.650
+able to connect with all the n number of cloud platform and
+
+00:15:41.650 --> 00:15:44.970
+other CI CD kind of tools as well which we are going to use
+
+00:15:44.970 --> 00:15:48.090
+it extensively like I said. So any idea what is the
+
+00:15:48.090 --> 00:15:54.680
+alternative of github by the way. Yes any idea what is the
+
+00:15:54.680 --> 00:15:57.280
+alternative of github. So Avanesh is saying that while
+
+00:15:57.280 --> 00:16:00.800
+installing asking for a default editor. Is it used by git
+
+00:16:00.800 --> 00:16:03.540
+should I choose vim yeah you can choose vim that's
+
+00:16:03.540 --> 00:16:06.560
+completely okay. So there is something called as gitlab
+
+00:16:06.560 --> 00:16:08.920
+there is something called as bitbucket which is an
+
+00:16:08.920 --> 00:16:12.060
+alternative. So basically gitlab is a different company
+
+00:16:12.060 --> 00:16:15.140
+bitbucket is a different company github is a different
+
+00:16:15.140 --> 00:16:17.920
+company. So what they do they try to provide you basically
+
+00:16:17.920 --> 00:16:20.860
+this entire version control for an organization as well as
+
+00:16:20.860 --> 00:16:24.360
+for an individual globally right. So that you know you will
+
+00:16:24.360 --> 00:16:26.860
+be able to take their services and with the help of their
+
+00:16:26.860 --> 00:16:29.360
+services you will be able to maintain manage whatsoever you
+
+00:16:29.360 --> 00:16:32.000
+would like to do. It over the internet and then you will be
+
+00:16:32.000 --> 00:16:35.280
+able to build your entire product or software pipeline so
+
+00:16:35.280 --> 00:16:37.800
+that you can sip your feature you will be able to sip your
+
+00:16:37.800 --> 00:16:41.360
+software one by one one by one one by one. So likewise there
+
+00:16:41.360 --> 00:16:43.520
+are a couple of like you know provider which exist in this
+
+00:16:43.520 --> 00:16:48.100
+entire world but github is one of the most popular one the
+
+00:16:48.100 --> 00:16:51.840
+most famous one you all will be able to find out yeah. So
+
+00:16:51.840 --> 00:16:55.240
+majorly we will be using a github in in some of your
+
+00:16:55.240 --> 00:16:58.900
+organization so you might be might be using like you know a
+
+00:16:58.900 --> 00:17:03.260
+bitbucket. Maybe a gitlab or maybe some other tool for doing
+
+00:17:03.260 --> 00:17:05.780
+the same thing depends upon the organization tie up. But
+
+00:17:05.780 --> 00:17:09.220
+github is something which is one of the famous one across a
+
+00:17:09.220 --> 00:17:12.200
+globe not just in India but yeah across the globe and in
+
+00:17:12.200 --> 00:17:15.300
+every project you will be able to find out a same thing. So
+
+00:17:15.300 --> 00:17:18.600
+silva is saying that is there any use if I am only a
+
+00:17:18.600 --> 00:17:22.320
+developer working on a project yes obviously because at the
+
+00:17:22.320 --> 00:17:24.880
+end of the day you have to deploy your project. You have to
+
+00:17:24.880 --> 00:17:28.800
+build a CI CD pipeline so you have to even build a fallback
+
+00:17:28.800 --> 00:17:31.540
+so if something goes wrong so basically it should get back
+
+00:17:31.540 --> 00:17:34.160
+to the previous state after checking all of these things. So
+
+00:17:34.160 --> 00:17:38.700
+yes github is important or bitbucket is important or gitlab
+
+00:17:38.700 --> 00:17:42.360
+is important. Yeah if you have a plan that I'm not going to
+
+00:17:42.360 --> 00:17:45.140
+deploy my project if you have a plan that okay my project
+
+00:17:45.140 --> 00:17:48.680
+will always be available in my local and maybe I will be
+
+00:17:48.680 --> 00:17:51.020
+using some of the info over a cloud platform so where
+
+00:17:51.020 --> 00:17:54.040
+without using git I would like to host it. So I'm not saying
+
+00:17:54.040 --> 00:17:57.060
+that it's not possible it's possible yeah it is actually
+
+00:17:57.060 --> 00:18:01.480
+possible but git github always gives you basically a
+
+00:18:01.480 --> 00:18:05.000
+convenience by which you will be able to maintain and manage
+
+00:18:05.000 --> 00:18:09.880
+things in your own way okay. So just go to a github guys and
+
+00:18:09.880 --> 00:18:13.120
+then try to create your account and if you will go and check
+
+00:18:13.120 --> 00:18:16.480
+our github basically your own github so you will be able to
+
+00:18:16.480 --> 00:18:19.280
+see lot of like a project we have like a open source
+
+00:18:19.280 --> 00:18:22.440
+yesterday we have discussed one more project and we have
+
+00:18:22.440 --> 00:18:25.780
+even open source that's inside the organization. So we have
+
+00:18:25.780 --> 00:18:30.760
+again like. Yeah. Like this AI interview skill set which we
+
+00:18:30.760 --> 00:18:33.220
+have discussed yesterday over a YouTube amazing project
+
+00:18:33.220 --> 00:18:36.680
+right. If you will go through it's like a demo which we have
+
+00:18:36.680 --> 00:18:39.720
+done yesterday 7pm IST itself over a YouTube you will be
+
+00:18:39.720 --> 00:18:42.400
+amazed that the kind of a project that people have built
+
+00:18:42.400 --> 00:18:45.120
+when I say people so basically those people are coming from
+
+00:18:45.120 --> 00:18:49.420
+like your batches basically right those who have built this
+
+00:18:49.420 --> 00:18:52.240
+entire projects likewise so we keep on building a lot of
+
+00:18:52.240 --> 00:18:54.780
+project we keep on doing an open source of lot of projects
+
+00:18:54.780 --> 00:18:58.640
+same thing we have started even again. So today 7pm IST
+
+00:18:58.640 --> 00:19:01.440
+again we have a class so where now we are building 10
+
+00:19:01.440 --> 00:19:05.780
+projects right. So this is what like even even we used to do
+
+00:19:05.780 --> 00:19:08.820
+a lot and even the entire world right entire world used to
+
+00:19:08.820 --> 00:19:12.100
+do a lot so entire world you know they try to build a lot of
+
+00:19:12.100 --> 00:19:15.820
+like open source project and majority of right majority of
+
+00:19:15.820 --> 00:19:18.440
+good project that we are using even in a day-to-day life.
+
+00:19:18.600 --> 00:19:22.840
+For example let's say programming right so Python or maybe a
+
+00:19:22.840 --> 00:19:26.960
+Java maybe a JavaScript. So. So most of these things you
+
+00:19:26.960 --> 00:19:29.880
+will be able to find out as an open source. People have open
+
+00:19:29.880 --> 00:19:32.120
+sourced it. So you will be able to find out their Git
+
+00:19:32.120 --> 00:19:35.800
+repository. And on top of that, if you'd like to build some
+
+00:19:35.800 --> 00:19:38.800
+of your own features, some of your own functionality, or if
+
+00:19:38.800 --> 00:19:41.300
+you would like to even contribute in those projects, you can
+
+00:19:41.300 --> 00:19:44.880
+join those projects as a contributor. So in a world, you
+
+00:19:44.880 --> 00:19:47.500
+will be able to find out a millions of projects, not the
+
+00:19:47.500 --> 00:19:50.340
+thousands, I would say. Millions of projects, which is an
+
+00:19:50.340 --> 00:19:53.100
+open source project. And again, so all of those projects are
+
+00:19:53.100 --> 00:19:56.280
+hosted over a GitHub. GitHub. So this is like, you know, a
+
+00:19:56.280 --> 00:20:00.120
+massive use of a GitHub. I would say everywhere you will be
+
+00:20:00.120 --> 00:20:02.940
+able to find out. This is how beautiful and powerful GitHub
+
+00:20:02.940 --> 00:20:07.740
+is. OK, so first of all, what we will do. So we will try to
+
+00:20:07.740 --> 00:20:10.860
+understand Git first. Yeah. And then we'll try to understand
+
+00:20:10.860 --> 00:20:13.680
+GitHub. Because inside a GitHub, you will be able to find
+
+00:20:13.680 --> 00:20:16.540
+out UI. And with the help of UI, majority of things you will
+
+00:20:16.540 --> 00:20:19.120
+be able to do it. But before that, so we'll try to dig
+
+00:20:19.120 --> 00:20:22.220
+deeper into a Git. And then we'll try to move into a GitHub,
+
+00:20:22.300 --> 00:20:25.780
+which is eventually a platform. Yeah. Makes sense, everyone.
+
+00:20:25.980 --> 00:20:26.580
+Shall we go ahead?
+
+00:20:35.200 --> 00:20:40.460
+So hope idea is clear. Git and GitHub. Yeah. OK, so first of
+
+00:20:40.460 --> 00:20:43.000
+all, we'll practice Git. All those commands inside a local
+
+00:20:43.000 --> 00:20:45.320
+system, inside our VS code, we are going to practice. And
+
+00:20:45.320 --> 00:20:49.260
+then one by one, one by one. So we'll try to, you know, dig
+
+00:20:49.260 --> 00:20:53.780
+deeper into it. Fine. Now. So first of all, I would like to
+
+00:20:53.780 --> 00:20:56.480
+like, you know, teach you some of the commands, basically.
+
+00:20:56.580 --> 00:20:59.640
+So some of the commands that you are supposed to understand,
+
+00:20:59.760 --> 00:21:02.300
+at least understand. Even if you are not going to remember.
+
+00:21:02.300 --> 00:21:04.560
+If that's completely OK, I'm going to give you a complete
+
+00:21:04.560 --> 00:21:07.680
+seat for those command. I have also prepared like a seat.
+
+00:21:07.800 --> 00:21:10.880
+And I believe some of these books are also available over
+
+00:21:10.880 --> 00:21:13.920
+your own platform. If you'll go and check, you will be able
+
+00:21:13.920 --> 00:21:17.660
+to find out and a lot of other sessions as well. So let me
+
+00:21:17.660 --> 00:21:22.820
+open up my VS code and here. So I'll go into my terminal in
+
+00:21:22.820 --> 00:21:26.680
+a VS code. And let's say if I'm going to call Git hyphen
+
+00:21:26.680 --> 00:21:30.880
+hyphen version, S-I-O-N version. So here it is going to tell
+
+00:21:30.880 --> 00:21:33.980
+me that what is our version. Of a Git that I have inside my
+
+00:21:33.980 --> 00:21:37.200
+system, if it is installed, if it is not installed, then it
+
+00:21:37.200 --> 00:21:39.900
+is going to tell you that I'm not able to recognize a Git
+
+00:21:39.900 --> 00:21:42.740
+command. So that's the reason I told you, first of all, go
+
+00:21:42.740 --> 00:21:46.980
+and install this particular Git, then only it will be able
+
+00:21:46.980 --> 00:21:50.760
+to recognize a Git command. Otherwise, it will not be able
+
+00:21:50.760 --> 00:21:53.440
+to recognize a Git command. So those who are facing an issue
+
+00:21:53.440 --> 00:21:56.120
+that Git is not recognized as a command or something like
+
+00:21:56.120 --> 00:21:59.740
+that. So maybe you have to install it first. Yeah. Install
+
+00:21:59.740 --> 00:22:04.840
+it first. OK. Now, once you are going to install a Git, then
+
+00:22:04.840 --> 00:22:08.020
+again, there are a basic configuration that you have to do
+
+00:22:08.020 --> 00:22:12.560
+it for the very, very first time. So here Git config is a
+
+00:22:12.560 --> 00:22:16.300
+command and then you have to write hyphen hyphen GLO BL
+
+00:22:16.300 --> 00:22:23.540
+global and then user user dot name. And then here you can
+
+00:22:23.540 --> 00:22:26.240
+try to give your name. So let's say my name is Anshu Kumar.
+
+00:22:26.420 --> 00:22:30.000
+So I will be giving a username so that my Git will be able
+
+00:22:30.000 --> 00:22:32.600
+to understand my local system will be able to. To understand
+
+00:22:32.600 --> 00:22:35.520
+that. OK, fine. So this is a user who will try to, like, you
+
+00:22:35.520 --> 00:22:39.660
+know, use me basically for doing a version control. And his
+
+00:22:39.660 --> 00:22:42.080
+name is basically Sudhanshu Kumar. This is what it will be
+
+00:22:42.080 --> 00:22:47.280
+able to understand again. So Git config. Git config hyphen
+
+00:22:47.280 --> 00:22:51.060
+hyphen global. So on a system level, I'm trying to say
+
+00:22:51.060 --> 00:22:54.260
+that's the reason I'm writing global and then email ID. So
+
+00:22:54.260 --> 00:22:59.400
+let's say email ID wise. So SUDHANSHU at the rate Euron dot
+
+00:22:59.400 --> 00:23:03.220
+one. So this is the command. And again, this is going to set
+
+00:23:03.220 --> 00:23:06.820
+up email ID basically. So I'm able to set my user name. I'm
+
+00:23:06.820 --> 00:23:09.600
+able to set my email ID. Let me bring you this command.
+
+00:23:10.600 --> 00:23:13.560
+Don't try to copy and paste my name. Otherwise, every time
+
+00:23:13.560 --> 00:23:16.480
+whenever you will do Git operation, your system will pick my
+
+00:23:16.480 --> 00:23:21.860
+name and my email ID. So avoid it. Yeah, avoid it. OK, now
+
+00:23:21.860 --> 00:23:24.240
+here there is another command. So let's say I have already
+
+00:23:24.240 --> 00:23:26.420
+done this configuration. So I have to check those
+
+00:23:26.420 --> 00:23:28.380
+configuration that wouldn't all configurations are
+
+00:23:28.380 --> 00:23:34.020
+available. So Git, CONFIG. C-O-N-F-I-G, Git configuration
+
+00:23:34.020 --> 00:23:39.640
+hyphen hyphen list. And then it is Git config, right? C-O-N
+
+00:23:39.640 --> 00:23:46.920
+-F-I-G, E-O-N. Yeah, so now it is showing me all the Git
+
+00:23:46.920 --> 00:23:51.100
+configuration that I have done so far with respect to
+
+00:23:51.100 --> 00:23:55.060
+including my email ID and my name over here. So there are a
+
+00:23:55.060 --> 00:23:57.300
+lot of like a Git configuration, credential configuration,
+
+00:23:57.480 --> 00:24:00.000
+which I have done for my system. So, yes, it is trying to
+
+00:24:00.000 --> 00:24:03.700
+show me. Each and everything inside my CLI, as you can see.
+
+00:24:03.780 --> 00:24:07.400
+Yeah, OK, so this is about Git configuration.
+
+00:24:42.680 --> 00:24:47.420
+OK, so colon and then exclamation marks, WQ, and that will
+
+00:24:47.420 --> 00:24:50.740
+put you like a back inside your terminal. So now I'm back
+
+00:24:50.740 --> 00:24:54.660
+inside my terminal. Yeah, now, so this is another command.
+
+00:24:54.760 --> 00:24:58.120
+So Git config list that you can try to basically use it. So
+
+00:24:58.120 --> 00:25:02.000
+let me ping you this command as well. Yeah. Yeah. So Git
+
+00:25:02.000 --> 00:25:05.300
+handbook is also available on GitHub. You're on site. So if
+
+00:25:05.300 --> 00:25:08.480
+Imtiaz has already like a ping. So here, if you'll go, you
+
+00:25:08.480 --> 00:25:11.560
+will be able to find out almost all the command, which I'm
+
+00:25:11.560 --> 00:25:14.580
+going to like a discuss or I'm going to teach you. So maybe
+
+00:25:14.580 --> 00:25:18.520
+you can you can try to use this particular one. So this is
+
+00:25:18.520 --> 00:25:20.700
+something that I have created long back. But yeah, so
+
+00:25:20.700 --> 00:25:23.980
+nothing has changed yet with respect to a Git. So you will
+
+00:25:23.980 --> 00:25:26.540
+be able to find this entire handbook. Very, very useful,
+
+00:25:26.660 --> 00:25:30.220
+which Imtiaz has pinged inside the group itself. OK, now
+
+00:25:30.220 --> 00:25:34.040
+moving ahead. Yeah, moving ahead. So here, let's say I'm.
+
+00:25:34.200 --> 00:25:36.980
+Trying to like, you know, create a project. So let me do one
+
+00:25:36.980 --> 00:25:41.220
+thing. So I'll try to open up one folder and let's say I'm
+
+00:25:41.220 --> 00:25:45.840
+going to name it as a Git test folder, fine, Git test
+
+00:25:45.840 --> 00:25:49.600
+folder. Now, inside this folder, there is a possibility that
+
+00:25:49.600 --> 00:25:53.120
+I will try to create a couple of files, let's say. So, for
+
+00:25:53.120 --> 00:25:56.160
+example, I'm going to create app.py file. This is a file
+
+00:25:56.160 --> 00:25:58.920
+that I have created as of now file is completely blank.
+
+00:25:59.060 --> 00:26:01.840
+There is nothing inside this particular file. And as of now.
+
+00:26:01.920 --> 00:26:04.580
+So this file is not a part of my logo. This is a local Git,
+
+00:26:04.740 --> 00:26:10.560
+local, right? So here, if I'm going to do LS or if I'm going
+
+00:26:10.560 --> 00:26:13.720
+to do DIR, so it is showing me that that, yes, there is a
+
+00:26:13.720 --> 00:26:16.940
+file called as app.py file, which is available inside this
+
+00:26:16.940 --> 00:26:20.080
+particular directory. Right. So you can try to do even PWD
+
+00:26:20.080 --> 00:26:22.500
+present working directory. So it is going to show you that
+
+00:26:22.500 --> 00:26:24.860
+this is your present working directory. Now, inside this
+
+00:26:24.860 --> 00:26:27.120
+directory, I have this particular file which is available.
+
+00:26:27.440 --> 00:26:31.040
+Yeah, this is a PWD is a basic Linux command. A DIR is also
+
+00:26:31.040 --> 00:26:37.300
+a basic Linux command. Nothing like a. Big CLS, clean it. So
+
+00:26:37.300 --> 00:26:40.820
+now here, if I have created this particular file and maybe I
+
+00:26:40.820 --> 00:26:43.820
+have a plan to write some sort of a code. Yeah, I have a
+
+00:26:43.820 --> 00:26:45.920
+plan to write some sort of a code inside this particular
+
+00:26:45.920 --> 00:26:50.120
+file. So and then I have to use basically a version control.
+
+00:26:50.420 --> 00:26:53.820
+Right. So I can try to do what I can try to do add. So get
+
+00:26:53.820 --> 00:26:57.160
+add and dot. So dot means whatsoever is available in the
+
+00:26:57.160 --> 00:26:59.620
+particular directory. Right. So wherever I'm writing this
+
+00:26:59.620 --> 00:27:02.300
+command, wherever I'm finding this command, so whatsoever is
+
+00:27:02.300 --> 00:27:05.560
+available inside a particular directory. So just try to make
+
+00:27:05.560 --> 00:27:10.800
+it as a part of get again local. Now, whatsoever I'm doing,
+
+00:27:10.920 --> 00:27:14.000
+everything is happening in my local system, nothing over a
+
+00:27:14.000 --> 00:27:17.340
+GitHub or nowhere. Yeah, so get add. So now what will
+
+00:27:17.340 --> 00:27:22.380
+happen? Not a good repository. OK, so now it is telling me
+
+00:27:22.380 --> 00:27:26.180
+that it's not a good repository. So any idea, guys, what
+
+00:27:26.180 --> 00:27:27.160
+what I'm supposed to do?
+
+00:27:30.220 --> 00:27:34.600
+Yeah. Any idea? So first of all, I'm not able to add the
+
+00:27:34.600 --> 00:27:36.640
+file. So first of all, what I have to do. So first of all,
+
+00:27:36.640 --> 00:27:38.000
+what I have to do. So first of all, for any project that you
+
+00:27:38.000 --> 00:27:40.720
+are going to start, so you have to initialize a GitHub
+
+00:27:40.720 --> 00:27:42.740
+first. Unless and until you're not going to initialize it,
+
+00:27:42.780 --> 00:27:45.940
+it will not allow you to add it. Right. So I N I T is a
+
+00:27:45.940 --> 00:27:48.240
+command again, like every time you are going to use it,
+
+00:27:48.320 --> 00:27:50.980
+whenever you will try to initialize a very, very first
+
+00:27:50.980 --> 00:27:55.540
+project. So get I N I T. So get in it basically. And this is
+
+00:27:55.540 --> 00:28:00.280
+going to initialize your basically GitHub repository. So
+
+00:28:00.280 --> 00:28:05.740
+initialize a empty repository in D drive dot get. So here.
+
+00:28:05.740 --> 00:28:09.320
+So here, if you will come, you will be able to find out that
+
+00:28:09.320 --> 00:28:13.620
+it just just click on this like, you know, a GitHub icon. So
+
+00:28:13.620 --> 00:28:16.840
+you will be able to find out that. OK, so it has basically
+
+00:28:16.840 --> 00:28:22.080
+added a particular file. Right. This app dot pi file inside
+
+00:28:22.080 --> 00:28:26.620
+my local version control. Now it will start tracking it if I
+
+00:28:26.620 --> 00:28:29.980
+want. Right. If I want, it can start tracking it as of now.
+
+00:28:30.060 --> 00:28:33.120
+So this file will be untracked, by the way. So how I will be
+
+00:28:33.120 --> 00:28:34.980
+able to track this particular file or whatsoever
+
+00:28:34.980 --> 00:28:37.340
+development? Which I'm going to do going forward. So how I
+
+00:28:37.340 --> 00:28:40.340
+will be able to make sure that that. OK, so my git must be
+
+00:28:40.340 --> 00:28:44.520
+able to understand it. So here. Right. So here what I can do
+
+00:28:44.520 --> 00:28:50.120
+so I can try to now do a git add to git add. So now it will
+
+00:28:50.120 --> 00:28:53.780
+be added. Yeah, it will be added. So now you will be able to
+
+00:28:53.780 --> 00:28:57.360
+see that that from changes this file has moved to a stage
+
+00:28:57.360 --> 00:29:00.500
+changes again in my local. Everything is happening in my
+
+00:29:00.500 --> 00:29:04.340
+local system and here so visually I'm able to see each and
+
+00:29:04.340 --> 00:29:06.960
+everything that my file has. Has moved from a changes to a
+
+00:29:06.960 --> 00:29:10.740
+stage changes so that, you know, now it is ready for a
+
+00:29:10.740 --> 00:29:15.280
+commit or something. So here file I have created and then I
+
+00:29:15.280 --> 00:29:18.640
+have added that. Yeah, I have added that inside a git. Not
+
+00:29:18.640 --> 00:29:22.620
+just that. So let's say. I'll just try to like, you know,
+
+00:29:22.640 --> 00:29:30.810
+copy this. Maybe I can try to do like a D.I.R. So here it is
+
+00:29:30.810 --> 00:29:33.770
+showing me app dot pi file L
+
+00:29:36.720 --> 00:29:41.680
+.A. So it is not a Linux. So it is not going to work.
+
+00:29:41.780 --> 00:29:44.400
+Otherwise it would have shown you a hidden file as well. So
+
+00:29:44.400 --> 00:29:46.000
+I'm just trying to show you some hidden file.
+
+00:29:54.100 --> 00:29:58.020
+So here you will be able to see that that in a location in a
+
+00:29:58.020 --> 00:30:00.720
+particular location. So wherever you are keeping a file that
+
+00:30:00.720 --> 00:30:03.440
+when I do get in it, right, give it in slides. So by
+
+00:30:03.440 --> 00:30:06.720
+default, it tried to create dot git folder, a hidden folder.
+
+00:30:06.800 --> 00:30:09.000
+So whatsoever folder which is going to start with dot. So
+
+00:30:09.000 --> 00:30:11.800
+technically it will be a hidden folder. If you are using Mac
+
+00:30:11.800 --> 00:30:13.840
+machine or if you're using a Linux machine. So in that case
+
+00:30:13.840 --> 00:30:17.340
+you can try to do LSA. So a means it should show you the
+
+00:30:17.340 --> 00:30:20.720
+hidden files. As well, in case of Windows or in case of like
+
+00:30:20.720 --> 00:30:23.160
+a terminal, I will not be able to show you. I can show you
+
+00:30:23.160 --> 00:30:25.260
+that part as well. But yeah, I have to change my terminal
+
+00:30:25.260 --> 00:30:27.600
+instead of PowerShell. So I have to use a Linux compatible
+
+00:30:27.600 --> 00:30:30.840
+terminal inside my Windows machine. Then you will be able to
+
+00:30:30.840 --> 00:30:35.020
+see that now here. If you will get into this dot git folder,
+
+00:30:35.220 --> 00:30:39.420
+you will be able to see so many things over here. Now, these
+
+00:30:39.420 --> 00:30:44.620
+things are basically going to help my project out in terms
+
+00:30:44.620 --> 00:30:49.080
+of, you know, maintaining and managing and doing a version
+
+00:30:49.080 --> 00:30:52.100
+control whatsoever changes, which I'm going to do it. So all
+
+00:30:52.100 --> 00:30:54.920
+of these things you will be able to see it inside this one.
+
+00:30:55.000 --> 00:30:57.180
+So there will be a head, there will be a fetch head, there
+
+00:30:57.180 --> 00:30:59.820
+will be a configuration file. You can try to open up all of
+
+00:30:59.820 --> 00:31:02.460
+these file one by one and maybe you can try to observe. So
+
+00:31:02.460 --> 00:31:04.440
+what is there inside this particular file? So, for example,
+
+00:31:04.440 --> 00:31:07.620
+inside the configuration file. So we have this one. And then
+
+00:31:07.620 --> 00:31:11.020
+if I open up my head file, right
+
+00:31:13.290 --> 00:31:17.990
+click notepad. So yes, head is basically a masters by
+
+00:31:17.990 --> 00:31:20.230
+default. It is trying to create index.
+
+00:31:24.900 --> 00:31:27.340
+So, again, there is some binders which you will be able to
+
+00:31:27.340 --> 00:31:29.900
+find out over here. So likewise, this is the file which you
+
+00:31:29.900 --> 00:31:32.420
+get used to maintain or manage. Or you can say this is a
+
+00:31:32.420 --> 00:31:35.000
+meta information of an entire project is going to maintain
+
+00:31:35.000 --> 00:31:38.380
+and manage and by which it will be able to track the entire
+
+00:31:38.380 --> 00:31:41.940
+things. So whatsoever leave inside a dot git. So this is
+
+00:31:41.940 --> 00:31:46.440
+what happens with respect to a dot git. OK, now. So I have
+
+00:31:46.440 --> 00:31:50.120
+already created a file and I have already done git add. So
+
+00:31:50.120 --> 00:31:52.380
+it simply means that that I have already added this
+
+00:31:52.380 --> 00:31:56.700
+particular file into my tracker, basically. This is what it
+
+00:31:56.700 --> 00:31:59.580
+means in a layman manner, by the way. Now, what I can do, I
+
+00:31:59.580 --> 00:32:02.440
+can even try to fire a command called as git status, git
+
+00:32:02.440 --> 00:32:06.980
+status. Now what it does. So it will always try to tell you
+
+00:32:06.980 --> 00:32:11.220
+that what is the current status of your file worsening. So I
+
+00:32:11.220 --> 00:32:15.300
+have just run the command, which is git add. It simply means
+
+00:32:15.300 --> 00:32:18.760
+that that I have added the file inside my local repository
+
+00:32:18.760 --> 00:32:21.580
+so that I will be able to track it. So this is what it is
+
+00:32:21.580 --> 00:32:23.600
+trying to tell. It is telling me that on branch master,
+
+00:32:23.800 --> 00:32:27.580
+yeah, on branch master, no committee yet. So changes to be
+
+00:32:27.580 --> 00:32:31.140
+committed. This is a new file which I am able to see it
+
+00:32:31.140 --> 00:32:34.660
+basically. So here it is telling me that that, OK, so you
+
+00:32:34.660 --> 00:32:38.440
+can try to, you know, now go for the commit if you want. So
+
+00:32:38.440 --> 00:32:41.420
+there is a file which is available over here. So here I can
+
+00:32:41.420 --> 00:32:45.660
+try to say that that git commit hyphen m is nothing but for
+
+00:32:45.660 --> 00:32:48.100
+message. Right. And then I can try to like a message that
+
+00:32:48.100 --> 00:32:55.120
+this is my blank app. Dot by file. So this commit or this
+
+00:32:55.120 --> 00:32:57.780
+commit message will be visible even to the other people. So
+
+00:32:57.780 --> 00:33:00.280
+let's suppose if I'm trying to build some sort of sort of
+
+00:33:00.280 --> 00:33:03.860
+like, you know, a feature or maybe I'm writing one of the
+
+00:33:03.860 --> 00:33:06.640
+class or maybe one of the function. So whenever I'm trying
+
+00:33:06.640 --> 00:33:10.140
+to check in my function, check in my code, generally it's a
+
+00:33:10.140 --> 00:33:13.480
+good trend or we all are supposed to follow that, that we
+
+00:33:13.480 --> 00:33:16.400
+should mention the comments so that anyone who is going to
+
+00:33:16.400 --> 00:33:19.060
+review my code, they will be able to understand that, OK,
+
+00:33:19.160 --> 00:33:21.420
+what is the changes that you have done so that, you know,
+
+00:33:21.440 --> 00:33:22.960
+that person. So we will just look into that particular
+
+00:33:22.960 --> 00:33:25.580
+changes, although it is possible to do a comparison between
+
+00:33:25.580 --> 00:33:28.160
+a previous version and the next version. But yeah, as a
+
+00:33:28.160 --> 00:33:31.340
+developer. So we always are supposed to mention a commit
+
+00:33:31.340 --> 00:33:35.860
+message and that to a valid and valuable message so that it
+
+00:33:35.860 --> 00:33:39.820
+can help other people, other person. Right. OK. So now I'm
+
+00:33:39.820 --> 00:33:43.640
+going to do this git commit. So when I have done git commit
+
+00:33:43.640 --> 00:33:47.540
+and this one, so one file change, zero insertion, zero
+
+00:33:47.540 --> 00:33:51.620
+deletion, created mode one one hundred six hundred and forty
+
+00:33:51.620 --> 00:33:57.300
+four. App.py file. Now if I'll go and, you know, check this
+
+00:33:57.300 --> 00:34:02.680
+one. So all the file changes has gone. Yeah, all the file
+
+00:34:02.680 --> 00:34:05.300
+changes has technically gone. There is nothing over here.
+
+00:34:05.360 --> 00:34:08.060
+Right. There is technically nothing over here. So everything
+
+00:34:08.060 --> 00:34:11.400
+has gone. So it simply means that that I have made a
+
+00:34:11.400 --> 00:34:14.120
+changes. I have just added it to the staging and then I have
+
+00:34:14.120 --> 00:34:16.580
+committed that. OK, fine. So now this file is technically
+
+00:34:16.580 --> 00:34:20.860
+ready for a push and then I have a next option, which is a
+
+00:34:20.860 --> 00:34:24.600
+publish option. So I can try to publish it. Basically, I can
+
+00:34:24.600 --> 00:34:27.760
+try to publish this entire like file that I have created to
+
+00:34:27.760 --> 00:34:31.380
+a particular branch as simple as that. Again, I can go and
+
+00:34:31.380 --> 00:34:37.220
+fire git status over here. So on branch, nothing to commit
+
+00:34:37.220 --> 00:34:40.320
+working to clean means whatsoever work that you have done,
+
+00:34:40.380 --> 00:34:42.920
+you have already committed those work. So every time
+
+00:34:42.920 --> 00:34:48.140
+whenever you are going to start git init, then git add file
+
+00:34:48.140 --> 00:34:50.840
+name or maybe dot so file name means just commit this
+
+00:34:50.840 --> 00:34:53.000
+particular file. Dot means commit all the file, which is
+
+00:34:53.000 --> 00:34:56.220
+uncommitted one. And then you are going to basically commit
+
+00:34:56.220 --> 00:34:58.860
+with the commit messages. And then you will be able to
+
+00:34:58.860 --> 00:35:03.660
+publish things inside your branch. Now, what is a branch, by
+
+00:35:03.660 --> 00:35:06.180
+the way? Yeah. What is a branch, by the way? And many
+
+00:35:06.180 --> 00:35:08.860
+people, again, especially a newcomer. So they generally get
+
+00:35:08.860 --> 00:35:11.720
+confused that what is the meaning of the branch? So let me
+
+00:35:11.720 --> 00:35:14.920
+explain you in a very, very simple manner. Yeah. So whether
+
+00:35:14.920 --> 00:35:17.640
+you are doing a local development or maybe you are using a
+
+00:35:17.640 --> 00:35:21.060
+bit bucket or maybe a git lab or maybe a GitHub. So there is
+
+00:35:21.060 --> 00:35:23.660
+a concept called as branching. What is the meaning of
+
+00:35:23.660 --> 00:35:26.940
+branching? So branching is nothing but you can consider that
+
+00:35:26.940 --> 00:35:31.140
+as a different, different folder. Yeah. So let's say I'm
+
+00:35:31.140 --> 00:35:33.420
+going to create a different, different, different, different
+
+00:35:33.420 --> 00:35:37.580
+kind of a folder over here. So now let's say that, you know,
+
+00:35:38.580 --> 00:35:42.460
+this particular folder in this particular folder, I will be
+
+00:35:42.460 --> 00:35:45.300
+having a lot of files, a lot of code files and all those
+
+00:35:45.300 --> 00:35:49.580
+assets files I will be having. Now, this is so whatsoever.
+
+00:35:50.060 --> 00:35:53.480
+So if you come over here in this particular folder, I'm
+
+00:35:53.480 --> 00:35:58.600
+supposed to use only this for a deployment, only this for a
+
+00:35:58.600 --> 00:36:02.260
+deployment, final deployment. Right. But there is a
+
+00:36:02.260 --> 00:36:06.040
+possibility that there are three person. So maybe a person
+
+00:36:06.040 --> 00:36:11.320
+one, maybe a person two, maybe a person three. So these
+
+00:36:11.320 --> 00:36:14.360
+three persons are basically working on a different,
+
+00:36:14.400 --> 00:36:18.320
+different feature. So what this person one will do, they
+
+00:36:18.320 --> 00:36:21.600
+will develop their own feature. And then keep it inside a
+
+00:36:21.600 --> 00:36:24.720
+particular folder. Person two, they will develop it and keep
+
+00:36:24.720 --> 00:36:27.040
+it inside their own folder. Person three, they will develop
+
+00:36:27.040 --> 00:36:29.400
+something, some of the application or some of the feature
+
+00:36:29.400 --> 00:36:31.700
+for the same project. And then they will keep it inside
+
+00:36:31.700 --> 00:36:35.400
+their own folder. So technically, we have a folder from
+
+00:36:35.400 --> 00:36:38.760
+person one, folder from person two, folder for person three.
+
+00:36:39.120 --> 00:36:44.220
+So here what I have to do with that, that this is my final
+
+00:36:44.220 --> 00:36:47.160
+folder. This is my final folder. You can say this is my
+
+00:36:47.160 --> 00:36:49.100
+final folder. So which I'm going to use it for the
+
+00:36:49.100 --> 00:36:53.520
+deployment. So obviously, person one is supposed to send
+
+00:36:53.520 --> 00:36:57.040
+their code here. Person two is supposed to send their code
+
+00:36:57.040 --> 00:37:00.740
+here. And person three is also supposed to send their code
+
+00:37:00.740 --> 00:37:04.760
+over here. Right. So all these persons are going to build
+
+00:37:04.760 --> 00:37:08.180
+their own features. Some of you are building maybe a backend
+
+00:37:08.180 --> 00:37:10.740
+or maybe one of the buttons. Some of you are like changing
+
+00:37:10.740 --> 00:37:13.200
+some of the UI things. Some of you are, you know, have
+
+00:37:13.200 --> 00:37:18.240
+written some sort of a DB APIs possible. Right. A lot of
+
+00:37:18.240 --> 00:37:22.340
+like combinations are possible. So all of these things must
+
+00:37:22.340 --> 00:37:26.800
+go inside this particular folder. Then and this folder is
+
+00:37:26.800 --> 00:37:29.000
+connected to the cloud platform. Let's say, yeah, this
+
+00:37:29.000 --> 00:37:31.520
+folder is connected to the cloud platform. So automatically
+
+00:37:31.520 --> 00:37:35.020
+it will send all the code, build it and then finally deploy
+
+00:37:35.020 --> 00:37:38.320
+it so that other like your user will be able to see each and
+
+00:37:38.320 --> 00:37:40.620
+every changes or each and every feature that you have built
+
+00:37:40.620 --> 00:37:43.620
+and they will be able to experience it. Right. So obviously,
+
+00:37:43.760 --> 00:37:46.080
+person one is supposed to send this code in this one. Person
+
+00:37:46.080 --> 00:37:48.320
+two is supposed to send a code in this one. Person three is
+
+00:37:48.320 --> 00:37:50.580
+supposed to send a code in this one. Now, there is a
+
+00:37:50.580 --> 00:37:54.420
+possibility that person one have changed a particular file
+
+00:37:55.030 --> 00:37:59.580
+and person two have changed the same file. Means person one
+
+00:37:59.580 --> 00:38:02.160
+have made some sort of a modification in a particular code
+
+00:38:02.160 --> 00:38:05.720
+base and then person two have also made some sort of, you
+
+00:38:05.720 --> 00:38:08.800
+know, modification in the same code base, not the same code
+
+00:38:08.800 --> 00:38:11.460
+base. I would say same file in the same code base. Right. So
+
+00:38:11.460 --> 00:38:14.760
+they have merged it. They have basically like a post their
+
+00:38:14.760 --> 00:38:19.280
+particular code. So basically one by one, one by one, I
+
+00:38:19.280 --> 00:38:22.920
+should migrate a person one feature or person one
+
+00:38:22.920 --> 00:38:27.420
+development of work to this main one, like a deployment one,
+
+00:38:27.500 --> 00:38:31.700
+then person two and then person three. Now, once this will
+
+00:38:31.700 --> 00:38:35.980
+be having all the, you know, the work that has been done by
+
+00:38:35.980 --> 00:38:38.700
+person one, person two and person three, I can say that
+
+00:38:38.700 --> 00:38:41.000
+that, OK, fine. So let's try to build it finally a clean
+
+00:38:41.000 --> 00:38:44.460
+build and then go for the deployment. Otherwise, person one
+
+00:38:44.460 --> 00:38:47.720
+will try to push their code, do a deployment. Person two
+
+00:38:47.720 --> 00:38:50.360
+will push a code. Do a deployment. Person three will push a
+
+00:38:50.360 --> 00:38:52.820
+code, do a deployment. So even in this order, we can try to
+
+00:38:52.820 --> 00:38:56.300
+move. Depends upon like how we have configured our entire CI
+
+00:38:56.300 --> 00:38:59.180
+CD pipeline, by the way. So, yeah, in this way, development
+
+00:38:59.180 --> 00:39:02.340
+is going to happen. And this is where a concept of branching
+
+00:39:02.340 --> 00:39:06.200
+comes into picture. So let's say I'm going to call it as a
+
+00:39:06.200 --> 00:39:09.820
+main branch. Let's say I'm going to call this one as a main
+
+00:39:09.820 --> 00:39:13.880
+branch. And then this person one have created their own
+
+00:39:13.880 --> 00:39:19.460
+branch. So let's say feature branch FEAT, person one, then
+
+00:39:19.460 --> 00:39:22.780
+this is FEAT. This is just a naming convention, person two,
+
+00:39:22.880 --> 00:39:29.000
+FEAT, feature branch, person three. So all of these persons
+
+00:39:29.000 --> 00:39:32.780
+are going to do a development in their own branch. Yeah,
+
+00:39:32.880 --> 00:39:35.680
+they're not disturbing each and every one. No, not at all.
+
+00:39:35.780 --> 00:39:38.580
+So person one is having their own branch. Person two is
+
+00:39:38.580 --> 00:39:40.800
+having their own branch. Person three is having their own
+
+00:39:40.800 --> 00:39:43.920
+branch. Person one will develop their own feature in their
+
+00:39:43.920 --> 00:39:45.940
+own branch. Means in their own folder. When I say own
+
+00:39:45.940 --> 00:39:49.040
+branch, consider it as a folder, right, because maybe for
+
+00:39:49.040 --> 00:39:53.980
+some of you, this branch word will not be like, you know,
+
+00:39:54.020 --> 00:39:57.760
+very intuitive. So person one is doing their own development
+
+00:39:57.760 --> 00:40:00.400
+and then they are sending it to their own folder. Person two
+
+00:40:00.400 --> 00:40:02.880
+is doing the same. Person three is basically doing the same.
+
+00:40:03.040 --> 00:40:06.280
+So person one building a feature and then this one, this
+
+00:40:06.280 --> 00:40:09.840
+one. Now, this is technically called as feature branch. So
+
+00:40:09.840 --> 00:40:12.640
+once this development will be done, they will try to push it
+
+00:40:12.640 --> 00:40:16.240
+inside a main branch. So feature by person one, feature by
+
+00:40:16.240 --> 00:40:18.760
+person two. Will be pushed inside the main and feature by
+
+00:40:18.760 --> 00:40:21.640
+person three will be pushed inside the main. And this is how
+
+00:40:21.640 --> 00:40:24.860
+technically a development happens basically so that, you
+
+00:40:24.860 --> 00:40:27.860
+know, multiple people can work together in a same project,
+
+00:40:28.040 --> 00:40:30.100
+but with a different, different feature, with a different
+
+00:40:30.100 --> 00:40:34.700
+file and everyone is going to push it. So everyone inside a
+
+00:40:34.700 --> 00:40:37.420
+GitHub. So whenever or inside a git, whenever you are going
+
+00:40:37.420 --> 00:40:41.280
+to work, so everyone is going to or supposed to create their
+
+00:40:41.280 --> 00:40:45.260
+own branch. I have seen that many people, you know, they
+
+00:40:45.260 --> 00:40:48.880
+start doing a development. In the same branch from where
+
+00:40:48.880 --> 00:40:51.900
+they have taken a pull means from where they are, they're
+
+00:40:51.900 --> 00:40:54.140
+like, you know, trying to like take a code code base
+
+00:40:54.140 --> 00:40:58.300
+basically, which is not at all a good approach. Even if you
+
+00:40:58.300 --> 00:41:01.060
+are doing some sort of a minor feature development or maybe
+
+00:41:01.060 --> 00:41:05.640
+if you are going to do some sort of like a bug fixing at the
+
+00:41:05.640 --> 00:41:08.860
+end of the day, you are supposed to basically create your
+
+00:41:08.860 --> 00:41:13.040
+own branch without creating your own branch. You are not
+
+00:41:13.040 --> 00:41:16.640
+supposed to do anything means literally anything. Yeah.
+
+00:41:17.060 --> 00:41:21.020
+Anything. So branching is a concept that all of you are
+
+00:41:21.020 --> 00:41:25.520
+supposed to adopt going forward in every project. Now, by
+
+00:41:25.520 --> 00:41:29.040
+default here, you will be able to see that that is showing
+
+00:41:29.040 --> 00:41:31.980
+me a master branch. Yeah, by default, let's say it's a main
+
+00:41:31.980 --> 00:41:34.640
+branch. So by default, it is showing me a master branch.
+
+00:41:34.780 --> 00:41:37.200
+Now, if you're going to click on this master branch, it is
+
+00:41:37.200 --> 00:41:41.220
+going to give you an option that create a new branch, means
+
+00:41:41.220 --> 00:41:44.380
+your own folder, create a new branch. Right. So create a new
+
+00:41:44.380 --> 00:41:46.560
+branch. Let's suppose I'm going to click on create a new
+
+00:41:47.060 --> 00:41:50.380
+branch from. So then it is going to give me an option that
+
+00:41:50.380 --> 00:41:52.960
+from where you would like to create a new branch. So I will
+
+00:41:52.960 --> 00:41:55.240
+say from master branch, I would like to create a new branch.
+
+00:41:55.420 --> 00:41:58.840
+So whatsoever code is available in the master branch
+
+00:41:58.840 --> 00:42:02.120
+automatically, that will be available to you. And now let's
+
+00:42:02.120 --> 00:42:10.920
+say I'm going to create a FEAT. FEAT, FEAT slash SUDH Dev.
+
+00:42:11.120 --> 00:42:14.480
+Yeah. So this is a new branch which I have created and you
+
+00:42:14.480 --> 00:42:17.700
+will be able to see that that this is a new branch, which is
+
+00:42:17.700 --> 00:42:21.080
+getting created automatically over here. FEAT, SUDH Dev,
+
+00:42:21.080 --> 00:42:24.680
+just follow my cursor. Right. Left hand side, bottom. You
+
+00:42:24.680 --> 00:42:27.400
+will be able to see that that it has created a FEAT. So the
+
+00:42:27.400 --> 00:42:29.620
+Dev branch. So whatsoever name you would like to give,
+
+00:42:29.700 --> 00:42:33.060
+whatsoever naming convention you are going to follow, it is
+
+00:42:33.060 --> 00:42:35.160
+going to follow the same and you will be able to basically
+
+00:42:35.160 --> 00:42:38.640
+create a new branch. Now, whatsoever changes, which I'm
+
+00:42:38.640 --> 00:42:43.500
+going to do, right. So whatsoever changes I'm going to do.
+
+00:42:43.560 --> 00:42:47.140
+So basically that will go inside this particular branch. So
+
+00:42:47.140 --> 00:42:51.120
+this branch is selected. Is it making sense, guys, to all of
+
+00:42:51.120 --> 00:43:01.240
+us? Yes. Yeah, OK, now there are more to it, basically, so
+
+00:43:01.240 --> 00:43:03.660
+I'm able to create this particular branching things from
+
+00:43:03.660 --> 00:43:06.820
+like a UI. I can even do this branching things even from
+
+00:43:06.820 --> 00:43:10.520
+like, you know, a command. So here let's say I'm writing git
+
+00:43:10.520 --> 00:43:13.040
+branch, git
+
+00:43:14.770 --> 00:43:18.050
+branch. So it is going to show me my current branch as well
+
+00:43:18.050 --> 00:43:20.130
+as the other branches. So what is my current branch? Which
+
+00:43:20.130 --> 00:43:23.390
+is in a green. And static. So my current branch is basically
+
+00:43:23.390 --> 00:43:26.850
+FEAT, which I have used, like which I have done and which I
+
+00:43:26.850 --> 00:43:29.290
+have created with the help of UI interface. So it's not
+
+00:43:29.290 --> 00:43:31.770
+mandatory to create it with the help of UI interface. So
+
+00:43:31.770 --> 00:43:34.290
+generally, like, you know, we as a developer, most of the
+
+00:43:34.290 --> 00:43:36.690
+time. So we prefer writing a command. I mean, like we love
+
+00:43:36.690 --> 00:43:39.590
+writing a command, maybe because of some ego issue. You can
+
+00:43:39.590 --> 00:43:44.350
+say, right, we avoid using a UI interface. But yeah, in both
+
+00:43:44.350 --> 00:43:46.810
+the manner, you can do it. I mean, like whether you're using
+
+00:43:46.810 --> 00:43:50.090
+cursor or maybe like a VS code or maybe anti-gravity, just
+
+00:43:50.090 --> 00:43:53.810
+go and use any code editor, you will be able to find out the
+
+00:43:53.810 --> 00:43:56.550
+exact same philosophy because that philosophy is coming from
+
+00:43:56.550 --> 00:43:59.990
+git basically. And git is like same for every one of us.
+
+00:44:00.110 --> 00:44:04.610
+Fine. So Selva is asking me a question that does FEAT branch
+
+00:44:04.610 --> 00:44:09.910
+have a copy of original file? Yes. So basically this is the
+
+00:44:09.910 --> 00:44:17.120
+branch I have created from where? Yes. From where? So I have
+
+00:44:17.120 --> 00:44:19.840
+created this particular branch from a main branch, right?
+
+00:44:19.880 --> 00:44:23.460
+From a master branch. So whatsoever is available in master
+
+00:44:23.460 --> 00:44:26.780
+branch till today, right, till this time. So maybe someone
+
+00:44:26.780 --> 00:44:29.800
+has done someone is going to do a commit in the next second.
+
+00:44:29.960 --> 00:44:32.920
+Now that will not be available. But whatsoever development
+
+00:44:32.920 --> 00:44:36.260
+has been done till the time when I'm trying to take or
+
+00:44:36.260 --> 00:44:39.400
+create this branch, take a pull over here. Yes, everything
+
+00:44:39.400 --> 00:44:43.240
+will be available inside my local system. As simple as that.
+
+00:44:43.480 --> 00:44:47.660
+OK. So here basically I have created a branch, like I said.
+
+00:44:47.740 --> 00:44:49.720
+So I can try to create a branch even with the help of
+
+00:44:49.720 --> 00:44:53.460
+command line. So to create a branch, git brnch branch and
+
+00:44:53.460 --> 00:44:55.600
+then just give a branch name. So let's say I'm giving a
+
+00:44:55.600 --> 00:44:58.380
+branch name sudh new dev.
+
+00:45:00.300 --> 00:45:04.640
+Yeah, so let's say like this one. So here this is a new
+
+00:45:04.640 --> 00:45:07.400
+branch which has been created. Fine. This is the new branch.
+
+00:45:07.540 --> 00:45:11.320
+Now this is just a branch which has been created. So when I
+
+00:45:11.320 --> 00:45:13.760
+have written this command, so this is just a branch which
+
+00:45:13.760 --> 00:45:19.980
+has been created. Now, so basically this particular branch
+
+00:45:20.180 --> 00:45:26.910
+is basically like created. Now, is it going to let's say
+
+00:45:26.910 --> 00:45:30.910
+here you will be able to see sudh new dev master and then if
+
+00:45:30.910 --> 00:45:33.110
+it is sudh dev, so these three branches which has been
+
+00:45:33.110 --> 00:45:35.990
+created over here and as of now, so it is pointing to what
+
+00:45:35.990 --> 00:45:39.050
+it is pointing to fe80 slash sudh dev. This particular
+
+00:45:39.050 --> 00:45:42.690
+branch it is trying to like basically point to now here. So
+
+00:45:42.690 --> 00:45:46.570
+if I have to basically switch a branch, right, if I have to
+
+00:45:46.570 --> 00:45:48.970
+switch a branch, because as of now it is a part of this
+
+00:45:48.970 --> 00:45:52.590
+particular branch, I can again fire a command. Get a branch.
+
+00:45:52.790 --> 00:45:55.330
+So I will be able to see that that there are three branches.
+
+00:45:55.510 --> 00:45:58.430
+This one, this one and this one. What is a selected branch?
+
+00:45:58.830 --> 00:46:02.330
+Selected branch is in green. But I don't want to use this
+
+00:46:02.330 --> 00:46:04.950
+particular branch. I want to use what I want to use the new
+
+00:46:04.950 --> 00:46:07.890
+branch which I have created. So to do that, what you have to
+
+00:46:07.890 --> 00:46:11.050
+do, you have to write a command. Get check out c h e c k o u
+
+00:46:11.050 --> 00:46:15.430
+t check out and then like this new branch name sudh new dev.
+
+00:46:16.070 --> 00:46:18.810
+So now in this manner, it is going to check out this
+
+00:46:18.810 --> 00:46:21.350
+particular branch. And even here, you will be able to see
+
+00:46:21.350 --> 00:46:25.550
+that that it has changed. Yes, it has basically changed. So
+
+00:46:25.550 --> 00:46:29.030
+you can do it with the help of UI interface. Generally, as a
+
+00:46:29.030 --> 00:46:33.430
+beginner, people prefer to use a UI interface and you have
+
+00:46:33.430 --> 00:46:35.930
+that option. Like I said, you don't have to remember any
+
+00:46:35.930 --> 00:46:39.590
+kind of a command. Yes. Conceptually, you have to connect.
+
+00:46:40.450 --> 00:46:44.730
+That whenever I will start a development first, I will try
+
+00:46:44.730 --> 00:46:47.610
+to create my own branch so that I will be doing a
+
+00:46:47.610 --> 00:46:50.150
+development, everything in my own branch, technically in my
+
+00:46:50.150 --> 00:46:53.870
+own folder. Right. So that other person who is doing a
+
+00:46:53.870 --> 00:46:57.510
+development should not get affected. And even if there will
+
+00:46:57.510 --> 00:47:00.850
+be a conflict, let's say I have pushed a code. So I have
+
+00:47:00.850 --> 00:47:03.470
+basically checked in a code and that code is having some
+
+00:47:03.470 --> 00:47:07.470
+sort of a bug. So it will be easy for other person to
+
+00:47:07.470 --> 00:47:10.210
+segregate it, to separate it. So maybe they can try to
+
+00:47:10.210 --> 00:47:12.910
+discard all the changes and they can bring back the system
+
+00:47:12.910 --> 00:47:16.750
+to the original state. Is it making sense, guys, why we are
+
+00:47:16.750 --> 00:47:22.170
+doing a branching over here? Yes. So that is the reason. So
+
+00:47:22.170 --> 00:47:25.210
+every time, whenever you are doing a development, any
+
+00:47:25.210 --> 00:47:28.270
+development, right, even a small, even a single line, even a
+
+00:47:28.270 --> 00:47:31.530
+single printer, if you are going to add somewhere, you have
+
+00:47:31.530 --> 00:47:34.550
+to create, first of all, your own branch in your own branch,
+
+00:47:34.730 --> 00:47:37.890
+you should do it. And, you know, other other people will be
+
+00:47:37.890 --> 00:47:40.550
+able to, again, control it and other people will be able to
+
+00:47:40.550 --> 00:47:42.950
+either revert it or either they will be able to merge it to
+
+00:47:42.950 --> 00:47:48.190
+the main. Yes. OK, fine. So this is basically a checkout.
+
+00:47:48.290 --> 00:47:51.950
+Let me clean my screen. Not too much of this one. Yeah. So
+
+00:47:51.950 --> 00:47:55.310
+again, get the branch if I'm going to fire. So now my
+
+00:47:55.310 --> 00:47:58.050
+current branch is basically what this one. Now this became a
+
+00:47:58.050 --> 00:48:03.130
+green. Yeah, this became basically a green. Now there is a
+
+00:48:03.130 --> 00:48:05.330
+switch command. Also, you can try to basically use a
+
+00:48:05.330 --> 00:48:08.490
+checkout or you can try to use switching. So get SWI TCH.
+
+00:48:08.510 --> 00:48:11.610
+This command is also going to work like a checkout. SWI TCH
+
+00:48:11.610 --> 00:48:14.050
+switch. So let's say I would like to like a switch it to the
+
+00:48:14.050 --> 00:48:18.610
+other branch. FEAT, SUDH, DEV. So, yeah, I mean, like I can
+
+00:48:18.610 --> 00:48:26.500
+do it, get FEAT. Spelling mistake. OK, so now if I'm going
+
+00:48:26.500 --> 00:48:32.720
+to say like get V R A N C H. So now my branch must have
+
+00:48:32.720 --> 00:48:36.000
+changed. V R A N C H. Yeah. So now you can see that that my
+
+00:48:36.000 --> 00:48:38.160
+branch has basically changed. So checkout and switch. So
+
+00:48:38.160 --> 00:48:40.820
+both are going to work in the same manner. Basically, you
+
+00:48:40.820 --> 00:48:44.780
+can try to use any of these like a branch. Right. Depends.
+
+00:48:44.820 --> 00:48:47.340
+Yeah, you can even try to create a branch and switch
+
+00:48:47.340 --> 00:48:50.240
+together, for example. So I would like to create a new
+
+00:48:50.240 --> 00:48:52.840
+branch and immediately I would like to switch. Yeah,
+
+00:48:52.840 --> 00:48:55.840
+immediately I would like to switch. So to do that, there is
+
+00:48:55.840 --> 00:48:58.820
+a command. So get switch or check out anything you can use.
+
+00:48:58.980 --> 00:49:02.660
+SWI TCH switch. Checkout also you can try to use. The only
+
+00:49:02.660 --> 00:49:06.220
+parameter you have to add it over here is C. Yeah, so C. So
+
+00:49:06.220 --> 00:49:09.180
+it will try to check out and switch automatically. So get
+
+00:49:09.180 --> 00:49:16.420
+switch and SUDH test. Now see SUDH test. So just one single
+
+00:49:16.420 --> 00:49:19.020
+command. So it will create a branch and then automatically
+
+00:49:19.020 --> 00:49:22.300
+switch. So this is basically a one single line of a command.
+
+00:49:22.480 --> 00:49:24.980
+Instead of switch, you can try to check out as well and it
+
+00:49:24.980 --> 00:49:28.340
+is going to work in the same manner. Yeah, it is going to
+
+00:49:28.340 --> 00:49:33.700
+work in the same manner now. So let's say I'm going to do
+
+00:49:33.700 --> 00:49:36.620
+some sort of development over here. For example, I will be
+
+00:49:36.620 --> 00:49:43.540
+writing some print over here. My name is SUDH, just a very
+
+00:49:43.540 --> 00:49:45.680
+simple plain print. So basically I have done this
+
+00:49:45.680 --> 00:49:49.800
+development in a app.py file. Yeah. In this app.py file I
+
+00:49:49.800 --> 00:49:53.220
+have done some sort of a development. Fine. Now. Now, so
+
+00:49:53.220 --> 00:49:56.560
+once I have done this development, now you can go to your
+
+00:49:56.560 --> 00:50:00.100
+git icon and you will be able to see that, that it will show
+
+00:50:00.100 --> 00:50:03.480
+you a changes. So there are some changes which has been made
+
+00:50:03.480 --> 00:50:07.660
+and now status is what? Modified. Why? Because I have added
+
+00:50:07.660 --> 00:50:10.540
+some line of code. Even if you are going to like, you know,
+
+00:50:10.540 --> 00:50:13.940
+add a comment or anything, anything, even a single word, it
+
+00:50:13.940 --> 00:50:16.840
+will reflect you. So basically there are some changes which
+
+00:50:16.840 --> 00:50:19.640
+has been basically done. Yeah, which has been basically
+
+00:50:19.640 --> 00:50:22.940
+done. So same thing it is reflecting. If I am going to maybe
+
+00:50:22.940 --> 00:50:28.040
+like remove these changes and then control S, so gone. File
+
+00:50:28.040 --> 00:50:31.680
+is gone, right? Again, if I am going to like control Z, now
+
+00:50:31.680 --> 00:50:35.880
+again, control S, file I will be able to see. Modified file,
+
+00:50:36.020 --> 00:50:38.420
+right? So git is tracking. Git is tracking each and
+
+00:50:38.420 --> 00:50:40.160
+everything in a real time. This is what I am trying to show
+
+00:50:40.160 --> 00:50:46.020
+you. So now I have done a changes. In which branch, guys?
+
+00:50:47.580 --> 00:50:49.660
+Yeah? In which branch I have done changes?
+
+00:50:54.110 --> 00:50:57.910
+Yes? So I think it's visible. So the test, right? So in this
+
+00:50:57.910 --> 00:51:01.590
+branch, means in this folder, I have made a changes. So is
+
+00:51:01.590 --> 00:51:05.110
+it available in a main branch? So now if I am going to
+
+00:51:05.110 --> 00:51:07.790
+switch it to my main branch, right? So let's say if I am
+
+00:51:07.790 --> 00:51:12.530
+going to like, you know, switch basically. So git S-W-I-T-C
+
+00:51:12.530 --> 00:51:20.490
+-H, S-W-I-T-C-H, main, sorry. So master basically. Master,
+
+00:51:20.490 --> 00:51:25.810
+right? So here, switch to a branch master. And it is trying
+
+00:51:25.810 --> 00:51:28.570
+to tell me that there is M, means modified version, which is
+
+00:51:28.570 --> 00:51:31.250
+available. Will I be able to find these changes in a
+
+00:51:31.250 --> 00:51:37.590
+master's branch? No, right? In master's, obviously, this
+
+00:51:37.590 --> 00:51:41.930
+will not be available. So basically, I have made some
+
+00:51:41.930 --> 00:51:46.170
+changes in my own branch. Yeah? My own branch. Let me switch
+
+00:51:46.170 --> 00:51:49.630
+again. Git S-W-I-T-C-H or maybe checkout. So git switch.
+
+00:51:49.750 --> 00:51:53.870
+Switch what? S-U-D-H-T-S-T, test. S-U-D-H, test. Okay. So
+
+00:51:53.870 --> 00:51:54.950
+again, I have switched. So again, I have switched. So again,
+
+00:51:55.050 --> 00:51:59.270
+here you will be able to see the changes. Okay, cool. So
+
+00:51:59.270 --> 00:52:03.930
+now, here, I have to merge. So whatsoever, like, you know,
+
+00:52:03.930 --> 00:52:06.930
+development which I have done. So I have to basically merge
+
+00:52:06.930 --> 00:52:12.190
+this development into a main one. Yeah? Into a main one. So
+
+00:52:12.190 --> 00:52:15.850
+how I will be able to basically, like, you know, merge this
+
+00:52:15.850 --> 00:52:19.030
+development? So to merge this development, I can first of
+
+00:52:19.030 --> 00:52:26.250
+all switch to git switch. Switch what? Master. So now I am
+
+00:52:26.250 --> 00:52:30.290
+into, basically, like, you know, master branch, right?
+
+00:52:30.330 --> 00:52:33.050
+Switch to a master branch. You can even try to call, like, a
+
+00:52:33.050 --> 00:52:37.770
+git branch. So now it is pointing to what? It is pointing to
+
+00:52:37.770 --> 00:52:41.010
+a master branch, right? Now I have to do a merge. So
+
+00:52:41.010 --> 00:52:44.750
+whatsoever, like, things which I have done. So in my, like,
+
+00:52:44.790 --> 00:52:49.070
+SUDH test, I have to merge it. So I can call git merge,
+
+00:52:49.290 --> 00:52:54.330
+there is a command, and then merge what? SUDH test. So
+
+00:52:54.330 --> 00:52:58.890
+whatsoever development which has been done in the SUDH test,
+
+00:52:59.230 --> 00:53:02.730
+now it's a part of what? It's a part of master branch as
+
+00:53:02.730 --> 00:53:06.930
+well. So now if someone is going to take a pull from the
+
+00:53:06.930 --> 00:53:09.250
+master branch, they will be able to see my latest
+
+00:53:09.250 --> 00:53:11.910
+development. So whatsoever development which I have done, I
+
+00:53:11.910 --> 00:53:16.130
+will be able to see it. Now let's say I have to delete a
+
+00:53:16.130 --> 00:53:18.390
+particular branch. Whatsoever feature branch which I have
+
+00:53:18.390 --> 00:53:20.990
+created, I have to delete that particular branch. That is
+
+00:53:20.990 --> 00:53:25.390
+also possible, right? So git brn. ch branch, there is a
+
+00:53:25.390 --> 00:53:31.850
+parameter called as delete d, and then SUDH test, deleted,
+
+00:53:32.190 --> 00:53:36.690
+branch deleted, basically, yeah, branch deleted. Now if I
+
+00:53:36.690 --> 00:53:42.110
+will do git brn ch, git branch, gone. So the test is
+
+00:53:42.110 --> 00:53:47.610
+basically gone, yeah. So this is technically gone. So this
+
+00:53:47.610 --> 00:53:50.550
+is more or less a git command that you all will be able to
+
+00:53:50.550 --> 00:53:53.630
+see, that you all will be able to find out. There are so
+
+00:53:53.630 --> 00:53:56.490
+many other commands as well, but yeah, so this is basically
+
+00:53:56.490 --> 00:53:59.010
+a command to maintain and manage your branches. So create a
+
+00:53:59.010 --> 00:54:02.010
+branch, do some developer development, and then basically
+
+00:54:02.010 --> 00:54:05.890
+merge that branch to the main. Even with the help of UI,
+
+00:54:06.050 --> 00:54:08.430
+that is possible. So I'm not saying that, you know, with the
+
+00:54:08.430 --> 00:54:10.670
+help of UI, it is not possible. So with the help of UI
+
+00:54:10.670 --> 00:54:13.570
+interface also, everything is technically possible. I can do
+
+00:54:13.570 --> 00:54:19.030
+that. Yeah, I can technically do that. So here, right? This
+
+00:54:19.030 --> 00:54:23.170
+is basically a local GitHub that we have. Right? Now let's
+
+00:54:23.170 --> 00:54:28.090
+try to work with, or, you know, let me show you some other
+
+00:54:28.090 --> 00:54:31.610
+command as well. So there is something called as git log,
+
+00:54:31.810 --> 00:54:34.810
+log means, so basically it is going to show you like a log.
+
+00:54:35.110 --> 00:54:40.030
+So it is trying to show me the entire log as you can see. So
+
+00:54:40.030 --> 00:54:42.870
+there is a head, head means main, pointing to a master
+
+00:54:42.870 --> 00:54:46.410
+branch and then there is a sudo dev and then there is a FET,
+
+00:54:46.530 --> 00:54:48.970
+sudo dev, which is already available from this particular
+
+00:54:48.970 --> 00:54:51.170
+head. So basically it's getting derived from this particular
+
+00:54:51.170 --> 00:54:55.470
+head. Let's say we have created, yeah. So this is basically
+
+00:54:55.470 --> 00:55:01.170
+a log. Now let me show you a couple of more commands and
+
+00:55:01.170 --> 00:55:02.830
+then I'll be like moving to the GitHub.
+
+00:55:09.000 --> 00:55:13.360
+Git diff. So yeah, so git diff is nothing but, so it is
+
+00:55:13.360 --> 00:55:17.860
+going to basically show you the changes basically, right?
+
+00:55:18.380 --> 00:55:22.980
+The changes. So diff git and app.py file. So app.py file.
+
+00:55:23.300 --> 00:55:25.880
+And yeah. So this is two of the indexes which has been
+
+00:55:25.880 --> 00:55:29.080
+created and then this is basically a piece of the code which
+
+00:55:29.080 --> 00:55:31.780
+has been like a written no new line at the end of the file.
+
+00:55:31.880 --> 00:55:34.400
+So this is basically a changes which has been done. So this
+
+00:55:34.400 --> 00:55:37.600
+is a difference between the file. It will be able to find
+
+00:55:37.600 --> 00:55:41.000
+out. Yeah. Now git diff
+
+00:55:42.800 --> 00:55:45.180
+staged.
+
+00:55:46.860 --> 00:55:50.380
+So as of now in a staging, so there is no differences which
+
+00:55:50.380 --> 00:55:53.300
+I'm able to find out with respect to a master branch. So
+
+00:55:53.300 --> 00:55:57.320
+okay. My branch is basically a clean. Fine. So now this is
+
+00:55:57.320 --> 00:56:00.400
+just a basic command, right? So once this part is
+
+00:56:00.400 --> 00:56:03.440
+technically done, so now what we can do, so we can try to
+
+00:56:03.440 --> 00:56:08.540
+even go and we can try to create a remote repository, right?
+
+00:56:08.600 --> 00:56:10.660
+This is all about local. So whatsoever we have done,
+
+00:56:10.740 --> 00:56:13.020
+everything was happening inside the local, creating a branch
+
+00:56:13.020 --> 00:56:16.320
+and then like, you know, pushing a code, sending it to the
+
+00:56:16.320 --> 00:56:19.520
+staging, then changes, then committing those changes, all of
+
+00:56:19.520 --> 00:56:26.400
+these things. So here, let's say if I'll go. Okay. And I'll
+
+00:56:26.400 --> 00:56:31.080
+try to create basically a repository. Yeah. So maybe I can
+
+00:56:31.080 --> 00:56:34.580
+try to create a repository. And again, before that, let me
+
+00:56:34.580 --> 00:56:39.140
+teach you something over here. So there are two things you
+
+00:56:39.140 --> 00:56:44.080
+will be able to find out inside a GitHub. So this, this is
+
+00:56:44.080 --> 00:56:46.340
+the option that you are able to see. So basically this is my
+
+00:56:46.340 --> 00:56:48.760
+personal account. Yeah. This is my personal account or
+
+00:56:48.760 --> 00:56:51.440
+individual account you can see. So whatsoever I'm going to
+
+00:56:51.440 --> 00:56:54.120
+check in, it will be visible over here. Okay. So I have
+
+00:56:54.120 --> 00:56:57.340
+total like a 66 repository as you can see over here, right?
+
+00:56:57.440 --> 00:56:59.840
+So whatever I'm going to check in, I will be able to find
+
+00:56:59.840 --> 00:57:03.500
+out here, but when you are going to walk into a team, right?
+
+00:57:03.620 --> 00:57:06.640
+So whenever you are going to walk into a team, so this is
+
+00:57:06.640 --> 00:57:09.740
+not going to work. So you have to basically take a org
+
+00:57:09.740 --> 00:57:12.480
+repository and this is where you will be able to find out
+
+00:57:12.480 --> 00:57:16.700
+organization. So org repository. So I can create maybe a
+
+00:57:16.700 --> 00:57:19.580
+repository or like that folder, which I was talking about
+
+00:57:19.580 --> 00:57:22.700
+here, as well as I can try to create it somewhere else as
+
+00:57:22.700 --> 00:57:26.440
+well. So, okay, let's try to create a repository inside of
+
+00:57:26.440 --> 00:57:30.360
+my org, right? So here I can try to like a, you know, click
+
+00:57:30.360 --> 00:57:35.140
+create and then repository name. So let's say, uh, S U D H
+
+00:57:35.140 --> 00:57:40.440
+test AI generalist. So this is a repository which I'm going
+
+00:57:40.440 --> 00:57:44.120
+to create. I can mention a description if I want, I can keep
+
+00:57:44.120 --> 00:57:46.680
+it public or private. Public means everyone will be able to
+
+00:57:46.680 --> 00:57:49.740
+access it. Private means only a member to whom I'm going to
+
+00:57:49.740 --> 00:57:51.900
+give an access, only they will be able to access it. Apart
+
+00:57:51.900 --> 00:57:55.760
+from that, none of us will be able to access it. Let me keep
+
+00:57:55.760 --> 00:57:58.780
+it public for now. Yeah. Start with template, leave it, add
+
+00:57:58.780 --> 00:58:01.420
+readme files. It is going to add a readme file, a license
+
+00:58:01.420 --> 00:58:04.100
+agreement. If you want, I can try to add so that, you know,
+
+00:58:04.120 --> 00:58:08.460
+I can control my, uh, code sharing and whosoever is going to
+
+00:58:08.460 --> 00:58:11.280
+use a code for what purposes I can try to control it. So
+
+00:58:11.280 --> 00:58:13.060
+basically like, uh, there are different, different kinds of
+
+00:58:13.060 --> 00:58:16.140
+licensing. You will be able to find out by which you will be
+
+00:58:16.140 --> 00:58:18.820
+able to protect your code. Even if it is going to be public,
+
+00:58:18.980 --> 00:58:21.980
+still, you will be able to protect it. Uh. This is called as
+
+00:58:21.980 --> 00:58:25.820
+get ignore. So inside this get ignore, we always try to
+
+00:58:25.820 --> 00:58:30.500
+mention our files, which I don't want to check in inside a
+
+00:58:30.500 --> 00:58:34.220
+global repository means this GitHub. So that file, we are
+
+00:58:34.220 --> 00:58:36.700
+going to mention it. For example, I'm trying to build
+
+00:58:36.700 --> 00:58:39.300
+something, I'm trying to build something locally and I have
+
+00:58:39.300 --> 00:58:41.780
+some of the APIs and it's keys or maybe some passwords,
+
+00:58:41.940 --> 00:58:45.700
+right? So obviously that should not go inside my GitHub. So
+
+00:58:45.700 --> 00:58:47.960
+that is something that we try to mention inside a get
+
+00:58:47.960 --> 00:58:50.160
+ignore. Let's say I'm trying to do some sort of a
+
+00:58:50.160 --> 00:58:52.680
+development. And I. During a development. So I have
+
+00:58:52.680 --> 00:58:55.580
+installed a lot of binaries. Obviously I'm not supposed to
+
+00:58:55.580 --> 00:58:58.740
+send those binaries inside a GitHub. So those kinds of
+
+00:58:58.740 --> 00:59:02.160
+things, I can try to basically mention it inside a get
+
+00:59:02.160 --> 00:59:04.560
+ignore file. And in this way it will be controlled and it
+
+00:59:04.560 --> 00:59:07.480
+will be managed. So going forward, like I said, this is
+
+00:59:07.480 --> 00:59:09.800
+going to be your life by the way. And every time you will
+
+00:59:09.800 --> 00:59:12.840
+end up using all of these things everywhere. So let's go
+
+00:59:12.840 --> 00:59:15.020
+ahead. Let's try to create a repository and everything is
+
+00:59:15.020 --> 00:59:18.600
+very logical by the way. So once you are going to create a
+
+00:59:18.600 --> 00:59:21.420
+repository for the very first time. It is, it is going to,
+
+00:59:21.480 --> 00:59:26.140
+you know, give you all of these, this command. So get in it,
+
+00:59:26.220 --> 00:59:30.480
+initialize it, right? Get add, add the file, commit. So
+
+00:59:30.480 --> 00:59:33.740
+commit that. So branch basically. So you have to basically
+
+00:59:33.740 --> 00:59:36.400
+choose a branch in which branch you are going to push your
+
+00:59:36.400 --> 00:59:40.260
+code. And then this is my going to be a remote branch
+
+00:59:40.260 --> 00:59:45.260
+because GitHub is available over the internet, right? So
+
+00:59:45.260 --> 00:59:49.160
+obviously your system is supposed to push those things over
+
+00:59:49.160 --> 00:59:52.320
+the internet. Okay. So now this is going to be the address.
+
+00:59:52.540 --> 00:59:55.380
+So far, everything was happening inside my local system, but
+
+00:59:55.380 --> 00:59:58.220
+yeah, now if I have to push something inside, uh, over the
+
+00:59:58.220 --> 01:00:01.980
+internet inside a GitHub, so obviously I will be using this
+
+01:00:01.980 --> 01:00:05.380
+remote and then push origin main. Let's do it. Yeah, let's
+
+01:00:05.380 --> 01:00:09.060
+do it. So here, uh, what I will do. So get in it. I have
+
+01:00:09.060 --> 01:00:11.660
+already done that. So not required, but let's say still I'm
+
+01:00:11.660 --> 01:00:15.940
+doing it. Get add. So add a dot. So everything is added. So
+
+01:00:15.940 --> 01:00:18.540
+it is going to show you like, uh, you know, things. Okay.
+
+01:00:18.540 --> 01:00:22.240
+Okay. So new changes. Fine. It has staged it in a main. I
+
+01:00:22.240 --> 01:00:26.580
+have not done that. Okay. Now get add is done. Now commit.
+
+01:00:26.740 --> 01:00:31.240
+So let's say I'm writing my first commit. Yeah. So first
+
+01:00:31.240 --> 01:00:34.000
+commit from the main branch. So commit is done basically.
+
+01:00:35.060 --> 01:00:37.580
+Yeah. Commit is done. Now it's time to publish into the
+
+01:00:37.580 --> 01:00:43.580
+branch, a master branch. So here get a branch main in which
+
+01:00:43.580 --> 01:00:47.080
+I would like to publish. So now this is done. Now next is
+
+01:00:47.080 --> 01:00:49.700
+where? Where? Where I would like to publish my code base. So
+
+01:00:49.700 --> 01:00:52.060
+basically I would like to publish my code base over here.
+
+01:00:52.320 --> 01:00:52.800
+Yeah.
+
+01:00:59.480 --> 01:01:03.540
+In this remote branch. Okay. Now after this, so git push or
+
+01:01:03.540 --> 01:01:06.980
+isn't main or only git push also works. So don't worry.
+
+01:01:09.940 --> 01:01:14.420
+Okay. So it has pushed all of my code whatsoever. I have
+
+01:01:14.420 --> 01:01:16.660
+written whatsoever file that I have created in my local. So
+
+01:01:16.660 --> 01:01:19.860
+whatsoever is available over here. So now that is available
+
+01:01:19.860 --> 01:01:24.040
+where, so if I'm going to refresh it, app dot PI file is
+
+01:01:24.040 --> 01:01:27.220
+available over here. And whatsoever I have written line of a
+
+01:01:27.220 --> 01:01:29.460
+code. So that line is also available in this particular
+
+01:01:29.460 --> 01:01:34.560
+place now here, right? So now this is available and this is
+
+01:01:34.560 --> 01:01:37.460
+available where in a main branch. As of now, what is the
+
+01:01:37.460 --> 01:01:40.600
+total number of branch I have? So total number of branch
+
+01:01:40.600 --> 01:01:44.160
+that I have is basically a main branch, right? This is the
+
+01:01:44.160 --> 01:01:47.240
+basically like a branch that we have over here. So fine. I'm
+
+01:01:47.240 --> 01:01:51.860
+able to push this entire code base inside a main branch. Now
+
+01:01:51.860 --> 01:01:56.020
+it is possible, right? It is possible. It is possible now to
+
+01:01:56.020 --> 01:01:59.820
+take a pull from my branch. So for example, if I'm going to
+
+01:01:59.820 --> 01:02:03.640
+share this one with all of you, yeah, with all of you. So
+
+01:02:03.640 --> 01:02:07.420
+now you will be able to take a pull from my branch. So let
+
+01:02:07.420 --> 01:02:13.660
+me open up a new vs code interface, another one and open
+
+01:02:13.660 --> 01:02:19.820
+folder. Let me create a completely new folder. So test git.
+
+01:02:21.840 --> 01:02:26.600
+Now here I can come. And then I can try to basically open up
+
+01:02:26.600 --> 01:02:29.160
+a terminal, git pull.
+
+01:02:43.590 --> 01:02:46.110
+Let me check or
+
+01:02:48.380 --> 01:02:51.600
+any parent directory, sorry,
+
+01:02:53.920 --> 01:03:01.860
+git clone, my bad guys, yeah, not pull. So clone. So here
+
+01:03:01.860 --> 01:03:04.800
+when I'm doing like a git clone, so you will be able to find
+
+01:03:04.800 --> 01:03:07.900
+out that basically it has taken a pull, uh, basically from
+
+01:03:07.900 --> 01:03:11.900
+this particular branch and so the test AI gen, so whatsoever
+
+01:03:11.900 --> 01:03:14.860
+folder, which I have created. And now this app.py file is
+
+01:03:14.860 --> 01:03:18.220
+available inside my local system, right? In a different,
+
+01:03:18.280 --> 01:03:20.720
+like a vs code basically in a different folder. So now app
+
+01:03:20.720 --> 01:03:23.420
+.py file is available. And again, so it has connected to a
+
+01:03:23.420 --> 01:03:26.120
+main branch. Now if I have to basically do some sort of a
+
+01:03:26.120 --> 01:03:30.000
+development, what I will do, so I will try to clean and then
+
+01:03:30.000 --> 01:03:32.460
+I will try to do what? So I will try to create a new branch.
+
+01:03:32.540 --> 01:03:34.020
+So git switch,
+
+01:03:36.480 --> 01:03:42.100
+hyphen C, so new test, git
+
+01:03:45.500 --> 01:03:46.620
+switch, not a
+
+01:03:49.980 --> 01:03:51.960
+repository. Okay.
+
+01:03:56.470 --> 01:04:00.490
+So here before doing a git switch, it's a new folder. So let
+
+01:04:00.490 --> 01:04:04.790
+me do a git init because it is not able to recognize it. And
+
+01:04:04.790 --> 01:04:08.630
+then let's do a git switch. So switch to the new branch and
+
+01:04:08.630 --> 01:04:13.250
+then if I'll like a click here, so yeah, it is going to
+
+01:04:13.250 --> 01:04:13.810
+showcase.
+
+01:04:25.820 --> 01:04:29.680
+Yeah. So now it is, it has basically changed. No. So
+
+01:04:29.680 --> 01:04:33.260
+basically it's this one. And then from main, uh,
+
+01:04:37.620 --> 01:04:46.080
+create a new branch rom basically. Main and then fe80. Let's
+
+01:04:46.080 --> 01:04:53.340
+say I'm going to write fe80 slash sud test. So fine. It will
+
+01:04:53.340 --> 01:04:58.360
+be switched now. Yeah. So it has basically switched. Even
+
+01:04:58.360 --> 01:05:08.340
+command line should work. So git checkout, hyphen C, sorry,
+
+01:05:21.880 --> 01:05:22.380
+hyphen.
+
+01:05:27.320 --> 01:05:30.200
+It is showing me changed. It's changed over here, but yeah,
+
+01:05:30.280 --> 01:05:32.080
+so here it will reflect.
+
+01:05:35.150 --> 01:05:37.290
+Let me check git branch.
+
+01:06:02.260 --> 01:06:05.380
+Yeah. So I have already done a checkout of this branch. So
+
+01:06:05.380 --> 01:06:11.120
+git to branch. Switch to the new branch fe80 sudh it is
+
+01:06:11.120 --> 01:06:16.540
+showing me. It should have shown the same thing.
+
+01:06:26.900 --> 01:06:33.380
+Fe80. Okay. Again, fe80 sudh. It is trying to show me here.
+
+01:06:34.360 --> 01:06:39.600
+Hmm. Again. Let's say git checkout, c h e c k o u t, git
+
+01:06:39.600 --> 01:06:46.760
+checkout, hyphen b, fe80 sudh one. Yeah. So now it has
+
+01:06:46.760 --> 01:06:49.480
+changed basically. Yeah. So I was like a, into a different
+
+01:06:49.480 --> 01:06:52.060
+git. So yeah, now it is, it is changing. So git checkout
+
+01:06:52.060 --> 01:06:54.800
+hyphen b, and then this is the new branch name, which I have
+
+01:06:54.800 --> 01:06:57.360
+given. So yes, basically it is trying to change each and
+
+01:06:57.360 --> 01:07:00.020
+everything in a real time. As simple as that. So I can do a
+
+01:07:00.020 --> 01:07:02.180
+development and then I can try to push all of those changes
+
+01:07:02.180 --> 01:07:05.760
+into my remote repository. Right. The remote repository.
+
+01:07:06.080 --> 01:07:09.780
+Very, very simple. So now all of you can clone this entire
+
+01:07:09.780 --> 01:07:15.400
+repository. Simple right. Git clone. And then this repo name
+
+01:07:15.400 --> 01:07:18.440
+and you all will be able to clone the exact same thing,
+
+01:07:18.520 --> 01:07:22.660
+which has been done over here. Okay. So now let's talk about
+
+01:07:22.660 --> 01:07:26.400
+one more thing. So we have basically one branch over here,
+
+01:07:26.440 --> 01:07:29.900
+right? We have technically one branch over here and this is
+
+01:07:29.900 --> 01:07:33.440
+basically a main branch. Like I said, main folder, right? So
+
+01:07:33.440 --> 01:07:35.240
+obviously you should not do a development. You should do a
+
+01:07:35.240 --> 01:07:38.440
+development inside this main branch. So the final code
+
+01:07:38.440 --> 01:07:41.560
+should go into this particular main branch at any point of a
+
+01:07:41.560 --> 01:07:45.360
+time. In any point of a time. So final code should go over
+
+01:07:45.360 --> 01:07:49.860
+here now. So let's say, yeah,
+
+01:07:53.710 --> 01:08:02.590
+so this is my main, clean it. So now let's say, uh, so we
+
+01:08:02.590 --> 01:08:04.550
+have cloned a particular project.
+
+01:08:11.080 --> 01:08:16.300
+Okay. Now. So I have to basically, uh, like a take a latest
+
+01:08:16.300 --> 01:08:21.400
+code in this particular system or in this particular folder,
+
+01:08:21.560 --> 01:08:25.620
+for example. So I'll just go inside my GitHub and forcefully
+
+01:08:25.620 --> 01:08:28.420
+I'll try to change something. So I'll go inside app.py file.
+
+01:08:28.700 --> 01:08:32.740
+I'll just try to click on edit and then maybe I will try to
+
+01:08:32.740 --> 01:08:37.280
+write this line five times over here and then I'll click on
+
+01:08:37.280 --> 01:08:40.340
+commit changes directly from here itself. Now. So
+
+01:08:40.340 --> 01:08:42.940
+whatsoever, like a commit, which I have done whatsoever
+
+01:08:42.940 --> 01:08:45.380
+changes, which I have done. So obviously that changes has
+
+01:08:45.380 --> 01:08:48.480
+happened inside a main branch, obviously, right? If I'll go
+
+01:08:48.480 --> 01:08:52.280
+and check this file, so like a code changes has been done.
+
+01:08:52.680 --> 01:08:59.160
+Okay. Now if I'll come to a local system, so here I only
+
+01:08:59.160 --> 01:09:03.140
+have only one line of a code. So whereas, uh, in the other
+
+01:09:03.140 --> 01:09:06.120
+branch, so I have basically now our main branch inside my
+
+01:09:06.120 --> 01:09:10.440
+remote repository. So I have five line of a code. Okay. So
+
+01:09:10.440 --> 01:09:15.840
+how I will be able to take a latest code from that remote
+
+01:09:15.840 --> 01:09:18.720
+repository. Someone has already pushed the code, right? So
+
+01:09:18.720 --> 01:09:21.940
+how I will be able to take a latest pull. So here the
+
+01:09:21.940 --> 01:09:26.920
+command is git pull origin main. So from main, if I would
+
+01:09:26.920 --> 01:09:30.820
+like to take a latest code base. So git pull origin main and
+
+01:09:30.820 --> 01:09:39.190
+origin does not appear to be a git repository, git pull or
+
+01:09:42.390 --> 01:09:49.550
+simple git pull. Okay. So let me change my branch. So git
+
+01:09:49.550 --> 01:09:56.710
+checkout hyphen b main. So fine. I have checked out into a
+
+01:09:56.710 --> 01:10:02.690
+main. So now I'm into a main branch and then git pull, git
+
+01:10:06.020 --> 01:10:09.720
+pull remote and then branch k.
+
+01:10:15.160 --> 01:10:19.840
+So no git is already there. So it is not able to basically
+
+01:10:19.840 --> 01:10:23.200
+track. I have done a lot of like a branch changes in
+
+01:10:23.200 --> 01:10:27.420
+between. Right. Let me show you by creating one fresh
+
+01:10:27.420 --> 01:10:31.800
+repository. It's a very simple one. Take a simple pull open
+
+01:10:31.800 --> 01:10:38.160
+folder, D drive, git new exp.
+
+01:10:44.000 --> 01:10:50.700
+Now here. So I have to take the complete like a pull. So
+
+01:10:50.700 --> 01:10:56.060
+what I will do, I'll just try to copy this and then I'll
+
+01:10:56.060 --> 01:10:57.860
+write git clone.
+
+01:10:59.830 --> 01:11:03.750
+Git clone. This one. So entire repo will come inside my
+
+01:11:03.750 --> 01:11:10.570
+system as you can see. Now once this is done. So yeah, all
+
+01:11:10.570 --> 01:11:13.370
+this file and of a code. Now what I will do, I'll just go
+
+01:11:13.370 --> 01:11:18.630
+here, I'll make some changes in a file. So let's make some
+
+01:11:18.630 --> 01:11:20.590
+sort of a changes, commit
+
+01:11:28.300 --> 01:11:32.580
+changes in the same branch. So now this is my number of line
+
+01:11:32.580 --> 01:11:36.660
+of code which is available to me and here. So still there
+
+01:11:36.660 --> 01:11:39.600
+are only five line of code which is available to me. So what
+
+01:11:39.600 --> 01:11:43.220
+I will do, so I can try to call git and I'm into main by the
+
+01:11:43.220 --> 01:11:47.060
+way. Yeah. So I'm into basically a main branch over here. So
+
+01:11:47.060 --> 01:11:55.420
+git and then pull. It should work. Git pull. Command is
+
+01:11:55.420 --> 01:12:02.040
+same. Git pull origin main. Git init. Fine. Sorry. My bad.
+
+01:12:08.640 --> 01:12:11.300
+Okay. So now it is telling me that please make sure you have
+
+01:12:11.300 --> 01:12:17.000
+a correct access right and the repository exists. So this is
+
+01:12:17.000 --> 01:12:23.460
+a kind of, you know, things it is popping up for me. So I
+
+01:12:23.460 --> 01:12:28.540
+have to basically check whether I have a correct access or
+
+01:12:28.540 --> 01:12:32.400
+not for this particular repo. But
+
+01:12:35.920 --> 01:12:39.480
+I don't think that it should give me this issue because I
+
+01:12:39.480 --> 01:12:42.680
+already have my SSH enabled
+
+01:12:49.880 --> 01:12:52.820
+or git pull from main.
+
+01:12:57.570 --> 01:13:00.650
+Let me check git remote version.
+
+01:13:03.490 --> 01:13:09.290
+So okay. So I have to basically add a remote over here. So
+
+01:13:09.290 --> 01:13:11.950
+as you can see, git remote v I'm trying to do and it is not
+
+01:13:11.950 --> 01:13:15.290
+showing me any remote. Right. So what I can do, so I can try
+
+01:13:15.290 --> 01:13:19.650
+to do my remote first of all. Technically it means that that
+
+01:13:19.650 --> 01:13:23.190
+I have to add this one. That's the reason it was showing me.
+
+01:13:23.270 --> 01:13:29.210
+So here copy this same URL. Okay. In case of error and git
+
+01:13:29.210 --> 01:13:39.590
+add, add what? So git remote remote add origin and then add
+
+01:13:39.590 --> 01:13:43.390
+this remote. Okay now I'll try to cross check remote v.
+
+01:13:43.590 --> 01:13:47.390
+Okay. So yes, now it is available to me. So I have just
+
+01:13:47.390 --> 01:13:49.950
+added the git remote. Now it will not give me any kind of a
+
+01:13:49.950 --> 01:13:51.990
+complaint. So git pull.
+
+01:13:54.570 --> 01:14:01.910
+So now it is taking a pull from my remote. And here branch
+
+01:14:08.440 --> 01:14:14.680
+set fine. So git pull, pull, origin main, now it should
+
+01:14:14.680 --> 01:14:14.980
+work.
+
+01:14:20.820 --> 01:14:23.560
+Branch main fetch head. Let
+
+01:14:32.400 --> 01:14:36.600
+me delete this file. So let me go into the folder first of
+
+01:14:36.600 --> 01:14:39.860
+all. And then git pull.
+
+01:14:43.620 --> 01:14:48.740
+Okay. So now you will see that that it has taken a pull from
+
+01:14:48.740 --> 01:14:51.120
+my latest code base. And whatsoever is available, so it is
+
+01:14:51.120 --> 01:14:54.780
+available in my local system as well. So now it's time for
+
+01:14:54.780 --> 01:14:59.540
+me to basically create a new branch because as of now main
+
+01:14:59.540 --> 01:15:02.600
+branch is selected. Yeah, as you can see over here. So as of
+
+01:15:02.600 --> 01:15:05.400
+now main branch is selected. So now it's time for me to
+
+01:15:05.400 --> 01:15:08.460
+create a new branch and start doing my own development. So
+
+01:15:08.460 --> 01:15:10.780
+for example, I would like to add more piece of the code over
+
+01:15:10.780 --> 01:15:14.800
+here. So to create a new branch and to do a checkout, so I
+
+01:15:14.800 --> 01:15:17.440
+can use a checkout command or switch command. So git
+
+01:15:17.440 --> 01:15:21.680
+checkout. Okay. And then checkout what branch, what branch.
+
+01:15:21.880 --> 01:15:26.700
+So let's say I'm creating fe80 sudh new code, something like
+
+01:15:26.700 --> 01:15:29.540
+that. So now you will be able to see that that it has
+
+01:15:29.540 --> 01:15:32.520
+changed the branch and whatsoever development which I will
+
+01:15:32.520 --> 01:15:37.540
+be doing. So it is not going to affect my main. My main is
+
+01:15:37.540 --> 01:15:40.580
+isolated, right? My main is completely isolated. So it is
+
+01:15:40.580 --> 01:15:46.160
+not going to like, you know, do anything or let's say I'm
+
+01:15:46.160 --> 01:15:48.800
+into this branch, right? I'm into fe80. So the new code
+
+01:15:48.800 --> 01:15:52.360
+branch. And someone has, so while I'm trying to create this
+
+01:15:52.360 --> 01:15:55.180
+branch, someone has basically made some changes. Yeah.
+
+01:15:55.320 --> 01:15:58.420
+Someone has made some changes in this particular file. So
+
+01:15:58.420 --> 01:16:00.820
+someone has, let's say like, you know, deleted this entire
+
+01:16:00.820 --> 01:16:05.040
+things, commit change and commit change. In my local system
+
+01:16:05.040 --> 01:16:09.840
+is still, I have all of these piece of the code. Yeah.
+
+01:16:12.240 --> 01:16:17.520
+Sorry. Where is my VS latest code? Okay. So in my local
+
+01:16:17.520 --> 01:16:19.520
+system is still, I have these main number of lines. Okay.
+
+01:16:19.520 --> 01:16:22.280
+So, whereas in the actual file, which is available at my
+
+01:16:22.280 --> 01:16:24.920
+remote, which is available in my GitHub. So there are only
+
+01:16:24.920 --> 01:16:28.100
+five lines and I have changed my branch as you can see
+
+01:16:28.100 --> 01:16:32.620
+branch has changed. So if I have to take a latest pull, what
+
+01:16:32.620 --> 01:16:36.840
+I can do simple, uh, so get pull and pull from what? Origin,
+
+01:16:36.840 --> 01:16:40.220
+origin, main. So whatsoever is available in a main branch,
+
+01:16:40.380 --> 01:16:45.460
+take a pull. And so I have written as long as spelling O R I
+
+01:16:45.460 --> 01:16:52.100
+G I N origin main. Okay. So yeah, whatsoever, uh, was like a
+
+01:16:52.100 --> 01:16:55.660
+done. So same thing you will be able to see even over here
+
+01:16:55.660 --> 01:16:59.100
+immediately. So it doesn't matter in which branch I am. So
+
+01:16:59.100 --> 01:17:01.040
+let's say my friend or my, like, you know, other developer
+
+01:17:01.040 --> 01:17:04.540
+have done some sort of a development and uh, I would like to
+
+01:17:04.540 --> 01:17:09.040
+like take a latest pull, simple, git and then pull and then
+
+01:17:09.040 --> 01:17:12.160
+origin and then branch name. It could be a main branch. It
+
+01:17:12.160 --> 01:17:15.300
+could be some other branches as well. Depends. Right. So you
+
+01:17:15.300 --> 01:17:17.400
+will be able to take a pull. So whatsoever is available.
+
+01:17:17.620 --> 01:17:20.680
+Okay. From their latest branch, main or any, any other XYZ
+
+01:17:20.680 --> 01:17:23.420
+branch. So all of those code base will be available. A
+
+01:17:23.420 --> 01:17:26.260
+latest code will be available even in your branch as well.
+
+01:17:26.380 --> 01:17:28.560
+And we always does that. So whenever we try to do any kind
+
+01:17:28.560 --> 01:17:32.020
+of a schema changes, right, a Prisma file changes or any of
+
+01:17:32.020 --> 01:17:34.960
+this ORM file changes. So we always try to take a latest
+
+01:17:34.960 --> 01:17:37.980
+pull at the end of the day. Otherwise we don't do a further
+
+01:17:37.980 --> 01:17:40.360
+development otherwise, uh, like, you know, there will be a
+
+01:17:40.360 --> 01:17:43.360
+conflict that we all are going to face. So this is a new
+
+01:17:43.360 --> 01:17:47.060
+branch I have created as you can see over here now. So. So
+
+01:17:47.060 --> 01:17:50.860
+once this like, you know, uh, new branch is like a created,
+
+01:17:50.980 --> 01:17:53.440
+so I can try to do any kind of a development that I want
+
+01:17:53.440 --> 01:17:57.860
+over here. So let's say I would like to like, you know, uh,
+
+01:17:58.980 --> 01:18:07.560
+uh, right over here, print. So I am doing a dev in new my
+
+01:18:07.560 --> 01:18:09.560
+own branch.
+
+01:18:11.820 --> 01:18:13.960
+So let's say I'm doing some sort of a, I have done this
+
+01:18:13.960 --> 01:18:16.380
+development, right? I have made this code changes. Now
+
+01:18:16.380 --> 01:18:19.060
+obviously this code changes is not available. Right.
+
+01:18:19.080 --> 01:18:21.900
+Obviously this code changes is not available where? So this
+
+01:18:21.900 --> 01:18:25.640
+code changes are not available here, right here, it's not
+
+01:18:25.640 --> 01:18:28.000
+available. So basically this is, this is a part of main
+
+01:18:28.000 --> 01:18:32.140
+branch and this branch is technically unknown about my code
+
+01:18:32.140 --> 01:18:38.940
+changes. Now tell me guys, one thing, shall I push a code
+
+01:18:38.940 --> 01:18:40.620
+changes directly to a main branch?
+
+01:18:43.540 --> 01:18:47.600
+Yes. See, I'm my local branch is this one, FEST, let's say
+
+01:18:47.600 --> 01:18:51.380
+Sudhanshu new code. So I have done some changes. Right. And
+
+01:18:51.380 --> 01:18:54.020
+obviously that changes will be captured here. As you can see
+
+01:18:54.020 --> 01:18:56.860
+that this changes is captured over here. So this is a new
+
+01:18:56.860 --> 01:19:00.140
+file changes, which I have done. Now shall I push this
+
+01:19:00.140 --> 01:19:06.810
+changes to a main branch directly? Yes.
+
+01:19:09.380 --> 01:19:13.860
+No. So all of you are saying no. Okay. So basically I have
+
+01:19:13.860 --> 01:19:17.600
+to push all of these changes, right? I have to push all of
+
+01:19:17.600 --> 01:19:20.260
+these changes where? So I have to basically push all of
+
+01:19:20.260 --> 01:19:23.940
+these changes to the my branch. Yeah. Not to the main
+
+01:19:23.940 --> 01:19:26.940
+branch. Always. Right. Not to the main branch. So what are
+
+01:19:26.940 --> 01:19:29.540
+the steps which I'm supposed to follow? So let's say I have
+
+01:19:29.540 --> 01:19:33.040
+to push this changes, right? Not to the main branch, but to
+
+01:19:33.040 --> 01:19:35.260
+my own branch and my own branch is already selected over
+
+01:19:35.260 --> 01:19:37.460
+here. So what I'm supposed to do? What is the next step?
+
+01:19:38.420 --> 01:19:41.700
+Yeah. So yeah, first of all, git add. So basically it is
+
+01:19:41.700 --> 01:19:45.020
+going to add the file, right? Then git commit. So C O double
+
+01:19:45.020 --> 01:19:48.780
+M I T commit, commit hyphen M. So message I'm supposed to
+
+01:19:48.780 --> 01:19:54.240
+pass, this is my own code changes. So fine. Commit is done.
+
+01:19:54.340 --> 01:19:55.680
+Then yeah,
+
+01:19:58.060 --> 01:19:59.660
+then so
+
+01:20:08.810 --> 01:20:11.850
+we have taken pull to take a pull, right? So basically to
+
+01:20:11.850 --> 01:20:14.450
+take, get our latest code from a particular branch, so git
+
+01:20:14.450 --> 01:20:16.990
+pull and then like branch name and obviously it is going to
+
+01:20:16.990 --> 01:20:18.770
+take a pull from that particular branch, a respective
+
+01:20:18.770 --> 01:20:22.330
+branch, right? So now commit is done. Commit is done means
+
+01:20:22.330 --> 01:20:25.950
+it's available inside my staging area, right? So basically
+
+01:20:25.950 --> 01:20:30.470
+changes is basically available over here. Okay. Now what is
+
+01:20:30.470 --> 01:20:32.750
+next? What is next that I'm supposed to do?
+
+01:20:38.460 --> 01:20:40.020
+Yeah. What is, what is the command by the way?
+
+01:21:10.770 --> 01:21:13.750
+Yes. So people are saying that, okay, fine. So git push and
+
+01:21:13.750 --> 01:21:16.210
+then origin, so the new code, F E A T, so the new code,
+
+01:21:16.270 --> 01:21:19.770
+obviously that's a total branch name that I have, right? So
+
+01:21:19.770 --> 01:21:23.390
+that's a total branch, basically that I have. So here git
+
+01:21:23.390 --> 01:21:26.690
+push, let's say I'm writing O R I G I N, origin F E A T, F E
+
+01:21:26.690 --> 01:21:32.390
+S T actually, that's a name, S U D H, new C O D, S U D H,
+
+01:21:32.390 --> 01:21:37.390
+new C O D. Yeah. So now basically like it is showing me
+
+01:21:37.390 --> 01:21:39.850
+simple command, right? Pull and push. That's it. Pull means
+
+01:21:39.850 --> 01:21:42.690
+take a pull from anywhere, right? From whatsoever branch you
+
+01:21:42.690 --> 01:21:46.870
+want. Push means push it. So here git push origin, where you
+
+01:21:46.870 --> 01:21:49.010
+have to push, you have to push it basically over here in
+
+01:21:49.010 --> 01:21:51.170
+this particular branch, you have to basically push it. So if
+
+01:21:51.170 --> 01:21:53.530
+you have a correct permission, right, if you have a correct
+
+01:21:53.530 --> 01:21:56.930
+permission. So now here, this is going to give you also a
+
+01:21:56.930 --> 01:22:00.150
+URL. So where your code is available, even if you will not
+
+01:22:00.150 --> 01:22:02.150
+look into the URL, that's completely fine. You can go and
+
+01:22:02.150 --> 01:22:05.450
+refresh over here. So previously you had a main branch. Now
+
+01:22:05.450 --> 01:22:08.670
+you will be able to see a new branch as well. This is my
+
+01:22:08.670 --> 01:22:12.730
+branch, right? Yeah. So in main branch file, this is the
+
+01:22:12.730 --> 01:22:15.190
+piece of the code which is available. Now if I'll go to my
+
+01:22:15.190 --> 01:22:19.310
+branch, now if I'll go to my branch, right? So you will be
+
+01:22:19.310 --> 01:22:24.710
+able to see my latest code changes as well. Fine. So
+
+01:22:24.710 --> 01:22:27.590
+technically now I have how many branches? I have two
+
+01:22:27.590 --> 01:22:30.250
+branches. One is main and one is the new branch which I have
+
+01:22:30.250 --> 01:22:32.670
+created. So this is what I was trying to show you. That
+
+01:22:32.670 --> 01:22:35.370
+whenever you are going to do a new development, create your
+
+01:22:35.370 --> 01:22:38.830
+own branch always, right? The way I have done that. And then
+
+01:22:38.830 --> 01:22:41.710
+try to push those changes into that particular branch,
+
+01:22:41.790 --> 01:22:47.070
+right? That particular branch. Now in this branch, my code
+
+01:22:47.070 --> 01:22:50.010
+base is available, right? In this branch, basically my code
+
+01:22:50.010 --> 01:22:53.730
+base is available. But in main branch, it is not available,
+
+01:22:53.930 --> 01:22:56.750
+right? In main branch, technically it's not available,
+
+01:22:56.950 --> 01:23:01.810
+right? So here, if I have to merge those changes, right? If
+
+01:23:01.810 --> 01:23:05.430
+I have to basically bring those changes into main branch, so
+
+01:23:05.430 --> 01:23:07.910
+whatsoever changes which has been done, I would like to
+
+01:23:07.910 --> 01:23:10.270
+like, you know, bring it to the main branch, right? Because
+
+01:23:10.270 --> 01:23:12.890
+my main branch will be like, let's say a production branch,
+
+01:23:12.990 --> 01:23:16.250
+a final branch. So what I'm supposed to do, so from here
+
+01:23:16.250 --> 01:23:19.410
+itself, it's very, very easy. So what you can do, you can
+
+01:23:19.410 --> 01:23:23.210
+try to go on pull request, right? And then let's say I'm
+
+01:23:23.210 --> 01:23:24.050
+changing my branch.
+
+01:23:26.960 --> 01:23:32.800
+So yeah, so there are two branches. So here. I can even
+
+01:23:32.800 --> 01:23:36.060
+raise it from here or else, let me show you the easiest way.
+
+01:23:38.680 --> 01:23:41.740
+So here I can, I can try to like, you know, come and then
+
+01:23:41.740 --> 01:23:45.300
+maybe I can try to just click on my new branch, right? I can
+
+01:23:45.300 --> 01:23:47.500
+just click on contribute and then you will be able to see
+
+01:23:47.500 --> 01:23:50.780
+open pull request. That is simple, right? So just click on
+
+01:23:50.780 --> 01:23:54.280
+open pull request. Yeah. And then you will be able to like,
+
+01:23:54.340 --> 01:23:56.420
+you know, see the file changes. So this is the changes which
+
+01:23:56.420 --> 01:23:58.640
+has been done. You will be able to even do the comparison,
+
+01:23:58.820 --> 01:24:01.980
+right? right, so you can even try to do a split, split means
+
+01:24:01.980 --> 01:24:04.920
+so one side other side, so one side is going to show me like
+
+01:24:04.920 --> 01:24:06.780
+one side of the code other side is going to show me the
+
+01:24:06.780 --> 01:24:10.500
+changes which is there so I can try to like do these things
+
+01:24:10.500 --> 01:24:14.080
+and here so it is going to show you that from which branch
+
+01:24:14.080 --> 01:24:17.100
+to which branch you are merging, there is a possibility that
+
+01:24:17.100 --> 01:24:19.820
+I will be having main, I will be having development, I will
+
+01:24:19.820 --> 01:24:23.200
+be having another XYG branches, so I don't want to merge it
+
+01:24:23.200 --> 01:24:27.300
+to the main directly because in general in a production
+
+01:24:27.300 --> 01:24:29.960
+grade system what do we do, so we try to create a multiple
+
+01:24:29.960 --> 01:24:33.120
+branches again game is same, game is not different, so what
+
+01:24:33.120 --> 01:24:36.240
+do we do, so we try to you know try to create a prod branch
+
+01:24:36.240 --> 01:24:39.060
+and then we try to create basically a development branch, we
+
+01:24:39.060 --> 01:24:42.000
+try to create even a testing branch like that, so we try to
+
+01:24:42.000 --> 01:24:44.220
+create a multiple environment and multiple branches by the
+
+01:24:44.220 --> 01:24:48.900
+way, so basically like you know sorry, so prod test here and
+
+01:24:48.900 --> 01:24:51.640
+then dev let's say, so code will come to first of all dev
+
+01:24:51.640 --> 01:24:54.260
+branch and then from dev it will move to test, from test it
+
+01:24:54.260 --> 01:24:57.440
+will move to production, very very simple, right. So this is
+
+01:24:57.440 --> 01:24:59.000
+engineering. So generally you will be able to find out, in
+
+01:24:59.000 --> 01:25:01.460
+some other places you will be able to find out even pre
+
+01:25:01.460 --> 01:25:05.620
+-prod, right, so prod, pre-prod, test and then dev, so
+
+01:25:05.620 --> 01:25:08.320
+development people will you know keep on merging their code
+
+01:25:08.320 --> 01:25:10.300
+to the development branch, then it will move to the test
+
+01:25:10.300 --> 01:25:12.720
+branch, then it will move to the pre-prod branch, then it
+
+01:25:12.720 --> 01:25:15.420
+will move to the prod branch, game is same, nothing
+
+01:25:15.420 --> 01:25:18.240
+different, create one development branch and consider that
+
+01:25:18.240 --> 01:25:23.100
+as a development, simple, right. So here what we are doing,
+
+01:25:23.160 --> 01:25:25.540
+so we are like you know creating a PR basically, this is
+
+01:25:25.540 --> 01:25:29.120
+called as PR, pull request. So here we are trying to merge
+
+01:25:29.120 --> 01:25:32.340
+it from where, my branch to the main branch, it is possible
+
+01:25:32.340 --> 01:25:35.020
+that I will not merge to the main branch, there is another
+
+01:25:35.020 --> 01:25:37.680
+dev branch over here, there is another test branch over
+
+01:25:37.680 --> 01:25:41.700
+here. So fine, I can just like you know do this like a
+
+01:25:41.700 --> 01:25:46.380
+selection from this drop down, all of these branches will be
+
+01:25:46.380 --> 01:25:49.520
+available and then I can try to call the pull request and
+
+01:25:49.520 --> 01:25:51.700
+then here you can do a code comparison as well, what and all
+
+01:25:51.700 --> 01:25:54.180
+file which has been changed, so carefully you can observe
+
+01:25:54.180 --> 01:25:57.080
+it. Now here. So when you are trying to raise a pull
+
+01:25:57.080 --> 01:25:59.320
+request, right, when you are trying to raise a pull request,
+
+01:25:59.400 --> 01:26:01.720
+you can try to give a title, you can give a description over
+
+01:26:01.720 --> 01:26:04.820
+here, a detailed description, right. Apart from that, so on
+
+01:26:04.820 --> 01:26:08.000
+left hand side, you will be able to assign a reviewer, so
+
+01:26:08.000 --> 01:26:10.740
+let's say you have a lead in your team, yeah, you have a
+
+01:26:10.740 --> 01:26:14.620
+lead in your team and you want your lead to basically look
+
+01:26:14.620 --> 01:26:18.480
+into the code, the changes that you have done and after
+
+01:26:18.480 --> 01:26:21.980
+looking into a code, only it should be merged even into a
+
+01:26:21.980 --> 01:26:24.480
+dev branch, from your branch to development branch. Or your
+
+01:26:24.480 --> 01:26:27.160
+branch to test branch or anywhere, right. So you can try to
+
+01:26:27.160 --> 01:26:30.060
+basically add a reviewer over here, simple, I mean like
+
+01:26:30.060 --> 01:26:32.940
+setting click and then you can try to add it, whosoever will
+
+01:26:32.940 --> 01:26:35.600
+be a part of your organization, you will be able to see
+
+01:26:35.600 --> 01:26:38.360
+everyone over there, right. So whosoever will be having this
+
+01:26:38.360 --> 01:26:41.120
+access, so you can try to basically like you know do it and
+
+01:26:41.120 --> 01:26:45.720
+then click on create a pull request, very, very simple,
+
+01:26:45.860 --> 01:26:49.720
+yeah, very, very simple. So once pull request is created, so
+
+01:26:49.720 --> 01:26:52.020
+then merge the pull request and then confirm the merge.
+
+01:26:55.810 --> 01:26:59.790
+So now merge is been confirmed. Now if I will go to my
+
+01:26:59.790 --> 01:27:05.150
+repository, if I will go to this file, I can see the latest
+
+01:27:05.150 --> 01:27:10.570
+change. Simple, right. So I am trying to, I am able to sip
+
+01:27:10.570 --> 01:27:14.110
+basically my new latest change from my branch to the main
+
+01:27:14.110 --> 01:27:19.770
+branch. Making sense guys? FEAT, it's not compulsory, it's
+
+01:27:19.770 --> 01:27:22.410
+just a convention that we try to follow. So for like a
+
+01:27:22.410 --> 01:27:25.730
+development or for like you know bug fixing, every team used
+
+01:27:25.730 --> 01:27:30.070
+to follow their own convention. Every like you know, so you
+
+01:27:30.070 --> 01:27:32.430
+know you're on, so whenever we do a development, we try to
+
+01:27:32.430 --> 01:27:38.680
+follow this convention. Yes. Making sense guys? Yeah. So
+
+01:27:38.680 --> 01:27:41.520
+very, very simple. It's, it's like not at all a difficult
+
+01:27:41.520 --> 01:27:44.360
+things to, I would say like understand and yeah, in a
+
+01:27:44.360 --> 01:27:48.240
+simplest possible way. So while my branch, I'm able to move
+
+01:27:48.240 --> 01:27:50.940
+my code and believe me, this is something that you will be
+
+01:27:50.940 --> 01:27:59.780
+doing maybe like 20 times a day, every day. Yes. So Ram is
+
+01:27:59.780 --> 01:28:02.440
+asking me a question that difference between pull and fetch.
+
+01:28:02.620 --> 01:28:04.960
+Okay. Good question. So basically pull means what? So
+
+01:28:04.960 --> 01:28:07.580
+basically it is going to download the latest development,
+
+01:28:07.840 --> 01:28:10.220
+right? This is what we have seen from a particular branch.
+
+01:28:10.300 --> 01:28:13.400
+So get pull origin and then main we are giving. So from main
+
+01:28:13.400 --> 01:28:16.240
+it will try to pull each and everything and then merge it
+
+01:28:16.240 --> 01:28:19.540
+inside my codebase. Means in your codebase you will be able
+
+01:28:19.540 --> 01:28:21.760
+to see the reflection, whatsoever changes which has been
+
+01:28:21.760 --> 01:28:25.380
+done. Fetch means it will just try to download the changes,
+
+01:28:25.460 --> 01:28:29.600
+but it will not merge in your code. This is the meaning of
+
+01:28:29.600 --> 01:28:33.380
+the fetch, like difference between pull and fetch.
+
+01:28:36.490 --> 01:28:39.470
+Nowadays copilot is also being used as a code reviewer. I
+
+01:28:39.470 --> 01:28:43.330
+mean like we all are using AI by the way, without AI none of
+
+01:28:43.330 --> 01:28:46.270
+us are writing code. Believe me, none of us are writing
+
+01:28:46.270 --> 01:28:49.810
+code, but yes, at any point of a time, if you have to work
+
+01:28:49.810 --> 01:28:54.670
+in a IT industry and you have to survive, you should know a
+
+01:28:54.670 --> 01:28:58.710
+low label. You should know everything, right? Then only you
+
+01:28:58.710 --> 01:29:00.650
+will be able to build up bigger things. Because when it
+
+01:29:00.650 --> 01:29:04.230
+comes to building a simple website, right, it can be done in
+
+01:29:04.230 --> 01:29:06.650
+30 seconds of time. Now I can even show you like in 30
+
+01:29:06.650 --> 01:29:10.050
+seconds, I can build a website. But when it comes to
+
+01:29:10.050 --> 01:29:14.330
+building an actual big product, then obviously people are
+
+01:29:14.330 --> 01:29:18.250
+looking for someone who holds a real development experience.
+
+01:29:18.630 --> 01:29:23.540
+And this is a part of that. Where should we store the final
+
+01:29:23.540 --> 01:29:27.160
+code? In a main branch? I mean like depends, let's say I
+
+01:29:27.160 --> 01:29:30.480
+will be having a dev test and main, sorry prod. So yeah.
+
+01:29:30.480 --> 01:29:33.160
+From dev it will move to test, from test it will move to the
+
+01:29:33.160 --> 01:29:39.880
+prod. Can we create a branch and under sub, can we create a
+
+01:29:39.880 --> 01:29:42.980
+branch under sub branches like dev? No, that is not done. So
+
+01:29:42.980 --> 01:29:48.260
+basically in parallel you can do it. Yeah. Sub of sub branch
+
+01:29:48.260 --> 01:29:50.720
+is not, I mean like there is no logic behind that, right, to
+
+01:29:50.720 --> 01:29:52.760
+create a sub branch. I mean every developer can create their
+
+01:29:52.760 --> 01:29:55.040
+own branch and then ask for the merge into any other
+
+01:29:55.040 --> 01:29:55.400
+branches.
+
+01:29:59.940 --> 01:30:02.200
+If you give an access, then any developer can directly
+
+01:30:02.200 --> 01:30:04.960
+commit to the main branch also. Yeah. So access control
+
+01:30:04.960 --> 01:30:08.660
+wise, let's go into setting, right. So basically there is
+
+01:30:08.660 --> 01:30:10.880
+inside a setting for this particular, only for this
+
+01:30:10.880 --> 01:30:13.260
+particular repository. So collaboration and team, you will
+
+01:30:13.260 --> 01:30:15.700
+be able to see. Let me give my auth code.
+
+01:30:18.720 --> 01:30:19.120
+So
+
+01:30:31.950 --> 01:30:35.110
+yeah. So here what you can do, so you can try to add a
+
+01:30:35.110 --> 01:30:37.550
+people, you will be able to add a team as well as people.
+
+01:30:37.670 --> 01:30:42.210
+Now this is my basically org repo. Yeah. Not individual
+
+01:30:42.210 --> 01:30:45.150
+repo. This is my org repo. Yeah. so here you will be able to
+
+01:30:45.150 --> 01:30:48.370
+find out more control and more options by the way so here
+
+01:30:48.370 --> 01:30:50.790
+you can come you can try to add people so you can search any
+
+01:30:50.790 --> 01:30:53.930
+people any person uh over the internet who is having a
+
+01:30:53.930 --> 01:30:56.730
+github repository so if you have a github repository i can
+
+01:30:56.730 --> 01:30:59.750
+simply come over here i can try to add it right even you can
+
+01:30:59.750 --> 01:31:02.810
+try to add it as a team so like uh you know any team you can
+
+01:31:02.810 --> 01:31:05.530
+try to add it uh manage so when you are trying to add
+
+01:31:05.530 --> 01:31:13.710
+someone so for example i'm going to add sskumar mar 9876 at
+
+01:31:13.710 --> 01:31:16.150
+the rate of gmail
+
+01:31:20.790 --> 01:31:25.550
+.com so yeah this is my in like a outside collaborator
+
+01:31:25.550 --> 01:31:28.930
+access so here you can try to manage so basically what kind
+
+01:31:28.930 --> 01:31:31.310
+of a role you would like to give read role base role
+
+01:31:31.310 --> 01:31:34.790
+recommended for non-code contributor who want to view and or
+
+01:31:34.790 --> 01:31:38.510
+discuss your project tries role write role maintain role
+
+01:31:38.510 --> 01:31:41.710
+admin role so basically you have all the controls over here
+
+01:31:41.710 --> 01:31:44.370
+and depends upon the role that you are going to assign to
+
+01:31:44.370 --> 01:31:44.830
+the other people so here you can try to manage so basically
+
+01:31:44.830 --> 01:31:46.010
+you have all the controls over here and depends they will be
+
+01:31:46.010 --> 01:31:49.350
+able to do the activities so if you are not providing like a
+
+01:31:49.350 --> 01:31:51.910
+you know edit access merge access they will not be able to
+
+01:31:51.910 --> 01:31:55.710
+do it very very simple yeah so these are the five role which
+
+01:31:55.710 --> 01:31:58.530
+exist inside your github simple go inside the setting go
+
+01:31:58.530 --> 01:32:01.970
+inside like a collaborator find a particular person and then
+
+01:32:01.970 --> 01:32:07.570
+push it yeah apart from that so the one one other thing that
+
+01:32:07.570 --> 01:32:11.030
+you will be using uh frequently is uh with respect to this
+
+01:32:11.030 --> 01:32:14.010
+one is that that's secrets and variable so here you will be
+
+01:32:14.010 --> 01:32:16.630
+able to like use this one secrets and variable again and
+
+01:32:16.630 --> 01:32:19.930
+again so we try to add a environment secrets we try to add a
+
+01:32:19.930 --> 01:32:22.230
+repository secret we try to add a organization secret so
+
+01:32:22.230 --> 01:32:25.110
+that option is also available inside a github and i will be
+
+01:32:25.110 --> 01:32:27.990
+using it and you all will be using it frequently this
+
+01:32:27.990 --> 01:32:31.210
+repository secret access which falls under setting secret
+
+01:32:31.210 --> 01:32:34.670
+and variable actions tab yeah so all of us are going to
+
+01:32:34.670 --> 01:32:37.990
+basically use these things uh very very frequently apart
+
+01:32:37.990 --> 01:32:40.070
+from that so there are a lot of other like you know rules
+
+01:32:40.070 --> 01:32:43.070
+that you can try to set you can try to set the actions i'll
+
+01:32:43.070 --> 01:32:44.650
+be talking about actions as well so you can try to set the
+
+01:32:44.650 --> 01:32:45.010
+actions i'll be talking about actions as well so what what
+
+01:32:45.010 --> 01:32:47.950
+happens inside the actions so once we are going to create a
+
+01:32:47.950 --> 01:32:51.370
+small project so this action will come into picture and at
+
+01:32:51.370 --> 01:32:53.950
+that point of time i'm going to show you apart from that
+
+01:32:53.950 --> 01:32:56.290
+like security and quality check so you can try to you know
+
+01:32:56.290 --> 01:32:59.530
+activate something or deactivate something you can enable
+
+01:32:59.530 --> 01:33:02.170
+code code scanning code quality check also you can try to
+
+01:33:02.170 --> 01:33:06.230
+scan do it uh even ai you can try to call over here and even
+
+01:33:06.230 --> 01:33:09.350
+copilot is giving you enough ai i would say right in terms
+
+01:33:09.350 --> 01:33:12.810
+of doing all those scans uh so everything is technically
+
+01:33:12.810 --> 01:33:19.310
+like a possible yeah technically possible now so let's say
+
+01:33:19.310 --> 01:33:23.450
+this is basically uh you know like a changes which has been
+
+01:33:23.450 --> 01:33:26.190
+done and now this change is available inside my main yeah
+
+01:33:26.190 --> 01:33:29.230
+the changes are basically available inside my main now let's
+
+01:33:29.230 --> 01:33:33.730
+say because of this change which i have merged right so
+
+01:33:33.730 --> 01:33:37.490
+because of this change which i have merged so basically my
+
+01:33:37.490 --> 01:33:42.110
+system has crashed yeah maybe someone has like emerged it
+
+01:33:42.110 --> 01:33:44.870
+without like doing a proper review of the code without
+
+01:33:44.870 --> 01:33:49.150
+building a code properly so in that situation i have to
+
+01:33:49.150 --> 01:33:53.550
+revert those changes yeah i have to basically revert those
+
+01:33:53.550 --> 01:33:56.930
+changes so any idea how we can revert it yeah
+
+01:34:05.860 --> 01:34:09.920
+no idea okay so see let's say i have one branch it can be
+
+01:34:09.920 --> 01:34:12.260
+main branch it can be dev branch it can be test branch yeah
+
+01:34:12.260 --> 01:34:14.600
+any branches i think we all understand now our concept of
+
+01:34:14.600 --> 01:34:17.180
+branching so not a big deal anyone can create any branches
+
+01:34:17.180 --> 01:34:21.740
+okay so here what we can do so you will be able to simple
+
+01:34:21.740 --> 01:34:24.500
+option is like you will see all the commits whatsoever
+
+01:34:24.500 --> 01:34:28.140
+commit which has been done so i just click on this one and
+
+01:34:28.140 --> 01:34:30.900
+one by one one by one you will be able to see the commits
+
+01:34:30.900 --> 01:34:34.660
+let's say because of this uh like you know last one or maybe
+
+01:34:34.660 --> 01:34:37.960
+because of any other one so my entire code has basically
+
+01:34:37.960 --> 01:34:41.620
+like you know uh crashed so what i can do i can go there
+
+01:34:41.620 --> 01:34:43.300
+yeah
+
+01:34:49.280 --> 01:34:57.640
+browse files is fine and this is the commit number which has
+
+01:34:57.640 --> 01:35:00.900
+been done so there's the commit number so i can go here okay
+
+01:35:08.520 --> 01:35:09.580
+so
+
+01:35:15.620 --> 01:35:21.320
+this was merged this was merged and here so you are able to
+
+01:35:21.320 --> 01:35:24.780
+see basically a revert option right so basically what what
+
+01:35:24.780 --> 01:35:27.220
+revert option so this is the commit number right this is the
+
+01:35:27.220 --> 01:35:29.700
+commit number that i had which i have done like you know
+
+01:35:29.700 --> 01:35:33.400
+into a main uh so this was the message what i can do i can
+
+01:35:33.400 --> 01:35:38.980
+just click on revert and yeah so now it is able to revert so
+
+01:35:38.980 --> 01:35:43.300
+create again up new pr so everything technically happens a
+
+01:35:43.300 --> 01:35:47.300
+pr by the way merge pull request confirm merge so
+
+01:35:54.700 --> 01:36:01.640
+now if i'll go into my main branch and my code base see the
+
+01:36:01.640 --> 01:36:06.320
+next line which i have like a merged before gone yeah so
+
+01:36:06.320 --> 01:36:09.700
+whatsoever changes which i have done last time reverted very
+
+01:36:09.700 --> 01:36:13.100
+very simple so that is also available so like by mistake if
+
+01:36:13.100 --> 01:36:16.400
+someone has pushed any piece of the code which like you know
+
+01:36:16.400 --> 01:36:19.380
+crashed your entire system not to worry about it this is
+
+01:36:19.380 --> 01:36:21.640
+where this git github comes into picture a version control
+
+01:36:21.640 --> 01:36:24.440
+comes into picture so at any point of a time you can just
+
+01:36:24.440 --> 01:36:26.580
+like you know go to that particular point and then you can
+
+01:36:26.580 --> 01:36:32.380
+try to revert all of these changes make sense guys yeah so
+
+01:36:32.380 --> 01:36:34.140
+interesting right yeah
+
+01:36:39.030 --> 01:36:41.310
+in the github we can see all the branches created by all the
+
+01:36:41.310 --> 01:36:43.790
+developer other than main uh yeah if you have access
+
+01:36:43.790 --> 01:36:47.210
+basically yes so it's a very very simple like maintaining
+
+01:36:47.210 --> 01:36:50.110
+and managing of folders and then you know controlling it as
+
+01:36:50.110 --> 01:36:53.230
+per your need and github. going from one to another so it's
+
+01:36:53.230 --> 01:36:55.710
+not at all a big deal but yeah like i said it's very very
+
+01:36:55.710 --> 01:36:58.130
+useful for all of us because without this you will not be
+
+01:36:58.130 --> 01:37:01.950
+able to do a development in any project doesn't matter
+
+01:37:01.950 --> 01:37:04.030
+whether you are working into ai project or non ai project
+
+01:37:04.030 --> 01:37:08.250
+everywhere it's a same story right interesting but need
+
+01:37:08.250 --> 01:37:10.490
+practice i mean once you will work in one or two projects
+
+01:37:10.490 --> 01:37:15.550
+right done because like i said so in a day uh you will end
+
+01:37:15.550 --> 01:37:19.470
+up you know uh pushing a code maybe like uh uh 20 30 times
+
+01:37:19.470 --> 01:37:24.010
+per day if you are a serious developer so sir ci cd same
+
+01:37:24.010 --> 01:37:26.210
+thing like doing a code using a git we are creating a branch
+
+01:37:26.210 --> 01:37:28.950
+in a git then merging it to the main no this is called a ci
+
+01:37:28.950 --> 01:37:32.610
+cd is different so basically i'll talk about it i'll teach
+
+01:37:32.610 --> 01:37:37.250
+you ci cd don't worry yeah i'll teach you i'll even teach
+
+01:37:37.250 --> 01:37:39.830
+you that there is something called as yaml file by which we
+
+01:37:39.830 --> 01:37:42.390
+can try to automate even a ci cd pipeline we can try to set
+
+01:37:42.390 --> 01:37:44.770
+the rules over there so all those things comes into picture
+
+01:37:44.770 --> 01:37:48.770
+as we move into the like classes fine
+
+01:37:51.330 --> 01:37:54.750
+everyone yeah so yeah so that's it for today's so bhaves is
+
+01:37:54.750 --> 01:37:59.830
+asking me a question that how to do this in our local okay
+
+01:37:59.830 --> 01:38:03.810
+so local what sorry it was a question from rahul i believe
+
+01:38:03.810 --> 01:38:04.990
+reward
+
+01:38:14.180 --> 01:38:18.120
+what the changes that you have like uh done basically so
+
+01:38:19.910 --> 01:38:22.510
+basically you can try to use something called as a git
+
+01:38:22.510 --> 01:38:25.710
+restore command so git restore and then it will be able to
+
+01:38:25.710 --> 01:38:30.710
+restore uh to the previous one so that's a command that you
+
+01:38:30.710 --> 01:38:34.970
+can try to use let me download open source code add some
+
+01:38:34.970 --> 01:38:36.230
+code and then we can add some more feature and then upload
+
+01:38:36.230 --> 01:38:39.110
+to our github report this is the authentic way we or we
+
+01:38:39.110 --> 01:38:42.290
+can't do it if you are really doing open source contribution
+
+01:38:42.290 --> 01:38:44.830
+then you should do a contribution in their github repository
+
+01:38:44.830 --> 01:38:50.150
+and they will allow you uh only if your code is valid right
+
+01:38:50.150 --> 01:38:53.610
+so i have seen like many people because in india so many
+
+01:38:53.610 --> 01:38:56.750
+youtuber used to promote our open source like you know we
+
+01:38:56.750 --> 01:38:59.450
+all should do our open source because you know these are the
+
+01:38:59.450 --> 01:39:03.130
+clickbaits video and yes it attracts a lot of people over
+
+01:39:03.130 --> 01:39:07.690
+the internet and they usually gets a lot of views so many
+
+01:39:07.690 --> 01:39:10.690
+youtuber have created a video that every developer should do
+
+01:39:10.690 --> 01:39:13.310
+a lot of like open source contribution this that blah blah
+
+01:39:13.310 --> 01:39:16.330
+although they have never done even a single line of open
+
+01:39:16.330 --> 01:39:18.930
+source contribution in their entire life right but yeah this
+
+01:39:18.930 --> 01:39:21.550
+is how like you know uh internet works i think we all know
+
+01:39:21.550 --> 01:39:26.270
+so uh what people start like people people you know get
+
+01:39:26.270 --> 01:39:29.970
+influenced out of those videos and they start like uh
+
+01:39:29.970 --> 01:39:34.890
+pushing a kind of a merge request like where they're just
+
+01:39:34.890 --> 01:39:35.750
+you know they're just like you know they're like you know
+
+01:39:35.750 --> 01:39:39.590
+writing one single line of a comment that is not called as
+
+01:39:39.590 --> 01:39:45.530
+an open source contribution right correct sir yes it's
+
+01:39:45.530 --> 01:39:48.410
+correct it happens a lot so if you're really very very like
+
+01:39:48.410 --> 01:39:51.110
+a serious developer so in that case genuinely you should
+
+01:39:51.110 --> 01:39:54.570
+think about contribution and uh it takes the effort i mean
+
+01:39:54.570 --> 01:39:58.390
+like uh many i'll tell you one thing about the indian
+
+01:39:58.390 --> 01:40:01.970
+education market right uh so basically indian education
+
+01:40:01.970 --> 01:40:04.750
+market is what what i have experienced in the last seven to
+
+01:40:04.750 --> 01:40:06.810
+eight year as a part of like an entrepreneur and teacher
+
+01:40:06.810 --> 01:40:12.030
+both that it's you know a very outcome driven market so we
+
+01:40:12.030 --> 01:40:16.550
+never try to study anything since our schooling days i would
+
+01:40:16.550 --> 01:40:23.550
+say uh basically without a rewards so we study uh something
+
+01:40:23.550 --> 01:40:26.950
+or we we you know get into something not out of the interest
+
+01:40:26.950 --> 01:40:31.110
+right so we always try to attach some sort of outcome that
+
+01:40:31.110 --> 01:40:33.850
+okay if i'm going to do this i'll get this one if i'm going
+
+01:40:33.850 --> 01:40:37.030
+to get a good marks a good percentage into 10th and 12th uh
+
+01:40:37.030 --> 01:40:39.990
+then i will be able to you know uh my future will be bright
+
+01:40:39.990 --> 01:40:43.910
+if i'm going to crack iit je then i will be able to you know
+
+01:40:43.910 --> 01:40:46.390
+get a very good job a high package carousel package and all
+
+01:40:46.390 --> 01:40:50.270
+those things if i'm solving a 200 dsa problems right again
+
+01:40:50.270 --> 01:40:54.090
+for every techies then i will be able to you know uh crack
+
+01:40:54.090 --> 01:40:57.370
+this fang man kind of a company if i'm able to you know
+
+01:40:57.370 --> 01:41:00.750
+learn this machine learning algorithm or generative ai most
+
+01:41:00.750 --> 01:41:02.770
+of you must be thinking this one so i'm just trying to
+
+01:41:02.770 --> 01:41:05.670
+reflect that one you know very honest manner in front of all
+
+01:41:05.670 --> 01:41:10.110
+of you uh so if i'm going to study generative ai right if i
+
+01:41:10.110 --> 01:41:13.350
+know git github if i know some sort of you know llms and all
+
+01:41:13.350 --> 01:41:16.570
+those architecture behind it i will be able to get a good
+
+01:41:16.570 --> 01:41:22.150
+job this is a perception i believe 99.9 percent of us have
+
+01:41:22.150 --> 01:41:28.210
+correct me if i'm wrong guys yes yeah sometime we all should
+
+01:41:28.210 --> 01:41:31.210
+like you know be honest about ourself i think we all know
+
+01:41:31.210 --> 01:41:34.390
+ourselves so there's nothing wrong in terms of saying yes if
+
+01:41:34.390 --> 01:41:38.810
+that's really correct right but when you will see a european
+
+01:41:38.810 --> 01:41:42.270
+developer or german developer because i have such friends as
+
+01:41:42.270 --> 01:41:48.410
+well right uh so us again right uh usa so on a west side
+
+01:41:48.410 --> 01:41:53.030
+right on a west side so basically whatsoever technology that
+
+01:41:53.030 --> 01:41:55.470
+you are able to see for example programming language right
+
+01:41:55.470 --> 01:42:00.010
+every programming language is open source your linux right
+
+01:42:00.010 --> 01:42:05.270
+where world's 90 including a banking system and all those
+
+01:42:05.270 --> 01:42:08.630
+secure server it's an open source project right every
+
+01:42:08.630 --> 01:42:10.990
+technology that you are using the git that we have studied
+
+01:42:10.990 --> 01:42:15.170
+right it's open source github is basically a company who has
+
+01:42:15.170 --> 01:42:17.610
+built a feature on top of this right and they have given you
+
+01:42:17.610 --> 01:42:22.010
+a beautiful ui interface so the entire digital
+
+01:42:22.010 --> 01:42:26.590
+infrastructure we are living into almost everything was open
+
+01:42:26.590 --> 01:42:30.190
+source even a big data the concept of hadoop so uh basically
+
+01:42:30.190 --> 01:42:32.410
+larry page have published a paper research paper called a
+
+01:42:32.410 --> 01:42:33.730
+gfs google file system online there was nothing of that kind
+
+01:42:33.730 --> 01:42:35.970
+of a big data On top of that, so Doug Curtin has basically
+
+01:42:35.970 --> 01:42:39.550
+developed something called as SDFS, Hadoop Distributed File
+
+01:42:39.550 --> 01:42:41.930
+System. And then from there, the concept of this data
+
+01:42:41.930 --> 01:42:44.370
+engineering, the big data, and then on top of that, the
+
+01:42:44.370 --> 01:42:46.550
+informatica, talent, and all those things that we see
+
+01:42:46.550 --> 01:42:51.590
+nowadays, right? So our EMR on AWS, so all these things that
+
+01:42:51.590 --> 01:42:54.230
+we see nowadays. So basically, those things have evolved. So
+
+01:42:54.230 --> 01:42:57.530
+everything has technically, in a digital world, has started
+
+01:42:57.530 --> 01:43:01.110
+with the open source contribution, right? And people who
+
+01:43:01.110 --> 01:43:03.810
+used to participate, right? People who used to participate
+
+01:43:03.810 --> 01:43:11.490
+in an open source, they never expect that I'm doing it to
+
+01:43:11.490 --> 01:43:15.270
+gain something. They do it so that they can learn, right?
+
+01:43:15.490 --> 01:43:18.330
+They can prove to the world that, okay, so this is something
+
+01:43:18.330 --> 01:43:21.710
+which can be done. So their mindset is very different, and
+
+01:43:21.710 --> 01:43:24.290
+our mindset is very different. So we always try to... So if
+
+01:43:24.290 --> 01:43:28.650
+we don't want to get into a generative AI job, right? I
+
+01:43:28.650 --> 01:43:30.710
+don't think that anyone would have even joined a class,
+
+01:43:30.830 --> 01:43:33.650
+right? Just for the learning. Just for the purpose. That,
+
+01:43:33.670 --> 01:43:38.750
+okay, let's go and explore. So whenever I teach to my
+
+01:43:38.750 --> 01:43:41.950
+students, I say that, okay, see, you should not attach
+
+01:43:41.950 --> 01:43:45.430
+everything towards the outcome. You will be able to get a
+
+01:43:45.430 --> 01:43:48.370
+very, very big outcome eventually if you are ready for it.
+
+01:43:48.450 --> 01:43:51.210
+Believe me, it is possible, right? You all will be able to
+
+01:43:51.210 --> 01:43:53.850
+get a very, very big outcome. But every time, if you are
+
+01:43:53.850 --> 01:43:57.210
+going to attach with the outcome, then somewhere you will be
+
+01:43:57.210 --> 01:44:01.930
+stuck into a loop. And just to fulfill that, you will work
+
+01:44:01.930 --> 01:44:03.070
+day and night, which I think is very important. But I think
+
+01:44:03.070 --> 01:44:08.490
+it's not worth it, right? So, but yeah, I mean, like, we are
+
+01:44:08.490 --> 01:44:11.030
+coming from, you know, that kind of educational system. So
+
+01:44:11.030 --> 01:44:16.030
+where people have never taught us that learning can be fun,
+
+01:44:16.190 --> 01:44:19.850
+right? So we can do our learning, we can explore things. So
+
+01:44:19.850 --> 01:44:21.770
+learning is not a learning. It's technically exploration,
+
+01:44:22.110 --> 01:44:25.490
+right? Exploration of a new stuff. So yeah, no one has
+
+01:44:25.490 --> 01:44:29.030
+taught us that particular part, that learning can be
+
+01:44:29.030 --> 01:44:32.250
+experimental, learning can be explanation. Learning
+
+01:44:32.250 --> 01:44:34.230
+should... Learning should not be like always like attached
+
+01:44:34.230 --> 01:44:36.610
+towards a job. And believe me, if you have that kind of a
+
+01:44:36.610 --> 01:44:40.030
+mindset, you will thrive in your life. You will be able to
+
+01:44:40.030 --> 01:44:44.150
+get everything and anything in your life. But yeah, with
+
+01:44:44.150 --> 01:44:47.190
+passion, you have to like, you know, get into it, which is
+
+01:44:47.190 --> 01:44:51.130
+like somewhere it's lacking in most of us. So if you are
+
+01:44:51.130 --> 01:44:53.950
+that person, and if you are looking for a bright future in a
+
+01:44:53.950 --> 01:44:58.190
+tech world, a future proof, basically a layoff proof or
+
+01:44:58.190 --> 01:45:01.770
+something, then I'll say that start developing an interest.
+
+01:45:02.650 --> 01:45:05.390
+Yeah, if you are in an early stage of your career or even in
+
+01:45:05.390 --> 01:45:08.750
+a later stage of your career, start doing something out of
+
+01:45:08.750 --> 01:45:11.630
+the interest. And you have to do it for some years and
+
+01:45:11.630 --> 01:45:13.770
+years. It's not like overnight you will be able to get
+
+01:45:13.770 --> 01:45:16.410
+something. And believe me, the kind of a result, the kind of
+
+01:45:16.410 --> 01:45:21.290
+outcome you will be able to get is something you can't even
+
+01:45:21.290 --> 01:45:26.730
+imagine as of now. Yeah, so start doing it. I don't know how
+
+01:45:26.730 --> 01:45:28.470
+many of you will be able to understand this entire
+
+01:45:28.470 --> 01:45:34.790
+philosophy, but yeah. It's a proven one. Make sense, guys?
+
+01:45:35.090 --> 01:45:38.630
+Yes. So again, I'm leaving that up to you, how you are going
+
+01:45:38.630 --> 01:45:41.750
+to pursue these thoughts. Can you please share the WhatsApp
+
+01:45:41.750 --> 01:45:44.990
+group link or ask someone to share it? I think WhatsApp
+
+01:45:44.990 --> 01:45:47.710
+group link for this batch is already available inside your
+
+01:45:47.710 --> 01:45:52.090
+dashboard. Maybe my team has changed that. I don't know. So
+
+01:45:52.090 --> 01:45:56.330
+yeah, WhatsApp group link. This batch is what like. So we
+
+01:45:56.330 --> 01:45:58.990
+have stopped creating a WhatsApp group link now going
+
+01:45:58.990 --> 01:46:01.310
+forward. Okay. Because now we have a support system in
+
+01:46:01.310 --> 01:46:04.210
+place. You can mail us anytime with any kind of a query that
+
+01:46:04.210 --> 01:46:07.870
+you have in your mind. We have a WhatsApp channel. So now we
+
+01:46:07.870 --> 01:46:10.730
+have started sending you notification as well. Along with
+
+01:46:10.730 --> 01:46:13.350
+that, so yeah, many new initiatives we have started. And
+
+01:46:13.350 --> 01:46:16.710
+again, in this month and upcoming month, you will be able to
+
+01:46:16.710 --> 01:46:19.910
+see that many new courses, modules, frameworks, we are going
+
+01:46:19.910 --> 01:46:23.370
+to bring it for you. And, you know, service-wise, so yeah,
+
+01:46:23.430 --> 01:46:27.670
+we are trying to make it like as seamless as possible. So
+
+01:46:27.670 --> 01:46:29.790
+that's the reason. So we have removed this WhatsApp group.
+
+01:46:29.910 --> 01:46:31.310
+Because I have seen that, you know, WhatsApp group.
+
+01:46:35.070 --> 01:46:38.090
+Sometime we were just trying to create the chaos and
+
+01:46:38.090 --> 01:46:43.970
+disturbing others. Okay. So, yeah, that's all about my
+
+01:46:43.970 --> 01:46:46.370
+today's class, guys. If you have any kind of a question, so
+
+01:46:46.370 --> 01:46:48.710
+please raise your hand. Hope all of you have liked it. Yes,
+
+01:46:48.710 --> 01:46:52.090
+Selva, go ahead with the question. So anyone guys who is
+
+01:46:52.090 --> 01:46:55.250
+having questions, raise your hand. Yeah, Selva, I can hear
+
+01:46:55.250 --> 01:46:59.690
+you. I share my screen. Okay. So what is the issue that you
+
+01:46:59.690 --> 01:47:03.630
+are facing? Yeah. So this is a question on a project, a
+
+01:47:03.630 --> 01:47:08.710
+different project. Which project? No, my personal project
+
+01:47:08.710 --> 01:47:13.010
+that I'm working on. I have a small question. Okay. Let's
+
+01:47:13.010 --> 01:47:16.650
+see. What is the question you have? Hey, Product Engineers.
+
+01:47:16.970 --> 01:47:20.770
+Yes. For a convention, do a developer create a new branch
+
+01:47:20.770 --> 01:47:23.870
+for every feature they're working on, or they make a branch
+
+01:47:23.870 --> 01:47:26.570
+with their names? Yeah. Developer generally creates a new
+
+01:47:26.570 --> 01:47:29.910
+branch with a valid name for all the features. And that's a
+
+01:47:29.910 --> 01:47:32.730
+feature that they're going to develop. That's a convention.
+
+01:47:34.940 --> 01:47:38.920
+Can you see my screen? Not yet. So I think you have not
+
+01:47:38.920 --> 01:47:42.300
+started sharing your screen so far. Yeah.
+
+01:47:48.650 --> 01:47:54.290
+Can you see now? Yes, I can see. Okay. So this is an Excel
+
+01:47:54.290 --> 01:47:58.050
+file. So in this Excel file, there are multiple columns.
+
+01:47:58.410 --> 01:48:02.530
+Okay. So what is happening is this for a manufacturing
+
+01:48:02.530 --> 01:48:06.410
+setup, there is a process 10, process 20. Okay. Okay. So for
+
+01:48:06.410 --> 01:48:09.470
+each process, there are some multiple requirements that are,
+
+01:48:09.510 --> 01:48:13.550
+these are merged cells. Okay. And each cell again has some
+
+01:48:13.550 --> 01:48:17.570
+merged cells. And finally, we will have one column called
+
+01:48:17.570 --> 01:48:23.290
+severity. Okay. So what I am required to do is each line
+
+01:48:23.290 --> 01:48:26.730
+here before that severity has a meaning like 10 means
+
+01:48:26.730 --> 01:48:30.170
+something else. So I am creating an agent that will verify
+
+01:48:30.170 --> 01:48:34.030
+whether this exactly whatever is written in column D is
+
+01:48:34.030 --> 01:48:38.090
+matching the 10 rating. We have a separate scale for that.
+
+01:48:38.430 --> 01:48:43.110
+So now what I want is I want to create an, right now, this
+
+01:48:43.110 --> 01:48:48.050
+is what I have in my company, but I want that from column G
+
+01:48:48.050 --> 01:48:51.590
+to K, I want this merged cell to become like this, like
+
+01:48:51.590 --> 01:48:55.130
+every cell should become like this, like even a merged cell
+
+01:48:55.130 --> 01:48:57.450
+like this should become like this. Then I will have that. A
+
+01:48:57.450 --> 01:49:02.970
+agent iterate over each row and each column, and then match
+
+01:49:02.970 --> 01:49:08.830
+this final. So I want this, this is in a PDF format. So I
+
+01:49:08.830 --> 01:49:13.950
+want the PDF. I want the AI agent to read the PDF, unmerged
+
+01:49:13.950 --> 01:49:17.710
+this and create an Excel file like this so that it is easy
+
+01:49:17.710 --> 01:49:21.190
+for me to give commands. Okay. So do it. What is it? Yeah,
+
+01:49:21.190 --> 01:49:25.330
+it is possible, but by first question, if this file format
+
+01:49:25.330 --> 01:49:27.590
+is a static file format, I mean like every time if you're
+
+01:49:27.590 --> 01:49:30.870
+receiving a similar kind of a file, then why are you even
+
+01:49:30.870 --> 01:49:33.550
+introducing an agent when the same thing can be done by a
+
+01:49:33.550 --> 01:49:37.830
+simple Python script? Well, I see that that same thing can
+
+01:49:37.830 --> 01:49:40.310
+be passed even with the help of simple Python script. I
+
+01:49:40.310 --> 01:49:43.330
+mean, like why you are talking about an agent to do it, any
+
+01:49:43.330 --> 01:49:47.190
+specific reason behind that? This format, right? There are
+
+01:49:47.190 --> 01:49:50.470
+multiple suppliers, maybe there's a slight spelling mistake
+
+01:49:50.470 --> 01:49:54.170
+on this one more column here, which is irrelevant. Finally,
+
+01:49:54.250 --> 01:49:57.390
+I will have that agent parse all this only required. Okay.
+
+01:49:57.410 --> 01:49:59.130
+So if you want to use this information, it will filter and
+
+01:49:59.130 --> 01:50:01.830
+then it's fine. Yeah. Got it. Then it's justified to use the
+
+01:50:01.830 --> 01:50:05.090
+agent LLMs inside that. So yeah, you can use it and it can
+
+01:50:05.090 --> 01:50:07.490
+be done in no time. So how to parse this actually, I'm not
+
+01:50:07.490 --> 01:50:11.490
+able to parse that, unmerge, I am not able to unmerge this
+
+01:50:11.490 --> 01:50:14.710
+from a PDF actually. So for that we'll have to write the
+
+01:50:14.710 --> 01:50:21.490
+code. Okay. Okay. Yeah. Any library for this, like a PDF? No
+
+01:50:21.490 --> 01:50:24.650
+library, not for PDF parsing. So pyme PDF is a library,
+
+01:50:24.790 --> 01:50:26.950
+which is one of the famous one and very stable one. Right.
+
+01:50:27.030 --> 01:50:29.410
+So you can try it. You can try to use a pyme PDF, that's the
+
+01:50:29.410 --> 01:50:34.410
+first approach, pyme PDF, pyme, again, apart from that,
+
+01:50:34.430 --> 01:50:38.850
+pyme, P-Y-M-E, yeah, like PDF. And then apart from that, so
+
+01:50:38.850 --> 01:50:42.050
+you can try to send the entire PDF, like, you know, page by
+
+01:50:42.050 --> 01:50:45.350
+page, page by page, to LLMs itself and LLM will be able to
+
+01:50:45.350 --> 01:50:48.470
+parse it because now even LLMs are way more smarter and
+
+01:50:48.470 --> 01:50:50.490
+stronger than like, you know, any library that you are going
+
+01:50:50.490 --> 01:50:52.750
+to use it. It is going to cost you a little bit, I mean,
+
+01:50:52.770 --> 01:50:55.950
+like in terms of tokens, but yeah, so even LLMs will be able
+
+01:50:55.950 --> 01:50:57.910
+to parse the entire PDF. And it is going to give you the
+
+01:50:57.910 --> 01:51:00.930
+entire data and when it is bringing a data, so obviously to
+
+01:51:00.930 --> 01:51:03.010
+understand the data. So whatsoever instruction that you are
+
+01:51:03.010 --> 01:51:05.370
+going to give to your agent, accordingly, it will try to
+
+01:51:05.370 --> 01:51:08.370
+create the table and give you the final seat. Okay. Yeah.
+
+01:51:08.390 --> 01:51:17.140
+Thank you. Yeah. Yeah. Thanks. Okay. So fine. Everyone. So,
+
+01:51:17.200 --> 01:51:20.220
+sir, VectorDB covered yesterday. No, VectorDB is not covered
+
+01:51:20.220 --> 01:51:22.820
+yesterday because VectorDB is something which will come in a
+
+01:51:22.820 --> 01:51:25.200
+future class. If you would like to, like, you know,
+
+01:51:25.200 --> 01:51:28.560
+understand that now, maybe you can go and explore my job.
+
+01:51:28.580 --> 01:51:37.200
+So, yeah, I think I have already given an answer. So fine,
+
+01:51:37.240 --> 01:51:40.080
+everyone. Thank you so much with this. So hope all of you
+
+01:51:40.080 --> 01:51:42.260
+have learned to get GitHub right. And all of you are going
+
+01:51:42.260 --> 01:51:45.780
+to utilize this entire concept that we have discussed going
+
+01:51:45.780 --> 01:51:49.020
+forward for any kind of a development. So now next week,
+
+01:51:49.040 --> 01:51:52.980
+what we are going to do. So let me open up my syllabus for
+
+01:51:52.980 --> 01:51:53.500
+this batch.
+
+01:51:56.660 --> 01:52:02.360
+Yeah. So next week agenda will be. And I'll ask. I'll ask
+
+01:52:02.360 --> 01:52:03.380
+team to publish it.
+
+01:52:06.280 --> 01:52:08.880
+This is an AI, the AI list.
+
+01:52:14.810 --> 01:52:17.610
+Okay. So our next week, what we'll do. So we'll try to cover
+
+01:52:17.610 --> 01:52:21.290
+basically a NumPy pandas, matplotlib, this one, virtual
+
+01:52:21.290 --> 01:52:22.990
+environment creation, which is again related to our
+
+01:52:22.990 --> 01:52:26.270
+projects. And apart from that, so we'll try to cover some of
+
+01:52:26.270 --> 01:52:28.250
+the mathematical concept as well. So maybe Saturday and
+
+01:52:28.250 --> 01:52:30.490
+Sunday. So two days, if you are going to spend, I think we
+
+01:52:30.490 --> 01:52:34.610
+can cover it and then I'm going to give you one project. So
+
+01:52:34.610 --> 01:52:37.210
+after covering this, I'm going to give you one small, simple
+
+01:52:37.210 --> 01:52:40.250
+project just to get started with. So that whatsoever we are
+
+01:52:40.250 --> 01:52:42.610
+going to discuss till that particular point. So, yeah,
+
+01:52:42.670 --> 01:52:45.870
+everything can be, you know, convulsed into a particular
+
+01:52:45.870 --> 01:52:50.070
+project and you can come up with a demo. So as I have
+
+01:52:50.070 --> 01:52:54.550
+already mentioned, demo by a fellow student. So very soon we
+
+01:52:54.550 --> 01:52:57.470
+are going to start that as well. So that will be coordinated
+
+01:52:57.470 --> 01:53:01.270
+by my team, basically. But yeah, work will be given by me
+
+01:53:01.270 --> 01:53:05.430
+and then demo will be coordinated by my team. So they will
+
+01:53:05.430 --> 01:53:08.170
+like, you know, send you the link. And if you would like to
+
+01:53:08.170 --> 01:53:11.670
+give a demo. You can happily come and give a demo if you
+
+01:53:11.670 --> 01:53:14.010
+don't just want it to, you know, come and watch, you can
+
+01:53:14.010 --> 01:53:17.210
+watch it if you don't want to do anything again, I'm leaving
+
+01:53:17.210 --> 01:53:20.150
+that up to you. So that decision is yours at the end of the
+
+01:53:20.150 --> 01:53:26.110
+day, because, you know, I can't force anyone to learn. OK,
+
+01:53:26.110 --> 01:53:28.810
+that is something that we are going to discuss in the next
+
+01:53:28.810 --> 01:53:31.130
+class and I'm going to give you a project next Sunday,
+
+01:53:31.530 --> 01:53:33.650
+basically. Yeah. So next Sunday, I'm going to give you the
+
+01:53:33.650 --> 01:53:36.550
+project and all of you are supposed to work on that
+
+01:53:36.550 --> 01:53:38.770
+particular project. So why don't you want with that? Thank
+
+01:53:38.770 --> 01:53:42.370
+you so much. See you again next week. Till then, take care.
+
+01:53:42.410 --> 01:53:42.690
+Bye bye.
+

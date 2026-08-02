@@ -1,0 +1,3164 @@
+WEBVTT
+
+00:06:54.350 --> 00:06:59.130
+Okay, so hi everyone. Good evening. Hope I'm audible and
+
+00:06:59.130 --> 00:07:03.270
+visible to all of you guys. So please confirm inside the
+
+00:07:03.270 --> 00:07:09.230
+chat box. Okay, great. So I'm audible and visible to all of
+
+00:07:09.230 --> 00:07:13.370
+you. So finally, let's start. So in last week, I was talking
+
+00:07:13.370 --> 00:07:16.350
+about a basic of status. So again, I will try to continue
+
+00:07:16.350 --> 00:07:19.250
+with the exact same thing. And yeah, so we'll try to
+
+00:07:19.250 --> 00:07:21.350
+understand a couple of more concepts, a couple of more
+
+00:07:21.350 --> 00:07:25.630
+topics with respect to a status. Because we all are going to
+
+00:07:25.630 --> 00:07:29.270
+use it. So last week, we were talking about, you know, we
+
+00:07:29.270 --> 00:07:32.890
+have discussed about basically mean, median, mode, standard
+
+00:07:32.890 --> 00:07:35.970
+deviation, I believe, variance, we have talked about, normal
+
+00:07:35.970 --> 00:07:40.390
+distribution, we have also discussed. Now, so let's talk
+
+00:07:40.390 --> 00:07:44.670
+about one more concept over here, which is called as a
+
+00:07:44.670 --> 00:07:48.390
+standard normal distribution. So I believe this is a stats
+
+00:07:48.390 --> 00:07:53.670
+class two. Stats, second session, right? So let's start
+
+00:07:53.670 --> 00:07:56.770
+talking about Basically, something called as a standard
+
+00:07:56.770 --> 00:07:57.930
+normal distribution,
+
+00:08:00.750 --> 00:08:05.930
+standard, normal distribution.
+
+00:08:11.050 --> 00:08:13.290
+So we have already discussed about a normal distribution,
+
+00:08:13.550 --> 00:08:17.070
+right? So in terms of a normal distribution, so your mean,
+
+00:08:17.130 --> 00:08:19.390
+median, mode, everything is going to be at the same place.
+
+00:08:19.510 --> 00:08:23.450
+And it is supposed to form a bell shaped curve. Right? As
+
+00:08:23.450 --> 00:08:25.970
+simple as that. This is what we have discussed with respect
+
+00:08:25.970 --> 00:08:28.370
+to a normal distribution. And then inside a normal
+
+00:08:28.370 --> 00:08:31.070
+distribution. So we have also discussed about basically like
+
+00:08:31.070 --> 00:08:34.110
+a one standard deviation, two standard deviation and then
+
+00:08:34.110 --> 00:08:37.470
+three standard deviation and we have also seen that that how
+
+00:08:37.470 --> 00:08:41.130
+many how much percentage of the data will come inside a one
+
+00:08:41.130 --> 00:08:45.270
+normal distribution and then two and then three right so
+
+00:08:45.270 --> 00:08:47.710
+three is going to cover almost each and everything plus we
+
+00:08:47.710 --> 00:08:51.050
+have seen a formula as well of a normal distribution now on
+
+00:08:51.050 --> 00:08:54.670
+top of the same thing let's talk about a standard normal
+
+00:08:54.670 --> 00:08:58.210
+distribution so there is a minor difference or not a minor
+
+00:08:58.210 --> 00:09:01.310
+one i would say a definition wide so yes this is a major
+
+00:09:01.310 --> 00:09:04.810
+difference you all will be able to find out between a
+
+00:09:04.810 --> 00:09:09.070
+standard normal distribution and a normal distribution so in
+
+00:09:09.070 --> 00:09:12.810
+case of normal distribution so when we say normal
+
+00:09:12.810 --> 00:09:18.270
+distribution nd let's suppose so your mu which is a mean
+
+00:09:18.270 --> 00:09:22.250
+right which is basically mean again i can't write in this
+
+00:09:22.250 --> 00:09:26.070
+manner so it should not be like equal to yeah
+
+00:09:29.400 --> 00:09:32.860
+so in case of a normal distribution in case of a normal
+
+00:09:32.860 --> 00:09:41.560
+distribution so basically your mu or mean can be mean can be
+
+00:09:41.560 --> 00:09:46.340
+anything right so it can range in between like a infinity to
+
+00:09:46.340 --> 00:09:49.760
+infinity minus infinity to positive infinity right and your
+
+00:09:49.760 --> 00:09:52.960
+standard deviation can be anything anything means literally
+
+00:09:52.960 --> 00:09:56.780
+anything any number it can be right so mean can be any
+
+00:09:56.780 --> 00:10:00.220
+number and then standard deviation can be any number this is
+
+00:10:00.220 --> 00:10:04.580
+what we have seen already now so so in case of a standard
+
+00:10:04.580 --> 00:10:08.720
+normal distribution the difference between nd and sn d
+
+00:10:08.720 --> 00:10:11.880
+basically standard normal distribution you will be able to
+
+00:10:11.880 --> 00:10:16.260
+find out that here mean is always going to be zero and
+
+00:10:16.260 --> 00:10:20.120
+standard distribution is always going to be sorry standard
+
+00:10:20.120 --> 00:10:23.840
+deviation always is going to be one right so this is what
+
+00:10:23.840 --> 00:10:27.280
+you will be able to find out as a difference on a very high
+
+00:10:27.280 --> 00:10:29.360
+level normal distribution mean can be anything standard
+
+00:10:29.360 --> 00:10:32.680
+deviation can be anything but yeah in case of a standard
+
+00:10:32.680 --> 00:10:36.740
+normal distribution so mean is going to be zero and standard
+
+00:10:36.740 --> 00:10:40.520
+deviation is going to be basically one and obviously data
+
+00:10:40.520 --> 00:10:43.280
+will be distributed and technically this is also going to
+
+00:10:43.280 --> 00:10:47.100
+form a bell curve right bell curve now the question arises
+
+00:10:47.100 --> 00:10:52.100
+over here that we have a normal distribution and obviously i
+
+00:10:52.100 --> 00:10:55.600
+will be able to check our symmetricity of the data uh just
+
+00:10:55.600 --> 00:10:58.740
+by looking into a bell curve right bell-save curve that my
+
+00:10:58.740 --> 00:11:02.220
+data is evenly distributed on like a you know both or not
+
+00:11:02.220 --> 00:11:07.160
+across a mean or not so when we can observe this entire
+
+00:11:07.160 --> 00:11:11.720
+things just by using a normal distribution then why we are
+
+00:11:11.720 --> 00:11:16.600
+talking about a standard normal distribution that's a second
+
+00:11:16.600 --> 00:11:19.920
+question which should come in your mind by the way yes any
+
+00:11:19.920 --> 00:11:27.000
+idea so why snd when we already have a nd yes anyone in a
+
+00:11:27.000 --> 00:11:30.920
+chat please anyone who could like who can try to like answer
+
+00:11:30.920 --> 00:11:35.360
+to this question so why do we even need a standard normal
+
+00:11:35.360 --> 00:11:38.440
+distribution when we already have a normal distribution
+
+00:11:38.440 --> 00:11:39.560
+because
+
+00:11:43.560 --> 00:11:47.580
+here the curve is going to be this and even over here the
+
+00:11:47.580 --> 00:11:51.620
+curve is going to be this yeah so any idea guys no idea
+
+00:11:51.620 --> 00:11:53.440
+anyone yes
+
+00:12:03.160 --> 00:12:08.060
+okay so let's take example yeah so i think uh no one is
+
+00:12:08.060 --> 00:12:11.260
+having any idea uh so to cover 100 of the data no even
+
+00:12:11.260 --> 00:12:13.940
+normal distribution is covering 100 data right so data
+
+00:12:13.940 --> 00:12:15.940
+coverage wise both is covering 100 percent of the data by
+
+00:12:15.940 --> 00:12:21.640
+the way answer is wrong so let's take a scenario right let's
+
+00:12:21.640 --> 00:12:25.320
+take a scenario so uh let's suppose there are two class
+
+00:12:25.320 --> 00:12:30.680
+there is a class a section right and then there is a class
+
+00:12:30.680 --> 00:12:36.260
+let's say b section okay so we have two classes now uh you
+
+00:12:36.260 --> 00:12:40.020
+are going to take some sort of a test for exam and then here
+
+00:12:40.020 --> 00:12:47.080
+on an average students are getting 70 as a mark the standard
+
+00:12:47.080 --> 00:12:52.920
+deviation is basically uh going to be let's say 10 right and
+
+00:12:52.920 --> 00:13:02.840
+student have scored basically 80. yes okay now in class b
+
+00:13:02.840 --> 00:13:09.620
+right in class b average is going to be let's say 500 right
+
+00:13:09.620 --> 00:13:15.120
+and standard deviation is going to be let's say uh 50 over
+
+00:13:15.120 --> 00:13:17.200
+here and then student score
+
+00:13:20.470 --> 00:13:26.510
+legal student is technically 5 of a again this situation you
+
+00:13:26.510 --> 00:13:29.370
+know looks hypothetical i know this situation like looks
+
+00:13:29.370 --> 00:13:34.570
+hypothetical over here but you have to find out just look
+
+00:13:34.570 --> 00:13:38.290
+into class a and class b right data is there mean is there
+
+00:13:38.290 --> 00:13:41.770
+standard deviation is there and a particular individual
+
+00:13:41.770 --> 00:13:47.470
+student score is there from class a from class b so again i
+
+00:13:47.470 --> 00:13:50.330
+have this uh student score which is average level to me
+
+00:13:50.330 --> 00:13:54.490
+particular like a you know student school now if i'm going
+
+00:13:54.490 --> 00:13:59.770
+to ask you a question that who have performed better a
+
+00:13:59.770 --> 00:14:04.190
+student from a class a or student from a class b who have
+
+00:14:04.190 --> 00:14:09.730
+performed better what will be your answer any idea guys who
+
+00:14:09.730 --> 00:14:13.630
+have performed better student from class a have performed
+
+00:14:13.630 --> 00:14:16.950
+better or student from class b have performed better yes
+
+00:14:23.480 --> 00:14:31.910
+alok is saying b how you can say that so what is a backup i
+
+00:14:31.910 --> 00:14:34.990
+mean like based on what facts you are trying to say that
+
+00:14:34.990 --> 00:14:38.690
+that you know class b student have performed better as
+
+00:14:38.690 --> 00:14:40.850
+compared to class a yes
+
+00:14:43.220 --> 00:14:48.840
+any other anyone else who's having some other guess maybe a
+
+00:14:48.840 --> 00:14:51.620
+have performed better b have performed better maybe both
+
+00:14:51.620 --> 00:14:56.240
+have performed equal i don't know standard deviation is 10
+
+00:14:56.240 --> 00:15:01.080
+for b where a is 10 so how it is going to tell you about the
+
+00:15:01.080 --> 00:15:01.820
+individual student
+
+00:15:06.600 --> 00:15:10.020
+b has higher mean so what okay
+
+00:15:12.680 --> 00:15:19.060
+so basically see uh both of this data is basically moving on
+
+00:15:19.060 --> 00:15:23.560
+a very very different scale right very different scale so
+
+00:15:23.560 --> 00:15:26.100
+unless and until you are not going to bring down this data
+
+00:15:26.100 --> 00:15:30.880
+uh in a normalized scale you will not be able to tell a
+
+00:15:30.880 --> 00:15:35.040
+difference as simple as that right so you will not be able
+
+00:15:35.040 --> 00:15:37.920
+to basically tell the differences between class a and class
+
+00:15:37.920 --> 00:15:41.420
+b it will be a wild guess in that situation yeah it is going
+
+00:15:41.420 --> 00:15:46.780
+to be a wild guess so keeping that in our mind uh so as of
+
+00:15:46.780 --> 00:15:52.020
+now okay one more question uh so our data is available in
+
+00:15:52.020 --> 00:15:56.220
+which state in a normal distribution state or standard
+
+00:15:56.220 --> 00:16:00.600
+normal distribution state the data which has been given to
+
+00:16:00.600 --> 00:16:04.160
+me is available in which state? normal distribution state or
+
+00:16:04.160 --> 00:16:07.040
+standard normal distribution state i think i think all of
+
+00:16:07.040 --> 00:16:09.820
+you must be able to answer this question normal distribution
+
+00:16:09.820 --> 00:16:14.020
+right yes yeah because in case of normal distribution so
+
+00:16:14.020 --> 00:16:17.760
+basically you know uh your mean can be anything your
+
+00:16:17.760 --> 00:16:20.400
+standard deviation can be anything which i can see mean is
+
+00:16:20.400 --> 00:16:22.920
+70 standard deviation is 10 mean is 500 standard deviation
+
+00:16:22.920 --> 00:16:26.460
+is 50. in case of standard normal distribution mean should
+
+00:16:26.460 --> 00:16:30.020
+be zero always and your standard deviation should be one
+
+00:16:30.020 --> 00:16:36.820
+always right that's a philosophy okay now so uh here if
+
+00:16:36.820 --> 00:16:39.480
+someone is going to ask me a question that who has performed
+
+00:16:39.480 --> 00:16:43.300
+better i won't be able to give an answer straight forward
+
+00:16:43.300 --> 00:16:46.300
+because scale itself is different so obviously unless and
+
+00:16:46.300 --> 00:16:51.240
+until i'm not going to bring this data to a same scale uh i
+
+00:16:51.240 --> 00:16:56.420
+i will not be able to give a answer very simple now so to do
+
+00:16:56.420 --> 00:17:00.480
+that i have to bring down all of this data to a standard
+
+00:17:00.480 --> 00:17:04.380
+scale right to a standard scale and this is where the z
+
+00:17:04.380 --> 00:17:09.040
+score formula comes into picture so it says that that data
+
+00:17:09.040 --> 00:17:14.480
+minus its mean divided by a standard deviation so basically
+
+00:17:14.480 --> 00:17:18.740
+what i can do i can help you out in terms of shifting your
+
+00:17:18.740 --> 00:17:23.520
+data or in terms of basically making your entire data
+
+00:17:23.520 --> 00:17:27.860
+standard so entire normal distribution normally distributed
+
+00:17:27.860 --> 00:17:32.780
+data into a standard normal distribution i can do that you
+
+00:17:32.820 --> 00:17:35.620
+know i can do that so data minus mu so we are shifting the
+
+00:17:35.620 --> 00:17:38.880
+data divided by standard deviation so this is a z score
+
+00:17:38.880 --> 00:17:42.580
+formula which has been derived so basically it shifts the
+
+00:17:42.580 --> 00:17:45.920
+data as you can see data minus mu data minus average so we
+
+00:17:45.920 --> 00:17:50.040
+are trying to basically sift the data okay fine so we are
+
+00:17:50.040 --> 00:17:55.000
+going to basically sift the data now if we are trying to
+
+00:17:55.000 --> 00:17:59.380
+sift this data right if we are trying to shift this data so
+
+00:17:59.380 --> 00:18:00.860
+like
+
+00:18:02.490 --> 00:18:04.430
+how we are going to evaluate the data we are going to sift
+
+00:18:04.430 --> 00:18:08.670
+the data or how we are going to do an assessment uh that you
+
+00:18:08.670 --> 00:18:12.310
+know uh who is who is going to basically perform better so
+
+00:18:12.310 --> 00:18:17.270
+let's do it yeah let's do it so here uh z is what so z for
+
+00:18:17.270 --> 00:18:21.050
+student score this one so data is what 80 which has been
+
+00:18:21.050 --> 00:18:25.410
+given to me minus minus mu mu is what 70 which is a mean so
+
+00:18:25.410 --> 00:18:29.610
+80 minus 70 divided by standard deviation 10. so this is for
+
+00:18:29.610 --> 00:18:34.550
+class a z a right z b is going to be what so z b is going to
+
+00:18:34.550 --> 00:18:42.150
+be a data which is 550 minus 500 which is a mean divided by
+
+00:18:42.150 --> 00:18:48.190
+a standard deviation now tell me what is our value of z a
+
+00:18:48.190 --> 00:18:55.270
+and what is our value of z b yes now tell me that i think
+
+00:18:55.270 --> 00:18:58.750
+it's a simple math so do the math and tell me yeah
+
+00:19:11.840 --> 00:19:18.960
+so z a is going to be 1 and z b is going to to be 1 okay
+
+00:19:18.960 --> 00:19:26.280
+that's interesting right so z a is going to be 1 and z a
+
+00:19:26.280 --> 00:19:34.060
+right is also a 1 okay so z score that we are able to
+
+00:19:34.060 --> 00:19:38.840
+calculate is basically 1 and 1 let me write it down over
+
+00:19:38.840 --> 00:19:47.200
+here 1 and 1 fine right now what is the conclusion now tell
+
+00:19:47.200 --> 00:19:48.440
+me yeah
+
+00:19:58.450 --> 00:20:01.630
+i think i think now we can get into a conclusion right so
+
+00:20:05.380 --> 00:20:09.220
+can i say that uh so both the student have performed equally
+
+00:20:09.220 --> 00:20:15.160
+well in both the classes can i say that yes can i say that
+
+00:20:15.160 --> 00:20:19.380
+that comparatively because their scales was different right
+
+00:20:19.380 --> 00:20:23.240
+but from class a and class b student a student b let's say
+
+00:20:23.240 --> 00:20:26.920
+so they both have performed equally well in their respective
+
+00:20:26.920 --> 00:20:31.080
+class okay fine let's take another data fine let's take
+
+00:20:31.080 --> 00:20:34.520
+another data so again i'm going to make it as a student a
+
+00:20:34.520 --> 00:20:38.300
+let's suppose fine so i'm taking another data student a data
+
+00:20:38.300 --> 00:20:44.420
+so here student a wise mean is basically mean is basically
+
+00:20:44.420 --> 00:20:47.960
+let's say 70 uh standard deviation deviation
+
+00:20:51.350 --> 00:20:58.210
+is basically 10 and score score is what score is 9 so
+
+00:20:58.210 --> 00:21:02.930
+student a now we have a student b let's say and uh its mean
+
+00:21:02.930 --> 00:21:08.850
+is what so student b mean is 500 this is technically 50 and
+
+00:21:08.850 --> 00:21:12.850
+uh this is technically 550 so i've just changed the small
+
+00:21:12.850 --> 00:21:16.330
+number over here so instead of like taking 80 i have just
+
+00:21:16.330 --> 00:21:23.010
+taken 90 yeah i've just taken 90 now tell me z a for student
+
+00:21:23.010 --> 00:21:27.230
+a and z b for a student b so for student b it is going to be
+
+00:21:27.230 --> 00:21:29.850
+same i mean i have not changed anything over here i have
+
+00:21:29.850 --> 00:21:33.790
+just changed over here so what will be a z score for a
+
+00:21:33.790 --> 00:21:41.360
+student a yes so z score for a student a this time is going
+
+00:21:41.360 --> 00:21:44.820
+to be two right now tell me what is the conclusion you are
+
+00:21:44.820 --> 00:21:46.340
+going to derive from this one
+
+00:21:58.890 --> 00:22:04.430
+a marks is better yeah that's true but those who are not
+
+00:22:04.430 --> 00:22:06.910
+able to understand so let me tell you how you are going to
+
+00:22:06.910 --> 00:22:10.750
+interpret this z a or z b fine how to interpret this number
+
+00:22:10.750 --> 00:22:15.230
+basically z a is equal to two z b is equals to one what is
+
+00:22:15.230 --> 00:22:17.650
+the actual meaning of this one let me tell you that
+
+00:22:17.650 --> 00:22:22.050
+particular part so the meaning of this one and this one says
+
+00:22:22.050 --> 00:22:27.370
+that that student a is two standard deviation above the
+
+00:22:27.370 --> 00:22:33.350
+average student a is two standard deviation see last time i
+
+00:22:33.350 --> 00:22:36.590
+told you that whenever you are going to form a bell curve
+
+00:22:36.590 --> 00:22:41.510
+right there will be basically mu mu is equal to zero in case
+
+00:22:41.510 --> 00:22:41.930
+of z b z a is equal to zero in case of z b z a is equal to
+
+00:22:41.930 --> 00:22:44.410
+zero in case of z b z a standard normal distribution this is
+
+00:22:44.410 --> 00:22:47.170
+what we are trying to achieve it with the help of z right so
+
+00:22:47.170 --> 00:22:50.370
+mu is going to be zero standard deviation is going to be one
+
+00:22:50.370 --> 00:22:53.810
+two and three and like i have discussed in in case of normal
+
+00:22:53.810 --> 00:22:56.910
+distribution it is like you know relatively you can take it
+
+00:22:56.910 --> 00:22:58.830
+but yeah in case of a standard normal distribution it was
+
+00:22:58.830 --> 00:23:00.770
+meant for it was actually meant for standard normal
+
+00:23:00.770 --> 00:23:04.650
+distribution so one uh like a standard deviation to a
+
+00:23:04.650 --> 00:23:06.630
+standard deviation and three standard deviation on right
+
+00:23:06.630 --> 00:23:10.050
+hand side as well as one two and three so where you will be
+
+00:23:10.050 --> 00:23:14.130
+able to get mu is equals to one so here the standard
+
+00:23:14.130 --> 00:23:16.670
+deviation is equals to one and then it's a two standard
+
+00:23:16.670 --> 00:23:18.570
+deviation and this is a three standard deviation similarly
+
+00:23:18.570 --> 00:23:24.090
+on other side fine so when i say that z a is equals to two
+
+00:23:24.090 --> 00:23:28.190
+listen carefully when i say z a is equal to two it simply
+
+00:23:28.190 --> 00:23:33.330
+means that that student a is two standard deviation above
+
+00:23:33.330 --> 00:23:36.630
+the average what is the average average is this right this
+
+00:23:36.630 --> 00:23:39.510
+is my average mu is equal to zero this is my average by the
+
+00:23:39.510 --> 00:23:43.870
+way so student a is two standard deviation above the average
+
+00:23:43.870 --> 00:23:48.690
+so maybe somewhere here right and student b is basically
+
+00:23:48.690 --> 00:23:52.750
+student b is basically one standard deviation above the
+
+00:23:52.750 --> 00:23:56.010
+average so one standard deviation above the average yeah
+
+00:23:56.010 --> 00:24:01.090
+above the average so basically this is what it means in a
+
+00:24:01.090 --> 00:24:05.830
+layman term i would say right in a layman term so here you
+
+00:24:05.830 --> 00:24:09.090
+can think in this particular manner that this is one
+
+00:24:09.090 --> 00:24:11.930
+standard deviation above the average or two one standard
+
+00:24:11.930 --> 00:24:12.550
+deviation above the average so this is one standard means it
+
+00:24:12.550 --> 00:24:16.830
+is going to maybe occupy a less area right less area as
+
+00:24:16.830 --> 00:24:19.470
+compared to this one so this one is going to occupy more
+
+00:24:19.470 --> 00:24:22.790
+area so basically i can say that that performance of the
+
+00:24:22.790 --> 00:24:27.110
+student a which is like a z score is equal to 2 is better
+
+00:24:27.110 --> 00:24:32.050
+right it's technically better right and as compared to the
+
+00:24:32.050 --> 00:24:36.150
+person b over here so whenever there will be uh there is a
+
+00:24:36.150 --> 00:24:38.950
+entrance exam right a government of india used to take or
+
+00:24:38.950 --> 00:24:41.650
+any other exam happens across the world a similar kind of
+
+00:24:41.650 --> 00:24:45.930
+exam for example iit je or need or like any other exams
+
+00:24:45.930 --> 00:24:49.710
+right when happens everywhere you will be able to find out
+
+00:24:49.710 --> 00:24:53.210
+this z kind of a formula the formula that we have we are
+
+00:24:53.210 --> 00:24:56.070
+talking about right everywhere right every college entrance
+
+00:24:56.070 --> 00:24:59.290
+exam you will be able to see the same thing every employment
+
+00:24:59.290 --> 00:25:01.910
+employee performance comparison across a different
+
+00:25:01.910 --> 00:25:04.670
+department because every department will be having their own
+
+00:25:04.670 --> 00:25:09.850
+benchmark their own scale right salary comparison across our
+
+00:25:09.850 --> 00:25:12.150
+different different industries because every industry is
+
+00:25:12.150 --> 00:25:15.250
+different right so you can't like you know compare the it
+
+00:25:15.250 --> 00:25:17.650
+industry with the manufacturing industry it's different
+
+00:25:17.650 --> 00:25:21.750
+their pay scale is completely different right again inside a
+
+00:25:21.750 --> 00:25:23.710
+particular industry itself there will be a multiple
+
+00:25:23.710 --> 00:25:26.370
+different different kind of rules you will be able to find
+
+00:25:26.370 --> 00:25:28.910
+out again their salary derivation is going to be completely
+
+00:25:28.910 --> 00:25:31.790
+different it moves completely in a different direction so
+
+00:25:31.790 --> 00:25:35.770
+you have to do a comparison right so as compared to this so
+
+00:25:35.770 --> 00:25:38.170
+you can't do number to number comparison because that
+
+00:25:38.170 --> 00:25:41.610
+comparison is going to be wrong all the time right so it's
+
+00:25:41.610 --> 00:25:45.690
+it's like you know you you can't do a comparison of
+
+00:25:45.690 --> 00:25:52.070
+currencies even right for example if rupees is at 95.6 or 7
+
+00:25:52.070 --> 00:25:57.950
+and for one usd so just because rupees number is big it's 95
+
+00:25:57.950 --> 00:26:02.690
+on a scale on your scale it's better than usd i believe some
+
+00:26:02.690 --> 00:26:05.370
+people were doing that comparison over the internet which
+
+00:26:05.370 --> 00:26:08.530
+went viral i don't want to take name over there right that
+
+00:26:08.530 --> 00:26:12.850
+you know 95 is bigger than one so obviously we are better
+
+00:26:12.850 --> 00:26:16.850
+but yes i mean like that's like so this is the kind of a
+
+00:26:16.850 --> 00:26:20.890
+comparison i'm talking about over here that 550 is bigger as
+
+00:26:20.890 --> 00:26:23.630
+compared to this particular score doesn't mean that 550 is
+
+00:26:23.630 --> 00:26:28.430
+better right doesn't mean that 550 is better as we are able
+
+00:26:28.430 --> 00:26:32.230
+to find out that this is eventually better as compared to
+
+00:26:32.230 --> 00:26:37.090
+550 even though 90 as a number it's small so to do this kind
+
+00:26:37.090 --> 00:26:40.170
+of a comparison what you have to do you have to decompose or
+
+00:26:40.170 --> 00:26:43.090
+you have to basically bring down all the data into a same
+
+00:26:43.090 --> 00:26:46.910
+scale and this is where this s and d standard normal
+
+00:26:46.910 --> 00:26:50.010
+distribution comes into picture which eventually you will
+
+00:26:50.010 --> 00:26:53.150
+end up using everywhere in every machine learning algorithm
+
+00:26:53.150 --> 00:26:56.110
+implementation so before you know sending a data for a
+
+00:26:56.110 --> 00:26:58.850
+training by using some of those machine learning algorithm
+
+00:26:58.850 --> 00:27:02.850
+that we are going to study you will eventually decompose
+
+00:27:02.850 --> 00:27:06.570
+those data into a standard normal distribution you will try
+
+00:27:06.570 --> 00:27:08.970
+to bring down those data into a standard normal distribution
+
+00:27:08.970 --> 00:27:11.550
+and you will have a distribution so that parameter will be
+
+00:27:11.550 --> 00:27:15.210
+able to learn learn in a exact way the pattern which data is
+
+00:27:15.210 --> 00:27:20.250
+trying to showcase is it making sense to all of us the real
+
+00:27:20.250 --> 00:27:24.770
+life use cases yeah so whether it's a currency comparison
+
+00:27:24.770 --> 00:27:27.450
+whether it's a college entrance exam comparison whether it's
+
+00:27:27.450 --> 00:27:30.430
+a salary comparison across the industry or within the same
+
+00:27:30.430 --> 00:27:32.990
+industry across the department right a stock market
+
+00:27:32.990 --> 00:27:36.030
+comparison medical test comparison machine learning
+
+00:27:36.030 --> 00:27:39.250
+algorithms everywhere right everywhere you will be able to
+
+00:27:39.250 --> 00:27:42.550
+see this kind of things a standard normal distribution to
+
+00:27:42.550 --> 00:27:45.030
+bring down area to a standard normal distribution z is a
+
+00:27:45.030 --> 00:27:48.310
+formula which has been derived and z score is something that
+
+00:27:48.310 --> 00:27:51.450
+we try to always use it in terms of you know understanding
+
+00:27:51.450 --> 00:27:56.490
+these entire like things in a step-by-step manner okay so
+
+00:27:56.490 --> 00:28:00.250
+fine let's try to understand a little bit more about this
+
+00:28:00.250 --> 00:28:04.450
+one right so a little bit more about this one so z score
+
+00:28:04.450 --> 00:28:08.610
+right z score so how you are going to basically do a
+
+00:28:08.610 --> 00:28:13.670
+interpretation with respect to a z score i would say so here
+
+00:28:13.670 --> 00:28:17.410
+what is what is the meaning of this z score let me tell you
+
+00:28:17.410 --> 00:28:20.230
+that so z score you
+
+00:28:23.240 --> 00:28:26.440
+will be able to see that that you know so
+
+00:28:37.220 --> 00:28:38.360
+z
+
+00:28:40.410 --> 00:28:41.930
+score and
+
+00:28:44.710 --> 00:28:49.310
+its meaning yeah so zero let's suppose your z score is zero
+
+00:28:49.310 --> 00:28:53.050
+so exactly zero means exactly like average so whatsoever
+
+00:28:53.050 --> 00:28:57.370
+score that what number which has been given is equal to a
+
+00:28:57.370 --> 00:29:03.930
+mean so equal to i can say equal to average or mean you can
+
+00:29:03.930 --> 00:29:06.970
+say right plus one above
+
+00:29:10.300 --> 00:29:15.520
+average obviously on a positive side uh plus two right so
+
+00:29:15.520 --> 00:29:19.620
+very good very good plus
+
+00:29:22.500 --> 00:29:25.400
+three i can say exceptional comparison
+
+00:29:29.180 --> 00:29:33.480
+wise right uh minus one below
+
+00:29:37.890 --> 00:29:43.800
+two poor minus three extremely poor so
+
+00:29:48.850 --> 00:29:51.270
+this is how as a layman you will be able to do a
+
+00:29:51.270 --> 00:29:54.170
+interpretation of the z score and then you can compare two
+
+00:29:54.170 --> 00:29:57.630
+situation or many situations over there so two situation you
+
+00:29:57.630 --> 00:30:00.570
+can compare together and then based on the score let's
+
+00:30:00.570 --> 00:30:03.610
+suppose one situation is giving you minus one and another
+
+00:30:03.610 --> 00:30:07.250
+situation is giving you positive one so in this way you will
+
+00:30:07.250 --> 00:30:09.990
+be able to get into a conclusion that which situation is
+
+00:30:09.990 --> 00:30:13.610
+better and worst and then whatsoever your business-wise
+
+00:30:13.610 --> 00:30:14.170
+verdict is going to be better or worse and then you can
+
+00:30:14.170 --> 00:30:14.390
+compare that to the situation that which situation is going
+
+00:30:14.390 --> 00:30:14.850
+to be worse and then it is going to be better and then it is
+
+00:30:14.850 --> 00:30:16.850
+going to be so you will be able to take that particular
+
+00:30:16.850 --> 00:30:20.590
+verdict yeah you will be able to take a take that particular
+
+00:30:20.590 --> 00:30:24.810
+verdict now let me take one example so let's say there is a
+
+00:30:24.810 --> 00:30:29.870
+person living in usa fine there is a person living in usa so
+
+00:30:29.870 --> 00:30:37.230
+a person in usa and he is receiving let's say uh five
+
+00:30:40.590 --> 00:30:45.090
+thousand dollars five thousand usd yeah five thousand usd
+
+00:30:45.090 --> 00:30:53.650
+for fine and then there is a person in India okay and this
+
+00:30:53.650 --> 00:31:00.310
+person is technically receiving let's say on an average you
+
+00:31:00.310 --> 00:31:03.830
+can say so 50000
+
+00:31:08.090 --> 00:31:14.210
+INR per month
+
+00:31:14.210 --> 00:31:19.590
+now so 5000 USD you can just do a calculation so I think
+
+00:31:19.590 --> 00:31:25.610
+rupees is at what 95.7 which I have checked last time 5.7
+
+00:31:25.610 --> 00:31:38.450
+into 5000 so 478500 so 478500 okay so this is basically a
+
+00:31:38.450 --> 00:31:41.890
+person in USA drawing as a salary per month and this is
+
+00:31:41.890 --> 00:31:45.710
+basically a person in India now I have to basically check
+
+00:31:45.710 --> 00:31:50.450
+that you know who is on a positive side by the way so here
+
+00:31:50.450 --> 00:31:54.330
+person in USA so obviously I should know about like a mean
+
+00:31:54.330 --> 00:31:57.110
+basically like you know average salary so what is the
+
+00:31:57.110 --> 00:31:59.970
+average salary that US people used to get so let's say
+
+00:31:59.970 --> 00:32:08.470
+average salary is 150K so 150K divided by so 150K divided by
+
+00:32:08.470 --> 00:32:14.630
+12 so basically this is the average salary and into 95.7
+
+00:32:14.630 --> 00:32:20.230
+right so in India this is the same currency 1196250 so
+
+00:32:20.230 --> 00:32:24.670
+1196250 in
+
+00:32:24.670 --> 00:32:27.470
+INR so I am just trying to convert them do the currency
+
+00:32:27.470 --> 00:32:30.830
+conversion over here so this is the average that you are
+
+00:32:30.830 --> 00:32:35.310
+getting on an average your person is getting this much this
+
+00:32:35.310 --> 00:32:39.010
+is the average and then let's say there is a standard
+
+00:32:39.010 --> 00:32:42.790
+deviation right so a standard deviation which is like you
+
+00:32:42.790 --> 00:32:45.150
+know let's
+
+00:32:46.590 --> 00:32:50.590
+I am keeping 500000 as a standard deviation. Right now here
+
+00:32:50.590 --> 00:32:57.090
+so average is technically right so average is let's say
+
+00:32:57.090 --> 00:33:04.650
+55000 INR which is not for India at least it's very low and
+
+00:33:04.650 --> 00:33:13.330
+standard deviation is let's say like 10000 10000 yeah 10000
+
+00:33:13.330 --> 00:33:17.490
+now tell me who is better person A person B a person in USA
+
+00:33:17.490 --> 00:33:18.390
+person in India.
+
+00:33:21.160 --> 00:33:21.640
+Right una I think so but in India its a little bit more
+
+00:33:21.640 --> 00:33:24.440
+expensive. Compared to a given demographics I
+
+00:33:28.730 --> 00:33:32.670
+think this topic is for semester in engineering yeah I mean
+
+00:33:32.670 --> 00:33:34.950
+like even in engineering so you will end up you know
+
+00:33:34.950 --> 00:33:37.590
+learning all of these thingsplanting
+
+00:33:41.200 --> 00:33:43.160
+to bring a lot of courses even for the engineering student
+
+00:33:43.160 --> 00:33:47.040
+BCA and MCA and BBA students basically because I believe
+
+00:33:47.040 --> 00:33:51.600
+like this is where I should go and I should you know do
+
+00:33:51.600 --> 00:33:56.160
+upskilling they literally need a upskilling because the kind
+
+00:33:56.160 --> 00:33:58.840
+of education that they are getting. so i don't think that
+
+00:33:58.840 --> 00:34:02.740
+it's up to the mark but yeah forget about that yeah
+
+00:34:05.270 --> 00:34:08.250
+tell me which one is better so person in usa or person in
+
+00:34:08.250 --> 00:34:09.630
+india yes
+
+00:34:14.400 --> 00:34:21.660
+everyone who is better so what is a zed for usa and what is
+
+00:34:21.660 --> 00:34:25.860
+a zed for india india
+
+00:34:29.320 --> 00:34:34.020
+is better okay yeah i have chosen i have basically given
+
+00:34:34.020 --> 00:34:36.540
+that kind of number over there right but yes this is where
+
+00:34:36.540 --> 00:34:40.800
+you can try to basically use it so usa is minus 1.4 okay
+
+00:34:40.800 --> 00:34:44.200
+it's coming as minus 1.4 and yeah this is what i have
+
+00:34:44.200 --> 00:34:47.180
+mentioned over there on a scale and it will always go till
+
+00:34:47.180 --> 00:34:51.680
+three right three positive and negative and india is minus 0
+
+00:34:51.680 --> 00:34:57.100
+.5 so i can say that yes india is better right so in in
+
+00:34:57.100 --> 00:35:00.620
+person as per like indian demographics so they are getting a
+
+00:35:00.620 --> 00:35:04.460
+better compensation as compared to a person in a usa so
+
+00:35:04.460 --> 00:35:07.700
+their compensation is not that great as per the usa itself
+
+00:35:07.700 --> 00:35:10.920
+so again this is where we are like you know trying to do a
+
+00:35:10.920 --> 00:35:15.480
+comparison and we are like using basically this zed score
+
+00:35:15.480 --> 00:35:21.560
+right zed score over here now so there is something called
+
+00:35:21.560 --> 00:35:23.800
+as t score there
+
+00:35:27.640 --> 00:35:30.880
+is something called as t score so we already have a zed
+
+00:35:30.880 --> 00:35:34.080
+score and obviously to convert a data into a standard normal
+
+00:35:34.080 --> 00:35:36.760
+distribution and to do a comparison on the same scale so we
+
+00:35:36.760 --> 00:35:39.440
+were using zed score there is something called a zed table
+
+00:35:39.440 --> 00:35:43.240
+that you will also like you know find out maybe i'll try to
+
+00:35:43.240 --> 00:35:46.640
+teach you that part as well uh zed part so zed is having its
+
+00:35:46.640 --> 00:35:49.400
+own story uh by the way and it's been used in multiple
+
+00:35:49.400 --> 00:35:53.020
+places in reality in real life day-to-day life i would say
+
+00:35:53.020 --> 00:35:56.800
+right everywhere so there is something called as a zed score
+
+00:35:56.800 --> 00:36:03.040
+right so here zed score uh you must have seen that that zed
+
+00:36:03.040 --> 00:36:07.140
+score always try to consider mu mu is what mu is a
+
+00:36:07.140 --> 00:36:11.800
+population mean i talked about population and sample in a
+
+00:36:11.800 --> 00:36:15.440
+very first class itself so mu always try to consider
+
+00:36:15.440 --> 00:36:18.220
+basically a population population means once you have an
+
+00:36:18.220 --> 00:36:20.840
+idea about whole data in a particular situation that is
+
+00:36:20.840 --> 00:36:23.980
+called as population in majority of situation populations uh
+
+00:36:23.980 --> 00:36:26.880
+data awareness will not be available or populations data
+
+00:36:26.880 --> 00:36:29.940
+will not be available at all so generally we try to go ahead
+
+00:36:29.940 --> 00:36:33.260
+with the sample data set this is where t comes into picture
+
+00:36:33.260 --> 00:36:36.900
+so zed always says that that i will only work on a
+
+00:36:38.300 --> 00:36:41.480
+population data so once you have an information about a
+
+00:36:41.480 --> 00:36:45.460
+population mean means population average and population
+
+00:36:45.460 --> 00:36:49.880
+standard deviation then only i can work for you otherwise
+
+00:36:49.880 --> 00:36:54.780
+i'm not the like a i'm not like a like a something which you
+
+00:36:54.780 --> 00:36:58.260
+should use by the way this is where t comes into picture t
+
+00:36:58.260 --> 00:37:02.660
+says that that okay so zed is not going to work in that
+
+00:37:02.660 --> 00:37:05.660
+situation but i'm going to help you out and i'm going to
+
+00:37:05.660 --> 00:37:10.100
+work for you right so t y so what is the formula formula
+
+00:37:10.100 --> 00:37:15.080
+says that that a sample mean so sample mean you can try to
+
+00:37:15.080 --> 00:37:19.060
+you know denote it in this particular manner so t says that
+
+00:37:19.060 --> 00:37:22.800
+that sample mean minus no
+
+00:37:24.490 --> 00:37:27.110
+so let me okay
+
+00:37:40.870 --> 00:37:49.850
+yeah so sample mean uh minus basically mu divided by s
+
+00:37:52.050 --> 00:37:53.730
+by root of mu minus mu minus mu minus mu minus mu minus mu
+
+00:37:53.730 --> 00:37:56.810
+minus mu minus mu minus mu minus mu minus mu of n so t says
+
+00:37:56.810 --> 00:37:59.870
+that that okay so wherever you don't have an idea about a
+
+00:37:59.870 --> 00:38:03.150
+standard deviation basically so wherever population is to be
+
+00:38:03.150 --> 00:38:07.870
+specific right not a mu so to be specific so t says that
+
+00:38:07.870 --> 00:38:11.390
+that whenever you don't have any idea about a population
+
+00:38:11.390 --> 00:38:16.810
+standard deviation right in that case i'm going to work zed
+
+00:38:16.810 --> 00:38:20.730
+will work only and only when population standard deviation
+
+00:38:20.730 --> 00:38:24.310
+will be known population standard deviation yeah i think
+
+00:38:24.310 --> 00:38:28.710
+someone has mentioned yeah so t is going to work only in one
+
+00:38:28.710 --> 00:38:31.970
+situation so when population standard deviation is not known
+
+00:38:31.970 --> 00:38:34.010
+so this is where t comes into picture this is the formula
+
+00:38:34.010 --> 00:38:40.990
+right so here this is nothing but a sample mu sample sample
+
+00:38:40.990 --> 00:38:45.110
+mean here population
+
+00:38:50.280 --> 00:38:53.940
+mean here sample a
+
+00:38:56.880 --> 00:39:01.540
+standard deviation and this one is a number of sample
+
+00:39:04.810 --> 00:39:07.730
+which is generally like less than 30 we try to consider
+
+00:39:07.730 --> 00:39:11.710
+right so less than 30 means uh it's basically uh like a
+
+00:39:11.710 --> 00:39:14.910
+sample data greater than 30 means population data generally
+
+00:39:14.910 --> 00:39:18.570
+that's a theory that we try to consider so this is where t
+
+00:39:18.570 --> 00:39:21.330
+score comes into picture and t score is going to help you
+
+00:39:21.330 --> 00:39:24.710
+out in terms of doing the same thing yeah in terms of doing
+
+00:39:24.710 --> 00:39:28.270
+basically the same thing so now let's try to consider one
+
+00:39:28.270 --> 00:39:33.290
+example right so basically there is a coaching institute itj
+
+00:39:33.290 --> 00:39:37.110
+your need right coding institute let's say and their average
+
+00:39:37.110 --> 00:39:41.970
+score their student is getting average score average score
+
+00:39:44.910 --> 00:39:50.110
+is 70 let's say right let's take a number now what you will
+
+00:39:50.110 --> 00:39:55.650
+do so basically you as a independent investigator you will
+
+00:39:55.650 --> 00:40:00.150
+go and you would like to verify that okay the claim which
+
+00:40:00.150 --> 00:40:03.690
+this particular institute is trying to make is correct or
+
+00:40:03.690 --> 00:40:07.770
+not so obviously you can't go and meet all the students even
+
+00:40:07.770 --> 00:40:10.310
+if you will stand outside the gate of that particular
+
+00:40:10.310 --> 00:40:13.890
+institute you will not be able to capture all the students
+
+00:40:13.890 --> 00:40:17.430
+only an institute will be able to provide you the real data
+
+00:40:17.430 --> 00:40:21.830
+but you just as an individual investigator you would like to
+
+00:40:21.830 --> 00:40:24.850
+like you know prove or maybe disapprove this particular part
+
+00:40:24.850 --> 00:40:28.250
+now in the same line what you will do so you will try to
+
+00:40:28.250 --> 00:40:31.850
+collect a data maybe a 25 student data you are going to
+
+00:40:31.850 --> 00:40:35.250
+collect so average score this is the average score so you
+
+00:40:35.250 --> 00:40:35.250
+will try to collect a data so you will try to collect a data
+
+00:40:35.250 --> 00:40:43.490
+so you will try to collect a data so you will try to collect
+
+00:40:43.490 --> 00:40:44.090
+a data so you will try to collect a data so you will try to
+
+00:40:44.090 --> 00:40:44.410
+collect a data so you will try to collect a data so you will
+
+00:40:44.410 --> 00:40:46.600
+try to collect a data so you will try to collect a data so
+
+00:40:46.600 --> 00:40:46.640
+you will try to collect a data so you will try to collect a
+
+00:40:46.640 --> 00:40:46.720
+data so you will try to collect a data so you will try to
+
+00:40:46.720 --> 00:40:46.740
+collect a data so you will try to collect a data so you will
+
+00:40:46.740 --> 00:40:46.920
+try to collect a data so you will try to collect a data so
+
+00:40:46.920 --> 00:40:49.660
+you will try to collect a data so you will try to collect a
+
+00:40:49.660 --> 00:40:52.160
+data so you will try to collect a data so you will try to
+
+00:40:52.160 --> 00:40:54.080
+collect a data so you will try to collect a data so you will
+
+00:40:54.080 --> 00:40:58.560
+try to collect a data so you will try to collect a data so
+
+00:40:58.560 --> 00:41:01.540
+you will try to collect a data so you will try to collect a
+
+00:41:01.540 --> 00:41:03.920
+data so you will try to collect a data so you will try to
+
+00:41:03.920 --> 00:41:08.960
+collect a data so you will try told 82 someone told 81
+
+00:41:08.960 --> 00:41:14.140
+likewise 25 record you have in total right now when uh you
+
+00:41:14.140 --> 00:41:17.680
+have compiled that particular 25 record you found out that
+
+00:41:17.680 --> 00:41:26.100
+that sample mean sample mean is basically 75 this is your
+
+00:41:26.100 --> 00:41:29.560
+data so you obviously can calculate right and then sample
+
+00:41:29.560 --> 00:41:34.860
+sample standard deviation is technically 10 yeah sample
+
+00:41:34.860 --> 00:41:38.300
+standard division is basically 10. now you will go and you
+
+00:41:38.300 --> 00:41:43.520
+will try to do a t yeah you will try to do a t so here 75
+
+00:41:43.520 --> 00:41:52.480
+minus 70 divided by what so divided by 25 by root of sorry
+
+00:41:52.480 --> 00:41:53.660
+so
+
+00:41:55.710 --> 00:42:03.710
+sample standard deviation 10 divided by root of 25 so here
+
+00:42:03.710 --> 00:42:05.450
+75 minus 70 is going to be 10. so here 75 minus 70 is going
+
+00:42:05.450 --> 00:42:06.030
+to be 10. so here you can say that yeah you can to be 5
+
+00:42:06.030 --> 00:42:10.570
+divided by 10 and root of 5 so 2 is going to be so
+
+00:42:10.570 --> 00:42:14.990
+technically it is going to be 2.5 so 2.5 is a t you are able
+
+00:42:14.990 --> 00:42:18.310
+to find out now what is the meaning of this the meaning of
+
+00:42:18.310 --> 00:42:22.630
+this simply means that that observed mean is 2.5 standard
+
+00:42:22.630 --> 00:42:30.630
+deviation above from the expected mean yeah expected mean so
+
+00:42:30.630 --> 00:42:35.690
+it simply means that that you know uh the claim which was
+
+00:42:35.690 --> 00:42:39.290
+basically made by a particular institute is correct right
+
+00:42:39.290 --> 00:42:43.690
+they say average score is 70 i even we are able to establish
+
+00:42:43.690 --> 00:42:46.750
+and we are able to even prove that that yes it is 70 or more
+
+00:42:46.750 --> 00:42:49.630
+than 70 i would say right more than 70 so not exactly so i
+
+00:42:49.630 --> 00:42:52.030
+mean like whatsoever claim that institute is trying to make
+
+00:42:52.030 --> 00:42:55.150
+so basically they are trying to make a correct claim if it
+
+00:42:55.150 --> 00:42:57.910
+would have like come to a negative then we would have said
+
+00:42:57.910 --> 00:43:00.350
+that that no it's not going to be a correct claim but in
+
+00:43:00.350 --> 00:43:02.890
+this situation we can make sure that that yes claim is going
+
+00:43:02.890 --> 00:43:05.270
+to be correct so again what we are doing we are just trying
+
+00:43:05.270 --> 00:43:07.870
+to normalize the data and then bringing on a t scale and
+
+00:43:07.870 --> 00:43:11.770
+based on that we are trying to basically check right check
+
+00:43:11.770 --> 00:43:14.890
+over here so this is where again t comes into picture so t
+
+00:43:14.890 --> 00:43:18.270
+is just opposite to a z so wherever z will not work i mean
+
+00:43:18.270 --> 00:43:21.410
+like wherever you don't have any idea about the standard
+
+00:43:21.410 --> 00:43:26.010
+deviation of a population in that case you can just go ahead
+
+00:43:26.010 --> 00:43:30.510
+and try to use a t simple now coming to the next part after
+
+00:43:30.510 --> 00:43:34.130
+t there is a one more term that you should know it's called
+
+00:43:34.130 --> 00:43:38.130
+as p value again almost every algorithm you will end up
+
+00:43:38.130 --> 00:43:43.850
+using it p value now what is this p value by the way so p
+
+00:43:43.850 --> 00:43:48.030
+value always try to tell you that if there is a actual
+
+00:43:48.030 --> 00:43:52.270
+actually no difference or what is a probability of getting
+
+00:43:52.270 --> 00:43:57.030
+this difference or maybe a result by any kind of a chance
+
+00:43:57.030 --> 00:44:00.610
+right so p value is what probability value so if probability
+
+00:44:00.610 --> 00:44:04.450
+is less in that case what in that case chance is less if
+
+00:44:04.450 --> 00:44:08.030
+probability is high close to one i will say chance is high
+
+00:44:08.030 --> 00:44:12.210
+as simple as that so p value generally talks about like you
+
+00:44:12.210 --> 00:44:15.990
+know probability yeah probability over here and there is
+
+00:44:15.990 --> 00:44:19.150
+there is a multiple ways by which you will be able to prove
+
+00:44:19.150 --> 00:44:23.810
+it yeah you will be able to basically prove it so a medical
+
+00:44:23.810 --> 00:44:27.570
+company let's say medical company claims that that medicine
+
+00:44:27.570 --> 00:44:31.390
+lowers the blood pressure that's a claim yes that's a claim
+
+00:44:31.390 --> 00:44:37.390
+now you are trying to run a story uh sorry you you are
+
+00:44:37.390 --> 00:44:39.470
+basically like you know trying to like check this particular
+
+00:44:39.470 --> 00:44:43.110
+story that whether this story this claim is uh correct or
+
+00:44:43.110 --> 00:44:45.630
+this claim is incorrect this is what you are trying to
+
+00:44:45.630 --> 00:44:51.430
+technically prove yeah keeping that in a mind so you found
+
+00:44:51.430 --> 00:44:59.910
+out that uh you know p value is 0.02 hypothetically i'm
+
+00:44:59.910 --> 00:45:02.070
+saying that you for this situation right so you found out
+
+00:45:02.070 --> 00:45:04.590
+that p value i'll come to even a point where we'll try to
+
+00:45:04.590 --> 00:45:08.090
+understand and calculate p value right that point will come
+
+00:45:08.090 --> 00:45:10.410
+in a later stage but before that let's say we are saying
+
+00:45:10.410 --> 00:45:14.650
+that p value is 0.02 what does this means what is the
+
+00:45:14.650 --> 00:45:20.090
+meaning of this value of a p so p value 0.02 simply means
+
+00:45:20.090 --> 00:45:25.250
+that that only there are two percent chance that this result
+
+00:45:25.250 --> 00:45:30.390
+will happen randomly means with 98 percent assurity i can
+
+00:45:30.390 --> 00:45:34.730
+tell you that the claim is correct right if you are able to
+
+00:45:34.730 --> 00:45:38.830
+find out this p value against the claim right so medicine it
+
+00:45:38.830 --> 00:45:41.410
+simply means that yes medicine is going to work for a blood
+
+00:45:41.410 --> 00:45:44.070
+pressure this is what it means this is the meaning of the p
+
+00:45:44.070 --> 00:45:47.870
+value going forward so we'll try to even like discover that
+
+00:45:47.870 --> 00:45:52.430
+how we can try to calculate these like you know a p value
+
+00:45:52.430 --> 00:45:55.570
+and how this calculation at the end of the day it is like
+
+00:45:55.570 --> 00:45:59.450
+going to happen and how we can try to accommodate it in a
+
+00:45:59.450 --> 00:46:04.450
+real way till this point is it fine yes
+
+00:46:12.770 --> 00:46:16.650
+okay now let's go a little bit deeper yeah little bit deeper
+
+00:46:16.650 --> 00:46:20.810
+so we talked about z we talked about t we talked about p
+
+00:46:20.810 --> 00:46:24.110
+we'll have to see a lot of examples over there plus like i
+
+00:46:24.110 --> 00:46:26.650
+said so there is something called a z table so again from
+
+00:46:26.650 --> 00:46:29.810
+there you have to like understand that what is the meaning
+
+00:46:29.810 --> 00:46:31.970
+of this z table what is the value which it is trying to
+
+00:46:31.970 --> 00:46:36.090
+signify is all those things right all these things so there
+
+00:46:36.090 --> 00:46:38.230
+is something called a z table and t table which i'm going to
+
+00:46:38.230 --> 00:46:38.430
+show you in a little bit later so let's go a little bit
+
+00:46:38.430 --> 00:46:39.390
+deeper yeah a little bit deeper right now in next five
+
+00:46:39.390 --> 00:46:42.670
+minute of time right so what the z table says and what t
+
+00:46:42.670 --> 00:46:46.250
+table says it simply says that that and basically this z
+
+00:46:46.250 --> 00:46:50.570
+table and like this p t table has been derived based on the
+
+00:46:50.570 --> 00:46:53.110
+bell curve right the bell shape curve that we are talking
+
+00:46:53.110 --> 00:46:58.110
+about basically so this is this is what you will be able to
+
+00:46:58.110 --> 00:47:01.510
+find out so here let's try to understand it with the help of
+
+00:47:01.510 --> 00:47:04.270
+scenario then only you can you can digest it otherwise it
+
+00:47:04.270 --> 00:47:08.350
+will be very much chaotic so z table let's say we are trying
+
+00:47:08.350 --> 00:47:08.430
+to understand it with the help of scenario then only you can
+
+00:47:08.430 --> 00:47:08.730
+you can digest it otherwise it will be very much chaotic so
+
+00:47:08.730 --> 00:47:09.370
+z table let's say we are trying to understand it with the
+
+00:47:09.370 --> 00:47:12.780
+help of scenario to understand based on the above
+
+00:47:12.780 --> 00:47:16.160
+understanding right so here we have let's suppose a scenario
+
+00:47:16.160 --> 00:47:22.280
+so where average is mean is equal to 70 and standard
+
+00:47:22.280 --> 00:47:28.160
+deviation is going to be 10 and your score is basically 90
+
+00:47:28.160 --> 00:47:31.100
+same situation as above right i'm just trying to replicate
+
+00:47:31.100 --> 00:47:34.100
+the same situation but this time i'll try to show you with t
+
+00:47:34.100 --> 00:47:38.240
+table z table right so here z value is going to be nothing
+
+00:47:38.240 --> 00:47:39.880
+data which is 90 and z table is going to be nothing data
+
+00:47:39.880 --> 00:47:41.300
+which is 90 and z table is going to be minus mu which is 70
+
+00:47:41.300 --> 00:47:44.320
+divided by a standard deviation 10 so which is which is
+
+00:47:44.320 --> 00:47:48.980
+going to be like a 2 so here z score is equal to 2 now as we
+
+00:47:48.980 --> 00:47:53.460
+have already discussed z score 2 means from mean it's a 2
+
+00:47:53.460 --> 00:47:56.140
+mark ahead to a standard deviation ahead this is the meaning
+
+00:47:56.140 --> 00:48:02.340
+of a z score you will be able to find out now let's try to
+
+00:48:02.340 --> 00:48:06.920
+basically understand this with the help of z table so i'll
+
+00:48:06.920 --> 00:48:09.260
+go i'll try to open up a z table here
+
+00:48:12.550 --> 00:48:13.030
+z
+
+00:48:15.560 --> 00:48:20.240
+table pdf let's say so just like a log table right that we
+
+00:48:20.240 --> 00:48:22.920
+generally use in our childhood so you will be able to find
+
+00:48:22.920 --> 00:48:25.920
+out even a z table and which is allowed even inside the exam
+
+00:48:25.920 --> 00:48:30.360
+so basically here you will be able to see a z table minus 3
+
+00:48:30.360 --> 00:48:35.180
+.9 and then till 3.9 positive and and on this side so you
+
+00:48:35.180 --> 00:48:40.560
+will be able to see like 0.1 0.2 0.3 everywhere right again
+
+00:48:40.560 --> 00:48:42.940
+this is the better one standard normal distribution
+
+00:48:42.940 --> 00:48:44.300
+probabilities table so you will be able to find out even a z
+
+00:48:44.300 --> 00:48:46.420
+table and which is allowed so here z is given to you and
+
+00:48:46.420 --> 00:48:50.540
+these are the values on a row these are the value you will
+
+00:48:50.540 --> 00:48:53.500
+be able to find out the other value on a column and these
+
+00:48:53.500 --> 00:48:55.440
+are the value you will be able to find out with respect to
+
+00:48:55.440 --> 00:49:00.260
+the row very very simple right very very simple uh plus uh
+
+00:49:00.260 --> 00:49:04.100
+some alpha value which i will try to like uh bring into a
+
+00:49:04.100 --> 00:49:06.720
+picture bring it into a picture in some time uh basically
+
+00:49:06.720 --> 00:49:10.380
+not not now by the way and here so you will be able to find
+
+00:49:10.380 --> 00:49:14.480
+out a t distribution there is a kite table okay so this is
+
+00:49:14.480 --> 00:49:14.480
+the z table and then this is the z table and what is this z
+
+00:49:14.480 --> 00:49:15.980
+table actually so z is equal to even here itself let's talk
+
+00:49:15.980 --> 00:49:19.920
+about basically this one j table so what this j table
+
+00:49:19.920 --> 00:49:25.600
+actually says so here z is equals to here z is equal to two
+
+00:49:25.600 --> 00:49:29.140
+this is something that we are able to see right this is
+
+00:49:29.140 --> 00:49:34.100
+something that we are able to basically see now so if you
+
+00:49:34.100 --> 00:49:38.200
+will go and look into this j table if you have to actually
+
+00:49:38.200 --> 00:49:39.560
+look into this j table
+
+00:49:44.360 --> 00:49:49.180
+let me zoom in so 2 is basically here so how you should look
+
+00:49:49.180 --> 00:49:52.260
+into this z table by the way so let me show you that part
+
+00:49:52.260 --> 00:49:56.620
+first of all so let's say z value that you have received is
+
+00:49:56.620 --> 00:50:03.220
+equal to the z value that you have received is equals to 2
+
+00:50:03.220 --> 00:50:10.740
+.03 what does this means so basically you are supposed to
+
+00:50:10.740 --> 00:50:16.320
+you know factor it into things like 2.03 is equal to what 2
+
+00:50:16.320 --> 00:50:22.960
+.00 and 0.03 then only it will become 2.03 so this number
+
+00:50:22.960 --> 00:50:27.620
+you have to look here and this number you have to look here
+
+00:50:27.620 --> 00:50:31.320
+on this side right another example so let's say if i'm
+
+00:50:31.320 --> 00:50:38.320
+saying 2.13 2.13 is what so it's equivalent to 2.10 and 0.03
+
+00:50:38.320 --> 00:50:38.920
+then only it will become 2.13 so this number you have to
+
+00:50:38.920 --> 00:50:42.460
+look here on this side 2.13 so you have to look into the 2.1
+
+00:50:42.460 --> 00:50:49.140
+here right so here and then 0.03 on the other side okay so
+
+00:50:49.140 --> 00:50:51.440
+here 2.1 so
+
+00:50:59.500 --> 00:51:06.960
+2.1 right 2.1 and then for 2.13 basically so 2.1 let's say i
+
+00:51:06.960 --> 00:51:10.860
+will be here and then 0.03 maybe i'll have to check above
+
+00:51:10.860 --> 00:51:14.020
+but yeah probably this is going to be the one so for 2.
+
+00:51:14.480 --> 00:51:21.500
+point so for 2.13 my jet table is going to give what 0.9834
+
+00:51:21.500 --> 00:51:29.020
+0.9834 this is what my jet table is going to give it to me
+
+00:51:29.020 --> 00:51:31.780
+now what is the meaning of this one we'll also try to
+
+00:51:31.780 --> 00:51:34.620
+understand this because whatever jet table is giving that's
+
+00:51:34.620 --> 00:51:36.940
+completely fine but there must be some meaning to it right
+
+00:51:36.940 --> 00:51:39.120
+there must be some meaning to it otherwise why we are going
+
+00:51:39.120 --> 00:51:42.080
+to use this particular table we'll try to come to that one
+
+00:51:42.080 --> 00:51:45.040
+but first of all you have to understand how to look into the
+
+00:51:45.040 --> 00:51:48.640
+jet table so first of all you will try to find out a z value
+
+00:51:48.640 --> 00:51:52.400
+whatsoever is the z value right and it will always be in
+
+00:51:52.400 --> 00:51:56.760
+between point minus 3.9 to plus 3.9 it will never go beyond
+
+00:51:56.760 --> 00:52:00.060
+that one right uh till second digit or third digit
+
+00:52:00.060 --> 00:52:02.820
+whatsoever it is but yeah so you will be able to find out
+
+00:52:02.820 --> 00:52:06.240
+then you will come to a table and then from a jet table so
+
+00:52:06.240 --> 00:52:09.560
+you are going to find out a particular value so once you
+
+00:52:09.560 --> 00:52:12.620
+will be able to find out a particular value for a jet table
+
+00:52:12.620 --> 00:52:17.040
+like for example the way i am able to find out then you will
+
+00:52:17.040 --> 00:52:22.300
+get into a conclusion so for example in my situation so z is
+
+00:52:22.300 --> 00:52:26.620
+equal to 2 right z is equal to 2 so 2.00 i can say z equal
+
+00:52:26.620 --> 00:52:30.020
+to 2 means 2.00 right so i just have to look into 2 so
+
+00:52:30.020 --> 00:52:33.140
+wherever 2 is there so i'll just go and 0 0 i'll try to pick
+
+00:52:33.140 --> 00:52:38.080
+it up so here in this situation i would say 2
+
+00:52:42.180 --> 00:52:50.020
+0 0 so obviously this is the number number is what 0.9772 so
+
+00:52:59.650 --> 00:53:04.850
+here as a j table right j table wise 0
+
+00:53:07.250 --> 00:53:13.370
+.9772 this is the number which i am able to get it yeah this
+
+00:53:13.370 --> 00:53:19.170
+is the number i'm able to get it now let's try to you know
+
+00:53:19.170 --> 00:53:26.330
+multiply it by 100 so 97.72 what is the meaning of this one
+
+00:53:26.330 --> 00:53:29.070
+it's basically percentage you can say right so what is the
+
+00:53:29.070 --> 00:53:34.570
+meaning of this one it says that that 97.72 percent student
+
+00:53:34.570 --> 00:53:38.530
+if your score is this and your z is this much right z is
+
+00:53:38.530 --> 00:53:44.450
+this much it simply says that that 97.72 percent students is
+
+00:53:44.450 --> 00:53:51.700
+below you i think when we announce a cat result right for im
+
+00:53:51.700 --> 00:53:55.660
+entrance or jet result can i say that we always try to get
+
+00:53:55.660 --> 00:54:01.560
+99 point some percentile 99.7 percentile right so even if 99
+
+00:54:01.560 --> 00:54:04.660
+.99 someone is getting doesn't mean that we are getting that
+
+00:54:04.660 --> 00:54:08.400
+that they have solved or they have given a correct answer of
+
+00:54:08.400 --> 00:54:12.680
+that may number of question because 99.9575 all these things
+
+00:54:12.680 --> 00:54:16.140
+are not possible what it means right it simply means that
+
+00:54:16.140 --> 00:54:19.560
+that this much percentage of the students are below you this
+
+00:54:19.560 --> 00:54:25.700
+is what it means is it making sense to all of us so it's
+
+00:54:25.700 --> 00:54:30.020
+kind of a normalization that we try to do so 97.72 percent
+
+00:54:30.020 --> 00:54:33.920
+student is basically below your score because if you are
+
+00:54:33.920 --> 00:54:34.480
+going to combine your score with the number of questions
+
+00:54:34.480 --> 00:54:36.100
+that you combine there will be average and there will be a
+
+00:54:36.100 --> 00:54:38.260
+standard deviation of the students right and then there will
+
+00:54:38.260 --> 00:54:41.240
+be your score so based on that i'm able to see that that
+
+00:54:41.240 --> 00:54:48.180
+your score is better so then 97.72 percent student who have
+
+00:54:48.180 --> 00:54:52.200
+appeared in the same exam with you so this is what we are
+
+00:54:52.200 --> 00:54:55.560
+trying to talk about so basically this jet table that we are
+
+00:54:55.560 --> 00:54:58.000
+talking about so it always try to consider what it always
+
+00:54:58.000 --> 00:55:02.560
+try to consider a area so now let me get back to this table
+
+00:55:02.560 --> 00:55:06.460
+once again so here if you will check so this is representing
+
+00:55:06.460 --> 00:55:10.780
+the area this is basically standard normal distribution
+
+00:55:10.780 --> 00:55:14.820
+curve here mu is equals to zero one standard deviation two
+
+00:55:14.820 --> 00:55:16.960
+standard deviation three standard deviation again same on
+
+00:55:16.960 --> 00:55:20.720
+this particular side this whole area is equal to one right
+
+00:55:20.720 --> 00:55:24.520
+if your score is somewhere here it simply means that that
+
+00:55:24.520 --> 00:55:28.240
+you are better than all of these people in this particular
+
+00:55:28.240 --> 00:55:32.200
+area as simple as that right so this is what it is trying to
+
+00:55:32.200 --> 00:55:35.740
+notify this is something that is trying signifies by the way
+
+00:55:35.740 --> 00:55:39.140
+yeah this is what it try to always tells you that you are
+
+00:55:39.140 --> 00:55:42.440
+occupying so probability of your you can you can even talk
+
+00:55:42.440 --> 00:55:45.820
+in terms of probability you can even talk in terms of a area
+
+00:55:45.820 --> 00:55:48.280
+both are basically same it depends upon the interpretation
+
+00:55:48.280 --> 00:55:51.900
+it means that a score of 90 is to a standard deviation above
+
+00:55:51.900 --> 00:55:56.260
+the mean yes this is what you can think but again you need
+
+00:55:56.260 --> 00:56:00.500
+more substantial number to do a interpretation so when you
+
+00:56:00.500 --> 00:56:05.580
+will go and say someone right out there i have received a
+
+00:56:05.580 --> 00:56:10.700
+marks and i'm to a standard deviation above the mean so
+
+00:56:13.100 --> 00:56:16.860
+like are your neighbor going to understand this this line
+
+00:56:16.860 --> 00:56:20.560
+alok or anyone will they will they be able to understand
+
+00:56:23.020 --> 00:56:25.940
+when you go and say that okay so basically i'm to a standard
+
+00:56:25.940 --> 00:56:29.340
+deviation above everyone so i i don't think that they will
+
+00:56:29.340 --> 00:56:32.920
+be able to understand this one right uh anyone anyone will
+
+00:56:32.920 --> 00:56:35.560
+not be able to understand but if when you say that that my
+
+00:56:35.560 --> 00:56:38.900
+percentile is basically 97.72 they will be able to
+
+00:56:38.900 --> 00:56:41.880
+understand that yes this guy is like you know uh in in this
+
+00:56:41.880 --> 00:56:48.920
+top tier basically so 97.72 percent students are below this
+
+00:56:48.920 --> 00:56:51.880
+particular person so this is what you are supposed to do a
+
+00:56:51.880 --> 00:56:56.320
+interpretation yes this is how you should understand it this
+
+00:56:56.320 --> 00:56:58.520
+is where this jet table comes into picture so where it is
+
+00:56:58.520 --> 00:57:00.800
+going to tell you everything in terms of a precise
+
+00:57:00.800 --> 00:57:03.660
+probability so in terms of probability or in terms of area
+
+00:57:03.660 --> 00:57:10.680
+this is going to tell you very very uh simple yeah now so
+
+00:57:10.680 --> 00:57:14.860
+let's consider some other example over here right some other
+
+00:57:14.860 --> 00:57:20.180
+example so let's say uh you know you are working in a it
+
+00:57:20.180 --> 00:57:23.520
+company fine let's talk about salary salary data let's try
+
+00:57:23.520 --> 00:57:27.000
+to consider it so you are working into a it company that's
+
+00:57:27.000 --> 00:57:30.600
+so average salary of the company average
+
+00:57:33.320 --> 00:57:38.960
+salary of the company is let's say 50 000 rupees right a
+
+00:57:38.960 --> 00:57:44.600
+standard deviation is basically 10 000 yeah and your salary
+
+00:57:44.600 --> 00:57:45.760
+is
+
+00:57:49.540 --> 00:57:54.100
+basically 65 000 fine so if you are going to calculate your
+
+00:57:54.100 --> 00:57:55.720
+jet so 65
+
+00:57:58.570 --> 00:58:03.970
+minus 50 000 divided by 10 000 so it's going to be 15 000
+
+00:58:03.970 --> 00:58:08.790
+divided by 10 000 is equal to 1.5 yeah 1.5 okay so my jet is
+
+00:58:08.790 --> 00:58:12.030
+basically 1.5 so i have to go and i have to check basically
+
+00:58:12.030 --> 00:58:16.370
+this data yeah this data so 1.5 so let's go let's check so
+
+00:58:16.370 --> 00:58:18.390
+here i will come out only gai which remains less than 1000
+
+00:58:18.390 --> 00:58:18.390
+and 10 percentile value for 100 percentile value technology
+
+00:58:18.390 --> 00:58:22.570
+this data will be 1.5 which is 1.5 again 1 0 0 so 93.voice 0
+
+00:58:22.570 --> 00:58:31.830
+.93 so is equal to 0 0.933 2 in terms of percentage 93.32
+
+00:58:31.830 --> 00:58:39.050
+percentile percentile so it simply means that that uh 93.3 3
+
+00:58:39.050 --> 00:58:44.350
+to 2% employees in my company earns lesser than me or
+
+00:58:47.650 --> 00:58:52.190
+in other way you can say that that 7 point almost 7% or 6 8%
+
+00:58:52.190 --> 00:58:58.710
+people earns more than me that's also a conclusion right so
+
+00:58:58.710 --> 00:59:01.190
+this is again like you will be able to find out with the
+
+00:59:01.190 --> 00:59:03.770
+help of z table make
+
+00:59:05.530 --> 00:59:07.990
+sense everyone in the chat yes
+
+00:59:14.810 --> 00:59:18.210
+yeah so this is where you can try to use it okay let's talk
+
+00:59:18.210 --> 00:59:21.350
+about t table then z table is fine t table let's talk about
+
+00:59:21.350 --> 00:59:24.730
+that how we can try to like you know use a t table and then
+
+00:59:24.730 --> 00:59:29.110
+how we can try to do a data interpretation so again same
+
+00:59:29.110 --> 00:59:31.470
+example coaching institute example let's say we are going to
+
+00:59:31.470 --> 00:59:35.510
+take the example that we have already taken so there is a
+
+00:59:35.510 --> 00:59:40.710
+coaching institute their average marks they used to claim is
+
+00:59:40.710 --> 00:59:44.870
+let's say uh 70 fine now you will go and you will do a
+
+00:59:44.870 --> 00:59:49.610
+investigation by the way right on 25 students so number of
+
+00:59:49.610 --> 00:59:51.270
+let's say so
+
+00:59:53.730 --> 00:59:57.710
+maybe you are standing at gate and collecting the data so
+
+00:59:57.710 --> 01:00:01.150
+asking for their marks uh so someone will say like 80 85 81
+
+01:00:01.150 --> 01:00:05.710
+70 60 whatsoever it is 25 data after collecting this 25 data
+
+01:00:05.710 --> 01:00:09.870
+so you like you have calculated the average of the sample so
+
+01:00:09.870 --> 01:00:13.670
+average is basically 75 and then you have calculated your
+
+01:00:13.670 --> 01:00:16.010
+standard deviation the standard deviation is equals to 10
+
+01:00:16.010 --> 01:00:19.830
+yeah standard deviation is equal to 10 now calculate a t so
+
+01:00:19.830 --> 01:00:24.990
+t says that that basically uh mean average of a sample minus
+
+01:00:24.990 --> 01:00:30.090
+average of a population divided by what i will do divided by
+
+01:00:30.090 --> 01:00:34.910
+a standard deviation divided by root of uh basically number
+
+01:00:34.910 --> 01:00:41.210
+of sample right so it will come as 2.5 same same data i have
+
+01:00:41.210 --> 01:00:44.190
+taken so nothing new calculation which we are trying to do
+
+01:00:44.190 --> 01:00:52.870
+right nothing new over here okay now t is equal to 2.5 so
+
+01:00:52.870 --> 01:00:55.890
+that means we are going to be able to conclude yes so one
+
+01:00:55.890 --> 01:00:58.750
+conclusion is fine as per t table as per interpretation that
+
+01:00:58.750 --> 01:01:02.630
+okay so uh the claim that this uh institute is trying to
+
+01:01:02.630 --> 01:01:05.270
+make they are correct because t is on a positive side so
+
+01:01:05.270 --> 01:01:09.510
+obviously it's like 2.5 times more from a mean that is
+
+01:01:09.510 --> 01:01:12.590
+something that we can try to interpret that's okay that's
+
+01:01:12.590 --> 01:01:15.990
+one interpretation but there is something called as i mean
+
+01:01:15.990 --> 01:01:20.890
+like t table right there is something called as t table and
+
+01:01:22.790 --> 01:01:28.570
+or maybe i can i can try to just even t table pdf yeah you
+
+01:01:28.570 --> 01:01:32.010
+can go and search there is a t table calculator as well that
+
+01:01:32.010 --> 01:01:37.830
+you will be able to find out so you can okay so
+
+01:01:43.080 --> 01:01:46.520
+here when you will come to a t table you will be able to
+
+01:01:46.520 --> 01:01:50.260
+find out something called as degree of freedom yeah there is
+
+01:01:50.260 --> 01:01:52.580
+something called as degree of freedom you will be able to
+
+01:01:52.580 --> 01:01:57.540
+find out which was there even over here they have given you
+
+01:01:57.540 --> 01:02:02.600
+all the tables yeah so degree of freedom you will be able to
+
+01:02:02.600 --> 01:02:05.280
+find out there is something called as confidence interval
+
+01:02:05.280 --> 01:02:08.220
+that is also you will be able to find out i mean like this
+
+01:02:08.220 --> 01:02:12.480
+is a new term that all of you will be able to find out with
+
+01:02:12.480 --> 01:02:17.560
+respect to a t table so what does that mean and what it is
+
+01:02:17.560 --> 01:02:19.860
+going to signifies and how you are supposed to interpret
+
+01:02:19.860 --> 01:02:24.300
+because to check into a t table you are supposed to be aware
+
+01:02:24.300 --> 01:02:27.820
+of two things one df degree of freedom another one is
+
+01:02:27.820 --> 01:02:31.700
+basically a confidence interval yes understand
+
+01:02:39.630 --> 01:02:42.430
+until you don't understand these two things you will not be
+
+01:02:42.430 --> 01:02:46.250
+able to utilize a t table okay fine so let's try to
+
+01:02:46.250 --> 01:02:52.190
+understand that particular part so here uh basically first
+
+01:02:52.190 --> 01:02:56.310
+of all try to understand a confidence label right confidence
+
+01:02:56.310 --> 01:03:00.430
+label so basically whenever we try to do any kind of a
+
+01:03:00.430 --> 01:03:06.130
+statistical calculation right so we always try to define a
+
+01:03:06.130 --> 01:03:09.350
+confidence that is based on how much confident we are and
+
+01:03:09.350 --> 01:03:12.410
+based on what confidence i'm trying to do this kind of a
+
+01:03:12.410 --> 01:03:20.370
+math i'm 90 confident i'm 99 confident i'm 95 confident so
+
+01:03:20.370 --> 01:03:23.470
+this is where this you know confidence interval comes into
+
+01:03:23.470 --> 01:03:26.990
+picture right confidence interval or confidence level comes
+
+01:03:26.990 --> 01:03:30.610
+into picture which eventually we try to convert it into a
+
+01:03:30.610 --> 01:03:38.090
+significance level as well now along with that right there
+
+01:03:38.090 --> 01:03:41.030
+is something called as degree of freedom now degree of
+
+01:03:41.030 --> 01:03:43.790
+freedom is what so degree of freedom is nothing but it
+
+01:03:43.790 --> 01:03:48.070
+denotes a data so data minus one is going to be a degree of
+
+01:03:48.070 --> 01:03:51.250
+freedom so what is the total number of data which we have
+
+01:03:51.250 --> 01:03:54.110
+considered sample data so technically we have considered 25
+
+01:03:54.110 --> 01:03:57.890
+data so here if i have to write down degree of freedom uh
+
+01:03:57.890 --> 01:04:02.750
+basically so degree of freedom is going to be df is going to
+
+01:04:02.750 --> 01:04:06.570
+be oh i have to use that pin so
+
+01:04:10.250 --> 01:04:14.330
+df is going to be data minus one always right is equals to
+
+01:04:14.330 --> 01:04:20.810
+24 fine your freedom is going to be 24. now how i will be
+
+01:04:20.810 --> 01:04:24.810
+able to take or how i will be able to consider this
+
+01:04:24.810 --> 01:04:30.330
+significance label so let's say i'm saying that that i'm 95
+
+01:04:30.330 --> 01:04:38.710
+sure that this institute is whatsoever they are saying they
+
+01:04:38.710 --> 01:04:44.230
+are like correct on that part right so when i'm 95 sure so
+
+01:04:44.230 --> 01:04:49.270
+in that case the delta margin which i will be able to or 99
+
+01:04:49.270 --> 01:04:55.050
+.5 sure 5 so let's say i'm trying to say so the delta margin
+
+01:04:55.050 --> 01:04:58.410
+that we will be able to get is equals to 0.05 eventually
+
+01:04:58.410 --> 01:05:02.910
+that is a significance label we try to say we try to save
+
+01:05:02.910 --> 01:05:09.130
+over here so here to calculate this entire things right to
+
+01:05:09.130 --> 01:05:13.690
+calculate like what is the the actual meaning of 2.5 right 2
+
+01:05:13.690 --> 01:05:19.850
+.5 so what we can do so we can try to basically let me write
+
+01:05:19.850 --> 01:05:25.510
+down here to eliminate the confusion like i said confidence
+
+01:05:25.510 --> 01:05:33.280
+level right confidence level i'm saying that i'm 95
+
+01:05:33.280 --> 01:05:38.860
+confident that this claim is correct correct they are saying
+
+01:05:38.860 --> 01:05:42.120
+average mark 70 okay fine so i agree with this 95 percent
+
+01:05:42.120 --> 01:05:45.780
+i'm sure about it right so in this situation there is
+
+01:05:45.780 --> 01:05:49.660
+something called a significance level and here people gets
+
+01:05:49.660 --> 01:05:56.740
+confused significance level so it is going to be 100 minus
+
+01:05:56.740 --> 01:06:01.840
+95 is equal to 5 percent right 5 percent we try to denote in
+
+01:06:01.840 --> 01:06:05.080
+terms of alpha right alpha is what convert that into a
+
+01:06:05.080 --> 01:06:07.580
+decimal you know like two probability you can say so it's
+
+01:06:07.580 --> 01:06:10.880
+going to be 0.0 5 percent that is going to my alpha by the
+
+01:06:10.880 --> 01:06:16.700
+way yeah alpha now again uh once you will go to this table
+
+01:06:16.700 --> 01:06:20.320
+you will be able to find out something called as two tail
+
+01:06:20.320 --> 01:06:24.100
+and one tail again it is having a meaning of it i'll talk
+
+01:06:24.100 --> 01:06:27.640
+about this two tail and one tail right so two tail and one
+
+01:06:27.640 --> 01:06:30.700
+tail so whether you are trying to looking into a table only
+
+01:06:30.700 --> 01:06:34.440
+on one side or on both the sides you are trying to look into
+
+01:06:34.440 --> 01:06:39.440
+it right so one side or two side so in terms of two tail you
+
+01:06:39.440 --> 01:06:43.540
+will look into these values in terms of one tail testing you
+
+01:06:43.540 --> 01:06:46.820
+will be looking into that values yeah again that depends
+
+01:06:46.820 --> 01:06:49.480
+upon the scenario the problem that we are solving i'll come
+
+01:06:49.480 --> 01:06:52.440
+to that i'll give you that example as well but yes this is
+
+01:06:52.440 --> 01:06:55.100
+what a kind of a things you will be able to find it into a t
+
+01:06:55.100 --> 01:06:59.420
+tables so confidence two tail one tail and then degree of
+
+01:06:59.420 --> 01:07:02.520
+freedom degree of freedom starts from one go till 29 or 30 i
+
+01:07:02.520 --> 01:07:05.320
+believe so it will go till that particular label you can go
+
+01:07:05.320 --> 01:07:11.580
+and check that out yeah so degree of freedom in general till
+
+01:07:11.580 --> 01:07:14.640
+this point we'll try to check in general right beyond that
+
+01:07:14.640 --> 01:07:17.300
+so obviously there is something which is given to you now
+
+01:07:17.300 --> 01:07:20.900
+two tail so as picture denotes over here right and again so
+
+01:07:20.900 --> 01:07:23.540
+they are also denoting like you know confidence interval so
+
+01:07:23.540 --> 01:07:27.260
+what does that mean confidence interval uh like a two tail
+
+01:07:27.260 --> 01:07:30.440
+what will happen over there one tail what will happen over
+
+01:07:30.440 --> 01:07:36.860
+there yeah so now here if you will come to this point
+
+01:07:36.860 --> 01:07:40.400
+significant label is this much more or less than this much
+
+01:07:40.400 --> 01:07:43.140
+so we are trying to do a two tail from both the side we are
+
+01:07:43.140 --> 01:07:47.580
+trying to check it so in that situation my alpha is going to
+
+01:07:47.580 --> 01:07:53.820
+be alpha by 2 it's going to be 0.05 divided by 2 yeah 0.05
+
+01:07:53.820 --> 01:08:01.040
+so it is going to be 0.025 this is my two tail test right
+
+01:08:01.040 --> 01:08:08.920
+degree of freedom is what a 24 so then generally we go to uh
+
+01:08:08.920 --> 01:08:12.400
+basically like you know and then uh there is a t right that
+
+01:08:12.400 --> 01:08:15.960
+we are able to find out so t is what t is basically 2.5 so
+
+01:08:15.960 --> 01:08:20.600
+we call that t as a t critical there is a name to it c-r-a-t
+
+01:08:20.600 --> 01:08:25.060
+-i-c-l critical t critical is let's say 2.5 that is like you
+
+01:08:25.060 --> 01:08:31.600
+know uh sorry t critical i'll try to find out as of now just
+
+01:08:31.600 --> 01:08:33.420
+remove it okay
+
+01:08:37.610 --> 01:08:45.030
+so here i will go and degree of freedom is this 24 right and
+
+01:08:45.030 --> 01:08:46.890
+then it's
+
+01:08:54.190 --> 01:08:59.170
+24 and then total test so 0.05
+
+01:09:09.250 --> 01:09:14.430
+on which we are doing a test let's say so if you are going
+
+01:09:14.430 --> 01:09:22.730
+to basically intersect this one so 2.064 is a value that you
+
+01:09:22.730 --> 01:09:26.070
+will be able to find out so 2. so
+
+01:09:28.920 --> 01:09:31.900
+now i can say t critical 2
+
+01:09:34.420 --> 01:09:40.860
+.064 okay now the t value that we have received is 2.5 okay
+
+01:09:40.860 --> 01:09:47.600
+so here 2.5 means t is greater than t critical t
+
+01:09:50.160 --> 01:09:56.340
+is greater than technically a t critical so here when t is
+
+01:09:56.340 --> 01:10:02.120
+greater than t critical so we can simply say that that uh uh
+
+01:10:02.120 --> 01:10:06.780
+basically uh and what what does this means so on
+
+01:10:08.830 --> 01:10:15.170
+this bell curve this is my mu which is equal to zero this is
+
+01:10:15.170 --> 01:10:27.540
+my one sd this is my two sd this is my three sd now here my
+
+01:10:27.540 --> 01:10:34.060
+t right so my t is coming somewhere 2.5 right so somewhere
+
+01:10:34.060 --> 01:10:41.280
+here so this is my t so t 2.5 t critical right the value
+
+01:10:41.280 --> 01:10:44.540
+that i'm able to derive from the table so this t critical is
+
+01:10:44.540 --> 01:10:47.760
+coming from where so t critical is coming somewhere 2.06
+
+01:10:47.760 --> 01:10:52.000
+before this right before this line 2.64 so before this line
+
+01:10:52.000 --> 01:10:55.520
+t critical is coming somewhere over here so this is my t
+
+01:10:55.520 --> 01:11:01.040
+critical by the way so basically the critical line right the
+
+01:11:01.040 --> 01:11:03.220
+failure line you can say a critical line in lemon way you
+
+01:11:03.220 --> 01:11:05.580
+can say so that line is basically the value of t critical so
+
+01:11:05.580 --> 01:11:07.800
+the value of t critical is 2.5 basically inside right inside
+
+01:11:07.800 --> 01:11:13.400
+of my t so here i can simply say that that the claim which
+
+01:11:13.400 --> 01:11:17.400
+has been made by a suit is actually correct basically we are
+
+01:11:17.400 --> 01:11:20.080
+trying to prove that hypothesis right again once i'll talk
+
+01:11:20.080 --> 01:11:22.560
+about more and more hypothesis problem we'll talk more about
+
+01:11:22.560 --> 01:11:25.720
+it but yes this is what it means and this is where this t
+
+01:11:25.720 --> 01:11:29.340
+table is helping me out by the way yeah so t table always
+
+01:11:29.340 --> 01:11:33.480
+tells me a critical value i do a comparison with respect to
+
+01:11:33.480 --> 01:11:37.620
+my own values and then i just get into a conclusion saying
+
+01:11:37.620 --> 01:11:41.560
+that that okay so the claim which has been made was actually
+
+01:11:41.560 --> 01:11:47.040
+a correct claim does it make sense guys yeah
+
+01:11:49.720 --> 01:11:52.020
+so once we'll solve more and more problems so obviously it
+
+01:11:52.020 --> 01:11:54.300
+is going to make more sense to all of us but yes this is
+
+01:11:54.300 --> 01:11:56.940
+what it means this is where you know in one of the places i
+
+01:11:56.940 --> 01:12:01.800
+can try to use basically a t table so t table and again so
+
+01:12:01.800 --> 01:12:06.480
+before getting into a t table you have to understand so one
+
+01:12:06.480 --> 01:12:08.920
+is your confidence level so what confidence level on which
+
+01:12:08.920 --> 01:12:11.760
+you are doing this testing so if i'm going to you know
+
+01:12:11.760 --> 01:12:14.480
+decrease down decrease my confidence level again my result
+
+01:12:14.480 --> 01:12:18.320
+is going to change significance label is always 100 minus
+
+01:12:18.320 --> 01:12:21.600
+confidence level or one minus in a decimal your confidence
+
+01:12:21.600 --> 01:12:25.320
+level whether you are doing a two-tail test or whether you
+
+01:12:25.320 --> 01:12:29.220
+are doing a one-tail test it depends upon that as well
+
+01:12:29.220 --> 01:12:33.220
+because your value is not going to be same so for two-tail
+
+01:12:33.240 --> 01:12:37.600
+test and for one-tail test obviously values are going to
+
+01:12:37.600 --> 01:12:43.380
+change yes any question any question for me so
+
+01:13:07.670 --> 01:13:10.970
+now let's talk about this one thing where you will get stuck
+
+01:13:10.970 --> 01:13:13.890
+most of you will get stuck what is the difference between
+
+01:13:13.890 --> 01:13:16.630
+two-tail and one-tail right because whenever you will look
+
+01:13:16.630 --> 01:13:19.870
+into a t table you will get that value right and you have to
+
+01:13:19.870 --> 01:13:23.410
+select out of it here i have taken two let's say but you can
+
+01:13:23.410 --> 01:13:26.090
+even come and argue with me that why not one-tail test over
+
+01:13:26.090 --> 01:13:30.950
+here right why not one tell test over here so let's let's
+
+01:13:30.950 --> 01:13:34.370
+try to understand uh with maybe like you know uh some
+
+01:13:34.370 --> 01:13:37.950
+examples right so here what i have done so i have basically
+
+01:13:37.950 --> 01:13:41.810
+taken average marks and then like a number of students on
+
+01:13:41.810 --> 01:13:43.850
+which i have done my investigation let's say and their
+
+01:13:43.850 --> 01:13:46.510
+average marks their standard deviation i have basically
+
+01:13:46.510 --> 01:13:55.000
+selected yeah now so i'm going to select or i'm going to do
+
+01:13:55.000 --> 01:14:03.880
+a total test when i don't care basically that whether the
+
+01:14:03.880 --> 01:14:10.660
+marks is right so whether the marks is more than 100 or less
+
+01:14:10.660 --> 01:14:16.000
+than 100 right so where we try to basically basically i
+
+01:14:16.000 --> 01:14:19.120
+don't care like mass is going to be more than 70 sorry more
+
+01:14:19.120 --> 01:14:21.340
+than 70 or less than 70 over here in this particular
+
+01:14:21.340 --> 01:14:24.980
+situation so where i'm just trying to consider that that
+
+01:14:24.980 --> 01:14:30.600
+okay so where the range actually lies and where the marks is
+
+01:14:30.600 --> 01:14:35.660
+actually going to be 70 or not so in that situation maybe i
+
+01:14:35.660 --> 01:14:39.080
+can go and i can try to consider a total test wherever i
+
+01:14:39.080 --> 01:14:41.660
+don't have such kind of a situation so in that case i can
+
+01:14:41.660 --> 01:14:45.200
+try to use a one tell test in general after solving couple
+
+01:14:45.200 --> 01:14:47.760
+of problems so i think we all will like you know get used to
+
+01:14:47.760 --> 01:14:49.740
+it by the way yeah
+
+01:14:52.690 --> 01:14:56.630
+so one tell test let me tell you that uh so where you are
+
+01:14:56.630 --> 01:15:00.410
+going to use basically like a one tell test or a right tail
+
+01:15:00.410 --> 01:15:06.480
+test i would say so let's say we are trying to like you know
+
+01:15:06.480 --> 01:15:08.080
+uh this
+
+01:15:10.070 --> 01:15:14.230
+institute is trying to get on an average 70 marks right now
+
+01:15:14.230 --> 01:15:18.150
+what they have done so they are going to adopt maybe a new
+
+01:15:18.150 --> 01:15:20.430
+mythology of teaching they said that okay fine their average
+
+01:15:20.430 --> 01:15:22.670
+mark is 70 maybe they they are looking for some sort of
+
+01:15:22.670 --> 01:15:25.670
+improvement maybe 75 is the improvement that they are
+
+01:15:25.670 --> 01:15:31.650
+looking for so basically 70 to 75 this is the improvement
+
+01:15:31.650 --> 01:15:35.590
+institute is looking for and to do that so they have adopted
+
+01:15:35.590 --> 01:15:38.770
+a new mythology maybe some new test pattern they have
+
+01:15:38.770 --> 01:15:46.410
+adopted in itje and need and i have to basically right so i
+
+01:15:46.410 --> 01:15:51.250
+have to basically go and test that before implementing this
+
+01:15:51.250 --> 01:15:57.530
+new rule or new mythology of teaching what was the score and
+
+01:15:57.530 --> 01:16:02.190
+then after that what was the score right so so, in this case
+
+01:16:02.190 --> 01:16:05.770
+i just have to check one side so whether a score is getting
+
+01:16:05.770 --> 01:16:09.410
+improved or not so in that kind of a situation so i will be
+
+01:16:09.410 --> 01:16:12.950
+using right hand side right so or you can say one tell test
+
+01:16:12.950 --> 01:16:16.210
+so this is going to be basically one tell test where whether
+
+01:16:16.210 --> 01:16:19.990
+where i'm not just trying to check that i was expecting 70
+
+01:16:19.990 --> 01:16:23.350
+i'm getting 70 no where i'm going to check i was expecting
+
+01:16:23.350 --> 01:16:26.970
+70 whether i'm getting more than 70 or not in one side only
+
+01:16:26.970 --> 01:16:30.570
+right so maybe it could be 75 it could be 80 it could be 80
+
+01:16:30.570 --> 01:16:30.590
+it could be 70 it could be 80 it could be 80 it could be 80
+
+01:16:30.590 --> 01:16:31.990
+it could be 80 it could be 80 it could be 80 it could be 80
+
+01:16:31.990 --> 01:16:33.390
+it could be 100 it could be anything right but it is
+
+01:16:33.390 --> 01:16:37.630
+supposed to fall always on one side right so in that
+
+01:16:37.630 --> 01:16:42.150
+situation so we are going to do a one tail test hope it
+
+01:16:42.150 --> 01:16:45.030
+makes sense so wherever things are going to move in one
+
+01:16:45.030 --> 01:16:50.170
+direction i will be basically doing that in my situation so
+
+01:16:50.170 --> 01:16:52.430
+why i have taken alpha by two or why i have taken a two tail
+
+01:16:52.430 --> 01:16:55.690
+test because average marks is this right there was a
+
+01:16:55.690 --> 01:16:58.410
+possibility that average mass could be lesser than or maybe
+
+01:16:58.410 --> 01:17:03.030
+more than simple right so in in as per my situation because
+
+01:17:03.030 --> 01:17:07.030
+when i was trying to test uh this one marks can move
+
+01:17:07.030 --> 01:17:09.830
+anywhere right my marks the marks that i have calculated can
+
+01:17:09.830 --> 01:17:15.690
+be lesser than can be more than right so uh like that's the
+
+01:17:15.690 --> 01:17:20.410
+reasons i have taken a two tail test if i have to test it
+
+01:17:20.410 --> 01:17:22.870
+just on one side then i would have taken a one tail test
+
+01:17:22.870 --> 01:17:26.470
+hope it makes sense where we are going to take a two tail
+
+01:17:26.470 --> 01:17:27.990
+and one tail okay
+
+01:17:31.220 --> 01:17:37.140
+so finally even i believe uh we are able to a lot today so
+
+01:17:37.140 --> 01:17:39.740
+tomorrow what we will be doing so tomorrow we'll be learning
+
+01:17:39.740 --> 01:17:43.680
+about a hypothesis testing which is again uh again basically
+
+01:17:43.680 --> 01:17:46.700
+extension of the same chapter yeah
+
+01:17:59.090 --> 01:18:01.390
+so which is going to be the extension of the same chapter
+
+01:18:01.390 --> 01:18:04.330
+the chapter that we have studied so far so zed we are going
+
+01:18:04.330 --> 01:18:07.210
+to use it t again we are going to use it and p also we are
+
+01:18:07.210 --> 01:18:10.130
+going to use it plus we are going to see even a chi square
+
+01:18:10.130 --> 01:18:12.670
+test plus we are going to see annova test basically over
+
+01:18:12.670 --> 01:18:15.550
+there and then finally a b testing which is the simplest of
+
+01:18:15.550 --> 01:18:19.510
+all this like a test i would say kai anova hypothesis is
+
+01:18:19.510 --> 01:18:22.970
+something that we are going to learn based on the learning
+
+01:18:22.970 --> 01:18:25.830
+that we have done in my today's class so so many problems we
+
+01:18:25.830 --> 01:18:32.270
+are going to basically solve at the end of the day kanjal is
+
+01:18:32.270 --> 01:18:36.230
+saying that i'm not very good example especially in to
+
+01:18:36.230 --> 01:18:39.910
+understand when someone explain things so do we need to
+
+01:18:39.910 --> 01:18:43.430
+memorize all these formulas and practice them no you don't
+
+01:18:43.430 --> 01:18:45.550
+have to memorize any of these formulas by the way just to
+
+01:18:45.550 --> 01:18:49.810
+answer your question uh you don't i'm like like for a time
+
+01:18:49.810 --> 01:18:53.950
+being try to understand it because this z this t this p the
+
+01:18:53.950 --> 01:18:58.030
+kai the anova and going forward so we are going to learn ab
+
+01:18:58.030 --> 01:19:01.670
+testing all of these things repeatedly you will see that
+
+01:19:01.670 --> 01:19:04.710
+that it will come into picture when you will try to
+
+01:19:04.710 --> 01:19:07.250
+understand a machine learning deep learning all such kind of
+
+01:19:07.250 --> 01:19:11.550
+algorithms even when we will do a practical right and when
+
+01:19:11.550 --> 01:19:15.310
+we will try to test the final algorithms outcome so even at
+
+01:19:15.310 --> 01:19:17.770
+that point of when we will try to do a data validation even
+
+01:19:17.770 --> 01:19:20.530
+at that point of our time it will come into picture so
+
+01:19:20.530 --> 01:19:22.810
+technically what i'm trying to say over here is that that it
+
+01:19:22.810 --> 01:19:26.610
+will come into a picture so many times that you won't have
+
+01:19:26.610 --> 01:19:29.890
+to memorize anything by default you will end up learning
+
+01:19:29.890 --> 01:19:34.130
+each and everything for a very very long time where we'll be
+
+01:19:34.130 --> 01:19:36.850
+using z t and p i think i have already given you the answer
+
+01:19:36.850 --> 01:19:39.750
+so in case of ml pipeline obviously in terms of a strategy
+
+01:19:39.750 --> 01:19:41.990
+and data in terms of doing a data comparison in terms of
+
+01:19:41.990 --> 01:19:45.370
+doing a result comparison in terms of when you train the
+
+01:19:45.370 --> 01:19:48.590
+model right so basically with respect to a test data or a
+
+01:19:48.590 --> 01:19:50.250
+test model you will be able to see how my model is
+
+01:19:50.250 --> 01:19:53.670
+performing everywhere like i said from the very first
+
+01:19:53.670 --> 01:19:56.810
+algorithm of your ml a linear regression algorithm right
+
+01:19:56.810 --> 01:20:00.170
+then logistic regression then decision tree let's say then
+
+01:20:00.170 --> 01:20:04.910
+svm svc uh xg boost ada boost gradient boosting and then
+
+01:20:04.910 --> 01:20:08.710
+like a random forest uh k mean k and n everywhere you will
+
+01:20:08.710 --> 01:20:14.130
+be able to find out a significance of these stats topic so
+
+01:20:14.130 --> 01:20:16.870
+you don't have to remember actually right you will end up
+
+01:20:16.870 --> 01:20:18.810
+recalling things so many times so many times so many times
+
+01:20:18.810 --> 01:20:23.210
+literally like uh if you will end up recalling same thing 20
+
+01:20:23.210 --> 01:20:27.710
+30 times then nothing to remember right it will be a part of
+
+01:20:27.710 --> 01:20:32.530
+your muscle memory by the way so even with that thank you so
+
+01:20:32.530 --> 01:20:36.030
+much i'm going to upload this seat inside your dashboard so
+
+01:20:36.030 --> 01:20:39.710
+this seat will be available inside it and yeah so tomorrow
+
+01:20:39.710 --> 01:20:43.470
+like i said so extension of same thing z t and uh like a p
+
+01:20:43.470 --> 01:20:48.430
+uh plus anova we are going to discuss with hypothesis
+
+01:20:48.430 --> 01:20:51.550
+testing yeah so there is a big chapter called as hypothesis
+
+01:20:51.550 --> 01:20:55.870
+which is very very important for anyone uh who is getting
+
+01:20:55.870 --> 01:20:59.590
+into uh like a data science i would say not just here even
+
+01:20:59.590 --> 01:21:03.070
+in generative ai right even in gen ai you will end up using
+
+01:21:03.070 --> 01:21:06.350
+it uh i mean like every part of the data science you will
+
+01:21:06.350 --> 01:21:08.990
+end up using it so tomorrow we are going to learn that
+
+01:21:08.990 --> 01:21:13.250
+hypothesis testing so till then guys uh thank you so much if
+
+01:21:13.250 --> 01:21:15.350
+you have any kind of a question you can try to raise your
+
+01:21:15.350 --> 01:21:18.150
+hand or maybe put up your question inside the chat otherwise
+
+01:21:18.150 --> 01:21:19.870
+we'll close okay
+
+01:21:21.950 --> 01:21:22.590
+so there is a lot of stuff to talk about in this there's no
+
+01:21:22.590 --> 01:21:26.310
+hands i can see and in chat i have already answers answered
+
+01:21:26.310 --> 01:21:30.530
+all the questions so finally with that thank you so much
+
+01:21:30.530 --> 01:21:33.670
+take care guys and see you tomorrow same time yeah thanks
+

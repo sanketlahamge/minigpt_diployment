@@ -1,0 +1,2010 @@
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:0,LOCAL:00:00:00.000
+
+00:00:00.000 --> 00:00:08.000
+ [BLANK_AUDIO]
+
+00:00:30.000 --> 00:00:40.000
+ [BLANK_AUDIO]
+
+00:01:00.000 --> 00:01:10.000
+ [BLANK_AUDIO]
+
+00:01:30.000 --> 00:01:40.000
+ [BLANK_AUDIO]
+
+00:02:00.000 --> 00:02:10.000
+ [BLANK_AUDIO]
+
+00:02:30.000 --> 00:02:40.000
+ [BLANK_AUDIO]
+
+00:03:00.000 --> 00:03:10.000
+ [BLANK_AUDIO]
+
+00:03:30.000 --> 00:03:40.000
+ [BLANK_AUDIO]
+
+00:04:00.000 --> 00:04:10.000
+ [BLANK_AUDIO]
+
+00:04:30.000 --> 00:04:40.000
+ [BLANK_AUDIO]
+
+00:04:40.000 --> 00:04:50.000
+ [BLANK_AUDIO]
+
+00:04:50.000 --> 00:04:58.000
+ [BLANK_AUDIO]
+
+00:04:58.000 --> 00:05:08.000
+ [BLANK_AUDIO]
+
+00:05:28.000 --> 00:05:38.000
+ [BLANK_AUDIO]
+
+00:05:58.000 --> 00:06:08.000
+ [BLANK_AUDIO]
+
+00:06:28.000 --> 00:06:38.000
+ [BLANK_AUDIO]
+
+00:06:58.000 --> 00:07:08.000
+ [BLANK_AUDIO]
+
+00:07:28.000 --> 00:07:38.000
+ [BLANK_AUDIO]
+
+00:07:58.000 --> 00:08:08.000
+ [BLANK_AUDIO]
+
+00:08:08.000 --> 00:08:14.000
+ [BLANK_AUDIO]
+
+00:08:14.000 --> 00:08:18.000
+ [BLANK_AUDIO]
+
+00:08:18.000 --> 00:08:24.000
+ [BLANK_AUDIO]
+
+00:08:24.000 --> 00:08:34.000
+ [BLANK_AUDIO]
+
+00:08:34.000 --> 00:08:44.000
+ [BLANK_AUDIO]
+
+00:08:44.000 --> 00:08:54.000
+ [BLANK_AUDIO]
+
+00:08:54.000 --> 00:09:04.000
+ [BLANK_AUDIO]
+
+00:09:04.000 --> 00:09:14.000
+ [BLANK_AUDIO]
+
+00:09:14.000 --> 00:09:24.000
+ [BLANK_AUDIO]
+
+00:09:24.000 --> 00:09:32.000
+ [BLANK_AUDIO]
+
+00:09:32.000 --> 00:09:42.000
+ [BLANK_AUDIO]
+
+00:09:42.000 --> 00:09:52.000
+ [BLANK_AUDIO]
+
+00:09:52.000 --> 00:10:02.000
+ [BLANK_AUDIO]
+
+00:10:02.000 --> 00:10:12.000
+ [BLANK_AUDIO]
+
+00:10:12.000 --> 00:10:20.000
+ [BLANK_AUDIO]
+
+00:10:20.000 --> 00:10:30.000
+ [BLANK_AUDIO]
+
+00:10:30.000 --> 00:10:40.000
+ [BLANK_AUDIO]
+
+00:10:40.000 --> 00:10:50.000
+ [BLANK_AUDIO]
+
+00:10:50.000 --> 00:11:00.000
+ [BLANK_AUDIO]
+
+00:11:00.000 --> 00:11:10.000
+ [BLANK_AUDIO]
+
+00:11:10.000 --> 00:11:30.000
+ [BLANK_AUDIO]
+
+00:11:30.000 --> 00:11:38.000
+ [BLANK_AUDIO]
+
+00:11:38.000 --> 00:11:48.000
+ [BLANK_AUDIO]
+
+00:11:48.000 --> 00:11:58.000
+ [BLANK_AUDIO]
+
+00:11:58.000 --> 00:12:08.000
+ [BLANK_AUDIO]
+
+00:12:08.000 --> 00:12:18.000
+ [BLANK_AUDIO]
+
+00:12:18.000 --> 00:12:28.000
+ [BLANK_AUDIO]
+
+00:12:28.000 --> 00:12:38.000
+ [BLANK_AUDIO]
+
+00:12:38.000 --> 00:12:48.000
+ [BLANK_AUDIO]
+
+00:12:48.000 --> 00:12:58.000
+ [BLANK_AUDIO]
+
+00:12:58.000 --> 00:13:08.000
+ [BLANK_AUDIO]
+
+00:13:08.000 --> 00:13:18.000
+ [BLANK_AUDIO]
+
+00:13:18.000 --> 00:13:26.000
+ [BLANK_AUDIO]
+
+00:13:26.000 --> 00:13:36.000
+ [BLANK_AUDIO]
+
+00:13:36.000 --> 00:13:46.000
+ [BLANK_AUDIO]
+
+00:13:46.000 --> 00:13:56.000
+ [BLANK_AUDIO]
+
+00:13:56.000 --> 00:14:16.000
+ [BLANK_AUDIO]
+
+00:14:16.000 --> 00:14:26.000
+ [BLANK_AUDIO]
+
+00:14:26.000 --> 00:14:46.000
+ [BLANK_AUDIO]
+
+00:14:46.000 --> 00:14:56.000
+ [BLANK_AUDIO]
+
+00:14:56.000 --> 00:15:16.000
+ [BLANK_AUDIO]
+
+00:15:16.000 --> 00:15:26.000
+ [BLANK_AUDIO]
+
+00:15:26.000 --> 00:15:36.000
+ [BLANK_AUDIO]
+
+00:15:36.000 --> 00:15:46.000
+ [BLANK_AUDIO]
+
+00:15:46.000 --> 00:16:06.000
+ [BLANK_AUDIO]
+
+00:16:06.000 --> 00:16:16.000
+ [BLANK_AUDIO]
+
+00:16:16.000 --> 00:16:26.000
+ [BLANK_AUDIO]
+
+00:16:26.000 --> 00:16:36.000
+ [BLANK_AUDIO]
+
+00:16:36.000 --> 00:16:46.000
+ [BLANK_AUDIO]
+
+00:16:46.000 --> 00:16:56.000
+ [BLANK_AUDIO]
+
+00:16:56.000 --> 00:17:06.000
+ [BLANK_AUDIO]
+
+00:17:06.000 --> 00:17:16.000
+ [BLANK_AUDIO]
+
+00:17:16.000 --> 00:17:36.000
+ [BLANK_AUDIO]
+
+00:17:36.000 --> 00:17:46.000
+ [BLANK_AUDIO]
+
+00:17:46.000 --> 00:17:56.000
+ [BLANK_AUDIO]
+
+00:17:56.000 --> 00:18:06.000
+ [BLANK_AUDIO]
+
+00:18:06.000 --> 00:18:16.000
+ [BLANK_AUDIO]
+
+00:18:16.000 --> 00:18:26.000
+ [BLANK_AUDIO]
+
+00:18:26.000 --> 00:18:36.000
+ [BLANK_AUDIO]
+
+00:18:36.000 --> 00:18:46.000
+ [BLANK_AUDIO]
+
+00:18:46.000 --> 00:18:56.000
+ [BLANK_AUDIO]
+
+00:18:56.000 --> 00:19:06.000
+ [BLANK_AUDIO]
+
+00:19:06.000 --> 00:19:16.000
+ [BLANK_AUDIO]
+
+00:19:16.000 --> 00:19:26.000
+ [BLANK_AUDIO]
+
+00:19:26.000 --> 00:19:46.000
+ [BLANK_AUDIO]
+
+00:19:46.000 --> 00:19:56.000
+ [BLANK_AUDIO]
+
+00:19:56.000 --> 00:20:06.000
+ [BLANK_AUDIO]
+
+00:20:06.000 --> 00:20:16.000
+ [BLANK_AUDIO]
+
+00:20:16.000 --> 00:20:26.000
+ [BLANK_AUDIO]
+
+00:20:26.000 --> 00:20:36.000
+ [BLANK_AUDIO]
+
+00:20:36.000 --> 00:20:46.000
+ [BLANK_AUDIO]
+
+00:20:46.000 --> 00:20:54.000
+ [BLANK_AUDIO]
+
+00:20:54.000 --> 00:21:04.000
+ [BLANK_AUDIO]
+
+00:21:04.000 --> 00:21:14.000
+ [BLANK_AUDIO]
+
+00:21:14.000 --> 00:21:24.000
+ [BLANK_AUDIO]
+
+00:21:24.000 --> 00:21:34.000
+ [BLANK_AUDIO]
+
+00:21:34.000 --> 00:21:44.000
+ [BLANK_AUDIO]
+
+00:21:44.000 --> 00:21:54.000
+ [BLANK_AUDIO]
+
+00:21:54.000 --> 00:22:04.000
+ [BLANK_AUDIO]
+
+00:22:04.000 --> 00:22:14.000
+ [BLANK_AUDIO]
+
+00:22:14.000 --> 00:22:22.000
+ [BLANK_AUDIO]
+
+00:22:22.000 --> 00:22:32.000
+ [BLANK_AUDIO]
+
+00:22:32.000 --> 00:22:52.000
+ [BLANK_AUDIO]
+
+00:22:52.000 --> 00:23:00.000
+ [BLANK_AUDIO]
+
+00:23:00.000 --> 00:23:10.000
+ [BLANK_AUDIO]
+
+00:23:10.000 --> 00:23:20.000
+ [BLANK_AUDIO]
+
+00:23:20.000 --> 00:23:30.000
+ [BLANK_AUDIO]
+
+00:23:30.000 --> 00:23:32.000
+ [BLANK_AUDIO]
+
+00:23:32.000 --> 00:23:36.000
+ Okay, so now let's try to take an example of this particular picture.
+
+00:23:36.000 --> 00:23:56.000
+ [BLANK_AUDIO]
+
+00:23:56.000 --> 00:24:02.000
+ Okay, so this is how this in general, the RNN looks like, and this is what I was talking about.
+
+00:24:02.000 --> 00:24:05.000
+ So just look at the very first picture that has been drawn over here.
+
+00:24:05.000 --> 00:24:11.000
+ So you will be able to find out that we are trying to give an input in this particular place.
+
+00:24:11.000 --> 00:24:15.000
+ And obviously, this input is going into my neural network.
+
+00:24:15.000 --> 00:24:18.000
+ So this is my neural network, and then it is trying to give my output.
+
+00:24:18.000 --> 00:24:20.000
+ And here there is a circle, right?
+
+00:24:20.000 --> 00:24:22.000
+ Or there is a loop you will be able to find out.
+
+00:24:22.000 --> 00:24:29.000
+ So basically, we are trying to feed basically some of the context from my output to the input.
+
+00:24:29.000 --> 00:24:32.000
+ Now, again, this is basically an unfolded picture.
+
+00:24:32.000 --> 00:24:33.000
+ You will be able to find out.
+
+00:24:33.000 --> 00:24:35.000
+ So at time t is equals to one.
+
+00:24:35.000 --> 00:24:39.000
+ So we have an input x is equals to one that we are trying to pass.
+
+00:24:39.000 --> 00:24:45.000
+ And then it is going into my neural network, and then it is going to give me in output is equal to y1.
+
+00:24:45.000 --> 00:24:49.000
+ Now, next time at time is equal to t is equal to two.
+
+00:24:49.000 --> 00:24:53.000
+ So we are trying to pass x2, but we are trying to pass not just x2 over here.
+
+00:24:53.000 --> 00:24:59.000
+ So this is my input, and this is also my input, which is coming from the previous state, right?
+
+00:24:59.000 --> 00:25:06.000
+ So this input going forward, you will be able to understand it that that is the context that we try to pass at any point of a time.
+
+00:25:06.000 --> 00:25:08.000
+ Now, similarly, at time t is equal to three.
+
+00:25:08.000 --> 00:25:16.000
+ So we are trying to pass x3 as an input, and then we are trying to bring h2 from a previous state, and then we are trying to yield y.
+
+00:25:16.000 --> 00:25:25.000
+ So similarly, so this is how this recurrent neural network, a simplest possible recurrent neural network is going to work at a time.
+
+00:25:25.000 --> 00:25:29.000
+ So again, inside a recurrent neural network, you will be able to find out multiple variations.
+
+00:25:29.000 --> 00:25:37.000
+ So there is something called as one to one, there is something called as one to many, there is something called as many to one, and there is something called as many to many recurrent neural network.
+
+00:25:37.000 --> 00:25:43.000
+ And all of this recurrent neural network, so we try to take it as per the task that we are going to solve.
+
+00:25:43.000 --> 00:25:44.000
+ And same formula I have written, right?
+
+00:25:44.000 --> 00:25:51.000
+ Same formula I have written that, you know, what is going to be my hidden state and what is going to my output at any point of a time.
+
+00:25:51.000 --> 00:25:54.000
+ So I believe this timeline is clear, right, everyone?
+
+00:25:54.000 --> 00:26:10.000
+ So again, in a very simplest way, which I'm trying to explain since last like a 10, 15 minute is that, that whenever you are trying to take a next input, so it is not just going to be your x, but it is also going to be something from the past, right, which is called as basically hidden state.
+
+00:26:10.000 --> 00:26:13.000
+ Now how hidden state will be calculated.
+
+00:26:13.000 --> 00:26:18.000
+ So hidden state is nothing but a function of a weight into x at time t, right?
+
+00:26:18.000 --> 00:26:21.000
+ So this hidden state calculation that we have to do it.
+
+00:26:21.000 --> 00:26:24.000
+ So basically this into there will be a weight, right?
+
+00:26:24.000 --> 00:26:31.000
+ So let's say there will be a weight for this x and obviously if h1 is coming into a neural network, so obviously there will be a weight even over here.
+
+00:26:31.000 --> 00:26:39.000
+ So now if you are going to combine these two, that will become my hidden state plus BH plus biases, obviously you will be able to find out.
+
+00:26:39.000 --> 00:26:43.000
+ And then at the time at any point of a time, so your y is going to be what?
+
+00:26:43.000 --> 00:26:50.000
+ So your y is going to be the function of this weight into hidden state at time t plus this bias.
+
+00:26:50.000 --> 00:26:52.000
+ This hidden state is already what?
+
+00:26:52.000 --> 00:26:55.000
+ This hidden state is already coming from this particular place, right?
+
+00:26:55.000 --> 00:26:57.000
+ This particular place from the previous one.
+
+00:26:57.000 --> 00:26:59.000
+ So eventually that is going to lead you for the y.
+
+00:26:59.000 --> 00:27:03.000
+ So this is one of the network that you will be able to understand.
+
+00:27:03.000 --> 00:27:07.000
+ And here, so I'm trying to show you like, you know, one to one recurrent neural network.
+
+00:27:07.000 --> 00:27:13.000
+ It simply means that that single input sequence is going to yield a single output sequence.
+
+00:27:13.000 --> 00:27:17.000
+ So single input you have given x1 and then you will be able to get a single y.
+
+00:27:17.000 --> 00:27:19.000
+ Single input again, single y.
+
+00:27:19.000 --> 00:27:25.000
+ Single input, single y means every time you are trying to give some sort of an input, you will be able to get some sort of an output.
+
+00:27:25.000 --> 00:27:27.000
+ Begging says, guys, to all of us.
+
+00:27:27.000 --> 00:27:29.000
+ Yes.
+
+00:27:29.000 --> 00:27:31.000
+ So it's not difficult to understand.
+
+00:27:31.000 --> 00:27:33.000
+ It's very, very easy, I would say.
+
+00:27:33.000 --> 00:27:36.000
+ So single input and single output, you will be able to get it, right?
+
+00:27:36.000 --> 00:27:40.000
+ So this is how you will be able to understand the recurrent neural network.
+
+00:27:40.000 --> 00:27:43.000
+ Now, let me explain you another kind of recurrent neural network, basically.
+
+00:27:43.000 --> 00:27:49.000
+ So which is maybe like one to many, so let me take some images for that.
+
+00:27:49.000 --> 00:27:51.000
+ So one to many.
+
+00:27:51.000 --> 00:27:55.000
+ So capture, insert image.
+
+00:27:55.000 --> 00:27:57.000
+ It's many to many.
+
+00:27:57.000 --> 00:27:59.000
+ Yeah, this is one to many.
+
+00:27:59.000 --> 00:28:04.000
+ So one to many simply means that that, you know, I will try to pass one input.
+
+00:28:04.000 --> 00:28:07.000
+ As you can see, we are trying to give one input over here.
+
+00:28:07.000 --> 00:28:19.000
+ And then I will be able to get...
+
+00:28:19.000 --> 00:28:21.000
+ Okay, so this is basically one to many.
+
+00:28:21.000 --> 00:28:25.000
+ One to many simply says that that I will try to pass one input.
+
+00:28:25.000 --> 00:28:28.000
+ Yeah, so here you can see there is a X that I'm trying to pass.
+
+00:28:28.000 --> 00:28:34.000
+ I'll give you example as well for one to one, one to many, that in which case we are supposed to use one to one or one to many.
+
+00:28:34.000 --> 00:28:36.000
+ So philosophy is same even over here.
+
+00:28:36.000 --> 00:28:40.000
+ Philosophy is very simple that, you know, I will try to pass two things.
+
+00:28:40.000 --> 00:28:45.000
+ So at any point of a time, I'll try to pass maybe X and then I'll try to pass something from the previous, right?
+
+00:28:45.000 --> 00:28:49.000
+ So here one to many RNN whenever we talk about.
+
+00:28:49.000 --> 00:28:53.000
+ So as I have already mentioned over here that one input produce a sequence of the output.
+
+00:28:53.000 --> 00:28:55.000
+ So here I have given X, right?
+
+00:28:55.000 --> 00:28:57.000
+ At time t is equals to zero.
+
+00:28:57.000 --> 00:29:01.000
+ So it will start producing obviously a hidden state and then Y.
+
+00:29:01.000 --> 00:29:08.000
+ Then next time, so at time is equal to t, so it is producing Y2, Y3, YT, all of these things one by one, one by one, one by one.
+
+00:29:08.000 --> 00:29:09.000
+ It is trying to produce.
+
+00:29:09.000 --> 00:29:13.000
+ Now, what is the use case in which I can try to use this one to many?
+
+00:29:13.000 --> 00:29:18.000
+ So for example, input wise, X wise, I have given some sort of an image, right?
+
+00:29:18.000 --> 00:29:20.000
+ Some sort of an image over here.
+
+00:29:20.000 --> 00:29:22.000
+ Now, this is one of the input which I have given.
+
+00:29:22.000 --> 00:29:23.000
+ This is my X, right?
+
+00:29:23.000 --> 00:29:25.000
+ Input is equal to image.
+
+00:29:25.000 --> 00:29:30.000
+ Now, out of this image, I'm looking for a captioning.
+
+00:29:30.000 --> 00:29:33.000
+ I'm looking for a captioning basically, right?
+
+00:29:33.000 --> 00:29:50.000
+ So if I'm looking for a caption out of the images, so obviously caption is going to be a sentence that this image is representing a like an image of a human being with two leg or two hand, one head or whatsoever it is, right?
+
+00:29:50.000 --> 00:29:51.000
+ So whatsoever it is.
+
+00:29:51.000 --> 00:29:55.000
+ So it is supposed to yield this kind of an output.
+
+00:29:55.000 --> 00:30:04.000
+ However, I need this kind of an output so basically I can try to use this one to many recurrent neural network, not just an image captioning.
+
+00:30:04.000 --> 00:30:07.000
+ I would say image captioning is one of the example along with that.
+
+00:30:07.000 --> 00:30:11.000
+ So let's say, you know, I'm going to give just a topic, a data science, right?
+
+00:30:11.000 --> 00:30:16.000
+ So let's say I'm trying to say that topic, that data science and give me the full story about the data science.
+
+00:30:16.000 --> 00:30:20.000
+ So obviously it is going to write maybe a three-pager, four-pager books for me.
+
+00:30:20.000 --> 00:30:27.000
+ So that is going to be again, like considered as a one to many means I have given just one single input.
+
+00:30:27.000 --> 00:30:33.000
+ And from that one single input itself, I'm expecting a multiple outputs basically, right?
+
+00:30:33.000 --> 00:30:37.000
+ So text generation from a particular topic, even a music generation.
+
+00:30:37.000 --> 00:30:43.000
+ So let's say I'm trying to give just a context that give me a patriotic music for this particular event.
+
+00:30:43.000 --> 00:30:53.000
+ So again, it is going to generate a complete sequence of the music for me means there will be Y1, Y2, Y3 as like, you know, and then everything will be related.
+
+00:30:53.000 --> 00:30:56.000
+ Basically, it's not like every time it is trying to do a fresh generation.
+
+00:30:56.000 --> 00:31:02.000
+ So it is trying to take a context from the past that what I have generated before and obviously the input, right?
+
+00:31:02.000 --> 00:31:04.000
+ That what was the instruction which was given to me.
+
+00:31:04.000 --> 00:31:06.000
+ So it will keep on generating that.
+
+00:31:06.000 --> 00:31:12.000
+ So whether it's an image captioning, whether it's a music generation, whether it's a text generation from a topic or whether it's a complete story generation.
+
+00:31:12.000 --> 00:31:22.000
+ So in all of those places, I can try to use this kind of a network, which is going to help me out in technically to, you know, just take one single input and produce a multiple output.
+
+00:31:22.000 --> 00:31:24.000
+ So this is one of the network.
+
+00:31:24.000 --> 00:31:29.000
+ Makes sense, guys, to all of us, recurrent neural network, one to many.
+
+00:31:29.000 --> 00:31:30.000
+ Yes, simple.
+
+00:31:30.000 --> 00:31:32.000
+ Now I'll give you another example.
+
+00:31:32.000 --> 00:31:35.000
+ So let's say we are going to talk about a many to one.
+
+00:31:35.000 --> 00:31:38.000
+ So let's see how many to one looks like.
+
+00:31:38.000 --> 00:31:49.000
+ So here.
+
+00:31:49.000 --> 00:31:52.000
+ Okay, so this is my many to one.
+
+00:31:52.000 --> 00:31:54.000
+ Okay, so how many to one looks like by the way.
+
+00:31:54.000 --> 00:31:57.000
+ So here many input will go.
+
+00:31:57.000 --> 00:32:02.000
+ So as you can see X1 X2 X3 X4 just reverse of this one to many, I would say.
+
+00:32:02.000 --> 00:32:06.000
+ So here we are trying to send a multiple input X1 X2 X3 X4 and so on.
+
+00:32:06.000 --> 00:32:11.000
+ And then I'm looking for only one single output at any point of a time.
+
+00:32:11.000 --> 00:32:15.000
+ For example, a sentiment analysis, I'll give a full sentence, right?
+
+00:32:15.000 --> 00:32:18.000
+ I'll give a full sentence, maybe a full review sentence I'm going to give.
+
+00:32:18.000 --> 00:32:21.000
+ And then I'm looking for what I'm looking for only one output, right?
+
+00:32:21.000 --> 00:32:23.000
+ Sentiment positive, negative, or maybe neutral.
+
+00:32:23.000 --> 00:32:28.000
+ I'm looking for just that particular output after giving a full sentence over there.
+
+00:32:28.000 --> 00:32:30.000
+ Maybe if I'm looking for a spam detection.
+
+00:32:30.000 --> 00:32:38.000
+ So basically someone has sent me a mail and then I'm trying to go through a complete mail body, mail content, which is a lot, which is many inputs.
+
+00:32:38.000 --> 00:32:45.000
+ And then ultimately I'm trying to take a decision that basically it is going to be spam or ham, maybe spam or no spam.
+
+00:32:45.000 --> 00:32:54.000
+ And based on that, I'm trying to do a classification, maybe, you know, review classification or maybe kind of a fraud detection, fraud or non-fraud if I'm trying to detect.
+
+00:32:54.000 --> 00:33:02.000
+ So obviously there will be a whole input, right? There will be many input over there and then eventually there will be only one output, only one output.
+
+00:33:02.000 --> 00:33:08.000
+ So in that situation, so we have to basically, so these are basically a sequence of the network guys, right?
+
+00:33:08.000 --> 00:33:14.000
+ So whenever you will try to create it, so you have to take a decision, you have to take a call that which one I'm supposed to use.
+
+00:33:14.000 --> 00:33:19.000
+ The basic idea is very simple that I will take two inputs, right?
+
+00:33:19.000 --> 00:33:24.000
+ One, a current one, and the second one is basically something from the past. That's it, right?
+
+00:33:24.000 --> 00:33:28.000
+ So that I will be able to remember something, I will be having some context.
+
+00:33:28.000 --> 00:33:33.000
+ And based on that, these are the different, different kind of a network which has been derived by the way.
+
+00:33:33.000 --> 00:33:37.000
+ Now let's talk about another network in the same one, right?
+
+00:33:37.000 --> 00:33:40.000
+ So there is something called as many to many network.
+
+00:33:40.000 --> 00:33:45.000
+ So let's try to see that how many to many networks actually looks like.
+
+00:33:45.000 --> 00:33:49.000
+ So previous one was one to many, I think I have just overwritten.
+
+00:34:15.000 --> 00:34:25.000
+ So many to one, I have already discussed.
+
+00:34:25.000 --> 00:34:28.000
+ Okay, so now let's talk about a many to many.
+
+00:34:28.000 --> 00:34:31.000
+ So one to many is done, one to one is done, one to many is done.
+
+00:34:31.000 --> 00:34:36.000
+ Now discuss about the many to many, many to many means, so many input and many output, I will be able to get.
+
+00:34:36.000 --> 00:34:41.000
+ So every time you are trying to pass something and then you are getting an output, output, output, output, and then input, input, input.
+
+00:34:41.000 --> 00:34:43.000
+ Every time you will be able to get it.
+
+00:34:43.000 --> 00:34:47.000
+ So here, so what is the use case of a many to many, by the way?
+
+00:34:47.000 --> 00:34:52.000
+ So whenever we are looking for, like for every input, right?
+
+00:34:52.000 --> 00:34:55.000
+ So we are looking for a corresponding output.
+
+00:34:55.000 --> 00:34:59.000
+ So if there is an X1, there is a Y1, if there is an X2, there should be a Y2.
+
+00:34:59.000 --> 00:35:05.000
+ So this kind of a situation in which we can try to go ahead and we can try to use basically a many to many.
+
+00:35:05.000 --> 00:35:10.000
+ Now here, so let's suppose we are talking about a situation.
+
+00:35:10.000 --> 00:35:15.000
+ So where, you know, we have to basically tag, right?
+
+00:35:15.000 --> 00:35:17.000
+ I'll take one example over here.
+
+00:35:17.000 --> 00:35:34.000
+ So let's say I'm trying to say that, that, you know, Sudhanshu teaches, Sudhanshu teaches data science, right?
+
+00:35:34.000 --> 00:35:37.000
+ So now Sudhanshu teaches data science.
+
+00:35:37.000 --> 00:35:40.000
+ Let's say this is my input X1, X2, and X3.
+
+00:35:40.000 --> 00:35:43.000
+ And for this X1, I'm looking for some output.
+
+00:35:43.000 --> 00:35:46.000
+ X2, I'm looking for some output for X3, I'm looking for some output.
+
+00:35:46.000 --> 00:35:48.000
+ What kind of output I'm looking for?
+
+00:35:48.000 --> 00:35:54.000
+ So let's say I'm trying to work on the problem statement called as POS tagging, parts of speech tagging, right?
+
+00:35:54.000 --> 00:36:00.000
+ That, you know, Sudhanshu is basically a person or maybe a noun, something like that, right?
+
+00:36:00.000 --> 00:36:03.000
+ So maybe I'm looking for a POS, parts of speech tagging.
+
+00:36:03.000 --> 00:36:06.000
+ So in which I have to tag Sudhanshu as a person, right?
+
+00:36:06.000 --> 00:36:13.000
+ Person, maybe teaches as a verb, I have to tag and data science as a technology.
+
+00:36:13.000 --> 00:36:15.000
+ Technology, I have to tag.
+
+00:36:15.000 --> 00:36:28.000
+ So in this situation, so where I'm looking for one input and then corresponding output, again, one input corresponding output, one input corresponding output while keeping or preserving the previous hidden state.
+
+00:36:28.000 --> 00:36:34.000
+ So in this situation, I can try to use basically this many to many kind of a recurrent neural network.
+
+00:36:34.000 --> 00:36:37.000
+ Make sense, guys. Yes.
+
+00:36:37.000 --> 00:36:44.000
+ So when we are supposed to use a many to many in this kind of a situation, obviously, we can try to use a many to many.
+
+00:36:44.000 --> 00:36:47.000
+ Now, this is not the only case of many to many.
+
+00:36:47.000 --> 00:36:52.000
+ So going forward, I'll be talking about even a language translation, language translation, for example.
+
+00:36:52.000 --> 00:36:55.000
+ So I'm saying that, you know, I'm teaching.
+
+00:36:55.000 --> 00:37:01.000
+ So like in Hindi, basically, I can say that, you know, I'm studying, right?
+
+00:37:01.000 --> 00:37:12.000
+ So obviously, here also, we are looking for input, a multiple input and then sequential output we are looking for for each and every input, but not like a straight forward mapping, right?
+
+00:37:12.000 --> 00:37:19.000
+ But not a straight forward mapping, I'm looking for in case of a language translation, because it's not like one to one mapping that we have shown you over here, right?
+
+00:37:19.000 --> 00:37:24.000
+ Paths of speech tagging, language translation is not going to be just like this one, one to one mapping.
+
+00:37:24.000 --> 00:37:29.000
+ So it is going to be understanding my input, its context, its meaning.
+
+00:37:29.000 --> 00:37:35.000
+ And then out of that context and meaning understanding, so just try to give me some sort of an output at some point of a time.
+
+00:37:35.000 --> 00:37:37.000
+ So this is what happens in case of a language translation.
+
+00:37:37.000 --> 00:37:42.000
+ So I'm going to teach you that there is an entity called as encoder decoder comes into picture.
+
+00:37:42.000 --> 00:37:44.000
+ So encoder will be having its own responsibility.
+
+00:37:44.000 --> 00:37:46.000
+ Decoder will be having its own responsibility.
+
+00:37:46.000 --> 00:37:50.000
+ Technically, it is going to follow like similar kind of a structure, many to many kind of a structure, right?
+
+00:37:50.000 --> 00:37:52.000
+ But with a different length.
+
+00:37:52.000 --> 00:37:56.000
+ So it's not like three input and three output is going to happen in case of a language translation.
+
+00:37:56.000 --> 00:38:03.000
+ There can be three input and there can be four output or maybe like a five output, maybe like a two output in case of a language translation.
+
+00:38:03.000 --> 00:38:06.000
+ So it is, it will be having another use cases as well.
+
+00:38:06.000 --> 00:38:18.000
+ But yeah, so if I'll talk about vanilla, many to many recurrent neural network, I think this is the best example to understand that what is the meaning of a many to many and what I will be able to get it.
+
+00:38:18.000 --> 00:38:33.000
+ So here I have already mentioned that that machine translation video captioning name entity recognition any are basically and speech to text to all of these examples falls under basically many to many but not with a straightforward network.
+
+00:38:33.000 --> 00:38:38.000
+ So I'm going to introduce basically a encoder decoder and then we will try to understand.
+
+00:38:38.000 --> 00:38:44.000
+ So here again inside a many to many as I have mentioned over here, there will be two type of the network.
+
+00:38:44.000 --> 00:38:48.000
+ One is a synchronous synchronous means input and output length are same.
+
+00:38:48.000 --> 00:38:55.000
+ This example input and output length are same basically the answer person teacher teacher's work and data science tech.
+
+00:38:55.000 --> 00:39:01.000
+ So this is basically a synchronous one the example which I have shown you there will be a synchronous one.
+
+00:39:01.000 --> 00:39:06.000
+ For example, a machine translation one language to another language translation video captioning.
+
+00:39:06.000 --> 00:39:12.000
+ So you will try to pass multiple frames and then it will keep on creating the like a frames out of it.
+
+00:39:12.000 --> 00:39:14.000
+ So all of these things is speech recognition.
+
+00:39:14.000 --> 00:39:23.000
+ So all of these things will come under a synchronous many to many recurrent neural network and again inside that we can try to reduce couple of other properties as well.
+
+00:39:23.000 --> 00:39:26.000
+ So this is what happens guys with respect to a many to many.
+
+00:39:26.000 --> 00:39:38.000
+ So these are just arrangements basically arrangements of a neural network the basic neural network and we are trying to arrange it in a different different manner as per the task that we are going to technically perform.
+
+00:39:38.000 --> 00:39:46.000
+ Hope this is making sense to all of us now now so inside this I would like to introduce couple of more things.
+
+00:39:46.000 --> 00:39:56.000
+ So basically when we are trying to pass this data whether it's in any network any of these network right so X1 X2 X3 XT whatsoever data that we are trying to pass.
+
+00:39:56.000 --> 00:40:06.000
+ So in the case of image that I have discussed yesterday so obviously images are nothing but a kind of a matrix right so kind of a matrix.
+
+00:40:06.000 --> 00:40:13.000
+ So every block will be having some sort of a pixel values or numerical values every block will be having a numerical values.
+
+00:40:13.000 --> 00:40:19.000
+ You can try to open up any images into a paint or maybe some other tool and you will be able to even see the pixel value.
+
+00:40:19.000 --> 00:40:24.000
+ So every every block will be having its own numerical value and one by one one by one.
+
+00:40:24.000 --> 00:40:32.000
+ So we try to flatten this entire values and then we try to pass it right so obviously after applying a filters right after applying a filters.
+
+00:40:32.000 --> 00:40:40.000
+ So we try to flatten the data and then we try to pass it you know inside the final output layer or maybe couple of new network layer.
+
+00:40:40.000 --> 00:40:49.000
+ And eventually you know there will be a filter and obviously we try to adjust filter as well this is where the actual learning is going to happen the filter that we try to apply.
+
+00:40:49.000 --> 00:40:54.000
+ So obviously we try to learn those filters as well we try to learn those kernels as well.
+
+00:40:54.000 --> 00:41:03.000
+ So now this is what happens in case of images the whole and sole point which I'm trying to discuss over here is that that you know even in case of image.
+
+00:41:03.000 --> 00:41:11.000
+ It will be available in a numeric format right and obviously my neural network or anything that I'm trying to do with respect to computers.
+
+00:41:11.000 --> 00:41:23.000
+ It requires a numerical data but let's say I'm saying my name is a CDH.
+
+00:41:23.000 --> 00:41:28.000
+ Now this is not numerical this is basically alphabetical.
+
+00:41:28.000 --> 00:41:40.000
+ So how we are going to pass this particular data because the network that I have discussed so far so obviously time t1 is fine hidden state is going to the next one.
+
+00:41:40.000 --> 00:41:49.000
+ Basically I'm trying to pass a context to the next one that is also fine everything is fine right everything is fine but when it comes to boils down to like you know input.
+
+00:41:49.000 --> 00:41:58.000
+ So here this is my input this is my input which is not numerical in case of image it was numerical right so obviously we were able to do a math on top of that.
+
+00:41:58.000 --> 00:42:11.000
+ But here what we are going to do any idea my name is a CDH it's not numerical at all so how I will be able to pass how my network will be able to understand the relation meaning score calculations.
+
+00:42:11.000 --> 00:42:28.000
+ Anyone any idea. Yes so Keith is saying that okay fine embedding okay any other like answers any anyone.
+
+00:42:28.000 --> 00:42:49.000
+ Yeah okay so come okay come training I don't know like do a vectors okay fine I mean like you are also talking about the embedding so see unless and until I'm not going to convert this one this entire data into its numerical representation I will not be able to use it as simple as that right as simple as that.
+
+00:42:49.000 --> 00:43:01.000
+ So eventually I have to convert because when we are talking about a neural network it's also always about a calculation like the weights and biases and the adjustment of these weights and biases that we are talking about it's just a calculation.
+
+00:43:01.000 --> 00:43:10.000
+ I will not be able to do a backup propagation if I'm not able to do a backup propagation obviously I will not be able to change any kind of a weights and biases if I'm not able to change that.
+
+00:43:10.000 --> 00:43:23.000
+ Eventually I will not be able to learn the relation so and to do all of these things my input should be available in a numerical format and this is where right this is where a different different kind of a technique comes into picture.
+
+00:43:23.000 --> 00:43:34.000
+ People have derived which is going to help you out in terms of converting your data to the numerical space because that's a primary objective without this nothing can be done very very simple.
+
+00:43:34.000 --> 00:43:42.000
+ So now let's talk about couple of these approaches by which I will be able to convert this entire data into a numerical space.
+
+00:43:42.000 --> 00:43:47.000
+ So the very first one the oldest approach you can say which is not even relevant now in most of the cases.
+
+00:43:47.000 --> 00:43:57.000
+ So for example my name is Sudhanshu right so I'll try to write it down in this manner so my name is SUDH.
+
+00:43:57.000 --> 00:44:03.000
+ So let's say you know I have only these four words as an input I don't have anything else.
+
+00:44:03.000 --> 00:44:08.000
+ So I can try to maybe I just I'm going to occupy it for a space.
+
+00:44:08.000 --> 00:44:21.000
+ So I'm going to write this one as one zero zero zero so one for one in a first place for my then this is coming into a second place so zero and then one then zero and then zero.
+
+00:44:21.000 --> 00:44:33.000
+ Now is so zero zero is in third place so one means active and then zero now so zero zero zero and then so the fourth place active is equal to one.
+
+00:44:33.000 --> 00:44:41.000
+ So maybe I can try to represent my name is SUDH in this entire sentence in this particular manner.
+
+00:44:41.000 --> 00:44:50.000
+ Now this approach is technically called as one hot encoding encoding one hot.
+
+00:44:50.000 --> 00:44:55.000
+ So based on this position or based on this like a sequence arrangement so one hot.
+
+00:44:55.000 --> 00:45:01.000
+ So this is going to be hot this is going to be one rest is going to be zero right wherever my will come once again.
+
+00:45:01.000 --> 00:45:07.000
+ So obviously like you know that that particular one will be like a hot right that particular one will be a hot.
+
+00:45:07.000 --> 00:45:12.000
+ So here there is a problem right there is a problem so the problem is very simple.
+
+00:45:12.000 --> 00:45:18.000
+ So as my number of words are going to increase let's say I'm talking about a whole books.
+
+00:45:18.000 --> 00:45:24.000
+ Let's say there are like a two thousand three thousand unique words are available.
+
+00:45:24.000 --> 00:45:32.000
+ So can I say that that this length is going to be this are a length is going to be that much two thousand three thousand right.
+
+00:45:32.000 --> 00:45:36.000
+ So and just to represent one single word.
+
+00:45:36.000 --> 00:45:41.000
+ Can I say that that length is going to be two thousand three thousand depends upon the number of the unique words.
+
+00:45:41.000 --> 00:45:49.000
+ Yeah so again that is going to be the problem and most of these like you know data which is available over here is basically sparse.
+
+00:45:49.000 --> 00:45:57.000
+ I mean like we have zeros like we have just zeros over there we don't have anything else we just have a zeros in most of the places.
+
+00:45:57.000 --> 00:46:02.000
+ That's a problem right unnecessarily you know I'm trying to deal with a very very high dimension.
+
+00:46:02.000 --> 00:46:09.000
+ Plus there are like a lot of zeros over there technically creating a sparse vector which is of no use for me.
+
+00:46:09.000 --> 00:46:20.000
+ Another one is that that it is not able to understand the actual relationship between my or name or name or is or maybe name or SUTH.
+
+00:46:20.000 --> 00:46:27.000
+ So it is not able to understand any kind of relationship between any of these word to word they don't understand just based on the position.
+
+00:46:27.000 --> 00:46:29.000
+ I'm trying to keep it hot or cool.
+
+00:46:29.000 --> 00:46:33.000
+ So hot means one and then cool means zero that that's it right that's it.
+
+00:46:33.000 --> 00:46:41.000
+ But yeah this was the initial one so people have used this one to you know convert our this kind of data into a numerical space.
+
+00:46:41.000 --> 00:46:45.000
+ So this is one of the technique which is the old technique you will be able to find out.
+
+00:46:45.000 --> 00:46:51.000
+ Then then basically what people have done so they have started talking about.
+
+00:46:51.000 --> 00:46:57.000
+ So likewise there is something called as TFIDF so term frequency inverse document frequency that was also an approach.
+
+00:46:57.000 --> 00:47:04.000
+ Then there is something called as what two vectors. So again people came into a neural network side like neural network side.
+
+00:47:04.000 --> 00:47:09.000
+ And it says that that OK I can try to rely on basically embedding.
+
+00:47:09.000 --> 00:47:14.000
+ So likewise there are so many approaches that people have tried since for a very very long time.
+
+00:47:14.000 --> 00:47:22.000
+ And then they said that that you know let's try to do a embeddings.
+
+00:47:22.000 --> 00:47:25.000
+ Let's try to do a embeddings what it does.
+
+00:47:25.000 --> 00:47:30.000
+ So basically it try to take of let's say my name is Anshu that same thing I'm talking about.
+
+00:47:30.000 --> 00:47:35.000
+ So my name name is SUDH same data I have.
+
+00:47:35.000 --> 00:47:47.000
+ So what I will do so I'll try to maybe produce a vector for my vector for name vector for is and vector for basically SUDH.
+
+00:47:47.000 --> 00:47:54.000
+ Or maybe I so what wise I can try to do a vectorization or maybe I can try to take a part of the sentence.
+
+00:47:54.000 --> 00:48:01.000
+ I can do a vectorization a whole sentence and also I can do a vectorization but also do a vectorization.
+
+00:48:01.000 --> 00:48:09.000
+ So now what does this means vector means let's say I'm talking about this my right so maybe 0.43 0.37 so on right.
+
+00:48:09.000 --> 00:48:15.000
+ So this are the kind of a data this are the kind of a numeric value by which I'm trying to represent my.
+
+00:48:15.000 --> 00:48:24.000
+ Similarly name similarly is similarly SUDH I'm trying to basically like you know like you know do it over there right.
+
+00:48:24.000 --> 00:48:34.000
+ So I'm trying to convert this entire things into this kind of a vectors but how I will be able to convert that's again a question right how I will be able to convert.
+
+00:48:34.000 --> 00:48:39.000
+ So before getting into that particular point let's try to understand one thing that what is the advantage I will be able to get.
+
+00:48:39.000 --> 00:48:45.000
+ So whenever we are talking about this embedding or whenever we are talking about converting my data into this numerical space.
+
+00:48:45.000 --> 00:48:50.000
+ So I'm going to use a kind of a neural network let's say right neural network.
+
+00:48:50.000 --> 00:48:59.000
+ So I'm trying to build a neural network which will give me output as what this.
+
+00:48:59.000 --> 00:49:09.000
+ So I will try to pass one data and then it should give me basically an output with respect to this one that OK fine so this is the vector representation of this this this this right.
+
+00:49:09.000 --> 00:49:18.000
+ So this is the kind of a new network I'm talking about and as we know that that neural network is good in terms of understanding the relation that which should come after what.
+
+00:49:18.000 --> 00:49:34.000
+ So in case of embedding I'm trying to create like you know I'm trying to basically convert the data into a numerical space but that numerical space also understands the relation that what is the relationship between my name my name is or maybe
+
+00:49:34.000 --> 00:49:43.000
+ SUDH or name that what is the relation so basically understand so that is a point that we are trying to arrive and this is where people have done a lot of improvement.
+
+00:49:43.000 --> 00:49:55.000
+ In last like you can say 10 years one decade right there was a lot of improvement there was a lot of like a new new approach which has been defined which will discuss which we are going to basically talk about a lot over here right.
+
+00:49:55.000 --> 00:50:10.000
+ So this is what like you know finally people have accepted and again so nowadays you will be able to see a best of best model which has been trained on the huge data set coming into a market which is helping you out to convert your data into a numerical space.
+
+00:50:10.000 --> 00:50:24.000
+ It's already like trained data trained model on a very huge amount of the data but yeah it's true that that you know without converting your data into a numerical space you will not be able to work on this kind of a data natural language data.
+
+00:50:24.000 --> 00:50:42.000
+ So this is one part conversion of the data into a respective basically you know numerical space right then then for these kind of a network that we are talking about so obviously you know input is fine.
+
+00:50:42.000 --> 00:50:57.000
+ Now we know that that no there are a couple of approaches for example one hot encoding TF IDF word to vector right sentence to vector or maybe this embedding approach by which I can convert my data into a numerical space fine conversion is done.
+
+00:50:57.000 --> 00:51:09.000
+ Now whenever we are talking about any kind of a neural network so obviously neural network will do a backward propagation and to do it it requires a loss function.
+
+00:51:09.000 --> 00:51:15.000
+ So what an all loss function you can try to basically use.
+
+00:51:15.000 --> 00:51:43.000
+ So let me write down that particular part as well I think I have already discussed but yeah let's talk about that. So here whenever you are trying to deal with a binary class classification 01 spam ham kind of a classification binary classification so in that situation you can try to use basically a loss function called as a binary cross entropy we have already used it.
+
+00:51:43.000 --> 00:52:11.000
+ Binary cross entropy in case of binding class classification if we are talking about a multi class classification right.
+
+00:52:11.000 --> 00:52:40.000
+ In that situation as a loss function you can try to use basically categorical cross entropy or maybe you can try to use a sparse categorical cross entropy right.
+
+00:52:40.000 --> 00:52:48.000
+ Let's say I'm trying to use basically this recurrent neural network for a regression so I believe we all are aware about it.
+
+00:52:48.000 --> 00:52:56.000
+ So in case of regression so we can try to use a mean squad error right MSC or MAE we can try to use.
+
+00:52:56.000 --> 00:53:07.000
+ So these are the different different kind of a loss function we can try to use it as per the use cases that we are trying to solve as per the problem that we are trying to basically solve at any point of a time.
+
+00:53:07.000 --> 00:53:25.000
+ Now now so here so when we are talking about this recurrent neural network so input is fine output is fine loss function is fine again optimizer I will be able to use it for example like an atom optimizer or something we can try to use it right.
+
+00:53:25.000 --> 00:53:44.000
+ All of these things are completely fine now this is basically a Vanilla recurrent neural network right Vanilla recurrent neural network where we have considered basically like you know input plus a hidden state plus a output at any point of a time.
+
+00:53:44.000 --> 00:53:52.000
+ But these Vanilla recurrent neural network was having a kind of a problem so what is the problem that this Vanilla recurrent neural network was facing.
+
+00:53:52.000 --> 00:54:03.000
+ So basically this Vanilla recurrent neural network was facing a couple of problem I would say and the very first problem is called as vanishing gradient problem.
+
+00:54:03.000 --> 00:54:32.000
+ So the problem with Vanilla RNN the raw RNN that we have discussed is the very first problem was vanishing vanishing gradient problem.
+
+00:54:32.000 --> 00:54:43.000
+ So we are discussing about a recurrent neural network because there was a problem with the previous neural network that we have already discussed so it was not able to retain any kind of a things from the past that was a problem.
+
+00:54:43.000 --> 00:54:52.000
+ So we have started talking about RNN but this Vanilla RNN that I have already discussed right the structure that I have already discussed this is also having a problem.
+
+00:54:52.000 --> 00:55:03.000
+ So the problem was very simple I mean like there is something called as vanishing gradient problem what is the meaning of vanishing gradient and when gradient will come into picture so gradient will come into picture in a backward propagation.
+
+00:55:03.000 --> 00:55:14.000
+ Right and along with the gradient so it is going to basically change all the weights which was or biases which was involved during our prediction right a trainable parameter by the way.
+
+00:55:14.000 --> 00:55:37.000
+ So here during a backward propagation so gradients maybe repeatedly like you know if you are going to multiply with the small number like for example you know if there is a gradient right if there is a gradient and then if you are trying to basically write something like 0.5 to the power 10 right.
+
+00:55:37.000 --> 00:55:51.000
+ So if values are going to be lesser than one and then if you are trying to do something like this 0.5 to the power 20 which is going to be a calculation in a backward propagation 20 right.
+
+00:55:51.000 --> 00:56:12.000
+ So this values will keep on decreasing keep on decreasing keep on decreasing means as you will do a backward propagation so your value will keep on decreasing and then it will start it will not be able to make any kind of a changes inside a like you know the previous or the initial weights and the biases.
+
+00:56:12.000 --> 00:56:24.000
+ What does that mean right so what does that mean so basically that simply simply means that that you know as your number of input will increase so for example.
+
+00:56:24.000 --> 00:56:32.000
+ Let's say I have like you know a one pager data and inside one page I have let's say 50 lines which is available with me.
+
+00:56:32.000 --> 00:56:47.000
+ So obviously line number one line number two I'm going to pass in any of these network the above network that we have discussed now as an as line will keep on increasing right so by X1 X2 X3 X4 X5 and so on will keep on increasing.
+
+00:56:47.000 --> 00:56:58.000
+ So obviously my data input will be increasing and every time what I'm trying to do so I'm trying to carry I'm trying to carry something for the past basically this is what I'm trying to do with respect to a recurrent neural network.
+
+00:56:58.000 --> 00:57:10.000
+ So when it will start doing a backward propagation so it will start adjusting a weight with respect to H and X over here because weight will be involved here and weight will be involved here as I have already written the formula in this particular place.
+
+00:57:10.000 --> 00:57:24.000
+ So it will not be able to make a changes on a initial one it simply means that that if my data set or if my sequence is going to be longer and longer and longer right so obviously if in terms of time right if it is increasing.
+
+00:57:24.000 --> 00:57:29.000
+ So it will not be able to retain something from the past.
+
+00:57:29.000 --> 00:57:44.000
+ It will not be able to learn something from the very very past basically so that was a problem that was faced with respect to this recurrent neural network and that is something called as vanishing gradient problem right vanishing gradient problem.
+
+00:57:44.000 --> 00:57:56.000
+ So it will always struggle to retain something which has came maybe like a little bit like a or long time ago right so it will not be able to understand that one.
+
+00:57:56.000 --> 00:58:07.000
+ It will it will not be able to retain any of those memories and if it is not able to retain any kind of a memories from the very beginning then again it is going to lose its purpose right it is going to lose its basically purpose.
+
+00:58:07.000 --> 00:58:19.000
+ So you can even think in this manner like maybe by using a different analogy that you know you are watching a movie right so beginning of this movie is very good.
+
+00:58:19.000 --> 00:58:34.000
+ But maybe by the end right by the end of this so maybe climax of this movie is not at all good or maybe after second half the movie is becoming like a like you know movie experience is becoming bad and bad as like a time progress.
+
+00:58:34.000 --> 00:58:43.000
+ So this is what you know people have faced with respect to this RNN as well which is called as the problem statement called as vanishing gradient problem.
+
+00:58:43.000 --> 00:58:54.000
+ Along with that so there is another problem that people have highlighted over here so which is opposite to the vanishing gradient which is called as exploding gradient.
+
+00:58:54.000 --> 00:59:13.000
+ Exploding gradient problem exploding gradient problem is what so if my value was lesser than one right so in that case if I am going to increase the power in a backup propagation so obviously value will become closer to zero.
+
+00:59:13.000 --> 00:59:22.000
+ But let's say if we have basically a value greater than one in that case power is going to basically increase the values right.
+
+00:59:22.000 --> 00:59:36.000
+ So basically the changes is going to be extremely large right so extremely large and in that situation so basically you know it is it is very much difficult to you know keep track of the losses.
+
+00:59:36.000 --> 00:59:47.000
+ So there was a vanishing gradient problem and there was a exploding gradient problem so exploding gradient problem is so obviously your value will become very very very extremely large as it is going to progress with respect to the time.
+
+00:59:47.000 --> 01:00:05.000
+ Again that is something which I will not be able to entertain and keeping that in a mind right so keeping these two problems in a mind people have introduced basically a new kind of a recurrent neural network or new design of a recurrent neural network.
+
+01:00:05.000 --> 01:00:18.000
+ It was a it is basically a recurrent neural network that we are going to discuss but yes design wise it is different which is going to solve this problem because the vanilla one is having vanishing gradient problem and then exploding gradient problem.
+
+01:00:18.000 --> 01:00:33.000
+ It simply means that that in terms of long term memory it will not be able to retain it right so this is where basically a new kind of a new network which was introduced now let's try to talk about it so I already have a picture of that.
+
+01:00:33.000 --> 01:00:36.000
+ Insert image.
+
+01:00:36.000 --> 01:00:52.000
+ And that is basically called as LSTM long sort term memory and this is one of the amazing network which was like you know published and which has solved lots and lots of basically problem for many things.
+
+01:00:52.000 --> 01:00:59.000
+ This architecture looks bit difficult and you know to understand but believe me this architecture is very very amazing.
+
+01:00:59.000 --> 01:01:13.000
+ So basically this architecture is called as LSTM long sort term memory and this architecture was designed based on the previous philosophy of vanishing gradient problem and the exploding gradient problem based on that philosophy this architecture was actually designed.
+
+01:01:13.000 --> 01:01:31.000
+ So the vanishing gradient problem we had and exploding gradient problem that we have so they said that that okay so maybe we can change the architecture of one particular like you know a cell so this is this entire architecture representing one cell inside the LSTM and they said that that you know we can try to introduce a couple of
+
+01:01:31.000 --> 01:01:40.000
+ things inside this one so what they have done so they have introduced a couple of things and when I say couple of things so they have introduced a different different kind of a gate over there.
+
+01:01:40.000 --> 01:01:51.000
+ So there are three gates you will be able to find out inside this network so there is something called as gate number one forget gate as it's mentioned there is something called as input gate and there is something called as output gate.
+
+01:01:51.000 --> 01:02:06.000
+ So forget gate input gate and output gate and everyone was having its own responsibility what kind of a responsibility so what forget gate does so it decides what information to forget from the cell state because as my like you know story will keep on increasing.
+
+01:02:06.000 --> 01:02:12.000
+ So obviously I don't have to remember everything right I don't remember everything maybe I can try to forget something which may be not useful.
+
+01:02:12.000 --> 01:02:18.000
+ So this is where this forget gate comes into picture so it will try to help in terms of forgetting something.
+
+01:02:18.000 --> 01:02:28.000
+ Then there was an input gate right so this gate actually decides that what new information to store so what kind of a new information because as my story will progress as my story will move.
+
+01:02:28.000 --> 01:02:37.000
+ So obviously I'll keep on adding a new information and that new information must be stored that new information must be updated and then there is something called as output gate.
+
+01:02:37.000 --> 01:02:47.000
+ So it decides that that what part of the cell state like to the output as a hidden state means what part of the cell basically is going to go ahead with the next input.
+
+01:02:47.000 --> 01:02:58.000
+ Right because the recurrent neural network the nature of the neural network is that that every time whenever there will be new input obviously so new input plus input should come from the previous state.
+
+01:02:58.000 --> 01:03:01.000
+ So now let's try to understand this entire neural network.
+
+01:03:01.000 --> 01:03:13.000
+ So if you try to focus on this entire neural network so they have introduced a completely new entity over here which is called as cell state CT minus one right CT minus one what is the cell state by the way.
+
+01:03:13.000 --> 01:03:25.000
+ So cell state is nothing but it's the ultimate storage of a memory basically so cell state and as you can see so this line is moving throughout the network right throughout the network.
+
+01:03:25.000 --> 01:03:26.000
+ Now let's try to understand here.
+
+01:03:26.000 --> 01:03:39.000
+ So here we have two input one is this and one is basically this one two input one is a current input at time t and another one is a input coming from the previous one which is the nature of basically my any kind of a neural network.
+
+01:03:39.000 --> 01:03:57.000
+ That neural network takes two inputs right one is a current one one is a something from past basically contest from the past and then it goes inside this for a gate gate which has been designed so here you will be able to find out a sigmoid symbol right.
+
+01:03:57.000 --> 01:04:08.000
+ So what happens inside this neural network inside this first gate which is a neural network eventually what is going inside it so basically the things which will go inside this one.
+
+01:04:08.000 --> 01:04:26.000
+ Is x t this input into weight plus h t minus one into bit plus biases right so this is something which will go as a f t go where inside a sigmoid function and this is the formula you will be able to find out so formula what formula says that here.
+
+01:04:26.000 --> 01:04:37.000
+ The input is going to be here the input is going to be weight and then h t minus one h and x t so this one and this one as a input plus biases for this one.
+
+01:04:37.000 --> 01:04:51.000
+ So now that will be the output of this entire gate and what we are trying to do over here so we are trying to do a multiplication multiplication with what a previous memory or previous context you can say we are trying to do a multiplication.
+
+01:04:51.000 --> 01:05:07.000
+ So here we are trying to do a multiplication and again so with the help of this multiplication it is going to help me out in terms of learning because this is a neural network right so obviously it will try to learn so it is going to help me out in terms of learning that what I am supposed to forget.
+
+01:05:07.000 --> 01:05:33.000
+ So that's the reason it's been mentioned over here decide what information to forget from the cell estate from the previous memory so one gate which is helping me out in terms of forgetting means it's a responsibility of this gate that always try to you know improve or always try to learn in such a way that you should always learn what to forget right so that you know you will be able to remove unnecessary information from the previous memory previous context by the way.
+
+01:05:33.000 --> 01:05:49.000
+ Then there is an input gate so we are forgetting that is completely fine but we have to even memorize something something new and this is where this next gate comes into picture so one helps us to forget one helps us to basically learn our new things again to input will go.
+
+01:05:49.000 --> 01:06:08.000
+ So HD minus one and XT same so this input is coming in this manner and this input is coming in this particular manner you can say so two input is coming here right so again from here right so two input now here so again this gate is a combination of this entire highlighted one the green one.
+
+01:06:08.000 --> 01:06:27.000
+ So here you will be able to find out a sigmoid sigmoid and then here we have a hyper tangent which has been used in this particular place and like you know the output which we will be able to get is a output which is technically helping me out in terms of remembering something new.
+
+01:06:27.000 --> 01:06:39.000
+ Basically so here it it is going to be what so weight into HD and XT two things is coming here right via this one X is coming in this one and via this H is coming from this one.
+
+01:06:39.000 --> 01:06:55.000
+ So here it is nothing but HD minus one XT going into the sigmoid that is going to be my it this is what has been written over here as a formula right plus biases so it will come over here the I will come over here and then multiplication with what.
+
+01:06:55.000 --> 01:07:14.000
+ So here inside a hyper tangent function so we are getting again two things XT current input plus something from past right so Tannach of this one from the past so this is going to be my CT delta which is going to create what we are trying to do so we are trying to take this you know output right.
+
+01:07:14.000 --> 01:07:28.000
+ Plus the information which is coming from the cell state after doing this multiplication and we are trying to do a addition operation so that you know inside a cell state I'm trying to attach a new memory by the way I'm trying to attach basically a new memory.
+
+01:07:28.000 --> 01:07:56.000
+ So fine I'm able to forget something I'm able to even adopt a new things then come into the output one obviously I need a output right I need a output and output should be a combination of the previous one as well as the new one right previous one as well as the new one I mean like previous when I say previous it simply means that that from my memory right from my memory output must be derived so this is what you will be able to like you know find out in like you know this particular place.
+
+01:07:56.000 --> 01:08:04.000
+ So here we are trying to basically talk about output and output is what so output is nothing but.
+
+01:08:04.000 --> 01:08:32.000
+ ht minus one and xt and weight output so this is going to give me the output over here and then we are trying to define the state which will go as an input to the next layer I mean like the next cell right so basically ht hidden state right which will eventually become like you know input to the next one so this ht is nothing but basically the output that we have received now right the output that we have received now.
+
+01:08:32.000 --> 01:08:49.000
+ And then the information that I'm trying to store inside the cell estate so that will become basically my output so this is giving me output current output plus it is also giving it's actually giving me two output so one is the output which I can use directly.
+
+01:08:49.000 --> 01:09:05.000
+ For my task and another one is hidden state which is basically an input to the next layer so this is how this entire like you know long short term memory is been basically designed so basically it's a specialized.
+
+01:09:05.000 --> 01:09:23.000
+ Kind of recurrent neural network so which is going to even understands a long term dependencies and short term dependencies and accordingly it will be able to adopt and there are three gates which involves inside this one forget input and output gate makes sense everyone.
+
+01:09:23.000 --> 01:09:43.000
+ Yes so where you can use LSTM stock price prediction you can use it language modeling you can try to use it is speech recognition you can try to use it text summarization you can try to use it medical time series analysis you can try to use it so there are a lot of application you will be able to find out in real time where you can try to go ahead and try to use long short term memory.
+
+01:09:43.000 --> 01:09:53.000
+ And for the very first time I have started using this you know this kind of an image so previously if you'll go and see my lecture so I used to draw this entire gate.
+
+01:09:53.000 --> 01:10:22.000
+ Is it fine if I'm going to use this kind of images. To explain. Yes, you want me to draw because I've been drawing since last like a seven to eight year so all of these things I used to draw you know line by line but but I believe you know this image is going to give you a clear idea I mean like clear flow from every part right so that's the reason so I thought of you know trying this image I'm trying this image for the very first time in your class.
+
+01:10:22.000 --> 01:10:35.000
+ Okay so this is basically long sort of memory so this is one of the things that they have designed then basically so.
+
+01:10:35.000 --> 01:10:42.000
+ There is another network right so there is another network which came into picture.
+
+01:10:42.000 --> 01:11:08.000
+ Which is again regular network by the way so after this long sort term memory, and there is something called as GRU get it recurrent unit so another another network by the way so LSTM is one of the network right so I can try to pile up this LSTM LSTM LSTM in the way I want so for example, now let's try to relate this one so above like here I talked about many to one right RNN.
+
+01:11:08.000 --> 01:11:37.000
+ So here this is one of the RNN unit let's say right one of the RNN unit this is another RNN unit there is another RNN unit there is another RNN unit so instead of using a and vanilla RNN unit basically right this is where this image comes into picture so I can replace this with LSTM LSTM LSTM LSTM fine so LSTM is a basic cell structure by the way right LSTM is basically a basic cell structure which has been actually designed to preserve a memory to like you know.
+
+01:11:37.000 --> 01:11:52.000
+ Solve a vanishing gradient problem and a exploding gradient problem now I can try to use this cell basically in one to one one to many many to one many to many is it making sense guys.
+
+01:11:52.000 --> 01:11:54.000
+ Yes.
+
+01:11:54.000 --> 01:12:05.000
+ Is it making sense right so I can try to so this is one cell the one that we have like the one that I have already discussed so basically I was talking about one particular cell over here this cell.
+
+01:12:05.000 --> 01:12:21.000
+ Now I can try to replace this cell with what LSTM everywhere in all all these four sequences that we have discussed so that you know it will be able to adopt a nature of LSTM long short term memory instead of using a vanilla RNN the philosophy is same right.
+
+01:12:21.000 --> 01:12:34.000
+ The cell structure has been changed the cell structure has been changed now there is another network which came into picture and which is basically called as GRU so let me show you that GRU part.
+
+01:12:34.000 --> 01:12:54.000
+ Yeah, so there is something called as gated recurrent unit right this is again RNN basically recurrent neural network simply means that that you know there will be input current input and there will be previous input right hidden state input.
+
+01:12:54.000 --> 01:13:03.000
+ I'm going to give so here basically what happens.
+
+01:13:03.000 --> 01:13:19.000
+ So there was a problem there was a small problem with respect to LSTM for some of this task now the first of all let's try to understand what was the small problem with respect to LSTM so in any LSTM cell the cell state that we have talking about right which which.
+
+01:13:19.000 --> 01:13:36.000
+ Follow along with the entire cell memory right CT basically CT minus well CT you can say a cell state which is actually preserving a memories which is actually updating its memories forgetting it plus updating it both it was able to do it right with the help of forget get another input gate.
+
+01:13:36.000 --> 01:14:04.000
+ So here, so the cell state can preserve information with respect to any kind of like you know, even a minor modification right and you know it was able to basically provide or it will be able to retain a memory for a very very long time and this is basically it's called as long short term memory I mean like for short term and for long term it is going to work.
+
+01:14:04.000 --> 01:14:14.000
+ But but the vanishing gradient problem that we have the one that we have discussed before even getting into this LSTM.
+
+01:14:14.000 --> 01:14:38.000
+ So people have observed that that it is not able to solve this vanishing gradient problem 100% because as the number of or as the size of the network will increase right so it will not be able to update the entire cell state basically with respect to a very very long term sequences.
+
+01:14:38.000 --> 01:14:49.000
+ And that was a problem that people have observed and they were trying to solve this problem that was the actual problem actually like even till today so people are trying to solve the same thing.
+
+01:14:49.000 --> 01:15:12.000
+ So this is where they have proposed the alternative of LSTM basically right so alternative of LSTM and they said that that okay so inside this network what I will do I will remove this cell state which was responsible for retaining the memory right so I'm not going to create a separate cell state right.
+
+01:15:12.000 --> 01:15:26.000
+ I will try to basically keep keep this hidden state as a memory so I'll try to treat like I will try to treat this one plus there was three gate inside this so let's try to reduce the complexity as well.
+
+01:15:26.000 --> 01:15:41.000
+ So we will try to keep only two gates inside a new neural network and that is basically called as GRU get it recurrent unit basically so here you will be able to find out two gates only.
+
+01:15:41.000 --> 01:15:59.000
+ So one gate is what one gate is basically a reset gate you will be able to see right a reset gate as it's been mentioned over here and the another gate is basically the update gate you will be able to find out so there are only two gates only two gates you will be able to see at any point of a time.
+
+01:15:59.000 --> 01:16:23.000
+ So reset gate always try to help you out that how much previous information you should ignore while producing the next state and can basically like this is what a reset gate always try to does and then there is a update gate so update gate will always help you out to determine how much previous information should be preserved and how much we should forget and then we should update.
+
+01:16:23.000 --> 01:16:51.000
+ So these are the two gates now again it's common like core philosophy was same I mean like there should be two input so at any point of a time to input current and something from the past right so you will not be able to see a cell estate over there just like a LSTM right there was a cell estate so here we are trying to treat my hidden state itself as a driver of this memory driver of this memory right driver of this entire memory.
+
+01:16:51.000 --> 01:17:06.000
+ And here so we are trying to basically use these two gates a reset gate and the update gate and what is basically a reset gate so reset gate is nothing but.
+
+01:17:06.000 --> 01:17:22.000
+ Let me draw this.
+
+01:17:36.000 --> 01:17:56.000
+ This image is OK so ST is coming here coming here so it's fine then we have this fine so input we are getting and then we are trying to basically multiply.
+
+01:17:56.000 --> 01:18:11.000
+ This with this one OK so reset to get is only this multiplication by this one so reset gate wise.
+
+01:18:11.000 --> 01:18:15.000
+ Let me draw in a proper manner.
+
+01:18:15.000 --> 01:18:25.000
+ So reset to get will be combination of this and this basically this multiplication this is my reset gate.
+
+01:18:25.000 --> 01:18:37.000
+ Yeah and this is my.
+
+01:18:37.000 --> 01:18:40.000
+ This is my reset gate by the way.
+
+01:18:40.000 --> 01:18:54.000
+ And this is my update gate guys these are the two gate which was basically introduced one is a reset gate and one is a update gate formula is very simple formula says that you know the like you know.
+
+01:18:54.000 --> 01:19:06.000
+ So the current input and like a previous hidden state will go into a sigmoid function will go into a sigmoid function and then along with the biases that is going to form basically a reset gate.
+
+01:19:06.000 --> 01:19:16.000
+ So technically this one you can say and then like you know of the update gates again something will go inside this one as a current input and the previous input and then there will be a biases.
+
+01:19:16.000 --> 01:19:24.000
+ Rest so here you will be able to find out that how the hidden state is been basically updated so I mean like this hidden state new state has been updated.
+
+01:19:24.000 --> 01:19:36.000
+ So here we are using a hyper tangent to update the final things and then here like what will be the final hidden state that we are going to get the whole idea was very simple try to keep a new network like as simple as possible.
+
+01:19:36.000 --> 01:19:50.000
+ Try to remove the cell state hidden cell state cell state basically so try to use this hidden state itself as a memory driver so that it will be able to like keep on updating and it will be able to keep on producing a new output.
+
+01:19:50.000 --> 01:19:53.000
+ So basically this is called as get it a recurrent unit.
+
+01:19:53.000 --> 01:20:03.000
+ So this is another network which was like I introduced just to solve a problem of this by the gradient which we were facing with respect to a recurrent neural network.
+
+01:20:03.000 --> 01:20:13.000
+ Now now so here in the same line you will be able to see there are multiple another different kind of a network which was introduced.
+
+01:20:13.000 --> 01:20:15.000
+ So let me show you some or the other network.
+
+01:20:15.000 --> 01:20:19.000
+ So these are just a sequence by which we try to attach each and everything.
+
+01:20:19.000 --> 01:20:20.000
+ That's it.
+
+01:20:20.000 --> 01:20:25.000
+ So there is something called as a bidirectional RNN which has been introduced.
+
+01:20:25.000 --> 01:20:33.000
+ Again this cell can be the unit can be LSTM or GRU right or maybe a vanilla whatever you would like to like consider.
+
+01:20:33.000 --> 01:20:35.000
+ So you can try to basically take it.
+
+01:20:35.000 --> 01:20:50.000
+ So based on this like you know basic architecture so people said that that okay we can try to like you know arrange it in a different different manner this cell and maybe I can try to solve a different different kind of a problem.
+
+01:20:50.000 --> 01:20:55.000
+ So this is where again this bidirectional RNN came into picture.
+
+01:20:55.000 --> 01:21:06.000
+ So bidirectional simply means that that it will be able to learn in forward direction as well as in a backward direction in both the direction it will be able to learn and it will be able to work.
+
+01:21:06.000 --> 01:21:10.000
+ So forward means left to right and backward means right to left.
+
+01:21:10.000 --> 01:21:18.000
+ So this is where this you know this kind of a network came into picture now where this is going to work by the way right.
+
+01:21:18.000 --> 01:21:21.000
+ So where this kind of architecture is going to work.
+
+01:21:21.000 --> 01:21:35.000
+ So let's say we are trying to work on like let's say we are trying to work on parts of a speech or maybe we are trying to work on text classification.
+
+01:21:35.000 --> 01:21:43.000
+ So at that point of a time we need a data flow or we need an understanding in both directions.
+
+01:21:43.000 --> 01:21:46.000
+ I'll give you one very like a famous example over here.
+
+01:21:46.000 --> 01:22:03.000
+ So here let's say if someone is saying that that you know he went to went to bank to deposit money.
+
+01:22:03.000 --> 01:22:19.000
+ This is one sentence right the other sentence is he sat on the bank of the river.
+
+01:22:19.000 --> 01:22:24.000
+ Now in both the places we have a bank right in both the places we have a bank.
+
+01:22:24.000 --> 01:22:35.000
+ So now here to understand this particular bank right to understand this particular bank basically the previous word he went to a bank to deposit money.
+
+01:22:35.000 --> 01:22:47.000
+ So obviously if I have to understand this particular bank so maybe I have to understand this deposit I have to understand money and then only I will be able to understand this particular bank.
+
+01:22:47.000 --> 01:22:56.000
+ If I have to understand this particular bank right so maybe I have to understand sat on so I can't sat on this like you know this kind of a bank right.
+
+01:22:56.000 --> 01:23:04.000
+ So basically I can sit on the reverse bank or like this kind of a places only I can't sat on this particular bank.
+
+01:23:04.000 --> 01:23:11.000
+ So sometime what happens to understand a complete meaning or to understand a relation or to understand one single word.
+
+01:23:11.000 --> 01:23:22.000
+ So sometime I have to basically look into the forward direction sometime I have to look into the backward direction to understand the entire meaning of it right entire meaning of it.
+
+01:23:22.000 --> 01:23:28.000
+ So for example in this case so the future word river right a river which is going to come over here.
+
+01:23:28.000 --> 01:23:37.000
+ So it is going to like helping me out in terms of determining what kind of a bank I'm talking about right what kind of a bank I'm talking about maybe here right.
+
+01:23:37.000 --> 01:23:47.000
+ So he went right he went and then maybe this this is something which is going to help me out maybe this is something which is going to help me out in terms of understanding the whole meaning of this entire things.
+
+01:23:47.000 --> 01:23:54.000
+ So this is where this kind of a network you can try to design so here intuition wise as it's mentioned.
+
+01:23:54.000 --> 01:24:06.000
+ So by looking at both past word and a future word if model has to do some sort of a prediction or it will be able to understand the full context a complete contest right.
+
+01:24:06.000 --> 01:24:14.000
+ So in that kind of a situation I can try to use what I can try to use basically a bi directional RNN.
+
+01:24:14.000 --> 01:24:20.000
+ So here you will be able to see we have a network we have a network we have a network we have a network.
+
+01:24:20.000 --> 01:24:27.000
+ So again this network is moving in a backward direction in this direction it is going to give you something right.
+
+01:24:27.000 --> 01:24:34.000
+ And then we have a network we have a network we have a network and this network is basically moving in this particular direction.
+
+01:24:34.000 --> 01:24:47.000
+ So at any point of a time for any given like an input you must be able to see that that it is trying to concatenate the output of this one and the output of this one.
+
+01:24:47.000 --> 01:24:54.000
+ And then it is giving you the final output why you want so basically the forward direction as well as my backward direction.
+
+01:24:54.000 --> 01:25:02.000
+ So both are helping me out both are helping me out to predict the next outcome and here it's already mentioned the use cases.
+
+01:25:02.000 --> 01:25:09.000
+ So parts of a speech POS tagging if we can try to use it name entity connection we can try to use it machine translation.
+
+01:25:09.000 --> 01:25:14.000
+ So obviously I have to understand the sentence sometime in a complete forward direction backward direction both directions.
+
+01:25:14.000 --> 01:25:19.000
+ So machine translation sentiment analysis speech organization so I can try to use this kind of a network.
+
+01:25:19.000 --> 01:25:23.000
+ So this is just the arrangement of the network by the way arrangement of the network.
+
+01:25:23.000 --> 01:25:34.000
+ So technically the cells can be LSTM base cell can be LSTM it can be a vanilla RNN or it can be a GRU I can try to use it very very simple.
+
+01:25:34.000 --> 01:25:38.000
+ This is just an arrangement of the cell in a both direction.
+
+01:25:38.000 --> 01:25:47.000
+ Now along with this bidirectional LSTM you will be able to find out another kind of LSTM called as I mean again another arrangement.
+
+01:25:47.000 --> 01:25:54.000
+ So this is my bidirectional then there is something called as stacked.
+
+01:26:17.000 --> 01:26:34.000
+ Okay, so there is something called as a stacked you will be able to find out now what a stacked does.
+
+01:26:34.000 --> 01:26:46.000
+ So again this is another arrangement you will be able to find out so one over one other over one other right so layer by layer so multiple layer of the network we can try to basically and we can try to create like any kind of a layer.
+
+01:26:46.000 --> 01:26:55.000
+ For example, yesterday we have seen CNN right so convolutional pooling convolutional pooling convolutional pooling this is something that we were trying to do it right layer by layer layer by layer.
+
+01:26:55.000 --> 01:26:58.000
+ So that it will be able to learn as many features as possible.
+
+01:26:58.000 --> 01:27:11.000
+ So similarly so here people said that that you know we can even design this kind of a network which can solve certain problems basically right so here we can try to you know design like a multiple layers and with the help of this multiple layers.
+
+01:27:11.000 --> 01:27:21.000
+ So we can we can try to basically like you know do some sort of a job do some sort of a task and this is where this is stacked or deep or a stacked RNA comes into picture.
+
+01:27:21.000 --> 01:27:29.000
+ So here you will be able to see that that there is an input and then cell cell can be LSTM cell can be GRU cells and again LSTM or GRU cell right.
+
+01:27:29.000 --> 01:27:35.000
+ So this is how in this manner we can try to basically stacked it one above another above another.
+
+01:27:35.000 --> 01:27:43.000
+ This is again another like a kind of a arrangements that you can do right this is just the arrangement arrangement of the basic cell that we have discussed.
+
+01:27:43.000 --> 01:27:49.000
+ Now there is another one you will be able to find out so this is my stacked one.
+
+01:27:49.000 --> 01:27:52.000
+ Okay.
+
+01:27:52.000 --> 01:28:02.000
+ Now let's talk about this one so let me change the page.
+
+01:28:02.000 --> 01:28:13.000
+ So now they have introduced a complete different kind of architecture and they have given a very different name to it basically.
+
+01:28:13.000 --> 01:28:25.000
+ So they have basically introduced a sequence to sequence architecture and again this architecture is like you know you will be able to find this architecture even inside the research paper called as attention is all you need.
+
+01:28:25.000 --> 01:28:36.000
+ So they said that that you know we are basically trying to make all of these arrangements right we are trying to make all this arrangement whether it's a stacked one whether it's a bidirectional one.
+
+01:28:36.000 --> 01:28:47.000
+ So whether it's like and we are using basically like you know this kind of a cell whether it's a one to one one too many so all of these things we are trying to do it right all this arrangements we are trying to do it.
+
+01:28:47.000 --> 01:28:55.000
+ And in a different different manner we are trying to combine each and everything that's completely fine but but but.
+
+01:28:55.000 --> 01:29:11.000
+ The problem that they were able to see in all the above arrangements is that that doesn't matter what my basic cell is because basic cell will be RNN right and any variety of RNN by the way LSTM or GRU.
+
+01:29:11.000 --> 01:29:23.000
+ It doesn't matter what kind of arrangements we are going to do the problem is that that you know in one sort we are trying to pass everything for example even over here right.
+
+01:29:23.000 --> 01:29:38.000
+ So we are trying to pass X1 X2 X3 and we are looking for Y1 Y2 Y3 I mean like we are passing input we are giving input we are looking for output same goes over here we are passing input we are trying to pass the input we are trying to look for the output right so every time.
+
+01:29:38.000 --> 01:30:03.000
+ So let's think about one example over here right so let's say if I'm saying how are you right now this is my sentence now if I'm going to ask you to translate this into Hindi so obviously what I you will do so you will like you know translated up right.
+
+01:30:03.000 --> 01:30:23.000
+ Let's say basically right so now this is your this is going to be your translation now X1 X2 X3 fine Y1 Y2 Y3 fine I'm passing the input I'm getting the output right now if I'm saying my name is.
+
+01:30:23.000 --> 01:30:47.000
+ Nanshu Kumar right.
+
+01:30:47.000 --> 01:30:57.000
+ So now we are trying to pass input right X1 X2 X3 X4 X5 Y1 Y2 Y3 Y4 Y5 right now.
+
+01:30:57.000 --> 01:31:09.000
+ So every time it looks like basically right assumption wise it looks like that you know we are trying to pass X1 X2 X3 and we are able to get in this kind of a translation this kind of a task we are getting Y1 Y2 Y3 and so on right.
+
+01:31:09.000 --> 01:31:22.000
+ Now, in many times in this language translation so you are going to pass maybe three X you will get five Y or vice versa right anything is possible in terms of translation maybe I'm translating this in a friend German maybe some other languages.
+
+01:31:22.000 --> 01:31:44.000
+ So maybe like you know it's not like number of X is going to be number of Y part number one part number two right part number two that you know basically we are trying to do all of these things in one go means give X and get Y basically.
+
+01:31:44.000 --> 01:31:55.000
+ Which is not a good approach at any point of a time so when we are looking for maybe this kind of a task by the way.
+
+01:31:55.000 --> 01:32:09.000
+ The reason is that that you have to understand a relation you have to understand a meaning you have to understand a context and then only you will be able to do a translation it's not like.
+
+01:32:09.000 --> 01:32:19.000
+ You will say how is mapped to up or will be mapped to Kase and you will be mapped to head can I can I map in this manner.
+
+01:32:19.000 --> 01:32:22.000
+ Can I map in this manner.
+
+01:32:22.000 --> 01:32:30.000
+ So this is the data right this is the data so can I map how to up and then are to Kase and then you to head.
+
+01:32:30.000 --> 01:32:33.000
+ Can I map in this manner.
+
+01:32:33.000 --> 01:32:39.000
+ So how is not equal to up right how means Kase so how should we map to Kase.
+
+01:32:39.000 --> 01:32:42.000
+ You means basically up right.
+
+01:32:42.000 --> 01:32:55.000
+ So basically see what I'm trying to explain over here when you will look this one to a mapping so it's not like you know you are passing one X and then you are getting one white note that is a mapping which is not possible right that is mapping which is not possible.
+
+01:32:55.000 --> 01:33:04.000
+ So for example my mera fine name now is actually will be mapped to somewhere here right.
+
+01:33:04.000 --> 01:33:10.000
+ Again how are you so you can't you can't map like one to one manner in this way that one input one output.
+
+01:33:10.000 --> 01:33:22.000
+ So basically to produce this output the output that we are talking about the output that we are looking at so we have to understand the context right we have to understand the whole meaning we have to understand the relation that how this how are you.
+
+01:33:22.000 --> 01:33:32.000
+ So how these three things are related to each other right and then how same thing can be represented in other language.
+
+01:33:32.000 --> 01:33:47.000
+ With what combination right with what combination then only you will be able to do a actual translation right the actual translation but so far the network that we have discussed input output input output input output right.
+
+01:33:47.000 --> 01:33:59.000
+ That's a core philosophy that all this network have been facing input output input output obviously there was a memory so I mean it will be able to understand what I have done in past but still input output input output this kind of a game that we were playing.
+
+01:33:59.000 --> 01:34:13.000
+ So they said that that no let's try to change the approach right let's try to change the arrangement arrangement so they are not going to do something new network by the way it's a new arrangement even over here there was no new network it was just an arrangement of the network right.
+
+01:34:13.000 --> 01:34:21.000
+ So again over here there is no new network arrangement of the network yes GRI was the new network LSTM was the new network but in London was the new network.
+
+01:34:21.000 --> 01:34:36.000
+ So here they said that that okay let's do one thing so you know try to change this arrangements and try to introduce something right or break this task break this task into two things.
+
+01:34:36.000 --> 01:34:44.000
+ Part number one part number two they said part number one is equals to encoder they said part number two is equal to decoder.
+
+01:34:44.000 --> 01:35:00.000
+ Now what part number one and two will do so responsibility of this encoder they have defined and responsibility of decoder they have defined so they said that that you know this part number one will not do anything it will try to take input.
+
+01:35:00.000 --> 01:35:08.000
+ Obviously like you know there is a memory and all those things because the base cell is basically RNN based cell right so RNVarnilla RNLSTM or GRU.
+
+01:35:08.000 --> 01:35:17.000
+ So they said that that okay we will be able to take the cell so that we can understand the meaning and like long format all of those things that's completely cool.
+
+01:35:17.000 --> 01:35:33.000
+ But this first part of this entire network will be responsible right will be responsible only and only for understanding the context means the relation.
+
+01:35:33.000 --> 01:35:49.000
+ So for example if I'm trying to pass maybe how are you over here so it is not going to give me a translation no it is just going to represent how are you into a numerical format.
+
+01:35:49.000 --> 01:36:01.000
+ And what is a name that we used to give to that I think we all are aware about it.
+
+01:36:01.000 --> 01:36:13.000
+ Yes a embedding of vector right everyone yes so representation of any things into a numerical space is a embedding so vector space right.
+
+01:36:13.000 --> 01:36:29.000
+ So this is what they said that okay so you are just going to learn right your portion means this encoder portion will just try to learn only one thing and what is that so they said that that you will just try to learn.
+
+01:36:29.000 --> 01:36:40.000
+ How in a best possible manner you can understand the context of the data and then represent that into a numerical space.
+
+01:36:40.000 --> 01:36:47.000
+ That's it right that's it that will be the responsibility of my encoder part of the network.
+
+01:36:47.000 --> 01:36:59.000
+ So that's as mentioned over here so read the input sequence means you're like how are you my name is Anshu something like that and then encode it into a context vector means technically a embedding you can say right.
+
+01:36:59.000 --> 01:37:09.000
+ So this is going to give so this whole network is going to give you what are embedding or a vector that's it a numerical one numeric one it is going to give it to you.
+
+01:37:09.000 --> 01:37:25.000
+ Fine so here example wise so if I'm going to give I am a student right so here encoder will try to give just a context vector means embedding it has given to you and that is the only responsibility that this part of the network is going to carry.
+
+01:37:25.000 --> 01:37:38.000
+ Okay fine so now I'm able to convert something into a numerical space so can I say that that when I'm not doing a direct translation by the way I'm not learning a direct translation.
+
+01:37:38.000 --> 01:37:48.000
+ My network is not learning a direct translation my network is learning how in a best possible way I can represent this input into a vector space.
+
+01:37:48.000 --> 01:38:02.000
+ That's it this is the only responsibility of encoder and again inside the encoder right so these are the basic cell these are the basic cells I can try to use vanilla I can try to use LSTM I can try to use GRU going forward some other network as well we are going to introduce.
+
+01:38:02.000 --> 01:38:22.000
+ So here then there are part number two right and what is the responsibility of part number two so part number two responsibility which is called as decoder is to produce the output means it is going to take basically your numeric embeddings numeric embeddings and then it will try to basically.
+
+01:38:22.000 --> 01:38:42.000
+ Give you the output that you are looking for so maybe I'm looking for a like a part of a speech tagging of the input maybe I'm looking for a translation over there fine not an issue so it will start giving you that particular one so that will be a responsibility of our decoder so decoder will just try to learn that.
+
+01:38:42.000 --> 01:38:55.000
+ At a given input which is a numeric one which is an embedded one which is a vector one what is the output that I will be able to produce so they have just divided the responsibility.
+
+01:38:55.000 --> 01:39:11.000
+ Of this entire things into encoder and decoder basically and this is where this sequence to sequence architecture comes into picture right so basically what it does so it is going to map input sequence to the output sequence.
+
+01:39:11.000 --> 01:39:23.000
+ And which can have maybe a different different kind of a length and in this manner obviously we can try to do a better translation or we can try to solve this task in a much much better manner.
+
+01:39:23.000 --> 01:39:35.000
+ So that was another arrangement which was proposed and then going forward when I'm going to teach you attention is all you need maybe I can try to bring that picture as well I'll not discuss that one because.
+
+01:39:35.000 --> 01:40:04.000
+ I'll discuss that.
+
+01:40:04.000 --> 01:40:08.000
+ I had that picture somewhere.
+
+01:40:08.000 --> 01:40:27.000
+ We'll search.
+
+01:40:27.000 --> 01:40:41.000
+ I'll show you in the next class basically so the famous architect the most famous architecture that we all are going to understand that we all are going to study which is called as attention is all you need a research paper right that I will be talking about.
+
+01:40:41.000 --> 01:40:58.000
+ So if you will go to a research paper is all you need research paper.
+
+01:40:58.000 --> 01:41:12.000
+ So in this research paper you will be able to find out two things and it's having a huge mathematics so that's a regional take like a one full class just to explain you this one and if you are able to explain this you will be able to understand every element that we have.
+
+01:41:12.000 --> 01:41:26.000
+ So here you will be able to see basically the same philosophy the encoder this one and the decoder this one basically.
+
+01:41:26.000 --> 01:41:36.000
+ So this is something that we have to understand so this this like this philosophy has like you know given them a good result and based on that so again.
+
+01:41:36.000 --> 01:41:45.000
+ Not just based on that I would say so there is something called attention mechanism so there was still an issue with respect to understanding the sentence and the long format.
+
+01:41:45.000 --> 01:42:00.000
+ So they have created a new network and that new network is called as transformer. Yes, so far are we able to understand the sequence guys the history and the story.
+
+01:42:00.000 --> 01:42:03.000
+ Yes, are we able to understand the history and the story.
+
+01:42:03.000 --> 01:42:16.000
+ So we have started with the neural network right so I think three class bags and then we talked about a new network the laws the backward propagation basically the optimization over there the hidden state each and everything.
+
+01:42:16.000 --> 01:42:26.000
+ Then we have started talking about a special kind of a new network which is called as convolutional neural network which especially deals with the image kind of a data.
+
+01:42:26.000 --> 01:42:37.000
+ So we know now that okay fine so image is nothing but our metrics kind of a things and then we can try to extract a different kind of a feature out of it we can learn those feature and then we can try to train.
+
+01:42:37.000 --> 01:42:49.000
+ So yesterday this is what we have done then obviously till the CNN we have observed that no CNN is a kind of a network where input neural network and output.
+
+01:42:49.000 --> 01:42:57.000
+ Right so input neural network and output so this is the philosophy that you know this CNN is going to follow.
+
+01:42:57.000 --> 01:43:09.000
+ So keeping that in our mind so what we have started talking about is that that you know so in a case in a case like sentence they know translation or times these kind of a data.
+
+01:43:09.000 --> 01:43:20.000
+ So we need a kind of a network which can even memorize something from the past and this is where this RNN comes into picture, a recurrent neural network comes into picture so where it takes to input all the time.
+
+01:43:20.000 --> 01:43:25.000
+ One the current one and the one is a hidden state which is coming from the previous one right.
+
+01:43:25.000 --> 01:43:38.000
+ So it takes to input now inside that so we have seen a different different kind of arrangements basically one to one one to many many to one many to many depends upon the different tasks we can choose all these arrangements by the way.
+
+01:43:38.000 --> 01:43:48.000
+ Then inside that we have discussed LSTM and GRU so there are like three kind of a network one is a vanilla RNN which was having a problem called as balancing gradient and exploding gradient.
+
+01:43:48.000 --> 01:43:56.000
+ So people have introduced like LSTM with three gates basically so forget to get input gate and you can say output gate right and with cell estate right.
+
+01:43:56.000 --> 01:44:15.000
+ Remember something or which can forget something so basically addition and multiplication we have seen over there then there was a new network which was introduced called as GRU to solve this you know long memory problem in LSTM or this balancing gradient problem in a better way in LSTM.
+
+01:44:15.000 --> 01:44:31.000
+ So there was only two gate then basically now we know three cells three basic cells so one is a vanilla RNN one is basically LSTM and then GRU and now we can try to arrange these things in a different different manner.
+
+01:44:31.000 --> 01:44:46.000
+ So we can try to use it in a bi-directional manner we can try to basically use it in a stacked manner right and then there was again the problem that we were looking for in we were giving input and output so everything was happening in one single thought.
+
+01:44:46.000 --> 01:45:02.000
+ So people said that that no if we are looking for like maybe a language translation kind of a things so we should separate these two things so we should separate or divide the responsibilities and this is where encoder decoder comes into picture so encoder it will try to take care of one of the responsibility
+
+01:45:02.000 --> 01:45:11.000
+ decoder it will try to take care of another responsibility so encoder it will generate the embeddings decoder so maybe it will try to perform the final task.
+
+01:45:11.000 --> 01:45:19.000
+ Makes sense the story the whole story behind this entire network that we have discussed so far.
+
+01:45:19.000 --> 01:45:23.000
+ Yes everyone yeah.
+
+01:45:23.000 --> 01:45:30.000
+ Okay so fine I think we are good so in my next class I'll be talking about basically a transformer architecture.
+
+01:45:30.000 --> 01:45:38.000
+ The attention is all you need where there are two part encoder and decoder and now we know what encoder does what decoder does.
+
+01:45:38.000 --> 01:45:47.000
+ Now we also know that that you know whenever we are trying to give an input so obviously we have to convert those data those inputs into a numerical format in a vector space we have to convert.
+
+01:45:47.000 --> 01:46:02.000
+ We'll also try to understand that that you know the attention is all you need the transformer architecture so it also tried to consider something called as positional encoding right so all of these things we are going to discuss in my next upcoming class which is going to happen next
+
+01:46:02.000 --> 01:46:08.000
+ Saturday with that yes that's it guys for today.
+
+01:46:08.000 --> 01:46:18.000
+ So any question for me by the way anyone.
+
+01:46:18.000 --> 01:46:20.000
+ Yes or no.
+
+01:46:20.000 --> 01:46:25.000
+ So if there is no question then we are going to wrap up a class for today.
+
+01:46:25.000 --> 01:46:27.000
+ I think someone has raised his hand.
+
+01:46:27.000 --> 01:46:32.000
+ So yes that good.
+
+01:46:32.000 --> 01:46:34.000
+ What is your question.
+
+01:46:34.000 --> 01:46:40.000
+ Yeah hello so my question is in case of vanilla RNN we have this low vanishing gradient problem and also exploding gradient problem.
+
+01:46:40.000 --> 01:46:51.000
+ So if we change can you do it something like changing the activation functions like in case of sigmoid functions when you go down the top of the curve that exchange of the curve is very slow.
+
+01:46:51.000 --> 01:47:07.000
+ I think one problem that's why we go for a loop because they should give us a smoother derivative and same similarly we can change the weight initialization techniques if I'm not wrong so then we can go for a go for a better.
+
+01:47:07.000 --> 01:47:15.000
+ So can we do it in case of vanilla RNN or is it because that we lose the context then we have to go for LSTM.
+
+01:47:15.000 --> 01:47:26.000
+ No so basically we will start losing a context and that's the reason so we have to go for the LSTM because in case of a vanilla RNN it's completely fine we are trying to take something from the past right but as my past will keep on increasing.
+
+01:47:26.000 --> 01:47:37.000
+ So for example you will keep on chatting with chat GPT for a very very long time and chat GPT is having a kind of a constant memory context memory maybe let's say like a 200 KB right.
+
+01:47:37.000 --> 01:47:52.000
+ So if you will start surpassing that one so maybe it will not be able to retain each and everything in that limited 200 KB so it will keep on forgetting and while it will keep on forgetting so it will start forgetting even information which is maybe an important one for you right for your context.
+
+01:47:52.000 --> 01:48:00.000
+ So that was the actual problem and this is where LSTM has been introduced and this is where the celestate the above one that you are able to see has been introduced.
+
+01:48:00.000 --> 01:48:16.000
+ Okay thank you again. Yeah. Okay so fine one fine everyone thank you so much take care and see you again guys in our next Saturday class probably we'll do some practical as well but yeah we'll try to understand like first of all theory and then we'll understand practical.
+

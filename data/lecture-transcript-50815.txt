@@ -1,0 +1,4748 @@
+WEBVTT
+
+00:07:37.460 --> 00:07:40.460
+okay so hey hi everyone i believe i am audible visible to
+
+00:07:40.460 --> 00:07:44.900
+all of you guys so please confirm inside a chat if i am
+
+00:07:44.900 --> 00:07:49.000
+audible and visible to all of you yes okay
+
+00:07:52.230 --> 00:07:54.510
+so good evening everyone let's start with the class so i
+
+00:07:54.510 --> 00:07:58.630
+believe uh we all are aware about the agenda right uh agenda
+
+00:07:58.630 --> 00:08:02.170
+of this workshop as well as uh ai journalist batch so i
+
+00:08:02.170 --> 00:08:05.770
+believe like uh it was basically a topic uh which i was
+
+00:08:05.770 --> 00:08:09.990
+supposed to discuss inside the ai journalist batch and uh
+
+00:08:09.990 --> 00:08:13.090
+yeah so i thought that okay fine so let's do one thing so
+
+00:08:13.090 --> 00:08:16.550
+let's try to uh you know make it available even as a
+
+00:08:16.550 --> 00:08:20.170
+workshop so that anyone who would like to understand aws
+
+00:08:20.170 --> 00:08:24.290
+because i believe aws is pretty much like you know common
+
+00:08:24.290 --> 00:08:27.110
+for all of us as a techies so that you know we all can
+
+00:08:27.110 --> 00:08:30.710
+discuss and we all will be able to uh you know talk about it
+
+00:08:30.710 --> 00:08:34.130
+and we all can try to learn about it so that was the whole
+
+00:08:34.130 --> 00:08:37.010
+idea that's the reason so so i have just like made it as a
+
+00:08:37.010 --> 00:08:42.750
+workshop as well as uh aiml both it's available so let's
+
+00:08:42.750 --> 00:08:48.130
+start with this one aws and let me set a complete agenda
+
+00:08:48.130 --> 00:08:51.010
+about this entire session so what is going to happen in this
+
+00:08:51.010 --> 00:08:53.670
+session and this is just part one so if you will go and
+
+00:08:53.670 --> 00:08:56.170
+check the topic which i have mentioned so this is just a
+
+00:08:56.170 --> 00:09:00.370
+part one because obviously in one single session uh if i'm
+
+00:09:00.370 --> 00:09:04.670
+going to finish the entire aws i don't think that i will end
+
+00:09:04.670 --> 00:09:12.810
+up doing a full session so i will keep on bringing part two
+
+00:09:12.810 --> 00:09:17.210
+part three and so on so here uh first of all what i'm going
+
+00:09:17.210 --> 00:09:22.530
+to discuss so i'll be talking about aws services right a
+
+00:09:22.530 --> 00:09:26.130
+common one so a common one which we try to use it in a ai ml
+
+00:09:26.130 --> 00:09:31.010
+segment a common one which is a bare minimum requirement to
+
+00:09:31.010 --> 00:09:34.350
+configure anything and everything so that is a that is
+
+00:09:34.350 --> 00:09:37.950
+something which i will be talking about on top of that so
+
+00:09:37.950 --> 00:09:43.030
+aws free service so let's say if i have an account so for
+
+00:09:43.030 --> 00:09:46.330
+next 12 month of time so what and all things i will be able
+
+00:09:46.330 --> 00:09:49.550
+to access and how much i will be able to access by the way
+
+00:09:49.550 --> 00:09:53.210
+right and then obviously i'll be talking about cost saving
+
+00:09:53.210 --> 00:09:57.450
+as well i mean like let's say if i'm trying to add a card
+
+00:09:57.450 --> 00:10:01.410
+once my free tier will be exhausted so where i'm supposed to
+
+00:10:01.410 --> 00:10:05.510
+focus more and more so that i will be able to save a cost so
+
+00:10:05.510 --> 00:10:06.770
+that i will be able to save a cost or you can say even a
+
+00:10:06.770 --> 00:10:09.710
+cost optimization so cost optimization
+
+00:10:13.330 --> 00:10:16.690
+i'll be talking about basically so these are the three
+
+00:10:16.690 --> 00:10:19.230
+things which i will try to cover in this particular session
+
+00:10:19.230 --> 00:10:22.570
+which is eventually going to be a part one as i have already
+
+00:10:22.570 --> 00:10:25.250
+listed down right and then obviously i'll be like you know
+
+00:10:25.250 --> 00:10:29.210
+open for any kind of questions that comes in your mind so
+
+00:10:29.210 --> 00:10:31.410
+i'll try to answer all of your questions even during a
+
+00:10:31.410 --> 00:10:34.470
+session so feel free to you know put your question inside a
+
+00:10:34.470 --> 00:10:39.570
+chat box My eyes are there. So obviously I can see all of
+
+00:10:39.570 --> 00:10:42.910
+your questions, all of your conversation there and then
+
+00:10:42.910 --> 00:10:46.890
+eventually I'll try to answer to all of your question as
+
+00:10:46.890 --> 00:10:48.550
+much as possible. Yes.
+
+00:10:51.240 --> 00:10:56.300
+Okay. So now let's start. Yes. Let's start with this one. So
+
+00:10:56.300 --> 00:11:02.220
+here what we can do basically, right? So here let's talk
+
+00:11:02.220 --> 00:11:06.640
+about first of all a common AWS services. See guys, so
+
+00:11:06.640 --> 00:11:10.840
+whenever we talk about AWS, so inside AWS there are so many
+
+00:11:10.840 --> 00:11:13.780
+services which is already available. So let me give you a
+
+00:11:13.780 --> 00:11:17.180
+little bit of intro about AWS and I'll give you a notes as
+
+00:11:17.180 --> 00:11:21.100
+well because I know those who are new to AWS. So maybe you
+
+00:11:21.100 --> 00:11:23.540
+would like to, you know, understand and learn more and more
+
+00:11:23.540 --> 00:11:26.660
+about this one. And this is one of my live accounts. So I'm
+
+00:11:26.660 --> 00:11:28.900
+trying to show you. So likewise, we have multiple accounts.
+
+00:11:29.040 --> 00:11:32.780
+We try to manage because we run like a lot of softwares. So
+
+00:11:32.780 --> 00:11:35.260
+this is one of my live accounts. So where you will be able
+
+00:11:35.260 --> 00:11:38.760
+to see some current month billing as well. Some $2,600 or
+
+00:11:38.760 --> 00:11:42.860
+something. Right. This is the forecasted like billings for
+
+00:11:42.860 --> 00:11:45.880
+all those real services. So whatsoever I'm going to teach
+
+00:11:45.880 --> 00:11:48.900
+you whatsoever I'm going to show you in my session one and
+
+00:11:48.900 --> 00:11:52.180
+two and three and then so on. Everything will be based on
+
+00:11:52.180 --> 00:11:54.960
+the evidence. Everything will be based on the. Real things.
+
+00:11:55.080 --> 00:11:58.500
+So nothing dummy just for the teaching purposes. And this is
+
+00:11:58.500 --> 00:12:03.560
+what I do almost in every classes of mine at least. Okay. So
+
+00:12:03.560 --> 00:12:07.380
+first of all, like, you know, go to AWS dot com. So go to
+
+00:12:07.380 --> 00:12:10.140
+Google and those who is not having AWS account. So you can
+
+00:12:10.140 --> 00:12:15.840
+try to create a AWS account. So AWS or Amazon Web Services
+
+00:12:15.840 --> 00:12:20.080
+or AWS login. You can try to search for and you will be able
+
+00:12:20.080 --> 00:12:24.240
+to see this one. Right. So AWS management console. So you
+
+00:12:24.240 --> 00:12:26.420
+can go over there. You can try to create an account and
+
+00:12:26.420 --> 00:12:29.160
+there is no charges. AWS is going to give you to create an
+
+00:12:29.160 --> 00:12:32.120
+account at least. Right. It's completely fine. Even though
+
+00:12:32.120 --> 00:12:34.700
+if you are going to add your card or something. So unless
+
+00:12:34.700 --> 00:12:37.760
+and until you are not, you know, spending some of the
+
+00:12:37.760 --> 00:12:41.700
+services, paid services, it is not going to charge you. So
+
+00:12:41.700 --> 00:12:44.600
+don't worry about it. AWS never charge you unnecessarily. So
+
+00:12:44.600 --> 00:12:46.860
+unless and until you are not using it. Once you will use it
+
+00:12:46.860 --> 00:12:49.380
+for sure, it is going to give you a charge. But again, there
+
+00:12:49.380 --> 00:12:52.020
+is a lot of optimization which can be done. A lot of cost
+
+00:12:52.020 --> 00:12:54.460
+saving that can be done. And this is something called as
+
+00:12:54.460 --> 00:12:56.900
+best practices that we all try to, like, you know,
+
+00:12:56.900 --> 00:12:59.740
+implement. Yeah. So I'm saying, hello, sir. What about
+
+00:12:59.740 --> 00:13:03.820
+projects and all? Please explain. Is it all individual? Hope
+
+00:13:03.820 --> 00:13:07.380
+you explain step by step process. See, first of all, try to
+
+00:13:07.380 --> 00:13:10.640
+focus on this topic. I'm talking about AWS. Now you're
+
+00:13:10.640 --> 00:13:13.720
+trying to bring some project topic. How this is relevant, by
+
+00:13:13.720 --> 00:13:17.120
+the way. Yeah, it's not relevant. Right. Focus.
+
+00:13:20.490 --> 00:13:25.550
+So, OK. Now, so just go here and try to create a AWS
+
+00:13:25.550 --> 00:13:28.610
+account. Like I said, so which is free. It is AWS is not
+
+00:13:28.610 --> 00:13:31.110
+going to charge you. AWS is not going to cost you. Part
+
+00:13:31.110 --> 00:13:36.610
+number one. And second part. So anyone who is having. OK,
+
+00:13:36.710 --> 00:13:39.390
+let me ask question in this way. Anyone who is not having
+
+00:13:39.390 --> 00:13:44.910
+AWS account? In chat, please. Yeah. Anyone who is. You can
+
+00:13:44.910 --> 00:13:47.250
+say yes. If you don't have AWS account. If you have it, it's
+
+00:13:47.250 --> 00:13:52.150
+fine. I don't have. OK. Just created. Fine. I'll give you
+
+00:13:52.150 --> 00:13:55.510
+another two, three minute of time. Now itself. Right. Do it.
+
+00:13:55.830 --> 00:13:58.950
+Yeah. Create. Create it. I'll not. I'll not move ahead.
+
+00:13:59.330 --> 00:14:00.290
+Create account now.
+
+00:14:04.260 --> 00:14:06.340
+And like I said, so unless and until you are not going to
+
+00:14:06.340 --> 00:14:09.900
+spin some of the services and keep it on, it will not going
+
+00:14:09.900 --> 00:14:12.380
+to charge you even if you are going to add a card. So you
+
+00:14:12.380 --> 00:14:15.620
+should not worry about it. Even you can try to apply a
+
+00:14:15.620 --> 00:14:19.140
+limit. So beyond that, it will again not go. So there are
+
+00:14:19.140 --> 00:14:21.900
+multiple ways by which, you know, generally people say that
+
+00:14:21.900 --> 00:14:23.820
+that, you know, AWS is going to cost me this, that,
+
+00:14:23.980 --> 00:14:26.700
+whatever, whatever things. But yeah, so everything can be
+
+00:14:26.700 --> 00:14:30.860
+manageable. You can try to apply a limit so that nothing
+
+00:14:30.860 --> 00:14:32.080
+will go out of your hand.
+
+00:14:36.140 --> 00:14:41.920
+Yes. OK. So do it, guys. This session is all about awareness
+
+00:14:41.920 --> 00:14:45.260
+about AWS and its available services will be using going
+
+00:14:45.260 --> 00:14:50.640
+forward. Yes, obviously. Done. Sanket is saying fine. What
+
+00:14:50.640 --> 00:14:53.820
+about others, guys? So many people have pinged here. I don't
+
+00:14:53.820 --> 00:14:56.720
+have. I don't have. So I want you to, you know, go and
+
+00:14:56.720 --> 00:15:02.780
+create your AWS account quickly. It doesn't like take, you
+
+00:15:02.780 --> 00:15:04.700
+know, more than two, three minute of time, by the way.
+
+00:15:06.340 --> 00:15:11.080
+Asking for free or paid. Go with free. First of all. I mean,
+
+00:15:11.120 --> 00:15:14.540
+don't have to, like, you know, add a card or something. Go
+
+00:15:14.540 --> 00:15:14.880
+with free.
+
+00:15:18.090 --> 00:15:21.570
+Is there a measure on AWS? By default, going to give you an
+
+00:15:21.570 --> 00:15:24.330
+option to create a free account. So just go ahead with a
+
+00:15:24.330 --> 00:15:29.540
+free one. For me, ask for the card. OK, give a card then.
+
+00:15:29.680 --> 00:15:32.300
+But again, it is not going to charge you even a single
+
+00:15:32.300 --> 00:15:35.700
+rupees. Plus, you will be able to set a cost limit as well
+
+00:15:35.700 --> 00:15:36.860
+in your account. Do
+
+00:15:43.770 --> 00:15:45.210
+it, guys, quickly.
+
+00:15:48.520 --> 00:15:52.700
+15K limit, it's over. It will not charge you even a single
+
+00:15:52.700 --> 00:15:55.020
+rupees. So don't worry.
+
+00:16:01.110 --> 00:16:03.090
+Done, everyone? I'm
+
+00:16:06.800 --> 00:16:07.200
+still waiting.
+
+00:16:20.320 --> 00:16:24.420
+OK, Abhinit is saying yes. What about others? I want all of
+
+00:16:24.420 --> 00:16:25.940
+you to do the same quickly.
+
+00:16:39.260 --> 00:16:45.560
+OK, Alok done. Rishabh done. Abhinit done. OK. Johnny done.
+
+00:16:49.760 --> 00:16:54.480
+Sakshi done. Deepak done. Now, almost all of you have done.
+
+00:16:54.760 --> 00:16:58.080
+I mean, like, most of you, I'm assuming, right? And yes,
+
+00:16:58.160 --> 00:17:00.800
+those who haven't said that I don't have an account and
+
+00:17:00.800 --> 00:17:04.040
+mentioned inside the group, please go and create it if you
+
+00:17:04.040 --> 00:17:06.900
+don't have an account. Yes, because going forward, I will be
+
+00:17:06.900 --> 00:17:10.860
+using AWS account a lot. Lot means literally a lot. Apart
+
+00:17:10.860 --> 00:17:13.200
+from that, so those who would like to learn Azure, so even
+
+00:17:13.200 --> 00:17:16.020
+there is a parallel Azure workshop, which we have already
+
+00:17:16.020 --> 00:17:18.600
+taken, I think two or three workshops we have already taken
+
+00:17:18.600 --> 00:17:21.660
+on Azure side of it. So maybe you can try to follow that
+
+00:17:21.660 --> 00:17:26.140
+one. If time allows, so I'll try to also like bring my
+
+00:17:26.140 --> 00:17:30.720
+lectures on Azure. Yeah. Again, everything is like, you
+
+00:17:30.720 --> 00:17:34.800
+know, subject to a time availability on Saturday, Sunday for
+
+00:17:34.800 --> 00:17:38.380
+me. Fine, everyone. I would love to basically discuss
+
+00:17:38.380 --> 00:17:41.880
+because, you know, it was Azure and GCP is something which I
+
+00:17:41.880 --> 00:17:46.000
+believe we all should know as a techie. And I would like to
+
+00:17:46.000 --> 00:17:49.720
+discuss about that. But yeah, let's talk about AWS. OK, so
+
+00:17:49.720 --> 00:17:53.620
+AWS, once you will try to log in. There are more than 270
+
+00:17:53.620 --> 00:17:57.740
+plus services which is available right now. Every service is
+
+00:17:57.740 --> 00:18:01.220
+not useful in every application that you should also
+
+00:18:01.220 --> 00:18:04.680
+understand that every service is not at all useful in
+
+00:18:04.680 --> 00:18:08.020
+everywhere. It's not like you will end up using all this 270
+
+00:18:08.020 --> 00:18:11.600
+services whenever you will try to bring something on a scale
+
+00:18:11.600 --> 00:18:14.060
+or something on production. Or even if you will try to apply
+
+00:18:14.060 --> 00:18:16.520
+some security layer around it, it's not like you will end up
+
+00:18:16.520 --> 00:18:20.460
+using everything majority of time. I would say that more
+
+00:18:20.460 --> 00:18:26.440
+than 20 or. 25 services is something that you will end up
+
+00:18:26.440 --> 00:18:30.260
+using on an average for a production grade application, 20
+
+00:18:30.260 --> 00:18:35.080
+to 25 services for sure, because one single service is not
+
+00:18:35.080 --> 00:18:37.860
+going to help you out to make your entire application
+
+00:18:37.860 --> 00:18:40.540
+production grade. So 20 to 25 services is a bare minimum
+
+00:18:40.540 --> 00:18:43.940
+services that all of you will end up using. Now, a major
+
+00:18:43.940 --> 00:18:48.400
+problem happens, you know, with most of us that we are not
+
+00:18:48.400 --> 00:18:52.240
+aware about those services, that what kind of a service I
+
+00:18:52.240 --> 00:18:57.120
+can. Try to use for what purposes, for example, so let's say
+
+00:18:57.120 --> 00:19:00.160
+if I'm trying to do something in my local system, so
+
+00:19:00.160 --> 00:19:03.440
+obviously I need hard disk where I can go in a store, right?
+
+00:19:03.500 --> 00:19:08.140
+I need basically, uh, I would say a compute. So CPU and GPU
+
+00:19:08.140 --> 00:19:11.860
+comes into picture. I need a main memory RAM comes into
+
+00:19:11.860 --> 00:19:16.180
+picture. I need an internet access from outside, right? So
+
+00:19:16.180 --> 00:19:18.360
+that, you know, my system can access internet, internet can
+
+00:19:18.360 --> 00:19:22.140
+access my system, vice versa, or maybe just in one way. Uh,
+
+00:19:22.500 --> 00:19:26.300
+basically in a private manner. So basically I have to attach
+
+00:19:26.300 --> 00:19:30.800
+internet around that. I have to attach a security around it.
+
+00:19:30.900 --> 00:19:34.720
+I should configure a password who must, who will be able to
+
+00:19:34.720 --> 00:19:37.280
+access my system, who will not be able to access my system.
+
+00:19:37.620 --> 00:19:40.480
+So let's say if you're working on a project in your laptop
+
+00:19:40.480 --> 00:19:44.080
+itself, these things are the bare minimum things. Agree
+
+00:19:44.080 --> 00:19:47.620
+everyone. Yeah. Even if you are working in your laptop, in
+
+00:19:47.620 --> 00:19:50.760
+your local system, right? Maybe laptop or PC whatsoever it
+
+00:19:50.760 --> 00:19:56.200
+is. Can I say that? That memory, a hard disk compute, maybe
+
+00:19:56.200 --> 00:19:59.960
+login credential into your laptop, internet access. These
+
+00:19:59.960 --> 00:20:06.300
+things will be required, right? Everyone. Yes. Yeah. In a
+
+00:20:06.300 --> 00:20:11.580
+chat. So again, when we talk about this cloud platform, so
+
+00:20:11.580 --> 00:20:14.400
+generally cloud means what they are giving you some of the
+
+00:20:14.400 --> 00:20:18.220
+services along with those central, the central idea is
+
+00:20:18.220 --> 00:20:21.880
+basically that, that, so I will be able to access a machine.
+
+00:20:21.880 --> 00:20:25.160
+Right. That's a central idea. And what so ever has been
+
+00:20:25.160 --> 00:20:28.060
+built, it's been built around that because at the end of the
+
+00:20:28.060 --> 00:20:31.340
+day, why I'm like, you know, uh, keeping everything on AWS
+
+00:20:31.340 --> 00:20:34.040
+or somewhere because I will be able to get a compute and
+
+00:20:34.040 --> 00:20:37.820
+then surrounded services. Same thing. I mean, like, uh, we,
+
+00:20:37.920 --> 00:20:40.520
+we try to do it when we try to develop something in my local
+
+00:20:40.520 --> 00:20:44.100
+system. So we'll try to go on and we'll try to understand
+
+00:20:44.100 --> 00:20:47.380
+AWS with a similar kind of a philosophy. And if you will try
+
+00:20:47.380 --> 00:20:51.540
+to understand AWS or any other cloud platform with that kind
+
+00:20:51.540 --> 00:20:53.820
+of a model. Mindset, that kind of philosophy, believe me,
+
+00:20:53.860 --> 00:20:57.160
+things will be pretty much relatable and you will be able to
+
+00:20:57.160 --> 00:21:00.760
+digest, not just that you will be able to technically use
+
+00:21:00.760 --> 00:21:03.540
+it. It's, it's not that difficult. AWS is a very easy things
+
+00:21:03.540 --> 00:21:06.980
+to learn or any of these cloud platform are very easy and
+
+00:21:06.980 --> 00:21:09.460
+logical. I would say things to learn and things to
+
+00:21:09.460 --> 00:21:13.100
+understand. Okay. So that's the whole idea. That's a core
+
+00:21:13.100 --> 00:21:16.880
+idea. Now, one by one layer by layer, let's try to break
+
+00:21:16.880 --> 00:21:20.880
+down AWS services. So here. The very first part, which I
+
+00:21:20.880 --> 00:21:23.120
+have mentioned over here. So let's break down those services
+
+00:21:23.120 --> 00:21:26.240
+on a different, different layer side. Then I'll come to the
+
+00:21:26.240 --> 00:21:30.460
+part number two. So let's say, uh, I talked about a compute.
+
+00:21:30.680 --> 00:21:33.660
+So whatsoever revolves, it revolves around some compute,
+
+00:21:33.820 --> 00:21:36.740
+right? At the end of the day, compute power is required and
+
+00:21:36.740 --> 00:21:39.040
+that is a reason. So I'm choosing some of the cloud
+
+00:21:39.040 --> 00:21:41.280
+platform, right? So that, you know, cloud is going to
+
+00:21:41.280 --> 00:21:44.620
+provide me a compute or maybe a bare metal. Another option
+
+00:21:44.620 --> 00:21:47.700
+for me is also a bare metal. The another option is also
+
+00:21:47.700 --> 00:21:50.520
+there. Like I can set up my own server means I can set up my
+
+00:21:50.520 --> 00:21:53.200
+own hardware. I can set up. My own networking, and then I
+
+00:21:53.200 --> 00:21:55.960
+can make it available to our internet, or maybe I can keep
+
+00:21:55.960 --> 00:21:58.900
+it private. That is also possible, right? So again,
+
+00:21:59.020 --> 00:22:01.500
+everything like a walks around the similar kind of a seven
+
+00:22:01.500 --> 00:22:04.760
+layer OSI philosophy. So operating system interconnection
+
+00:22:04.760 --> 00:22:09.020
+philosophy. So now here, uh, so first service, uh, that you
+
+00:22:09.020 --> 00:22:11.860
+all are going to encounter is called as compute service,
+
+00:22:12.160 --> 00:22:18.380
+compute, compute services. Now compute means what? So
+
+00:22:18.380 --> 00:22:21.700
+basically like a, a system or like services, which is going
+
+00:22:21.700 --> 00:22:24.900
+to allow me to access a computation power commutation, power
+
+00:22:24.900 --> 00:22:29.200
+wise, CPU and GPUs, right? Again, in case of like a, uh, but
+
+00:22:29.200 --> 00:22:32.420
+TPU tensor processing unit, uh, very soon you will start
+
+00:22:32.420 --> 00:22:35.540
+getting quantum computation as well, right? So all of these
+
+00:22:35.540 --> 00:22:37.800
+platform will start offering you quantum as well. Very soon
+
+00:22:37.800 --> 00:22:40.900
+that is going to happen. Maybe next, like, uh, uh, two year
+
+00:22:40.900 --> 00:22:44.340
+of time by 2027, you all will be able to see quantum as well
+
+00:22:44.340 --> 00:22:47.460
+over there. So compute services, a compute service is a very
+
+00:22:47.460 --> 00:22:50.860
+false service that, and that is a primary objective, right?
+
+00:22:50.920 --> 00:22:52.820
+That that's the reason. So you go to some of. The cloud
+
+00:22:52.820 --> 00:22:55.300
+provider that they will give me compute service, my
+
+00:22:55.300 --> 00:22:57.940
+application go live, and then I can bring my application to
+
+00:22:57.940 --> 00:23:01.460
+any scale, whatsoever a scale that I want. So by default,
+
+00:23:01.640 --> 00:23:07.380
+AWS gives you EC2 elastic compute cloud. So full form is
+
+00:23:09.080 --> 00:23:11.620
+elastic ELST,
+
+00:23:13.380 --> 00:23:19.480
+elastic compute cloud. This is the full form of ECC means
+
+00:23:19.480 --> 00:23:22.400
+EC2. They have named it as a EC2 elastic compute cloud, ECC
+
+00:23:22.400 --> 00:23:27.360
+or EC2 you can say, so 2C basically. So when we talk about
+
+00:23:27.360 --> 00:23:32.360
+this EC2, so you can think just like your laptop. So
+
+00:23:32.360 --> 00:23:35.260
+basically they are allowing you, they are going to give you
+
+00:23:35.260 --> 00:23:39.800
+an option. So where you will be able to go and choose the
+
+00:23:39.800 --> 00:23:43.160
+strength of your laptop, I seven, I nine, whatsoever
+
+00:23:43.160 --> 00:23:46.140
+strength that you are going to define whatsoever compute you
+
+00:23:46.140 --> 00:23:50.060
+are going to define, and then you will be able to rent those
+
+00:23:50.060 --> 00:23:53.140
+laptops. Means you will be able to take those laptops on
+
+00:23:53.140 --> 00:23:55.440
+rent, something like that. So this is where EC2 comes into
+
+00:23:55.440 --> 00:23:57.920
+picture. So you will be able to access CPUs, GPUs, big
+
+00:23:57.920 --> 00:24:00.960
+machines, all those things. You all will be able to access
+
+00:24:00.960 --> 00:24:05.820
+it. So here, uh, when we talk about basically this, uh, EC2,
+
+00:24:05.960 --> 00:24:09.920
+right? So inside this one inside, basically this, uh, EC2
+
+00:24:09.920 --> 00:24:14.140
+that they try to technically provide. So they try to provide
+
+00:24:14.140 --> 00:24:17.680
+you again, a multiple category inside it. Also, what are the
+
+00:24:17.680 --> 00:24:19.980
+categories? So there is something called a general purpose,
+
+00:24:20.200 --> 00:24:25.080
+general purpose compute. There is something called as
+
+00:24:25.080 --> 00:24:30.840
+compute. Okay. Optimize compute optimized. There is
+
+00:24:30.840 --> 00:24:35.460
+something called as GPU instance, GPU. There is something
+
+00:24:35.460 --> 00:24:38.280
+called as basically, uh, yeah. So GPU instance, right. Which
+
+00:24:38.280 --> 00:24:40.360
+can be used. So general purpose means. So in general,
+
+00:24:40.420 --> 00:24:42.580
+whenever I'm trying to host some web applications, so maybe
+
+00:24:42.580 --> 00:24:46.380
+I can try to use this general purpose. So that series, you
+
+00:24:46.380 --> 00:24:50.240
+can try to opt it as a T2, T2 micro T2 nano T2 this T2 that
+
+00:24:50.240 --> 00:24:53.500
+right. Compute optimize means there is a C series. You will
+
+00:24:53.500 --> 00:24:56.400
+be able to find out. So let's say C5 large. This kind of a
+
+00:24:56.400 --> 00:24:59.680
+things I'm going to show you that part and then G series, I
+
+00:24:59.680 --> 00:25:02.420
+mean like GPU series, basically. So GPU series wise. So you
+
+00:25:02.420 --> 00:25:06.220
+will be able to access it by name G5 and P4. So these are
+
+00:25:06.220 --> 00:25:09.100
+the series name. You will be able to find out when you are
+
+00:25:09.100 --> 00:25:12.480
+going to opt for EC2, right? So it depends upon my workload,
+
+00:25:12.640 --> 00:25:15.180
+depends upon my work estimation. So I'm going to choose it
+
+00:25:15.180 --> 00:25:18.060
+and they're going to charge me accordingly. So now let's go
+
+00:25:18.060 --> 00:25:21.240
+here and, uh, you know, just try to search for what? Try to
+
+00:25:21.240 --> 00:25:24.180
+search for EC2 in your account. Yeah. No need to spin any of
+
+00:25:24.180 --> 00:25:25.840
+the machine. Uh, so as of right now, I'm going to use it. So
+
+00:25:25.840 --> 00:25:29.240
+if not, just go and check, check that out. So first of all,
+
+00:25:29.280 --> 00:25:32.360
+once you are going to check, so come over here inside this
+
+00:25:32.360 --> 00:25:35.020
+instance, I believe my cursor is visible, right? Anyone?
+
+00:25:36.500 --> 00:25:39.820
+Cursor is visible. So just, just try to click on this
+
+00:25:39.820 --> 00:25:42.900
+instance. Yeah. Just try to click on this instance and then
+
+00:25:42.900 --> 00:25:45.340
+maybe try to click on this launch instance. So once you are
+
+00:25:45.340 --> 00:25:47.980
+going to click on this launch instance, don't do anything.
+
+00:25:48.100 --> 00:25:50.480
+You do. We are not launching anything by the way. Yeah. So
+
+00:25:50.480 --> 00:25:52.960
+maybe we can try to give some name over here, something like
+
+00:25:52.960 --> 00:25:55.840
+this, right? And then here. So you will be. You will be able
+
+00:25:55.840 --> 00:25:59.280
+to see like a lot of images. So whenever you buy a laptop,
+
+00:25:59.520 --> 00:26:01.780
+so obviously what you do, so you try to install operating
+
+00:26:01.780 --> 00:26:05.480
+system, right? That's application layer. And then on top of
+
+00:26:05.480 --> 00:26:08.080
+that, so you install all of those libraries basically,
+
+00:26:08.240 --> 00:26:10.260
+right? Because operating system will be able to access your
+
+00:26:10.260 --> 00:26:12.780
+kernels and then it is, it will be able to manage the, all
+
+00:26:12.780 --> 00:26:17.200
+the jobs. So in a similar manner, you will be able to like,
+
+00:26:17.340 --> 00:26:21.260
+you know, create a system inside that you can try to install
+
+00:26:21.260 --> 00:26:25.800
+a Mac OS as well. Right. Ubuntu as well. Windows. Windows,
+
+00:26:25.980 --> 00:26:29.740
+Red Hat, SUSE, Debian. So they have given you all kind of
+
+00:26:29.740 --> 00:26:32.900
+option, right? So even you can try to create your own Mac
+
+00:26:32.900 --> 00:26:35.960
+machine and use it. Even you can try to create your own
+
+00:26:35.960 --> 00:26:38.820
+Ubuntu Linux based machine, use it and Windows machine, and
+
+00:26:38.820 --> 00:26:43.760
+then you will be able to technically use it. Yeah. So you
+
+00:26:43.760 --> 00:26:48.100
+will be able to technically use it over there. Okay. Now, so
+
+00:26:48.100 --> 00:26:51.280
+here, when you will come, right? So you will be able to
+
+00:26:51.280 --> 00:26:53.660
+select like a architecture, ARM architecture or 86
+
+00:26:53.660 --> 00:26:55.640
+architecture. Generally, 86 is a preferential. It's like a
+
+00:26:55.640 --> 00:26:58.860
+preferred one. And then here is a major things which
+
+00:26:58.860 --> 00:27:03.920
+happens. So here you will be able to see all the CDs or
+
+00:27:03.920 --> 00:27:06.840
+whatsoever is like activated for your particular account.
+
+00:27:07.100 --> 00:27:09.740
+Maybe in some of the cases, some of these things you have to
+
+00:27:09.740 --> 00:27:12.140
+request. I don't wish is not going to give you all this
+
+00:27:12.140 --> 00:27:14.740
+instances upfront. So you have to basically create a request
+
+00:27:14.740 --> 00:27:17.320
+from the support ticket. You have to create, and then they
+
+00:27:17.320 --> 00:27:20.420
+will give you for that particular reason. So here you must
+
+00:27:20.420 --> 00:27:24.680
+be able to see this T2 nano, T2 micro, T2 small, T2 medium,
+
+00:27:24.740 --> 00:27:28.800
+T2 large, T2 small. 2x large right and then c5 families c5
+
+00:27:28.800 --> 00:27:34.100
+large c5 x large c5 24x large 2lx large 4x large 8x large c5
+
+00:27:34.100 --> 00:27:37.600
+this one c5 series right so you must be able to see it over
+
+00:27:37.600 --> 00:27:41.060
+here so there are like a lot of like a c series c7 series
+
+00:27:41.060 --> 00:27:43.640
+you will be able to find out then over here so a lot of c
+
+00:27:43.640 --> 00:27:46.920
+series basically compute wise you will be able to find out
+
+00:27:46.920 --> 00:27:50.000
+then you will be able to find out basically a f series right
+
+00:27:50.000 --> 00:27:53.100
+d series also there then you will be able to find out g
+
+00:27:53.100 --> 00:27:56.360
+series basically g4 means a gpu basically so gpu series you
+
+00:27:56.360 --> 00:27:58.780
+will be able to find out and all this computation you will
+
+00:27:58.780 --> 00:28:01.620
+be able to see it over there then you will be able to find
+
+00:28:01.620 --> 00:28:04.780
+out like a i series over here and you will be able to find
+
+00:28:04.780 --> 00:28:07.140
+out m series p series also you will be able to find out
+
+00:28:07.140 --> 00:28:11.720
+which is again a gpu series so this is basically uh like a
+
+00:28:11.720 --> 00:28:15.020
+place and like a lot of things are not accessible for me
+
+00:28:15.020 --> 00:28:18.120
+right because i have to just go and raise a request maybe
+
+00:28:18.120 --> 00:28:22.040
+for that one so here they are giving this is the main deal
+
+00:28:22.040 --> 00:28:25.680
+breaker right so this is a place where you can come and then
+
+00:28:25.680 --> 00:28:28.160
+you will be able to filter you will be able to basically
+
+00:28:28.160 --> 00:28:32.020
+select a compute power so whenever you buy a laptop right so
+
+00:28:32.020 --> 00:28:35.220
+what you do so you try to decide take a decision that i'm
+
+00:28:35.220 --> 00:28:37.740
+going to buy a laptop and this laptop must be having this
+
+00:28:37.740 --> 00:28:41.300
+main number of gpus this is the memory which i'm looking for
+
+00:28:41.300 --> 00:28:44.740
+and then uh this is basically memory means ram right and
+
+00:28:44.740 --> 00:28:47.480
+this is basically a kind of a cpu i'm looking for series
+
+00:28:47.480 --> 00:28:50.220
+right series wise so same thing happens over here nothing
+
+00:28:50.220 --> 00:28:53.380
+different because even over here so people are using uh
+
+00:28:53.380 --> 00:28:56.360
+compute that we try to use it on a daily basis day-to-day
+
+00:28:56.360 --> 00:29:00.140
+basis right definition of compute is same uh so here you are
+
+00:29:00.140 --> 00:29:04.540
+going to select your like images and this one so here 64 gb
+
+00:29:04.540 --> 00:29:08.540
+cpu 129 gb of memory in one single system so it's a big one
+
+00:29:08.540 --> 00:29:12.140
+basically and then here they are going to give you even a
+
+00:29:12.140 --> 00:29:16.000
+pricing that what will be a pricing so on demand window
+
+00:29:16.000 --> 00:29:19.120
+based pricing is this much on demand susi based pricing is
+
+00:29:19.120 --> 00:29:22.960
+this much ubuntu based pricing is this much rehl is this
+
+00:29:22.960 --> 00:29:26.140
+much so even operating system selection that you are going
+
+00:29:26.140 --> 00:29:29.280
+to do so that is also going to affect your pricing because
+
+00:29:29.280 --> 00:29:32.260
+microsoft means obviously they have to pay for a license
+
+00:29:32.260 --> 00:29:35.820
+right microsoft license microsoft is not free ubuntu and
+
+00:29:35.820 --> 00:29:39.160
+like linux is like free and especially the image that aws
+
+00:29:39.160 --> 00:29:42.140
+themselves are trying to build so that is free right that's
+
+00:29:42.140 --> 00:29:44.640
+the reason so they are not supposed to go and pay uh for
+
+00:29:44.640 --> 00:29:47.680
+that operating system licensing cost and you will be able to
+
+00:29:47.680 --> 00:29:50.960
+find out this one pricing wise in little little bit not
+
+00:29:50.960 --> 00:29:53.060
+little bit lesser i would say as compared to like a windows
+
+00:29:53.060 --> 00:29:56.900
+as you can see pricing is almost half right so again all of
+
+00:29:56.900 --> 00:29:59.580
+these things basically like affect the whole and sole
+
+00:29:59.580 --> 00:30:03.020
+pricing of the final like cluster that you are going to see
+
+00:30:03.020 --> 00:30:06.040
+and based on that so you will be able to calculate the
+
+00:30:06.040 --> 00:30:08.800
+pricing even there is a pricing calculator given by aws so
+
+00:30:08.800 --> 00:30:10.920
+you can even go and calculate the pricing even you can ask
+
+00:30:10.920 --> 00:30:14.420
+strategy pretty it will be also able to do a price
+
+00:30:14.420 --> 00:30:16.660
+calculation so now there are like a lot of options which is
+
+00:30:16.660 --> 00:30:19.960
+available so mostly what we do so we try to and again like
+
+00:30:19.960 --> 00:30:23.400
+you know configure the app and then like you know select all
+
+00:30:23.400 --> 00:30:27.620
+of these things and then we try to launch the instances so
+
+00:30:27.620 --> 00:30:30.140
+in like two three minutes it will be able to launch the
+
+00:30:30.140 --> 00:30:33.020
+instances you will be able to use it you will be able to
+
+00:30:33.020 --> 00:30:36.620
+like you know access it in a couple of minutes of time
+
+00:30:36.620 --> 00:30:39.720
+itself right and as long as your machine will be up and
+
+00:30:39.720 --> 00:30:42.920
+running you are going to make a payment right so you will be
+
+00:30:42.920 --> 00:30:47.080
+able to see a billing inside your aws so this is where this
+
+00:30:47.080 --> 00:30:52.680
+elastic compute cloud or ec2 kind of a service picture now
+
+00:30:52.680 --> 00:30:56.860
+all of you are going to technically use it now ec2 is always
+
+00:30:56.860 --> 00:31:00.100
+going to give you a fixed cost i mean like whether
+
+00:31:02.050 --> 00:31:05.110
+you are using it or whether you are not using it right ec2
+
+00:31:05.110 --> 00:31:08.750
+is going to give you a cost all the time all the time you
+
+00:31:08.750 --> 00:31:11.490
+will have to pay as long as you are not going to stop your
+
+00:31:11.490 --> 00:31:16.150
+instances on an hourly basis you will be paying it even aws
+
+00:31:16.150 --> 00:31:19.370
+gives you a provision for a reserve instances by the way so
+
+00:31:19.370 --> 00:31:24.050
+there is an option of a reserve instance you will be able to
+
+00:31:24.050 --> 00:31:26.110
+reserve instances what happens so under reserve instances
+
+00:31:26.110 --> 00:31:30.230
+you can try to basically reserve this here is an option as
+
+00:31:30.230 --> 00:31:34.190
+you can see so you can try to actually reserve instances for
+
+00:31:34.190 --> 00:31:38.250
+a very very long time so we as a company what we do so we
+
+00:31:38.250 --> 00:31:41.710
+know our compute and we know our utilization so basically we
+
+00:31:41.710 --> 00:31:44.750
+try to like make a upfront payment for like let's say one
+
+00:31:44.750 --> 00:31:48.470
+year three year two year and they used to offer you a
+
+00:31:48.470 --> 00:31:52.750
+discount somewhere around 30 percent to 72 percent yeah as
+
+00:31:52.750 --> 00:31:56.250
+per my latest knowledge right so maybe sometime you get more
+
+00:31:56.250 --> 00:31:59.510
+but yeah 72 percent so that that's very genuine discount you
+
+00:31:59.510 --> 00:32:02.890
+will be able to get i think maximum is 70 or 72 percent that
+
+00:32:02.890 --> 00:32:05.590
+they used to give for three year upfront payment right
+
+00:32:05.590 --> 00:32:08.350
+upfront payment for the instances so let's say if like you
+
+00:32:08.350 --> 00:32:12.310
+know final price is 100 so you will end up getting 28 that's
+
+00:32:12.310 --> 00:32:17.750
+a whole like idea yeah so even in that way you will be able
+
+00:32:17.750 --> 00:32:20.730
+to save and many company i will say not many company almost
+
+00:32:20.730 --> 00:32:25.750
+every company company don't do it but yeah as a company wise
+
+00:32:25.750 --> 00:32:29.030
+we always try to out for that particular option or else
+
+00:32:29.030 --> 00:32:31.430
+there are like a lot of other vendor which is available in a
+
+00:32:31.430 --> 00:32:35.110
+market so what they do so they try to take a reserve
+
+00:32:35.110 --> 00:32:37.870
+instances and let's say if i'm launching my own startup
+
+00:32:37.870 --> 00:32:42.170
+right and i need those aws compute services so i will just
+
+00:32:42.170 --> 00:32:46.170
+go and connect with them they are like going to charge me
+
+00:32:46.170 --> 00:32:49.750
+maybe like a 50 percent of the charge which i will pay and
+
+00:32:49.750 --> 00:32:52.410
+yeah they have a 20 percent of margin and 2 percent of
+
+00:32:52.410 --> 00:32:53.710
+margin right because they have 20 percent of margin and they
+
+00:32:53.710 --> 00:32:56.850
+have 20 percent of margin there are so many third-party
+
+00:32:56.850 --> 00:32:59.630
+vendor companies you will be able to find out in a market
+
+00:32:59.630 --> 00:33:02.030
+like in all the market indian market outside india
+
+00:33:02.030 --> 00:33:05.290
+everywhere so people are running this kind of you know
+
+00:33:05.290 --> 00:33:07.850
+companies as well where they just try to take the margin
+
+00:33:07.850 --> 00:33:10.710
+some takes 10 percent of margin some takes 20 percent of
+
+00:33:10.710 --> 00:33:14.010
+margin eventually you as a user will end up getting because
+
+00:33:14.010 --> 00:33:16.830
+and you don't have to go and pay upfront for three year
+
+00:33:16.830 --> 00:33:21.010
+right because for like a new new person so who is going to
+
+00:33:21.010 --> 00:33:24.630
+launch their startup right so obviously they they can't like
+
+00:33:24.630 --> 00:33:27.630
+invest that much of capital so these are the companies who
+
+00:33:27.630 --> 00:33:31.070
+is already available so even your cost will be decreased 50
+
+00:33:31.070 --> 00:33:35.090
+percent let's say right and yeah so without even paying for
+
+00:33:35.090 --> 00:33:39.390
+three years of you are able to get the all the services so
+
+00:33:39.390 --> 00:33:41.550
+this is how this calculation happens and i believe like
+
+00:33:41.550 --> 00:33:45.890
+anyone and everyone before learning things they should know
+
+00:33:45.890 --> 00:33:48.010
+about the cost first of all because that's a major factor
+
+00:33:48.010 --> 00:33:52.170
+now using anything inside aws is very very easy right very
+
+00:33:52.170 --> 00:33:55.310
+easy means literally very very easy so here so this is the
+
+00:33:55.310 --> 00:33:58.750
+cost clear clear guys everyone so there is an instance there
+
+00:33:58.750 --> 00:34:01.750
+is a reserve instance right saving plan a spot request all
+
+00:34:01.750 --> 00:34:07.450
+of these options are available to you yes make sense yeah in
+
+00:34:07.450 --> 00:34:11.830
+a chat hope all of you are not sleeping after having lunch
+
+00:34:11.830 --> 00:34:17.890
+yep okay cool so this is one type of an instance now ec2
+
+00:34:17.890 --> 00:34:22.390
+always cost you fixed per hour basis right is it is going to
+
+00:34:22.390 --> 00:34:26.590
+cost you now so rajesh is saying no why no not able to
+
+00:34:26.590 --> 00:34:31.470
+understand there is something called as lambda right so
+
+00:34:31.470 --> 00:34:35.690
+let's say i don't want to reserve the instance right and
+
+00:34:35.690 --> 00:34:39.350
+this is the scenario number one so number two is that that
+
+00:34:39.350 --> 00:34:43.770
+let's say i don't even like you know i have an idea that
+
+00:34:43.770 --> 00:34:48.710
+maybe i'm expecting that my application will go with the
+
+00:34:48.710 --> 00:34:53.670
+scale right or immediately i will start receiving a traffic
+
+00:34:53.670 --> 00:34:58.090
+for some time and then traffic will be normal okay rajesh is
+
+00:34:58.090 --> 00:35:03.830
+not sleeping cool okay so lambda there is a service called
+
+00:35:03.830 --> 00:35:06.350
+as lambda right you will be able to find out which is
+
+00:35:06.350 --> 00:35:08.790
+compute service at the end of the day ec2 is also compute
+
+00:35:08.790 --> 00:35:12.730
+service lambda is also a compute service so here you are not
+
+00:35:12.730 --> 00:35:16.310
+reserving a instance so what they have done so let's say
+
+00:35:16.310 --> 00:35:18.770
+there are so many laptop i have purchased right so many
+
+00:35:18.770 --> 00:35:22.250
+laptop i have connected all of those laptops and there is a
+
+00:35:22.250 --> 00:35:26.090
+pool i have created and now anyone and everyone can come and
+
+00:35:26.090 --> 00:35:29.070
+they will be able to access that big pool of resource this
+
+00:35:29.070 --> 00:35:32.550
+is how lambda works so this is called a serverless compute
+
+00:35:32.550 --> 00:35:35.830
+so wherever you will be able to see serverless right meaning
+
+00:35:35.830 --> 00:35:38.510
+of serverless because there are so many services out there
+
+00:35:38.510 --> 00:35:42.250
+not just on aws other platform as well so they say that i'm
+
+00:35:42.250 --> 00:35:45.130
+providing you serverless serverless means what a very simple
+
+00:35:45.130 --> 00:35:48.070
+meaning of serverless is there is a huge compute i'm not
+
+00:35:48.070 --> 00:35:51.250
+going to pay for all those huge compute i will be able to
+
+00:35:51.250 --> 00:35:55.930
+pay only a fraction like only the charge i'm going to get a
+
+00:35:55.930 --> 00:35:59.450
+charge uh just for my utilization for only that that much of
+
+00:35:59.450 --> 00:36:02.890
+utilization basically and it can go with the nes scale so
+
+00:36:02.890 --> 00:36:07.110
+i'm not reserving it right ec2 means let's suppose you have
+
+00:36:07.110 --> 00:36:10.430
+a capacity to handle 100 requests of one instance you have
+
+00:36:10.430 --> 00:36:13.990
+one one ec2 instances uh let's say like you know what
+
+00:36:13.990 --> 00:36:18.450
+happens uh uh so like uh you know 110 requests uh coming
+
+00:36:18.450 --> 00:36:21.470
+into your system your system will not be able to handle it
+
+00:36:21.470 --> 00:36:24.130
+your ec2 will not be able to handle because that's a max
+
+00:36:24.130 --> 00:36:27.750
+limitation right so you have to attach more instances more
+
+00:36:27.750 --> 00:36:29.930
+reserve instances over there this is where ec2 comes into
+
+00:36:29.930 --> 00:36:33.430
+picture but in case of lambda it's fine right it's a
+
+00:36:33.430 --> 00:36:35.470
+serverless right so it's a huge compute that you will be
+
+00:36:35.470 --> 00:36:40.430
+able to access it so lambda is basically what serverless
+
+00:36:40.430 --> 00:36:45.530
+compute by the way yeah so you can run basically a code or
+
+00:36:45.530 --> 00:36:50.130
+any kind of services without even managing anything so
+
+00:36:50.130 --> 00:36:52.390
+whenever you are trying to do automation whenever you are
+
+00:36:52.390 --> 00:36:55.170
+trying to host an api so i think that's a great thing to
+
+00:36:55.170 --> 00:36:57.350
+think about like you know go ahead with this lambda services
+
+00:36:57.350 --> 00:37:02.350
+now apart from lander services there is something called as
+
+00:37:02.350 --> 00:37:09.870
+ecs right elastic container service elastic service
+
+00:37:12.050 --> 00:37:14.830
+most time i will be using this uh when when i saw the
+
+00:37:14.830 --> 00:37:18.290
+project right so i generally offer ecs ecr or eks that
+
+00:37:18.290 --> 00:37:21.710
+that's my choice in general and that too inside ecs there is
+
+00:37:21.710 --> 00:37:23.550
+something called as fargate i try to use it which is
+
+00:37:23.550 --> 00:37:27.570
+serverless which will give me always a low cost is something
+
+00:37:27.570 --> 00:37:32.510
+called as elastic container services right so you must have
+
+00:37:32.510 --> 00:37:35.250
+heard about docker if you haven't heard about docker so
+
+00:37:35.250 --> 00:37:38.370
+tomorrow i have a plan to take one workshop on docker as
+
+00:37:38.370 --> 00:37:41.050
+well and docker is something that we all should know
+
+00:37:41.050 --> 00:37:45.110
+basically so maybe you can join that session even before i
+
+00:37:45.110 --> 00:37:47.290
+have taken another mentor also taken like a you know docker
+
+00:37:47.290 --> 00:37:50.070
+session so lecture eventually is available on a uran
+
+00:37:50.070 --> 00:37:54.430
+platform so if i'm trying to bundle up something as a docker
+
+00:37:54.430 --> 00:37:59.230
+which we do right which we do basically so that you know i
+
+00:37:59.230 --> 00:38:02.990
+can sip a product without any kind of a bug or any kind of a
+
+00:38:02.990 --> 00:38:06.630
+extra overload or overhead in that case there is something
+
+00:38:06.630 --> 00:38:10.770
+called as ecr ecs r means registry s means service compute
+
+00:38:10.770 --> 00:38:14.530
+service right container service it is going to give you so
+
+00:38:14.530 --> 00:38:17.670
+basically we try to use ecr ecs this is also a compute kind
+
+00:38:17.670 --> 00:38:21.990
+of a services there is something called as eks means if i
+
+00:38:21.990 --> 00:38:26.070
+have to manage or maintain hundreds of services in master
+
+00:38:26.070 --> 00:38:29.910
+slave architecture right in master slave architecture which
+
+00:38:29.910 --> 00:38:32.370
+is eventually required for all the big application without
+
+00:38:32.370 --> 00:38:35.470
+that you won't be able to run that right multiple docker
+
+00:38:35.470 --> 00:38:39.390
+container you have to manage at a time right so in that
+
+00:38:39.390 --> 00:38:42.650
+situation i can go ahead with the eks service it's a managed
+
+00:38:42.650 --> 00:38:45.050
+kubernetes services you will be able to find out so
+
+00:38:45.050 --> 00:38:50.530
+production grade container orchestration managed kubernetes
+
+00:38:56.700 --> 00:39:03.100
+services eks basically basically so wherever kubernetes it
+
+00:39:03.100 --> 00:39:06.560
+is providing you eks by the way then there is something
+
+00:39:06.560 --> 00:39:10.020
+called as like you know fargate so fargate you will be able
+
+00:39:10.020 --> 00:39:13.200
+to find out inside ecs itself inside this service i'll show
+
+00:39:13.200 --> 00:39:15.580
+you right so here you can go ahead with a dedicated instance
+
+00:39:15.580 --> 00:39:19.140
+fargate so again this is a serverless compute so just like a
+
+00:39:19.140 --> 00:39:24.320
+lambda compute serverless
+
+00:39:26.370 --> 00:39:30.910
+compute right uh there is something called as emr so elastic
+
+00:39:30.910 --> 00:39:33.910
+map reduce so let's say if i'm trying to run some sort of a
+
+00:39:33.910 --> 00:39:36.630
+big data things right so where i need hadoop high spark this
+
+00:39:36.630 --> 00:39:39.890
+that and that too in a managed manner so here i can try to
+
+00:39:39.890 --> 00:39:46.730
+use elastic map reduce so basically it's a managed service
+
+00:39:46.730 --> 00:39:50.350
+eventually under the hood it is going to use your ec2 itself
+
+00:39:50.350 --> 00:39:53.770
+the very first one which i have already discussed there is
+
+00:39:53.770 --> 00:39:59.570
+something called as light cell light cell so basically it's
+
+00:39:59.570 --> 00:40:05.730
+a for like a vps hosting generally we try to use it uh so
+
+00:40:05.730 --> 00:40:09.950
+let's say if i have like a small application then i can try
+
+00:40:09.950 --> 00:40:13.270
+to use it light cell as just norm suggest name suggest so
+
+00:40:13.270 --> 00:40:16.250
+it's a light cell there is something called as elastic
+
+00:40:16.250 --> 00:40:17.610
+elastic
+
+00:40:23.780 --> 00:40:28.140
+bin stack so what it does so basically you have to like if
+
+00:40:28.140 --> 00:40:31.220
+you have to deploy the app quickly and that too in a managed
+
+00:40:31.220 --> 00:40:35.400
+manner so maybe you can try to use a elastic bean stack b e
+
+00:40:35.400 --> 00:40:40.620
+a n yeah so spelling mistake guys you can accommodate i will
+
+00:40:40.620 --> 00:40:47.860
+be doing it a lot of times okay so for deploying any bib or
+
+00:40:47.860 --> 00:40:50.820
+like you know pythonic app let's
+
+00:40:52.940 --> 00:40:57.940
+say app only app quickly fine so elastic bin has tag so now
+
+00:40:57.940 --> 00:41:00.100
+these are the services which comes under compute services
+
+00:41:00.100 --> 00:41:04.880
+yeah now uh difference between lambda and fargate so
+
+00:41:04.880 --> 00:41:07.700
+technically fargate also gives you compute and lambda also
+
+00:41:07.700 --> 00:41:10.780
+gives you compute both are serverless in case of lambda so
+
+00:41:10.780 --> 00:41:15.040
+they also gives you a managed code i mean like c c plus c
+
+00:41:15.040 --> 00:41:15.040
+plus so they are just given to you as you as this is in the
+
+00:41:15.040 --> 00:41:17.460
+in the in the plus python and all those like things if you
+
+00:41:17.460 --> 00:41:20.080
+have written a code so as a lambda services you will be able
+
+00:41:20.080 --> 00:41:22.760
+to see the panel so where you can go and you can put all of
+
+00:41:22.760 --> 00:41:25.820
+your code and then you can try to basically schedule it you
+
+00:41:25.820 --> 00:41:29.300
+can try to like schedule a chrome kind of a job and then uh
+
+00:41:29.300 --> 00:41:32.460
+with the help of scheduler which is available inside lambda
+
+00:41:32.460 --> 00:41:34.960
+and then you it will be able to like you know run those
+
+00:41:34.960 --> 00:41:38.300
+codes in a serverless manner right and uh it will be able to
+
+00:41:38.300 --> 00:41:41.020
+like you know uh you can consume it as an api or whatsoever
+
+00:41:41.020 --> 00:41:45.100
+way that you want uh in case of basically this fargate right
+
+00:41:45.100 --> 00:41:50.160
+so it is giving you a computation pool which will be used by
+
+00:41:50.160 --> 00:41:55.820
+ecs yes so it will be used by ecs means it is not going to
+
+00:41:55.820 --> 00:41:59.060
+manage or maintain your code base by the way docker will be
+
+00:41:59.060 --> 00:42:02.440
+coming inside ecs and then eventually ecs will be using this
+
+00:42:02.440 --> 00:42:07.940
+pool which is called as fargate just a compute pool yeah so
+
+00:42:07.940 --> 00:42:10.340
+this is the advantage generally people use to get so
+
+00:42:10.340 --> 00:42:13.060
+whenever like you are new and then you don't have to
+
+00:42:13.060 --> 00:42:15.440
+maintain a manage your code base or something just go with
+
+00:42:15.440 --> 00:42:20.780
+the lambda so my best option always is this one ecs ecs ecr
+
+00:42:20.780 --> 00:42:23.500
+and then inside that fargate because obviously i will be
+
+00:42:23.500 --> 00:42:27.400
+having like my code base which will eventually grow and i
+
+00:42:27.400 --> 00:42:30.980
+have to manage and maintain each and everything okay so
+
+00:42:30.980 --> 00:42:34.620
+these are the services that all of you are supposed to know
+
+00:42:34.620 --> 00:42:37.380
+all of you are able to all of you should understand now
+
+00:42:37.380 --> 00:42:45.640
+second category is basically networking networking services
+
+00:42:45.640 --> 00:42:49.300
+so technically we are talking about a lot of managed service
+
+00:42:49.300 --> 00:42:52.200
+we are talking about a system we are talking about hardware
+
+00:42:52.200 --> 00:42:56.840
+we are talking about a communication in between right we are
+
+00:42:56.840 --> 00:43:00.200
+talking about a security because something will move from
+
+00:43:00.200 --> 00:43:04.220
+one system to other system right so obviously i have to take
+
+00:43:04.220 --> 00:43:07.120
+care of the networking services without taking care of
+
+00:43:07.120 --> 00:43:10.380
+networking services because security will come over there
+
+00:43:10.380 --> 00:43:13.260
+itself right what i'm supposed to be what i'm supposed to
+
+00:43:13.260 --> 00:43:15.600
+allow what i'm supposed to what i'm not supposed to allow
+
+00:43:16.200 --> 00:43:20.060
+private network a public network a subnet masking a lot of
+
+00:43:20.060 --> 00:43:23.400
+things right a lot of things comes into picture over here in
+
+00:43:23.400 --> 00:43:27.080
+this particular place so networking is again a very very
+
+00:43:27.080 --> 00:43:33.700
+important expect when you think about mastering uh aws not
+
+00:43:33.700 --> 00:43:37.240
+just aws i would say any cloud platform even a bare metal
+
+00:43:37.240 --> 00:43:39.900
+means a server management right whenever you talk about this
+
+00:43:39.900 --> 00:43:42.960
+one so like how many of you are how many like requests we
+
+00:43:42.960 --> 00:43:45.100
+should allow how after how many requests we should stop
+
+00:43:45.740 --> 00:43:48.460
+whenever there will be a request so it should basically fall
+
+00:43:48.460 --> 00:43:51.800
+on what each and everything right each and everything so in
+
+00:43:51.800 --> 00:43:54.480
+the same line there is something called as vpc service there
+
+00:43:54.480 --> 00:43:57.660
+is something called as subnet right subnet service there is
+
+00:43:57.660 --> 00:44:02.390
+something called as a route table comes into picture there
+
+00:44:02.390 --> 00:44:05.330
+is something called as ig internet gateway comes
+
+00:44:07.890 --> 00:44:11.150
+into picture there is something called as nat gateway comes
+
+00:44:13.520 --> 00:44:16.120
+into picture there is something called as nat
+
+00:44:18.900 --> 00:44:23.790
+gateway security groups route
+
+00:44:25.840 --> 00:44:33.320
+53 for media imagine domain elb or you can say alb or
+
+00:44:36.610 --> 00:44:40.790
+you can say nlb comes into picture cloud
+
+00:44:42.900 --> 00:44:48.900
+front comes into picture yeah then there is something called
+
+00:44:48.900 --> 00:44:51.100
+as api gateway comes
+
+00:44:53.890 --> 00:44:55.730
+into picture direct
+
+00:44:58.030 --> 00:44:59.690
+connect transit
+
+00:45:03.920 --> 00:45:07.960
+gateway comes into picture so these are more or less a
+
+00:45:07.960 --> 00:45:11.140
+services which you are supposed to understand and you should
+
+00:45:11.140 --> 00:45:15.200
+know so that you will be able to understand that how data
+
+00:45:15.200 --> 00:45:18.920
+flows how traffic flows at the end of the day the system
+
+00:45:18.920 --> 00:45:21.780
+that you are trying to host here right with the help of
+
+00:45:21.780 --> 00:45:25.260
+these compute so how the system will be able to communicate
+
+00:45:25.260 --> 00:45:28.600
+internally how the system will be able to communicate
+
+00:45:28.600 --> 00:45:33.380
+externally public right which system will be directly
+
+00:45:33.380 --> 00:45:37.040
+accessible to outer system which system will be able to
+
+00:45:37.040 --> 00:45:38.300
+communicate to the outer system will not be accessible for
+
+00:45:38.300 --> 00:45:41.800
+example i'm giving you one example so generally let's say
+
+00:45:41.800 --> 00:45:45.960
+i'm trying to create an application by default database will
+
+00:45:45.960 --> 00:45:48.920
+be a part of that application right database will be part of
+
+00:45:48.920 --> 00:45:53.380
+any application obviously on every click you are trying to
+
+00:45:53.380 --> 00:45:56.200
+access a database even when you go to your own right so
+
+00:45:56.200 --> 00:45:59.340
+let's say if you are going to your own and if you are trying
+
+00:45:59.340 --> 00:46:02.960
+to click on any of these courses so it is trying to bring a
+
+00:46:02.960 --> 00:46:07.040
+data that's the reason there is a lot of time right it is
+
+00:46:07.040 --> 00:46:09.240
+available all of these informations are actually available
+
+00:46:09.240 --> 00:46:12.880
+inside a database right from where it is trying to fetch
+
+00:46:12.880 --> 00:46:15.000
+each and everything so in every click you are doing
+
+00:46:15.000 --> 00:46:18.800
+interaction with the db rds let's say in which like we have
+
+00:46:18.800 --> 00:46:24.600
+like hosted each and everything now so whenever you so it's
+
+00:46:24.600 --> 00:46:27.660
+not like whenever you are trying to click as a client i'm
+
+00:46:27.660 --> 00:46:31.880
+allowing you to access my db directly no you are going
+
+00:46:31.880 --> 00:46:34.980
+through a load balancer then load balancer is trying to
+
+00:46:34.980 --> 00:46:38.360
+access another subnet layer then that so i'm trying to allow
+
+00:46:38.360 --> 00:46:41.900
+you to access those information means technically you will
+
+00:46:41.900 --> 00:46:45.680
+never be able to reach out to my db in any manner right
+
+00:46:45.680 --> 00:46:50.660
+because at the end of the day i have to protect my databases
+
+00:46:50.660 --> 00:46:55.580
+now all of these layers comes into picture yeah so database
+
+00:46:55.580 --> 00:46:58.180
+should not be available publicly it should always come
+
+00:46:58.180 --> 00:47:01.820
+inside the private network and then something some
+
+00:47:01.820 --> 00:47:05.400
+application in from inside must be able to access it so
+
+00:47:05.400 --> 00:47:07.920
+likewise there will be a lot of other applications right you
+
+00:47:07.920 --> 00:47:10.460
+will end up building so you have to take a call over there
+
+00:47:10.460 --> 00:47:12.780
+that which one will be accessible publicly which one will
+
+00:47:12.780 --> 00:47:16.680
+not be accessible publicly everyone will be able to access
+
+00:47:16.680 --> 00:47:20.860
+your particular application at particular domain right at
+
+00:47:20.860 --> 00:47:24.580
+particular domain so obviously there is something called as
+
+00:47:24.580 --> 00:47:28.480
+route 53 comes into picture where i can do a domain mapping
+
+00:47:28.480 --> 00:47:31.660
+by the way yeah cloud front comes into picture for
+
+00:47:31.660 --> 00:47:35.000
+maintaining the distribution elb alb nlb comes into picture
+
+00:47:35.000 --> 00:47:37.680
+for doing a load balancing in a different different manner
+
+00:47:37.680 --> 00:47:41.980
+so this is a networking layer more or less which will
+
+00:47:41.980 --> 00:47:44.960
+eventually help me out in terms of maintaining or managing
+
+00:47:44.960 --> 00:47:48.920
+what goes what comes inside which one is allowed which one
+
+00:47:48.920 --> 00:47:52.880
+is technically not allowed and without this again you will
+
+00:47:52.880 --> 00:47:56.480
+not be able to host or manage even a single application so
+
+00:47:56.480 --> 00:47:59.800
+that is the reason this is the most important one once you
+
+00:47:59.800 --> 00:48:03.180
+understand the above one right once you understand the above
+
+00:48:03.180 --> 00:48:06.780
+one now let's try to understand the third layer right so
+
+00:48:06.780 --> 00:48:07.020
+what is the third layer right so what is the third layer
+
+00:48:07.020 --> 00:48:08.900
+right so what is the third layer and what this third layer
+
+00:48:08.900 --> 00:48:13.560
+technically says so third layer is for any application right
+
+00:48:14.680 --> 00:48:18.640
+you are going to store some data right maybe in a structured
+
+00:48:18.640 --> 00:48:22.460
+manner uh maybe into an unstructured manner the compute
+
+00:48:22.460 --> 00:48:25.700
+which you are going to use the very first one this one right
+
+00:48:25.700 --> 00:48:28.600
+the compute which you are going to use so okay it's going to
+
+00:48:28.600 --> 00:48:31.800
+give you compute a main memory but there must be an hard
+
+00:48:31.800 --> 00:48:35.220
+disk which must be attached in some cases there should be a
+
+00:48:35.220 --> 00:48:38.520
+dedicated hard disk for the like a laptop in some of the
+
+00:48:38.520 --> 00:48:41.380
+cases there should be a shared hard disk right so multiple
+
+00:48:41.380 --> 00:48:44.720
+machine will be able to access the same hard disk uh maybe
+
+00:48:44.720 --> 00:48:48.600
+you are supposed to mount some of those storage more and
+
+00:48:48.600 --> 00:48:51.060
+more as per your requirement so there can be like multiple
+
+00:48:51.060 --> 00:48:53.820
+situation which which arises right just like in my local
+
+00:48:53.820 --> 00:48:57.060
+system so let's say if my hard disk is going to exhaust so
+
+00:48:57.060 --> 00:48:59.220
+what we do generally we try to go and you know attach
+
+00:48:59.220 --> 00:49:02.860
+external hard disk floppy uh sorry not floppy disk no one
+
+00:49:02.860 --> 00:49:06.560
+uses it i don't know uh some of you have even heard about
+
+00:49:06.560 --> 00:49:09.600
+this floppy disk or not i don't know uh anyone who heard
+
+00:49:09.600 --> 00:49:11.920
+about floppy disks by the way who have seen floppy disk
+
+00:49:14.970 --> 00:49:20.890
+yeah then then we are we are of same age high five used it
+
+00:49:20.890 --> 00:49:25.410
+as well if you have used it then yes we all are coming from
+
+00:49:25.410 --> 00:49:30.030
+a like place where we have seen the actual transition of not
+
+00:49:30.030 --> 00:49:35.390
+just this computation but the whole world right with floppy
+
+00:49:35.390 --> 00:49:39.690
+disk with only 25 mb mb just imagine right maybe photo that
+
+00:49:39.690 --> 00:49:44.210
+you used to take so you know with the like uh you know dslr
+
+00:49:44.210 --> 00:49:50.130
+camera so that size is like more than like uh yeah 2000
+
+00:49:50.130 --> 00:49:55.270
+years yes i mean like 1990s born right so 1990s born or even
+
+00:49:55.270 --> 00:50:01.510
+before so we all have used it i used 20 256 mb ram oh i have
+
+00:50:01.510 --> 00:50:06.430
+used 25 mb ram i remember right so yeah i mean like it's a
+
+00:50:06.430 --> 00:50:10.790
+old old things basically uh so today's kids or maybe kids
+
+00:50:10.790 --> 00:50:13.910
+who have born after 2000 i don't think that they have even
+
+00:50:13.910 --> 00:50:18.930
+like seen those things yeah so we have gone through all the
+
+00:50:18.930 --> 00:50:22.570
+cycle we have seen those uh heads not not mobile phone even
+
+00:50:22.570 --> 00:50:26.450
+so we have seen those pcos right uh so because one was not
+
+00:50:26.450 --> 00:50:30.590
+very common uh in every household uh then we have seen you
+
+00:50:30.590 --> 00:50:33.330
+know a keypad based mobile in everyone's hand then we have
+
+00:50:33.330 --> 00:50:38.310
+seen this touch screen and whatnot so yeah so here what i
+
+00:50:38.310 --> 00:50:41.930
+was talking about that that compute is fine after compute
+
+00:50:41.930 --> 00:50:44.510
+like a floppy disk most of you are able to remember so it
+
+00:50:44.510 --> 00:50:49.410
+was basically storage right cd was also cd dvd cd and dvd so
+
+00:50:49.410 --> 00:50:52.010
+all those things are basically storage yeah we all have used
+
+00:50:52.010 --> 00:50:56.710
+it uh those who are coming from that era so here uh so
+
+00:50:56.710 --> 00:51:01.590
+storage is again uh the service that everyone is going to
+
+00:51:01.590 --> 00:51:06.570
+use it every application so storage services now there are a
+
+00:51:06.570 --> 00:51:08.410
+lot of storage services different different kind of storage
+
+00:51:08.410 --> 00:51:10.450
+services which is the storage services available uh inside
+
+00:51:10.450 --> 00:51:14.890
+aws right so first of all there is something called as s3
+
+00:51:14.890 --> 00:51:22.610
+simple storage services s3 sss so simple storage service
+
+00:51:22.610 --> 00:51:25.910
+that's a reason it's called as s3 they have named it so s3
+
+00:51:25.910 --> 00:51:28.830
+is you can think as just like a storing a file in your
+
+00:51:28.830 --> 00:51:32.250
+laptop let's say i have a laptop what i will do i will go i
+
+00:51:32.250 --> 00:51:34.930
+will try to go into some of the drive and then maybe i'll
+
+00:51:34.930 --> 00:51:37.490
+create a folder maybe folder inside folder folder inside
+
+00:51:37.490 --> 00:51:42.170
+folder to keep those files there right any kind of file
+
+00:51:42.170 --> 00:51:45.030
+maybe a word document text document maybe a movie file maybe
+
+00:51:45.030 --> 00:51:48.070
+a audio file maybe a gif file doesn't matter at all i'll
+
+00:51:48.070 --> 00:51:51.430
+just store all of kind of all of those kind of files inside
+
+00:51:51.430 --> 00:51:55.810
+our laptop right inside a particular folder so s3 works on
+
+00:51:55.810 --> 00:51:58.930
+the same principle s3 works on similar principle similar
+
+00:51:58.930 --> 00:52:01.390
+philosophy i would say so where you can go and you can try
+
+00:52:01.390 --> 00:52:04.590
+to store anything and everything that you want and then
+
+00:52:04.590 --> 00:52:09.690
+around that so you can try to basically write uh policies
+
+00:52:09.690 --> 00:52:13.710
+that who will be able to access and who will not be able to
+
+00:52:13.710 --> 00:52:16.370
+access kind of public private protected right kind of things
+
+00:52:16.370 --> 00:52:19.170
+so who will be able to access which application will be able
+
+00:52:19.170 --> 00:52:21.890
+to access or directly someone will be able to access or not
+
+00:52:21.890 --> 00:52:28.270
+so here whenever you go and let's say let's talk about this
+
+00:52:28.270 --> 00:52:32.690
+one so let's say there is a past workshop right so maybe i
+
+00:52:32.690 --> 00:52:36.930
+can okay this is like an ongoing one as of now right so
+
+00:52:36.930 --> 00:52:40.330
+there is a past workshop or there is like a yeah maybe i'll
+
+00:52:40.330 --> 00:52:44.210
+click and check this one so whenever you will go and you
+
+00:52:44.210 --> 00:52:47.150
+will try to click on download certificate so obviously it is
+
+00:52:47.150 --> 00:52:51.710
+going to download a certificate for you right it is going to
+
+00:52:51.710 --> 00:52:56.190
+download a certificate for you pop up always allow done now
+
+00:52:56.190 --> 00:53:01.370
+here so you can try to like copy a pdf link directly and
+
+00:53:01.370 --> 00:53:05.810
+then you can try to check that out uh over here so now if
+
+00:53:05.810 --> 00:53:08.570
+you will check the url right just check the url this is what
+
+00:53:08.570 --> 00:53:12.750
+i wanted to show you so you're on user certificate dot s3 ap
+
+00:53:12.750 --> 00:53:15.230
+south amazon this this this you're on workshop certificate
+
+00:53:15.230 --> 00:53:19.090
+this is the certificate number dot pdf so technically it is
+
+00:53:19.090 --> 00:53:22.050
+trying to create or generate a pdf you can even directly
+
+00:53:22.050 --> 00:53:24.410
+post it on a linkedin so it will auto fill each and
+
+00:53:24.410 --> 00:53:27.250
+everything for you by the way right so it will auto fill
+
+00:53:27.250 --> 00:53:29.630
+each and everything right and then you will be able to
+
+00:53:29.630 --> 00:53:32.070
+attach a credential just like you attach any corsair or any
+
+00:53:32.070 --> 00:53:34.310
+other credential so we have given you that option as well
+
+00:53:34.310 --> 00:53:37.410
+right but yeah things which i'm trying to show you that that
+
+00:53:37.410 --> 00:53:41.010
+s3 so here is a s3 and inside s3 we are trying to store it
+
+00:53:41.010 --> 00:53:45.370
+generally we call it as a s3 bucket yeah s3 bucket so even
+
+00:53:45.370 --> 00:53:48.110
+over here we have like a lot of files we have our videos
+
+00:53:48.110 --> 00:53:50.870
+right we have our videos we have our reels we have like you
+
+00:53:50.870 --> 00:53:53.430
+know internship again inside that uh there are like
+
+00:53:53.430 --> 00:53:55.430
+thousands of people who comes and generates their
+
+00:53:55.430 --> 00:53:58.030
+certificate right and then like people comes for the
+
+00:53:58.030 --> 00:54:01.090
+verification certificates in terms of even an internship
+
+00:54:01.090 --> 00:54:03.790
+onboarding onboarding certificate in terms of even i would
+
+00:54:03.790 --> 00:54:07.470
+say like a work and learn so everything whatsoever we are
+
+00:54:07.470 --> 00:54:10.570
+trying to like a store so obviously we try to store it
+
+00:54:10.570 --> 00:54:15.030
+inside what so inside a s3 bucket in general file file wise
+
+00:54:15.030 --> 00:54:18.410
+again only file right file wise so this is where the simple
+
+00:54:18.410 --> 00:54:20.950
+storage services coming comes into picture and which
+
+00:54:20.950 --> 00:54:25.330
+eventually even you will be able to use it along with that
+
+00:54:25.330 --> 00:54:31.750
+along with that so there is something called as ebs e ebs
+
+00:54:32.330 --> 00:54:36.890
+now what is this by the way so we have to attach a hard disk
+
+00:54:36.890 --> 00:54:40.630
+just the way whenever you purchase a laptop so you decide
+
+00:54:40.630 --> 00:54:44.490
+that i will be having 1 tv 5 tv 10 tv whatsoever right so
+
+00:54:44.490 --> 00:54:48.370
+you attach a hard disk in the similar manner it's called as
+
+00:54:48.370 --> 00:54:52.490
+elastic bean storage yeah so basically it is something which
+
+00:54:52.490 --> 00:54:59.350
+will be attached attached to ec2 the very first compute one
+
+00:54:59.350 --> 00:55:01.970
+that i have discussed about right the compute one that i
+
+00:55:01.970 --> 00:55:02.310
+have discussed about right so this is the first compute one
+
+00:55:02.310 --> 00:55:04.730
+that i have discussed about so whenever you try to spin the
+
+00:55:04.730 --> 00:55:09.950
+ec2 machine it is going to ask you a question that which and
+
+00:55:09.950 --> 00:55:14.710
+how much basically you would like to attach it right so for
+
+00:55:14.710 --> 00:55:18.330
+example if i'm going to like you know create a ec2 instance
+
+00:55:18.330 --> 00:55:25.770
+i'll click here load instance over here right so here you
+
+00:55:25.770 --> 00:55:28.830
+will be able to see configure storage part yeah so configure
+
+00:55:28.830 --> 00:55:31.770
+storage part so now here you can try to basically configure
+
+00:55:31.770 --> 00:55:32.290
+it and you will be able to see configure storage part so
+
+00:55:32.290 --> 00:55:32.290
+configure storage part so now here you can try to basically
+
+00:55:32.290 --> 00:55:35.430
+configure it uh like you know uh and again so here they have
+
+00:55:35.430 --> 00:55:38.030
+given you like a lot of things so file system y is three
+
+00:55:38.030 --> 00:55:40.230
+file system you would like to attach efs you would like to
+
+00:55:40.230 --> 00:55:44.290
+attach or fsx you would like to attach it or none you would
+
+00:55:44.290 --> 00:55:46.910
+like to attach you just want to compute but yeah where you
+
+00:55:46.910 --> 00:55:50.070
+know you have to attach it right so here this is where this
+
+00:55:50.070 --> 00:55:53.290
+uh ebs comes into picture then there is something called efs
+
+00:55:53.290 --> 00:55:57.490
+just now i have shown you right so efs is nothing but shared
+
+00:55:57.490 --> 00:56:03.330
+network file system it's basically a shared network file
+
+00:56:03.330 --> 00:56:08.610
+system then there is something called as fsx just now i have
+
+00:56:08.610 --> 00:56:08.970
+shown you
+
+00:56:15.790 --> 00:56:20.110
+fsx basically right so basically it's a managed high
+
+00:56:20.110 --> 00:56:23.150
+performance file system so basically its latency will be
+
+00:56:23.150 --> 00:56:25.030
+very very low high
+
+00:56:30.850 --> 00:56:35.170
+performance file systems same option you must be able to see
+
+00:56:35.170 --> 00:56:38.690
+fsx right so you can try to like attach this one you can try
+
+00:56:38.690 --> 00:56:40.930
+to attach maybe this one you can try to attach maybe this
+
+00:56:40.930 --> 00:56:44.070
+one yeah so any of these things you will be able to attach
+
+00:56:44.070 --> 00:56:47.670
+it then there is something called as glacier so basically
+
+00:56:47.670 --> 00:56:50.770
+like for archival so let's say i have so much so much data
+
+00:56:50.770 --> 00:56:54.130
+i'm not using it frequently so in that case i can archive
+
+00:56:54.130 --> 00:56:57.270
+those data so i can archive this data inside a glacier there
+
+00:56:57.270 --> 00:57:04.590
+is service called as glacier so cheap archival storage so
+
+00:57:04.590 --> 00:57:07.050
+those who understand those who are coming from a very
+
+00:57:07.050 --> 00:57:10.930
+beginning of aws maybe those who have started learning aws
+
+00:57:10.930 --> 00:57:16.290
+maybe 10 year back right for me i think it's more than 12
+
+00:57:16.290 --> 00:57:20.650
+year yeah since i'm like you know exploring aws and using
+
+00:57:20.650 --> 00:57:24.470
+aws when aws itself was very very new lot of services was
+
+00:57:24.470 --> 00:57:27.370
+not automated so at that point of a time let's say if you
+
+00:57:27.370 --> 00:57:30.990
+have to you know transfer a data so they used to send a big
+
+00:57:30.990 --> 00:57:34.890
+big box suitcase like box you try to you know load the data
+
+00:57:34.890 --> 00:57:37.330
+then someone will go to a data center and then they will try
+
+00:57:37.330 --> 00:57:39.510
+to plug in the drive and then they will try to transfer
+
+00:57:39.510 --> 00:57:39.830
+those and then they will try to plug in the drive and then
+
+00:57:39.830 --> 00:57:41.890
+they will try to transfer those data so for archival so
+
+00:57:41.890 --> 00:57:45.030
+again like those kind of services was available now it's
+
+00:57:45.030 --> 00:57:50.570
+glacier by the way right so these are these are the
+
+00:57:50.570 --> 00:57:53.630
+basically storage services you will be able to find out now
+
+00:57:53.630 --> 00:57:56.930
+storage is a fine so where i can go and store the files
+
+00:57:56.930 --> 00:57:59.530
+right which is again like one of the prominent services you
+
+00:57:59.530 --> 00:58:02.170
+will end up using then there is something called as database
+
+00:58:02.170 --> 00:58:05.090
+without database none of your application is going to live
+
+00:58:05.090 --> 00:58:09.390
+going to be live so there is a database services don't
+
+00:58:09.390 --> 00:58:11.950
+confuse get confused with database and storage storage means
+
+00:58:11.950 --> 00:58:16.570
+file system right database means proper db like where it
+
+00:58:16.570 --> 00:58:22.390
+supports occurred operation right or like you know insert
+
+00:58:22.390 --> 00:58:25.370
+update delete all kind of operations which it supports that
+
+00:58:25.370 --> 00:58:27.730
+is something called as db so db is different storage is
+
+00:58:27.730 --> 00:58:30.750
+technically different so again we all know that that you
+
+00:58:30.750 --> 00:58:33.930
+know there are different kind of a db which exist right so
+
+00:58:33.930 --> 00:58:36.190
+there is something called as relational database sql kind of
+
+00:58:36.190 --> 00:58:39.130
+a database right which understands a table there is
+
+00:58:39.130 --> 00:58:41.650
+something called as no sql kind of a database so where we
+
+00:58:41.650 --> 00:58:44.610
+can try to store it as a document data as a document there
+
+00:58:44.610 --> 00:58:47.330
+is something called as database for a cache right so where
+
+00:58:47.330 --> 00:58:50.250
+for a fast retrieval i can store the data and there is
+
+00:58:50.250 --> 00:58:52.650
+something called as analytical database right so which is
+
+00:58:52.650 --> 00:58:56.550
+you know give me a luxury to do a query on top of the
+
+00:58:56.550 --> 00:58:59.630
+particular database you know like efficient manner so
+
+00:58:59.630 --> 00:59:03.970
+database service wise you can divide a data into a different
+
+00:59:03.970 --> 00:59:09.030
+different like you know category so one is relational
+
+00:59:16.970 --> 00:59:19.910
+database yeah relational database now what comes in the
+
+00:59:19.910 --> 00:59:21.910
+relation database there is something called as rds service
+
+00:59:21.910 --> 00:59:28.390
+rds ds service right so inside this rds service you will be
+
+00:59:28.390 --> 00:59:30.990
+able to find out a lot of managed database for example
+
+00:59:30.990 --> 00:59:34.990
+managed mysql if you want you will get it
+
+00:59:38.700 --> 00:59:43.260
+postgres database if you want you can get it maria db if you
+
+00:59:43.260 --> 00:59:48.380
+want you can get it oracle db if you want you can get it sql
+
+00:59:48.380 --> 00:59:54.700
+server from microsoft you want a cr vr yeah if you want you
+
+00:59:54.700 --> 01:00:00.660
+can get it yeah sql server cr vr so rds right so this is
+
+01:00:00.660 --> 01:00:03.380
+what you will be able to get inside the rds there is
+
+01:00:03.380 --> 01:00:07.420
+something called as aurora aurora is what so basically
+
+01:00:07.420 --> 01:00:11.780
+aurora is nothing but it's a aws native relational db so aws
+
+01:00:11.780 --> 01:00:15.220
+uses to manage it has created this particular service so
+
+01:00:15.220 --> 01:00:17.400
+basically they used to call it as a high performance
+
+01:00:17.400 --> 01:00:23.760
+performance aws native means db provided by aws think in
+
+01:00:23.760 --> 01:00:27.900
+this way relational db at the end of the day table you will
+
+01:00:27.900 --> 01:00:30.920
+be dealing with the table at the end of the day so this is
+
+01:00:30.920 --> 01:00:33.040
+where relational db comes into picture and you will be doing
+
+01:00:33.040 --> 01:00:37.740
+a sql like a query over there right now so reserve is saying
+
+01:00:37.740 --> 01:00:40.940
+do db is basically store information of a block and a
+
+01:00:40.940 --> 01:00:45.280
+storage uh info in a form of block no tables basically if
+
+01:00:45.280 --> 01:00:47.620
+i'll talk about relational database right so it is going to
+
+01:00:47.620 --> 01:00:50.780
+store the information in a table a structured format right
+
+01:00:51.500 --> 01:00:53.600
+then we have our document based db as well so where we can
+
+01:00:53.600 --> 01:00:57.320
+store unstructured format but yeah this is what db is our
+
+01:00:57.320 --> 01:01:01.020
+storage means file system simple so you have a file system
+
+01:01:01.020 --> 01:01:03.160
+your entire laptop is technically a file system your hard
+
+01:01:03.160 --> 01:01:05.700
+disk is a file system right and then you try to install
+
+01:01:05.700 --> 01:01:08.820
+databases while building an application so yeah that's that
+
+01:01:08.820 --> 01:01:13.220
+then there is something called as no sql so many beginners
+
+01:01:13.220 --> 01:01:17.560
+you know they get confused between storage and db databases
+
+01:01:17.560 --> 01:01:21.060
+which they should not no sql means so where i can go and you
+
+01:01:21.060 --> 01:01:25.160
+know i can try to store a data in a document manner json
+
+01:01:25.160 --> 01:01:29.420
+file like mongodb cassandra somewhere graph db as well neo4j
+
+01:01:29.420 --> 01:01:32.320
+somewhere there is something called as timestamp based
+
+01:01:32.320 --> 01:01:35.980
+databases for example influx right influx db so there are so
+
+01:01:35.980 --> 01:01:38.540
+many dbs hundreds of dbs you will be able to find out in
+
+01:01:38.540 --> 01:01:41.380
+this particular category and in last eight to ten year so
+
+01:01:41.380 --> 01:01:43.480
+people have back to back literally created a lot of
+
+01:01:43.480 --> 01:01:48.920
+databases uh i mean like uh this era was there for a very
+
+01:01:48.920 --> 01:01:51.480
+long time very long time since the beginning we are using it
+
+01:01:51.480 --> 01:01:51.480
+since the beginning we are using it since the beginning we
+
+01:01:51.480 --> 01:01:55.380
+are using it right relational database then this era of you
+
+01:01:55.380 --> 01:01:57.900
+know no sql came into picture and very quickly we have seen
+
+01:01:57.900 --> 01:02:00.300
+that that so many companies have launched different
+
+01:02:00.300 --> 01:02:04.200
+different database specifically to manage a particular chunk
+
+01:02:04.200 --> 01:02:06.600
+of the data or particular type of the data so this is where
+
+01:02:06.600 --> 01:02:09.920
+graph db came into picture uh timestamp based db comes into
+
+01:02:09.920 --> 01:02:13.540
+picture document based db comes into picture even now some
+
+01:02:13.540 --> 01:02:17.360
+people are using it in their like a respective domain okay
+
+01:02:17.360 --> 01:02:21.760
+so no sql based database so here you will from aws you will
+
+01:02:21.760 --> 01:02:23.880
+be able to find out a service called as dynamodb
+
+01:02:26.500 --> 01:02:30.120
+dynamodb so basically it's a document based database
+
+01:02:30.120 --> 01:02:31.740
+serverless no sql you can say
+
+01:02:35.200 --> 01:02:41.960
+serverless no sql you can say then there is something called
+
+01:02:41.960 --> 01:02:49.090
+as document db document db document db is nothing but a aws
+
+01:02:49.090 --> 01:02:53.470
+version of you can say mongo db simple if you have to
+
+01:02:53.470 --> 01:02:56.530
+remember right it's just a aws version of mongo db nothing
+
+01:02:56.530 --> 01:02:59.230
+else i would say there is something called as key space
+
+01:02:59.230 --> 01:03:03.230
+right so you can say that key space db which is eventually
+
+01:03:03.230 --> 01:03:09.010
+happens to be a no sql it's a aws version of version of
+
+01:03:10.730 --> 01:03:13.370
+cassandra simple because it is also like mongo db right
+
+01:03:13.370 --> 01:03:16.270
+document based database so it's an aws version so it was
+
+01:03:16.270 --> 01:03:18.910
+created their own and they have named it as a key space and
+
+01:03:18.910 --> 01:03:22.170
+then document so in this way they have managed then catching
+
+01:03:22.170 --> 01:03:25.270
+catch a database so whatsoever information that we are
+
+01:03:25.270 --> 01:03:28.010
+trying to access frequently obviously we try to implement a
+
+01:03:28.090 --> 01:03:30.690
+catcher layer in between so that again and again it should
+
+01:03:30.690 --> 01:03:33.650
+not go and hit my databases which is going to be a costly
+
+01:03:33.650 --> 01:03:38.250
+operation in terms of network and latency both so this is
+
+01:03:38.250 --> 01:03:41.970
+where catcher comes into picture redis is one of the famous
+
+01:03:41.970 --> 01:03:45.630
+open source project created for a cachet and i believe a
+
+01:03:45.630 --> 01:03:49.590
+majority of us across the globe are using the same right so
+
+01:03:49.590 --> 01:03:55.830
+inside aws right inside aws cachet
+
+01:03:58.630 --> 01:04:02.630
+db so inside aws what they have done so they have like got
+
+01:04:02.630 --> 01:04:06.150
+inspired from radius right radius is an open source project
+
+01:04:06.150 --> 01:04:10.730
+and inside this they have created the same project as a
+
+01:04:10.730 --> 01:04:18.350
+service elastic elsti elastic catch a right elastic catch a
+
+01:04:18.350 --> 01:04:22.450
+so basically it's a like a radius or memcast man is like you
+
+01:04:22.450 --> 01:04:24.950
+know a catching system that they have created so technically
+
+01:04:24.950 --> 01:04:29.430
+it's a radius kind of a system which exists inside a aws and
+
+01:04:29.430 --> 01:04:32.370
+it was giving you and charging you as a service inside that
+
+01:04:32.370 --> 01:04:36.090
+that okay fine so you can configure your radius but yeah i'm
+
+01:04:36.090 --> 01:04:39.010
+giving you a managed one so where without any kind of effort
+
+01:04:39.010 --> 01:04:42.550
+you will be able to technically use it then there is a
+
+01:04:42.550 --> 01:04:45.670
+analytical database to do a dashboarding and all those
+
+01:04:45.670 --> 01:04:52.270
+things analytics db wise so what they have they have given
+
+01:04:52.270 --> 01:04:56.910
+you red shift and open search so which is good for you know
+
+01:04:56.910 --> 01:05:00.410
+searching basically acquiring so that eventually because uh
+
+01:05:00.410 --> 01:05:03.990
+graph or like you know those diagrams and those
+
+01:05:03.990 --> 01:05:08.310
+dashboardings is all about how fast and how good i am with
+
+01:05:08.310 --> 01:05:11.350
+respect to a query right so this is where this database
+
+01:05:11.350 --> 01:05:14.150
+comes into picture open search right so let's say open
+
+01:05:14.150 --> 01:05:19.290
+search which is offering from aws make sense guys so far we
+
+01:05:19.290 --> 01:05:22.450
+have discussed four layers one is a compute layer another
+
+01:05:22.450 --> 01:05:25.970
+one is a network layer another one is a storage layer
+
+01:05:25.970 --> 01:05:29.510
+basically and the another one is a database layer is it
+
+01:05:29.510 --> 01:05:35.110
+clear on an overall basis yes now vector db is something
+
+01:05:35.110 --> 01:05:39.810
+that came into picture recently right so yeah now even
+
+01:05:39.810 --> 01:05:42.990
+inside this postgres right uh the rds which i have talked
+
+01:05:42.990 --> 01:05:45.310
+about so they have started giving you a vector storage as
+
+01:05:45.310 --> 01:05:48.190
+well it
+
+01:05:52.030 --> 01:05:54.930
+is asking to paid one for sign in yeah two rupees then they
+
+01:05:54.930 --> 01:05:57.110
+will return you two rupees inside your account so it's just
+
+01:05:57.110 --> 01:06:02.510
+for the card verification that's it so these are the four
+
+01:06:02.510 --> 01:06:06.970
+layer of the services now most of us are going to work into
+
+01:06:06.970 --> 01:06:10.770
+ai ml or generative ai let's say right most of us are going
+
+01:06:10.770 --> 01:06:15.710
+to work in that particular segment so obviously i need some
+
+01:06:15.710 --> 01:06:18.990
+uh you know services and i would like to know some of the
+
+01:06:18.990 --> 01:06:23.530
+services which is dedicatedly created just for ai ml guy or
+
+01:06:23.530 --> 01:06:27.070
+generative ai guy right so yes every cloud platform is
+
+01:06:27.070 --> 01:06:29.430
+giving you those services so yes even if you are not a
+
+01:06:29.430 --> 01:06:30.450
+generative ai guy you can use generative ai guy in aws is
+
+01:06:30.450 --> 01:06:33.830
+not behind i would say not i mean like that will be a wrong
+
+01:06:33.830 --> 01:06:38.670
+statement uh basically aws is like ahead of everyone and
+
+01:06:38.670 --> 01:06:42.430
+they're giving you one of the world's famous services even
+
+01:06:42.430 --> 01:06:48.190
+in aid of ai ml and generative ai right by anyone so let's
+
+01:06:48.190 --> 01:06:53.090
+talk about that where we store videos s3 yeah
+
+01:07:03.220 --> 01:07:09.460
+so basically uh let's talk about uh i would say some of
+
+01:07:09.460 --> 01:07:13.180
+these ai ml based services so what in all ai ml based
+
+01:07:13.180 --> 01:07:18.260
+services which is like uh given to you yeah so uh mayuri
+
+01:07:18.260 --> 01:07:20.460
+asking is redshift and hina is same and no it's it's
+
+01:07:20.460 --> 01:07:23.720
+basically not same yes it's basically like uh both are very
+
+01:07:23.720 --> 01:07:27.980
+very like i would say uh different uh like you know services
+
+01:07:27.980 --> 01:07:30.720
+which they used to provide okay
+
+01:07:36.420 --> 01:07:42.480
+so now let's talk about some of the ai ml based services so
+
+01:07:42.480 --> 01:07:48.890
+layer number five especially for ai ml and jane guy or gen
+
+01:07:48.890 --> 01:07:51.210
+ai person jane
+
+01:07:55.470 --> 01:07:57.270
+a person right okay
+
+01:08:01.000 --> 01:08:04.040
+so the very first service that you will be able to find out
+
+01:08:04.040 --> 01:08:08.660
+and the old one is something called a sage maker sage maker
+
+01:08:08.660 --> 01:08:13.240
+so sage maker is a kind of even they have a studio right so
+
+01:08:13.240 --> 01:08:17.820
+it's kind of a suit in itself so where you will be able to
+
+01:08:17.820 --> 01:08:22.860
+do a training you will be able to do a deployment plus able
+
+01:08:22.860 --> 01:08:26.820
+to control your entire ml ops part a worsening of the model
+
+01:08:26.820 --> 01:08:29.960
+and each and everything you will be able to control it with
+
+01:08:29.960 --> 01:08:32.860
+respect to machine learning so this is where sage maker
+
+01:08:32.860 --> 01:08:36.040
+service comes into picture very old one popular services
+
+01:08:36.040 --> 01:08:40.560
+from aws i would say so complete like a ml i would say
+
+01:08:40.560 --> 01:08:48.540
+training deployment and ml ops management yeah so this is
+
+01:08:48.540 --> 01:08:50.760
+where sage maker comes into picture then something called as
+
+01:08:50.760 --> 01:08:54.620
+bedrock a lot of like a significance for jni people i would
+
+01:08:54.620 --> 01:08:59.020
+say right so let's say if i have to access maybe a different
+
+01:08:59.020 --> 01:09:03.000
+different kind of a model or if i have to train my own data
+
+01:09:03.000 --> 01:09:07.880
+based on the model available so if i'm looking for that kind
+
+01:09:07.880 --> 01:09:11.460
+of a service let's say if i have to access a cloud and maybe
+
+01:09:11.460 --> 01:09:16.780
+10 other models right so aws is having a with cloud and then
+
+01:09:16.780 --> 01:09:19.520
+other provider other vendors as well and they have a huge
+
+01:09:19.520 --> 01:09:22.640
+catalog just like a euron we are giving you one single
+
+01:09:22.640 --> 01:09:24.960
+access unified access and you are able to access a lot of
+
+01:09:24.960 --> 01:09:28.040
+models in the similar manner from bedrock itself you will be
+
+01:09:28.040 --> 01:09:31.580
+able to access a multiple model basically so this is what
+
+01:09:31.580 --> 01:09:37.960
+like you know bedrock is by the way so access and
+
+01:09:39.660 --> 01:09:49.840
+train multiple model or llm i would say right so cloud so he
+
+01:09:49.840 --> 01:09:53.700
+is a model series title series a lot of series i think open
+
+01:09:53.700 --> 01:09:56.560
+ai is not available there they have not done a tie up i
+
+01:09:56.560 --> 01:09:59.360
+believe but yeah most of this like a series is available
+
+01:09:59.360 --> 01:10:02.100
+best of best model is available there are many other
+
+01:10:02.100 --> 01:10:04.780
+platform nowadays so yeah for llm access we don't have to
+
+01:10:04.780 --> 01:10:07.200
+like you know rely on just a bedrock but yes this is the
+
+01:10:07.200 --> 01:10:10.660
+core offering of a bedrock at the end of the day then there
+
+01:10:10.660 --> 01:10:18.040
+is something called as recognition r e k o g
+
+01:10:18.040 --> 01:10:23.220
+n i t i o n so basically it is a recognition service means
+
+01:10:23.220 --> 01:10:25.600
+computer vision kind of a service object detection
+
+01:10:25.600 --> 01:10:28.860
+segmentation identification kind of a service it is going to
+
+01:10:28.860 --> 01:10:32.040
+offer you so where you can try to call the api you can try
+
+01:10:32.040 --> 01:10:35.700
+to pass basically your data eventually a frame image right
+
+01:10:35.700 --> 01:10:38.780
+and then it will be able to recognize uh so this is what it
+
+01:10:38.780 --> 01:10:46.180
+does so it is basically a computer vision api so you don't
+
+01:10:46.180 --> 01:10:48.460
+have to worry about maintaining or managing like any
+
+01:10:48.460 --> 01:10:51.520
+services right but yeah then there is something called as
+
+01:10:51.520 --> 01:10:55.780
+comprehend comprehend service comprehend is the name of the
+
+01:10:55.780 --> 01:10:58.280
+service so basically it's a natural language recognition
+
+01:10:58.280 --> 01:11:02.220
+kind of a service any g any r any l if you have to do it you
+
+01:11:02.220 --> 01:11:05.700
+can do it then there is a service called as text act
+
+01:11:08.960 --> 01:11:14.080
+that's correct so it's a ocr service optimal character
+
+01:11:14.080 --> 01:11:16.540
+recognition so let's say if i have to do some sort of you
+
+01:11:16.540 --> 01:11:20.740
+know i didn't text or maybe anything if i recognize it so
+
+01:11:20.740 --> 01:11:24.500
+again i can try to use a ocr kind of things right there is
+
+01:11:24.500 --> 01:11:27.880
+service called as poly so poly is nothing but it's a text to
+
+01:11:27.880 --> 01:11:33.070
+speech service from aws text to service there is something
+
+01:11:33.070 --> 01:11:34.030
+called as transcribe
+
+01:11:38.280 --> 01:11:43.340
+transcribe so basically it's opposite to poly speech to text
+
+01:11:43.340 --> 01:11:46.940
+service they provides you there is something called as
+
+01:11:46.940 --> 01:11:52.300
+translate translate so basically it provides you language
+
+01:11:52.300 --> 01:11:52.740
+translation
+
+01:11:56.790 --> 01:11:59.010
+just like google translator we have been using it in our
+
+01:11:59.010 --> 01:12:03.270
+mobile since our ages i would say right then there is a
+
+01:12:03.270 --> 01:12:07.470
+service called as lex a very old service i used to teach
+
+01:12:07.470 --> 01:12:12.720
+this service i believe like even six years back lex so
+
+01:12:12.720 --> 01:12:15.700
+basically it's a chatbot service and
+
+01:12:18.640 --> 01:12:20.940
+then there is something called as kendra recently i have
+
+01:12:20.940 --> 01:12:24.420
+used it in one of my client project so basically it's a
+
+01:12:26.600 --> 01:12:29.800
+intelligent enterprise search
+
+01:12:33.160 --> 01:12:39.280
+i would say this as a rag from aws offering uh as per my
+
+01:12:39.280 --> 01:12:41.560
+experience i have a very different experience because we
+
+01:12:41.560 --> 01:12:44.380
+have you know even my team has done a lot of exploration and
+
+01:12:44.380 --> 01:12:46.340
+they have done a lot of experimentation by using kendra
+
+01:12:46.340 --> 01:12:50.300
+services and it's live in a production for one of the client
+
+01:12:50.300 --> 01:12:56.260
+right of ours under your own consulting but my experience
+
+01:12:56.260 --> 01:13:00.660
+was not that great and parallelly so we have built other
+
+01:13:00.660 --> 01:13:04.040
+solution as well and again this is a very expensive service
+
+01:13:04.040 --> 01:13:06.820
+by the way kendra is very expensive services api cost is
+
+01:13:06.820 --> 01:13:13.260
+very very high uh it's like they have a claim but somewhere
+
+01:13:13.260 --> 01:13:16.760
+we found out that with our kind of a document it was not
+
+01:13:16.760 --> 01:13:19.680
+working well our document was very very complex i mean
+
+01:13:19.680 --> 01:13:22.660
+client document so we have you know built a custom solution
+
+01:13:22.660 --> 01:13:25.680
+and we have tested both the solution for them because at the
+
+01:13:25.680 --> 01:13:28.500
+end of the day project success matters a lot as compared to
+
+01:13:28.500 --> 01:13:32.940
+technology right if something is not working so it just has
+
+01:13:32.940 --> 01:13:36.640
+a promise a huge promise with respect to kendra but i think
+
+01:13:36.640 --> 01:13:39.960
+we have built a service which was better and performance
+
+01:13:39.960 --> 01:13:43.920
+wise right and again recognition wise so it's kind of a rag
+
+01:13:43.920 --> 01:13:46.380
+service retrieval augmented generation so we have passed the
+
+01:13:46.380 --> 01:13:50.520
+document they will store process same story automatically i
+
+01:13:50.520 --> 01:13:53.080
+mean like they are they're just like you know give you as an
+
+01:13:53.080 --> 01:13:55.320
+api which you can access it in the easiest possible manner
+
+01:13:55.320 --> 01:13:59.600
+so kendra is one of the service recently we have a hands-on
+
+01:13:59.600 --> 01:14:03.960
+experience with that a huge one then there is something
+
+01:14:03.960 --> 01:14:06.540
+called as uh personalized
+
+01:14:08.740 --> 01:14:15.270
+so basically it's a recommendation system service right so
+
+01:14:15.270 --> 01:14:18.030
+if you would like to like build a recommendation system you
+
+01:14:18.030 --> 01:14:21.510
+can build it on your own if you don't want go ahead and use
+
+01:14:21.510 --> 01:14:24.650
+from aws right so recommendation system you can try to
+
+01:14:24.650 --> 01:14:29.390
+basically use it and its name is personalized there is a
+
+01:14:29.390 --> 01:14:31.690
+service name called as forecast so let's say if you are
+
+01:14:31.690 --> 01:14:38.110
+dealing with the time series data time series forecasting so
+
+01:14:38.110 --> 01:14:41.070
+you can try to use this forecast service they have already
+
+01:14:41.070 --> 01:14:47.970
+built it late and then there is something called as fraud
+
+01:14:47.970 --> 01:14:49.210
+detector
+
+01:14:52.280 --> 01:14:59.140
+so fraud detection ml services
+
+01:15:02.080 --> 01:15:05.580
+and then there is something called as code whisper so
+
+01:15:07.020 --> 01:15:11.520
+basically it's a ai coding it's a whisper r
+
+01:15:16.840 --> 01:15:23.740
+p e r e r code whisperer yeah so it's basically ai coding
+
+01:15:23.740 --> 01:15:30.900
+assistant yes so again there is something called as q so
+
+01:15:30.900 --> 01:15:35.120
+again enterprise ai assistant so this is also ai assistance
+
+01:15:35.120 --> 01:15:36.760
+for okay
+
+01:15:38.840 --> 01:15:43.260
+so these are the services too many services i have listed
+
+01:15:43.260 --> 01:15:48.220
+down uh from this ai ml engineer segment if you will ask me
+
+01:15:48.220 --> 01:15:51.960
+about my experience with any of the services i will show you
+
+01:15:51.960 --> 01:15:52.340
+how to do it so let's see how to do it so let's starting
+
+01:15:52.340 --> 01:15:56.280
+from a sage maker i would say a sage maker then bedrock then
+
+01:15:56.280 --> 01:16:01.260
+equalization so uh if you will ask me a question that uh
+
+01:16:01.260 --> 01:16:04.960
+will you would you prefer to you know use all of these
+
+01:16:04.960 --> 01:16:08.480
+services directly uh because i have been using it i have
+
+01:16:08.480 --> 01:16:11.300
+been using sage maker since very very long time i would say
+
+01:16:11.300 --> 01:16:14.720
+i mean like since they have launched it uh same goes with
+
+01:16:14.720 --> 01:16:17.560
+the bedrock at least i was experimenting it recently i told
+
+01:16:17.560 --> 01:16:21.480
+you that i have used a kendra uh my recommendation my like
+
+01:16:21.480 --> 01:16:24.160
+uh you know the recommendation will not be that great with
+
+01:16:24.160 --> 01:16:27.940
+respect to kendra at least so again this this you know even
+
+01:16:27.940 --> 01:16:31.120
+with recognition right recognition so if you will ask me
+
+01:16:31.120 --> 01:16:36.000
+that selvi go ahead and use aws services from this aiml or
+
+01:16:36.000 --> 01:16:41.440
+gen ai segment my answer my quick answer will be a big no
+
+01:16:41.440 --> 01:16:47.300
+always right always uh i'm not against aws services but yeah
+
+01:16:47.300 --> 01:16:50.380
+as per my experience these services i think they have not
+
+01:16:50.380 --> 01:16:53.640
+focused much on that for every category yeah they have a
+
+01:16:53.640 --> 01:16:56.940
+services right so if i'll talk about all of these services
+
+01:16:56.940 --> 01:16:59.380
+the above one they are very good because that's their bread
+
+01:16:59.380 --> 01:17:02.120
+and butter i mean like this is where compute service is
+
+01:17:02.120 --> 01:17:04.900
+something which and whatsoever like revolve around those
+
+01:17:04.900 --> 01:17:08.260
+compute basically they are like you know making money out of
+
+01:17:08.260 --> 01:17:10.900
+that but somewhere they are not focusing much on these
+
+01:17:10.900 --> 01:17:15.100
+services they are not best in the market i would say and the
+
+01:17:15.100 --> 01:17:17.820
+charges are very very high if if you are going to attach
+
+01:17:17.820 --> 01:17:20.660
+these services and if you are going to build those services
+
+01:17:20.660 --> 01:17:23.600
+by yourself uh you know you will be having a full control
+
+01:17:23.600 --> 01:17:28.940
+your accuracy will be very very high right and even charges
+
+01:17:28.940 --> 01:17:33.860
+will be very very less so that's my experience with respect
+
+01:17:33.860 --> 01:17:38.420
+to ai ml and gen ai services so in general i do not
+
+01:17:38.420 --> 01:17:44.840
+recommend uh these services from aws that's my take yeah so
+
+01:17:44.840 --> 01:17:48.580
+yeah glue for streaming yes almost like you know alternative
+
+01:17:48.580 --> 01:17:52.900
+of kafka confident kafka you can say these are the services
+
+01:17:52.900 --> 01:17:58.660
+uh basically which i will not recommend to uh in general
+
+01:17:58.660 --> 01:18:04.160
+yeah now there is a service and guys one more thing today i
+
+01:18:04.160 --> 01:18:06.680
+have a live on youtube so i'll be talking about your own
+
+01:18:06.680 --> 01:18:10.140
+system so maybe you can join that live session let's talk
+
+01:18:10.140 --> 01:18:13.220
+about a sixth category of the service right this is
+
+01:18:13.220 --> 01:18:18.540
+important again devops because without ops you will not be
+
+01:18:18.540 --> 01:18:22.500
+able to manage anything and everything any application so
+
+01:18:22.500 --> 01:18:26.740
+what are this and you must be using it right you must be
+
+01:18:26.740 --> 01:18:32.880
+using it on a daily basis so cicd services so what are these
+
+01:18:32.880 --> 01:18:37.200
+services which is available inside aws right so here there
+
+01:18:37.200 --> 01:18:41.880
+is something called as code commit service right you can say
+
+01:18:41.880 --> 01:18:48.700
+it's a alternative of git github repository git repository
+
+01:18:48.700 --> 01:18:55.320
+service they are giving you so here you will end up using
+
+01:18:55.320 --> 01:18:58.080
+not code commit you will end up using github if you want to
+
+01:18:58.080 --> 01:19:01.340
+use something from aws go ahead with code commit there is
+
+01:19:01.340 --> 01:19:05.800
+something called as code build right so again ci continuous
+
+01:19:05.800 --> 01:19:11.480
+integration build system they are offering you which
+
+01:19:11.480 --> 01:19:14.620
+eventually github also offers right bitbucket also offers so
+
+01:19:14.620 --> 01:19:18.040
+you can i will be using uh mostly from there not from here
+
+01:19:18.660 --> 01:19:21.900
+there is something called as code deploy
+
+01:19:23.220 --> 01:19:28.340
+automated deployment automated deployment again i will be
+
+01:19:28.340 --> 01:19:32.000
+using github for the same not this service but yeah aws is
+
+01:19:32.000 --> 01:19:37.560
+also like providing the service code pipeline so basically
+
+01:19:37.560 --> 01:19:39.820
+it's been used for cicd
+
+01:19:43.060 --> 01:19:46.100
+orchestration again i will not be using it
+
+01:19:49.460 --> 01:19:53.320
+cloud formation so basically it's a alternative of i would
+
+01:19:53.320 --> 01:19:55.600
+say like a infrastructure code right
+
+01:19:58.120 --> 01:20:01.080
+so terraform basically i will be using terraform not a cloud
+
+01:20:01.080 --> 01:20:03.400
+formation you can use cloud formation as well i don't have
+
+01:20:03.400 --> 01:20:05.680
+any issue but yeah i mean like generally i prefer to use
+
+01:20:05.680 --> 01:20:08.560
+open source terraform infra
+
+01:20:10.480 --> 01:20:14.440
+as a code right so cloud formation so they are also giving
+
+01:20:14.440 --> 01:20:18.340
+you the service there is something called a cdk right so you
+
+01:20:18.340 --> 01:20:22.280
+can define a infrastructure using a code like what what is
+
+01:20:22.280 --> 01:20:24.980
+the s3 what is the rds or which database all those things
+
+01:20:24.980 --> 01:20:27.320
+you can define it as a code basically
+
+01:20:29.880 --> 01:20:34.020
+define infra using code using code means manually you don't
+
+01:20:34.020 --> 01:20:36.460
+have to go and set up everything aws has given you that
+
+01:20:36.460 --> 01:20:38.820
+service as well means you can automate the entire infra
+
+01:20:38.820 --> 01:20:42.520
+because this is what happens in every big project no one
+
+01:20:42.520 --> 01:20:45.600
+manages the infra by their hand right i mean like just by go
+
+01:20:45.600 --> 01:20:49.400
+and spinning all those services uh again since a very long
+
+01:20:49.400 --> 01:20:52.880
+time not not again today right and today with the help of ai
+
+01:20:52.880 --> 01:20:55.300
+it became very very easy so wherever we used to manage the
+
+01:20:55.300 --> 01:21:00.660
+infra we use all the automations systems manager is another
+
+01:21:00.660 --> 01:21:05.220
+service so you can automate your server server automation
+
+01:21:07.620 --> 01:21:12.980
+and management many many system you are maintaining at one
+
+01:21:12.980 --> 01:21:16.300
+at one time then this is required then there is something
+
+01:21:16.300 --> 01:21:19.980
+called as ops works so basically it's a configuration
+
+01:21:25.240 --> 01:21:28.200
+management now mostly none of the services i will be using
+
+01:21:28.200 --> 01:21:30.900
+from here even in terms of automation i will be using like a
+
+01:21:30.900 --> 01:21:33.620
+github which is going to help me out in terms of like doing
+
+01:21:33.620 --> 01:21:37.780
+a cincd right and then i will be using like a terraform so
+
+01:21:37.780 --> 01:21:42.120
+which is uh going to help me out in terms of uh basically uh
+
+01:21:42.120 --> 01:21:46.260
+like you know uh automating my entire infrastructure as a
+
+01:21:46.260 --> 01:21:52.360
+code yes basically so yes i generally don't prefer to use
+
+01:21:52.360 --> 01:21:55.780
+the services maybe you can use it because aws is also giving
+
+01:21:55.780 --> 01:22:00.100
+you then another important part so let's say i'm able to
+
+01:22:00.100 --> 01:22:05.140
+maintain and manage my infra then monitoring and logging
+
+01:22:05.140 --> 01:22:05.580
+services
+
+01:22:08.940 --> 01:22:11.500
+logging services pretty much important and we'll be using
+
+01:22:11.500 --> 01:22:16.240
+that so first is cloudwatch i generally use it so you can
+
+01:22:16.240 --> 01:22:19.840
+log you can try to see the matrices monitor
+
+01:22:21.500 --> 01:22:27.860
+and you can set the alert all of these things can be done by
+
+01:22:27.860 --> 01:22:32.920
+cloudwatch there is something called this cloud trail so you
+
+01:22:32.920 --> 01:22:40.140
+can try to use like a track api basically and user activity
+
+01:22:41.380 --> 01:22:45.220
+there's something that you can use it then like uh you know
+
+01:22:45.220 --> 01:22:47.160
+there is something called as config there is something
+
+01:22:47.160 --> 01:22:49.560
+called a hell dashboard which is again common so monitoring
+
+01:22:49.560 --> 01:22:53.300
+it as logging this is the services then apart from that so
+
+01:22:53.300 --> 01:22:56.940
+there is something called as a security service and you all
+
+01:22:56.940 --> 01:22:59.160
+will be using it security
+
+01:23:01.590 --> 01:23:03.450
+services security
+
+01:23:10.910 --> 01:23:13.970
+services so the very first and famous service is IAM
+
+01:23:13.970 --> 01:23:15.530
+identity and access management
+
+01:23:19.810 --> 01:23:22.690
+so basically from this service you try to manage each and
+
+01:23:22.690 --> 01:23:25.650
+every user and what kind of access they will be having and
+
+01:23:25.650 --> 01:23:28.690
+what not basically right then there is something called as
+
+01:23:28.690 --> 01:23:33.310
+cognito so basically it's been used for user authentication
+
+01:23:33.310 --> 01:23:34.830
+if you are going to use it
+
+01:23:38.160 --> 01:23:40.000
+user auth then
+
+01:23:42.180 --> 01:23:44.700
+there is something called a secret manager so
+
+01:23:46.910 --> 01:23:50.230
+password manager you can say so and then application will be
+
+01:23:50.230 --> 01:23:52.910
+able to access it in a secure manner right there is
+
+01:23:52.910 --> 01:23:55.830
+something called as kms right so what it does so encryption
+
+01:23:55.830 --> 01:23:57.590
+key management then
+
+01:24:04.050 --> 01:24:10.980
+there is something called as wf dev application firewall
+
+01:24:13.470 --> 01:24:18.970
+then there is something called as sealed so basically sealed
+
+01:24:18.970 --> 01:24:21.230
+is a service if you are going to apply it so this will
+
+01:24:21.230 --> 01:24:27.530
+prevent a ddos attack ddos protection so again one of the
+
+01:24:27.530 --> 01:24:30.610
+important service then there is something called as guard
+
+01:24:30.610 --> 01:24:32.310
+duty guard
+
+01:24:35.000 --> 01:24:42.600
+duty so basically this is been used for threat detection
+
+01:24:42.600 --> 01:24:45.900
+yeah you there is something called inspector so
+
+01:24:47.850 --> 01:24:50.070
+the entire police station they have built by the way inside
+
+01:24:50.070 --> 01:24:50.770
+security
+
+01:24:54.100 --> 01:24:59.040
+vulnerability security scanning yes
+
+01:25:01.310 --> 01:25:07.590
+then there is something called as mycia so basically it's a
+
+01:25:07.590 --> 01:25:11.110
+sensitive data leak sensitive
+
+01:25:15.850 --> 01:25:21.170
+data leak basically and then there is something called as
+
+01:25:21.170 --> 01:25:25.310
+certificate manager by default you will be using it while
+
+01:25:25.310 --> 01:25:30.030
+configuring a route 53 certificate manager certificate
+
+01:25:30.030 --> 01:25:35.830
+manager so those ssl certificates so here ssl or you can say
+
+01:25:35.830 --> 01:25:38.710
+like a tls certificate management
+
+01:25:40.980 --> 01:25:43.960
+for your application so these are the security service layer
+
+01:25:43.960 --> 01:25:47.660
+you will be able to find out again important one so most of
+
+01:25:47.660 --> 01:25:49.880
+these services you will end up using it in any application
+
+01:25:49.880 --> 01:25:54.040
+most i would say by default then apart from security
+
+01:25:54.040 --> 01:25:57.820
+services there is another layer basically which is called as
+
+01:25:57.820 --> 01:25:58.140
+management services and then there is another layer
+
+01:25:58.140 --> 01:25:59.640
+basically which is called as messaging service messaging and
+
+01:25:59.640 --> 01:26:03.080
+event driven services so messaging means what sending a
+
+01:26:03.080 --> 01:26:08.460
+email and these things will be important for any application
+
+01:26:08.460 --> 01:26:10.920
+that you are going to build right you can't build any
+
+01:26:10.920 --> 01:26:13.040
+application without this one so
+
+01:26:16.020 --> 01:26:19.540
+in this manner i'm also trying to teach you that you know to
+
+01:26:19.540 --> 01:26:22.240
+build any application what and all layers are required
+
+01:26:22.240 --> 01:26:24.900
+because by default these layers will come into any
+
+01:26:24.900 --> 01:26:28.640
+application and even in your interview so people are going
+
+01:26:28.640 --> 01:26:33.640
+to ask you a question from one of these layer itself event
+
+01:26:33.640 --> 01:26:39.100
+driven system so here you will be able to find out something
+
+01:26:39.100 --> 01:26:42.740
+called as sqs we are also using it right so this is
+
+01:26:42.740 --> 01:26:48.420
+basically called as q system q systems the sqs then there is
+
+01:26:48.420 --> 01:26:50.820
+something called sns we are using this as well so basically
+
+01:26:50.820 --> 01:26:53.660
+it's a notification system so public publisher subscriber
+
+01:26:53.660 --> 01:27:00.180
+notification system so we say pub sub pub sub notification
+
+01:27:00.180 --> 01:27:04.400
+system now there is something called as event bridge so
+
+01:27:06.260 --> 01:27:09.920
+basically event driven architecture that this happened then
+
+01:27:09.920 --> 01:27:12.260
+do that kind of things then
+
+01:27:17.640 --> 01:27:24.280
+there is something called as mq uh m and q so here so
+
+01:27:24.280 --> 01:27:26.820
+basically it's a rabbit mq kind of a thing so rabbit mq or
+
+01:27:26.820 --> 01:27:29.460
+active mq kind of things you will be able to find out
+
+01:27:29.460 --> 01:27:39.040
+managed rabbit r a double b i t m r a d you'll then there is
+
+01:27:39.040 --> 01:27:41.500
+something called a step function that's not that important
+
+01:27:41.500 --> 01:27:48.020
+then there is a okay so this was nine right ninth layer now
+
+01:27:50.160 --> 01:27:53.780
+there is another layer you will be able to find out called
+
+01:27:53.780 --> 01:27:59.480
+as data engineering because if there is a system there will
+
+01:27:59.480 --> 01:28:02.480
+be a big data if there is a big data so obviously there is a
+
+01:28:02.480 --> 01:28:09.020
+big data services you are supposed to use right and for any
+
+01:28:09.020 --> 01:28:12.120
+big system obviously you will end up producing a huge volume
+
+01:28:12.120 --> 01:28:16.760
+of the data with volume variety velocity all of these things
+
+01:28:16.760 --> 01:28:20.580
+all these three v's or five v's so this is where this system
+
+01:28:20.580 --> 01:28:24.820
+comes into picture now inside this big data so emr service i
+
+01:28:24.820 --> 01:28:27.640
+have already listed down even above in a compute elastic map
+
+01:28:27.640 --> 01:28:31.740
+reduce right so let's say if i want hadoop or spark kind of
+
+01:28:31.740 --> 01:28:35.160
+a master slave architecture cluster inside
+
+01:28:37.210 --> 01:28:39.070
+that there will be high there will be pig there will be
+
+01:28:39.070 --> 01:28:41.310
+kafka all those things in a managed manner so i can try to
+
+01:28:41.310 --> 01:28:44.790
+use emr cluster with any number of master and slave i can
+
+01:28:44.790 --> 01:28:47.710
+spin it right then there is something called as glue glue as
+
+01:28:47.710 --> 01:28:51.250
+a service popular service so if i have to build a pipeline
+
+01:28:51.250 --> 01:28:54.970
+etl pipeline extract transform load so i can try to use glue
+
+01:28:54.970 --> 01:28:59.870
+over there now there is something called as athena so what
+
+01:28:59.870 --> 01:29:03.530
+athena does so basically if i have to do a sql query right
+
+01:29:03.530 --> 01:29:07.710
+on s3 this is where i can try to use athena means on my data
+
+01:29:07.710 --> 01:29:10.110
+if i have to do a sql query which is stored in a sql query
+
+01:29:10.110 --> 01:29:10.110
+so i can try to use athena so i can try to use athena so i
+
+01:29:10.110 --> 01:29:12.030
+can try to use a sql query inside s3 then i can try to use
+
+01:29:12.030 --> 01:29:22.110
+athena so athena means sql query on s3 bucket data data this
+
+01:29:22.110 --> 01:29:24.130
+is where you can use athena services then there is something
+
+01:29:24.130 --> 01:29:27.030
+called as kinesis alternative of you can say a kafka
+
+01:29:27.030 --> 01:29:34.590
+confident kafka kinesis real time streaming then there is
+
+01:29:34.590 --> 01:29:40.390
+something called as data pipeline services workflow
+
+01:29:40.390 --> 01:29:45.180
+orchestration layered orchestration l1 l2 l3 that we used to
+
+01:29:45.180 --> 01:29:49.020
+create so we can try to use this one lake formation right so
+
+01:29:49.020 --> 01:29:55.140
+if i have to build a data lake basically data lakes so in
+
+01:29:55.140 --> 01:29:57.320
+that case lake formation is something that you can try to
+
+01:29:57.320 --> 01:30:00.840
+use it so there are services you will end up using it from a
+
+01:30:00.840 --> 01:30:06.560
+big data side right build it aside so more or less guys
+
+01:30:06.560 --> 01:30:09.180
+there are other services as well like a sql query and a sql
+
+01:30:09.180 --> 01:30:09.260
+query and a sql query and a sql query and a sql query and as
+
+01:30:09.260 --> 01:30:15.760
+said let's talk about one more um analytics right analytics
+
+01:30:15.760 --> 01:30:18.700
+so from analytics side you will be able to find out
+
+01:30:18.700 --> 01:30:22.580
+something called as a quick insight so
+
+01:30:25.560 --> 01:30:28.040
+it's a business intelligence like
+
+01:30:32.040 --> 01:30:37.320
+power bi w right so then athena is something that you can
+
+01:30:37.320 --> 01:30:42.040
+try to use query data i have mentioned above as well query
+
+01:30:42.040 --> 01:30:49.630
+data directly from s3 bucket which i have mentioned redshift
+
+01:30:49.630 --> 01:30:55.340
+so data warehousing basically data analytics
+
+01:30:59.370 --> 01:31:04.210
+so big data uh data analytics and then basically like common
+
+01:31:04.210 --> 01:31:07.930
+services and then our uh like you know generative ai ml
+
+01:31:07.930 --> 01:31:11.590
+services so all of these services are already available
+
+01:31:11.590 --> 01:31:17.830
+inside your aws like i said there are 270 service which is
+
+01:31:17.830 --> 01:31:21.110
+available right so there are a lot many more services which
+
+01:31:21.110 --> 01:31:26.670
+is available but in general if you are you as a you know big
+
+01:31:26.670 --> 01:31:30.010
+data engineer or data analytics or total and device it's not
+
+01:31:30.010 --> 01:31:33.130
+that much important but yeah you as a data scientist or jni
+
+01:31:33.130 --> 01:31:38.590
+engineer if you have to understand uh some of these services
+
+01:31:38.590 --> 01:31:44.110
+then this is the final list that you should understand layer
+
+01:31:44.110 --> 01:31:49.570
+by layer that which service does what and you must be having
+
+01:31:49.570 --> 01:31:52.630
+an hands-on on these services yes
+
+01:31:57.490 --> 01:31:59.310
+so let's go back to our slide how do you remember so many
+
+01:31:59.310 --> 01:32:03.210
+services i told you right it's more than 12 year many of the
+
+01:32:03.210 --> 01:32:05.670
+services that you are able to see today so it was not even
+
+01:32:05.670 --> 01:32:09.230
+available so we have seen all of those release we were
+
+01:32:09.230 --> 01:32:16.470
+basically a part of that right so yeah that's the reason so
+
+01:32:16.470 --> 01:32:18.710
+i do remember there are other services as well so many
+
+01:32:18.710 --> 01:32:21.410
+services sometimes even i get confused between couple of
+
+01:32:21.410 --> 01:32:24.610
+names when i don't like go and use it for a very very long
+
+01:32:24.610 --> 01:32:28.570
+time but yeah that's completely fine I mean like 200
+
+01:32:28.570 --> 01:32:31.570
+services it's very difficult to remember all those names but
+
+01:32:31.570 --> 01:32:35.430
+this is the bare minimum for example let's say forget about
+
+01:32:35.430 --> 01:32:37.430
+this data engineering let's say you are not into data
+
+01:32:37.430 --> 01:32:40.710
+engineering fine remove it data analytics okay remove both
+
+01:32:40.710 --> 01:32:45.870
+the part but this one much required this one you will be
+
+01:32:45.870 --> 01:32:49.310
+using it then monitoring and login by default you will be
+
+01:32:49.310 --> 01:32:54.450
+using it devops you will be using it by the way EIML I said
+
+01:32:54.450 --> 01:32:57.990
+like go and build yours your own so no need to use all of
+
+01:32:57.990 --> 01:33:00.870
+this but at least some of the name you should remember now
+
+01:33:00.870 --> 01:33:04.310
+database services you will be using it by default for any
+
+01:33:04.310 --> 01:33:06.870
+application so you should be aware about it storage services
+
+01:33:06.870 --> 01:33:10.050
+by default you will be using it networking services by
+
+01:33:10.050 --> 01:33:12.430
+default you will be using it for any and every application
+
+01:33:12.430 --> 01:33:16.030
+and then this compute services by default you will be using
+
+01:33:16.030 --> 01:33:23.350
+it right so you can't discard all right but yes you are you
+
+01:33:23.350 --> 01:33:26.350
+don't have to go and even learn everything so I think now
+
+01:33:26.350 --> 01:33:30.250
+the list is pretty much clear and yeah so with the help of
+
+01:33:30.250 --> 01:33:33.770
+this particular list maybe like you can try to like choose
+
+01:33:33.770 --> 01:33:40.850
+what services you are supposed to explore yes where we will
+
+01:33:40.850 --> 01:33:44.970
+fit a terraform service I told you right the CICD layer the
+
+01:33:44.970 --> 01:33:49.590
+CICD layer so here they are already giving you infra as a
+
+01:33:49.590 --> 01:33:52.810
+code right this cloud formation and then define infra using
+
+01:33:52.810 --> 01:33:56.890
+a code so all of these things like combine these two
+
+01:33:56.890 --> 01:34:00.570
+terraform can do the job combine these things github will do
+
+01:34:00.570 --> 01:34:06.160
+the job yeah so instead of using this service you can go and
+
+01:34:06.160 --> 01:34:12.520
+use github plus terraform from local can you give a demo of
+
+01:34:12.520 --> 01:34:16.440
+a project end-to-end what do you mean by end-to-end I
+
+01:34:20.570 --> 01:34:24.110
+always give end-to-end basically again there is a different
+
+01:34:24.110 --> 01:34:28.410
+definition or version you can have in terms of end-to-end as
+
+01:34:28.410 --> 01:34:31.250
+per your level of expectation but
+
+01:34:32.950 --> 01:34:35.910
+yeah I mean like this is the bare minimum guys please make
+
+01:34:35.910 --> 01:34:41.290
+sure that whenever I'm taking classes I have some plan I
+
+01:34:41.290 --> 01:34:44.190
+have some plan to you know conduct those classes because
+
+01:34:44.190 --> 01:34:46.210
+there are services like most of the services like I said I'm
+
+01:34:46.210 --> 01:34:48.730
+using it since last 10-12 year and even in my current infra
+
+01:34:48.730 --> 01:34:52.290
+right we are like you know we are we are having our own SAS
+
+01:34:52.290 --> 01:34:56.450
+we are like working with the multiple client project and
+
+01:34:56.450 --> 01:35:00.310
+Euron itself right we have like a Euron up and running which
+
+01:35:00.310 --> 01:35:04.630
+is our in-house like a creation of everything right every
+
+01:35:04.630 --> 01:35:07.890
+services so yeah we are actively using these services so
+
+01:35:07.890 --> 01:35:11.630
+layer by layer layer by layer so I'll try to explore all of
+
+01:35:11.630 --> 01:35:15.490
+these services even recently in so many of my classes I have
+
+01:35:15.490 --> 01:35:22.110
+talked about terraforms and we have automated almost all the
+
+01:35:22.110 --> 01:35:28.950
+deployment pipeline right so in so many classes plus if you
+
+01:35:28.950 --> 01:35:35.090
+have to follow more basically maybe what you can do so you
+
+01:35:35.090 --> 01:35:37.190
+can try to so
+
+01:35:40.130 --> 01:35:45.670
+here you can try to join this one DevOps MLOps and LMOps so
+
+01:35:45.670 --> 01:35:51.010
+this is particularly about just an ops right some of this
+
+01:35:51.010 --> 01:35:55.270
+cloud services I'm like going to include but yeah not all
+
+01:35:55.270 --> 01:35:58.990
+cloud services mostly like everything will be by using a
+
+01:35:58.990 --> 01:36:03.130
+open source solution so you can try to explore this
+
+01:36:03.130 --> 01:36:06.450
+particular part as well so terraform DevOps talker CI CD
+
+01:36:06.450 --> 01:36:09.690
+everything is already mentioned so whatsoever is required
+
+01:36:09.690 --> 01:36:14.870
+for anyone and everyone to maintain and manage MLOps LMOps
+
+01:36:14.870 --> 01:36:18.990
+and a core DevOps everything will be there so as a part of
+
+01:36:18.990 --> 01:36:22.010
+plus all of you will be able to access it and by default all
+
+01:36:22.010 --> 01:36:25.970
+of you have access I believe right without any kind of a
+
+01:36:25.970 --> 01:36:31.030
+disturbance so fine guys that's it I'll just try to upload
+
+01:36:31.030 --> 01:36:35.030
+this one mmm okay so it'll be a really powerful tool for you
+
+01:36:35.030 --> 01:36:37.890
+to access talking about the alternative service and we are
+
+01:36:37.890 --> 01:36:39.390
+talking about some of the things that you will need to know
+
+01:36:39.390 --> 01:36:43.970
+about this is the
+
+01:36:43.970 --> 01:36:46.250
+most common strategy and how we can help you to master it so
+
+01:36:46.250 --> 01:36:48.350
+first of all we are going to talk about the identity
+
+01:36:48.350 --> 01:36:48.350
+management service so
+
+01:36:51.930 --> 01:36:55.190
+identity management services are available as a matter of
+
+01:36:55.190 --> 01:36:58.830
+fact for individuals or for those of you who have an i.e.
+
+01:36:58.830 --> 01:37:04.070
+for example we have an i.e. management service inside a
+
+01:37:04.070 --> 01:37:07.890
+security section which i have discussed this one right so
+
+01:37:07.890 --> 01:37:11.750
+this service is free the vpc service which i have discussed
+
+01:37:11.750 --> 01:37:15.410
+that is also free the auto scaling service which i have
+
+01:37:15.410 --> 01:37:18.970
+discussed that is also free the sns service which i have
+
+01:37:18.970 --> 01:37:22.430
+discussed so basically they give you a free tier up beyond
+
+01:37:22.430 --> 01:37:26.210
+that there will be a paid tier the sqs service which we have
+
+01:37:26.210 --> 01:37:30.570
+discussed so there is a free plus there is a paid the event
+
+01:37:30.570 --> 01:37:33.630
+bridge which i have mentioned over there this one event
+
+01:37:33.630 --> 01:37:37.590
+event event bridge yeah the event bridge which i have
+
+01:37:37.590 --> 01:37:40.450
+mentioned over here so again it will be giving you a free
+
+01:37:40.450 --> 01:37:44.510
+limited event in general whenever you are going to create an
+
+01:37:44.510 --> 01:37:48.430
+account for the very first time so what aws does so aws
+
+01:37:48.430 --> 01:37:53.890
+gives you a ec2 free instance for 750 hours you can check
+
+01:37:53.890 --> 01:37:57.230
+the current one this is what i remember 750 hours this is
+
+01:37:57.230 --> 01:37:57.230
+the current one this is the current one this is the current
+
+01:37:57.230 --> 01:37:58.330
+one this is the current one they are giving you as of now
+
+01:37:58.330 --> 01:38:05.170
+and 750 hour i think it's a yearly i believe i don't know
+
+01:38:05.170 --> 01:38:08.010
+monthly maybe you can go and check guys i'm confused here
+
+01:38:08.010 --> 01:38:11.090
+right what is the free quota that they give you when you
+
+01:38:11.090 --> 01:38:13.230
+create a very first account but yeah 750 is the number which
+
+01:38:13.230 --> 01:38:17.390
+i remember maybe monthly or this one and they give you only
+
+01:38:17.390 --> 01:38:22.630
+under t2 micro means there is a machine name t2 micro and
+
+01:38:22.630 --> 01:38:26.390
+then there is a machine name t3 micro so under this you will
+
+01:38:26.390 --> 01:38:30.690
+be able to access uh they might see ro so you will be able
+
+01:38:30.690 --> 01:38:33.230
+to access only these two machines beyond that you will not
+
+01:38:33.230 --> 01:38:37.530
+be able to access it basically same goes for i would say rds
+
+01:38:37.530 --> 01:38:39.690
+the relational database management system that they are
+
+01:38:39.690 --> 01:38:42.550
+giving you under that there are like a lot of like uh you
+
+01:38:42.550 --> 01:38:45.870
+know databases which is already available so this is also
+
+01:38:45.870 --> 01:38:53.280
+750 i think hours yearly it was yeah i think yearly maybe
+
+01:38:53.280 --> 01:38:55.920
+check i mean they they keep on changing it sometimes so you
+
+01:38:55.920 --> 01:38:58.660
+can go and check the latest quota if you have created an
+
+01:38:58.660 --> 01:39:02.100
+account maybe it must be reflecting somewhere uh that what
+
+01:39:02.100 --> 01:39:04.640
+is a free tier or maybe in address documentation so you can
+
+01:39:04.640 --> 01:39:08.880
+go and check that one rds also they are giving you 750 hours
+
+01:39:08.880 --> 01:39:15.320
+of a like a kind of storage or something right then for s3
+
+01:39:15.320 --> 01:39:21.020
+bucket so they are giving you till 5 gb for s3 bucket right
+
+01:39:21.020 --> 01:39:25.720
+so it's three bucket they are giving you i think 5 gb yeah
+
+01:39:25.720 --> 01:39:29.940
+so till 5 gb storage it's free beyond that they will start
+
+01:39:29.940 --> 01:39:33.340
+charging you right elastic bean stack storage wise which we
+
+01:39:33.340 --> 01:39:35.500
+try to attach with ec2 instances which i have already
+
+01:39:35.500 --> 01:39:38.660
+mentioned so it is going to be 30 gb till 30 gb it is free
+
+01:39:38.660 --> 01:39:42.120
+beyond that chargeable right cloud front for a data transfer
+
+01:39:42.120 --> 01:39:49.140
+so like almost 1 tb they will give you uh 1 tb of transfer
+
+01:39:49.140 --> 01:39:49.840
+and then they will charge you for the rest of the day and
+
+01:39:49.840 --> 01:39:52.060
+beyond that it will be chargeable charge wise you can
+
+01:39:52.060 --> 01:39:57.600
+transfer yeah you can go and check elastic load balancer so
+
+01:39:57.600 --> 01:40:01.860
+again here they are giving you 750 hours 750 is like a
+
+01:40:01.860 --> 01:40:06.320
+standard number i think they are fixed for this one yeah so
+
+01:40:06.320 --> 01:40:09.620
+these are the services in general a major services i would
+
+01:40:09.620 --> 01:40:14.520
+say which is like required by any uh one so uh here you can
+
+01:40:14.520 --> 01:40:18.580
+you will be able to basically get it uh this is one i mean
+
+01:40:18.580 --> 01:40:23.820
+like a free account wise now uh apart from that they're also
+
+01:40:23.820 --> 01:40:29.360
+giving you an option so where you can just go and then you
+
+01:40:29.360 --> 01:40:34.860
+can try to basically set up budget right and i believe
+
+01:40:34.860 --> 01:40:38.580
+before started learning anything in aws we should know about
+
+01:40:38.580 --> 01:40:41.660
+that so there is something called as budget
+
+01:40:43.660 --> 01:40:48.880
+so here you can try to basically go and then you can try to
+
+01:40:48.880 --> 01:40:52.780
+set so this fall under billing and management right so
+
+01:40:52.780 --> 01:40:57.300
+create a budget and then you can try to basically set over
+
+01:40:57.300 --> 01:41:02.080
+here your own budget and alert so uses wise saving plan
+
+01:41:02.080 --> 01:41:05.860
+budget reservation budget or cost budget means 100 rupees i
+
+01:41:05.860 --> 01:41:10.540
+will be using so whenever system will surpass that one you
+
+01:41:10.540 --> 01:41:13.740
+will end up receiving a alert or maybe it is going to stop
+
+01:41:13.740 --> 01:41:17.540
+your system entire system so budget alert you can try to
+
+01:41:17.540 --> 01:41:19.720
+basically like uh give it decent-to- problème you can try to
+
+01:41:19.720 --> 01:41:21.660
+basically like this entire system comes under billing and
+
+01:41:21.660 --> 01:41:24.280
+management system cost management system right so they have
+
+01:41:24.280 --> 01:41:27.020
+already given you everything right so even cost novelty
+
+01:41:27.020 --> 01:41:31.080
+detection cost analytics analysis optimization so they will
+
+01:41:31.080 --> 01:41:33.740
+even keep on suggesting you the cost optimization that
+
+01:41:33.740 --> 01:41:37.680
+option is also available try to use all of these options as
+
+01:41:37.680 --> 01:41:41.220
+much as you can because those are the best practices right
+
+01:41:41.220 --> 01:41:45.200
+set an alert over there there is also something called as
+
+01:41:45.200 --> 01:41:52.560
+cloud watch cloud cloud cloud watch right so from here you
+
+01:41:52.560 --> 01:41:55.860
+will be able to maintain and manage basically your entire
+
+01:41:55.860 --> 01:42:00.020
+resources right which has been used which has not been used
+
+01:42:00.020 --> 01:42:02.200
+everything everything you will be able to manage and
+
+01:42:02.200 --> 01:42:05.320
+maintain it for example ours is in a ap south so let me
+
+01:42:05.320 --> 01:42:10.440
+change the reason and here so i will be able to manage each
+
+01:42:10.440 --> 01:42:13.740
+and everything right so which system is going where i i can
+
+01:42:13.740 --> 01:42:17.800
+manage it everything in a real time right so this is this is
+
+01:42:17.800 --> 01:42:20.480
+this basically so what is the cpu utilization what is the
+
+01:42:20.480 --> 01:42:24.700
+ecs utilization i i can get all these alarms and alert and
+
+01:42:24.700 --> 01:42:27.380
+if something is going to fail i will be able to even come
+
+01:42:27.380 --> 01:42:30.520
+and check over here so billing management is one thing and
+
+01:42:30.520 --> 01:42:35.440
+then like this cloud watch and you know log management is a
+
+01:42:35.440 --> 01:42:39.540
+another one that all of us should know and we should keep an
+
+01:42:39.540 --> 01:42:43.600
+eye on that particular part uh so that we will be able to
+
+01:42:43.600 --> 01:42:47.200
+like you know check manage and maintain things that we have
+
+01:42:47.860 --> 01:42:52.840
+so that's it guys that's it so this is all about this aws
+
+01:42:52.840 --> 01:42:56.580
+production grade system creation right this is the layer
+
+01:42:56.580 --> 01:43:01.220
+that you should know which is part one in upcoming parts i
+
+01:43:01.220 --> 01:43:07.960
+will try to discuss on one by one services so let's see when
+
+01:43:07.960 --> 01:43:10.620
+when i'm going to schedule it but yeah so one by one so
+
+01:43:10.620 --> 01:43:14.040
+let's say in upcoming parts so we'll be talking about just a
+
+01:43:14.040 --> 01:43:16.960
+compute services all of these compute services the next part
+
+01:43:16.960 --> 01:43:18.320
+just a networked system so that's it guys that's it so this
+
+01:43:18.320 --> 01:43:20.560
+is all about this services then next part just as storage
+
+01:43:20.560 --> 01:43:23.880
+services and data services and then even combination right
+
+01:43:23.880 --> 01:43:26.980
+how one thing is going to communicate with the other things
+
+01:43:26.980 --> 01:43:30.240
+so maybe in this way and as you can see if we are moving in
+
+01:43:30.240 --> 01:43:38.160
+this way at minimum 15 session i can say right because in in
+
+01:43:38.160 --> 01:43:41.240
+some of these sessions so we can't finish it in one right so
+
+01:43:41.240 --> 01:43:45.920
+we need like a multiple so 15 16 session is a bare minimum
+
+01:43:45.920 --> 01:43:50.060
+session which is required just to cover this much so that
+
+01:43:50.060 --> 01:43:54.200
+all of you can you know eligible enough to use all of these
+
+01:43:54.200 --> 01:44:00.140
+aws services make sense guys how much ops needed for jni
+
+01:44:00.140 --> 01:44:02.740
+role if you're going to join a startup uh you should know
+
+01:44:02.740 --> 01:44:05.880
+everything or maybe a mid-scale company or if company is
+
+01:44:05.880 --> 01:44:09.020
+going to ask you to you know uh lead a project or build a
+
+01:44:09.020 --> 01:44:11.340
+project you should know everything because everyone is now
+
+01:44:11.340 --> 01:44:15.420
+looking for everything so these are the bare minimum things
+
+01:44:15.420 --> 01:44:18.960
+see even i have never worked as a cloud guy i have never
+
+01:44:18.960 --> 01:44:22.800
+worked as a ops guy by but i always felt like that i should
+
+01:44:22.800 --> 01:44:25.700
+know the operations i should know the cloud and that's the
+
+01:44:25.700 --> 01:44:29.320
+reason so you know since our very beginning so i i like you
+
+01:44:29.320 --> 01:44:34.160
+know i'm using these these things and i believe all of you
+
+01:44:34.160 --> 01:44:35.740
+should do the same bit
+
+01:44:39.200 --> 01:44:42.480
+overwhelming but will understand soon yes for the very first
+
+01:44:42.480 --> 01:44:44.940
+time if you look into these services right uh almost i have
+
+01:44:44.940 --> 01:44:48.360
+not even written half of the service right like i said 270
+
+01:44:48.360 --> 01:44:51.700
+or 300 kind of a services are available but yeah even this
+
+01:44:51.700 --> 01:44:57.740
+much is a bit overwhelming for the first time true so any
+
+01:44:57.740 --> 01:45:00.720
+question for me please guys raise your hand yeah if you have
+
+01:45:00.720 --> 01:45:03.180
+any question for me i can i can unmute you and then you can
+
+01:45:03.180 --> 01:45:04.740
+go ahead with the question if
+
+01:45:07.590 --> 01:45:10.050
+we don't have any question then we are going to close the
+
+01:45:10.050 --> 01:45:14.230
+session maybe you can put your question even inside a chat
+
+01:45:14.230 --> 01:45:17.230
+box both works for me no
+
+01:45:21.580 --> 01:45:26.900
+questions okay so fine everyone if there is no question so
+
+01:45:26.900 --> 01:45:30.280
+let's try to conclude a class and yeah so maybe in future so
+
+01:45:30.280 --> 01:45:33.460
+we'll try to schedule step by step layer by layer all of
+
+01:45:33.460 --> 01:45:35.900
+this session so i'll just ask my team to attach this entire
+
+01:45:35.900 --> 01:45:39.240
+things inside as a resource section so how about this
+
+01:45:39.240 --> 01:45:42.260
+session guys should we do shall we go ahead and do like more
+
+01:45:42.260 --> 01:45:46.240
+this kind of workshops or these workshops are like you know
+
+01:45:46.240 --> 01:45:56.040
+boring yes yeah we should do it one more not boring okay
+
+01:45:56.040 --> 01:45:56.400
+okay
+
+01:45:59.850 --> 01:46:02.910
+at zero level traffic which deployment is best go ahead and
+
+01:46:02.910 --> 01:46:06.890
+use render so don't use it always get informative we should
+
+01:46:06.890 --> 01:46:13.070
+do more like this we need more sessions like this fine see
+
+01:46:13.070 --> 01:46:15.930
+practical when you say practical right so if you are not
+
+01:46:15.930 --> 01:46:19.130
+aware about a name let's say if you don't know like all of
+
+01:46:19.130 --> 01:46:21.930
+this layer itself and what is the connection what you will
+
+01:46:21.930 --> 01:46:25.590
+do by logging into aws and you know spinning a ec2 machine
+
+01:46:25.590 --> 01:46:28.350
+with that machine you can spin it in two minute of time and
+
+01:46:28.350 --> 01:46:30.310
+then you can access it with the help of a computer key or
+
+01:46:30.310 --> 01:46:35.650
+like you know in the cli itself in next minute practical
+
+01:46:41.220 --> 01:46:43.300
+starts from here right
+
+01:46:45.970 --> 01:46:50.790
+first of all you should know what you should learn then only
+
+01:46:50.790 --> 01:46:53.990
+you will be able to go and learn right so that's the reason
+
+01:46:53.990 --> 01:47:00.610
+it was day one next session we will start exploring it yes
+
+01:47:00.610 --> 01:47:03.450
+render is the best to deploy in simple way and if you don't
+
+01:47:03.450 --> 01:47:08.930
+want to complicate things i mean yes but it comes with the
+
+01:47:08.930 --> 01:47:14.170
+limitations so you can't put everything there what are the
+
+01:47:14.170 --> 01:47:17.650
+ways to accessing AWS services coding code wise you can
+
+01:47:17.650 --> 01:47:20.050
+access it right without even logging into your AWS account
+
+01:47:20.050 --> 01:47:24.130
+you just have to do a setup for one time CLI wise you can
+
+01:47:24.130 --> 01:47:27.770
+try to access it it just provides you a CLI right and then
+
+01:47:27.770 --> 01:47:31.410
+AWS UI interface so these are the way by which you can
+
+01:47:31.410 --> 01:47:32.810
+access can
+
+01:47:35.620 --> 01:47:40.380
+you explain same way Azure and ECP one of the mentor our
+
+01:47:40.380 --> 01:47:42.960
+mentor have already taken session on Azure that's already
+
+01:47:42.960 --> 01:47:46.760
+available go and check that out and that that that too I
+
+01:47:46.760 --> 01:47:49.620
+believe last week itself right that workshop we have done
+
+01:47:49.620 --> 01:47:56.010
+but when we are going to interview they are saying it's a
+
+01:47:56.010 --> 01:47:59.030
+POC obviously if you are going to show a toy project they
+
+01:47:59.030 --> 01:48:02.690
+will say it is like a POC so just go and check the project
+
+01:48:02.690 --> 01:48:05.350
+that we are doing inside a product engineering that is not
+
+01:48:05.350 --> 01:48:07.970
+called as POC right the project is called as a product
+
+01:48:07.970 --> 01:48:08.090
+engineering right so if you are going to show a project that
+
+01:48:08.090 --> 01:48:12.030
+we have done in 1.0 that was also not called as POC the
+
+01:48:13.310 --> 01:48:15.670
+project that we are going to do or we have done or people
+
+01:48:15.670 --> 01:48:18.770
+are already involved inside a work and learn that is also
+
+01:48:18.770 --> 01:48:23.090
+not called as POC that was a real kind project it depends I
+
+01:48:23.090 --> 01:48:27.050
+mean like what you have learned and what was the cycle that
+
+01:48:27.050 --> 01:48:28.670
+you have followed okay
+
+01:48:30.590 --> 01:48:35.810
+so fine guys thank you so much and yeah so we'll come up
+
+01:48:35.810 --> 01:48:39.650
+with more and more session so at seven o'clock I have
+
+01:48:39.650 --> 01:48:42.370
+another session so I will be live on YouTube so please come
+
+01:48:42.370 --> 01:48:48.150
+and join on YouTube maybe you're on channel right I'm
+
+01:48:48.150 --> 01:48:49.810
+thinking of this link right you will get a notification
+
+01:48:49.810 --> 01:48:54.330
+maybe you can just open up and then if you would like to ask
+
+01:48:54.330 --> 01:48:59.530
+me any question it will be basically on like your own
+
+01:48:59.530 --> 01:49:03.450
+systems so where you can launch your own like you know
+
+01:49:03.450 --> 01:49:07.910
+umpire business whatsoever you call so yeah here is a link
+
+01:49:07.910 --> 01:49:11.150
+and I will be live in next one hour one hour 10 minutes so I
+
+01:49:11.150 --> 01:49:12.950
+will see you in the next one hour so bye bye minute yeah so
+
+01:49:12.950 --> 01:49:16.310
+we can come over here and then we can you know even talk
+
+01:49:16.310 --> 01:49:19.090
+over there so with that thank you so much everyone take care
+
+01:49:19.090 --> 01:49:22.910
+and see you again can you please share a whatsapp group link
+
+01:49:22.910 --> 01:49:27.470
+for this group for this one there is no whatsapp group we
+
+01:49:27.470 --> 01:49:31.850
+have stopped creating a whatsapp group now for any batches
+
+01:49:31.850 --> 01:49:34.970
+that we are launching there is a whatsapp channel we have
+
+01:49:34.970 --> 01:49:40.380
+created and there is a support system we have launched yeah
+
+01:49:40.380 --> 01:49:44.400
+so for anyone there is no whatsapp any new batches and any
+
+01:49:44.400 --> 01:49:46.800
+initiative no whatsapp group
+
+01:49:51.790 --> 01:49:55.310
+okay so see you again guys take care bye thank you
+

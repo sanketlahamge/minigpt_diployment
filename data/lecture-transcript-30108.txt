@@ -1,0 +1,4142 @@
+WEBVTT
+
+00:10:03.820 --> 00:10:06.700
+okay so hi everyone i believe i'm audible and visible to all
+
+00:10:06.700 --> 00:10:09.320
+of you guys so please confirm if i'm whatever invisible yeah
+
+00:10:09.320 --> 00:10:13.620
+so that we can start so good afternoon everyone good
+
+00:10:13.620 --> 00:10:13.920
+afternoon
+
+00:10:16.930 --> 00:10:20.230
+okay so let's start guys so
+
+00:10:22.470 --> 00:10:25.370
+let me share my screen it's
+
+00:10:29.460 --> 00:10:35.980
+visible and uh yeah so any idea so what is the topic that we
+
+00:10:35.980 --> 00:10:40.300
+are going to discuss in this class anyone yeah anyone who
+
+00:10:40.300 --> 00:10:44.960
+can you know tell me what we are going to discuss i believe
+
+00:10:44.960 --> 00:10:51.240
+we have already published you know uh schedule so that is
+
+00:10:51.240 --> 00:10:54.260
+already available but uh yeah so i don't know how many of
+
+00:10:54.260 --> 00:10:56.540
+you have basically checked that out okay
+
+00:11:16.060 --> 00:11:19.920
+so yes uh today we are going to talk about uh database and
+
+00:11:19.920 --> 00:11:23.780
+then uh tomorrow so i believe uh and those who are like new
+
+00:11:23.780 --> 00:11:27.580
+so maybe you can go and you can try to check basically that
+
+00:11:27.580 --> 00:11:29.740
+what is the topic that we are going to discuss so we have
+
+00:11:29.740 --> 00:11:32.840
+started publishing that as well so uh tomorrow we are going
+
+00:11:32.840 --> 00:11:35.140
+to discuss we are going to talk about a git and github so
+
+00:11:35.140 --> 00:11:38.120
+today topic is going to be a database uh where i'll be
+
+00:11:38.120 --> 00:11:43.220
+talking about basically uh sql based databases no sql based
+
+00:11:43.220 --> 00:11:48.420
+databases and a vector db in in brief basically because uh
+
+00:11:48.420 --> 00:11:51.140
+database is something that we will end up using in every
+
+00:11:51.140 --> 00:11:54.240
+application without database you will not be able to build
+
+00:11:54.240 --> 00:11:57.000
+or you will not be able to create even a single application
+
+00:11:57.000 --> 00:11:59.280
+that's a that's a reality and that's the reason so database
+
+00:11:59.280 --> 00:12:02.720
+is an important topic for all of us and yeah so all of you
+
+00:12:02.720 --> 00:12:04.740
+can come over here and then you will be able to check the
+
+00:12:04.740 --> 00:12:07.560
+schedule so schedule we have started publishing along with
+
+00:12:07.560 --> 00:12:09.960
+that so you will be able to see a notification as well so we
+
+00:12:09.960 --> 00:12:12.120
+have started sending you our team has started sending you a
+
+00:12:12.120 --> 00:12:15.340
+notification uh for the same thing right for any anything
+
+00:12:15.340 --> 00:12:19.300
+and everything uh even uh in our mobile app or even inside a
+
+00:12:19.300 --> 00:12:23.540
+web so you all will like get uh notifications so maybe you
+
+00:12:23.540 --> 00:12:26.060
+can install a mobile app and then you can keep yourself
+
+00:12:26.060 --> 00:12:30.920
+updated uh without you know any kind of a worries apart from
+
+00:12:30.920 --> 00:12:33.560
+that so basically we have released a support system as well
+
+00:12:33.560 --> 00:12:36.380
+so maybe you can go and you can try to raise a ticket uh
+
+00:12:36.380 --> 00:12:39.500
+with respect to our support system and yeah so our team is
+
+00:12:39.500 --> 00:12:42.620
+going to solve it uh you can you can just ask any kind of a
+
+00:12:42.620 --> 00:12:46.140
+question right or any issues if you are facing so maybe you
+
+00:12:46.140 --> 00:12:49.440
+can go over here and then you can try to raise a ticket and
+
+00:12:49.440 --> 00:12:52.220
+yes our team will help you out in terms of resolving those
+
+00:12:52.220 --> 00:12:56.460
+issues so this is a new update uh lots of other update you
+
+00:12:56.460 --> 00:12:59.520
+will be able to find out yeah even working on super 30 we
+
+00:12:59.520 --> 00:13:02.560
+have started so you can go over here you can try to check
+
+00:13:02.560 --> 00:13:05.520
+what is going to happen in super 30 and when it is going to
+
+00:13:05.520 --> 00:13:09.340
+start basically and again you can try to get into a portal
+
+00:13:09.340 --> 00:13:12.440
+and you will be able to see all the planners that we have
+
+00:13:12.440 --> 00:13:15.800
+published for a super 30 then progress like a tracker a lot
+
+00:13:15.800 --> 00:13:19.200
+of things uh which has been published recently i think uh in
+
+00:13:19.200 --> 00:13:21.540
+last one or two week uh so maybe you can go and you can
+
+00:13:21.540 --> 00:13:25.440
+check that out for all kind of update and anyhow if you have
+
+00:13:25.440 --> 00:13:29.100
+like a you know a mobile app or web app so in that case
+
+00:13:29.100 --> 00:13:32.320
+obviously you will get a notification from our site now
+
+00:13:32.320 --> 00:13:35.660
+let's start guys so let's start with the databases so
+
+00:13:37.550 --> 00:13:37.850
+here
+
+00:14:03.820 --> 00:14:06.990
+so some people are pinging inside a group that do we have a
+
+00:14:06.990 --> 00:14:10.390
+class so i believe they have not checked the notification so
+
+00:14:10.390 --> 00:14:15.090
+that's the reason i'm talking about a notification okay we
+
+00:14:15.090 --> 00:14:19.350
+haven't know that which part okay how
+
+00:14:26.460 --> 00:14:30.180
+to use a all ai without subscription can you please explain
+
+00:14:30.180 --> 00:14:33.940
+at the end uh it's not possible uh practically it's not
+
+00:14:33.940 --> 00:14:37.640
+possible yeah uh yes workshop also we have launched so now
+
+00:14:37.640 --> 00:14:40.660
+going forward you will be able to see that that you know so
+
+00:14:40.660 --> 00:14:44.260
+many workshops are in pipeline uh by me by uh different
+
+00:14:44.260 --> 00:14:47.900
+mentors as well so i believe today we have done one workshop
+
+00:14:47.900 --> 00:14:52.820
+uh which was like a scheduled and uh yeah so you can come
+
+00:14:52.820 --> 00:14:55.500
+over here you can check that out all the workshop you will
+
+00:14:55.500 --> 00:14:59.260
+be able to see it i don't know why past workshop is not
+
+00:14:59.260 --> 00:15:02.860
+visible it must be visible so maybe my tech team can come
+
+00:15:02.860 --> 00:15:03.580
+and check
+
+00:15:12.480 --> 00:15:16.360
+okay so yeah so workshop the whole idea behind this workshop
+
+00:15:16.360 --> 00:15:20.080
+is to you know discuss about one or like more topics
+
+00:15:20.080 --> 00:15:24.020
+basically in very detail and in very depth in a particular
+
+00:15:24.020 --> 00:15:27.100
+session so you can say one workshop is equal to one of the
+
+00:15:27.100 --> 00:15:30.800
+class and again this workshop will not be available to all
+
+00:15:30.800 --> 00:15:33.420
+of us so basically this workshop will be available only to a
+
+00:15:33.420 --> 00:15:37.300
+a plus user by the way so it's basically uh exclusive to a
+
+00:15:37.300 --> 00:15:41.460
+plus user as we have already mentioned over uh here and
+
+00:15:41.460 --> 00:15:44.980
+likewise so many workshop because the way ai is changing the
+
+00:15:44.980 --> 00:15:48.320
+way every day you know we see a lot of like a new technology
+
+00:15:48.320 --> 00:15:52.200
+into our market so i believe and again so those things
+
+00:15:52.200 --> 00:15:55.300
+doesn't even need like you know full scale live classes they
+
+00:15:55.300 --> 00:15:58.540
+need basically uh two three hour of time so that you know
+
+00:15:58.540 --> 00:16:01.140
+that can be discussed and people can start using it keeping
+
+00:16:01.140 --> 00:16:04.580
+that in mind so here you will be able to find out a workshop
+
+00:16:04.580 --> 00:16:08.160
+so hundreds of workshop you will be able to see uh right
+
+00:16:08.160 --> 00:16:11.680
+continuously so we have already started from this weekend uh
+
+00:16:11.680 --> 00:16:12.440
+you will see you will be able to see how it works so here
+
+00:16:12.460 --> 00:16:14.280
+more and more so
+
+00:16:17.990 --> 00:16:22.750
+now let's move ahead and let's start talking about basically
+
+00:16:22.750 --> 00:16:24.290
+a database
+
+00:16:26.120 --> 00:16:29.940
+so like i've said guys database wise so there will be three
+
+00:16:29.940 --> 00:16:32.600
+category of database you will be able to find out not just
+
+00:16:32.600 --> 00:16:35.820
+three but yeah there are more categories of the database you
+
+00:16:35.820 --> 00:16:39.220
+will be able to find out but yeah in general you can say
+
+00:16:39.220 --> 00:16:41.700
+that that we can divide for now database into three
+
+00:16:41.700 --> 00:16:45.120
+categories so one is basically a sql kind of a databases one
+
+00:16:45.120 --> 00:16:49.340
+is a no sql kind of a databases and another one is basically
+
+00:16:49.340 --> 00:16:53.080
+a vector db right now vector db is getting a lot of
+
+00:16:53.080 --> 00:16:58.160
+popularity nowadays so let me write it down over here so in
+
+00:16:58.160 --> 00:16:59.580
+general so
+
+00:17:25.270 --> 00:17:27.610
+in general like i said so you will be able to find out a
+
+00:17:27.610 --> 00:17:31.170
+three kind of databases one is basically a sql kind of a
+
+00:17:31.170 --> 00:17:37.950
+database another one is basically no sql so no sql means not
+
+00:17:37.950 --> 00:17:42.530
+only sql doesn't mean that no sql so it's a not only sql and
+
+00:17:42.530 --> 00:17:49.530
+then third is basically a vector db vector db so here a sql
+
+00:17:49.530 --> 00:17:51.970
+databases wise again you will be able to find out a multiple
+
+00:17:51.970 --> 00:17:55.110
+like a different different kind of a sql database oracle db
+
+00:17:55.110 --> 00:17:58.250
+you will be able to find out a db 2 you will be able to find
+
+00:17:58.250 --> 00:18:01.610
+out postgres you will be able to find out so likewise there
+
+00:18:01.610 --> 00:18:05.250
+are so many different kind of databases uh provided by a
+
+00:18:05.250 --> 00:18:08.150
+different different organization you will be able to see uh
+
+00:18:08.150 --> 00:18:11.410
+the whole idea behind the sql database is very simple so we
+
+00:18:11.410 --> 00:18:14.790
+try to create a table a structured table basically and then
+
+00:18:14.790 --> 00:18:17.690
+there will be a row there will be a column so column will be
+
+00:18:17.690 --> 00:18:22.250
+nothing but a name or you can say like uh anything that we
+
+00:18:22.250 --> 00:18:24.910
+try to store it inside excel sheet so the way we try to
+
+00:18:24.910 --> 00:18:27.450
+provide a name inside the excel sheet in a similar manner
+
+00:18:27.450 --> 00:18:29.910
+you can try to provide a column name and then in a row you
+
+00:18:29.910 --> 00:18:33.370
+will be able to hold a data a structured kind of a data you
+
+00:18:33.370 --> 00:18:36.830
+all will be able to hold it inside a sql database very very
+
+00:18:37.390 --> 00:18:40.710
+simple right very very simple so you will be able to find
+
+00:18:40.710 --> 00:18:43.570
+out a hundreds of databases which is available in a market
+
+00:18:43.570 --> 00:18:47.710
+provided by a different different vendors again in a managed
+
+00:18:47.710 --> 00:18:50.770
+way in a self-hosted manner or maybe you can try to even
+
+00:18:50.770 --> 00:18:53.670
+download it locally install it and then you will be able to
+
+00:18:53.670 --> 00:18:56.330
+maintain it you will be able to manage it on almost all the
+
+00:18:56.330 --> 00:18:58.370
+cloud platform you will be able to find out again a
+
+00:18:58.370 --> 00:19:01.190
+different different kind of databases provided by different
+
+00:19:01.190 --> 00:19:04.070
+vendor or managed by that particular cloud platform itself
+
+00:19:04.070 --> 00:19:07.970
+uh which eventually you will try to explore it uh when you
+
+00:19:07.970 --> 00:19:10.110
+will start working on the project and when we are going to
+
+00:19:10.110 --> 00:19:12.750
+define the architecture of the project so again for sure
+
+00:19:12.750 --> 00:19:15.230
+inside the architecture of the project you will be able to
+
+00:19:15.230 --> 00:19:18.450
+see a database name right uh then there is something called
+
+00:19:18.450 --> 00:19:23.790
+as no sql not only sql right so sql means what structured
+
+00:19:23.790 --> 00:19:27.970
+query language so like i said so whenever we try to store
+
+00:19:27.970 --> 00:19:31.370
+our data inside a sql so data must be available in a
+
+00:19:31.370 --> 00:19:34.490
+structured format right so that's row by row row by row row
+
+00:19:34.490 --> 00:19:37.230
+by row row by row we can try to insert a data we can try to
+
+00:19:37.390 --> 00:19:41.830
+insert a data uh let's say i have a data so where a number
+
+00:19:41.830 --> 00:19:45.930
+of column is not fixed maybe uh maybe like you know data set
+
+00:19:45.930 --> 00:19:49.290
+is not structured or that structured i would say kind of a
+
+00:19:49.290 --> 00:19:53.410
+senior structured uh again uh like you know uh like uh i
+
+00:19:53.410 --> 00:19:56.230
+have to store like a different kind of a variety of the data
+
+00:19:56.230 --> 00:19:59.610
+so in that case maybe i can go ahead with the no sql kind of
+
+00:19:59.610 --> 00:20:02.830
+a databases not only sql kind of databases which is again
+
+00:20:02.830 --> 00:20:06.490
+very very popular and almost all the organization is using
+
+00:20:06.490 --> 00:20:10.550
+it now here so you will be able to find out mongo db you
+
+00:20:10.550 --> 00:20:13.150
+will be able to find outup cassandra you will be able to
+
+00:20:13.150 --> 00:20:16.730
+find out basically influx db you will be able to find out h
+
+00:20:16.730 --> 00:20:19.770
+base kind of databases so again in this category you will be
+
+00:20:19.770 --> 00:20:23.150
+able to see a hundreds and hundreds of for databases now
+
+00:20:23.150 --> 00:20:26.650
+when we say not only sql kind of a database so inside that
+
+00:20:26.650 --> 00:20:29.390
+you will be able to find out again a sub category
+
+00:20:29.910 --> 00:20:33.590
+subcategory means so there are some databases which just try
+
+00:20:33.590 --> 00:20:37.370
+to store a timestamp based data right so they try to help a
+
+00:20:37.370 --> 00:20:37.370
+database this is things like uh the obama House and Cricut
+
+00:20:37.370 --> 00:20:39.210
+uh whatever you out in terms of like you know extracting a
+
+00:20:39.210 --> 00:20:42.190
+data with respect to a timestamp for example like a you know
+
+00:20:42.190 --> 00:20:46.210
+influx db kind of a database or even h base we can try to
+
+00:20:46.210 --> 00:20:49.450
+think in a similar manner there are some databases which
+
+00:20:49.450 --> 00:20:52.410
+will try to allow you to like you know store a data in a
+
+00:20:52.410 --> 00:20:56.190
+document format documents are kind of a json format so such
+
+00:20:56.190 --> 00:20:59.290
+kind of a database is basically a cassandra or maybe a
+
+00:20:59.290 --> 00:21:02.430
+mongodb mongodb is one of the very very popular database by
+
+00:21:02.430 --> 00:21:06.110
+the way which is available in a market apart from that so
+
+00:21:06.110 --> 00:21:09.270
+you will be able to find out a graph based databases so
+
+00:21:09.270 --> 00:21:12.630
+where we try to you know store the data in a graph node and
+
+00:21:12.630 --> 00:21:16.270
+then connected node format basically a graph format by the
+
+00:21:16.270 --> 00:21:19.790
+way the graph that we try to study in our dsa classes right
+
+00:21:19.790 --> 00:21:23.230
+so in that particular manner we can try to store the data so
+
+00:21:23.230 --> 00:21:27.210
+for example neo4j right so neo4j is basically a database so
+
+00:21:27.210 --> 00:21:29.630
+where you can go and you can try to store the data into a
+
+00:21:29.630 --> 00:21:32.590
+graph format so again depends upon the different different
+
+00:21:32.690 --> 00:21:36.610
+uses right so we try to out for the databases but yes
+
+00:21:36.610 --> 00:21:39.390
+without database as i have already mentioned that you will
+
+00:21:39.390 --> 00:21:42.970
+not be able to build even a single application choosing a
+
+00:21:42.970 --> 00:21:47.150
+correct database is always important so this is basically a
+
+00:21:47.150 --> 00:21:49.870
+very first class i believe for most of you in terms of a
+
+00:21:49.870 --> 00:21:53.970
+database so we will not go in that depth basically like i
+
+00:21:53.970 --> 00:21:56.810
+said so when you will start building an application then we
+
+00:21:56.810 --> 00:22:00.370
+will start choosing our databases uh based on the need right
+
+00:22:00.370 --> 00:22:02.670
+based on the need what kind of data we are trying to store
+
+00:22:02.690 --> 00:22:05.610
+store what kind of a you know a transactional latency that
+
+00:22:05.610 --> 00:22:08.210
+we are looking for a network latency that we are looking for
+
+00:22:08.210 --> 00:22:11.050
+each and everything right based on that we try to consider
+
+00:22:11.050 --> 00:22:14.090
+the particular databases. Now in any project given project
+
+00:22:14.090 --> 00:22:17.850
+you will be able to find out an involvement of multiple
+
+00:22:17.850 --> 00:22:20.930
+databases right. So it is not like if you are using just one
+
+00:22:20.930 --> 00:22:24.090
+so one is going to work for everything no in general it is
+
+00:22:24.090 --> 00:22:27.110
+not going to happen. So we will end up using a multiple
+
+00:22:27.110 --> 00:22:30.070
+different kind of databases. Then there is something called
+
+00:22:30.070 --> 00:22:32.570
+as vector database comes into picture which is like a
+
+00:22:32.570 --> 00:22:35.730
+recently a vector database is getting a lot of popularity
+
+00:22:35.730 --> 00:22:39.230
+since last one or two year. So when this you know the entire
+
+00:22:39.230 --> 00:22:42.350
+LLM things comes into a market a large language model came
+
+00:22:42.350 --> 00:22:46.410
+into a market so that you know we can try to convert our
+
+00:22:46.410 --> 00:22:50.390
+data our string our text into a numerical format basically
+
+00:22:50.390 --> 00:22:54.270
+into a numerical array format you can say and then we can
+
+00:22:54.270 --> 00:22:57.510
+try to store those data in a numerical array format. So that
+
+00:22:57.510 --> 00:23:00.130
+you know. I will be able to do a search operation I will be
+
+00:23:00.130 --> 00:23:03.570
+able to do a match operation. So generally we try to store
+
+00:23:03.570 --> 00:23:06.110
+the embeddings of the data. So we call it as a embedding of
+
+00:23:06.110 --> 00:23:09.310
+the data into a vector db. Now to store it so there is
+
+00:23:09.310 --> 00:23:12.090
+something called as FISS basically there is something called
+
+00:23:12.090 --> 00:23:14.850
+as quadrant database there is something called as like you
+
+00:23:14.850 --> 00:23:19.810
+know pinecone, beviat basically, chroma db even a pg
+
+00:23:19.810 --> 00:23:22.650
+database, postgres database have started supporting a vector
+
+00:23:22.650 --> 00:23:25.070
+db as well even mongo right. So mongo have started
+
+00:23:25.070 --> 00:23:27.530
+supporting nowadays. So nowadays. Nowadays everyone have
+
+00:23:27.530 --> 00:23:31.510
+started supporting a vector storage as well. So I think like
+
+00:23:31.510 --> 00:23:35.930
+one year back so it was not a trend but nowadays every
+
+00:23:35.930 --> 00:23:39.110
+provider every vendor have started providing you a vector
+
+00:23:39.110 --> 00:23:43.470
+database as well. So some of these vendors was providing you
+
+00:23:43.470 --> 00:23:46.010
+just a sequel or maybe a no sequel but now they are
+
+00:23:46.010 --> 00:23:49.710
+providing you even a vector database so choice of this
+
+00:23:49.710 --> 00:23:53.430
+database largely depends upon the things that we are trying
+
+00:23:53.430 --> 00:23:55.790
+to build and the data that we are trying to type of the
+
+00:23:55.790 --> 00:24:02.030
+data. Based on that we are going to opt for one or the other
+
+00:24:02.030 --> 00:24:09.790
+spreadsheet. Fine everyone chinmay is saying, this is not
+
+00:24:09.790 --> 00:24:15.090
+alive too. So what did you think chinmay? If it is not alive
+
+00:24:15.090 --> 00:24:16.710
+plus.,...
+
+00:24:26.910 --> 00:24:32.790
+.................. This is not alive class. ______...?
+
+00:24:32.790 --> 00:24:33.290
+..........
+
+00:24:41.170 --> 00:24:41.650
+Okay
+
+00:24:44.460 --> 00:24:47.120
+fine let's try to focus bro
+
+00:24:49.010 --> 00:24:52.010
+is in multiverse yeah bro is literally in a multiverse.
+
+00:24:59.800 --> 00:25:02.920
+Okay so these are basically like a database which I was
+
+00:25:02.920 --> 00:25:06.520
+talking about right. So we'll try to explore all of these
+
+00:25:06.520 --> 00:25:09.260
+things because we'll try to talk more about this vector
+
+00:25:09.260 --> 00:25:13.180
+databases when we will get into a generative AI section. So
+
+00:25:13.180 --> 00:25:15.520
+if you'll go and check your syllabus so we have a generic
+
+00:25:15.520 --> 00:25:18.080
+section so where I have clearly defined a vector databases.
+
+00:25:18.080 --> 00:25:21.000
+So obviously we'll try to explore more and more over there.
+
+00:25:21.500 --> 00:25:24.760
+SQL and NoSQL so obviously we'll start using all of those
+
+00:25:24.760 --> 00:25:28.400
+database from Python projects itself. So Python project and
+
+00:25:28.400 --> 00:25:30.200
+then inside a machine learning project and then deep
+
+00:25:30.200 --> 00:25:33.320
+learning project everywhere we will end up using some of the
+
+00:25:33.320 --> 00:25:38.060
+SQL and some of the NoSQL based databases. Now it's very
+
+00:25:38.060 --> 00:25:42.920
+very easy basically to use these databases. It's not very
+
+00:25:42.920 --> 00:25:46.180
+difficult. So people have you know built those databases in
+
+00:25:46.180 --> 00:25:49.280
+such a manner that you can just go and in a minute of time
+
+00:25:49.280 --> 00:25:51.660
+so you will be able to create a connection string and then
+
+00:25:51.660 --> 00:25:55.040
+you will be able to connect and start storing the data. Very
+
+00:25:55.040 --> 00:25:58.260
+very simple right. So I would like to introduce couple of
+
+00:25:58.260 --> 00:26:01.480
+vendors or a couple of providers you can say. So where you
+
+00:26:01.480 --> 00:26:04.060
+can go and you can try to use them and then you will be able
+
+00:26:04.060 --> 00:26:07.540
+to spin your databases without doing any kind of a local
+
+00:26:07.540 --> 00:26:10.060
+installation. So no local installation is required. So there
+
+00:26:10.060 --> 00:26:13.180
+is something called a Supabase. Anyone who have heard about
+
+00:26:13.180 --> 00:26:16.820
+Supabase? There is something called as NeonDB.
+
+00:26:22.200 --> 00:26:27.520
+NeonDB. Yeah. So Supabase is one of the most popular I would
+
+00:26:27.520 --> 00:26:30.780
+say among a web developer or app developer. So in general
+
+00:26:30.780 --> 00:26:34.160
+even in a level even inside a emergent you will be able to
+
+00:26:34.160 --> 00:26:36.280
+find out that they have given you like you know integration
+
+00:26:36.280 --> 00:26:40.200
+of the Supabase. One of the easy easiest one to use I would
+
+00:26:40.200 --> 00:26:44.940
+say. So there is something called as like I said Supabase
+
+00:26:44.940 --> 00:26:47.960
+and there is something called as NeonForge. So likewise in a
+
+00:26:47.960 --> 00:26:52.420
+market you will be able to see not just one or two. But you
+
+00:26:52.420 --> 00:26:55.460
+will be able to see a hundreds of provider not just one or
+
+00:26:55.460 --> 00:26:58.480
+two. I'm just like you know giving you a name so that you
+
+00:26:58.480 --> 00:27:01.080
+know you can go and you can try to use it without making any
+
+00:27:01.080 --> 00:27:04.220
+kind of a payment. It's very very simple. They are providing
+
+00:27:04.220 --> 00:27:07.500
+you basically a free version of the databases so that you
+
+00:27:07.500 --> 00:27:10.260
+don't have to go and you don't have to pay for it. It's very
+
+00:27:10.260 --> 00:27:14.340
+easy to again use it. Right. When I'm going to talk about
+
+00:27:14.340 --> 00:27:17.840
+basically a cloud for example AWS. So at that point of time
+
+00:27:17.840 --> 00:27:20.700
+I'll be even teaching you that. Okay. So how you will be
+
+00:27:20.700 --> 00:27:25.100
+able to use a database which sits inside AWS because let's
+
+00:27:25.100 --> 00:27:27.260
+say if I'm trying to build a big application a large
+
+00:27:27.260 --> 00:27:30.060
+application. So obviously in that situation I will not
+
+00:27:30.060 --> 00:27:33.440
+prefer to use even a Supabase. I'll not even prefer to use a
+
+00:27:33.440 --> 00:27:38.420
+NeonForge. So I will always prefer to use a database inside
+
+00:27:38.420 --> 00:27:42.320
+my cloud infrastructure as well in a scalable mode. And
+
+00:27:42.320 --> 00:27:45.360
+obviously at that point of time I have to do a setup of
+
+00:27:45.360 --> 00:27:48.280
+those databases inside my AWS infrastructure. Or maybe
+
+00:27:48.280 --> 00:27:52.320
+Azure. Or maybe GCP infrastructure. And around that so I
+
+00:27:52.320 --> 00:27:55.260
+have to obviously apply a security layer. Right. So all
+
+00:27:55.260 --> 00:27:57.820
+those things will come into picture not now in a later stage
+
+00:27:57.820 --> 00:28:01.160
+basically. For now so we can go and we can try to use these
+
+00:28:01.160 --> 00:28:03.920
+kind of databases which is publicly available for a practice
+
+00:28:03.920 --> 00:28:07.940
+purpose. So basically in case of a Supabase you can just go
+
+00:28:07.940 --> 00:28:12.080
+and you can maybe do a Google login. Right. So simple you
+
+00:28:12.080 --> 00:28:15.600
+will be able to get into a Supabase. Same goes for basically
+
+00:28:15.600 --> 00:28:20.280
+a NeonForge. Sorry NeonDB. Right. So here you can just like
+
+00:28:20.280 --> 00:28:22.920
+a go and do a Google login and then you will be able to get
+
+00:28:22.920 --> 00:28:27.740
+into the database. So everyone just do it guys quickly. So I
+
+00:28:27.740 --> 00:28:29.280
+have already pinged you a link inside the chat box.
+
+00:28:33.120 --> 00:28:33.480
+Yeah.
+
+00:28:52.190 --> 00:28:55.230
+And confirming guys once you are able to log in in a chat.
+
+00:29:20.140 --> 00:29:23.940
+Okay. Done. Now you can try to use anything like GitHub
+
+00:29:23.940 --> 00:29:27.500
+login. You can use any other login whatsoever like is
+
+00:29:27.500 --> 00:29:29.780
+convenient for you. Just try to use it.
+
+00:29:57.080 --> 00:30:00.800
+Okay. So done. Done. Done. So what about others guys just go
+
+00:30:00.800 --> 00:30:04.180
+and log in. It just requires like a 30 second of your time.
+
+00:30:06.540 --> 00:30:07.620
+Okay. So done.
+
+00:30:48.060 --> 00:30:53.000
+Okay. So now let's talk about a Supabase. So here so any any
+
+00:30:53.000 --> 00:30:55.980
+databases that you are going to talk about basically. So
+
+00:30:55.980 --> 00:30:58.480
+every database provider is going to give you a connection
+
+00:30:58.480 --> 00:31:01.520
+string. So here let's say for a Supabase I can go and I can
+
+00:31:01.520 --> 00:31:04.480
+try to create the organization. So I can try to give any
+
+00:31:04.480 --> 00:31:07.860
+organization name let's say SUDH. Right. Test. This is the
+
+00:31:07.860 --> 00:31:11.240
+organization name I have given. Type is let's say personal I
+
+00:31:11.240 --> 00:31:14.100
+am keeping it and plan is basically free. Right. No need to
+
+00:31:14.100 --> 00:31:18.720
+make any kind of a payment here. Now so it will start
+
+00:31:18.720 --> 00:31:21.340
+creating an organization now inside the organization I will
+
+00:31:21.340 --> 00:31:25.220
+be able to create the database. So here organization it has
+
+00:31:25.220 --> 00:31:28.240
+created project name it has created database password. So
+
+00:31:28.240 --> 00:31:31.280
+maybe I can try to give some like you know a strong
+
+00:31:31.280 --> 00:31:31.780
+password.
+
+00:31:35.600 --> 00:31:41.260
+This is not strong. So let me generate some like really
+
+00:31:41.260 --> 00:31:43.060
+strong password. Okay.
+
+00:31:47.520 --> 00:31:51.440
+Fine. So database password is here enable database API fine
+
+00:31:51.440 --> 00:31:59.130
+enable this is fine now create a new project. So now it is
+
+00:31:59.130 --> 00:32:02.650
+going to you know send you inside this kind of a screen. So
+
+00:32:02.650 --> 00:32:06.290
+where you will be able to see your project and then here
+
+00:32:06.290 --> 00:32:10.930
+just follow my mouse cursor. So here you will be able to see
+
+00:32:10.930 --> 00:32:13.410
+a connect. So you can just try to click on this connect.
+
+00:32:13.570 --> 00:32:16.650
+Okay. And then you will be able to see a framework now
+
+00:32:16.650 --> 00:32:20.110
+framework wise. So just try to select a python. So they must
+
+00:32:20.110 --> 00:32:22.290
+have given you a python or
+
+00:32:26.030 --> 00:32:29.090
+maybe direct you can try to even choose. But yeah let's go
+
+00:32:29.090 --> 00:32:30.590
+ahead with the class
+
+00:32:34.690 --> 00:32:36.230
+python and
+
+00:32:42.240 --> 00:32:45.000
+then. So here they are going to give you instruction that
+
+00:32:45.000 --> 00:32:47.760
+first of all you have to install a package if you are trying
+
+00:32:47.760 --> 00:32:51.940
+to use it inside a python and then here. So this is the
+
+00:32:51.940 --> 00:32:54.840
+connection string which is required to connect with the
+
+00:32:54.840 --> 00:32:58.420
+database. Very very simple. Okay. So the very first step is
+
+00:32:58.420 --> 00:33:02.460
+like install Supabase. So let me ping you this command
+
+00:33:02.460 --> 00:33:09.980
+inside your chat. Now go inside vs code and here. So we can
+
+00:33:09.980 --> 00:33:19.880
+try to create a file. So maybe Supabase.ipynb okay.
+
+00:33:33.390 --> 00:33:37.390
+So here inside the environment. So you have to install pip
+
+00:33:37.390 --> 00:33:41.190
+install Supabase as simple as that and then execute it. So
+
+00:33:41.190 --> 00:33:44.470
+in. A couple of seconds. So it will end up installing this
+
+00:33:44.470 --> 00:33:51.150
+python Supabase. So yeah it has installed it seems error
+
+00:33:51.150 --> 00:33:55.270
+prependency resolver okay. So I believe it has installed
+
+00:33:55.270 --> 00:33:59.050
+requirement already satisfied for this one collecting this
+
+00:33:59.050 --> 00:34:05.210
+this this. So it has installed basically in my system in a
+
+00:34:05.210 --> 00:34:08.130
+particular like environment that I have created inside that
+
+00:34:08.130 --> 00:34:12.130
+one. Now once this is done. So as they have given you
+
+00:34:12.130 --> 00:34:16.750
+basically these urls. And even a key you will be able to
+
+00:34:16.750 --> 00:34:20.830
+find out. So you can try to copy this one. And maybe you can
+
+00:34:20.830 --> 00:34:23.850
+try to keep it inside your here
+
+00:34:27.620 --> 00:34:31.240
+right. So now these two things will be required. One is a
+
+00:34:31.240 --> 00:34:34.120
+url. So with the help of url you will be able to reach out
+
+00:34:34.120 --> 00:34:37.500
+to the Supabase server. And with the help of this particular
+
+00:34:37.500 --> 00:34:41.040
+key. So basically you will be able to access your databases
+
+00:34:41.040 --> 00:34:45.160
+as simple as that. And more or less any database provider
+
+00:34:45.160 --> 00:34:48.480
+are going to give you a similar kind of a contract. I said
+
+00:34:48.480 --> 00:34:52.100
+more or less means almost similar. So everyone try to follow
+
+00:34:52.100 --> 00:34:55.340
+their own convention basically in terms of providing
+
+00:34:55.340 --> 00:34:58.380
+authentication and yeah so in terms of providing you the
+
+00:34:58.380 --> 00:35:02.000
+connection url. But this is the only thing which is required
+
+00:35:02.000 --> 00:35:05.880
+in terms of like you know connecting with the Supabase at
+
+00:35:05.880 --> 00:35:13.180
+any point of a time. So here again looks fine to me. Maybe I
+
+00:35:13.180 --> 00:35:15.920
+can try to wrap it up inside this string and in that way it
+
+00:35:15.920 --> 00:35:20.920
+will not give me an error. Now so here now apart from that
+
+00:35:20.920 --> 00:35:24.860
+they are also providing you app.py file. So basically if you
+
+00:35:24.860 --> 00:35:28.120
+are going to copy this app.py file let's say we have copied
+
+00:35:28.120 --> 00:35:33.280
+this code piece of the code. So here I can come and I can
+
+00:35:33.280 --> 00:35:38.800
+try to create basically one file called as app.py file. And
+
+00:35:38.800 --> 00:35:43.660
+I can try to paste a particular piece of the code. Now here.
+
+00:35:43.820 --> 00:35:47.800
+So you will be able to find out basically Supabase server.
+
+00:35:47.800 --> 00:35:50.780
+This URL that we are trying to consume Supabase key that we
+
+00:35:50.780 --> 00:35:54.200
+are trying to consume. And then here so we are trying to
+
+00:35:54.200 --> 00:35:57.820
+basically you know do some sort of a query with respect to a
+
+00:35:57.820 --> 00:36:00.140
+Supabase. That's it. This is the only thing that we are
+
+00:36:00.140 --> 00:36:04.460
+trying to do. Now this URI URL and key. So again URL and key
+
+00:36:04.460 --> 00:36:07.120
+is already available to me over here. So I can try to just
+
+00:36:07.120 --> 00:36:09.880
+consume this particular part. This is one of the way right.
+
+00:36:09.960 --> 00:36:12.820
+So they have already given you a sample code by which you
+
+00:36:12.820 --> 00:36:17.540
+can just go and you will be able to like you know. Try to do
+
+00:36:17.540 --> 00:36:19.860
+anything. Any kind of experimentation with your databases.
+
+00:36:20.260 --> 00:36:24.660
+So are you able to copy your key guys everyone. Yeah your
+
+00:36:24.660 --> 00:36:26.440
+key and your URL.
+
+00:36:32.240 --> 00:36:36.940
+Yes. OK. Easy. OK. Now let me show you some of the operation
+
+00:36:36.940 --> 00:36:40.480
+with respect to the databases of technically create update
+
+00:36:40.480 --> 00:36:42.800
+delete all those operations which exist.
+
+00:36:58.030 --> 00:37:01.310
+You need to revisit the step to install and go ahead. You
+
+00:37:01.310 --> 00:37:04.590
+are fast. I don't think so. Basically I have already pinged
+
+00:37:04.590 --> 00:37:08.650
+you the command right. So please check my. You know. This
+
+00:37:08.650 --> 00:37:12.010
+ping that I have done inside your chat. So people install
+
+00:37:12.010 --> 00:37:15.070
+super base just have to copy and then paste it inside your
+
+00:37:15.070 --> 00:37:20.930
+notebook. It will be installed. Yeah OK. So now let's go
+
+00:37:20.930 --> 00:37:23.690
+ahead and one by one one by one. So let's try to do one
+
+00:37:23.690 --> 00:37:26.810
+thing. So let's try to you know connect the table connect
+
+00:37:26.810 --> 00:37:30.830
+with the database and then do some sort of operation.
+
+00:37:34.690 --> 00:37:37.810
+So here maybe we can go and we can try to you know create
+
+00:37:37.810 --> 00:37:40.470
+table we can try to update table. We can try to insert some
+
+00:37:40.470 --> 00:37:43.870
+sort of a data all those things and at any point of a time
+
+00:37:43.870 --> 00:37:46.250
+you don't have to worry much. So basically click on connect
+
+00:37:46.250 --> 00:37:50.690
+right then select your framework and then done. That's it.
+
+00:37:50.750 --> 00:37:54.130
+Right. This is how easy it is by the way. Now here with
+
+00:37:54.130 --> 00:37:57.190
+respect to your particular project you will be able to see a
+
+00:37:57.190 --> 00:37:59.250
+multiple options. So there is something called a stable
+
+00:37:59.250 --> 00:38:01.950
+editor. There is something called a sequel editor. There is
+
+00:38:01.950 --> 00:38:03.730
+something called as databases. There is something called
+
+00:38:03.730 --> 00:38:06.370
+authentication. There is something called as storage edge
+
+00:38:06.370 --> 00:38:08.730
+function real time and all those things. Right log
+
+00:38:08.730 --> 00:38:11.790
+integration and all those things which is like a given over
+
+00:38:11.790 --> 00:38:15.070
+here. So first of all let's try to come inside the table
+
+00:38:15.070 --> 00:38:17.890
+editor. So basically what this table editor will do so
+
+00:38:17.890 --> 00:38:20.530
+basically whatsoever table that you are going to create. So
+
+00:38:20.530 --> 00:38:22.930
+you can try to see this table you can try to visit this
+
+00:38:22.930 --> 00:38:25.970
+table and then you will be able to edit this table. Then
+
+00:38:25.970 --> 00:38:27.950
+there is something called a sequel editor which you will be
+
+00:38:27.950 --> 00:38:31.230
+using frequently by the way. Right. So here you can try to
+
+00:38:31.230 --> 00:38:33.970
+write your own query and then you will be able to see the
+
+00:38:33.970 --> 00:38:37.150
+final output again in a very very easy manner. So you can
+
+00:38:37.150 --> 00:38:39.050
+just write the query. And then you will be able to see the
+
+00:38:39.050 --> 00:38:43.150
+output over here along with that. So here inside our
+
+00:38:43.150 --> 00:38:45.650
+database section so you will be able to see like you know
+
+00:38:45.650 --> 00:38:49.130
+all this database management kind of a configuration and all
+
+00:38:49.130 --> 00:38:52.330
+of these like you know settings with respect to a particular
+
+00:38:52.330 --> 00:38:56.990
+databases. So basically my interest will be into a sequel
+
+00:38:56.990 --> 00:38:59.510
+editor and a table editor. In general I will be using these
+
+00:38:59.510 --> 00:39:01.950
+two things. Yeah. I'll be using basically these two things.
+
+00:39:02.050 --> 00:39:05.930
+So for example so if I have to create a table right. If I
+
+00:39:05.930 --> 00:39:09.450
+have to create a table. So how I will be able to like you
+
+00:39:09.450 --> 00:39:12.590
+know go and I will be able to create a table. So simple. I
+
+00:39:12.590 --> 00:39:15.870
+can click on sequel editor and then I can start writing a
+
+00:39:15.870 --> 00:39:20.410
+command. So maybe like create table create table and then
+
+00:39:20.410 --> 00:39:22.930
+table name. So let's say I'm creating a Sudhanshu table over
+
+00:39:22.930 --> 00:39:26.170
+here and then inside that so I can try to define a column
+
+00:39:26.170 --> 00:39:29.310
+name or maybe let's say I'm creating a Euron table a very
+
+00:39:29.310 --> 00:39:33.570
+small one. Right. Euron table. And then here so I can try to
+
+00:39:33.570 --> 00:39:37.170
+define basically like you know ID or something like that.
+
+00:39:37.190 --> 00:39:43.530
+Student ID student ID and student ID is going to be like you
+
+00:39:43.530 --> 00:39:49.290
+know I can I can define it as a integer basically and then I
+
+00:39:49.290 --> 00:39:54.070
+can try to define a student underscore name over here. So a
+
+00:39:54.070 --> 00:39:58.790
+student name is going to be basically text format and then I
+
+00:39:58.790 --> 00:40:03.350
+can try to define basically a phone number phone number
+
+00:40:03.350 --> 00:40:07.090
+phone number is again going to be integer. So here. In this
+
+00:40:07.090 --> 00:40:10.210
+manner I can come at any point of time and I can try to
+
+00:40:10.210 --> 00:40:13.550
+create basically a table again to so create table is not a
+
+00:40:13.550 --> 00:40:17.010
+big deal. So whenever you know we try to get a business
+
+00:40:17.010 --> 00:40:20.230
+requirement so we try to you know design the entire table we
+
+00:40:20.230 --> 00:40:23.770
+try to design the relationship in between. And nowadays you
+
+00:40:23.770 --> 00:40:26.850
+have AI right. So doesn't matter in your table you have a
+
+00:40:26.850 --> 00:40:28.890
+hundreds of column a thousands of column or whatsoever
+
+00:40:28.890 --> 00:40:33.730
+business relationship table has to establish just in one
+
+00:40:33.730 --> 00:40:36.390
+single go you will be able to produce the whole scheme.
+
+00:40:36.390 --> 00:40:39.030
+Right. You will be able to produce the whole scheme. But yes
+
+00:40:39.030 --> 00:40:41.830
+that's a very first part. So what it will do once I'm going
+
+00:40:41.830 --> 00:40:44.010
+to execute this so what it will do it will create a table
+
+00:40:44.010 --> 00:40:46.290
+called as your own and inside that there will be a column
+
+00:40:46.290 --> 00:40:49.430
+called as student ID student name and a phone number. Right.
+
+00:40:49.510 --> 00:40:52.430
+These three entities will be available inside that. So to
+
+00:40:52.430 --> 00:40:56.230
+create a table just select this one and then click on run
+
+00:40:56.230 --> 00:41:00.490
+selected. Yeah. Done without rollable security RLS is
+
+00:41:00.490 --> 00:41:03.850
+nothing but rollable security. So succeed. Yeah. So
+
+00:41:03.850 --> 00:41:07.130
+basically it has created a table. Now if I'll go and if I'll
+
+00:41:07.130 --> 00:41:10.610
+try to check over here. So maybe I will be able to like you
+
+00:41:10.610 --> 00:41:17.610
+know see a table you're on right. So here I can see you're
+
+00:41:17.610 --> 00:41:20.110
+on table and you're on table is having what. So you're on
+
+00:41:20.110 --> 00:41:22.730
+table is having a student ID a student name and a phone
+
+00:41:22.730 --> 00:41:26.610
+number. So these are basically three technically columns
+
+00:41:26.610 --> 00:41:29.950
+which I had created and those three columns are available
+
+00:41:29.950 --> 00:41:33.130
+over here. Not just that. So let's say I'm not a guy who
+
+00:41:33.130 --> 00:41:37.030
+understands SQL and all. So again I can come over here I can
+
+00:41:37.030 --> 00:41:40.230
+try to click on new table and then I can try to create a
+
+00:41:40.230 --> 00:41:43.970
+table even with the help of UI interface. Right. So it's not
+
+00:41:43.970 --> 00:41:46.290
+like I have to go and I have to write a SQL query for that
+
+00:41:46.290 --> 00:41:48.810
+one. Maybe I can try to use a UI interface and then I will
+
+00:41:48.810 --> 00:41:52.390
+be doing the same thing. Right. Same thing. Is that same
+
+00:41:52.390 --> 00:41:56.630
+thing. So we have but just like you know these table or
+
+00:41:56.630 --> 00:41:59.590
+schema creation is not something that we do on a daily
+
+00:41:59.590 --> 00:42:02.450
+basis. It's once in a while kind of approach. So whenever we
+
+00:42:02.450 --> 00:42:04.370
+try to start the project. We try to start the project. We
+
+00:42:04.370 --> 00:42:06.530
+try to design the entire project at that point of time
+
+00:42:06.530 --> 00:42:09.290
+itself we try to create the entire schema design and the
+
+00:42:09.290 --> 00:42:12.710
+relationship between one or the other table. Right. So I'm
+
+00:42:12.710 --> 00:42:15.550
+not trying to teach you over here a SQL by the way. Right.
+
+00:42:15.630 --> 00:42:20.030
+I'm just trying to you know basically like teach you DB
+
+00:42:20.030 --> 00:42:23.570
+connection so that you will be able to use a DB databases
+
+00:42:23.570 --> 00:42:27.470
+inside your application. If you have to learn a SQL in
+
+00:42:27.470 --> 00:42:31.830
+detail or in depth if you are interested because yes SQL is
+
+00:42:31.830 --> 00:42:35.490
+important. I do agree. That. That AI will be able to or AI
+
+00:42:35.490 --> 00:42:38.970
+is nowadays. Right. So now AI is able to generate a hundred
+
+00:42:38.970 --> 00:42:42.470
+percent perfect and accurate table schema relationship
+
+00:42:42.470 --> 00:42:45.870
+everything. Right. So there is now no doubt about it that AI
+
+00:42:45.870 --> 00:42:48.450
+is not able to do it. It is able to do it 100 percent but.
+
+00:42:48.670 --> 00:42:51.730
+But so if you have to become a good techie so obviously you
+
+00:42:51.730 --> 00:42:55.050
+should understand the underlying concept. Right. You can't
+
+00:42:55.050 --> 00:42:58.550
+just rely on AI because now everyone is using AI. Those who
+
+00:42:58.550 --> 00:43:01.550
+understands what AI has produced they will be having a
+
+00:43:01.550 --> 00:43:04.050
+leverage they will be having an advantage. Right. In a
+
+00:43:04.050 --> 00:43:07.490
+market. So obviously those people will be able to hold up
+
+00:43:07.490 --> 00:43:11.950
+like a good opportunity even in future or even like this
+
+00:43:11.950 --> 00:43:16.570
+year 2026 I would say. So if you have to learn if you have
+
+00:43:16.570 --> 00:43:20.490
+to understand the detail of a SQL. So there is something
+
+00:43:20.490 --> 00:43:23.890
+called a SQL master. This is a self placed recording course
+
+00:43:23.890 --> 00:43:27.350
+I have created. So maybe you can go and you can try to check
+
+00:43:27.350 --> 00:43:31.250
+this out. It's almost like a 10-12 hour of like you know
+
+00:43:31.250 --> 00:43:34.890
+content that I have uploaded. Just for a sequel right just
+
+00:43:34.890 --> 00:43:39.950
+for the sequel and again so almost all edge cases and then
+
+00:43:39.950 --> 00:43:43.950
+in detail each and everything without using AI you will be
+
+00:43:43.950 --> 00:43:47.230
+able to find out over here. So that you know even if AI is
+
+00:43:47.230 --> 00:43:49.510
+going to produce something you will be able to understand
+
+00:43:49.510 --> 00:43:51.590
+you will be able to you know you will be having a full
+
+00:43:51.590 --> 00:43:55.110
+control full command over to that. So if you will be
+
+00:43:55.110 --> 00:43:57.990
+interested so maybe just go and search SQL SQL master and
+
+00:43:57.990 --> 00:44:01.590
+then you can just try to learn SQL. Now. Here my intention
+
+00:44:01.590 --> 00:44:04.670
+is very clear that I'm trying to teach you a connectivity
+
+00:44:04.670 --> 00:44:08.570
+right. So how your python will be able to interact with your
+
+00:44:08.570 --> 00:44:11.830
+databases your tables and how you will be able to perform
+
+00:44:11.830 --> 00:44:14.990
+all kind of operations. That's the whole idea. Find
+
+00:44:14.990 --> 00:44:16.630
+everyone. Yeah. Make sense.
+
+00:44:23.690 --> 00:44:27.170
+DB or schema name schema means basically a table DB means a
+
+00:44:27.170 --> 00:44:31.790
+database or table will be a part of a database. Yeah. Okay.
+
+00:44:32.010 --> 00:44:36.870
+Now move ahead. So here we have created a table. Like I said
+
+00:44:36.870 --> 00:44:38.950
+so you can try to create a table even with the help of like
+
+00:44:38.950 --> 00:44:42.250
+this UI editor even from a python you can do the same thing.
+
+00:44:42.370 --> 00:44:44.750
+So not a big deal. There are multiple way by which you will
+
+00:44:44.750 --> 00:44:49.070
+be able to do the exact same thing. Now what we can do so we
+
+00:44:49.070 --> 00:44:53.230
+can try to access maybe these things we can try to do some
+
+00:44:53.230 --> 00:44:56.070
+sort of operation with the help of program right with the
+
+00:44:56.070 --> 00:44:58.090
+help of program. That's the whole idea. That's the whole
+
+00:44:58.090 --> 00:45:02.650
+objective. So we have this URI with us. Right. So let me
+
+00:45:02.650 --> 00:45:05.750
+wrap it up inside a course as a string. Okay.
+
+00:45:10.240 --> 00:45:13.660
+So we have basically a Supabase URL and we have a Supabase
+
+00:45:13.660 --> 00:45:16.760
+key. Now here what I will do so I'll try to do some sort of
+
+00:45:16.760 --> 00:45:21.380
+a import. So here from Supabase import create client and
+
+00:45:21.380 --> 00:45:24.060
+client. So yes this is the import that you have to do so
+
+00:45:24.060 --> 00:45:26.080
+that you will be able to use a Supabase compatible
+
+00:45:26.080 --> 00:45:28.540
+libraries.
+
+00:45:29.900 --> 00:45:35.200
+Okay so import is done Supabase import create client. Now so
+
+00:45:35.200 --> 00:45:37.740
+here client create client means so basically connectivity.
+
+00:45:37.740 --> 00:45:41.220
+So first of all we all have to like you know establish our
+
+00:45:41.220 --> 00:45:46.400
+connectivity with DB with the table and inside that DB so
+
+00:45:46.400 --> 00:45:48.660
+obviously a table and then we will be able to perform
+
+00:45:48.660 --> 00:45:52.760
+whatsoever operation that we have. So here what we can do so
+
+00:45:52.760 --> 00:45:55.920
+we can try to basically use this function create client
+
+00:45:55.920 --> 00:46:02.160
+CREAT create client and then I don't do much I can just try
+
+00:46:02.160 --> 00:46:05.360
+to pass a Supabase URL and a Supabase key. So these two
+
+00:46:05.360 --> 00:46:08.480
+things and then it will be able to open up one of the
+
+00:46:08.480 --> 00:46:11.800
+connection. So if you are able to see this kind of a message
+
+00:46:11.800 --> 00:46:15.440
+it simply means that that it has opened up a connection very
+
+00:46:15.440 --> 00:46:18.940
+very simple it has opened up basically a connection maybe I
+
+00:46:18.940 --> 00:46:22.160
+can try to store it right so I can try to store it like as a
+
+00:46:22.160 --> 00:46:31.240
+Supabase connection over here. Now Supabase is
+
+00:46:35.460 --> 00:46:39.000
+a variable right inside the Supabase variable let's say I
+
+00:46:39.000 --> 00:46:43.860
+have done all these things. Now here so let's say I have to
+
+00:46:43.860 --> 00:46:47.620
+you know access my Supabase this particular like database
+
+00:46:47.620 --> 00:46:50.220
+that we have and inside that so whatsoever table is
+
+00:46:50.220 --> 00:46:55.760
+available inside that table. So whatsoever data is available
+
+00:46:55.760 --> 00:46:59.200
+so I have to access all of those things one by one one by
+
+00:46:59.200 --> 00:47:02.920
+one one by one. So fine we will be able to do it right. So
+
+00:47:02.920 --> 00:47:06.240
+whether we have to basically like you know create table or
+
+00:47:06.240 --> 00:47:10.420
+maybe a list table or maybe I can say that that insert a
+
+00:47:10.420 --> 00:47:11.100
+database. So I can say that I can insert a database into a
+
+00:47:11.100 --> 00:47:15.860
+table or update a record or maybe delete a record. So all of
+
+00:47:15.860 --> 00:47:18.740
+these operations I will be able to do it just with the help
+
+00:47:18.740 --> 00:47:24.500
+of Python. That's the whole idea. Yeah and this is what we
+
+00:47:24.500 --> 00:47:26.880
+will try to achieve because when we will be like you know
+
+00:47:26.880 --> 00:47:30.000
+creating an application and inside application when we will
+
+00:47:30.000 --> 00:47:32.760
+be consuming this one so obviously I will be doing all these
+
+00:47:32.760 --> 00:47:36.060
+things with respect to a Python script right with respect to
+
+00:47:36.060 --> 00:47:39.780
+a Python script. So that is that is something that we are
+
+00:47:39.780 --> 00:47:46.260
+going to like a do. Yeah. So let's say let's let's like do
+
+00:47:46.260 --> 00:47:54.720
+it yeah. So here I can try to call Supabase table and then
+
+00:47:54.720 --> 00:48:02.440
+Supabase table Euron right. Select a star execute. So let's
+
+00:48:02.440 --> 00:48:07.120
+say if I am executing this here so yes it is able to give me
+
+00:48:07.120 --> 00:48:10.540
+a good response. But as of now data wise there is no data.
+
+00:48:10.620 --> 00:48:13.240
+Which is available inside my table. So obviously it is not
+
+00:48:13.240 --> 00:48:17.560
+giving me any kind of a data as simple as that. So here
+
+00:48:17.560 --> 00:48:20.600
+Supabase Supabase is nothing but this variable a connection
+
+00:48:20.600 --> 00:48:23.940
+right. So connection we have established Supabase itself
+
+00:48:23.940 --> 00:48:28.220
+provides you this table function right. So table I have
+
+00:48:28.220 --> 00:48:31.180
+given my table name. So my table name is basically Euron and
+
+00:48:31.180 --> 00:48:33.660
+then select a star. So basically select everything
+
+00:48:33.660 --> 00:48:36.620
+whatsoever is available inside the table and then I am
+
+00:48:36.620 --> 00:48:39.220
+trying to call execute. Execute means execute this entire
+
+00:48:39.220 --> 00:48:42.600
+query. Where so execute this entire query inside this
+
+00:48:42.600 --> 00:48:46.780
+Supabase right inside the Supabase. Okay fine. So there is
+
+00:48:46.780 --> 00:48:49.220
+no data as of now so I am not able to see any kind of a data
+
+00:48:49.220 --> 00:48:52.460
+as of now. What I can do I can maybe try to insert some of
+
+00:48:52.460 --> 00:48:54.960
+the records yeah. I can try to insert some of the records
+
+00:48:54.960 --> 00:48:58.100
+and then maybe I can check. So whether I am able to fetch
+
+00:48:58.100 --> 00:49:04.080
+all of those records or not. So done guys everyone. Are you
+
+00:49:04.080 --> 00:49:05.980
+are you able to connect and are you able to execute the very
+
+00:49:05.980 --> 00:49:08.260
+first query with Python.
+
+00:49:19.080 --> 00:49:23.540
+Yes okay so it's not a big deal very very easy right. That
+
+00:49:23.540 --> 00:49:26.780
+too with Python so it's not at all a big deal. Okay let's go
+
+00:49:26.780 --> 00:49:29.300
+ahead and let's try to do some sort of a insertion operation
+
+00:49:29.300 --> 00:49:36.740
+Supabase dot I can try to call basically table. So which
+
+00:49:36.740 --> 00:49:40.280
+table. So basically my Euron table let's say and what
+
+00:49:40.280 --> 00:49:43.260
+operation I would like to do. So I would like to do some
+
+00:49:43.260 --> 00:49:45.680
+sort of a insertion operation I would like to insert some
+
+00:49:45.680 --> 00:49:52.100
+sort of a data. Okay so as per my table I had columns called
+
+00:49:52.100 --> 00:49:55.420
+as student ID student name and phone number. These are the
+
+00:49:55.420 --> 00:49:57.560
+three columns that I have student ID student name phone
+
+00:49:57.560 --> 00:50:01.420
+number. Okay so I'll try to follow the same nomenclature and
+
+00:50:01.420 --> 00:50:06.920
+with that I will try to insert some of the record student
+
+00:50:06.920 --> 00:50:10.820
+underscore ID. So let's say I'm saying a student ID is
+
+00:50:10.820 --> 00:50:16.060
+equals to some number it's an integer that I have defined so
+
+00:50:16.060 --> 00:50:17.640
+some number student
+
+00:50:20.640 --> 00:50:24.920
+name. So let's say I'm saying a student name is basically
+
+00:50:24.920 --> 00:50:27.900
+SUDH and then the
+
+00:50:29.890 --> 00:50:31.450
+third one is basically phone number.
+
+00:50:45.100 --> 00:50:48.440
+So fine let's try to store some sort of a phone number over
+
+00:50:48.440 --> 00:50:52.640
+here this which was also integer okay. So here insert and
+
+00:50:52.640 --> 00:50:56.100
+then as per the nomenclature as per the table schema that we
+
+00:50:56.100 --> 00:50:58.680
+have defined so based on that so we are trying to store the
+
+00:50:58.680 --> 00:51:01.460
+information we are trying to store the data. Now click on
+
+00:51:01.460 --> 00:51:05.140
+execute. If everything. Everything goes well so in that case
+
+00:51:05.140 --> 00:51:08.320
+I will be able to store this particular data. So let me
+
+00:51:08.320 --> 00:51:11.640
+bring you this query right. So this insert query is
+
+00:51:11.640 --> 00:51:14.380
+available guys inside your chat box. We can use that same
+
+00:51:14.380 --> 00:51:17.320
+thing so it's very easy not a difficult one right. So here
+
+00:51:17.320 --> 00:51:19.280
+as a dictionary and dictionary I think we have already
+
+00:51:19.280 --> 00:51:21.820
+studied so as a key value key value pair so we are trying to
+
+00:51:21.820 --> 00:51:25.600
+basically give the data. Now if I'll come over here right if
+
+00:51:25.600 --> 00:51:28.780
+I'll come over here and if I'm going to refresh it I will be
+
+00:51:28.780 --> 00:51:31.880
+able to see the record yeah. So this record. This record.
+
+00:51:31.880 --> 00:51:34.380
+This record and this record is now available very very
+
+00:51:34.380 --> 00:51:36.600
+simple so I have inserted and now I am able to see the
+
+00:51:36.600 --> 00:51:43.720
+reflection of those records okay now. So now if I'll try to
+
+00:51:43.720 --> 00:51:47.440
+execute the same one right select a star and this I will be
+
+00:51:47.440 --> 00:51:51.760
+able to see the data yeah I will be able to see the data. I
+
+00:51:51.760 --> 00:51:54.320
+can execute it second times I can execute it third times I
+
+00:51:54.320 --> 00:51:57.180
+can execute it four times I can execute it fifth times so I
+
+00:51:57.180 --> 00:52:00.440
+can execute as many number of times as possible and then
+
+00:52:00.940 --> 00:52:03.820
+that. That many number of times it is going to basically
+
+00:52:03.820 --> 00:52:06.700
+insert a record I have not defined any kind of a constraint
+
+00:52:06.700 --> 00:52:11.540
+over here. So yes it will be able to basically store all
+
+00:52:11.540 --> 00:52:13.460
+those information that many number of times.
+
+00:52:16.450 --> 00:52:19.470
+Yes as you can see it has already stored all this
+
+00:52:19.470 --> 00:52:22.530
+information these many number of times I have not defined
+
+00:52:22.530 --> 00:52:25.370
+any kind of a unique constraint generally we do it right so
+
+00:52:25.370 --> 00:52:28.210
+whenever we try to create a primary column in that situation
+
+00:52:28.210 --> 00:52:30.650
+but yes we are not doing that we are not talking about that
+
+00:52:30.650 --> 00:52:34.210
+so far. So. So here again if I'll try to like call execute
+
+00:52:34.210 --> 00:52:37.030
+so yes whatsoever data is available so now it is giving me
+
+00:52:37.030 --> 00:52:41.270
+all the data. So here insertion operation yes I am able to
+
+00:52:41.270 --> 00:52:45.290
+do it select operation yes I am able to do it I am able to
+
+00:52:45.290 --> 00:52:50.130
+see basically like all the data which is available to me. So
+
+00:52:50.130 --> 00:52:54.070
+similarly I will be able to do update operation I will be
+
+00:52:54.070 --> 00:52:57.110
+able to do a delete operation so I will be able to do
+
+00:52:57.110 --> 00:53:01.570
+anything and everything that I want. Now let's come over
+
+00:53:01.570 --> 00:53:07.190
+here and let's try to basically see its doc Supabase docs
+
+00:53:07.190 --> 00:53:12.190
+right. So here Supabase docs wise so
+
+00:53:14.850 --> 00:53:19.270
+Supabase docs wise they have already given you a command so
+
+00:53:19.270 --> 00:53:21.870
+whenever you have to fetch the data what you are supposed to
+
+00:53:21.870 --> 00:53:25.710
+do command is already given right. So Supabase table this
+
+00:53:25.710 --> 00:53:28.230
+select star I think this is the query that we have executed
+
+00:53:28.230 --> 00:53:30.770
+nothing different right. Right. So whenever you have to
+
+00:53:30.770 --> 00:53:33.630
+insert the data command is given to you I believe we have
+
+00:53:33.630 --> 00:53:36.390
+already used it. So whenever we have to update the data
+
+00:53:36.390 --> 00:53:39.390
+command is already given Supabase table and then update
+
+00:53:39.390 --> 00:53:44.550
+update what this one. So like equal to id is equal to one
+
+00:53:44.550 --> 00:53:49.750
+execute right absurd the data so yes command is given to you
+
+00:53:49.750 --> 00:53:53.390
+delete our data command is given to you if you are creating
+
+00:53:53.390 --> 00:53:56.330
+a function so how you can call your own function basically
+
+00:53:56.330 --> 00:53:59.850
+user defined function it's given to you if you have to. If
+
+00:53:59.850 --> 00:54:01.510
+you have to basically do some sort of a filter operation
+
+00:54:01.510 --> 00:54:04.570
+like based on the columns based on the row or maybe based on
+
+00:54:04.570 --> 00:54:08.690
+any kind of a matching cases so all of these commands are
+
+00:54:08.690 --> 00:54:13.350
+already given to you that how it works inside a Supabase
+
+00:54:13.350 --> 00:54:20.450
+yeah. So this is how you all will be able to use a Supabase
+
+00:54:20.450 --> 00:54:25.650
+again I strongly advise each and every one of you that do
+
+00:54:25.650 --> 00:54:28.730
+not try to remember even a single command you should just
+
+00:54:28.730 --> 00:54:32.130
+know that. That yes I can store the data I can update the
+
+00:54:32.130 --> 00:54:35.730
+data I can delete a data I can do some sort of a filtration
+
+00:54:35.730 --> 00:54:38.470
+operation I can do some sort of a matching operation that is
+
+00:54:38.470 --> 00:54:42.690
+the only thing which is required apart from that do not try
+
+00:54:42.690 --> 00:54:46.290
+to remember any command if you have to practice something go
+
+00:54:46.290 --> 00:54:49.430
+and practice sequel that is important right because the
+
+00:54:49.430 --> 00:54:54.070
+entire world data sits on some of these db and were majority
+
+00:54:54.070 --> 00:54:57.150
+of databases you will be able to find out even now as a
+
+00:54:57.150 --> 00:55:01.310
+sequel db. The entire. data sits on top of that so go and
+
+00:55:01.310 --> 00:55:04.170
+learn sql because even in interview people are going to ask
+
+00:55:04.170 --> 00:55:08.130
+you a sql query but not a super base not maybe a neon or no
+
+00:55:08.130 --> 00:55:11.390
+not anything anything any such kind of things yeah no one
+
+00:55:11.390 --> 00:55:14.790
+will be asking you those questions by the way uh so sql is
+
+00:55:14.790 --> 00:55:17.430
+important and again if you understand sql uh you will
+
+00:55:17.430 --> 00:55:20.850
+understand everything by the way so it's just a you know
+
+00:55:20.850 --> 00:55:24.410
+utility function that people have created under the hood so
+
+00:55:24.410 --> 00:55:27.970
+basically it is trying to execute a sql because super base
+
+00:55:27.970 --> 00:55:31.930
+is basically a postgres db as you will be able to see it
+
+00:55:31.930 --> 00:55:35.390
+here right so it's a postgres at the end of the day so
+
+00:55:35.390 --> 00:55:39.570
+basically it follows the sql query it understands only a sql
+
+00:55:39.570 --> 00:55:43.770
+query as simple as that making sense guys so are we are we
+
+00:55:43.770 --> 00:55:46.170
+able to do some sort of insertion operation are we able to
+
+00:55:46.170 --> 00:55:51.180
+see some sort of a data where can we get the url and a key
+
+00:55:51.180 --> 00:55:53.640
+so simple i showed i have shown you right click on connect
+
+00:55:53.640 --> 00:55:57.300
+so framework
+
+00:56:00.540 --> 00:56:03.640
+python and here is a key okay
+
+00:56:07.960 --> 00:56:11.600
+so now super base is fine we are able to establish and we
+
+00:56:11.600 --> 00:56:16.080
+are able to like connect now let's talk about a neon db yeah
+
+00:56:16.080 --> 00:56:20.360
+so in case of neon db again it's very very simple so click
+
+00:56:20.360 --> 00:56:23.340
+on new project right so give a project name so maybe i'm
+
+00:56:23.340 --> 00:56:28.200
+giving test sudh you're on yeah again this gives you a
+
+00:56:28.200 --> 00:56:31.800
+postgres same as super base so nothing different by the way
+
+00:56:32.900 --> 00:56:36.520
+maybe click on this create and yeah it is going to take some
+
+00:56:36.520 --> 00:56:40.380
+sort of a time and then it is going to create it same drill
+
+00:56:40.380 --> 00:56:44.220
+here you will be able to find out again a connect button so
+
+00:56:44.220 --> 00:56:47.480
+click on this connect and then this is basically your
+
+00:56:47.480 --> 00:56:52.640
+connection string very very simple once again yeah very very
+
+00:56:52.640 --> 00:56:55.500
+simple so with the help of this connection string you will
+
+00:56:55.500 --> 00:56:59.320
+be able to connect and you will be able to technically like
+
+00:56:59.320 --> 00:57:02.500
+you know do every kind of operation with respect to neon db
+
+00:57:02.900 --> 00:57:05.840
+so all of these vendors right so all of these providers have
+
+00:57:05.840 --> 00:57:09.340
+you know created things in a almost similar manner right so
+
+00:57:09.340 --> 00:57:12.600
+this is my string and i can try to just use this string and
+
+00:57:12.600 --> 00:57:15.080
+i will be able to connect it yeah
+
+00:57:23.820 --> 00:57:24.760
+so
+
+00:57:30.260 --> 00:57:36.100
+now what we can do so let's say if i am using a neon db
+
+00:57:36.100 --> 00:57:40.460
+right this neon db if i am going to use it yeah so again
+
+00:57:40.460 --> 00:57:43.560
+simple i can come over here click on connect and then i will
+
+00:57:43.560 --> 00:57:46.780
+be able to basically connect and then here also you will be
+
+00:57:46.780 --> 00:57:50.700
+able to find out sql editor where you can come and you can
+
+00:57:50.700 --> 00:57:53.440
+write your sql query the way we have done that in super base
+
+00:57:53.440 --> 00:57:57.300
+right and again so table so where you can come and you can
+
+00:57:57.300 --> 00:58:01.320
+try to browse all your table in a particular project so as
+
+00:58:01.320 --> 00:58:03.800
+of now there is no table that we have created so yes there
+
+00:58:03.800 --> 00:58:06.880
+is nothing which you will be able to find out so far once we
+
+00:58:06.880 --> 00:58:09.320
+are going to create a table then obviously it will be
+
+00:58:09.320 --> 00:58:13.600
+available as simple as that right so okay now let's go ahead
+
+00:58:13.600 --> 00:58:19.940
+so here to use neon db right neon db so you have to do this
+
+00:58:19.940 --> 00:58:22.840
+installation so i am pinging you guys i have already pinged
+
+00:58:22.840 --> 00:58:26.680
+you just do the installation so here what you have to do so
+
+00:58:26.680 --> 00:58:29.900
+you have to go and you have to do this installation this
+
+00:58:31.380 --> 00:58:36.260
+bind installation is required and once you will be able to
+
+00:58:36.260 --> 00:58:39.260
+install this you have to basically do an import import of
+
+00:58:39.260 --> 00:58:42.760
+the same thing yeah so this import and check if this is
+
+00:58:42.760 --> 00:58:47.320
+working then obviously you will be able to use a string this
+
+00:58:47.320 --> 00:58:51.380
+string a neon db string you all will be able to use it and
+
+00:58:51.380 --> 00:58:56.140
+you can try to store the data inside a databases so okay
+
+00:58:56.140 --> 00:59:05.080
+let's go ahead and let's try to do it so psy dot connect and
+
+00:59:05.080 --> 00:59:08.660
+then inside that so i can try to provide my string
+
+00:59:15.730 --> 00:59:21.710
+simple the string that you have copied the string that you
+
+00:59:21.710 --> 00:59:27.210
+have copied from where from connect yeah so this one this is
+
+00:59:27.210 --> 00:59:29.390
+stringed this is required you can try to click on copy
+
+00:59:29.390 --> 00:59:33.010
+snippet and then you will be able to see it so this
+
+00:59:33.010 --> 00:59:36.410
+connection string is required and once you will try to put
+
+00:59:36.410 --> 00:59:39.450
+this connection string inside this one so it will be able to
+
+00:59:39.450 --> 00:59:42.770
+establish the communication so let me store that as a
+
+00:59:42.770 --> 00:59:47.710
+connection c o double n inside a variable execute now
+
+00:59:47.710 --> 00:59:50.430
+everything is working it simply means that that i am able to
+
+00:59:50.430 --> 00:59:52.990
+establish the communication otherwise it would have given
+
+00:59:52.990 --> 00:59:58.030
+you the error so maybe i can gosh because it looks like it
+
+00:59:58.030 --> 01:00:01.790
+is able to authenticate and it is able to basically reach
+
+01:00:01.790 --> 01:00:06.490
+out to my db so now once i am able to reach out to the db i
+
+01:00:06.490 --> 01:00:09.930
+can do whatsoever i want with respect to that particular db
+
+01:00:09.930 --> 01:00:14.010
+so this string is technically helping me out to reach out to
+
+01:00:14.010 --> 01:00:19.130
+the particular db now inside a neon db so basically it asks
+
+01:00:19.130 --> 01:00:22.910
+you to create a small variable called as cursorvariables.
+
+01:00:27.450 --> 01:00:32.010
+pointer basically. So this is mandatory after like you know
+
+01:00:32.010 --> 01:00:34.810
+writing this connection string. So just write it and then
+
+01:00:34.810 --> 01:00:37.210
+try to use it. So this is basically a pointer. It will end
+
+01:00:37.210 --> 01:00:41.110
+up creating and once that pointer will be created. So you
+
+01:00:41.110 --> 01:00:47.030
+can try to use cursor.execute, cursor.execute and not a
+
+01:00:47.030 --> 01:00:53.750
+select one. Let's say I would like to create a table from
+
+01:00:53.750 --> 01:01:00.750
+here itself. So maybe I can try to write create table, yeah.
+
+01:01:01.490 --> 01:01:03.990
+So create table, create
+
+01:01:12.630 --> 01:01:15.110
+table if not exist you are on and then student id integer,
+
+01:01:15.370 --> 01:01:19.130
+student name worker, phone number is equal to big end. So I
+
+01:01:19.130 --> 01:01:22.390
+can go and I can try to create a table. So now if I am going
+
+01:01:22.390 --> 01:01:25.870
+to execute this one and then after that so basically you
+
+01:01:25.870 --> 01:01:32.930
+have to also call connection, the connection that you have
+
+01:01:32.930 --> 01:01:36.290
+opened up .commit. So this connection that we have opened up
+
+01:01:36.290 --> 01:01:39.530
+here, the first connection. So I have to even call the
+
+01:01:39.530 --> 01:01:42.990
+commit option so that you know I will be able to use or
+
+01:01:42.990 --> 01:01:45.410
+close the connection. Means whatsoever has happened
+
+01:01:45.410 --> 01:01:48.290
+basically inside that connection. So basically I am trying
+
+01:01:48.290 --> 01:01:52.330
+to you know close, I am trying to basically check in all
+
+01:01:52.330 --> 01:01:55.750
+those like things that I have done. So now here if I will go
+
+01:01:55.750 --> 01:01:57.250
+and if I will try to check my tables.
+
+01:02:00.300 --> 01:02:03.480
+So yes I have a your own table with the student id, student
+
+01:02:03.480 --> 01:02:06.420
+name and phone number. Right. So I have a table inside my
+
+01:02:06.420 --> 01:02:09.500
+neon db. So table I am able to create. Now let's say if I
+
+01:02:09.500 --> 01:02:13.040
+have to insert the record, yeah. So I can try to go and I
+
+01:02:13.040 --> 01:02:17.820
+can try to basically insert a record as well. So maybe one
+
+01:02:17.820 --> 01:02:20.400
+record at a time I can try to insert or maybe multiple
+
+01:02:20.400 --> 01:02:23.900
+records I can try to insert it. So let's go and let's try to
+
+01:02:23.900 --> 01:02:26.620
+insert the record. Table creation is done. I have already
+
+01:02:26.620 --> 01:02:30.200
+pinged you the query so you can try to use that one. So here
+
+01:02:30.200 --> 01:02:33.760
+I am writing a plain SQL query. Direct SQL query I am trying
+
+01:02:33.760 --> 01:02:39.440
+to write over here. Now so here I can try to call, let me
+
+01:02:39.440 --> 01:02:43.620
+create a data first, yeah. So let's say this is the data.
+
+01:02:44.620 --> 01:02:48.240
+Inside a list we have two tuples. So one set and the another
+
+01:02:48.240 --> 01:02:51.220
+set, right. So this is two set of the data which I have to
+
+01:02:51.220 --> 01:02:55.080
+insert, insert inside my you know database, yeah. This is
+
+01:02:55.080 --> 01:02:58.220
+something that I have to do it. So okay what I can do, so I
+
+01:02:58.220 --> 01:03:01.640
+can call cursor dot execute and there is something called as
+
+01:03:01.640 --> 01:03:05.280
+execute many. Okay. So whenever I have to execute. Insert
+
+01:03:05.280 --> 01:03:08.080
+multiple records, I can call execute many otherwise I can
+
+01:03:08.080 --> 01:03:12.340
+just call execute and here insert into your own student ID,
+
+01:03:12.480 --> 01:03:14.980
+student name, phone number, values, this this this from the
+
+01:03:14.980 --> 01:03:18.360
+data. So from this data, this data try to insert all of this
+
+01:03:18.360 --> 01:03:22.100
+record. Now if I am going to execute it, data will be
+
+01:03:22.100 --> 01:03:24.520
+inserted. If I will go and check, so
+
+01:03:28.330 --> 01:03:31.130
+yeah. Now if I will come over here and just try to click on
+
+01:03:31.130 --> 01:03:31.410
+refresh,
+
+01:03:41.500 --> 01:03:45.380
+okay, no row, fine. I think I have to do a commit,
+
+01:03:48.010 --> 01:03:52.150
+connection, commit, yeah. So now it will reflect my data.
+
+01:03:56.000 --> 01:03:58.940
+So as you can see, I have just inserted the record and yes,
+
+01:03:59.020 --> 01:04:02.580
+the record is available inside my database, right. Very,
+
+01:04:02.640 --> 01:04:07.700
+very simple. So working wise, Supabase or maybe a Neon DB,
+
+01:04:07.960 --> 01:04:10.980
+it's not different. So you will be able to find out the
+
+01:04:10.980 --> 01:04:16.240
+similar kind of approach in terms of storing the data in
+
+01:04:16.240 --> 01:04:22.000
+terms of using it. Making sense guys. Yeah. Like I said. So
+
+01:04:22.000 --> 01:04:24.640
+my intention is not to teach you SQL for now. My intention
+
+01:04:24.640 --> 01:04:27.780
+is to teach you basically a Python connectivity, right. That
+
+01:04:27.780 --> 01:04:30.520
+how we are using basically a Python and with the help of
+
+01:04:30.520 --> 01:04:34.340
+Python, we will be able to like, you know, establish a
+
+01:04:34.340 --> 01:04:41.680
+communication. Yeah. Okay. So if this is done, right. So
+
+01:04:41.680 --> 01:04:46.000
+these are the two SQL based database, but these are not the
+
+01:04:46.000 --> 01:04:48.600
+only one in a market. In a market, you will be able to find
+
+01:04:48.600 --> 01:04:53.440
+out, like I said, hundreds of other database as well, uh, in
+
+01:04:53.440 --> 01:04:57.020
+just this category, SQL category I'm talking about, right.
+
+01:04:57.420 --> 01:05:01.060
+Now let's go ahead and let's try to go to Google and try to
+
+01:05:01.060 --> 01:05:09.120
+search for basically Mongo DB, Mongo DB. So Mongo DB, like I
+
+01:05:09.120 --> 01:05:12.900
+have already mentioned that it's a no SQL based database,
+
+01:05:13.100 --> 01:05:18.480
+not only SQL based database. So where in a document format,
+
+01:05:18.780 --> 01:05:23.400
+we can try to store the data. For example, so here, when we
+
+01:05:23.400 --> 01:05:26.300
+are trying to store the data in case of new or in case of
+
+01:05:26.300 --> 01:05:29.360
+like a super base. So first of all, what are we trying to
+
+01:05:29.360 --> 01:05:32.020
+do? So we are trying to create the table, right? We are
+
+01:05:32.020 --> 01:05:34.460
+trying to get the table and then inside a table, we are
+
+01:05:34.460 --> 01:05:38.360
+trying to store the data, right? So let's say if I have a
+
+01:05:38.360 --> 01:05:44.600
+phone number and then if I have, let's say, a email ID, if I
+
+01:05:44.600 --> 01:05:48.380
+have to store it. So let's say if I'm writing here in my
+
+01:05:48.380 --> 01:05:56.780
+Python, uh, here. Okay. So I would like to store email ID,
+
+01:05:58.720 --> 01:06:05.020
+right? Email ID. Will I be able to store it guys? Yeah. So
+
+01:06:05.020 --> 01:06:07.800
+let's say I have an email ID inside my database data set.
+
+01:06:15.050 --> 01:06:16.370
+Will I be able to store it?
+
+01:06:20.160 --> 01:06:23.580
+Uh, some people are saying, okay, no, the column name is not
+
+01:06:23.580 --> 01:06:27.600
+defined. No as field, there is no table, uh, need to create
+
+01:06:27.600 --> 01:06:30.740
+a columns. We cannot. Yeah. So directly, obviously we can't
+
+01:06:30.740 --> 01:06:36.400
+store it. Yeah. Uh, that's true. Uh, basically if column is
+
+01:06:36.400 --> 01:06:39.180
+not available, so I have to technically go and, you know,
+
+01:06:39.200 --> 01:06:42.480
+try to create a columns there and then only I will be able
+
+01:06:42.480 --> 01:06:45.020
+to store it. So if I'm able to create a column, see if
+
+01:06:45.020 --> 01:06:47.580
+column is available, data type is defined. So obviously I
+
+01:06:47.580 --> 01:06:50.420
+will be able to store it. Otherwise, simple answer is no, I
+
+01:06:50.420 --> 01:06:54.740
+won't be able to do that. Okay. Now again, there will be a
+
+01:06:54.740 --> 01:06:57.820
+lot of other constraints as well in terms of storing some
+
+01:06:57.820 --> 01:07:01.240
+sort of unstructured or semi-structured data. Okay. And this
+
+01:07:01.240 --> 01:07:04.220
+is where this kind of a DB is not sufficient enough means
+
+01:07:04.220 --> 01:07:07.100
+SQL kind of a DB is not sufficient enough. And this is where
+
+01:07:07.100 --> 01:07:10.640
+this Mongo DB kind of a database, which is a not only SQL
+
+01:07:10.640 --> 01:07:15.020
+database comes into picture. So here again, come and just
+
+01:07:15.020 --> 01:07:21.000
+click on sign in and sending you this link. Yeah. Just do a
+
+01:07:21.000 --> 01:07:21.500
+Google sign in
+
+01:07:25.630 --> 01:07:29.410
+everyone. It just takes like a one minute of time. Not even
+
+01:07:29.410 --> 01:07:31.550
+one minute, 30 seconds done
+
+01:07:33.920 --> 01:07:34.240
+everywhere.
+
+01:07:51.180 --> 01:07:55.060
+Yes. So are you able to log in into a Mongo DB?
+
+01:08:13.500 --> 01:08:17.520
+Yeah. Okay. So again, it's very easy to use. Uh, let me
+
+01:08:17.520 --> 01:08:20.280
+like, uh, you know, give you a walkthrough of that. So
+
+01:08:20.280 --> 01:08:22.940
+whenever you are going to log in for the very first time, it
+
+01:08:22.940 --> 01:08:25.680
+is going to pop up some of the windows and then it is going
+
+01:08:25.680 --> 01:08:29.020
+to ask you some questions, uh, which it has not asked. Let
+
+01:08:29.020 --> 01:08:33.200
+me use some like, you know, first account so that I can show
+
+01:08:33.200 --> 01:08:35.480
+you each and every steps. Okay.
+
+01:08:50.800 --> 01:08:51.800
+Sign up with Google.
+
+01:08:59.520 --> 01:09:05.580
+Oh. Oh, it is like, I don't want to do that. So let me use
+
+01:09:05.580 --> 01:09:07.720
+some different
+
+01:09:10.950 --> 01:09:12.670
+tidy, not
+
+01:09:20.740 --> 01:09:24.420
+AWS MongoDB primary
+
+01:10:01.220 --> 01:10:04.080
+goal. Fine. Just select anything.
+
+01:10:15.970 --> 01:10:19.890
+Yeah. So now, uh, you will land into this kind of a page.
+
+01:10:20.010 --> 01:10:22.770
+You have to select basically a free one, right? So no need
+
+01:10:22.770 --> 01:10:25.910
+to select anything like a different because they are going
+
+01:10:25.910 --> 01:10:29.590
+to charge you for these two. So free. And then you can try
+
+01:10:29.590 --> 01:10:32.630
+to select your reason and yeah, so free reason will be
+
+01:10:32.630 --> 01:10:35.670
+listed down and then simple click on create deployment.
+
+01:10:35.990 --> 01:10:39.390
+Yeah. They provides you other cluster option as well. So,
+
+01:10:39.490 --> 01:10:42.510
+uh, for high compute, if you would like to use some other
+
+01:10:42.510 --> 01:10:45.910
+clusters, so yeah, you will be able to get that as well, but
+
+01:10:45.910 --> 01:10:49.530
+we are not going with that. So we are basically going to use
+
+01:10:49.530 --> 01:10:56.100
+a free one, uh, for now. So click on just create cluster. It
+
+01:10:56.100 --> 01:10:59.080
+will take maybe like a less than a minute of time. And
+
+01:11:02.250 --> 01:11:06.090
+then I'll show you some initial configuration, which is
+
+01:11:06.090 --> 01:11:07.530
+required to access MongoDB.
+
+01:12:09.760 --> 01:12:15.260
+Okay. So my cluster zero is by the way, created still, it is
+
+01:12:15.260 --> 01:12:19.940
+trying to refresh. Okay. So once this is done, right? Once
+
+01:12:19.940 --> 01:12:23.620
+this particular part is done, let me close this one. Let me
+
+01:12:23.620 --> 01:12:27.260
+close this one. Yeah. So then you have to basically like,
+
+01:12:27.300 --> 01:12:30.280
+you know, go into a connect and then you will be able to
+
+01:12:30.280 --> 01:12:32.920
+connect with your own application. Your own Python
+
+01:12:32.920 --> 01:12:36.100
+application. You will be able to connect it. Okay. So let's
+
+01:12:36.100 --> 01:12:39.380
+go ahead. Let's do it. So click on this connect and then
+
+01:12:39.380 --> 01:12:42.900
+here. So it is giving you a couple of options. And again, so
+
+01:12:42.900 --> 01:12:46.240
+these options, obviously you have to set for the very first
+
+01:12:46.240 --> 01:12:48.840
+time when you are using, uh, or whenever you will start
+
+01:12:48.840 --> 01:12:52.880
+using a MongoDB. So here it is asking you add a connection
+
+01:12:52.880 --> 01:12:55.840
+IP address. It is giving you two options, add your current
+
+01:12:55.840 --> 01:13:00.360
+IP address, add a different IP address. Uh, I don't want to
+
+01:13:00.360 --> 01:13:04.240
+like, I don't want to add like a current IP address. By the
+
+01:13:04.240 --> 01:13:07.560
+way. So I'll just try to create a DB user and its respective
+
+01:13:07.560 --> 01:13:10.720
+password. So let's go ahead and let's try to do it. DB user
+
+01:13:10.720 --> 01:13:16.080
+is a SUDH and a password. Let's say I have given test one,
+
+01:13:16.140 --> 01:13:19.800
+two, three, four, five, six, something like this. Test two,
+
+01:13:19.960 --> 01:13:26.580
+three, four, five, six, create DB user. Yeah. Now close it.
+
+01:13:26.900 --> 01:13:27.380
+Unit
+
+01:13:30.740 --> 01:13:35.720
+configuration is not required. Connect is required. Okay.
+
+01:13:36.340 --> 01:13:39.180
+Now. So again, from a connect itself, choose a connection
+
+01:13:39.180 --> 01:13:43.840
+method. Let me store my password somewhere here.
+
+01:13:44.700 --> 01:13:50.440
+And my user name was SUDH choose a connection method, add
+
+01:13:54.890 --> 01:14:01.210
+IP address done, choose a connection method now here. So you
+
+01:14:01.210 --> 01:14:03.670
+will be able to find out again, multiple option. You have to
+
+01:14:03.670 --> 01:14:08.910
+choose basically a first option driver option now here. So
+
+01:14:08.910 --> 01:14:11.330
+once you will select a driver option. You will be able to
+
+01:14:11.330 --> 01:14:14.570
+see again, multiple option. So driver wise, just select a
+
+01:14:14.570 --> 01:14:17.110
+Python. Yeah. As we are using Python programming language,
+
+01:14:17.230 --> 01:14:21.350
+select a Python now Python wise. So you can try to select
+
+01:14:21.350 --> 01:14:26.870
+basically 3.11 or a later, or maybe 2.12 or later something
+
+01:14:26.870 --> 01:14:30.890
+like that. You can try to select it now here. So once you
+
+01:14:30.890 --> 01:14:34.290
+will do it, you will be able to see this installation
+
+01:14:34.290 --> 01:14:37.410
+option. It is going to give you a pip option. It is going to
+
+01:14:37.410 --> 01:14:40.150
+give you a pip install. PyMongoSRV. It is going to be this
+
+01:14:40.150 --> 01:14:44.130
+one. You have to basically install. Okay. So let's go ahead
+
+01:14:44.130 --> 01:14:46.690
+and let's try to install this one. The way we have done this
+
+01:14:46.690 --> 01:14:50.210
+installation for a Supabase as well as for a Neon. This is
+
+01:14:50.210 --> 01:14:54.790
+the step number one. So I'm pinging you this command. So pip
+
+01:14:54.790 --> 01:14:58.590
+install PyMongoSRV. This is going to install the driver.
+
+01:15:06.230 --> 01:15:12.630
+Okay. Done. Done everyone. So after this only one step.
+
+01:15:13.650 --> 01:15:17.010
+Install the driver. And then here. Here you will be able to
+
+01:15:17.010 --> 01:15:19.270
+see a connection string. If you are going to like, you know,
+
+01:15:19.310 --> 01:15:23.390
+uncheck this one, it is going to give you some like this,
+
+01:15:23.450 --> 01:15:27.170
+this kind of a string. Yeah. So just try to do one thing,
+
+01:15:27.230 --> 01:15:31.730
+copy simple, copy this particular string and then keep it
+
+01:15:31.730 --> 01:15:34.870
+inside your notebook because this string will be responsible
+
+01:15:34.870 --> 01:15:39.030
+for connecting with your cluster. Right. Basically with your
+
+01:15:39.030 --> 01:15:44.330
+MongoDB. So here it has given you a DB password inside a
+
+01:15:44.330 --> 01:15:46.330
+triangle. So remove it. Remove it, including a triangle
+
+01:15:46.330 --> 01:15:50.390
+symbol like this, and then give your password test one, two,
+
+01:15:50.450 --> 01:15:53.510
+three, four, five, six, sorry, two, three, four, two, three,
+
+01:15:53.510 --> 01:15:58.270
+four, five, six, test two, three, four, five, six. So now
+
+01:15:58.270 --> 01:16:02.990
+this is my connection string. I can try to use this
+
+01:16:02.990 --> 01:16:06.730
+particular connection string so that I will be able to
+
+01:16:06.730 --> 01:16:10.310
+connect with my cluster. Very, very simple. So everywhere a
+
+01:16:10.310 --> 01:16:13.590
+story is same. Like I said, even with respect to Neon, story
+
+01:16:13.590 --> 01:16:15.690
+was same. Even with respect to Supabase. Superb. The story
+
+01:16:15.690 --> 01:16:19.530
+was same. Even here, story is same. So it's not pretty much
+
+01:16:19.530 --> 01:16:23.690
+like a, it's not difficult, I would say. Now here, let's do
+
+01:16:23.690 --> 01:16:25.810
+one thing. So first of all, as we have already installed
+
+01:16:25.810 --> 01:16:30.910
+this PyMongo. So first of all, try to import PyMongo. So
+
+01:16:30.910 --> 01:16:36.790
+from PyMongo, import MongoClient, yeah, import MongoClient.
+
+01:16:37.050 --> 01:16:40.150
+So this is working. And if this is working, means everything
+
+01:16:40.150 --> 01:16:43.750
+will work with respect to the MongoDB. This is basically my
+
+01:16:43.750 --> 01:16:47.090
+connection string. Yeah. So let me store it inside a
+
+01:16:47.090 --> 01:16:51.690
+quotation string basically. And maybe I can try to give a
+
+01:16:51.690 --> 01:16:57.610
+name to this variable, mongo URI. This is the variable name,
+
+01:16:57.670 --> 01:16:58.330
+let's say I have given,
+
+01:17:02.050 --> 01:17:06.350
+okay, mongo URI. Now here, what are you going to do? You can
+
+01:17:06.350 --> 01:17:12.170
+try to basically like create a connection, basically, CO
+
+01:17:12.170 --> 01:17:15.750
+double N, connection is equal to what? So MongoClient, this
+
+01:17:15.750 --> 01:17:18.750
+one. And inside that, try to pass a MongoClient. If
+
+01:17:18.750 --> 01:17:22.710
+everything going to work, so in that case, it will be able
+
+01:17:22.710 --> 01:17:25.750
+to connect. If there will be some sort of an error or issue,
+
+01:17:25.890 --> 01:17:29.630
+so it is going to show you that error. So fine, it looks
+
+01:17:29.630 --> 01:17:33.910
+like that it is able to connect. It is able to basically
+
+01:17:33.910 --> 01:17:37.770
+connect and yeah, so connection string, I am able to get it
+
+01:17:37.770 --> 01:17:41.930
+some sort of a return. Now once this is done, it simply
+
+01:17:41.930 --> 01:17:45.610
+means that now you are able to reach out to the MongoDB. So
+
+01:17:45.610 --> 01:17:48.950
+you are able to reach out to this particular place. If you
+
+01:17:48.950 --> 01:17:51.050
+are able to reach out to this particular place, then what?
+
+01:17:51.990 --> 01:17:56.030
+So then I can do whatsoever I want, very, very simple. So if
+
+01:17:56.030 --> 01:17:58.510
+I am able to reach out to that place, to my MongoDB cluster,
+
+01:17:58.770 --> 01:18:02.610
+then what I can do, I can try to basically, you know, use
+
+01:18:02.610 --> 01:18:06.790
+this connection to create a database, yeah. And inside
+
+01:18:06.790 --> 01:18:10.070
+database, I can try to create a collections. So here,
+
+01:18:10.210 --> 01:18:15.530
+connection and I can try to basically like if I have to
+
+01:18:15.530 --> 01:18:18.690
+create a database, so simple, let's say I am going to create
+
+01:18:18.690 --> 01:18:22.130
+your own database, yeah. So this is the database which I
+
+01:18:22.130 --> 01:18:25.350
+would like to create and let's say I am going to save it as
+
+01:18:25.350 --> 01:18:30.630
+a DB. So find DB. Now inside that, if I have to do some sort
+
+01:18:30.630 --> 01:18:34.770
+of a insert operation, means technically a document if I
+
+01:18:34.770 --> 01:18:39.130
+have to insert. So what I can do, I can try to call DB dot
+
+01:18:39.130 --> 01:18:43.750
+and there is a Euron database, let's say and inside Euron.
+
+01:18:43.890 --> 01:18:46.190
+So basically I have a, I have to create a collection for
+
+01:18:46.190 --> 01:18:49.670
+students, right. Because inside Euron, I will be having
+
+01:18:49.670 --> 01:18:52.870
+multiple tables. So think in that manner, right. So here we
+
+01:18:52.870 --> 01:18:58.450
+call it as a collections. Students insert one, yeah.
+
+01:19:02.030 --> 01:19:05.710
+So this is the data that we have created. So insert one
+
+01:19:05.710 --> 01:19:09.310
+means only one record. And now here, so student ID value,
+
+01:19:09.470 --> 01:19:12.130
+student name value, phone number value. So basically in a
+
+01:19:12.130 --> 01:19:14.410
+key value pair, you will be able to find out this particular
+
+01:19:14.410 --> 01:19:18.030
+values over here. Now what you have to do? So you have to
+
+01:19:18.030 --> 01:19:21.550
+basically execute this. Yeah, execute this. So technically
+
+01:19:21.550 --> 01:19:25.090
+what we have done, so here you will be able to see that,
+
+01:19:25.150 --> 01:19:33.390
+that there is a Euron DB. Now inside that DB, I am trying to
+
+01:19:33.390 --> 01:19:37.550
+store a document inside a particular table or you can say
+
+01:19:37.550 --> 01:19:40.810
+like you know collections basically. So my collection name
+
+01:19:40.810 --> 01:19:46.610
+is basically what students. So inside this student, I will
+
+01:19:46.610 --> 01:19:50.930
+be storing any number of the documents, right. Any number of
+
+01:19:50.930 --> 01:19:53.850
+document. Document is what? This dictionary which I am
+
+01:19:53.850 --> 01:19:56.890
+trying to show you. This is technically called as document,
+
+01:20:00.550 --> 01:20:04.990
+yeah. So DB collections document as simple as that. So DB
+
+01:20:04.990 --> 01:20:07.650
+means the very high label things and then like collections
+
+01:20:07.650 --> 01:20:11.530
+like a table and then record inside a table is basically a
+
+01:20:11.530 --> 01:20:15.050
+document. We used to like you know call in this particular
+
+01:20:15.050 --> 01:20:17.870
+manual with respect to Mongo DB or with respect to most of
+
+01:20:17.870 --> 01:20:22.850
+the NoSQL document based database. Okay. So. So here I am
+
+01:20:22.850 --> 01:20:26.130
+able to store this data. Now let's do one thing. So let's go
+
+01:20:26.130 --> 01:20:30.750
+and let's try to basically browse this particular data,
+
+01:20:31.010 --> 01:20:34.290
+right. Browse this particular cluster and let's see. So
+
+01:20:34.290 --> 01:20:40.490
+whether we have that data or not. So here monitoring
+
+01:20:46.990 --> 01:20:50.490
+for cluster, visit the documentation for more information.
+
+01:20:50.530 --> 01:20:55.190
+So here it is not showing all my.
+
+01:21:12.620 --> 01:21:15.980
+Okay. Now it's visible. Okay. So here we have a cluster and
+
+01:21:15.980 --> 01:21:18.100
+now you will be able to see an option called as browse
+
+01:21:18.100 --> 01:21:20.160
+collection. So I can click on this browse connection.
+
+01:21:26.070 --> 01:21:28.070
+Still it is trying to refresh itself.
+
+01:21:31.990 --> 01:21:39.190
+Okay so here we have. Okay I think I'm looking into the
+
+01:21:39.190 --> 01:21:47.260
+wrong one. This is my old Mongo DB. The one which we have
+
+01:21:47.260 --> 01:21:52.460
+created just now is here. Okay got it. I was looking into a
+
+01:21:52.460 --> 01:21:55.900
+wrong browser. Okay. So now just click on browse collection,
+
+01:21:56.140 --> 01:22:02.210
+same place, right. So browse collection and here. So we have
+
+01:22:02.210 --> 01:22:03.950
+a cluster basically like machine.
+
+01:22:08.840 --> 01:22:13.160
+Now here we have a database which is a Euron. Inside the
+
+01:22:13.160 --> 01:22:16.780
+database we have a collection called as students. Now inside
+
+01:22:16.780 --> 01:22:20.020
+that. So I have stored some records. I will be able to see
+
+01:22:20.020 --> 01:22:22.880
+that record student ID, student name, phone number, email
+
+01:22:22.880 --> 01:22:26.380
+ID. So yes, all of these records are already available and
+
+01:22:26.380 --> 01:22:30.560
+by default, Mongo DB is going to attach one ID. I can try to
+
+01:22:30.560 --> 01:22:33.140
+give you. My own ID as well, which is like a unique for a
+
+01:22:33.140 --> 01:22:35.940
+collection. But yeah, by default, Mongo DB is going to
+
+01:22:35.940 --> 01:22:39.440
+attach ID if we have not given that I can I can override it
+
+01:22:39.440 --> 01:22:44.360
+if I want. So here I'm able to store my record inside a
+
+01:22:44.360 --> 01:22:49.960
+Mongo DB. Now the beauty of Mongo DB is that that or this
+
+01:22:49.960 --> 01:22:54.720
+NoSQL kind of a database is that that here, let's say I have
+
+01:22:54.720 --> 01:22:56.880
+a stored student ID, student name, phone number, email ID.
+
+01:22:56.960 --> 01:23:01.500
+Right. Now. The next one where I would like to store may be
+
+01:23:01.500 --> 01:23:04.600
+something different. Let's suppose my address or something,
+
+01:23:04.760 --> 01:23:09.580
+right? I can simply attach that into a data, right, attach
+
+01:23:09.580 --> 01:23:13.560
+that into a data, execute it, and then it is going to store
+
+01:23:13.560 --> 01:23:14.900
+that
+
+01:23:17.140 --> 01:23:20.820
+as well. So let me like a refresh your
+
+01:23:36.920 --> 01:23:42.540
+own students and see. So here I have basically stored an
+
+01:23:42.540 --> 01:23:46.600
+address. So even address is available. Right. So this is a
+
+01:23:46.600 --> 01:23:49.340
+beauty of a document based database. Basically you can try
+
+01:23:49.340 --> 01:23:51.720
+to do this is called as document. This is called as
+
+01:23:51.720 --> 01:23:55.280
+document. This data that I'm trying to show it to you. This
+
+01:23:55.280 --> 01:23:57.540
+is called as document. You can even edit the data then and
+
+01:23:57.540 --> 01:24:00.320
+there. So everything is irritable. Everything is under your
+
+01:24:00.320 --> 01:24:05.580
+control. You can even go and let you know, create a
+
+01:24:05.580 --> 01:24:09.300
+visualization on top of this data nowadays as everyone is
+
+01:24:09.300 --> 01:24:12.780
+giving you AI. So even Mongo DB has given you a Mongo DB
+
+01:24:12.780 --> 01:24:15.720
+assistance. So very good. Go and you can talk to your data.
+
+01:24:16.260 --> 01:24:19.760
+And you can, you know, ask anything that you want. So this
+
+01:24:19.760 --> 01:24:24.580
+is how simple and easy guys it is in terms of storing a
+
+01:24:24.580 --> 01:24:27.540
+data. Again, if I have to query a data, I can query it from
+
+01:24:27.540 --> 01:24:31.460
+here. I can query it even with the help of Python. But yeah,
+
+01:24:31.480 --> 01:24:34.140
+the whole idea was to, you know, understand the connectivity
+
+01:24:34.140 --> 01:24:37.200
+basically. So are we able to connect with the database or
+
+01:24:37.200 --> 01:24:37.460
+not?
+
+01:24:41.080 --> 01:24:46.380
+Let me ping you this query. Yeah. So are we able to
+
+01:24:46.380 --> 01:24:49.020
+establish a communication guys? With what? With Mongo DB,
+
+01:24:49.260 --> 01:24:55.280
+with Neon, with basically a Supabase, all three,
+
+01:24:58.110 --> 01:25:05.370
+yes, everyone. So this is just a step zero, by the way, in
+
+01:25:05.370 --> 01:25:06.510
+terms of accessing the data.
+
+01:25:14.390 --> 01:25:16.570
+Okay. So if you're saying yes, fine.
+
+01:25:23.430 --> 01:25:27.490
+Now so likewise, like Mongo DB, there is something called as
+
+01:25:27.490 --> 01:25:29.890
+Cassandra. You can try to explore. There is something called
+
+01:25:29.890 --> 01:25:31.770
+as Neo4j.
+
+01:25:33.850 --> 01:25:37.150
+Neo4j. Neo4j. This is also very interesting database, by the
+
+01:25:37.150 --> 01:25:40.350
+way, it's a graph based DB. So where, you know, it is stores
+
+01:25:40.350 --> 01:25:43.810
+a data into a graph format. Many people are using it across
+
+01:25:43.810 --> 01:25:47.930
+the industry, by the way. So especially whenever you have
+
+01:25:47.930 --> 01:25:50.730
+to, you know, store a data. So where a relation can be
+
+01:25:50.730 --> 01:25:54.490
+established with respect to a particular node. So there,
+
+01:25:54.590 --> 01:25:57.810
+this graph based database is pretty much important and we do
+
+01:25:57.810 --> 01:25:58.930
+use it like a lot.
+
+01:26:03.840 --> 01:26:07.080
+So please, in what use case we will consider using a SQL,
+
+01:26:07.160 --> 01:26:10.060
+NoSQL database? It's very simple, right? So wherever you
+
+01:26:10.060 --> 01:26:12.840
+have a structured data, in that case, you will go and opt
+
+01:26:12.840 --> 01:26:16.500
+for SQL. So wherever you have a kind of an unnecessary data
+
+01:26:16.500 --> 01:26:19.240
+or kind of a data which is volatile in nature, which will
+
+01:26:19.240 --> 01:26:23.040
+keep on changing in terms of columns on a regular basis. So
+
+01:26:23.040 --> 01:26:25.600
+in that case, you can go ahead and try to use basically a
+
+01:26:25.600 --> 01:26:32.640
+NoSQL. Simple. Yeah. Which DB use for AI? See there is
+
+01:26:32.640 --> 01:26:36.860
+nothing called as like, you know, DB for AI or not a DB for
+
+01:26:36.860 --> 01:26:39.400
+AI. DB is a database. DB is something where we are trying to
+
+01:26:39.400 --> 01:26:42.580
+store just a data. So it depends upon the nature of the data
+
+01:26:42.580 --> 01:26:46.000
+and the application that I'm trying to build. I will be
+
+01:26:46.000 --> 01:26:48.620
+choosing my databases, right? If I'm trying to store
+
+01:26:48.620 --> 01:26:51.480
+embeddings, obviously my choice will be some sort of a
+
+01:26:51.480 --> 01:26:55.260
+vector DB, right? So I can try to use maybe a Mongo vector,
+
+01:26:55.520 --> 01:26:59.200
+PG vector, maybe a quadrant, maybe a pine cone, maybe like a
+
+01:26:59.200 --> 01:27:03.100
+FASI, F-A-I-S-S. So yes, yeah.
+
+01:27:06.540 --> 01:27:12.350
+Vector DB embedding storage. Yeah. So vector DB wise, so a
+
+01:27:12.350 --> 01:27:14.970
+lot of hundreds of databases available, but yes, in general
+
+01:27:14.970 --> 01:27:17.870
+on a very high level, if you have to categorize it, maybe
+
+01:27:17.870 --> 01:27:21.170
+you can categorize it in like a majorly three categories and
+
+01:27:21.170 --> 01:27:26.270
+then inside that again subcategories. So vector DB wise,
+
+01:27:26.470 --> 01:27:31.850
+chroma DB, let's say is one of the option, right? So chroma
+
+01:27:31.850 --> 01:27:37.930
+DB is one of the option. Baviot is another option. Then
+
+01:27:37.930 --> 01:27:42.800
+there is something called as pine cone. It's another option.
+
+01:27:42.920 --> 01:27:46.100
+F-A-I-S-S is another option. So likewise, even Mongo DB have
+
+01:27:46.100 --> 01:27:49.820
+started providing you a vector database storage, even like
+
+01:27:49.820 --> 01:27:53.580
+most of this PG storage, right? So they have also started
+
+01:27:53.580 --> 01:27:57.560
+providing you a vector DB. Yeah. Quadrant is also a
+
+01:27:57.560 --> 01:28:01.060
+database, vector database by the way. So nowadays everyone
+
+01:28:01.060 --> 01:28:04.200
+is trying to provide you everything. Now we have a dedicated
+
+01:28:04.200 --> 01:28:07.180
+chapter for vector database by the way guys, because in our
+
+01:28:07.180 --> 01:28:10.560
+generative AI, we have to understand and we have to discuss
+
+01:28:10.560 --> 01:28:13.600
+these things in a very, very detailed way. Those who would
+
+01:28:13.600 --> 01:28:16.480
+like to understand even now. So maybe they can check my gen
+
+01:28:16.480 --> 01:28:19.800
+AI batch over there. So I have already discussed, not just
+
+01:28:19.800 --> 01:28:22.320
+discussed, I would say, we have actually used it multiple
+
+01:28:22.320 --> 01:28:24.640
+times in a different, different application, all this four,
+
+01:28:24.720 --> 01:28:29.960
+five vector databases. Yeah. So any, any question guys,
+
+01:28:30.100 --> 01:28:35.420
+anyone, any question in terms of establishing communication?
+
+01:28:35.780 --> 01:28:40.140
+Like I said, guys, my intention was very simple. To teach
+
+01:28:40.140 --> 01:28:43.560
+you. I am to show you how to establish the connection with
+
+01:28:43.560 --> 01:28:49.440
+Python. What is the use case of the vector DB? Okay. So in
+
+01:28:49.440 --> 01:28:52.720
+general use case of vector DB is to store the numerical
+
+01:28:52.720 --> 01:28:57.340
+format of the data means array of, let's say I'm saying
+
+01:28:57.340 --> 01:29:00.940
+that, that my name is Tanshu Kumar. I can technically, it's
+
+01:29:00.940 --> 01:29:04.180
+possible to convert this line. My name is Tanshu Kumar into
+
+01:29:04.180 --> 01:29:08.020
+a numerical representation, which is called as vector. In
+
+01:29:08.020 --> 01:29:11.680
+other word, it's also called as embeddings, right? And if I
+
+01:29:11.680 --> 01:29:13.900
+have to store that information along with the meta
+
+01:29:13.900 --> 01:29:16.960
+information, so in that situation I will be using a vector
+
+01:29:16.960 --> 01:29:17.200
+DB.
+
+01:29:20.140 --> 01:29:23.040
+Please show MongoDB code. I think there is, there is no code
+
+01:29:23.040 --> 01:29:26.080
+in MongoDB. It's just like, you know, call the connection
+
+01:29:26.080 --> 01:29:27.920
+and then done.
+
+01:29:31.100 --> 01:29:36.650
+So step number one, step number two, and then step number
+
+01:29:36.650 --> 01:29:38.890
+three, start executing it. Very, very simple.
+
+01:29:42.090 --> 01:29:48.790
+So this is a step number one. Then pass the URI. Create a
+
+01:29:48.790 --> 01:29:54.610
+database. And then I start writing your, executing your
+
+01:29:54.610 --> 01:29:58.470
+query. Again, no need to remember even a single query with
+
+01:29:58.470 --> 01:30:02.650
+respect to MongoDB. Not even a single one. You have to
+
+01:30:02.650 --> 01:30:02.890
+remember.
+
+01:30:12.400 --> 01:30:15.420
+Okay. So if you have any, if anyone is having any kind of a
+
+01:30:15.420 --> 01:30:17.900
+question, so please like raise your hand or maybe you can
+
+01:30:17.900 --> 01:30:22.460
+ping me inside a chat so that, you know, I can answer to
+
+01:30:22.460 --> 01:30:24.680
+your question. Yeah. Anyone?
+
+01:30:32.460 --> 01:30:35.880
+So there are no columns in MongoDB. We just call the
+
+01:30:35.880 --> 01:30:39.540
+variable name. Yes, there is no column concept inside a
+
+01:30:39.540 --> 01:30:43.840
+document based database. Technically if I'll talk about
+
+01:30:43.840 --> 01:30:49.080
+MongoDB or maybe Cassandra, maybe I can talk about HBase. So
+
+01:30:49.080 --> 01:30:52.060
+in all of these databases, technically you will not be able
+
+01:30:52.060 --> 01:30:56.120
+to find out a column name means there is no fixed schema
+
+01:30:56.120 --> 01:31:00.680
+that we talk about and that is the reason. So it's a key
+
+01:31:00.680 --> 01:31:03.980
+value, key value, key value, and eventually the whole data
+
+01:31:03.980 --> 01:31:06.940
+is called as document. So we have how many documents inside
+
+01:31:06.940 --> 01:31:10.280
+my DB or inside this table or inside this collection. So
+
+01:31:10.280 --> 01:31:13.020
+inside this collection, I have two documents, one and then
+
+01:31:13.020 --> 01:31:13.280
+two.
+
+01:31:21.520 --> 01:31:25.060
+Can you also show maybe later how chat ID gets created in
+
+01:31:25.060 --> 01:31:29.000
+MongoDB when chat gets, chat board gets, when a new chat
+
+01:31:29.000 --> 01:31:33.060
+starts from the chat board? No, it's not a responsibility of
+
+01:31:33.060 --> 01:31:36.760
+a MongoDB basically to create a chat ID. It's a
+
+01:31:36.760 --> 01:31:39.980
+responsibility of your code. So whenever, let's say you have
+
+01:31:39.980 --> 01:31:42.820
+designed a chat interface. So whenever someone is going to
+
+01:31:42.820 --> 01:31:42.900
+create a chat ID, it's a responsibility of your code. So
+
+01:31:42.900 --> 01:31:46.960
+like, you know, start doing a chat. So maybe it will try to
+
+01:31:46.960 --> 01:31:50.660
+take a unique ID of the person who have logged in and then
+
+01:31:50.660 --> 01:31:54.060
+against that ID. So it will start storing all those chat or
+
+01:31:54.060 --> 01:31:58.240
+for a particular session, it is going to create a ID and
+
+01:31:58.240 --> 01:32:00.980
+then it will start storing and start mapping it to the
+
+01:32:00.980 --> 01:32:05.140
+person's ID. So it depends upon me. So how I'm, how I'm
+
+01:32:05.140 --> 01:32:07.680
+storing it, how I'm designing this entire document, right?
+
+01:32:08.000 --> 01:32:11.260
+It's not a responsibility of a MongoDB or any database, by
+
+01:32:11.260 --> 01:32:15.300
+the way. It's your responsibility when you write the
+
+01:32:15.300 --> 01:32:16.220
+application code.
+
+01:32:22.420 --> 01:32:23.960
+Any other question guys, anyone?
+
+01:32:29.880 --> 01:32:32.920
+Okay. So if we don't have any kind of question, then we can
+
+01:32:32.920 --> 01:32:36.880
+try to rest a class for today. And now tomorrow, as I have
+
+01:32:36.880 --> 01:32:42.680
+already mentioned, inside a schedule. So tomorrow I'm going
+
+01:32:42.680 --> 01:32:45.380
+to discuss about a very, very important topic for everyone
+
+01:32:45.380 --> 01:32:50.200
+who would like to get into a development, Git and GitHub.
+
+01:32:50.720 --> 01:32:55.260
+Very, very important concept. And, uh, yes, uh, even if you
+
+01:32:55.260 --> 01:32:59.360
+are going to do a vibe coding, AI coding, basically still
+
+01:32:59.360 --> 01:33:03.920
+you need a full control and full command over a Git. And
+
+01:33:03.920 --> 01:33:06.540
+that is something that we will be, you know, talking about
+
+01:33:06.540 --> 01:33:10.000
+in my tomorrow's class in a practical manner, basically. So
+
+01:33:10.000 --> 01:33:12.700
+how we, what is a Git? What is GitHub? What is the
+
+01:33:12.700 --> 01:33:15.080
+difference between that? What is the, what are all
+
+01:33:15.080 --> 01:33:18.420
+alternatives of like a GitHub is available. A lot of
+
+01:33:18.420 --> 01:33:21.920
+commands with respect to, uh, Git we'll be talking about.
+
+01:33:22.400 --> 01:33:26.840
+Uh, configuring, uh, Git inside a system, then Git personal
+
+01:33:26.840 --> 01:33:29.640
+account, Git org account. What is the difference between
+
+01:33:29.640 --> 01:33:33.480
+these two, uh, how we can try to store a secrets inside a
+
+01:33:33.480 --> 01:33:36.360
+Git. So there are so many concepts which falls under, uh,
+
+01:33:36.500 --> 01:33:39.000
+this particular topic, Git and GitHub. So we'll be talking
+
+01:33:39.000 --> 01:33:41.340
+about that in my tomorrow's class, Sunday's class,
+
+01:33:41.540 --> 01:33:44.200
+basically. I think Anita have raised the hand. Yeah, Anita,
+
+01:33:44.320 --> 01:33:44.720
+go ahead please.
+
+01:33:51.870 --> 01:33:55.390
+Hello. Um, hi, sir. This is Veerish here. Uh, cause the name
+
+01:33:55.390 --> 01:33:58.790
+is different. Um, my question is, you know, generally
+
+01:33:58.790 --> 01:34:01.350
+speaking, what is a Git? I have, you know, a 10 plus years
+
+01:34:01.350 --> 01:34:03.970
+of experience as a data engineer, and I want to transition
+
+01:34:03.970 --> 01:34:08.250
+to AI engineer on the AI architect. Um, so how quickly can I
+
+01:34:08.250 --> 01:34:11.450
+transition? Is this the right batch for me or do you
+
+01:34:11.450 --> 01:34:13.710
+recommend me to join a... What is your technical background
+
+01:34:13.710 --> 01:34:17.310
+by the way? So, uh, like, uh, what is your tech stack so far
+
+01:34:17.310 --> 01:34:19.790
+in last 10 years? So far it is, you know, GCP extensively,
+
+01:34:20.050 --> 01:34:27.230
+GCP, Spark, uh, that side. Okay. Okay. So I believe in that
+
+01:34:27.230 --> 01:34:30.270
+situation. Yes. Uh, if you would have worked, uh, like, you
+
+01:34:30.270 --> 01:34:33.050
+know, into a core development, so then I would have
+
+01:34:33.050 --> 01:34:35.090
+suggested you a different batch, which is like architect
+
+01:34:35.090 --> 01:34:38.310
+mastery batch or GNI batch, but yeah. So as you're coming
+
+01:34:38.310 --> 01:34:40.730
+from a cloud kind of a background, so GCP kind of a
+
+01:34:40.730 --> 01:34:43.910
+background, uh, I'm assuming that you are more on off-site.
+
+01:34:45.090 --> 01:34:47.450
+No, no, development side actually, data pipelines, data
+
+01:34:47.450 --> 01:34:50.270
+engineer. Okay. Basically. Okay. Fine. Fine. Okay. Data
+
+01:34:50.270 --> 01:34:53.230
+engineering. Okay. Okay. So yeah, in, in that situation,
+
+01:34:53.470 --> 01:34:56.050
+maybe sickly, you can try to explore this particular batch.
+
+01:34:56.210 --> 01:34:59.390
+Uh, I think it will be pretty much quick for you. So there
+
+01:34:59.390 --> 01:35:01.530
+is something called as AI architect mastery, which I have
+
+01:35:01.530 --> 01:35:05.970
+concluded just now recently. So one is this, and another one
+
+01:35:05.970 --> 01:35:08.370
+is basically a product engineering. So where, you know, we
+
+01:35:08.370 --> 01:35:11.710
+try to build the project. So here you will be able to find
+
+01:35:11.710 --> 01:35:16.010
+out, uh, for engineering. So one, uh, we have already like,
+
+01:35:16.030 --> 01:35:19.350
+uh, concluded and one, we have started last Sunday itself,
+
+01:35:19.510 --> 01:35:23.190
+this part engineering. So just go and fill out the form. So
+
+01:35:23.190 --> 01:35:26.030
+form I have already circulated, fill out the form so that,
+
+01:35:26.070 --> 01:35:28.510
+you know, you will be allocated in one or the other
+
+01:35:28.510 --> 01:35:34.290
+projects. Okay. Okay. Is this okay to join because having,
+
+01:35:34.370 --> 01:35:39.230
+you know, AI, I have no idea, but, uh, see, at least as a
+
+01:35:39.230 --> 01:35:41.870
+part of team, uh, you will observe something and then
+
+01:35:41.870 --> 01:35:44.490
+finally you will be able to learn and then keep, uh,
+
+01:35:44.490 --> 01:35:46.690
+continue with this batch and continue with like other
+
+01:35:46.690 --> 01:35:49.210
+batches, generally like a architect mastery and continue
+
+01:35:49.210 --> 01:35:50.530
+with this batch. Because in this batch, you will be able to
+
+01:35:50.530 --> 01:35:52.530
+learn. In this batch, we'll be talking about a basic. So we
+
+01:35:52.530 --> 01:35:54.730
+have already started with the very, very basic and yeah,
+
+01:35:54.770 --> 01:35:58.730
+same story we are going to continue. Uh, but in a project,
+
+01:35:58.810 --> 01:36:01.110
+so once you will involve with a team member, right, your
+
+01:36:01.110 --> 01:36:03.490
+batch mates, fellow batch mates, and once you are going to,
+
+01:36:03.530 --> 01:36:06.490
+uh, let's work on the project, maybe not a hundred percent,
+
+01:36:06.570 --> 01:36:09.650
+five, five, 10%, I think it will give you a lot of
+
+01:36:09.650 --> 01:36:13.810
+experience. Sure. Sure. Yeah. I'll go with this. And if you
+
+01:36:13.810 --> 01:36:15.930
+recommend, you know, if you want, if you recommend me to
+
+01:36:15.930 --> 01:36:20.230
+join this super 30 also, I'm okay to get into this. So yeah,
+
+01:36:20.230 --> 01:36:21.490
+basically, I'll go with this. That's a, that's a, that's a
+
+01:36:21.490 --> 01:36:23.970
+kind of a learn kind of a thing. So basically you learn and
+
+01:36:23.970 --> 01:36:27.090
+then you build it. So not just learn. And again, so we are
+
+01:36:27.090 --> 01:36:29.950
+trying to keep it like a very crisp, precise and sought in
+
+01:36:29.950 --> 01:36:33.170
+terms of our batch. Uh, so that dedicated, like we can do a
+
+01:36:33.170 --> 01:36:36.430
+handholding. So even our developer, uh, will be a part of
+
+01:36:36.430 --> 01:36:39.810
+that entire, like, you know, uh, like a batch. So we are,
+
+01:36:39.930 --> 01:36:42.930
+uh, in a week, so three or four times. So we are going to
+
+01:36:42.930 --> 01:36:45.550
+conduct the classes and then we will be like giving your
+
+01:36:45.550 --> 01:36:47.810
+topics. There will be a lot of Katie. Then there will be a
+
+01:36:47.810 --> 01:36:50.650
+lot of cross Katie means you will give us a Katie back. So
+
+01:36:50.650 --> 01:36:53.010
+all of these, uh, like, uh, schedules, you will be able to
+
+01:36:53.010 --> 01:36:56.490
+find out inside, uh, here, not just that. So we are also
+
+01:36:56.490 --> 01:37:00.670
+trying to like, uh, if you will go inside the planner and if
+
+01:37:00.670 --> 01:37:03.110
+you will go inside the progress tracker, so we are not just
+
+01:37:03.110 --> 01:37:05.710
+trying to focus on the tech side of it. So we are trying to
+
+01:37:05.710 --> 01:37:08.950
+focus even on a personal branding, uh, interpersonal skill,
+
+01:37:09.110 --> 01:37:12.630
+networking skills and portfolio building from our week one
+
+01:37:12.630 --> 01:37:15.490
+itself. And same thing you will be able to see as a tracker
+
+01:37:15.490 --> 01:37:18.450
+over here. So leadership is skill branding because somewhere
+
+01:37:18.450 --> 01:37:21.950
+these things are also important. Which people don't try to
+
+01:37:21.950 --> 01:37:25.250
+mention it in a curriculum, uh, which is not practically
+
+01:37:25.250 --> 01:37:27.910
+possible in as a part of curriculum, but here, so we are
+
+01:37:27.910 --> 01:37:31.610
+forcing each and every one, even to follow the same, right.
+
+01:37:31.710 --> 01:37:34.430
+So even, even like, you know, develop some sort of a
+
+01:37:34.430 --> 01:37:37.290
+personal branding kind of a skill, some sort of, uh, skill,
+
+01:37:37.690 --> 01:37:40.070
+some sort of a leadership skill. So this is how this entire
+
+01:37:40.070 --> 01:37:42.810
+program has been designed by the way. So yeah, maybe you
+
+01:37:42.810 --> 01:37:44.610
+can, you can check this out and if you're interested, so
+
+01:37:44.610 --> 01:37:47.290
+maybe you can talk to team or go ahead with that. Yeah.
+
+01:37:48.010 --> 01:37:51.550
+Okay. Thank you so much. Yeah. Yeah. So when the super 30
+
+01:37:51.550 --> 01:37:54.270
+next batch will be starting, so super 30 next batch, we have
+
+01:37:54.270 --> 01:37:56.610
+already decided and we have published the plan for next, I
+
+01:37:56.610 --> 01:38:01.010
+think six months. Uh, so here one is going to start on May,
+
+01:38:01.110 --> 01:38:04.630
+then June, then July and so on. So every month 10th
+
+01:38:04.630 --> 01:38:08.370
+basically. So at any point of time you can connect and you
+
+01:38:08.370 --> 01:38:10.670
+can like, you know, kind of with the team and then take a
+
+01:38:10.670 --> 01:38:15.370
+details, uh, which form we need to fill for AI product
+
+01:38:15.370 --> 01:38:21.310
+engineering. So, uh, last week. As per my discussion, let me
+
+01:38:21.310 --> 01:38:25.870
+show you. So if you will go inside, uh, product engineering,
+
+01:38:26.170 --> 01:38:28.230
+this one, okay.
+
+01:38:33.780 --> 01:38:37.380
+I don't have your own plus access guys. Let me give a, your
+
+01:38:37.380 --> 01:38:40.620
+own plus access to myself. I was doing some sort of a
+
+01:38:40.620 --> 01:38:48.370
+testing, so I have removed my own access. Let me assign an
+
+01:38:48.370 --> 01:38:48.630
+access.
+
+01:38:59.930 --> 01:39:03.530
+Okay. So now I have your own plus access. Yeah. Plus. Plus.
+
+01:39:03.730 --> 01:39:06.630
+So here, uh, once you will click on continue learning. So
+
+01:39:06.630 --> 01:39:09.710
+this is the batch that we have like started last week
+
+01:39:09.710 --> 01:39:13.330
+itself. And yeah, so tomorrow again, we have a class at 7 PM
+
+01:39:13.330 --> 01:39:17.010
+IST. So on 26th, April induction session, which was like a
+
+01:39:17.010 --> 01:39:19.790
+Sunday class, you can click on resource and then you will be
+
+01:39:19.790 --> 01:39:23.170
+able to find out the form. So where your name registered
+
+01:39:23.170 --> 01:39:25.650
+email ID, and then which project you would like to work
+
+01:39:25.650 --> 01:39:28.790
+into, and then it would like to lead a team. All sort of
+
+01:39:28.790 --> 01:39:31.430
+things is already mentioned. So it will just take like a
+
+01:39:31.430 --> 01:39:34.710
+five, 10 seconds of time. Uh. And you can try to fill the
+
+01:39:34.710 --> 01:39:39.070
+form and then, uh, tomorrow we are going to build a team for
+
+01:39:39.070 --> 01:39:41.810
+this one. Those who are going to fill the form,
+
+01:39:46.110 --> 01:39:49.070
+sir, for PRD discussion, can you please change the time?
+
+01:39:49.170 --> 01:39:52.090
+Yeah. Agent class is also at 7 PM. Uh, that won't be
+
+01:39:52.090 --> 01:40:00.550
+possible, but difficult for me to accommodate when I run pip
+
+01:40:00.550 --> 01:40:04.630
+install super base. It gave error, uh, try to check your
+
+01:40:04.630 --> 01:40:07.290
+Python version, maybe because of your Python version issue.
+
+01:40:07.290 --> 01:40:13.350
+So maybe it's giving you an issue. Yeah. Shravani a person
+
+01:40:13.350 --> 01:40:17.090
+can join only a single project. Uh, see, uh, practically you
+
+01:40:17.090 --> 01:40:19.490
+will not be able to work into a multiple project. Uh,
+
+01:40:19.610 --> 01:40:22.450
+believe me because the PRD that we are releasing for each
+
+01:40:22.450 --> 01:40:25.090
+and every project, which is like a 10 project, it's very,
+
+01:40:25.170 --> 01:40:29.390
+very big. And, uh, yes. So every project requires a complete
+
+01:40:29.390 --> 01:40:34.570
+dedication. Now, code base wise. Uh, yes. Uh, all 10
+
+01:40:34.570 --> 01:40:37.170
+projects code base will be available. Not just to you, but
+
+01:40:37.170 --> 01:40:39.230
+to all of you. But to an entire public because, uh, we are
+
+01:40:39.230 --> 01:40:44.070
+going to open source the entire code base even today at 7 PM
+
+01:40:44.070 --> 01:40:47.550
+IST on YouTube. So I have a discussion for one of an amazing
+
+01:40:47.550 --> 01:40:51.590
+project, uh, real time interview, uh, interviewer, basically
+
+01:40:51.590 --> 01:40:55.010
+like starting from posting a job to an interview, it's
+
+01:40:55.010 --> 01:40:58.150
+literally an amazing project. Like, uh, today I had a demo
+
+01:40:58.150 --> 01:41:01.430
+with, uh, that particular team, uh, in, in our daytime
+
+01:41:01.430 --> 01:41:04.710
+internal demo. And we are going live by 7 PM. So you all
+
+01:41:04.710 --> 01:41:07.550
+will be amazed. The kind of a beautiful project. That we
+
+01:41:07.550 --> 01:41:10.670
+have created the kind of a seamless experience that
+
+01:41:10.670 --> 01:41:13.970
+particular product is giving the way it is automating the
+
+01:41:13.970 --> 01:41:18.990
+entire, starting from a job posting till hiring a candidate
+
+01:41:20.090 --> 01:41:24.550
+without even a single human intervention and, uh, with, with
+
+01:41:24.550 --> 01:41:27.810
+all the real time audio and video interaction. Right. So
+
+01:41:27.810 --> 01:41:30.790
+maybe you can like, uh, come and join a YouTube live at 7 PM
+
+01:41:30.790 --> 01:41:31.130
+IST.
+
+01:41:34.900 --> 01:41:37.980
+So yes. So if you're going to work on that kind of a
+
+01:41:37.980 --> 01:41:40.540
+project, you, you won't be able to complete it. You will
+
+01:41:40.540 --> 01:41:44.880
+have to contribute in two. As per my experience, please
+
+01:41:44.880 --> 01:41:48.740
+answer my doubts on cost of AI model, which I asked earlier
+
+01:41:48.740 --> 01:41:53.260
+cost of AI model. What was that? By the way, how to create
+
+01:41:53.260 --> 01:41:58.100
+PRD for any project, come and join that batch, uh, AI
+
+01:41:58.100 --> 01:42:01.000
+product engineering batch. I'll, I'll show you how to do it.
+
+01:42:01.040 --> 01:42:04.120
+Yeah. Otherwise you can explore even, uh, AI product, uh,
+
+01:42:04.300 --> 01:42:07.420
+product engineering, uh, previous batch over there. I have
+
+01:42:07.420 --> 01:42:12.640
+already shown that particular part. Uh. It's fine. If we
+
+01:42:12.640 --> 01:42:17.000
+watch PRD discussion recording up to you, so I can't force
+
+01:42:17.000 --> 01:42:20.620
+anyone right to join or not to join. So it's your choice,
+
+01:42:20.800 --> 01:42:21.520
+uh,
+
+01:42:24.760 --> 01:42:28.500
+five year of experience in Python or do ERP. Now I want to
+
+01:42:28.500 --> 01:42:31.600
+switch to AI. So which course would I consider? I think for
+
+01:42:31.600 --> 01:42:35.460
+you, this is the best, the one that you are into the AI
+
+01:42:35.460 --> 01:42:40.040
+generalist. Yeah. Just continue with that. A person with
+
+01:42:40.040 --> 01:42:40.540
+name tech.
+
+01:42:52.200 --> 01:42:56.080
+Okay. So this is it from my side, everyone. Uh, like I said,
+
+01:42:56.140 --> 01:42:58.440
+so tomorrow topic is going to be very, very important. So
+
+01:42:58.440 --> 01:43:01.800
+tomorrow I'll be talking about Git and GitHub, uh, which is,
+
+01:43:01.860 --> 01:43:05.960
+uh, important, not just for anyone into AI, I would say, but
+
+01:43:05.960 --> 01:43:09.240
+anyone who would like to like write a code, even with the
+
+01:43:09.240 --> 01:43:12.040
+help of AI, it doesn't matter, like, uh, which AI tool you
+
+01:43:12.040 --> 01:43:14.620
+are going to use cursor Claude or antiquity or whatsoever,
+
+01:43:14.740 --> 01:43:17.800
+but yeah, at the end of the day, your code will go into a
+
+01:43:17.800 --> 01:43:20.860
+Git, right? I mean, it will be using Git and it will go into
+
+01:43:20.860 --> 01:43:23.800
+a bit bucket or maybe GitHub or similar kind of a system. So
+
+01:43:23.800 --> 01:43:27.180
+where it will be doing a version control, right? Uh, so
+
+01:43:27.180 --> 01:43:30.160
+tomorrow's topic is very, very important for anyone and
+
+01:43:30.160 --> 01:43:32.620
+everyone tomorrow, I'm going to show you a lot of different
+
+01:43:32.620 --> 01:43:35.960
+things, a lot of dynamics and, uh, which you will start
+
+01:43:35.960 --> 01:43:40.560
+using it right after tomorrow class, basically. So from next
+
+01:43:40.560 --> 01:43:43.780
+week onwards, you all will start using it. I have one year
+
+01:43:43.780 --> 01:43:48.060
+of career gap. Is it a effect by taking a job? Uh, yes. Try
+
+01:43:48.060 --> 01:43:51.240
+to get into a job as soon as possible. And yes. So you must
+
+01:43:51.240 --> 01:43:54.080
+be like ready with the answer. That's why you had this. One
+
+01:43:54.080 --> 01:43:58.340
+year of a career gap, maybe some, some sort of a answer that
+
+01:43:58.340 --> 01:44:00.980
+maybe you are preparing for this. You are preparing for that
+
+01:44:00.980 --> 01:44:02.580
+or something like this. You can, you can just try it, like
+
+01:44:02.580 --> 01:44:05.440
+tell them, but yeah, people will ask you for the
+
+01:44:05.440 --> 01:44:09.260
+justification for AML. Full stack data science is best,
+
+01:44:09.420 --> 01:44:13.000
+right? Yes. Yeah. That's best. You may be asking a third
+
+01:44:13.000 --> 01:44:15.820
+year, uh, at CB Raman, where placement is taking a still
+
+01:44:15.820 --> 01:44:18.600
+through aptitude, how this course will help me for my
+
+01:44:18.600 --> 01:44:22.280
+placement. See, uh, if they're taking up, if they're doing
+
+01:44:22.280 --> 01:44:26.280
+like, I know. Asking for an aptitude, then you have to
+
+01:44:26.280 --> 01:44:29.680
+prepare for an aptitude. There is no other choice. Uh, this
+
+01:44:29.680 --> 01:44:32.300
+course is helping, going to help you out in terms of, you
+
+01:44:32.300 --> 01:44:34.380
+know, getting an expertise of where you can go and build
+
+01:44:34.380 --> 01:44:37.660
+anything and everything from the scratch with respect to a
+
+01:44:37.660 --> 01:44:41.560
+data science. So if anyone is going to ask you a question in
+
+01:44:41.560 --> 01:44:45.100
+that category, then obviously this course is going to help
+
+01:44:45.100 --> 01:44:45.680
+you out. Chinmay.
+
+01:44:48.860 --> 01:44:51.620
+Okay. So fine. Thank you so much. Take care and see you
+
+01:44:51.620 --> 01:44:54.980
+again, guys. Tomorrow. Same time. 4 PM IST. Thank you so
+
+01:44:54.980 --> 01:44:55.880
+much. Everyone take care.
+

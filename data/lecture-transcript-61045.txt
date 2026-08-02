@@ -1,0 +1,3989 @@
+WEBVTT
+
+00:05:33.040 --> 00:05:35.420
+Okay, so hi, everyone. Good evening. I believe I'm already
+
+00:05:35.420 --> 00:05:38.340
+visible guys. So please confirm if I'm already visible.
+
+00:05:49.460 --> 00:05:55.510
+Okay, so what about others? Confirm quickly so that we can
+
+00:05:55.510 --> 00:05:59.570
+start with the class. So today we are going to talk about
+
+00:05:59.570 --> 00:06:02.910
+basically a support vector machine. We'll be talking about
+
+00:06:02.910 --> 00:06:05.990
+even a clustering algorithm, everyone. So we'll try to cover
+
+00:06:05.990 --> 00:06:11.390
+maybe like a four algorithm today, right? so first of all in
+
+00:06:11.390 --> 00:06:14.610
+theory and then if time allows then even in a practical
+
+00:06:14.610 --> 00:06:17.650
+manner we'll try to cover so that from tomorrow onwards we
+
+00:06:17.650 --> 00:06:20.350
+can try to start a neural network because there are a lot of
+
+00:06:20.350 --> 00:06:24.830
+mathematics we have to discuss even over there okay so let
+
+00:06:24.830 --> 00:06:31.470
+me open up my scribal link fine so here uh first of all
+
+00:06:31.470 --> 00:06:34.270
+we'll try to talk about something called as support vector
+
+00:06:34.270 --> 00:06:38.070
+machine so again very beautiful algorithm and amazing one to
+
+00:06:38.070 --> 00:06:41.690
+understand a little bit mathematics heavy but a very logical
+
+00:06:41.690 --> 00:06:45.150
+one so that you know you all can like correlate we'll try to
+
+00:06:45.150 --> 00:06:47.950
+explain in that manner so svm
+
+00:06:50.450 --> 00:06:59.170
+support vector machine now this one can be used for a
+
+00:06:59.170 --> 00:07:01.850
+regression as well as you can try to use it for a
+
+00:07:01.850 --> 00:07:05.290
+classification so there is something called as svc and there
+
+00:07:05.290 --> 00:07:08.470
+is something called as svr So SVC means basically like
+
+00:07:08.470 --> 00:07:12.670
+algorithm, support vector for classification and SVR means
+
+00:07:12.670 --> 00:07:15.690
+support vector for regression. So in general, we try to call
+
+00:07:15.690 --> 00:07:20.870
+it as a SVM, support vector machine. Now, so how the support
+
+00:07:20.870 --> 00:07:24.830
+vector machine works and what is a core nature of a support
+
+00:07:24.830 --> 00:07:27.110
+vector machine? Let's try to understand it and which is very
+
+00:07:27.110 --> 00:07:30.310
+logical and easily you all will be able to understand it. So
+
+00:07:30.310 --> 00:07:35.510
+here, let's say we have like two examples. So we have
+
+00:07:35.510 --> 00:07:39.270
+basically like a some sort of apples right with us so maybe
+
+00:07:39.270 --> 00:07:42.830
+i'm representing these apples with a red color so we have
+
+00:07:42.830 --> 00:07:48.390
+apples over here and do i have orange so i don't have orange
+
+00:07:48.390 --> 00:07:52.750
+color so let's say i'm representing orange by yellow color
+
+00:07:52.750 --> 00:07:56.570
+yeah i'm representing orange by yellow color so fine we have
+
+00:07:56.570 --> 00:07:59.310
+an apple and we have a kind of orange or maybe you can say
+
+00:07:59.310 --> 00:08:03.050
+that we have a red dots and have a yellow dots same thing so
+
+00:08:03.050 --> 00:08:08.130
+here so let's say uh i'm trying to build a algorithm i'm
+
+00:08:08.130 --> 00:08:11.370
+trying to build basically a machine learning algorithm or
+
+00:08:11.370 --> 00:08:15.110
+you can say a model which should be able to do a clear
+
+00:08:15.110 --> 00:08:18.730
+segregation or clear separation between red and like a
+
+00:08:18.730 --> 00:08:21.290
+yellow the color that we have over here or maybe apple
+
+00:08:21.290 --> 00:08:25.690
+versus orange it must be able to do it so okay now to do it
+
+00:08:25.690 --> 00:08:29.750
+what we can do so we can try to basically uh draw a line we
+
+00:08:29.750 --> 00:08:32.250
+have already seen that right so so many lines we can try to
+
+00:08:32.250 --> 00:08:35.590
+draw over here so practically there will be like an infinite
+
+00:08:35.590 --> 00:08:39.730
+number of line i will end up drawing by which i will be able
+
+00:08:39.730 --> 00:08:44.990
+to segregate these data points but out of this millions of
+
+00:08:44.990 --> 00:08:48.490
+line which line i will i'm supposed to choose because there
+
+00:08:48.490 --> 00:08:51.590
+are infinite possible line you will be able to find out
+
+00:08:51.590 --> 00:08:58.090
+that's a that's a part number one right now so here if i'm
+
+00:08:58.090 --> 00:09:02.390
+going to redraw this entire things so maybe if i'm going to
+
+00:09:02.390 --> 00:09:09.070
+like take red over here once again same example right and
+
+00:09:09.070 --> 00:09:13.510
+now if i'll just give you a choice right if i'll just give
+
+00:09:13.510 --> 00:09:17.090
+you a choice so i'll not draw many lines as i have drawn
+
+00:09:17.090 --> 00:09:20.190
+over here although it is possible this time what i will do
+
+00:09:20.190 --> 00:09:23.350
+i'll just try to give you multiple options so maybe option
+
+00:09:23.350 --> 00:09:26.590
+number one i'm going to give you as this line option number
+
+00:09:26.590 --> 00:09:30.950
+two maybe i'm going to give you as maybe like this line
+
+00:09:30.950 --> 00:09:34.750
+option number three i can try to give you as maybe this kind
+
+00:09:34.750 --> 00:09:37.650
+of a line it's possible right i can give you likewise
+
+00:09:37.650 --> 00:09:42.190
+multiple combinations of a possible uh you know separator as
+
+00:09:42.190 --> 00:09:45.650
+well that is also possible now let's say this is line number
+
+00:09:45.650 --> 00:09:47.930
+one this is line number two and this is line number three
+
+00:09:47.930 --> 00:09:51.170
+now if i'm going to ask you a question that which is the
+
+00:09:51.170 --> 00:09:53.530
+which one is the line if i'm giving you only three options
+
+00:09:53.530 --> 00:09:56.830
+i'm not giving you infinite option if i'm going to ask you a
+
+00:09:56.830 --> 00:09:59.650
+question that which line you are going to select to separate
+
+00:09:59.650 --> 00:10:02.730
+the data majority of you will say that that you should
+
+00:10:02.730 --> 00:10:06.590
+choose line number one right everyone you should choose line
+
+00:10:06.590 --> 00:10:10.010
+number one to segregate the data because line number one is
+
+00:10:10.010 --> 00:10:14.550
+somewhere in a middle of the first data that you are going
+
+00:10:14.550 --> 00:10:18.910
+to encounter on one side as well as on a other side so
+
+00:10:18.910 --> 00:10:21.970
+majority of you will try to end up giving me this particular
+
+00:10:21.970 --> 00:10:26.970
+answer okay fine now so middle one now if i'm going to ask
+
+00:10:26.970 --> 00:10:31.010
+you a question that why you have chosen this middle line you
+
+00:10:31.010 --> 00:10:34.950
+will simply say that that you know uh there are data which
+
+00:10:34.950 --> 00:10:40.770
+is available out there but this middle line is almost like
+
+00:10:40.770 --> 00:10:45.590
+at a max distance from a data on one side the nearest
+
+00:10:45.590 --> 00:10:49.010
+encountered data that because data is available even here
+
+00:10:49.010 --> 00:10:52.790
+and data is available even here right but the nearest one so
+
+00:10:52.790 --> 00:10:57.390
+basically you this is the nearest one and this is the you
+
+00:10:57.390 --> 00:11:00.670
+know maximum distance you will be able to uh you know find
+
+00:11:00.670 --> 00:11:04.010
+out as per this three given condition if i'm going to select
+
+00:11:04.010 --> 00:11:07.890
+line number two so maybe this line number two will be more
+
+00:11:07.890 --> 00:11:11.870
+biased towards this one red uh like kind of a data but yeah
+
+00:11:11.870 --> 00:11:16.290
+i mean like for a yellow kind of a data it's not creating a
+
+00:11:16.290 --> 00:11:19.110
+balance same goes for line number three as well so the line
+
+00:11:19.110 --> 00:11:21.810
+which is going to create a balance i believe that's a middle
+
+00:11:21.810 --> 00:11:24.750
+line because this is what i'm able to see with respect to
+
+00:11:24.750 --> 00:11:31.970
+the data on both the side right so now when you will give me
+
+00:11:31.970 --> 00:11:37.490
+this answer so that becomes a margin i would say that
+
+00:11:37.490 --> 00:11:41.470
+becomes basically a margin so we say that that okay we are
+
+00:11:41.470 --> 00:11:46.170
+choosing a middle line by the way so that a maximum margin
+
+00:11:46.170 --> 00:11:50.630
+from this side of the data and a maximum margin for this
+
+00:11:50.630 --> 00:11:54.990
+side of a data should be always maximized so basically the
+
+00:11:54.990 --> 00:11:58.930
+nearest data point the nearest data point that we have from
+
+00:11:58.930 --> 00:12:03.530
+this one so this is called as margin right this is called as
+
+00:12:03.530 --> 00:12:06.330
+margin so margin is nothing but the line that you are trying
+
+00:12:06.330 --> 00:12:11.430
+to choose from there so which one is the first data that you
+
+00:12:11.430 --> 00:12:14.430
+are going to encounter on the other side so again which one
+
+00:12:14.430 --> 00:12:17.450
+is the first data that you are going to encounter and line
+
+00:12:17.450 --> 00:12:21.490
+you are supposed to choose in such a manner that this margin
+
+00:12:21.490 --> 00:12:27.350
+must be max right this margin must be max okay fine so at
+
+00:12:27.350 --> 00:12:30.090
+the end of the day what support vector machine does so
+
+00:12:30.090 --> 00:12:35.410
+support vector machine always try to find out those support
+
+00:12:35.410 --> 00:12:41.590
+vector from where you will be able to draw a margin and that
+
+00:12:41.590 --> 00:12:44.950
+should be maximum now what is the support vector by the way
+
+00:12:44.950 --> 00:12:48.590
+so the very first data that you have encountered on this
+
+00:12:48.590 --> 00:12:51.090
+side and the very first data that you have encountered this
+
+00:12:51.090 --> 00:13:00.130
+side so this is called as support support vector yeah this
+
+00:13:00.130 --> 00:13:04.350
+is basically called as support vector at the end of the day
+
+00:13:04.350 --> 00:13:11.350
+okay fine so again like looks cool to me now my objective is
+
+00:13:11.350 --> 00:13:15.270
+to maximize right my objective is to maximize my objective
+
+00:13:15.270 --> 00:13:20.290
+is to maximize what this margin the perpendicular distance
+
+00:13:20.290 --> 00:13:24.310
+that we have from a data to the line and from a data to the
+
+00:13:24.310 --> 00:13:31.050
+line from both the side okay fine now so what is this line
+
+00:13:31.050 --> 00:13:35.990
+number one which i have drawn over here will be called so
+
+00:13:35.990 --> 00:13:40.130
+basically this first line that i have like a written over
+
+00:13:40.130 --> 00:13:44.190
+here so this is technically called as decision boundary
+
+00:13:44.190 --> 00:13:47.530
+decision boundary
+
+00:13:49.100 --> 00:13:53.060
+because this is the line which is helping me out in terms of
+
+00:13:53.060 --> 00:13:56.840
+segregating our data and then maximizing the margin at the
+
+00:13:56.840 --> 00:14:01.680
+end of the day and then this dotted line which is passing
+
+00:14:01.680 --> 00:14:05.260
+through which is a parallel to my decision boundary right
+
+00:14:05.260 --> 00:14:09.320
+exact parallel to my decision boundary so this and this on
+
+00:14:09.320 --> 00:14:11.540
+both the side line number two and line number three is
+
+00:14:11.540 --> 00:14:15.060
+called as basically hyperplane for the second class you can
+
+00:14:15.060 --> 00:14:19.180
+say or you can say like you know a line drawn with the
+
+00:14:19.180 --> 00:14:22.880
+support vector so these are just a name right these are just
+
+00:14:22.880 --> 00:14:27.660
+a name a simple right this is called a hyperplane so and
+
+00:14:27.660 --> 00:14:29.480
+this is this hyperplane the middle one is called as
+
+00:14:29.480 --> 00:14:33.220
+basically a decision boundary so in a very simple term if i
+
+00:14:33.220 --> 00:14:36.320
+have to explain or if you have to explain someone that what
+
+00:14:36.320 --> 00:14:40.760
+the support vector machine is so in just 30 seconds right in
+
+00:14:40.760 --> 00:14:44.060
+just 30 seconds if i have to explain someone i will be able
+
+00:14:44.060 --> 00:14:49.700
+to do it right i will be able to do it so let's say we have
+
+00:14:49.700 --> 00:14:53.180
+two set of data red and yellow and i have to basically
+
+00:14:53.180 --> 00:14:56.460
+segregate this data i have to basically design a model which
+
+00:14:56.460 --> 00:14:59.100
+will be able to whenever new data will come it should be
+
+00:14:59.100 --> 00:15:01.840
+able to segregate the data now to segregate the data what
+
+00:15:01.840 --> 00:15:05.240
+i'm supposed to do so there should be a hyper plane that i
+
+00:15:05.240 --> 00:15:08.800
+i'm supposed to draw and that hyperplane should be drawn in
+
+00:15:08.800 --> 00:15:12.140
+such a manner that the nearest data point right from nearest
+
+00:15:12.140 --> 00:15:16.640
+data point the this one and this one which is nothing but a
+
+00:15:16.640 --> 00:15:21.420
+margin should be max at any point of a time so that is a
+
+00:15:21.420 --> 00:15:24.260
+basically line which i'm going to select that is basically a
+
+00:15:24.260 --> 00:15:27.420
+decision boundary decision decision
+
+00:15:29.920 --> 00:15:38.420
+boundary i'm supposed to select and yeah so the very first
+
+00:15:38.420 --> 00:15:42.260
+data that i'm going to encounter on both the side right on
+
+00:15:42.260 --> 00:15:45.620
+both the sides let's say we are trying to do a like a we
+
+00:15:45.620 --> 00:15:48.380
+have two classes right so on there can be like multiple
+
+00:15:48.380 --> 00:15:51.340
+classes as well so as of now we have a two classes so
+
+00:15:51.340 --> 00:15:55.000
+basically both the data which should be available at a
+
+00:15:55.000 --> 00:15:59.560
+maximum boundary point or a max distance from a decision
+
+00:15:59.560 --> 00:16:02.420
+boundary so that is basically called as support vector so
+
+00:16:02.420 --> 00:16:04.300
+this will become support vector and this will become
+
+00:16:04.300 --> 00:16:08.600
+basically a support vector for me so this is the reason this
+
+00:16:08.600 --> 00:16:12.440
+is called as support vector machine what is my objective my
+
+00:16:12.440 --> 00:16:16.180
+objective is to always maximize this one the margin right
+
+00:16:16.180 --> 00:16:20.340
+from this particular line okay so this is basically a
+
+00:16:20.340 --> 00:16:23.920
+theoretical explanation now what is a maximum like
+
+00:16:23.920 --> 00:16:27.660
+mathematical explanation that we are supposed to find out so
+
+00:16:27.660 --> 00:16:30.400
+let's try to dig deeper little bit and then let's try to
+
+00:16:30.400 --> 00:16:34.140
+understand this mathematical term as well so that you know
+
+00:16:34.140 --> 00:16:37.400
+you will be able to understand these entire things in a best
+
+00:16:37.400 --> 00:16:40.020
+possible manner otherwise you will not be able to understand
+
+00:16:40.020 --> 00:16:44.020
+it so shall we go ahead with the mathematics guys yeah shall
+
+00:16:44.020 --> 00:16:44.480
+we derive
+
+00:16:48.670 --> 00:16:56.130
+yes everyone mathematics okay so see if i'm going to ask you
+
+00:16:56.130 --> 00:17:00.010
+that let's talk about only two like a class classification
+
+00:17:00.010 --> 00:17:05.110
+and only this 2d kind of a data because if your degree of
+
+00:17:05.110 --> 00:17:08.810
+freedom of the data is going to increase obviously in 3d in
+
+00:17:08.810 --> 00:17:11.570
+4d in 5d i mean like number of classes are going to increase
+
+00:17:11.570 --> 00:17:14.130
+so your hyperplane is going to be different it's not going
+
+00:17:14.130 --> 00:17:16.530
+to be a straight line so let's start with the straight line
+
+00:17:16.530 --> 00:17:20.530
+basically and yeah so as a number of like a degree will
+
+00:17:20.530 --> 00:17:23.450
+increase so obviously your straight line is not going to be
+
+00:17:23.450 --> 00:17:26.210
+straight line it will be hyperplane right it will be
+
+00:17:26.210 --> 00:17:30.310
+hyperplane so here if anyone is going to ask you a question
+
+00:17:30.310 --> 00:17:33.010
+that what is the equation of this straight line you will
+
+00:17:33.010 --> 00:17:35.490
+simply say that equation of the straight line is nothing but
+
+00:17:35.490 --> 00:17:41.890
+w x plus b let's say right w x plus b is equals to 0 always
+
+00:17:41.890 --> 00:17:48.670
+you are going to tell me this one okay fine right now so if
+
+00:17:48.670 --> 00:17:55.830
+anyone is going to ask you a question over here that what is
+
+00:17:55.830 --> 00:18:00.450
+this particular distance in terms of mathematics any idea
+
+00:18:00.450 --> 00:18:06.830
+guys so there is a straight line right there is a point now
+
+00:18:06.830 --> 00:18:11.050
+from this point to the straight line how we can calculate
+
+00:18:11.050 --> 00:18:12.850
+this distance yes
+
+00:18:16.210 --> 00:18:19.810
+how we can calculate the distance so
+
+00:18:27.100 --> 00:18:31.520
+let's say straight line equation is this one right so w x
+
+00:18:31.520 --> 00:18:36.260
+plus b so distance between any point and the straight line
+
+00:18:36.260 --> 00:18:41.700
+is nothing but right so this one this is basically the
+
+00:18:41.700 --> 00:18:45.500
+equation at any point of a time yeah so this is going to be
+
+00:18:45.500 --> 00:18:48.880
+the distance of any point to the straight line so let's say
+
+00:18:48.880 --> 00:18:51.640
+we have a x and y point and there is a straight line which
+
+00:18:51.640 --> 00:18:55.540
+is given over there so if x and y coordinate is given for
+
+00:18:55.540 --> 00:18:59.840
+this particular point w x plus b and then w so this w is
+
+00:18:59.840 --> 00:19:02.900
+nothing but root of x square plus y square and you will be
+
+00:19:02.900 --> 00:19:06.620
+able to get the final distance between that point and the
+
+00:19:06.620 --> 00:19:08.780
+straight line which is nothing but a perpendicular distance
+
+00:19:08.780 --> 00:19:11.060
+exact perpendicular distance is the minimum distance
+
+00:19:11.060 --> 00:19:13.840
+otherwise distance can be even this distance can be even
+
+00:19:13.840 --> 00:19:16.840
+this distance can be even this but yeah so the minimum
+
+00:19:16.840 --> 00:19:19.500
+distance is basically the perpendicular one and that we can
+
+00:19:19.500 --> 00:19:22.520
+calculate with the help of this particular formula which is
+
+00:19:22.520 --> 00:19:27.760
+the main formula by the way okay fine so what we have to do
+
+00:19:27.760 --> 00:19:32.780
+so we have to maximize this distance our whole idea our
+
+00:19:32.780 --> 00:19:37.880
+whole objective is to maximize this distance right if i am
+
+00:19:37.880 --> 00:19:42.200
+able to maximize this distance then my entire equation will
+
+00:19:42.200 --> 00:19:46.180
+be like a chosen or my entire equation will be fixed i can
+
+00:19:46.180 --> 00:19:50.000
+try to use it that's a whole idea which we try to implement
+
+00:19:50.000 --> 00:19:55.240
+in this particular place so at any point of a time this one
+
+00:19:55.240 --> 00:19:59.360
+we have to maximize the margin point that we have so we have
+
+00:19:59.360 --> 00:20:04.340
+to basically maximize right that's a whole idea svm used to
+
+00:20:04.340 --> 00:20:08.580
+take in terms of basically a mathematical derivation okay
+
+00:20:08.580 --> 00:20:13.680
+that's again a cool one right that's again a cool one so
+
+00:20:13.680 --> 00:20:18.200
+here basically when we try to start with the straight line
+
+00:20:18.200 --> 00:20:23.040
+we know that that this is the equation of that particular
+
+00:20:23.040 --> 00:20:27.920
+straight line. Now if I'm going to ask you that what is the
+
+00:20:27.920 --> 00:20:32.740
+equation of this straight line on this side with comparison
+
+00:20:32.740 --> 00:20:36.280
+with this one. So let's say this is equal to zero. So this
+
+00:20:36.280 --> 00:20:43.220
+one is going to be basically w x plus b plus 1 right and
+
+00:20:43.220 --> 00:20:46.760
+then if i'm going to ask you about this dotted line which is
+
+00:20:46.760 --> 00:20:50.460
+a hyperplane right so you will say that okay fine so w x
+
+00:20:50.460 --> 00:20:54.780
+plus b minus 1 so basically this one is coming in a middle
+
+00:20:54.780 --> 00:20:59.040
+of both the line so if i write down here itself so it is
+
+00:20:59.040 --> 00:21:03.320
+going to w x plus b is equals to 0 w x plus b is equals to
+
+00:21:03.320 --> 00:21:08.420
+plus 1 and w x plus b is equals to minus 1 Okay, so now we
+
+00:21:08.420 --> 00:21:13.320
+have an equation of all these three lines. Now, you can ask
+
+00:21:13.320 --> 00:21:15.880
+me a question that, you know, why we are trying to use a
+
+00:21:15.880 --> 00:21:20.500
+minus 1, plus 1 or 0. A simple one over here is that that
+
+00:21:20.500 --> 00:21:23.020
+doesn't matter on which scale you are going to do the
+
+00:21:23.020 --> 00:21:25.420
+comparison. If you are going to multiply by 2 or 5 or
+
+00:21:25.420 --> 00:21:28.060
+anything, everything will change in that same scale because
+
+00:21:28.060 --> 00:21:31.020
+everything is moving in parallel. That's the reason for
+
+00:21:31.020 --> 00:21:33.440
+keeping that in our mind. So we are keeping it as a scale of
+
+00:21:33.440 --> 00:21:36.620
+1 itself, right? there is no hard and fast rule apart from
+
+00:21:36.620 --> 00:21:41.740
+this one okay now distance right so if we have to calculate
+
+00:21:41.740 --> 00:21:48.020
+a distance between like you know these two points by the way
+
+00:21:48.020 --> 00:21:53.800
+so distance is nothing but between this line the middle one
+
+00:21:53.800 --> 00:21:56.980
+the decision boundary and let's say the dotted one the above
+
+00:21:56.980 --> 00:21:59.960
+one right so this distance is nothing but as per this
+
+00:21:59.960 --> 00:22:08.180
+particular formula it is going to be w x plus b divided by w
+
+00:22:08.180 --> 00:22:13.540
+okay again cool so here this term for this line is going to
+
+00:22:13.540 --> 00:22:19.320
+be one positive one so one divided by w now this is the
+
+00:22:19.320 --> 00:22:22.780
+distance let's say i'm not noting it as denoting it as a d
+
+00:22:22.780 --> 00:22:26.180
+positive d negative is nothing but same formula wise so
+
+00:22:26.180 --> 00:22:31.180
+minus one by this one you will be able to get it okay cool
+
+00:22:31.180 --> 00:22:37.260
+right so distance from a middle line to the above one means
+
+00:22:37.260 --> 00:22:41.160
+to the support vector on one side and distance from this
+
+00:22:41.160 --> 00:22:44.560
+middle line to the other side of support vector is this one
+
+00:22:44.560 --> 00:22:48.100
+and this one we are able to find out now this is technically
+
+00:22:48.100 --> 00:22:51.020
+called as margin i told you right this is called as margin
+
+00:22:51.020 --> 00:22:53.860
+this is called as margin even in the above one so i have
+
+00:22:53.860 --> 00:22:56.280
+simply said that that this is called as margin this is
+
+00:22:56.280 --> 00:23:00.180
+called as margin now what should be the nature of my entire
+
+00:23:00.180 --> 00:23:03.340
+algorithm the nature of my entire algorithm should be to
+
+00:23:03.340 --> 00:23:07.420
+maximize the margin as max as possible yeah maximize the
+
+00:23:07.420 --> 00:23:10.120
+margin which is basically this distance right so maximize
+
+00:23:10.120 --> 00:23:15.040
+the margin at the end of the day so in terms of distance i
+
+00:23:15.040 --> 00:23:18.100
+would say forget about the negative negative is just a you
+
+00:23:18.100 --> 00:23:20.600
+know this one i have taken but yeah it's just a distance
+
+00:23:20.600 --> 00:23:23.720
+right so distance on one side and distance on other side
+
+00:23:23.720 --> 00:23:27.020
+it's actually same so what is the total distance or what is
+
+00:23:27.020 --> 00:23:33.150
+a total margin total margin means this one total margin
+
+00:23:33.150 --> 00:23:35.930
+means this one right what is the total margin including this
+
+00:23:35.930 --> 00:23:39.630
+so we know the answer i believe so total distance is nothing
+
+00:23:39.630 --> 00:23:45.370
+but two by this one which is nothing but one by w plus one
+
+00:23:45.370 --> 00:23:50.090
+by w on both the side so it is it is going to be two by this
+
+00:23:50.090 --> 00:23:53.850
+one okay fine cool so total margin we are supposed to find
+
+00:23:53.850 --> 00:23:56.950
+out and this is the most important equation in a support
+
+00:23:56.950 --> 00:23:59.810
+vector machine i would say most important one and easiest
+
+00:23:59.810 --> 00:24:05.310
+one so far it's clear now what is my objective because every
+
+00:24:05.310 --> 00:24:08.310
+algorithm will be having an objective right so even in case
+
+00:24:08.310 --> 00:24:10.310
+of linear regression we have seen that there was an
+
+00:24:10.310 --> 00:24:13.250
+objective even in a decision tree there was an objective
+
+00:24:13.250 --> 00:24:16.490
+random forest there was an objective logistic regression
+
+00:24:16.490 --> 00:24:20.590
+there was an objective that i have to minimize something i
+
+00:24:20.590 --> 00:24:25.110
+have to optimize something so here what i'm supposed to you
+
+00:24:25.110 --> 00:24:28.330
+know maximize i'm supposed to maximize this distance which
+
+00:24:28.330 --> 00:24:30.690
+is a distance between vector to vector on both the side
+
+00:24:30.690 --> 00:24:34.550
+right and we understand the vector agree everyone that's the
+
+00:24:34.550 --> 00:24:36.890
+only objective right that's the only idea that we have over
+
+00:24:36.890 --> 00:24:40.130
+here yes yeah
+
+00:24:42.920 --> 00:24:48.580
+very simple right so we have to maximize this particular one
+
+00:24:48.580 --> 00:24:53.460
+which is like a simple very simple to understand now how do
+
+00:24:53.460 --> 00:24:58.080
+we do that right that's again a next question for all of us
+
+00:24:58.080 --> 00:25:00.720
+so i mean like this is what i'm able to find out as a very
+
+00:25:00.720 --> 00:25:05.740
+very simple thing but how i'm going to technically do it how
+
+00:25:05.740 --> 00:25:10.500
+it is going to technically work for me at any point of a
+
+00:25:10.500 --> 00:25:13.640
+time so this is where there is something called as
+
+00:25:13.640 --> 00:25:17.960
+languragian equation comes into picture. So there is a very
+
+00:25:17.960 --> 00:25:20.600
+famous equation which comes with a support vector machine
+
+00:25:20.600 --> 00:25:24.580
+called as Langresian. Langresian is nothing but it's a
+
+00:25:24.580 --> 00:25:28.420
+combination of this one and another component which I am
+
+00:25:28.420 --> 00:25:31.940
+going to introduce very soon. For example in every like
+
+00:25:31.940 --> 00:25:34.460
+algorithm that we have derived so far so forth we were
+
+00:25:34.460 --> 00:25:38.020
+trying to achieve a global minimum a local minimum right. So
+
+00:25:38.020 --> 00:25:39.840
+basically so that you know I will be able to find out new
+
+00:25:39.840 --> 00:25:43.040
+value of WB or something the derivation that we have
+
+00:25:43.040 --> 00:25:45.840
+basically done our gradient descent we were trying to
+
+00:25:45.840 --> 00:25:49.040
+achieve over here so what we how we'll be able to achieve in
+
+00:25:49.040 --> 00:25:51.500
+this particular place let's try to understand that
+
+00:25:51.500 --> 00:25:59.490
+particular part okay so here i have to maximize this one
+
+00:25:59.490 --> 00:26:04.330
+maximize this one so if i have to maximize this entire
+
+00:26:04.330 --> 00:26:08.370
+component can i say that i have to minimize the denominator
+
+00:26:09.490 --> 00:26:14.750
+can i make a statement if i have to maximize this whole
+
+00:26:14.750 --> 00:26:19.610
+component so when this entire will be maximum can i say that
+
+00:26:19.610 --> 00:26:25.800
+when your denominator will tends to zero agree when this
+
+00:26:25.800 --> 00:26:28.940
+entire equation is going to be maximum that's my idea right
+
+00:26:28.940 --> 00:26:31.840
+that okay i'll go and i'll maximize it but when this will be
+
+00:26:31.840 --> 00:26:36.600
+maximum when your denominator will be minimum yes so we can
+
+00:26:36.600 --> 00:26:40.340
+even say that that we have to minimize what we have to
+
+00:26:40.340 --> 00:26:44.460
+minimize this one so same term i have written in other way
+
+00:26:44.460 --> 00:26:48.680
+right tends to zero basically tends to zero i mean like it
+
+00:26:48.680 --> 00:26:51.800
+if it is going to be absolute zero in that case infinity uh
+
+00:26:51.800 --> 00:26:55.540
+so which is like not a real a number which is like not going
+
+00:26:55.540 --> 00:26:58.700
+to like give me any kind of a conclusion so we say that okay
+
+00:26:58.700 --> 00:27:02.860
+fine so we have to minimize minimize the denominator so i
+
+00:27:02.860 --> 00:27:06.740
+have written in other term it's the same thing and many
+
+00:27:06.740 --> 00:27:09.040
+people gets confused in this particular step even when you
+
+00:27:09.040 --> 00:27:11.200
+will try to learn something on your own when you will read
+
+00:27:11.200 --> 00:27:14.000
+the books you will feel like okay what what has happened
+
+00:27:14.000 --> 00:27:16.740
+basically this has happened basically which is simple things
+
+00:27:16.740 --> 00:27:21.300
+to understand okay fine so we have written this one now
+
+00:27:21.300 --> 00:27:25.500
+instead of writing this what we can try to do over here so
+
+00:27:25.500 --> 00:27:29.480
+maybe to get a better derivation or easier derivation we can
+
+00:27:29.480 --> 00:27:35.120
+try to say that let's try to write a square right let's try
+
+00:27:35.120 --> 00:27:39.340
+to write a square normalized one right so basically like you
+
+00:27:39.340 --> 00:27:43.140
+know so that it will be convenient for us to deal with this
+
+00:27:43.140 --> 00:27:47.980
+entire things so we have to minimize this particular one and
+
+00:27:47.980 --> 00:27:51.300
+now when you will try to do a derivation so if i'm going to
+
+00:27:51.300 --> 00:27:55.440
+ask you that can you please write a rate of change of d with
+
+00:27:55.440 --> 00:28:00.880
+dw of this square i believe you will be able to write it
+
+00:28:00.880 --> 00:28:05.040
+down right you will be able to write it down for this one in
+
+00:28:05.040 --> 00:28:09.920
+a very very like a simple so basically it is going to be two
+
+00:28:09.920 --> 00:28:13.920
+of w right it is going to be two of w technically this is
+
+00:28:13.920 --> 00:28:17.920
+nothing but square root of w one square w two square and so
+
+00:28:17.920 --> 00:28:20.280
+on so we are just trying to like just for the sake of
+
+00:28:20.280 --> 00:28:24.660
+getting a easier derivation we are just writing it down
+
+00:28:24.660 --> 00:28:29.820
+that's it nothing much right nothing much okay so here we
+
+00:28:29.820 --> 00:28:35.340
+will be able to get a this particular like a derivation and
+
+00:28:35.340 --> 00:28:40.500
+then what we do so we try to technically multiply it with
+
+00:28:40.500 --> 00:28:44.340
+like a one by two just a constant so that two and two gets
+
+00:28:44.340 --> 00:28:46.660
+cancelled whenever we'll be having a derivation so again
+
+00:28:46.660 --> 00:28:51.320
+just to find out or just to make this entire derivation easy
+
+00:28:51.320 --> 00:28:53.920
+people have done that although if you're not do it it's
+
+00:28:53.920 --> 00:28:55.800
+completely fine but yeah people have done that particular
+
+00:28:55.800 --> 00:29:00.920
+one okay fine so here the final equation that you will be
+
+00:29:00.920 --> 00:29:06.760
+able to get which you have to minimize is 1 by 2 this one
+
+00:29:06.760 --> 00:29:12.140
+this is your final equation that you will be able to get so
+
+00:29:12.140 --> 00:29:16.520
+that just take a rate of change of this with this w you will
+
+00:29:16.520 --> 00:29:19.440
+be able to get eventually only w simple calculation right
+
+00:29:19.440 --> 00:29:23.000
+simple calculation but equation is same so now this is one
+
+00:29:23.000 --> 00:29:27.400
+of the optimization objective you have that minimize this
+
+00:29:27.400 --> 00:29:30.920
+whole term right minimize this whole term at any point of a
+
+00:29:30.920 --> 00:29:36.900
+time now what is this w by the way right what is this w so w
+
+00:29:36.900 --> 00:29:39.960
+is nothing but your entire line which has been represented
+
+00:29:39.960 --> 00:29:44.100
+so minimizing this term is one of the factor or one of the
+
+00:29:44.100 --> 00:29:47.260
+part of those support vector machine you will be able to
+
+00:29:47.260 --> 00:29:52.760
+find out okay so this is something called as objective
+
+00:29:52.760 --> 00:29:57.920
+function objective function so we have to minimize this one
+
+00:29:57.920 --> 00:30:01.860
+this is called as objective function i told you that there
+
+00:30:01.860 --> 00:30:06.260
+is a equation which comes into picture called as langrigian
+
+00:30:06.260 --> 00:30:08.700
+so let
+
+00:30:11.710 --> 00:30:20.630
+me write down properly l-a-n-g-r-a-n-g-i-a-n langrigian so
+
+00:30:20.630 --> 00:30:23.950
+what was the langrigian idea langrigian idea said that that
+
+00:30:23.950 --> 00:30:30.030
+you know for anything to get converged so maybe we can take
+
+00:30:30.030 --> 00:30:36.240
+objective function objective function plus we can try to
+
+00:30:36.240 --> 00:30:40.500
+take the constraint constraint this is called as langrygian
+
+00:30:40.500 --> 00:30:44.100
+equation what is my objective objective here to minimize
+
+00:30:44.100 --> 00:30:47.020
+this one so i can clearly i have derived the objective over
+
+00:30:47.020 --> 00:30:51.960
+here now what should be my constraint right what should be
+
+00:30:51.960 --> 00:30:57.720
+my constraint while optimizing this one so my constraint
+
+00:30:57.720 --> 00:31:02.900
+should be that at any point of a time right that at any
+
+00:31:02.900 --> 00:31:08.300
+point of a time basically the entire equation which I am
+
+00:31:08.300 --> 00:31:11.200
+trying to consider which is nothing but the
+
+00:31:15.840 --> 00:31:20.460
+yi w x plus b
+
+00:31:22.980 --> 00:31:29.400
+minus 1 should be greater than 0. This should be my
+
+00:31:29.400 --> 00:31:32.940
+constraint at any point of a time because that's a straight
+
+00:31:32.940 --> 00:31:36.000
+line right so obviously it should divide it clearly the
+
+00:31:36.000 --> 00:31:39.240
+above one and the below one. so this is going to my
+
+00:31:39.240 --> 00:31:42.160
+constraint which is coming from my storyline itself so lang
+
+00:31:42.160 --> 00:31:47.240
+region says that that okay i depends upon w i depends upon b
+
+00:31:47.240 --> 00:31:51.160
+and i depends upon one more factor which is newly introduced
+
+00:31:51.160 --> 00:31:53.980
+called as alpha so alpha is nothing but it's called as lang
+
+00:31:53.980 --> 00:31:57.080
+region constant and now if i have to write down the whole
+
+00:31:57.080 --> 00:32:00.320
+lang region function so i can write down this objective
+
+00:32:00.320 --> 00:32:03.580
+function objective means the margin which we have derived
+
+00:32:03.580 --> 00:32:08.780
+the objective function minus it is going to be right minus
+
+00:32:08.780 --> 00:32:14.180
+it is going to be summation of i is equals to 1 till n
+
+00:32:15.180 --> 00:32:20.900
+languragian equation for every point and then the line
+
+00:32:20.900 --> 00:32:28.440
+equation w x i plus b minus 1 so technically this is the
+
+00:32:28.440 --> 00:32:31.640
+languragian equation very easy to remember so easy to
+
+00:32:31.640 --> 00:32:34.500
+remember means what the margin function this one the
+
+00:32:34.500 --> 00:32:37.160
+objective function and the constraint that we have based on
+
+00:32:37.160 --> 00:32:41.740
+that my margin function is fluctuating so here this is a
+
+00:32:41.740 --> 00:32:44.380
+straight line equation we are just trying to multiply with
+
+00:32:44.380 --> 00:32:47.900
+the langresian constant that's it langresian constant that
+
+00:32:47.900 --> 00:32:52.340
+we have over here so this is called as langresian very
+
+00:32:52.340 --> 00:32:54.980
+famous equation which people generally used to ask even
+
+00:32:54.980 --> 00:32:58.520
+inside the interview when you will when they will ask you
+
+00:32:58.520 --> 00:33:02.720
+like you know derive or explain or talk about basically this
+
+00:33:02.720 --> 00:33:08.100
+entire support vector machine now this is something that we
+
+00:33:08.100 --> 00:33:11.940
+have to optimize at the end of the day right so this is you
+
+00:33:11.940 --> 00:33:15.780
+can say this is going to behave as a loss function so this
+
+00:33:15.780 --> 00:33:18.140
+is something that we have to optimize and if you are able to
+
+00:33:18.140 --> 00:33:21.760
+optimize this one this is going to give you your final
+
+00:33:21.760 --> 00:33:26.080
+answer at any point of a time so if you are going to expand
+
+00:33:26.080 --> 00:33:28.720
+this entire language equation so maybe you can try to
+
+00:33:28.720 --> 00:33:36.100
+rewrite in this way 1 by 2 this objective minus summation of
+
+00:33:36.100 --> 00:33:48.900
+alpha i y i w x i minus summation of alpha i y i b i plus
+
+00:33:48.900 --> 00:33:53.300
+summation of alpha i just do this multiplication with this
+
+00:33:53.300 --> 00:33:56.940
+this this right expand it first term is going to be same so
+
+00:33:56.940 --> 00:34:01.160
+now this is going to my final expanded equation okay now
+
+00:34:01.160 --> 00:34:07.000
+what you have to do so you have to now find out the minimum
+
+00:34:07.000 --> 00:34:11.560
+technically rate of change of l with respect to w you have
+
+00:34:11.560 --> 00:34:16.280
+to find out and that is going to be w minus summation of
+
+00:34:16.280 --> 00:34:22.180
+langageian constant yi and xi this is something is going to
+
+00:34:22.180 --> 00:34:25.440
+be rate of change of l with respect to w now you have to
+
+00:34:25.440 --> 00:34:31.420
+find out basically uh here so yeah w is going to be uh if
+
+00:34:31.420 --> 00:34:34.940
+you are going to equate this equation with zero so w is
+
+00:34:34.940 --> 00:34:40.900
+going to be summation of alpha i yi and xi fine so here this
+
+00:34:40.900 --> 00:34:43.920
+is what a w you will be able to find out with respect to y x
+
+00:34:43.920 --> 00:34:48.780
+and langageian at any point of a time now you have to find
+
+00:34:48.780 --> 00:34:53.020
+out this rate of change of l even with respect to a v and
+
+00:34:53.020 --> 00:34:59.300
+finally this is going to be minus of summation of alpha i yi
+
+00:34:59.300 --> 00:35:03.960
+language region into yi so now we have basically uh like you
+
+00:35:03.960 --> 00:35:09.620
+know rate of change of loss language equation you can say
+
+00:35:09.620 --> 00:35:12.940
+loss equation as well so rate of change of l with respect to
+
+00:35:12.940 --> 00:35:16.960
+w rate of change of l with respect to b i believe now we are
+
+00:35:16.960 --> 00:35:20.500
+coming back to the exact same point i mean like the point
+
+00:35:20.500 --> 00:35:23.000
+that we have discussed in a very very uh beginning itself
+
+00:35:23.000 --> 00:35:26.840
+right so from here you will be able to get a value of w
+
+00:35:26.840 --> 00:35:29.960
+right from here if you are going to compute this equation
+
+00:35:29.960 --> 00:35:32.400
+with zero you will be able to find out that it's nothing but
+
+00:35:32.400 --> 00:35:36.380
+it's a summation of language n y i is equals to zero so one
+
+00:35:36.380 --> 00:35:41.120
+equation you will be able to find out now you can try to
+
+00:35:41.120 --> 00:35:45.660
+basically substitute this alpha i y i to zero so here w
+
+00:35:45.660 --> 00:35:49.560
+alpha i y i is equals to zero if you are going to substitute
+
+00:35:49.560 --> 00:35:57.000
+so in that and w is equals to this one so here if i have to
+
+00:35:57.000 --> 00:36:04.520
+write down let me check guys this is getting bit messy let
+
+00:36:10.060 --> 00:36:14.460
+me write down the final equation in a clean manner so this
+
+00:36:14.460 --> 00:36:18.920
+is nothing but w x plus b which is my straight line now w is
+
+00:36:18.920 --> 00:36:23.660
+equals to summation of alpha i y i and x i which i have
+
+00:36:23.660 --> 00:36:27.460
+already derived from here by finding like a rate of change
+
+00:36:27.460 --> 00:36:32.380
+of l with respect to a w so here if i have to rewrite my f
+
+00:36:32.380 --> 00:36:35.800
+of x which is a equation so i can just substitute value of w
+
+00:36:35.800 --> 00:36:38.560
+so value of w if i'm going to substitute it is going to be
+
+00:36:38.560 --> 00:36:49.300
+alpha i y i and then it is going to be x i x plus b okay so
+
+00:36:49.300 --> 00:36:54.720
+now this is my f of x now here in case of a classification
+
+00:36:54.720 --> 00:36:57.560
+so what i am looking for so i am looking for basically a
+
+00:36:57.560 --> 00:37:01.020
+positive class or i am looking for a negative class so now
+
+00:37:01.020 --> 00:37:03.780
+this is basically an equation of the straight line which is
+
+00:37:03.780 --> 00:37:06.620
+going to give you like more than zero or less than zero at
+
+00:37:06.620 --> 00:37:08.340
+the end of the day this is going to give you more than zero
+
+00:37:08.340 --> 00:37:12.420
+or less than zero so now here my y hat y prediction is
+
+00:37:12.420 --> 00:37:16.060
+nothing but sine of so whatsoever sine this equation is
+
+00:37:16.060 --> 00:37:18.420
+going to give right positive if it is going to give then
+
+00:37:18.420 --> 00:37:21.040
+positive negative if it is going to give then negative so
+
+00:37:21.040 --> 00:37:23.680
+that is technically going to my prediction that is going to
+
+00:37:23.680 --> 00:37:27.260
+my y hat so this is how this entire equation what it does so
+
+00:37:27.260 --> 00:37:30.460
+it is going to give you the prediction by optimizing your
+
+00:37:30.460 --> 00:37:32.840
+rate of change of like you know language region with respect
+
+00:37:32.840 --> 00:37:36.260
+to w and by optimizing rate of change of this line region
+
+00:37:36.260 --> 00:37:38.760
+with respect to a B. This is the final prediction equation
+
+00:37:38.760 --> 00:37:41.760
+you will be able to find out. So this is how this entire
+
+00:37:41.760 --> 00:37:46.220
+thing works. Whole and sole if I have to conclude I have to
+
+00:37:46.220 --> 00:37:53.460
+maximize this margin. Which margin? 1 by this one. So I have
+
+00:37:53.460 --> 00:37:56.440
+to minimize this one. Minimize the denominator. If I have to
+
+00:37:56.440 --> 00:37:59.700
+minimize the denominator so what I have done so basically I
+
+00:37:59.700 --> 00:38:04.060
+have built an equation 1 by 2 just for the sake of easier
+
+00:38:04.060 --> 00:38:07.180
+derivation this equation plus i have built this line
+
+00:38:07.180 --> 00:38:10.540
+equation right and i'm trying to call that as a so basically
+
+00:38:10.540 --> 00:38:13.520
+that line equation i'm trying to call it as a constraint and
+
+00:38:13.520 --> 00:38:16.720
+eventually if i'm going to combine both of this i'm calling
+
+00:38:16.720 --> 00:38:20.580
+it as a lang region very simple and easy to remember by the
+
+00:38:20.580 --> 00:38:23.480
+way so lang region now that lang region is nothing but my
+
+00:38:23.480 --> 00:38:25.900
+loss function so i have to optimize that one so rate of
+
+00:38:25.900 --> 00:38:28.040
+change of l with respect to w rate of change of l with
+
+00:38:28.040 --> 00:38:31.620
+respect to b because w and b is responsible for what my line
+
+00:38:31.620 --> 00:38:34.540
+so based on that only i will be able to choose the line
+
+00:38:34.540 --> 00:38:39.060
+right and eventually that line a line which actually depends
+
+00:38:39.060 --> 00:38:43.580
+upon this margin because i i can draw like a multiple lines
+
+00:38:43.580 --> 00:38:45.940
+over here thousands of lines over here but i don't have to
+
+00:38:45.940 --> 00:38:48.820
+choose every line so this is how guys this entire language
+
+00:38:48.820 --> 00:38:52.940
+will be done so any question for me if not i'll move to the
+
+00:38:52.940 --> 00:38:53.300
+next one
+
+00:38:57.140 --> 00:39:04.610
+yes easy by the way right uh if you anyone who is having
+
+00:39:04.610 --> 00:39:04.990
+confusion
+
+00:39:07.940 --> 00:39:11.600
+maybe I can re-explain you again by writing everything in
+
+00:39:11.600 --> 00:39:15.200
+just five lines and if you don't have any kind of issue then
+
+00:39:15.200 --> 00:39:21.540
+it's it's fine we can move ahead okay so basically I believe
+
+00:39:21.540 --> 00:39:25.940
+everyone is able to understand now here so we were talking
+
+00:39:25.940 --> 00:39:28.140
+about classification regression classification means finding
+
+00:39:28.140 --> 00:39:31.200
+a classes this or that regression means finding some of the
+
+00:39:31.200 --> 00:39:34.460
+real number right real values now there is another kind of a
+
+00:39:34.460 --> 00:39:36.800
+problem which exists inside a machine learning and that
+
+00:39:36.800 --> 00:39:38.820
+something called as clustering right that is something
+
+00:39:38.820 --> 00:39:41.960
+called as clustering so clustering simply means that that
+
+00:39:47.530 --> 00:39:51.430
+clustering problem so we have seen regression we have seen
+
+00:39:51.430 --> 00:39:54.110
+classification now clustering is another set of the problem
+
+00:39:54.110 --> 00:39:57.530
+you will be able to find out it simply means that that i
+
+00:39:57.530 --> 00:40:05.490
+have maybe this data i have maybe this data and then i have
+
+00:40:05.490 --> 00:40:09.410
+maybe this kind of a data right all of this data is given to
+
+00:40:09.410 --> 00:40:12.810
+you now i have not given you any kind of a label for example
+
+00:40:12.810 --> 00:40:17.410
+in case of a classification we will be having a labels so we
+
+00:40:17.410 --> 00:40:20.950
+will be having plus minus zero one two false kind of things
+
+00:40:20.950 --> 00:40:23.990
+or any kind of a classes right class a class b class c class
+
+00:40:23.990 --> 00:40:27.050
+d in case of a regression so again we'll be having a real
+
+00:40:27.050 --> 00:40:31.530
+number that okay fine so the entire like a row is going to
+
+00:40:31.530 --> 00:40:36.330
+give you this one or that one means we'll be having a label
+
+00:40:36.330 --> 00:40:38.670
+in case of a regression as well as in case of a
+
+00:40:38.670 --> 00:40:41.670
+classification i mean like we'll be having x data and we'll
+
+00:40:41.670 --> 00:40:46.210
+be having y data but here you won't be having anything i
+
+00:40:46.210 --> 00:40:48.870
+mean like anything means you won't be having a labels
+
+00:40:48.870 --> 00:40:51.610
+basically so some data is given to you for example this
+
+00:40:51.610 --> 00:40:55.550
+yellow red and green kind of a data and someone will come
+
+00:40:55.550 --> 00:40:59.230
+and say that that can you please try to segregate this data
+
+00:40:59.230 --> 00:41:03.490
+right or consider it in a such a way that there is a basket
+
+00:41:03.490 --> 00:41:06.810
+i have given to you a basket of fruit and there is an apple
+
+00:41:06.810 --> 00:41:09.090
+there is a guava there is an orange there is a mango and all
+
+00:41:09.090 --> 00:41:12.530
+those things is kept inside that basket and then if i'm
+
+00:41:12.530 --> 00:41:15.690
+asking you that okay can you please segregate these you know
+
+00:41:15.690 --> 00:41:20.270
+fruits so you will be able to segregate it based on maybe a
+
+00:41:20.270 --> 00:41:24.170
+safe you will be able to segregate it based on maybe a size
+
+00:41:24.170 --> 00:41:28.630
+maybe based on the color or maybe a similar kind of every
+
+00:41:28.630 --> 00:41:31.670
+fruit or whatsoever looks similar to you you will try to
+
+00:41:31.670 --> 00:41:34.410
+test it based on that you will try to segregate it there can
+
+00:41:34.410 --> 00:41:37.910
+be multiple criteria for a segregation so clustering is the
+
+00:41:37.910 --> 00:41:41.790
+same so clustering is basically a kind of a set of algorithm
+
+00:41:41.790 --> 00:41:46.610
+which helps you out in terms of segregating a similar kind
+
+00:41:46.610 --> 00:41:51.170
+of a data or basically uh you know creating a bucket for a
+
+00:41:51.170 --> 00:41:55.050
+similar kind of a data or segregating a dissimilar kind of a
+
+00:41:55.050 --> 00:41:59.330
+data so in this case maybe based on the color i'm going to
+
+00:41:59.330 --> 00:42:01.910
+identify and then i'm going to keep it in different
+
+00:42:01.910 --> 00:42:05.270
+different bucket there is a possibility that based on the
+
+00:42:05.270 --> 00:42:07.790
+shape let's say i have a different different shape of the
+
+00:42:07.790 --> 00:42:12.310
+data right different different shape of the data so maybe a
+
+00:42:12.310 --> 00:42:16.130
+rectangle maybe a triangle maybe a circle and then i will
+
+00:42:16.130 --> 00:42:18.790
+try to separate this data i'll try to keep it inside the
+
+00:42:18.790 --> 00:42:20.810
+different different bucket so this is where clustering comes
+
+00:42:20.810 --> 00:42:25.530
+into picture so this falls under unsupervised learning.
+
+00:42:25.670 --> 00:42:28.370
+Unsupervised means there is no label. There is no Y which is
+
+00:42:28.370 --> 00:42:34.210
+given to you. So unsupervised. The classification and the
+
+00:42:34.210 --> 00:42:37.570
+regression that we have seen. So that falls under supervised
+
+00:42:37.570 --> 00:42:40.390
+machine learning algorithm. Both classification and
+
+00:42:40.390 --> 00:42:44.170
+regression. This falls under unsupervised machine learning
+
+00:42:44.170 --> 00:42:48.990
+algorithm. So where we try to segregate the data. Now how do
+
+00:42:48.990 --> 00:42:51.790
+we segregate the data? What kind of algorithm or equation is
+
+00:42:51.790 --> 00:42:54.870
+going to work? Let's try to understand that particular part
+
+00:42:54.870 --> 00:42:58.730
+so the very first algorithm which is simple to understand
+
+00:42:58.730 --> 00:43:02.270
+again not not at all difficult is called as k mean
+
+00:43:02.270 --> 00:43:05.210
+clustering algorithm k mean
+
+00:43:07.190 --> 00:43:13.310
+clustering algorithm now what does this algorithm says by
+
+00:43:13.310 --> 00:43:16.390
+the way so this algorithm says that that okay i will be able
+
+00:43:16.390 --> 00:43:20.270
+to segregate our data based on some sort of a distance
+
+00:43:20.270 --> 00:43:23.210
+calculation approach or based on some sort of a centroid
+
+00:43:23.210 --> 00:43:27.070
+kind of approach i will be able to segregate the data now
+
+00:43:27.070 --> 00:43:31.990
+what is the meaning of this k over here right so let's say
+
+00:43:31.990 --> 00:43:35.850
+some data is given to me right some data set is given to me
+
+00:43:35.850 --> 00:43:41.250
+and someone is asking me to do some sort of a segregation
+
+00:43:41.250 --> 00:43:46.720
+someone is asking me to do some sort of a segregation over
+
+00:43:46.720 --> 00:43:50.700
+there so this is the data set which is given to me now
+
+00:43:50.700 --> 00:43:52.760
+someone is saying that okay fine try to build two cluster
+
+00:43:52.760 --> 00:43:56.180
+three cluster four cluster five cluster practically it is
+
+00:43:56.180 --> 00:43:59.980
+possible to build as many cluster as the number of the data
+
+00:43:59.980 --> 00:44:03.940
+set that we have means every individual data will behave as
+
+00:44:03.940 --> 00:44:08.660
+one cluster in itself but again i mean like that's not a job
+
+00:44:08.660 --> 00:44:11.860
+right that's not a task so i have to basically divide this
+
+00:44:11.860 --> 00:44:15.900
+data into multiple buckets but first of all i have to decide
+
+00:44:15.900 --> 00:44:19.000
+how many number of buckets this is where this k comes into
+
+00:44:19.000 --> 00:44:23.680
+picture so k is nothing but the number of segregation or
+
+00:44:23.680 --> 00:44:27.720
+number of bucket in which you are going to divide the data
+
+00:44:27.720 --> 00:44:32.260
+so maybe i can divide this data into two bucket possible
+
+00:44:32.260 --> 00:44:36.840
+right maybe into like a three four buckets i can try to
+
+00:44:36.840 --> 00:44:39.640
+divide the data possible even this is possible that is
+
+00:44:39.640 --> 00:44:44.440
+possible means all of these possibility we have so here this
+
+00:44:44.440 --> 00:44:48.180
+k always tells you that in how many clusters now how do we
+
+00:44:48.180 --> 00:44:51.320
+find out the value of k right how do we find out the value
+
+00:44:51.320 --> 00:44:57.200
+of k so there is something called as elbow method within
+
+00:44:57.200 --> 00:44:59.560
+cluster summation of square so
+
+00:45:08.560 --> 00:45:11.360
+my first objective over here is to find out the value of k
+
+00:45:11.360 --> 00:45:14.860
+means how many group in which we have to divide the data
+
+00:45:14.860 --> 00:45:18.740
+even every one of us in our real life we divide the data so
+
+00:45:18.740 --> 00:45:21.580
+this is how ola over google map everything works so they try
+
+00:45:21.580 --> 00:45:24.960
+to divide the data based on the region city or you can say a
+
+00:45:24.960 --> 00:45:28.600
+country continent uh then again inside the city a different
+
+00:45:28.600 --> 00:45:33.000
+kind of a cluster groups right uh maybe tech park maybe like
+
+00:45:33.000 --> 00:45:36.940
+a in a weekend the places where people can go and visit and
+
+00:45:36.940 --> 00:45:40.080
+then enjoy so basically try to segregate the data and
+
+00:45:40.080 --> 00:45:42.880
+everyone everyone in this entire world so whosoever like
+
+00:45:42.880 --> 00:45:46.280
+runs the algorithm machine algorithm so everywhere they try
+
+00:45:46.280 --> 00:45:49.240
+to segregate the data but in how many clusters we are going
+
+00:45:49.240 --> 00:45:53.520
+to divide based on the nature of data that is the primary
+
+00:45:53.520 --> 00:45:58.460
+part which i am supposed to find out so like i said so at
+
+00:45:58.460 --> 00:46:01.340
+the end of the day whenever we are talking about creating a
+
+00:46:01.340 --> 00:46:06.040
+number of cluster especially in case of a k mean right so
+
+00:46:06.040 --> 00:46:08.840
+there is something called as elbow method which is going to
+
+00:46:08.840 --> 00:46:13.160
+help you out uh in terms of finding out that what is a
+
+00:46:13.160 --> 00:46:17.620
+number of a k let's say hypothetically right hypothetically
+
+00:46:17.620 --> 00:46:21.780
+we are able to find out number of k so let's say i'm telling
+
+00:46:21.780 --> 00:46:25.380
+you that that number of k as of now hypothetically i'll show
+
+00:46:25.380 --> 00:46:29.180
+you how to find out that value of k but yeah k is equals to
+
+00:46:29.180 --> 00:46:33.120
+three means number of data number of bucket which i'm going
+
+00:46:33.120 --> 00:46:36.700
+to create is equals to three okay fine let's say i've said
+
+00:46:36.700 --> 00:46:44.120
+that then what so then what system will do it will define
+
+00:46:44.120 --> 00:46:48.320
+three random points let's say one point green point is here
+
+00:46:48.320 --> 00:46:53.720
+one green point is here and one green point is here let's
+
+00:46:53.720 --> 00:46:56.800
+say it system has defined okay fine so this is the point
+
+00:46:56.800 --> 00:47:00.360
+this is the point this is the point now what it will do it
+
+00:47:00.360 --> 00:47:05.160
+will start adding a data so this point will be having their
+
+00:47:05.160 --> 00:47:10.780
+coordinates and technically centroid so if there is only one
+
+00:47:10.780 --> 00:47:14.340
+point only one coordinate so centroid is going to be what a
+
+00:47:14.340 --> 00:47:16.880
+point itself the center point is going to be what centroid
+
+00:47:16.880 --> 00:47:20.220
+means centripetal. So centroid is going to be a point
+
+00:47:20.220 --> 00:47:26.220
+itself. Now what I will do so I will try to check which is
+
+00:47:26.220 --> 00:47:30.600
+the nearest one. So fine this is the nearest one. So now I
+
+00:47:30.600 --> 00:47:35.280
+will say that this is one cluster. Then for this data this
+
+00:47:35.280 --> 00:47:40.220
+is the nearest one another cluster. This is the data this is
+
+00:47:40.220 --> 00:47:43.000
+the nearest one another cluster. So k is equal to 3 I have
+
+00:47:43.000 --> 00:47:45.480
+started with that right. First of all i am trying to decide
+
+00:47:45.480 --> 00:47:49.120
+the game decision i have to make the one i have decided
+
+00:47:49.120 --> 00:47:51.320
+random points i have allocated and then with respect to that
+
+00:47:51.320 --> 00:47:54.440
+random points so i am trying to add the existing point so
+
+00:47:54.440 --> 00:47:59.460
+now again i will try to recalculate the centroid so here
+
+00:47:59.460 --> 00:48:03.020
+let's say we have two points so we have point a and we have
+
+00:48:03.020 --> 00:48:07.300
+point b so point a is 2 comma 3 point b is basically 4 comma
+
+00:48:07.300 --> 00:48:12.380
+5. So here centroid will be what? So 2 minus 4 of square
+
+00:48:12.380 --> 00:48:17.380
+plus 3 minus 5 of square of root square. So that is going to
+
+00:48:17.380 --> 00:48:24.220
+be centroid. That is going to be basically like a center
+
+00:48:24.220 --> 00:48:30.040
+point. So basically this is going to give you a distance in
+
+00:48:30.040 --> 00:48:36.740
+between and then basically centroid of a cluster you will be
+
+00:48:36.740 --> 00:48:41.300
+able to find out let me give that so this is going to give
+
+00:48:41.300 --> 00:48:48.700
+you the distance between these two points centroid will be
+
+00:48:48.700 --> 00:48:55.760
+somewhere in a middle right everyone yeah so
+
+00:49:07.310 --> 00:49:09.890
+if i have to find out the centroid so simple like you know
+
+00:49:09.890 --> 00:49:14.710
+distance and then divided by its average let
+
+00:49:18.480 --> 00:49:20.720
+me show you that am
+
+00:49:40.600 --> 00:49:45.080
+i audible guys i think there is a issue with my internet it
+
+00:49:45.080 --> 00:49:55.710
+seems yeah now it seems working yes it is working but it's
+
+00:49:55.710 --> 00:49:57.330
+slow audible
+
+00:50:03.280 --> 00:50:04.580
+so
+
+00:50:22.540 --> 00:50:26.840
+let's say we have like this triangle right so if we have
+
+00:50:26.840 --> 00:50:30.100
+this triangle so what is the center point center point is
+
+00:50:30.100 --> 00:50:36.580
+nothing but uh here you can try to basically from here to
+
+00:50:36.580 --> 00:50:40.480
+here then from here to here from here to here sorry it
+
+00:50:40.480 --> 00:50:45.220
+should meet at a particular point which it is not so this
+
+00:50:45.220 --> 00:50:51.740
+can't be center so we have a triangle now from here to here
+
+00:50:53.120 --> 00:51:00.180
+here to here and here to here so this is going to be the
+
+00:51:00.180 --> 00:51:03.460
+center point of these three points three points means we
+
+00:51:03.460 --> 00:51:06.900
+have like points over here we have points over here we have
+
+00:51:06.900 --> 00:51:09.920
+points over here for the straight line i mean like for these
+
+00:51:09.920 --> 00:51:12.880
+two points centroid is going to be this middle point right
+
+00:51:12.880 --> 00:51:16.080
+so always the middle point for a single dot centroid is
+
+00:51:16.080 --> 00:51:18.300
+going to be the coordinate itself i mean like for single
+
+00:51:18.300 --> 00:51:21.660
+point centroid is going to be the point itself in a very
+
+00:51:21.660 --> 00:51:24.200
+very simple manner so yeah everything will be having a
+
+00:51:24.200 --> 00:51:27.300
+centroid by the way so here what we try to do so we try to
+
+00:51:27.300 --> 00:51:33.700
+find out the centroid of a particular coordinate i mean like
+
+00:51:33.700 --> 00:51:36.220
+the way we will we'll keep on adding the data and then we'll
+
+00:51:36.220 --> 00:51:41.220
+keep on finding the centroid of a particular data set all
+
+00:51:41.220 --> 00:51:46.300
+the time so this is what we try to always do now
+
+00:51:48.630 --> 00:51:51.030
+so let's say we have assumed that that there are three
+
+00:51:51.030 --> 00:51:54.730
+points three random points we have started with now centroid
+
+00:51:54.730 --> 00:51:57.390
+will be able to find out for this one again for this one and
+
+00:51:57.390 --> 00:52:01.410
+again for this one a new centroid now from that new centroid
+
+00:52:01.410 --> 00:52:04.490
+again we'll try to check the nearest one now that will
+
+00:52:04.490 --> 00:52:08.010
+become the part of the cluster again next point we'll try to
+
+00:52:08.010 --> 00:52:10.550
+add that will become the point of the cluster now again next
+
+00:52:10.550 --> 00:52:13.850
+nearest point we'll try to add like that will point to the
+
+00:52:13.850 --> 00:52:17.350
+cluster so in and again we'll try to find out the centroid
+
+00:52:17.350 --> 00:52:20.890
+then again we'll try to add a new points again we'll try to
+
+00:52:20.890 --> 00:52:24.410
+add new points and create a centroid again we'll repeat the
+
+00:52:24.410 --> 00:52:27.430
+same task again we'll try to repeat the same task so we keep
+
+00:52:27.430 --> 00:52:31.970
+on repeating the same task unless and until all the data set
+
+00:52:31.970 --> 00:52:36.850
+that we have taken is not a part of one or the other cluster
+
+00:52:36.850 --> 00:52:40.110
+so cluster number one cluster number two and cluster number
+
+00:52:40.110 --> 00:52:43.390
+three remember that that cluster is something that we have
+
+00:52:43.390 --> 00:52:46.050
+found out in a beginning itself that how many number of
+
+00:52:46.050 --> 00:52:51.450
+clusters it is going to be. So logic is very simple try to
+
+00:52:51.450 --> 00:52:55.770
+find out the number of a cluster once you are able to find
+
+00:52:55.770 --> 00:53:00.450
+out a number of cluster then try to define a random points
+
+00:53:00.450 --> 00:53:04.550
+and then one by one one by one one by one so keep on adding
+
+00:53:04.550 --> 00:53:10.290
+each and every point in one or the other one. Now the
+
+00:53:10.290 --> 00:53:14.310
+question arrives over here that when i say i have this kind
+
+00:53:14.310 --> 00:53:20.710
+of a data and i'm trying to define k is equals to number of
+
+00:53:20.710 --> 00:53:24.590
+cluster is equals to three right so there is a possibility
+
+00:53:24.590 --> 00:53:28.890
+that all those random points will be near to each other
+
+00:53:28.890 --> 00:53:33.010
+right near to each other so there is a possibility that all
+
+00:53:33.010 --> 00:53:36.750
+the data even though i have defined k is equal to three even
+
+00:53:36.750 --> 00:53:39.050
+though i have defined k is equal to three there is a
+
+00:53:39.050 --> 00:53:42.890
+possibility that none of the data will be part of these two
+
+00:53:42.890 --> 00:53:46.630
+maybe every data because every data is coming closer to this
+
+00:53:46.630 --> 00:53:49.130
+one then again coming closer to this one then again let's
+
+00:53:49.130 --> 00:53:51.450
+say there is a centroid so coming closer to this one so
+
+00:53:51.450 --> 00:53:54.130
+every data will be a part of one big cluster and these two
+
+00:53:54.130 --> 00:53:57.930
+clusters although i have created three can become empty now
+
+00:53:57.930 --> 00:54:01.650
+this was a limitation this was the actual limitation because
+
+00:54:01.650 --> 00:54:05.790
+uh if if i'm going to define a random uh basically like you
+
+00:54:05.790 --> 00:54:10.270
+know these centroids so it is possible it is very much
+
+00:54:10.270 --> 00:54:13.450
+possible that i will end up getting into this kind of a
+
+00:54:13.450 --> 00:54:16.750
+situation so keeping that in our mind people have started
+
+00:54:16.750 --> 00:54:21.430
+talking about the new algorithm i mean like not very new in
+
+00:54:21.430 --> 00:54:25.050
+the same algorithm so they have improvised it and they said
+
+00:54:25.050 --> 00:54:31.450
+that that okay let's talk about k mean plus plus now it
+
+00:54:31.450 --> 00:54:36.010
+simply solves only one problem it says that that okay i will
+
+00:54:36.010 --> 00:54:41.490
+help you out in terms of initializing a centroid in a better
+
+00:54:41.490 --> 00:54:46.570
+manner so that the entire things will not be biased yeah so
+
+00:54:46.570 --> 00:54:49.630
+i'll try to help you out in terms of basically initializing
+
+00:54:49.630 --> 00:54:53.150
+means initializing a better centroid means this approach so
+
+00:54:53.150 --> 00:54:55.970
+i have initialized one over here one over here one over here
+
+00:54:55.970 --> 00:55:01.410
+so better centroid initialization is something that I can
+
+00:55:01.410 --> 00:55:05.230
+try to help you out and I will try to assign this centroid
+
+00:55:05.230 --> 00:55:07.870
+in such a way that with respect to the data and the
+
+00:55:07.870 --> 00:55:11.430
+dispersion of the data, centroid will never clutter in one
+
+00:55:11.430 --> 00:55:14.390
+single place, the initial one, because the entire algorithm
+
+00:55:14.390 --> 00:55:17.050
+depends upon the initial initialization itself. So this is
+
+00:55:17.050 --> 00:55:20.030
+where Kmin++ comes into picture which is going to rescue you
+
+00:55:20.030 --> 00:55:20.190
+out.
+
+00:55:23.510 --> 00:55:28.510
+Now, there is a things which comes into picture that when i
+
+00:55:28.510 --> 00:55:32.530
+say k is equal to 3 how do i say that right how i am trying
+
+00:55:32.530 --> 00:55:35.010
+to say that that this is the number of the cluster we are
+
+00:55:35.010 --> 00:55:37.230
+supposed to find out or we are supposed to basically
+
+00:55:37.230 --> 00:55:41.830
+initialize now to understand this entire cluster number of
+
+00:55:41.830 --> 00:55:44.970
+cluster that we try to find out right so you have to
+
+00:55:44.970 --> 00:55:48.050
+understand something called as elbow method there is
+
+00:55:48.050 --> 00:55:50.310
+something called as elbow method and there is something
+
+00:55:50.310 --> 00:55:55.230
+called as uh you know wcss within cluster, summation of a
+
+00:55:55.230 --> 00:55:58.370
+square. So let's try to understand it. I'll try to take a
+
+00:55:58.370 --> 00:56:01.010
+data and with respect to a data, so I'm going to explain you
+
+00:56:01.010 --> 00:56:05.470
+this one. A very simple equation to understand. So let's
+
+00:56:05.470 --> 00:56:08.670
+say, and even practically when I'm going to show you, I can
+
+00:56:08.670 --> 00:56:12.010
+show you the same part. Because this is where the k is equal
+
+00:56:12.010 --> 00:56:15.150
+to 3 or k is equal to 2 which I say come, like you will be
+
+00:56:15.150 --> 00:56:21.320
+able to get it. Elbow method. I believe we all have an
+
+00:56:21.320 --> 00:56:25.700
+elbow, right? Elbow. So it's the same, basically. So here,
+
+00:56:25.900 --> 00:56:27.620
+let's say I am going to consider a data.
+
+00:56:35.910 --> 00:56:43.810
+So we have a student. We have a study hour. And we have
+
+00:56:43.810 --> 00:56:53.430
+basically marks. So student A, B, C, D, E, F, G, H, I. So
+
+00:56:53.430 --> 00:56:58.030
+these are the students, let's say I have. And then the study
+
+00:56:58.030 --> 00:57:08.470
+hour is, let's say like 1, 2, 2, 3, 8, 9. 10 11 20 22 their
+
+00:57:08.470 --> 00:57:22.850
+marks is basically 10 12 15 18 80 82 85 90 30 35 so this is
+
+00:57:22.850 --> 00:57:26.350
+their marks now someone is asking me that you have to divide
+
+00:57:26.350 --> 00:57:29.170
+this student into a multiple groups so that bad student will
+
+00:57:29.170 --> 00:57:31.190
+come together and then good student will come together or
+
+00:57:31.190 --> 00:57:34.730
+maybe like a bad average good something like that right so
+
+00:57:34.730 --> 00:57:36.850
+it simply means that someone has asked me that create a
+
+00:57:36.850 --> 00:57:38.410
+three different different kind of a bucket or three
+
+00:57:38.410 --> 00:57:40.750
+different kind of a groups based on their study hours and
+
+00:57:40.750 --> 00:57:44.590
+based on the marks that they are going to obtain okay fine
+
+00:57:44.590 --> 00:57:50.330
+so what i will do i will try to think that let's say there
+
+00:57:50.330 --> 00:57:53.210
+is only one group means everyone is in the same class right
+
+00:57:53.210 --> 00:57:55.430
+there is only one class everyone is in the same class so k
+
+00:57:55.430 --> 00:57:58.750
+is equal to one that simply means that k is equal to 1 so i
+
+00:57:58.750 --> 00:58:02.510
+will try to find out the average study hours yeah so average
+
+00:58:02.510 --> 00:58:06.750
+study hours let's say so for study hours average so if
+
+00:58:06.750 --> 00:58:09.070
+you're going to do 1 plus 2 plus 2 plus 3 plus 8 plus 9 on
+
+00:58:09.070 --> 00:58:11.790
+all those things so average study hour for this 10 student
+
+00:58:11.790 --> 00:58:15.410
+is going to be let's say 8.8 this is the average study hour
+
+00:58:15.410 --> 00:58:20.370
+just average of study hour that's it now average of marks so
+
+00:58:20.370 --> 00:58:23.750
+i'm calling that as a y so average of marks so average of
+
+00:58:23.750 --> 00:58:26.230
+marks is going to be 10 plus 12 plus 15 and all those things
+
+00:58:26.230 --> 00:58:32.010
+so it's going to be 45.7 right it's pre-calculated 45.7 fine
+
+00:58:32.010 --> 00:58:37.110
+now if so this is my x this is my y means i have two
+
+00:58:37.110 --> 00:58:42.870
+coordinate 8.8 and then 45.7 okay this is the coordinate now
+
+00:58:42.870 --> 00:58:48.750
+here basically this is the coordinate this is the point k is
+
+00:58:48.750 --> 00:58:52.270
+equals to one and this is the initial point for me means one
+
+00:58:52.270 --> 00:58:56.050
+single dot all the 10 points have their coordinate 1 comma
+
+00:58:56.050 --> 00:59:00.250
+10 2 comma 12 2 comma 15 3 comma 18 so we have total 10
+
+00:59:00.250 --> 00:59:02.590
+points right if you are going to consider we have 10 points
+
+00:59:02.590 --> 00:59:07.250
+10 points data 10 points data right around this one and this
+
+00:59:07.250 --> 00:59:11.650
+is basically my average the average this is the k which i
+
+00:59:11.650 --> 00:59:15.570
+have defined this is the average so now here the very first
+
+00:59:15.570 --> 00:59:21.330
+point 1 comma 10 right so if i'm going to ask if i'm going
+
+00:59:21.330 --> 00:59:26.090
+to like you know ingest that into this centroid right so a
+
+00:59:26.090 --> 00:59:29.270
+very simple thing is that that i will try to find out a
+
+00:59:29.270 --> 00:59:33.590
+distance between this and the very very first point so
+
+00:59:33.590 --> 00:59:40.610
+distance between point a and mean point is nothing but 1
+
+00:59:40.610 --> 00:59:48.790
+minus or 8.8 minus 8.8 minus 1 of a square plus 45.7 minus
+
+00:59:48.790 --> 00:59:53.190
+10 of a square of root right so this is going to be the
+
+00:59:53.190 --> 00:59:57.270
+distance between the average point the k is equal to 1 at
+
+00:59:57.270 --> 01:00:01.090
+centroid which I have defined and then this point a so now
+
+01:00:01.090 --> 01:00:08.970
+this distance is 133.33 okay fine now here for
+
+01:00:11.720 --> 01:00:17.900
+every point between this 2 and 12 2 and 15 3 and 18 8 and 18
+
+01:00:17.900 --> 01:00:21.760
+so for every point we are going to calculate the distance
+
+01:00:21.760 --> 01:00:24.020
+means this distance this distance this distance this
+
+01:00:24.020 --> 01:00:28.320
+distance this this this this this this every so this with
+
+01:00:28.320 --> 01:00:31.160
+center point i'm calculating distance of each and everyone
+
+01:00:31.160 --> 01:00:39.220
+so that is something called as sse sse right so sse so
+
+01:00:39.220 --> 01:00:42.780
+summation of a square of this entire a distance right so
+
+01:00:42.780 --> 01:00:45.560
+summation of sum of a square like a you know you can say
+
+01:00:45.560 --> 01:00:51.660
+even an error so basically like sse so my sse pre-calculated
+
+01:00:51.660 --> 01:00:58.620
+manner it is going to be approximately this much so 14500 if
+
+01:00:58.620 --> 01:01:01.480
+i'm going to calculate the distance of every point with the
+
+01:01:01.480 --> 01:01:09.000
+middle point that i have calculated okay fine so here if we
+
+01:01:09.000 --> 01:01:14.580
+have a sse right that we are able to find out and we have we
+
+01:01:14.580 --> 01:01:18.460
+have basically like a this one for k is equals to one now
+
+01:01:18.460 --> 01:01:23.160
+let's say i'm calling k is equals to two yeah k is equals to
+
+01:01:23.160 --> 01:01:27.100
+two it simply means that that we have two cluster yeah we
+
+01:01:27.100 --> 01:01:30.280
+have technically a two cluster so technically two cluster
+
+01:01:30.280 --> 01:01:34.360
+means half of the data is part of one and how the data is
+
+01:01:34.360 --> 01:01:37.940
+part of the other one it depends upon what so that depends
+
+01:01:37.940 --> 01:01:43.060
+upon a randomly assigned k and then start setting their
+
+01:01:43.060 --> 01:01:46.100
+values so there will be one cluster and there will be
+
+01:01:46.100 --> 01:01:48.700
+another cluster let's say we have like five five data in
+
+01:01:48.700 --> 01:01:53.020
+both so again ssc of this ssc of this i'm going to find out
+
+01:01:53.020 --> 01:01:56.040
+summation of a squared error i'm going to find out for k is
+
+01:01:56.040 --> 01:02:01.320
+equals to two let's suppose same thing so let's say my sse
+
+01:02:01.320 --> 01:02:05.780
+is basically for k is equals to two but we have two cluster
+
+01:02:05.780 --> 01:02:09.620
+is equals to five two zero zero now for k is equals to three
+
+01:02:09.620 --> 01:02:13.360
+right we have three cluster so we have three cluster one
+
+01:02:13.360 --> 01:02:16.080
+cluster we have four points one cluster we have three points
+
+01:02:16.080 --> 01:02:19.480
+another cluster we have three point total ten points so we
+
+01:02:19.480 --> 01:02:23.040
+have one two and three clusters so again ssc of this as so
+
+01:02:23.040 --> 01:02:26.620
+this summation of ssc is nothing but summation of ssc
+
+01:02:26.620 --> 01:02:29.900
+summation of a squared error is uh let's suppose for k is
+
+01:02:29.900 --> 01:02:34.200
+equal to three i'm going to get nine hundred and fifty okay
+
+01:02:34.200 --> 01:02:37.660
+now for k is equals to four randomly four point i have
+
+01:02:37.660 --> 01:02:40.360
+defined and then like you know we have four cluster in one
+
+01:02:40.360 --> 01:02:45.760
+we have 3, 1 we have like a 3, 1 we have 2, only 2 and
+
+01:02:45.760 --> 01:02:49.020
+another we have 2. So, 4 cluster we have let us suppose
+
+01:02:49.020 --> 01:02:52.620
+created and then SSC of this cluster, this cluster, this
+
+01:02:52.620 --> 01:02:56.480
+cluster, this cluster. So, SSC summation of like a whole let
+
+01:02:56.480 --> 01:03:00.260
+us say it is going to be 780.
+
+01:03:00.960 --> 01:03:03.060
+These are the representational things I am trying to tell
+
+01:03:03.060 --> 01:03:07.860
+you. So, k is equals to let us say 5. So, SSC is going to be
+
+01:03:07.860 --> 01:03:14.940
+670. Now tell me one thing guys. When k is equal to 10, what
+
+01:03:14.940 --> 01:03:16.220
+is going to be my SSC?
+
+01:03:19.030 --> 01:03:21.890
+When k is equal to 10, what is going to be my SSC means
+
+01:03:21.890 --> 01:03:24.750
+number of cluster is equal to 10. And I have data is also
+
+01:03:24.750 --> 01:03:32.890
+10. Yeah. My number of data is 10 and my summation of square
+
+01:03:32.890 --> 01:03:39.230
+is 10. Sorry, k is equals to 10. In that case, can I say
+
+01:03:39.230 --> 01:03:41.630
+that the SSC is going to be 0?
+
+01:03:44.580 --> 01:03:48.480
+1340 maybe. How it is going to be 1340? See, SSC is what?
+
+01:03:48.720 --> 01:03:52.080
+Let's say I'm creating a cluster and inside that cluster,
+
+01:03:52.220 --> 01:03:55.340
+these are the points. So this distance, this distance, this
+
+01:03:55.340 --> 01:03:58.000
+distance, this distance, this distance. This is a SSC for
+
+01:03:58.000 --> 01:04:00.460
+this one. Likewise, if I have a multiple cluster, summation
+
+01:04:00.460 --> 01:04:05.600
+of summation of clusters right now if this point itself is a
+
+01:04:05.600 --> 01:04:09.420
+cluster this point means 10 points 10 cluster means all the
+
+01:04:09.420 --> 01:04:12.260
+point is a cluster in itself and every cluster is having
+
+01:04:12.260 --> 01:04:15.580
+only one point so distance of this point to this point is
+
+01:04:15.580 --> 01:04:23.620
+what zero so zero basically so as your number of k will go
+
+01:04:23.620 --> 01:04:27.360
+towards a number of a data point which is available it will
+
+01:04:27.360 --> 01:04:29.440
+become zero i mean like number cluster is equal to number of
+
+01:04:29.440 --> 01:04:33.340
+data points means there is no cluster very very simple right
+
+01:04:33.340 --> 01:04:36.500
+so ssc is going to be zero so what do we do so we try to
+
+01:04:36.500 --> 01:04:41.160
+find out this ssc right by taking k123456 all those points
+
+01:04:41.160 --> 01:04:43.960
+starting from one right so starting from one two three four
+
+01:04:43.960 --> 01:04:47.380
+five six and so on we try to calculate it now once this will
+
+01:04:47.380 --> 01:04:50.180
+be done you must have seen the pattern even in calculation
+
+01:04:50.180 --> 01:04:53.440
+that it's decreasing distance is decreasing a summation of
+
+01:04:53.440 --> 01:04:56.380
+total distance is decreasing points are coming like closer
+
+01:04:56.380 --> 01:04:59.480
+i'm like number of clusters is increasing so basically and
+
+01:04:59.480 --> 01:05:01.900
+when number of clusters is equal to number of data this will
+
+01:05:01.900 --> 01:05:07.500
+become zero okay now what we do we try to plot the graph we
+
+01:05:07.500 --> 01:05:15.020
+try to plot the graph so on x-axis wcss within
+
+01:05:16.940 --> 01:05:20.400
+cluster summation of square within cluster right within
+
+01:05:20.400 --> 01:05:23.700
+cluster summation of square so whatsoever cluster that have
+
+01:05:23.700 --> 01:05:27.720
+summation of a square and then over here we start with zero
+
+01:05:27.720 --> 01:05:30.860
+then one cluster two cluster three cluster four cluster five
+
+01:05:30.860 --> 01:05:34.220
+cluster six cluster and so on right number of data parts and
+
+01:05:34.220 --> 01:05:38.780
+then on this one so let's say uh we have like you know these
+
+01:05:38.780 --> 01:05:42.680
+points uh we can we can try to like uh keep it so let's say
+
+01:05:42.680 --> 01:05:47.000
+when like uh k is equals to uh let's say one cluster is
+
+01:05:47.000 --> 01:05:50.200
+equals to one the distance will be maximum at that point of
+
+01:05:50.200 --> 01:05:54.240
+a time. So one, four, 500, let's say we have, and then we
+
+01:05:54.240 --> 01:05:59.280
+have like a five, two, zero, zero. Then we have 950. Then we
+
+01:05:59.280 --> 01:06:07.820
+have like a 780. Then we have 670. Then we have 590. So when
+
+01:06:07.820 --> 01:06:09.440
+we have like, you know,
+
+01:06:12.580 --> 01:06:20.050
+cluster is equals to, sorry, i have written this in a
+
+01:06:20.050 --> 01:06:27.610
+complete wrong order max will come obviously here one four
+
+01:06:27.610 --> 01:06:30.910
+five hundred and then what is the number let's say twelve
+
+01:06:30.910 --> 01:06:35.590
+thousand or hundred we have let me write the exact number
+
+01:06:37.100 --> 01:06:47.880
+then we have let's say like a 950 then we have 780 then we
+
+01:06:47.880 --> 01:06:55.460
+have 670 then we have 590. So when we had cluster is equals
+
+01:06:55.460 --> 01:06:56.040
+to 1,
+
+01:06:59.220 --> 01:07:02.380
+cluster is equal to 1, distance was this one. Take a point.
+
+01:07:02.980 --> 01:07:05.800
+When cluster is equal to 2, distance was this. Cluster is
+
+01:07:05.800 --> 01:07:08.420
+equal to 3, distance is this. Cluster is equal to 5,
+
+01:07:08.600 --> 01:07:11.940
+distance is this. Cluster is equal to 4, sorry. Cluster is
+
+01:07:11.940 --> 01:07:13.460
+equal to 5, distance is this. Cluster is equal to 6,
+
+01:07:13.560 --> 01:07:16.760
+distance is this one. And then when cluster is equals to
+
+01:07:16.760 --> 01:07:20.680
+number of data distance will tends to technically zero so
+
+01:07:20.680 --> 01:07:25.880
+now this is going to create a bend a elbow so where you will
+
+01:07:25.880 --> 01:07:30.160
+be able to see a sharp divergence so now that just cut that
+
+01:07:30.160 --> 01:07:33.060
+point with the x-axis so for example this is cutting at four
+
+01:07:33.060 --> 01:07:38.780
+right this is the value of k k is equals to basically four
+
+01:07:38.780 --> 01:07:43.960
+because here diverging our data sharply so this is a number
+
+01:07:43.960 --> 01:07:47.180
+of a cluster basically we try to say so this is how we try
+
+01:07:47.180 --> 01:07:50.620
+to find out a value of a k inside a k mean this entire
+
+01:07:50.620 --> 01:07:54.020
+approach is called as elbow method to do a elbow method we
+
+01:07:54.020 --> 01:07:57.460
+have to find out wcss within cluster summation of the square
+
+01:07:57.460 --> 01:07:59.520
+within plus the summation of the square is nothing but start
+
+01:07:59.520 --> 01:08:02.340
+from case equal to one two four one four two four three four
+
+01:08:02.340 --> 01:08:06.220
+five four six for everything the summation of a square you
+
+01:08:06.220 --> 01:08:10.260
+have to obtain for a particular like a cluster whatsoever
+
+01:08:10.260 --> 01:08:12.800
+number of cluster you are going to make so this is basically
+
+01:08:12.800 --> 01:08:15.980
+a claim in clustering algorithm guys where we find k first
+
+01:08:15.980 --> 01:08:21.860
+and then we try to basically like segregate the data now in
+
+01:08:21.860 --> 01:08:24.940
+the same line you will be able to find out an algorithm
+
+01:08:24.940 --> 01:08:29.420
+called as dbscan let's talk about that very important
+
+01:08:29.420 --> 01:08:34.680
+algorithm and widely used everywhere i would say especially
+
+01:08:34.680 --> 01:08:37.660
+whenever we have to find out anomalies and we have to find
+
+01:08:37.660 --> 01:08:41.920
+out the outliers so their dbs scan is the must outlier
+
+01:08:41.920 --> 01:08:44.120
+detection it's also called the outline detection algorithm
+
+01:08:44.120 --> 01:08:48.120
+so there is something called as like i said a dbs scan
+
+01:08:48.120 --> 01:08:51.720
+algorithm so let's try to understand that dbs can so
+
+01:08:56.870 --> 01:08:59.070
+db scan
+
+01:09:03.550 --> 01:09:06.230
+the full form is basically what so full form is a density
+
+01:09:06.230 --> 01:09:06.650
+based
+
+01:09:12.570 --> 01:09:14.690
+density based spatial
+
+01:09:19.330 --> 01:09:20.870
+clustering of
+
+01:09:31.520 --> 01:09:37.700
+application with noise little bit like you know lane the
+
+01:09:37.700 --> 01:09:43.300
+name in a full form. D-N-S-I-T-Y. So density-based spatial
+
+01:09:43.300 --> 01:09:45.800
+clustering of application with a noise. So this is something
+
+01:09:45.800 --> 01:09:49.960
+called as DB scan. One of the very important powerful
+
+01:09:49.960 --> 01:09:53.720
+algorithm for doing a clustering. So again, there was a
+
+01:09:53.720 --> 01:09:56.580
+drawback with respect to a K mean. We have to find out the
+
+01:09:56.580 --> 01:10:00.560
+value of K first and then we have to move. Then we have to
+
+01:10:00.560 --> 01:10:03.440
+approach. Otherwise, we will not be able to approach. And
+
+01:10:03.440 --> 01:10:05.980
+again, that was an experimental one. Plus, it was not
+
+01:10:05.980 --> 01:10:09.320
+supposed to work with all kind of data. Generally, it works
+
+01:10:09.320 --> 01:10:12.380
+well with the rounded shape of the data. But data can be of
+
+01:10:12.380 --> 01:10:15.980
+any shape that we are going to get. So this is where this
+
+01:10:15.980 --> 01:10:19.180
+DVS scan comes into picture. It says that, okay, I can solve
+
+01:10:19.180 --> 01:10:23.940
+the problem, right? So basically, K-mean algorithm was
+
+01:10:23.940 --> 01:10:28.580
+trying to check the distance of a centroid and the data. And
+
+01:10:28.580 --> 01:10:31.360
+based on that, it is trying to allocate a new data to the
+
+01:10:31.360 --> 01:10:34.160
+cluster. Basically, you will belong to this cluster or that
+
+01:10:34.160 --> 01:10:39.140
+cluster. what dbscan does so dbscan try to work on the
+
+01:10:39.140 --> 01:10:43.260
+density as the very first word suggests it works on the
+
+01:10:43.260 --> 01:10:48.780
+density i mean how many data are available in what range
+
+01:10:48.780 --> 01:10:52.420
+basically so based on density of the data based on the
+
+01:10:52.420 --> 01:10:56.760
+population of the data in a particular radius it is going to
+
+01:10:56.760 --> 01:11:00.820
+create a cluster or it is not going to create a cluster so
+
+01:11:00.820 --> 01:11:03.300
+there are couple of points you will be able to find out
+
+01:11:03.300 --> 01:11:06.200
+inside a devious scan which will help you out to understand
+
+01:11:06.200 --> 01:11:09.840
+so point number a is something called as epsilon
+
+01:11:12.400 --> 01:11:19.840
+epsilon point number b over here is a minimum points point
+
+01:11:19.840 --> 01:11:26.260
+number c over here is basically a core point point number d
+
+01:11:26.260 --> 01:11:31.000
+over here is something called as border point so likewise
+
+01:11:31.000 --> 01:11:42.020
+let me write point number c core point point number d border
+
+01:11:43.340 --> 01:11:50.840
+point point number e noise point the other just a term but
+
+01:11:50.840 --> 01:11:54.660
+yeah very relatable i would say so density based clustering
+
+01:11:54.660 --> 01:12:01.400
+algorithm it says basically that okay so let's say you have
+
+01:12:01.400 --> 01:12:06.420
+this point now inside this point from this distance if i'm
+
+01:12:06.420 --> 01:12:11.760
+drawing this circle whatsoever data comes into this will
+
+01:12:11.760 --> 01:12:16.280
+belongs to this particular cluster simple right this is what
+
+01:12:16.280 --> 01:12:19.580
+this density based spatial clustering things comes into
+
+01:12:19.580 --> 01:12:23.640
+picture so this is the core philosophy over here that okay
+
+01:12:24.360 --> 01:12:27.680
+this is basically like a circle i have drawn from a
+
+01:12:27.680 --> 01:12:31.180
+particular point by taking this radius now when i say this
+
+01:12:31.180 --> 01:12:34.680
+radius this is actually called as epsilon so from this point
+
+01:12:34.680 --> 01:12:40.140
+at what radius right at what radius then there is something
+
+01:12:40.140 --> 01:12:44.340
+called as minimum point now how many point should be the
+
+01:12:44.340 --> 01:12:48.160
+minimum one to form a cluster there is a possibility that
+
+01:12:48.160 --> 01:12:52.400
+from this point at this radius i have drawn a circle but
+
+01:12:52.400 --> 01:12:56.040
+there is no point within it except this point the point only
+
+01:12:56.040 --> 01:13:00.540
+like the point that we have right i mean like then it will
+
+01:13:00.540 --> 01:13:04.300
+become a cluster a simple isolated cluster in itself right i
+
+01:13:04.300 --> 01:13:07.240
+mean like the cluster with only one points technically which
+
+01:13:07.240 --> 01:13:10.320
+i don't want so keeping that in a mind there is a minimum
+
+01:13:10.320 --> 01:13:14.580
+point which has been defined that if at minimum any number
+
+01:13:14.580 --> 01:13:18.120
+of point will be available within this radius then only i
+
+01:13:18.120 --> 01:13:22.800
+will be considering that as a cluster right minimum point so
+
+01:13:22.800 --> 01:13:26.880
+maybe three points a one two three now it is qualified for a
+
+01:13:26.880 --> 01:13:29.740
+cluster now i can call this as a cluster if it is going to
+
+01:13:29.740 --> 01:13:33.360
+satisfy so this is where minimum points comes into picture
+
+01:13:33.360 --> 01:13:36.660
+then there is something called as core point which i have
+
+01:13:36.660 --> 01:13:40.420
+mentioned over here so core point is nothing but right core
+
+01:13:40.420 --> 01:13:46.720
+point is nothing but uh enough neighbor right so suppose we
+
+01:13:46.720 --> 01:13:50.580
+have basically like a minimum point i said n is equals to
+
+01:13:50.580 --> 01:13:53.380
+three means i'm saying that that
+
+01:13:56.180 --> 01:14:00.020
+basically this number of minimum points should be three
+
+01:14:00.020 --> 01:14:05.260
+inside this circle to prove or to make it as a cluster right
+
+01:14:05.260 --> 01:14:10.580
+to make it as a cluster then there are let's say like uh you
+
+01:14:10.580 --> 01:14:18.300
+know more point into it right more point into it so the more
+
+01:14:18.300 --> 01:14:21.480
+point that we have which is already became the i'm like
+
+01:14:21.480 --> 01:14:24.240
+minimum point was three now let's say we have 10 right we
+
+01:14:24.240 --> 01:14:28.860
+have 10 within this particular radius so here any point
+
+01:14:28.860 --> 01:14:33.340
+within this particular one is called as what it's called as
+
+01:14:33.340 --> 01:14:36.820
+a core point so every point will become automatically a core
+
+01:14:36.820 --> 01:14:40.620
+point means it's a part of one cluster so core point border
+
+01:14:40.620 --> 01:14:45.580
+point so let's say there is a point over here right there is
+
+01:14:45.580 --> 01:14:50.760
+a point over here now from this particular point again you
+
+01:14:50.760 --> 01:14:53.520
+are trying to follow the same philosophy and drawing a
+
+01:14:53.520 --> 01:14:58.720
+circle but from this point you are not able to include any
+
+01:14:58.720 --> 01:15:01.440
+point apart from the point which has been included already
+
+01:15:01.440 --> 01:15:06.180
+means now you are not able to expand your cluster that's
+
+01:15:06.180 --> 01:15:12.240
+called as border point so border point noise point let's say
+
+01:15:12.240 --> 01:15:16.300
+i have a point over here i was trying to form a cluster i
+
+01:15:16.300 --> 01:15:19.780
+was trying to apply this theory again and again and again
+
+01:15:19.780 --> 01:15:24.780
+but this point is too too far and this point is not able to
+
+01:15:24.780 --> 01:15:28.080
+become a part of any points is technically called as noise
+
+01:15:28.080 --> 01:15:32.760
+point means outlier point so these are the five term you
+
+01:15:32.760 --> 01:15:36.660
+will be able to see guys uh in terms of a dbs scan right in
+
+01:15:36.660 --> 01:15:39.740
+terms of a dbs scan only these five uh terms if you
+
+01:15:39.740 --> 01:15:42.280
+understand these five terms you will be able to build the
+
+01:15:42.280 --> 01:15:45.940
+entire things so let's do it right very easy algorithm i'll
+
+01:15:45.940 --> 01:15:52.780
+try to explain you so let me do one thing let me draw some
+
+01:15:52.780 --> 01:15:55.080
+points yeah some points
+
+01:15:58.370 --> 01:16:01.810
+no let me use same color okay
+
+01:16:04.820 --> 01:16:08.440
+i'm trying to like keep this point separate now let's say
+
+01:16:08.440 --> 01:16:12.300
+you will start doing a clustering right you will start doing
+
+01:16:12.300 --> 01:16:16.320
+a clustering so you have to define two things one is epsilon
+
+01:16:16.320 --> 01:16:19.760
+so let's say epsilon is equals to 0.5 is a relative radius i
+
+01:16:19.760 --> 01:16:24.840
+have taken and then minimum point minimum point so i'm
+
+01:16:24.840 --> 01:16:28.140
+saying that okay fine so in one circle if i will be having
+
+01:16:28.140 --> 01:16:31.140
+minimum three points so i will declare that as a cluster
+
+01:16:31.140 --> 01:16:34.060
+okay cool only these two things are required and these two
+
+01:16:34.060 --> 01:16:39.480
+are hyper parameter means you can tune it so here i will
+
+01:16:39.480 --> 01:16:42.040
+start with randomly this point i can start from anywhere
+
+01:16:42.040 --> 01:16:44.320
+actually any of these points right whatsoever data point
+
+01:16:44.320 --> 01:16:47.620
+that i have so i will start with this one let's say epsilon
+
+01:16:47.620 --> 01:16:52.780
+means radius is this minimum point is three so radius and
+
+01:16:52.780 --> 01:16:59.560
+then i will draw the circle can i say this now this is
+
+01:16:59.560 --> 01:17:06.140
+qualified for a cluster so i just started building a cluster
+
+01:17:06.140 --> 01:17:09.720
+right i've started just building a cluster so can i say that
+
+01:17:09.720 --> 01:17:12.480
+now this is qualified for the cluster because to get a get
+
+01:17:12.480 --> 01:17:15.300
+qualified for the cluster minimum point should be three
+
+01:17:15.300 --> 01:17:19.100
+within this epsilon within this radius okay fine qualified
+
+01:17:19.100 --> 01:17:22.980
+now this point this point and this point will become a core
+
+01:17:22.980 --> 01:17:27.200
+point for what for this particular cluster okay we have to
+
+01:17:27.200 --> 01:17:29.380
+expand because there are so many points which we have to
+
+01:17:29.380 --> 01:17:35.860
+divide so i will try to again draw right again draw against
+
+01:17:35.860 --> 01:17:39.960
+with this particular this point let's say i have drawn now
+
+01:17:39.960 --> 01:17:43.340
+one two three four okay fine so these four points uh so
+
+01:17:43.340 --> 01:17:46.880
+minimum point was three it is four so now this is this is
+
+01:17:46.880 --> 01:17:48.960
+one cluster the two circle if you're going to combine it
+
+01:17:48.960 --> 01:17:51.660
+means this one two three four point all this four point are
+
+01:17:51.660 --> 01:17:54.740
+part of the same cluster yeah same cluster expand more right
+
+01:17:54.740 --> 01:17:58.460
+expand more so let's say i'm taking these points every point
+
+01:17:58.460 --> 01:18:01.000
+you have to consider and every point should follow the same
+
+01:18:01.000 --> 01:18:07.020
+theory now i'm trying to basically draw this line but within
+
+01:18:07.020 --> 01:18:11.860
+this line none of the new data i'm able to capture so means
+
+01:18:11.860 --> 01:18:14.680
+technically beyond this i'm not able to expand anything so
+
+01:18:14.680 --> 01:18:17.120
+now this will become my border point let's say because i'm
+
+01:18:17.120 --> 01:18:21.500
+not able to expand further then again same i have drawn over
+
+01:18:21.500 --> 01:18:26.000
+here so now i'm not able to expand it further what will
+
+01:18:26.000 --> 01:18:29.760
+happen so now my curve like my basically like a cluster
+
+01:18:29.760 --> 01:18:33.700
+formation will stop so now as a part of one cluster this
+
+01:18:33.700 --> 01:18:37.060
+point this point this point and this point will become the
+
+01:18:37.060 --> 01:18:41.400
+part of one cluster one cluster very simple so many points
+
+01:18:41.400 --> 01:18:44.740
+are left still left so i can i can claim that that okay fine
+
+01:18:44.740 --> 01:18:47.440
+so whole and so this is going to be my cluster one so
+
+01:18:47.440 --> 01:18:51.200
+cluster c1 let's suppose so it has built one cluster for me
+
+01:18:51.200 --> 01:18:56.880
+it has built one cluster for me c1 so many points still out
+
+01:18:56.880 --> 01:18:59.760
+there what i will do let's say i'm starting with this point
+
+01:18:59.760 --> 01:19:06.230
+uh so epsilon minimum point three no this can't form the
+
+01:19:06.230 --> 01:19:12.030
+cluster now let me start with this one right so only two
+
+01:19:12.030 --> 01:19:15.910
+point let's say we are here so it's there so again this can
+
+01:19:15.910 --> 01:19:16.810
+start forming the cluster
+
+01:19:19.980 --> 01:19:23.660
+only two so no border point two
+
+01:19:25.930 --> 01:19:30.770
+so it is not able to basically form or let's say it is able
+
+01:19:30.770 --> 01:19:34.210
+to form the cluster so i'm considering this as well if it is
+
+01:19:34.210 --> 01:19:36.290
+passing through this one so three which is my minimum point
+
+01:19:36.290 --> 01:19:40.510
+so it is able to form the cluster now so let's say three
+
+01:19:40.510 --> 01:19:44.550
+points it is able to form the cluster so let's say now we
+
+01:19:44.550 --> 01:19:47.430
+are able to form one more cluster yeah one more cluster the
+
+01:19:47.430 --> 01:19:50.370
+green cluster and then we have like this yellow cluster yeah
+
+01:19:50.370 --> 01:19:56.810
+now this points this points this point these points are not
+
+01:19:56.810 --> 01:20:00.690
+a part of any cluster by this rule epsilon 0.5 minimum
+
+01:20:00.690 --> 01:20:04.810
+points equal to 3 now all of this will become a noise point
+
+01:20:04.810 --> 01:20:07.850
+so i will try to form let's suppose one cluster here, one
+
+01:20:07.850 --> 01:20:10.130
+cluster here, one cluster here. So in total, I'm able to
+
+01:20:10.130 --> 01:20:13.510
+form three clusters. So it will keep on expanding unless and
+
+01:20:13.510 --> 01:20:16.610
+until this condition will satisfy within this radius. And it
+
+01:20:16.610 --> 01:20:19.030
+will check for every points, basically every points, right,
+
+01:20:19.150 --> 01:20:22.390
+every points. So in this manner, let's say I'm able to form
+
+01:20:22.390 --> 01:20:26.330
+C1, C2, C3, there are some outliers points, which I'm able
+
+01:20:26.330 --> 01:20:29.690
+to get it. So this is how DVScan works. It always try to
+
+01:20:29.690 --> 01:20:33.490
+check within the radius, this main data is available or not
+
+01:20:33.490 --> 01:20:36.810
+if it is available it will become a part of core points
+
+01:20:36.810 --> 01:20:39.590
+means it will part become the part of that particular
+
+01:20:39.590 --> 01:20:42.890
+cluster and it will keep on checking it will never stop
+
+01:20:42.890 --> 01:20:47.130
+unless and until all the data it will not be able to check
+
+01:20:47.130 --> 01:20:53.110
+so here in this situation we never try to dictate the number
+
+01:20:53.110 --> 01:20:59.700
+of cluster beforehand yeah my race is saying that not able
+
+01:20:59.700 --> 01:21:02.300
+to see anything on board is it check
+
+01:21:05.050 --> 01:21:09.510
+whether you are looking at character screen or not i think
+
+01:21:09.510 --> 01:21:10.410
+it's visible right guys
+
+01:21:17.040 --> 01:21:22.120
+yes yeah so this is basically called as guys uh i would say
+
+01:21:22.120 --> 01:21:27.580
+like you know the density based clustering algorithm very
+
+01:21:27.580 --> 01:21:32.800
+easy but very very sophisticated algorithm uh in terms of
+
+01:21:32.800 --> 01:21:37.380
+you know its entire working mechanism then then there is
+
+01:21:37.380 --> 01:21:39.800
+another algorithm you will be able to find out which is
+
+01:21:39.800 --> 01:21:43.680
+called as agglomerative clustering algorithm or hc basically
+
+01:21:43.680 --> 01:21:48.540
+hierarchical clustering algorithm let's talk about that so
+
+01:21:48.540 --> 01:21:51.560
+here it's again very easy so all the clustering algorithms
+
+01:21:51.560 --> 01:21:55.980
+are easy to understand hc or i can say hierarchical
+
+01:22:01.030 --> 01:22:01.890
+hierarchical
+
+01:22:08.030 --> 01:22:11.390
+clustering algorithm it's a clustering we can say in other
+
+01:22:11.390 --> 01:22:14.150
+words we also say or we also call this algorithm as a
+
+01:22:14.150 --> 01:22:17.990
+agglomerative algorithm easy to understand so basically what
+
+01:22:17.990 --> 01:22:21.330
+it does whatsoever point is given to you for example in a
+
+01:22:21.330 --> 01:22:24.270
+very simple way if i have to explain it to you so let's say
+
+01:22:24.270 --> 01:22:33.030
+we have a point given to me one two three four five six
+
+01:22:33.030 --> 01:22:35.270
+seven eight
+
+01:22:37.550 --> 01:22:41.250
+nine ten i mean like these points will be nothing but a
+
+01:22:41.250 --> 01:22:44.410
+coordinates i think we all understand the coordinate one row
+
+01:22:44.410 --> 01:22:48.390
+is going to be one coordinate so if one row is having like a
+
+01:22:48.390 --> 01:22:52.350
+10 column so data you can represent in 10 dimension if it is
+
+01:22:52.350 --> 01:22:56.230
+having only one one dimensional data right so yeah this is
+
+01:22:56.230 --> 01:22:59.250
+how you can try to represent it so i'm just considering our
+
+01:22:59.250 --> 01:23:02.090
+points over here right points so let's say we have so many
+
+01:23:02.090 --> 01:23:06.710
+points uh point number one till 10 we have over here well
+
+01:23:06.710 --> 01:23:11.930
+what it does basically so it follows two approach one is a
+
+01:23:11.930 --> 01:23:14.670
+bottom-up approach one is a top-down approach let's talk
+
+01:23:14.670 --> 01:23:18.510
+about bottom approach first so here i look which is called
+
+01:23:18.510 --> 01:23:21.630
+as agglomerative actually so bottom-up approach is called as
+
+01:23:21.630 --> 01:23:28.410
+agglomerative so what it does it will try to form small
+
+01:23:28.410 --> 01:23:33.170
+small cluster so let's say these so initially there was 10
+
+01:23:33.170 --> 01:23:38.050
+clusters means every point was a cluster in itself every
+
+01:23:38.050 --> 01:23:42.110
+point was a cluster right then let's say i'm trying to like
+
+01:23:42.110 --> 01:23:46.710
+a combine nearest point together right and the distance
+
+01:23:46.710 --> 01:23:50.090
+between these two points has been represented by the height
+
+01:23:50.090 --> 01:23:53.290
+of this one height of this tree which i'm trying to create
+
+01:23:54.070 --> 01:23:56.390
+So what is the distance between this point number of point
+
+01:23:56.390 --> 01:24:00.490
+two represented by the vertical one, the vertical line which
+
+01:24:00.490 --> 01:24:03.230
+I am trying to represent. So now let's suppose
+
+01:24:06.190 --> 01:24:11.810
+we are linking these two, then we are technically linking
+
+01:24:11.810 --> 01:24:19.100
+these two. When we are technically linking these two, then
+
+01:24:19.100 --> 01:24:24.260
+we are linking these two. So we will keep on linking, unless
+
+01:24:24.260 --> 01:24:28.080
+and until we are not able to form a place or we are not able
+
+01:24:28.080 --> 01:24:33.600
+to form a tree beyond that linking is not possible right
+
+01:24:33.600 --> 01:24:37.280
+beyond that linking is not possible means every point we
+
+01:24:37.280 --> 01:24:41.060
+have covered and now we have a bigger tree so under this
+
+01:24:41.060 --> 01:24:46.060
+tree we have these two trees as you can see right under this
+
+01:24:46.060 --> 01:24:48.980
+tree and this tree we have this tree and this tree and under
+
+01:24:48.980 --> 01:24:52.220
+this tree we have this tree and this one under this tree we
+
+01:24:52.220 --> 01:24:56.200
+have these two so now every point become a part of the big
+
+01:24:56.200 --> 01:25:00.900
+tree a bottom up approach agglomerative approach now how do
+
+01:25:00.900 --> 01:25:05.980
+we decide that what is the cluster so which point will go to
+
+01:25:05.980 --> 01:25:09.000
+cluster and which point will not go to cluster and how do we
+
+01:25:09.000 --> 01:25:12.820
+decide even before that that how many cluster right how many
+
+01:25:12.820 --> 01:25:17.480
+cluster so basically this horizontal sorry this vertical
+
+01:25:17.480 --> 01:25:21.460
+line which i told you so this vertical line always try to
+
+01:25:21.460 --> 01:25:26.520
+define the distance between this one and this one so
+
+01:25:26.520 --> 01:25:29.240
+technically distance between these two clusters right these
+
+01:25:29.240 --> 01:25:32.740
+two cluster on granularity level two so let's say zero or
+
+01:25:32.740 --> 01:25:37.200
+one so one right or maybe one and two so two so here this is
+
+01:25:37.200 --> 01:25:41.520
+the distance the maximum one so what do we do so wherever we
+
+01:25:41.520 --> 01:25:46.880
+have a maximum distance from middle of it we try to draw the
+
+01:25:46.880 --> 01:25:50.540
+so let's say this is the like a vertical line the biggest
+
+01:25:50.540 --> 01:25:55.300
+one the middle point is this right middle point is this of
+
+01:25:55.300 --> 01:26:01.040
+this longest or the vertical line right we try to draw the
+
+01:26:01.040 --> 01:26:04.980
+straight line and it is cutting at how many places let's say
+
+01:26:04.980 --> 01:26:09.540
+one two and three it is cutting at three places right
+
+01:26:09.540 --> 01:26:15.140
+technically it means that that we have three clusters Now,
+
+01:26:15.280 --> 01:26:17.760
+what are the points of those three clusters? So let's say we
+
+01:26:17.760 --> 01:26:20.360
+have cluster number one, we have cluster number two, and we
+
+01:26:20.360 --> 01:26:23.160
+have cluster number three. Now inside cluster number one,
+
+01:26:23.720 --> 01:26:27.700
+these four points will come. Inside cluster number two, how
+
+01:26:27.700 --> 01:26:30.760
+many points will come? So these points will come, these four
+
+01:26:30.760 --> 01:26:33.900
+points will come. Inside cluster number three, these two
+
+01:26:33.900 --> 01:26:37.260
+points will come. Technically, I'm able to build three
+
+01:26:37.260 --> 01:26:42.820
+clusters. Make sense? The easiest one. this is called as
+
+01:26:42.820 --> 01:26:45.880
+hierarchical hierarchy based tree based kind of a clustering
+
+01:26:46.760 --> 01:26:52.400
+very simple right bottom up in top down i just a reverse of
+
+01:26:52.400 --> 01:26:56.420
+it right eventually we try to create trees and yeah you know
+
+01:26:56.420 --> 01:27:00.680
+like that tree we try to cut it wherever we have the maximum
+
+01:27:00.680 --> 01:27:04.100
+vertical line and that is going to tell me how many number
+
+01:27:04.100 --> 01:27:09.640
+of cluster we will be having so again inside this one to do
+
+01:27:09.640 --> 01:27:12.460
+a linkage there is something called as you know the ward
+
+01:27:12.460 --> 01:27:15.960
+linkage the single linkage the complete linkage the average
+
+01:27:15.960 --> 01:27:19.320
+linkage the centroid linkage i mean linking between these
+
+01:27:19.320 --> 01:27:21.600
+two so there are like so many different different kind of a
+
+01:27:21.600 --> 01:27:24.720
+formula which has been defined so based on that we try to
+
+01:27:24.720 --> 01:27:30.480
+link these clusters at the end of the day okay so this is it
+
+01:27:30.480 --> 01:27:35.560
+guys from all the three algorithm. So, we have seen support
+
+01:27:35.560 --> 01:27:36.180
+vector machine,
+
+01:27:40.300 --> 01:27:43.040
+Lange region equation, a combination of objective plus line,
+
+01:27:43.420 --> 01:27:50.500
+right? Then we have seen a K mean from unsupervised, from
+
+01:27:50.500 --> 01:27:51.440
+unsupervised itself,
+
+01:27:54.200 --> 01:27:59.800
+DVS scan, and then HC. So, these three clustering algorithm
+
+01:27:59.800 --> 01:28:05.040
+we have seen. Now, shall we do a practical today or shall we
+
+01:28:05.040 --> 01:28:05.520
+do it tomorrow?
+
+01:28:13.630 --> 01:28:20.020
+Oh, Raj is saying tomorrow oh too much for today tomorrow
+
+01:28:20.020 --> 01:28:23.080
+because after like uh you know doing that practical i would
+
+01:28:23.080 --> 01:28:25.440
+have given you an assignment like go and deploy that and and
+
+01:28:25.440 --> 01:28:29.280
+create one agent suit so basically uh as a part of this
+
+01:28:29.280 --> 01:28:32.600
+machine learning algorithm uh completion uh so the
+
+01:28:32.600 --> 01:28:34.720
+assignment which i would like to give you is little bit
+
+01:28:34.720 --> 01:28:38.560
+bigger so i want you to create a proper machine learning
+
+01:28:38.560 --> 01:28:44.680
+suit i'll tell you one thing let me show you that because we
+
+01:28:44.680 --> 01:28:48.780
+have already done that kind of like a system in a class
+
+01:28:48.780 --> 01:28:53.780
+itself aiml so there is a batch right before your batch i
+
+01:28:53.780 --> 01:29:01.680
+have completed that was for aiml only yeah so aiml masters
+
+01:29:01.680 --> 01:29:06.100
+by danushu kumar yeah so this particular batch and in this
+
+01:29:06.100 --> 01:29:10.620
+batch what we have done so we have basically built a project
+
+01:29:10.620 --> 01:29:16.400
+ML flow February project 31st February project end to end
+
+01:29:16.400 --> 01:29:25.400
+A2A agent February January then RF theory so yeah there is a
+
+01:29:25.400 --> 01:29:31.840
+project end to end we have done and the project was this
+
+01:29:31.840 --> 01:29:32.420
+project yeah
+
+01:29:35.250 --> 01:29:39.830
+patient I can see
+
+01:29:44.680 --> 01:29:50.930
+no apart from that there is another project so basically the
+
+01:29:50.930 --> 01:29:51.770
+project was
+
+01:29:54.810 --> 01:29:59.210
+project was all about creating a complete machine learning
+
+01:29:59.210 --> 01:30:05.270
+suite i believe i did that in this batch i took a clustering
+
+01:30:05.270 --> 01:30:08.090
+clustering algorithm math
+
+01:30:18.010 --> 01:30:18.430
+science
+
+01:30:24.500 --> 01:30:30.320
+okay yeah so basically the whole idea is that that you know
+
+01:30:30.320 --> 01:30:34.400
+build a system a kind of a system which we have already like
+
+01:30:34.400 --> 01:30:37.400
+a build it inside the class even code base must be available
+
+01:30:37.400 --> 01:30:42.800
+so build a system so where there will be a complete pipeline
+
+01:30:42.800 --> 01:30:44.760
+so there will be a data
+
+01:30:47.460 --> 01:30:50.920
+source so let's say i'm getting a data from a multiple like
+
+01:30:50.920 --> 01:30:55.020
+a sources so from maybe a db from api from external sources
+
+01:30:55.020 --> 01:31:01.880
+baby scrapping uh maybe from like you know some local file
+
+01:31:01.880 --> 01:31:05.840
+system or something so once i will be able to get a data now
+
+01:31:05.840 --> 01:31:11.540
+what i will do i will try to basically clean those data data
+
+01:31:12.790 --> 01:31:18.150
+cleaning refining i would say and then i will try to host
+
+01:31:18.150 --> 01:31:23.370
+this data into a db i'm calling that as a l1 level one right
+
+01:31:23.370 --> 01:31:26.750
+and maybe i will be receiving those data through a real-time
+
+01:31:26.750 --> 01:31:30.190
+kafka kind of a messaging system as well from iot device as
+
+01:31:30.190 --> 01:31:32.870
+well so data source can be any number of data set any kind
+
+01:31:32.870 --> 01:31:37.250
+of apis integration as well so l1 now what will happen so
+
+01:31:37.250 --> 01:31:42.350
+after my data set is available over here in a ui i will be
+
+01:31:42.350 --> 01:31:47.130
+able to explore those data those data its stats everything i
+
+01:31:47.130 --> 01:31:49.930
+will be able to see it inside a beautiful ui interfaces
+
+01:31:49.930 --> 01:31:53.850
+means whole eda operation i will be able to see inside that
+
+01:31:53.850 --> 01:31:59.570
+data now out of that basically let's say someone is telling
+
+01:31:59.570 --> 01:32:06.150
+me to build a ml model so what will happen even if i have a
+
+01:32:06.150 --> 01:32:09.970
+multiple data multiple tables right so in a db there will be
+
+01:32:09.970 --> 01:32:14.350
+multiple table not just one table so multiple table so there
+
+01:32:14.350 --> 01:32:17.470
+will be a ui interface from where i can select those
+
+01:32:17.470 --> 01:32:21.150
+multiple tables i can select basically the algorithm so
+
+01:32:21.150 --> 01:32:24.150
+let's say i have to build a cluster and inside a cluster i
+
+01:32:24.150 --> 01:32:26.710
+have to do basically this supervise regression and
+
+01:32:26.710 --> 01:32:29.450
+classification again inside this cluster so it should give
+
+01:32:29.450 --> 01:32:33.310
+me an option to select a data sources it should give me an
+
+01:32:33.310 --> 01:32:36.770
+option to do a data mapping and modeling data modeling it
+
+01:32:36.770 --> 01:32:40.610
+should also give me an option basically to select the
+
+01:32:40.610 --> 01:32:43.950
+approach of the model means let's say i'm trying to train
+
+01:32:43.950 --> 01:32:46.110
+the model but yeah maybe i'm trying to train it with a
+
+01:32:46.110 --> 01:32:50.450
+multiple algorithm and then a comparison comparison and then
+
+01:32:50.450 --> 01:32:54.470
+comparison table and comparison result and then a best model
+
+01:32:54.470 --> 01:32:59.350
+selection so this system should work in a way that it should
+
+01:32:59.350 --> 01:33:04.910
+select the best model plus stats for selecting this best
+
+01:33:04.910 --> 01:33:09.010
+model it should showcase now once that will be done your
+
+01:33:09.010 --> 01:33:14.030
+entire ml flow will come into picture which will be helping
+
+01:33:14.030 --> 01:33:16.870
+you out in terms of doing a worsening right worsening of the
+
+01:33:16.870 --> 01:33:25.110
+model and then this model should go for basically a model
+
+01:33:25.110 --> 01:33:30.070
+serving so where user will be able to get a
+
+01:33:32.240 --> 01:33:41.260
+ui plus bulk plus api label prediction means let's say
+
+01:33:41.260 --> 01:33:44.020
+someone would like to do a ui prediction they will go put
+
+01:33:44.020 --> 01:33:46.040
+the data and then they will be able to get a prediction into
+
+01:33:46.040 --> 01:33:50.080
+a ui plus someone will just upload the sheet and then for
+
+01:33:50.080 --> 01:33:51.880
+the entire data which is available into a sheet they would
+
+01:33:51.880 --> 01:33:54.600
+like to get a prediction or someone would like to consume
+
+01:33:54.600 --> 01:34:00.300
+your model as an api right so api so in this three way your
+
+01:34:00.300 --> 01:34:03.080
+model must be
+
+01:34:06.050 --> 01:34:11.010
+exposed and whenever you wanted to change the model whenever
+
+01:34:11.010 --> 01:34:14.850
+your model will hallucinate or whenever so we try to call it
+
+01:34:14.850 --> 01:34:17.790
+as a drift basically right we try to call it as a drift so
+
+01:34:17.790 --> 01:34:22.450
+whenever your model will be start drifting so in that like
+
+01:34:22.450 --> 01:34:25.550
+at that point what will happen you can go check the log
+
+01:34:25.550 --> 01:34:28.330
+means you will do the reverse you will check the log build
+
+01:34:28.330 --> 01:34:31.350
+the again new model ml flow will handle the worsening it
+
+01:34:31.350 --> 01:34:33.810
+will go for the model serving and then that model will be
+
+01:34:33.810 --> 01:34:38.870
+used for the new serving so this is one of the best amazing
+
+01:34:38.870 --> 01:34:42.650
+project you can try to build which is a generic one which
+
+01:34:42.650 --> 01:34:46.630
+works for all the domain and it's a suite in itself right
+
+01:34:46.630 --> 01:34:49.930
+suite in itself and multiple layer comes into picture when
+
+01:34:49.930 --> 01:34:53.270
+we talk about this layer itself so you can integrate the
+
+01:34:53.270 --> 01:34:56.490
+entire big data pipeline because even in a real time there
+
+01:34:56.490 --> 01:34:58.730
+is a big data pipeline which comes into picture right so l1
+
+01:34:58.730 --> 01:35:02.010
+l2 l3 in all those lines we try to divide those things we
+
+01:35:02.010 --> 01:35:05.450
+try to use a spark over there to do a data pre-processing
+
+01:35:05.450 --> 01:35:08.090
+and post-processing all those things right dividing the data
+
+01:35:08.090 --> 01:35:12.150
+so all all these things uh happens over here even over here
+
+01:35:12.150 --> 01:35:14.430
+a lot of works because every data will be different right
+
+01:35:14.430 --> 01:35:18.130
+it's not going to be same uh so again here when ml model
+
+01:35:18.130 --> 01:35:20.730
+comes into picture so multiple model multiple hyper
+
+01:35:20.730 --> 01:35:23.490
+parameter tuning multiple approaches multiple data modeling
+
+01:35:23.490 --> 01:35:26.170
+you are trying to cater on that to everything with the ui in
+
+01:35:26.170 --> 01:35:29.590
+automated way then best model selection and then ml flow and
+
+01:35:29.590 --> 01:35:32.350
+all those things so yeah this is a project maybe you can try
+
+01:35:32.350 --> 01:35:34.870
+to start and let's see how many of you will be able to build
+
+01:35:34.870 --> 01:35:40.010
+it yeah what about big data can this model works see big
+
+01:35:40.010 --> 01:35:42.990
+data is only about data processing right whether this model
+
+01:35:42.990 --> 01:35:45.570
+is going to work not work that depends how you are trying to
+
+01:35:45.570 --> 01:35:50.090
+configure it basically beta will come here right here so
+
+01:35:50.090 --> 01:35:52.550
+where you will be doing a data pre-processing and then you
+
+01:35:52.550 --> 01:35:55.150
+will try to create a different different kind of a pipelines
+
+01:35:55.150 --> 01:35:58.470
+for building a different different kind of a use cases will
+
+01:36:04.040 --> 01:36:06.540
+it be possible to do it all for a study yeah all for a study
+
+01:36:06.540 --> 01:36:11.160
+can be done it will not take much time but so just try to
+
+01:36:11.160 --> 01:36:16.100
+prepare guys so try to prepare maybe a prd send it to me if
+
+01:36:16.100 --> 01:36:18.920
+you want me to evaluate and then you can start working on
+
+01:36:18.920 --> 01:36:21.880
+one of the projects right so tomorrow we'll do a practical
+
+01:36:21.880 --> 01:36:24.620
+and then from next class onwards so we'll try to start with
+
+01:36:24.620 --> 01:36:29.820
+a neural network very important amazing concept that we have
+
+01:36:29.820 --> 01:36:33.580
+to understand so this we'll try to understand a convolution
+
+01:36:33.580 --> 01:36:36.620
+neural network we'll try to understand a recurrent neural
+
+01:36:36.620 --> 01:36:40.380
+network and then transformer architecture which is basically
+
+01:36:40.380 --> 01:36:45.340
+a backbone for all this generative ai lm-based generative ai
+
+01:36:45.340 --> 01:36:50.220
+that we are able to see it okay so in case of any question
+
+01:36:50.220 --> 01:36:53.380
+raise your hand or maybe put your questions here so yes i
+
+01:36:53.380 --> 01:36:57.040
+think subham has raised his hand yeah subham go ahead if you
+
+01:36:57.040 --> 01:36:57.520
+have a question?
+
+01:37:00.290 --> 01:37:00.690
+Hello.
+
+01:37:04.750 --> 01:37:10.590
+Okay. Maybe. So I'm basically just wanted to check on that.
+
+01:37:10.950 --> 01:37:14.290
+Like, would you also include that, how to create this
+
+01:37:14.290 --> 01:37:18.750
+balancing strategy, if suppose the data is imbalanced. So
+
+01:37:18.750 --> 01:37:21.870
+there, I was just taking some studies. These are the minor,
+
+01:37:21.910 --> 01:37:23.990
+minor concept. These are the minor, minor things, which you
+
+01:37:23.990 --> 01:37:27.410
+can try to do it while doing a practical itself. right yeah
+
+01:37:27.410 --> 01:37:30.290
+so so basically kind of list because these questions are
+
+01:37:30.290 --> 01:37:33.530
+mostly asked in the interviews so when you when you already
+
+01:37:33.530 --> 01:37:35.910
+know that right so i think you are just one question away
+
+01:37:37.510 --> 01:37:42.230
+yeah i mean one application yeah if you'll if you'll ask me
+
+01:37:42.230 --> 01:37:45.130
+a question so question wise questions are already available
+
+01:37:45.130 --> 01:37:47.690
+i believe in abundance the interview series that we have
+
+01:37:47.690 --> 01:37:51.070
+released so just go over there ai machine learning and then
+
+01:37:51.070 --> 01:37:56.310
+here so you will be able to get this one AIML, right? And
+
+01:37:56.310 --> 01:37:59.790
+then technical screening and here. So every kind of a
+
+01:37:59.790 --> 01:38:02.390
+question you will be able to see. There are 2,07,000
+
+01:38:02.390 --> 01:38:02.770
+questions.
+
+01:38:05.470 --> 01:38:07.690
+Yeah, it's there. It's already there. We have evaluate
+
+01:38:07.690 --> 01:38:10.010
+system as well. So where you can go and you can evaluate
+
+01:38:10.010 --> 01:38:12.790
+yourself just for a machine learning. Just for a deep
+
+01:38:12.790 --> 01:38:14.550
+learning, just for the computer vision. So yeah, those
+
+01:38:14.550 --> 01:38:17.510
+things are also covered. Right?
+
+01:38:21.020 --> 01:38:23.260
+Okay. Okay, so fine everyone. Thank you so much. Take care
+
+01:38:23.260 --> 01:38:26.140
+and see you again like tomorrow guys, same time, 4 p.m. IST.
+
+01:38:26.140 --> 01:38:28.660
+yeah so i think the agenda is fixed we are going to do a
+
+01:38:28.660 --> 01:38:31.700
+practical for all this thank you so much and take care
+

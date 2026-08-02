@@ -1,0 +1,2690 @@
+WEBVTT
+
+00:08:46.350 --> 00:08:50.110
+okay so hi everyone welcome to class i believe i'm audible
+
+00:08:50.110 --> 00:08:52.910
+and visible to all of you okay
+
+00:08:56.270 --> 00:09:00.730
+so let's start with the class guys so let me share my screen
+
+00:09:00.730 --> 00:09:04.470
+so guys last time i was talking about a linear regression so
+
+00:09:04.470 --> 00:09:08.550
+uh i think on saturday so we talked about a machine learning
+
+00:09:08.550 --> 00:09:10.650
+what is machine learning and how machine learning basically
+
+00:09:10.650 --> 00:09:13.790
+train itself and how it will be able to change the weights
+
+00:09:13.790 --> 00:09:16.230
+and the biases and eventually we try to call that as a
+
+00:09:16.230 --> 00:09:20.870
+training uh then on sunday's class we have discussed about a
+
+00:09:20.870 --> 00:09:23.450
+practical basically right practical in terms of like how we
+
+00:09:23.450 --> 00:09:26.290
+can train the model and then how we can try to perform our
+
+00:09:26.290 --> 00:09:29.410
+ed operation and all sort of other things now let's try to
+
+00:09:29.410 --> 00:09:32.830
+do one thing so like you know let's try to build an end-to
+
+00:09:32.830 --> 00:09:35.370
+-end pipeline so where i'm going to productionize the model
+
+00:09:35.370 --> 00:09:38.210
+so where we are going to send a model over a cloud platform
+
+00:09:38.210 --> 00:09:41.710
+so that anyone and everyone can come and anyone and everyone
+
+00:09:41.710 --> 00:09:45.930
+will be able to technically use your model so again so going
+
+00:09:45.930 --> 00:09:48.450
+forward whatsoever algorithm which we are going to discuss
+
+00:09:48.450 --> 00:09:51.430
+you can try to use a same funnel you can try to use the same
+
+00:09:51.430 --> 00:09:53.970
+kind of a pipeline and then you will be able to productize
+
+00:09:53.970 --> 00:09:57.090
+your entire models that's the whole idea right so let's
+
+00:09:57.090 --> 00:10:00.770
+start let me open up a vs code and again so all of you can
+
+00:10:00.770 --> 00:10:07.350
+open up your vs code and let's try to basically work on this
+
+00:10:07.350 --> 00:10:12.710
+model building till production means end-to-end basically
+
+00:10:12.710 --> 00:10:14.950
+right so here linear
+
+00:10:21.020 --> 00:10:24.600
+regression prod so this is our directory which we can try to
+
+00:10:24.600 --> 00:10:28.300
+create over here and then inside this so let's try to create
+
+00:10:28.300 --> 00:10:31.480
+a structure basically because uh here in today's class what
+
+00:10:31.480 --> 00:10:33.560
+we are going to do so we are not just going to productionize
+
+00:10:33.560 --> 00:10:36.460
+the model uh first of all we are going to train the model we
+
+00:10:36.460 --> 00:10:39.760
+are going to build even a user interface a ui for a
+
+00:10:39.760 --> 00:10:43.500
+particular model and then we are going to productionize a
+
+00:10:43.500 --> 00:10:46.220
+model based on the different different kind of a versions
+
+00:10:46.220 --> 00:10:48.920
+that we will be having means we can try to train a multiple
+
+00:10:48.920 --> 00:10:51.420
+version of the model and then eventually we can try to
+
+00:10:51.420 --> 00:10:54.200
+productionize that particular model yeah makes sense
+
+00:10:54.200 --> 00:10:58.080
+everyone can i get yes inside the chat please yeah
+
+00:11:00.930 --> 00:11:05.730
+okay so let's do one thing uh first of all let's try to
+
+00:11:05.730 --> 00:11:09.890
+create a files so app.py file we are going to create we are
+
+00:11:09.890 --> 00:11:12.690
+not going to use a jupyter notebook by the way because now
+
+00:11:12.690 --> 00:11:16.510
+we are moving towards a production right and then let's try
+
+00:11:16.510 --> 00:11:22.210
+to create a file called as train dot t-r-a-i-n dot py file
+
+00:11:22.210 --> 00:11:26.090
+and then let's try to create a file called as a requirement
+
+00:11:26.090 --> 00:11:31.310
+r-e-q-u-i-r-e-m-e-n-t-s requirements r-e-q-u-i-r-e-m-e-n-t-s
+
+00:11:31.310 --> 00:11:35.610
+dot txt file so where we can keep all the requirements that
+
+00:11:35.610 --> 00:11:39.750
+we will be having and then let's try to create a folder so
+
+00:11:39.750 --> 00:11:45.350
+where we can try to basically keep gitignore so dot git is a
+
+00:11:45.350 --> 00:11:53.050
+hidden folder right so g-i-t-i-g-n-o-r-e yeah so this is one
+
+00:11:53.050 --> 00:11:55.850
+of the folders so where we can keep all the gitignore files
+
+00:11:55.850 --> 00:11:59.690
+and here so we can create another folder so where i'm going
+
+00:11:59.690 --> 00:12:03.730
+to keep a data let's say so this is my data folder and then
+
+00:12:03.730 --> 00:12:07.250
+i can try to create a folder called as model so where i can
+
+00:12:07.250 --> 00:12:10.810
+try to keep a multiple version of the models so now this is
+
+00:12:10.810 --> 00:12:14.070
+the structure let's say guys i have created so one by one
+
+00:12:14.070 --> 00:12:16.670
+one by one one by one so what we are going to do so we can
+
+00:12:16.670 --> 00:12:20.070
+try to basically use this entire structure and inside this
+
+00:12:20.070 --> 00:12:23.110
+structure so we can try to keep all of these models and
+
+00:12:23.110 --> 00:12:25.830
+eventually we can go with the production so whenever i'm
+
+00:12:25.830 --> 00:12:28.170
+talking about this production so what we are going to do so
+
+00:12:28.170 --> 00:12:31.490
+here code will be available in my local so let's say i have
+
+00:12:31.490 --> 00:12:35.550
+like a local from local i'm going to push my entire code
+
+00:12:35.550 --> 00:12:39.930
+base into a github right github and then from here so i'm
+
+00:12:39.930 --> 00:12:43.810
+going to connect a render so render is one of the cloud
+
+00:12:43.810 --> 00:12:46.610
+platform so where you can try to use a render at least for
+
+00:12:46.610 --> 00:12:50.250
+free and yeah so without even like you know adding your card
+
+00:12:50.250 --> 00:12:53.270
+you will be able to do a deployment very very in a simple
+
+00:12:53.270 --> 00:12:57.150
+manner we can go ahead with the aws as well so which i'm
+
+00:12:57.150 --> 00:12:59.890
+going to like introduce in a later stage very later stage
+
+00:12:59.890 --> 00:13:02.810
+but as of now let's try to use a render which is going to be
+
+00:13:02.810 --> 00:13:05.990
+like completely free for us so this is going to be the flow
+
+00:13:05.990 --> 00:13:09.210
+so whatever changes which i have to make it in my local i'll
+
+00:13:09.210 --> 00:13:12.130
+just do it right i'll write a code in my local from local
+
+00:13:12.130 --> 00:13:15.050
+i'm going to ship my code to a github and then from github
+
+00:13:15.050 --> 00:13:18.310
+so i'm going to like you know host it on inside a render
+
+00:13:18.310 --> 00:13:23.130
+that's a flow which i'm going to basically follow so local
+
+00:13:23.130 --> 00:13:28.830
+to github to render so create this structure everyone is it
+
+00:13:28.830 --> 00:13:29.030
+done
+
+00:13:32.650 --> 00:13:35.470
+yes is it done the
+
+00:13:39.280 --> 00:13:39.880
+structure part
+
+00:13:45.990 --> 00:13:49.250
+again inside a chat everyone
+
+00:14:05.750 --> 00:14:09.070
+anyone who is doing it along with me okay
+
+00:14:16.360 --> 00:14:17.300
+fine
+
+00:14:19.930 --> 00:14:23.570
+so now as we are able to create the structure let's do one
+
+00:14:23.570 --> 00:14:26.310
+thing so first of all try to create a data so as we are
+
+00:14:26.310 --> 00:14:28.450
+focusing more on our deployment sites we'll try to take a
+
+00:14:28.450 --> 00:14:30.990
+very very simple data set we'll not try to take you know uh
+
+00:14:30.990 --> 00:14:35.270
+the complex uh data set by the way so let me create a file
+
+00:14:35.270 --> 00:14:40.970
+inside this data ads dot let's say i'm creating a csv dot
+
+00:14:40.970 --> 00:14:45.090
+csv file and inside that so i'm going to keep a very very
+
+00:14:45.090 --> 00:14:47.990
+very very simple data so maybe i'm bringing you this data
+
+00:14:47.990 --> 00:14:51.150
+you can try to use the same data set right a very small data
+
+00:14:51.150 --> 00:14:55.090
+set because our intention is not to you know think about the
+
+00:14:55.090 --> 00:14:58.590
+data or something but to build the entire pipeline so that
+
+00:14:58.590 --> 00:15:00.970
+you know anytime whenever i will come i'll try to make the
+
+00:15:00.970 --> 00:15:04.330
+changes it should go in an automated mode for a deployment
+
+00:15:04.330 --> 00:15:06.910
+so by the time i'm going to push a code inside a github
+
+00:15:06.910 --> 00:15:11.450
+automatically it should be deployed yeah okay so this is the
+
+00:15:11.450 --> 00:15:14.470
+data set we are going to take very simple data set so tv
+
+00:15:14.470 --> 00:15:17.590
+radio newspaper and then there is a sales right so basically
+
+00:15:17.590 --> 00:15:20.670
+sales is something like you know that you have to predict
+
+00:15:20.670 --> 00:15:24.130
+and based on the tv radio or newspaper advertisement that
+
+00:15:24.130 --> 00:15:27.050
+what is going to be the sale if i'm spending this much this
+
+00:15:27.050 --> 00:15:30.130
+much and this much on tv advertisement radio advertisement
+
+00:15:30.130 --> 00:15:33.170
+newspaper advertisement then what is going to be the sale
+
+00:15:33.170 --> 00:15:37.250
+that's a regression that we have to find out okay so this is
+
+00:15:37.250 --> 00:15:41.070
+my data now what i will do so i have to keep all the
+
+00:15:41.070 --> 00:15:45.510
+required library inside a requirement dot txt whatsoever
+
+00:15:45.510 --> 00:15:48.310
+library which i'm going to use it i have to keep it there
+
+00:15:48.310 --> 00:15:52.030
+okay so let's try to keep it here so i'm going to ping you
+
+00:15:52.030 --> 00:15:54.750
+all these libraries because these are the library which i
+
+00:15:54.750 --> 00:15:58.290
+will be installing or i will be using even in my local and
+
+00:15:58.290 --> 00:16:01.390
+these are the library which i will be using even inside a
+
+00:16:01.390 --> 00:16:04.430
+cloud platform because cloud is going to give me a like you
+
+00:16:04.430 --> 00:16:07.710
+know a bare shell you can say or there won't be any kind of
+
+00:16:07.710 --> 00:16:11.490
+libraries or dependencies will be installed so in that
+
+00:16:11.490 --> 00:16:13.650
+situation obviously i have to build a pipeline by which
+
+00:16:13.650 --> 00:16:16.070
+first of all it is going to install all of those
+
+00:16:16.070 --> 00:16:19.230
+dependencies and then only it is going to go for the hosting
+
+00:16:19.230 --> 00:16:22.210
+so keeping that in mind i'm going to keep each and
+
+00:16:22.210 --> 00:16:25.470
+everything whatsoever we have to install inside a
+
+00:16:25.470 --> 00:16:29.970
+requirements.txt okay so now let's try to close this
+
+00:16:29.970 --> 00:16:34.110
+requirement.txt now we have app.py file and we have
+
+00:16:34.110 --> 00:16:37.690
+basically train.py file so first of all let's try to work on
+
+00:16:37.690 --> 00:16:41.790
+this train.py file so where we are going to basically write
+
+00:16:41.790 --> 00:16:45.990
+a logic we are going to write a code for a training and then
+
+00:16:45.990 --> 00:16:49.850
+inside this app.py file so we are going to basically write a
+
+00:16:49.850 --> 00:16:53.110
+code for a prediction and that to be the user interface so
+
+00:16:53.110 --> 00:16:56.370
+there will be a user interface a user can try to enter the
+
+00:16:56.370 --> 00:17:00.030
+values for tv or maybe radio or maybe a newspaper and it's
+
+00:17:00.030 --> 00:17:03.030
+going to give me the prediction very very simple right so
+
+00:17:03.030 --> 00:17:08.790
+let's try to write a train.py file so import os import os
+
+00:17:08.790 --> 00:17:10.010
+okay
+
+00:17:13.110 --> 00:17:17.950
+not import joblib so that i will be able to save the model
+
+00:17:17.950 --> 00:17:23.310
+import numpy all this like a things we have to import uh not
+
+00:17:23.310 --> 00:17:30.350
+this one so import joblib is okay okay so again a wrong one
+
+00:17:30.350 --> 00:17:38.830
+fine import job loop import pandas as pd fine and then from
+
+00:17:38.830 --> 00:17:42.330
+model selection train to split it's a fine then this is not
+
+00:17:42.330 --> 00:17:49.070
+fine so here from sk learn sk learn
+
+00:17:51.090 --> 00:17:54.390
+dot linear model yeah
+
+00:17:56.210 --> 00:17:57.610
+so import
+
+00:18:03.430 --> 00:18:07.090
+import sklearn dot linear model yes so there must be a
+
+00:18:07.090 --> 00:18:14.990
+linear regression model why is it not giving me linear model
+
+00:18:14.990 --> 00:18:17.710
+then it should give me okay
+
+00:18:27.790 --> 00:18:31.690
+so yeah linear regression and then like you know i can try
+
+00:18:31.690 --> 00:18:37.790
+to call basically from sklearn matrixes mean squared error
+
+00:18:37.790 --> 00:18:43.270
+or maybe i can try to import R2 scores I can R squared
+
+00:18:43.270 --> 00:18:47.390
+basically I can try to basically mean import mean absolute
+
+00:18:47.390 --> 00:18:51.170
+error okay fine so the other import that we have to do right
+
+00:18:51.170 --> 00:18:55.010
+so once this import will be done let me bring you this piece
+
+00:18:55.010 --> 00:18:59.190
+of the code yeah okay so this is the import that you have to
+
+00:18:59.190 --> 00:19:02.210
+do guys inside this particular file a train.py file now
+
+00:19:02.210 --> 00:19:05.650
+after doing this let's go ahead and let's try to make a
+
+00:19:05.650 --> 00:19:08.590
+directory so os.mkdir
+
+00:19:10.810 --> 00:19:16.020
+mkdir mkdir model directory by default i have already
+
+00:19:16.020 --> 00:19:20.880
+created this particular directory right so if it is not
+
+00:19:20.880 --> 00:19:23.940
+available then in that case it is going to create a
+
+00:19:23.940 --> 00:19:28.040
+directory for me so fine os.mkdir it is going to create a
+
+00:19:28.040 --> 00:19:31.960
+directory for me then once directory will be created model
+
+00:19:31.960 --> 00:19:34.900
+directory will be created so as of now model directory is
+
+00:19:34.900 --> 00:19:37.420
+available but yeah in a first run it is going to even create
+
+00:19:37.420 --> 00:19:40.580
+it if you have not done that right or maybe if you are going
+
+00:19:40.580 --> 00:19:46.240
+to delete it by mistake then pandas.readcsv now what data we
+
+00:19:46.240 --> 00:19:54.180
+have to read so we have a folder called as data folder data
+
+00:19:54.180 --> 00:19:59.300
+folder inside that there is a ads.csv right i believe this
+
+00:19:59.300 --> 00:20:02.340
+is the file that we have created so inside data folder there
+
+00:20:02.340 --> 00:20:06.200
+is a ads.csv this is the folder and inside this we have
+
+00:20:06.200 --> 00:20:12.520
+basically like this one so let's try to read that particular
+
+00:20:12.520 --> 00:20:16.660
+file in a very very first place so ads.csv it is going to
+
+00:20:16.660 --> 00:20:20.600
+read it and once it is going to basically read it then we
+
+00:20:20.600 --> 00:20:24.060
+are going to basically save this particular file inside a
+
+00:20:24.060 --> 00:20:30.120
+data frame variable now so once this is done what we can do
+
+00:20:30.120 --> 00:20:34.540
+so we can try to create our x and y so my x is going to be
+
+00:20:34.540 --> 00:20:39.380
+data frame dot drop sales so yeah remove the sales and then
+
+00:20:39.380 --> 00:20:42.180
+remaining is going to be my x and then my y is going to be
+
+00:20:42.180 --> 00:20:47.880
+sales folder or sales basically column so here tv radio
+
+00:20:47.880 --> 00:20:51.080
+newspaper all three are going to my x and my sales is going
+
+00:20:51.080 --> 00:20:58.120
+to my y by the way fine this is done so x and y is already
+
+00:20:58.120 --> 00:21:01.220
+basically created over here now we can go ahead with a train
+
+00:21:01.220 --> 00:21:04.660
+and test split so train and test split although this data
+
+00:21:04.660 --> 00:21:08.380
+set is very very small but that that's okay so train test
+
+00:21:08.380 --> 00:21:13.220
+split and split the data into 80 is to 20 ratio okay now
+
+00:21:13.220 --> 00:21:16.960
+there will be x train x test y train y test i will be able
+
+00:21:16.960 --> 00:21:21.600
+to get it once i will be able to get this one then we can
+
+00:21:21.600 --> 00:21:26.020
+try to basically train the model right we can try to
+
+00:21:26.020 --> 00:21:29.220
+basically train the model now to train the model basically
+
+00:21:29.220 --> 00:21:32.940
+we can you know try to create a variable of this particular
+
+00:21:32.940 --> 00:21:37.200
+model we can call model.fit and we can try to provide
+
+00:21:37.200 --> 00:21:42.080
+extreme xy and then we can call joblib.dump which is going
+
+00:21:42.080 --> 00:21:45.360
+to store the model store the model where inside a models
+
+00:21:45.360 --> 00:21:49.180
+folder that we are going to created over here inside as a
+
+00:21:49.180 --> 00:21:52.020
+pickle file in this format it is going to store the model
+
+00:21:52.020 --> 00:21:56.520
+very very simple so once i am going to execute this train.py
+
+00:21:56.520 --> 00:22:01.240
+file all of these things will be done model will be created
+
+00:22:01.240 --> 00:22:06.140
+and model will be stored i'm not basically trying to print
+
+00:22:06.140 --> 00:22:10.420
+as of now this mean squad error or mean absolute error like
+
+00:22:10.420 --> 00:22:14.240
+i said first of all let's try to create a pipeline once
+
+00:22:14.240 --> 00:22:17.840
+pipeline creation will be done then we can come again and
+
+00:22:17.840 --> 00:22:20.440
+then we can try to make a changes we'll try to push those
+
+00:22:20.440 --> 00:22:23.840
+changes once again and in this way we can keep on working on
+
+00:22:23.840 --> 00:22:26.620
+this particular project that's a whole idea right that's a
+
+00:22:26.620 --> 00:22:30.020
+whole idea so let me ping you this one so first of all let's
+
+00:22:30.020 --> 00:22:33.260
+try to build the entire pipeline skeleton and then you can
+
+00:22:33.260 --> 00:22:35.960
+keep on changing and again so whatsoever you are going to
+
+00:22:35.960 --> 00:22:39.840
+change in a real time it will go to the production very very
+
+00:22:39.840 --> 00:22:45.300
+simple right very very simple okay so this part is done now
+
+00:22:45.300 --> 00:22:48.980
+if i have to execute this particular file okay
+
+00:22:54.200 --> 00:22:57.400
+so if i have to execute this particular file so basically
+
+00:22:57.400 --> 00:23:00.620
+train dot py file so what i have to write so i have to write
+
+00:23:00.620 --> 00:23:05.960
+basically python train dot py file this file will be
+
+00:23:05.960 --> 00:23:10.680
+executed if library is not installed so in that situation it
+
+00:23:10.680 --> 00:23:15.220
+is going to give me an error right exist okay is an invalid
+
+00:23:15.220 --> 00:23:19.180
+keyword argument for mkdir okay so it is telling me that
+
+00:23:19.180 --> 00:23:26.460
+this argument should not be there uh exist okay true yes
+
+00:23:26.460 --> 00:23:29.640
+this argument exists i don't think that it should give me an
+
+00:23:29.640 --> 00:23:31.840
+error by the way but
+
+00:23:38.560 --> 00:23:48.870
+yeah we'll check uh same issue exist okay is equals to e x i
+
+00:23:49.850 --> 00:23:55.050
+s t underscore ok yeah spelling is also correct maybe I have
+
+00:23:55.050 --> 00:24:01.390
+to go and check whether this function argument is there
+
+00:24:01.390 --> 00:24:10.450
+inside mkdir or not let me check what is the latest one
+
+00:24:28.920 --> 00:24:38.180
+mkdir s ah okay so this is the issue it was a wrong function
+
+00:24:38.180 --> 00:24:46.540
+name so mkdir okay so make there is a function called as
+
+00:24:46.540 --> 00:24:51.340
+make directories fine that's the issue guys okay let me
+
+00:24:51.340 --> 00:24:55.720
+check so now it should not give me an issue at all okay so
+
+00:24:55.720 --> 00:24:59.900
+issue has basically changed and what is the issue keyword
+
+00:24:59.900 --> 00:25:07.160
+error sales not found in a axis is it so we have a file
+
+00:25:07.160 --> 00:25:13.800
+sales s capital okay so maybe yeah so it should be s and s
+
+00:25:13.800 --> 00:25:18.440
+should be capital that was the issue fine this issue is also
+
+00:25:18.440 --> 00:25:23.280
+resolved let's execute once again okay so this time no issue
+
+00:25:23.280 --> 00:25:26.520
+at all and everything has worked it seems right so let's go
+
+00:25:26.520 --> 00:25:29.600
+ahead and let's try to check it so let me ping you the
+
+00:25:29.600 --> 00:25:33.940
+latest code uh i have just made like a couple of changes i
+
+00:25:33.940 --> 00:25:38.440
+mean like only two changes mkdir and then s capital it was
+
+00:25:38.440 --> 00:25:42.840
+small happening due the latest code now if i'll go inside a
+
+00:25:42.840 --> 00:25:46.400
+model file so yes i'm able to see linear regression
+
+00:25:46.400 --> 00:25:49.500
+underscore model dot pickle file so this file is available
+
+00:25:49.500 --> 00:25:52.480
+to me fine so it technically means that that i'm able to
+
+00:25:52.480 --> 00:25:55.840
+train the model and i'm able to basically store the model
+
+00:25:55.840 --> 00:25:58.920
+once i'm able to train the model and i'm able to store the
+
+00:25:58.920 --> 00:26:01.660
+model now what i'm supposed to do so i'm supposed to
+
+00:26:01.660 --> 00:26:05.440
+basically basically create a app around it and so that
+
+00:26:05.440 --> 00:26:09.520
+anyone can come and then they can try to pass tv
+
+00:26:09.520 --> 00:26:11.920
+advertisement budget radio advertisement budget and
+
+00:26:11.920 --> 00:26:14.480
+newspaper advertisement budget they should be able to
+
+00:26:14.480 --> 00:26:17.420
+predict sales that's the whole idea right that's thing that
+
+00:26:17.420 --> 00:26:22.160
+we have to implement okay so that implementation will go
+
+00:26:22.160 --> 00:26:25.860
+inside app.py file and what we are going to do just for the
+
+00:26:25.860 --> 00:26:30.320
+convenience of our user so we are going to create a user
+
+00:26:30.320 --> 00:26:33.980
+interface a ui interface so that via ui anyone can come
+
+00:26:33.980 --> 00:26:36.680
+anyone can try to enter those values and then they will be
+
+00:26:36.680 --> 00:26:40.220
+able to get the prediction so a simple ui we are going to
+
+00:26:40.220 --> 00:26:43.480
+create it fine and we will be using library as a streamlined
+
+00:26:43.480 --> 00:26:46.620
+library which is also pythonic library for creating a ui
+
+00:26:46.620 --> 00:26:51.980
+interface so import os okay fine then import joblib so that
+
+00:26:51.980 --> 00:26:56.320
+i can try to know read the model then import basically
+
+00:26:56.320 --> 00:27:02.960
+impurt import a streamlint as st then import import pandas
+
+00:27:02.960 --> 00:27:07.000
+let's say as pd okay fine so these are the import which is
+
+00:27:07.000 --> 00:27:09.460
+required and i have done that like i said so i'm going to
+
+00:27:09.460 --> 00:27:12.240
+use a streamlint and then inside a streamlint so i will be
+
+00:27:12.240 --> 00:27:17.500
+basically uh you know calling the models and then uh passing
+
+00:27:17.500 --> 00:27:20.140
+the values and eventually i will be able to see the
+
+00:27:20.140 --> 00:27:24.380
+prediction so inside a streamlink let's try to set a page
+
+00:27:24.380 --> 00:27:29.120
+title uh diabetic prediction app no not at all sales
+
+00:27:29.120 --> 00:27:35.580
+predictions okay so this is a title page i have like a given
+
+00:27:35.580 --> 00:27:40.240
+so let's say i'm going to call streamlink dot set page
+
+00:27:40.240 --> 00:27:45.540
+configuration set underscore page configuration so page
+
+00:27:45.540 --> 00:27:49.580
+title is equal to sales prediction page icon so basically
+
+00:27:49.580 --> 00:27:52.860
+chart with the word print something like that the icon the
+
+00:27:52.860 --> 00:27:57.520
+favicon icon i'm talking about right and then layout wise so
+
+00:27:57.520 --> 00:28:02.060
+there is a parameter called as layout so layout wise uh yeah
+
+00:28:02.060 --> 00:28:04.220
+let's keep it wide you can keep it wide you can keep it
+
+00:28:04.220 --> 00:28:08.320
+centered whatsoever you want you can just do it okay so this
+
+00:28:08.320 --> 00:28:10.760
+is going to set the page configuration then stream
+
+00:28:10.760 --> 00:28:15.580
+streamline.title so let me give a title t i t l e title so
+
+00:28:15.580 --> 00:28:19.020
+sales prediction app that's a title which i have given then
+
+00:28:19.020 --> 00:28:27.220
+streamline.write w r i t write so enter the detail of
+
+00:28:27.220 --> 00:28:30.400
+product to predict its sales i'm going to say that enter the
+
+00:28:30.400 --> 00:28:37.160
+detail of tv radio newspaper to predict the sales now this
+
+00:28:37.160 --> 00:28:39.720
+is the write-up people will be able to see it simple write
+
+00:28:39.720 --> 00:28:45.080
+-up print statement you can say right okay no module norm
+
+00:28:45.080 --> 00:28:48.160
+job lib so anyone got this error just try to do one thing to
+
+00:28:48.160 --> 00:28:50.980
+try to execute your requirement or txt file it will try to
+
+00:28:50.980 --> 00:28:54.600
+install it automatically otherwise just do pip install this
+
+00:28:54.600 --> 00:28:59.440
+job lib it will be done okay now here so what we can do so
+
+00:28:59.440 --> 00:29:03.660
+we can try to basically you know predict do some sort of a
+
+00:29:03.660 --> 00:29:07.640
+prediction yeah we can try to do a prediction basically so
+
+00:29:07.640 --> 00:29:11.600
+here to do a prediction what we can do so first of all we
+
+00:29:11.600 --> 00:29:18.920
+can try to load the model so job lib job lib dot load load
+
+00:29:18.920 --> 00:29:24.420
+what so we have to load a model now model is available where
+
+00:29:24.420 --> 00:29:31.380
+inside a model folder let's say slash sales prediction model
+
+00:29:31.380 --> 00:29:37.900
+i think this is the name no linear regression model this is
+
+00:29:37.900 --> 00:29:43.570
+the model let me copy a relative let
+
+00:29:48.210 --> 00:29:53.070
+me remove this path so that will be a relative one okay so
+
+00:29:53.070 --> 00:29:57.210
+at this location model is available so now this is going to
+
+00:29:57.210 --> 00:30:00.950
+load the model right it is going to basically load the model
+
+00:30:00.950 --> 00:30:06.090
+now once it will be able to load a model then what we are
+
+00:30:06.090 --> 00:30:10.570
+supposed to do so we are supposed to basically like you know
+
+00:30:10.570 --> 00:30:15.330
+create a field where people can try to input right so people
+
+00:30:15.330 --> 00:30:19.690
+can try to input their number so stimuli dot number input
+
+00:30:19.690 --> 00:30:24.430
+and people can input basically tv budget radio budget and
+
+00:30:24.430 --> 00:30:28.470
+then people can try to input where newspaper budget now once
+
+00:30:28.470 --> 00:30:32.710
+people will be able to like you know input their budget so
+
+00:30:32.710 --> 00:30:36.430
+let's say tv budget radio budget and newspaper budget we are
+
+00:30:36.430 --> 00:30:39.550
+already like reading a model over here so we should provide
+
+00:30:39.550 --> 00:30:44.330
+this entire input right inside this particular model and
+
+00:30:44.330 --> 00:30:47.750
+whatever output this model is going to give it to me i
+
+00:30:47.750 --> 00:30:51.630
+should showcase to a user so it's very simple streamline dot
+
+00:30:51.630 --> 00:30:55.190
+button so there will be a button and people are going to
+
+00:30:55.190 --> 00:30:59.010
+press on this button then all of this data will go as a
+
+00:30:59.010 --> 00:31:03.450
+input data as a data frame right and then it is going to do
+
+00:31:03.450 --> 00:31:06.930
+a prediction then prediction will be basically streaming on
+
+00:31:06.930 --> 00:31:09.910
+success so on success what will happen so prediction will be
+
+00:31:09.910 --> 00:31:13.770
+shown till two precision point right as simple as that it
+
+00:31:13.770 --> 00:31:18.730
+will be basically shown to the user simple and you know
+
+00:31:18.730 --> 00:31:22.770
+basic streamlint ui and app is something that we are able to
+
+00:31:22.770 --> 00:31:24.790
+create we can try to make it even more advanced that's
+
+00:31:24.790 --> 00:31:28.230
+completely fine but yeah as of now we are able to create it
+
+00:31:28.230 --> 00:31:32.630
+now we have to run this entire application so how we can run
+
+00:31:32.630 --> 00:31:36.430
+this application so let me open up a terminal and let me
+
+00:31:36.430 --> 00:31:41.220
+bring you this code as well yeah so now this code is
+
+00:31:41.220 --> 00:31:43.740
+available to all of you guys inside your chat please look
+
+00:31:43.740 --> 00:31:47.900
+into it so to execute any streamlint file what you have to
+
+00:31:47.900 --> 00:31:56.220
+do streamlint streamlint run app.py file okay now execute it
+
+00:31:56.220 --> 00:32:01.260
+now once you are going to do this one you will be able to
+
+00:32:01.260 --> 00:32:04.380
+like it will be able to launch a streamlint app something
+
+00:32:04.380 --> 00:32:06.720
+like this as of now there is some error which i am getting
+
+00:32:06.720 --> 00:32:09.960
+i'll try to fix that error and eventually everything is
+
+00:32:09.960 --> 00:32:13.920
+going to work fine for me so streamlint set page
+
+00:32:13.920 --> 00:32:17.580
+complication can only be called once per app page must be
+
+00:32:17.580 --> 00:32:21.040
+called as a first stimulate command in your script okay so
+
+00:32:21.040 --> 00:32:23.080
+there is some mistake i have made in terms of you know
+
+00:32:23.080 --> 00:32:26.480
+setting a page configuration let me go and let me rectify it
+
+00:32:26.480 --> 00:32:32.280
+and i believe after that it is going to work so here a set
+
+00:32:32.280 --> 00:32:33.480
+page configuration
+
+00:32:36.820 --> 00:32:42.560
+title i have already like i mentioned page title i should
+
+00:32:42.560 --> 00:32:46.220
+not or maybe i can remove this title part because there was
+
+00:32:46.220 --> 00:32:52.440
+a conflict ctrl s and then i can come over here and then try
+
+00:32:52.440 --> 00:32:57.360
+to refresh now when i have refreshed as you can see so page
+
+00:32:57.360 --> 00:33:00.420
+is visible right i have just like removed such couple of
+
+00:33:00.420 --> 00:33:04.280
+things page is visible now i can try to give some value for
+
+00:33:04.280 --> 00:33:08.040
+a tv advertisement so maybe like 45 is something which i can
+
+00:33:08.040 --> 00:33:12.280
+give over here newspaper 45 now predict sales filter sales
+
+00:33:12.280 --> 00:33:17.540
+is 9.34 unit so yes my app my ui is working a basic ui is
+
+00:33:17.540 --> 00:33:20.320
+working by the way and i'm able to do some sort of a
+
+00:33:20.320 --> 00:33:23.200
+prediction over here so everything is up and running guys
+
+00:33:23.200 --> 00:33:26.440
+and everything is working in my local system by the way yeah
+
+00:33:26.440 --> 00:33:30.340
+in my local system so everything is technically working now
+
+00:33:30.340 --> 00:33:35.020
+what i can do so if everything is working we can try to send
+
+00:33:35.020 --> 00:33:38.760
+this entire code right we can try to send this entire code
+
+00:33:38.760 --> 00:33:43.180
+to a github before sending this code to a github let's try
+
+00:33:43.180 --> 00:33:47.400
+to like you know uh okay this was a folder i believe i have
+
+00:33:47.400 --> 00:33:51.800
+created let me delete it and create a file
+
+00:34:01.040 --> 00:34:07.060
+dot git ignored okay this is the file right so inside this
+
+00:34:07.060 --> 00:34:09.440
+file i can try to mention something which i don't want to
+
+00:34:09.440 --> 00:34:13.200
+push inside my production and in that situation so it is not
+
+00:34:13.200 --> 00:34:15.400
+going to push those files inside the production inside the
+
+00:34:15.400 --> 00:34:20.380
+github so now everything is up and running and it's working
+
+00:34:20.380 --> 00:34:24.680
+in my local system now from local system i will ship my code
+
+00:34:24.680 --> 00:34:28.800
+to a github so let's go to github let's try to you know uh
+
+00:34:28.800 --> 00:34:34.400
+create a repository and then try to push each and everything
+
+00:34:34.400 --> 00:34:37.420
+inside that particular repository so
+
+00:34:39.400 --> 00:34:41.540
+let me log in inside my own github
+
+00:35:14.060 --> 00:35:16.760
+what is the streamlined command so The streamlink command is
+
+00:35:16.760 --> 00:35:19.960
+streamlink run and then your app.py file name, the file that
+
+00:35:19.960 --> 00:35:25.440
+you would like to run. That's the streamlink command. So let
+
+00:35:25.440 --> 00:35:28.580
+me create one repository over here. So everyone just go to
+
+00:35:28.580 --> 00:35:30.520
+GitHub and try to create the repository.
+
+00:35:53.840 --> 00:35:58.380
+So this is a repo which I have created and I'm just trying
+
+00:35:58.380 --> 00:36:02.620
+to keep it public. Now what I will do, I'll try to push all
+
+00:36:02.620 --> 00:36:07.720
+the code inside this particular GitHub repository. So this
+
+00:36:07.720 --> 00:36:12.020
+is just for my system. so let me add okay
+
+00:36:37.580 --> 00:36:41.040
+so now what i can do i can try to push this entire code so
+
+00:36:41.040 --> 00:36:44.360
+whatever code is available in my local system to our github
+
+00:36:44.360 --> 00:36:52.140
+so to do that i can come over here open up basically a
+
+00:36:52.140 --> 00:36:56.020
+terminal so even now my streamlit app is running maybe i can
+
+00:36:56.020 --> 00:37:02.010
+terminate this one yeah clear it and then i can write git
+
+00:37:02.010 --> 00:37:06.830
+init git init it is initialized inside this particular
+
+00:37:06.830 --> 00:37:10.910
+repository now once this is done so i can try to call git
+
+00:37:10.910 --> 00:37:15.570
+add and then dot so add everything then git c-o-w-m-i-t
+
+00:37:15.570 --> 00:37:21.290
+commit hyphen m and then write a message first commit okay
+
+00:37:21.290 --> 00:37:25.430
+so i have committed this is something that we have already
+
+00:37:25.430 --> 00:37:28.010
+discussed right uh multiple times in our previous classes
+
+00:37:28.010 --> 00:37:29.970
+and while i was teaching a git so i believe we have already
+
+00:37:29.970 --> 00:37:36.430
+talked about it then branch add the branch so this is a
+
+00:37:36.430 --> 00:37:39.870
+remote repository so where you have to basically push it and
+
+00:37:39.870 --> 00:37:46.510
+then simply push it so now here everything will be available
+
+00:37:46.510 --> 00:37:49.770
+right everything will be available my entire tree local tree
+
+00:37:49.770 --> 00:37:54.690
+is basically clean now if i'll go and check over here so i
+
+00:37:54.690 --> 00:37:58.890
+will be able to see all of these files or codes whatsoever i
+
+00:37:58.890 --> 00:38:02.310
+have so it is already available in this particular place so
+
+00:38:02.310 --> 00:38:05.050
+i have already pushed this entire things to a github right
+
+00:38:05.050 --> 00:38:09.230
+now what we can do so we have to basically deploy this
+
+00:38:09.230 --> 00:38:13.430
+entire things on a render platform so those who are not
+
+00:38:13.430 --> 00:38:17.790
+aware about render so render is a cloud platform so r-e-n-d
+
+00:38:17.790 --> 00:38:21.070
+-e-r render so render is a cloud platform so where you can
+
+00:38:21.070 --> 00:38:24.550
+go and you will be able to do a deployment just for free i
+
+00:38:24.550 --> 00:38:28.590
+mean like they are uh having a lot of features and obviously
+
+00:38:28.590 --> 00:38:30.810
+if you would like to access those features then you have to
+
+00:38:30.810 --> 00:38:33.950
+make a payment but for this kind of a deployment you don't
+
+00:38:33.950 --> 00:38:36.490
+have to make a payment without that even you will be able to
+
+00:38:36.490 --> 00:38:40.810
+use a render so i can click on like you know sign in on get
+
+00:38:40.810 --> 00:38:44.270
+started and just try to do a google sign in very very simple
+
+00:38:44.270 --> 00:38:47.750
+so in that case you don't have to go and you know uh do
+
+00:38:47.750 --> 00:38:51.970
+those formalities and then it's a very very simple
+
+00:38:51.970 --> 00:38:54.450
+deployment as you can see i have already deployed so many
+
+00:38:54.450 --> 00:38:56.590
+things right so many things literally so many things i have
+
+00:38:56.590 --> 00:39:00.790
+deployed so now inside a render what you have to do so you
+
+00:39:00.790 --> 00:39:04.110
+have to basically click on this new right you have to
+
+00:39:04.110 --> 00:39:08.190
+basically click on this new and then one by one one by one
+
+00:39:08.190 --> 00:39:10.750
+so we can just try to follow the approach and then i will be
+
+00:39:10.750 --> 00:39:16.070
+able to do a deployment so everyone guys are we are you able
+
+00:39:16.070 --> 00:39:19.210
+to push a code inside your github if yes please bring your
+
+00:39:19.210 --> 00:39:25.690
+github repository url this url inside a chat i believe git
+
+00:39:25.690 --> 00:39:28.730
+github is something that we have already discussed right yes
+
+00:39:38.780 --> 00:39:42.580
+so okay fine nitesh has already pinged his github repo what
+
+00:39:42.580 --> 00:39:51.740
+about others do it guys quickly i'll ping you mine from here
+
+00:39:51.740 --> 00:39:56.060
+so you can try to pull all the code or even like in a future
+
+00:39:56.060 --> 00:39:58.460
+if i'm going to make some sort of enhancement or addition so
+
+00:39:58.460 --> 00:40:04.260
+you will be able to pull it do it guys last step is going to
+
+00:40:04.260 --> 00:40:06.940
+be render deployment so that will be very very quick
+
+00:40:34.200 --> 00:40:39.520
+done so only nitesh has pinged me a repository so what about
+
+00:40:39.520 --> 00:40:41.040
+others quick
+
+00:40:52.590 --> 00:40:54.410
+everyone okay
+
+00:41:20.520 --> 00:41:26.300
+so panjal fine what about others now i have pinged you my or
+
+00:41:26.300 --> 00:41:30.160
+even like a nitesh repo is available so you can just like
+
+00:41:30.160 --> 00:41:33.880
+copy the entire code pull the entire code this
+
+00:41:37.050 --> 00:41:40.270
+will be deployed in the same way we did for mongodb like a
+
+00:41:40.270 --> 00:41:43.210
+big web service yeah you can try to like you know deploy it
+
+00:41:43.210 --> 00:41:46.470
+as a static website very very simple couple of clicks and
+
+00:41:46.470 --> 00:41:50.670
+then it will be done going forward so i'm going to show you
+
+00:41:50.670 --> 00:41:53.690
+aws deployment and not now i mean like in a very very later
+
+00:41:53.690 --> 00:41:55.950
+stage i'm going to show you this aws azure kind of a
+
+00:41:55.950 --> 00:42:01.130
+deployment so those processes will be a bit lengthy i would
+
+00:42:01.130 --> 00:42:03.510
+say i mean it's not difficult but yeah it's a lengthy
+
+00:42:03.510 --> 00:42:05.050
+process okay
+
+00:42:13.690 --> 00:42:17.450
+so let's go ahead with the deployment so here you will be
+
+00:42:17.450 --> 00:42:19.990
+able to see a lot of options static website web service
+
+00:42:19.990 --> 00:42:23.770
+private this this this let's choose our web service over
+
+00:42:23.770 --> 00:42:28.610
+here now so by default my github is connected so i will be
+
+00:42:28.610 --> 00:42:32.670
+able to see all the repos if not in that situation so you
+
+00:42:32.670 --> 00:42:36.510
+can try to connect it so linear degradation prod so i'm able
+
+00:42:36.510 --> 00:42:39.430
+to like you know connect with my github and now it will be
+
+00:42:39.430 --> 00:42:43.230
+able to see my source code right name is linearization fraud
+
+00:42:43.230 --> 00:42:45.230
+i'm not going to change it if you would like to change
+
+00:42:45.230 --> 00:42:49.530
+change it language is python 3 so yes branch is what main so
+
+00:42:49.530 --> 00:42:52.950
+yes from a main branch so try to like you know uh do this
+
+00:42:52.950 --> 00:42:56.270
+entire things uh root directory by default it's a default
+
+00:42:56.270 --> 00:42:59.710
+one build command so you have to install first of all
+
+00:42:59.710 --> 00:43:04.550
+requirement.txt yes so requirements.txt is already available
+
+00:43:04.550 --> 00:43:08.330
+so requirements.txt is already available so whatsoever i
+
+00:43:08.330 --> 00:43:11.330
+have given over here in terms of library so first of all you
+
+00:43:11.330 --> 00:43:14.450
+have to install it so yeah it is going to install it then
+
+00:43:14.450 --> 00:43:17.530
+start command so start command wise there should be a
+
+00:43:17.530 --> 00:43:20.730
+streamlint command i'm supposed to give then only it is
+
+00:43:20.730 --> 00:43:25.250
+going to work so streamlint command wise what i can do so i
+
+00:43:25.250 --> 00:43:29.110
+can try to write basically streamlint run streamlint
+
+00:43:31.990 --> 00:43:39.710
+s-t-r-e-a-n streamlint run run what app.py file this is
+
+00:43:39.710 --> 00:43:42.950
+something that you have to run right uh along with that so
+
+00:43:42.950 --> 00:43:46.610
+you have to basically give a port number as well so in my
+
+00:43:46.610 --> 00:43:50.210
+local system you must have seen that that it is able to take
+
+00:43:50.210 --> 00:43:54.750
+what it is able to take a port number 8510 by default right
+
+00:43:54.750 --> 00:44:01.610
+so here and again so like a address is local host 127.0.0.1
+
+00:44:01.610 --> 00:44:05.030
+is a default one it is able to take so here i have to
+
+00:44:05.030 --> 00:44:08.490
+explicitly tell all of these things so i can say that that
+
+00:44:08.490 --> 00:44:15.770
+server server dot port port is equals to right so as a
+
+00:44:15.770 --> 00:44:21.430
+parameter whatsoever port is available just take it port and
+
+00:44:21.430 --> 00:44:25.010
+what address for example localhost right so what should be
+
+00:44:25.010 --> 00:44:31.770
+the localhost so same server dot address is equals to so
+
+00:44:31.770 --> 00:44:34.770
+local address of the server means in the machine where it is
+
+00:44:34.770 --> 00:44:39.030
+going to run each and everything zero zero zero zero zero
+
+00:44:39.030 --> 00:44:42.370
+zero simple so this is the command that you have to give
+
+00:44:42.370 --> 00:44:46.990
+along with streamlit run py file and then if select this
+
+00:44:46.990 --> 00:44:50.950
+free tier so that you don't have to like you know pay
+
+00:44:50.950 --> 00:44:55.590
+anything for this one and then deploy a bif service and wait
+
+00:44:55.590 --> 00:44:59.670
+for some time so if there will be an error it is going to
+
+00:44:59.670 --> 00:45:04.550
+show you the error over here it will be quick i believe in
+
+00:45:04.550 --> 00:45:08.690
+two to three minute it is going to do a deployment so
+
+00:45:11.930 --> 00:45:16.690
+as soon as deployment will be done on this particular url
+
+00:45:16.690 --> 00:45:19.930
+the url that you are able to see you will be able to see
+
+00:45:19.930 --> 00:45:27.910
+your application live yeah this is the url at this url you
+
+00:45:27.910 --> 00:45:30.830
+will be able to see your live application and anyone and
+
+00:45:30.830 --> 00:45:34.070
+everyone will be able to access your live application as you
+
+00:45:34.070 --> 00:45:37.090
+can see it is trying to download the python libraries and
+
+00:45:37.090 --> 00:45:40.810
+then it is trying to install all of these things so yeah
+
+00:45:40.810 --> 00:45:43.410
+everything you will be able to see it inside a log
+
+00:45:57.550 --> 00:46:00.810
+anyone who is doing a deployment is
+
+00:46:03.880 --> 00:46:06.820
+the render similar to hostinger yes yeah even on a hostinger
+
+00:46:06.820 --> 00:46:12.170
+you can go ahead and you can try to do a deployment okay so
+
+00:46:12.170 --> 00:46:15.470
+niti said yes fine what about others guys okay so build
+
+00:46:15.470 --> 00:46:19.010
+successful uh i can see over here right so build successful
+
+00:46:19.010 --> 00:46:20.110
+so
+
+00:46:27.660 --> 00:46:31.260
+yeah after this build successful it will take maybe like you
+
+00:46:31.260 --> 00:46:36.440
+know sometimes you need app running fine so let me refresh
+
+00:46:36.440 --> 00:46:44.080
+this url once again okay still not live it will show me okay
+
+00:46:44.080 --> 00:46:46.960
+so now it is showing me live over here as you can see this
+
+00:46:46.960 --> 00:46:51.360
+is a live one right it's a live so i can try to click on
+
+00:46:51.360 --> 00:46:54.360
+this url and yeah it
+
+00:46:58.390 --> 00:47:01.290
+will take couple of more seconds max to max okay
+
+00:47:13.260 --> 00:47:15.480
+it's looks like it's loading
+
+00:47:48.900 --> 00:47:52.640
+fine so now it has loaded i can try to give any number for
+
+00:47:52.640 --> 00:47:56.460
+tv radio and a neutral agent and then i can try to click on
+
+00:47:56.460 --> 00:47:58.080
+this predict so
+
+00:48:02.720 --> 00:48:06.280
+now i am able to get a prediction so my entire application
+
+00:48:06.280 --> 00:48:11.780
+is live let me bring you my live url okay so even if this is
+
+00:48:11.780 --> 00:48:16.060
+able to do the same fine great what about others guys so
+
+00:48:16.060 --> 00:48:19.380
+this is how we are able to make our application live now
+
+00:48:19.380 --> 00:48:22.240
+what we can do so let's say if i'm going to make any kind of
+
+00:48:22.240 --> 00:48:26.280
+a changes inside my app.py file right any kind of a change
+
+00:48:26.280 --> 00:48:30.360
+means literally any kind of a changes and like you know then
+
+00:48:30.360 --> 00:48:33.660
+if i'm going to push it inside a github repository so this
+
+00:48:33.660 --> 00:48:37.320
+pipeline is a automated pipeline right this pipeline is a
+
+00:48:37.320 --> 00:48:40.740
+automated pipeline now so by the time you are going to push
+
+00:48:40.740 --> 00:48:44.680
+anything inside your github repository by default it is
+
+00:48:44.680 --> 00:48:47.700
+going to sense it and then it will be able to do a
+
+00:48:47.700 --> 00:48:50.880
+deployment right so those new features will be live
+
+00:48:50.880 --> 00:48:54.300
+automatically you don't have to like come and like you know
+
+00:48:54.300 --> 00:48:57.600
+say again and again even you can go ahead with the manual
+
+00:48:57.600 --> 00:49:01.080
+deployment from a latest commit from the specific commit so
+
+00:49:01.080 --> 00:49:04.360
+or maybe you can try to restart the services all of these
+
+00:49:04.360 --> 00:49:07.800
+options are available to all of you but yeah so by the time
+
+00:49:07.800 --> 00:49:10.000
+you are going to push anything any kind of a piece of the
+
+00:49:10.000 --> 00:49:13.420
+code automatically it is going to trigger the deployment so
+
+00:49:13.420 --> 00:49:17.680
+my entire pipeline has been built and yeah so now i can
+
+00:49:17.680 --> 00:49:20.560
+start making any kind of a improvement inside my application
+
+00:49:20.560 --> 00:49:28.700
+technically app.py file makes sense everyone yes
+
+00:49:39.300 --> 00:49:41.400
+inside a chat everyone
+
+00:50:19.090 --> 00:50:22.110
+anyone who have done the deployment apart from at least
+
+00:50:22.110 --> 00:50:23.610
+anyone in the class
+
+00:50:38.460 --> 00:50:43.780
+okay so it's fine if no one is doing it that's completely
+
+00:50:43.780 --> 00:50:47.480
+okay for me not being sure at all so now here uh now
+
+00:50:47.480 --> 00:50:51.380
+deployment is done so once you run like i said so you can
+
+00:50:51.380 --> 00:50:53.520
+try to make any kind of a change inside the local and then
+
+00:50:53.520 --> 00:50:56.220
+you can just push it right and then same thing will be
+
+00:50:56.220 --> 00:50:57.780
+reflected automatically inside your
+
+00:51:01.670 --> 00:51:04.690
+final deployed file as well can you please add me to the
+
+00:51:04.690 --> 00:51:06.770
+whatsapp group this is the new number and the previous one
+
+00:51:06.770 --> 00:51:10.150
+is compromised approach for the reaching here uh there is no
+
+00:51:10.150 --> 00:51:12.650
+whatsapp group for this particular batch, by the way. So I
+
+00:51:12.650 --> 00:51:13.770
+can't add you there.
+
+00:51:18.120 --> 00:51:20.520
+Also, it's not my responsibility to maintain and manage
+
+00:51:20.520 --> 00:51:23.380
+WhatsApp groups. So I'm really sorry about it. Yeah.
+
+00:51:29.960 --> 00:51:32.900
+Fine, guys. So that's it, guys. From my side with respect to
+
+00:51:32.900 --> 00:51:35.220
+deployment. So I'm assuming that all of you are going to do
+
+00:51:35.220 --> 00:51:39.760
+a deployment with respect to this particular things. Then we
+
+00:51:39.760 --> 00:51:43.640
+are going to discuss our next algorithm. So this is it for
+
+00:51:43.640 --> 00:51:46.820
+today. By the way, I think it's too early to finish the
+
+00:51:46.820 --> 00:51:49.440
+class, but I don't think that we should start something new.
+
+00:51:50.060 --> 00:51:53.080
+as a topic. So just try to do this deployment, right? Make
+
+00:51:53.080 --> 00:51:55.760
+sure that everyone is like a familiar with the entire
+
+00:51:55.760 --> 00:52:00.140
+deployment because from next to the algorithm onwards, for
+
+00:52:00.140 --> 00:52:02.700
+every algorithm we have to go and we have to do a
+
+00:52:02.700 --> 00:52:05.740
+deployment, right? We have to always do a deployment without
+
+00:52:05.740 --> 00:52:08.800
+deployment. So we should not move ahead. And again, more or
+
+00:52:08.800 --> 00:52:11.100
+less same procedure you can try to follow. Maybe you can try
+
+00:52:11.100 --> 00:52:13.960
+to change a platform. Sometimes you can try to use a Vercel
+
+00:52:13.960 --> 00:52:16.520
+because nowadays even Vercel have started supporting a
+
+00:52:16.520 --> 00:52:21.140
+Python as a backend. and you can try to use maybe a hosting
+
+00:52:21.140 --> 00:52:24.660
+you can try to use maybe like a n number of cloud platform
+
+00:52:24.660 --> 00:52:28.420
+which is freely available to all of us finally we will try
+
+00:52:28.420 --> 00:52:32.400
+to uh you know do a deployment with respect to aws azure or
+
+00:52:32.400 --> 00:52:37.740
+gcp that that's going to be the final step apart from this i
+
+00:52:37.740 --> 00:52:40.540
+would like to discuss couple of more things that we have
+
+00:52:40.540 --> 00:52:45.520
+done for all of you inside a neuron platform so you will be
+
+00:52:45.520 --> 00:52:48.560
+able to see that that we have released so many features and
+
+00:52:48.560 --> 00:52:51.320
+i believe all of this feature you can try to access it so
+
+00:52:51.320 --> 00:52:54.080
+there is something called as your own code we have released
+
+00:52:54.080 --> 00:52:55.980
+there is something called as your own prep we have released
+
+00:52:55.980 --> 00:52:57.960
+there is something called as your own press we have released
+
+00:52:57.960 --> 00:53:00.400
+there is something called as interview questions we have
+
+00:53:00.400 --> 00:53:02.880
+released there is something called as evaluate we have
+
+00:53:02.880 --> 00:53:05.260
+released likewise there are so many other features which we
+
+00:53:05.260 --> 00:53:09.000
+have released which can help you out in terms of uh you know
+
+00:53:09.000 --> 00:53:12.880
+doing up preparation uh for your next job right for your
+
+00:53:12.880 --> 00:53:16.440
+next job for example so if i'll talk about this evaluate so
+
+00:53:16.440 --> 00:53:20.040
+basically this evaluate is all about evaluating yourself
+
+00:53:20.040 --> 00:53:23.720
+whenever you are going for any kind of opportunity so you
+
+00:53:23.720 --> 00:53:27.040
+will be able to evaluate even with respect to aiml that how
+
+00:53:27.040 --> 00:53:30.260
+much ready you are as a fresher as one two three three to
+
+00:53:30.260 --> 00:53:33.460
+five year five to ten year uh for everything right even
+
+00:53:33.460 --> 00:53:35.820
+cloud certification if you would like to do maybe aw
+
+00:53:35.820 --> 00:53:39.160
+certification if you would like to do you can evaluate each
+
+00:53:39.160 --> 00:53:42.520
+and everything even gcp certification azure certification
+
+00:53:42.520 --> 00:53:46.920
+generative ai big data data science business analytics even
+
+00:53:46.920 --> 00:53:50.080
+cloud certification so for each and everything so we have
+
+00:53:50.080 --> 00:53:53.460
+basically given you this assessment and you can try to
+
+00:53:53.460 --> 00:53:56.120
+access this assessment every assessment you know come with
+
+00:53:56.120 --> 00:54:00.780
+four to five fold a different fold by the way right and yeah
+
+00:54:00.780 --> 00:54:03.620
+so you all are going to literally enjoy all of these things
+
+00:54:03.620 --> 00:54:06.500
+for example there are four round in this one so one to four
+
+00:54:06.500 --> 00:54:09.320
+round likewise you will be able to see three round four
+
+00:54:09.320 --> 00:54:12.620
+round five round ten round uh again so in some of these
+
+00:54:12.620 --> 00:54:15.620
+rounds there will be like a 20 question 30 question uh maybe
+
+00:54:15.620 --> 00:54:19.300
+some time 10 question in this way you will be able to
+
+00:54:19.300 --> 00:54:21.900
+literally evaluate that and there will be negative marking
+
+00:54:21.900 --> 00:54:25.240
+as well right so again this this test that we have created
+
+00:54:25.240 --> 00:54:28.680
+so this evaluate that we have created it's a very dynamic
+
+00:54:28.680 --> 00:54:33.000
+one it replicates a real time situation a real time scenario
+
+00:54:33.000 --> 00:54:37.800
+so go ahead and maybe try to check yourself this is a
+
+00:54:37.800 --> 00:54:41.040
+proctored one so like you know if you are going to switch it
+
+00:54:41.040 --> 00:54:44.280
+is going to give you the warning that okay so you are trying
+
+00:54:44.280 --> 00:54:48.200
+to switch a tab and you know this is like a first warning
+
+00:54:48.200 --> 00:54:50.720
+second warning and third warning it is going to close itself
+
+00:54:50.720 --> 00:54:54.680
+very very simple so this evaluate is a good feature you can
+
+00:54:54.680 --> 00:54:57.340
+try to use it for whatsoever role you are going to apply
+
+00:54:57.340 --> 00:55:00.560
+right again there is a subjective answer as question answer
+
+00:55:00.560 --> 00:55:04.160
+as well you will be able to find out in this particular
+
+00:55:04.160 --> 00:55:09.020
+place apart from evaluate so we have created basically a
+
+00:55:09.020 --> 00:55:12.220
+lead code so don't have to go and pay for a lead code by the
+
+00:55:12.220 --> 00:55:14.680
+way so if you would like to practice a lead code kind of a
+
+00:55:14.680 --> 00:55:18.380
+problem you can come over here and exact lead code kind of a
+
+00:55:18.380 --> 00:55:21.080
+problem exact lead code kind of a scenario you will be able
+
+00:55:21.080 --> 00:55:23.240
+to see it lead code kind of a leaderboard you will be able
+
+00:55:23.240 --> 00:55:27.300
+to see it so that is available inside your own code segment
+
+00:55:27.300 --> 00:55:30.460
+so there visa your own code we have created for all of you
+
+00:55:30.460 --> 00:55:34.440
+and yeah so you can try to find out your own code and there
+
+00:55:34.440 --> 00:55:39.960
+are 2001 problem so far available right 2001 problem which
+
+00:55:39.960 --> 00:55:42.140
+is available daily it is going to give you challenges as
+
+00:55:42.140 --> 00:55:45.480
+well and plus you will be able to track your progress that
+
+00:55:45.480 --> 00:55:48.560
+what is my progress so those who would like to practice any
+
+00:55:48.560 --> 00:55:51.620
+kind of a dsa based question those who would like to like
+
+00:55:51.620 --> 00:55:54.480
+you know apply for a kind of a company so where people are
+
+00:55:54.480 --> 00:55:58.060
+asking a dsa so in that situation you can try to practice
+
+00:55:58.060 --> 00:56:01.780
+over here uh dsa lectures wise so yeah dsa lectures are
+
+00:56:01.780 --> 00:56:04.540
+already available from a multiple mentors one mentor was
+
+00:56:04.540 --> 00:56:09.020
+ramendra uh he is he happens to be like a guy uh working
+
+00:56:09.020 --> 00:56:12.580
+with a google and yes so he has discussed each and
+
+00:56:12.580 --> 00:56:15.720
+everything in a very very detailed manner so those lectures
+
+00:56:15.720 --> 00:56:19.140
+are also available those who don't understand dsa those who
+
+00:56:19.140 --> 00:56:21.260
+would like to practice and he has also talked about a lot of
+
+00:56:21.260 --> 00:56:24.820
+github problems as well sorry lead code problem as well but
+
+00:56:24.820 --> 00:56:27.260
+yes as a platform so we have given you this particular one
+
+00:56:27.260 --> 00:56:29.880
+where you can go and you can try to browse it is going to
+
+00:56:29.880 --> 00:56:33.280
+give you hints i mean like it's just a lead code right lead
+
+00:56:33.280 --> 00:56:35.380
+code plus it is going to give you a solution when you are
+
+00:56:35.380 --> 00:56:39.080
+going to do a summation as simple as that right so this is
+
+00:56:39.080 --> 00:56:43.080
+how this you know your own code is going to work 2000
+
+00:56:43.080 --> 00:56:46.300
+problem statement is a too much problem statement i believe
+
+00:56:46.300 --> 00:56:51.420
+even for a fangman kind of a company's 200 to 300 is more
+
+00:56:51.420 --> 00:56:54.160
+than enough right 200 300 more than enough but yeah i mean
+
+00:56:54.160 --> 00:56:56.820
+like we have given you all of these questions so that it can
+
+00:56:56.820 --> 00:56:59.020
+help you out in terms of doing a practice in a different
+
+00:56:59.020 --> 00:57:00.960
+different different segment whether it's a dynamic
+
+00:57:00.960 --> 00:57:04.220
+programming or graph or bfs dfs match geometry whatsoever it
+
+00:57:04.220 --> 00:57:07.660
+is okay so this is another product guys you will be able to
+
+00:57:07.660 --> 00:57:09.900
+see your own code you can try to leverage this one and you
+
+00:57:09.900 --> 00:57:13.420
+can try to assess yourself uh if you are preparing for a
+
+00:57:13.420 --> 00:57:16.260
+product based companies then there is something called as
+
+00:57:16.260 --> 00:57:19.900
+your own prep we are still like you know preparing this one
+
+00:57:19.900 --> 00:57:22.480
+on a very very mature label and we have made it free
+
+00:57:22.480 --> 00:57:25.680
+basically uh so we are trying to like you know build these
+
+00:57:25.680 --> 00:57:30.760
+things on a theme that a guy who is in a bca bsc mca msc or
+
+00:57:30.760 --> 00:57:35.580
+maybe engineering any stream right any stream so if they are
+
+00:57:35.580 --> 00:57:39.340
+they have to basically attend their semester right so maybe
+
+00:57:39.340 --> 00:57:43.820
+they can try to use these books uh basically as as a key you
+
+00:57:43.820 --> 00:57:47.120
+can say and they will be able to uh you know go ahead with
+
+00:57:47.120 --> 00:57:51.000
+uh like a last night study or last mile study you can say
+
+00:57:51.000 --> 00:57:54.920
+right so again for revise exam mode all of these things uh
+
+00:57:54.920 --> 00:57:57.580
+we are we are trying to prepare this offering is going to be
+
+00:57:57.580 --> 00:58:01.720
+free and we are trying to create 6 000 books by the way 6
+
+00:58:01.720 --> 00:58:05.280
+000 uh something uh books our team is like trying to procure
+
+00:58:05.280 --> 00:58:09.640
+and that to uh you know in a for for every kind of
+
+00:58:09.640 --> 00:58:12.200
+university for every every university exists in india so
+
+00:58:12.200 --> 00:58:15.800
+especially we are targeting india over here so every single
+
+00:58:15.800 --> 00:58:19.140
+university right every single university every single board
+
+00:58:19.140 --> 00:58:22.780
+cbsc icsc even we are going on that level so that this
+
+00:58:22.780 --> 00:58:25.860
+entire offering you're on prep can help each and every
+
+00:58:25.860 --> 00:58:30.800
+student to access the material access a last mile solution
+
+00:58:30.800 --> 00:58:35.320
+over here so that they can do better in their exam right
+
+00:58:35.320 --> 00:58:38.240
+they should not get confused they should not feel confused
+
+00:58:38.240 --> 00:58:42.100
+or they should not feel any kind of anxiety or fear in a
+
+00:58:42.100 --> 00:58:45.900
+last moment right if they have not done a preparation before
+
+00:58:45.900 --> 00:58:48.500
+you know in a which which is basically like you know happens
+
+00:58:48.500 --> 00:58:51.660
+with not with all of us but yeah with most of us right so
+
+00:58:51.660 --> 00:58:54.300
+most of us like feel anxious so we are just trying to create
+
+00:58:54.300 --> 00:58:57.340
+this particular product so i believe in a week of time uh
+
+00:58:57.340 --> 00:58:59.980
+this will be very much mature but even now so we have so
+
+00:58:59.980 --> 00:59:02.180
+many books that we have already created and people can go
+
+00:59:02.180 --> 00:59:05.660
+and people can try to search it diploma and graduate schools
+
+00:59:05.660 --> 00:59:08.600
+postgraduate competitive exam iti for everything we are
+
+00:59:08.600 --> 00:59:10.720
+working in this one and we are trying to make this offering
+
+00:59:10.720 --> 00:59:14.840
+free for the entire world then there is something called as
+
+00:59:14.840 --> 00:59:19.320
+Euron press so basically it's a book offering right so where
+
+00:59:19.320 --> 00:59:22.860
+let's say if you are trying to prepare for the placement or
+
+00:59:22.860 --> 00:59:25.000
+maybe if you're trying to prepare a mathematics if you're
+
+00:59:25.000 --> 00:59:27.160
+trying to prepare maybe like you know machine learning deep
+
+00:59:27.160 --> 00:59:31.960
+learning career advice right so lot of like books from our
+
+00:59:31.960 --> 00:59:35.440
+side you will be able to see right a crash course books you
+
+00:59:35.440 --> 00:59:37.880
+will be able to see in this particular section in a press
+
+00:59:37.880 --> 00:59:41.480
+section basically and this is going to help you out in terms
+
+00:59:41.480 --> 00:59:45.280
+of understanding or those who likes reading right uh those
+
+00:59:45.280 --> 00:59:48.560
+who likes reading those who likes you know like read and
+
+00:59:48.560 --> 00:59:51.560
+then implement not just watch the lecture so this is an
+
+00:59:51.560 --> 00:59:53.720
+offering for them because there are so many users so who
+
+00:59:53.720 --> 00:59:56.360
+said that okay fine so can we get something for a reading
+
+00:59:56.360 --> 00:59:59.720
+right at the updated one so we said okay fine so let's let's
+
+00:59:59.720 --> 01:00:03.120
+try to create an updated one and yeah so you will be able to
+
+01:00:03.120 --> 01:00:06.860
+find out all your favorite subject or favorite chapter over
+
+01:00:06.860 --> 01:00:10.780
+here along with that so what we have done so we have
+
+01:00:10.780 --> 01:00:15.280
+basically curated two lakh seven thousand five hundred and
+
+01:00:15.280 --> 01:00:19.000
+seventy six interview questions from two thousand five
+
+01:00:19.000 --> 01:00:21.360
+hundred twenty one companies so almost all the companies we
+
+01:00:21.360 --> 01:00:23.740
+have covered fang bank whatsoever you can say product-based
+
+01:00:23.740 --> 01:00:27.260
+startup tcs and process every level of companies you will be
+
+01:00:27.260 --> 01:00:31.300
+able to see over here and uh yeah so technology wise
+
+01:00:31.300 --> 01:00:34.480
+everything back and front end data nothing we are like
+
+01:00:34.480 --> 01:00:38.240
+leaving by the way yeah so as you can see over here so let's
+
+01:00:38.240 --> 01:00:40.900
+say if you are preparing for a line geo or cape gym night
+
+01:00:40.900 --> 01:00:44.820
+deloitte tcs airbnb freshbooks or paypal or goldman or jp
+
+01:00:44.820 --> 01:00:48.440
+morgan so here you can come let's say i'm going to click on
+
+01:00:48.440 --> 01:00:51.740
+like a reliance geo for example so here i can come and i
+
+01:00:51.740 --> 01:00:54.820
+will be able to see a questions i can try to even apply a
+
+01:00:54.820 --> 01:00:58.520
+filter like domain wise and then level wise rounds wise
+
+01:00:58.520 --> 01:01:01.900
+right and i will be able to see a direct question over here
+
+01:01:01.900 --> 01:01:05.600
+and then like you know you can you can try to even evaluate
+
+01:01:05.600 --> 01:01:09.880
+over evaluate yourself in this particular place so these are
+
+01:01:09.880 --> 01:01:14.920
+the new offerings so as like i know we say so we are trying
+
+01:01:14.920 --> 01:01:19.340
+to build you on in such a manner that it should be one stop
+
+01:01:19.340 --> 01:01:23.860
+solution for a learning or for a career advancement so this
+
+01:01:23.860 --> 01:01:27.320
+is uh you know like a something that we have done along with
+
+01:01:27.320 --> 01:01:33.020
+that if you will go inside uh interview the sorry avani
+
+01:01:33.020 --> 01:01:35.840
+which is an interview platform so you will be able to see a
+
+01:01:35.840 --> 01:01:39.780
+complete new dynamics over there in a the way we are trying
+
+01:01:39.780 --> 01:01:42.600
+to like you know uh take an interview now it's it's very
+
+01:01:42.600 --> 01:01:46.100
+different right uh it's very smooth it's very advanced now
+
+01:01:46.100 --> 01:01:48.540
+so you can go and you can try to practice your interview
+
+01:01:48.540 --> 01:01:51.940
+even with avani there is a lingua so lingua is also like we
+
+01:01:51.940 --> 01:01:54.980
+have worked on that and so very smooth yeah one more thing
+
+01:01:54.980 --> 01:01:59.820
+roadmap so we have released a 25 career track or you can say
+
+01:01:59.820 --> 01:02:02.760
+a roadmap for data analyst for business analyst for ai
+
+01:02:02.760 --> 01:02:05.340
+machine learning agentic generative right software
+
+01:02:05.340 --> 01:02:08.400
+engineering so all of these things now the beauty of this
+
+01:02:08.400 --> 01:02:11.060
+one is that that let's suppose i'm trying to prepare for gen
+
+01:02:11.060 --> 01:02:15.160
+ai right so okay generative i'll come over here so what you
+
+01:02:15.160 --> 01:02:18.540
+are supposed to prepare with respect to a generative ai so
+
+01:02:18.540 --> 01:02:21.600
+you are basically supposed to prepare python and ml in a
+
+01:02:21.600 --> 01:02:25.020
+very very first place right so what you will do you will
+
+01:02:25.020 --> 01:02:28.600
+start from here will start from here now once you are going
+
+01:02:28.600 --> 01:02:32.280
+to start from here so basically this system right this
+
+01:02:32.280 --> 01:02:36.180
+system is going to navigate you that okay where you have to
+
+01:02:36.180 --> 01:02:40.780
+go so you have to go inside a neuron labs first yeah so we
+
+01:02:40.780 --> 01:02:43.560
+have launched labs as well labs is what so labs is for
+
+01:02:43.560 --> 01:02:46.380
+practice for example if i'm completely new in a python right
+
+01:02:46.380 --> 01:02:49.480
+or let's say i'm kids or let's say i'm like you know coming
+
+01:02:49.480 --> 01:02:52.920
+from a complete non-tech background so here what we have
+
+01:02:52.920 --> 01:02:56.540
+done so there is a multiple lab i think 300 lab we have
+
+01:02:56.540 --> 01:03:00.280
+released so far so inside a lab you can come and lab is
+
+01:03:00.280 --> 01:03:03.720
+going to give you a question one by one an explanation one
+
+01:03:03.720 --> 01:03:07.980
+by one one by one that check the type of the values and then
+
+01:03:07.980 --> 01:03:12.440
+here it is going to basically give you uh like you know like
+
+01:03:12.440 --> 01:03:16.160
+a example and in this example you have to complete right you
+
+01:03:16.160 --> 01:03:19.280
+have to complete it so here you will be able to learn by
+
+01:03:19.280 --> 01:03:22.300
+doing it and then once you are going to submit it it is
+
+01:03:22.300 --> 01:03:25.700
+going to give you a detailed review that what kind of a
+
+01:03:25.700 --> 01:03:29.440
+mistake you have done and basically it is coming from a ai
+
+01:03:29.440 --> 01:03:33.180
+mentor so from ai that you have to do this this this and
+
+01:03:33.180 --> 01:03:36.560
+yeah so you have not done that one and because of that so
+
+01:03:36.560 --> 01:03:39.740
+there is a 10 out of 100 i'm giving you 10 just for
+
+01:03:39.740 --> 01:03:42.760
+attempting this so there is a lab also we have introduced so
+
+01:03:42.760 --> 01:03:44.960
+even you will be able to practice a machine learning not
+
+01:03:44.960 --> 01:03:47.660
+just python so machine learning aiml also you will be able
+
+01:03:47.660 --> 01:03:50.660
+to practice you will be able to practice even cloud and ops
+
+01:03:50.660 --> 01:03:54.120
+and practice by doing it by the way yeah so still we are
+
+01:03:54.120 --> 01:03:56.140
+generating all of those questions as you can see zero zero
+
+01:03:56.140 --> 01:03:58.860
+questions so for programming languages for most of the
+
+01:03:58.860 --> 01:04:01.840
+primary language we have already done this and for aiml cs
+
+01:04:01.840 --> 01:04:05.400
+foundation cloud devours web front end data tools blockchain
+
+01:04:05.400 --> 01:04:08.500
+mobile cyber security for everything everything so we are
+
+01:04:08.500 --> 01:04:12.080
+trying to build a lab over here so that anyone and everyone
+
+01:04:12.080 --> 01:04:14.980
+will be able to learn it and i think somewhere it's a need
+
+01:04:14.980 --> 01:04:18.560
+of an hour right because uh many of us think that that there
+
+01:04:18.560 --> 01:04:22.660
+is a ai so obviously uh you know if you are able to get some
+
+01:04:22.660 --> 01:04:26.020
+sort of a proficiency after that you can try to use a ai and
+
+01:04:26.020 --> 01:04:28.740
+you can start building up big big things right but yeah so
+
+01:04:28.740 --> 01:04:33.200
+till certain level you need like a platform so where you can
+
+01:04:33.200 --> 01:04:36.020
+go and you can try to do and then you will be able to learn
+
+01:04:36.020 --> 01:04:39.040
+in a step-by-step manner even for our kids right even for
+
+01:04:39.040 --> 01:04:42.740
+our kids so this is something that we have built uh for you
+
+01:04:42.740 --> 01:04:46.080
+and yeah i mean like by next week you will be able to see
+
+01:04:46.080 --> 01:04:49.400
+more than three lakh so as of now 302 labs we have created
+
+01:04:49.400 --> 01:04:53.820
+more than three lakh plus like you know questions and all
+
+01:04:53.820 --> 01:04:56.880
+those like a practice things you will be able to see it so
+
+01:04:56.880 --> 01:04:59.280
+this is again another offering now it's talking about
+
+01:04:59.280 --> 01:05:02.060
+basically this roadmap so yeah you can come to the roadmap
+
+01:05:02.060 --> 01:05:05.040
+now roadmap is going to tell you that first you have to go
+
+01:05:05.040 --> 01:05:08.640
+and practice this much right then there is a course so you
+
+01:05:08.640 --> 01:05:11.900
+can go and check the courses do a course then you have to do
+
+01:05:11.900 --> 01:05:14.580
+this course then you have to do this course right and then
+
+01:05:14.580 --> 01:05:18.600
+you have to do this then this if you if you get a stuck and
+
+01:05:18.600 --> 01:05:21.500
+if you would like like like find the answer then you can go
+
+01:05:21.500 --> 01:05:26.220
+here so in this way a detailed practical roadmap all of you
+
+01:05:26.220 --> 01:05:30.020
+will be able to find out and yeah if anyone is going to
+
+01:05:30.020 --> 01:05:33.040
+follow this roadmap obviously you will be able to do
+
+01:05:33.040 --> 01:05:36.140
+whatsoever you want in your life job hunt and growth same
+
+01:05:36.140 --> 01:05:40.920
+thing right same thing so uh hope all of you are going to
+
+01:05:40.920 --> 01:05:43.560
+like all of these services support i believe you already
+
+01:05:43.560 --> 01:05:50.790
+know right top of the line features amazing yeah just just
+
+01:05:50.790 --> 01:05:54.170
+use it just use it and in case of any kind of a feedback you
+
+01:05:54.170 --> 01:05:58.330
+will be having so just feel free to uh you know uh reach out
+
+01:05:58.330 --> 01:06:02.350
+to a support right that is already given to you so where uh
+
+01:06:02.350 --> 01:06:05.990
+we have not applied ai so basically we as a human used to
+
+01:06:05.990 --> 01:06:08.890
+answer all of these things so yeah you can you can try to
+
+01:06:08.890 --> 01:06:13.110
+use that one hope all of you are going to enjoy not just
+
+01:06:13.110 --> 01:06:16.890
+that so we have also improvised your resume service i
+
+01:06:16.890 --> 01:06:19.930
+believe i have already talked about it so now you can if you
+
+01:06:19.930 --> 01:06:22.550
+have to build a resume you don't have to worry much simple
+
+01:06:22.550 --> 01:06:26.870
+just copy and paste in any way you want your linkedin or
+
+01:06:26.870 --> 01:06:29.850
+something right or maybe your old resume give it to this
+
+01:06:29.850 --> 01:06:34.110
+chat and then it is going to build the entire resume along
+
+01:06:34.110 --> 01:06:37.890
+with that so team is also preparing i don't know whether
+
+01:06:37.890 --> 01:06:41.910
+they have published that or not uh so yeah sample resumes
+
+01:06:41.910 --> 01:06:46.030
+right sample resume uh we are we are trying to prepare so we
+
+01:06:46.030 --> 01:06:49.690
+are trying to prepare a 300 i believe this is what they told
+
+01:06:49.690 --> 01:06:54.630
+me right so we are preparing 300 sample resume let me now
+
+01:06:54.630 --> 01:06:59.470
+load one so yeah machine learning engineer for example
+
+01:06:59.470 --> 01:07:03.590
+resume every resume is going to be different it is not going
+
+01:07:03.590 --> 01:07:06.630
+to be same right so what we are trying to do starting from a
+
+01:07:06.630 --> 01:07:09.550
+fresher level till architect level 20 year experience people
+
+01:07:09.550 --> 01:07:15.290
+so we are trying to prepare a pre-built world class resume i
+
+01:07:15.290 --> 01:07:18.730
+would say so where what you have to do at least because many
+
+01:07:18.730 --> 01:07:21.190
+people right many people think that what i'm supposed to
+
+01:07:21.190 --> 01:07:23.230
+write into the resume they don't know what what they are
+
+01:07:23.230 --> 01:07:25.490
+supposed to write they don't know what kind of a project
+
+01:07:25.490 --> 01:07:28.410
+they are supposed to write even they don't get some sort of
+
+01:07:28.410 --> 01:07:32.070
+inspiration so keeping that in a mind right keeping that in
+
+01:07:32.070 --> 01:07:35.570
+a mind what we have done so we have prepared basically this
+
+01:07:35.570 --> 01:07:40.110
+300 plus resume which you can download see there are two
+
+01:07:40.110 --> 01:07:44.110
+options right one is so you can try to use resume ai and
+
+01:07:44.110 --> 01:07:46.190
+then like you know chat and then it is going to build a
+
+01:07:46.190 --> 01:07:48.990
+resume for you another one is let's say i'm not able to get
+
+01:07:48.990 --> 01:07:52.390
+an idea so i'm a lead architect i'm a big data specialist or
+
+01:07:52.390 --> 01:07:54.830
+maybe i can search over here right i can search over here
+
+01:07:54.830 --> 01:07:57.650
+maybe i'm a software engineer i'm preparing for india usa
+
+01:07:57.650 --> 01:08:01.750
+means outside india right so what i can do i can simply go
+
+01:08:01.750 --> 01:08:05.230
+over there and then i can try to download one of the sample
+
+01:08:05.230 --> 01:08:07.670
+resume i can maybe try to preview it maybe i can go and
+
+01:08:07.670 --> 01:08:11.830
+download it and then i can try to edit it and done so again
+
+01:08:11.830 --> 01:08:14.550
+this service is going to be free so we are not like capping
+
+01:08:14.550 --> 01:08:17.530
+it inside a plus or some courses right so anyone can come
+
+01:08:17.530 --> 01:08:20.570
+over here they can download and at least you will be able to
+
+01:08:20.570 --> 01:08:23.290
+get an idea that okay this is the kind of a project that i'm
+
+01:08:23.290 --> 01:08:26.270
+supposed to keep inside my resume as per the current
+
+01:08:26.270 --> 01:08:30.290
+situation as per the current environment so yes uh we are
+
+01:08:30.290 --> 01:08:33.790
+like you know trying to grow and we always we have always
+
+01:08:33.790 --> 01:08:37.250
+like again so latest models you can go and check so even we
+
+01:08:37.250 --> 01:08:41.710
+have updated like a uri ai gateway so you can go and you can
+
+01:08:41.710 --> 01:08:44.530
+check that part as well right so along with the courses
+
+01:08:44.530 --> 01:08:47.990
+anyhow courses we are bringing so even this month next week
+
+01:08:47.990 --> 01:08:51.350
+itself so we are going to start this one next month fourth i
+
+01:08:51.350 --> 01:08:54.290
+mean like right after this course launch in two weeks itself
+
+01:08:54.290 --> 01:08:56.610
+we are going to start another one then there will be another
+
+01:08:56.610 --> 01:08:58.930
+one so we will keep on launching these courses i mean like
+
+01:08:58.930 --> 01:09:02.130
+there's no scarcity of that but we will try to bring a lot
+
+01:09:02.130 --> 01:09:07.650
+of workshops and you know projects basically uh live courses
+
+01:09:07.650 --> 01:09:10.570
+selfless also will try to bring on youtube as well as like
+
+01:09:10.570 --> 01:09:14.010
+here inside the platform but along with that whatsoever is
+
+01:09:14.010 --> 01:09:18.570
+required as per a modern requirement i would say in in like
+
+01:09:18.570 --> 01:09:22.310
+with respect to an ai to do a preparation so i believe all
+
+01:09:22.310 --> 01:09:25.470
+of you will be able to see here itself starting from like a
+
+01:09:25.470 --> 01:09:30.050
+fresher or college grads still like a 20 year so yeah it is
+
+01:09:30.050 --> 01:09:34.510
+going to help you out in terms of doing the upskilling so
+
+01:09:34.510 --> 01:09:39.150
+hope all of you liked it we will cover docker if you would
+
+01:09:39.150 --> 01:09:43.290
+like to learn docker come to this class this one devops
+
+01:09:43.290 --> 01:09:50.540
+mlops lmops yeah come there and though i'm assuming that
+
+01:09:50.540 --> 01:09:53.140
+whenever required so you can try to use this feature so at
+
+01:09:53.140 --> 01:09:55.600
+least you can start using this interview feature evaluate
+
+01:09:55.600 --> 01:09:57.780
+yourself feature a lot of features are there now for you
+
+01:09:57.780 --> 01:10:00.120
+right so we are trying to procure this entire platform in
+
+01:10:00.120 --> 01:10:03.820
+such a way that that those who will be interested right and
+
+01:10:03.820 --> 01:10:06.160
+those who will be literally very very serious about their
+
+01:10:06.160 --> 01:10:09.960
+career so instead of using maybe instagram or like you know
+
+01:10:09.960 --> 01:10:13.340
+twitter or youtube maybe you can spend some time here on
+
+01:10:13.340 --> 01:10:17.100
+this platform and you will be able to get some real values a
+
+01:10:17.100 --> 01:10:21.720
+real outcome right so on that philosophy we are trying to
+
+01:10:21.720 --> 01:10:25.740
+prepare this entire things so fine everyone that's it from
+
+01:10:25.740 --> 01:10:28.080
+my side for today so tomorrow i'll be talking about a
+
+01:10:28.080 --> 01:10:30.120
+logistic regression so tomorrow i'll be talking about
+
+01:10:30.120 --> 01:10:34.340
+logistic regression uh theory which is again going to be a
+
+01:10:34.340 --> 01:10:37.920
+very very lengthy derivation by the way so we will try to
+
+01:10:37.920 --> 01:10:41.060
+derive each and everything immediately we'll do a practical
+
+01:10:41.060 --> 01:10:43.920
+and immediately we'll do a deployment as well so all three
+
+01:10:43.920 --> 01:10:46.360
+things in one single class we'll try to achieve tomorrow
+
+01:10:46.360 --> 01:10:49.920
+with respect to one algorithm logistic regression algorithm
+
+01:10:49.920 --> 01:10:54.460
+yeah okay any any question for me so if you have any kind of
+
+01:10:54.460 --> 01:10:57.760
+a question let me know i think i have already talked about
+
+01:10:57.760 --> 01:11:01.940
+tomorrow's agenda so what we are going to do tomorrow and
+
+01:11:01.940 --> 01:11:04.820
+yeah the new revamp with respect to our your own platform
+
+01:11:04.820 --> 01:11:07.440
+and feel free guys whenever you have any kind of a
+
+01:11:07.440 --> 01:11:10.540
+suggestion right raise that inside support if it is a valid
+
+01:11:10.540 --> 01:11:13.960
+one we'll do it if it is not a valid one we'll say sorry as
+
+01:11:13.960 --> 01:11:16.440
+simple as that okay
+
+01:11:18.110 --> 01:11:21.790
+so if there is no question for me then i'll rest this class
+
+01:11:21.790 --> 01:11:24.190
+for today and let's meet tomorrow tomorrow agenda is clear.
+
+01:11:24.670 --> 01:11:27.090
+4pm IST, we are going to connect and we will try to do
+
+01:11:27.870 --> 01:11:30.790
+logistic regression, mathematical understanding,
+
+01:11:30.790 --> 01:11:33.450
+theoretical, practical and then deployment. All of these
+
+01:11:33.450 --> 01:11:35.950
+things all together. We are going to do it. With that thank
+
+01:11:35.950 --> 01:11:37.770
+you so much everyone. Take care and see you again tomorrow.
+

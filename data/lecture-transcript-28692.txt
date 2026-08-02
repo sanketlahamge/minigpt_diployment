@@ -1,0 +1,3158 @@
+WEBVTT
+
+00:08:27.440 --> 00:08:30.260
+Okay. So hi everyone. Good evening. I believe I'm whatever
+
+00:08:30.260 --> 00:08:33.300
+invisible guys. So please bring me in a chat if I'm whatever
+
+00:08:33.300 --> 00:08:33.640
+invisible.
+
+00:08:41.260 --> 00:08:43.400
+Okay. So let's start with the lecture now.
+
+00:08:58.750 --> 00:09:02.330
+So as I told you yesterday that we will be talking about
+
+00:09:02.330 --> 00:09:04.710
+another algorithm. So which is called as logistic
+
+00:09:04.710 --> 00:09:08.110
+regression. So let's try to understand how this logistic
+
+00:09:08.110 --> 00:09:12.650
+regression actually works and what in all mathematical terms
+
+00:09:12.650 --> 00:09:16.210
+comes into picture. So technically we were talking about
+
+00:09:16.210 --> 00:09:19.630
+basically algorithms which can regress the data which can
+
+00:09:19.630 --> 00:09:21.690
+regress the determines which is going to give you eventually
+
+00:09:21.690 --> 00:09:24.290
+a continuous value right and you make a continuous value it
+
+00:09:24.290 --> 00:09:27.890
+is going to give you but you will be able to find out inside
+
+00:09:27.890 --> 00:09:30.410
+a supervised learning or inside a machine learning that
+
+00:09:30.410 --> 00:09:33.730
+there are so many use cases so where we are not looking for
+
+00:09:33.730 --> 00:09:38.090
+a final output as a number but maybe we'll be looking for an
+
+00:09:38.090 --> 00:09:42.710
+output in terms of some sort of our classes right so if this
+
+00:09:42.710 --> 00:09:46.070
+is going to happen then i'll do this or maybe like you know
+
+00:09:46.070 --> 00:09:50.170
+if i'm going to get more than 90 percent then i will be able
+
+00:09:50.170 --> 00:09:53.990
+to get an admission into a college yes or no right so every
+
+00:09:53.990 --> 00:09:57.190
+time you will not be looking for basically a continuous
+
+00:09:57.190 --> 00:10:00.370
+values but yeah so basically sometime you have to even do a
+
+00:10:00.370 --> 00:10:04.750
+classification a best example is your email so google by
+
+00:10:04.750 --> 00:10:08.410
+default try to put a email into a different classes maybe a
+
+00:10:08.410 --> 00:10:11.190
+primary maybe a promotion maybe a social maybe a update
+
+00:10:11.190 --> 00:10:14.070
+maybe a forums maybe a spam right so basically try to
+
+00:10:14.070 --> 00:10:16.930
+categorize our data into a different different directories
+
+00:10:16.930 --> 00:10:20.350
+automatically right once you are going to configure it so
+
+00:10:20.350 --> 00:10:24.090
+you will be able to find out a terms of problems so where it
+
+00:10:24.090 --> 00:10:27.170
+is balancing learning requires a classification algorithm
+
+00:10:27.170 --> 00:10:31.750
+not just a regression algorithm even in terms of doing a
+
+00:10:31.750 --> 00:10:35.630
+fraud detection so fraud no fraud basically right so you
+
+00:10:35.630 --> 00:10:38.530
+will be able to find out tons of examples out there so where
+
+00:10:38.530 --> 00:10:42.530
+in a real time we are going to use it now to do those uh
+
+00:10:42.530 --> 00:10:46.270
+algorithm or to build those algorithm so obviously like
+
+00:10:47.930 --> 00:10:50.810
+there must be something which would support this kind of a
+
+00:10:50.810 --> 00:10:54.090
+classification so keeping that in our mind we will be
+
+00:10:54.090 --> 00:10:57.910
+talking about algorithm called as logistic regression right
+
+00:10:57.910 --> 00:11:00.690
+a logistic regression so which is going to help you out in
+
+00:11:00.690 --> 00:11:04.650
+terms of building a model which can eventually do a
+
+00:11:04.650 --> 00:11:07.130
+prediction which can eventually do a prediction for you
+
+00:11:07.130 --> 00:11:10.870
+which can basically help you out in terms of you know
+
+00:11:10.870 --> 00:11:14.330
+understanding that how classification actually happens so
+
+00:11:14.330 --> 00:11:17.090
+let me write down a name over here algorithm name is
+
+00:11:17.090 --> 00:11:22.120
+logistics logistics regression
+
+00:11:24.680 --> 00:11:28.960
+now here you will be able to find out a word called as
+
+00:11:28.960 --> 00:11:31.760
+regression that doesn't mean that that it will be used for a
+
+00:11:31.760 --> 00:11:34.460
+regression problem it's basically a classification algorithm
+
+00:11:34.460 --> 00:11:39.160
+uh in a regressive way it tried to determine a classes so i
+
+00:11:39.160 --> 00:11:41.900
+believe this is the reason so people have named that
+
+00:11:41.900 --> 00:11:45.600
+algorithm as a logistic regression but technically it's a
+
+00:11:45.600 --> 00:11:48.780
+classification algorithm which is going to give you a
+
+00:11:48.780 --> 00:11:51.360
+classes so maybe a two class so in general logistic
+
+00:11:51.360 --> 00:11:54.060
+regression was designed for a two classes but yeah you can
+
+00:11:54.060 --> 00:11:57.200
+do a multi-class classification as well one versus red there
+
+00:11:57.200 --> 00:12:00.300
+is something called as ovo there is something called as ovr
+
+00:12:00.300 --> 00:12:03.620
+so one versus one or one versus a rest kind of a philosophy
+
+00:12:03.620 --> 00:12:06.020
+which comes into picture that we'll try to understand in a
+
+00:12:06.020 --> 00:12:09.520
+later stage but yeah so logistic regression now what is this
+
+00:12:09.520 --> 00:12:12.980
+logistic regression how it is going to work and you know how
+
+00:12:12.980 --> 00:12:16.580
+it will be able to do a classification so so far we have
+
+00:12:16.580 --> 00:12:19.780
+discussed about a linear regression and what happens so it
+
+00:12:19.780 --> 00:12:23.640
+tried to regress based on the data right it tried to draw a
+
+00:12:23.640 --> 00:12:28.140
+straight line which is going to adopt a trend of the data or
+
+00:12:28.140 --> 00:12:32.200
+basically like you know the shape of the data it will try to
+
+00:12:32.200 --> 00:12:35.740
+adopt and eventually i will be able to get a line so that
+
+00:12:35.740 --> 00:12:38.520
+line i can try to use it for a prediction this is what we
+
+00:12:38.520 --> 00:12:43.580
+have learned so far so forth yeah okay now the equation was
+
+00:12:43.580 --> 00:12:48.100
+very simple so y is equals to mx plus c so this is the
+
+00:12:48.100 --> 00:12:50.260
+equation that we have already written that we have already
+
+00:12:50.260 --> 00:12:53.280
+mentioned so this was the equation that we have gone through
+
+00:12:53.280 --> 00:12:57.860
+okay that's completely fine now here so if i'm going to give
+
+00:12:57.860 --> 00:13:04.000
+a very very large value of x so y can be very very large so
+
+00:13:04.000 --> 00:13:07.380
+basically y can tend from a minus infinity to a plus
+
+00:13:07.380 --> 00:13:10.800
+infinity and even x y so i can try to put any kind of a
+
+00:13:10.800 --> 00:13:13.960
+value with respect to x and y will be between minus infinity
+
+00:13:13.960 --> 00:13:16.620
+to plus infinity okay that's completely fine that is
+
+00:13:16.620 --> 00:13:21.880
+something that we already know now this is going to give me
+
+00:13:21.880 --> 00:13:25.240
+a value output value somewhere between minus infinity to
+
+00:13:25.240 --> 00:13:30.020
+plus infinity right if i'm going to use this particular line
+
+00:13:30.020 --> 00:13:32.660
+this is going to give me a numerical value a continuous
+
+00:13:32.660 --> 00:13:37.320
+value but let's say if i'm trying to talk about a
+
+00:13:37.320 --> 00:13:40.740
+classification algorithm so in that situation i don't need
+
+00:13:40.740 --> 00:13:43.680
+this value because these values are not going to create any
+
+00:13:43.680 --> 00:13:48.000
+kind of a impact for me in terms of doing a object
+
+00:13:48.000 --> 00:13:51.540
+classification means zero one or maybe yes or no true or
+
+00:13:51.540 --> 00:13:56.040
+false so basically I need something which is going to give
+
+00:13:56.040 --> 00:14:00.620
+me a probability value right probability value basically so
+
+00:14:00.620 --> 00:14:04.560
+how I will be able to get something so people said that that
+
+00:14:04.560 --> 00:14:09.020
+okay so maybe we can try to choose some other functions so
+
+00:14:09.020 --> 00:14:14.320
+where if I'm going to give this y value it should be able to
+
+00:14:14.320 --> 00:14:18.320
+give me or it must be able to give me some output in between
+
+00:14:18.320 --> 00:14:22.980
+0 to 1 right probability basically this was the core
+
+00:14:22.980 --> 00:14:27.040
+philosophy this was the core idea so then people have
+
+00:14:27.040 --> 00:14:30.540
+started talking about a function called as sigmoid function
+
+00:14:30.540 --> 00:14:33.960
+yeah sigmoid function so what is a sigmoid function by the
+
+00:14:33.960 --> 00:14:36.620
+way so if i have to write down a sigmoid function so maybe i
+
+00:14:36.620 --> 00:14:39.860
+can write down in this particular manner one by one plus e
+
+00:14:39.860 --> 00:14:43.820
+to the power minus of z right so this is how i can try to
+
+00:14:43.820 --> 00:14:46.940
+write down a sigmoid function it simply says that if i'll
+
+00:14:46.940 --> 00:14:49.280
+talk about a sigmoid function or even if you will go and
+
+00:14:49.280 --> 00:14:53.340
+observe its respective graph of this particular function so
+
+00:14:53.340 --> 00:14:57.100
+you will be able to find out that for any input right z is
+
+00:14:57.100 --> 00:15:00.420
+basically x you can say right x or z whatsoever it is so for
+
+00:15:00.420 --> 00:15:04.400
+any input this sigmoid kind of a function is going to give
+
+00:15:04.400 --> 00:15:08.300
+you a output right even if you have an input from minus
+
+00:15:08.300 --> 00:15:12.740
+infinity to plus infinity as a x but it is going to give you
+
+00:15:12.740 --> 00:15:15.640
+y because input can be anything right input can be literally
+
+00:15:15.640 --> 00:15:20.000
+anything i have to control my y and y should always comes as
+
+00:15:20.000 --> 00:15:23.160
+a probability value or maybe something between zero to one
+
+00:15:23.160 --> 00:15:26.940
+so sigmoid function is a function doesn't matter what kind
+
+00:15:26.940 --> 00:15:30.300
+of a value you are going to give for x always it is going to
+
+00:15:30.300 --> 00:15:34.420
+give you output between what between zero to one very very
+
+00:15:34.420 --> 00:15:39.260
+simple okay so output is going to be in between 0 to 1 all
+
+00:15:39.260 --> 00:15:44.920
+the time. So here 0 to 1 will be the output all the time at
+
+00:15:44.920 --> 00:15:48.340
+any point of a time for any value of x minus infinity to
+
+00:15:48.340 --> 00:15:52.960
+positive infinity. Whereas here, so even y value can come
+
+00:15:52.960 --> 00:15:55.660
+between or y value can fluctuate between minus infinity to
+
+00:15:55.660 --> 00:15:58.120
+plus infinity in this kind of a situation. But in this one,
+
+00:15:58.200 --> 00:16:02.080
+it will always be 0 to 1. So they said that, okay, I think
+
+00:16:02.080 --> 00:16:05.640
+this is a perfect function we can try to use, right? This is
+
+00:16:05.640 --> 00:16:10.660
+a perfect function we can try to use to convert this entire
+
+00:16:10.660 --> 00:16:15.240
+thing the entire input maybe into or like you know we can we
+
+00:16:15.240 --> 00:16:19.180
+can try to use this line kind of approach but you know we
+
+00:16:19.180 --> 00:16:22.700
+can try to use this line to not to do a regression but to
+
+00:16:22.700 --> 00:16:26.880
+divide or but to do a classification with the help of this
+
+00:16:26.880 --> 00:16:29.860
+particular sigmoid function so that was the core idea that
+
+00:16:29.860 --> 00:16:32.080
+was a core philosophy and this is where this logistic
+
+00:16:32.080 --> 00:16:35.320
+regression comes into picture so now let's try to understand
+
+00:16:35.320 --> 00:16:38.460
+a derivation of a logistic regression which is going to give
+
+00:16:38.460 --> 00:16:42.560
+you a better idea right better idea so they said that that
+
+00:16:42.560 --> 00:16:46.380
+whenever you have to predict y and in my case y can be 0 1
+
+00:16:46.380 --> 00:16:49.600
+true false this kind of things so what I can do I can choose
+
+00:16:49.600 --> 00:16:55.160
+a sigmoid function 1 plus e to the power right minus of mx
+
+00:16:55.160 --> 00:17:00.240
+plus c maybe I can try to write this one right so this is
+
+00:17:00.240 --> 00:17:03.940
+something which I can try to write down and I know that that
+
+00:17:03.940 --> 00:17:09.020
+this is going to give me 0 or 1 in between 0 to 1 it is
+
+00:17:09.020 --> 00:17:13.280
+going to give it to me so y hat is going to be maybe
+
+00:17:13.280 --> 00:17:19.980
+probability of y is equals to 1 for a given x so 1 minus y
+
+00:17:19.980 --> 00:17:25.900
+hat is nothing but probability of y is equals to 0 at a
+
+00:17:25.900 --> 00:17:28.820
+given x so maybe we can try to write down in this manner
+
+00:17:28.820 --> 00:17:32.560
+that probability of occurrence of 0 or probability of 0 is
+
+00:17:32.560 --> 00:17:36.180
+going to be 1 minus y hat if y hat is a probability of 1 as
+
+00:17:36.180 --> 00:17:39.840
+simple as that right sigmoid is something that we have
+
+00:17:39.840 --> 00:17:43.220
+already like you know understood that sigmoid always try to
+
+00:17:43.220 --> 00:17:47.120
+convert anything any values into a probability value. So at
+
+00:17:47.120 --> 00:17:49.240
+any point of a time, this function is going to give you
+
+00:17:49.240 --> 00:17:52.120
+something between 0 to 1. This is what I was looking for.
+
+00:17:52.280 --> 00:17:57.520
+For example, so if this entire term, this entire term is
+
+00:17:57.520 --> 00:17:59.940
+very, very positive value, very, very big value if you are
+
+00:17:59.940 --> 00:18:03.700
+going to give, right? So automatically this y hat is going
+
+00:18:03.700 --> 00:18:08.760
+to be close to 1. If this value is a very large negative,
+
+00:18:09.080 --> 00:18:14.220
+then your y hat is going to be what y hat will tend to 0
+
+00:18:14.220 --> 00:18:19.120
+right 0 so basically at any point of a time all the values
+
+00:18:19.120 --> 00:18:21.660
+will fluctuate between or all your output will fluctuate
+
+00:18:21.660 --> 00:18:26.480
+between 0 to 1 at the end of the day so they said that that
+
+00:18:26.480 --> 00:18:29.060
+let's say we have two classes right let's say we have two
+
+00:18:29.060 --> 00:18:33.100
+classes so one is a class a one is a class b how i will be
+
+00:18:33.100 --> 00:18:36.000
+able to take a decision that whether it belongs to whether
+
+00:18:36.000 --> 00:18:38.580
+something belongs to class a or whether something belongs to
+
+00:18:38.580 --> 00:18:42.140
+class b or maybe closer to 0 closer to 1 because let's say
+
+00:18:42.140 --> 00:18:50.960
+if y hat is coming as 0.4 or maybe 0.3 0.8 maybe 0.9 so what
+
+00:18:50.960 --> 00:18:54.340
+will be the final values what will be the class because
+
+00:18:54.340 --> 00:18:57.580
+class can be two and even in between 0 to 1 there can be
+
+00:18:57.580 --> 00:19:00.500
+infinite value which can exist so let's simply say that that
+
+00:19:00.500 --> 00:19:04.980
+okay any values any y hat that will be greater than equal to
+
+00:19:04.980 --> 00:19:09.580
+0.5 is going to become class one one of the class right
+
+00:19:09.580 --> 00:19:14.100
+positive class let's say and any values which will be lesser
+
+00:19:14.100 --> 00:19:18.660
+than 0.5 will eventually become a class 0. So they simply
+
+00:19:18.660 --> 00:19:20.620
+said that okay fine so maybe we can try to take this
+
+00:19:20.620 --> 00:19:23.760
+understanding into account and then there will be like a you
+
+00:19:23.760 --> 00:19:26.600
+know 0th class and there will be a first class. There will
+
+00:19:26.600 --> 00:19:28.920
+be 0 class and there will be one class in this way I can try
+
+00:19:28.920 --> 00:19:31.480
+to move. So that was the whole philosophy that they have
+
+00:19:31.480 --> 00:19:35.640
+derived. So now even if you will be able to get 0.4 it will
+
+00:19:35.640 --> 00:19:40.840
+simply fall under plus 0.8 fall under class 1, 0.9 fall
+
+00:19:40.840 --> 00:19:45.240
+under class 1, 0.3 falls under class 0. So in this manner
+
+00:19:45.240 --> 00:19:48.120
+your entire classification will be sorted. Doesn't matter a
+
+00:19:48.120 --> 00:19:51.300
+value can even if value there can be infinite value between
+
+00:19:51.300 --> 00:19:55.040
+0 to 1 itself right. So 0 to 1 itself means between this to
+
+00:19:55.040 --> 00:19:57.580
+this particular range even if you are going to get you will
+
+00:19:57.580 --> 00:20:00.280
+be able to decide things belongs to class 1 or things
+
+00:20:00.280 --> 00:20:03.220
+belongs to class 0 or class A B whatsoever it is right
+
+00:20:03.220 --> 00:20:06.280
+whatsoever the name of your labels or name of your class is
+
+00:20:06.280 --> 00:20:10.800
+going to be very very simple that was the whole idea till
+
+00:20:10.800 --> 00:20:16.420
+then till uh till this point it's clear everyone yeah the
+
+00:20:16.420 --> 00:20:20.760
+core idea the core philosophy okay so now uh basically it's
+
+00:20:20.760 --> 00:20:22.920
+a machine learning algorithm we are talking about right
+
+00:20:22.920 --> 00:20:26.100
+machine learning algorithm simply means that that we need a
+
+00:20:26.100 --> 00:20:28.420
+trainable parameter now listen until i don't have a
+
+00:20:28.420 --> 00:20:32.020
+trainable parameter i mean like how machine will be able to
+
+00:20:32.020 --> 00:20:36.240
+adopt with respect to the data so we have to basically get
+
+00:20:36.240 --> 00:20:39.800
+into that get into that particular part we have to even talk
+
+00:20:39.800 --> 00:20:43.380
+about a loss function or maybe a error function because what
+
+00:20:43.380 --> 00:20:46.480
+system will do what algorithm will do so algorithm will try
+
+00:20:46.480 --> 00:20:52.460
+to decrease that particular loss right everyone yeah right
+
+00:20:52.460 --> 00:20:56.640
+what is a parameter in ml i think rami should join all the
+
+00:20:56.640 --> 00:20:59.640
+classes because even yesterday you were asking some question
+
+00:20:59.640 --> 00:21:02.700
+and i think you are not very attentive inside the class so
+
+00:21:02.700 --> 00:21:05.120
+try to join a class and try to go through all those lectures
+
+00:21:05.120 --> 00:21:08.380
+yeah you will be able to understand because your question
+
+00:21:08.380 --> 00:21:11.900
+itself is not valid okay i'm like you're just asking some
+
+00:21:11.900 --> 00:21:17.000
+random questions out of nowhere okay so now uh what what uh
+
+00:21:17.000 --> 00:21:19.620
+we are supposed to basically like you know understand over
+
+00:21:19.620 --> 00:21:24.260
+here is that that there must be some loss function right and
+
+00:21:24.260 --> 00:21:27.500
+obviously we have to reduce a loss reduce a loss then only
+
+00:21:27.500 --> 00:21:31.240
+we'll be able to uh make our algorithm or make our like you
+
+00:21:31.240 --> 00:21:34.520
+know machine learning model stable. And again, so when we
+
+00:21:34.520 --> 00:21:37.920
+talk about losses, so loss we are supposed to reduce with
+
+00:21:37.920 --> 00:21:40.900
+respect to certain parameter, certain terms at the end of
+
+00:21:40.900 --> 00:21:44.000
+the day. So what was the loss function we have taken in
+
+00:21:44.000 --> 00:21:48.100
+linear regression? Any idea in the previous algorithm? What
+
+00:21:48.100 --> 00:21:48.780
+was the loss function?
+
+00:21:53.760 --> 00:21:57.660
+Yeah, mean squared error. Okay. Yeah. MSC, MSC is something
+
+00:21:57.660 --> 00:22:00.560
+that we have taken and with respect to MSC. So what we were
+
+00:22:00.560 --> 00:22:03.620
+trying to do, so we were trying to change a value of m and c
+
+00:22:03.620 --> 00:22:06.640
+right which is responsible for your entire equation y is
+
+00:22:06.640 --> 00:22:10.760
+equal to mx plus c as simple as that okay fine so over there
+
+00:22:10.760 --> 00:22:13.960
+so we were having a mean squared error mse is something that
+
+00:22:13.960 --> 00:22:17.560
+we have taken now here what we are supposed to take and what
+
+00:22:17.560 --> 00:22:20.720
+what could be the loss function that we can try to derive so
+
+00:22:20.720 --> 00:22:24.160
+let's try to talk about that one so here people said that
+
+00:22:24.160 --> 00:22:28.080
+that okay uh so there can be two situation right uh
+
+00:22:28.080 --> 00:22:32.700
+probability can be a y hat right probability can be y hat or
+
+00:22:32.700 --> 00:22:35.940
+one minus y as i have already mentioned over here this two
+
+00:22:35.940 --> 00:22:39.600
+can be a probability so for like a you know class one or
+
+00:22:39.600 --> 00:22:43.140
+class zero at the end of the day right so they said that
+
+00:22:43.140 --> 00:22:47.720
+that okay probability of y when x is given means when you
+
+00:22:47.720 --> 00:22:49.960
+are trying to give a value of x obviously you will give then
+
+00:22:49.960 --> 00:22:52.520
+only you will get a probability so probability of occurrence
+
+00:22:52.520 --> 00:22:56.380
+of y when x is given so maybe we can try to write down in
+
+00:22:56.380 --> 00:23:02.940
+this way so maybe we can write y hat into 1 minus y hat of 1
+
+00:23:02.940 --> 00:23:10.020
+minus y i so this is the equation that they have basically
+
+00:23:10.020 --> 00:23:13.640
+derived and it's called as basically a likelihood equation
+
+00:23:13.640 --> 00:23:16.360
+it's really called as likelihood equation so it's nothing
+
+00:23:16.360 --> 00:23:19.020
+but we are multiplying these two term the above term that i
+
+00:23:19.020 --> 00:23:24.480
+have written and then to the power 1 minus y i now many of
+
+00:23:24.480 --> 00:23:28.300
+you will you know feel confused over here that you know from
+
+00:23:28.300 --> 00:23:33.060
+where we are getting this y i by the way and how technically
+
+00:23:33.060 --> 00:23:39.040
+it is like you know uh working for us over here so how it is
+
+00:23:39.040 --> 00:23:43.420
+like a becoming a likelihood function by the way so any idea
+
+00:23:43.420 --> 00:23:45.220
+guys anyone yeah
+
+00:23:47.530 --> 00:23:48.570
+so
+
+00:23:50.810 --> 00:23:53.070
+simple equation wise if i'm going to write the probability
+
+00:23:53.070 --> 00:23:55.770
+of occurrence of y when x is given or when you are trying to
+
+00:23:55.770 --> 00:23:59.270
+enter x over here it is going to be y hat when y is equals
+
+00:23:59.270 --> 00:24:02.450
+to one it is going to be one minus y hat when y is equals to
+
+00:24:02.450 --> 00:24:04.910
+zero simple right this is something that i have written over
+
+00:24:04.910 --> 00:24:08.770
+there i have written above right now just try to observe one
+
+00:24:08.770 --> 00:24:13.210
+thing so anything right let's say i'm writing a to the power
+
+00:24:13.210 --> 00:24:17.090
+zero so anything to the power zero what will be the value
+
+00:24:19.580 --> 00:24:23.940
+anything to the power zero what will be the value quick
+
+00:24:23.940 --> 00:24:29.500
+everyone one right yes and anything to the power one is
+
+00:24:29.500 --> 00:24:33.380
+going to be anything right means if i have writing a to the
+
+00:24:33.380 --> 00:24:35.980
+power one it's going to be one at the end of the day for
+
+00:24:35.980 --> 00:24:39.000
+example if i'm writing five to the power zero one right five
+
+00:24:39.000 --> 00:24:44.500
+to the power one five itself yeah i with self okay fine so
+
+00:24:44.500 --> 00:24:49.740
+basically what happens over here uh so basically it is the
+
+00:24:49.740 --> 00:24:53.120
+exponent the power that we are talking about over here so it
+
+00:24:53.120 --> 00:24:57.960
+is behaving like on off kind of a switch for me i can say so
+
+00:24:57.960 --> 00:25:02.140
+if exponent is equals to zero it simply means that that
+
+00:25:02.140 --> 00:25:05.940
+ignore the term it's going to give you one right and if
+
+00:25:05.940 --> 00:25:10.460
+exponent is equals to one so keep the term this is what it
+
+00:25:10.460 --> 00:25:12.960
+means right this is what it means i think from a childhood
+
+00:25:12.960 --> 00:25:16.600
+like philosophy so anything to the power 0 is going to be 1
+
+00:25:16.600 --> 00:25:20.080
+simply means that ignore it because if you will do multiply
+
+00:25:20.080 --> 00:25:22.940
+multiply anything by 1 you will be able to get the exact
+
+00:25:22.940 --> 00:25:27.400
+same value which is a resultant 1. So they said that that
+
+00:25:27.400 --> 00:25:32.180
+okay it is behaving like a switch for me so if it is
+
+00:25:32.180 --> 00:25:36.360
+behaving like a switch for me so we can try to maybe apply
+
+00:25:36.360 --> 00:25:39.780
+this particular idea right we can try to apply this
+
+00:25:39.780 --> 00:25:44.420
+particular idea now what idea what idea i can try to apply
+
+00:25:44.420 --> 00:25:49.960
+for this one so they said that that okay so maybe we can try
+
+00:25:49.960 --> 00:25:55.300
+to apply y hat to the power y kind of idea so there can be a
+
+00:25:55.300 --> 00:25:59.540
+multiple cases over here so in case of case one right in
+
+00:25:59.540 --> 00:26:04.480
+case of case one so y is equals to uh let's suppose one so y
+
+00:26:04.480 --> 00:26:08.620
+hat to the power one is equals to y hat right and there will
+
+00:26:08.620 --> 00:26:13.560
+be like a case two let's say case two and here so y is
+
+00:26:13.560 --> 00:26:18.020
+equals to zero so y hat to the power zero is equals to one
+
+00:26:18.020 --> 00:26:22.180
+right just as above right just as above so here they said
+
+00:26:22.180 --> 00:26:26.400
+that that okay one minus y if we have one minus y means a
+
+00:26:26.400 --> 00:26:31.300
+zero term right the another class one minus y hat so i can
+
+00:26:31.300 --> 00:26:34.240
+try to like let's say if i'm writing uh to the power one
+
+00:26:34.240 --> 00:26:39.760
+minus y right one minus y so if y is equals to one so this
+
+00:26:39.760 --> 00:26:42.700
+term is going to be zero so this term is going to be zero
+
+00:26:42.700 --> 00:26:45.260
+means this term will be neutralized automatically this term
+
+00:26:45.260 --> 00:26:49.340
+will become one means this term will be null and void by the
+
+00:26:49.340 --> 00:26:54.680
+way right and uh yeah so if y is equals to zero y is equals
+
+00:26:54.680 --> 00:26:59.080
+to zero means this will be zero so this term will hold means
+
+00:26:59.080 --> 00:27:01.440
+this term will hold means this term is going to give you
+
+00:27:01.440 --> 00:27:05.900
+certain values. So keeping this philosophy in a like a
+
+00:27:05.900 --> 00:27:08.740
+picture this keeping this mathematical assumption in a
+
+00:27:08.740 --> 00:27:13.360
+picture. So people said that that we can use this function
+
+00:27:13.360 --> 00:27:17.600
+as a likelihood function so that we can on off right we can
+
+00:27:17.600 --> 00:27:19.760
+on off because there can be zero class zero can be one class
+
+00:27:19.760 --> 00:27:22.760
+right so we can take this on off. So keeping that in our
+
+00:27:22.760 --> 00:27:25.320
+mind so they have taken this particular function as a
+
+00:27:25.320 --> 00:27:28.080
+likelihood function so here again I'm going to write
+
+00:27:28.080 --> 00:27:31.220
+probability of occurrence of y when x is given is nothing
+
+00:27:31.220 --> 00:27:37.080
+but y hat 1 minus y hat 1 minus y i right so this is a
+
+00:27:37.080 --> 00:27:39.260
+likelihood function on off switch function that they have
+
+00:27:39.260 --> 00:27:42.120
+like you know expressed or they said that okay fine we can
+
+00:27:42.120 --> 00:27:48.020
+try to use it now so there can be a multiple I would say
+
+00:27:48.020 --> 00:27:51.580
+multiple input values right there can be multiple like a
+
+00:27:51.580 --> 00:27:55.200
+rows basically. So keeping that in the mind, they said that
+
+00:27:55.200 --> 00:27:58.680
+that if there is a multiple rows or multiple values, I mean
+
+00:27:58.680 --> 00:28:01.280
+like this is something with respect to one single rows, one
+
+00:28:01.280 --> 00:28:05.080
+single record or data. So if I have to write it down for a
+
+00:28:05.080 --> 00:28:11.560
+multiple one and which depends upon you know M and B or
+
+00:28:11.560 --> 00:28:18.320
+let's say I'm writing W and B right. W is nothing but M, B
+
+00:28:18.320 --> 00:28:21.580
+is nothing but C you can say yeah so it is going to be the
+
+00:28:21.580 --> 00:28:24.040
+product of this is called as product this is called a
+
+00:28:24.040 --> 00:28:27.580
+summation right so in a mathematics so from i is equal to 1
+
+00:28:27.580 --> 00:28:31.000
+till n means n number of record i can write down same
+
+00:28:31.000 --> 00:28:38.800
+function y i hat 1 minus y i hat 1 minus y i same same
+
+00:28:38.800 --> 00:28:41.420
+function i have written in this particular manner so this is
+
+00:28:41.420 --> 00:28:44.540
+just for one single input data this is for multiple data
+
+00:28:44.540 --> 00:28:49.080
+right multiple data so now this has become my likelihood
+
+00:28:49.080 --> 00:28:51.420
+function a finally likelihood function
+
+00:28:54.400 --> 00:29:00.840
+likelihood function basically right now what we are supposed
+
+00:29:00.840 --> 00:29:05.000
+to do so basically we have to like you know maximize this
+
+00:29:05.000 --> 00:29:07.400
+particular function so that i will be able to get the
+
+00:29:07.400 --> 00:29:12.580
+correct result but here so it is very very difficult i would
+
+00:29:12.580 --> 00:29:17.320
+say in terms of optimizing this particular function right in
+
+00:29:17.320 --> 00:29:19.300
+terms of when this particular function so what people said
+
+00:29:19.300 --> 00:29:25.140
+that that do one thing if there is a difficulty in terms of
+
+00:29:25.140 --> 00:29:28.220
+optimizing means finding out the gradient right finding out
+
+00:29:28.220 --> 00:29:31.320
+the gradient of this particular function what we can do
+
+00:29:31.320 --> 00:29:33.860
+optimization means gradient so that i will be able to reach
+
+00:29:33.860 --> 00:29:36.200
+out to the minima because that's a whole idea that's a whole
+
+00:29:36.200 --> 00:29:38.840
+approach i will i should be able to reach out to the minima
+
+00:29:38.840 --> 00:29:42.840
+so they said that that okay let's do one thing so instead of
+
+00:29:42.840 --> 00:29:46.620
+using this entire function in this particular form let's
+
+00:29:46.620 --> 00:29:52.760
+take a log likelihood. So from there log likelihood so in
+
+00:29:52.760 --> 00:29:57.460
+both the side we are going to apply log of this likelihood
+
+00:29:57.460 --> 00:30:01.100
+function then it is going to be what it is going to be
+
+00:30:01.100 --> 00:30:04.860
+converted into summation. So i is equals to 1 till n from
+
+00:30:04.860 --> 00:30:20.060
+all the data y i log of y hat plus 1 minus y i log of 1
+
+00:30:20.060 --> 00:30:24.920
+minus y hat simple so this is something because if there is
+
+00:30:24.920 --> 00:30:30.040
+something called as you know z is equals to x to the power y
+
+00:30:30.040 --> 00:30:33.320
+so if I'm going to ask you to take a log so what will be the
+
+00:30:33.320 --> 00:30:34.900
+log guys yes
+
+00:30:39.190 --> 00:30:43.430
+what will be the log if you are going to write log of z log
+
+00:30:43.430 --> 00:30:46.010
+if you are going to apply in both hand side so in this
+
+00:30:46.010 --> 00:30:51.530
+situation can I say that it is going to be y log x right y
+
+00:30:51.530 --> 00:30:58.470
+log x correct everyone right and if there is a z is equals
+
+00:30:58.470 --> 00:31:03.690
+to x dot y yeah x dot y so in that case what will be log so
+
+00:31:03.690 --> 00:31:07.030
+log in terms of any kind of a multiplication can i say that
+
+00:31:07.030 --> 00:31:10.990
+it is going to be log x plus log y so we are trying to
+
+00:31:10.990 --> 00:31:14.290
+implement the same thing so we have a multiplication here so
+
+00:31:14.290 --> 00:31:18.130
+we have used plus over here as you can see and then we have
+
+00:31:18.130 --> 00:31:21.870
+a power so we have basically used this one so this is my
+
+00:31:21.870 --> 00:31:25.450
+final likelihood function which i am able to get it yeah
+
+00:31:25.450 --> 00:31:30.010
+which i am able to get it okay so this is a log likelihood
+
+00:31:30.010 --> 00:31:34.650
+function that we have fine now we have to maximize this one
+
+00:31:34.650 --> 00:31:38.130
+uh so but in machine learning in general what we do so we
+
+00:31:38.130 --> 00:31:41.710
+try to minimize it we always try to minimize the loss so
+
+00:31:41.710 --> 00:31:43.690
+this is basically let's say if i'm going to consider this as
+
+00:31:43.690 --> 00:31:46.530
+a loss function i don't have to maximize this one i have to
+
+00:31:46.530 --> 00:31:51.330
+minimize this one as minimum as possible in this particular
+
+00:31:51.330 --> 00:31:53.970
+situation right in this particular situation i have to
+
+00:31:53.970 --> 00:31:58.330
+basically minimize it so they said that that okay so we can
+
+00:31:58.330 --> 00:32:02.070
+take a negative lock likelihood in that particular situation
+
+00:32:02.070 --> 00:32:04.870
+so they said that that okay so if i'm going to take a
+
+00:32:04.870 --> 00:32:07.990
+negative log likelihood so in that situation maybe i can try
+
+00:32:07.990 --> 00:32:10.510
+to write this rewrite this function in a different form
+
+00:32:10.510 --> 00:32:15.690
+weight and biases one by m negative of so negative sign
+
+00:32:15.690 --> 00:32:21.470
+summation of i is equals to one till m or n whatsoever it is
+
+00:32:21.470 --> 00:32:25.270
+and then so dividing by like total number of data and then
+
+00:32:25.270 --> 00:32:35.070
+same function so y i log of y hat plus one minus y i log of
+
+00:32:35.070 --> 00:32:41.530
+one minus y hat simple so now this is my loss function or
+
+00:32:41.530 --> 00:32:44.310
+there is a name to it name to this particular function which
+
+00:32:44.310 --> 00:32:47.170
+we will be using again multiple time in many algorithm right
+
+00:32:47.170 --> 00:32:49.830
+same equation same loss equation because loss equation is
+
+00:32:49.830 --> 00:32:52.390
+important for machine learning without that you will not be
+
+00:32:52.390 --> 00:32:54.730
+able to do a machine learning machine will not be able to
+
+00:32:54.730 --> 00:32:57.230
+learn because this is what it try to optimize all the time
+
+00:32:57.230 --> 00:32:59.490
+and this is what I have discussed even my very first
+
+00:32:59.490 --> 00:33:03.710
+algorithm same pattern equation has changed so here in this
+
+00:33:03.710 --> 00:33:06.330
+situation there is a name to it that people have given and
+
+00:33:06.330 --> 00:33:11.290
+the name to that function is binary binary cross entropy
+
+00:33:15.830 --> 00:33:22.750
+entropy loss function or you can say log loss function a
+
+00:33:22.750 --> 00:33:25.810
+very famous function but it's a very easy to remember you
+
+00:33:25.810 --> 00:33:27.790
+don't have to do anything it's very very easy to remember
+
+00:33:27.790 --> 00:33:30.990
+right so there is just log like log we have taken with
+
+00:33:30.990 --> 00:33:33.210
+respect to like a multiplication and the power that's it
+
+00:33:33.210 --> 00:33:37.770
+okay which is coming from this likelihood equation this
+
+00:33:37.770 --> 00:33:41.150
+particular equation as simple as that so this is going to be
+
+00:33:41.150 --> 00:33:45.090
+binary cross entropy loss function or log loss we try to
+
+00:33:45.090 --> 00:33:49.290
+call it as a log loss function okay so this will be my final
+
+00:33:49.290 --> 00:33:54.590
+function i'm going to consider so where my y hat the y hat
+
+00:33:54.590 --> 00:33:58.870
+term that you are able to see where by y hat is going to be
+
+00:33:58.870 --> 00:34:07.880
+nothing but sigmoid function of w x plus b simple right so
+
+00:34:07.880 --> 00:34:10.520
+just try to pass and what is this by the way so this is
+
+00:34:10.520 --> 00:34:15.420
+nothing but 1 by 1 plus e to the power minus of w x plus b
+
+00:34:15.420 --> 00:34:18.480
+right this is the sigmoid function so this is my y hat this
+
+00:34:18.480 --> 00:34:21.340
+is my y hat so wherever there is a y hat actually it simply
+
+00:34:21.340 --> 00:34:24.560
+means that that this one yeah this one and obviously this
+
+00:34:24.560 --> 00:34:28.560
+depends upon w and b so if it depends upon w and v we'll try
+
+00:34:28.560 --> 00:34:31.280
+to find out the derivatives and then you know we'll try to
+
+00:34:31.280 --> 00:34:34.800
+basically optimize it at any point of a time at any point of
+
+00:34:34.800 --> 00:34:40.120
+a time okay fine so this is my loss function and as i know
+
+00:34:40.120 --> 00:34:45.880
+that my loss function depends upon w and b yeah w and b my
+
+00:34:45.880 --> 00:34:50.040
+line basically mx and c m and c so in similar manner so here
+
+00:34:50.040 --> 00:34:54.820
+i'm representing w and b so my loss function depends upon w
+
+00:34:54.820 --> 00:34:59.620
+and b so at any point of a time, what I will have to do,
+
+00:34:59.880 --> 00:35:03.180
+right? What I will have to do. So at any point of a time, I
+
+00:35:03.180 --> 00:35:06.800
+have to find out what I have to find out basically a new
+
+00:35:06.800 --> 00:35:12.680
+value of W and new value of B, same, same as before, right?
+
+00:35:12.820 --> 00:35:16.500
+Same as my previous equation is nothing but old value of W,
+
+00:35:16.840 --> 00:35:21.560
+old value of B minus eta. Eta is nothing but a learning
+
+00:35:21.560 --> 00:35:29.280
+rate, right? Then what guys? Then what? Can I say rate of
+
+00:35:29.280 --> 00:35:36.640
+change of loss with respect to w, rate of change of loss
+
+00:35:36.640 --> 00:35:40.740
+with respect to b. I think this was the equation, right?
+
+00:35:40.900 --> 00:35:43.040
+This is the equation which will be responsible finding out
+
+00:35:43.040 --> 00:35:49.560
+the new value of w and b. Yes everyone? Yeah? Agree
+
+00:35:49.560 --> 00:35:53.880
+everyone? Okay, now we have a loss function. We have our
+
+00:35:53.880 --> 00:35:56.280
+loss function and we know that loss function depends upon W
+
+00:35:56.280 --> 00:35:59.040
+and B. So in the previous case, our loss function was
+
+00:35:59.040 --> 00:36:01.920
+different. Now in this case, this is my loss function,
+
+00:36:02.200 --> 00:36:05.380
+right? And yes, it depends upon W and B. So if I'm going to
+
+00:36:05.380 --> 00:36:09.140
+find out loss with respect to W and loss with respect to B,
+
+00:36:09.520 --> 00:36:12.820
+I will be having these two values. Eta is nothing but a
+
+00:36:12.820 --> 00:36:15.180
+learning rate. So how much changes we are supposed to apply,
+
+00:36:15.180 --> 00:36:19.100
+which is going to fluctuate between 10 to 0.0001 something
+
+00:36:19.100 --> 00:36:22.080
+like that right there will be initial value of w and b so
+
+00:36:22.080 --> 00:36:24.700
+obviously like you know old value of w and b we are going to
+
+00:36:24.700 --> 00:36:28.020
+change it so only this much is required in this case this
+
+00:36:28.020 --> 00:36:30.480
+much is required in this case and same was required even in
+
+00:36:30.480 --> 00:36:33.520
+my previous equation unlike linear regression the only
+
+00:36:33.520 --> 00:36:36.060
+difference was at that point of a time so we were having
+
+00:36:36.060 --> 00:36:39.080
+like you know a different loss function mean is quad error
+
+00:36:39.080 --> 00:36:41.560
+msc is something that we have taken at that point of a time
+
+00:36:41.560 --> 00:36:46.140
+okay fine so here if you are going to take a derivative of
+
+00:36:46.140 --> 00:36:48.880
+this function this one which is easy i think you can derive
+
+00:36:48.880 --> 00:36:52.540
+it with respect to w because you know y hat value right so
+
+00:36:52.540 --> 00:36:56.380
+log derivative so if you are going to do a derivative of
+
+00:36:56.380 --> 00:37:00.580
+this one of if you will try to find out so w n w new is
+
+00:37:00.580 --> 00:37:05.240
+nothing but your w old minus eta derivative of this one is
+
+00:37:05.240 --> 00:37:12.180
+going to be one by m one by m uh summation of i is equals to
+
+00:37:12.180 --> 00:37:24.420
+one till m all the data y hat minus y i into x i so this is
+
+00:37:24.420 --> 00:37:29.540
+going to be my dj by dw and what
+
+00:37:31.980 --> 00:37:43.250
+is my db so eta 1 by m summation i is equals to 1 till m y
+
+00:37:43.250 --> 00:37:49.270
+hat prediction minus original yeah expected so this is going
+
+00:37:49.270 --> 00:37:52.530
+to be my final equation now this is coming from where this
+
+00:37:52.530 --> 00:37:55.090
+one right so just go and do a derivative with the help of
+
+00:37:55.090 --> 00:37:58.930
+the chain rule same derivative that i have taught you so you
+
+00:37:58.930 --> 00:38:03.090
+will be able to find out these two basically w and b so
+
+00:38:03.090 --> 00:38:05.890
+that's the only thing that's the only thing that we have to
+
+00:38:05.890 --> 00:38:08.910
+find out if i'm able to find out continuously w and b
+
+00:38:08.910 --> 00:38:13.050
+eventually i'm trying to train the model so this is the only
+
+00:38:13.050 --> 00:38:16.870
+equation that we have to reach out to so and rest is like
+
+00:38:16.870 --> 00:38:19.550
+you know you know we already know that it is going to give
+
+00:38:19.550 --> 00:38:23.170
+you always so your predicted y is always going to be either
+
+00:38:23.170 --> 00:38:27.710
+0 or 1 as simple as that so that's my final equation guys
+
+00:38:27.710 --> 00:38:32.090
+based on my previous a derivation right previous derivation
+
+00:38:32.090 --> 00:38:36.610
+then in this equation or even in the previous equation that
+
+00:38:36.610 --> 00:38:39.890
+i have discussed so there is a term called as a
+
+00:38:39.890 --> 00:38:43.610
+regularization we have introduced what is the meaning of
+
+00:38:43.610 --> 00:38:45.470
+that regularization again very important from an interview
+
+00:38:45.470 --> 00:38:48.810
+perspective so there is a term called as a relation that
+
+00:38:48.810 --> 00:38:52.770
+people have introduced so they said that that if your model
+
+00:38:52.770 --> 00:38:56.830
+is becoming too complex too complex means so many columns
+
+00:38:56.830 --> 00:38:59.890
+are there so many features are there so obviously my
+
+00:38:59.890 --> 00:39:02.770
+equation will be long if you will try to break down your y's
+
+00:39:02.770 --> 00:39:07.910
+it will be like w1 x1 w2 x2 w3 x3 and so on right it will be
+
+00:39:07.910 --> 00:39:10.290
+very very long equation as of now we are considering only
+
+00:39:10.290 --> 00:39:13.610
+one x but let's say we have multiple x which is by default
+
+00:39:13.610 --> 00:39:18.950
+will be the nature of the real data right so if your data if
+
+00:39:18.950 --> 00:39:22.490
+your model is becoming too complex because of those data so
+
+00:39:22.490 --> 00:39:29.270
+there your weights may become very very large right and if
+
+00:39:29.270 --> 00:39:33.210
+there is a larger weights in that situation it simply means
+
+00:39:33.210 --> 00:39:37.650
+that that model will feel overconfident and maybe model will
+
+00:39:37.650 --> 00:39:40.570
+try to overfit means it is going to give you good result
+
+00:39:40.570 --> 00:39:43.670
+with the seen data but with unseen data it is not going to
+
+00:39:43.670 --> 00:39:46.390
+give you a good result right with the seen data means the
+
+00:39:46.390 --> 00:39:49.690
+data that it has used at the time of a training so with that
+
+00:39:49.690 --> 00:39:53.990
+data it will give you our overconfidence that's 90 accuracy
+
+00:39:53.990 --> 00:39:57.230
+95 accuracy and when you are going to test this that model
+
+00:39:57.230 --> 00:40:02.070
+with unseen data so maybe that 90 will drop down to 60 so
+
+00:40:02.070 --> 00:40:05.130
+keeping that in mind what people have proposed they propose
+
+00:40:05.130 --> 00:40:08.390
+that that okay so maybe we can try to introduce some
+
+00:40:08.390 --> 00:40:11.750
+regularization term we can try to regularize the model we
+
+00:40:11.750 --> 00:40:16.150
+can try to impose penalty yeah we can try to impose penalty
+
+00:40:16.150 --> 00:40:20.530
+on our people so this is a penalty penalty on basically a
+
+00:40:20.530 --> 00:40:25.150
+loss function so this is where you know this new term
+
+00:40:25.150 --> 00:40:29.970
+regulation came into a picture it simply says that that in
+
+00:40:29.970 --> 00:40:32.590
+case of when you are trying to implement a realization so
+
+00:40:32.590 --> 00:40:36.950
+your loss function which depends upon w and b that we have
+
+00:40:36.950 --> 00:40:41.310
+discussed so far so W and B regularize R I am trying to
+
+00:40:41.310 --> 00:40:44.570
+represent is nothing but your regular loss function the loss
+
+00:40:44.570 --> 00:40:46.990
+function that we have already derived in this case or even
+
+00:40:46.990 --> 00:40:55.440
+in the linear regression case plus penalty penalty yeah
+
+00:40:55.440 --> 00:40:58.640
+penalty now what is this penalty so penalty is nothing but
+
+00:40:58.640 --> 00:41:01.960
+something with respect to the weight so there are two kind
+
+00:41:01.960 --> 00:41:05.240
+of regulation you will be able to find out so there is so
+
+00:41:05.240 --> 00:41:08.380
+this is same right this is same the new term that we are
+
+00:41:08.380 --> 00:41:11.340
+trying to just add means this function is going to be this
+
+00:41:11.340 --> 00:41:14.060
+function only same function and again with respect to your
+
+00:41:14.060 --> 00:41:16.220
+like a linear regression it is going to be your mean squad
+
+00:41:16.220 --> 00:41:19.740
+error so the loss function that we had with respect to w and
+
+00:41:19.740 --> 00:41:22.740
+b so that is that is not going to change so just a penalty
+
+00:41:22.740 --> 00:41:25.820
+term people have basically added so that i will be able to
+
+00:41:25.820 --> 00:41:29.680
+control my weights right control my weight so that it should
+
+00:41:29.680 --> 00:41:33.520
+not grow as an overconfident one so there is something
+
+00:41:33.520 --> 00:41:39.420
+called as l2 right l2 realization it's on other ways l2 and
+
+00:41:39.420 --> 00:41:41.540
+l1 it's also called as reach and lasso
+
+00:41:46.690 --> 00:41:52.510
+l2 realization what it does right so l2 realization always
+
+00:41:52.510 --> 00:41:57.230
+try to add a square weights with a particular term for
+
+00:41:57.230 --> 00:42:03.310
+example so in this situation your loss function with respect
+
+00:42:03.310 --> 00:42:08.590
+to l2 is going to be your original loss function plus they
+
+00:42:08.590 --> 00:42:12.950
+have introduced a term called as lambda divided by 2m total
+
+00:42:12.950 --> 00:42:21.150
+data summation of j is equals to 1 till n w square right w
+
+00:42:21.150 --> 00:42:26.510
+square so this is a term called as l2 term where lambda
+
+00:42:26.510 --> 00:42:32.410
+means a strong penalty i'm trying to put over here right so
+
+00:42:32.410 --> 00:42:35.910
+a strong penalty I am trying to put over here. So whenever,
+
+00:42:36.210 --> 00:42:39.890
+so this is my new loss function, so whenever you will try to
+
+00:42:39.890 --> 00:42:43.130
+find out a gradient because we know that to change my
+
+00:42:43.130 --> 00:42:47.290
+weight, what I have to do, I have to find out the gradient.
+
+00:42:47.910 --> 00:42:51.170
+So previously my loss function was like this one. With
+
+00:42:51.170 --> 00:42:53.770
+respect to that I was trying to find out the gradient and
+
+00:42:53.770 --> 00:42:58.030
+this was the gradient I was able to get. But this time the
+
+00:42:58.030 --> 00:43:00.730
+new term has been introduced over here. So, when you will
+
+00:43:00.730 --> 00:43:04.810
+try to find out a rate of change of this j with respect to a
+
+00:43:04.810 --> 00:43:10.230
+w, right, w and with respect to this l to w. So, again,
+
+00:43:10.770 --> 00:43:14.110
+gradient of this, you will be able to find out for sure. A
+
+00:43:14.110 --> 00:43:17.290
+gradient of this is what? So, gradient of this is 1 by m
+
+00:43:17.290 --> 00:43:23.850
+summation of i is equals to 1 till m y hat minus y. Simple.
+
+00:43:23.990 --> 00:43:27.150
+This is the gradient that you will be able to find out. Same
+
+00:43:27.150 --> 00:43:29.190
+thing, right? This is the gradient that you will be able to
+
+00:43:29.190 --> 00:43:34.370
+find out x i plus what is the gradient of this one guys?
+
+00:43:35.170 --> 00:43:40.030
+What is the gradient of this particular term with respect to
+
+00:43:40.030 --> 00:43:43.430
+w. So can I say that it is going to be like a square right?
+
+00:43:43.850 --> 00:43:47.550
+So 2 of lambda, so 2 will be cancelled. So lambda by m
+
+00:43:47.550 --> 00:43:52.190
+summation of i is equals to 1 till n w. Can I say that this
+
+00:43:52.190 --> 00:43:54.550
+is going to be the gradient of this particular term?
+
+00:43:57.450 --> 00:44:03.610
+So lambda by 2w, so lambda by m. So this is coming from
+
+00:44:03.610 --> 00:44:06.110
+where? This is coming from my previous gradient, the
+
+00:44:06.110 --> 00:44:08.290
+gradient which I was able to find out. And this is basically
+
+00:44:08.290 --> 00:44:11.590
+coming from where? The new term which I have added in this
+
+00:44:11.590 --> 00:44:12.810
+particular manner.
+
+00:44:15.410 --> 00:44:20.350
+So this is a new term which has been introduced. And here,
+
+00:44:20.490 --> 00:44:24.410
+so this new term is helping me out in terms of reducing the
+
+00:44:24.410 --> 00:44:26.630
+overfitting means
+
+00:44:28.680 --> 00:44:32.600
+it is trying to stop my model to grow in a way so where it
+
+00:44:32.600 --> 00:44:35.920
+can show a overconfidence but keeping all the features i
+
+00:44:35.920 --> 00:44:39.140
+mean like we have let's say multiple x over there so it is
+
+00:44:39.140 --> 00:44:42.140
+trying to basically allow me to control so this is basically
+
+00:44:42.140 --> 00:44:44.860
+called as l2 realization so where the square term comes into
+
+00:44:44.860 --> 00:44:48.040
+picture the square term is a good term like in terms of like
+
+00:44:48.040 --> 00:44:51.240
+remembering things then there is something called as l1 so
+
+00:44:51.240 --> 00:44:53.980
+they said that that okay square term is completely fine but
+
+00:44:53.980 --> 00:44:58.020
+I think we can take even absolute weight and we can try to
+
+00:44:58.020 --> 00:45:02.080
+penalize. So the objective was very simple same. So there is
+
+00:45:02.080 --> 00:45:05.140
+something called as L1 with respect to W and B and it is
+
+00:45:05.140 --> 00:45:12.980
+going to be loss original plus lambda by M summation and
+
+00:45:12.980 --> 00:45:16.460
+here so they said that let's take absolute weight. Yeah
+
+00:45:16.460 --> 00:45:20.700
+let's take absolute weight. So here if you will try to
+
+00:45:20.700 --> 00:45:26.200
+derive this term so means d by dw if you will of absolute
+
+00:45:26.200 --> 00:45:30.920
+weight if you will try to find out so here it's going to be
+
+00:45:30.920 --> 00:45:36.440
+1 if weight is greater than 0 it's going to be minus 1
+
+00:45:36.440 --> 00:45:41.100
+derivative of this right when weight is lesser than 0 and
+
+00:45:41.100 --> 00:45:47.560
+it's going to be undefined undefined if weight is equals to
+
+00:45:47.560 --> 00:45:53.620
+zero right w i is equals to zero because what is our
+
+00:45:53.620 --> 00:45:57.660
+derivative of zero guys what is the derivative of zero
+
+00:46:03.100 --> 00:46:05.520
+yes derivative
+
+00:46:07.920 --> 00:46:10.560
+of zero anyone uh
+
+00:46:22.400 --> 00:46:26.180
+when w w is going to be one means when w is going to be
+
+00:46:26.180 --> 00:46:30.300
+positive at the end of the day it is going to be absolute
+
+00:46:30.300 --> 00:46:33.460
+right so it is going to be like uh one and then if w is
+
+00:46:33.460 --> 00:46:35.380
+going to be negative so yeah
+
+00:46:46.680 --> 00:46:49.420
+i mean like when w is going to be absolute so in that
+
+00:46:49.420 --> 00:46:52.780
+situation so means w is greater than equal to greater than 0
+
+00:46:52.780 --> 00:46:56.340
+so in that situation it is going to be 1 and if w is lesser
+
+00:46:56.340 --> 00:47:00.040
+than 0 in that situation it is going to be like we are
+
+00:47:00.040 --> 00:47:02.220
+trying to deal with a sign over here right so we are just
+
+00:47:02.220 --> 00:47:05.760
+trying to deal with the sign at any point of a time so fine
+
+00:47:05.760 --> 00:47:09.260
+so this is something called as what this is something called
+
+00:47:09.260 --> 00:47:12.620
+as l1 regularization at any point of a time so people have
+
+00:47:12.620 --> 00:47:16.220
+named that as a l1 regularization so we can try to use
+
+00:47:16.220 --> 00:47:19.820
+basically this L1 regularization and with the help of this
+
+00:47:19.820 --> 00:47:27.160
+L1 regularization so we can try to penalize the existing
+
+00:47:27.160 --> 00:47:30.620
+loss function. So L2 is nothing but a square and L1 is
+
+00:47:30.620 --> 00:47:36.180
+nothing but just a absolute. Yeah just an absolute. Okay now
+
+00:47:36.180 --> 00:47:40.540
+so moving ahead so this is something called as L1 and L2 and
+
+00:47:40.540 --> 00:47:44.020
+you can try to use L1 and L2 and it is going to basically
+
+00:47:44.020 --> 00:47:49.380
+penalize your ultimate it changes into a weight simple now
+
+00:47:49.380 --> 00:47:50.320
+so
+
+00:47:52.530 --> 00:47:53.270
+coming to
+
+00:48:07.100 --> 00:48:10.700
+accuracy matrices of this entire
+
+00:48:15.500 --> 00:48:20.400
+equation so if you remember we have talked about our
+
+00:48:20.400 --> 00:48:23.240
+confusion matrices right we have talked about our confusion
+
+00:48:23.240 --> 00:48:27.020
+matrices and we have seen like a false positive false
+
+00:48:27.020 --> 00:48:33.500
+negative and we have seen like a you know like a type 1
+
+00:48:33.500 --> 00:48:35.860
+error type 2 error so when we were talking about the
+
+00:48:35.860 --> 00:48:39.840
+statistics so here similar kind of approach we are going to
+
+00:48:39.840 --> 00:48:43.200
+use in terms of finding out that how much accurate our
+
+00:48:43.200 --> 00:48:47.620
+entire equation is and here you will be able to find out
+
+00:48:47.620 --> 00:48:50.920
+something called as accuracy something called as the season
+
+00:48:50.920 --> 00:48:53.620
+something called as a recall and something called as f1
+
+00:48:53.620 --> 00:48:57.880
+score we'll try to explore even those part basically so hope
+
+00:48:57.880 --> 00:49:02.120
+this equation is fine yes everyone means how weight is
+
+00:49:02.120 --> 00:49:04.940
+changing how machine is trying to learn in case of a
+
+00:49:04.940 --> 00:49:08.320
+logistic regulation and for what purpose we are going to use
+
+00:49:08.320 --> 00:49:11.780
+logistic regulation clear
+
+00:49:17.340 --> 00:49:23.280
+in a chat everyone yeah okay so if it is clear now let's try
+
+00:49:23.280 --> 00:49:27.360
+to understand in a practical manner let's try to do an
+
+00:49:27.360 --> 00:49:30.340
+implementation so open up your vs code guys everyone
+
+00:49:34.120 --> 00:49:36.980
+now open folder now
+
+00:50:33.080 --> 00:50:39.860
+let's try to create a file logistics dot ipynb okay
+
+00:51:33.520 --> 00:51:37.600
+so let's try to do some sort of import over here so import
+
+00:51:37.600 --> 00:51:42.760
+pandas pan as pd and
+
+00:51:50.570 --> 00:52:00.070
+from sklearn linear model or sk learn dot model selection
+
+00:52:00.070 --> 00:52:07.390
+try to call train test split fine and then we can try to
+
+00:52:07.390 --> 00:52:14.650
+basically import even a logistic regression so from sklearn
+
+00:52:14.650 --> 00:52:22.240
+linear model logistic regression then matrixes
+
+00:52:22.240 --> 00:52:25.240
+classification report confusion matrixes fine
+
+00:52:30.840 --> 00:52:35.580
+data wise i'm going to prepare my own data let's say so i'm
+
+00:52:35.580 --> 00:52:41.480
+not going to use any inbuilt data oh kernel failed to start
+
+00:52:41.480 --> 00:52:48.000
+due to the missing modules okay fine so let me use some
+
+00:52:48.000 --> 00:52:51.080
+different kernel out
+
+00:53:05.290 --> 00:53:10.370
+of sudden it has started giving me kernel issue it was
+
+00:53:10.370 --> 00:53:15.370
+working python exe okay
+
+00:53:52.900 --> 00:53:57.520
+looks like this kernel is going to work okay no model called
+
+00:53:57.520 --> 00:54:02.100
+as mat broadly i don't even need it so let me remove okay
+
+00:54:11.380 --> 00:54:13.800
+fine it you want so just try to do this import i'm bringing
+
+00:54:13.800 --> 00:54:16.680
+you a code inside your chat box yeah
+
+00:54:19.370 --> 00:54:23.130
+so just try to do this import and let's try to create a
+
+00:54:23.130 --> 00:54:27.530
+small data set so here what we can do so maybe we can try to
+
+00:54:27.530 --> 00:54:32.290
+you know create a data so where a number of hours of study
+
+00:54:32.290 --> 00:54:36.870
+and then a score and then whether we are going to be passed
+
+00:54:36.870 --> 00:54:40.090
+or we are going to be fail so maybe this kind of data i can
+
+00:54:40.090 --> 00:54:43.450
+try to prepare a custom data i can try to prepare again
+
+00:54:43.450 --> 00:54:45.950
+there are like tons of data you be able to find it over the
+
+00:54:45.950 --> 00:54:54.370
+internet so here i can try to write hours studied uh then uh
+
+00:54:54.370 --> 00:54:54.870
+here
+
+00:54:58.750 --> 00:54:59.230
+score
+
+00:55:02.240 --> 00:55:13.470
+is going to be let's say 20 this yeah and then paused so
+
+00:55:13.470 --> 00:55:15.670
+maybe this is the kind of a data i have taken so where we
+
+00:55:15.670 --> 00:55:20.110
+have like a two columns and two x basically and one y So why
+
+00:55:20.110 --> 00:55:23.350
+wise we have 0 1 0 1 0 1 kind of a class in this particular
+
+00:55:23.350 --> 00:55:26.970
+place. Okay fine now let's try to convert this JSON data
+
+00:55:26.970 --> 00:55:31.130
+into a data frame. So I can directly call pandas dot data
+
+00:55:31.130 --> 00:55:37.330
+frame D capital data frame I can pass a data so it is going
+
+00:55:37.330 --> 00:55:41.650
+to convert my data into a proper tabular format right. So
+
+00:55:41.650 --> 00:55:44.850
+now if I'm going to show you a data so hour of a study then
+
+00:55:44.850 --> 00:55:48.610
+a score and then pass 0 1 0 1 this is a very small like you
+
+00:55:48.610 --> 00:55:51.610
+know lovely data i have created then what i can do i can go
+
+00:55:51.610 --> 00:55:55.930
+ahead with a train and test split so train and test split so
+
+00:55:55.930 --> 00:56:03.270
+train or i can write x train y train x test y test and i can
+
+00:56:03.270 --> 00:56:07.510
+try to split my entire data set over here so my x is going
+
+00:56:07.510 --> 00:56:10.730
+to be our studies and my y is going to be passed this
+
+00:56:10.730 --> 00:56:14.430
+particular column very very simple so now i be having train
+
+00:56:14.430 --> 00:56:16.950
+and test data set once i will be having train and test data
+
+00:56:16.950 --> 00:56:20.410
+set what i can do i can try to call logistic regression i
+
+00:56:20.410 --> 00:56:22.870
+can try to create a variable for that and logistic relation
+
+00:56:22.870 --> 00:56:26.530
+.fit so once i'm going to call this one it is going to build
+
+00:56:26.530 --> 00:56:29.570
+the model so by the time i'm going to call a fit it will be
+
+00:56:29.570 --> 00:56:34.150
+building the model okay so now it has built the model now if
+
+00:56:34.150 --> 00:56:37.010
+i have to do any kind of a prediction so what i can do i can
+
+00:56:37.010 --> 00:56:40.030
+try to call this logistic regression model that i have
+
+00:56:40.030 --> 00:56:45.010
+created and i can try to pass my own data set x test or
+
+00:56:45.010 --> 00:56:51.010
+maybe i can try to pass even in this particular manner yeah
+
+00:56:51.010 --> 00:56:54.910
+so let's say number of hours is three and then basically
+
+00:56:54.910 --> 00:56:59.990
+like you know i have scored this much so whether i'm going
+
+00:56:59.990 --> 00:57:00.390
+to be
+
+00:57:06.850 --> 00:57:10.810
+okay warning it is giving me fine
+
+00:57:13.980 --> 00:57:16.800
+so it is giving basically one so basically you will be like
+
+00:57:16.800 --> 00:57:20.620
+a pass if you are studying this and then if you based on the
+
+00:57:20.620 --> 00:57:23.680
+data that it that it was basically trained right so it is
+
+00:57:23.680 --> 00:57:26.680
+telling me that okay fine so you will be passed similarly so
+
+00:57:26.680 --> 00:57:30.280
+i can do more and more predictions so this is my prediction
+
+00:57:30.280 --> 00:57:34.300
+i'm able to get it so let's say if i'm saying one and then
+
+00:57:34.300 --> 00:57:39.200
+ours so here it is giving me zero zero means like i will not
+
+00:57:39.200 --> 00:57:42.640
+be like a passing this particular exam so here
+
+00:57:42.640 --> 00:57:46.740
+implementation wise as you can see it is exactly similar as
+
+00:57:46.740 --> 00:57:51.080
+linear regression the only difference that we are able to
+
+00:57:51.080 --> 00:57:53.660
+observe over here is that that it has been used for our
+
+00:57:53.660 --> 00:57:57.380
+classes either 0 or 1 true false whatsoever class label that
+
+00:57:57.380 --> 00:57:59.940
+we are going to give i will be able to achieve that
+
+00:57:59.940 --> 00:58:03.300
+particular part implementation step wise there is no
+
+00:58:03.300 --> 00:58:07.360
+differences simple load a data if there is a eda which is
+
+00:58:07.360 --> 00:58:10.400
+required you will do a eda so this was the very small data i
+
+00:58:10.400 --> 00:58:13.060
+have not done any kind of eda the way i have done that in a
+
+00:58:13.060 --> 00:58:16.720
+linear regression then try to call to interest a split then
+
+00:58:16.720 --> 00:58:19.660
+fit the data everything is done start doing a prediction
+
+00:58:19.660 --> 00:58:22.400
+okay so this is completely fine we can start doing a
+
+00:58:22.400 --> 00:58:26.060
+prediction we can even try to basically save this particular
+
+00:58:26.060 --> 00:58:29.240
+model so we can try to call like a job library and then we
+
+00:58:29.240 --> 00:58:32.380
+can try to save this particular model in a physical form
+
+00:58:32.380 --> 00:58:36.320
+which i can try to use it for a deployment right which i can
+
+00:58:36.320 --> 00:58:39.800
+try to use it for a deployment i'll take like a other data
+
+00:58:39.800 --> 00:58:42.100
+set and then i'm going to show you other part as well but
+
+00:58:42.100 --> 00:58:46.680
+yeah here let's try to understand how we will be able to
+
+00:58:46.680 --> 00:58:49.680
+evaluate this particular model that how accurate this
+
+00:58:49.680 --> 00:58:54.680
+particular model is so that's how like this evaluation is
+
+00:58:54.680 --> 00:58:59.020
+going to technically happen so here if i have to check an
+
+00:58:59.020 --> 00:59:04.620
+accuracy so what i can do so i can try to basically check
+
+00:59:04.620 --> 00:59:10.680
+all of these things with the help of a library or maybe i
+
+00:59:10.680 --> 00:59:15.300
+can try to draw a confusion matrix so from a skill learn uh
+
+00:59:15.300 --> 00:59:18.720
+confusion matrix so this is already available and then
+
+00:59:18.720 --> 00:59:22.720
+confusion matrix wise i can try to pass my y test which is
+
+00:59:22.720 --> 00:59:26.200
+my expected one and the predicted one so from here it is
+
+00:59:26.200 --> 00:59:28.700
+going to give me y hat this is going to give me y hat and
+
+00:59:28.700 --> 00:59:31.960
+this is my expected one now it is going to draw a confusion
+
+00:59:31.960 --> 00:59:35.900
+matrix right confusion matrix so actual versus the predicted
+
+00:59:35.900 --> 00:59:40.360
+one now this confusion matrix is completely fine but how i
+
+00:59:40.360 --> 00:59:44.560
+will be able to see the accuracy so here accuracy wise so
+
+00:59:44.560 --> 00:59:47.980
+again inside this library everything is given to you so from
+
+00:59:47.980 --> 00:59:54.160
+sklearn classification matrices sklearn.matrix you will be
+
+00:59:54.160 --> 00:59:56.280
+able to find out something called as accuracy score you will
+
+00:59:56.280 --> 00:59:58.660
+be able to find out something called as precision recall and
+
+00:59:58.660 --> 01:00:02.460
+f1 score so let's try to understand this accuracy score
+
+01:00:02.460 --> 01:00:04.800
+precision recall and f1 score what is the meaning of
+
+01:00:04.800 --> 01:00:07.740
+accuracy and all those things and all of these things i will
+
+01:00:07.740 --> 01:00:10.580
+be using it again and again and again so the next algorithm
+
+01:00:10.580 --> 01:00:12.640
+let's say i'm going to talk about a support vector machine
+
+01:00:12.640 --> 01:00:15.520
+classifier as we see let's say i will be talking about a
+
+01:00:15.520 --> 01:00:17.820
+decision tree i'll be talking about basically a xg boost
+
+01:00:17.820 --> 01:00:19.860
+classifier i will be talking about a random forest
+
+01:00:19.860 --> 01:00:23.300
+classifier i will be using all of these things many many
+
+01:00:23.300 --> 01:00:27.700
+times and even in deep learning and nlp and computer vision
+
+01:00:27.700 --> 01:00:31.340
+i will be using all of these terms because those terms has
+
+01:00:31.340 --> 01:00:34.560
+been used everywhere for a classification so wherever there
+
+01:00:34.560 --> 01:00:37.580
+will be a classification we will be using this one so what
+
+01:00:37.580 --> 01:00:41.580
+is our meaning of accuracy by the way so in a layman manner
+
+01:00:41.580 --> 01:00:43.960
+if you will ask me that what is the meaning of an accuracy
+
+01:00:43.960 --> 01:00:47.180
+it simply means that that correct prediction divided by
+
+01:00:47.180 --> 01:00:50.740
+total prediction whatsoever prediction that it has done and
+
+01:00:50.740 --> 01:00:53.060
+then how many prediction it has done in a correct manner
+
+01:00:53.060 --> 01:00:56.880
+that's some something called as accuracy yeah so if i have
+
+01:00:56.880 --> 01:01:00.200
+to find out accuracy for this particular one so maybe i can
+
+01:01:00.200 --> 01:01:05.600
+try to write accuracy the score is nothing but so here the
+
+01:01:05.600 --> 01:01:08.220
+expected one and then this is going to be the predicted one
+
+01:01:08.220 --> 01:01:12.660
+execute so accuracy is basically 50 percent right accuracy
+
+01:01:12.660 --> 01:01:16.400
+is basically a 50 percent now there is something called as
+
+01:01:16.400 --> 01:01:22.520
+precision. Input wise same, we are going to pass and here
+
+01:01:22.520 --> 01:01:25.740
+precision is equal to zero. Now what is the actual meaning
+
+01:01:25.740 --> 01:01:29.680
+of a precision? So precision always talks about a true
+
+01:01:29.680 --> 01:01:33.040
+positive, right? True positive. So precision is nothing but
+
+01:01:33.040 --> 01:01:35.860
+true positive divided by true positive plus false positive.
+
+01:01:36.080 --> 01:01:41.520
+Now here, so this is basically like a, you know, confusion
+
+01:01:41.520 --> 01:01:44.620
+matrices that we are able to get. Anyone who can tell me
+
+01:01:44.620 --> 01:01:48.400
+what is the meaning of this one and from here itself we are
+
+01:01:48.400 --> 01:01:51.800
+able to drive the accuracy so anyone who can tell me
+
+01:02:11.830 --> 01:02:19.910
+predicted actual values okay fine so see if you will look
+
+01:02:19.910 --> 01:02:24.410
+into my y test and our data set is very very small so again
+
+01:02:24.410 --> 01:02:29.610
+that's a biggest problem you will be able to find out here
+
+01:02:29.610 --> 01:02:38.770
+so our input was basically let's say x test yeah so i was
+
+01:02:38.770 --> 01:02:44.170
+expecting 0 and 0 it has given me 0 and 1 so for one of the
+
+01:02:44.170 --> 01:02:47.690
+case it is giving me correct value right i was expecting 0 i
+
+01:02:47.690 --> 01:02:51.970
+have received 0 here i was expecting 0 i have received 1
+
+01:02:51.970 --> 01:02:57.570
+right so accuracy means what total correctly predicted value
+
+01:02:57.570 --> 01:03:00.390
+divided by total prediction. So how many value it is able to
+
+01:03:00.390 --> 01:03:06.470
+predict correctly? One. Agree? How many value it is able to
+
+01:03:06.470 --> 01:03:11.570
+predict in a correct manner? I was expecting zero. Oh, it
+
+01:03:11.570 --> 01:03:11.810
+was.
+
+01:03:49.780 --> 01:03:54.680
+Okay. So I was expecting zero. Fine. Here for data number
+
+01:03:54.680 --> 01:03:57.240
+one, I was expecting this. It has given me zero correct
+
+01:03:57.240 --> 01:04:00.920
+value. I was expecting zero. It has given me for second
+
+01:04:00.920 --> 01:04:04.060
+data. It has given me what? One. So how many prediction do
+
+01:04:04.060 --> 01:04:06.880
+we prediction we are trying to do for with respect to a data
+
+01:04:06.880 --> 01:04:10.420
+to prediction right out of that how many is correct one so
+
+01:04:10.420 --> 01:04:13.700
+basically our accuracy is what 0.5 percent so fine we are
+
+01:04:13.700 --> 01:04:18.100
+able to get 0.5 percent that's completely fine now the
+
+01:04:18.100 --> 01:04:20.940
+second term that we are trying to find out is called as
+
+01:04:20.940 --> 01:04:25.700
+basically what it's called as precision right so here we are
+
+01:04:25.700 --> 01:04:29.080
+trying to find out what precision again input is same right
+
+01:04:29.080 --> 01:04:32.540
+and output is also going to be same but what precision
+
+01:04:32.540 --> 01:04:36.400
+always try to talk about so precision always try to say that
+
+01:04:36.400 --> 01:04:42.580
+that you know i'm going to basically compare a true positive
+
+01:04:42.580 --> 01:04:46.320
+right precision says that that i'm going to do a comparison
+
+01:04:46.320 --> 01:04:51.400
+between true positive divided by true positive plus false
+
+01:04:51.400 --> 01:04:55.280
+positive so basically i will try to incline more towards a
+
+01:04:55.280 --> 01:04:59.120
+positive values true positive values so how many true
+
+01:04:59.120 --> 01:05:04.440
+positive values do we have over here yes how many true
+
+01:05:04.440 --> 01:05:05.880
+positive value do we have over here
+
+01:05:17.310 --> 01:05:22.710
+yes how many true positive value do we have over here so
+
+01:05:22.710 --> 01:05:27.130
+everyone is saying one again look into this look into the
+
+01:05:27.130 --> 01:05:30.670
+data so true positive this
+
+01:05:32.840 --> 01:05:40.660
+was my expectation this is my prediction yeah so how many
+
+01:05:40.660 --> 01:05:42.020
+true positive value we have
+
+01:05:48.160 --> 01:05:53.540
+psi is saying zero okay still people are saying one okay
+
+01:05:53.540 --> 01:05:54.680
+again
+
+01:06:00.920 --> 01:06:04.900
+guys look into this based on the confusion matrices itself
+
+01:06:04.900 --> 01:06:06.000
+and
+
+01:06:12.340 --> 01:06:15.020
+tell me what is the true positive false positive basically
+
+01:06:15.020 --> 01:06:17.920
+over here out of this confusion matrices so
+
+01:06:25.790 --> 01:06:30.270
+here see uh very very simple like you know a logical
+
+01:06:30.270 --> 01:06:33.010
+definition if you're looking for so maybe i can i can try to
+
+01:06:33.010 --> 01:06:37.130
+like uh give you this so we have two samples right we have
+
+01:06:37.130 --> 01:06:41.890
+two samples uh or we have two set of the data and here so
+
+01:06:41.890 --> 01:06:49.610
+let's try to draw actual actual so actual y test or y right
+
+01:06:49.610 --> 01:06:58.320
+this one and then predicted so the actual y was 0 and 0
+
+01:06:58.320 --> 01:07:02.280
+right this was the actual y predicted is what predicted is 0
+
+01:07:02.280 --> 01:07:05.680
+and 1 so actual is zero and zero prediction is what zero and
+
+01:07:05.680 --> 01:07:10.480
+one fine prediction is zero and one over here okay now so
+
+01:07:10.480 --> 01:07:13.460
+out this is this is the data that we have now out of this if
+
+01:07:13.460 --> 01:07:17.920
+you will try to build a confusion uh matrixes right so
+
+01:07:17.920 --> 01:07:22.120
+basically uh here let
+
+01:07:24.200 --> 01:07:28.540
+me build it because that will remove the
+
+01:07:30.620 --> 01:07:32.940
+confusion for all of you.
+
+01:08:15.740 --> 01:08:23.030
+Infusion matrix wise, actual value of 0th data, actual value
+
+01:08:23.030 --> 01:08:27.790
+of first data. So actual value of 0th data is 0 and actual
+
+01:08:27.790 --> 01:08:34.510
+value of first data is also 0. And then prediction
+
+01:08:37.740 --> 01:08:44.240
+of 0th data and prediction of first data.
+
+01:08:50.580 --> 01:08:54.340
+Now, so this is going to form the confusion matrixes right
+
+01:08:54.340 --> 01:08:58.640
+this is going to form the confusion matrixes for me so here
+
+01:08:58.640 --> 01:09:04.440
+actual value of 0th data is actually 0 and what is a
+
+01:09:04.440 --> 01:09:07.400
+prediction of the 0th data so actual value of 0th data is
+
+01:09:07.400 --> 01:09:10.720
+basically 0 and what is going to be the prediction of the
+
+01:09:10.720 --> 01:09:17.220
+0th data so 0 so i was expecting this and i have actually
+
+01:09:17.220 --> 01:09:22.280
+received this so can i say that that it is going to be my
+
+01:09:22.280 --> 01:09:26.120
+true negative let's say zero is my negative one is my
+
+01:09:26.120 --> 01:09:29.920
+positive so it was true negative true negative means i was
+
+01:09:29.920 --> 01:09:33.320
+expecting zero and i have received zero so i was expecting
+
+01:09:33.320 --> 01:09:38.580
+zero i have received zero true negative okay fine now uh
+
+01:09:38.580 --> 01:09:43.460
+first data i was expecting what zero i have received what
+
+01:09:43.460 --> 01:09:48.860
+one so i can say that that i was basically expecting zero
+
+01:09:48.860 --> 01:09:53.360
+right i was expecting zero and i have basically received
+
+01:09:53.360 --> 01:09:57.960
+what so i was expecting zero sorry yeah so i was expecting
+
+01:09:57.960 --> 01:10:01.500
+zero and i have received actually one so i can say that
+
+01:10:01.500 --> 01:10:04.060
+false positive it is giving positive but it's a false
+
+01:10:04.060 --> 01:10:07.640
+positive it's not a like a positive positive then i was
+
+01:10:07.640 --> 01:10:13.160
+expecting one i was expecting one sorry i was expecting one
+
+01:10:13.160 --> 01:10:17.360
+and then like you know the actual was one I was expecting
+
+01:10:17.360 --> 01:10:23.050
+and then I have received what so I have received zero so
+
+01:10:23.050 --> 01:10:27.850
+it's called as false negative now here so I was expecting
+
+01:10:27.850 --> 01:10:33.290
+one and here I was received basically one so it's called as
+
+01:10:33.290 --> 01:10:38.470
+true positive tp now so I was talking about basically this,
+
+01:10:38.550 --> 01:10:39.370
+you know,
+
+01:10:46.550 --> 01:10:52.590
+precision term. So precision says that it is going to be
+
+01:10:52.590 --> 01:11:00.370
+true positive divided by true positive plus false positive.
+
+01:11:00.590 --> 01:11:05.390
+This is what it says. This is what it says. Now true
+
+01:11:05.390 --> 01:11:08.310
+positive. My question was very simple. How many true
+
+01:11:08.310 --> 01:11:12.150
+positive we have means I was expecting one and I have
+
+01:11:12.150 --> 01:11:16.030
+received one. Can I say that we have zero true positive in
+
+01:11:16.030 --> 01:11:19.010
+my sample data set itself when I was trying to give an input
+
+01:11:19.010 --> 01:11:23.590
+in a sample data set itself there was no expectation of one
+
+01:11:23.590 --> 01:11:28.590
+so can I say that that your numerator is going to be zero in
+
+01:11:28.590 --> 01:11:31.490
+itself and doesn't matter whatsoever the denominator is it
+
+01:11:31.490 --> 01:11:38.560
+is going to be always zero make sense guys yes can I say
+
+01:11:38.560 --> 01:11:41.720
+that I do not have any kind of a true positive situation in
+
+01:11:41.720 --> 01:11:44.260
+itself means where i was expecting one and i have received
+
+01:11:44.260 --> 01:11:48.180
+like one there was no such situation right inside my data in
+
+01:11:48.180 --> 01:11:51.420
+both of my data i was only having a sample zero zero so
+
+01:11:51.420 --> 01:11:53.520
+that's the reason so it's coming as a precision is coming as
+
+01:11:53.520 --> 01:11:56.200
+a zero so even programmatically if you are going to check it
+
+01:11:56.200 --> 01:11:59.300
+is going to come as a zero so this is basically a precision
+
+01:11:59.300 --> 01:12:04.820
+so basically it is like a model is trying to predict one
+
+01:12:04.820 --> 01:12:10.160
+student uh like uh as a i can say like uh some it was
+
+01:12:10.160 --> 01:12:12.280
+expecting that that okay fine some student will be having
+
+01:12:12.280 --> 01:12:16.020
+like a pass value and even model is going to predict that as
+
+01:12:16.020 --> 01:12:19.360
+a pass but no we were not having any such kind of a data so
+
+01:12:19.360 --> 01:12:21.680
+it is eventually going to be zero in this particular
+
+01:12:21.680 --> 01:12:25.460
+situation so this is precision guys apart from precision so
+
+01:12:25.460 --> 01:12:28.840
+you will be able to see something called as a recall so let
+
+01:12:28.840 --> 01:12:35.160
+me like you know calculate a recall for all of you so again
+
+01:12:35.160 --> 01:12:39.520
+recall and this one is having a relation so recall is
+
+01:12:39.520 --> 01:12:40.080
+nothing but
+
+01:12:43.820 --> 01:12:49.520
+recall is nothing but again true positive divided by true
+
+01:12:51.440 --> 01:12:54.580
+positive plus false negative the only this term is going to
+
+01:12:54.580 --> 01:12:57.120
+change false negative right so again recall is going to be
+
+01:12:57.120 --> 01:12:59.360
+zero because there is no two positive values there is no two
+
+01:12:59.360 --> 01:13:02.360
+positive data then there is something called as f1 score so
+
+01:13:02.360 --> 01:13:05.140
+f1 score is nothing but it's kind of a harmonic motion that
+
+01:13:05.140 --> 01:13:08.600
+we try to you know calculate so it's it's going to be
+
+01:13:08.600 --> 01:13:13.500
+basically two into two into precision into recall divided by
+
+01:13:13.500 --> 01:13:17.180
+precision plus recall right so precision is zero recall is
+
+01:13:17.180 --> 01:13:20.580
+zero so everything is zero it's eventually going to be zero
+
+01:13:20.580 --> 01:13:23.360
+in this kind of a situation the situation that we are into
+
+01:13:23.360 --> 01:13:27.320
+so fine uh this is basically accuracy precision recall
+
+01:13:27.320 --> 01:13:30.280
+accuracy is 50 percent over here so which is a bad bad model
+
+01:13:30.280 --> 01:13:33.960
+maybe somewhere our data set is responsible for this bad bad
+
+01:13:33.960 --> 01:13:35.280
+model so here
+
+01:13:39.090 --> 01:13:41.730
+recall score zero
+
+01:13:44.330 --> 01:13:48.530
+for a score 0 theoretically yes we are able to prove that
+
+01:13:48.530 --> 01:13:53.250
+same prove the same thing accuracy is 0.5 so ultimately my
+
+01:13:53.250 --> 01:13:57.590
+model is not that great somewhere a data set is responsible
+
+01:13:57.590 --> 01:14:00.370
+a very small data set we have taken and eventually it is
+
+01:14:00.370 --> 01:14:04.570
+giving me the bad bad result which was a complete
+
+01:14:05.230 --> 01:14:08.870
+expectation i would say make sense guys so in this way i
+
+01:14:08.870 --> 01:14:10.990
+will be able to basically do what so will be able to
+
+01:14:10.990 --> 01:14:14.010
+technically check the model classification models right that
+
+01:14:14.010 --> 01:14:16.970
+what is accuracy what is a precision what is a recall and
+
+01:14:16.970 --> 01:14:21.230
+what is a f1 score now if i have to save the model so not an
+
+01:14:21.230 --> 01:14:23.690
+issue i can try to use pickle or i can try to use job live
+
+01:14:23.690 --> 01:14:29.170
+so import imurt job live let's say and then job live dot
+
+01:14:29.170 --> 01:14:32.190
+dump and then i can try to dump those models so now model is
+
+01:14:32.190 --> 01:14:34.650
+available in a physical form technically equation is
+
+01:14:34.650 --> 01:14:38.010
+available in a physical form i can try to deploy this model
+
+01:14:38.010 --> 01:14:41.350
+anywhere of my choice the way we have deployed it yesterday
+
+01:14:41.350 --> 01:14:44.150
+which i'm going to give you as a homework by the way yeah so
+
+01:14:44.150 --> 01:14:47.350
+you all will be able to see that as a homework and all of
+
+01:14:47.350 --> 01:14:50.230
+you have to basically do a deployment on render the way we
+
+01:14:50.230 --> 01:14:54.210
+have deployed it yesterday very very simple right okay so
+
+01:14:54.210 --> 01:14:58.890
+this is one this is an example guys this is an example a
+
+01:14:58.890 --> 01:15:02.510
+practical example and yeah so if you can understand this one
+
+01:15:02.510 --> 01:15:07.110
+then you will be able to deal with any kind of a data right
+
+01:15:07.110 --> 01:15:10.130
+any kind of data you will be able to load it and you will be
+
+01:15:10.130 --> 01:15:15.770
+able to basically use it so any question for me so far so
+
+01:15:35.540 --> 01:15:38.320
+far i'm good okay great then is
+
+01:15:43.510 --> 01:15:46.290
+confusion matrix always two by two basis no not at all so
+
+01:15:46.290 --> 01:15:48.330
+here we have only two classes right so that's the reason
+
+01:15:48.330 --> 01:15:51.270
+it's a two by two but let's say if i have three classes if i
+
+01:15:51.270 --> 01:15:53.250
+have four classes in that case it is going to be three by
+
+01:15:53.250 --> 01:15:55.650
+three four by four so confusion matrix is not always going
+
+01:15:55.650 --> 01:15:56.370
+to be two by two
+
+01:16:03.660 --> 01:16:08.700
+okay now so here you will be you must be able to see that
+
+01:16:08.700 --> 01:16:12.440
+that i'm talking about only two class zero and one there can
+
+01:16:12.440 --> 01:16:16.320
+be three classes right zero one two or maybe like a positive
+
+01:16:16.320 --> 01:16:20.700
+negative neutral yeah and maybe like x y g kind of a class a
+
+01:16:20.700 --> 01:16:22.740
+b c kind of a class so there can be multi-class
+
+01:16:22.740 --> 01:16:26.400
+classification so even inside a logistic regression it is
+
+01:16:26.400 --> 01:16:30.620
+possible to build a model which can generally in general so
+
+01:16:30.620 --> 01:16:32.940
+logistic regression has been built for binary class by
+
+01:16:32.940 --> 01:16:35.980
+limits two class classification but practically it is
+
+01:16:35.980 --> 01:16:39.220
+possible to and again people used to ask this kind of a
+
+01:16:39.220 --> 01:16:41.420
+question in an interview so practically it's possible to
+
+01:16:41.420 --> 01:16:45.680
+build or to do a multi-class classification as well with
+
+01:16:45.680 --> 01:16:48.920
+respect to a logistic regression itself so there is
+
+01:16:48.920 --> 01:16:51.440
+something called as one versus one there is something called
+
+01:16:51.440 --> 01:16:55.620
+as ovr one versus rest means we are we are going to consider
+
+01:16:55.620 --> 01:16:59.140
+two classes only but one versus rest means even if we have a
+
+01:16:59.140 --> 01:17:01.340
+multiple classes i'll try to keep it inside the rest
+
+01:17:01.340 --> 01:17:05.560
+category so in that way i will be able to technically like
+
+01:17:05.560 --> 01:17:08.400
+you know work with a multi-class classification as well but
+
+01:17:08.400 --> 01:17:10.980
+yeah in multiple places you will be able to find out that
+
+01:17:10.980 --> 01:17:14.500
+people generally suggest or people generally advise to use a
+
+01:17:14.500 --> 01:17:17.740
+logistic regression with two classes but doesn't mean that i
+
+01:17:17.740 --> 01:17:20.820
+can't do it with the three classes there is trick of doing
+
+01:17:20.820 --> 01:17:24.560
+it which we will do it in a like a later stage when i'm
+
+01:17:24.560 --> 01:17:26.800
+going to discuss about more and more classification
+
+01:17:26.800 --> 01:17:31.540
+algorithm as of now just try to digest a theory which is
+
+01:17:31.540 --> 01:17:35.040
+very important mathematics which is almost similar to a
+
+01:17:35.040 --> 01:17:38.060
+linear regression. The only thing that we have changed over
+
+01:17:38.060 --> 01:17:42.120
+here is a loss function and logarithmic log loss function or
+
+01:17:42.120 --> 01:17:44.360
+binary cross-interrogate function we have used right and
+
+01:17:44.360 --> 01:17:46.740
+because of that whole derivation is going to change but
+
+01:17:46.740 --> 01:17:49.700
+along with apart from that almost everything is same. The
+
+01:17:49.700 --> 01:17:51.680
+output function we have changed obviously sigmoid function
+
+01:17:51.680 --> 01:17:54.380
+we have used because we can't use y is equal to mx plus e
+
+01:17:54.380 --> 01:17:57.660
+directly because it is going to give me output y always in
+
+01:17:57.660 --> 01:18:00.020
+between minus infinity to plus infinity but But here I am
+
+01:18:00.020 --> 01:18:03.860
+doing a classification. So I need a probability based
+
+01:18:03.860 --> 01:18:06.580
+answer. And that's the reason why I have introduced a
+
+01:18:06.580 --> 01:18:09.000
+sigmoid function. So where it is always going to give you a
+
+01:18:09.000 --> 01:18:12.260
+value between 0 to 1. So just try to revise all of these
+
+01:18:12.260 --> 01:18:15.060
+things guys. Part number one very very important even for
+
+01:18:15.060 --> 01:18:18.380
+your next class because if you are not going to revise maybe
+
+01:18:18.380 --> 01:18:21.320
+it is going to give you a lot of pain to understand a next
+
+01:18:21.320 --> 01:18:24.160
+one. And if you are going to just revise believe me you will
+
+01:18:24.160 --> 01:18:26.420
+be able to understand next next to next and all the
+
+01:18:26.420 --> 01:18:29.300
+algorithm which is going to come into picture. So I believe
+
+01:18:29.300 --> 01:18:31.420
+understanding this algorithm is not tough, right everyone?
+
+01:18:34.650 --> 01:18:36.310
+Adil is saying that why it is called logistic regression,
+
+01:18:36.490 --> 01:18:38.810
+yeah that's a mistake if you go and check into a book or
+
+01:18:38.810 --> 01:18:43.310
+maybe like you know on a google so they are going to tell
+
+01:18:43.310 --> 01:18:45.830
+you that you know it was a kind of a mistake and because of
+
+01:18:45.830 --> 01:18:48.710
+that mistake so people have given that name. Some people
+
+01:18:48.710 --> 01:18:53.110
+used to give an argument that as we are using a line, a
+
+01:18:53.110 --> 01:18:55.910
+regressive line and we are trying to find out a probability
+
+01:18:55.910 --> 01:18:58.990
+with respect to that so people have named it as a logistic
+
+01:18:58.990 --> 01:19:02.410
+regression. so that's argument but again i mean like uh you
+
+01:19:02.410 --> 01:19:06.370
+know argument ends in a place so where uh you know if i'm
+
+01:19:06.370 --> 01:19:08.990
+going to ask you a question that why your parents have given
+
+01:19:08.990 --> 01:19:13.070
+you name as adil maybe they have just liked it right so they
+
+01:19:13.070 --> 01:19:15.730
+have given you name why my name is nanshu there's no logic
+
+01:19:15.730 --> 01:19:18.870
+behind it right they may be like they have liked it so that
+
+01:19:18.870 --> 01:19:20.510
+that's a like a whole story behind this one
+
+01:19:24.430 --> 01:19:27.250
+what is the general intuition from f1 score precision recall
+
+01:19:27.250 --> 01:19:30.950
+i'll be talking about that more and more as of now focus on
+
+01:19:30.950 --> 01:19:35.330
+accuracy this precision recall and f1 score all of these
+
+01:19:35.330 --> 01:19:39.250
+three things i have just introduced i will be talking about
+
+01:19:39.250 --> 01:19:42.370
+a layman understanding layman meaning of this one because
+
+01:19:42.370 --> 01:19:44.950
+these terms are plus comparison because that's very
+
+01:19:44.950 --> 01:19:48.730
+important plus even you should know that in which situation
+
+01:19:48.730 --> 01:19:52.810
+i should use accuracy as a final parameter for a model
+
+01:19:52.810 --> 01:19:57.910
+evaluation or precision or recall or f1 because there are
+
+01:19:57.910 --> 01:20:00.810
+four different term right and i can't mix up all these terms
+
+01:20:00.810 --> 01:20:03.370
+and generalize something in terms of finding out the
+
+01:20:03.370 --> 01:20:06.630
+accuracy of the model so there is a definition there is an
+
+01:20:06.630 --> 01:20:09.590
+argument you have to remember that when f1 when accuracy
+
+01:20:09.590 --> 01:20:12.190
+when precision so i'll come to that particular part as well
+
+01:20:12.190 --> 01:20:16.210
+yes like i said so every classification model you will end
+
+01:20:16.210 --> 01:20:18.650
+up using all of these four so once we will be able to
+
+01:20:18.650 --> 01:20:21.010
+understand two or three then i'll do the comparison that
+
+01:20:21.010 --> 01:20:24.250
+okay so if you have to evaluate this kind of a situation go
+
+01:20:24.250 --> 01:20:27.370
+with f1 if you have to evaluate this one go with accuracy or
+
+01:20:27.370 --> 01:20:33.170
+precision or recall yeah so we'll come to that for
+
+01:20:33.170 --> 01:20:35.550
+experience role in interview ml is being asked and how much
+
+01:20:35.550 --> 01:20:38.130
+yeah i mean like there is no definition like there is no
+
+01:20:38.130 --> 01:20:41.710
+limitation on how much i would say so you must be aware
+
+01:20:41.710 --> 01:20:43.790
+about each and everything that's it that will be the
+
+01:20:43.790 --> 01:20:45.250
+expectation a
+
+01:20:49.250 --> 01:20:52.190
+quick question can we run linear regression on a below data
+
+01:20:52.190 --> 01:20:55.150
+set. It's a time series based data set. It looks like so you
+
+01:20:55.150 --> 01:20:58.650
+have to call basically ARIMA, SARIMA or maybe a profit on
+
+01:20:58.650 --> 01:21:02.010
+top of this data set. You can't run a regression directly.
+
+01:21:03.750 --> 01:21:09.330
+It's a time series. Any other question?
+
+01:21:14.920 --> 01:21:17.200
+So fine. If there is no question for me. So in that
+
+01:21:17.200 --> 01:21:20.200
+situation, I would like to give you a homework. So what I
+
+01:21:20.200 --> 01:21:23.520
+want you to do is that, that try to take one data set, maybe
+
+01:21:23.520 --> 01:21:27.020
+go to Kegel and try to choose a classification data set and
+
+01:21:27.020 --> 01:21:30.340
+especially try to choose a binary class class because binary
+
+01:21:30.340 --> 01:21:33.600
+means only two classes not three not four not beyond only
+
+01:21:33.600 --> 01:21:37.440
+two class class should be there so try to pick any one of
+
+01:21:37.440 --> 01:21:40.840
+those data set from a kegel part number one i'm not giving
+
+01:21:40.840 --> 01:21:43.340
+you a data i want you to explore the data so that you will
+
+01:21:43.340 --> 01:21:46.400
+be able to understand more and more about the data plus you
+
+01:21:46.400 --> 01:21:49.240
+will end up exploring something new on your own if i'm going
+
+01:21:49.240 --> 01:21:51.320
+to give you data everyone of you are going to work on same
+
+01:21:51.320 --> 01:21:53.780
+data set which i don't want everyone should be working on a
+
+01:21:53.780 --> 01:21:55.740
+different different separate separate kind of a data set
+
+01:21:55.740 --> 01:21:59.760
+after like choosing your data set you have to build the
+
+01:21:59.760 --> 01:22:04.420
+model save the model create a beautiful streamlined ui and
+
+01:22:04.420 --> 01:22:08.820
+then deploy that model on a render after deployment ping
+
+01:22:08.820 --> 01:22:13.280
+that deployment link inside your group make sense yes
+
+01:22:18.400 --> 01:22:23.800
+yeah and you have to complete this deployment in next one
+
+01:22:23.800 --> 01:22:30.040
+hour itself so now is 5 0 19 pm right so you have another
+
+01:22:30.040 --> 01:22:32.720
+one hour of time i believe one hour of time is more than
+
+01:22:32.720 --> 01:22:36.580
+enough to do these things like in like uh we already done
+
+01:22:36.580 --> 01:22:39.940
+those things even my in my today's class so in one hour i
+
+01:22:39.940 --> 01:22:44.880
+will be expecting some links inside your groups a live link
+
+01:22:44.880 --> 01:22:48.220
+a deployed link so how many of you are going to do it by the
+
+01:22:48.220 --> 01:22:50.980
+way let me see in
+
+01:22:53.580 --> 01:22:59.580
+one hour so most probably by 6 30 ping me the notebook link
+
+01:22:59.580 --> 01:23:00.420
+which notebook link
+
+01:23:04.860 --> 01:23:07.720
+yes how many of you will be able to do it
+
+01:23:10.520 --> 01:23:16.290
+in next one hour why do you want me to ping you the notebook
+
+01:23:16.290 --> 01:23:19.110
+link which part you are not able to understand
+
+01:23:24.300 --> 01:23:29.260
+okay so fine guys by 6 30 6 30 pm isd so i'll be expecting a
+
+01:23:29.260 --> 01:23:32.500
+deployed link by the way deployment i already i already
+
+01:23:32.500 --> 01:23:35.160
+taught you yesterday right so just try to use a render and
+
+01:23:35.160 --> 01:23:39.120
+then deploy it and then send me the live link with a small
+
+01:23:39.120 --> 01:23:42.080
+ui so i'm not looking for something complex over there a
+
+01:23:42.080 --> 01:23:45.580
+small one just do it and send it to me so fine with that
+
+01:23:45.580 --> 01:23:48.420
+thank you so much everyone take care and uh see you again in
+
+01:23:48.420 --> 01:23:51.980
+my next class so next class i will be talking about uh so
+
+01:23:51.980 --> 01:23:53.720
+next saturday i'll be talking about a lot of algorithm
+
+01:23:53.720 --> 01:23:57.180
+altogether so i'll be talking about svr svm i'll be talking
+
+01:23:57.180 --> 01:23:59.880
+about decision tree i'll be talking about random forest i'll
+
+01:23:59.880 --> 01:24:03.480
+be talking about xg boost so in saturday sunday class itself
+
+01:24:03.480 --> 01:24:06.560
+i believe now i will be able to cover four to five
+
+01:24:06.560 --> 01:24:09.320
+algorithms easily, right? Four to five algorithm and back to
+
+01:24:09.320 --> 01:24:13.300
+back practical also I will be able to do it. Be ready for
+
+01:24:13.300 --> 01:24:15.700
+it. But yeah, if you are going to do some sort of a hands
+
+01:24:15.700 --> 01:24:18.260
+-on, for example, the task which I have given to you, so
+
+01:24:18.260 --> 01:24:22.800
+believe me, you will be able to get a confidence. If you're
+
+01:24:22.800 --> 01:24:26.040
+not doing it, then I'm leaving that up to you. Yeah, you're
+
+01:24:26.040 --> 01:24:28.700
+listening. So fine with that, take care everyone. Thank you
+
+01:24:28.700 --> 01:24:29.020
+so much.
+

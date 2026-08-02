@@ -1,0 +1,4559 @@
+WEBVTT
+
+00:08:42.800 --> 00:08:47.460
+okay so hi everyone i think i'm audible and visible to all
+
+00:08:47.460 --> 00:08:53.960
+of you guys so please confirm if i'm visible yes yeah okay
+
+00:08:53.960 --> 00:08:58.440
+so good afternoon everyone i'm audible and visible to all of
+
+00:08:58.440 --> 00:09:05.430
+you so fine we are going to start in some time okay fine so
+
+00:09:05.430 --> 00:09:08.610
+let's start guys with the class so any idea what we are
+
+00:09:08.610 --> 00:09:13.490
+going to discuss today sirvani is good sir it's not sirvani
+
+00:09:13.490 --> 00:09:16.290
+it's kurta so basically there is a puja in my neighbor's
+
+00:09:16.290 --> 00:09:18.750
+house so i was like attending it and after class again i'll
+
+00:09:18.750 --> 00:09:23.530
+have to go i will go there okay uh so yeah that's the reason
+
+00:09:23.530 --> 00:09:26.970
+i'm wearing this by the way fine so today we are going to
+
+00:09:26.970 --> 00:09:29.750
+talk about oops concept so let's see how much we will be
+
+00:09:29.750 --> 00:09:32.690
+able to cover uh obviously like uh if we'll not be able to
+
+00:09:32.690 --> 00:09:34.930
+cover all the concept then we'll try to cover oops concept
+
+00:09:34.930 --> 00:09:39.970
+tomorrow right uh so here inside your own uh we have
+
+00:09:39.970 --> 00:09:43.150
+released a small update for all of you so here you can come
+
+00:09:43.150 --> 00:09:45.510
+and you can you will be able to see basically what we are
+
+00:09:45.510 --> 00:09:48.210
+going to cover in our upcoming sessions right so all of
+
+00:09:48.210 --> 00:09:51.330
+these things you will be able to see it uh now inside this
+
+00:09:51.330 --> 00:09:55.190
+upcoming uh live classes like a section so whatsoever live
+
+00:09:55.190 --> 00:09:57.290
+classes will be done it will be gone automatically and
+
+00:09:57.290 --> 00:09:59.950
+whatsoever live classes which is going to come so you will
+
+00:09:59.950 --> 00:10:04.110
+be able to see that that yeah so uh that like uh it's going
+
+00:10:04.110 --> 00:10:08.310
+to happen like now so for example uh tomorrow for april 19th
+
+00:10:08.310 --> 00:10:11.470
+so we have this class scheduled and yeah so if you would
+
+00:10:11.470 --> 00:10:15.190
+have checked uh before this class so 4 pm is okay so you
+
+00:10:15.190 --> 00:10:17.910
+must be able to see like there is a class oops concept class
+
+00:10:17.910 --> 00:10:21.770
+which was like a scheduled so that you know uh you you can
+
+00:10:21.770 --> 00:10:25.210
+keep yourself up to date and whatever class is going to
+
+00:10:25.210 --> 00:10:27.890
+happen every weekend and going forward so we are trying to
+
+00:10:27.890 --> 00:10:30.610
+bring more and more classes so you will be able to see and
+
+00:10:30.610 --> 00:10:32.710
+you will be able to track all the classes in one single
+
+00:10:32.710 --> 00:10:35.950
+place itself and accordingly you all will be able to join it
+
+00:10:35.950 --> 00:10:40.030
+if you have an access of the respective class now uh moving
+
+00:10:40.030 --> 00:10:44.050
+ahead so let's start talking about uh oops concept which is
+
+00:10:44.370 --> 00:10:51.280
+agenda for today's class so let me open up uh uh vs code and
+
+00:10:51.280 --> 00:10:53.940
+inside that so python
+
+00:10:56.080 --> 00:11:00.480
+basic this was a folder that we had created last time okay
+
+00:11:00.480 --> 00:11:03.540
+so now inside the same folder i'm going to create a file
+
+00:11:03.540 --> 00:11:09.500
+oops dot ip ynb uh which is going to be the agenda for
+
+00:11:09.500 --> 00:11:14.680
+today's class yeah so object oriented programming concept
+
+00:11:14.680 --> 00:11:16.840
+now that is something that we are going to discuss now
+
+00:11:16.840 --> 00:11:20.020
+before like you know writing a code even a single line of a
+
+00:11:20.020 --> 00:11:22.360
+code so let's try to understand that what is this object
+
+00:11:22.360 --> 00:11:25.580
+oriented programming uh concept and yeah so what you will be
+
+00:11:25.580 --> 00:11:28.260
+able to achieve with the help of this oops programming
+
+00:11:28.260 --> 00:11:30.340
+concept because that that is something which is important
+
+00:11:30.340 --> 00:11:34.080
+right because we have been writing a code and yeah it was
+
+00:11:34.080 --> 00:11:36.500
+working we were able to write a functions we were able to
+
+00:11:36.500 --> 00:11:38.980
+write an exception handling we were able to write the loops
+
+00:11:38.980 --> 00:11:41.560
+we were able to write kind of a statement so all sort of
+
+00:11:41.560 --> 00:11:45.100
+things we were able to do it uh so why we are talking about
+
+00:11:47.860 --> 00:11:51.580
+oops programming concept so let me tell you one thing very
+
+00:11:51.580 --> 00:11:55.940
+clearly over here that uh like it's not a very very like a
+
+00:11:55.940 --> 00:11:59.460
+new concept it's basically a way by which you will be able
+
+00:11:59.460 --> 00:12:04.560
+to give or provide more structure to a code and then you
+
+00:12:04.560 --> 00:12:08.700
+will be able to increase a reusability of the code so this
+
+00:12:08.700 --> 00:12:11.700
+is where this oops programming concept comes into picture
+
+00:12:11.700 --> 00:12:13.780
+right there are many other programming language which
+
+00:12:13.780 --> 00:12:17.780
+supports oops and including java and many other programming
+
+00:12:17.780 --> 00:12:19.580
+languages which are programming language out there python
+
+00:12:19.580 --> 00:12:23.040
+supports scripting as well as python supports basically oops
+
+00:12:23.040 --> 00:12:26.540
+so python supports both so you can try to use classes and
+
+00:12:26.540 --> 00:12:28.880
+object which we are going to talk about eventually in some
+
+00:12:28.880 --> 00:12:33.060
+time today itself or you can try to write a code the way we
+
+00:12:33.060 --> 00:12:36.860
+have been writing so far so forth because even till today so
+
+00:12:36.860 --> 00:12:39.420
+we have written a lot of codes right and all of these codes
+
+00:12:39.420 --> 00:12:43.120
+were working and we were able to write the logics over there
+
+00:12:43.120 --> 00:12:47.580
+everything was working so oops is just a new way of doing
+
+00:12:47.580 --> 00:12:51.080
+this the exact same thing so that i will be able to bring
+
+00:12:51.080 --> 00:12:55.400
+more and more structure into the code many people initially
+
+00:12:55.400 --> 00:12:58.700
+like you know they find a oops programming concept as a
+
+00:12:58.700 --> 00:13:01.480
+difficult one i'll try to like you know simplify it as
+
+00:13:01.480 --> 00:13:04.480
+simple as possible so that all of you will be able to
+
+00:13:04.480 --> 00:13:07.020
+understand and all of you will be able to use it going
+
+00:13:07.020 --> 00:13:10.040
+forward and even when ai is going to write a code you must
+
+00:13:10.040 --> 00:13:14.460
+be able to understand it yeah so selby selby start guys yes
+
+00:13:14.460 --> 00:13:18.560
+yeah so api will be discussing like tomorrow so if time
+
+00:13:18.560 --> 00:13:20.880
+allows so let's see how much oops we will be able to discuss
+
+00:13:20.880 --> 00:13:25.120
+in today's time frame fine so selby start like a writing a
+
+00:13:25.120 --> 00:13:29.020
+couple of line of code yeah so like i said so basically oops
+
+00:13:29.020 --> 00:13:32.740
+is those who don't understand so as a layman like you know
+
+00:13:32.740 --> 00:13:36.500
+definition of it so oops is basically a way by which you
+
+00:13:36.500 --> 00:13:39.340
+will be able to give more and more structure to the code i
+
+00:13:39.340 --> 00:13:42.880
+would say right and it's a like you know you can you can try
+
+00:13:42.880 --> 00:13:46.020
+to increase a reusability of the code this is where oops
+
+00:13:46.020 --> 00:13:49.880
+programming concept comes into picture right so in case of
+
+00:13:49.880 --> 00:13:52.640
+oops programming concept we try to represent each and
+
+00:13:52.640 --> 00:13:56.300
+everything as a classes and object so classes and object is
+
+00:13:56.300 --> 00:13:59.460
+a primary concept you all will be able to find out whenever
+
+00:13:59.460 --> 00:14:02.500
+and wherever we are going to talk about a oops as simple as
+
+00:14:02.500 --> 00:14:06.340
+that so like a classes and object now what is this class and
+
+00:14:06.340 --> 00:14:10.800
+what is this object by the way right so class is nothing but
+
+00:14:10.800 --> 00:14:13.740
+definition wise again the book is definition i would say
+
+00:14:13.740 --> 00:14:15.800
+right or definition that you will be able to find out over
+
+00:14:15.800 --> 00:14:17.840
+the internet right so book is definition of a class and
+
+00:14:17.840 --> 00:14:18.820
+object is nothing but definition of a class and object is
+
+00:14:18.820 --> 00:14:22.200
+nothing but classification of the real world that seems
+
+00:14:22.200 --> 00:14:24.780
+confusing right that sounds confusing i mean like
+
+00:14:24.780 --> 00:14:29.000
+classification of the real world of what so that that sounds
+
+00:14:29.000 --> 00:14:32.320
+confusing right so uh we'll try to simplify that particular
+
+00:14:32.320 --> 00:14:36.180
+part as well and when we say object right so we say that
+
+00:14:36.180 --> 00:14:40.900
+that okay so object is a real physical entity or the entity
+
+00:14:40.900 --> 00:14:43.760
+which actually exists or holds some sort of a places which
+
+00:14:43.760 --> 00:14:46.540
+is called as object we'll try to simplify that particular
+
+00:14:46.540 --> 00:14:50.200
+part as well and we'll try to simplify that particular
+
+00:14:50.200 --> 00:14:55.520
+aspect here and when we say a class when and when we say it
+
+00:14:55.520 --> 00:15:01.640
+with respect to the慈 or
+
+00:15:01.640 --> 00:15:06.300
+to say all right we choose now okay now the thing that the
+
+00:15:06.300 --> 00:15:06.300
+class selectors that means if a class is exactly like what
+
+00:15:06.300 --> 00:15:09.600
+is the masters design structure or whatever mata is the well
+
+00:15:09.600 --> 00:15:13.100
+- galleries
+
+00:15:13.100 --> 00:15:17.500
+or whatever
+
+00:15:17.860 --> 00:15:20.520
+the naming convention that okay you do this you do this you
+
+00:15:20.520 --> 00:15:22.940
+do this you do this now that is something called as
+
+00:15:22.940 --> 00:15:26.480
+classification my definition right right so we try to divide
+
+00:15:26.480 --> 00:15:30.560
+our work all the time for example right for example so let's
+
+00:15:30.560 --> 00:15:33.100
+say you are trying to build a house yeah you are trying to
+
+00:15:33.100 --> 00:15:36.940
+build a house so obviously you are going to include a
+
+00:15:36.940 --> 00:15:39.980
+carpenter you are going to include electrician you will be
+
+00:15:39.980 --> 00:15:43.140
+including a plumber you will be including a mansion you will
+
+00:15:43.140 --> 00:15:45.320
+be including basically like different different different
+
+00:15:45.320 --> 00:15:48.860
+different kind of people right you will be taking some sort
+
+00:15:48.860 --> 00:15:51.840
+of a material maybe a cement or maybe like you know sand or
+
+00:15:51.840 --> 00:15:55.580
+maybe a bricks from some vendor maybe like you know steel
+
+00:15:55.580 --> 00:15:59.060
+from some other vendor you will be like a hiring interior
+
+00:15:59.060 --> 00:16:02.000
+for doing an interior into a house maybe you will go and you
+
+00:16:02.000 --> 00:16:05.900
+will hire some other vendor right so every time so you are
+
+00:16:05.900 --> 00:16:08.780
+trying to choose our different different things at the end
+
+00:16:08.780 --> 00:16:11.620
+of the day your goal is to do what at the end of the day
+
+00:16:11.620 --> 00:16:15.720
+your goal is to build a house yes everyone what is my
+
+00:16:15.720 --> 00:16:19.420
+ultimate goal my ultimate goal is to build a house right but
+
+00:16:19.420 --> 00:16:22.440
+to build that particular house obviously i have to purchase
+
+00:16:22.440 --> 00:16:26.040
+a raw material i have to hire someone for like you know like
+
+00:16:26.040 --> 00:16:30.380
+a carpentry or maybe for a plumbing for electrical work
+
+00:16:30.380 --> 00:16:34.120
+mansion a lot of things right material wise again sand maybe
+
+00:16:34.120 --> 00:16:37.100
+a bricks and all those things i have to bring so again to
+
+00:16:37.100 --> 00:16:40.140
+build that particular house i need a separate separate
+
+00:16:40.140 --> 00:16:43.640
+separate separate things and obviously once i'm going to
+
+00:16:43.640 --> 00:16:43.640
+build a house i have to purchase a raw material i have to
+
+00:16:43.640 --> 00:16:43.760
+hire someone for like you know like a carpentry or maybe for
+
+00:16:43.760 --> 00:16:43.760
+a plumbing for electrical work mansion a lot of things i
+
+00:16:43.760 --> 00:16:45.940
+have to bring all of these things and then if i'm going to
+
+00:16:45.940 --> 00:16:48.520
+combine each and everything then only i will be able to
+
+00:16:48.520 --> 00:16:51.060
+build my entire house a beautiful beautiful house i will be
+
+00:16:51.060 --> 00:16:55.080
+able to build it in and out in a similar manner right in a
+
+00:16:55.080 --> 00:16:57.500
+similar manner let's say we are talking about a coding right
+
+00:16:57.500 --> 00:17:00.060
+so why we are doing a coding why you are going to do a
+
+00:17:00.060 --> 00:17:02.640
+coding it's not like you are going to do a coding because
+
+00:17:02.640 --> 00:17:05.800
+you have a passion of doing a coding right so when you will
+
+00:17:05.800 --> 00:17:08.900
+do a coding so obviously you will be having some sort of
+
+00:17:08.900 --> 00:17:11.960
+objective that out of this coding which i'm trying to do
+
+00:17:11.960 --> 00:17:15.360
+i'll try to build some project right i'll try to build maybe
+
+00:17:15.360 --> 00:17:18.060
+a linkedin i will try to build maybe a youtube kind of
+
+00:17:18.060 --> 00:17:20.740
+things i'll try to build some sort of a mobile application
+
+00:17:20.740 --> 00:17:24.080
+for hiring while application for an hr i will be building
+
+00:17:24.080 --> 00:17:26.300
+some sort of a web application some back-end front-end
+
+00:17:26.300 --> 00:17:28.940
+application for this this this this things right there can
+
+00:17:28.940 --> 00:17:31.460
+be millions of application that we are using we can try to
+
+00:17:31.460 --> 00:17:34.480
+build any of these things now to build that particular
+
+00:17:34.480 --> 00:17:37.600
+application obviously a lot of component will be required
+
+00:17:37.600 --> 00:17:40.780
+overall if i'll talk about maybe a front-end maybe a back
+
+00:17:40.780 --> 00:17:43.940
+-end maybe a middleware maybe a database maybe an api right
+
+00:17:43.940 --> 00:17:47.960
+again inside that so many features will be there in each and
+
+00:17:47.960 --> 00:17:50.440
+every component just like building a house right just like
+
+00:17:50.440 --> 00:17:54.680
+building a house so this oops concept right the concept that
+
+00:17:54.680 --> 00:17:57.480
+we are talking about so what it does it says that that okay
+
+00:17:57.480 --> 00:18:00.940
+whenever you're trying to build a big project do one thing
+
+00:18:00.940 --> 00:18:04.960
+start classifying right means for let's say like you know
+
+00:18:04.960 --> 00:18:08.060
+for one single entity or one single unit i'll try to create
+
+00:18:08.060 --> 00:18:11.020
+one class i'll try to keep everything in that one so that
+
+00:18:11.020 --> 00:18:13.620
+anyone who is writing a code they can come and they will be
+
+00:18:13.620 --> 00:18:13.660
+able to do that so that's the concept that you need to be
+
+00:18:13.660 --> 00:18:17.040
+able to understand that okay so this goes into this one
+
+00:18:17.040 --> 00:18:20.380
+right if anyone is going to add more and more feature and
+
+00:18:20.380 --> 00:18:22.660
+functionality they will try to add inside that particular
+
+00:18:22.660 --> 00:18:25.900
+one so this is how you should understand the classes right
+
+00:18:25.900 --> 00:18:28.880
+this is how you should understand the classes and then i'll
+
+00:18:28.880 --> 00:18:31.700
+come to the object part as well so now let's start doing a
+
+00:18:31.700 --> 00:18:34.180
+coding so hope all of you are able to understand maybe five
+
+00:18:34.180 --> 00:18:37.660
+to ten percent class definition not hundred percent i know
+
+00:18:37.660 --> 00:18:43.020
+but yeah five to ten percent yes everyone in a chat okay
+
+00:19:52.110 --> 00:19:56.230
+now so let's move ahead let's try to write like a couple of
+
+00:19:56.230 --> 00:19:59.210
+like a line of code over here so here what we can do so we
+
+00:19:59.210 --> 00:20:01.670
+can try to start with the class so class is basically a
+
+00:20:02.270 --> 00:20:05.830
+reserved keyword inside a python by the way so you can try
+
+00:20:05.830 --> 00:20:08.690
+to start with the class and then you can try to give a name
+
+00:20:08.690 --> 00:20:12.650
+right then you can try to give a name to it so i'll take one
+
+00:20:12.650 --> 00:20:16.530
+example over here right example wise let's say i'm like you
+
+00:20:16.530 --> 00:20:20.250
+know uh trying to build something for a banking yeah so
+
+00:20:20.250 --> 00:20:22.730
+obviously i go to a bank then i try to open up a bank
+
+00:20:22.730 --> 00:20:26.050
+account and then i try to you know do a deposit over there i
+
+00:20:26.050 --> 00:20:29.110
+try to withdraw i try to update my address so many
+
+00:20:29.110 --> 00:20:31.090
+activities right so many activities we try to do with
+
+00:20:31.090 --> 00:20:34.390
+respect to a banking so let's say i'm working in a banking
+
+00:20:34.390 --> 00:20:37.010
+application right i'm working in a banking application now
+
+00:20:37.010 --> 00:20:40.450
+what i have to do so i have to basically you know uh class
+
+00:20:40.450 --> 00:20:43.690
+create a classes with respect to the bank account so where
+
+00:20:43.690 --> 00:20:48.050
+maybe a withdrawal maybe a deposit maybe like to check a
+
+00:20:48.050 --> 00:20:51.290
+balance so i will be interacting with this particular class
+
+00:20:51.290 --> 00:20:56.410
+so simple class i can try to start with the bank account
+
+00:20:58.580 --> 00:21:02.860
+yeah i'll try to start with the bank account and now here so
+
+00:21:02.860 --> 00:21:07.060
+when i'm trying to write this class bank account so it will
+
+00:21:07.060 --> 00:21:10.940
+be expecting all the time that you are supposed to write
+
+00:21:10.940 --> 00:21:14.480
+some sort of a code yeah it will be expecting that you are
+
+00:21:14.480 --> 00:21:19.540
+supposed to write some sort of a code now uh here so let's
+
+00:21:19.540 --> 00:21:24.440
+say i don't want to write a code over here so i can pass
+
+00:21:24.440 --> 00:21:27.320
+means what so pass means i don't want to write any kind of a
+
+00:21:27.320 --> 00:21:31.180
+code inside this particular class as simple as that so class
+
+00:21:31.180 --> 00:21:34.120
+bank account right class bank account and i can try to write
+
+00:21:34.120 --> 00:21:38.600
+pass over here and then i can try to basically uh like you
+
+00:21:38.600 --> 00:21:41.680
+know create a variable of this particular class which
+
+00:21:41.680 --> 00:21:43.840
+eventually i can try to call it as an object and then i can
+
+00:21:43.840 --> 00:21:47.220
+try to use each and everything but yeah let's say just go
+
+00:21:47.220 --> 00:21:50.060
+after the basics so let's say if i have to create a class so
+
+00:21:50.060 --> 00:21:52.820
+simple class and then class name i can try to write and then
+
+00:21:52.820 --> 00:21:55.540
+over here so i can try to write pass i don't have to write
+
+00:21:55.540 --> 00:21:58.200
+anything else i just have to write the pass over here okay
+
+00:21:58.200 --> 00:22:01.180
+this is done now in this way it is not going to give any
+
+00:22:01.180 --> 00:22:03.960
+kind of a complaint but again this class is not useful for
+
+00:22:03.960 --> 00:22:06.320
+me because i have not written anything but what i'm trying
+
+00:22:06.320 --> 00:22:08.640
+to show you over here that that okay if you have to create a
+
+00:22:08.640 --> 00:22:12.260
+class simply use a class keyword and then a class name that
+
+00:22:12.260 --> 00:22:16.220
+is going to create a class for you as simple as that and
+
+00:22:16.220 --> 00:22:18.440
+inside that you can try to write everything with respect to
+
+00:22:18.440 --> 00:22:22.300
+a bank account now let's say i'm creating class uh bank
+
+00:22:22.300 --> 00:22:27.480
+account bank account once again and here inside this bank
+
+00:22:27.480 --> 00:22:29.580
+account class inside
+
+00:22:33.710 --> 00:22:36.650
+this bank account class so let's say if i have to create
+
+00:22:36.650 --> 00:22:39.470
+some sort of a function or maybe if i have to create some
+
+00:22:39.470 --> 00:22:43.390
+sort of a like a you know methods over here so yes i will be
+
+00:22:43.390 --> 00:22:46.770
+able to create it i will be able to do it for example so
+
+00:22:46.770 --> 00:22:50.910
+here if i have to basically create a function for maybe like
+
+00:22:50.910 --> 00:22:54.810
+a doing a deposit deposit of the money so def and then
+
+00:22:54.810 --> 00:23:00.090
+deposit and then here i can try to write that okay fine so
+
+00:23:00.090 --> 00:23:05.250
+print deposit method now execute now this is the method
+
+00:23:05.730 --> 00:23:09.930
+which i have kept it inside the class so now anyone everyone
+
+00:23:09.930 --> 00:23:13.590
+who will have to access this particular method so they have
+
+00:23:13.590 --> 00:23:16.410
+to go through a class and then only they will be able to
+
+00:23:16.410 --> 00:23:19.170
+access it otherwise they will not be able to access it in
+
+00:23:19.170 --> 00:23:24.370
+any circumstances as simple as that so here i can try to
+
+00:23:24.370 --> 00:23:28.770
+keep as many method as possible right they withdraw print
+
+00:23:28.770 --> 00:23:35.090
+withdraw method execute now here again so def check balance
+
+00:23:35.090 --> 00:23:38.670
+print check balance so likewise i can try to keep as many
+
+00:23:38.670 --> 00:23:42.250
+methods as possible inside this class now these methods are
+
+00:23:42.250 --> 00:23:45.190
+exactly the same method or same function that we have
+
+00:23:45.190 --> 00:23:48.190
+learned so far in my previous classes right so these methods
+
+00:23:48.190 --> 00:23:50.910
+are not very different this is almost like simulating the
+
+00:23:50.910 --> 00:23:53.570
+similar kind of things there is a keyword i'm using self
+
+00:23:53.570 --> 00:23:55.670
+i'll come to that point as well so what is the meaning of a
+
+00:23:55.670 --> 00:23:58.230
+self over here but yeah this is just trying to simulate the
+
+00:23:58.410 --> 00:24:03.090
+same method now if anyone have to access this method right
+
+00:24:03.090 --> 00:24:06.510
+for example if i'm writing this particular method outside
+
+00:24:06.510 --> 00:24:10.390
+yeah if i'm writing this particular method outside uh let me
+
+00:24:10.390 --> 00:24:16.030
+remove this self from here right check balance if i'm going
+
+00:24:16.030 --> 00:24:19.250
+to execute it so here it is going to basically tell you
+
+00:24:19.250 --> 00:24:22.870
+check balance method fine i will be able to call it i will
+
+00:24:22.870 --> 00:24:26.290
+be able to use it but let's say if i have to use a check
+
+00:24:26.290 --> 00:24:29.730
+balance from the class because this this function was
+
+00:24:29.730 --> 00:24:32.950
+outside i was able to use it directly right i was just able
+
+00:24:32.950 --> 00:24:35.870
+to call the function and yeah i was able to execute it but
+
+00:24:35.870 --> 00:24:38.490
+let's say there is a function which is available inside the
+
+00:24:38.490 --> 00:24:42.530
+class how i will be able to technically use it so anything
+
+00:24:42.530 --> 00:24:45.950
+and everything which will be available inside the class if
+
+00:24:45.950 --> 00:24:49.010
+you have to use it first of all you have to create a class
+
+00:24:49.010 --> 00:24:53.350
+variable then only you will be able to use it then only you
+
+00:24:53.350 --> 00:24:55.710
+will be able to technically access it let me show you that
+
+00:24:55.710 --> 00:24:58.390
+part so here let's say if i'm trying to create a variable
+
+00:24:58.410 --> 00:25:02.070
+let's say i'm creating a variable a variable a is a variable
+
+00:25:02.070 --> 00:25:05.690
+of what so i have mentioned over here variable a is equal to
+
+00:25:05.690 --> 00:25:09.550
+bank account what is bank account it's a class right so now
+
+00:25:09.550 --> 00:25:14.070
+this variable a is basically a variable of bank account and
+
+00:25:14.070 --> 00:25:17.810
+this variable a is going to help me out to access anything
+
+00:25:17.810 --> 00:25:22.630
+and everything from the class basically so see a.check
+
+00:25:22.630 --> 00:25:27.430
+balance a.check balance i am able to access it right so this
+
+00:25:27.430 --> 00:25:29.910
+is basically a.check balance is what a is a class variable.
+
+00:25:30.590 --> 00:25:33.510
+Let me give you some simple example which you will be able
+
+00:25:33.510 --> 00:25:37.350
+to relate. So here when we write b is equals to 10.
+
+00:25:39.810 --> 00:25:43.310
+So when we write b is equals to 10, a python automatically
+
+00:25:43.310 --> 00:25:48.870
+understands that b is basically a variable. Variable of
+
+00:25:48.870 --> 00:25:54.150
+which class by the way guys? Yes variable of which class?
+
+00:25:59.930 --> 00:26:03.570
+So can I say that when we say b is equal to 10, python
+
+00:26:03.570 --> 00:26:08.250
+automatically, python is a self typed language and python
+
+00:26:08.250 --> 00:26:11.230
+automatically understands that it is a variable of which
+
+00:26:11.230 --> 00:26:14.250
+class? So it is a variable of this class or that class. So
+
+00:26:14.250 --> 00:26:16.390
+by default it is going to understand it is a variable of
+
+00:26:16.390 --> 00:26:20.450
+integer class. Integer is also a class. Someone has written
+
+00:26:20.450 --> 00:26:23.490
+the integer class and that is the reason so it is able to
+
+00:26:23.490 --> 00:26:25.370
+understand and that is the reason so it is able to
+
+00:26:25.370 --> 00:26:29.550
+interpret. So in the similar manner. In the similar manner,
+
+00:26:29.710 --> 00:26:34.610
+so when we say that the variable of this variable of that,
+
+00:26:34.930 --> 00:26:39.150
+system understands it. System understands it automatically.
+
+00:26:43.990 --> 00:26:48.110
+So here similarly when I say b is equal to 10, system
+
+00:26:48.110 --> 00:26:50.710
+understands automatically. Now when I say a is equal to
+
+00:26:50.710 --> 00:26:54.030
+this, system understands automatically that okay a is
+
+00:26:54.030 --> 00:26:57.790
+technically a variable. Variable of what? Variable of a bank
+
+00:26:57.790 --> 00:27:01.690
+account class. Okay. So now with the help of this a, you
+
+00:27:01.690 --> 00:27:05.750
+will be able to access each and everything. You will be able
+
+00:27:05.750 --> 00:27:08.350
+to access each and everything as simple as that.
+
+00:27:37.140 --> 00:27:41.800
+Okay. Now so a is a variable of this class. Now with the
+
+00:27:41.800 --> 00:27:44.880
+help of a, I will be able to access anything. So I can
+
+00:27:44.880 --> 00:27:48.040
+access check balance. I can access basically deposit. Let's
+
+00:27:48.040 --> 00:27:51.180
+say if I have to access maybe a deposit, so I will be able
+
+00:27:51.180 --> 00:27:54.640
+to access that as well. If I have to access basically maybe
+
+00:27:54.640 --> 00:27:57.720
+like a, you know, a withdrawal. So I will be able to access.
+
+00:27:57.720 --> 00:28:00.360
+So everything, everything I will be able to access it.
+
+00:28:00.480 --> 00:28:08.620
+That's meaning. Now technically a is called as what? Yes. In
+
+00:28:08.620 --> 00:28:13.520
+case of oops programming concept. What is the name of a?
+
+00:28:14.400 --> 00:28:17.720
+Technically it's a, a is not a class. Who is saying class?
+
+00:28:18.020 --> 00:28:21.780
+No. A is not a class. A is what? It's called as object.
+
+00:28:21.980 --> 00:28:25.220
+Object of what? Generally people gets confused. Right? So
+
+00:28:25.220 --> 00:28:28.760
+when they hear this particular word called as object. It's
+
+00:28:28.760 --> 00:28:32.340
+not that confusing. It's very, very like, you know, uh,
+
+00:28:32.380 --> 00:28:37.040
+simple and anyone can understand. So technically a is what a
+
+00:28:37.040 --> 00:28:43.980
+is a variable of class bank account, class bank account. In
+
+00:28:43.980 --> 00:28:49.840
+other word, it's called as object of class bank account as
+
+00:28:49.840 --> 00:28:53.100
+simple as that. So object is nothing but a class variable.
+
+00:28:53.240 --> 00:28:57.680
+When I say C is equals to 2.30, right? C is equal to 2.30.
+
+00:28:57.700 --> 00:29:04.760
+So C is what? C is basically an object of class float, which
+
+00:29:04.760 --> 00:29:11.000
+is having this value. Yes. Right? So, so object is basically
+
+00:29:11.000 --> 00:29:13.100
+an instance of the class. So in this manner you can try to
+
+00:29:13.100 --> 00:29:15.300
+say, but yes, in a layman manner, in a very, very simple
+
+00:29:15.300 --> 00:29:17.700
+manner, it's a variable. And with the help of that class
+
+00:29:17.700 --> 00:29:20.300
+variable, you will be able to access each and everything.
+
+00:29:20.780 --> 00:29:25.100
+What so ever property that class is holding as simple as
+
+00:29:25.100 --> 00:29:27.680
+that, because we have seen that, that when we write is equal
+
+00:29:27.680 --> 00:29:30.020
+to 2.30. Let's say string S is equal to, let's say S U D H,
+
+00:29:30.160 --> 00:29:33.800
+right? String S is equal to S U D H. So many people have
+
+00:29:33.800 --> 00:29:36.800
+implemented so many functions for the string. So when you do
+
+00:29:36.800 --> 00:29:39.560
+S dot, you must be able to access all of those functions.
+
+00:29:39.680 --> 00:29:41.880
+You must have seen that same goes for list. Same goes for
+
+00:29:41.880 --> 00:29:45.160
+tuple. Same goes for dictionary. Same goes for set as well
+
+00:29:45.160 --> 00:29:47.720
+in a similar manner with the help of a, I will be able to
+
+00:29:47.720 --> 00:29:49.760
+access this. I will be able to access this. I will be able
+
+00:29:49.760 --> 00:29:52.100
+to access this one. So I will be able to access technically
+
+00:29:52.100 --> 00:29:57.520
+each and everything. Okay. Now that's fine. Okay. We will be
+
+00:29:57.520 --> 00:30:03.120
+able to access each and everything now. So here,
+
+00:30:06.000 --> 00:30:10.440
+so when we are going to create our function, right? Let's
+
+00:30:10.440 --> 00:30:14.660
+say I'm creating a function here. So maybe function test now
+
+00:30:14.660 --> 00:30:18.060
+print a test function. Yeah. Now if I'm going to call this
+
+00:30:18.060 --> 00:30:22.120
+test, yeah, I'm going to call test. That's fine. But here
+
+00:30:22.120 --> 00:30:26.020
+you must have seen that, that when I'm trying to create a
+
+00:30:26.020 --> 00:30:29.540
+function inside or method inside a class, by the way, right?
+
+00:30:29.940 --> 00:30:32.560
+The method inside the class. So I'm trying to use something
+
+00:30:32.560 --> 00:30:35.400
+called a self. Now by the way, self is not a reserved
+
+00:30:35.400 --> 00:30:38.020
+keyword. I can put my name as well and it is going to work,
+
+00:30:38.220 --> 00:30:41.720
+right? It is literally going to work for me. So here I'm
+
+00:30:41.720 --> 00:30:45.720
+trying to use self, self, self, self. So here the basic rule
+
+00:30:45.720 --> 00:30:48.820
+or again, like a people who have created this classes and
+
+00:30:48.820 --> 00:30:51.900
+object inside the Python. So they said that, that, okay, so
+
+00:30:51.900 --> 00:30:54.840
+there is a provisioning, which we are trying to do, right?
+
+00:30:54.980 --> 00:30:58.160
+That whenever you are trying to create some method inside a
+
+00:30:58.160 --> 00:31:01.380
+class. The very first variable should be, or the very first
+
+00:31:01.380 --> 00:31:04.600
+parameter should be a self kind of a things. Maybe you can
+
+00:31:04.600 --> 00:31:08.800
+try to give your own name now, what it does. So it helps
+
+00:31:08.800 --> 00:31:12.980
+basically a class to associate itself with this function.
+
+00:31:13.160 --> 00:31:17.040
+Self means pointing to this class, pointing to self, self is
+
+00:31:17.040 --> 00:31:20.220
+pointing to this one. Self means pointing to this one. So
+
+00:31:20.220 --> 00:31:23.220
+self is again, it's a provision, right? It's a kind of a
+
+00:31:23.220 --> 00:31:25.180
+rule. You can say, which has been like a created that
+
+00:31:25.180 --> 00:31:27.840
+whatsoever function you will be creating inside a class.
+
+00:31:27.840 --> 00:31:30.640
+Whatsoever method you will be creating inside a class, you
+
+00:31:30.640 --> 00:31:33.380
+have to make sure that the very first parameter is supposed
+
+00:31:33.380 --> 00:31:36.660
+to be what the very first parameter is supposed to be self
+
+00:31:36.660 --> 00:31:41.980
+as simple as that very clear and clean and a simple right
+
+00:31:41.980 --> 00:31:45.540
+now. So this is what self is now, instead of using the self,
+
+00:31:45.660 --> 00:31:49.200
+what I can do, I can use my name. Yeah, I can use my name
+
+00:31:49.200 --> 00:31:54.500
+over here. Now bank count balance deposit, I'm able to
+
+00:31:54.500 --> 00:31:57.480
+access withdraw. I'm able to access as you can see, I have
+
+00:31:57.480 --> 00:32:00.500
+used. I have used my name over here. The very first variable
+
+00:32:00.500 --> 00:32:04.140
+that we are going to use, it is not considered as an
+
+00:32:04.140 --> 00:32:08.220
+parameter, which values you are supposed to pass. It
+
+00:32:08.220 --> 00:32:10.480
+basically considered as a pointer. So basically you are
+
+00:32:10.480 --> 00:32:14.540
+pointing to means this function is pointing towards what? So
+
+00:32:14.540 --> 00:32:17.420
+this function is pointing towards a classes. Yeah.
+
+00:32:55.110 --> 00:32:59.430
+Yes. What if, if we did on, did not give, I think you're
+
+00:32:59.430 --> 00:33:02.310
+trying to say, so let's say I'm not giving it. Yeah. I'm not
+
+00:33:02.310 --> 00:33:07.590
+giving anything. Now here deposit, right? So for deposit, as
+
+00:33:07.590 --> 00:33:11.430
+you have seen that I have not given a self. Yeah. Now just
+
+00:33:11.430 --> 00:33:14.490
+try to understand. So bank count dot deposit means bank
+
+00:33:14.490 --> 00:33:16.810
+count is a class name. Basically with the help of this a,
+
+00:33:16.930 --> 00:33:18.990
+right, I'm referring to the class is a variable of the
+
+00:33:18.990 --> 00:33:22.130
+class, right? Deposit takes zero position argument, but one
+
+00:33:22.130 --> 00:33:27.190
+was given, like I said, right? It is a provision which has
+
+00:33:27.190 --> 00:33:31.070
+been made. So whenever you are declaring any method, right?
+
+00:33:31.090 --> 00:33:32.430
+Whenever you are declaring. When you are declaring any kind
+
+00:33:32.430 --> 00:33:36.430
+of a method, you have to make sure that your methods must
+
+00:33:36.430 --> 00:33:40.870
+have this one. Is it making sense? It just behave like a,
+
+00:33:40.890 --> 00:33:43.850
+it's a provision. Basically it's a, it's something which is,
+
+00:33:43.890 --> 00:33:46.630
+there is, there's no logic. If you'll go and ask me that why
+
+00:33:46.630 --> 00:33:50.490
+we are doing it, it's a provision, right? So I'll ask you a
+
+00:33:50.490 --> 00:33:54.410
+simple question that why your name is X, Y, G, and what is
+
+00:33:54.410 --> 00:33:57.250
+the, what will be the answer? Your name is X, Y, G because
+
+00:33:57.250 --> 00:33:59.570
+your parents, you're like someone from your family member,
+
+00:33:59.670 --> 00:34:03.430
+have given you this name. Right? I mean, like you can't go
+
+00:34:03.430 --> 00:34:05.970
+and find out that like a logic behind it, right? It's
+
+00:34:05.970 --> 00:34:09.170
+basically a choice of your creator, technically a parent
+
+00:34:09.170 --> 00:34:11.810
+biologically it's a parent. Right? So it was a choice of
+
+00:34:11.810 --> 00:34:14.770
+your creator. Similarly. So here it was a choice of a
+
+00:34:14.770 --> 00:34:17.870
+creator. So whosoever has created Python who so ever has
+
+00:34:17.870 --> 00:34:20.430
+designed this Python. So they have said that, that, okay. So
+
+00:34:20.430 --> 00:34:23.410
+whenever you're trying to create a function outside means
+
+00:34:23.410 --> 00:34:26.170
+without a class, okay. So without even def you can create
+
+00:34:26.170 --> 00:34:28.990
+it. That's like without even giving a very first parameter
+
+00:34:28.990 --> 00:34:31.710
+as a pointer. You can do it. Okay. But if you are trying to
+
+00:34:31.710 --> 00:34:34.970
+do it, right, if you are trying to do it inside a class in
+
+00:34:34.970 --> 00:34:39.170
+that situation, you have to use a reference pointer, right?
+
+00:34:39.410 --> 00:34:42.390
+I mean, like we could have done that even without doing it.
+
+00:34:42.470 --> 00:34:44.770
+But yeah, they have made a provision and we are following it
+
+00:34:44.770 --> 00:34:48.010
+so far. And again, so the programming is all about setting
+
+00:34:48.010 --> 00:34:50.090
+the rules, right? So someone has set the rules that you have
+
+00:34:50.090 --> 00:34:54.850
+to declare the variable in this manner. Agree, everyone?
+
+00:34:55.050 --> 00:34:58.230
+Yeah. So again, again, you can come and you can argue with
+
+00:34:58.230 --> 00:35:03.270
+me that why we are writing b is equals to 10, right? Why not
+
+00:35:03.270 --> 00:35:08.870
+10 is equals to b, 10 is equals to b, right? So someone can
+
+00:35:08.870 --> 00:35:11.890
+come to me and they can argue with me saying that why we are
+
+00:35:11.890 --> 00:35:16.070
+writing b is equals to 10, not 10 is equals to b. It's very
+
+00:35:16.070 --> 00:35:19.690
+simple. A creator has set the rules that okay, if you have
+
+00:35:19.690 --> 00:35:21.850
+to get the variable, you have to go in this way. If you have
+
+00:35:21.850 --> 00:35:25.310
+to create a class, like a method inside a class. So you have
+
+00:35:25.310 --> 00:35:26.490
+to go in this way. You have to go in the, into this
+
+00:35:26.490 --> 00:35:31.630
+particular manner. Making sense everyone? Yeah. And all the
+
+00:35:31.630 --> 00:35:36.370
+programming language is done in that manner itself. Yes.
+
+00:35:36.530 --> 00:35:39.990
+Yeah. So there is no technically a logic behind it. It's
+
+00:35:39.990 --> 00:35:42.670
+just like it's been designed in such a way that you have to
+
+00:35:42.670 --> 00:35:45.290
+give it so that it is referring to the class automatically.
+
+00:35:45.430 --> 00:35:48.330
+If you are not giving it, then you will get this error.
+
+00:35:49.050 --> 00:35:53.610
+Very, very simple. Yeah. Very, very simple. Okay. No. So I
+
+00:35:53.610 --> 00:35:57.950
+have just like a given one reference. Fine. Now let's, let's
+
+00:35:57.950 --> 00:36:00.870
+try to do one thing. So let's try to go and, you know, let's
+
+00:36:00.870 --> 00:36:04.230
+try to create, uh, some more, uh, I would say like a
+
+00:36:04.230 --> 00:36:11.590
+functions inside a class. So here a class, class bank
+
+00:36:11.590 --> 00:36:15.150
+account, same, same class I'll try to create, right? And
+
+00:36:15.150 --> 00:36:18.370
+then I'll try to do what def underscore underscore I N I T
+
+00:36:18.370 --> 00:36:22.610
+underscore underscore, right? And then here, so I'll write a
+
+00:36:22.610 --> 00:36:26.410
+self. And then I will try to write maybe a name. I'll try to
+
+00:36:26.410 --> 00:36:33.830
+write a count, a number account number. I'll try to write
+
+00:36:33.830 --> 00:36:39.610
+balance and then here. So maybe I have written this piece of
+
+00:36:39.610 --> 00:36:42.810
+the code. Now you will say that, that, okay, this is even
+
+00:36:42.810 --> 00:36:46.850
+more confusing, right? This is even more confusing. So you
+
+00:36:46.850 --> 00:36:51.010
+have basically written something called as in it. What is
+
+00:36:51.010 --> 00:36:53.570
+that? What is that by the way? And I'm able to see a double
+
+00:36:53.570 --> 00:36:56.070
+underscore means underscore underscore I N I T underscore
+
+00:36:56.070 --> 00:36:59.970
+underscore. What is that? So, and then you will be able to
+
+00:36:59.970 --> 00:37:02.970
+feel like technically it's a method that I have created,
+
+00:37:03.090 --> 00:37:05.910
+right? Technically it's a method I'm using a def keyword. So
+
+00:37:05.910 --> 00:37:10.270
+technically this is basically a method, but here, so there
+
+00:37:10.270 --> 00:37:12.910
+is something special method or you can say a dunder
+
+00:37:12.910 --> 00:37:15.950
+function, right? Dunder function. It's basically called a
+
+00:37:15.950 --> 00:37:17.450
+dunder function, double underscore, double underscore
+
+00:37:17.450 --> 00:37:20.090
+beginning. And then after, right? So likewise, there are so
+
+00:37:20.090 --> 00:37:22.430
+many other functions, which is available. So there are so
+
+00:37:22.430 --> 00:37:25.170
+many dunder function, which has been given to you and every
+
+00:37:25.170 --> 00:37:29.070
+dunder function comes with a responsibility because creator
+
+00:37:29.070 --> 00:37:32.530
+has given a responsibility to them. Now here, the very
+
+00:37:32.530 --> 00:37:35.590
+famous dunder function, you will be able to find out call as
+
+00:37:35.590 --> 00:37:39.670
+in it, what it does. Yeah. What it does. So basically this
+
+00:37:39.670 --> 00:37:48.370
+in it helps you out to pass a value, to pass a data when you
+
+00:37:48.370 --> 00:37:51.370
+are trying to create an object. It means you are trying to
+
+00:37:51.370 --> 00:37:56.610
+create a variable of a class. Let me show you that part. Let
+
+00:37:56.610 --> 00:37:59.150
+me show you that part so that it will be clear. So
+
+00:37:59.150 --> 00:38:02.610
+previously, uh, with respect to this class, we were trying
+
+00:38:02.610 --> 00:38:06.610
+to create a class variable a, right? And we have written
+
+00:38:06.610 --> 00:38:11.510
+bank account. Okay. Fine. Now here, let's say I'm giving
+
+00:38:11.510 --> 00:38:15.270
+name as bank account one. This time. Yep. Previous one was
+
+00:38:15.270 --> 00:38:17.950
+bank account. This is bank account one. Fine. Now here.
+
+00:38:20.270 --> 00:38:22.710
+Let's say I'm writing a variable of bank account. B is
+
+00:38:22.710 --> 00:38:27.740
+equals to means B is a variable of bank account. Let's say
+
+00:38:27.740 --> 00:38:34.980
+I'm writing bank account one. Is it going to work? Yeah. The
+
+00:38:34.980 --> 00:38:39.340
+line which I have written, is it going to work? Last time it
+
+00:38:39.340 --> 00:38:41.360
+was working, right? Last time it was working. So I was able
+
+00:38:41.360 --> 00:38:44.680
+to create a variable a is equal to bank account, right? Now
+
+00:38:44.680 --> 00:38:47.860
+this time when I'm trying to create a variable, right, a
+
+00:38:47.860 --> 00:38:51.640
+variable B of bank account one class. No. So now it is
+
+00:38:51.640 --> 00:38:54.980
+telling me that you are missing three required positional
+
+00:38:54.980 --> 00:38:58.400
+argument, name, account number and a balance. This is the
+
+00:38:58.400 --> 00:39:01.280
+complaint that I have received, right? This is the complaint
+
+00:39:01.280 --> 00:39:03.880
+I have received. That is the reason I told you that this has
+
+00:39:03.880 --> 00:39:08.920
+been used, right? This has been used to pass a data, right?
+
+00:39:09.020 --> 00:39:12.740
+Because see, I'm creating a bank account class. Now bank
+
+00:39:12.740 --> 00:39:15.340
+account will be used by me. It will be used by Rahul. It
+
+00:39:15.340 --> 00:39:17.940
+will be used by Bridges. It will be used by Keith. It will
+
+00:39:17.940 --> 00:39:20.760
+be used by Ram. I can see their name inside the chat, right?
+
+00:39:20.820 --> 00:39:23.660
+Okay. So it will be used by so many because so many people
+
+00:39:23.660 --> 00:39:27.520
+are going to use the same class. But their data is not going
+
+00:39:27.520 --> 00:39:29.760
+to be same, right? Their account number is not going to be
+
+00:39:29.760 --> 00:39:31.860
+same. Their name is not going to be same. Their balance is
+
+00:39:31.860 --> 00:39:34.540
+not going to be same because everyone is having their own
+
+00:39:34.540 --> 00:39:36.860
+bank account, right? It's not like my code will be
+
+00:39:36.860 --> 00:39:40.220
+different. My code will be same, right? So I will be able to
+
+00:39:40.220 --> 00:39:43.040
+segregate. I will be able to allow them to check their
+
+00:39:43.040 --> 00:39:47.980
+balance or do a deposit or to do a withdrawal based on their
+
+00:39:47.980 --> 00:39:50.840
+variable, their data that they are going to pass, right? Now
+
+00:39:50.840 --> 00:39:54.060
+this is where this things comes into picture. So there is a
+
+00:39:54.060 --> 00:39:57.240
+special method called as init method. Technically it's
+
+00:39:57.240 --> 00:39:59.940
+called as dunder function as well, right? So technically
+
+00:39:59.940 --> 00:40:02.620
+it's called as dunder function as well. So basically this is
+
+00:40:02.620 --> 00:40:05.880
+going to help me out, right? This is going to help me out in
+
+00:40:05.880 --> 00:40:09.020
+terms of doing what? So this is going to help me out in
+
+00:40:09.020 --> 00:40:15.840
+terms of technically passing that particular data. So here
+
+00:40:15.840 --> 00:40:18.040
+it is now giving me a complaint that you haven't passed
+
+00:40:18.040 --> 00:40:20.780
+name, account number and a balance. Okay. Okay. So let me
+
+00:40:20.780 --> 00:40:23.660
+create a variable. So this variable is for, let's say Ram,
+
+00:40:23.860 --> 00:40:27.600
+right? And then like a, you know, uh, this is his like a
+
+00:40:27.600 --> 00:40:30.500
+bank account. So this is a B variable. So I'm ready for
+
+00:40:30.500 --> 00:40:33.400
+Rama. I have created, let's say for Rahul, I'm going to
+
+00:40:33.400 --> 00:40:35.920
+create it, right? So Rahul is a variable. So Rahul, and this
+
+00:40:35.920 --> 00:40:38.540
+is the, you know, account number. This is the balance. Let's
+
+00:40:38.540 --> 00:40:41.620
+say for Keith, I'm going to create it. So basically this is
+
+00:40:41.620 --> 00:40:45.320
+a Keith bank account. So Keith is using, likewise, I can try
+
+00:40:45.320 --> 00:40:47.900
+to create as many variable as possible. Same like integer,
+
+00:40:48.080 --> 00:40:50.320
+right? I can, I can try to create as many integer variable,
+
+00:40:50.480 --> 00:40:52.420
+floating point variable. As possible in the similar manner.
+
+00:40:52.500 --> 00:40:55.320
+So I'm trying to create as many bank account, one variable
+
+00:40:55.320 --> 00:40:57.220
+for different, different, different, different person as
+
+00:40:57.220 --> 00:40:59.540
+possible. Right? And I'm trying to pass a different,
+
+00:40:59.580 --> 00:41:02.500
+different data for different, different variable means
+
+00:41:02.500 --> 00:41:04.880
+different person. You can say, right? So that all of them
+
+00:41:04.880 --> 00:41:07.940
+will be able to use it now, how it is possible and how it is
+
+00:41:07.940 --> 00:41:10.900
+going to pass by the way. So it is trying to pass with the
+
+00:41:10.900 --> 00:41:13.820
+help of in it to function. Let me show you the flow, how
+
+00:41:13.820 --> 00:41:17.920
+flow happens actually. So here, when you pass this data, it
+
+00:41:17.920 --> 00:41:23.380
+goes here, Ram will come here. This will come here. Now this
+
+00:41:23.380 --> 00:41:27.020
+will come here, right? It comes here. Now from here it will
+
+00:41:27.020 --> 00:41:31.500
+come here. It will come here and it will come here. This
+
+00:41:31.500 --> 00:41:33.540
+place, this place and this place, right?
+
+00:41:38.100 --> 00:41:44.520
+Yup. And now from here, so it will come to a basically, uh,
+
+00:41:44.660 --> 00:41:49.320
+like, uh, you know, so here I have kept self dot name. I
+
+00:41:49.320 --> 00:41:52.120
+have kept a self dot account. I have kept self dot balance.
+
+00:41:52.300 --> 00:41:54.840
+Yup. I have kept self dollar count. I have called self dot
+
+00:41:54.840 --> 00:41:59.780
+balance. All these things now. So it will be the help of
+
+00:41:59.780 --> 00:42:02.560
+self, right? Like I said, so self always behave like a
+
+00:42:02.560 --> 00:42:07.120
+pointer. So it will try to tell a class that, okay, for this
+
+00:42:07.120 --> 00:42:12.240
+variable, the value of this name, which is known for this
+
+00:42:12.240 --> 00:42:15.460
+class is coming from here, this, this and this name account
+
+00:42:15.460 --> 00:42:19.180
+and this one. So for variable B, what class will understand
+
+00:42:19.180 --> 00:42:22.660
+the value? So name is equal to Ram. Account is equal to
+
+00:42:22.660 --> 00:42:26.300
+this. And then balance is equal to this for Rahul. It will
+
+00:42:26.300 --> 00:42:28.400
+be able to understand that name is equal to Rahul account is
+
+00:42:28.400 --> 00:42:30.380
+this one and then balance is this one. So this is how
+
+00:42:30.380 --> 00:42:33.180
+variable gets passed and then class will be able to
+
+00:42:33.180 --> 00:42:36.740
+understand that. Okay. So this is a name. This is our
+
+00:42:36.740 --> 00:42:39.240
+account. This is a balance. Now one more thing I would like
+
+00:42:39.240 --> 00:42:41.640
+to highlight over here, which is pretty much confusing for
+
+00:42:41.640 --> 00:42:47.980
+many people. So let me clarify that. So here generally we
+
+00:42:47.980 --> 00:42:50.980
+think that, that, uh, you know, this name and this name is
+
+00:42:50.980 --> 00:42:54.600
+same. Now. Now let me, uh, like, you know, call this, uh,
+
+00:42:54.680 --> 00:42:59.140
+let me show you one example. So let's say if I'm trying to
+
+00:42:59.140 --> 00:43:04.420
+call B dot name, yeah, B dot name. Now what is B dot name
+
+00:43:04.420 --> 00:43:08.400
+for variable B? What is our value of name? So B dot name is
+
+00:43:08.400 --> 00:43:12.560
+basically Ram. Similarly if I'm trying to call B dot, uh,
+
+00:43:12.720 --> 00:43:16.320
+account number, B dot account number. So obviously account
+
+00:43:16.320 --> 00:43:18.440
+number is what one, two, three, four, five, which I have
+
+00:43:18.440 --> 00:43:21.400
+passed here. It has basically now associated with this one.
+
+00:43:21.400 --> 00:43:25.140
+I'm able to call it. Now let's say if I'm going to keep a
+
+00:43:25.140 --> 00:43:30.500
+name, not name, basically name one now execute now execute.
+
+00:43:30.740 --> 00:43:33.800
+Now if I'm going to execute B dot name, is it going to work?
+
+00:43:35.280 --> 00:43:36.620
+Yes. Is it going to work?
+
+00:43:41.640 --> 00:43:46.920
+No. Yes. Yeah. And this is again where people like, you
+
+00:43:46.920 --> 00:43:50.020
+know, especially a beginner, they gets confused. So see this
+
+00:43:50.020 --> 00:43:53.680
+name and this name is different, right? This name as this
+
+00:43:53.680 --> 00:43:57.300
+name is different. This is a name which is associated with
+
+00:43:57.300 --> 00:44:02.500
+self. So class understands which name this one, not this
+
+00:44:02.500 --> 00:44:05.520
+one. This is just our value. It's just like writing. What?
+
+00:44:05.600 --> 00:44:09.040
+It's just like writing a is equals to 10. So 10 is what? 10
+
+00:44:09.040 --> 00:44:11.840
+is value. You are trying to pass it directly or you're
+
+00:44:11.840 --> 00:44:14.340
+trying to pass it via this one. That's a different story,
+
+00:44:14.540 --> 00:44:16.800
+right? That's a different story. But at the end of the day,
+
+00:44:16.860 --> 00:44:20.120
+class will be able to understand only this a, it will be
+
+00:44:20.120 --> 00:44:23.880
+able to associate this 10 with a. So here class always
+
+00:44:23.880 --> 00:44:27.160
+understands. This part, the self association part. So self
+
+00:44:27.160 --> 00:44:29.960
+always behaves like a pointer. Again, self is not a keyword.
+
+00:44:30.160 --> 00:44:32.780
+You can give your name. It is going to work. You can give my
+
+00:44:32.780 --> 00:44:37.000
+name as a suit. It is going to work over there. So basically
+
+00:44:37.000 --> 00:44:39.820
+if I'm going to execute this, right, it is going to give me
+
+00:44:39.820 --> 00:44:43.760
+an error. What is the error object has no attribute. So this
+
+00:44:43.760 --> 00:44:48.640
+bank account one class object means variable has no
+
+00:44:48.640 --> 00:44:51.060
+attribute name. It is not able to understand what you're
+
+00:44:51.060 --> 00:44:53.780
+talking about by the way, right? It is not able to
+
+00:44:53.780 --> 00:44:56.820
+understand. Because this name is what this name is just a
+
+00:44:56.820 --> 00:45:01.000
+value, right? It's just a value class always understands
+
+00:45:01.000 --> 00:45:04.080
+this part of the things. So now if I'm going to give name
+
+00:45:04.080 --> 00:45:07.820
+one, I will be able to get my value. So yes, for name one,
+
+00:45:07.880 --> 00:45:11.240
+I'm able to get my value. So again, never keep this kind of
+
+00:45:11.240 --> 00:45:13.840
+a confusion. So that's the reason whether it's a function or
+
+00:45:13.840 --> 00:45:16.100
+whether it's a variable I'm trying to declare over here,
+
+00:45:16.200 --> 00:45:19.280
+right? It's always get associated with self. So basically it
+
+00:45:19.280 --> 00:45:22.320
+behaves like a pointer. This is the provision which creator
+
+00:45:22.320 --> 00:45:24.480
+of Python have created that. Okay. If you're associating
+
+00:45:24.480 --> 00:45:27.060
+with self, it simply means that that will be pointing
+
+00:45:27.060 --> 00:45:29.800
+towards a class class will be aware about it, right? If
+
+00:45:29.800 --> 00:45:33.400
+you're not doing it, then not now. So this init coming to
+
+00:45:33.400 --> 00:45:36.080
+the init part. So this init function, like I said, it's a
+
+00:45:36.080 --> 00:45:38.860
+special functions, a dunder function, right? It's also
+
+00:45:38.860 --> 00:45:46.300
+called as constructor, C-O-N-S-T-U-R constructor, C-O-N-S-T
+
+00:45:46.300 --> 00:45:49.800
+-R-U-C-T-O-R, constructor. Yeah. So basically init behaves
+
+00:45:49.800 --> 00:45:53.560
+as a constructor. Constructor means a constructor. It's a
+
+00:45:53.560 --> 00:45:57.340
+kind of a method which is allowing you to pass a data when,
+
+00:45:57.440 --> 00:46:02.940
+while creating an object, while creating a variable of the
+
+00:46:02.940 --> 00:46:08.730
+particular class. Is it making sense guys? What if we pass
+
+00:46:08.730 --> 00:46:10.990
+integer value in name? Yeah, you can pass it. You can pass
+
+00:46:10.990 --> 00:46:13.210
+list as well. That's completely fine because there is no
+
+00:46:13.210 --> 00:46:17.920
+data validation that we have done. Yeah. So you can pass
+
+00:46:17.920 --> 00:46:21.200
+technically anything over there. If you are going to use a
+
+00:46:21.200 --> 00:46:24.300
+pidentic, so in case of pidentic, obviously you will be able
+
+00:46:24.300 --> 00:46:25.240
+to do a data validation.
+
+00:47:41.140 --> 00:47:43.700
+Okay. So means different object can have a different data.
+
+00:47:43.840 --> 00:47:45.940
+Yeah. So you can do a validation that will come into a
+
+00:47:45.940 --> 00:47:50.260
+picture in a last, like a different class. Basically there
+
+00:47:50.260 --> 00:47:52.520
+is a validation that you can then, there is something called
+
+00:47:52.520 --> 00:47:54.840
+as pidentic that I can apply. So pidentic is basically been
+
+00:47:54.840 --> 00:47:57.200
+designed for a data validation that, okay, if I'm looking
+
+00:47:57.200 --> 00:47:59.480
+for only this kind of a data, I should get only this kind of
+
+00:47:59.480 --> 00:48:03.920
+a data, not other. Means if I'm supposed to get a string, I
+
+00:48:03.920 --> 00:48:06.480
+should get a string. I should not pass any of the data set.
+
+00:48:06.520 --> 00:48:09.000
+So that is our data validation. But as of now, if I'm going
+
+00:48:09.000 --> 00:48:11.620
+to pass, let's say instead of this string, I should pass
+
+00:48:11.620 --> 00:48:15.000
+name, right? Technically, let's say I'm passing list, which
+
+00:48:15.000 --> 00:48:18.240
+is, which is nowhere close to the name, which is like a
+
+00:48:18.240 --> 00:48:18.720
+expected.
+
+00:48:21.530 --> 00:48:31.120
+Yeah. So now if I'm going to call B dot name, right? Name
+
+00:48:31.120 --> 00:48:33.540
+one, right? Attribute name was name one. I'm able to get
+
+00:48:33.540 --> 00:48:36.680
+list. Simple. Technically I can pass anything because there
+
+00:48:36.680 --> 00:48:41.460
+is no data validation as of now. Yeah. Okay. Now.
+
+00:48:46.190 --> 00:48:48.790
+Okay. So Rahul has basically pinged me this piece of the
+
+00:48:48.790 --> 00:48:50.970
+code and he's saying that this is what is working fine
+
+00:48:50.970 --> 00:48:58.990
+without self. Okay. So let's check this part. Yeah. So he
+
+00:48:58.990 --> 00:49:01.790
+has done what, and then he is trying to do what? So he's
+
+00:49:01.790 --> 00:49:04.450
+trying to call this class directly and then he's trying to
+
+00:49:04.450 --> 00:49:07.550
+call withdraw. Okay. It's working. Let's say I'm trying to
+
+00:49:07.550 --> 00:49:12.050
+create a variable of the class, right? A bank account. So
+
+00:49:12.050 --> 00:49:18.290
+this is the name B N K. Okay. Sorry. Bank account. B N K. A
+
+00:49:18.290 --> 00:49:23.750
+bank account. Yeah. Now B dot withdraw.
+
+00:49:24.650 --> 00:49:25.450
+Is it working?
+
+00:49:29.280 --> 00:49:33.760
+So class variable is not able to call it, right? Class is
+
+00:49:33.760 --> 00:49:36.480
+directly able to access it and obviously class will be able
+
+00:49:36.480 --> 00:49:41.120
+to access it. But what is our objective, right? So we have
+
+00:49:41.120 --> 00:49:44.460
+to create a different, different variable so that I will be
+
+00:49:44.460 --> 00:49:47.120
+having a privilege to create a variable for each and every
+
+00:49:47.120 --> 00:49:50.580
+customer who is having a bank account. I can't directly use
+
+00:49:50.580 --> 00:49:52.800
+a bank account as a global name. I can't directly use a
+
+00:49:52.800 --> 00:49:54.660
+global name and then use it because bank account dot
+
+00:49:54.660 --> 00:49:58.520
+withdraw means what? With all for whom? Right? With all for
+
+00:49:58.520 --> 00:50:00.800
+Rahul, with all for Rishabh, with all for Brijesh, with all
+
+00:50:00.800 --> 00:50:04.940
+for whom? Right? I don't know. Technically. Right? So I
+
+00:50:04.940 --> 00:50:08.560
+don't know. So this is what, like, you know, uh, we, we have
+
+00:50:08.560 --> 00:50:12.540
+to like, you know, uh, understand over here. Is it making
+
+00:50:12.540 --> 00:50:13.960
+sense? All of us guys.
+
+00:50:37.520 --> 00:50:42.940
+Yeah. Okay. So fine. Uh, we are able to understand, I
+
+00:50:42.940 --> 00:50:45.600
+believe like a little bit of classes. Okay. Understand
+
+00:50:45.600 --> 00:50:48.880
+object by the way. Yeah. Not much, but yeah, a little bit.
+
+00:50:49.000 --> 00:50:51.440
+So in case of any question guys, so please put your question
+
+00:50:51.440 --> 00:50:56.800
+inside a group inside a chat. Yeah. I'll, I'll try to answer
+
+00:50:56.800 --> 00:50:57.480
+to your question.
+
+00:51:17.070 --> 00:51:20.710
+Yes. Any, any question guys, any question for me outside
+
+00:51:22.980 --> 00:51:25.580
+the class, we have to use a class variable. Yes. That's
+
+00:51:25.580 --> 00:51:27.780
+approach that you have to follow because if you're trying to
+
+00:51:27.780 --> 00:51:30.560
+call directly a class name, it simply means that that you
+
+00:51:30.560 --> 00:51:33.200
+have only one instance, but I have to create a multiple
+
+00:51:33.200 --> 00:51:35.920
+instance, right? A millions of instances. It means millions
+
+00:51:35.920 --> 00:51:41.860
+of variable. So obviously this is where you have to use it.
+
+00:51:46.870 --> 00:51:50.570
+Yeah. So any, any other question, where
+
+00:51:55.720 --> 00:51:59.700
+is the oops use case is more than a function. See function
+
+00:51:59.700 --> 00:52:02.620
+will be there. So even here in case of oops, you will end up
+
+00:52:02.620 --> 00:52:04.880
+writing a function itself, right? You will end up writing a
+
+00:52:04.880 --> 00:52:07.060
+function variable. For example, we are using this inbuilt
+
+00:52:07.060 --> 00:52:09.860
+function. We are writing our own function over here and
+
+00:52:09.860 --> 00:52:11.900
+we'll be writing hundreds such kind of a function again and
+
+00:52:11.900 --> 00:52:15.800
+again and again. Right? So here, uh, like, uh, you know,
+
+00:52:15.800 --> 00:52:18.340
+oops basically gives you the structure. For example, like I
+
+00:52:18.340 --> 00:52:21.800
+told you that, uh, let's say if I have to like, if I have to
+
+00:52:21.800 --> 00:52:25.840
+design a banking software, right? So obviously for like, uh,
+
+00:52:25.880 --> 00:52:29.380
+you know, account opening, I will do something for credit
+
+00:52:29.380 --> 00:52:32.180
+card. I will do something for debit card management. I'll do
+
+00:52:32.180 --> 00:52:34.860
+something for mutual fund management. I'll do something. So
+
+00:52:34.860 --> 00:52:38.180
+now to maintain and manage those mutual fund through debit
+
+00:52:38.180 --> 00:52:40.480
+card to credit card, what I will do, I'll try to create a
+
+00:52:40.480 --> 00:52:44.160
+separate separate classes. Yeah. And those respective
+
+00:52:44.160 --> 00:52:47.360
+function with respect to a bank account or mutual fund, or
+
+00:52:47.360 --> 00:52:50.700
+maybe a debit or maybe a credit, basically, I will try to
+
+00:52:50.700 --> 00:52:53.220
+keep a respective function inside that class. That's the
+
+00:52:53.220 --> 00:52:56.380
+reason I told you in a beginning itself that it is oops
+
+00:52:56.380 --> 00:52:59.860
+concept has been designed technically to enhance the
+
+00:52:59.860 --> 00:53:05.380
+efficiency and the structure of the entire code. Make sense?
+
+00:53:06.240 --> 00:53:09.300
+Yeah. So that's a, that's a whole idea. That's a, that's a
+
+00:53:09.300 --> 00:53:11.360
+whole philosophy behind the oops. I
+
+00:53:42.140 --> 00:53:45.240
+just joined you. Yeah. So you thought I will be seeing the
+
+00:53:45.240 --> 00:53:46.960
+recording. I think it will be better if we can go through
+
+00:53:46.960 --> 00:53:48.940
+the recording because we have discussed so many things so
+
+00:53:48.940 --> 00:53:52.460
+far. So every enterprise gets software application. They
+
+00:53:52.460 --> 00:53:57.040
+must have been built in a oops structure. Yes. Yeah. So
+
+00:53:57.040 --> 00:53:59.880
+that's a provision by which we write a code or we do a
+
+00:53:59.880 --> 00:54:04.760
+coding. That's a way of doing a coding by the way, nowadays,
+
+00:54:05.020 --> 00:54:07.860
+even if you're going to use a AI, so like, uh, you know, you
+
+00:54:07.860 --> 00:54:10.740
+should ask the same thing to an AI agent.
+
+00:54:13.640 --> 00:54:18.180
+Okay. So now, uh, this is that now
+
+00:54:33.980 --> 00:54:36.240
+let's go ahead and let's try to create some fuller scale
+
+00:54:36.240 --> 00:54:38.800
+class. Now inside that we'll end up creating so many
+
+00:54:38.800 --> 00:54:40.640
+different, different kinds of functions and all those
+
+00:54:40.640 --> 00:54:45.060
+things. So here let's complete a bank account class bank
+
+00:54:45.060 --> 00:54:49.580
+account and let's say so many implementation has been done
+
+00:54:49.580 --> 00:54:52.280
+over here. Yeah. So many implementation has been done. Now
+
+00:54:52.280 --> 00:54:54.600
+if you'll try to understand this entire implementation, so
+
+00:54:54.600 --> 00:54:58.680
+you will be able to find out that in it is available. So in
+
+00:54:58.680 --> 00:55:00.960
+it is what? So whenever I'm going to create an object of
+
+00:55:00.960 --> 00:55:03.420
+this bank account class, I have to pass account number. I
+
+00:55:03.420 --> 00:55:06.220
+have to pass balance. Default value of balance is already
+
+00:55:06.220 --> 00:55:09.120
+given. So even if you are not going to pass a value of the
+
+00:55:09.120 --> 00:55:12.320
+balance, it will be considering zero. If you are going to
+
+00:55:12.320 --> 00:55:14.700
+pass the balance amount, then we'll be taking it in a
+
+00:55:14.700 --> 00:55:17.260
+function class. I have already taught you about this one
+
+00:55:17.260 --> 00:55:20.660
+that you can try to pass a default value as well. So account
+
+00:55:20.660 --> 00:55:23.880
+number will come here. Balance will come here and this is
+
+00:55:23.880 --> 00:55:27.420
+how my class will be able to understand that. Okay. So what
+
+00:55:27.420 --> 00:55:29.500
+is the value of account number? What is the value of a
+
+00:55:29.500 --> 00:55:34.580
+balance? Okay. So this is basically my init, which is
+
+00:55:34.580 --> 00:55:37.820
+helping me out in terms of passing a data to the class. Now
+
+00:55:37.820 --> 00:55:40.920
+second is a function or method I have created deposit method
+
+00:55:40.920 --> 00:55:45.060
+and withdraw method. Let's say now deposit method, as I have
+
+00:55:45.060 --> 00:55:48.680
+already told you that the very first variable is should be
+
+00:55:48.680 --> 00:55:51.060
+pointer. It's not a parameter, right? So you're not supposed
+
+00:55:51.060 --> 00:55:53.440
+to pass the value of it. It basically referring to the
+
+00:55:53.440 --> 00:55:56.100
+class. That's it. Reference to the class so that it will be
+
+00:55:56.100 --> 00:55:58.200
+able to understand that's a provision. Now here. Here are
+
+00:55:58.200 --> 00:56:01.700
+deposit wise. So you are going to pass a value amount that
+
+00:56:01.700 --> 00:56:05.460
+how much you will deposit. So if amount is greater than zero
+
+00:56:05.460 --> 00:56:08.560
+condition is written over here. So if amount is greater than
+
+00:56:08.560 --> 00:56:12.760
+zero, what should happen? So let's say I will try to deposit
+
+00:56:12.760 --> 00:56:14.880
+a hundred rupees, right? I'll try to deposit a hundred
+
+00:56:14.880 --> 00:56:17.820
+rupees. So amount is equal to hundred. So I'll try to check
+
+00:56:17.820 --> 00:56:20.220
+first of all that, okay, if I'm trying to deposit more than
+
+00:56:20.220 --> 00:56:23.460
+like more than zero rupees in that case, I should do this
+
+00:56:23.460 --> 00:56:26.660
+one else I should do this one. So if I'm trying to deposit
+
+00:56:26.660 --> 00:56:29.660
+more than hundred rupees. So obviously my balance variable
+
+00:56:29.660 --> 00:56:32.920
+must gets updated, right? My balance variable must get
+
+00:56:32.920 --> 00:56:37.000
+updated. Now this is a class variable. Balance is a class
+
+00:56:37.000 --> 00:56:40.860
+variable. Now if you have to call, if you have to use a
+
+00:56:40.860 --> 00:56:45.660
+class variable inside a class method, inside a class method
+
+00:56:45.660 --> 00:56:48.760
+or inside the class itself, how you will be able to call it?
+
+00:56:48.840 --> 00:56:52.000
+You will call it by using this means self dot balance, not
+
+00:56:52.000 --> 00:56:57.220
+just a balance. If you are calling outside, then what? Then?
+
+00:56:57.220 --> 00:57:00.060
+Then how I will be able to call it guys? If I have to get
+
+00:57:00.060 --> 00:57:02.460
+this balance outside, how I will be able to get it?
+
+00:57:05.570 --> 00:57:09.070
+Answer is very simple, right? If I have to call it outside,
+
+00:57:09.270 --> 00:57:13.110
+simple object variable, right? So variable dot balance
+
+00:57:13.110 --> 00:57:16.830
+object dot balance as simple as that, right? Inside that, if
+
+00:57:16.830 --> 00:57:20.590
+I have to call it, then self dot means same thing, right?
+
+00:57:20.610 --> 00:57:22.450
+Because this is how class understands, right? This is how
+
+00:57:22.450 --> 00:57:25.370
+class understands. This is how class will remember. So self
+
+00:57:25.370 --> 00:57:27.490
+dot balance, so self dot balance is equal to self dot
+
+00:57:27.490 --> 00:57:29.950
+balance plus amount means just try to add it. Yeah.
+
+00:57:30.010 --> 00:57:32.290
+Whatsoever amount, right? And then print it that, okay,
+
+00:57:32.310 --> 00:57:35.730
+fine. So this amount has been deposited else just so this,
+
+00:57:35.810 --> 00:57:38.690
+this particular message. So now I will be able to come and I
+
+00:57:38.690 --> 00:57:41.450
+will be able to use this function and I will be able to do a
+
+00:57:41.450 --> 00:57:45.990
+deposit. Then there is something called as withdraw. Yeah.
+
+00:57:46.190 --> 00:57:49.070
+So if I have to withdraw some amount, so people are going to
+
+00:57:49.070 --> 00:57:52.170
+pass how much amount they have to withdraw. It will try to
+
+00:57:52.170 --> 00:57:56.350
+check that if amount is greater than zero, right, then it
+
+00:57:56.350 --> 00:57:59.690
+will execute this part. Now it will go and check that. Okay,
+
+00:57:59.690 --> 00:58:01.790
+fine. So you are trying to withdraw, let's suppose like a
+
+00:58:01.790 --> 00:58:05.430
+hundred rupees, but balance must be available. So it will
+
+00:58:05.430 --> 00:58:08.230
+try to check self dot balance is greater than or equal to
+
+00:58:08.230 --> 00:58:10.650
+the amount that you have passed means greater than or equal
+
+00:58:10.650 --> 00:58:14.090
+to a hundred rupees. If yes, then deduct it and then
+
+00:58:14.090 --> 00:58:17.470
+withdraw it, right? Else just say that, that there is a
+
+00:58:17.470 --> 00:58:20.050
+insufficient fund which is available inside your account. So
+
+00:58:20.050 --> 00:58:24.030
+this will be executed and if this is going to fail, then
+
+00:58:24.030 --> 00:58:27.550
+this will be executed, right? Now get balance. There is a
+
+00:58:27.550 --> 00:58:29.670
+function called as get balance. What it will do, it will
+
+00:58:29.670 --> 00:58:32.990
+simply try to return self dot balance. So as simple as that,
+
+00:58:33.010 --> 00:58:36.010
+these three functions are there, deposit, withdraw and get
+
+00:58:36.010 --> 00:58:38.990
+balance. And then I can try to, you know, use this function
+
+00:58:38.990 --> 00:58:42.410
+for a different, different variable. For example, I can try
+
+00:58:42.410 --> 00:58:46.470
+to use for a Keith. So Keith, let's say like a, his bank
+
+00:58:46.470 --> 00:58:50.110
+count number is this, and this is the balance amount. Then I
+
+00:58:50.110 --> 00:58:54.830
+can try to use it for Rishabh, let's say. So bank count is
+
+00:58:54.830 --> 00:58:58.030
+this. I'm not like sending any balance to him. Then I can
+
+00:58:58.030 --> 00:59:02.850
+try to use it for Raj over here. So Raj, and then this one,
+
+00:59:02.930 --> 00:59:06.490
+right? So now for Keith, if I have to do some sort of a, you
+
+00:59:06.490 --> 00:59:10.030
+know, withdrawal or deposit, I can simply call what? So
+
+00:59:10.030 --> 00:59:15.050
+Keith dot withdraw, withdraw what? 500 rupees. Keith is
+
+00:59:15.050 --> 00:59:18.850
+having how much 3000 rupees as of now. So Keith, okay, fine.
+
+00:59:18.950 --> 00:59:21.810
+So new balance is basically this much. I can even check how
+
+00:59:21.810 --> 00:59:27.070
+much balance Keith is having. So Keith dot. Keith dot. Okay.
+
+00:59:27.770 --> 00:59:31.050
+So this is the balance, right? Or maybe balance variable
+
+00:59:31.050 --> 00:59:34.550
+that you can call. So 2,500 is a balance. Deposit amount was
+
+00:59:34.550 --> 00:59:38.010
+3000, right? Let's say Rishabh. Rishabh is having how much
+
+00:59:38.010 --> 00:59:42.390
+of balance? So Rishabh is having, let's say, Rishabh dot
+
+00:59:42.390 --> 00:59:45.530
+balance. I can try to call. So Rishabh is having zero
+
+00:59:45.530 --> 00:59:48.970
+balance. So if I'll try to withdraw some amount, Rishabh dot
+
+00:59:48.970 --> 00:59:51.670
+withdraw, withdraw
+
+00:59:53.720 --> 00:59:55.960
+a hundred rupees. It will tell me that, okay, there is a
+
+00:59:55.960 --> 00:59:59.140
+insufficient fund, right? So for Rishabh, let's say. If I
+
+00:59:59.140 --> 01:00:01.840
+would like to like a deposit 2000 rupees. Now if I'll check
+
+01:00:01.840 --> 01:00:05.300
+Rishabh dot balance. So basically now I have a 2000 rupees,
+
+01:00:05.540 --> 01:00:09.240
+very, very simple, right? So for all the variables, my three
+
+01:00:09.240 --> 01:00:12.520
+functions are working. I'm able to, you know, create an
+
+01:00:12.520 --> 01:00:16.040
+variable of Keith, Rishabh and Raj and it's working well,
+
+01:00:16.180 --> 01:00:20.060
+right? As per the expectation. So these are basically a
+
+01:00:20.060 --> 01:00:23.700
+class method, withdraw, deposit, all of these things. And my
+
+01:00:23.700 --> 01:00:26.420
+user is not supposed to worry about it, right? They're
+
+01:00:26.420 --> 01:00:30.360
+supposed to call and check. Simple. Again, it doesn't matter
+
+01:00:30.360 --> 01:00:32.440
+how many people are going to use all of these three
+
+01:00:32.440 --> 01:00:35.020
+functions. 10 people or 10,000 people or 10 million people.
+
+01:00:35.240 --> 01:00:37.760
+I don't have to go and like, you know, look into these like
+
+01:00:37.760 --> 01:00:40.660
+classes once written, I can use it like a hundred thousand
+
+01:00:40.660 --> 01:00:43.300
+times. Is it making sense?
+
+01:00:46.340 --> 01:00:47.700
+Yes. Yeah.
+
+01:00:50.820 --> 01:00:53.820
+Keith dot get balance. I mean, get balance is nothing, a
+
+01:00:53.820 --> 01:00:55.680
+getter or setter I have not written over there. So obviously
+
+01:00:55.680 --> 01:00:56.900
+that is not going to work for me.
+
+01:01:00.370 --> 01:01:03.930
+Yes. Yeah. So very, very simple, right? So I can try to
+
+01:01:03.930 --> 01:01:06.410
+implement in that manner. As many classes possible and for
+
+01:01:06.410 --> 01:01:08.870
+all those other classes, I will be able to technically, you
+
+01:01:08.870 --> 01:01:11.350
+know, uh, get
+
+01:01:12.860 --> 01:01:18.100
+all the things. So classes and object is a fine, yeah.
+
+01:01:18.420 --> 01:01:21.840
+Classes and object is technically fine. Now let's try to
+
+01:01:21.840 --> 01:01:26.620
+understand something inside our classes and object. Okay. So
+
+01:01:26.620 --> 01:01:28.840
+there is something called as inheritance. What is the
+
+01:01:28.840 --> 01:01:32.700
+meaning of inheritance? So here, let's say I have a class,
+
+01:01:32.900 --> 01:01:36.800
+right? I have a class. Uh, basically this. Bank account.
+
+01:01:37.340 --> 01:01:41.900
+Fine. I have a class called as bank account. So now, uh,
+
+01:01:42.040 --> 01:01:47.500
+let's say if I'll try to create a class class, right? Debit
+
+01:01:47.500 --> 01:01:53.280
+card, debit card. So basically when I'm trying to create
+
+01:01:53.280 --> 01:01:56.420
+this class called as debit card, so obviously debit card is
+
+01:01:56.420 --> 01:01:58.700
+what I mean, like whatsoever amount will be available inside
+
+01:01:58.700 --> 01:02:01.200
+your account. You will be able to do all those operations
+
+01:02:01.200 --> 01:02:06.500
+with respect to, you know, like, uh, those amount. Very,
+
+01:02:06.540 --> 01:02:09.300
+very simple, right? So if I have a balance of this much, so
+
+01:02:09.300 --> 01:02:12.100
+obviously I will be able to check the balance. I will be
+
+01:02:12.100 --> 01:02:15.320
+able to withdraw. I can go to an ATM, swap it. I can, I can
+
+01:02:15.320 --> 01:02:17.860
+go to restaurant, I can tap it, right? I will be able to use
+
+01:02:17.860 --> 01:02:20.720
+it. But yeah, debit card, right? Because debit card will be
+
+01:02:20.720 --> 01:02:24.040
+having its own functionality. So now when I'm talking about
+
+01:02:24.040 --> 01:02:26.960
+this debit card implementation, so debit card should support
+
+01:02:27.640 --> 01:02:31.440
+withdraw. Debit card should support balance. Debit card
+
+01:02:31.440 --> 01:02:37.260
+should support basically, uh, deposit. Uh, not deposit one.
+
+01:02:37.360 --> 01:02:39.560
+I mean like, yeah, if machine is taking input, then it's
+
+01:02:39.560 --> 01:02:42.560
+fine. But yes, uh, debit card to support all of these
+
+01:02:42.560 --> 01:02:47.580
+things. So sell, I go and write all of those function, which
+
+01:02:47.580 --> 01:02:48.780
+I have already written again.
+
+01:02:51.750 --> 01:02:53.550
+Let's say I have to use a couple of functions, right? Let's
+
+01:02:53.550 --> 01:02:56.290
+say withdraw and balance check for debit card as well. So
+
+01:02:56.290 --> 01:02:58.050
+sell, I go and write those functions again.
+
+01:03:01.460 --> 01:03:01.820
+Yeah.
+
+01:03:05.100 --> 01:03:07.560
+Technically I should not write, it will be like, you know,
+
+01:03:07.580 --> 01:03:11.420
+reputation of the code now to avoid it. Right. There is a
+
+01:03:11.420 --> 01:03:15.160
+provision which is given inside oops concept. Yeah. There is
+
+01:03:15.160 --> 01:03:18.060
+a provision which is given. So there is a concept called as
+
+01:03:18.060 --> 01:03:21.720
+inheritance, just like a human being. So we used to inherit
+
+01:03:21.720 --> 01:03:24.340
+a lot of things from our ancestors, from our parents, right?
+
+01:03:24.400 --> 01:03:27.500
+Maybe like the way we speak, the way we walk, the way we
+
+01:03:27.500 --> 01:03:30.540
+behave, maybe our hair color, maybe our skin tone,
+
+01:03:30.640 --> 01:03:32.660
+everything. A lot of things we used to like inherit, right?
+
+01:03:33.440 --> 01:03:36.540
+Even like a, you know, for some kids, so that their face
+
+01:03:36.540 --> 01:03:39.560
+will be like, you know, identical to their parents, right?
+
+01:03:39.560 --> 01:03:41.920
+It looks like, like their parents and their faces like
+
+01:03:41.920 --> 01:03:45.620
+identical. So so many things, behaviors, so many things we
+
+01:03:45.620 --> 01:03:47.780
+used to inherit from our parents or maybe from our
+
+01:03:47.780 --> 01:03:51.800
+ancestors, right? In the similar manner here, there is a
+
+01:03:51.800 --> 01:03:55.820
+concept called as inheritance, just like a human being. So
+
+01:03:55.820 --> 01:03:59.220
+you can inherit as many things as possible from the other
+
+01:03:59.220 --> 01:04:03.460
+classes and you can try to inherit as means whatsoever is
+
+01:04:03.460 --> 01:04:06.080
+available in that class, it will be available by default at
+
+01:04:06.080 --> 01:04:10.900
+this one. Use it. Very, very simple. Right? So this is where
+
+01:04:10.900 --> 01:04:13.720
+inheritance comes into picture. Now how inheritance happens.
+
+01:04:14.040 --> 01:04:17.340
+So let's say I've created a class debit card. If I have to
+
+01:04:17.340 --> 01:04:20.260
+inherit each and everything, right? If I have to inherit
+
+01:04:20.260 --> 01:04:23.480
+each and everything. So what I will do, I'll simply write
+
+01:04:23.480 --> 01:04:27.040
+inside this class, I will write a bank account. Bank account
+
+01:04:27.040 --> 01:04:30.340
+is what? It's a class name, right? It's a class name. So
+
+01:04:30.340 --> 01:04:33.320
+just like passing a parameter into the function. So here I'm
+
+01:04:33.320 --> 01:04:35.900
+trying to pass a parameter into the class and this will
+
+01:04:35.900 --> 01:04:39.660
+become inherited means whatsoever things are available
+
+01:04:39.660 --> 01:04:43.400
+inside a bank account class by default, that will be
+
+01:04:43.400 --> 01:04:48.240
+available over here, right? And then on top of it, I can try
+
+01:04:48.240 --> 01:04:51.180
+to use it. I can try to even add something new. For example,
+
+01:04:51.300 --> 01:04:54.860
+right, for example, so here this is a debit card class,
+
+01:04:55.020 --> 01:04:57.920
+right? So let's say account number and balance is coming
+
+01:04:57.920 --> 01:05:03.000
+from previous one, right? Card number is not there. So I'm
+
+01:05:03.000 --> 01:05:05.620
+just trying to add the card number and here, so what we are
+
+01:05:05.620 --> 01:05:09.020
+trying to write, so we are writing a super. So I'm trying to
+
+01:05:09.020 --> 01:05:12.040
+say that, that this in it, this initialization is for debit
+
+01:05:12.040 --> 01:05:15.560
+card. Yeah. Now inside that we are trying to say that, that,
+
+01:05:15.580 --> 01:05:19.240
+okay, do one thing. So bank account, bank account is what a
+
+01:05:19.240 --> 01:05:21.640
+super class, right? From bank account we are trying to
+
+01:05:21.640 --> 01:05:24.060
+inherit parents, let's say, right? So bank account is super
+
+01:05:24.060 --> 01:05:27.100
+class. So this is trying to say that, that, okay, whatsoever
+
+01:05:27.100 --> 01:05:32.220
+in it implementation in it means passing a data, yeah,
+
+01:05:32.260 --> 01:05:36.280
+constructor. So whatsoever in it implementation is done in
+
+01:05:36.280 --> 01:05:40.600
+the previous one. Right? Means the super one, do one thing,
+
+01:05:40.680 --> 01:05:44.860
+do the same implementation plus add this card number as
+
+01:05:44.860 --> 01:05:46.880
+well. So self dot card number is equal to card number, which
+
+01:05:46.880 --> 01:05:50.400
+is a new, especially for debit card, right? Fine. Display
+
+01:05:50.400 --> 01:05:52.720
+card information. So fine. It will be able to show you the
+
+01:05:52.720 --> 01:05:56.860
+card information. Now let's do a go and check. Yeah. So here
+
+01:05:56.860 --> 01:06:01.560
+I'll try to execute it and let's say, uh, for Raj, uh, so I
+
+01:06:01.560 --> 01:06:06.020
+will try to create basically a debit card. So here let's not
+
+01:06:06.020 --> 01:06:11.900
+pass anything as of right. So here when I'm trying to say,
+
+01:06:11.960 --> 01:06:15.080
+I'm trying to create a variable for a Raj, a debit card,
+
+01:06:15.240 --> 01:06:18.900
+right? So it is telling me that, uh, missing one required
+
+01:06:18.900 --> 01:06:22.500
+position argument, account number, this is missing by
+
+01:06:22.500 --> 01:06:25.220
+default balance is equal to zero. It will be able to
+
+01:06:25.220 --> 01:06:28.480
+consider credit card is equal to none. So if you're not
+
+01:06:28.480 --> 01:06:30.420
+passing any value, it will take another value means you
+
+01:06:30.420 --> 01:06:33.060
+don't have a credit card issued as of now, because yeah,
+
+01:06:33.120 --> 01:06:34.620
+there is a chance that you have a bank account, but you
+
+01:06:34.620 --> 01:06:37.460
+don't have a credit card active, right? Possible. So account
+
+01:06:37.460 --> 01:06:40.200
+number, it is telling me that missing one thing, uh, which,
+
+01:06:40.300 --> 01:06:42.960
+which I believe you should pass. So, okay, let me pass this,
+
+01:06:43.040 --> 01:06:48.980
+all these things, right? So okay. Now Raj debit card class,
+
+01:06:49.120 --> 01:06:52.680
+a debit card variable is having this as a account number,
+
+01:06:52.820 --> 01:06:56.440
+this as a balance, right? And this as a debit card
+
+01:06:56.440 --> 01:07:01.080
+information. Now if I'm going to call Raj dot Raj dot
+
+01:07:01.080 --> 01:07:04.900
+display card information, okay, I'm able to get the card
+
+01:07:04.900 --> 01:07:07.740
+information. Basically it's coming from here, right? I'm
+
+01:07:07.740 --> 01:07:11.820
+able to get the card information. Cool. I'm able to get the
+
+01:07:11.820 --> 01:07:21.760
+card information now. Yeah. Now Raj dot balance.
+
+01:07:26.150 --> 01:07:30.330
+I'm able to get that as well. Raj dot withdraw,
+
+01:07:34.360 --> 01:07:37.560
+withdraw. Is it going to work? Withdraw?
+
+01:07:40.400 --> 01:07:44.700
+Is it going to work? Yeah. Withdraw is not a function which
+
+01:07:44.700 --> 01:07:46.800
+is available over here. Withdraw is not a function which is
+
+01:07:46.800 --> 01:07:49.540
+available over here by the way, right? So this is, there is
+
+01:07:49.540 --> 01:07:52.540
+nothing called a withdrawal by the way over here. Yeah. Uh,
+
+01:07:52.580 --> 01:07:55.940
+basically like, you know, uh, and Raj is a variable of what?
+
+01:07:56.020 --> 01:07:59.740
+A debit card. Yeah. So withdraw is a function inside bank
+
+01:07:59.740 --> 01:08:03.260
+account. Not here, not inside the debit card. Here I'm
+
+01:08:03.260 --> 01:08:09.380
+trying to do withdraw. It's working, right? So Raj dot Raj
+
+01:08:09.380 --> 01:08:14.700
+dot, uh, withdraw. And then balance. Once again, if I'm
+
+01:08:14.700 --> 01:08:16.480
+going to check balance
+
+01:08:19.740 --> 01:08:23.120
+4,000. So yeah, I'm able to do a withdrawal. I'm able to
+
+01:08:23.120 --> 01:08:25.260
+like check the balance. Each and everything is working for
+
+01:08:25.260 --> 01:08:29.960
+me by the way. Yes, it is. So the draw is working for me.
+
+01:08:30.120 --> 01:08:33.380
+Why it is working because I have done what I have inherited.
+
+01:08:34.280 --> 01:08:37.520
+I'm not written, rewritten those functions once again. I
+
+01:08:37.520 --> 01:08:40.720
+have just inherited, right? Inheritance wise, it's very
+
+01:08:40.720 --> 01:08:43.380
+simple. And with respect to this class, I have added a
+
+01:08:43.380 --> 01:08:47.300
+couple of things. So on top of this. You know one. So I have
+
+01:08:47.300 --> 01:08:49.900
+added a couple of more like, okay, fine. So credit card
+
+01:08:49.900 --> 01:08:56.220
+number is also required. Yeah. Why no balance are there for
+
+01:08:56.220 --> 01:09:00.180
+a Raj balance. So see, you can try to, let's suppose I have
+
+01:09:00.180 --> 01:09:03.400
+to access a card number so I can use this function to access
+
+01:09:03.400 --> 01:09:07.600
+the card number or can I say I can access even Raj dot
+
+01:09:07.600 --> 01:09:09.440
+variable and
+
+01:09:12.800 --> 01:09:15.780
+I will be able to get that card number. So I can access
+
+01:09:15.780 --> 01:09:18.340
+function. I can access variable. So here when I say balance,
+
+01:09:18.460 --> 01:09:24.060
+I'm accessing variable. Not a function. Get it? Why there is
+
+01:09:24.060 --> 01:09:28.660
+no bracket? Yeah. Can we inherit from more than one classes?
+
+01:09:28.880 --> 01:09:33.420
+Yes. You can do that as well. Yeah. So multiple inheritance.
+
+01:09:33.800 --> 01:09:36.160
+But yes, if there will be confusion, if there will be some
+
+01:09:36.160 --> 01:09:38.840
+ambiguity, then in that case it is, it is going to give you
+
+01:09:38.840 --> 01:09:44.840
+some sort of a issues. Let's do one thing. So here class
+
+01:09:44.840 --> 01:09:54.380
+class and let's say I'm trying to create a class for. Mutual
+
+01:09:54.380 --> 01:09:57.300
+fund. So where I
+
+01:09:59.890 --> 01:10:02.590
+will try to do an inheritance from bank account as well as
+
+01:10:02.590 --> 01:10:06.090
+from a debit card. Yeah.
+
+01:10:11.920 --> 01:10:17.260
+From both one. So here def in it fine.
+
+01:10:24.770 --> 01:10:28.250
+So here I have created a mutual fund and then I'm trying to
+
+01:10:28.250 --> 01:10:30.610
+inherit something from a bank account as well as from a
+
+01:10:30.610 --> 01:10:34.370
+debit card. So I will be able to technically do it. So let's
+
+01:10:34.370 --> 01:10:37.670
+be execute. Cannot create a consistent resolution. Okay. So
+
+01:10:37.670 --> 01:10:45.170
+now there is a MRO issue. I can resolve that super init
+
+01:10:45.170 --> 01:10:47.790
+account number, balance and card number. So account number,
+
+01:10:47.890 --> 01:10:52.630
+balance and card number. I'm getting it from the above and
+
+01:10:52.630 --> 01:10:54.590
+then fund name is
+
+01:10:57.240 --> 01:11:07.130
+equals to card. Okay. So if I have to use this one, then I
+
+01:11:07.130 --> 01:11:10.070
+can try to make a little. It should
+
+01:11:31.190 --> 01:11:36.370
+ideally work because there is nothing wrong. MRO is fine. It
+
+01:11:36.370 --> 01:11:38.770
+should be able to resolve that one.
+
+01:11:58.730 --> 01:12:04.920
+Okay. So because of this line, there is a MRO because I'm
+
+01:12:04.920 --> 01:12:10.860
+passing three and yeah, so it is trying to consider that
+
+01:12:12.900 --> 01:12:13.580
+I'm passing.
+
+01:12:42.970 --> 01:12:47.470
+I'll do one thing to resolve this MRO. I can just try to
+
+01:12:47.470 --> 01:12:52.150
+call a bank account in it. This one. This one and then debit
+
+01:12:52.150 --> 01:13:00.110
+card. Now it will work. It should ideally. So there is a MRO
+
+01:13:00.110 --> 01:13:06.330
+issue guys because of that it's getting crashed MRO for base
+
+01:13:06.330 --> 01:13:12.670
+in it bank account I have done and yeah, so for debit card,
+
+01:13:12.890 --> 01:13:14.930
+it should be in
+
+01:13:17.400 --> 01:13:20.800
+it and there should be like a three parameter right in
+
+01:13:30.750 --> 01:13:32.770
+itself. Account number. Balance.
+
+01:13:35.230 --> 01:13:42.590
+Balance. Okay. Then there is a type error we are getting.
+
+01:13:42.730 --> 01:13:47.570
+Let's see what happens. Ideally it should not give me when
+
+01:13:47.570 --> 01:13:52.970
+I'm trying to do inheritance separately, but yeah. So if
+
+01:13:52.970 --> 01:13:56.450
+there is a issue, we'll try to check.
+
+01:15:06.150 --> 01:15:07.370
+It's a MRO.
+
+01:15:14.900 --> 01:15:19.020
+So here debit card is already, let me show you in different
+
+01:15:19.020 --> 01:15:21.500
+way. This MRO resolution. Right? See, I'll, I'll tell you
+
+01:15:21.500 --> 01:15:24.340
+what is the issue by the way. So debit card is already
+
+01:15:24.340 --> 01:15:27.760
+trying to do an inheritance from a bank account. This is
+
+01:15:27.760 --> 01:15:30.200
+what debit card is doing. Right? So debit card is doing
+
+01:15:30.200 --> 01:15:32.220
+already inheritance from the bank account. So obviously
+
+01:15:32.220 --> 01:15:34.540
+because of that, it's a MRO issue, which is a known issue
+
+01:15:34.540 --> 01:15:38.620
+basically. Right? So here, if I can just directly try to
+
+01:15:38.620 --> 01:15:41.340
+inherit like a mutual fund and then debit card. So by
+
+01:15:41.340 --> 01:15:44.600
+default bank account will be inherited and, but I'm trying
+
+01:15:44.600 --> 01:15:46.880
+to show you some different situation over here. For example,
+
+01:15:46.920 --> 01:15:52.380
+we have a class a. And inside a class a, so I have some sort
+
+01:15:52.380 --> 01:15:56.340
+of a implementation. So let's say a def underscore
+
+01:15:56.340 --> 01:16:00.860
+underscore in itself. And then this is my class a, then
+
+01:16:00.860 --> 01:16:04.040
+there is a class b and then like a, this is the
+
+01:16:04.040 --> 01:16:07.440
+implementation. Then there is a class c. So here I'm just
+
+01:16:07.440 --> 01:16:10.660
+trying to show you that how we can do a multiple inheritance
+
+01:16:10.660 --> 01:16:14.360
+over here. So c is inheriting a and b both. Right? So this
+
+01:16:14.360 --> 01:16:19.660
+is what I'm trying to show you. I'll show you that super in
+
+01:16:19.660 --> 01:16:21.840
+it. That's fine now.
+
+01:16:23.600 --> 01:16:26.960
+So this situation will not give you an issue. Class a, class
+
+01:16:26.960 --> 01:16:29.260
+b and class c is inheriting both the classes. So basically
+
+01:16:29.260 --> 01:16:31.460
+technically I'm trying to inherit from multiple classes.
+
+01:16:31.600 --> 01:16:33.720
+Someone has asked me a question that can multiple
+
+01:16:33.720 --> 01:16:36.120
+inheritance works. So just to answer that question, I was
+
+01:16:36.120 --> 01:16:39.220
+trying to show you this example. Now why it is getting into
+
+01:16:39.220 --> 01:16:42.080
+a conflict. It's getting into a conflict. The reason is
+
+01:16:42.080 --> 01:16:44.780
+very, very simple. When I write a bank account as well as
+
+01:16:44.780 --> 01:16:47.660
+debit card by default, debit card is trying to do an
+
+01:16:47.660 --> 01:16:51.660
+inheritance from the bank account. And because of that, so
+
+01:16:51.660 --> 01:16:55.020
+it's like a having a conflict. Now when I have simply said
+
+01:16:55.020 --> 01:16:58.780
+debit card, now it is having everything. It is mutual fund
+
+01:16:58.780 --> 01:17:01.220
+class is having everything from debit card as well as from a
+
+01:17:01.220 --> 01:17:06.420
+bank account because so there is something called as so here
+
+01:17:06.420 --> 01:17:08.860
+multi label, multi
+
+01:17:12.600 --> 01:17:17.720
+label and there is something called as multiple, multi label
+
+01:17:17.720 --> 01:17:22.360
+means so we have a class a then from class a. We are getting
+
+01:17:22.360 --> 01:17:25.500
+into class b and then we have a class c. So class c will be
+
+01:17:25.500 --> 01:17:27.940
+having all the property command property of a and b both.
+
+01:17:28.680 --> 01:17:32.960
+Multiple means so we have a class a and then we have a class
+
+01:17:32.960 --> 01:17:37.100
+b and then there is a class c. Now class c altogether trying
+
+01:17:37.100 --> 01:17:41.140
+to inherit things from a and b. So in this case there will
+
+01:17:41.140 --> 01:17:44.520
+be a MRO conflict that there will be a MRO conflict you will
+
+01:17:44.520 --> 01:17:49.020
+be able to see. So if c will try to inherit again a and b
+
+01:17:49.020 --> 01:17:52.840
+because b has already inherited everything from a. A. So it
+
+01:17:52.840 --> 01:17:55.180
+will be a name resolution conflict and because of that it
+
+01:17:55.180 --> 01:17:58.500
+will give you MRO error. So in this situation C should
+
+01:17:58.500 --> 01:18:02.080
+inherit B and B should inherit A. In this situation C should
+
+01:18:02.080 --> 01:18:04.620
+inherit A and B altogether. This is what I have shown you.
+
+01:18:04.740 --> 01:18:07.940
+So these are two different different examples. So one for a
+
+01:18:07.940 --> 01:18:12.740
+multi-label and one for a multiple. So here the class A and
+
+01:18:12.740 --> 01:18:17.100
+B example which I have shown it to you. Class A class B and
+
+01:18:17.100 --> 01:18:19.900
+then class C. This is basically example of a multiple. Now
+
+01:18:19.900 --> 01:18:24.620
+this example is basically an example of multi-label. Bank
+
+01:18:24.620 --> 01:18:29.660
+account, two debit card, two mutual fund. Making sense 12 of
+
+01:18:29.660 --> 01:18:31.660
+us guys? Inheritance?
+
+01:18:36.020 --> 01:18:42.590
+Yes? Okay. Fine. So we are able to understand technically a
+
+01:18:42.590 --> 01:18:45.810
+inheritance. Okay. Let
+
+01:19:02.740 --> 01:19:04.680
+me explain mutual fund example once again. See mutual fund
+
+01:19:04.680 --> 01:19:06.640
+is nothing but mutual fund is trying to do inheritance from
+
+01:19:06.640 --> 01:19:09.780
+debit card. Debit card is doing inheritance from a bank
+
+01:19:09.780 --> 01:19:12.180
+account. So whatsoever function. That you have written
+
+01:19:12.180 --> 01:19:15.100
+inside the bank account and a debit card by default, all of
+
+01:19:15.100 --> 01:19:17.900
+those things will be available inside a mutual fund. As
+
+01:19:17.900 --> 01:19:22.320
+simple as that. Nothing, nothing different. Yeah.
+
+01:19:30.980 --> 01:19:37.400
+Okay. Now. So someone is saying that Raj is saying that what
+
+01:19:37.400 --> 01:19:41.160
+is MRO? Okay. MRO is basically a multi MRO, right? So multi
+
+01:19:41.160 --> 01:19:46.380
+resolution order. So when one is like inheriting another,
+
+01:19:46.500 --> 01:19:48.840
+another one is inheriting another one and then in one
+
+01:19:48.840 --> 01:19:52.400
+classes. So you have just disturbed the order. There will be
+
+01:19:52.400 --> 01:19:54.160
+a conflict. So this is something called as a multi
+
+01:19:54.160 --> 01:19:59.700
+resolution order MRO. So this, this kind of issue is going
+
+01:19:59.700 --> 01:20:06.340
+to happen the way we have like done that. Okay. So now let's
+
+01:20:06.340 --> 01:20:09.260
+try to understand one more concept of which comes inside the
+
+01:20:09.260 --> 01:20:12.260
+object oriented programming. So there is something called as
+
+01:20:12.260 --> 01:20:15.420
+polymorphism. Yeah. Polymorphism. What is the meaning of
+
+01:20:15.420 --> 01:20:19.460
+polymorphism? So technically a meaning of polymorphism means
+
+01:20:19.460 --> 01:20:22.560
+a multiple forms. Okay. Polymorphism means for example, you
+
+01:20:22.560 --> 01:20:26.520
+as a person, right? So you must be a father of someone. You
+
+01:20:26.520 --> 01:20:28.820
+must be a brother of someone. You must be a friend of
+
+01:20:28.820 --> 01:20:34.240
+someone, right? So basically you are a single person, but
+
+01:20:34.240 --> 01:20:37.960
+your roles is different, right? Your roles are technically
+
+01:20:37.960 --> 01:20:40.540
+different in a different, different environment in a
+
+01:20:40.540 --> 01:20:44.000
+different situation, right? So for your father, you will be
+
+01:20:44.000 --> 01:20:45.980
+different for your sister. You will be different for your
+
+01:20:45.980 --> 01:20:47.740
+wife. You will be different for your kids. You will be
+
+01:20:47.740 --> 01:20:51.480
+different. That is something called as polymorphism. As
+
+01:20:51.480 --> 01:20:56.020
+simple as that means a multiple form. So same thing if we'll
+
+01:20:56.020 --> 01:20:59.220
+start representing a differently in a different, different,
+
+01:20:59.360 --> 01:21:03.480
+different, different situation, right? So that will become a
+
+01:21:03.480 --> 01:21:08.400
+polymorphism. That's a very, very simple definition that you
+
+01:21:08.400 --> 01:21:11.560
+can think of in terms of a polymorphism. So just remember
+
+01:21:11.560 --> 01:21:14.840
+the word poly, right? I think, I think we all have like, you
+
+01:21:14.840 --> 01:21:17.940
+know, uh, gone through some of the chemistry classes, a lot
+
+01:21:17.940 --> 01:21:20.240
+of polymers, polymers and all those things we have like
+
+01:21:20.240 --> 01:21:23.320
+studied. You can recall those things. So again you can, you
+
+01:21:23.320 --> 01:21:26.240
+can think about this polymorphism in the similar one, that
+
+01:21:26.240 --> 01:21:28.840
+same person, but here their behavior is different. The
+
+01:21:28.840 --> 01:21:32.700
+nature is different in a different, different environment,
+
+01:21:32.960 --> 01:21:36.620
+basically, or you can say like a different behavior. It is
+
+01:21:36.620 --> 01:21:39.120
+like going to showcase in a different with respect to
+
+01:21:39.120 --> 01:21:41.300
+different object or different variable with respect to the
+
+01:21:41.300 --> 01:21:47.560
+programming. So now let's try to understand, right? So here
+
+01:21:47.560 --> 01:21:53.900
+basically. Yeah. we try to see when we are trying to make a
+
+01:21:53.900 --> 01:21:57.220
+payment, right? So there will be a pay button. Yeah, pay
+
+01:21:57.220 --> 01:22:00.800
+button. So when we try to click on that pay button, so
+
+01:22:00.800 --> 01:22:05.000
+basically it try to give you a pay via UPI, pay via credit
+
+01:22:05.000 --> 01:22:08.760
+card, pay via bank, multiple, right? Multiple payment
+
+01:22:08.760 --> 01:22:13.040
+option, it is like going to give it to you. So that example
+
+01:22:13.040 --> 01:22:16.340
+somewhere comes under a polymorphism. We can try to relate
+
+01:22:16.340 --> 01:22:19.520
+that as a polymorphism. So for example, with respect to bank
+
+01:22:19.520 --> 01:22:23.460
+itself, let's take this example. So class payment, yeah,
+
+01:22:23.580 --> 01:22:28.220
+class payment. Now def pay self
+
+01:22:30.170 --> 01:22:36.970
+comma, let's say I'm giving a, let's say pay amount is a
+
+01:22:36.970 --> 01:22:41.890
+variable, right? So print paying amount using payment class.
+
+01:22:42.130 --> 01:22:44.610
+Okay, fine. So this is one of the class, payment class we
+
+01:22:44.610 --> 01:22:48.590
+have created. Now, whenever someone is going to click on
+
+01:22:48.590 --> 01:22:52.850
+this pay button, right? So it is technically going to call
+
+01:22:52.850 --> 01:22:58.630
+what it is technically going to call a pay. So whenever
+
+01:22:58.630 --> 01:23:00.370
+someone is going to click on the payment button, it is
+
+01:23:00.370 --> 01:23:04.710
+technically going to click a call the pay, but this pay,
+
+01:23:05.090 --> 01:23:11.550
+right? May happens through debit card, through credit card,
+
+01:23:11.650 --> 01:23:16.670
+through UPI, right? So pay wise, I have to define it, right?
+
+01:23:16.750 --> 01:23:18.930
+I have to define it that, okay, fine. So when you are going
+
+01:23:18.930 --> 01:23:22.150
+to click on pay, maybe you can go ahead with UPI, you can go
+
+01:23:22.150 --> 01:23:24.050
+ahead with the credit card, you can go ahead with the debit
+
+01:23:24.050 --> 01:23:27.830
+card. So for UPI, I will write a different class. So for
+
+01:23:27.830 --> 01:23:31.510
+UPI, I will write the different class. Now what UPI is
+
+01:23:31.510 --> 01:23:36.250
+doing, UPI is trying to inherit payment class. Now inherit
+
+01:23:36.250 --> 01:23:39.450
+payment class means what? This pay method will be available
+
+01:23:39.450 --> 01:23:44.690
+to an UPI, right? But here this pay method, I'm trying to
+
+01:23:44.690 --> 01:23:48.690
+override, override means I'm giving my own definition to it.
+
+01:23:49.830 --> 01:23:52.490
+I'm using same pay method because this pay method is coming.
+
+01:23:52.610 --> 01:23:54.950
+Someone has clicked on pay, right? So pay will be called,
+
+01:23:55.070 --> 01:23:58.410
+but yeah, so pay will be called for UPI, pay will be called
+
+01:23:58.410 --> 01:24:00.570
+for a credit card, pay will be called for a debit card. So
+
+01:24:00.570 --> 01:24:03.770
+let's say this is for a class UPI, inheriting payment. Now
+
+01:24:03.770 --> 01:24:07.890
+class, let's say debit card,
+
+01:24:12.110 --> 01:24:15.650
+debit card, same payment class I'm trying to inherit. So
+
+01:24:15.650 --> 01:24:18.810
+again, I'm trying to redefine the definition of the
+
+01:24:18.810 --> 01:24:21.750
+function, right? Nature of the function or nomenclature of
+
+01:24:21.750 --> 01:24:24.110
+the function is same. Pay function is same, right? Which is
+
+01:24:24.110 --> 01:24:26.050
+coming from payment class, inheriting from the payment
+
+01:24:26.050 --> 01:24:29.430
+class. But here you must be able to see that, that we have
+
+01:24:29.430 --> 01:24:32.910
+redefined it. So here it will show message using debit card.
+
+01:24:33.010 --> 01:24:38.710
+Here it will show using UPI as simple as that. Yeah. So when
+
+01:24:38.710 --> 01:24:43.270
+someone is going to like, you know, uh, call this UPI, so
+
+01:24:43.270 --> 01:24:46.590
+let's say if I'm trying to like do one payment, so I'm
+
+01:24:46.590 --> 01:24:50.950
+trying to call basically a UPI. So payment one, I'm trying
+
+01:24:50.950 --> 01:24:55.090
+to do, and I'm trying to do it via API. Yeah. So pay, so
+
+01:24:55.090 --> 01:24:57.970
+paying thousand to be using UPI. Now let's say I'm going to
+
+01:24:57.970 --> 01:25:00.850
+do another payment, payment number two and payment number
+
+01:25:00.850 --> 01:25:04.590
+two, I'm trying to do it via debit card in both the places I
+
+01:25:04.590 --> 01:25:09.030
+have called pay function. Yeah. Pay function now pay
+
+01:25:09.030 --> 01:25:12.570
+function is common, but their implementation is different in
+
+01:25:12.570 --> 01:25:15.250
+case of an UPI because UPI mechanism will be different. And
+
+01:25:15.250 --> 01:25:17.630
+this definition is completely different in case of a debit
+
+01:25:17.630 --> 01:25:20.150
+card because debit card mechanism will be different. So
+
+01:25:20.150 --> 01:25:24.710
+here. You can say that. That. We have basically a pay
+
+01:25:24.710 --> 01:25:27.410
+function, right? We have basically a pay function in our
+
+01:25:27.410 --> 01:25:33.310
+superclass, but it is behaving differently, right here when
+
+01:25:33.310 --> 01:25:36.510
+you're using UPI, using it inside the UPI class and it is
+
+01:25:36.510 --> 01:25:39.430
+behaving differently when you're using inside the debit
+
+01:25:39.430 --> 01:25:44.050
+card. And that is an example of what a polymorphism. It is
+
+01:25:44.050 --> 01:25:49.370
+also an example of a method overriding. Is it making sense
+
+01:25:49.370 --> 01:25:50.130
+to all of us guys?
+
+01:25:53.340 --> 01:25:58.720
+Yes. Yeah. So same pay function. I have called pay over
+
+01:25:58.720 --> 01:26:00.800
+here. I have called pay over here. Both the places I'm
+
+01:26:00.800 --> 01:26:05.280
+calling pay, but behavior is different. In case of UPI, pay
+
+01:26:05.280 --> 01:26:08.220
+function is behaving as a UPI. In case of a debit card, it
+
+01:26:08.220 --> 01:26:13.740
+is behaving as a debit card. As simple as that. Yeah. So you
+
+01:26:13.740 --> 01:26:15.660
+will be able to find out this as an example.
+
+01:26:22.700 --> 01:26:26.020
+Now so a method overriding is fine and then like a, you
+
+01:26:26.020 --> 01:26:29.480
+know, polymorphism is fine. Now. Now let's try to, you know,
+
+01:26:29.500 --> 01:26:32.220
+talk about one more concept inside a oops programming
+
+01:26:32.220 --> 01:26:35.080
+concept and all of this concept you will be using it on a
+
+01:26:35.080 --> 01:26:38.280
+regular basis, right? Very regular basis. So there is a
+
+01:26:38.280 --> 01:26:41.660
+concept called as encapsulation. Again just go after the
+
+01:26:41.660 --> 01:26:47.080
+word, right? Capsule. So again inside a capsule, what are
+
+01:26:47.080 --> 01:26:50.200
+all chemicals will be there. You must be not aware about it,
+
+01:26:50.240 --> 01:26:53.380
+right? So basically the implementation of those medicines
+
+01:26:53.380 --> 01:26:56.920
+which comes inside the capsule will be hidden to you. But.
+
+01:26:56.920 --> 01:26:59.220
+But doctor will give, tell you that, okay, fine. So if you
+
+01:26:59.220 --> 01:27:01.740
+are taking this capsule, so maybe it is going to cure this
+
+01:27:01.740 --> 01:27:05.420
+particular disease, something like that, right? So basically
+
+01:27:05.420 --> 01:27:08.600
+you are trying to just take that capsule. You are taking
+
+01:27:08.600 --> 01:27:11.120
+that in as an input and then it is going to give you some
+
+01:27:11.120 --> 01:27:14.460
+sort of output, but you are not aware about it as a user
+
+01:27:14.460 --> 01:27:18.440
+that what is inside that capsule. So again from the same
+
+01:27:18.440 --> 01:27:20.600
+part, you will be able to see something called as
+
+01:27:20.600 --> 01:27:24.220
+encapsulation. Encapsulation means hiding and
+
+01:27:24.220 --> 01:27:28.340
+implementation. Very, very important. Very simple, right? So
+
+01:27:28.340 --> 01:27:31.680
+hiding a implementation means as an end user, you will not
+
+01:27:31.680 --> 01:27:35.460
+be able to see the implementation. It will be hidden to you,
+
+01:27:35.520 --> 01:27:39.220
+but yeah, you are going to take that one, give an input as
+
+01:27:39.220 --> 01:27:41.620
+per your need and then you will be able to get the output.
+
+01:27:43.640 --> 01:27:46.480
+So let's try to understand basically this entire
+
+01:27:46.480 --> 01:27:51.180
+encapsulation things. So here we had basically this class,
+
+01:27:51.260 --> 01:27:54.700
+right? Class bank account. I can, I can try to use same
+
+01:27:54.700 --> 01:27:57.700
+thing. Class. We had a class bank account. We had like a
+
+01:27:57.700 --> 01:28:00.580
+deposit, withdraw, get balance, all of these things which
+
+01:28:00.580 --> 01:28:04.540
+was available. So same class, right? Now here account is
+
+01:28:04.540 --> 01:28:08.280
+equals to bank account and let's say I have this, uh, you
+
+01:28:08.280 --> 01:28:11.780
+know, bank account number as per this one. And then I have a
+
+01:28:11.780 --> 01:28:14.020
+balance. Let the balance is equal to thousand rupees. Okay,
+
+01:28:14.100 --> 01:28:19.380
+cool. So we have created this particular variable. Yeah. No.
+
+01:28:20.460 --> 01:28:26.940
+Over here. So account dot, uh, you know. No deposit, deposit
+
+01:28:26.940 --> 01:28:30.120
+500 rupees. Fine. I'm able to deposit. Now it will come 1500
+
+01:28:30.120 --> 01:28:35.500
+rupees account dot withdraw. So I'm able to withdraw 200
+
+01:28:35.500 --> 01:28:38.920
+rupees. Now my balance is 1300 rupees. I'm just able to use
+
+01:28:38.920 --> 01:28:44.260
+it. Yeah. I'm just able to use it now, uh, here. So let's
+
+01:28:44.260 --> 01:28:48.000
+say there is a function called as get balance, right? There
+
+01:28:48.000 --> 01:28:51.780
+is a function called as get a balance. What I can do. Uh, so
+
+01:28:51.780 --> 01:28:56.700
+this get balance function, which I have created. So maybe I
+
+01:28:56.700 --> 01:29:01.620
+can try to, and here, right? So let me show you that account
+
+01:29:01.620 --> 01:29:07.520
+dot get balance. So in this situation, user is able to
+
+01:29:07.520 --> 01:29:10.340
+access deposit. User is able to access withdraw. User is
+
+01:29:10.340 --> 01:29:13.660
+able to access balance. All of these things, user are able
+
+01:29:13.660 --> 01:29:15.800
+to access it, right? There is, there is no restriction
+
+01:29:15.800 --> 01:29:19.080
+towards it, right? Everyone will come and then they will be
+
+01:29:19.080 --> 01:29:21.160
+able to access this function, this function, this function.
+
+01:29:21.940 --> 01:29:28.240
+I don't want it. Yeah. I don't want them to access these
+
+01:29:28.240 --> 01:29:32.640
+functions directly. I have to stop them. Yeah. I just have
+
+01:29:32.640 --> 01:29:35.880
+to stop them. I don't want to use, for example, let's start
+
+01:29:35.880 --> 01:29:40.240
+with the get balance. Yeah. So I don't want you, or maybe
+
+01:29:40.240 --> 01:29:43.620
+even if I'm going to say account dot balance, I will be able
+
+01:29:43.620 --> 01:29:46.560
+to get the balance, right? I will be able to get the
+
+01:29:46.560 --> 01:29:50.760
+balance, but I don't want to do that. Yeah. I don't want you
+
+01:29:50.760 --> 01:29:53.740
+to get this balance directly. So what I can do in that
+
+01:29:53.740 --> 01:29:58.160
+situation, let me encapsulate it means let me hide it. I
+
+01:29:58.160 --> 01:30:01.300
+will try to place double underscore over here, right? I will
+
+01:30:01.300 --> 01:30:04.800
+try to place double underscore over here and wherever I'm
+
+01:30:04.800 --> 01:30:07.060
+trying to use a balance. So everywhere, obviously I have to
+
+01:30:07.060 --> 01:30:09.840
+use a double underscore. I'll tell you the reason behind it.
+
+01:30:09.940 --> 01:30:15.380
+Yeah. So now this balance, right? Double underscore. Now let
+
+01:30:15.380 --> 01:30:20.200
+me call account dot balance. Sorry. My bad. I think it's
+
+01:30:20.200 --> 01:30:24.660
+been cached. No not cached. I have to like refresh the
+
+01:30:24.660 --> 01:30:29.160
+object. Account dot balance. Are we able to access balance
+
+01:30:29.160 --> 01:30:34.120
+directly? Yes. Are we able to access balance directly?
+
+01:30:42.850 --> 01:30:47.990
+No. Right. So now what has changed? What I have changed. So
+
+01:30:47.990 --> 01:30:52.390
+technically I have just applied double underscore in before
+
+01:30:52.390 --> 01:30:55.270
+this balance. It simply means that, that I'm trying to make
+
+01:30:55.270 --> 01:30:58.130
+this variable private. There are three things actually,
+
+01:30:58.310 --> 01:31:02.390
+public, protected and private. Public means by default. I'm
+
+01:31:02.390 --> 01:31:05.470
+not adding anything, right? That means public. And again, in
+
+01:31:05.470 --> 01:31:08.310
+Python, it's a notification. Basically it's a notification
+
+01:31:08.310 --> 01:31:12.550
+to the end user, means a programmer or anyone who is like
+
+01:31:12.550 --> 01:31:16.610
+doing it. So here I have just applied double underscore
+
+01:31:16.610 --> 01:31:20.130
+before balance. It simply means that it became a private.
+
+01:31:20.730 --> 01:31:24.710
+Single underscore means protected. No underscore means
+
+01:31:24.710 --> 01:31:27.130
+public. It means anyone and everyone will be available. To
+
+01:31:27.130 --> 01:31:31.490
+access it. Now here, let's say here I'm not giving balance,
+
+01:31:31.630 --> 01:31:33.930
+right? So I'm just writing like a not underscore underscore
+
+01:31:33.930 --> 01:31:39.600
+balance. So I'm writing like a balance directly. Yeah. Self
+
+01:31:39.600 --> 01:31:44.780
+dot. Dot balance. Okay. Now account.
+
+01:31:49.920 --> 01:31:53.460
+Get balance. It's not working. Right. Bank account has no
+
+01:31:53.460 --> 01:31:55.640
+attribute called as balance. It is not able to, I mean like
+
+01:31:55.640 --> 01:31:58.680
+it is telling me that this method is not having anything
+
+01:31:58.680 --> 01:32:00.600
+called as balance. It is not able to understand. Right.
+
+01:32:00.600 --> 01:32:04.800
+Because when something is private, so even within the class,
+
+01:32:04.920 --> 01:32:07.020
+if you have to access it, you have to place a double
+
+01:32:07.020 --> 01:32:09.640
+underscore, right? Double underscore. And then only you will
+
+01:32:09.640 --> 01:32:13.180
+be able to technically access it. Now here, now I'm able to
+
+01:32:13.180 --> 01:32:16.620
+access get balance. Now this in case of this one, right? So
+
+01:32:16.620 --> 01:32:19.640
+I'm trying to force it. I'm trying to enforce it that no
+
+01:32:19.640 --> 01:32:23.040
+directly you can't call this balance and then you will not
+
+01:32:23.040 --> 01:32:26.760
+be able to get the detail, right? Directly you can't call
+
+01:32:26.760 --> 01:32:29.880
+it. And for the outside user balance will be the variable,
+
+01:32:30.040 --> 01:32:32.580
+right? You outside user will not be having any idea that I
+
+01:32:32.580 --> 01:32:36.140
+have applied underscore underscore just like capsule right
+
+01:32:36.140 --> 01:32:38.360
+inside that. What is, what is the chemical which is
+
+01:32:38.360 --> 01:32:40.820
+available? So outside user will not be having an idea. Only
+
+01:32:40.820 --> 01:32:43.860
+those who have created it, they will be like aware about
+
+01:32:43.860 --> 01:32:47.460
+the, uh, like, you know, a composition of the particular
+
+01:32:47.460 --> 01:32:51.640
+drug. But for as a, as a browser user like me, I won't be
+
+01:32:51.640 --> 01:32:55.620
+aware about that. Similarly here. So, uh, I don't know, I
+
+01:32:55.620 --> 01:32:57.740
+just know the variable that, okay, fine, there must be some
+
+01:32:57.740 --> 01:33:00.680
+variable to check the balance. But. But I don't know if
+
+01:33:00.680 --> 01:33:03.620
+someone has applied double underscore over there, right? And
+
+01:33:03.620 --> 01:33:06.760
+if I don't know, I will not be able to call it. So here it's
+
+01:33:06.760 --> 01:33:10.080
+called as hiding and implementation, encapsulating the
+
+01:33:10.080 --> 01:33:13.200
+implementation. And in this way we are able to achieve
+
+01:33:13.200 --> 01:33:18.040
+encapsulation. As simple as that, this is one of the example
+
+01:33:18.040 --> 01:33:22.680
+of a encapsulation. Yes, I will be able to access it if, if
+
+01:33:22.680 --> 01:33:26.400
+someone has told me, so let's say if I'm writing account
+
+01:33:27.260 --> 01:33:33.020
+dot, uh, class name. Okay. So underscore bank account,
+
+01:33:33.180 --> 01:33:35.440
+underscore, underscore balance B
+
+01:33:39.670 --> 01:33:45.320
+was caps, right? Now I will be able to access it if I'm
+
+01:33:45.320 --> 01:33:49.080
+going to write. So if some variable is private, if some
+
+01:33:49.080 --> 01:33:52.240
+variable is private, if you have to access it, then you have
+
+01:33:52.240 --> 01:33:56.260
+to basically be aware about a class name. So underscore
+
+01:33:56.260 --> 01:33:58.760
+class name, underscore, underscore balance. Otherwise you
+
+01:33:58.760 --> 01:34:00.980
+will not be able to access it and outside user will not be
+
+01:34:00.980 --> 01:34:05.120
+having any idea, right? Outside user will not be having any
+
+01:34:05.120 --> 01:34:06.760
+idea. So in this way we are trying to hide the
+
+01:34:06.760 --> 01:34:09.300
+implementation and this is example, one of the example I
+
+01:34:09.300 --> 01:34:13.160
+would say for an encapsulation with the help of this private
+
+01:34:13.160 --> 01:34:18.720
+access method. Making sense everyone? Yes.
+
+01:34:51.630 --> 01:34:54.450
+Could you please relate the, all of them on earlier so that
+
+01:34:54.450 --> 01:34:56.690
+we can relate. That's the reason I have given you bank
+
+01:34:56.690 --> 01:34:59.450
+account details, right? Bank account is something which is
+
+01:34:59.450 --> 01:35:00.410
+real, which happens everywhere.
+
+01:35:08.140 --> 01:35:11.960
+Okay. So that's it guys. That's it about today's class. If
+
+01:35:11.960 --> 01:35:14.380
+you have any kind of a question. So please. Put your
+
+01:35:14.380 --> 01:35:16.260
+question or maybe if you would like to raise your hand so
+
+01:35:16.260 --> 01:35:19.200
+you can raise your hand so that you know, I can try to like
+
+01:35:19.200 --> 01:35:22.240
+answer to your question. So yeah, go ahead guys. If any one
+
+01:35:22.240 --> 01:35:25.060
+of you have like any kind of a question or if you would like
+
+01:35:25.060 --> 01:35:27.260
+to unmute yourself and then ask question. Yeah. This will go
+
+01:35:27.260 --> 01:35:32.360
+ahead. I have a question on that polymorphism. I think you
+
+01:35:32.360 --> 01:35:38.980
+are on unmute. Go ahead. Yeah. Is my voice audible? So in
+
+01:35:38.980 --> 01:35:43.500
+earlier example, all the variable. No. There is. There is a
+
+01:35:43.500 --> 01:35:46.400
+global and there is a public. So all the value was public.
+
+01:35:46.560 --> 01:35:51.000
+You can say global means it's having a different meaning. So
+
+01:35:51.000 --> 01:35:53.140
+global to a class, it's having a completely different
+
+01:35:53.140 --> 01:35:56.160
+meaning. It was not private. It was not protected. It was
+
+01:35:56.160 --> 01:35:57.000
+basically a public.
+
+01:36:00.410 --> 01:36:06.090
+Hello. Yes. What to do to take out the confusion of whoops
+
+01:36:06.090 --> 01:36:08.130
+concert. I'm feeling like I understood, but when I write
+
+01:36:08.130 --> 01:36:10.750
+something or read code, it's still confusing. It's actually
+
+01:36:10.750 --> 01:36:14.170
+not confusing. Just try to go ahead with the like a
+
+01:36:14.170 --> 01:36:17.890
+storytelling. I would say. So try to take like a couple of
+
+01:36:17.890 --> 01:36:20.910
+examples, maybe example of a bank account, maybe example of
+
+01:36:20.910 --> 01:36:23.310
+some of the software, maybe example of your own itself where
+
+01:36:23.310 --> 01:36:26.230
+we have a multiple features. So let's say a payment class.
+
+01:36:26.330 --> 01:36:28.950
+We are trying to implement a course class. We are trying to
+
+01:36:28.950 --> 01:36:31.390
+implement a book class. We are trying to implement. We have
+
+01:36:31.390 --> 01:36:34.010
+so many feature right for obviously for every feature, there
+
+01:36:34.010 --> 01:36:36.110
+will be some sort of a classes that we have written, right?
+
+01:36:36.250 --> 01:36:38.990
+Some sort of implementation which has been done. So in this
+
+01:36:38.990 --> 01:36:42.270
+way, just look into any application in every application, in
+
+01:36:42.270 --> 01:36:44.950
+every major feature, there will be so many minor minor
+
+01:36:44.950 --> 01:36:48.990
+feature, right? So for that, there will be a class here.
+
+01:36:55.480 --> 01:36:57.620
+So this is saying that need a small explanation of the
+
+01:36:57.620 --> 01:37:00.740
+encapsulation example. So see here how we are accessing it,
+
+01:37:00.800 --> 01:37:03.840
+by the way. So let's say if I'm trying to call get balance
+
+01:37:03.840 --> 01:37:07.360
+and inside a get balance, if I'm accessing it via underscore
+
+01:37:07.360 --> 01:37:09.380
+underscore. So by default, get balance will be having an
+
+01:37:09.380 --> 01:37:12.460
+idea. So it will be able to access it. Let's say if I have
+
+01:37:12.460 --> 01:37:14.380
+removed this underscore underscore, it is not going to work
+
+01:37:14.380 --> 01:37:17.880
+second, right? Second. So let's say account dot balance.
+
+01:37:17.980 --> 01:37:20.820
+Let's say someone has created a variable balance, right?
+
+01:37:20.860 --> 01:37:23.060
+Account or balance. I will not be able to access it. A
+
+01:37:23.060 --> 01:37:26.220
+reason is what reason is very simple. This variable is
+
+01:37:26.220 --> 01:37:29.040
+private. This variable is not private. I won't be able to
+
+01:37:29.040 --> 01:37:32.740
+access it right as a normal user. Even if I am aware that,
+
+01:37:32.860 --> 01:37:36.460
+okay, so there is a function, there is a like, you know, a
+
+01:37:36.460 --> 01:37:39.280
+variable called as balance, which is available, but as it's
+
+01:37:39.280 --> 01:37:41.780
+been notified as a private, again, it's a notification,
+
+01:37:42.000 --> 01:37:45.440
+right? It's a notification. It's not a forced one. Python
+
+01:37:45.440 --> 01:37:48.320
+never forces anyone to make anything protected or private,
+
+01:37:48.460 --> 01:37:51.860
+right? So just for FYI. Python is not a private. It's a
+
+01:37:51.860 --> 01:37:52.320
+private. So if I have to access it, I can give, given you
+
+01:37:52.320 --> 01:37:55.580
+the provision now here. So I won't be able to access this
+
+01:37:55.580 --> 01:37:58.740
+directly. So if I have to access that private variable, so I
+
+01:37:58.740 --> 01:38:03.000
+can write account dot underscore and then class name and
+
+01:38:03.000 --> 01:38:06.280
+then underscore underscore variable in then only I will be
+
+01:38:06.280 --> 01:38:10.540
+able to access that variable. Yeah. So this is how this
+
+01:38:10.540 --> 01:38:11.400
+access happens.
+
+01:38:22.080 --> 01:38:25.400
+Okay. I think someone was speaking. I don't know, like I was
+
+01:38:25.400 --> 01:38:27.680
+not able to get the voice. Yeah. The server was trying to
+
+01:38:27.680 --> 01:38:32.500
+speak. Yeah, this is good. Yeah. Yeah. you're audible yeah
+
+01:38:32.500 --> 01:38:36.400
+uh sir in uh that in polymorphism example i was having doubt
+
+01:38:38.460 --> 01:38:44.360
+what is it out tell me if we are like uh why we are creating
+
+01:38:44.360 --> 01:38:47.820
+superclass if we are uh calling that separate class
+
+01:38:47.820 --> 01:38:54.220
+separately that is to reuse it and to redefine it basically
+
+01:38:55.320 --> 01:39:00.060
+because no no no okay okay so why we are creating the super
+
+01:39:00.060 --> 01:39:02.320
+class let's do in this way let's try to understand in this
+
+01:39:02.320 --> 01:39:05.420
+way let's suppose you are a manager right and then you are
+
+01:39:05.420 --> 01:39:08.760
+trying to let's say like you know define a task amongst a 10
+
+01:39:08.760 --> 01:39:12.460
+different team member so here i have created a payment class
+
+01:39:12.460 --> 01:39:16.620
+as a manager let's say and uh payment class is having some
+
+01:39:16.620 --> 01:39:19.960
+of these common functions so let's say def and then we have
+
+01:39:19.960 --> 01:39:23.140
+a pay function over here uh we have a payment processing
+
+01:39:23.140 --> 01:39:24.200
+function over here and then we have a payment processing
+
+01:39:24.200 --> 01:39:28.300
+function over here now pay happens even upi pay happens even
+
+01:39:28.300 --> 01:39:30.820
+with the debit card pay happens even with the credit card
+
+01:39:30.820 --> 01:39:34.120
+pay happens even in a cash pay happens even with the
+
+01:39:34.120 --> 01:39:40.020
+multiple wallet option agree yes can i say in all of those
+
+01:39:40.020 --> 01:39:42.260
+even payment processing function will come into picture
+
+01:39:42.980 --> 01:39:48.340
+agree yes yeah okay fine now so you as a manager you as a
+
+01:39:48.340 --> 01:39:51.200
+lead have basically created this payment class now you have
+
+01:39:51.200 --> 01:39:53.520
+a 10 team member now one team member is trying to do
+
+01:39:53.520 --> 01:39:56.600
+implementation of upi one team member is trying to do a
+
+01:39:56.600 --> 01:39:59.340
+implementation for a credit card one team member because
+
+01:39:59.340 --> 01:40:01.500
+credit card class will be having its own functionality and
+
+01:40:01.500 --> 01:40:05.840
+all those things right but what you want from your side that
+
+01:40:05.840 --> 01:40:10.640
+okay so just try to use my class and just redefine it as per
+
+01:40:10.640 --> 01:40:16.650
+your need yes so that whenever someone is going to call this
+
+01:40:16.650 --> 01:40:19.670
+pay function so it should be pay function with respect to a
+
+01:40:19.670 --> 01:40:22.590
+upi it should behave as per the upi whenever someone is
+
+01:40:22.590 --> 01:40:24.490
+going to call a pay function or payment processing function
+
+01:40:24.490 --> 01:40:26.030
+with respect to credit card debit and credit card it should
+
+01:40:26.030 --> 01:40:29.030
+behave as per that so now what will happen there is a team
+
+01:40:29.030 --> 01:40:32.450
+number team member number one so let's suppose that team
+
+01:40:32.450 --> 01:40:34.910
+member number one is going to do a upi payment
+
+01:40:34.910 --> 01:40:38.410
+implementation yeah so what it will do so upi payment like
+
+01:40:38.410 --> 01:40:41.290
+the team member who is implementing they will simply call
+
+01:40:41.290 --> 01:40:44.470
+this payment class so that now these two will be available
+
+01:40:44.470 --> 01:40:47.950
+right and then they are trying to override just a pay
+
+01:40:47.950 --> 01:40:50.790
+function maybe payment processing function is going to be
+
+01:40:50.790 --> 01:40:53.310
+like same let's say right so processing the payment amount
+
+01:40:53.310 --> 01:40:55.230
+we are just doing the message right so there is nothing
+
+01:40:55.230 --> 01:40:59.330
+related to that upi let's say so okay now this team member
+
+01:40:59.330 --> 01:41:02.110
+has done the implementation for upi now second team member
+
+01:41:02.110 --> 01:41:04.270
+will come into picture and then he or she will be
+
+01:41:04.270 --> 01:41:08.210
+implementing a credit card so fine pay function but what did
+
+01:41:08.210 --> 01:41:10.690
+they have done credit card a team so basically they have
+
+01:41:10.690 --> 01:41:13.070
+used this function and they have modified it as per their
+
+01:41:13.070 --> 01:41:17.210
+need yeah so now here i'm just trying to this is the meaning
+
+01:41:17.210 --> 01:41:22.170
+of the basically like inheritance right that write once and
+
+01:41:22.170 --> 01:41:25.550
+use it as many times as possible so inheritance is trying to
+
+01:41:25.550 --> 01:41:28.430
+fulfill that requirement now coming to the second concept
+
+01:41:28.430 --> 01:41:32.790
+overriding so here we are trying to override the function
+
+01:41:32.790 --> 01:41:35.570
+means whatsoever definition was given i am just trying to
+
+01:41:35.570 --> 01:41:38.610
+override it as per my need not all the function not this one
+
+01:41:38.610 --> 01:41:42.150
+only this one may be right now coming to the polymorphism
+
+01:41:42.150 --> 01:41:45.330
+part so polymorphism definition will be proven over here so
+
+01:41:45.330 --> 01:41:49.010
+whenever because polymorphism is what so resub is a same
+
+01:41:49.010 --> 01:41:51.970
+person but resub will behave differently in a different
+
+01:41:51.970 --> 01:41:55.970
+different situation so let's say resub is trying to use a
+
+01:41:55.970 --> 01:42:01.770
+resub is trying to use basically upi so again uh like a upi
+
+01:42:01.770 --> 01:42:05.550
+but reserve is using pay function itself reserve pay right
+
+01:42:05.550 --> 01:42:08.390
+reserve upi pay so pay function is basically common then
+
+01:42:08.390 --> 01:42:12.110
+reserve is basically trying to use a credit card but yeah so
+
+01:42:12.110 --> 01:42:14.710
+here in both the places i am trying to use a pay function
+
+01:42:14.710 --> 01:42:17.310
+itself but pay function is behaving differently when it is
+
+01:42:17.310 --> 01:42:19.310
+coming from a different different class and eventually that
+
+01:42:19.310 --> 01:42:21.790
+class is trying to inherit something from the other classes
+
+01:42:22.150 --> 01:42:26.910
+so here if you will focus on pay which is having a same
+
+01:42:26.910 --> 01:42:31.170
+function but a different definition it satisfy a condition
+
+01:42:31.170 --> 01:42:35.810
+of polymorphism making sense so this concept is technically
+
+01:42:35.810 --> 01:42:40.710
+called polymorphism this one the pay the pay one okay this
+
+01:42:40.710 --> 01:42:46.050
+is okay but uh here if you will not inherit payment class in
+
+01:42:46.050 --> 01:42:52.150
+this uh credit card class so it will also act as the same it
+
+01:42:52.150 --> 01:42:56.170
+will also act as the same means means we will not inherit uh
+
+01:42:56.170 --> 01:43:01.710
+inherited uh payment class okay fine if we are removing it
+
+01:43:01.710 --> 01:43:08.310
+and then then calling uh upi one this we are creating so it
+
+01:43:08.310 --> 01:43:11.830
+will work as the same exactly it is going to work as the
+
+01:43:11.830 --> 01:43:13.830
+same but will there be any connection it's like like
+
+01:43:13.830 --> 01:43:16.830
+creating a two separate independent classes where there is
+
+01:43:16.830 --> 01:43:20.170
+no connection in between at all so means you are talking
+
+01:43:20.170 --> 01:43:23.590
+about uh two different different persons yes maybe both of
+
+01:43:23.590 --> 01:43:26.630
+their name is having a result so is it going to be the same
+
+01:43:26.630 --> 01:43:29.530
+result one result which we are talking about or we know
+
+01:43:29.530 --> 01:43:33.710
+exactly right so if person itself because reserve is not
+
+01:43:33.710 --> 01:43:35.670
+going to be just your name right there will be other hundred
+
+01:43:35.670 --> 01:43:39.350
+percent who is going to be reserved right yeah but what i am
+
+01:43:39.350 --> 01:43:41.810
+trying to prove that this of this research the uresub that
+
+01:43:41.810 --> 01:43:46.090
+you have right so you are acting differently right so if i'm
+
+01:43:46.090 --> 01:43:48.610
+not trying to use the inheritance and if i'm not trying to
+
+01:43:48.610 --> 01:43:51.470
+override it so will i be able to prove that that it's only
+
+01:43:51.470 --> 01:43:55.910
+you as a result no right then technically i'm talking about
+
+01:43:55.910 --> 01:44:01.970
+two different different results oh yeah got it means yeah
+
+01:44:01.970 --> 01:44:06.970
+yeah so that was that literally that i was confused okay
+
+01:44:08.370 --> 01:44:11.390
+okay so priyanka uh you can can go ahead with the question
+
+01:44:11.390 --> 01:44:14.310
+so yeah guys anyone who is having constant confusion just go
+
+01:44:14.310 --> 01:44:17.910
+ahead like raise your hand i think you will be able to see
+
+01:44:17.910 --> 01:44:20.210
+raise hand option in the bottom the bottom of your like zoom
+
+01:44:20.210 --> 01:44:24.910
+yeah priyanka go ahead with your question uh yes sir so uh
+
+01:44:24.910 --> 01:44:29.550
+if we go to the earlier example just before the inheritance
+
+01:44:30.970 --> 01:44:35.150
+okay where we had written deposit withdraw and those three
+
+01:44:35.150 --> 01:44:39.070
+four functions within the class okay let me write down once
+
+01:44:39.070 --> 01:44:49.230
+again if you want yeah tell me okay uh in that um here uh my
+
+01:44:49.230 --> 01:44:55.810
+understanding is uh in first place uh okay in deposit uh
+
+01:44:55.810 --> 01:45:00.330
+self and uh amount is there amount is uh specific to deposit
+
+01:45:00.330 --> 01:45:06.050
+function and in withdraw method amount is a specific to
+
+01:45:06.050 --> 01:45:06.890
+withdraw method
+
+01:45:11.270 --> 01:45:17.370
+so uh when you uh call multiple uh transaction related you
+
+01:45:17.370 --> 01:45:20.210
+showed that example that's why i wanted to understand you
+
+01:45:20.210 --> 01:45:22.590
+showed the transaction like okay we are adding we are
+
+01:45:22.590 --> 01:45:24.690
+depositing we are withdrawing so how we can uh weon't move
+
+01:45:24.690 --> 01:45:25.150
+the transaction that word via transaction connection it will
+
+01:45:25.150 --> 01:45:30.890
+consider it as a same amount no it's not a same amount so
+
+01:45:30.890 --> 01:45:33.210
+where it is same amount right so when i'm going to call a
+
+01:45:33.210 --> 01:45:35.990
+deposit one so obviously whatsoever value i'm going to pass
+
+01:45:35.990 --> 01:45:38.430
+that will be the this is a variable right so whatsoever
+
+01:45:38.430 --> 01:45:40.970
+value which i'm going to pass it will be considered on this
+
+01:45:40.970 --> 01:45:44.170
+call deposit call basically right and on withdrawal call so
+
+01:45:44.170 --> 01:45:46.230
+whatsoever amount value i'm going to pass so no there is no
+
+01:45:46.230 --> 01:45:48.930
+relation between that no relation right okay okay that's
+
+01:45:48.930 --> 01:45:51.590
+what i wanted to understand so relations between this one
+
+01:45:51.590 --> 01:45:53.910
+right balance and account number which is a like a class
+
+01:45:53.910 --> 01:45:58.170
+variable so whenever amount will come into picture whenever
+
+01:45:58.170 --> 01:46:02.030
+you are going to deposit some amount it should add that into
+
+01:46:02.030 --> 01:46:06.510
+this one balance okay then you are making balance as the
+
+01:46:06.510 --> 01:46:10.070
+global one not a global one basically class variable class
+
+01:46:10.070 --> 01:46:13.530
+variable class variable basically yeah or maybe like a
+
+01:46:13.530 --> 01:46:16.090
+variable for that particular instance belongs to all methods
+
+01:46:16.090 --> 01:46:21.350
+exactly yes okay yeah okay okay i missed this part actually
+
+01:46:21.350 --> 01:46:24.070
+that initiate construct construct constructor you have used
+
+01:46:24.070 --> 01:46:27.430
+note there those variables belong to all the methods we can
+
+01:46:27.430 --> 01:46:31.490
+make use of that exactly and these are passed as parameters
+
+01:46:31.490 --> 01:46:34.930
+as specific to those functions exactly i mean like whenever
+
+01:46:34.930 --> 01:46:37.370
+i'm passing some parameter for deposit it will deposit it
+
+01:46:37.370 --> 01:46:40.250
+means it will try to add something in balance right the
+
+01:46:40.250 --> 01:46:42.630
+class variable that we have and when i'm trying to do a
+
+01:46:42.630 --> 01:46:44.690
+withdrawal it will try to withdraw something from balance
+
+01:46:44.690 --> 01:46:47.950
+okay got it got it you have used the self dot balance okay
+
+01:46:47.950 --> 01:46:51.870
+got it sir yeah yeah okay yes raj go ahead with the question
+
+01:46:54.330 --> 01:46:58.090
+yes children yes sir so uh my question is not related to
+
+01:46:58.090 --> 01:47:02.190
+today's class uh quick uh is it the right quorum to ask you
+
+01:47:02.190 --> 01:47:04.950
+you can ask any question to me i'm like i don't have any
+
+01:47:04.950 --> 01:47:08.670
+issue thank you thank you so i am from data engineering
+
+01:47:08.670 --> 01:47:14.070
+background and i have 11 plus years of experience so uh in
+
+01:47:14.070 --> 01:47:19.310
+our office they keep on um enforcing us to leverage this jen
+
+01:47:19.310 --> 01:47:24.530
+ai or agentic ai or any ai tool right in our day-to-day
+
+01:47:24.530 --> 01:47:29.590
+pipeline okay so i was just thinking or wondering if any of
+
+01:47:29.590 --> 01:47:33.950
+these uh courses or tools right ai tools will be really
+
+01:47:33.950 --> 01:47:38.750
+useful for us i'm a big data engineer yeah almost every tool
+
+01:47:38.750 --> 01:47:41.770
+that we are learning here will be useful and again so again
+
+01:47:41.770 --> 01:47:44.810
+whatever we have explored and we have learning in other
+
+01:47:44.810 --> 01:47:47.790
+classes even that is going to be useful so yes usefulness
+
+01:47:47.790 --> 01:47:53.230
+wise yes it is useful 100 okay okay so maybe once the uh
+
+01:47:53.230 --> 01:47:57.290
+classes are over i'll have more idea on what tool to be
+
+01:47:57.290 --> 01:48:00.330
+implemented in my day-to-day life yes yeah and very soon i
+
+01:48:00.330 --> 01:48:02.990
+think we are going to start agent decoding as well maybe in
+
+01:48:02.990 --> 01:48:05.370
+next like a two three week after two three week i'll start
+
+01:48:05.370 --> 01:48:08.170
+the agent decoding so then you will be like even more aware
+
+01:48:08.170 --> 01:48:10.550
+about it that how i will be able to use it in the big data
+
+01:48:10.550 --> 01:48:15.150
+directly okay okay okay okay thank you sir thank you yeah
+
+01:48:15.150 --> 01:48:17.550
+thanks okay so you everyone i believe there is no question
+
+01:48:17.550 --> 01:48:20.870
+for me so in that situation i'll rest the class for today
+
+01:48:20.870 --> 01:48:23.730
+can you tell how you will build a team for a product
+
+01:48:23.730 --> 01:48:25.930
+engineering that is my responsibility that is not your
+
+01:48:25.930 --> 01:48:27.970
+responsibility right so don't worry about it that that's my
+
+01:48:27.970 --> 01:48:32.650
+headache not yours yeah so that my my team will do it again
+
+01:48:32.650 --> 01:48:36.010
+not my headache my team will do it and they will maintain
+
+01:48:36.010 --> 01:48:39.290
+and manage the team so yeah so whenever it is going to start
+
+01:48:39.290 --> 01:48:43.270
+uh you can i can just join fill the form follow the
+
+01:48:43.270 --> 01:48:45.570
+procedure process that i'm going to define on that
+
+01:48:45.570 --> 01:48:49.850
+particular day move ahead so fine guys with that thank you
+
+01:48:49.850 --> 01:48:52.990
+so much everyone take care and uh see you again tomorrow
+
+01:48:52.990 --> 01:48:55.150
+same time like uh 4 p.m isd
+

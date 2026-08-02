@@ -1,0 +1,4889 @@
+WEBVTT
+
+00:03:44.140 --> 00:03:46.960
+okay so i believe i'm audible and visible guys so please
+
+00:03:46.960 --> 00:03:49.780
+confirm if i'm audible and visible to all of you so that we
+
+00:03:49.780 --> 00:03:51.100
+can start so
+
+00:04:00.260 --> 00:04:05.620
+let's start with that class so basically guys uh today it is
+
+00:04:05.620 --> 00:04:09.440
+going to be a master class for a neural network which i'm
+
+00:04:09.440 --> 00:04:13.220
+going to give you end to end each and everything with
+
+00:04:13.220 --> 00:04:15.760
+respect to a neural network you will be able to understand
+
+00:04:15.760 --> 00:04:20.160
+so that you will be like you know feel like elusible enough
+
+00:04:20.160 --> 00:04:26.280
+to understand any specialized neural network at any point of
+
+00:04:26.280 --> 00:04:27.820
+time so
+
+00:04:29.770 --> 00:04:32.890
+fine everyone welcome to a master class of a new network as
+
+00:04:32.890 --> 00:04:36.010
+i have mentioned so this class this master class is going to
+
+00:04:36.010 --> 00:04:39.810
+be uh like with you for a very very long time and obviously
+
+00:04:39.810 --> 00:04:44.190
+you need this to understand each and everything which you
+
+00:04:44.190 --> 00:04:47.510
+are going to learn under deep learning computer vision or
+
+00:04:47.510 --> 00:04:50.470
+maybe into a generative ai so this is going to help you out
+
+00:04:50.470 --> 00:04:53.210
+not in just one single places but it is going to help you
+
+00:04:53.210 --> 00:04:57.150
+out in a multiple places as well so let's get started let me
+
+00:04:57.150 --> 00:05:02.390
+share my screen okay so here uh what we are going to do so
+
+00:05:02.390 --> 00:05:06.790
+we'll try to understand first of all why a neural network is
+
+00:05:06.790 --> 00:05:09.850
+required and i would like to ping you this particular link
+
+00:05:09.850 --> 00:05:16.310
+called as playground.tensorflow.org so you can try to look
+
+00:05:16.310 --> 00:05:19.090
+into this particular link which is going to give you some
+
+00:05:19.090 --> 00:05:23.390
+sort of a sense of a neural network by the way and yeah so
+
+00:05:23.390 --> 00:05:25.470
+we are going to play with this one then i will start with
+
+00:05:25.470 --> 00:05:28.930
+the derivation so first of all guys uh if you have to
+
+00:05:28.930 --> 00:05:32.610
+understand that what is a neural network so basically you
+
+00:05:32.610 --> 00:05:36.510
+can think in a manner that neural is nothing but or the
+
+00:05:36.510 --> 00:05:41.270
+artificial neural network which we are going to discuss it's
+
+00:05:41.270 --> 00:05:46.410
+nothing but it's kind of a replica or it's a way a human
+
+00:05:46.410 --> 00:05:50.570
+thinks a way human process a data so it's basically a
+
+00:05:50.570 --> 00:05:54.990
+replica of a human brain that people were trying to create
+
+00:05:54.990 --> 00:05:57.650
+scientists were trying to create since a very very long time
+
+00:05:57.650 --> 00:06:02.690
+so that we as a human so who can understand even a complex
+
+00:06:02.690 --> 00:06:05.750
+problem we can try to break down and we can try to find a
+
+00:06:05.750 --> 00:06:07.810
+solution and we have been doing it since a thousand
+
+00:06:07.810 --> 00:06:10.710
+thousands of years just because of our neural network
+
+00:06:10.710 --> 00:06:13.990
+capability and it is having an infinite capability and again
+
+00:06:13.990 --> 00:06:17.530
+so it depends upon a particular human so they were trying to
+
+00:06:17.530 --> 00:06:21.010
+you know replicate a same thing uh inside a machine that
+
+00:06:21.010 --> 00:06:24.130
+what if if machine will be able to process our data
+
+00:06:24.130 --> 00:06:27.670
+information in the similar manner because even we as a human
+
+00:06:27.670 --> 00:06:31.650
+right so what we do so we try to process the information so
+
+00:06:31.650 --> 00:06:34.810
+let's say you know me you know my face basically so you
+
+00:06:34.810 --> 00:06:38.270
+might have seen my face at some point of a time you are able
+
+00:06:38.270 --> 00:06:42.190
+to recognize my voice you have seen uh like or like you have
+
+00:06:42.190 --> 00:06:45.430
+heard about my voice uh like somewhere right you might have
+
+00:06:45.430 --> 00:06:47.250
+gone through some of the lecture because of that you are
+
+00:06:47.250 --> 00:06:51.570
+able to recognize my voice along with that so basically you
+
+00:06:51.570 --> 00:06:54.270
+know uh let's say if i'm going to ask you a question that
+
+00:06:54.270 --> 00:06:57.790
+what is one plus one so you will say 2 now how you are able
+
+00:06:57.790 --> 00:07:00.530
+to say 2 because you have learned some sort of a mathematics
+
+00:07:00.530 --> 00:07:03.890
+and you are able to understand that for this kind of a
+
+00:07:03.890 --> 00:07:07.930
+question your brain will unconsciously calculate that okay 1
+
+00:07:07.930 --> 00:07:10.750
+plus 1 is equals to 2 now if i'm going to ask you that what
+
+00:07:10.750 --> 00:07:14.090
+is 19 cross 23 now your conscious brain will come into
+
+00:07:14.090 --> 00:07:18.050
+picture and then it will start doing a math right by using a
+
+00:07:18.050 --> 00:07:22.790
+actual mathematical multiplication that 19 into 23 or 21 now
+
+00:07:22.790 --> 00:07:26.870
+so our brain is able to process all of these informations uh
+
+00:07:26.870 --> 00:07:30.750
+like a based on our training right so let's say if i'm going
+
+00:07:30.750 --> 00:07:33.890
+to ask you some sort of questions uh about a quantum
+
+00:07:33.890 --> 00:07:36.610
+computation maybe some sort of a question from a biology you
+
+00:07:36.610 --> 00:07:38.870
+will not be able to answer maybe most of you will not be
+
+00:07:38.870 --> 00:07:40.550
+able to answer if you are okay
+
+00:07:54.080 --> 00:07:56.440
+i think i'm on mute
+
+00:08:18.580 --> 00:08:20.840
+okay so i believe now it's fine so let's start with the
+
+00:08:20.840 --> 00:08:27.340
+master class of a neural network right so let me yeah so i
+
+00:08:27.340 --> 00:08:29.420
+was on mute so let me reiterate each and everything once
+
+00:08:29.420 --> 00:08:33.060
+again so basically i was talking about a situation by the
+
+00:08:33.060 --> 00:08:39.260
+way guys so where basically anyone can go and anyone can try
+
+00:08:39.260 --> 00:08:43.140
+to recognize any kind of a pattern and you know that kind of
+
+00:08:43.140 --> 00:08:48.140
+a situation we have seen in a human right so where human are
+
+00:08:48.140 --> 00:08:50.600
+good in terms of recognizing something for example example
+
+00:08:50.600 --> 00:08:54.980
+for example so you can recognize me easily because you have
+
+00:08:54.980 --> 00:08:58.400
+seen my face at some point of a time you can recognize me
+
+00:08:58.400 --> 00:09:01.460
+easily again so you can recognize my voice because you might
+
+00:09:01.460 --> 00:09:05.580
+have heard about my voice at some point of a time right if
+
+00:09:05.580 --> 00:09:08.140
+i'm going to ask you a question that tell me what is one
+
+00:09:08.140 --> 00:09:11.320
+plus one so yes you will be able to tell me that what is one
+
+00:09:11.320 --> 00:09:15.440
+plus one two immediately because you your brain can go and
+
+00:09:15.440 --> 00:09:18.540
+your brain can do a unconscious calculation now if i'm going
+
+00:09:18.540 --> 00:09:21.900
+to to ask you a question that what is 19 cross 23 so in that
+
+00:09:21.900 --> 00:09:24.340
+case your conscious brain will come into picture and it will
+
+00:09:24.340 --> 00:09:27.560
+start doing a calculation based upon based on your learning
+
+00:09:27.560 --> 00:09:30.900
+basically right based on your learning uh that okay so like
+
+00:09:30.900 --> 00:09:34.040
+you know 19 cross 23 so you will start applying those
+
+00:09:34.040 --> 00:09:37.060
+multiplication thoughts or multiplication formula in your
+
+00:09:37.060 --> 00:09:40.440
+head and then you will be able to give me an answer now if
+
+00:09:40.440 --> 00:09:42.960
+i'm going to ask you a question with respect to a law you
+
+00:09:42.960 --> 00:09:45.560
+will not be able to answer even a question right you will
+
+00:09:45.560 --> 00:09:48.480
+say that i don't know about law if i will ask you about a
+
+00:09:48.480 --> 00:09:50.900
+biology you will not be able to answer most of you will not
+
+00:09:50.900 --> 00:09:54.240
+be able to answer some sort of a questions with respect to
+
+00:09:54.240 --> 00:09:56.820
+biology because you have never seen those pattern you have
+
+00:09:56.820 --> 00:10:01.460
+never seen those data right so this is how human brain works
+
+00:10:01.460 --> 00:10:06.540
+and even in our brain so the smallest part is basically a
+
+00:10:06.540 --> 00:10:09.080
+neuron right so the smallest part is basically a neuron and
+
+00:10:09.080 --> 00:10:13.480
+our brain is having a billions and billions of a neuron and
+
+00:10:13.480 --> 00:10:16.460
+we have an infinite capability to basically process those
+
+00:10:16.460 --> 00:10:19.460
+data again it depends upon like different different humans
+
+00:10:19.460 --> 00:10:21.940
+by the way their training their adoption many things right
+
+00:10:21.940 --> 00:10:25.660
+many things so this is where we humans are very different so
+
+00:10:25.660 --> 00:10:30.160
+we have but the best part is that that our brain can process
+
+00:10:30.160 --> 00:10:33.700
+a data our brain can recognize a pattern our brain can
+
+00:10:33.700 --> 00:10:36.640
+understand some sort of a logic our brain can solve a
+
+00:10:36.640 --> 00:10:41.760
+problem so the bottom line is that that if i can recognize
+
+00:10:41.760 --> 00:10:44.860
+because even brain does what it will always try to recognize
+
+00:10:44.860 --> 00:10:47.820
+the pattern in case of mathematics yes it has recognized
+
+00:10:47.820 --> 00:10:50.980
+that it's a mathematical thing which has been asked so we'll
+
+00:10:50.980 --> 00:10:54.060
+try to apply those kind of you know thoughts or calculation
+
+00:10:54.060 --> 00:10:56.140
+our neural network will start applying those kind of
+
+00:10:56.140 --> 00:10:58.740
+thoughts and calculation when i'm talking to someone so
+
+00:10:58.740 --> 00:11:02.020
+obviously you know uh like first of all i recognize that
+
+00:11:02.020 --> 00:11:04.500
+whether this person is a known to me or unknown to me and
+
+00:11:04.500 --> 00:11:08.360
+based on that we start our discussion and again so uh we
+
+00:11:08.360 --> 00:11:11.280
+have like a feelings as well we have a emotional component
+
+00:11:11.280 --> 00:11:14.800
+as well right so all of these things comes into picture so
+
+00:11:14.800 --> 00:11:18.300
+this is where scientist was thinking that okay so can we try
+
+00:11:18.300 --> 00:11:22.540
+to create a kind of a you know artificial brain basically or
+
+00:11:22.540 --> 00:11:25.740
+artificial neural network right not just one neuron because
+
+00:11:25.740 --> 00:11:29.940
+one neuron is nothing even in our case so can i create a bev
+
+00:11:29.940 --> 00:11:33.320
+of or can i create a bunch of or can i create a network
+
+00:11:33.320 --> 00:11:37.080
+basically of a neuron which should be artificial right
+
+00:11:37.080 --> 00:11:40.560
+because we have our computers right computers we have cpus
+
+00:11:40.560 --> 00:11:44.900
+we have a gpu so can we create those kind of a network which
+
+00:11:44.900 --> 00:11:48.840
+will be able to understand a complex problem or complex
+
+00:11:48.840 --> 00:11:53.000
+pattern and it will be able to do some sort of a task it
+
+00:11:53.000 --> 00:11:56.340
+will be able to take some sort of a action and this is where
+
+00:11:56.340 --> 00:12:00.160
+the artificial neural network right the artificial neural
+
+00:12:00.160 --> 00:12:05.260
+network came into picture and then the entire world has
+
+00:12:05.260 --> 00:12:09.600
+changed and then the actual ai you can say have started
+
+00:12:09.600 --> 00:12:11.520
+before that yes there there was a AI, I mean, like there was
+
+00:12:11.520 --> 00:12:14.440
+a machine learning, there was a statistical pattern
+
+00:12:14.440 --> 00:12:17.200
+organization, so all sort of things was there. But
+
+00:12:17.200 --> 00:12:21.100
+somewhere, this neural network was a complete breakthrough,
+
+00:12:21.300 --> 00:12:25.660
+I would say. And generative AI, where you like try to use
+
+00:12:25.660 --> 00:12:29.100
+LLMs, it's actually a neural network, right? So when I say
+
+00:12:29.100 --> 00:12:31.580
+I'm trying to use LLMs, I'm trying to do inferencing, it's a
+
+00:12:31.580 --> 00:12:36.680
+neural network. When we are talking about a self-driven car,
+
+00:12:36.860 --> 00:12:39.800
+right? So where car can recognize all those pedestrian and
+
+00:12:39.800 --> 00:12:42.980
+different different kind of object on a road and then it can
+
+00:12:42.980 --> 00:12:47.820
+take a call immediately within a microsecond i would say so
+
+00:12:47.820 --> 00:12:50.920
+this is where this you know neural network comes into
+
+00:12:50.920 --> 00:12:53.640
+picture so again your network is available over there inside
+
+00:12:53.640 --> 00:12:57.360
+your self-driving car when we talk about a facial
+
+00:12:57.360 --> 00:13:00.720
+organization again neural network comes into picture when we
+
+00:13:00.720 --> 00:13:04.220
+talk about any llms out there right any means literally any
+
+00:13:04.220 --> 00:13:06.620
+elements out there so it's a transformer transformer is
+
+00:13:06.620 --> 00:13:10.500
+nothing but it's a neural network right so the entire ai
+
+00:13:10.500 --> 00:13:15.340
+world is based upon a neural network and this is what i'm
+
+00:13:15.340 --> 00:13:18.400
+going to discuss in this master class so where i'm going to
+
+00:13:18.400 --> 00:13:22.480
+show you a complete derivation that how neural network
+
+00:13:22.480 --> 00:13:26.320
+learns and if you are able to understand that part so going
+
+00:13:26.320 --> 00:13:28.900
+forward when we will try to understand some sort of a
+
+00:13:28.900 --> 00:13:32.020
+specialized neural network it is going to help you out so
+
+00:13:32.020 --> 00:13:34.580
+when When I say a specialized neural network, I'm talking
+
+00:13:34.580 --> 00:13:38.100
+about basically a CNN kind of a network, a convolutional
+
+00:13:38.100 --> 00:13:42.420
+neural network, which has been used for a picture or image
+
+00:13:42.420 --> 00:13:45.320
+recognition, right? Mostly in that segment or computer
+
+00:13:45.320 --> 00:13:47.820
+vision, basically, which has been used inside a computer
+
+00:13:47.820 --> 00:13:50.840
+vision. Then there is something called as like an NLP,
+
+00:13:50.980 --> 00:13:53.420
+natural language processing. So over there, you will be able
+
+00:13:53.420 --> 00:13:57.760
+to see basically RNN, LSTM, GRU kind of a models, encoder,
+
+00:13:57.760 --> 00:14:00.680
+decoder, and then eventually transformer coming from
+
+00:14:00.680 --> 00:14:03.900
+attention is all you need. But yes, the bottom line is that
+
+00:14:03.900 --> 00:14:08.060
+everywhere those neural networks will come into picture. At
+
+00:14:08.060 --> 00:14:10.340
+the end of the day, what is the task of a neural network?
+
+00:14:10.680 --> 00:14:14.440
+Mimic a human brain. At the end of the day, what these
+
+00:14:14.440 --> 00:14:16.860
+neural networks are going to do? So at the end of the day,
+
+00:14:16.860 --> 00:14:19.720
+these neural networks are technically helping you out to
+
+00:14:19.720 --> 00:14:23.340
+recognize a pattern. And every problem, the entire world is
+
+00:14:23.340 --> 00:14:28.280
+all about recognizing a pattern. So this is a playground
+
+00:14:28.280 --> 00:14:31.780
+which I am going to show you. just a little bit glimpse i'm
+
+00:14:31.780 --> 00:14:34.400
+going to give you because you will not be able to understand
+
+00:14:34.400 --> 00:14:38.780
+much even out of this one to make you understand this first
+
+00:14:38.780 --> 00:14:41.320
+of all i have to go through a derivation then only you will
+
+00:14:41.320 --> 00:14:44.440
+be able to understand so here this is a playground which has
+
+00:14:44.440 --> 00:14:47.560
+been created long back by google tensorflow right that
+
+00:14:47.560 --> 00:14:50.980
+division and here so you can come and you will be able to
+
+00:14:50.980 --> 00:14:54.800
+basically like a just play this is a playground right so you
+
+00:14:54.800 --> 00:14:56.760
+can just come and play and you will will be able to
+
+00:14:56.760 --> 00:14:59.460
+understand something so let's say if i'm going to click on
+
+00:14:59.460 --> 00:15:04.220
+this one uh let me increase my learning rate a little bit so
+
+00:15:04.220 --> 00:15:07.800
+you will be able to see that in a real time that you know it
+
+00:15:07.800 --> 00:15:10.960
+has created a blue circle around a blue dot and it has
+
+00:15:10.960 --> 00:15:15.120
+created a orange in a orange one right orange in orange one
+
+00:15:15.120 --> 00:15:18.380
+let me reset as of now everything is blue somewhere there is
+
+00:15:18.380 --> 00:15:20.600
+an orange so when i have started the training right
+
+00:15:20.600 --> 00:15:25.480
+immediately it has converged and then blue blue is inside a
+
+00:15:25.480 --> 00:15:28.960
+blue and orange is inside an orange. So likewise, there are
+
+00:15:28.960 --> 00:15:30.280
+so many things. There is something called an activation
+
+00:15:30.280 --> 00:15:32.580
+function you can play with. Regulation you can try to play
+
+00:15:32.580 --> 00:15:34.340
+with. Regression rate you can try to play with.
+
+00:15:34.480 --> 00:15:37.320
+Classification regression you can try to increase a number
+
+00:15:37.320 --> 00:15:40.400
+of neurons over here on an output layer. You can increase
+
+00:15:40.400 --> 00:15:43.500
+even a number of hidden layer basically in between. You can
+
+00:15:43.500 --> 00:15:46.100
+try to increase a number of neuron in a particular hidden
+
+00:15:46.100 --> 00:15:48.760
+layer. You can try to increase even a feature, enable the
+
+00:15:48.760 --> 00:15:53.460
+features in this particular place. so this is a kind of a
+
+00:15:53.460 --> 00:15:56.200
+network we are going to study i'm just trying to show you a
+
+00:15:56.200 --> 00:15:59.400
+symbolic one right so this is a kind of a neural network we
+
+00:15:59.400 --> 00:16:03.100
+are going to study and we will try to even see a complete
+
+00:16:03.100 --> 00:16:05.860
+derivation here you will not be able to find out those
+
+00:16:05.860 --> 00:16:08.500
+derivation by the way yeah so here there is no derivation
+
+00:16:08.500 --> 00:16:11.660
+you will be able to find out but this is how the entire
+
+00:16:11.660 --> 00:16:16.320
+neural network work actually looks like now let me explain
+
+00:16:16.320 --> 00:16:20.060
+you just as a like you know glimpse wise uh that what is
+
+00:16:20.060 --> 00:16:24.040
+what by the way so see uh even in machine learning we have
+
+00:16:24.040 --> 00:16:26.960
+seen that that there will be input right there will be input
+
+00:16:26.960 --> 00:16:31.520
+data so uh i i mean i might be having like a one column two
+
+00:16:31.520 --> 00:16:33.960
+column three column ten column whatsoever so that is going
+
+00:16:33.960 --> 00:16:36.820
+to be input data right row by row row by row row by row
+
+00:16:36.820 --> 00:16:40.060
+input data so even in machine learning we have seen that
+
+00:16:40.060 --> 00:16:43.160
+that there was a features right and then multiple like you
+
+00:16:43.160 --> 00:16:46.440
+know records for those all of those features so technically
+
+00:16:46.440 --> 00:16:50.580
+feature and call column and row we already know so even over
+
+00:16:50.580 --> 00:16:53.340
+here you will be able to find out the exact same thing even
+
+00:16:53.340 --> 00:16:56.420
+if i'm going to talk about the image so images is having a
+
+00:16:56.420 --> 00:17:00.300
+dimension right dimension basically so and that too you know
+
+00:17:00.300 --> 00:17:03.820
+pixels and every pixel will be having its own values so it's
+
+00:17:03.820 --> 00:17:06.960
+technically a row and a column in which i can divide the
+
+00:17:06.960 --> 00:17:10.300
+entire image even a movie sequence of the images right and
+
+00:17:10.300 --> 00:17:13.480
+eventually i can break it down to the columns will come to
+
+00:17:13.480 --> 00:17:17.240
+that point uh maybe in a computer vision classes not now so
+
+00:17:17.240 --> 00:17:20.180
+as of now just try to understand in this manner that you
+
+00:17:20.180 --> 00:17:23.800
+know we have a feature for example we have two features so
+
+00:17:23.800 --> 00:17:26.940
+column x1 column x2 these are the two features that we have
+
+00:17:26.940 --> 00:17:29.900
+and there are some values right there are some values to uh
+
+00:17:29.900 --> 00:17:35.180
+to it basically now what we can do let me add only one
+
+00:17:35.180 --> 00:17:41.060
+hidden layer over here okay let me add two so here this
+
+00:17:41.060 --> 00:17:47.460
+features uh will be there this features will go into some of
+
+00:17:47.460 --> 00:17:51.020
+these neural network this is basically called as neurons
+
+00:17:51.020 --> 00:17:56.020
+right this is something called as neurons so here it will go
+
+00:17:56.020 --> 00:17:59.860
+and then it will do something in between and then here again
+
+00:17:59.860 --> 00:18:02.840
+it will go it will do something in between and then finally
+
+00:18:02.840 --> 00:18:05.840
+it is going to give me the output right finite is going to
+
+00:18:05.840 --> 00:18:09.220
+give me the output so in case of neural network this entire
+
+00:18:09.220 --> 00:18:14.060
+phenomena or this entire things or flow is called as forward
+
+00:18:14.060 --> 00:18:19.040
+propagation forward propagation
+
+00:18:21.760 --> 00:18:25.680
+means my data is here it is going somewhere here and here
+
+00:18:25.680 --> 00:18:29.120
+and then it is going again here and here right and then it
+
+00:18:29.120 --> 00:18:32.460
+is going to give you some sort of output so here this is
+
+00:18:32.460 --> 00:18:35.800
+called as forward propagation now in case of forward
+
+00:18:35.800 --> 00:18:39.560
+propagation so it will go through one two or many many
+
+00:18:39.560 --> 00:18:43.480
+layers basically right go through many many layers so in
+
+00:18:43.480 --> 00:18:46.100
+between there are a lot of things comes into picture there
+
+00:18:46.100 --> 00:18:48.380
+is something called as a weight comes into picture there is
+
+00:18:48.380 --> 00:18:50.560
+something called as bias comes into picture there is
+
+00:18:50.560 --> 00:18:53.700
+something called as activation functions comes into picture
+
+00:18:53.700 --> 00:18:56.960
+there is something called as output comes into picture right
+
+00:18:56.960 --> 00:19:00.280
+and then eventually output means prediction right so
+
+00:19:00.280 --> 00:19:03.380
+prediction comes into picture and this will happen in a
+
+00:19:03.380 --> 00:19:07.200
+forward propagation then what neural network does so in a
+
+00:19:07.200 --> 00:19:10.380
+forward propagation neural network never learns anything
+
+00:19:10.380 --> 00:19:14.620
+never never learns anything right when it learns so it
+
+00:19:14.620 --> 00:19:17.340
+always try to learn in a backward propagation so there is
+
+00:19:17.340 --> 00:19:22.090
+something called as backward propagation
+
+00:19:24.520 --> 00:19:28.000
+and actual learning is going to happen in a backward
+
+00:19:28.000 --> 00:19:32.320
+propagation not in a forward propagation so in a backward
+
+00:19:32.320 --> 00:19:35.420
+propagation what happens so let's say it has given me some
+
+00:19:35.420 --> 00:19:37.980
+output so this is my output right it has given me some
+
+00:19:37.980 --> 00:19:41.640
+output so let's say there is a y hat it has given me y hat
+
+00:19:41.640 --> 00:19:45.640
+and then there is a actual y so what i will do i will try to
+
+00:19:45.640 --> 00:19:48.460
+find out difference between y and y hat and eventually we
+
+00:19:48.460 --> 00:19:53.040
+try to call those things as what loss right as a loss and
+
+00:19:53.040 --> 00:19:56.300
+why we are getting this difference between y and y hat
+
+00:19:56.300 --> 00:19:59.960
+because we have done some sort of a calculation in between
+
+00:19:59.960 --> 00:20:03.600
+and there was some sort of a parameter in between and those
+
+00:20:03.600 --> 00:20:07.720
+parameters have not aligned itself right not aligned itself
+
+00:20:07.720 --> 00:20:10.540
+with respect to the output that i'm looking for and that's
+
+00:20:10.540 --> 00:20:12.860
+the reason we have a loss right that's the reason we have a
+
+00:20:12.860 --> 00:20:16.380
+loss same thing we have derived even in case of a linear
+
+00:20:16.380 --> 00:20:18.600
+regression when i was talking about a very first algorithm
+
+00:20:18.600 --> 00:20:22.560
+right if you remember so we will be able to get a loss right
+
+00:20:22.560 --> 00:20:25.160
+so i'm just telling you the story how this entire story
+
+00:20:25.160 --> 00:20:27.560
+flows basically and in between you have to learn each and
+
+00:20:27.560 --> 00:20:30.700
+everything so there will be a loss now once i will be having
+
+00:20:30.700 --> 00:20:34.320
+a loss so i will be able to get loss because of certain
+
+00:20:34.320 --> 00:20:37.560
+parameters in between so what i will do i will try to
+
+00:20:37.560 --> 00:20:40.820
+optimize the loss i will optimize this loss means i will try
+
+00:20:40.820 --> 00:20:44.560
+to minimize the loss now during this minimization is going
+
+00:20:44.560 --> 00:20:48.160
+to happen and happens because of what so i will try to
+
+00:20:48.160 --> 00:20:51.500
+change certain parameters which was responsible right which
+
+00:20:51.500 --> 00:20:54.340
+was actually responsible for giving me this loss and then
+
+00:20:54.340 --> 00:20:57.200
+Then again, I will try to send the data. Again, I will try
+
+00:20:57.200 --> 00:21:00.000
+to calculate the loss and I'll keep on doing it, keep on
+
+00:21:00.000 --> 00:21:03.620
+doing it, keep on doing it unless and until I will not be
+
+00:21:03.620 --> 00:21:07.600
+able to minimize the complete loss. So that's the whole
+
+00:21:07.600 --> 00:21:11.220
+idea, by the way. That's the whole idea. So in a forward
+
+00:21:11.220 --> 00:21:14.860
+propagation, basically, it flows and it calculates and it
+
+00:21:14.860 --> 00:21:17.480
+does just a prediction. In a backward propagation, it
+
+00:21:17.480 --> 00:21:22.340
+changes. Whosoever is responsible for giving you the loss at
+
+00:21:22.340 --> 00:21:25.880
+the end of the day. so this is the whole and sole idea of a
+
+00:21:25.880 --> 00:21:28.940
+neural network like i said you will not be able to
+
+00:21:28.940 --> 00:21:31.480
+understand much from this one unless and until you don't
+
+00:21:31.480 --> 00:21:35.620
+understand these components so now let's go ahead and let's
+
+00:21:35.620 --> 00:21:39.780
+try to understand basically these component in a step-by
+
+00:21:39.780 --> 00:21:44.440
+-step manner because this is where the real game is okay
+
+00:21:48.540 --> 00:21:52.080
+so neural network fine
+
+00:22:01.810 --> 00:22:04.990
+so let's start talking about a now neural network with
+
+00:22:04.990 --> 00:22:09.330
+respect to a derivation i believe i'm audible right yes
+
+00:22:17.170 --> 00:22:24.070
+okay fine cool so here what we will do so we will try to you
+
+00:22:24.070 --> 00:22:28.450
+know take some sort of a data yes we try to take some sort
+
+00:22:28.450 --> 00:22:32.150
+of a data so let's say i'm just one data let's say we will
+
+00:22:32.150 --> 00:22:37.130
+try to take yeah so here let's say we have this table and we
+
+00:22:37.130 --> 00:22:42.170
+have basically a data set x1 and x2 these are the feature
+
+00:22:42.170 --> 00:22:46.670
+two feature and then we have some y so as of now value of x1
+
+00:22:46.670 --> 00:22:50.170
+is equals to 1 for a first record and value of x2 is equals
+
+00:22:50.170 --> 00:22:54.610
+to 2. y is equals to 1 let's say i'm talking about let's say
+
+00:22:54.610 --> 00:22:58.030
+a classification problem so where y will be 0 or y will be
+
+00:22:58.030 --> 00:23:00.530
+equal to 1 so this is the kind of situation which i am
+
+00:23:00.530 --> 00:23:03.250
+looking into and we have already seen those kind of a
+
+00:23:03.250 --> 00:23:05.890
+situation but this time our methodology is different so we
+
+00:23:05.890 --> 00:23:08.310
+will try to understand these things with the help of neural
+
+00:23:08.310 --> 00:23:12.450
+network so we will try to see that how neural network is
+
+00:23:12.450 --> 00:23:15.990
+going to learn this pattern that when there will be 1 and 2
+
+00:23:15.990 --> 00:23:19.350
+x1 is equal to 1 x2 is equal to 2 it should always give you
+
+00:23:19.350 --> 00:23:22.910
+a value close to 1 right why should always be equal to or
+
+00:23:22.910 --> 00:23:26.370
+close to 1 at any point of a time if not optimize it right
+
+00:23:26.370 --> 00:23:29.190
+if not optimize it and then there will be multiple records
+
+00:23:29.190 --> 00:23:34.230
+right so optimize on a multiple records so here when we are
+
+00:23:34.230 --> 00:23:38.130
+talking about a neural network right so certain things like
+
+00:23:38.130 --> 00:23:41.570
+i have mentioned will come into picture so let me represent
+
+00:23:41.570 --> 00:23:44.730
+this perceptron which is nothing but an artificial neuron is
+
+00:23:44.730 --> 00:23:47.250
+called as perceptron so in some books you will be able to
+
+00:23:47.250 --> 00:23:51.710
+find out that name called as perceptron so here i'm going to
+
+00:23:51.710 --> 00:23:56.130
+basically give this input into these two perceptron so value
+
+00:23:56.130 --> 00:23:59.910
+of x1 and value of x2 what what is the value one and two,
+
+00:23:59.970 --> 00:24:03.610
+right? These are the values. So this is my input neuron.
+
+00:24:04.130 --> 00:24:09.070
+Basically, this is my what input neuron input, right? Or we
+
+00:24:09.070 --> 00:24:12.190
+say input layer. So these two neurons are the part of what
+
+00:24:12.190 --> 00:24:15.890
+two neurons are basically a part of input layer. Okay, fine.
+
+00:24:16.010 --> 00:24:19.350
+I have given the input. So input will go in just like a
+
+00:24:19.350 --> 00:24:22.250
+human brain, right? I can see you, you are able to see my
+
+00:24:22.250 --> 00:24:25.450
+screen. So some input is going through your eyes, then your
+
+00:24:25.450 --> 00:24:28.150
+brain is trying to process it, right? Some of you will be
+
+00:24:28.150 --> 00:24:30.950
+able to process quickly some of you will be able to like
+
+00:24:30.950 --> 00:24:33.490
+take some time some of you will go and revisit my classes
+
+00:24:33.490 --> 00:24:37.170
+once again so depends right so in a similar manner we are we
+
+00:24:37.170 --> 00:24:39.270
+are trying to analyze this one we will try to build the
+
+00:24:39.270 --> 00:24:44.370
+analogy now here so we are sending this input x1 and x2 x1
+
+00:24:44.370 --> 00:24:49.790
+is equal to 1 x2 is equal to 2 now what will happen so i
+
+00:24:49.790 --> 00:24:53.710
+will try to create some neural network in between right
+
+00:24:53.710 --> 00:25:01.460
+let's say i'm trying to put basically some neurons over here
+
+00:25:01.460 --> 00:25:06.620
+uh so again uh let me put like a this calculation will be a
+
+00:25:06.620 --> 00:25:13.180
+little bit complex so let me put only two neurons so let's
+
+00:25:13.180 --> 00:25:17.540
+say i have these two neurons in between right i have these
+
+00:25:17.540 --> 00:25:22.280
+two neurons in between and then there is a another neuron i
+
+00:25:22.280 --> 00:25:26.560
+have over here right i have over here so now this is
+
+00:25:26.560 --> 00:25:31.980
+basically this layer or this neurons are called as hidden
+
+00:25:31.980 --> 00:25:37.860
+neurons or layer wise hidden layer and then this one is
+
+00:25:37.860 --> 00:25:44.020
+nothing but output layer right which is going to give me
+
+00:25:44.020 --> 00:25:47.960
+output put now what will happen because the entire game will
+
+00:25:47.960 --> 00:25:51.800
+happen in between so i have a input input one and two okay
+
+00:25:51.800 --> 00:25:56.140
+fine so what will happen so this hidden layers for example
+
+00:25:56.140 --> 00:25:59.320
+even you are taking a input but you are not able to see your
+
+00:25:59.320 --> 00:26:01.960
+neurons basically in your brain which neuron is doing what
+
+00:26:01.960 --> 00:26:05.080
+you are not able to see it so technically your neurons are
+
+00:26:05.080 --> 00:26:08.240
+also hidden in the similar manner there is a input then
+
+00:26:08.240 --> 00:26:11.440
+there is a hidden layer basically so hidden layer uh will
+
+00:26:11.440 --> 00:26:14.560
+try to like do something so what it is going to do so these
+
+00:26:14.560 --> 00:26:19.060
+inputs will go into hidden layer so let's suppose input x1
+
+00:26:19.060 --> 00:26:22.500
+is going here as well as it is going here fine it is going
+
+00:26:22.500 --> 00:26:28.700
+here and here now this input x2 is going here and this is
+
+00:26:28.700 --> 00:26:35.060
+going here so this two input x1 and x2 so it's going into
+
+00:26:35.060 --> 00:26:38.840
+both of these neuron as you can see in my arrow yeah as you
+
+00:26:38.840 --> 00:26:42.400
+can see in my arrow so both of these things are going into
+
+00:26:42.400 --> 00:26:48.460
+this hidden neuron okay fine cool so here when it will go
+
+00:26:48.460 --> 00:26:54.780
+into this one right so let's try to rename a neuron so on a
+
+00:26:54.780 --> 00:26:58.960
+layer one or on a input layer this is a number of number of
+
+00:26:58.960 --> 00:27:03.620
+neuron is one and then two this is again one and then this
+
+00:27:03.620 --> 00:27:08.940
+is two let's say yeah so input is going going from a first
+
+00:27:08.940 --> 00:27:12.620
+neuron to a first neuron first neuron of a input layer to a
+
+00:27:12.620 --> 00:27:17.200
+first neuron of a hidden layer input is going from first
+
+00:27:17.200 --> 00:27:21.320
+neuron of a like a you know the input layer to a second
+
+00:27:21.320 --> 00:27:24.600
+neuron of a hidden layer so input is going here input is
+
+00:27:24.600 --> 00:27:27.600
+going here in both the places input is basically going okay
+
+00:27:27.600 --> 00:27:32.480
+fine so i can try to give a name to this arrow row i will
+
+00:27:32.480 --> 00:27:39.280
+try to call it as w 1 1 1 2 1 this one is w 1 1 this one i
+
+00:27:39.280 --> 00:27:44.680
+will try to call it as a w 1 2 2 so w 1 2 2 then i will try
+
+00:27:44.680 --> 00:27:51.400
+to call this one as basically w 2 2 1 w 2 2 1 this one i
+
+00:27:51.400 --> 00:27:55.720
+would like to call it as a w 2 2 2 i have just given this
+
+00:27:55.720 --> 00:27:57.900
+particular name so that you know it will be be convenient
+
+00:27:57.900 --> 00:28:00.620
+for me to do some sort of a math some sort of a calculation
+
+00:28:00.620 --> 00:28:03.780
+is it making sense to all of us yes
+
+00:28:06.300 --> 00:28:10.580
+is it making sense to all of us simple i have given a name
+
+00:28:10.580 --> 00:28:13.060
+just for the simplicity i'll even tell you what is the
+
+00:28:13.060 --> 00:28:15.880
+meaning of w by the way i'll also tell you going forward
+
+00:28:15.880 --> 00:28:17.980
+that you know there is something called as weight
+
+00:28:17.980 --> 00:28:20.320
+initialization so there is something called as jvr method
+
+00:28:20.320 --> 00:28:22.660
+there is something called as he method by which we
+
+00:28:22.660 --> 00:28:25.480
+initialize it but initially i'll tell you we'll try to do it
+
+00:28:25.480 --> 00:28:29.140
+randomly right there are so many concepts but yeah at a time
+
+00:28:29.140 --> 00:28:32.040
+you will not be able to grasp each and everything so we'll
+
+00:28:32.040 --> 00:28:36.220
+move step by step right very amazing concept by the way so
+
+00:28:36.220 --> 00:28:39.440
+here what will happen so w1 to 1 all these things right i
+
+00:28:39.440 --> 00:28:42.480
+have done so i have given the name of these arrows by the
+
+00:28:42.480 --> 00:28:45.800
+way simple right these arrows i'm trying to call it as a w
+
+00:28:46.820 --> 00:28:50.060
+technically it's called as weight right it's called as
+
+00:28:50.060 --> 00:28:53.640
+basically weight yeah it's called is technically weight so
+
+00:28:53.640 --> 00:28:58.920
+now what weight will do so basically weight is called as
+
+00:28:58.920 --> 00:29:02.440
+learnable parameter yeah weight is basically called as
+
+00:29:02.440 --> 00:29:06.840
+learnable parameter because my input is fixed right my input
+
+00:29:06.840 --> 00:29:10.520
+is fixed whatsoever input is there inside my data it is
+
+00:29:10.520 --> 00:29:15.020
+going as it is right so there must be some parameter which i
+
+00:29:15.020 --> 00:29:18.780
+must be able to you know change right so this is where this
+
+00:29:18.780 --> 00:29:21.920
+weight comes into picture second term is going to be ys i'll
+
+00:29:21.920 --> 00:29:25.420
+come to that that point in some time so weight will come
+
+00:29:25.420 --> 00:29:28.580
+into picture and weight is something called as you know
+
+00:29:28.580 --> 00:29:32.860
+changeable parameter i can change it basically okay fine now
+
+00:29:32.860 --> 00:29:37.700
+so if i can change it so can i initialize weight is equal to
+
+00:29:37.700 --> 00:29:41.560
+zero i don't think so it's not a good idea right so maybe
+
+00:29:41.560 --> 00:29:45.440
+what i can do i can try to initialize all of these weights
+
+00:29:45.440 --> 00:29:50.320
+right so i can try to initialize all of these weights maybe
+
+00:29:50.320 --> 00:29:57.500
+right maybe by using some sort of a random number right by
+
+00:29:57.500 --> 00:30:00.280
+using some sort of a random number maybe i can try to
+
+00:30:00.280 --> 00:30:04.000
+initialize these weights any number any number i can try to
+
+00:30:04.000 --> 00:30:06.680
+use and then by using any numbers so maybe i can try to
+
+00:30:06.680 --> 00:30:11.480
+initialize all of these things okay cool let's do it but
+
+00:30:11.480 --> 00:30:15.880
+before that right before that so let's let's try to you know
+
+00:30:15.880 --> 00:30:20.600
+uh like understand something over here so if i'm going to
+
+00:30:20.600 --> 00:30:25.240
+ask you a question that and let's say i'm going to name this
+
+00:30:25.240 --> 00:30:31.020
+internal one as h1 this is x1 and x2 right this is x1 and x2
+
+00:30:31.020 --> 00:30:35.080
+this one is h1 and h2 just because of hidden layers i have
+
+00:30:35.080 --> 00:30:38.340
+given this name as h1 so this neuron name is h1 and this
+
+00:30:38.340 --> 00:30:43.020
+neuron name is basically h2 so now if i'm going to ask you a
+
+00:30:43.020 --> 00:30:48.860
+question that what is a input coming right what is a input
+
+00:30:48.860 --> 00:30:57.340
+coming inside h1 yes inside h1 so can i say that that the
+
+00:30:57.340 --> 00:31:01.940
+input coming inside h1 is from which one so let me take a
+
+00:31:01.940 --> 00:31:06.940
+different pen so this is the input marked in red and this is
+
+00:31:06.940 --> 00:31:12.380
+the input marked in red so input coming into my h1 is from
+
+00:31:12.380 --> 00:31:18.760
+x1 and x2 yes x1 and x2 so input is coming from that one
+
+00:31:18.760 --> 00:31:22.920
+right okay that is again cool so if input is coming from
+
+00:31:22.920 --> 00:31:27.100
+that one so what is the total input coming inside my h1 so
+
+00:31:27.100 --> 00:31:30.700
+let's say total input inside h1 i am trying to represent it
+
+00:31:30.700 --> 00:31:35.760
+as a z1 right so total input can i say that that total input
+
+00:31:35.760 --> 00:31:45.880
+is nothing but x1 into w11 x1 into w11 plus x2 into w21 2 to
+
+00:31:45.880 --> 00:31:53.520
+1 right so x1 into w21 can i say that yes
+
+00:31:56.470 --> 00:32:04.990
+can i say that the input going into my h1 yes
+
+00:32:07.800 --> 00:32:09.020
+okay
+
+00:32:14.530 --> 00:32:20.890
+so this is the whole idea plus plus plus so plus here you
+
+00:32:20.890 --> 00:32:24.170
+will be able to see some bias as well some some again
+
+00:32:24.170 --> 00:32:27.230
+parameter basically so let's say we have a bias b1 over here
+
+00:32:27.230 --> 00:32:32.130
+and we have a bias b2 over here so here b1 i can simply like
+
+00:32:32.130 --> 00:32:35.150
+mention it as a B1. So can I say that this is the whole
+
+00:32:35.150 --> 00:32:40.910
+input goes into my H1. This is the whole input goes into my
+
+00:32:40.910 --> 00:32:46.630
+hidden layer 1. Similarly inside my hidden layer 2 so this
+
+00:32:46.630 --> 00:32:52.710
+one is coming from x1 and this much is coming from x2 okay
+
+00:32:52.710 --> 00:33:03.510
+so x1 into x1 into w12 plus x2 i think i have written x1
+
+00:33:03.510 --> 00:33:07.550
+over here it should be x2 right x2 into w21 x2 into w21 yes
+
+00:33:07.550 --> 00:33:18.550
+then x2 into w22 plus b2 can i write this statement yes the
+
+00:33:18.550 --> 00:33:23.030
+other input simple calculation so now i know that what is
+
+00:33:23.030 --> 00:33:27.850
+going into my h1 and now i know what is going into my h2 i
+
+00:33:27.850 --> 00:33:29.730
+know both of these things right whatsoever will be the value
+
+00:33:29.730 --> 00:33:32.390
+we'll see in the later stage whatever whatsoever is the
+
+00:33:32.390 --> 00:33:35.330
+value but yes this is something which is going into like you
+
+00:33:35.330 --> 00:33:38.970
+know uh like a h1 and this is something which is going into
+
+00:33:38.970 --> 00:33:48.110
+my h2 cool now from here it will come here right it will
+
+00:33:48.110 --> 00:33:54.010
+come here and then it is going to give you output o1 so here
+
+00:33:54.010 --> 00:33:59.210
+value is basically z1 and a z2 just like here we have a x2
+
+00:33:59.210 --> 00:34:03.790
+and x1 so similarly z1 and z2 we have let's say we have a
+
+00:34:03.790 --> 00:34:09.490
+weight in this particular place so we have a weight the you
+
+00:34:09.490 --> 00:34:14.570
+know i can say that that weight is going to be uh maybe i
+
+00:34:14.570 --> 00:34:23.740
+can try to name it as a four weight right so w5 and let's
+
+00:34:23.740 --> 00:34:27.840
+say w6 i'm just like you know making it as a one and then
+
+00:34:27.840 --> 00:34:31.880
+two and so forth let's say w5 w6 right so what is going to
+
+00:34:31.880 --> 00:34:36.340
+be my output what is going to my o1 so my o1 can i say that
+
+00:34:36.340 --> 00:34:46.260
+that it is going to be z1 w5 plus z2 w6 can i say that that
+
+00:34:46.260 --> 00:34:51.380
+is going to my output this o1 is going to be this one yes
+
+00:34:51.380 --> 00:34:55.800
+everyone yeah so z1 and z2 we already know the value so z1
+
+00:34:55.800 --> 00:34:59.200
+and z2 is here and here and then simply i'm going to
+
+00:34:59.200 --> 00:35:02.260
+calculate the output okay okay fine so these are the three
+
+00:35:02.260 --> 00:35:04.880
+equation as this new network is going to grow so obviously
+
+00:35:04.880 --> 00:35:07.480
+this equation will grow that's the reason so i have taken a
+
+00:35:07.480 --> 00:35:11.320
+very simple one 2 2 1 right smaller than that i can't take
+
+00:35:11.320 --> 00:35:18.780
+now formula has been derived in front of me what kind of
+
+00:35:18.780 --> 00:35:23.780
+output i will be able to get i know i have input as well and
+
+00:35:23.780 --> 00:35:26.400
+i have output but yes this is going to give me prediction
+
+00:35:26.400 --> 00:35:29.640
+basically y hat and i have a original y so that you know i
+
+00:35:29.640 --> 00:35:32.660
+can go and i can calculate the difference loss and then i
+
+00:35:32.660 --> 00:35:36.600
+will be able to change those values so this entire equation
+
+00:35:36.600 --> 00:35:42.540
+this entire things basically looks sorted to me now you know
+
+00:35:42.540 --> 00:35:45.920
+so this looks sorted to me and
+
+00:35:47.970 --> 00:35:52.310
+i will be able to get some sort of a output but can i say
+
+00:35:52.310 --> 00:35:56.710
+that right there is a problem with this output and what is a
+
+00:35:56.710 --> 00:35:59.430
+problem right what is a problem with respect to this output
+
+00:35:59.430 --> 00:36:05.010
+so So output problem is very very simple in this particular
+
+00:36:05.010 --> 00:36:07.810
+way. I can try to take bias generally bias is equal to 0 so
+
+00:36:07.810 --> 00:36:12.070
+it's fine. Let's let's like you know not concentrate on bias
+
+00:36:12.070 --> 00:36:14.690
+or maybe you can try to add it it's completely up to you.
+
+00:36:15.010 --> 00:36:18.390
+Now here so we are able to get the output because that is
+
+00:36:18.390 --> 00:36:21.630
+not a big problem. So we are able to get the output but
+
+00:36:21.630 --> 00:36:25.970
+there is a big big problem. So this Z1 equation can I say
+
+00:36:25.970 --> 00:36:29.730
+it's a complete linear equation and this Z2 equation is also
+
+00:36:29.730 --> 00:36:34.990
+also a linear equation yes z1 z2 both is linear equation and
+
+00:36:34.990 --> 00:36:39.170
+even my output equation is a linear equation and inside this
+
+00:36:39.170 --> 00:36:43.410
+output equation i can put z1 and z2 so both equations are
+
+00:36:43.410 --> 00:36:46.410
+technically a linear equation and trying to put that into
+
+00:36:46.410 --> 00:36:50.290
+another linear equation so can i say that eventually this o1
+
+00:36:50.290 --> 00:36:58.160
+will also be a linear equation yes everyone yeah that's the
+
+00:36:58.160 --> 00:37:00.720
+problem what is the the problem with the linearity the
+
+00:37:00.720 --> 00:37:04.580
+problem is very simple that in this entire world barely you
+
+00:37:04.580 --> 00:37:07.840
+will be able to find out anything right barely you will be
+
+00:37:07.840 --> 00:37:10.540
+able to find out any relation which is linear in nature
+
+00:37:10.540 --> 00:37:14.000
+which you can calculate it just on a straight line because
+
+00:37:14.000 --> 00:37:16.520
+linear equation is what this is basically mx plus c kind of
+
+00:37:16.520 --> 00:37:20.720
+equation z1 z2 and even o1 is mx plus c kind of equation
+
+00:37:20.720 --> 00:37:23.660
+right we have beta and biases even over there we have m and
+
+00:37:23.660 --> 00:37:27.680
+c so technically this This is a linear equation and it will
+
+00:37:27.680 --> 00:37:31.180
+always try to understand the pattern of a straight line.
+
+00:37:31.380 --> 00:37:34.240
+It's not basically a non-linear equation, so it will not be
+
+00:37:34.240 --> 00:37:36.540
+able to understand the complex one. But the problem with the
+
+00:37:36.540 --> 00:37:39.560
+actual world is, real world is that, that nothing is linear,
+
+00:37:39.700 --> 00:37:42.740
+right? Even if I talk about images, it's not linear. My
+
+00:37:42.740 --> 00:37:45.920
+speech, not linear at all. Even my face, not linear at all,
+
+00:37:45.940 --> 00:37:49.740
+right? Even a simple data set, if you are going to consider,
+
+00:37:49.960 --> 00:37:52.800
+nothing is linear. That is a major problem with this
+
+00:37:52.800 --> 00:37:57.260
+equation. then what people have done right then what people
+
+00:37:57.260 --> 00:38:03.020
+have done basically to control this linearity so people said
+
+00:38:03.020 --> 00:38:05.720
+that that okay this is a linear equation that's completely
+
+00:38:05.720 --> 00:38:10.020
+fine right we can try to make it non-linear so somehow if i
+
+00:38:10.020 --> 00:38:14.380
+can try to make it non-linear it will be able to understand
+
+00:38:14.380 --> 00:38:18.880
+basically a complex problem if this equation itself become a
+
+00:38:18.880 --> 00:38:22.360
+non-linear right it will be able to adopt or it will be able
+
+00:38:22.360 --> 00:38:26.260
+to adjust itself with respect to a non-linear data set as
+
+00:38:26.260 --> 00:38:29.800
+well and this is where right this is where the term called
+
+00:38:29.800 --> 00:38:34.540
+as activation function came into picture so this is where
+
+00:38:34.540 --> 00:38:36.920
+there is something called as activation function
+
+00:38:40.580 --> 00:38:44.910
+activation function comes into picture now what is this
+
+00:38:44.910 --> 00:38:48.010
+activation function right what is the activation function so
+
+00:38:48.010 --> 00:38:52.310
+let me give you one example over here so if i am going to
+
+00:38:52.310 --> 00:38:55.950
+write a equation called as 1 by 1 plus e to the power minus
+
+00:38:55.950 --> 00:39:02.170
+of z for any input starting from minus infinity to plus
+
+00:39:02.170 --> 00:39:05.190
+infinity what is the output range i believe we have seen
+
+00:39:05.190 --> 00:39:08.450
+this equation and what is this equation called as quick
+
+00:39:10.660 --> 00:39:15.880
+everyone so for any kind of input from minus infinity to
+
+00:39:15.880 --> 00:39:17.980
+plus infinity what is the output that you will be able to
+
+00:39:17.980 --> 00:39:24.820
+get yes so can i say that that this is what a sigmoid graph
+
+00:39:24.820 --> 00:39:27.800
+looks like so for any input from minus infinity to plus
+
+00:39:27.800 --> 00:39:31.100
+infinity it is always going to give you output between 0 to
+
+00:39:31.100 --> 00:39:34.880
+1 doesn't matter what is your input out will be 0 to 1 right
+
+00:39:34.880 --> 00:39:39.740
+always 0 to 1 fine and can i say that that this is basically
+
+00:39:39.740 --> 00:39:44.120
+a non-linear equation equation this is basically a non
+
+00:39:44.120 --> 00:39:46.960
+-linear equation right okay so what people said that that
+
+00:39:46.960 --> 00:39:50.880
+okay so this is likewise there are so many other like a non
+
+00:39:50.880 --> 00:39:53.120
+-linear equation you will be able to find out so i'll be
+
+00:39:53.120 --> 00:39:56.500
+introducing a lot of like you know activation function one
+
+00:39:56.500 --> 00:39:59.300
+by one one by one but first of all let's try to understand
+
+00:39:59.300 --> 00:40:03.800
+just this one right so here people said that that okay so i
+
+00:40:03.800 --> 00:40:08.900
+want a non-linearity because if i'm not going to introduce a
+
+00:40:08.900 --> 00:40:13.240
+non-linearity my network will not be able to learn because
+
+00:40:13.240 --> 00:40:15.840
+barely any data in this entire world is going to be linear
+
+00:40:15.840 --> 00:40:18.460
+right which i can fit into a straight line that is not
+
+00:40:18.460 --> 00:40:22.320
+possible so if that is not possible make it non-linear so i
+
+00:40:22.320 --> 00:40:24.820
+have to make this entire equation non-linear so what people
+
+00:40:24.820 --> 00:40:28.100
+have done so they have suggested that that the hidden layer
+
+00:40:28.100 --> 00:40:30.960
+which is responsible for actual learning and there will be
+
+00:40:30.960 --> 00:40:33.560
+so many hidden layers in between so let's try to do one
+
+00:40:33.560 --> 00:40:37.780
+thing introduce a activation functions here so activation
+
+00:40:37.780 --> 00:40:42.360
+function will come in this particular place so maybe i can i
+
+00:40:42.360 --> 00:40:47.100
+can point it down in this panel yeah so this activation
+
+00:40:47.100 --> 00:40:51.440
+function will come where inside a hidden layer this one
+
+00:40:51.440 --> 00:40:54.520
+right hidden layer because this is basically responsible for
+
+00:40:54.520 --> 00:40:57.160
+learning input is fixed output is fixed right Right. It's
+
+00:40:57.160 --> 00:41:00.240
+just a input and output calculation. But yes, this is
+
+00:41:00.240 --> 00:41:02.040
+something which is going to help me out in terms of
+
+00:41:02.040 --> 00:41:05.060
+learning. And there will be multiple hidden layers. And in
+
+00:41:05.060 --> 00:41:07.120
+every hidden layers, there will be multiple different kind
+
+00:41:07.120 --> 00:41:12.220
+of like number of neurons and number of neurons. So here,
+
+00:41:12.360 --> 00:41:15.840
+basically what will happen, we are going to put activation
+
+00:41:15.840 --> 00:41:18.800
+function. So, for example, if I'm going to put this
+
+00:41:18.800 --> 00:41:22.320
+activation function, which is called as sigmoid, right,
+
+00:41:22.380 --> 00:41:26.260
+sigmoid for any input output will always be between zero to
+
+00:41:26.260 --> 00:41:28.840
+one. So if I am going to put this sigmoid function so what
+
+00:41:28.840 --> 00:41:35.000
+will happen the Z1 and Z2 right Z1 and Z2 will not go
+
+00:41:35.000 --> 00:41:39.180
+directly into my output O1 the one which I have written over
+
+00:41:39.180 --> 00:41:43.100
+here Z1 and Z2 will never go directly into my O1. What will
+
+00:41:43.100 --> 00:41:47.320
+happen Z1 and Z2 first of all will go inside the activation
+
+00:41:47.320 --> 00:41:51.600
+function and make this entire equation this entire entity as
+
+00:41:51.600 --> 00:41:56.920
+a non-linear entity and then that will go inside output. so
+
+00:41:56.920 --> 00:42:00.100
+in this manner can i say that that previously i was getting
+
+00:42:00.100 --> 00:42:03.480
+a simple linear output i will be able to get some sort of
+
+00:42:03.480 --> 00:42:07.680
+output between 0 to 1 i mean i can expect yes
+
+00:42:10.750 --> 00:42:15.430
+yeah so that that's the whole idea so here we are going to
+
+00:42:15.430 --> 00:42:20.610
+put activation function so technically right this is not
+
+00:42:20.610 --> 00:42:23.810
+going to come here output function o1 is not going to be
+
+00:42:23.810 --> 00:42:28.590
+this it is going to change because here this z1 is nothing
+
+00:42:28.590 --> 00:42:32.510
+but and z2 is nothing but now go into sigmoid so let me
+
+00:42:32.510 --> 00:42:36.530
+represent that as a sigma with the help of sigma right so
+
+00:42:36.530 --> 00:42:41.670
+this output one is going to be basically the output of
+
+00:42:41.670 --> 00:42:54.990
+sigmoid of z1 w5 plus sigmoid of z2 w6 w6 now this is going
+
+00:42:54.990 --> 00:42:58.950
+to my actual output output so because of this particular
+
+00:42:58.950 --> 00:43:01.810
+entity because of this particular entity which is trying to
+
+00:43:01.810 --> 00:43:07.410
+make my entire deal non-linear as simple as that fine so
+
+00:43:07.410 --> 00:43:10.290
+this is going to be your output means so
+
+00:43:17.200 --> 00:43:20.980
+this is going to be yours y hat prediction basically right
+
+00:43:20.980 --> 00:43:24.080
+this is going to be your y hat prediction now what you will
+
+00:43:24.080 --> 00:43:28.960
+do you have a y hat and at the time of training you have y
+
+00:43:28.960 --> 00:43:32.800
+as well you have both basically y and y hat so what you will
+
+00:43:32.800 --> 00:43:36.320
+do and the way you do it even inside a machine learning you
+
+00:43:36.320 --> 00:43:41.800
+always try to find out the loss loss is what y minus y hat i
+
+00:43:41.800 --> 00:43:45.420
+have both the values basically right y minus y hat i have
+
+00:43:45.420 --> 00:43:50.880
+both the values so i will try to calculate a loss now who is
+
+00:43:50.880 --> 00:43:56.060
+responsible for a loss let me write down bias as well so
+
+00:43:56.060 --> 00:43:59.380
+like b3 let's say i'm saying over here who is responsible
+
+00:43:59.380 --> 00:44:02.740
+for a loss so if i am getting some sort of a loss in between
+
+00:44:03.370 --> 00:44:10.810
+who is responsible for a loss by the way can i say for y hat
+
+00:44:10.810 --> 00:44:15.290
+right to do this y hat calculation w and b is responsible
+
+00:44:15.290 --> 00:44:19.450
+weight and bias that i have taken so those are basically
+
+00:44:19.450 --> 00:44:24.110
+responsible responsible so basically my weights and my
+
+00:44:24.110 --> 00:44:28.770
+biases are responsible for my loss and weights and biases
+
+00:44:28.770 --> 00:44:32.210
+are everywhere right so we have weights over here we have
+
+00:44:32.210 --> 00:44:34.670
+bias over here weight over here bias over here weight over
+
+00:44:34.670 --> 00:44:37.830
+here bias over here let's say b3 in this particular place so
+
+00:44:37.830 --> 00:44:40.190
+we have weight and biases beta and biases beta and biases
+
+00:44:40.190 --> 00:44:44.190
+everywhere and they are the only one who is helping me out
+
+00:44:44.190 --> 00:44:48.450
+to get my y hat basically a prediction right so weight and
+
+00:44:48.450 --> 00:44:52.030
+biases are actually responsible for my losses and if they
+
+00:44:52.030 --> 00:44:55.530
+are responsible for my losses so i'm supposed to do what i'm
+
+00:44:55.530 --> 00:44:58.910
+supposed to change this one simply means that that i'm
+
+00:44:58.910 --> 00:45:01.230
+supposed to find out i'm
+
+00:45:04.720 --> 00:45:08.160
+supposed to find out a new weight and i'm supposed to find
+
+00:45:08.160 --> 00:45:14.100
+out a new biases new biases so let's say new bias is a old
+
+00:45:14.100 --> 00:45:18.420
+bias minus minus eta rate of change of loss with respect to
+
+00:45:18.420 --> 00:45:27.170
+a w and then bias old eta rate of change of l with respect
+
+00:45:27.170 --> 00:45:31.850
+to b i believe we have seen this equation even before yes
+
+00:45:36.420 --> 00:45:39.520
+we all have seen this equation even before right but this
+
+00:45:39.520 --> 00:45:43.400
+time game is little bit different right formula is same by
+
+00:45:43.400 --> 00:45:46.420
+the way formula is same so even chain rule or something that
+
+00:45:46.420 --> 00:45:49.120
+we are going to use it that is also so same the only
+
+00:45:49.120 --> 00:45:52.600
+difference is this one that previously we have seen some
+
+00:45:52.600 --> 00:45:55.180
+situations where it was completely linear right it was
+
+00:45:55.180 --> 00:45:59.340
+completely linear this time so it's like a layer by layer
+
+00:45:59.340 --> 00:46:03.760
+non-linear it simply means that that you will try to travel
+
+00:46:03.760 --> 00:46:07.000
+in a backward direction basically backward direction you
+
+00:46:07.000 --> 00:46:11.980
+will try to travel so you will change w5 then w6 then you
+
+00:46:11.980 --> 00:46:15.700
+will come here and then you will change like a w11 w21 w12
+
+00:46:15.700 --> 00:46:19.820
+w22 all those things then b1 b2 all those things so in this
+
+00:46:19.820 --> 00:46:23.120
+manner you will propagate in a backward direction you will
+
+00:46:23.120 --> 00:46:25.380
+propagate so that's the reason it's called as backward
+
+00:46:25.380 --> 00:46:28.880
+propagation and this backward propagation is also called as
+
+00:46:28.880 --> 00:46:33.880
+learning learning means in terms of machine basically in
+
+00:46:33.880 --> 00:46:37.660
+terms of machine so when i say learning it simply means that
+
+00:46:37.660 --> 00:46:42.220
+that i'm trying to find out new value of weight and new
+
+00:46:42.220 --> 00:46:46.560
+value of biases that's it that's a learning if i'm able to
+
+00:46:46.560 --> 00:46:49.100
+find out the new one and new one is nothing but the old one
+
+00:46:49.100 --> 00:46:53.980
+minus eta which is what learning rate again a parameter
+
+00:46:53.980 --> 00:46:57.940
+which controls the changes into like a fine like the new one
+
+00:46:57.940 --> 00:47:01.280
+and the old one and then rate of change of loss with respect
+
+00:47:01.280 --> 00:47:05.100
+to w it will change the laws with respect to the biases very
+
+00:47:05.100 --> 00:47:08.340
+very simple so that's our same philosophy like that we have
+
+00:47:08.340 --> 00:47:12.860
+discussed but yes it's called as backward propagation in a
+
+00:47:12.860 --> 00:47:17.780
+neural network forward in a forward propagation does it
+
+00:47:17.780 --> 00:47:22.340
+learn no not at all never say that it learns anything in a
+
+00:47:22.340 --> 00:47:25.540
+forward propagation it is just giving you the output your y
+
+00:47:25.540 --> 00:47:29.200
+hat it is trying to give it to you in a backward propagation
+
+00:47:29.200 --> 00:47:33.980
+it is trying to learn something so hope this idea is clear
+
+00:47:33.980 --> 00:47:39.800
+guys to all of us how neural network learns basically yes
+
+00:47:45.980 --> 00:47:50.480
+okay now what we can do so maybe we can try to put up some
+
+00:47:50.480 --> 00:47:54.000
+values of w1112 and all those things and then one round of
+
+00:47:54.000 --> 00:47:56.620
+calculation we can do it right one round of calculation we
+
+00:47:56.620 --> 00:48:00.120
+can do it and i think that will help you out even to you
+
+00:48:00.120 --> 00:48:03.620
+know understand this entire concept in a better manner so
+
+00:48:03.620 --> 00:48:07.220
+we'll try to put some real values over there and based on
+
+00:48:07.220 --> 00:48:12.040
+those real values let's do the math yeah let's do the math
+
+00:48:12.040 --> 00:48:16.660
+based on those real values fine so let's go ahead so let me
+
+00:48:16.660 --> 00:48:21.420
+redraw this new network data is going to be same so i'm not
+
+00:48:21.420 --> 00:48:23.480
+going to do anything different i'll just try to put some
+
+00:48:23.480 --> 00:48:29.800
+real values so x1 x2 and then y so x1 is 1 x2 is 2 and y is
+
+00:48:29.800 --> 00:48:32.840
+equal to 1 this is my expectation right and then like i have
+
+00:48:32.840 --> 00:48:36.300
+a neural network so which is going to take value here one
+
+00:48:36.300 --> 00:48:39.440
+and here it is going to take values equals to two there will
+
+00:48:39.440 --> 00:48:42.760
+be two hidden network and there will be an output layer
+
+00:48:42.760 --> 00:48:47.520
+right there will be an output layer okay now here so maybe i
+
+00:48:47.520 --> 00:48:51.700
+can try to initialize this particular weight so from here it
+
+00:48:51.700 --> 00:48:55.540
+will go here and then it will go here in both the places it
+
+00:48:55.540 --> 00:48:58.820
+is like it will go so one will try to go here one will try
+
+00:48:58.820 --> 00:49:03.360
+to go in this particular place as well very very simple so i
+
+00:49:03.360 --> 00:49:09.760
+am going to initialize this particular value as uh 0.1 let's
+
+00:49:09.760 --> 00:49:12.440
+say and i'm going to install this value is equal to 0.2
+
+00:49:12.440 --> 00:49:18.960
+right 0.1 0.2 then one from here it will go here and then it
+
+00:49:18.960 --> 00:49:27.790
+will go here uh 0.1 0.2 fine it will create a bit of
+
+00:49:27.790 --> 00:49:30.330
+confusion fusion this
+
+00:49:40.660 --> 00:49:47.020
+one and this one let's say i'm like uh you know doing it
+
+00:49:47.020 --> 00:50:01.580
+like 0.1 0.3 and then here so 0.2 and then 0.4 any random
+
+00:50:01.580 --> 00:50:03.880
+value you can take it so these are the value of the weight
+
+00:50:03.880 --> 00:50:07.260
+which i have taken by the way uh initially generally i used
+
+00:50:07.260 --> 00:50:09.560
+to say that that you can take any random value of weight and
+
+00:50:09.560 --> 00:50:12.620
+biases but there is a method by which you can even
+
+00:50:12.620 --> 00:50:15.980
+initialize the weight as simple as that jvr method and he
+
+00:50:15.980 --> 00:50:18.200
+method so these are the method by which you can utilize the
+
+00:50:18.200 --> 00:50:22.460
+weight as well now there is a output layer i have so output
+
+00:50:22.460 --> 00:50:25.060
+will come from here to here output will come from here to
+
+00:50:25.060 --> 00:50:28.920
+here this is my hidden layer so here i'm going to use a
+
+00:50:28.920 --> 00:50:32.400
+sigmoid function so 1 by 1 plus e to the power minus of z z
+
+00:50:32.400 --> 00:50:35.780
+1 by 1 1
+
+00:50:37.830 --> 00:50:41.330
+by 1 plus e to the power minus of z so sigmoid function
+
+00:50:41.330 --> 00:50:44.330
+sigmoid function i'm going to use plus i will be using some
+
+00:50:44.330 --> 00:50:48.070
+biases as well so let's say bias is equal to 0.1 bias is
+
+00:50:48.070 --> 00:50:53.210
+equal to 0.1 so this is my b this is my b by the way okay uh
+
+00:50:53.210 --> 00:50:56.590
+then i'm going to take some sort of a weight even over there
+
+00:50:56.590 --> 00:51:02.270
+so maybe i can try to consider that as a 0.5 and then 0.6 in
+
+00:51:02.270 --> 00:51:04.790
+this particular place which is eventually going to give me
+
+00:51:04.790 --> 00:51:08.610
+some sort of a output and even bias over here i can consider
+
+00:51:08.610 --> 00:51:13.050
+at one if you want fine now let's do a math basically so
+
+00:51:13.050 --> 00:51:16.490
+what is going to my output so if i'm going to do a math by
+
+00:51:16.490 --> 00:51:23.230
+the way so what is going to my output so my output wise so i
+
+00:51:23.230 --> 00:51:27.770
+can try to calculate it first of all try to calculate what
+
+00:51:27.770 --> 00:51:31.270
+is going inside the hidden layer so let's say i'm calling it
+
+00:51:31.270 --> 00:51:35.370
+as a h1 and i'm calling it as a h2 so what is going inside
+
+00:51:35.370 --> 00:51:40.950
+h1 so inside h1 this is coming and this is coming right so 0
+
+00:51:40.950 --> 00:51:47.090
+.1 is coming 0.2 is coming so 1 into 0.1 1 into 0.1 this one
+
+00:51:47.090 --> 00:51:52.430
+and then 2 into 0.2 so 2 into 0.2 is coming and then there
+
+00:51:52.430 --> 00:51:57.930
+is a bias so 0.1 so this is basically coming here input as a
+
+00:51:57.930 --> 00:52:01.310
+input so now do the math guys quickly give me the number
+
+00:52:01.310 --> 00:52:06.770
+quick and then what is going into this h2 so going into h2
+
+00:52:06.770 --> 00:52:12.870
+is uh basically 1 into 0.3 1 into 0.3 plus uh 2 into
+
+00:52:12.870 --> 00:52:19.670
+basically 0.4 so 2 into 0.4 plus bias is equal to 0.1 do the
+
+00:52:19.670 --> 00:52:23.650
+math how many hidden layer we can try to add you can try to
+
+00:52:23.650 --> 00:52:25.030
+add as many as you want
+
+00:52:27.980 --> 00:52:32.400
+yeah do the math guys quickly so h1 it is saying 0.6 okay
+
+00:52:32.400 --> 00:52:36.600
+fine what is h2 open up guys open up calculator i have not
+
+00:52:36.600 --> 00:52:38.540
+done this calculation so i've just taken the random number
+
+00:52:38.540 --> 00:52:39.580
+quick
+
+00:52:42.040 --> 00:52:48.340
+quick everyone quick 0.6 what is h2 do the math h2
+
+00:52:57.690 --> 00:53:02.470
+is equal to 1.2 okay so h2 is equal to 0.6 sorry h1 is equal
+
+00:53:02.470 --> 00:53:07.290
+to 0.6 h2 is equal to 0.2 now it will go here right it will
+
+00:53:07.290 --> 00:53:11.730
+go inside this sigmoid function so now uh basically sigmoid
+
+00:53:11.730 --> 00:53:16.930
+of h1 is and sigmoid of basically h2 you have to calculate
+
+00:53:16.930 --> 00:53:20.930
+sigmoid of h2 you have to calculate so do the math 1 plus e
+
+00:53:20.930 --> 00:53:26.170
+to the power minus of 0.6 and then 1 by 1 plus e to the
+
+00:53:26.170 --> 00:53:31.410
+power minus of 1.2 give me the number for both that is going
+
+00:53:31.410 --> 00:53:32.390
+to be the output here
+
+00:53:35.450 --> 00:53:38.550
+again quick guys give me the output so
+
+00:53:56.850 --> 00:53:59.590
+h1 is equal to 0.6 okay fine h1 is equal to
+
+00:54:02.910 --> 00:54:08.170
+0.264 fine and what is h2 i'm assuming that you are doing a
+
+00:54:08.170 --> 00:54:12.530
+correct calculation so i have a trust on you and
+
+00:54:20.210 --> 00:54:24.530
+this one is equal to 0.76 okay fine so let's take it as a 0
+
+00:54:24.530 --> 00:54:32.090
+.76 cool so we have taken 0.64 0.76 now what is my output so
+
+00:54:32.090 --> 00:54:38.770
+my output is going to be my output is going to to be 0.64 0
+
+00:54:38.770 --> 00:54:52.610
+.64 into 0.5 so 0.5 plus 0.76 0.76 into what into 0.6 0.6
+
+00:54:52.610 --> 00:54:58.850
+plus 1 now sorry plus 0.1 right 0.1 now give me the
+
+00:54:58.850 --> 00:55:02.830
+calculation that is going to my output yeah
+
+00:55:20.660 --> 00:55:23.280
+so output is going to be what 1
+
+00:55:30.990 --> 00:55:36.770
+.78 no looks like it's a wrong output i i think you should
+
+00:55:36.770 --> 00:55:42.050
+do a calculation once again it's a 0.64 into 0.05 0.76 into
+
+00:55:42.050 --> 00:55:46.670
+0.06 plus 0.1 i think i think you have taken this one as a
+
+00:55:46.670 --> 00:55:50.190
+one maybe because of that this is 0.1 right this is bias
+
+00:55:50.190 --> 00:55:55.390
+this part so uh it's saying like eight yeah yeah this looks
+
+00:55:55.390 --> 00:56:02.310
+uh fine fine yeah so this is going to be 0.876 okay cool
+
+00:56:02.310 --> 00:56:06.750
+this is eight 0.876 is the output that we are able to get
+
+00:56:06.750 --> 00:56:12.830
+now so as we have used basically a sigmoid here so and we
+
+00:56:12.830 --> 00:56:15.210
+are looking for a probability even in this particular place
+
+00:56:15.210 --> 00:56:19.730
+as a probability so now just try to input this one again
+
+00:56:19.730 --> 00:56:24.770
+inside the sigmoid so basically sigmoid of o output so one
+
+00:56:24.770 --> 00:56:31.110
+by one plus e to the power minus of what minus of 0.876 now
+
+00:56:31.110 --> 00:56:33.010
+give me the final value so
+
+00:56:35.860 --> 00:56:39.280
+this is going to my y hat yeah this is going to my y hat so
+
+00:56:39.280 --> 00:56:44.220
+my y hat is going to be uh how much uh tyler is saying 0.706
+
+00:56:44.220 --> 00:56:47.520
+i i think niti is also saying the same so it is going to be
+
+00:56:47.520 --> 00:56:54.980
+0.706 so now this is y hat is basically 706 and i have
+
+00:56:54.980 --> 00:56:58.720
+passed this function into a sigmoid technically it's a
+
+00:56:58.720 --> 00:57:02.100
+probability function so for any range of minus infinity to
+
+00:57:02.100 --> 00:57:04.760
+plus infinity it is always going to give you value between 0
+
+00:57:04.760 --> 00:57:07.800
+to 1 which i can use it technically for like finding out my
+
+00:57:07.800 --> 00:57:11.020
+classes technically i'm solving classification problem right
+
+00:57:11.020 --> 00:57:14.260
+0 1 0 and 0 1 this kind of problem i'm trying to solve okay
+
+00:57:14.260 --> 00:57:19.980
+so i'm able to get this one now which class it is class 0
+
+00:57:19.980 --> 00:57:21.420
+class 1 can
+
+00:57:25.380 --> 00:57:31.480
+i say class 1 more than 0.5 right class 1 in theory right so
+
+00:57:31.480 --> 00:57:35.900
+more than 0.1 class 1 so y hat i can say that classification
+
+00:57:35.900 --> 00:57:39.800
+wise right as this is the answer coming from my sigmoid that
+
+00:57:39.800 --> 00:57:44.900
+it belongs to class one what is my y class one right what is
+
+00:57:44.900 --> 00:57:49.400
+my y so class one so yes i was expecting class y is equal to
+
+00:57:49.400 --> 00:57:53.740
+one and it has given me class y is equal to one okay that's
+
+00:57:53.740 --> 00:57:59.300
+cool but this is just uh you know like overall estimation
+
+00:57:59.300 --> 00:58:02.660
+right based on the overall estimation i have estimated that
+
+00:58:02.660 --> 00:58:06.820
+that you know when y is going to be more than 0.5 give me
+
+00:58:06.820 --> 00:58:10.320
+one and eventually based on that estimation i'm trying to
+
+00:58:10.320 --> 00:58:13.360
+basically like you know say that that my y hat is equals to
+
+00:58:13.360 --> 00:58:18.860
+y but is it really equal can i say there is still a
+
+00:58:18.860 --> 00:58:24.100
+difference between y hat and y if my network is really very
+
+00:58:24.100 --> 00:58:28.100
+good it should go closer to what it should tend towards one
+
+00:58:28.100 --> 00:58:32.820
+i'm 30 percent down right i'm 30 percent down so i have a
+
+00:58:32.820 --> 00:58:36.940
+huge probability i have a huge possibility so where i can
+
+00:58:36.940 --> 00:58:40.940
+try to enhance this entire network so that it can learn a
+
+00:58:40.940 --> 00:58:45.220
+data in a better manner right it can learn data so in a very
+
+00:58:45.220 --> 00:58:48.840
+first lap itself of a forward propagation i am able to see
+
+00:58:48.840 --> 00:58:51.440
+this data in a forward propagation this was basically
+
+00:58:51.440 --> 00:58:56.180
+forward propagation so i am able to get result as 0.706
+
+00:58:56.180 --> 00:58:58.700
+something like this right so which is eventually i can
+
+00:58:58.700 --> 00:59:03.460
+convert it into accurate prediction but still there is a
+
+00:59:03.460 --> 00:59:07.360
+huge chance where i can try to enhance this network enhance
+
+00:59:07.360 --> 00:59:10.280
+this network means i can change all this like weight and
+
+00:59:10.280 --> 00:59:13.780
+biases that we have which has eventually helped me out in
+
+00:59:13.780 --> 00:59:16.240
+terms of doing the calculation in terms of doing this math
+
+00:59:16.240 --> 00:59:21.500
+means there is a scope of learning my output is not an ideal
+
+00:59:21.500 --> 00:59:24.700
+output by the way right even though classes wise it's
+
+00:59:24.700 --> 00:59:28.500
+completely fine so i I can try to tune it. Okay, fine. And
+
+00:59:28.500 --> 00:59:31.860
+this is where the learning comes into picture. So, so far,
+
+00:59:31.900 --> 00:59:37.410
+have my network learned anything? So far?
+
+00:59:41.040 --> 00:59:47.120
+Yes or no? Quick. Sunita is saying no. Jeevan is saying no.
+
+00:59:47.860 --> 00:59:53.320
+Yes. It has not learned anything. Learning is what? When I
+
+00:59:53.320 --> 00:59:56.020
+will change, right? Change what? Bait and biases. Because
+
+00:59:56.020 --> 00:59:58.780
+bait and biases is something which is responsible for my
+
+00:59:58.780 --> 01:00:02.820
+output. So far it has not learned anything. When it will
+
+01:00:02.820 --> 01:00:06.300
+learn? When I will move in this direction backward
+
+01:00:06.300 --> 01:00:10.140
+propagation. Where what I will do? I will change this bias.
+
+01:00:10.300 --> 01:00:12.220
+I'll change this weight. I'll change this weight. I'll
+
+01:00:12.220 --> 01:00:14.460
+change this bias. I'll change this bias. I'll change this
+
+01:00:14.460 --> 01:00:16.860
+weight. This weight. This weight. This weight. Right. And
+
+01:00:16.860 --> 01:00:19.500
+then again I'll do a forward propagation. Again I'll do the
+
+01:00:19.500 --> 01:00:22.340
+same calculation. And then we'll try to check. So whether
+
+01:00:22.340 --> 01:00:26.960
+I'm able to come closer towards basically. Whether I'm able
+
+01:00:26.960 --> 01:00:30.280
+to come closer towards one or not. this value wise the y
+
+01:00:30.280 --> 01:00:34.100
+head wise right then i can say that if i'm next lap if i'm
+
+01:00:34.100 --> 01:00:37.760
+able to make it like a 0.77 i can say that yes i have
+
+01:00:37.760 --> 01:00:41.160
+learned something right i'm able to improvise the result
+
+01:00:41.160 --> 01:00:44.540
+basically right although my final result is not going to be
+
+01:00:44.540 --> 01:00:49.220
+like a change it's going to be class one but still if i'm
+
+01:00:49.220 --> 01:00:51.680
+going to increase it right so i will come closer and closer
+
+01:00:51.680 --> 01:00:54.680
+towards building up better neural network so that is
+
+01:00:54.680 --> 01:00:58.600
+something going to happen in a backward propagation guys is
+
+01:00:58.600 --> 01:01:02.220
+right so eventually what i will do so i'll try to find out
+
+01:01:02.220 --> 01:01:04.220
+basically a difference
+
+01:01:06.340 --> 01:01:13.920
+between y and y hat and based on those differences we will
+
+01:01:13.920 --> 01:01:17.740
+try to perform these operations so
+
+01:01:28.580 --> 01:01:33.400
+here now if i'll talk about you know the changes that i have
+
+01:01:33.400 --> 01:01:37.300
+to do so how many parameter we have to change change so i
+
+01:01:37.300 --> 01:01:41.880
+have to change basically one two three four five six six
+
+01:01:41.880 --> 01:01:47.140
+weights and three biases i have to change not just one so i
+
+01:01:47.140 --> 01:01:51.420
+have to change basically in total nine so going forward when
+
+01:01:51.420 --> 01:01:54.140
+i will talk we'll be talking about a neural network so in
+
+01:01:54.140 --> 01:01:56.780
+every new network programmatically i'll show you what is a
+
+01:01:56.780 --> 01:02:00.780
+trainable parameter and even when people used to release our
+
+01:02:00.780 --> 01:02:03.740
+lms right Right. You might have heard about these many
+
+01:02:03.740 --> 01:02:06.160
+parameters, billions of parameters, million, 10 million
+
+01:02:06.160 --> 01:02:09.660
+parameter, 1 billion parameter, 10 billion parameter, 100
+
+01:02:09.660 --> 01:02:13.080
+billion, even 600 billion parameter, 60B, 60 billion
+
+01:02:13.080 --> 01:02:19.740
+parameter. So what are those parameters, by the way? You
+
+01:02:19.740 --> 01:02:22.740
+must have heard about this terms, right? So whenever maybe
+
+01:02:22.740 --> 01:02:25.460
+you can go and check maybe chat, GPT, cloud, whatsoever you
+
+01:02:25.460 --> 01:02:28.940
+want everywhere with every model, you will be able to see
+
+01:02:28.940 --> 01:02:32.980
+this label. table 60 billion parameter 80 billion parameter
+
+01:02:32.980 --> 01:02:36.840
+100 billion parameter what is the meaning of that what is
+
+01:02:36.840 --> 01:02:41.500
+the meaning of those parameters is it representing your x1
+
+01:02:41.500 --> 01:02:46.460
+x2 y or something is it representing x1 x2 y or all those
+
+01:02:46.460 --> 01:02:51.080
+things input output yes keith
+
+01:02:56.810 --> 01:03:02.020
+is saying yes and no it's it's actually representing your
+
+01:03:02.020 --> 01:03:03.780
+trainable parameters there is something called a total
+
+01:03:03.780 --> 01:03:06.320
+parameter there is something called a trainable parameter so
+
+01:03:06.320 --> 01:03:08.460
+basically it represents are weights and biases number of
+
+01:03:08.460 --> 01:03:10.900
+parameter that you are going to basically train so there is
+
+01:03:10.900 --> 01:03:12.480
+something called as total parameter term there is something
+
+01:03:12.480 --> 01:03:15.000
+called as a trainable parameter term so weight and biases
+
+01:03:15.000 --> 01:03:17.600
+are basically a changeable one right so basically i can say
+
+01:03:17.600 --> 01:03:20.800
+that okay it's a trainable parameter so in total as of now i
+
+01:03:20.800 --> 01:03:26.000
+have nine uh six weights right six weights and then three
+
+01:03:26.000 --> 01:03:30.940
+biases in total i have a nine total parameter and for all
+
+01:03:30.940 --> 01:03:35.720
+nine total nine parameter right nine parameter so we will
+
+01:03:35.720 --> 01:03:43.140
+try to do a computation of what of this this equation and
+
+01:03:43.140 --> 01:03:46.540
+this equation individually we are going to perform this
+
+01:03:46.540 --> 01:03:51.440
+particular operation and to do this operation what do we
+
+01:03:51.440 --> 01:03:58.020
+need we need our loss function right everyone we need our
+
+01:03:58.020 --> 01:04:01.780
+our loss function because this is a derivative we will be
+
+01:04:01.780 --> 01:04:07.340
+able to find out with respect to loss function yes so for
+
+01:04:07.340 --> 01:04:09.820
+classification and for regression so it's going to be
+
+01:04:09.820 --> 01:04:12.020
+different different kind of a loss function so again it's
+
+01:04:12.020 --> 01:04:15.840
+not going to be a one loss function so anyone remembers what
+
+01:04:15.840 --> 01:04:18.980
+is the loss function that we have used in a logistic
+
+01:04:18.980 --> 01:04:23.940
+regression by the way i think i talked about that so
+
+01:04:26.060 --> 01:04:30.970
+what is the loss function that we have used in logistic log
+
+01:04:30.970 --> 01:04:34.850
+loss or binary cross entropy right log loss i have used okay
+
+01:04:34.850 --> 01:04:37.370
+so try to use similar kind of function so let's say i'm
+
+01:04:37.370 --> 01:04:41.690
+saying that that you know the loss function that we have is
+
+01:04:41.690 --> 01:04:52.490
+technically like you know y log of log of y hat plus 1 minus
+
+01:04:52.490 --> 01:04:58.910
+y log of 1 minus y hat i have also given you a like you know
+
+01:04:58.910 --> 01:05:02.130
+a reason that why we are choosing this log uh loss function
+
+01:05:02.130 --> 01:05:10.470
+so here our y is equals to one right the actual y simple and
+
+01:05:10.470 --> 01:05:16.870
+the predicted y is basically like y hat is what 0.70 right
+
+01:05:16.870 --> 01:05:20.650
+so if you are going to compute a loss so just do the
+
+01:05:20.650 --> 01:05:28.250
+computation equation 1 into log of 0.70 plus 1 minus y 1
+
+01:05:28.250 --> 01:05:31.550
+minus y is what 1 minus 1 0 so this entire term is going to
+
+01:05:31.550 --> 01:05:35.230
+be 0 so now give me the loss guys what is the loss give me
+
+01:05:35.230 --> 01:05:39.500
+the approximate loss quick as
+
+01:05:41.680 --> 01:05:43.480
+per this loss function yes
+
+01:06:03.380 --> 01:06:10.500
+what is the loss 1 into log of 7.70 okay 0.35 i mean 0.3435
+
+01:06:10.500 --> 01:06:17.760
+will be the answer 0.3567 so 0.35 is a answer that we are
+
+01:06:17.760 --> 01:06:22.780
+able to get okay so this is basically a loss that we are
+
+01:06:22.780 --> 01:06:28.180
+able to calculate at any point of a time okay cool we are
+
+01:06:28.180 --> 01:06:33.000
+able to calculate this particular loss now once we have this
+
+01:06:33.000 --> 01:06:37.200
+loss which is a real loss so we can try to reduce this loss
+
+01:06:37.200 --> 01:06:41.020
+because that is the whole objective of creating this neural
+
+01:06:41.020 --> 01:06:45.560
+network that we will uh you know try to minimize this loss
+
+01:06:45.560 --> 01:06:47.800
+so this time this is the loss next time if we are going to
+
+01:06:47.800 --> 01:06:50.160
+calculate the loss it should be minimum i mean like lesser
+
+01:06:50.160 --> 01:06:52.740
+than this then only we can say that we have learned
+
+01:06:52.740 --> 01:06:58.620
+something in a positive direction okay fine so here when we
+
+01:06:58.620 --> 01:07:02.840
+are technically talking about about like you know optimizing
+
+01:07:02.840 --> 01:07:07.960
+a loss that too in a backward propagation so how things are
+
+01:07:07.960 --> 01:07:13.720
+going to follow or how it is going to make a changes let's
+
+01:07:13.720 --> 01:07:18.260
+talk about that one in a first place again because that flow
+
+01:07:18.260 --> 01:07:21.900
+is very very important so let me redraw the same neural
+
+01:07:21.900 --> 01:07:28.320
+network that we are using so 1 2 1 2 and then output this is
+
+01:07:28.320 --> 01:07:33.900
+the new network so we have basically x1 we have basically x2
+
+01:07:33.900 --> 01:07:39.740
+we have over here output now things are coming from here and
+
+01:07:39.740 --> 01:07:45.000
+here things are coming from here to here here
+
+01:07:49.510 --> 01:07:56.210
+to here okay so now let's say say we have weight 1, we have
+
+01:07:56.210 --> 01:08:01.690
+weight 2, we have weight 3, we have weight 4, we have weight
+
+01:08:01.690 --> 01:08:07.450
+5, we have weight 6, we have bias 1, we have bias 2, and we
+
+01:08:07.450 --> 01:08:12.110
+have bias 3. And here we have a Sigmoid, here we have a
+
+01:08:12.110 --> 01:08:15.370
+Sigmoid. So I can mention in this manner, here we have a
+
+01:08:15.370 --> 01:08:18.990
+sigmoid and here also we have a sigmoid which is going to
+
+01:08:18.990 --> 01:08:21.410
+give you finally output. So this is the structure of the
+
+01:08:21.410 --> 01:08:27.130
+neural network. work trainable parameter is basically w1 w2
+
+01:08:27.130 --> 01:08:39.510
+w3 w4 w5 w6 b1 b2 and b3 so in total this trainable
+
+01:08:39.510 --> 01:08:42.190
+parameter is equal to 9 means this is something which i have
+
+01:08:42.190 --> 01:08:47.550
+to uh technically change yeah yeah technically change so
+
+01:08:47.550 --> 01:08:53.430
+when i will try to change these things in which direction or
+
+01:08:53.430 --> 01:08:57.970
+in which way this entire things is going to follow loss
+
+01:08:57.970 --> 01:09:00.610
+function is something like that we have used a log loss
+
+01:09:00.610 --> 01:09:04.630
+binary cross entropy loss so how this is going to make a
+
+01:09:04.630 --> 01:09:08.730
+changes in a backward propagation that's something that we
+
+01:09:08.730 --> 01:09:12.450
+will try to understand now how loss is going to like you
+
+01:09:12.450 --> 01:09:17.150
+know change it so here what it will try to do so
+
+01:09:17.150 --> 01:09:21.410
+mathematically it will try to update things layer by layer
+
+01:09:21.410 --> 01:09:24.530
+by layer so first of all it will try to update something
+
+01:09:24.530 --> 01:09:27.050
+from this layer and then something from this layer this
+
+01:09:27.050 --> 01:09:29.450
+layer it's just an input so obviously it is not going to
+
+01:09:29.450 --> 01:09:32.650
+update anything it's like just like one single layer right
+
+01:09:32.650 --> 01:09:38.390
+that we have in between so here the full flow if i have to
+
+01:09:38.390 --> 01:09:45.110
+basically like you know uh talk about so full flow wise loss
+
+01:09:45.110 --> 01:09:49.570
+we have received here in this particular place so from loss
+
+01:09:49.570 --> 01:09:54.450
+it is going to flow through output that we have received
+
+01:09:54.450 --> 01:10:00.890
+over here and then it is going to basically flow through the
+
+01:10:00.890 --> 01:10:05.970
+weights that we have and the biases that we have so with
+
+01:10:05.970 --> 01:10:08.730
+respect to beta and biases it will keep on basically
+
+01:10:08.730 --> 01:10:13.990
+changing each and everything in a step by step manner so
+
+01:10:13.990 --> 01:10:17.030
+first of all let's try to talk about this output layer
+
+01:10:17.030 --> 01:10:19.210
+itself which is which will be basically like you know
+
+01:10:19.210 --> 01:10:24.770
+changed in a very very first place so here output layer wise
+
+01:10:24.770 --> 01:10:30.210
+it will try to find out delta of l with respect to a delta
+
+01:10:30.210 --> 01:10:34.130
+of a output right this is something that it will try to find
+
+01:10:34.130 --> 01:10:38.630
+out so how it is going to find out this particular one let's
+
+01:10:38.630 --> 01:10:46.030
+try to understand that as well so here we have received 0.88
+
+01:10:46.030 --> 01:10:46.990
+right somewhere
+
+01:10:51.590 --> 01:10:52.230
+87
+
+01:10:56.290 --> 01:11:03.300
+i'll just write a mathematical uh format as well 0.876 which
+
+01:11:03.300 --> 01:11:05.540
+we have received uh where so which we have received
+
+01:11:05.540 --> 01:11:09.180
+basically on a output side and that we have passed inside my
+
+01:11:09.180 --> 01:11:13.960
+sigmoid to get my final like values this one so this was
+
+01:11:13.960 --> 01:11:16.540
+basically the value that we had so
+
+01:11:42.240 --> 01:11:45.120
+first of all let me show you a derivation of because
+
+01:11:45.120 --> 01:11:47.520
+everywhere we have used what we have used basically the
+
+01:11:47.520 --> 01:11:50.880
+sigmoid function so where we can pass something so sigmoid
+
+01:11:50.880 --> 01:11:55.180
+function 1 by e to the power minus of z now if someone is
+
+01:11:55.180 --> 01:11:58.040
+going to ask you to do this derivation with respect to a z
+
+01:11:58.040 --> 01:12:05.000
+so sigmoid derivation is going to be with respect to z it is
+
+01:12:05.000 --> 01:12:10.020
+going to be sigmoid of z just as a shorthand you can write
+
+01:12:10.020 --> 01:12:15.240
+it and 1 minus sigmoid of z so this is going to be the
+
+01:12:15.240 --> 01:12:19.780
+derivation so wherever anyone is going to ask you like what
+
+01:12:19.780 --> 01:12:23.160
+is basically a derivation simple so 1 by 1 plus to the power
+
+01:12:23.160 --> 01:12:26.560
+minus of x this is a derivation of that very very simple so
+
+01:12:26.560 --> 01:12:30.760
+if i'm going to consider that a is equal to sigmoid of z so
+
+01:12:30.760 --> 01:12:34.260
+this equation will become a into 1 minus a so a is nothing
+
+01:12:34.260 --> 01:12:37.020
+but this function a is nothing but this function very very
+
+01:12:37.020 --> 01:12:40.200
+simple so is equals to a i'm just trying to like you know
+
+01:12:40.200 --> 01:12:45.340
+use it uh just for the simplicity so derivation of like you
+
+01:12:45.340 --> 01:12:48.960
+know if a is equals to so da by dz i can write it down even
+
+01:12:48.960 --> 01:12:53.480
+as a shorthand da by dz is equals to a into a 1 minus a
+
+01:12:54.980 --> 01:12:58.920
+because every layer we will end up using this particular one
+
+01:12:58.920 --> 01:13:03.220
+right this particular one so here what i will do so i will
+
+01:13:03.220 --> 01:13:06.900
+try to find out a loss i will try to find out the loss with
+
+01:13:06.900 --> 01:13:10.780
+respect to this output layer so i can rewrite with the help
+
+01:13:10.780 --> 01:13:14.480
+of chain rule in this manner so my output layer are actually
+
+01:13:14.480 --> 01:13:20.160
+a function of what a right a so i can just multiply and
+
+01:13:20.160 --> 01:13:24.900
+divide and you know i have just converted that into a chain
+
+01:13:24.900 --> 01:13:29.440
+rule basically and we know that that da by dz right we
+
+01:13:29.440 --> 01:13:32.480
+already know that that da by dz is equals to a into 1 minus
+
+01:13:32.480 --> 01:13:36.020
+a this is something like which is which is a like a standard
+
+01:13:36.020 --> 01:13:39.900
+one that we have like a derived over here so this is going
+
+01:13:39.900 --> 01:13:43.440
+to be my dl by our rate of change of loss with respect to
+
+01:13:43.440 --> 01:13:46.500
+the output layer so just with respect to that particular
+
+01:13:46.500 --> 01:13:54.080
+layer and then we have basically a loss as well we have a
+
+01:13:54.080 --> 01:13:56.480
+loss as well so loss function wise if i have to write it
+
+01:13:56.480 --> 01:14:06.120
+down minus of log of sorry loss is y log of y hat so y hat
+
+01:14:06.120 --> 01:14:11.500
+wise my output so i am considering output here that is my y
+
+01:14:11.500 --> 01:14:18.940
+hat and then 1 minus y or i can say a over here as per my
+
+01:14:18.940 --> 01:14:26.120
+above equation so 1 minus this one log of sorry 1 minus y
+
+01:14:26.120 --> 01:14:33.810
+log of yeah 1 minus a so fine this is something which i can
+
+01:14:33.810 --> 01:14:37.890
+write it down over here now if someone is asking like a dl
+
+01:14:37.890 --> 01:14:51.150
+by d a is going to be minus of y by a plus 1 minus y by 1
+
+01:14:51.150 --> 01:14:57.680
+minus a it is going to be bit complicated
+
+01:15:01.230 --> 01:15:07.290
+so y is equal to 1 if i am going to put up so 1 by a and
+
+01:15:07.290 --> 01:15:09.450
+what is the value of my a by the way
+
+01:15:13.440 --> 01:15:19.380
+0.70 okay cool so if i am going to substitute value of y is
+
+01:15:19.380 --> 01:15:23.080
+equals to 1 so this entire term is going to be 0 it's
+
+01:15:23.080 --> 01:15:29.610
+eventually going to be loss with respect to a is going to be
+
+01:15:29.610 --> 01:15:40.450
+minus of of y which is 1 by a so minus 1 by 0.76 076 or
+
+01:15:40.450 --> 01:15:45.490
+something 076 yeah so this is going to be approximately
+
+01:15:45.490 --> 01:15:52.930
+minus 1.41 okay so this is my rate of change of loss with
+
+01:15:52.930 --> 01:15:57.750
+respect to the this one so and again value is negative so
+
+01:15:57.750 --> 01:16:00.370
+negative value means that that if
+
+01:16:03.500 --> 01:16:07.520
+i'm going to increase the prediction then basically it is
+
+01:16:07.520 --> 01:16:10.000
+going to decrease the loss this is what it means the reverse
+
+01:16:10.000 --> 01:16:13.460
+one right so fine maybe
+
+01:16:19.350 --> 01:16:24.870
+i should take some clean approach guys because this
+
+01:16:24.870 --> 01:16:29.830
+calculation layer by layer is going to be bit complex for
+
+01:16:29.830 --> 01:16:33.110
+all of you if it will go in this direction
+
+01:16:35.880 --> 01:16:42.240
+so dl by da fine so minus 1.41 is something what is minus so
+
+01:16:42.240 --> 01:16:44.820
+minus is technically coming from this one so basically my
+
+01:16:44.820 --> 01:16:48.000
+log loss right so i have just taken the common one and from
+
+01:16:48.000 --> 01:16:52.160
+there so i'm just trying to do this calculation so i'm just
+
+01:16:52.160 --> 01:16:54.920
+trying to substitute the value y is equal to 1 right so this
+
+01:16:54.920 --> 01:16:56.920
+term second term is going to be zero this term is going to
+
+01:16:56.920 --> 01:17:00.420
+be minus of one by a and what is the value of a so value of
+
+01:17:00.420 --> 01:17:03.920
+a that we have like found out is basically 0.760 so
+
+01:17:03.920 --> 01:17:07.260
+technically it is going to be minus of 1.41 so minus means
+
+01:17:07.260 --> 01:17:10.780
+like you know if i'm going to increase the prediction means
+
+01:17:10.780 --> 01:17:14.880
+the output then my loss is going to be like a decreased and
+
+01:17:14.880 --> 01:17:17.100
+which is true if i'm going to increase the output right
+
+01:17:17.100 --> 01:17:19.860
+increase the output means so if i'm going to increase like 0
+
+01:17:19.860 --> 01:17:24.280
+.70 to something higher value so obviously my loss is going
+
+01:17:24.280 --> 01:17:27.260
+to be suppressed or my loss is going to be decreased so even
+
+01:17:27.260 --> 01:17:31.780
+in theory this like a fits in let
+
+01:17:48.420 --> 01:17:52.580
+me show you one very very clean approach for one layer for
+
+01:17:52.580 --> 01:17:54.860
+one particular entity i'm
+
+01:18:30.380 --> 01:18:32.380
+just trying to let
+
+01:19:04.700 --> 01:19:06.580
+me redraw this
+
+01:19:09.160 --> 01:19:13.780
+entire network once again and give you a proper label for
+
+01:19:13.780 --> 01:19:14.720
+understanding purpose
+
+01:19:31.000 --> 01:19:33.520
+so i think in a forward propagation we don't have any kind
+
+01:19:33.520 --> 01:19:39.060
+of issues right everyone it was easy and clean yes
+
+01:19:42.070 --> 01:19:46.710
+so let me give a proper label to everything because there
+
+01:19:46.710 --> 01:19:50.110
+are nine parameters that we have to change not just one uh
+
+01:19:50.110 --> 01:19:52.930
+and again in a sequential manner i have to change it one by
+
+01:19:52.930 --> 01:19:56.170
+one layer by layer layer by layer and technically it depends
+
+01:19:56.170 --> 01:19:58.890
+and there is a sigmoid derivation plus there is a log
+
+01:19:58.890 --> 01:20:01.230
+derivation because there is a loss function on output layer
+
+01:20:01.230 --> 01:20:05.290
+and then sigmoid function in every like a you know hidden
+
+01:20:05.290 --> 01:20:08.310
+layer plus output layer both places so this is where you
+
+01:20:08.310 --> 01:20:12.810
+know this entire terms although i can write it down but
+
+01:20:12.810 --> 01:20:15.930
+still it will be a bit confusing for all of you so i'm just
+
+01:20:15.930 --> 01:20:18.790
+trying to draw a clear picture this is once in a like a
+
+01:20:18.790 --> 01:20:21.750
+lifetime if you can understand this you will be able to
+
+01:20:21.750 --> 01:20:24.070
+understand everything i mean like just we have to do nine
+
+01:20:24.070 --> 01:20:31.210
+times that's it so again not a big deal so here let me label
+
+01:20:31.210 --> 01:20:36.370
+each and everything in a proper manner so this is my x1 this
+
+01:20:36.370 --> 01:20:43.510
+is my x2 this is my h1 this is my h2 and then this is my y
+
+01:20:43.510 --> 01:20:47.410
+hat is something which i am able to i will be able to get it
+
+01:20:47.410 --> 01:20:51.970
+value is equals to one value is equals to basically two over
+
+01:20:51.970 --> 01:20:56.030
+here and y value which i'm expecting my expectation is
+
+01:20:56.030 --> 01:21:02.490
+basically one okay and then here we have like four weights
+
+01:21:02.490 --> 01:21:07.990
+uh basically so maybe i can try to define this weights in a
+
+01:21:07.990 --> 01:21:12.550
+clear manner so weight on layer one is basically same weight
+
+01:21:12.550 --> 01:21:14.510
+i'm going to take so i'm not going to change anything by the
+
+01:21:14.510 --> 01:21:22.910
+way yeah so 0.1 0.2 0.3 0.4 in a matrix manner i'm going to
+
+01:21:22.910 --> 01:21:28.330
+write it down and bias at layer b1 right at layer b1 is
+
+01:21:28.330 --> 01:21:35.510
+going to be 0.1 0.1 this is the bias that we have and wait
+
+01:21:35.510 --> 01:21:38.250
+two seconds so this is this this i'm considering as a layer
+
+01:21:38.250 --> 01:21:40.690
+one so wherever i will be be using notation is equal to one
+
+01:21:40.690 --> 01:21:44.630
+think that i'm talking about layer one and this is basically
+
+01:21:44.630 --> 01:21:46.810
+i'm treating as a layer two so wherever i'm going to use
+
+01:21:46.810 --> 01:21:49.830
+notation is equals to two simply think that that i'm talking
+
+01:21:49.830 --> 01:21:52.830
+about layer two so let's think in a layer term layer one
+
+01:21:52.830 --> 01:21:55.850
+layer two so we have like a first layer here and we have a
+
+01:21:55.850 --> 01:21:58.670
+first layer second layer over here we'll try to move from
+
+01:21:58.670 --> 01:22:01.810
+output to second layer to first layer this is how we'll try
+
+01:22:01.810 --> 01:22:05.670
+to do a backward propagation so fine so So weight for the
+
+01:22:05.670 --> 01:22:13.230
+second layer, I can try to label it as 0.5 and 0.6, same
+
+01:22:13.230 --> 01:22:16.230
+thing. So those forward calculation, I'm not going to
+
+01:22:16.230 --> 01:22:19.370
+change. I'm going to take it as it is, the weight we have
+
+01:22:19.370 --> 01:22:22.790
+derived and bias 2. So this one is going to be what? Only
+
+01:22:22.790 --> 01:22:28.030
+one bias, so 0.1. So layer 2 weights, layer 2 biases with
+
+01:22:28.030 --> 01:22:32.490
+us, layer 1 weights and layer 1 biases is with us. Okay,
+
+01:22:32.590 --> 01:22:36.650
+fine. now in forward propagation so we all know that that in
+
+01:22:36.650 --> 01:22:41.090
+forward propagation your output is going to be so basically
+
+01:22:41.090 --> 01:22:45.410
+in forward propagation so one will go here and one will go
+
+01:22:45.410 --> 01:22:51.310
+here and that output is not nothing but so z of first layer
+
+01:22:51.310 --> 01:22:56.250
+so z of first layer so here it is going to be weight of of
+
+01:22:56.250 --> 01:23:03.770
+first layer into x plus b of first layer so we have like
+
+01:23:03.770 --> 01:23:06.990
+this w1 b1 in terms of matrix you can do a multiplication
+
+01:23:06.990 --> 01:23:19.870
+and this is going to be my 0.60.2 sorry 0.6 1.2 so means 0.6
+
+01:23:19.870 --> 01:23:23.470
+for this one and 1.2 for this one the same thing we have
+
+01:23:23.470 --> 01:23:26.610
+received if you'll go and check above right so this is the
+
+01:23:26.610 --> 01:23:30.830
+output of my first layer first layer z1 z1 means first layer
+
+01:23:30.830 --> 01:23:34.690
+okay so now we are able to do the math now this output will
+
+01:23:34.690 --> 01:23:39.850
+go as a input into this layer with the sigmoid right there
+
+01:23:39.850 --> 01:23:43.050
+will be activation function for a non-realization so i'll
+
+01:23:43.050 --> 01:23:47.150
+try to send it send into that one so i will try to label so
+
+01:23:47.150 --> 01:23:51.670
+first layer layer first layer so a1 is going so a1 i'm going
+
+01:23:51.670 --> 01:23:54.850
+to represent after sending it into a sigmoid so inside
+
+01:23:54.850 --> 01:23:59.870
+sigmoid what will go so z1 layer 1 will go so if i'm going
+
+01:23:59.870 --> 01:24:04.150
+to send this one and this one inside this so my a1 means
+
+01:24:04.150 --> 01:24:08.250
+here and here the output which i will receive is going to be
+
+01:24:08.250 --> 01:24:15.870
+which we have already received 0.64 and and 0.76 so this is
+
+01:24:15.870 --> 01:24:19.690
+my a1 which i will be able to receive okay so now i have two
+
+01:24:19.690 --> 01:24:22.810
+values here and here these are this value and this value
+
+01:24:22.810 --> 01:24:27.670
+fine a1 layer 1 now layer 1 is finished by the way now layer
+
+01:24:27.670 --> 01:24:30.830
+2 will start that's layer 2 will start so for layer 2 i will
+
+01:24:30.830 --> 01:24:35.130
+calculate z2 over here and z2 is nothing but my weight 2
+
+01:24:35.130 --> 01:24:42.490
+into a1 weight 2 into a1 the input right a1 this input plus
+
+01:24:42.490 --> 01:24:46.690
+bias of second layer so we have all the values over here so
+
+01:24:46.690 --> 01:24:53.410
+z2 converts to 1 and it is going to be 0.8839
+
+01:24:53.410 --> 01:24:57.410
+so this is going to my z2 so which will go here and here
+
+01:24:57.410 --> 01:25:00.750
+also we have a sigmoid function so i will be able to get
+
+01:25:00.750 --> 01:25:04.290
+what i will be able to get my a2 for second layer right
+
+01:25:04.290 --> 01:25:07.770
+after passing this to the head function so this is going to
+
+01:25:07.770 --> 01:25:11.790
+be so i'll passing this one basically like you know sigmoid
+
+01:25:11.790 --> 01:25:17.350
+of sigmoid of z2 second layer is going to be a2 it is going
+
+01:25:17.350 --> 01:25:22.370
+to be 0.706 the calculation that we have done right which is
+
+01:25:22.370 --> 01:25:25.930
+which i'm calling it as a y head so this is my forward
+
+01:25:25.930 --> 01:25:28.930
+propagation yes and this is the calculation that we have
+
+01:25:28.930 --> 01:25:31.430
+already done this time what i have done i have just like you
+
+01:25:31.430 --> 01:25:35.170
+know labeled it in a proper manner layer one layer two so
+
+01:25:35.170 --> 01:25:38.810
+what will go here then after this what will come out of this
+
+01:25:38.810 --> 01:25:41.990
+one then what will go inside what will come out of this one
+
+01:25:41.990 --> 01:25:45.370
+so out of this one this one is coming so everything in layer
+
+01:25:45.370 --> 01:25:50.110
+two has been labeled as a two so and everything on a label
+
+01:25:50.110 --> 01:25:53.610
+one is labeled as a one this is my forward propagation all
+
+01:25:53.610 --> 01:25:58.370
+done now once forward propagation is basically done so i
+
+01:25:58.370 --> 01:26:01.310
+will now try to do a backward propagation so obviously
+
+01:26:01.310 --> 01:26:04.030
+before doing a back propagation we have seen the log
+
+01:26:04.030 --> 01:26:07.190
+function log loss so log loss function is nothing but
+
+01:26:07.190 --> 01:26:14.950
+negative of y log of y hat simple function 1 minus y log of
+
+01:26:14.950 --> 01:26:20.410
+1 minus y hat simple right this is my log loss function okay
+
+01:26:20.410 --> 01:26:26.010
+so if my y is equals to 1 so in that case my loss function
+
+01:26:26.010 --> 01:26:29.350
+this will be like 0 this and that term will be 0 1 minus 1 0
+
+01:26:29.350 --> 01:26:31.770
+so whole term is going to be 0 and this term is going to be
+
+01:26:31.770 --> 01:26:38.430
+minus of 1 of log of y so minus of log of y hat so y is
+
+01:26:38.430 --> 01:26:45.210
+equal to 1 so 0.706 so my loss is eventually going to be
+
+01:26:46.990 --> 01:26:52.030
+approximately 0.345 something like this i will be able to
+
+01:26:52.030 --> 01:26:56.070
+get so this is my loss which i have received y and y hat so
+
+01:26:56.070 --> 01:26:59.810
+when i receive a loss now i sense that that i have i i have
+
+01:26:59.810 --> 01:27:02.890
+to optimize the loss right so when i have to optimize the
+
+01:27:02.890 --> 01:27:05.890
+loss now you will get the clear picture so when i have to
+
+01:27:05.890 --> 01:27:09.710
+optimize the loss you will start from here then you will go
+
+01:27:09.710 --> 01:27:13.770
+here yeah now see the flow that's the region so i have given
+
+01:27:13.770 --> 01:27:18.110
+number a1 a2 now you will go here now you will go here is it
+
+01:27:18.110 --> 01:27:26.310
+making sense guys yes so a2 to z2 to a1 to z1 and whatsoever
+
+01:27:26.310 --> 01:27:29.290
+come on a2 you will change that first i mean like you will
+
+01:27:29.290 --> 01:27:32.970
+recalculate that first then z2 whatsoever come over there
+
+01:27:32.970 --> 01:27:36.170
+you will recalculate that first total nine parameter we have
+
+01:27:36.170 --> 01:27:39.670
+right and all those nine parameter the six weights and three
+
+01:27:39.670 --> 01:27:44.890
+sorry you will be able to fit in this 4 layer this Z1, A1,
+
+01:27:44.970 --> 01:27:48.190
+Z2, A2 you will be able to fit in this layer the naming
+
+01:27:48.190 --> 01:27:50.710
+convention that we have taken just the naming convention for
+
+01:27:50.710 --> 01:27:54.410
+understanding purposes so either it will come on A2 or Z2 or
+
+01:27:54.410 --> 01:27:58.070
+A1 or Z1 right any of these 4 layer it will fit into it
+
+01:27:58.070 --> 01:28:03.650
+right so yeah so here what I will do so I will first of all
+
+01:28:03.650 --> 01:28:08.730
+try to find out rate of change of L with respect let me
+
+01:28:08.730 --> 01:28:13.870
+write the flow over here with respect to a2 the outer one
+
+01:28:13.870 --> 01:28:18.210
+the final one then from a2 where i will flow i will flow to
+
+01:28:18.210 --> 01:28:23.730
+z2 the one which is going into like final output layer right
+
+01:28:23.730 --> 01:28:30.010
+then from here where i will flow so this z2 right so for
+
+01:28:30.010 --> 01:28:34.530
+this z2 for this z2 basically how many weights are
+
+01:28:34.530 --> 01:28:38.390
+responsible responsible two weights are responsible on w2
+
+01:28:38.390 --> 01:28:41.830
+layer this weight and this weight these are two weights
+
+01:28:41.830 --> 01:28:45.810
+right two weights are responsible for this z2 so what and
+
+01:28:45.810 --> 01:28:49.870
+even biases are responsible right so from this z2 so i will
+
+01:28:49.870 --> 01:28:55.270
+try to basically find out a weight and biases for that layer
+
+01:28:55.270 --> 01:28:57.470
+whatsoever weight comes into picture and whatsoever biases
+
+01:28:57.470 --> 01:29:04.310
+comes into picture so weights and biases biases weights and
+
+01:29:04.310 --> 01:29:07.950
+biases w2 and b2 i will try to change that part so i'm just
+
+01:29:07.950 --> 01:29:11.630
+writing a flow then from here i will flow on a another layer
+
+01:29:11.630 --> 01:29:18.230
+so rate of change of l with respect to a1 now a1 right a1 a1
+
+01:29:18.230 --> 01:29:21.810
+is what a1 is basically this right a1 is this coming from
+
+01:29:21.810 --> 01:29:25.930
+where here right here so output of the sigmoid so now i will
+
+01:29:25.930 --> 01:29:28.790
+flow to what i will flow to rate of change of l with respect
+
+01:29:28.790 --> 01:29:34.430
+to a1 layer then i will try to flow where so i will try to
+
+01:29:34.430 --> 01:29:40.410
+flow rate of change of loss with respect to z1 layer then
+
+01:29:40.410 --> 01:29:45.370
+from there for z1 layer we have w1 b1 right so here we will
+
+01:29:45.370 --> 01:29:49.330
+try to change this with respect to w1 and this with respect
+
+01:29:49.330 --> 01:29:53.710
+to b1 so in w1 layer how many weights we have four weights
+
+01:29:53.710 --> 01:29:56.450
+we have w1 layer four weights we have how many biases we
+
+01:29:56.450 --> 01:29:59.370
+have two ys's we have so we'll try to change this one so
+
+01:29:59.370 --> 01:30:02.970
+this is the flow guys in this manner it is going to flow
+
+01:30:02.970 --> 01:30:08.730
+flow is clear so far now we have a clarity yes
+
+01:30:11.390 --> 01:30:15.210
+clarity about the complete flow so how it is going to
+
+01:30:15.210 --> 01:30:17.690
+propagate in a backward direction this is important very
+
+01:30:17.690 --> 01:30:20.650
+important right so this is how it is going to follow in a
+
+01:30:20.650 --> 01:30:23.670
+backward direction fine so when we will try to do the
+
+01:30:23.670 --> 01:30:26.910
+calculation we'll start from here then here then here then
+
+01:30:26.910 --> 01:30:29.530
+here then here and then show on this is what i'm going to
+
+01:30:29.530 --> 01:30:32.330
+show you mathematically also right that okay in terms of
+
+01:30:32.330 --> 01:30:35.310
+numbers what is the value that i will be able to get it so
+
+01:30:35.310 --> 01:30:38.670
+nothing is random everything is calculation right so here uh
+
+01:30:38.670 --> 01:30:41.830
+you know first of all let's try to conclude this one so
+
+01:30:41.830 --> 01:30:46.330
+sigmoid of z the sigmoid function e to the bar minus of z
+
+01:30:46.330 --> 01:30:49.870
+this is what sigmoid function says now let's say i'm trying
+
+01:30:49.870 --> 01:30:54.950
+to denote that in a simple term a small a right a small a
+
+01:30:54.950 --> 01:30:58.390
+something which i'm trying to like you know denote it so if
+
+01:30:58.390 --> 01:31:01.250
+someone is going going to ask me that what is a rate of
+
+01:31:01.250 --> 01:31:05.630
+change of a with respect to uh basically like z right with
+
+01:31:05.630 --> 01:31:09.070
+respect to z so it is going to be a into 1 minus a as simple
+
+01:31:09.070 --> 01:31:12.630
+as that where a is what 1 by 1 plus e to the power minus of
+
+01:31:12.630 --> 01:31:15.370
+z you can do the derivation and you will be able to get the
+
+01:31:15.370 --> 01:31:19.770
+exact same answer okay fine i'm just i'm like i'm going to
+
+01:31:19.770 --> 01:31:22.090
+use it as a shorthand so wherever required i'll just
+
+01:31:22.090 --> 01:31:29.250
+substitute it yeah okay now now now so da by dz is fine we
+
+01:31:29.250 --> 01:31:34.890
+are able to like you know uh get it da by like a dz sometime
+
+01:31:34.890 --> 01:31:40.010
+you will be able to see that you need even loss like a rate
+
+01:31:40.010 --> 01:31:44.030
+of change of like a l loss with respect to z right with
+
+01:31:44.030 --> 01:31:48.010
+respect to z as well so what is my loss function by the the
+
+01:31:48.010 --> 01:31:53.590
+way so sometime you need this by this it will be required
+
+01:31:53.590 --> 01:31:57.230
+right for maybe like the second layer this one right so
+
+01:31:57.230 --> 01:32:01.050
+let's do a math so let's apply a chain rule over here so
+
+01:32:01.050 --> 01:32:04.970
+rate of change of loss with respect to a which is output
+
+01:32:04.970 --> 01:32:12.330
+layer into a output layer by gz which is going into it right
+
+01:32:12.330 --> 01:32:15.950
+into output okay so i am already aware about my loss
+
+01:32:15.950 --> 01:32:18.730
+function so my loss function says that it's negative of y
+
+01:32:18.730 --> 01:32:26.810
+log of y hat plus 1 minus y log of 1 minus y hat that's my
+
+01:32:26.810 --> 01:32:30.570
+loss function simple right that's my loss function so now
+
+01:32:30.570 --> 01:32:36.130
+rate of change of l with respect to a2 start following
+
+01:32:36.130 --> 01:32:39.530
+backup propagation so this is my first step right i have to
+
+01:32:39.530 --> 01:32:42.350
+do the math for this one rate of change of l with respect to
+
+01:32:42.350 --> 01:32:46.810
+a 2 which is my final output layer so if i have to calculate
+
+01:32:46.810 --> 01:32:50.570
+this one if i have to calculate this one so in that manner
+
+01:32:50.570 --> 01:32:53.110
+if you are going to calculate with respect to this equation
+
+01:32:53.110 --> 01:32:58.030
+right this equation so here y hat just try to replace y hat
+
+01:32:58.030 --> 01:33:02.150
+with a 2 because a 2 is y hat actually right this is what i
+
+01:33:02.150 --> 01:33:05.990
+have labeled over here my a 2 is what my a 2 is my y hat i
+
+01:33:05.990 --> 01:33:08.290
+have already labeled right so i'm just going to use instead
+
+01:33:08.290 --> 01:33:11.330
+of y hat a 2 simple both are actually same as per my
+
+01:33:11.330 --> 01:33:16.230
+labeling so here if you are going to replace y head with a2
+
+01:33:16.230 --> 01:33:20.110
+y head with a2 in this particular place and then if you will
+
+01:33:20.110 --> 01:33:23.210
+do the derivation rate of change of l with respect to a2 you
+
+01:33:23.210 --> 01:33:31.370
+will be able to see y by a2 plus 1 minus y by 1 minus a2
+
+01:33:31.370 --> 01:33:34.690
+it's not a square by the way guys so don't get confused i
+
+01:33:34.690 --> 01:33:37.450
+have just like use the notation for labeling purpose a2
+
+01:33:37.450 --> 01:33:41.590
+means output of second layer the final output the prediction
+
+01:33:41.590 --> 01:33:46.910
+one right okay so here if i'm so my y is actually what my y
+
+01:33:46.910 --> 01:33:49.830
+is equal to 1 so if you are going to put y is equal to 1
+
+01:33:49.830 --> 01:33:53.410
+here this entire term is going to be 0 here it is going to
+
+01:33:53.410 --> 01:33:58.750
+be minus of 1 by a 2 what is the value of a 2 so value of a
+
+01:33:58.750 --> 01:34:04.330
+2 is nothing but 0.706 okay fine so value of a2 is what 1
+
+01:34:04.330 --> 01:34:09.510
+minus 0.706 so it is going to be what it is going to be
+
+01:34:09.510 --> 01:34:16.390
+minus of 1.4131 so for this term we have started from here
+
+01:34:16.390 --> 01:34:20.110
+this is the flow right so for this term i am able to do the
+
+01:34:20.110 --> 01:34:23.450
+calculation it is going to be basically rate of change of l
+
+01:34:23.450 --> 01:34:27.850
+with with respect to the final output y hat is basically
+
+01:34:27.850 --> 01:34:32.590
+minus of 1.41 okay this simply means that we have a negative
+
+01:34:32.590 --> 01:34:35.810
+value over here means that that uh you know uh increasing
+
+01:34:35.810 --> 01:34:39.010
+the prediction will decrease the decrease the loss so if you
+
+01:34:39.010 --> 01:34:41.090
+are going to increase the prediction obviously your loss is
+
+01:34:41.090 --> 01:34:44.370
+going to be decreased right okay and that makes sense
+
+01:34:44.370 --> 01:34:47.270
+basically that makes sense because we are at 0.70 so if i'm
+
+01:34:47.270 --> 01:34:51.530
+increasing the prediction means 0.77 0.80 obviously my loss
+
+01:34:51.530 --> 01:34:57.310
+will decrease is make sense to me now now now we know that
+
+01:34:57.310 --> 01:35:01.550
+that the a2 the final one that we are able to get it it's
+
+01:35:01.550 --> 01:35:09.540
+nothing but it's a sigmoid of z2 sigmoid of z2 a2 is what
+
+01:35:09.540 --> 01:35:14.500
+sigmoid of z2 means whatever goes into this network at this
+
+01:35:14.500 --> 01:35:19.000
+label right it goes into sigmoid and that becomes a2 over
+
+01:35:19.000 --> 01:35:24.100
+here that becomes a2 till this point it's a z2 so here what
+
+01:35:24.100 --> 01:35:27.500
+we can do so we can try uh so we have we have written this
+
+01:35:27.500 --> 01:35:35.940
+so rate of change of a2 with respect to z2 rate of change of
+
+01:35:35.940 --> 01:35:41.780
+a2 with respect to a z2 we have to find out with this one
+
+01:35:41.780 --> 01:35:46.320
+because this is something that we need now we are aware
+
+01:35:46.320 --> 01:35:49.940
+about rate of change of l with a now we need this one rate
+
+01:35:49.940 --> 01:35:53.600
+of change of a2 with z2 so rate of change of a2 with z2 what
+
+01:35:53.600 --> 01:35:58.540
+is that so it is going to be uh what is my a by the way it's
+
+01:35:58.540 --> 01:36:01.720
+a sigmoid function so i have already written a shorthand uh
+
+01:36:01.720 --> 01:36:06.460
+basically it's a1 minus a so substitute with a2 so it's
+
+01:36:06.460 --> 01:36:13.220
+going to be basically a2 1 minus a2 basically and my a2 is
+
+01:36:13.220 --> 01:36:18.380
+what my a2 is basically 0.76 the final prediction 0.076 into
+
+01:36:18.380 --> 01:36:26.000
+1 minus 0.07 sorry 7 0 6 or 7 whatsoever it is so
+
+01:36:26.000 --> 01:36:29.880
+approximately approximately this is going to be like uh you
+
+01:36:29.880 --> 01:36:37.520
+know um this is going to be 0.20 so rate of change of a to
+
+01:36:37.520 --> 01:36:41.280
+the output with respect to the input which is which goes
+
+01:36:41.280 --> 01:36:48.440
+into the output uh sigmoid is 0.20 this is uh 0.206 let's
+
+01:36:48.440 --> 01:36:53.120
+say 0.206 is the output okay so this is something we are
+
+01:36:53.120 --> 01:36:59.180
+able to find out so now we have both of this term to
+
+01:37:01.200 --> 01:37:03.620
+calculate this we have this term as well as we have this
+
+01:37:03.620 --> 01:37:11.040
+term so rate of change of l with respect to z 2 is going to
+
+01:37:11.040 --> 01:37:15.760
+be what rate of change of l with respect to a2 into rate of
+
+01:37:15.760 --> 01:37:20.480
+change of a2 with respect to a z2 and it's going to be what
+
+01:37:20.480 --> 01:37:26.680
+so we have already done the calculation 1.41 into 0.20 so
+
+01:37:26.680 --> 01:37:32.520
+this is going to be approximately minus of 0.29 so now we
+
+01:37:32.520 --> 01:37:38.580
+have this answer so we were trying to flow from here to here
+
+01:37:38.580 --> 01:37:43.340
+and we have this value by the way dl by so rate of change of
+
+01:37:43.340 --> 01:37:47.740
+l with respect to z2 which is going for the output right so
+
+01:37:47.740 --> 01:37:51.560
+which is going for the output so here this
+
+01:37:54.360 --> 01:37:58.760
+okay come here so rate of change of l with respect to z2 so
+
+01:37:58.760 --> 01:38:01.680
+now we have this particular idea that what is the value of a
+
+01:38:01.680 --> 01:38:09.360
+z2 and z2 is nothing but right z2 is nothing but y minus y
+
+01:38:09.360 --> 01:38:13.040
+hat you can say right z2 is nothing but y minus y hat you
+
+01:38:13.040 --> 01:38:20.520
+can say so fine now one by one so let's
+
+01:38:23.240 --> 01:38:25.680
+try to calculate so
+
+01:38:30.670 --> 01:38:37.710
+here if i'll say z2 so z2 is nothing but w1 again
+
+01:38:39.790 --> 01:38:44.210
+it will be so many labels just to you know tune this
+
+01:38:44.210 --> 01:38:45.730
+parameter so
+
+01:38:48.990 --> 01:38:51.810
+in this manner guys whole and sole idea is that that from
+
+01:38:51.810 --> 01:38:55.310
+here to here i'm able to reach out right then what you have
+
+01:38:55.310 --> 01:38:59.290
+to find out you have to find out a gradient of this and this
+
+01:38:59.290 --> 01:39:03.070
+then you have to move from here find out gradient of this
+
+01:39:03.070 --> 01:39:06.350
+and then gradient of this and this and this is where the
+
+01:39:06.350 --> 01:39:09.910
+whole parameter is going to be now once i will be able to
+
+01:39:09.910 --> 01:39:13.130
+find out a gradient right once i will be able to find out
+
+01:39:13.130 --> 01:39:18.230
+the gradient so ultimately ultimately the final change is
+
+01:39:18.230 --> 01:39:21.710
+going to be what a new weight so new weight is going to be
+
+01:39:21.710 --> 01:39:26.810
+my old weight minus of eta which is nothing but going to be
+
+01:39:26.810 --> 01:39:31.730
+a learning rate and then it is like a going to be a rate of
+
+01:39:31.730 --> 01:39:34.190
+change of loss with respect to that particular parameter
+
+01:39:34.190 --> 01:39:38.650
+means the universal equation which i have mentioned right
+
+01:39:38.650 --> 01:39:43.030
+this this universal equation so to do that on every layer
+
+01:39:43.030 --> 01:39:48.080
+for for everything we have to calculate this backward
+
+01:39:48.080 --> 01:39:52.340
+propagation way makes sense so in every layer every layer we
+
+01:39:52.340 --> 01:39:55.160
+have to basically like you know do these things then only
+
+01:39:55.160 --> 01:39:59.540
+we'll be able to finally like you know change so for every
+
+01:39:59.540 --> 01:40:02.480
+weight we have to find out the gradient and for every biases
+
+01:40:02.480 --> 01:40:05.000
+we have to find out the gradients layer by layer layer by
+
+01:40:05.000 --> 01:40:08.220
+layer layer by layer and then finally you have to substitute
+
+01:40:08.220 --> 01:40:13.720
+the value so as per this entire gradient table if i have to
+
+01:40:13.720 --> 01:40:18.360
+draw for which i have done the calculation so if you will do
+
+01:40:18.360 --> 01:40:23.220
+this backward propagation in one like a lap basically so
+
+01:40:23.220 --> 01:40:25.960
+here
+
+01:40:29.960 --> 01:40:34.660
+in this manner so previously the so
+
+01:40:38.370 --> 01:40:41.830
+you can you can try to find out basically like you know w1
+
+01:40:41.830 --> 01:40:55.910
+w2 w3 w4 w5 w6 b1 b2 and p3 basically so one by one this is
+
+01:40:55.910 --> 01:41:01.730
+a param you can write initial value and
+
+01:41:03.740 --> 01:41:08.980
+then you can write basically after changes changes after
+
+01:41:08.980 --> 01:41:10.340
+change
+
+01:41:12.490 --> 01:41:14.930
+one by one you can just try to like you know write it down
+
+01:41:14.930 --> 01:41:17.930
+which is which is going to be very very long calculation so
+
+01:41:17.930 --> 01:41:23.810
+like just in sort your anything new or let me make it in a
+
+01:41:23.810 --> 01:41:27.510
+generic manner so anything new is nothing but the old one
+
+01:41:27.510 --> 01:41:32.970
+minus eta rate of change of like loss with respect to that
+
+01:41:32.970 --> 01:41:38.510
+particular eta that's it right or theta and here this
+
+01:41:38.510 --> 01:41:43.370
+learning rate is nothing but 0.1 0.2 0.00001 all of these
+
+01:41:43.370 --> 01:41:47.230
+things once you are able to build this particular table then
+
+01:41:47.230 --> 01:41:52.810
+you know everything will be like done so maybe that we can
+
+01:41:52.810 --> 01:41:55.890
+do it with the help of programming with the help of
+
+01:41:55.890 --> 01:41:58.270
+programming it will be like very very easy but yes this is
+
+01:41:58.270 --> 01:42:01.990
+how you know calculation is going to happen so still if i'll
+
+01:42:01.990 --> 01:42:06.890
+start doing calculation we are just on a second layer and
+
+01:42:06.890 --> 01:42:10.630
+from here if we have to move towards this one so many
+
+01:42:10.630 --> 01:42:13.130
+derivation we have to do it right so many derivation so
+
+01:42:13.130 --> 01:42:18.990
+let's let's like leave it let's come to this point now this
+
+01:42:18.990 --> 01:42:22.970
+playground part so let me keep it as two neurons and let me
+
+01:42:22.970 --> 01:42:26.970
+keep it as one neuron right and here so classification
+
+01:42:26.970 --> 01:42:31.830
+problem we have chosen and then feature is let's say this or
+
+01:42:31.830 --> 01:42:34.730
+maybe this feature or this feature or this feature right any
+
+01:42:34.730 --> 01:42:37.390
+kind of a feature you can take this is just a data and it's
+
+01:42:37.390 --> 01:42:41.670
+like a representation you will be able to find out now here
+
+01:42:41.670 --> 01:42:45.350
+you can try to select any kind of a learning rate so 0.00001
+
+01:42:45.350 --> 01:42:48.890
+till 10 activation function wise let's say sigmoid i'm going
+
+01:42:48.890 --> 01:42:51.430
+to choose yeah the sigmoid function that we have used
+
+01:42:51.430 --> 01:42:55.290
+regulation l1 and l2 so the one which i have discussed in
+
+01:42:55.290 --> 01:42:57.270
+machine learning it's going to be same it's not going to be
+
+01:42:57.270 --> 01:42:59.490
+like a different and then regulation control rate as well
+
+01:42:59.490 --> 01:43:03.630
+right okay okay so this neural network is almost similar to
+
+01:43:03.630 --> 01:43:07.570
+the neural network that we have now here so although i have
+
+01:43:07.570 --> 01:43:10.830
+not started the training right so you will be able to see
+
+01:43:10.830 --> 01:43:18.750
+some random weights 0.27 0. uh minus of 0.16 uh 0.23 0
+
+01:43:21.020 --> 01:43:28.700
+.27 0.40 and uh minus of 0.0049 right so everything is
+
+01:43:28.700 --> 01:43:31.500
+having its bait and then if you will go and hover your mouse
+
+01:43:31.500 --> 01:43:39.920
+biases biases is 0.10 0.10 and 0.10 so biases is same as
+
+01:43:39.920 --> 01:43:45.900
+like we had the biases and then basically you know the input
+
+01:43:45.900 --> 01:43:51.040
+we have over here and neural network wise it's fine now in a
+
+01:43:51.040 --> 01:43:54.040
+very first epoch as of now you have not done the training
+
+01:43:54.040 --> 01:43:56.680
+right so it is showing me loss is equal to test loss is
+
+01:43:56.680 --> 01:44:00.720
+equal to 0.51 so means there is a 50 percent loss it is not
+
+01:44:00.720 --> 01:44:03.840
+able to recognize half of the data which is completely
+
+01:44:03.840 --> 01:44:06.940
+visible right which is completely visible to me because if
+
+01:44:06.940 --> 01:44:12.000
+it is able to recognize half of the data then in half of the
+
+01:44:12.000 --> 01:44:15.000
+area you must have seen orange and in half of the area you
+
+01:44:15.000 --> 01:44:18.480
+must have seen blue but why it is coming as like a 50
+
+01:44:18.480 --> 01:44:22.240
+percent loss because blue wise the entire area background is
+
+01:44:22.240 --> 01:44:25.700
+blue but even for orange entire area background is blue and
+
+01:44:25.700 --> 01:44:27.560
+let's suppose there is a equal amount of data approximately
+
+01:44:27.560 --> 01:44:30.900
+so half of the data it is trying to represent in a blue and
+
+01:44:30.900 --> 01:44:33.560
+then half of the data it is trying to represent but it
+
+01:44:33.560 --> 01:44:36.160
+should actually represent this is what it is supposed to
+
+01:44:36.160 --> 01:44:39.980
+learn so now what i will do i'll try to start the training
+
+01:44:39.980 --> 01:44:44.480
+and you will be able to see that but remember a couple of
+
+01:44:44.480 --> 01:44:47.960
+weights 0.27 let's say remember this right or like 0.40
+
+01:44:47.960 --> 01:44:51.500
+remember this remove this weight it will start changing it
+
+01:44:51.500 --> 01:44:53.640
+and see the loss so
+
+01:44:57.540 --> 01:44:59.680
+loss is again 50 percent now everything has changed into
+
+01:44:59.680 --> 01:45:05.130
+this one means it is not able to learn anything and this
+
+01:45:05.130 --> 01:45:09.750
+entire weight became zero zero zero means beyond this i
+
+01:45:09.750 --> 01:45:13.870
+don't think that i will be able to learn let me play with
+
+01:45:13.870 --> 01:45:18.510
+the learning rate reset learning rate is very less so now
+
+01:45:18.510 --> 01:45:22.130
+conversions will happen very very very very slow and when
+
+01:45:22.130 --> 01:45:24.810
+conversion happens you will be able to see a flow right so
+
+01:45:24.810 --> 01:45:31.860
+data is flowing let me change to this and yeah so it has
+
+01:45:31.860 --> 01:45:34.380
+created a blunder so weight almost approximately goes to
+
+01:45:34.380 --> 01:45:39.760
+zero now so why it is happening and why it is not able to
+
+01:45:39.760 --> 01:45:43.880
+learn anything and why you know training loss is still 0.50
+
+01:45:43.880 --> 01:45:46.300
+and it will not be able to learn by the way it will never be
+
+01:45:46.300 --> 01:45:49.780
+able to learn in this situation a reason is very simple the
+
+01:45:49.780 --> 01:45:53.500
+kind of a network that we have chosen right and maybe like
+
+01:45:53.500 --> 01:45:56.160
+the function that we have chosen over here it's not a
+
+01:45:56.160 --> 01:46:00.740
+correct one right or maybe the kind of a like you know this
+
+01:46:00.740 --> 01:46:05.260
+network is trying to represent the complexity it's not
+
+01:46:05.260 --> 01:46:08.840
+sufficient enough to understand the complexity of the data
+
+01:46:08.840 --> 01:46:14.900
+because let me do one thing if i have to rewrite this entire
+
+01:46:14.900 --> 01:46:18.960
+like you know neural network if i have to rewrite this
+
+01:46:18.960 --> 01:46:22.900
+entire neural network in one single function same neural
+
+01:46:22.900 --> 01:46:25.740
+network which we have been talking about in one single
+
+01:46:25.740 --> 01:46:30.800
+function if i have to write down so output technically y hat
+
+01:46:30.800 --> 01:46:31.740
+so
+
+01:46:38.590 --> 01:46:47.550
+w1 w2 w3 w4 w5 w6 sigmoid sigmoid sigmoid
+
+01:46:50.630 --> 01:46:56.910
+b1 b2 b3 right so if i have to write the entire neural
+
+01:46:56.910 --> 01:47:00.210
+network in one single mathematical equation because neural
+
+01:47:00.210 --> 01:47:03.330
+network is nothing but mathematical equation right so i can
+
+01:47:03.330 --> 01:47:07.450
+try to write down that my y hat or my output is nothing but
+
+01:47:07.450 --> 01:47:10.650
+and let me write it down in this manner in a reverse like a
+
+01:47:10.650 --> 01:47:14.570
+basically like order so let me start from somewhere middle
+
+01:47:14.570 --> 01:47:19.610
+so that i can keep on expanding So, this is going to be in
+
+01:47:22.360 --> 01:47:24.420
+one single equation x1
+
+01:47:41.860 --> 01:47:55.960
+w1 x1 x1 w1 x1 w2 plus x2 w3 plus x2 w4 plus
+
+01:48:11.920 --> 01:48:16.060
+1 by 1 plus e to the power minus of
+
+01:48:19.100 --> 01:48:22.970
+x1 w1 plus
+
+01:48:28.400 --> 01:48:30.880
+x2 w3 plus
+
+01:48:33.000 --> 01:48:38.460
+b1. This is going here. Then separate equation I can try to
+
+01:48:38.460 --> 01:48:41.460
+write. So 1
+
+01:48:46.800 --> 01:48:54.810
+by 1 plus e to the power minus of x2 w3 plus x2 w4
+
+01:48:57.660 --> 01:49:03.140
+again x1
+
+01:49:04.770 --> 01:49:06.410
+w2 coming
+
+01:49:08.430 --> 01:49:16.560
+here right and then x2 w4 plus b2 fine I am able to
+
+01:49:16.560 --> 01:49:22.760
+calculate this now this is technically so coming here and
+
+01:49:22.760 --> 01:49:29.740
+here and it is going to multiply with w5 so
+
+01:49:33.100 --> 01:49:38.680
+this into this and then plus this is going to multiply with
+
+01:49:38.680 --> 01:49:45.860
+w6 and then this whole is going into 1
+
+01:49:48.740 --> 01:49:54.620
+by 1 plus e to the power this whole term this whole term and
+
+01:49:56.000 --> 01:50:01.380
+then this is is called as my final equation for this neural
+
+01:50:01.380 --> 01:50:05.520
+network. So if I have to write down once again in a little
+
+01:50:05.520 --> 01:50:09.920
+bit cleaner manner. So my y hat is 1 by 1 plus e to the
+
+01:50:09.920 --> 01:50:19.660
+power minus of of 1 by 1 plus e to the power minus of x1w1
+
+01:50:19.660 --> 01:50:31.900
+plus x2w2 plus b1 into w5 plus 1 by 1 plus e to the power
+
+01:50:31.900 --> 01:50:40.620
+minus of x1 w2 plus x2 w4 plus b2 and
+
+01:50:42.480 --> 01:50:49.800
+this term into w6 so this is your neural network guys this
+
+01:50:49.800 --> 01:50:52.800
+is your technical neural network right so this is what i was
+
+01:50:52.800 --> 01:50:55.680
+trying to say that every neural network is nothing but a
+
+01:50:55.680 --> 01:50:58.620
+mathematical equation now coming back to this point once
+
+01:50:58.620 --> 01:51:02.480
+again it has passed a data for 19 000 20 000 approximately
+
+01:51:02.480 --> 01:51:06.460
+right same data but still it is not able to converge reason
+
+01:51:06.460 --> 01:51:10.520
+is very simple the equation which this this entire neural
+
+01:51:10.520 --> 01:51:13.520
+network is trying to build is not sufficient enough to
+
+01:51:13.520 --> 01:51:18.020
+handle the complexity of the data means if if you are using
+
+01:51:18.020 --> 01:51:21.140
+like a you know very few neurons of your brain so maybe you
+
+01:51:21.140 --> 01:51:24.300
+will not be able to understand a big things a complex things
+
+01:51:24.300 --> 01:51:27.380
+right when you will try to focus more you will be able to
+
+01:51:27.380 --> 01:51:30.500
+understand more maybe be like with focus i mean to say that
+
+01:51:30.500 --> 01:51:33.660
+that more neurons right uh this is how what i'm trying to
+
+01:51:33.660 --> 01:51:36.820
+say so what i will do i'll show you one thing let me stop
+
+01:51:36.820 --> 01:51:41.740
+this one yeah i'll try to increase couple of neurons here so
+
+01:51:41.740 --> 01:51:45.100
+now if i'm increasing couple of neurons it will become
+
+01:51:45.100 --> 01:51:47.460
+complex right it will technically become complex my entire
+
+01:51:47.460 --> 01:51:51.280
+equation become complex over here so i have just increased a
+
+01:51:51.280 --> 01:51:53.920
+number of neuron on layer the input layer is same output
+
+01:51:53.920 --> 01:51:55.920
+layer is same data is same everything thing is same my
+
+01:51:55.920 --> 01:51:59.640
+sigmoid all this like you know activation everything is same
+
+01:51:59.640 --> 01:52:04.380
+i'm not changing anything now let's see so what is going to
+
+01:52:04.380 --> 01:52:08.060
+happen so now it is showing me some sense some sometime it
+
+01:52:08.060 --> 01:52:10.620
+is able to understand blue all the blues and sometime it is
+
+01:52:10.620 --> 01:52:16.320
+able to understand all the orange still not able to you know
+
+01:52:16.320 --> 01:52:20.760
+sense or understand much and then weight is becoming zero
+
+01:52:20.760 --> 01:52:24.880
+okay fine fine i'll restart because again it is not going to
+
+01:52:24.880 --> 01:52:29.760
+work i'll try to add one more hidden layer and couple of
+
+01:52:29.760 --> 01:52:33.780
+more neuron now my equation will become even more complex
+
+01:52:33.780 --> 01:52:36.920
+right even more complex to understand those complex means
+
+01:52:36.920 --> 01:52:40.640
+more non-linear because this data is not linear right this
+
+01:52:40.640 --> 01:52:43.120
+data is not linear this data is like concentrated somewhere
+
+01:52:43.120 --> 01:52:46.180
+around the sphere or something right right this is not
+
+01:52:46.180 --> 01:52:49.680
+linear so i have to understand this data now let's see
+
+01:52:49.680 --> 01:52:53.880
+whether it is able to so can i say that now it is able to
+
+01:52:53.880 --> 01:52:56.640
+understand my data somewhere
+
+01:52:58.490 --> 01:53:01.370
+in between it was able to understand then again it has gone
+
+01:53:01.370 --> 01:53:05.250
+yeah it has gone or
+
+01:53:08.000 --> 01:53:11.540
+maybe what i can do i can try to decrease a learning rate
+
+01:53:11.540 --> 01:53:15.740
+little bit so that it can become a slow learner it
+
+01:53:25.820 --> 01:53:28.900
+is very slow all became blue all the neurons so means it's
+
+01:53:28.900 --> 01:53:31.440
+going towards a bias so
+
+01:53:33.490 --> 01:53:36.390
+now let me do some more experimentation so i'll try to in
+
+01:53:36.390 --> 01:53:41.210
+like you know uh keep one more hidden layer and try to put
+
+01:53:41.210 --> 01:53:45.570
+more neurons in those hidden layer and couple of more
+
+01:53:45.570 --> 01:53:49.630
+neurons in this output hidden layer as well sigmoid
+
+01:53:49.630 --> 01:53:52.790
+everything is same uh let me keep learning it is equal to 0
+
+01:53:52.790 --> 01:53:57.290
+.001 now see what is going to happen
+
+01:54:04.720 --> 01:54:07.100
+you know all become zero okay
+
+01:54:09.240 --> 01:54:14.060
+so i think this neural network is fine uh maybe i can try to
+
+01:54:14.060 --> 01:54:17.020
+do experimentation with some other function so relu is one
+
+01:54:17.020 --> 01:54:20.160
+of the best function uh and again in the next class i'm
+
+01:54:20.160 --> 01:54:22.700
+going to talk about relu so rectified it's called as
+
+01:54:22.700 --> 01:54:25.660
+rectified neural input and where sigmoid is going to fail so
+
+01:54:25.660 --> 01:54:28.460
+relu will be able to pick the things so now let's see
+
+01:54:28.460 --> 01:54:30.600
+whether it is able to understand or not
+
+01:54:36.300 --> 01:54:40.800
+it seems like it is it is not able to understand this
+
+01:54:45.380 --> 01:54:48.280
+is output basically so this is my layers this is still a
+
+01:54:48.280 --> 01:54:50.200
+layers four hidden layers i have created this is my output
+
+01:54:50.200 --> 01:54:53.800
+layer so output in this playground output is visible on this
+
+01:54:53.800 --> 01:54:58.020
+board so this square one is your output it means y hat
+
+01:54:58.020 --> 01:55:00.920
+basically it is showing your direct prediction in a picture
+
+01:55:00.920 --> 01:55:07.660
+a picture term okay uh so here maybe this data set is
+
+01:55:07.660 --> 01:55:10.380
+complex it is not able to understand so maybe i can change
+
+01:55:10.380 --> 01:55:12.360
+the data let's see whether it is going to work or not
+
+01:55:18.210 --> 01:55:22.430
+it looks like it is not able to work almost
+
+01:55:30.490 --> 01:55:32.890
+like a 50 percent now
+
+01:55:45.180 --> 01:55:50.480
+see with with this this one right so your loss test loss is
+
+01:55:50.480 --> 01:55:53.520
+basically this i mean like loss is almost close to zero that
+
+01:55:53.520 --> 01:55:58.700
+you are able to find out and here so we had a blue dots so
+
+01:55:58.700 --> 01:56:01.840
+blue dot is getting concentrated amongst the blue lines
+
+01:56:01.840 --> 01:56:05.120
+right and then we have a orange dots and orange dots are
+
+01:56:05.120 --> 01:56:08.260
+getting concentrated among the orange lines so now this
+
+01:56:08.260 --> 01:56:14.980
+looks like a good prediction or this looks like a good
+
+01:56:14.980 --> 01:56:17.960
+module and how many hidden layer we have two hidden layer we
+
+01:56:17.960 --> 01:56:20.040
+have in one hidden layer we have four neurons in other
+
+01:56:20.040 --> 01:56:23.020
+hidden layers we have two neurons and here we have basically
+
+01:56:23.020 --> 01:56:28.880
+final output right final output if i'm going to remove this
+
+01:56:28.880 --> 01:56:36.540
+and and this and this so now this is actually equivalent to
+
+01:56:36.540 --> 01:56:42.360
+our neural network input hidden one and then output so input
+
+01:56:42.360 --> 01:56:45.700
+hidden one and then output so this is exactly same as our
+
+01:56:45.700 --> 01:56:52.580
+neural network that we have actually created yeah and even
+
+01:56:52.580 --> 01:56:56.360
+in this case yes it is giving me the like better result at
+
+01:56:56.360 --> 01:57:01.970
+least for these parameters right maybe i can try to increase
+
+01:57:01.970 --> 01:57:03.350
+one so
+
+01:57:12.090 --> 01:57:14.630
+this is just a playground guys by the way just to give you
+
+01:57:14.630 --> 01:57:17.130
+understanding understanding that whatsoever we have learned
+
+01:57:17.130 --> 01:57:20.010
+so whether you are able to relate the exact same thing or
+
+01:57:20.010 --> 01:57:24.350
+not even in this particular places everything is the same so
+
+01:57:24.350 --> 01:57:27.090
+now i believe we are able to understand that that what is a
+
+01:57:27.090 --> 01:57:30.730
+input layer what is a hidden layer by the way what is a
+
+01:57:30.730 --> 01:57:34.170
+meaning of a neurons what is basically a weights and what is
+
+01:57:34.170 --> 01:57:36.970
+basically a biases all of these things we are able to
+
+01:57:36.970 --> 01:57:40.710
+understand what we are not able to discuss today is that
+
+01:57:40.710 --> 01:57:44.050
+epoch so what is the meaning of a epoch then there is a term
+
+01:57:44.050 --> 01:57:47.910
+called as batch size by the way then activation functions
+
+01:57:47.910 --> 01:57:51.150
+wise we have understood that what is the meaning of
+
+01:57:51.150 --> 01:57:55.210
+activation function right create a non-linearity because if
+
+01:57:55.210 --> 01:57:59.110
+it is not going to be the activation functions in between or
+
+01:57:59.110 --> 01:58:02.590
+inside a hidden layer then your entire equation will become
+
+01:58:02.590 --> 01:58:05.510
+linear and if it is linear so obviously it will not be able
+
+01:58:05.510 --> 01:58:08.210
+to understand any kind of a pattern in this entire world
+
+01:58:08.210 --> 01:58:11.070
+because almost all the patterns are going to to be non
+
+01:58:11.070 --> 01:58:13.990
+-linear right so this is where this linearity comes into
+
+01:58:13.990 --> 01:58:18.050
+picture uh and this sorry this is where this activation
+
+01:58:18.050 --> 01:58:20.970
+function comes into picture so i'll be talking about a lot
+
+01:58:20.970 --> 01:58:23.510
+of activation functions not just this four sigmoid is
+
+01:58:23.510 --> 01:58:26.050
+something which i have discussed but yeah so apart from this
+
+01:58:26.050 --> 01:58:29.390
+four i'll be talking about almost eight or ten i believe uh
+
+01:58:29.390 --> 01:58:32.010
+in my list i have eight or ten activation functions i'll be
+
+01:58:32.010 --> 01:58:35.330
+talking about those eight or ten activation function at that
+
+01:58:35.330 --> 01:58:39.170
+point of her time l1 l2 i mean like the same with respect to
+
+01:58:39.170 --> 01:58:40.990
+classification we have discussed with respect to regression
+
+01:58:40.990 --> 01:58:45.310
+also we'll try to discuss uh and batch size right so if you
+
+01:58:45.310 --> 01:58:48.890
+are able to understand all of these things then you will be
+
+01:58:48.890 --> 01:58:53.150
+ready for next phase where you can go and you can try to
+
+01:58:53.150 --> 01:58:56.590
+like you know learn a specialized network when i say
+
+01:58:56.590 --> 01:58:59.450
+specialized network it simply means that that a network
+
+01:58:59.450 --> 01:59:01.870
+neural network from a computer vision because again there
+
+01:59:01.870 --> 01:59:03.670
+will be a lot of concept which will come into picture inside
+
+01:59:03.670 --> 01:59:06.210
+computer vision there is something called as resnet there is
+
+01:59:06.210 --> 01:59:08.190
+something called as lx net there is something called as lean
+
+01:59:08.190 --> 01:59:12.110
+net there is something called as google net dark net vgg 16
+
+01:59:12.110 --> 01:59:18.450
+yolo s d it's ssd so uh basically like uh you know there are
+
+01:59:18.450 --> 01:59:21.670
+so many networks which is uh there again if you'll come to
+
+01:59:21.670 --> 01:59:26.470
+uh like a nlp side so there are again variety of network the
+
+01:59:26.470 --> 01:59:28.730
+ultimate goal will be to understand transformer architecture
+
+01:59:28.730 --> 01:59:34.250
+right because that that's the ultimate one after that only
+
+01:59:34.250 --> 01:59:37.650
+you will be able to understand the working mechanism of chat
+
+01:59:37.650 --> 01:59:42.610
+gpt or any elements which is like out there so yeah just go
+
+01:59:42.610 --> 01:59:46.250
+explore each and everything try to make your concept as
+
+01:59:46.250 --> 01:59:49.750
+robust as possible which is going to help you out to
+
+01:59:49.750 --> 01:59:55.490
+understand another concept or topics so any question guys
+
+01:59:55.490 --> 01:59:58.850
+size saying output layer will have only one neurons right uh
+
+01:59:58.850 --> 02:00:04.370
+that depends by the way so what kind of a function i'm going
+
+02:00:04.370 --> 02:00:09.330
+to put up over there so i can try to keep even 10 right so
+
+02:00:09.330 --> 02:00:14.390
+output layer is not having technically uh i mean like it's
+
+02:00:14.390 --> 02:00:18.590
+just output calculation layer right so it depends how many
+
+02:00:18.590 --> 02:00:21.050
+output we are looking for so let's say if we have to predict
+
+02:00:21.050 --> 02:00:25.130
+10 classes right so again we have to decide a function so
+
+02:00:25.130 --> 02:00:28.250
+which will help me out to decide the 10 classes accordingly
+
+02:00:28.250 --> 02:00:30.230
+we'll try to choose okay
+
+02:00:33.750 --> 02:00:37.810
+so that's it guys that's it for today uh for tomorrow i'm
+
+02:00:37.810 --> 02:00:41.450
+not sure no i'm sure i believe so tomorrow i think i'm going
+
+02:00:41.450 --> 02:00:46.290
+out uh so this four o'clock class i will not be able to take
+
+02:00:46.290 --> 02:00:49.750
+a one o'clock class i'm taking the ops one but yeah the four
+
+02:00:49.750 --> 02:00:52.050
+o'clock class i will not be able to take so tomorrow we
+
+02:00:52.050 --> 02:00:55.910
+don't have a class and even i was thinking about changing a
+
+02:00:55.910 --> 02:00:59.310
+time of your class so instead of four maybe i have a morning
+
+02:00:59.310 --> 02:01:02.590
+slot available with me like nine o'clock or something so e
+
+02:01:02.590 --> 02:01:05.190
+people will agree so we can try to schedule saturday sunday
+
+02:01:05.190 --> 02:01:09.450
+itself right saturday sunday itself so i think i can you
+
+02:01:09.450 --> 02:01:13.330
+know schedule this class in morning what do you say guys
+
+02:01:13.330 --> 02:01:16.990
+shall we go ahead with the morning class morning is not like
+
+02:01:16.990 --> 02:01:19.950
+you know early morning even that is difficult for me morning
+
+02:01:19.950 --> 02:01:25.790
+means nine o'clock morning saturday sunday itself yeah
+
+02:01:25.790 --> 02:01:31.380
+because uh yeah in morning with the fresh mind all of you
+
+02:01:31.380 --> 02:01:34.780
+will be able to learn neural network and then what is the
+
+02:01:34.780 --> 02:01:41.300
+date 11th july so tomorrow guys we don't have a class i have
+
+02:01:41.300 --> 02:01:45.200
+some uh like you know i have to go out by the way for some
+
+02:01:45.200 --> 02:01:50.140
+work this will work so uh around like 3 30 or 4 o'clock so
+
+02:01:50.140 --> 02:01:54.380
+same time as your class which i can't avoid so that is the
+
+02:01:54.380 --> 02:01:58.280
+reason i will not be able to take the classes no
+
+02:02:01.380 --> 02:02:05.140
+sir why it doesn't works because nine o'clock why it is not
+
+02:02:05.140 --> 02:02:07.940
+going to work i'm not able to understand why it is not going
+
+02:02:07.940 --> 02:02:10.800
+to work and that too on a saturday to sunday i'm not saying
+
+02:02:10.800 --> 02:02:12.480
+weekdays right okay
+
+02:02:23.490 --> 02:02:27.230
+so fine everyone uh tomorrow what we'll do so we will be
+
+02:02:27.230 --> 02:02:33.950
+having class at 9 a.m ist so 9 a.m morning uh we will do our
+
+02:02:33.950 --> 02:02:38.190
+classes so yeah and tomorrow what we are going to discuss so
+
+02:02:38.190 --> 02:02:41.190
+we'll try to dig deeper into a neural network so we are
+
+02:02:41.190 --> 02:02:45.070
+going to basically talk about something around activation
+
+02:02:45.070 --> 02:02:48.290
+functions then there is something called as optimizer then
+
+02:02:48.290 --> 02:02:52.850
+these small small terms L1 L2 and then like the batch size
+
+02:02:52.850 --> 02:02:57.130
+basically plus we will try to write a python code tomorrow
+
+02:02:57.130 --> 02:03:01.410
+right a small python code by which we will try to create our
+
+02:03:01.410 --> 02:03:05.390
+own neural network and we'll try to even train it without
+
+02:03:05.390 --> 02:03:08.390
+using any libraries. So I'm not going to use TensorFlow. I'm
+
+02:03:08.390 --> 02:03:11.050
+not going to use PyTorch by the way without using any
+
+02:03:11.050 --> 02:03:14.430
+library means literally any library will try to create a
+
+02:03:14.430 --> 02:03:17.270
+neural network from a scratch. Make sense?
+
+02:03:20.510 --> 02:03:23.350
+We are occupied with other classes. No, I don't think that
+
+02:03:23.350 --> 02:03:28.970
+there is any other classes at 9am IST we have. We don't have
+
+02:03:28.970 --> 02:03:30.050
+any classes at 9am IST.
+
+02:03:35.020 --> 02:03:39.000
+Yeah. Okay, so finally everyone tomorrow we have a class at
+
+02:03:39.000 --> 02:03:41.600
+9 a.m ist i don't want to you know cancel last week i have
+
+02:03:41.600 --> 02:03:45.740
+canceled so tomorrow 9 a.m ist will be have uh we will be
+
+02:03:45.740 --> 02:03:48.340
+having classes so yeah let's let's join let's have a
+
+02:03:48.340 --> 02:03:51.080
+discussion it'll be fun tomorrow i'll be like talking about
+
+02:03:51.080 --> 02:03:52.380
+creating a new network
+
+02:03:55.300 --> 02:03:59.600
+from scratch only with python code only by writing some
+
+02:03:59.600 --> 02:04:04.320
+classes and some functions without using any PyTorch or
+
+02:04:04.320 --> 02:04:05.280
+something, TensorFlow.
+
+02:04:08.210 --> 02:04:12.030
+Yeah. So, fine. With that, thank you so much, everyone. Take
+
+02:04:12.030 --> 02:04:15.310
+care. See you again tomorrow, 9 a.m. IST. Remember the date.
+
+02:04:15.590 --> 02:04:18.590
+Time, basically. Yeah, 9 a.m. IST. Thank you.
+

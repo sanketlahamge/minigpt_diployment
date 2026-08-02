@@ -1,0 +1,6398 @@
+WEBVTT
+
+00:05:54.770 --> 00:05:58.410
+okay so hi everyone good evening uh i think i'm audible and
+
+00:05:58.410 --> 00:06:00.630
+visible to all of you guys so please confirm if i'm audible
+
+00:06:00.630 --> 00:06:06.410
+visible inside a chat okay so good evening everyone good
+
+00:06:06.410 --> 00:06:06.670
+evening
+
+00:06:09.660 --> 00:06:13.340
+so shall we start with the class guys i believe uh last week
+
+00:06:13.340 --> 00:06:17.500
+we have done a induction session uh so i believe you all
+
+00:06:17.500 --> 00:06:21.880
+have an idea that uh you know what is your own systems is
+
+00:06:21.880 --> 00:06:25.500
+and uh what what we are going to do basically uh what we are
+
+00:06:25.500 --> 00:06:28.780
+going to cover and i'm assuming that that you all have gone
+
+00:06:28.780 --> 00:06:32.380
+through a syllabus a syllabus that is already available with
+
+00:06:32.380 --> 00:06:35.900
+all of you right and uh even in case if you have missed any
+
+00:06:35.900 --> 00:06:38.580
+of the classes so i believe uh we have already uploaded a
+
+00:06:38.580 --> 00:06:41.360
+recording and in the similar manner so we'll keep on
+
+00:06:41.360 --> 00:06:44.360
+uploading a recording so yes sir you are audible and visible
+
+00:06:44.360 --> 00:06:48.100
+okay fine everyone so let's start yeah so we are going to
+
+00:06:48.100 --> 00:06:51.260
+start from the scratch guys so like i said in my induction
+
+00:06:51.260 --> 00:06:54.600
+session that this is going to be for everyone everyone means
+
+00:06:54.600 --> 00:06:59.040
+uh whoever would like to start their journey uh into a tech
+
+00:06:59.040 --> 00:07:02.380
+so it's it's basically for like all of us even for our kids
+
+00:07:02.380 --> 00:07:05.820
+so they can join and they can try to learn as much as they
+
+00:07:05.820 --> 00:07:09.780
+can even for uh non-tech people for anyone basically because
+
+00:07:09.780 --> 00:07:12.560
+uh this is not an advanced batch we have other advanced
+
+00:07:12.560 --> 00:07:15.500
+batches but yeah this is going to be from a very very
+
+00:07:15.500 --> 00:07:18.780
+scratch so first of all guys what we have to do so we have
+
+00:07:18.780 --> 00:07:23.500
+to do a setup yeah i know you have already done a setup
+
+00:07:23.500 --> 00:07:27.100
+inside your system uh you are able to do a programming but
+
+00:07:27.100 --> 00:07:31.000
+we are going to start from the scratch so keeping that in
+
+00:07:31.000 --> 00:07:34.900
+our mind so first of all we'll do a setup now so obviously
+
+00:07:34.900 --> 00:07:37.720
+we have to write a code we have to learn a lot of like a
+
+00:07:37.720 --> 00:07:42.260
+concept theory practical each and everything and uh yeah so
+
+00:07:42.260 --> 00:07:46.140
+to do that we need a system setup and initially we need
+
+00:07:46.140 --> 00:07:49.460
+couple of things not like many more things couple of things
+
+00:07:49.460 --> 00:07:52.920
+are required by the way so the first thing which is required
+
+00:07:52.920 --> 00:07:57.480
+in everyone's system is an id so id wise we are going to use
+
+00:07:57.480 --> 00:08:01.300
+a vs code now vs code is not the only option which is
+
+00:08:01.300 --> 00:08:04.520
+available into a market so apart from vs code there are so
+
+00:08:04.520 --> 00:08:08.280
+many other ids which is also available uh you can try to use
+
+00:08:08.280 --> 00:08:12.020
+uh basically cursor you can try to use anti-gravity you can
+
+00:08:12.020 --> 00:08:15.000
+try to use wind serve so there are tons of ids which is
+
+00:08:15.000 --> 00:08:19.720
+available and basically a base for all of these ids which i
+
+00:08:19.720 --> 00:08:23.180
+have named just now it's bs code apart from that so you can
+
+00:08:23.180 --> 00:08:25.540
+try to use maybe uh something from jetbrains that that's
+
+00:08:25.540 --> 00:08:28.680
+completely up to you but i believe vs code is one of the
+
+00:08:28.680 --> 00:08:32.860
+developer friendly or one of the tech friendly like id which
+
+00:08:32.860 --> 00:08:35.880
+is available in a market and since ages we are using it we
+
+00:08:35.880 --> 00:08:40.560
+all are using it basically so here is a vs code link and
+
+00:08:40.560 --> 00:08:44.640
+anyone can go there and they can try to download for any
+
+00:08:44.640 --> 00:08:47.420
+system that you have so if you have windows machine it will
+
+00:08:47.420 --> 00:08:52.920
+work if you have mac machine it will work if you like a
+
+00:08:52.920 --> 00:08:55.440
+linux machine so it is going to work so it is going to
+
+00:08:55.440 --> 00:08:58.620
+technically work for all kind of a machine uh that you have
+
+00:08:58.620 --> 00:09:01.480
+so without any kind of a restriction so i have already
+
+00:09:01.480 --> 00:09:03.920
+pinged you a link guys inside a chat so please go through
+
+00:09:03.920 --> 00:09:07.280
+that if you don't have a vs code like i said there are other
+
+00:09:07.280 --> 00:09:09.840
+alternative as well so other alternative wise there is a
+
+00:09:09.840 --> 00:09:14.900
+cursor so again a vs code is a base for a cursor and
+
+00:09:14.900 --> 00:09:18.740
+basically cursor try to sell their own subscription so that
+
+00:09:18.740 --> 00:09:23.320
+you will be able to use a cursor in a basically agentic mode
+
+00:09:23.320 --> 00:09:26.800
+so where agents are going to write a code for you apart from
+
+00:09:26.800 --> 00:09:30.840
+that so there is something called as anti-gravity by google
+
+00:09:30.840 --> 00:09:35.160
+so again uh base is vs code itself but yeah so they have
+
+00:09:35.160 --> 00:09:38.200
+built their own wrapper on top of it and you can try to
+
+00:09:38.200 --> 00:09:40.740
+download it they give you some sort of a free version as
+
+00:09:40.740 --> 00:09:43.860
+well and after that obviously like you you are supposed to
+
+00:09:43.860 --> 00:09:46.760
+like pay for it apart from that so you will be able to find
+
+00:09:46.760 --> 00:09:51.100
+out something called as wind surf so windsurf and windsurf
+
+00:09:51.100 --> 00:09:52.180
+is also base wise image games so based on basic code what
+
+00:09:52.180 --> 00:09:55.960
+you it's a vs code it's a id agentic id you can say so where
+
+00:09:55.960 --> 00:09:59.080
+you can try to involve an agent and agent will end up
+
+00:09:59.080 --> 00:10:01.680
+writing a code for you so you don't have to write a code but
+
+00:10:01.680 --> 00:10:04.100
+yeah we are not going to use that part by the way yeah so we
+
+00:10:04.100 --> 00:10:07.700
+are not going to use a agentic part for now obviously we are
+
+00:10:07.700 --> 00:10:09.760
+going to use it i will be showing you a lot of like a
+
+00:10:09.760 --> 00:10:13.640
+agentic coding as well vive coding you can say but not now
+
+00:10:13.640 --> 00:10:16.520
+in a later stage when we will like you know jump into a
+
+00:10:16.520 --> 00:10:19.860
+machine learning or when we start doing a project at that
+
+00:10:19.860 --> 00:10:22.020
+point of a time i'm going to show you how you can use a
+
+00:10:22.020 --> 00:10:25.920
+agent and how you can try to orchestrate the entire things
+
+00:10:25.920 --> 00:10:28.040
+that you are trying to build in terms of problem statement
+
+00:10:28.040 --> 00:10:30.800
+architecture design diagram everything and then agents will
+
+00:10:30.800 --> 00:10:33.400
+be eventually take over and they will start building a
+
+00:10:33.400 --> 00:10:35.080
+product for you making
+
+00:10:39.530 --> 00:10:42.390
+sense everyone yeah can i get a ping yes no inside a chat
+
+00:10:42.390 --> 00:10:43.510
+sir
+
+00:10:46.840 --> 00:10:51.980
+cursor anti-gravity and windsurf all are paid version uh if
+
+00:10:51.980 --> 00:10:56.520
+you are using agent only in that case it is going to ask you
+
+00:10:56.520 --> 00:10:59.060
+for a payment if you are not going to use agentic code then
+
+00:10:59.060 --> 00:10:59.060
+you are not going to get a payment if you are not going to
+
+00:10:59.060 --> 00:11:01.440
+use a agentic agent if you are writing a code or maybe
+
+00:11:01.440 --> 00:11:04.060
+installing some other plugin then it's it's completely fine
+
+00:11:06.180 --> 00:11:09.800
+yeah please also teach how to minimize a token consumption
+
+00:11:09.800 --> 00:11:16.600
+example claude pro see token consumption depends upon the
+
+00:11:16.600 --> 00:11:20.520
+the very first like a baseline is that that it always
+
+00:11:20.520 --> 00:11:24.520
+depends upon our model that you are using that's a part
+
+00:11:24.520 --> 00:11:28.160
+number one part number two is that that how you have set
+
+00:11:28.160 --> 00:11:32.560
+your rules and and how much context it is going to take and
+
+00:11:32.560 --> 00:11:35.740
+how much understanding it have with respect to all the past
+
+00:11:35.740 --> 00:11:38.740
+work that that particular agent has done or maybe your code
+
+00:11:38.740 --> 00:11:42.240
+base and how lengthy your code base is so this is where uh
+
+00:11:42.240 --> 00:11:46.620
+because uh again so if i'm using some worst model means i'm
+
+00:11:46.620 --> 00:11:50.120
+compromising with the output so again even if my token
+
+00:11:50.120 --> 00:11:53.440
+consumption is going to be low i will not be able to get a
+
+00:11:53.440 --> 00:11:59.020
+required output yes so i said i'm working as auto automation
+
+00:11:59.020 --> 00:12:01.180
+tester using a selenium with python could you please guide
+
+00:12:01.180 --> 00:12:03.600
+me how it can utilize this course to automate a website
+
+00:12:03.600 --> 00:12:06.880
+where a model can be applied yeah i think that will come
+
+00:12:06.880 --> 00:12:10.080
+into picture uh very soon not very soon i would say maybe
+
+00:12:10.080 --> 00:12:13.620
+after a month of time yeah and if you have to like learn
+
+00:12:13.620 --> 00:12:16.380
+these things quickly then maybe you can uh you know explore
+
+00:12:16.380 --> 00:12:18.640
+other batches because we are already teaching those part as
+
+00:12:18.640 --> 00:12:24.940
+well fine okay so fine guys uh so basically vs code is
+
+00:12:24.940 --> 00:12:28.560
+required for now and i'm assuming that most of us have
+
+00:12:28.560 --> 00:12:31.660
+already installed a vs code let me open up a vs code inside
+
+00:12:31.660 --> 00:12:39.580
+my system now this is a vs code interface now inside that so
+
+00:12:39.580 --> 00:12:42.020
+you can try to install a different different kind of a
+
+00:12:42.020 --> 00:12:45.160
+plugin or you can say a extension so which is going to make
+
+00:12:45.160 --> 00:12:48.880
+your life little bit easier but along with vs code you have
+
+00:12:48.880 --> 00:12:52.340
+to install also a python if python is not available inside
+
+00:12:52.340 --> 00:12:55.300
+your machine so obviously you will not be able to use it you
+
+00:12:55.300 --> 00:12:59.400
+will not be able to write it down so here i can go inside a
+
+00:12:59.400 --> 00:13:00.660
+google and try to install a vs code inside my system so here
+
+00:13:00.660 --> 00:13:01.240
+i have a vs code inside my system so i will try to search
+
+00:13:01.240 --> 00:13:05.280
+for python download and it is going to show me a latest
+
+00:13:05.280 --> 00:13:09.800
+version as well as the oldest version so as of now a version
+
+00:13:09.800 --> 00:13:14.880
+which is running in a market is 3.14 you can try to install
+
+00:13:14.880 --> 00:13:21.720
+even 3.11 3.10 3.12 3.13 everything is going to work so you
+
+00:13:21.720 --> 00:13:24.340
+don't have to worry about a version maybe you can install a
+
+00:13:24.340 --> 00:13:27.600
+latest one or maybe you can try to install a older version
+
+00:13:27.600 --> 00:13:30.640
+that's completely fine as we will progress inside the
+
+00:13:30.640 --> 00:13:30.640
+version you can install the latest version or maybe you can
+
+00:13:30.640 --> 00:13:30.660
+try to install a older version that's completely fine inside
+
+00:13:30.660 --> 00:13:33.720
+a class so i will be talking about even a different
+
+00:13:33.720 --> 00:13:36.640
+different kind of environment creation and with that
+
+00:13:36.640 --> 00:13:40.460
+different kind of a python worsening as well so maybe some
+
+00:13:40.460 --> 00:13:44.480
+environment with 3.9 some environment with like a 3.10 3.11
+
+00:13:44.480 --> 00:13:48.920
+something like that obviously we will try to make a c so
+
+00:13:48.920 --> 00:13:53.520
+starting from 3.10 and beyond i believe it will be like a
+
+00:13:53.520 --> 00:13:57.340
+good idea maybe you can try to like use something from 3.10
+
+00:13:57.340 --> 00:14:02.180
+and beyond that will be my advice to all of you so python
+
+00:14:02.180 --> 00:14:04.940
+let me ping you this link guys and again this is available
+
+00:14:04.940 --> 00:14:08.140
+for windows linux mac android and others as you can see
+
+00:14:08.140 --> 00:14:12.300
+inside their statement itself so this is the link guys in a
+
+00:14:12.300 --> 00:14:16.680
+chat for python just click download click click click
+
+00:14:16.680 --> 00:14:20.580
+install done nothing much is required very very simple yeah
+
+00:14:20.580 --> 00:14:26.140
+okay now so we have a vs code and we have a python
+
+00:14:26.140 --> 00:14:30.240
+installation inside our system and if that is there then
+
+00:14:30.240 --> 00:14:30.640
+what we can do is we are going to pick a top position so or
+
+00:14:30.640 --> 00:14:30.640
+we can press c if we need to go or hit c input if we need to
+
+00:14:30.640 --> 00:14:33.580
+go to cft. can do so we can try to open up a vs code and
+
+00:14:33.580 --> 00:14:39.320
+then we can try to search for jupyter jupyter notebook here
+
+00:14:39.320 --> 00:14:44.040
+so just type these things jupyter notebook and you will be
+
+00:14:44.040 --> 00:14:46.900
+able to see a lot of option you don't have to go after a lot
+
+00:14:46.900 --> 00:14:50.440
+of options you have to go after the official option so this
+
+00:14:50.440 --> 00:14:53.900
+is the official one and you can see it's having a huge huge
+
+00:14:53.900 --> 00:14:58.020
+number of a download right so you will be able to see a
+
+00:14:58.020 --> 00:15:00.700
+install option i am able to see uninstall option because
+
+00:15:00.700 --> 00:15:03.640
+it's already installed inside my system so you will be able
+
+00:15:03.640 --> 00:15:07.140
+to see install option within a 30 second of time it will be
+
+00:15:07.140 --> 00:15:10.620
+ready yeah 30 second of time it will be ready so sequence
+
+00:15:10.620 --> 00:15:17.800
+wise it's a very simple sequence so first vs code second
+
+00:15:17.800 --> 00:15:26.920
+python third jupyter notebook and if these three things are
+
+00:15:26.920 --> 00:15:26.940
+available then you will be able to see a lot of options so
+
+00:15:26.940 --> 00:15:28.720
+this is the official one are available inside my system i'm
+
+00:15:28.720 --> 00:15:31.760
+good to start so anyone who is not having these three things
+
+00:15:31.760 --> 00:15:34.620
+inside your system guys and that's the reason so i believe i
+
+00:15:34.620 --> 00:15:36.800
+have pinged you inside your group as well that before coming
+
+00:15:36.800 --> 00:15:39.920
+to a class please make sure that that you are doing this so
+
+00:15:39.920 --> 00:15:42.220
+anyone maybe you can take your time uh you can ping me
+
+00:15:42.220 --> 00:15:43.740
+inside a group yeah
+
+00:15:46.660 --> 00:15:50.100
+anyone who is not having all these three inside
+
+00:15:56.240 --> 00:16:02.840
+a chat everyone okay pradeep is saying done okay no fine i'm
+
+00:16:02.840 --> 00:16:06.060
+giving you five minute of time guys five minute yeah take
+
+00:16:06.060 --> 00:16:09.340
+your time i think in five minute it can be done so take your
+
+00:16:09.340 --> 00:16:12.000
+time i have already pinged you a link link for python link
+
+00:16:12.000 --> 00:16:15.920
+for vs code both is available and jupyter notebook so from a
+
+00:16:15.920 --> 00:16:19.340
+vs code itself from extension tab you all will be able to do
+
+00:16:19.340 --> 00:16:26.940
+installation all set okay okay cool done done done okay fine
+
+00:16:29.660 --> 00:16:31.880
+so
+
+00:16:35.590 --> 00:16:40.590
+yeah done is fine how many of you have not done that i'm
+
+00:16:40.590 --> 00:16:43.410
+just waiting for that message python must be there in a
+
+00:16:43.410 --> 00:16:47.170
+system it is a company laptop and they have restricted uh
+
+00:16:47.170 --> 00:16:50.990
+maybe you can check python is a basic package and if you are
+
+00:16:50.990 --> 00:16:54.070
+working into a tech industry so maybe they have already
+
+00:16:54.070 --> 00:16:58.350
+installed it uh yeah maybe like if you are not a part of
+
+00:16:58.350 --> 00:17:02.670
+tech industry then there is a possibility that python may be
+
+00:17:02.670 --> 00:17:07.530
+not there yeah now so those who are facing such kind of
+
+00:17:07.530 --> 00:17:10.350
+issues not an issue at all let me show you alternative for
+
+00:17:10.350 --> 00:17:15.590
+that again go to google and search for google but again make
+
+00:17:15.590 --> 00:17:18.210
+sure that within a month of time you must be having all
+
+00:17:18.210 --> 00:17:21.530
+those things installed inside your system because as of now
+
+00:17:21.530 --> 00:17:24.890
+we are going to use a jupyter notebook but right after a
+
+00:17:24.890 --> 00:17:28.070
+python project right right after the python project or not
+
+00:17:28.070 --> 00:17:30.370
+right after python project because inside a python we have a
+
+00:17:30.370 --> 00:17:33.190
+package packages we have a modules all those chapters we
+
+00:17:33.190 --> 00:17:36.690
+have so at that point of time i will not be using a jupyter
+
+00:17:36.690 --> 00:17:40.710
+notebook and right after a python project we are going to
+
+00:17:40.710 --> 00:17:44.530
+leave jupyter notebook permanently for the entire life we
+
+00:17:44.530 --> 00:17:47.310
+are not going to write even a single line of a code inside a
+
+00:17:47.310 --> 00:17:52.310
+jupyter notebook inside a vs code we'll be writing a code so
+
+00:17:52.310 --> 00:17:55.830
+uh as of now yeah so this is just a workaround by the way so
+
+00:17:55.830 --> 00:17:58.250
+those who have some sort of you know office restriction or
+
+00:17:58.250 --> 00:18:01.190
+something so you can try to go to a collab it's a free
+
+00:18:01.190 --> 00:18:03.610
+option which is available to all of us and then you can try
+
+00:18:03.610 --> 00:18:08.070
+to create a notebook there and then you can try to you know
+
+00:18:08.070 --> 00:18:11.590
+start with it so this option is available to all of us guys
+
+00:18:11.590 --> 00:18:16.530
+so just go to collab click on files new notebook in drive
+
+00:18:16.530 --> 00:18:21.230
+and yeah so this is a free version which is available to all
+
+00:18:21.230 --> 00:18:27.950
+of us how to check jupyter in vs code simple you have to go
+
+00:18:27.950 --> 00:18:32.090
+to a vs code there is a icon you will be able to see on your
+
+00:18:32.090 --> 00:18:35.050
+left hand side there is something called as extension just
+
+00:18:35.050 --> 00:18:38.230
+just follow my cursor yeah i'm holding my cursor over here
+
+00:18:38.230 --> 00:18:41.630
+so there is a something called as extension and then here
+
+00:18:41.630 --> 00:18:44.950
+type jupyter notebook and
+
+00:18:46.840 --> 00:18:48.880
+if it is already installed then it will show you the
+
+00:18:48.900 --> 00:18:51.940
+uninstall option if it is not installed then it will show
+
+00:18:51.940 --> 00:18:59.900
+you install option fine okay now so once all of these
+
+00:18:59.900 --> 00:19:03.580
+installation are done i can click on file i can click on
+
+00:19:03.580 --> 00:19:08.000
+open folder let me create a new folder right and then maybe
+
+00:19:08.000 --> 00:19:11.660
+i can try to create a folder called as python basic or
+
+00:19:11.660 --> 00:19:14.400
+whatsoever name that you would like to give you can try to
+
+00:19:14.400 --> 00:19:18.580
+uh give to this particular folder so i am giving a name as
+
+00:19:18.580 --> 00:19:20.760
+python basic so now folder creation is done so let's go
+
+00:19:20.760 --> 00:19:23.560
+ahead and create a folder is done let me close all the other
+
+00:19:23.560 --> 00:19:27.060
+things which is available over here now if my jupyter
+
+00:19:27.060 --> 00:19:31.180
+notebook is already installed right so here what i can do i
+
+00:19:31.180 --> 00:19:35.500
+can come right click click on new file or maybe i can hover
+
+00:19:35.500 --> 00:19:40.320
+over here and even i can click here to create a files and i
+
+00:19:40.320 --> 00:19:44.140
+can try to create maybe test dot so file name can be
+
+00:19:44.140 --> 00:19:46.760
+anything you can try to put my name your name doesn't matter
+
+00:19:46.760 --> 00:19:50.760
+at all but after dot the extension that you are supposed to
+
+00:19:50.760 --> 00:19:52.100
+create is going to be jupyter notebook and you have to be
+
+00:19:52.100 --> 00:19:55.080
+very very careful about it so the extension is going to be
+
+00:19:55.080 --> 00:20:02.600
+ipynb ipython jupyter notebook file or binary so ipynb this
+
+00:20:02.600 --> 00:20:07.240
+is the extension of your jupyter notebook file even on a
+
+00:20:07.240 --> 00:20:10.360
+google collab so when you are going to create it you you
+
+00:20:10.360 --> 00:20:13.960
+will end up getting a similar kind of a extension ipynb
+
+00:20:13.960 --> 00:20:17.740
+that's the extension of a jupyter notebook so where you can
+
+00:20:17.740 --> 00:20:23.000
+you know initially try to practice all of your code someone
+
+00:20:23.000 --> 00:20:28.600
+is saying that you are not audible is it i think i'm clearly
+
+00:20:28.600 --> 00:20:35.340
+audible invisible yeah so i'm audible yeah so i'm using this
+
+00:20:35.340 --> 00:20:38.720
+setup uh day and night for my meetings and for all the like
+
+00:20:38.720 --> 00:20:42.580
+classes i know i'm audible maybe you should check like some
+
+00:20:42.580 --> 00:20:45.560
+system setting from your end or maybe check your zoom
+
+00:20:45.560 --> 00:20:49.860
+setting yeah that there could be an issue over there okay
+
+00:20:49.860 --> 00:20:54.160
+fine everyone so test dot ipynb file let's say we are able
+
+00:20:54.160 --> 00:20:57.880
+to create okay fine not an issue then here you will be able
+
+00:20:57.880 --> 00:21:01.360
+to find out an option called as select kernel right click on
+
+00:21:01.360 --> 00:21:05.020
+select kernel and then it will pop up your option called as
+
+00:21:05.020 --> 00:21:07.980
+python environment so see jupyter notebook is a kind of a
+
+00:21:07.980 --> 00:21:11.340
+notebook file you can say uh we are going to write a python
+
+00:21:11.340 --> 00:21:15.100
+code inside a jupyter notebook so obviously it needs a
+
+00:21:15.100 --> 00:21:18.360
+python environment unless and until python package is not
+
+00:21:18.360 --> 00:21:21.680
+available you you your system will not be able to understand
+
+00:21:21.680 --> 00:21:26.400
+that what is about python syntaxes it will not be able to
+
+00:21:26.400 --> 00:21:29.460
+understand and this is where this kernel tab comes into
+
+00:21:29.460 --> 00:21:32.500
+picture so you have to click on the select kernel and every
+
+00:21:32.500 --> 00:21:35.100
+time right so this is going to be your day and night
+
+00:21:35.100 --> 00:21:38.840
+activity by the way after today's class so click on the
+
+00:21:38.840 --> 00:21:41.460
+select kernel then you will be able to find out python
+
+00:21:41.460 --> 00:21:45.040
+environments and in my system i have so many environments
+
+00:21:45.040 --> 00:21:47.780
+not just one right because i keep on like teaching in
+
+00:21:47.780 --> 00:21:50.240
+multiple classes and keep on working on multiple projects as
+
+00:21:50.240 --> 00:21:54.200
+well so you will be able to see maybe a recent python
+
+00:21:54.200 --> 00:21:57.220
+environment or python installation that you have done so
+
+00:21:57.220 --> 00:22:00.700
+maybe you can just try to select that and again click on
+
+00:22:00.700 --> 00:22:04.320
+this code and try to type something over here let's suppose
+
+00:22:04.320 --> 00:22:09.860
+one plus one and if one plus one is giving me a result two
+
+00:22:09.860 --> 00:22:14.160
+it simply means that that everything is set and i can start
+
+00:22:14.160 --> 00:22:18.000
+learning a coding very very simple right same thing you can
+
+00:22:18.000 --> 00:22:20.800
+try to practice even over here so go to a google collab
+
+00:22:20.800 --> 00:22:25.100
+right and then here try to type one plus one for the very
+
+00:22:25.100 --> 00:22:28.260
+first time it will take maybe one or two minute uh it
+
+00:22:28.260 --> 00:22:30.820
+connects with the server as you can see it's connecting and
+
+00:22:30.820 --> 00:22:33.840
+it is allocating your resources gpus cpus basically it is
+
+00:22:33.840 --> 00:22:37.160
+going to allocate and ram it is going to allocate to you and
+
+00:22:37.160 --> 00:22:40.860
+then line by line you can start writing a code what
+
+00:22:48.150 --> 00:22:50.670
+is python environment the python package that you have
+
+00:22:50.670 --> 00:22:54.210
+basically installed uh so that will pop up as of now as in
+
+00:22:54.210 --> 00:22:56.430
+python environment you can say okay
+
+00:23:00.300 --> 00:23:02.760
+so now i'm able to get the output one plus one is equal to
+
+00:23:02.760 --> 00:23:06.100
+two and here you will be able to see my ram and my disk has
+
+00:23:06.100 --> 00:23:10.440
+been allocated by google uh collab by the way so yeah i can
+
+00:23:10.440 --> 00:23:13.960
+try to use this free resources to write a code to type a
+
+00:23:13.960 --> 00:23:16.480
+code or even to test a code after
+
+00:23:20.480 --> 00:23:25.660
+clicking on code it's not connecting on my vs code where you
+
+00:23:25.660 --> 00:23:27.680
+are clicking on code is
+
+00:23:31.560 --> 00:23:34.740
+collab free yes for now it's free i mean like they try to
+
+00:23:34.740 --> 00:23:37.260
+sell collab pro but i don't think that that is required for
+
+00:23:37.260 --> 00:23:43.280
+like a python at least so yes it's uh free but yes uh you
+
+00:23:43.280 --> 00:23:46.760
+you can just try to use a collab for a initial learning so
+
+00:23:46.760 --> 00:23:50.220
+for building a full scale project it's not advisable and
+
+00:23:50.220 --> 00:23:53.080
+that is the reason i told you that going forward we are not
+
+00:23:53.080 --> 00:23:56.040
+going to use a collab or we are not going to use even a
+
+00:23:56.040 --> 00:23:59.380
+jupiter notebook uh we'll be writing a modular coding and
+
+00:23:59.380 --> 00:24:02.640
+yeah for that uh this is not required this is required only
+
+00:24:02.640 --> 00:24:08.040
+on day zero you can say to learn like a python okay so uh
+
+00:24:08.040 --> 00:24:11.420
+everything is set by the way and now i can start writing
+
+00:24:11.420 --> 00:24:17.280
+basically a code over here now so python is basically a
+
+00:24:17.280 --> 00:24:20.580
+programming language and obviously one of the easiest or
+
+00:24:22.000 --> 00:24:26.440
+mostly used programming language across a data industry so
+
+00:24:26.440 --> 00:24:28.980
+whether it's a data analytics data science generative ai or
+
+00:24:28.980 --> 00:24:32.060
+maybe a big data everywhere we are trying to use a python
+
+00:24:32.060 --> 00:24:35.880
+heavily python is not the only programming language by the
+
+00:24:35.880 --> 00:24:38.900
+way yeah although it's a simplest one one of the simplest
+
+00:24:38.900 --> 00:24:42.020
+one but apart from python you will be able to find out uh
+
+00:24:42.020 --> 00:24:45.860
+tons of other programming languages like example c c plus
+
+00:24:45.860 --> 00:24:53.120
+plus java dot net uh c sarp ruby scala or i would say like a
+
+00:24:53.840 --> 00:24:56.860
+java script so there are so many other programming language
+
+00:24:56.860 --> 00:25:00.760
+which is also available and i would say all of these
+
+00:25:00.760 --> 00:25:04.760
+programming languages are equivalently powerful so you can
+
+00:25:04.760 --> 00:25:07.700
+try to build anything and everything that you want but yes
+
+00:25:07.700 --> 00:25:11.480
+in terms of ease of use in terms of you know line of code
+
+00:25:11.480 --> 00:25:14.700
+maybe some of these programming languages are not the only
+
+00:25:14.700 --> 00:25:15.640
+programming languages that are available which are not that
+
+00:25:15.640 --> 00:25:19.220
+easy so after python maybe you can try this java script
+
+00:25:19.220 --> 00:25:22.360
+again it's very very easy a very cool programming language
+
+00:25:22.360 --> 00:25:26.380
+almost the entire web is running on java script you can say
+
+00:25:26.380 --> 00:25:31.200
+means not in that manner so basically whatever like front
+
+00:25:31.200 --> 00:25:34.180
+-end back-end that you used to see so mostly it's been it's
+
+00:25:34.180 --> 00:25:36.480
+been developed by using a java script and its relevant
+
+00:25:36.480 --> 00:25:40.640
+framework right maybe a node maybe a react maybe a type
+
+00:25:40.640 --> 00:25:42.880
+script so likewise there are tons of other framework which
+
+00:25:42.880 --> 00:25:45.600
+is available now when we talk about python so obviously
+
+00:25:45.600 --> 00:25:49.860
+python is one of the easiest one and one of the best
+
+00:25:49.860 --> 00:25:53.300
+programming language for anyone and everyone into ai
+
+00:25:53.300 --> 00:25:56.500
+industry or even in other industries so wherever you know
+
+00:25:56.500 --> 00:25:59.100
+back-end things comes into picture so maybe i can try to use
+
+00:25:59.100 --> 00:26:02.900
+python and then i can try to build the entire code base okay
+
+00:26:02.900 --> 00:26:06.820
+so in any programming languages whenever we try to start
+
+00:26:06.820 --> 00:26:11.160
+learning so we have to know a couple of things in any
+
+00:26:11.160 --> 00:26:14.800
+programming language so the very first thing which comes up
+
+00:26:14.800 --> 00:26:18.200
+is a variable variable is nothing but a place where you are
+
+00:26:18.200 --> 00:26:22.140
+going to store some information some data right and then
+
+00:26:22.140 --> 00:26:25.320
+obviously you will be processing those data you will be
+
+00:26:25.320 --> 00:26:28.380
+writing a logic with respect to that particular data set
+
+00:26:28.380 --> 00:26:31.660
+very very simple so here even in python so there is a
+
+00:26:31.660 --> 00:26:34.780
+provision by which you will be able to create a variable for
+
+00:26:34.780 --> 00:26:39.000
+example if i'm writing a is equals to 10 let's say so what
+
+00:26:39.000 --> 00:26:41.520
+does that mean it simply means that that i'm trying to
+
+00:26:41.520 --> 00:26:46.660
+create a variable a variable inside this a i'm trying to
+
+00:26:46.660 --> 00:26:51.300
+store a value 10 this is what it means so a is nothing but a
+
+00:26:51.300 --> 00:26:54.240
+variable which is like which can be my name your name as
+
+00:26:54.240 --> 00:26:57.640
+well and this 10 is nothing but a value which i'm trying to
+
+00:26:57.640 --> 00:27:00.060
+store inside this particular variable and whenever i'm going
+
+00:27:00.060 --> 00:27:03.700
+to call a so basically i will be able to get this particular
+
+00:27:03.700 --> 00:27:07.340
+value so now you can ask me a question that why we are
+
+00:27:07.340 --> 00:27:09.680
+talking about variable what will be the use case of variable
+
+00:27:09.680 --> 00:27:13.400
+basically so see you are writing some sort of a program
+
+00:27:13.400 --> 00:27:14.700
+right you are writing a program and you are writing a
+
+00:27:14.700 --> 00:27:16.660
+program and you are writing some sort of a logic at the end
+
+00:27:16.660 --> 00:27:20.860
+of the day its whole and sole purpose is to work on some of
+
+00:27:20.860 --> 00:27:24.640
+the data right and based on that you will end up writing a
+
+00:27:24.640 --> 00:27:26.940
+different different kind of a business logic but yeah the
+
+00:27:26.940 --> 00:27:29.380
+baseline is very simple that it is supposed to work on the
+
+00:27:29.380 --> 00:27:33.620
+data right so obviously you have to deal with the data and
+
+00:27:33.620 --> 00:27:37.000
+to deal with the data so first of all you have to bring a
+
+00:27:37.000 --> 00:27:41.140
+data into your ram right inside your machine so where it
+
+00:27:41.140 --> 00:27:44.460
+will be able to do a computation your cpu or gpu let's say
+
+00:27:44.460 --> 00:27:48.360
+cpu So your CPU will be able to do a compute on that and
+
+00:27:48.360 --> 00:27:50.920
+then it will be able to give you some of the output as per
+
+00:27:50.920 --> 00:27:53.240
+your business logic as per the things that you are going to
+
+00:27:53.240 --> 00:27:56.540
+write. So to do that obviously things must be available
+
+00:27:56.540 --> 00:28:00.320
+inside your RAM and this is where this variable comes into
+
+00:28:00.320 --> 00:28:02.460
+picture. So going forward we will be having data may be
+
+00:28:02.460 --> 00:28:05.620
+inside our drive, may be inside some of the repository or
+
+00:28:05.620 --> 00:28:08.580
+anywhere basically. So we can try to bring those data as
+
+00:28:08.580 --> 00:28:10.600
+well. We can try to connect with those data as well or may
+
+00:28:10.600 --> 00:28:13.860
+be into our databases, SQL databases, no SQL databases. So
+
+00:28:13.860 --> 00:28:17.460
+we can try to bring those data set and then we can try to
+
+00:28:17.460 --> 00:28:20.160
+hold it inside a variable so that locally it will be
+
+00:28:20.160 --> 00:28:23.720
+available for a computation and then we can try to write a
+
+00:28:23.720 --> 00:28:25.660
+business logic. So this is where variable comes into
+
+00:28:25.660 --> 00:28:31.260
+picture. Now so here like I said so we have written A is
+
+00:28:31.260 --> 00:28:35.140
+equals to 10. Now if I would like to like you know check
+
+00:28:35.140 --> 00:28:38.820
+what is available inside A. If I would like to check what is
+
+00:28:38.820 --> 00:28:42.600
+available inside A, I will be able to check it. So A I have
+
+00:28:42.600 --> 00:28:45.160
+given over here. And then it is giving me 10. It simply
+
+00:28:45.160 --> 00:28:49.600
+means that yeah it is able to store A and inside A so it is
+
+00:28:49.600 --> 00:28:53.240
+able to store a value is equals to 10. Inside a memory how
+
+00:28:53.240 --> 00:28:56.860
+it happens and how it looks like. So basically let's say we
+
+00:28:56.860 --> 00:29:00.920
+have this place right inside a memory. It will store 10 and
+
+00:29:00.920 --> 00:29:04.580
+it will refer it as a A. So whenever you are calling A it
+
+00:29:04.580 --> 00:29:07.940
+always understands that okay fine so inside A this 10 value
+
+00:29:07.940 --> 00:29:11.200
+is been stored. And whenever I am trying to call this A I am
+
+00:29:11.200 --> 00:29:13.480
+able to get basically this particular 10. So inside A this
+
+00:29:13.480 --> 00:29:13.480
+10 value is been stored. And whenever I am trying to call
+
+00:29:13.480 --> 00:29:13.660
+this A I am able to get basically this particular 10. As
+
+00:29:13.660 --> 00:29:18.460
+simple as that. Now so Python is called as basically a self
+
+00:29:18.460 --> 00:29:21.020
+typed programming language. Now what does that mean
+
+00:29:21.020 --> 00:29:24.500
+basically right. So let's say if I am trying to create a
+
+00:29:24.500 --> 00:29:28.660
+variable over here. So Python will be able to understand a
+
+00:29:28.660 --> 00:29:32.340
+nature of a variable automatically. You are not supposed to
+
+00:29:32.340 --> 00:29:36.220
+go and say these things to Python that this is a meaning of
+
+00:29:36.220 --> 00:29:39.340
+or this is the nature of this variable. Now what does this
+
+00:29:39.340 --> 00:29:42.640
+mean. So I will try to show you another example. So let's
+
+00:29:42.640 --> 00:29:43.660
+say I am creating a variable. So I am creating a variable is
+
+00:29:43.660 --> 00:29:49.060
+equal to B and here so I am trying to store 3.4 execute. So
+
+00:29:49.060 --> 00:29:56.220
+I think my sound is on. It's giving me a sound after every
+
+00:29:56.220 --> 00:29:57.520
+execution.
+
+00:30:01.470 --> 00:30:03.970
+Let me check my setting.
+
+00:30:18.880 --> 00:30:22.060
+I'm getting the name error, transcript, most recent call,
+
+00:30:22.160 --> 00:30:27.160
+line number one. So what do you have written and if you can
+
+00:30:27.160 --> 00:30:29.780
+ping me inside a chat then maybe I can assist you.
+
+00:32:19.590 --> 00:32:22.570
+you okay fine i'll change that setting in our admin mode in
+
+00:32:22.570 --> 00:32:25.470
+a later stage so here what i was talking about is that that
+
+00:32:25.470 --> 00:32:28.490
+let's say i have written b is equal to 3.4 so obviously i
+
+00:32:28.490 --> 00:32:35.310
+know that that inside b 3.4 will be available yeah uh no no
+
+00:32:35.310 --> 00:32:37.690
+so i'm not talking about that audio maybe you are not able
+
+00:32:37.690 --> 00:32:40.910
+to hear that particular audio uh basically when i'm trying
+
+00:32:40.910 --> 00:32:44.670
+to execute it right so my vs code is giving me a audio sound
+
+00:32:44.670 --> 00:32:49.410
+i'm talking about actually that uh vs code let me open up
+
+00:32:49.410 --> 00:32:57.170
+into a admin mode it's a bit disturbing for me because after
+
+00:32:57.170 --> 00:33:01.030
+every run it is giving me that no
+
+00:33:28.320 --> 00:33:33.620
+it's not allowing me to change my sound setting i'll do it
+
+00:33:33.620 --> 00:33:38.840
+maybe i'll have to restart then it will change okay leave it
+
+00:33:39.020 --> 00:33:39.760
+okay
+
+00:33:46.550 --> 00:33:50.470
+so here basically i have created b is equal to 3.4 so fine b
+
+00:33:50.470 --> 00:33:55.250
+is holding 3.4 over here now i was talking about a python is
+
+00:33:55.250 --> 00:33:58.550
+a self-typed programming language what does that mean so
+
+00:33:58.550 --> 00:34:01.350
+here there is a function you will be able to find out a
+
+00:34:01.350 --> 00:34:04.510
+inbuilt function so basically which is called as type typ
+
+00:34:04.510 --> 00:34:08.970
+type now here if i'm going to say type of a so basically
+
+00:34:08.970 --> 00:34:11.310
+it's always trying to check what is the type of the
+
+00:34:11.310 --> 00:34:14.630
+particular variable or what is the nature of the data so if
+
+00:34:14.630 --> 00:34:15.790
+i'm trying to say type of a so here basically i have created
+
+00:34:15.790 --> 00:34:18.270
+b is equal to 3.4 type a so automatically it is telling me
+
+00:34:18.270 --> 00:34:22.150
+that okay so type of the data which has been stored inside a
+
+00:34:22.150 --> 00:34:27.290
+is a integer int that means integer now let's say if i'm
+
+00:34:27.290 --> 00:34:31.190
+trying to say that that what is a type of b right so
+
+00:34:31.190 --> 00:34:34.030
+automatically it is telling me that type of the data which
+
+00:34:34.030 --> 00:34:38.150
+is available inside a variable b 3.4 is basically a floating
+
+00:34:38.150 --> 00:34:41.690
+point number means there is a decimal right inside that so
+
+00:34:41.690 --> 00:34:46.130
+here python automatically understands that okay with what
+
+00:34:46.130 --> 00:34:50.070
+type of the data you are dealing with whereas in any other
+
+00:34:50.070 --> 00:34:52.270
+programming language for example if i'll talk about java
+
+00:34:52.270 --> 00:34:55.070
+right uh not all the programming language but yeah let's
+
+00:34:55.070 --> 00:34:58.190
+talk about java so in case of java whenever you are trying
+
+00:34:58.190 --> 00:35:02.070
+to create a variable so you have to define before that this
+
+00:35:02.070 --> 00:35:05.910
+variable is basically going to hold integer data or this
+
+00:35:05.910 --> 00:35:08.910
+variable is supposed to hold a floating point data this
+
+00:35:08.910 --> 00:35:12.290
+variable is supposed to hold a character data or any other
+
+00:35:12.290 --> 00:35:16.050
+data so whereas in python your life is like a little bit
+
+00:35:16.050 --> 00:35:19.510
+easy i would say so here you are not go and say that that
+
+00:35:19.510 --> 00:35:22.130
+okay i'm going to use this kind of variable or that kind of
+
+00:35:22.130 --> 00:35:24.410
+variable automatically it will be able to understand that
+
+00:35:24.410 --> 00:35:27.890
+okay so the type of the variable which i have is basically
+
+00:35:27.890 --> 00:35:31.230
+this one automatically it will be able to understand for
+
+00:35:31.230 --> 00:35:34.550
+example if i'm trying to create another variable c and here
+
+00:35:34.550 --> 00:35:40.930
+so if i'm going to store let's say sudh right tanshu so here
+
+00:35:40.930 --> 00:35:45.210
+if i'll go and check what is a type of basically c yeah type
+
+00:35:45.210 --> 00:35:48.470
+of c so it will be able to tell me that type of c is
+
+00:35:48.470 --> 00:35:52.270
+basically str string yeah because i am trying to hold a
+
+00:35:52.270 --> 00:35:56.450
+string data over here so here i can try to hold a string
+
+00:35:56.450 --> 00:35:59.770
+data i can try to hold basically a integer kind of a data i
+
+00:35:59.770 --> 00:36:02.790
+can try to hold basically a floating point kind of a data
+
+00:36:02.790 --> 00:36:05.550
+whenever we are trying to create a string so whenever you
+
+00:36:05.550 --> 00:36:07.510
+are trying to store some sort of a string kind of a data
+
+00:36:07.510 --> 00:36:11.510
+let's say i'm going to create a variable name c1 and here so
+
+00:36:11.510 --> 00:36:16.830
+i'm going to hold my name is sudhanshu kumr right i'm trying
+
+00:36:16.830 --> 00:36:19.730
+to hold this string data so i have to wrap those data inside
+
+00:36:19.730 --> 00:36:24.290
+a double quotes or inside a single quotes or inside a triple
+
+00:36:24.290 --> 00:36:27.510
+quotes i'll show you that so here i'm trying to use a double
+
+00:36:27.510 --> 00:36:30.610
+quotes in a beginning and double quotes in a last and
+
+00:36:30.610 --> 00:36:33.410
+basically i'm trying to do something over here right i'm
+
+00:36:33.410 --> 00:36:37.010
+trying to keep something over here and by this double quotes
+
+00:36:37.010 --> 00:36:40.330
+in a beginning and at the end it will be able to understand
+
+00:36:40.330 --> 00:36:43.690
+automatically that okay you are trying to hold a string data
+
+00:36:43.690 --> 00:36:46.010
+and you are trying to hold a string data some data inside c1
+
+00:36:46.010 --> 00:36:49.930
+and what is a type of that particular data so type of that
+
+00:36:49.930 --> 00:36:53.110
+particular data is basically a string very very simple let's
+
+00:36:53.110 --> 00:36:56.030
+say i'm trying to create a variable c2 and here i'm giving
+
+00:36:56.030 --> 00:36:59.230
+single codes and i'm saying my name is ancho kumar i'm
+
+00:36:59.230 --> 00:37:02.130
+learning python yeah something like that i'm trying to hold
+
+00:37:02.130 --> 00:37:05.210
+it but yes as you can see it's a single code inside a single
+
+00:37:05.210 --> 00:37:08.630
+code i'm trying to hold it now execute and again if i'm
+
+00:37:08.630 --> 00:37:12.050
+going to check what is the type of basically c1 i will be
+
+00:37:12.050 --> 00:37:15.850
+able to see that the type of c1 is again string so basically
+
+00:37:15.850 --> 00:37:19.190
+if i'm trying to hold something inside a single quote or
+
+00:37:19.190 --> 00:37:22.930
+inside a double quote it is going to consider python is
+
+00:37:22.930 --> 00:37:25.930
+going to consider basically that kind of a data as a string
+
+00:37:25.930 --> 00:37:29.690
+as simple as that right so as simple as that it will be able
+
+00:37:29.690 --> 00:37:32.930
+to consider that as a string without any kind of a confusion
+
+00:37:32.930 --> 00:37:37.310
+making sense guys to all of us yeah name
+
+00:37:44.890 --> 00:37:47.410
+error a is not defined so maybe you have done that but you
+
+00:37:47.410 --> 00:37:48.550
+have not executed it so you have not executed it so you have
+
+00:37:48.550 --> 00:37:49.630
+not executed it so you have not executed it so you so ramila
+
+00:37:49.630 --> 00:37:54.990
+yeah so just just like a check that so execute it uh that's
+
+00:37:54.990 --> 00:37:58.410
+the only issue there is no other issue so fine i'm able to
+
+00:37:58.410 --> 00:38:01.130
+create basically a variable of type integer i'm able to
+
+00:38:01.130 --> 00:38:03.230
+create variable of type floating point number i'm able to
+
+00:38:03.230 --> 00:38:06.270
+create a variable of type string over here without even
+
+00:38:06.270 --> 00:38:08.970
+defining anything right and i can give any name going
+
+00:38:08.970 --> 00:38:11.210
+forward i'm going to teach you that what should be the
+
+00:38:11.210 --> 00:38:14.110
+proper naming convention we are supposed to follow but as of
+
+00:38:14.110 --> 00:38:17.210
+now let's go ahead with abcd kind of a name give your name
+
+00:38:17.210 --> 00:38:20.270
+as well that that's going to like a work for us so here we
+
+00:38:20.270 --> 00:38:23.470
+are able to create integer floating point and a string now
+
+00:38:23.470 --> 00:38:26.170
+let me show you some other kind of a data type as well over
+
+00:38:26.170 --> 00:38:30.590
+here so let's say i'm going to write a d right and d i'm
+
+00:38:30.590 --> 00:38:36.650
+going to write it in this manner so 4 plus 6 j yeah 4 plus 6
+
+00:38:36.650 --> 00:38:43.030
+j now execute now if i'm going to basically d so it will be
+
+00:38:43.030 --> 00:38:47.250
+able to tell you that type of d is basically complex so i
+
+00:38:47.250 --> 00:38:50.450
+believe we all have studied in our childhood a complex
+
+00:38:50.450 --> 00:38:53.650
+number right complex number so combination of basically a
+
+00:38:53.650 --> 00:38:56.790
+real number and a imaginary number we all have done that
+
+00:38:56.790 --> 00:39:00.250
+right maybe in our seventh eighth classes i believe in cbsc
+
+00:39:00.250 --> 00:39:03.950
+icsc or even in a state board so let's say when i'm saying d
+
+00:39:03.950 --> 00:39:09.750
+is equals to 4 plus 6 j so this is my real number real
+
+00:39:09.750 --> 00:39:13.950
+number and this is my imaginary number imaginary number and
+
+00:39:13.950 --> 00:39:17.810
+this j is basically notifying or j is trying to like you
+
+00:39:17.810 --> 00:39:20.750
+know make sure that this part is going to be the imaginary
+
+00:39:20.750 --> 00:39:24.990
+part so they j is basically kind of a notifier over here and
+
+00:39:24.990 --> 00:39:27.470
+just by looking at j you will be able to understand that
+
+00:39:27.470 --> 00:39:30.510
+that okay so we are talking about this part and this part is
+
+00:39:30.510 --> 00:39:34.110
+imaginary as a whole this number is a complex number right
+
+00:39:34.110 --> 00:39:36.870
+complex number is nothing but combination of imaginary and a
+
+00:39:36.870 --> 00:39:41.290
+real number as simple as that in mathematics so generally we
+
+00:39:41.290 --> 00:39:46.530
+try to write i iota right iota basically what is the value
+
+00:39:46.530 --> 00:39:49.330
+of i by the way guys any any idea anyone anyone remembers
+
+00:39:49.330 --> 00:39:50.490
+yeah
+
+00:39:56.830 --> 00:40:02.400
+what is what is the value of i so i is nothing but a square
+
+00:40:02.400 --> 00:40:05.260
+root of minus one right this is something called as i yeah
+
+00:40:05.260 --> 00:40:08.700
+so i believe i believe we all remember someone is saying i
+
+00:40:08.700 --> 00:40:12.820
+is in teaching in mathematics uh you know like a world of
+
+00:40:12.820 --> 00:40:15.560
+complex number so obviously i is nothing but root of minus
+
+00:40:15.560 --> 00:40:18.960
+one very very simple right childhood concept but yeah in
+
+00:40:18.960 --> 00:40:23.860
+python so uh this complex number variable is available but
+
+00:40:23.860 --> 00:40:27.520
+you can't use i over here so in python it's basically
+
+00:40:27.520 --> 00:40:33.020
+denoted as a j right noted as a j over here now so let's say
+
+00:40:33.020 --> 00:40:35.600
+if i'm going to create this and if i'm going to make it as a
+
+00:40:35.600 --> 00:40:40.800
+capital j execute right and then check what is a type of
+
+00:40:40.800 --> 00:40:47.060
+what is a type of basically this d type of d it's complex so
+
+00:40:47.060 --> 00:40:51.120
+j capital j small in both the cases it is working let's say
+
+00:40:51.120 --> 00:40:54.240
+i'm going to use the same and i'm going to write i over here
+
+00:40:54.240 --> 00:40:57.800
+or something else execute now it is giving me an error it is
+
+00:40:57.800 --> 00:41:01.980
+telling me that there is a syntax error over here so there
+
+00:41:01.980 --> 00:41:05.080
+is a invalid decimal literal that you have mentioned and
+
+00:41:05.080 --> 00:41:08.980
+this is not allowed by the way so it will not be able to
+
+00:41:08.980 --> 00:41:13.480
+understand i like i said j capital or j small is the only
+
+00:41:13.480 --> 00:41:17.460
+notifier uh inside a python for a complex number very very
+
+00:41:17.460 --> 00:41:24.720
+simple yeah very simple so fine so i can try to use j over
+
+00:41:24.720 --> 00:41:27.220
+here and it is going to work capital or small not an issue
+
+00:41:27.220 --> 00:41:32.120
+at all so now integer floating point number string and
+
+00:41:32.120 --> 00:41:35.620
+complex number four kind of a variable we have seen now
+
+00:41:35.620 --> 00:41:40.120
+let's try to show you something called as boolean variable
+
+00:41:40.120 --> 00:41:43.840
+so let's say i'm writing e is equals to true t capital again
+
+00:41:43.840 --> 00:41:47.060
+not small because python is a case sensitive programming
+
+00:41:47.060 --> 00:41:50.480
+language so uppercase and lowercase is not going to be same
+
+00:41:50.480 --> 00:41:52.560
+in python very very simple it's a case sensitive programming
+
+00:41:52.560 --> 00:41:55.260
+language any programming language is all like i believe
+
+00:41:56.060 --> 00:41:58.480
+mostly it's a case sensitive programming language right so
+
+00:41:58.480 --> 00:42:02.560
+you can try to use e is equals to true let's say execute now
+
+00:42:02.560 --> 00:42:08.900
+if i'll go and check uh what is a type of e so type of e is
+
+00:42:08.900 --> 00:42:12.780
+basically boolean boole boole means boolean so boolean means
+
+00:42:12.780 --> 00:42:18.360
+true or false one or zero by the way so here true means one
+
+00:42:18.360 --> 00:42:22.100
+internally and false means zero so by default python will be
+
+00:42:22.100 --> 00:42:25.100
+able to store and understand in this particular manner so
+
+00:42:25.100 --> 00:42:30.120
+here maybe e1 i can use and i can try to write false flc f
+
+00:42:30.120 --> 00:42:33.760
+again capital small is not going to work like i said it's a
+
+00:42:33.760 --> 00:42:37.100
+case sensitive programming language you can try to use f in
+
+00:42:37.100 --> 00:42:39.960
+a small case and then you can let me know if it is working
+
+00:42:39.960 --> 00:42:45.460
+it will not work by the way yeah so here type of what so
+
+00:42:45.460 --> 00:42:51.640
+type of let's say e1 i'm going to check so again it is going
+
+00:42:51.640 --> 00:42:55.240
+to be boolean so whether you have mentioned true over here
+
+00:42:55.240 --> 00:42:58.200
+or you have mentioned false over here so yes if you are
+
+00:42:58.200 --> 00:43:01.120
+going to check a type of it it is going to show you a
+
+00:43:01.120 --> 00:43:03.920
+boolean at the end of the true and false is basically
+
+00:43:03.920 --> 00:43:07.960
+boolean now let's say if I am going to write over here so TR
+
+00:43:07.960 --> 00:43:14.320
+true minus true anyone who can tell me what will the output
+
+00:43:14.320 --> 00:43:17.720
+yeah true minus true yes
+
+00:43:21.430 --> 00:43:26.750
+so okay Avanesh is saying error Manish Kumar Pathek is
+
+00:43:26.750 --> 00:43:27.990
+saying true and you can see that it is going to be true if
+
+00:43:27.990 --> 00:43:28.510
+you are going to check a type of it it is going to be true
+
+00:43:28.510 --> 00:43:33.010
+gurudatta is saying false okay arachit is saying zero nb is
+
+00:43:33.010 --> 00:43:36.190
+this is i don't i am not able to pronounce your like a name
+
+00:43:36.190 --> 00:43:41.550
+that is when visible here but true i told you right so
+
+00:43:41.550 --> 00:43:45.370
+inside a system true means what one false means what zero
+
+00:43:45.370 --> 00:43:50.530
+now tell me what what what should give you i believe most of
+
+00:43:50.530 --> 00:43:53.230
+you have already pinged the right answer it's going to be
+
+00:43:53.230 --> 00:43:55.970
+zero one minus one is equal to zeros because internally
+
+00:43:55.970 --> 00:43:58.790
+whenever you are trying to do a numerical so it is going to
+
+00:43:58.790 --> 00:44:02.730
+think in this particular manner and arithmetic right so
+
+00:44:02.730 --> 00:44:04.750
+whenever you are going to do arithmetic calculation maybe
+
+00:44:04.750 --> 00:44:08.170
+like addition subtraction division so it will always try to
+
+00:44:08.170 --> 00:44:11.010
+consider its numeric equivalent although you have written
+
+00:44:11.010 --> 00:44:14.170
+this true right but yeah it is going to consider internally
+
+00:44:14.170 --> 00:44:19.870
+it's a numeric equivalent by the way okay so fine we have
+
+00:44:19.870 --> 00:44:27.370
+this one now so now we have integer we have a string float
+
+00:44:27.370 --> 00:44:34.730
+boolean complex so now these are the data type that we are
+
+00:44:34.730 --> 00:44:37.830
+able to understand and even a variable so we can try to give
+
+00:44:37.830 --> 00:44:40.790
+any name we can try to store our data inside that and then I
+
+00:44:40.790 --> 00:44:44.450
+will be able to use that data for any kind of purposes going
+
+00:44:44.450 --> 00:44:47.310
+forward so obviously like I have mentioned we are going to
+
+00:44:47.310 --> 00:44:50.130
+read a file. We are going to read our databases. We are
+
+00:44:50.130 --> 00:44:52.370
+going to store it inside a variable and then we are going to
+
+00:44:52.370 --> 00:44:54.550
+process it because programming is all about what processing
+
+00:44:54.550 --> 00:44:57.770
+the data right doesn't matter in which language you are
+
+00:44:57.770 --> 00:45:00.530
+going to write it down but yes at the end of the day when we
+
+00:45:00.530 --> 00:45:04.630
+say we are writing a logic I mean like logic will be able to
+
+00:45:04.630 --> 00:45:10.290
+apply where on some sort of a data itself right and that
+
+00:45:10.290 --> 00:45:14.690
+data will come from the variable in a local right and that
+
+00:45:14.690 --> 00:45:17.410
+that can come from anywhere. Maybe a databases. Maybe a file
+
+00:45:17.410 --> 00:45:21.490
+system. Maybe like S3 bucket. Maybe Azure blob from anywhere
+
+00:45:21.490 --> 00:45:24.110
+right that data could come or maybe from a databases as
+
+00:45:24.110 --> 00:45:27.910
+simple as that. Okay so these are the basic like things we
+
+00:45:27.910 --> 00:45:30.410
+are able to understand. Now let me show you a couple of more
+
+00:45:30.410 --> 00:45:35.490
+iterations over here. So basically let's say I have S is
+
+00:45:35.490 --> 00:45:38.410
+equals to SUDH. S is equals to
+
+00:45:41.350 --> 00:45:49.370
+SUDH as a string fine. Now if I'm going to write S into S
+
+00:45:49.370 --> 00:45:56.410
+into 3. What will happen guys S into 3 yes what will happen
+
+00:45:56.410 --> 00:45:57.470
+if I'm going to execute it.
+
+00:46:00.490 --> 00:46:04.410
+So SUDH SUDH SUDH three times it is going to re replicate
+
+00:46:04.410 --> 00:46:07.030
+just open up your ID guys whenever I'm asking question I'll
+
+00:46:07.030 --> 00:46:09.590
+keep on asking a lot of questions in between by the way we
+
+00:46:09.590 --> 00:46:12.210
+have to make this class interactive right. So everyone is
+
+00:46:12.210 --> 00:46:15.090
+supposed to basically participate. I'm looking for your
+
+00:46:15.090 --> 00:46:18.990
+participation. So we are not running a movie so over here we
+
+00:46:18.990 --> 00:46:24.070
+are running a live practical class and in my class. Everyone
+
+00:46:24.070 --> 00:46:24.550
+is supposed to basically participate. Everyone means
+
+00:46:24.550 --> 00:46:27.730
+literally everyone is supposed to open up their system and
+
+00:46:27.730 --> 00:46:32.010
+do the exact same thing. Yeah. Okay. Someone is saying Rohit
+
+00:46:32.010 --> 00:46:35.030
+have pinged me and said like a error. Krish Patab is saying
+
+00:46:35.030 --> 00:46:40.290
+yes. Yes on what. Okay. Maybe agreed on my term fine. So
+
+00:46:40.290 --> 00:46:43.890
+let's execute and here so SUDH SUDH SUDH. So basically it
+
+00:46:43.890 --> 00:46:48.410
+has multiplied the SUDH three times and it has okay this is
+
+00:46:48.410 --> 00:46:52.150
+my term. Great. Thank you for that. So basically S into 3
+
+00:46:52.150 --> 00:46:54.610
+and then SUDH SUDH SUDH three times. It is able to showcase
+
+00:46:54.610 --> 00:47:02.770
+to me. Fine. That's cool. Now S plus 3 now tell me what what
+
+00:47:02.770 --> 00:47:06.710
+is going to happen. Yeah. S plus 3.
+
+00:47:10.010 --> 00:47:12.510
+Saitha is saying error Pradeep is saying error. Okay.
+
+00:47:13.310 --> 00:47:16.990
+Everyone is saying Rohit is saying SUDH plus 3. Okay. I
+
+00:47:16.990 --> 00:47:19.410
+think you should you should type it Rohit in your system
+
+00:47:19.410 --> 00:47:24.330
+type error execute it. Yeah. Execute it. And here so it is
+
+00:47:24.330 --> 00:47:28.230
+giving me type error. Okay. So multiplication wise it's
+
+00:47:28.230 --> 00:47:30.750
+completely fine. Multiplication simply means that that we
+
+00:47:30.750 --> 00:47:33.450
+are trying to again division is also not going to work. So
+
+00:47:33.450 --> 00:47:36.570
+don't worry. It's not like if you are going to do like a S
+
+00:47:36.570 --> 00:47:39.370
+by divided by 3 it is going to give you some answer. No it
+
+00:47:39.370 --> 00:47:41.970
+is going to give you technically an error. Now here so when
+
+00:47:41.970 --> 00:47:46.210
+we are trying to say that that S plus 3 so technically it
+
+00:47:46.210 --> 00:47:50.110
+will try to like you know understand that what operation you
+
+00:47:50.110 --> 00:47:52.730
+are trying to do so whether you are trying to do some sort
+
+00:47:52.730 --> 00:47:56.510
+of a concatenation operation. Or maybe you are trying to do
+
+00:47:56.510 --> 00:48:00.070
+basically some sort of arithmetic operation. Yeah. And we'll
+
+00:48:00.070 --> 00:48:04.270
+get confused and keeping that confusion in a mind. So it
+
+00:48:04.270 --> 00:48:07.790
+will give you an error saying that can only concatenate a
+
+00:48:07.790 --> 00:48:13.470
+string to a string. Right. So plus in terms of arithmetic
+
+00:48:13.470 --> 00:48:17.010
+obviously it's a addition. But let's say if I have a string
+
+00:48:17.010 --> 00:48:20.290
+over here and if I'm trying to do a string plus some other
+
+00:48:20.290 --> 00:48:24.250
+data type any other data type. Right. String plus some other
+
+00:48:24.250 --> 00:48:28.790
+data type. So in that case it will not work. So whenever we
+
+00:48:28.790 --> 00:48:31.590
+have to do a concatenation operation whenever we have to
+
+00:48:31.590 --> 00:48:35.010
+concatenate to a string what we are supposed to do by the
+
+00:48:35.010 --> 00:48:40.330
+way. So we are supposed to give basically something as a
+
+00:48:40.330 --> 00:48:42.910
+string maybe in the single code maybe into a double code. So
+
+00:48:42.910 --> 00:48:46.970
+now if I'll give three over here so not three is not three
+
+00:48:46.970 --> 00:48:50.010
+will not be considered as a numeric. Three will be
+
+00:48:50.010 --> 00:48:52.430
+considered as a string. Because I have wrapped it up inside.
+
+00:48:52.430 --> 00:48:55.330
+Quotes. Right. So whenever I'm wrapping it up inside the
+
+00:48:55.330 --> 00:48:59.290
+code it simply means that that it's no more integer. Yeah.
+
+00:48:59.370 --> 00:49:03.930
+It's no more the integer. Now it is going to work. Yeah. Now
+
+00:49:03.930 --> 00:49:08.350
+as you can see it's working. Because it's a concatenation
+
+00:49:08.350 --> 00:49:11.170
+operation so a string plus a string is called as
+
+00:49:11.170 --> 00:49:15.470
+concatenation not an addition. Addition is a term coming
+
+00:49:15.470 --> 00:49:18.590
+from an arithmetic operation. But here when we have a string
+
+00:49:18.590 --> 00:49:21.430
+it is not going to perform the arithmetic operation it is
+
+00:49:21.430 --> 00:49:22.990
+going to perform. It is going to be looking for a
+
+00:49:22.990 --> 00:49:26.230
+concatenation operation. So eventually you have to convert
+
+00:49:26.230 --> 00:49:29.010
+something maybe even if I have a decimal number I have to
+
+00:49:29.010 --> 00:49:32.630
+convert that into a string by using a quotes and maybe by
+
+00:49:32.630 --> 00:49:36.190
+using like a str method I'll show you that part as well and
+
+00:49:36.190 --> 00:49:39.430
+then you will be able to technically use it. For example so
+
+00:49:39.430 --> 00:49:44.710
+let's say I have a and a is equals to some numbers I have. A
+
+00:49:44.710 --> 00:49:47.990
+is equal to some numbers I have. Now let's say I have a s
+
+00:49:47.990 --> 00:49:52.310
+inside s I have a sudh. Now s plus a. If I'll try to do
+
+00:49:52.310 --> 00:49:55.230
+obviously it will be giving me an error reason is very
+
+00:49:55.230 --> 00:49:59.570
+simple right. So s is basically a string and a is what a is
+
+00:49:59.570 --> 00:50:03.530
+technically a numeric right. So one way is to like you know
+
+00:50:03.530 --> 00:50:05.970
+typecast. So there is something called as typecasting.
+
+00:50:06.110 --> 00:50:08.790
+Typecasting means changing a nature of a particular
+
+00:50:08.790 --> 00:50:12.130
+variable. So here what we can do. So there is a method
+
+00:50:12.130 --> 00:50:16.230
+inbuilt method which is available str and with the help of
+
+00:50:16.230 --> 00:50:20.230
+str right. So let's say if I'm wrapping this a with str.
+
+00:50:20.230 --> 00:50:23.050
+Yeah. So actually it will try to convert or you can say
+
+00:50:23.050 --> 00:50:27.010
+typecast in a programming term right. So it will try to
+
+00:50:27.010 --> 00:50:33.270
+typecast your a into an string and then it will be able to
+
+00:50:33.270 --> 00:50:36.450
+do a concatenation operation because now this became a
+
+00:50:36.450 --> 00:50:40.350
+string for me right. So we have already typecast. For
+
+00:50:40.350 --> 00:50:45.090
+typecasting we have used str. Let's say that that we have
+
+00:50:45.090 --> 00:50:49.250
+basically a variable b and inside this variable b I'm trying
+
+00:50:49.250 --> 00:50:55.410
+to keep 45.5. As a number right 45 as a number but as a
+
+00:50:55.410 --> 00:50:59.810
+string if I'm going to check what is a type of b what is a
+
+00:50:59.810 --> 00:51:04.850
+type of basically b over here. So basically it's giving me a
+
+00:51:04.850 --> 00:51:07.870
+string yes because I have wrapped it up inside a quotes
+
+00:51:07.870 --> 00:51:10.250
+right. So this is available inside a quote single quote
+
+00:51:10.250 --> 00:51:12.470
+double quote doesn't matter but yeah it's available inside a
+
+00:51:12.470 --> 00:51:16.710
+quote. So it is giving me str. Now if I have to typecast
+
+00:51:16.710 --> 00:51:21.950
+this one into an integer. How I can do it guys. So
+
+00:51:35.320 --> 00:51:38.980
+I am Prabhu Sahu is saying answer 226 last five month I'm
+
+00:51:38.980 --> 00:51:42.220
+applying and not getting any job right. Can you please tell
+
+00:51:42.220 --> 00:51:48.840
+me the exactly the job market. See I'll say job market is
+
+00:51:48.840 --> 00:51:53.560
+there and it's not there. Let me like you know give you
+
+00:51:53.560 --> 00:51:57.160
+basically like why I'm saying that like let me give you some
+
+00:51:57.160 --> 00:52:01.200
+sort of argument behind this. So many companies right. Many
+
+00:52:01.200 --> 00:52:04.580
+companies are like a firing as we have already seen. A lot
+
+00:52:04.580 --> 00:52:07.920
+of like a firing news last week itself oracle 30,000 12,000
+
+00:52:07.920 --> 00:52:12.360
+itself from like India and then rest is from like USA Mexico
+
+00:52:12.360 --> 00:52:15.380
+and Canada right. They have they have laid off these many
+
+00:52:15.380 --> 00:52:19.340
+number of people mostly from a middle label and mid senior
+
+00:52:19.340 --> 00:52:23.940
+label right. So whosoever was having a biggest ESOP or their
+
+00:52:23.940 --> 00:52:29.580
+stock and whosoever was having a high salary. So that is
+
+00:52:29.580 --> 00:52:31.640
+that is what they have they have done so that they will be
+
+00:52:31.640 --> 00:52:35.180
+able to fund their AI initiative. AI infra like a deal that
+
+00:52:35.180 --> 00:52:37.660
+they have done with Nvidia and with open AI so that they
+
+00:52:37.660 --> 00:52:40.280
+will be able to fund it that they're 50 they are like a
+
+00:52:40.280 --> 00:52:43.340
+raising 50 billion dollar as per the market news. I think
+
+00:52:43.340 --> 00:52:47.040
+you can go and verify right. So my source of news is again
+
+00:52:47.040 --> 00:52:52.400
+from the same place. So and Oracle is not the only one Meta
+
+00:52:52.400 --> 00:52:57.300
+has also fired like Intel has also fired. So many companies
+
+00:52:57.300 --> 00:52:59.540
+are fighting there are a lot of like a silent fighting which
+
+00:52:59.540 --> 00:53:02.640
+is happening again inside the industry. Amazon has also
+
+00:53:02.640 --> 00:53:08.480
+fired. Even TCS right this time so TCS have also fired. So
+
+00:53:08.480 --> 00:53:13.040
+every company is trying to fire and parallelly lot of
+
+00:53:13.040 --> 00:53:16.420
+companies including Amazon I would say including even TCS,
+
+00:53:16.560 --> 00:53:21.080
+HCL, Tech Mahindra, Cape Gibney, Essentia and almost all the
+
+00:53:21.080 --> 00:53:25.060
+companies I would say they are also hiring. Reason is very
+
+00:53:25.060 --> 00:53:29.480
+simple right. So like they're firing as well as they're
+
+00:53:29.480 --> 00:53:33.040
+hiring. The reason is like here that. That TCS have also
+
+00:53:33.040 --> 00:53:35.580
+fired. But they have some senior people and the senior
+
+00:53:35.580 --> 00:53:39.140
+people are not able to adopt. Maybe maybe they are into a
+
+00:53:39.140 --> 00:53:42.980
+very chillax phase. They don't want to because see adopting
+
+00:53:42.980 --> 00:53:46.120
+anything takes effort right. Nothing comes without effort.
+
+00:53:46.400 --> 00:53:49.800
+So people are not able to adopt and somewhere if I'll talk
+
+00:53:49.800 --> 00:53:54.760
+about a freshers right. So again freshers are coming from a
+
+00:53:54.760 --> 00:53:58.420
+kind of a college background. So where they have never seen
+
+00:53:58.420 --> 00:54:02.840
+or they have never met with the reality right. They have.
+
+00:54:02.840 --> 00:54:05.540
+Because this is how our entire education system is by the
+
+00:54:05.540 --> 00:54:08.920
+way. So a computer science grad let's let's talk about just
+
+00:54:08.920 --> 00:54:11.160
+a computer science grad right for IT industry. Forget about
+
+00:54:11.160 --> 00:54:15.080
+all the other like basically departments. But yeah let's
+
+00:54:15.080 --> 00:54:18.460
+focus on just a computer science grad. So barely you will be
+
+00:54:18.460 --> 00:54:21.840
+able to find out one or two guy or maybe max to max like a
+
+00:54:21.840 --> 00:54:25.700
+five person in your branch who can go and who can literally
+
+00:54:25.700 --> 00:54:29.220
+build things even with the help of AI. Right. They can
+
+00:54:29.220 --> 00:54:32.060
+literally build things. Ninety five percent. People are like
+
+00:54:32.060 --> 00:54:34.480
+you know. They have just attended the college part their
+
+00:54:34.480 --> 00:54:37.840
+semester exam like you know giving all the tests over there
+
+00:54:37.840 --> 00:54:40.840
+and out after that like they don't know how to how to
+
+00:54:40.840 --> 00:54:45.240
+literally works right. And company is not investing on their
+
+00:54:45.240 --> 00:54:47.600
+reskilling upskilling. They are thinking that that it's
+
+00:54:47.600 --> 00:54:50.840
+their job right is their job if they have to get the job so
+
+00:54:50.840 --> 00:54:53.000
+obviously they have to reskill they have to upskill
+
+00:54:53.000 --> 00:54:55.240
+themselves and not just reskilling upskilling I'm not
+
+00:54:55.240 --> 00:54:57.360
+talking about you know knowing about this variable how to
+
+00:54:57.360 --> 00:54:59.780
+declare a variable. It's a very basic it's a day zero for us
+
+00:54:59.780 --> 00:55:02.600
+right. It's very very basic. Believe me. In three months
+
+00:55:02.600 --> 00:55:07.160
+itself all of you will change all of you will be like you
+
+00:55:07.160 --> 00:55:09.640
+will try to like you know get into a very different phase
+
+00:55:09.640 --> 00:55:12.860
+just in three months of time itself right. That that I can
+
+00:55:12.860 --> 00:55:17.880
+assure you from my side. But yeah. So companies are
+
+00:55:17.880 --> 00:55:20.600
+expecting a kind of a person so who can come and who can try
+
+00:55:20.600 --> 00:55:23.480
+to perform if I am hiding in my team. So I'm not even like
+
+00:55:23.480 --> 00:55:26.440
+expecting you know freshers because instead of onboarding
+
+00:55:26.440 --> 00:55:29.340
+fresher I can even onboard interns right which will cost me
+
+00:55:29.340 --> 00:55:32.300
+less on a company so obviously like a liability will be less
+
+00:55:32.300 --> 00:55:34.400
+I don't have to you know go through a lot of like a
+
+00:55:34.400 --> 00:55:36.620
+compliance formalities with respect to our interns I can
+
+00:55:36.620 --> 00:55:39.540
+just onboard them keep them for two months three months I'll
+
+00:55:39.540 --> 00:55:41.700
+give them all the tool access and they are going to work
+
+00:55:41.700 --> 00:55:45.280
+just like a person with a fresher or maybe one or two year
+
+00:55:45.280 --> 00:55:47.780
+experience are going to work right. And then after
+
+00:55:47.780 --> 00:55:51.060
+completing their tenure there will be like go and like you
+
+00:55:51.060 --> 00:55:53.340
+know join somewhere or maybe like do whatsoever they want.
+
+00:55:53.780 --> 00:55:56.020
+So every companies are trying to follow the exact similar
+
+00:55:56.020 --> 00:56:00.720
+kind of a pattern right. So it's you who have to like you
+
+00:56:00.720 --> 00:56:03.580
+know. So if you want a job if you are looking for an
+
+00:56:03.580 --> 00:56:09.180
+opportunity then you have to have make sure that that you
+
+00:56:09.180 --> 00:56:14.140
+have a real skill set and when I say real skill set not just
+
+00:56:14.140 --> 00:56:16.780
+knowing about a programming and writing inside your resume
+
+00:56:16.780 --> 00:56:20.360
+that I can do anything and I will be able to do anything. No
+
+00:56:20.360 --> 00:56:23.980
+that never works right. You have to go with a proper social
+
+00:56:23.980 --> 00:56:28.060
+proof as well that this is something which I have built. You
+
+00:56:28.060 --> 00:56:32.640
+can have a look at it right. So this is the URL. This is by
+
+00:56:32.640 --> 00:56:35.780
+project build. Again when I say project I'm not talking
+
+00:56:35.780 --> 00:56:37.960
+about a calculator kind of app. I'm not talking about
+
+00:56:37.960 --> 00:56:41.140
+fitness tracker kind of app because now every kids can do it
+
+00:56:41.140 --> 00:56:46.000
+even we have a like this classes for junior students class
+
+00:56:46.000 --> 00:56:50.740
+for a class 8 class 12 they are able to build it. Believe me
+
+00:56:50.740 --> 00:56:53.200
+just go and check the videos I have released some of the
+
+00:56:53.200 --> 00:56:56.320
+videos as well right they are able to build it. So people
+
+00:56:56.320 --> 00:56:59.020
+are looking for someone so who can build end to end. And
+
+00:56:59.020 --> 00:57:01.380
+again. So with the help of AI that's completely fine for
+
+00:57:01.380 --> 00:57:04.340
+everyone. But yeah everyone is now looking for a builders
+
+00:57:04.340 --> 00:57:08.840
+and I don't think that it's that difficult. But yeah. So
+
+00:57:08.840 --> 00:57:12.580
+it's a mindset like you have you have to like you know bring
+
+00:57:12.580 --> 00:57:18.180
+that kind of a mindset in a first place. So just do that
+
+00:57:18.180 --> 00:57:23.000
+otherwise yes. And again focus on your resume if you're
+
+00:57:23.000 --> 00:57:26.020
+using a because even we used to release a lot of jobs.
+
+00:57:26.100 --> 00:57:30.480
+Right. Recently we have. I think opened up. Hiring for seven
+
+00:57:30.480 --> 00:57:34.920
+departments I believe. So on LinkedIn you can go and you can
+
+00:57:34.920 --> 00:57:38.460
+check your own jobs and your own official page and then we
+
+00:57:38.460 --> 00:57:42.060
+have published a job on LinkedIn from our side for seven
+
+00:57:42.060 --> 00:57:45.200
+different different departments. And yeah. So we look at the
+
+00:57:45.200 --> 00:57:48.040
+resume and we see that that you know people don't even know
+
+00:57:48.040 --> 00:57:50.780
+what to write in the resume. I mean like how I can hire
+
+00:57:50.780 --> 00:57:53.600
+someone who don't even know how to write something into the
+
+00:57:53.600 --> 00:57:57.000
+resume who have not updated that they're very very lazy.
+
+00:57:57.220 --> 00:58:00.840
+That they have not even updated. Their resume since years or
+
+00:58:00.840 --> 00:58:04.360
+since a month. Right. There is no credential. I'm able to
+
+00:58:04.360 --> 00:58:07.260
+find out inside the resume why I should go and hire that
+
+00:58:07.260 --> 00:58:10.960
+particular person. So if you are that person that check
+
+00:58:10.960 --> 00:58:14.220
+first change it then apply for the job. You will get it.
+
+00:58:14.300 --> 00:58:21.140
+Otherwise no. Right. Because now everyone is trying to
+
+00:58:21.140 --> 00:58:24.780
+scrutinize you from every side even before hiring one single
+
+00:58:24.780 --> 00:58:26.500
+junior. Right.
+
+00:58:31.400 --> 00:58:35.420
+I apply with the. According to the JD still I don't think
+
+00:58:35.420 --> 00:58:39.900
+so. Maybe you are doing some sort of a random apply because
+
+00:58:39.900 --> 00:58:43.060
+I know people who are getting a job and I keep on getting a
+
+00:58:43.060 --> 00:58:46.160
+lot of messages on a regular basis almost on every day I
+
+00:58:46.160 --> 00:58:49.200
+would say where like someone is cracking a job. So yeah.
+
+00:58:49.980 --> 00:58:52.440
+These young generations should start something new similar
+
+00:58:52.440 --> 00:58:55.480
+to what you had done and started teaching on YouTube before
+
+00:58:55.480 --> 00:58:59.960
+I even remember from there. Yes. So again you have. See if
+
+00:58:59.960 --> 00:59:02.960
+you're literally a skilled person. Right. Literally if
+
+00:59:02.960 --> 00:59:05.580
+you're a skilled person and maybe if you're not then spend
+
+00:59:05.580 --> 00:59:07.680
+three months just in three months you will be able to do it.
+
+00:59:07.700 --> 00:59:10.120
+Believe me it doesn't take more than that. You are in era
+
+00:59:10.120 --> 00:59:13.140
+and again it doesn't require some money or something. Right.
+
+00:59:13.260 --> 00:59:16.180
+So you can you can just do it. But yeah you can you can try
+
+00:59:16.180 --> 00:59:18.980
+to launch something on your own who is stopping you to
+
+00:59:18.980 --> 00:59:22.100
+launch it. Right. We have also launched such kind of a
+
+00:59:22.100 --> 00:59:25.460
+system for all of you. So called as your own systems just go
+
+00:59:25.460 --> 00:59:28.120
+launch your podcast launch your consultancy launch your
+
+00:59:28.120 --> 00:59:31.720
+courses launch your real based courses in any domain. Any
+
+00:59:31.720 --> 00:59:36.140
+division right in that system is available to you and start
+
+00:59:36.140 --> 00:59:38.540
+monetizing it. It's very affordable. Maybe you start with
+
+00:59:38.540 --> 00:59:41.300
+the startup plan one course if you are going to sell one
+
+00:59:41.300 --> 00:59:43.940
+real based courses one books if you are going to sell one to
+
+00:59:43.940 --> 00:59:47.220
+one consultation just one if you are going to sell. I think
+
+00:59:47.220 --> 00:59:51.400
+for an entire month it's done right. So try something
+
+00:59:51.400 --> 00:59:55.340
+because now world is literally looking for a hustler. Right.
+
+00:59:55.640 --> 01:00:00.200
+Regular jobs are already gone. And yeah. I mean like. Not
+
+01:00:00.200 --> 01:00:04.040
+100 percent gone but very soon it will be gone. So if you
+
+01:00:04.040 --> 01:00:08.520
+are a regular guy who thinks that that I just know one
+
+01:00:08.520 --> 01:00:11.860
+single skill and based on this particular skill I will be
+
+01:00:11.860 --> 01:00:15.360
+able to go very very long. Forget about your entire like
+
+01:00:15.360 --> 01:00:18.760
+life but yeah very very long. I don't think that it is
+
+01:00:18.760 --> 01:00:22.000
+working now. It's not at all working. It has. And in 2026
+
+01:00:22.000 --> 01:00:26.380
+last three months itself it has changed a lot. So yeah. OK.
+
+01:00:26.480 --> 01:00:30.720
+Continue. Continue with this one. So B is equal to 45 fine
+
+01:00:30.720 --> 01:00:34.860
+and here so I'm able to check STR and now if I have to do a
+
+01:00:34.860 --> 01:00:37.340
+type casting like I said so many people have already pinged.
+
+01:00:37.400 --> 01:00:41.780
+I can use inbuilt function called as INT and then I can try
+
+01:00:41.780 --> 01:00:45.280
+to pass B over here. It will be able to convert this one
+
+01:00:45.280 --> 01:00:48.520
+into an integer. Simple right. Type casting it will be able
+
+01:00:48.520 --> 01:00:52.400
+to do it automatically. But yeah. So let's say if I have C
+
+01:00:52.400 --> 01:00:56.280
+is equals to SUDH. Right. Now. Now if I'm going to write INT
+
+01:00:56.280 --> 01:01:00.520
+of C is it going to work. INT of C is it going to work.
+
+01:01:05.080 --> 01:01:07.660
+Yeah I'm planning to take you down system. Yeah I mean like
+
+01:01:07.660 --> 01:01:10.840
+anyone just try. See guys I think I think we all should
+
+01:01:10.840 --> 01:01:14.340
+hustle we all should you know at least try something. See
+
+01:01:14.340 --> 01:01:18.200
+even I have started not now. I have started when I believe I
+
+01:01:18.200 --> 01:01:23.200
+was in Deloitte when I have joined Deloitte after Bipro. So
+
+01:01:23.200 --> 01:01:25.740
+those who are not aware about me. So basically I got a
+
+01:01:25.740 --> 01:01:28.420
+campus placement and back then 12 years back I'm talking
+
+01:01:28.420 --> 01:01:31.100
+about. Right so 12 years back campus placement and all those
+
+01:01:31.100 --> 01:01:35.240
+things are believe me it was very easy. I mean we used to go
+
+01:01:35.240 --> 01:01:38.240
+and then apply I mean like college inside a college itself
+
+01:01:38.240 --> 01:01:40.880
+companies used to come and then you know they just take
+
+01:01:40.880 --> 01:01:44.720
+aptitude test and you know they will just ask you a very
+
+01:01:44.720 --> 01:01:47.680
+basic question. I remember in my interview 12 years back in
+
+01:01:47.680 --> 01:01:52.640
+2014 not 2014 I would say 2013 December because when I was
+
+01:01:52.640 --> 01:01:55.600
+in seventh semester then placement has happened right in
+
+01:01:55.600 --> 01:01:59.720
+seventh semester basically. So. You know on first day itself
+
+01:01:59.720 --> 01:02:02.860
+first day Bipro came I applied and then like done and then I
+
+01:02:02.860 --> 01:02:07.480
+was happy with my three point whatsoever package was package
+
+01:02:07.480 --> 01:02:10.840
+was very bad by the way I believe even now they are giving
+
+01:02:10.840 --> 01:02:14.900
+you the same package. But yeah so back then it I was I was
+
+01:02:14.900 --> 01:02:18.700
+like very happy that okay and I was not that kind of a
+
+01:02:18.700 --> 01:02:22.160
+serious student by the way I was very like you know regular
+
+01:02:22.160 --> 01:02:25.100
+kind of a student. I had some of my passions for example
+
+01:02:25.100 --> 01:02:28.540
+robotics and hardware. So I just keep on exploring that part
+
+01:02:28.540 --> 01:02:37.060
+on my own but so yeah I mean like but yeah same thing has
+
+01:02:37.060 --> 01:02:41.060
+changed a lot in last 12 year right a lot. So what I have
+
+01:02:41.060 --> 01:02:45.400
+done when I was in Bipro so in Bipro basically like they
+
+01:02:45.400 --> 01:02:50.160
+have given me a portfolio for SAP SAP basically inside SAP.
+
+01:02:50.400 --> 01:02:53.600
+So there was a framework called as Bev dino pro back then
+
+01:02:53.600 --> 01:02:57.100
+and then there is something that. That they have launched in
+
+01:02:57.100 --> 01:03:01.320
+2014 2015 I believe yeah 2015 there is something called as
+
+01:03:01.320 --> 01:03:05.360
+Fiori UI5 kind of a module and back then SAP has also
+
+01:03:05.360 --> 01:03:08.140
+launched HANA S by 4 which was their in memory cloud
+
+01:03:08.140 --> 01:03:12.340
+computation. But very soon after joining the industry I have
+
+01:03:12.340 --> 01:03:17.540
+sensed that that if I'm working into an SAP going forward if
+
+01:03:17.540 --> 01:03:21.180
+I would like to switch my job I will just stuck into an SAP
+
+01:03:21.180 --> 01:03:24.620
+and SAP is client. Same happens with the Oracle. Same
+
+01:03:24.620 --> 01:03:26.860
+happens with the sales force. Same happens with automation
+
+01:03:26.860 --> 01:03:30.620
+anywhere. If you are into this closed technologies right if
+
+01:03:30.620 --> 01:03:33.500
+you are just working in those closed technologies believe me
+
+01:03:33.500 --> 01:03:38.080
+sooner or later you will be gone right. You will be gone for
+
+01:03:38.080 --> 01:03:41.340
+sure. So called SaaS platform by the way right. You will be
+
+01:03:41.340 --> 01:03:44.640
+gone because you know next job again you will try to find
+
+01:03:44.640 --> 01:03:47.320
+out in the same domain in the same framework same technology
+
+01:03:47.320 --> 01:03:49.900
+and that is that is bad and very soon I was able to
+
+01:03:49.900 --> 01:03:53.160
+understand that part. So what I have done I have switched
+
+01:03:53.160 --> 01:03:56.140
+into a big data. I have done. I have done my preparation. I
+
+01:03:56.140 --> 01:03:58.680
+think I have given a lot of interviews. I was in Hyderabad
+
+01:03:58.680 --> 01:04:02.560
+back then. So yeah I joined in Chennai then I like you know
+
+01:04:02.560 --> 01:04:06.720
+been back to Hyderabad and right after switching. So when I
+
+01:04:06.720 --> 01:04:09.640
+have learned big data I have started teaching in offline
+
+01:04:09.640 --> 01:04:13.620
+mode. I came to Bangalore to join into a Deloitte USI
+
+01:04:13.620 --> 01:04:17.680
+division. So I came to Bangalore from Hyderabad and then you
+
+01:04:17.680 --> 01:04:22.120
+know I have started teaching and back then this online
+
+01:04:22.120 --> 01:04:25.460
+things was not that popular. 2015 those who remembers right
+
+01:04:25.460 --> 01:04:28.340
+it was it was not that popular. For example now we have
+
+01:04:28.340 --> 01:04:30.720
+everything in our own while but back then it was it was not
+
+01:04:30.720 --> 01:04:34.560
+there just 10 years back right. So I used to like you know I
+
+01:04:34.560 --> 01:04:38.100
+had a bike basically so I used to go to all the institute in
+
+01:04:38.100 --> 01:04:41.500
+Bangalore whatsoever I was able to find out on Google map
+
+01:04:41.500 --> 01:04:45.840
+and like you know I connected with everyone and then I said
+
+01:04:45.840 --> 01:04:48.120
+okay fine I would like to teach if you have an opportunity
+
+01:04:48.120 --> 01:04:52.880
+give it to me. And back to back three four. You know. In
+
+01:04:52.880 --> 01:04:55.940
+shoot said okay fine yes on Saturday Sunday you can come you
+
+01:04:55.940 --> 01:04:58.420
+can teach. So I used to work Monday to Friday at Deloitte
+
+01:04:58.420 --> 01:05:04.240
+and then again from like you know Deloitte I was working 9
+
+01:05:04.240 --> 01:05:08.860
+to 5 kind of things and similar someone has approached me
+
+01:05:08.860 --> 01:05:13.380
+like through some contact from USA and they said that that
+
+01:05:13.380 --> 01:05:17.200
+okay fine so we have a batches for big data and if you would
+
+01:05:17.200 --> 01:05:19.580
+like to take it for a US people so I have started taking
+
+01:05:19.580 --> 01:05:22.900
+that batches as well in night. So basically our night is
+
+01:05:22.900 --> 01:05:25.900
+their morning right. So I have started teaching and then on
+
+01:05:25.900 --> 01:05:28.460
+Saturday Sunday. So now all seven day I have started
+
+01:05:28.460 --> 01:05:31.300
+teaching big data big data big data right all those models
+
+01:05:31.300 --> 01:05:33.400
+and even big data was very new at that point of a time big
+
+01:05:33.400 --> 01:05:37.800
+data technology itself was very new right like so I have
+
+01:05:37.800 --> 01:05:40.120
+started teaching and this is how my journey have started. So
+
+01:05:40.120 --> 01:05:43.120
+offline online offline online then I have started a
+
+01:05:43.120 --> 01:05:46.800
+franchisee still I was working. So franchisee was again very
+
+01:05:46.800 --> 01:05:49.460
+very successful. I was able to make a lot of money out of
+
+01:05:49.460 --> 01:05:54.860
+that. So then I bought my first villa in Bangalore I think
+
+01:05:54.860 --> 01:05:58.820
+just in four year of time right just in four four and a half
+
+01:05:58.820 --> 01:06:01.880
+year of time I was able to do that basically and guess what
+
+01:06:01.880 --> 01:06:05.620
+my salary was what even after four or five year right it was
+
+01:06:05.620 --> 01:06:08.980
+around 12 LPA there is a video I have created so over there
+
+01:06:08.980 --> 01:06:12.080
+I have shown my salary sleep as well not salary sleep offer
+
+01:06:12.080 --> 01:06:14.920
+later basically from all those companies. So in Deloitte I
+
+01:06:14.920 --> 01:06:19.780
+was getting around 4.7 or 9 something. Bipro 3.2 3.3. I
+
+01:06:19.780 --> 01:06:24.200
+believe Deloitte 4.7 or 4.9 and then I switched to like you
+
+01:06:24.200 --> 01:06:28.280
+know Verizon there I was getting around 9 point something
+
+01:06:28.280 --> 01:06:32.440
+and then from 9 point something I switched into an E&Y there
+
+01:06:32.440 --> 01:06:35.300
+I was getting 12 point something 12.5 you can say right.
+
+01:06:35.680 --> 01:06:37.900
+Obviously with that you can't buy a house in Bangalore
+
+01:06:37.900 --> 01:06:42.900
+Bangalore that too right not not in my native places. So
+
+01:06:42.900 --> 01:06:46.100
+yeah I was I was doing this hustling and everything and just
+
+01:06:46.100 --> 01:06:50.740
+in one two year it took almost right. Because I had a
+
+01:06:50.740 --> 01:06:54.280
+passion like okay I was aware about this that okay I will
+
+01:06:54.280 --> 01:06:57.540
+not be able to do anything with my salary right and my dream
+
+01:06:57.540 --> 01:06:59.820
+was not to you know focus on this fang phone kind of a
+
+01:06:59.820 --> 01:07:04.540
+things that that was not my like you know a game. So I was I
+
+01:07:04.540 --> 01:07:07.640
+was very clear from that part. So I was a hustler I know if
+
+01:07:07.640 --> 01:07:11.660
+I'm going to work hard and yeah so my like you know when I
+
+01:07:11.660 --> 01:07:15.420
+used to give a training and these things so I think my per
+
+01:07:15.420 --> 01:07:18.560
+hour charges have started from somewhere like four hundred
+
+01:07:18.560 --> 01:07:22.140
+five hundred rupees. One per hour right and it went till ten
+
+01:07:22.140 --> 01:07:26.960
+thousand one hour only four hundred five hundred rupees to
+
+01:07:26.960 --> 01:07:30.200
+ten thousand in three to four year of time right still my
+
+01:07:30.200 --> 01:07:33.860
+salary was very less I was working. So when I had a good
+
+01:07:33.860 --> 01:07:37.600
+amount of money and I was having I had experience as well in
+
+01:07:37.600 --> 01:07:39.520
+terms of running my franchisees I was running my offline
+
+01:07:39.520 --> 01:07:43.040
+franchisee in Malathali Bangalore a main road main center
+
+01:07:43.040 --> 01:07:46.880
+itself right I had my own name and own franchisee you can go
+
+01:07:46.880 --> 01:07:49.500
+and check some old photos of mine on Google. You will be
+
+01:07:49.500 --> 01:07:52.600
+able to see. Me like a doing pooja and inauguration of that
+
+01:07:52.600 --> 01:07:55.340
+franchisee. So then I've decided that OK fine I have enough
+
+01:07:55.340 --> 01:07:58.200
+money I have all those things. Let's start. I think it's a
+
+01:07:58.200 --> 01:08:01.760
+time time to start a new venture. Then I have started
+
+01:08:01.760 --> 01:08:05.920
+iNeuron somewhere in 2019 last 2020 first you can say a
+
+01:08:05.920 --> 01:08:10.340
+pandemic hit right. So 2020 I have established in 2021 I
+
+01:08:10.340 --> 01:08:14.640
+have raised a fund of three million dollar right back then
+
+01:08:14.640 --> 01:08:19.100
+it was like a rupees was at 70. So 21 CR 21 crore. Second
+
+01:08:19.100 --> 01:08:22.300
+year it's 70. I have raised then third year I sold it into
+
+01:08:22.300 --> 01:08:25.180
+it is here and then for two years I was sitting ideal I was
+
+01:08:25.180 --> 01:08:28.020
+not doing anything then I decided OK fine I think I think
+
+01:08:28.020 --> 01:08:31.120
+how much how much time I can spend you know like without
+
+01:08:31.120 --> 01:08:35.160
+doing anything. So I said that OK fine. So I think education
+
+01:08:35.160 --> 01:08:38.400
+is my forte. It's my portfolio and I know how to build
+
+01:08:38.400 --> 01:08:42.140
+things basically. So I started the year on and then one week
+
+01:08:42.140 --> 01:08:46.280
+back started SAS platform as well. So why I'm telling you
+
+01:08:46.280 --> 01:08:51.720
+the story I'm just trying to tell you that. I'm not a very
+
+01:08:51.720 --> 01:08:54.660
+talented person by the way right. Not a very talented person
+
+01:08:54.660 --> 01:09:00.180
+the only like advantage or you can say nature you can you
+
+01:09:00.180 --> 01:09:03.600
+can consider that as a nature I would say that I kept on
+
+01:09:03.600 --> 01:09:08.780
+doing things that's it. I was never been a topper in my
+
+01:09:08.780 --> 01:09:13.000
+school in my college. I was like a kind of a person who used
+
+01:09:13.000 --> 01:09:17.640
+to bunk all the classes in college almost 90 percent. There
+
+01:09:17.640 --> 01:09:21.200
+was a lot of proxies people. I used to ask my friends that
+
+01:09:21.200 --> 01:09:24.660
+OK fine do a proxy for me. But even back then. Right. So
+
+01:09:24.660 --> 01:09:27.160
+it's not like I was like I was doing something like a you
+
+01:09:27.160 --> 01:09:30.860
+know enjoyment kind of things. No. So even back then I was
+
+01:09:30.860 --> 01:09:33.400
+very focused that OK I had an interest in robotics. I just
+
+01:09:33.400 --> 01:09:36.320
+go to market to bring all those chips and all those like a
+
+01:09:36.320 --> 01:09:40.200
+cathode or whatever it was. Right. Use a soldering machine
+
+01:09:40.200 --> 01:09:43.140
+build things on my level whatsoever was there I mean like
+
+01:09:43.140 --> 01:09:46.720
+now it's very basic. I believe any kids can build it. But
+
+01:09:46.720 --> 01:09:51.400
+yeah. So that that was my like I was I was like doing it and
+
+01:09:51.400 --> 01:09:53.760
+kept on doing the same thing. Like I said a company has
+
+01:09:53.760 --> 01:09:57.080
+given me a safety not agreed with that. So I switched myself
+
+01:09:57.080 --> 01:10:00.140
+into a big data and then from big data even like after big
+
+01:10:00.140 --> 01:10:03.000
+data data science was becoming a very popular eight year
+
+01:10:03.000 --> 01:10:06.160
+back. Right. And again there was very few people in data
+
+01:10:06.160 --> 01:10:11.940
+science. I switched once again by myself. Right. And yeah.
+
+01:10:12.100 --> 01:10:14.680
+So this is what I used to like you know teach and tell to
+
+01:10:14.680 --> 01:10:18.340
+everyone that. I think. I think you should keep on doing
+
+01:10:18.340 --> 01:10:22.300
+things not like every day you have to work for work for 18
+
+01:10:22.300 --> 01:10:25.840
+hour or 20 hour. Right. But yeah. Just keep on doing things.
+
+01:10:25.900 --> 01:10:29.800
+Things will happen. And many people I have seen especially
+
+01:10:29.800 --> 01:10:32.520
+student they say that OK I'll do a preparation then I'll do
+
+01:10:32.520 --> 01:10:35.680
+this do that like just build something go and reach out to
+
+01:10:35.680 --> 01:10:39.120
+100 people at max they will not give you a reply. Right.
+
+01:10:39.680 --> 01:10:46.930
+It's fine. So. Selling iron was not a good decision. I buy
+
+01:10:46.930 --> 01:10:51.570
+it. I use it. I study it. I bought it. I bought it. I got
+
+01:10:51.570 --> 01:10:53.190
+it. So they do it just because you don't see it as one of
+
+01:10:53.190 --> 01:10:54.510
+the most important thing is that I buy it. This is the only
+
+01:10:54.510 --> 01:10:55.730
+thing that I really know that it can be used. And you can
+
+01:10:55.730 --> 01:11:00.090
+see that the only thing is that when you buy the first time
+
+01:11:00.090 --> 01:11:05.310
+you buy it you buy it you have to buy it for the first time.
+
+01:11:07.230 --> 01:11:09.530
+You have to see that if it's not for you. Or you have to see
+
+01:11:09.530 --> 01:11:11.130
+that you have to see it as the first time. So it's like
+
+01:11:11.130 --> 01:11:11.130
+muah.
+
+01:11:15.430 --> 01:11:17.330
+I bought it for the first time. So people have tried to make
+
+01:11:17.330 --> 01:11:18.390
+me feel bad that I was using the first time and I was
+
+01:11:18.390 --> 01:11:22.250
+actually Same thing you will hold on to, which course do you
+
+01:11:22.250 --> 01:11:28.410
+study which was made 5 years ago. Okay. I am like it's maybe
+
+01:11:28.410 --> 01:11:30.790
+not a good decision but I got a good opportunity, I got a
+
+01:11:30.790 --> 01:11:33.090
+good offer so I have accepted it. Along with my partner and
+
+01:11:33.090 --> 01:11:35.490
+my investor, they were very happy, I have given a 2.5x
+
+01:11:35.490 --> 01:11:38.310
+return to my investor in 10 months and that's my
+
+01:11:38.310 --> 01:11:41.430
+credibility, right. And when you will get into a business,
+
+01:11:41.530 --> 01:11:44.390
+you will do the same thing, believe me, right. When you go
+
+01:11:44.390 --> 01:11:48.110
+for a job, obviously you expect like a hike, right, a good
+
+01:11:48.110 --> 01:11:54.890
+package, yes. This is also, see what I have experienced in
+
+01:11:54.890 --> 01:11:58.330
+my life is that life is not about thinking about a past.
+
+01:11:58.490 --> 01:12:03.130
+It's always thinking about a future, right. So it should
+
+01:12:03.130 --> 01:12:09.250
+just be like a river, simple. Civil what is your suggestion?
+
+01:12:09.450 --> 01:12:11.150
+Okay, I will give you a suggestion in a later stage. First
+
+01:12:11.150 --> 01:12:15.310
+of all, let me teach you something. Okay. Okay, so basically
+
+01:12:15.310 --> 01:12:19.390
+there is something, that's my story and again, I believe if
+
+01:12:19.390 --> 01:12:21.270
+you are already aware about this story, we will not repeat
+
+01:12:21.270 --> 01:12:25.190
+that in an entire class. In some of my classes, you know, I
+
+01:12:25.190 --> 01:12:29.290
+used to tell you, talk about the stories but yeah, rest of
+
+01:12:29.290 --> 01:12:34.050
+the time we will spend on concept itself. So here, we have
+
+01:12:34.050 --> 01:12:37.570
+basically variable C and inside this variable, I am trying
+
+01:12:37.570 --> 01:12:40.390
+to, you know, store sudh, yeah, which is a string, that's
+
+01:12:40.390 --> 01:12:43.710
+cool. Now when I am trying to do a type casting, so it will
+
+01:12:43.710 --> 01:12:46.610
+not be able to do it. Whereas it was working here, right, it
+
+01:12:46.610 --> 01:12:49.410
+was working here. So when, so what I am trying to say you
+
+01:12:49.410 --> 01:12:53.570
+over here, that when you are doing a type casting, right, so
+
+01:12:53.570 --> 01:12:57.550
+if data is compatible with respect to a type casting you are
+
+01:12:57.550 --> 01:13:01.150
+doing, then only it will allow. For example, you can't
+
+01:13:01.150 --> 01:13:04.070
+convert this into a numeric value, right, sudh is not going
+
+01:13:04.070 --> 01:13:07.610
+to be a numeric value. But yes, this 45 inside a quotes,
+
+01:13:07.710 --> 01:13:12.290
+eventually a string can be converted into this. So here it
+
+01:13:12.290 --> 01:13:14.970
+has not given me any kind of an error. Okay. Even I was
+
+01:13:14.970 --> 01:13:17.570
+doing a type casting but here, yes, it is giving me an error
+
+01:13:17.570 --> 01:13:21.550
+when I am doing a type casting, as simple as that. Okay. Now
+
+01:13:21.550 --> 01:13:24.130
+moving to the next. There is a very famous function that you
+
+01:13:24.130 --> 01:13:26.690
+are going to use it maybe on a regular basis called as print
+
+01:13:26.690 --> 01:13:29.330
+function. Yeah. Print function inside a Python. So what
+
+01:13:29.330 --> 01:13:35.270
+print does? Just print. That's it. So my name is sudh. I
+
+01:13:35.270 --> 01:13:46.230
+used to teach Python. I have started my career in not 22
+
+01:13:46.230 --> 01:13:46.270
+years.
+
+01:13:50.170 --> 01:13:54.030
+So basically, what print does, so print is going to print
+
+01:13:54.030 --> 01:13:57.190
+something inside your console in this particular manner. Now
+
+01:13:57.190 --> 01:13:59.970
+you will say that, that okay, if I am going to store a same
+
+01:13:59.970 --> 01:14:03.450
+thing, maybe inside a variable, I will also be able to print
+
+01:14:03.450 --> 01:14:06.950
+it. For example, a is equals to this as a string, right? And
+
+01:14:06.950 --> 01:14:10.890
+if I am calling a, so I will also be able to print it. Yeah.
+
+01:14:10.950 --> 01:14:15.410
+I will also be able to print it. But no. So this a is trying
+
+01:14:15.410 --> 01:14:18.630
+to give you a string. This is the exact data, right? So if
+
+01:14:18.630 --> 01:14:22.150
+you will check what is a type of this data you are going to
+
+01:14:22.150 --> 01:14:25.070
+get. So technically it's a string that it is giving you. But
+
+01:14:25.070 --> 01:14:28.650
+here, if you are going to check, let's say like if I'm going
+
+01:14:28.650 --> 01:14:33.190
+to check what is a type of type of this print you will be
+
+01:14:33.190 --> 01:14:37.470
+able to get. So basically it's a none type here. If you are
+
+01:14:37.470 --> 01:14:42.750
+going to check type. So technically it's a string, right?
+
+01:14:42.790 --> 01:14:45.650
+Technically it's a string. So whenever you are calling a
+
+01:14:45.650 --> 01:14:48.130
+variable. By its name and you are trying to like, you know,
+
+01:14:48.130 --> 01:14:50.890
+execute it inside a Jupyter Notebook only Jupyter Notebook
+
+01:14:50.890 --> 01:14:54.590
+for now, right? So it is giving you an exact data print
+
+01:14:54.590 --> 01:14:58.950
+always will have as a function and its return type is always
+
+01:14:58.950 --> 01:15:03.370
+going to be none type. And when it's none type, right? So
+
+01:15:03.370 --> 01:15:06.650
+I'm trying to highlight this particular point that a and
+
+01:15:06.650 --> 01:15:09.710
+it's giving you a string. Whenever I'm going to call a, it
+
+01:15:09.710 --> 01:15:13.330
+is going to give you strings now a plus if I'm going to do.
+
+01:15:13.410 --> 01:15:18.510
+Or maybe. Maybe if I will be doing a into a into three, it
+
+01:15:18.510 --> 01:15:21.410
+is going to repeat the same thing three times, right? A into
+
+01:15:21.410 --> 01:15:24.090
+three, three times it is going to repeat. Now let me take
+
+01:15:24.090 --> 01:15:29.150
+this print. Let me take this print and let me take
+
+01:15:31.550 --> 01:15:33.030
+this print and
+
+01:15:44.300 --> 01:15:49.440
+then multiply by three. Is it going to work? Yes. Everyone
+
+01:15:49.440 --> 01:15:50.700
+is going to work, right?
+
+01:16:05.160 --> 01:16:09.820
+Yes. No, no. So it is not going to work. What is the reason
+
+01:16:09.820 --> 01:16:14.000
+behind that? The reason is a return type. So what print is
+
+01:16:14.000 --> 01:16:15.940
+giving you as a return type guys? Print is giving you
+
+01:16:15.940 --> 01:16:18.820
+basically none type. Now with none type, if you will try to
+
+01:16:18.820 --> 01:16:20.900
+do some sort of a primitive operation, primitive means
+
+01:16:20.900 --> 01:16:23.100
+multiplication, division, addition, subtraction, whatsoever
+
+01:16:23.100 --> 01:16:26.520
+operation you can think of. So when data type is none type
+
+01:16:26.520 --> 01:16:28.340
+and then if you are going to do some sort of a primitive
+
+01:16:28.340 --> 01:16:30.380
+operation, it is not going to work because there is no
+
+01:16:30.380 --> 01:16:33.520
+nature of none type, right? Whereas if I'll talk about a
+
+01:16:33.520 --> 01:16:36.580
+string, so a string is having a nature that if I'm going to
+
+01:16:36.580 --> 01:16:39.140
+call multiplication, so it will try to repeat. If I'm going
+
+01:16:39.140 --> 01:16:43.380
+to do a plus operation. It will try to concatenate, yeah,
+
+01:16:43.500 --> 01:16:46.680
+but with none type, you can't do anything. So print is
+
+01:16:46.680 --> 01:16:49.580
+basically been used to print something inside the console to
+
+01:16:49.580 --> 01:16:52.140
+check like what is what is going on. Again, inside a print,
+
+01:16:52.200 --> 01:16:54.120
+a lot of like a variation will come into picture, which I'll
+
+01:16:54.120 --> 01:16:57.360
+teach you in a later stage, not now, but yeah, this is what
+
+01:16:57.360 --> 01:16:59.400
+is going to happen with respect to a print.
+
+01:17:02.060 --> 01:17:06.860
+Okay. Now. Uh, so, uh, this is, this is this. Now there is a
+
+01:17:06.860 --> 01:17:10.240
+function called as input function. Yeah. So let's say I'm
+
+01:17:10.240 --> 01:17:13.420
+trying to take age equal to. I'm trying to take age equal to
+
+01:17:13.420 --> 01:17:16.100
+10 or something, right? That's completely fine. But let's
+
+01:17:16.100 --> 01:17:20.780
+say if I want an input from a user, so I just want to write
+
+01:17:20.780 --> 01:17:24.580
+a code. So where user can come and user can try to basically
+
+01:17:24.580 --> 01:17:29.460
+enter a value. Yeah. User can try to enter a value. So here
+
+01:17:29.460 --> 01:17:34.480
+there is a function called as input function, input, and you
+
+01:17:34.480 --> 01:17:38.880
+can just try to ask a user that enter your name execute. So
+
+01:17:38.880 --> 01:17:42.120
+now if you are going to hit this function, right? So it is
+
+01:17:42.120 --> 01:17:45.160
+going to open up this prompt, as you can see, it is, it has
+
+01:17:45.160 --> 01:17:48.220
+opened up this prompt and enter your name, right? It is
+
+01:17:48.220 --> 01:17:50.660
+asking me, enter your name. So if I'm going to like put
+
+01:17:50.660 --> 01:17:54.160
+inter, uh, enter my name, S U D H. So see, it has taken an
+
+01:17:54.160 --> 01:17:58.340
+input. It has taken an input from me, right? It has taken an
+
+01:17:58.340 --> 01:18:01.240
+input from me. So this is the input function. But again, you
+
+01:18:01.240 --> 01:18:04.400
+should know more about this input function, for example. So
+
+01:18:04.400 --> 01:18:11.240
+let's say age equals to input, right? I N P U T input. Yeah.
+
+01:18:11.240 --> 01:18:15.520
+And, uh, enter your age, let's say I'm asking, enter your
+
+01:18:15.520 --> 01:18:19.320
+age execute. So now it is telling me, enter your age. Let's
+
+01:18:19.320 --> 01:18:22.500
+say I'm trying to enter 10 over here. Yeah. Enter 10 over
+
+01:18:22.500 --> 01:18:27.900
+here. Execute. Now it has taken an input, right? It has
+
+01:18:27.900 --> 01:18:30.380
+taken an input just like age equal to 10. We have written
+
+01:18:30.380 --> 01:18:33.680
+before as a variable. So it has taken an input and now it
+
+01:18:33.680 --> 01:18:37.020
+has stored that value into a right again. Let me execute
+
+01:18:37.020 --> 01:18:40.420
+once again. I'll store 17. Let's say over here, right? Yes.
+
+01:18:41.240 --> 01:18:43.900
+I have written already. So here, now if I'm going to print
+
+01:18:43.900 --> 01:18:48.760
+a, I'm able to see a value 17. But what is the data type
+
+01:18:48.760 --> 01:18:53.140
+guys of this a, yeah, what is the data type?
+
+01:18:56.130 --> 01:18:59.390
+But we have like, you know, we have given value of age equal
+
+01:18:59.390 --> 01:19:05.580
+to 17, right? In a numeric integer, right? We have entered a
+
+01:19:05.580 --> 01:19:09.160
+value as a numeric, but here, if you will see the values in
+
+01:19:09.160 --> 01:19:12.600
+a console, so it is giving you something inside a single
+
+01:19:12.600 --> 01:19:16.120
+course, which looks like a string, right? Which looks like
+
+01:19:16.120 --> 01:19:19.220
+basically a string. Now this is what you are supposed to
+
+01:19:19.220 --> 01:19:22.240
+know. So by default, if you're going to hover your mouse on
+
+01:19:22.240 --> 01:19:24.840
+input, you will be able to find out that by default,
+
+01:19:24.940 --> 01:19:28.000
+whatsoever input you are going to give whatsoever, right? It
+
+01:19:28.000 --> 01:19:29.840
+means literally whatsoever input you're going to give.
+
+01:19:30.400 --> 01:19:34.100
+Eventually it will try to convert those inputs into a string
+
+01:19:34.100 --> 01:19:37.000
+all the time, right? All the time it will try to convert
+
+01:19:37.000 --> 01:19:40.140
+your input into a string. Doesn't matter what kind of a
+
+01:19:40.140 --> 01:19:42.460
+value you are going to enter. Everything will be converted
+
+01:19:42.460 --> 01:19:47.640
+into a string. Now let's say by default input function is
+
+01:19:47.640 --> 01:19:50.100
+having this nature that it will convert everything into a
+
+01:19:50.100 --> 01:19:54.380
+string. But I would like to receive a value of a 17 as an
+
+01:19:54.380 --> 01:20:00.200
+integer. Now what I should do, yes, my requirement is to
+
+01:20:00.200 --> 01:20:04.880
+receive a value as an integer. What I'm supposed to do? Yes,
+
+01:20:04.880 --> 01:20:07.900
+I believe you all have the answer, right? Typecast. Yes,
+
+01:20:07.900 --> 01:20:10.260
+typecast. This is what we have discussed. So whatsoever
+
+01:20:10.260 --> 01:20:13.020
+value I will be able to get it. So maybe I can write over
+
+01:20:13.020 --> 01:20:19.380
+here int. So it will be able to do a typecasting for me. So
+
+01:20:19.380 --> 01:20:22.660
+execute and then 34, let's say if I'm trying to enter over
+
+01:20:22.660 --> 01:20:26.460
+here. Now if I'll go and check what is the value of a, so a
+
+01:20:26.460 --> 01:20:30.980
+34, right, double quotes have gone. If I'm going to check
+
+01:20:30.980 --> 01:20:35.120
+what is the type of this a, right, type of this a integer.
+
+01:20:35.420 --> 01:20:38.260
+So I've done typecasting. So just remember the nature of
+
+01:20:38.260 --> 01:20:40.800
+input function. So whenever you are using input function by
+
+01:20:40.800 --> 01:20:44.460
+default, it is going to consider what? String. Now you have
+
+01:20:44.460 --> 01:20:47.920
+to do a typecasting. Obviously like enter your age and
+
+01:20:47.920 --> 01:20:50.620
+someone is going to enter maybe some sort of a string, ABCD
+
+01:20:50.620 --> 01:20:52.900
+kind of a string, it will not be able to do a typecasting.
+
+01:20:52.980 --> 01:20:55.200
+Eventually it will give you error saying that, that
+
+01:20:55.200 --> 01:21:02.220
+whatsoever value that you have entered, it's not a, sorry,
+
+01:21:02.480 --> 01:21:06.880
+it's basically not a like a convertible into an integer, the
+
+01:21:06.880 --> 01:21:09.360
+logic that you have written over here. So this is how you
+
+01:21:09.360 --> 01:21:13.140
+will be able to take a input by the way. Okay. Making sense
+
+01:21:13.140 --> 01:21:16.780
+to all of us guys, everyone? Yeah. So are we, are we going
+
+01:21:16.780 --> 01:21:19.440
+slow, fast or how, how is it like, what, what is your
+
+01:21:19.440 --> 01:21:22.300
+thought on that? Are we going fast? Are we going slow? Are
+
+01:21:22.300 --> 01:21:29.300
+we going okay? Yeah. This space is fine. Yeah. So I believe
+
+01:21:29.300 --> 01:21:31.720
+we'll take some time, maybe we'll take two, three week of
+
+01:21:31.720 --> 01:21:35.260
+time, you know, to pick the pace. So initially we'll go slow
+
+01:21:35.260 --> 01:21:38.280
+because I know people who are starting from the scratch. So
+
+01:21:38.280 --> 01:21:41.620
+basically it's, it's difficult, it's tough to, you know,
+
+01:21:41.640 --> 01:21:44.100
+digest the each and everything, and things are pretty much
+
+01:21:44.100 --> 01:21:47.120
+new. So we'll take that much of time and obviously we have
+
+01:21:47.120 --> 01:21:47.960
+to pick up the speed.
+
+01:21:51.320 --> 01:21:54.320
+Okay. But yeah, don't expect that we'll go with the same
+
+01:21:54.320 --> 01:21:58.600
+pace. We are going to increase our speed a lot. Yeah. Okay.
+
+01:21:59.260 --> 01:22:01.780
+So basically these are the variable we talked about.
+
+01:22:01.840 --> 01:22:04.280
+Basically input. We talked about basically our printer
+
+01:22:04.280 --> 01:22:06.960
+function. We have seen some sort of a typecasting over here,
+
+01:22:07.020 --> 01:22:10.500
+right? So all of these things we have seen inside our
+
+01:22:10.500 --> 01:22:13.560
+today's class. So now you can raise your hand. You can ask
+
+01:22:13.560 --> 01:22:16.180
+me a question. And after that. After answering all of your
+
+01:22:16.180 --> 01:22:18.340
+questions. So we are going to wrap up with the class for
+
+01:22:18.340 --> 01:22:21.340
+today and same material recording will be available today.
+
+01:22:21.480 --> 01:22:23.620
+I'm not giving you any homework tomorrow. I'll give you a
+
+01:22:23.620 --> 01:22:26.800
+homework after discussing more and more topic. So tomorrow
+
+01:22:26.800 --> 01:22:29.660
+topic, let me like make it very clear. So tomorrow topic I'm
+
+01:22:29.660 --> 01:22:36.460
+going to talk about a list tuple dictionary. Yeah. So list
+
+01:22:36.460 --> 01:22:40.840
+tuples dictionary and set. So that will be the topic that is
+
+01:22:40.840 --> 01:22:45.240
+also like a data type. But yeah. List. List tuples
+
+01:22:45.240 --> 01:22:48.640
+dictionary and set. That will be the agenda for my
+
+01:22:48.640 --> 01:22:51.840
+tomorrow's like a topic. If time allows, then we'll get into
+
+01:22:51.840 --> 01:22:55.880
+if else and then for loop as well. So these are the topic
+
+01:22:55.880 --> 01:22:58.720
+we'll be covering in my tomorrow's class. Finally, you want.
+
+01:22:58.960 --> 01:23:02.500
+Yeah. So in case of any question, anything, please raise
+
+01:23:02.500 --> 01:23:04.800
+your hand guys. I believe you can see a raise hand option.
+
+01:23:05.200 --> 01:23:07.420
+Any doubt, anything you would like to talk about. So I'm
+
+01:23:07.420 --> 01:23:12.560
+okay with that. Can you create a file markdown about all
+
+01:23:12.560 --> 01:23:16.020
+this topic? It will reference for the later. I don't think
+
+01:23:16.020 --> 01:23:18.280
+that. That's that is required. So by default, this will be
+
+01:23:18.280 --> 01:23:20.880
+IP and file will be shared with you. Why do you want a
+
+01:23:20.880 --> 01:23:25.600
+markdown? I mean, like, do you want me to write to what is
+
+01:23:25.600 --> 01:23:29.400
+like been done over here for each and every like a topic? I
+
+01:23:29.400 --> 01:23:31.780
+don't keep that kind of expectation. We are not doing that,
+
+01:23:31.960 --> 01:23:33.100
+right?
+
+01:23:35.440 --> 01:23:39.520
+Which cloud subscription to take and manage is pro with it
+
+01:23:39.520 --> 01:23:42.420
+and planning to create an application project. Yeah. Cloudy
+
+01:23:42.420 --> 01:23:45.180
+pro is more than enough. $20. I think, I think that's more
+
+01:23:45.180 --> 01:23:47.260
+than sufficient. You will be able to work on a couple of
+
+01:23:47.260 --> 01:23:52.120
+projects in a month of time. Yeah. Yeah. Okay. So any other
+
+01:23:52.120 --> 01:23:54.720
+question guys, raise hand, anything, nothing.
+
+01:23:59.630 --> 01:24:03.810
+Okay. So are we good guys with today? Yeah. So tomorrow I
+
+01:24:03.810 --> 01:24:05.930
+have already like a declared the topic. So this is the topic
+
+01:24:05.930 --> 01:24:09.570
+which we are going to discuss tomorrow. The Jason is saying
+
+01:24:09.570 --> 01:24:13.290
+that I'm turning 14 pass out 2024 pass out and I'm not sure
+
+01:24:13.290 --> 01:24:17.410
+with my career is been two year I have tried with no job. Is
+
+01:24:17.410 --> 01:24:19.470
+this a thing right where I'm going and selecting this
+
+01:24:19.470 --> 01:24:23.850
+course? Yeah. If you. Don't have any. Any kind of a prior
+
+01:24:23.850 --> 01:24:27.150
+experience, then I think this is the best one. You should
+
+01:24:27.150 --> 01:24:31.230
+have started with by the end of this goes, which kind of a
+
+01:24:31.230 --> 01:24:35.350
+job we can apply. Okay. Uh, you can go and apply for a
+
+01:24:35.350 --> 01:24:37.630
+junior engineer. You can apply for a vision engineer. You
+
+01:24:37.630 --> 01:24:39.810
+can apply for basically a genetic engineer after this
+
+01:24:39.810 --> 01:24:42.630
+course. Yeah. Ram. I think you have raised your hand. So
+
+01:24:42.630 --> 01:24:43.930
+yeah, please go ahead with the question.
+
+01:24:47.700 --> 01:24:51.000
+I am fresher, sir, with no experience. Uh, try to build and
+
+01:24:51.000 --> 01:24:54.420
+work on some project, uh, Nissan basically, uh, not
+
+01:24:54.420 --> 01:24:57.320
+immediately, maybe index like a two, three months. With a
+
+01:24:57.320 --> 01:24:59.720
+class itself. And I'm going to give you a lot of tasks. So
+
+01:24:59.720 --> 01:25:03.320
+just do that project based task. Yeah. Go ahead, please.
+
+01:25:03.520 --> 01:25:08.740
+Yeah. Hi. Hi, sir. Can you show us the, how we can use for
+
+01:25:08.740 --> 01:25:13.360
+the, uh, yay builder resume builder in your own platform.
+
+01:25:14.060 --> 01:25:20.360
+Okay. So it's, it's very basic. So simple. You can go to
+
+01:25:20.360 --> 01:25:26.930
+your own. Let me go here. And yeah, from your own. So one
+
+01:25:26.930 --> 01:25:30.590
+more thing. Uh, we have launched, um, basically one more
+
+01:25:30.590 --> 01:25:32.950
+course. So those who would like to explore that maybe they
+
+01:25:32.950 --> 01:25:40.550
+can go and explore that course. My internet is creating bit
+
+01:25:40.550 --> 01:25:42.510
+of problem today since morning.
+
+01:25:52.790 --> 01:25:58.990
+Okay. So you can go to, uh, resume AI and you have basically
+
+01:25:58.990 --> 01:26:01.530
+two approach. So one approach is you can upload the resume
+
+01:26:01.530 --> 01:26:03.930
+and then in between it will give you a job description
+
+01:26:03.930 --> 01:26:06.810
+option as well. You can modify it. Right? Second one is go
+
+01:26:06.810 --> 01:26:09.350
+for fill, select the template. We have given you a lot of
+
+01:26:09.350 --> 01:26:11.790
+templates over here, feel like a form and then we'll
+
+01:26:11.790 --> 01:26:14.270
+generate. So let's go ahead with the very first option. So
+
+01:26:14.270 --> 01:26:17.630
+here I can go and maybe I'm liking this particular template.
+
+01:26:17.790 --> 01:26:23.250
+I'll just upload, uh, let's say I'm going to upload, uh,
+
+01:26:23.530 --> 01:26:28.570
+this resume, right? So
+
+01:26:38.270 --> 01:26:41.850
+we'll to upload why it is failing. I don't know.
+
+01:26:50.410 --> 01:26:56.430
+Oh, okay. Upgrade. I think I have, uh, exhausted my quota in
+
+01:26:56.430 --> 01:26:57.850
+my account or something. I don't know.
+
+01:27:09.600 --> 01:27:10.040
+Hmm.
+
+01:27:12.940 --> 01:27:18.460
+Just a minute. I'm checking my account quota. I have
+
+01:27:18.460 --> 01:27:19.460
+exhausted or something.
+
+01:27:23.880 --> 01:27:27.120
+Ah, this account quota has been exhausted. I'm using this
+
+01:27:27.120 --> 01:27:30.140
+current account. Now it is giving me this one. Account quota
+
+01:27:30.140 --> 01:27:34.760
+is exhausted. So basically I can click on a skip and then I
+
+01:27:34.760 --> 01:27:37.140
+can tailor my resume as per the company name, as per the job
+
+01:27:37.140 --> 01:27:41.640
+description. If I don't want, I can just continue. And yeah,
+
+01:27:41.700 --> 01:27:43.860
+so now it will start doing the analysis of my resume. It
+
+01:27:43.860 --> 01:27:47.880
+doesn't matter like, uh, what resume I had in which domain,
+
+01:27:48.080 --> 01:27:50.820
+so it will be able to understand. You can, you can like
+
+01:27:50.820 --> 01:27:53.620
+before this, I have shown you that you can even put a job
+
+01:27:53.620 --> 01:27:56.280
+description company name and eventually it will be able to,
+
+01:27:56.300 --> 01:27:59.620
+uh, modify your resume as per that. So it will take like a
+
+01:27:59.620 --> 01:28:03.240
+one, two minute. Yeah. So now my previous resume score was
+
+01:28:03.240 --> 01:28:07.980
+68 and, uh, my strength was this and my area of improvement
+
+01:28:07.980 --> 01:28:11.940
+was this one previous resume. So now it has improved the
+
+01:28:11.940 --> 01:28:15.380
+score, which is like a 78 and yeah, so this is the something
+
+01:28:15.380 --> 01:28:19.320
+that it is improved. And then if I'll go and check here, so
+
+01:28:19.320 --> 01:28:23.080
+it is now giving me my enhanced resume as well as my cover
+
+01:28:23.080 --> 01:28:26.380
+later, my enhanced resume based on the, uh, like a template
+
+01:28:26.380 --> 01:28:29.520
+which I have selected. Yeah. So again, we have, like I said,
+
+01:28:29.560 --> 01:28:32.420
+multiple templates and in neat and clean manner, it is
+
+01:28:32.420 --> 01:28:36.260
+building everything for us. 80 years friendly resume. Yeah.
+
+01:28:36.300 --> 01:28:39.360
+So this is how easy it is. Yeah. Plus it will give you some
+
+01:28:39.360 --> 01:28:42.520
+sort of an interview tips as well in this one. Makes sense,
+
+01:28:42.540 --> 01:28:42.740
+Ram?
+
+01:28:46.360 --> 01:28:50.960
+Yes, sir. Yeah. Okay. Okay. Yeah. Rajesh, go ahead, please.
+
+01:28:51.000 --> 01:28:51.520
+With the question.
+
+01:28:58.240 --> 01:29:02.240
+Yeah. So Rajesh, Bhushan and, uh, Viresh, any, anyone can go
+
+01:29:02.240 --> 01:29:02.700
+with the question.
+
+01:29:07.670 --> 01:29:13.950
+Yeah. Go ahead, please. Yeah. Uh, just like you showed that
+
+01:29:13.950 --> 01:29:16.990
+it is creating 80 years friendly resume in the uniform
+
+01:29:16.990 --> 01:29:20.990
+platform. Uh, but it created only one page resume. Yes. I
+
+01:29:20.990 --> 01:29:26.010
+tried the same platform. Okay. Yeah. So I can, I mentioned
+
+01:29:26.010 --> 01:29:29.750
+some other points as well, but it is just keeping on the one
+
+01:29:29.750 --> 01:29:34.310
+page. Uh, yeah. So generally we are trying to give you one
+
+01:29:34.310 --> 01:29:38.730
+pager resume itself. So because that's a most 80 years
+
+01:29:38.730 --> 01:29:41.470
+friendly resume, you will be able to find out. Someone is
+
+01:29:41.470 --> 01:29:43.530
+saying that, you know, Fonda has no quota. No, I have a
+
+01:29:43.530 --> 01:29:45.950
+multiple account. Right. And let's say, uh, students are
+
+01:29:45.950 --> 01:29:48.130
+coming and telling me that, show me this, show me that. So I
+
+01:29:48.130 --> 01:29:50.730
+ended up exhausting my quota. But yeah, you know, other, I
+
+01:29:50.730 --> 01:29:54.750
+have like, like this, I have a 10 plus accounts. I can even
+
+01:29:54.750 --> 01:29:57.670
+top of my quota from backend by the way. So yeah, I'm like a
+
+01:29:57.670 --> 01:29:59.990
+80 years friendly. Why? So we have made sure that, that
+
+01:29:59.990 --> 01:30:02.370
+every resume that we are going to create, it's going to be
+
+01:30:02.370 --> 01:30:05.550
+one single page and, uh, in one single page itself. So we
+
+01:30:05.550 --> 01:30:07.790
+are going to, you know, compact all of these things in such
+
+01:30:07.790 --> 01:30:10.910
+a manner that it will be like a, you know, it should look
+
+01:30:10.910 --> 01:30:14.310
+beautiful. Plus it must be readable and 80 years, uh,
+
+01:30:14.450 --> 01:30:17.770
+doesn't care about how beautiful your resume is. Uh, so
+
+01:30:17.770 --> 01:30:20.970
+basically it cares about the keywords basically, and based
+
+01:30:20.970 --> 01:30:23.010
+on that, it does the filtration. So we have accommodated
+
+01:30:23.010 --> 01:30:25.050
+that as well. And this is the reason. So it will always show
+
+01:30:25.050 --> 01:30:28.750
+you the improved score of your resume. This is how it works.
+
+01:30:32.150 --> 01:30:38.590
+Yeah. Uh, yes. And, uh, one more thing, sir, uh, uh, your
+
+01:30:38.590 --> 01:30:41.230
+previously course, which I have gone through, that is the
+
+01:30:41.230 --> 01:30:44.970
+JNA goes 2.0. Okay. Uh, from that course, I got little
+
+01:30:44.970 --> 01:30:48.690
+confidence because I'm also part of work and learn. Okay.
+
+01:30:48.710 --> 01:30:53.510
+So, okay. Okay. Yeah. So initially I started in the end of
+
+01:30:53.510 --> 01:30:56.930
+the month. No. In fact, start that time. I was not
+
+01:30:56.930 --> 01:31:01.590
+confident, but, uh, I requested, uh, from someone, I don't
+
+01:31:01.590 --> 01:31:04.750
+remember his name. Uh, he has given me some access to your
+
+01:31:04.750 --> 01:31:08.630
+course and, uh, no, I got a little bit confident. So I
+
+01:31:08.630 --> 01:31:12.530
+generated some backend part for one of the project that is
+
+01:31:12.530 --> 01:31:17.230
+okay. Okay. Yeah. Yeah. Leading by the Raj. Oh, that's okay.
+
+01:31:17.230 --> 01:31:20.090
+Okay. Raj. You're, you're working in the Raj, right? Okay.
+
+01:31:20.230 --> 01:31:22.890
+Yeah. That's amazing. That's amazing. Great then. Yeah.
+
+01:31:23.170 --> 01:31:26.510
+Yeah. So somehow I got confidence and I created backend. Now
+
+01:31:26.510 --> 01:31:29.690
+I'm going to the Docker part. That is completely new. So
+
+01:31:29.690 --> 01:31:32.950
+spending time on only weekend. Okay. Okay. So basically see
+
+01:31:32.950 --> 01:31:36.530
+a walk in and actually walks in a, like a, uh, I think you
+
+01:31:36.530 --> 01:31:38.130
+are already a part of it. So you know how it works.
+
+01:31:38.230 --> 01:31:41.910
+Basically. So I just want everyone who is a part of work and
+
+01:31:41.910 --> 01:31:45.270
+learn. Right. So if they're not able to build something,
+
+01:31:45.510 --> 01:31:47.950
+it's completely fine. At least get into a meeting. Observe
+
+01:31:47.950 --> 01:31:51.550
+the situation, uh, the scenario, right. Go through each and
+
+01:31:51.550 --> 01:31:54.530
+everything. And again, just by observing all of these
+
+01:31:54.530 --> 01:31:57.470
+things, I believe you will be able to learn. And then
+
+01:31:57.470 --> 01:31:59.710
+eventually in two, three months, right. Not immediately, but
+
+01:31:59.710 --> 01:32:02.050
+yeah, in two, three months we'll start performing. Right.
+
+01:32:02.210 --> 01:32:04.570
+Because when team will talk about 10 things, obviously you
+
+01:32:04.570 --> 01:32:06.430
+will try to digest one thing. Then you will go and search.
+
+01:32:06.610 --> 01:32:09.510
+So, yeah, I'm like, uh, this is how even we used to learn in
+
+01:32:09.510 --> 01:32:12.750
+a real life, even in a company, right. As a fresher. So yes.
+
+01:32:12.850 --> 01:32:15.750
+Yeah. And, uh, yeah. I'm like, uh, happy for you that, uh,
+
+01:32:15.830 --> 01:32:17.950
+you are able to make a progress. Now you are writing a
+
+01:32:17.950 --> 01:32:21.030
+backend. That's good. Yeah. Somehow, somehow I got
+
+01:32:21.030 --> 01:32:25.470
+confidence after 20 days of doing that JNI 2.0, a little
+
+01:32:25.470 --> 01:32:30.670
+park course. Yeah. And, uh, sir, uh, it will going to miss
+
+01:32:30.670 --> 01:32:34.210
+out. This is going to help me get a job because also I'm
+
+01:32:34.210 --> 01:32:37.390
+working with people, working person in a non tech
+
+01:32:37.390 --> 01:32:40.030
+background, working in a night shift. So most of the time I
+
+01:32:40.030 --> 01:32:44.590
+spend them like weekends only. Oh, okay. Okay. But yeah, I
+
+01:32:44.590 --> 01:32:46.770
+think, I think that that progress is also good. Like if
+
+01:32:46.770 --> 01:32:48.510
+you're able to spend some time on weekend, right. Like I
+
+01:32:48.510 --> 01:32:51.810
+said, see, you have to evolve even the same thing I have
+
+01:32:51.810 --> 01:32:53.970
+done in my life. Right. So I just like, you know, kept on
+
+01:32:53.970 --> 01:32:57.690
+evolving into things. Things will happen. Right. Yes. Your,
+
+01:32:57.770 --> 01:32:59.690
+your number will increase. Your life will increase. Your
+
+01:32:59.690 --> 01:33:01.450
+everything will increase. Believe me, your wealth will
+
+01:33:01.450 --> 01:33:05.270
+increase whatsoever you want, but yeah, do not stop. If
+
+01:33:05.270 --> 01:33:08.350
+you're stopping means it's as equivalent as like a dying.
+
+01:33:08.450 --> 01:33:12.250
+So, and especially in professional life. Yeah. So right now.
+
+01:33:12.270 --> 01:33:16.170
+So it is. At least I can start applying to some job. Hmm.
+
+01:33:16.370 --> 01:33:20.850
+Yeah. We are. You can start. Yes. Yes. Yeah. We can just
+
+01:33:20.850 --> 01:33:24.070
+basic knowledge because most of the code I did by using
+
+01:33:24.070 --> 01:33:28.070
+copilot. That's fine. Everyone's doing the same thing. Yeah.
+
+01:33:28.170 --> 01:33:31.950
+But I joined this course because you're also learning that
+
+01:33:31.950 --> 01:33:35.870
+ML part also. Hmm. Hmm. Yeah. That's why I joined this
+
+01:33:35.870 --> 01:33:40.830
+course. And in Gen 2.0, we don't have that part. ML part.
+
+01:33:40.830 --> 01:33:44.850
+Hmm. Hmm. Yeah. Generally. So for ML, there is a separate
+
+01:33:44.850 --> 01:33:47.930
+one AI ML part like that. That's a separate course. Like for
+
+01:33:47.930 --> 01:33:50.410
+ML, I have not covered that thing in a Jenny. I believe.
+
+01:33:50.610 --> 01:33:54.430
+Yeah. Yeah. But I understand most of the databases. Okay.
+
+01:33:54.710 --> 01:33:57.790
+Okay. Great. Great. So it is the right time. So I guess I
+
+01:33:57.790 --> 01:34:01.550
+can try. Yeah. You're going to start trying. Yes. Yes. Yeah.
+
+01:34:02.250 --> 01:34:06.390
+Yeah. Yeah. Please go ahead. Yeah. Yeah. So, so I'm doing
+
+01:34:06.390 --> 01:34:11.030
+the, uh, uh, Jenny batch from November last year. Okay. So
+
+01:34:11.030 --> 01:34:15.510
+on 8th November, you taught the API introduction. Okay. And
+
+01:34:15.510 --> 01:34:18.830
+on the, in the course you showed, uh, in your own, you were
+
+01:34:18.830 --> 01:34:23.130
+searching for that API reference. Like, uh, you were
+
+01:34:23.130 --> 01:34:25.830
+searching the curl command for different models. There were
+
+01:34:25.830 --> 01:34:31.210
+example codes, right? That, uh, that completely changed. Um,
+
+01:34:31.210 --> 01:34:33.850
+Yeah. So we have, we have a rebound. We keep on changing it.
+
+01:34:33.850 --> 01:34:38.370
+Can you show that? Because it's not, uh, No, no, no, no.
+
+01:34:38.370 --> 01:34:40.670
+It's it's there. We have made it even better and easy. There
+
+01:34:40.670 --> 01:34:43.330
+is a something called as documentation. Go to documentation.
+
+01:34:43.810 --> 01:34:46.470
+And then here you will be able to see all the curl command.
+
+01:34:46.690 --> 01:34:49.250
+You will be able to see even like how to call it each and
+
+01:34:49.250 --> 01:34:51.730
+everything now is there. So how to call this chat completion
+
+01:34:51.730 --> 01:34:54.410
+model, how to come call this embedding model everywhere,
+
+01:34:54.650 --> 01:34:58.130
+everywhere. There was one common model. You have a, like a
+
+01:34:58.130 --> 01:35:01.710
+Gemini 4.5 for every model. Do you have an example or, uh,
+
+01:35:01.730 --> 01:35:03.970
+No, no, no. So you just have to change the model ID. Right?
+
+01:35:04.050 --> 01:35:08.630
+So here is a model ID and if you will go here, so for every
+
+01:35:08.630 --> 01:35:11.170
+model, let's say I'm going to click on some random model,
+
+01:35:11.290 --> 01:35:13.950
+right? So now every model will be having a model ID. See,
+
+01:35:14.030 --> 01:35:17.230
+this is the model ID. Okay. Yeah. Even here, you will be
+
+01:35:17.230 --> 01:35:20.770
+able to see the model ID. See. Okay. Right. So you just have
+
+01:35:20.770 --> 01:35:23.150
+to change the model ID over here. That's it. If it is a
+
+01:35:23.150 --> 01:35:25.050
+embedding model, it will work for embedding. If it is a
+
+01:35:25.050 --> 01:35:27.110
+image model, it will work for image. If it is a chat model,
+
+01:35:27.270 --> 01:35:29.390
+chat completion model, it will work for chat completion.
+
+01:35:29.570 --> 01:35:34.890
+Very, very simple. Okay. Understood. Yeah. Thank you very
+
+01:35:34.890 --> 01:35:38.270
+much. Thank you. Just wait, wait, wait, wait, wait. Yeah.
+
+01:35:38.390 --> 01:35:46.390
+Uh, Rajesh, please go ahead. Uh, I have created
+
+01:35:46.390 --> 01:35:51.190
+one project, uh, in my local, uh, and I push this into the
+
+01:35:51.190 --> 01:35:56.050
+integration and then I get a doctor in each and I finally
+
+01:35:56.050 --> 01:36:00.470
+pushed into easy to instance. Okay. So I've my, my, nowadays
+
+01:36:00.470 --> 01:36:03.810
+I'm giving interviews. Uh, the thing is, uh, when I handle a
+
+01:36:03.810 --> 01:36:04.410
+lot of my, uh, uh, uh, uh, uh, uh, uh, uh, uh, uh, going for
+
+01:36:04.410 --> 01:36:10.750
+interview again I keep forgetting things so I am not able to
+
+01:36:10.750 --> 01:36:15.490
+give structured thinking whatever I am able to find to
+
+01:36:15.490 --> 01:36:22.390
+explain and that I even I share the system or I will share
+
+01:36:22.390 --> 01:36:27.990
+my LinkedIn so can how can I enhance I mean do I need to add
+
+01:36:27.990 --> 01:36:31.770
+some work on a bigger project the CI CD that you are talking
+
+01:36:31.770 --> 01:36:34.630
+about right it's a very small part of it work on I would say
+
+01:36:34.630 --> 01:36:38.310
+a big project with a big component and then like you know a
+
+01:36:38.310 --> 01:36:40.850
+lot of complex like a business use cases try to solve maybe
+
+01:36:40.850 --> 01:36:44.530
+10-20% of that complex use cases and then try to use a ECR
+
+01:36:44.530 --> 01:36:48.250
+ECS amplify do a deployment over there you know try to
+
+01:36:48.250 --> 01:36:51.590
+attach basically a radius or catch a layer in between try to
+
+01:36:51.590 --> 01:36:55.150
+attach a CDN layer in between and or else parallelly you can
+
+01:36:55.150 --> 01:36:57.750
+go with the Kubernetes based deployment Terraform based
+
+01:36:57.750 --> 01:37:01.810
+deployment so just just try to like a go in that. Okay okay
+
+01:37:01.810 --> 01:37:09.010
+but can I I will try to know all how it works and am I able
+
+01:37:09.010 --> 01:37:12.870
+to manage let's say I built an asynchronous ingestion
+
+01:37:12.870 --> 01:37:17.770
+pipeline in my local so in the for the scalable system I am
+
+01:37:17.770 --> 01:37:22.630
+building like a few Kafka for asynchronous ingestion
+
+01:37:22.630 --> 01:37:27.050
+pipeline so in that way can I tell if I say something there
+
+01:37:27.050 --> 01:37:30.150
+I will get the follow-up question from that. Obviously yes.
+
+01:37:30.150 --> 01:37:32.710
+Yes yes yeah yeah a lot of follow-up questions people are
+
+01:37:32.710 --> 01:37:37.330
+going to ask you. Then in this case how can I keep knowing
+
+01:37:37.330 --> 01:37:42.490
+all those things. This is the reason I told you so deeper
+
+01:37:42.490 --> 01:37:45.970
+and when I say go deeper and deeper not conceptually so try
+
+01:37:45.970 --> 01:37:48.470
+to build a better feature so because when you are building a
+
+01:37:48.470 --> 01:37:51.250
+better feature a defined feature right by default you will
+
+01:37:51.250 --> 01:37:53.510
+end up using the same technology let's say you are trying
+
+01:37:53.510 --> 01:37:56.410
+Kafka right for the ingestion so you will end up exploring
+
+01:37:56.410 --> 01:37:59.070
+almost all the parameter of the Kafka. So even if someone is
+
+01:37:59.070 --> 01:38:01.810
+going to go deeper. They will ask you parameters right that
+
+01:38:01.810 --> 01:38:04.730
+why that's going to set this parameter how Kafka producer
+
+01:38:04.730 --> 01:38:07.270
+and consumer and in between like a zookeeper or whatsoever
+
+01:38:07.270 --> 01:38:09.810
+it is how it is going to work and everything eventually you
+
+01:38:09.810 --> 01:38:12.890
+will be able to explain. Even though I use the Kafka they
+
+01:38:12.890 --> 01:38:16.850
+asking why you use this particular Kafka and why don't you
+
+01:38:16.850 --> 01:38:20.290
+go to some other alternatives this kind of question that I
+
+01:38:20.290 --> 01:38:24.890
+am getting. Yeah that's a valid question right. Yeah that's
+
+01:38:24.890 --> 01:38:29.710
+a valid question but how do I keep focus giving attention to
+
+01:38:29.710 --> 01:38:31.050
+many things. Yeah that's a valid question right. Yeah that's
+
+01:38:31.050 --> 01:38:31.050
+a valid question but how do I keep focus giving attention to
+
+01:38:31.050 --> 01:38:35.410
+many things. Even I am not able to structure all those
+
+01:38:35.410 --> 01:38:41.430
+things. But yeah Rajesh I got your point but yeah at the end
+
+01:38:41.430 --> 01:38:45.270
+of the day see you are not able to do it it's okay right
+
+01:38:45.270 --> 01:38:48.530
+everyone in everyone's life I would say like there is a time
+
+01:38:48.530 --> 01:38:52.190
+when we are not able to perform something but yes this is
+
+01:38:52.190 --> 01:38:54.910
+what we do right as a human being we evolve so just try to
+
+01:38:54.910 --> 01:38:57.390
+evolve at the end of the day you are looking for a job
+
+01:38:57.390 --> 01:39:00.470
+right. When I am okay but when I am checking with my
+
+01:39:00.470 --> 01:39:03.670
+friends. They are also working in industry but they are
+
+01:39:03.670 --> 01:39:06.150
+telling like you don't know don't need to implement
+
+01:39:06.150 --> 01:39:09.830
+everything but you just know how it works let's say Kafka
+
+01:39:09.830 --> 01:39:12.650
+how it works here how we are implementing. Even you see
+
+01:39:12.650 --> 01:39:15.970
+implementing and how it works knowing about all these things
+
+01:39:15.970 --> 01:39:20.630
+I think it's like a very very easy not now it's not a time
+
+01:39:20.630 --> 01:39:23.930
+consuming right. So why you are just like going after your
+
+01:39:23.930 --> 01:39:26.530
+friend's word who is saying that you just have to know about
+
+01:39:26.530 --> 01:39:29.970
+it so when you go for the next interview maybe that person
+
+01:39:29.970 --> 01:39:33.890
+will focus more on implementation you never know. Okay they
+
+01:39:33.890 --> 01:39:38.130
+are specifically asking about feature implementation and the
+
+01:39:38.130 --> 01:39:41.410
+many things I am getting. So I am just trying to like I just
+
+01:39:41.410 --> 01:39:44.750
+try to like say to everyone that try to focus on more deeper
+
+01:39:44.750 --> 01:39:48.130
+feature more complex feature right build it and while
+
+01:39:48.130 --> 01:39:50.350
+building it obviously you will end up exploring each and
+
+01:39:50.350 --> 01:39:53.990
+everything and if you are able to do that believe me you
+
+01:39:53.990 --> 01:39:57.030
+will be able to give up right.
+
+01:39:58.030 --> 01:40:05.070
+Okay. Yeah. Okay. Yeah. Can I share my system or else how do
+
+01:40:05.070 --> 01:40:08.350
+I even enhance my system while I build an array system for
+
+01:40:08.350 --> 01:40:12.990
+my telecom domain use case. Maybe create some video send it
+
+01:40:12.990 --> 01:40:17.570
+to me I will try to like give you a feedback. Okay creating
+
+01:40:17.570 --> 01:40:22.670
+a video okay. Yeah. I will create it. Yeah. Yeah. Okay.
+
+01:40:22.750 --> 01:40:24.790
+Yeah. Shyam or Prashant please go ahead with a question.
+
+01:40:26.350 --> 01:40:30.310
+Actually this is Shyam. So actually I am working on a
+
+01:40:30.310 --> 01:40:35.030
+project. I am a 22 years experience person. So I am really
+
+01:40:35.030 --> 01:40:38.550
+confused how to leverage all these courses they are well
+
+01:40:38.550 --> 01:40:44.530
+done I mean how to leverage these courses how what is the
+
+01:40:44.530 --> 01:40:49.350
+career path and what is your past experience like 22 year in
+
+01:40:49.350 --> 01:40:52.090
+what which is domain which technology or maybe no tech
+
+01:40:52.090 --> 01:40:55.530
+something. Yeah I mean I am into tech configuration
+
+01:40:55.530 --> 01:40:59.770
+management and full stack full stack I will manage the full
+
+01:40:59.770 --> 01:41:03.370
+stack right. No. Tech manager right now. Okay full stack I
+
+01:41:03.370 --> 01:41:07.170
+mean like talking about mon mean all those things. No. Full
+
+01:41:07.170 --> 01:41:13.570
+stack means angular and backend and flask that is one team I
+
+01:41:13.570 --> 01:41:16.790
+have I will manage three people working on that and another
+
+01:41:16.790 --> 01:41:20.450
+is a unix configuration management in terms of pearl python
+
+01:41:20.450 --> 01:41:23.310
+for configuration management of all linux operating systems
+
+01:41:23.310 --> 01:41:28.430
+so I work for qualcomm I mean almost will manage 170,000
+
+01:41:28.430 --> 01:41:34.550
+missions. Okay. Yeah. I think I think for you I believe this
+
+01:41:34.550 --> 01:41:37.870
+product engineering and this AI architect mastery right that
+
+01:41:37.870 --> 01:41:41.150
+will be a best suited one. Okay. Because you are already
+
+01:41:41.150 --> 01:41:43.070
+into a tech right you have already seen a lot of things
+
+01:41:43.070 --> 01:41:45.830
+right so I do not think that you should and again no one on
+
+01:41:45.830 --> 01:41:48.270
+your experience level will ask you to write a python code or
+
+01:41:48.270 --> 01:41:51.290
+write this script that script right. So I think the best
+
+01:41:51.290 --> 01:41:54.350
+recommend you for you for especially for you is basically
+
+01:41:54.350 --> 01:41:57.990
+this AI architect mastery and this one these two. So here in
+
+01:41:57.990 --> 01:42:00.890
+this course this is not a course I would say. It is a place
+
+01:42:00.890 --> 01:42:03.950
+where I ask people to build things after giving couple of
+
+01:42:03.950 --> 01:42:07.150
+classes AI product engineering. Right. So here I am asking
+
+01:42:07.150 --> 01:42:10.550
+like I am involving all my students to work actually. Okay.
+
+01:42:10.610 --> 01:42:13.090
+Work in a particular project and from a student itself I
+
+01:42:13.090 --> 01:42:15.890
+used to define a lead and then inside that there will be 10
+
+01:42:15.890 --> 01:42:19.190
+-20 people soon new version of this batch will come. So very
+
+01:42:19.190 --> 01:42:21.810
+soon I think this month itself we are launching. So here I
+
+01:42:21.810 --> 01:42:26.650
+have defined eight projects and even like a today night 7 pm
+
+01:42:26.650 --> 01:42:30.130
+IST we have an internal demo. And probably next week you
+
+01:42:30.130 --> 01:42:33.130
+will be able to see all the eight project demo one by one
+
+01:42:33.130 --> 01:42:37.610
+one by one on YouTube and I am coming up with the like a
+
+01:42:37.610 --> 01:42:39.930
+same another 10 project not the same project. So I do not
+
+01:42:39.930 --> 01:42:43.710
+never repeat a project in any batches. So yeah I will be
+
+01:42:43.710 --> 01:42:47.830
+coming with that. So maybe you can pick that one and this AI
+
+01:42:47.830 --> 01:42:50.290
+architect mastery. So here I am teaching. Yeah. So here I am
+
+01:42:50.290 --> 01:42:53.790
+like so for example today we had a class and I talked about
+
+01:42:53.790 --> 01:42:56.630
+basically terraform. I talked about basically a Kubernetes
+
+01:42:56.630 --> 01:42:59.970
+cluster setup. And how we can do this entire infra
+
+01:42:59.970 --> 01:43:02.770
+automation basically. So that I will be able to do a
+
+01:43:02.770 --> 01:43:06.730
+inferencing of a LLMs a heavyweight LLMs from anywhere by
+
+01:43:06.730 --> 01:43:12.550
+using a EKS basically. Okay. Yeah. Sure. Yeah. Thank you. It
+
+01:43:12.550 --> 01:43:17.050
+answers my question. Yes. So just do this and maybe wait for
+
+01:43:17.050 --> 01:43:20.790
+the next launch of this one. This is because I think people
+
+01:43:20.790 --> 01:43:23.530
+will not involve you in their existing team they are already
+
+01:43:23.530 --> 01:43:26.930
+working it. No. Yeah. So when we will like a launch a new
+
+01:43:26.930 --> 01:43:31.330
+project just be a part of that. Sure. Sure. Thank you. Okay.
+
+01:43:31.370 --> 01:43:34.590
+Thanks. Yeah. So Imtisel please go ahead with the question.
+
+01:43:36.350 --> 01:43:42.110
+Yeah. Hi. Hi. Sushant. Yeah. Good evening. Good evening.
+
+01:43:42.210 --> 01:43:45.890
+Sushant actually like have a couple of questions like like
+
+01:43:45.890 --> 01:43:50.070
+first of all I am working as a BA with with Mumbai based
+
+01:43:50.070 --> 01:43:55.550
+MNC. Hmm. Hmm. So currently we are building like currently I
+
+01:43:55.550 --> 01:44:00.730
+have been assigned in a team which built AI agents. Hmm. And
+
+01:44:00.730 --> 01:44:04.850
+like it it's like a no code AI agent like we we we usually
+
+01:44:04.850 --> 01:44:10.790
+use copilot and I mean internal tool tool on that we built
+
+01:44:10.790 --> 01:44:16.450
+AI agent currently and my current my manager see I have have
+
+01:44:16.450 --> 01:44:21.770
+done my masters in 2023 itself like and like in AI itself.
+
+01:44:21.770 --> 01:44:25.850
+The specialization in AI. But the thing is that like I have
+
+01:44:25.850 --> 01:44:28.870
+I mean right now I currently know till machine learning.
+
+01:44:29.170 --> 01:44:31.770
+From from where you have done masters? Yeah. Mumbai
+
+01:44:31.770 --> 01:44:36.090
+University. Like directly from Mumbai University or via some
+
+01:44:36.090 --> 01:44:39.390
+Institute? No, no, no. It's like it's their affiliated
+
+01:44:39.390 --> 01:44:42.650
+course like I mean they the internal faculty teach that like
+
+01:44:42.650 --> 01:44:47.550
+it's a wider I mean Mumbai Institute only like it their
+
+01:44:47.550 --> 01:44:52.130
+internal branch take that course. It's not called as
+
+01:44:52.130 --> 01:44:55.550
+masters. Yeah. Please go ahead. Yeah. I know. Yeah.
+
+01:44:56.190 --> 01:44:59.930
+Question. Yeah. It's MNC like it's a I mean MNC in
+
+01:44:59.930 --> 01:45:02.890
+artificial intelligence. Got it. Got it. Yeah. Yeah. So then
+
+01:45:02.890 --> 01:45:07.730
+next. Yeah. So the actually my managers were I mean
+
+01:45:07.730 --> 01:45:12.750
+currently the manager expectation is like I am I should be
+
+01:45:12.750 --> 01:45:16.790
+the one who should be discussing the tech part and that I
+
+01:45:16.790 --> 01:45:22.190
+mean the core internal part with the tech part. So I want to
+
+01:45:22.190 --> 01:45:25.990
+know how to debug I mean how which course should I enroll to
+
+01:45:25.990 --> 01:45:32.200
+I can understand the current debugging and all. Okay. What
+
+01:45:32.200 --> 01:45:35.460
+is the proficiency level on a coding part by the way? Coding
+
+01:45:35.460 --> 01:45:38.400
+part like I mean I can understand till machine learning
+
+01:45:38.400 --> 01:45:41.600
+basics and all. Coding coding coding coding machine learning
+
+01:45:41.600 --> 01:45:45.840
+coding. Python I can understand. You can understand. Okay.
+
+01:45:45.900 --> 01:45:50.040
+And like how many like production grade or how many things
+
+01:45:50.040 --> 01:45:52.680
+you have built so far which is in production running is even
+
+01:45:52.680 --> 01:45:57.220
+now. Not till any production like I mean I am I mean earlier
+
+01:45:57.220 --> 01:46:00.780
+I mean moving before this time I was a data analyst working
+
+01:46:00.780 --> 01:46:04.620
+only with the I mean Power BI and little bit of Python for
+
+01:46:04.620 --> 01:46:07.740
+the automation itself. I have I mean never built any tech
+
+01:46:07.740 --> 01:46:09.420
+project for myself like that.
+
+01:46:12.620 --> 01:46:17.580
+Yes. So that's a main issue by the way. So you have to work
+
+01:46:17.580 --> 01:46:21.400
+on a real thing that's a holy solution. Okay. Not an issue
+
+01:46:21.400 --> 01:46:24.620
+as of now just continue with this one. Right. Very soon
+
+01:46:24.620 --> 01:46:28.560
+we'll give you the project and start working on that. Yeah.
+
+01:46:28.860 --> 01:46:31.520
+Because if you're trying to like you know showcase yourself
+
+01:46:31.520 --> 01:46:36.080
+as an experienced guy and a person who is having a master's
+
+01:46:36.080 --> 01:46:39.100
+degree or something in data science or some so obviously
+
+01:46:39.100 --> 01:46:41.820
+like they will be checking your practical as well as
+
+01:46:41.820 --> 01:46:46.400
+theoretical skill and you must be good with that. Yeah. That
+
+01:46:46.400 --> 01:46:48.800
+that is the thing like I mean I have completed my master
+
+01:46:48.800 --> 01:46:52.460
+along with my I mean I mean the work itself like I used to
+
+01:46:52.460 --> 01:46:57.480
+go to my college in the morning and as I was in in US shift
+
+01:46:57.480 --> 01:47:01.780
+so I used to work from 2 to 11. So that was manageable.
+
+01:47:03.220 --> 01:47:05.960
+Okay. Fine. Just just focus on this course. Yeah. In this
+
+01:47:05.960 --> 01:47:09.860
+area. Yes. Yes. Okay. Thank you. Yeah. So where is please go
+
+01:47:09.860 --> 01:47:14.880
+to the question. Hi sir. Good evening. Ganesh here. Yeah.
+
+01:47:14.900 --> 01:47:19.360
+Ganesh. Good. So actually, you know, I'm, I'm a data
+
+01:47:19.360 --> 01:47:23.480
+engineer, basically working in GCP side. And I've been
+
+01:47:23.480 --> 01:47:26.660
+following you, you know, I tried to learn data science in
+
+01:47:26.660 --> 01:47:30.280
+during COVID time from you. But unfortunately, no, it's
+
+01:47:30.280 --> 01:47:33.660
+always been a confusion whether data is engineering or data
+
+01:47:33.660 --> 01:47:38.500
+science, but then I went into data engineering. But now, now
+
+01:47:38.500 --> 01:47:41.580
+is the case, right? Everybody everywhere it is AI, we have
+
+01:47:41.580 --> 01:47:45.600
+to use. Now, again, I'm in the same path. You know, where,
+
+01:47:45.720 --> 01:47:49.380
+you know, whether to, which one to proceed, like, is it
+
+01:47:49.380 --> 01:47:53.720
+like, See, data engineering is also a very good field. And
+
+01:47:53.720 --> 01:47:57.700
+again, yeah, so it will be relevant field. But everywhere,
+
+01:47:57.780 --> 01:48:02.020
+as we all know that people are using agents, people are
+
+01:48:02.020 --> 01:48:06.340
+orchestrating agents, even into a big data in every layer or
+
+01:48:06.340 --> 01:48:09.520
+any system, right? Any system that you can talk about. So
+
+01:48:09.520 --> 01:48:14.300
+it's better to have AI knowledge, especially a generative AI
+
+01:48:14.300 --> 01:48:16.860
+knowledge. AI is NTK, all those kind of knowledge. And then
+
+01:48:16.860 --> 01:48:20.700
+work, maybe as a developer, maybe as a big data engineer,
+
+01:48:20.840 --> 01:48:24.560
+maybe as a system engineer, right? So AI knowledge is must.
+
+01:48:25.760 --> 01:48:30.840
+Okay, so got it. Got it, sir. Thank you. So for my, you
+
+01:48:30.840 --> 01:48:33.180
+know, like, I have around 12 years of experience, right? So
+
+01:48:33.180 --> 01:48:35.820
+in the data engineering, plus now you have to start with the
+
+01:48:35.820 --> 01:48:38.320
+AI, right? So is this the course that I have to go ahead? Or
+
+01:48:38.320 --> 01:48:40.980
+like, do you suggest? Yeah, I think, yeah. So I think you
+
+01:48:40.980 --> 01:48:43.160
+can go ahead with this initially will look boring for you,
+
+01:48:43.180 --> 01:48:45.260
+maybe because of Python. Because maybe, you know, Python,
+
+01:48:45.420 --> 01:48:48.540
+right? But yeah, I mean, after a month of time, it will be
+
+01:48:48.540 --> 01:48:51.160
+very, very interesting. And things like that we are going to
+
+01:48:51.160 --> 01:48:55.320
+discuss will be new even for you. Okay, okay. Great, sir.
+
+01:48:55.340 --> 01:48:57.320
+Yeah, I will. I will go with this. Thank you so much.
+
+01:48:57.560 --> 01:49:01.560
+Thanks. Yeah. AP, please go ahead with the question. Hi,
+
+01:49:01.660 --> 01:49:06.620
+sir. Thank you. Great start to the course. So I've been
+
+01:49:06.620 --> 01:49:10.800
+following you since the I knew around days. So I have around
+
+01:49:10.800 --> 01:49:15.020
+12 years of experience in BI space. BI in reporting space,
+
+01:49:15.280 --> 01:49:20.900
+which is also data is place a big part in it. So what I
+
+01:49:20.900 --> 01:49:25.220
+wanted to know that I learned Python from your data is full
+
+01:49:25.220 --> 01:49:28.620
+stack data science course. And that was quite a help. So the
+
+01:49:28.620 --> 01:49:31.660
+team that I'm currently working on is mostly reporting to
+
+01:49:31.660 --> 01:49:35.180
+the management. And what I noticed that, see, ultimately, we
+
+01:49:35.180 --> 01:49:38.120
+are all working for the management and revenue side or sales
+
+01:49:38.120 --> 01:49:41.560
+side or everything, right? They just want the things to be
+
+01:49:41.560 --> 01:49:45.400
+get done. So we are always in firefighting mode of like
+
+01:49:45.400 --> 01:49:49.740
+setting up the snowflake and setting taking business context
+
+01:49:49.740 --> 01:49:54.880
+and translating it to the data part. Right. So what I want
+
+01:49:54.880 --> 01:50:00.600
+that if this can help me to learn any system design so that
+
+01:50:00.600 --> 01:50:04.040
+or any data contracts or data governance, I think I think
+
+01:50:04.040 --> 01:50:07.300
+then you should go with the architect mastery. This one.
+
+01:50:07.400 --> 01:50:10.020
+Okay. And we have like a system design course as well by
+
+01:50:10.020 --> 01:50:13.660
+Angeli Seal from Microsoft. Okay. Okay. We have that as
+
+01:50:13.660 --> 01:50:16.300
+well. Maybe you can come and search here system design,
+
+01:50:16.580 --> 01:50:20.820
+system design by Angeli Seal. Yeah, this one. Right. So
+
+01:50:20.820 --> 01:50:24.000
+she's from Microsoft and she's a very amazing lady, amazing
+
+01:50:24.000 --> 01:50:26.420
+mentor, I would say, who have recorded this entire things.
+
+01:50:26.540 --> 01:50:29.760
+Right. A very, very lengthy course. So if you would like to
+
+01:50:29.760 --> 01:50:34.220
+like learn literally a depth of system design. Yes. Like how
+
+01:50:34.220 --> 01:50:37.820
+how system function, how we can improve the efficiency and
+
+01:50:37.820 --> 01:50:40.820
+all sorts of that also. And come to this, then this one. So
+
+01:50:40.820 --> 01:50:42.180
+first do a system design and then come to this. Okay. You
+
+01:50:42.180 --> 01:50:45.540
+can come to a architect mastery. Yeah. Because this course
+
+01:50:45.540 --> 01:50:48.100
+is also I think could be helpful for me because I know
+
+01:50:48.100 --> 01:50:50.860
+Python part and all that because I have worked on some of
+
+01:50:50.860 --> 01:50:55.740
+the production code applications so that and I also have a
+
+01:50:55.740 --> 01:50:58.440
+little bit of knowledge of infrastructure is code in form of
+
+01:50:58.440 --> 01:51:01.660
+terraforms. I've seen the template but not worked heavily on
+
+01:51:01.660 --> 01:51:05.480
+it, but I can identify which objects route to where and all
+
+01:51:05.480 --> 01:51:08.300
+sort of that. So I think this is a full fledged thing and
+
+01:51:08.300 --> 01:51:10.540
+what you have suggested that would be a good path, right?
+
+01:51:10.540 --> 01:51:14.660
+yeah exactly two things and then like a like a system design
+
+01:51:14.660 --> 01:51:18.540
+and and does that cover how we model the data because that
+
+01:51:18.540 --> 01:51:21.660
+is the primary thing that's going to be there till the
+
+01:51:21.660 --> 01:51:25.280
+eternity right how model the data that would be more or less
+
+01:51:25.280 --> 01:51:28.980
+depends upon not a rule or set of the principle but on
+
+01:51:28.980 --> 01:51:33.060
+business actually yeah for for ai to be data to be a ready
+
+01:51:33.060 --> 01:51:36.440
+it has to be modeled properly right because we get a lot of
+
+01:51:36.440 --> 01:51:39.640
+crap data from sales force and crm and all that when we say
+
+01:51:39.640 --> 01:51:44.060
+properly there is no like a thumb rule by which i can say
+
+01:51:44.060 --> 01:51:46.920
+what is the actual definition of properly in terms of data
+
+01:51:46.920 --> 01:51:50.260
+modeling so it's very context driven by the way it's yes yes
+
+01:51:50.260 --> 01:51:53.520
+you know someone i can even i can't come and commit that
+
+01:51:53.520 --> 01:51:58.200
+okay just do this and then i can't do that because i have to
+
+01:51:58.200 --> 01:52:01.480
+look into the data and business yeah and that keeps on
+
+01:52:01.480 --> 01:52:05.040
+changing like as per the strategy on yearly basis and by
+
+01:52:05.040 --> 01:52:09.280
+every time it will keep on changing yeah and the thing that
+
+01:52:09.280 --> 01:52:12.420
+we are primarily dealing on the crm data that the sales rep
+
+01:52:12.420 --> 01:52:16.020
+go and directly upload to the sales force so that way we are
+
+01:52:16.020 --> 01:52:19.540
+not getting some of the clear data for identification of
+
+01:52:19.540 --> 01:52:23.240
+like why they are cancelling our sales and why they are like
+
+01:52:23.240 --> 01:52:28.360
+uh wanting a price decrease or something like that so that
+
+01:52:28.360 --> 01:52:32.360
+could be a space which i can play for okay thank you thanks
+
+01:52:32.360 --> 01:52:37.340
+thanks yeah yeah nb state br i can see your name with this
+
+01:52:37.340 --> 01:52:42.180
+can you please yeah go ahead with the question hi uh my
+
+01:52:42.180 --> 01:52:48.100
+question is a bit of similar to the other uh persons i'm
+
+01:52:48.100 --> 01:52:53.140
+also like more than 12 years experience and uh my experience
+
+01:52:53.140 --> 01:52:56.900
+uh i'm working i had supported on observability domain
+
+01:52:56.900 --> 01:53:01.360
+mostly and uh currently with couple of years i've enrolled
+
+01:53:01.360 --> 01:53:07.500
+into the service now domain where i used to work on uh cmdb
+
+01:53:07.500 --> 01:53:11.500
+side and then uh again on the event management and uh
+
+01:53:11.500 --> 01:53:16.940
+orchestration side so that's my background so i i have been
+
+01:53:16.940 --> 01:53:20.800
+recommended about this course with one of the one of my
+
+01:53:20.800 --> 01:53:24.420
+friend he had taken the course and he has asked me like if
+
+01:53:24.420 --> 01:53:27.540
+you are interested with the ai then go ahead with this i
+
+01:53:27.540 --> 01:53:32.500
+don't have any um coding experience in the past like my
+
+01:53:32.500 --> 01:53:35.900
+coding experience is just only uh on the python and power
+
+01:53:35.900 --> 01:53:39.740
+cell side whenever a script is need to be developed and uh
+
+01:53:39.740 --> 01:53:45.520
+yes uh so that is my uh coding experience and and this is so
+
+01:53:45.520 --> 01:53:48.900
+this is what i'm coming for and i want to see like uh what
+
+01:53:48.900 --> 01:53:52.940
+is lying ahead for me in future uh in terms of ai because i
+
+01:53:52.940 --> 01:53:57.600
+uh there there is a lot of uh applications uh in my domain
+
+01:53:57.600 --> 01:54:01.540
+as well where i see they are using their own ai and just do
+
+01:54:01.540 --> 01:54:07.220
+the uh sort of uh activities which is like summarizing the
+
+01:54:07.220 --> 01:54:10.960
+information or uh doing certain code up generation wherever
+
+01:54:10.960 --> 01:54:15.300
+we are using the scripts and all so i just need a bit of
+
+01:54:15.300 --> 01:54:18.460
+recommendation like with this course where i'm going through
+
+01:54:18.460 --> 01:54:21.480
+and what would be the next step for me i think i think spend
+
+01:54:21.480 --> 01:54:24.220
+some time spend some time in this course right spend some
+
+01:54:24.220 --> 01:54:27.840
+time with me and yeah so i think uh we will be talking about
+
+01:54:27.840 --> 01:54:32.120
+again and again yes i think i think it's a good start so
+
+01:54:32.120 --> 01:54:36.780
+yeah let's just go with it okay yeah thank you yeah thanks
+
+01:54:36.780 --> 01:54:38.800
+uh priyanka please go ahead with the question
+
+01:54:42.570 --> 01:54:45.370
+hello yeah please go ahead with the question yes yes yes
+
+01:54:45.370 --> 01:54:52.290
+you're audible yeah uh good evening um yes uh actually um uh
+
+01:54:52.290 --> 01:54:57.650
+since 2021 i'm trying to learn about this ai and all those
+
+01:54:57.650 --> 01:55:01.690
+things uh mine is dot net backend development uh background
+
+01:55:01.690 --> 01:55:06.430
+so uh earlier i had started my career as a complete
+
+01:55:06.430 --> 01:55:11.070
+developer and then uh i was put into some support and
+
+01:55:11.070 --> 01:55:14.610
+maintenance projects and all things so uh the thing is two
+
+01:55:14.610 --> 01:55:19.270
+since 2021 i was i have trapped tapped multiple doors uh to
+
+01:55:19.270 --> 01:55:22.690
+learn this uh but i can say like this platform is the best
+
+01:55:22.690 --> 01:55:28.730
+because uh i am able to catch that point and my question is
+
+01:55:28.730 --> 01:55:33.290
+um i feel like i know about it but actually i don't know
+
+01:55:33.290 --> 01:55:37.150
+that's what my situation is i have that's okay i think i
+
+01:55:37.150 --> 01:55:39.830
+think that that's pretty much okay that's a human thing i
+
+01:55:39.830 --> 01:55:44.210
+would say right me as well i feel like i know this and then
+
+01:55:44.210 --> 01:55:47.790
+when i start digging deeper so i like you know i found out
+
+01:55:47.790 --> 01:55:52.250
+that so it's pretty much normal uh work on the experience i
+
+01:55:52.250 --> 01:55:54.010
+would say work on the experience i think that's the only
+
+01:55:54.010 --> 01:55:56.650
+solution nowadays i'm giving the same advice to everyone
+
+01:55:56.650 --> 01:56:00.490
+that just work on the experience uh yeah don't spend much
+
+01:56:00.490 --> 01:56:03.110
+time on like you know reading out the theories and like you
+
+01:56:03.110 --> 01:56:06.370
+know uh mugging up taking up your notes or something uh but
+
+01:56:06.370 --> 01:56:09.350
+yeah just like you know focus on building things i think
+
+01:56:09.350 --> 01:56:11.650
+that solves all the problem now yeah
+
+01:56:16.480 --> 01:56:19.860
+yeah i i remember you had mentioned like it is kind of
+
+01:56:19.860 --> 01:56:25.840
+learning hell that's what i am feeling actually so um so uh
+
+01:56:25.840 --> 01:56:30.800
+my question is how how i can tackle this because it is
+
+01:56:30.800 --> 01:56:34.860
+completely new thing for me and uh based on my past
+
+01:56:34.860 --> 01:56:38.880
+experience nothing nothing nothing so just try to spend uh
+
+01:56:38.880 --> 01:56:43.460
+like uh this time with me and all your fellow batch mates uh
+
+01:56:43.460 --> 01:56:47.640
+every saturday and sunday 4 p.m isd 6 or 7 p.m i said that's
+
+01:56:47.640 --> 01:56:49.600
+it i think that will solve all the problems you don't have
+
+01:56:49.600 --> 01:56:52.400
+to even sit in your big days and you know compromise your
+
+01:56:52.400 --> 01:56:54.860
+personal space and then like you know practice or do
+
+01:56:54.860 --> 01:56:58.480
+something just with a discipline saturday and sunday only
+
+01:56:58.480 --> 01:57:01.920
+three hour two hour that's it i think you will be pretty
+
+01:57:01.920 --> 01:57:04.980
+much aligned in this couple of month and i think it's same
+
+01:57:04.980 --> 01:57:08.080
+for everyone by the way yeah so you don't have to put much
+
+01:57:08.080 --> 01:57:11.040
+effort just go in this way initially don't think much like
+
+01:57:11.040 --> 01:57:14.640
+how it is going to happen when it is going to happen okay
+
+01:57:14.640 --> 01:57:19.520
+yeah yeah thank you ma'am yeah yeah rupa please go ahead uh
+
+01:57:19.520 --> 01:57:23.040
+good evening sir yeah good evening ma'am yeah tell me uh so
+
+01:57:23.040 --> 01:57:27.240
+uh sir i'm from non-tech background and uh recently i've
+
+01:57:27.240 --> 01:57:31.000
+joined uh work and learn uh uh uh
+
+01:57:49.700 --> 01:57:50.340
+4.
+
+01:57:56.800 --> 01:57:57.440
+uh
+
+01:58:00.780 --> 01:58:03.260
+this is um uh uh uh uh uh um
+
+01:58:17.480 --> 01:58:21.440
+uh new project new client comes there right after that that
+
+01:58:21.440 --> 01:58:25.080
+Tuesday will also happen I think team is doing something on
+
+01:58:25.080 --> 01:58:29.360
+tech basis something is going on right as far as I know yes
+
+01:58:29.360 --> 01:58:33.420
+other than that client meeting will happen after that team
+
+01:58:33.420 --> 01:58:39.780
+meeting will happen right I am not able to understand it's
+
+01:58:39.780 --> 01:58:44.720
+been two weeks it's okay I am scared and weird I am sweating
+
+01:58:45.520 --> 01:58:49.420
+what is going on exactly it should happen basically but here
+
+01:58:49.420 --> 01:58:52.900
+you are in comfortable environment where literally no one
+
+01:58:52.900 --> 01:58:55.000
+will say this to you you are not scared that fighting will
+
+01:58:55.000 --> 01:58:57.620
+happen or this will happen or that will happen manager will
+
+01:58:57.620 --> 01:59:00.360
+tell you no one is telling you right no one is telling you
+
+01:59:00.360 --> 01:59:03.140
+exactly when environment is so comfortable then basically
+
+01:59:03.140 --> 01:59:07.740
+try to leverage this opportunity okay just leverage first 2
+
+01:59:07.740 --> 01:59:09.900
+-3 months we tell everyone if you have come from isolated
+
+01:59:09.900 --> 01:59:14.440
+different domain department first 2-3 months when you join a
+
+01:59:14.440 --> 01:59:18.480
+company right so you don't work day-to-day right right so
+
+01:59:18.480 --> 01:59:21.160
+you try to understand there is already a system there are
+
+01:59:21.160 --> 01:59:23.200
+people there is a process there is management there is
+
+01:59:23.200 --> 01:59:27.500
+hierarchy you go and understand things right just behave
+
+01:59:27.500 --> 01:59:31.900
+like that as an observer and do something and then you know
+
+01:59:31.900 --> 01:59:35.800
+go and bug team leads that this is not happening tell them
+
+01:59:35.800 --> 01:59:40.100
+what is going on okay or you have PMs right go and bug PMs
+
+01:59:40.100 --> 01:59:43.640
+tell them or help them so just behave like an observer for
+
+01:59:43.640 --> 01:59:46.260
+initial couple of months because I have seen in a work and
+
+01:59:46.260 --> 01:59:48.760
+learn and again if you talk to everyone then you will come
+
+01:59:48.760 --> 01:59:51.380
+to know that a lot of people don't seem to be comfortable in
+
+01:59:51.380 --> 01:59:55.380
+15-20 days that's okay everyone has different backgrounds
+
+01:59:55.380 --> 01:59:58.580
+but yes in 2-3 months you will be comfortable but involve
+
+01:59:58.580 --> 02:00:03.080
+okay involve that's it and you tell the team give me
+
+02:00:03.080 --> 02:00:07.560
+something small to explore for now but I will involve 100%
+
+02:00:07.560 --> 02:00:11.320
+and that too in a multiple project and eventually after 3
+
+02:00:11.320 --> 02:00:15.840
+months whatever feature building whatever things come from
+
+02:00:15.840 --> 02:00:18.880
+the client you start doing that and that's it but parallelly
+
+02:00:18.880 --> 02:00:23.820
+I need to learn lot of things so now this course is in the
+
+02:00:23.820 --> 02:00:27.580
+right direction I mean exactly means if you are coming from
+
+02:00:27.580 --> 02:00:30.960
+Nautic or from background then I think this is the best we
+
+02:00:30.960 --> 02:00:37.340
+are starting at that level okay okay yes thank you thanks ma
+
+02:00:37.340 --> 02:00:41.380
+'am okay Nisant please go ahead with your question yeah hi
+
+02:00:41.380 --> 02:00:45.320
+good evening yeah good evening Nisant so I am a dotnet
+
+02:00:45.320 --> 02:00:49.500
+resource with almost 11 years of experience and I came to
+
+02:00:49.500 --> 02:00:54.160
+know about this site while I was checking internet so I just
+
+02:00:54.160 --> 02:00:57.420
+want to understand or get some recommendation from you like
+
+02:00:57.420 --> 02:01:02.120
+should I start with this only or should I check some other
+
+02:01:02.120 --> 02:01:07.100
+11 years you said right and dotnet okay what is your domain
+
+02:01:07.100 --> 02:01:11.240
+by the way right now it is real estate okay right now it is
+
+02:01:11.240 --> 02:01:13.900
+a real estate and you are doing all the domain all the
+
+02:01:13.900 --> 02:01:16.340
+development in that I think yeah then it is the right one
+
+02:01:16.340 --> 02:01:19.360
+right because with the 11 years of experience going forward
+
+02:01:20.240 --> 02:01:23.220
+I could have recommended you this as well architect mastery
+
+02:01:23.220 --> 02:01:26.800
+because it is actually for us like a senior people more than
+
+02:01:26.800 --> 02:01:30.000
+8-10 years of experience but yeah if you are coming from a
+
+02:01:30.000 --> 02:01:33.940
+complete like a different tech stack then you will not find
+
+02:01:33.940 --> 02:01:38.920
+yourself in a comfortable place so yes then journalist as of
+
+02:01:38.920 --> 02:01:41.920
+now maybe after 3 I think 3 months is more than enough and
+
+02:01:41.920 --> 02:01:43.740
+anyhow you are coming from a tech background right coding
+
+02:01:43.740 --> 02:01:47.500
+background so for you it is not going to be like a too much
+
+02:01:47.500 --> 02:01:50.360
+at least initially unless and until we are not starting
+
+02:01:50.360 --> 02:01:54.380
+stats and machine learning okay actually anyway like I am
+
+02:01:54.380 --> 02:01:58.900
+aware of python I have done some production projects in
+
+02:01:58.900 --> 02:02:02.040
+python also okay that is cool then then machine learning
+
+02:02:02.040 --> 02:02:06.040
+will be new for you but not python I believe yeah so I just
+
+02:02:06.040 --> 02:02:09.200
+wanted to check like I should start with this one only or
+
+02:02:09.200 --> 02:02:12.980
+should I first check on that AI architect mastery which you
+
+02:02:12.980 --> 02:02:15.620
+are saying architect mastery will be bit advanced you can
+
+02:02:15.620 --> 02:02:17.860
+check I don't have any issue you can go and check I believe
+
+02:02:17.860 --> 02:02:20.880
+with iran plus that's the reason we have a plus right so you
+
+02:02:20.880 --> 02:02:24.000
+can check but yeah if you are not comfortable then I would
+
+02:02:24.000 --> 02:02:26.340
+recommend you that stick with this one first at least for
+
+02:02:26.340 --> 02:02:30.840
+like 2-3 months then you can decide sure and Sudhanshu one
+
+02:02:30.840 --> 02:02:34.120
+more thing like while I was going through this I saw like
+
+02:02:34.120 --> 02:02:37.460
+there might be some whatsapp group or something so is there
+
+02:02:37.460 --> 02:02:39.640
+so there is a whatsapp group I have already made
+
+02:02:39.640 --> 02:02:41.920
+announcement and for every batches we have a whatsapp group
+
+02:02:41.920 --> 02:02:43.640
+and whatsapp group you will be able to find out inside the
+
+02:02:43.640 --> 02:02:46.560
+dashboard so this is the induction whatsapp group right okay
+
+02:02:46.560 --> 02:02:49.960
+click on resource and then you can join even through a
+
+02:02:49.960 --> 02:02:51.360
+mobile device you will be able to join
+
+02:02:57.080 --> 02:03:00.280
+for every batches it's the same thing sure sure thanks
+
+02:03:00.280 --> 02:03:04.280
+thanks thanks okay yeah Soumya please go ahead with your
+
+02:03:04.280 --> 02:03:10.780
+question yeah hi Sudhanshu sir yeah actually as I told you
+
+02:03:10.780 --> 02:03:14.140
+that I was working in Capgemini as a fresher for 2 years I
+
+02:03:14.140 --> 02:03:18.160
+mean almost 2 years as a data analyst so am I taking this
+
+02:03:18.160 --> 02:03:23.980
+approach in the right direction or like AI journalist is
+
+02:03:23.980 --> 02:03:27.180
+this course is the right way to learn and what are you doing
+
+02:03:27.180 --> 02:03:29.420
+can you please repeat once again what is your current stack
+
+02:03:29.420 --> 02:03:34.440
+by the way I have taken a professional career break due to
+
+02:03:34.440 --> 02:03:37.520
+some health issues and I just want to upskill and upgrade in
+
+02:03:37.520 --> 02:03:40.100
+AI then this one is best yeah I think you should continue
+
+02:03:40.100 --> 02:03:44.500
+with this one okay okay yeah thank you Rohit please go ahead
+
+02:03:44.500 --> 02:03:50.420
+with the question thank you sir good evening sir so sir I
+
+02:03:50.420 --> 02:03:55.560
+passed out in 2015 then after I did a preparation of UPSC
+
+02:03:55.560 --> 02:04:00.520
+like on and around 7 years and in 22 I switched to do data
+
+02:04:00.520 --> 02:04:06.080
+science industry and I got opportunity to work in an
+
+02:04:06.080 --> 02:04:10.240
+organization as a data analyst so there I worked on and
+
+02:04:10.240 --> 02:04:13.380
+around 2.5 years but there was no practical experience I am
+
+02:04:13.380 --> 02:04:17.820
+getting related to this like SQL and Python and Power BI I
+
+02:04:17.820 --> 02:04:23.240
+just work on Excel so what happened last year I have some
+
+02:04:23.240 --> 02:04:27.940
+personal losses in my family to that organization so I stay
+
+02:04:27.940 --> 02:04:31.260
+there in village with my family for one year so right now I
+
+02:04:31.260 --> 02:04:34.900
+am trying to switching to this data analyst role so I stuck
+
+02:04:35.400 --> 02:04:40.240
+every time when they ask some practical experience and yeah
+
+02:04:40.240 --> 02:04:43.180
+so data if you are specifically looking into a data
+
+02:04:43.180 --> 02:04:49.560
+analytics itself then we have basically even in live and
+
+02:04:49.560 --> 02:04:54.660
+almost in like a cell placed maybe business analytics by
+
+02:04:54.660 --> 02:04:58.140
+Sachin sir so business analytics mastery this is a live
+
+02:04:58.140 --> 02:05:01.680
+basically Sachin Mishra he is like a very good guy working
+
+02:05:01.680 --> 02:05:05.660
+professional lot of experience this guy is having so you can
+
+02:05:05.660 --> 02:05:10.400
+just go and follow that other if you have to like go with a
+
+02:05:10.400 --> 02:05:14.280
+separate separate one so we have a tableau you will get a
+
+02:05:14.280 --> 02:05:18.060
+lot of version of that tableau Power BI everything is there
+
+02:05:18.060 --> 02:05:22.320
+in practical manner so actually I have studied all this but
+
+02:05:22.320 --> 02:05:26.580
+right now I am upskilling myself side by side because I know
+
+02:05:26.580 --> 02:05:29.640
+machine learning or a little concept of generative BI I know
+
+02:05:30.300 --> 02:05:36.280
+so I am upskilling myself so what I am stuck with data
+
+02:05:36.280 --> 02:05:40.720
+analyst practical point of view for that sir some like
+
+02:05:40.720 --> 02:05:47.460
+internship etc I did but where did you collect the data
+
+02:05:47.460 --> 02:05:49.960
+where did you store the data all those things when they
+
+02:05:49.960 --> 02:05:53.480
+asked me so there I started ok ok understood understood so
+
+02:05:53.480 --> 02:05:56.420
+basically like one is you continue from here in this batch
+
+02:05:56.420 --> 02:06:00.640
+second is that our Dhruv brother he teaches very well ok and
+
+02:06:00.640 --> 02:06:03.020
+does not basically he also has everything practically the
+
+02:06:03.020 --> 02:06:07.260
+whole batch basically so he also has full automation means
+
+02:06:07.260 --> 02:06:10.360
+system build only means in class it keeps going system build
+
+02:06:10.360 --> 02:06:13.040
+system build kind of things keeps going so he has this batch
+
+02:06:13.040 --> 02:06:15.100
+and this is his batch if you get time then go and explore
+
+02:06:15.100 --> 02:06:17.800
+another class you explore ok he makes something in every
+
+02:06:17.800 --> 02:06:22.760
+batch in every class ok so just go and explore you will get
+
+02:06:22.760 --> 02:06:24.640
+an idea from where the data is coming from where the data
+
+02:06:24.640 --> 02:06:29.060
+even our can do a lot but a little bit advance so like just
+
+02:06:29.060 --> 02:06:32.380
+follow this one Dhruv ok and if you just want in analytics
+
+02:06:32.380 --> 02:06:37.620
+then follow Sachin in Sachin you will get everything like
+
+02:06:37.620 --> 02:06:41.420
+WPAR BI live everything he has done ok
+
+02:06:53.860 --> 02:07:01.040
+so this is here so last yeah so my main that is the problem
+
+02:07:01.040 --> 02:07:05.420
+of learning is this solution
+
+02:07:07.840 --> 02:07:13.780
+so in a manner in If there is a gap of 4-5 years, then it is
+
+02:07:13.780 --> 02:07:17.400
+a very serious concern. It's been 1.2 years, January and
+
+02:07:17.400 --> 02:07:22.980
+February 25th. Then reduce the delay and start getting into
+
+02:07:22.980 --> 02:07:25.420
+it. We will consider it as one year only. But the less the
+
+02:07:25.420 --> 02:07:31.060
+delay, the better. Okay, thank you sir. Ramila, please go
+
+02:07:31.060 --> 02:07:36.220
+ahead with the question. Hi sir, good evening. So coming to
+
+02:07:36.220 --> 02:07:41.080
+myself, I had a technical background as an iOS and React
+
+02:07:41.080 --> 02:07:47.900
+Native developer for 14 plus years. So now to upskill my
+
+02:07:47.900 --> 02:07:53.100
+things, I am looking into the AI. So which course will be
+
+02:07:53.100 --> 02:07:55.580
+suited to me because I don't have the Python knowledge as
+
+02:07:55.580 --> 02:07:59.400
+well. This is the best by the way. This is the best for like
+
+02:07:59.400 --> 02:08:03.360
+this one, I would say. So any other course or this is fine?
+
+02:08:03.400 --> 02:08:06.320
+Not at all. No. Only this. Nothing else you have to explore.
+
+02:08:06.420 --> 02:08:09.220
+Nothing means literally nothing. Yeah. And one more question
+
+02:08:09.220 --> 02:08:12.360
+sir I have. After these things, suppose if I am applying for
+
+02:08:12.360 --> 02:08:17.520
+Gen AI or some other position for the job, they will ask the
+
+02:08:17.520 --> 02:08:20.460
+relevant experience. So I don't have the relevant experience
+
+02:08:20.460 --> 02:08:23.100
+on this AI, just I am learning these all things, right? But
+
+02:08:23.100 --> 02:08:25.640
+I have the relevant experience on mobile development and
+
+02:08:25.640 --> 02:08:30.100
+React development. Not an issue. So in an interview, we all
+
+02:08:30.100 --> 02:08:35.420
+used to sell the stories, right? Yeah. So no one can come
+
+02:08:35.420 --> 02:08:37.200
+and ask your manager that whether you have worked in this
+
+02:08:37.200 --> 02:08:40.020
+project or not. So max to max company will do a background
+
+02:08:40.020 --> 02:08:42.840
+verification. Background verification means what? Just like
+
+02:08:42.840 --> 02:08:45.840
+whether this person was working or not. In which manager,
+
+02:08:45.960 --> 02:08:48.920
+which domain, no one asked, right? By the way. And that will
+
+02:08:48.920 --> 02:08:51.500
+not even captured inside your like experience later. Yeah.
+
+02:08:51.680 --> 02:08:55.420
+So in an interview, we all sell ourself as simple as that.
+
+02:08:55.880 --> 02:08:58.900
+And that sales point starts from your resume. So change your
+
+02:08:58.900 --> 02:09:03.580
+resume. Yeah. And in this course, do we have any real time
+
+02:09:03.580 --> 02:09:06.780
+process? How is it experience at least one? Everywhere we
+
+02:09:06.780 --> 02:09:10.280
+have a project. Like we have a dedicated batch itself for a
+
+02:09:10.280 --> 02:09:13.820
+project. So we have all the like things. Even like you will
+
+02:09:13.820 --> 02:09:16.860
+be able to find out 96 plus project here itself. If I will
+
+02:09:16.860 --> 02:09:20.260
+go and search for this one, right? So everywhere like
+
+02:09:20.260 --> 02:09:23.660
+content type wise, I can go and I can just select project,
+
+02:09:23.720 --> 02:09:26.800
+project, project, project, project, right? So this is a
+
+02:09:26.800 --> 02:09:29.120
+recorded project. Then we have a live batches for project.
+
+02:09:29.180 --> 02:09:31.920
+Then in every live batches, there is a project. So you will
+
+02:09:31.920 --> 02:09:33.180
+be able to find out all the varieties. So in actualize the
+
+02:09:33.180 --> 02:09:36.620
+project is starting from big to a small to everything. Yeah,
+
+02:09:36.620 --> 02:09:39.700
+that's a lot, thanks. Yeah, thanks. Okay, so that's a
+
+02:09:39.700 --> 02:09:43.800
+question. Yeah, hi, Sudan show. So I have been associated
+
+02:09:43.800 --> 02:09:47.280
+with this batch means since August from the first generative
+
+02:09:47.280 --> 02:09:52.080
+1.0 bits. So right now I have taken a cursor subscription
+
+02:09:52.080 --> 02:09:56.460
+and created some projects for some I have deployed. And some
+
+02:09:56.460 --> 02:10:00.520
+I have only kept up to my local level. So my question is,
+
+02:10:00.540 --> 02:10:04.480
+when we go for an interview, etc. I am deploying on render
+
+02:10:04.480 --> 02:10:09.940
+only because yeah so
+
+02:10:09.940 --> 02:10:13.980
+but in render like I have don't I'm using the same a
+
+02:10:13.980 --> 02:10:17.580
+conventional render dot-com and not having my domain and so
+
+02:10:17.580 --> 02:10:20.600
+will it be taken in a professional setup because I am also
+
+02:10:20.600 --> 02:10:23.720
+working as a as your data engineer and I don't have official
+
+02:10:23.720 --> 02:10:28.640
+experience in my journey experiences office I don't have to
+
+02:10:28.640 --> 02:10:31.400
+show from office point of view you know I have to show
+
+02:10:31.400 --> 02:10:35.380
+whatever projects I have done so if I do a project and only
+
+02:10:35.380 --> 02:10:38.040
+show in render so will it be considered as a professional
+
+02:10:38.040 --> 02:10:41.700
+level because I have limited API bandwidth also because in
+
+02:10:41.700 --> 02:10:46.020
+some cases like say it's generating an image UD API works to
+
+02:10:46.020 --> 02:10:49.780
+some extent in some cases it don't work so some cases I have
+
+02:10:49.780 --> 02:10:54.020
+to buy an API and give it in render variables so this will
+
+02:10:54.020 --> 02:10:58.760
+if so I have to make it alive and keep it paid subscription
+
+02:10:58.760 --> 02:11:03.000
+like this for many cases so how can I optimize it to so both
+
+02:11:03.000 --> 02:11:07.760
+as an experience as in and also see everyone is not going to
+
+02:11:07.760 --> 02:11:11.140
+check all the like you know the things that you have created
+
+02:11:11.140 --> 02:11:14.660
+every time I would say so they are like I don't see like
+
+02:11:14.660 --> 02:11:19.020
+much cost on API side by the way but yeah so when it comes
+
+02:11:19.020 --> 02:11:22.640
+to our deployment so even if you are using a render to make
+
+02:11:22.640 --> 02:11:26.240
+your website live I would say go with the paid version of
+
+02:11:26.240 --> 02:11:29.620
+render because with the free version of render what happens
+
+02:11:29.620 --> 02:11:33.080
+so it will stop your work after 30 minutes right and the
+
+02:11:33.080 --> 02:11:36.220
+other user who is trying to hit your URL they will be able
+
+02:11:36.220 --> 02:11:39.480
+to see a render you know the screen where it is trying to
+
+02:11:39.480 --> 02:11:43.460
+spin things and yeah so it will not work basically it takes
+
+02:11:43.460 --> 02:11:47.680
+time if like I'm using your render link after some time I
+
+02:11:47.680 --> 02:11:50.940
+will not be able to see your work so to keep your work alive
+
+02:11:50.940 --> 02:11:53.620
+always try to use some systems where like you know I can
+
+02:11:53.620 --> 02:11:56.640
+just hit and then I will be able to see the work maybe on
+
+02:11:56.640 --> 02:12:00.500
+your proprietary website or something so use render paid or
+
+02:12:00.500 --> 02:12:03.320
+something but yeah experience wise I will always recommend
+
+02:12:03.320 --> 02:12:07.520
+you that go ahead with like Azure AWS or GCP experience I
+
+02:12:07.520 --> 02:12:10.920
+mean like resume wise you have to mention okay fine thank
+
+02:12:10.920 --> 02:12:14.740
+you yeah thanks okay fine everyone thank you so much I think
+
+02:12:14.740 --> 02:12:16.800
+I should take some questions from a chat as well so now
+
+02:12:16.800 --> 02:12:19.080
+you're on please tell me about the work and learn okay so
+
+02:12:19.080 --> 02:12:21.460
+work and learn basically a module so where you work with a
+
+02:12:21.460 --> 02:12:24.280
+team and then you learn simple work and learn no other
+
+02:12:24.280 --> 02:12:27.160
+alternative right so where you have to work with the team
+
+02:12:27.160 --> 02:12:29.520
+with the project manager with the lead from our side with
+
+02:12:29.520 --> 02:12:32.380
+the other work and learn people with interns so many people
+
+02:12:32.380 --> 02:12:35.320
+right now in one project two project three project four
+
+02:12:35.320 --> 02:12:38.960
+project depends so this is where work and learn comes into
+
+02:12:38.960 --> 02:12:41.460
+picture just to give a real-time experience in our client
+
+02:12:41.460 --> 02:12:45.600
+project or in our SAS in-house project second question is I
+
+02:12:45.600 --> 02:12:48.120
+want to start your channel how to start I mean video editing
+
+02:12:48.120 --> 02:12:50.800
+I see when you are thinking about starting a YouTube channel
+
+02:12:50.800 --> 02:12:53.180
+right don't think about editing and all even you will go and
+
+02:12:53.180 --> 02:12:58.320
+check my video we don't have editing team so yeah I mean you
+
+02:12:58.320 --> 02:13:01.300
+will be eventually able to hire someone as a I mean you will
+
+02:13:01.300 --> 02:13:01.720
+be eventually able to hire someone as a editing team but
+
+02:13:01.720 --> 02:13:05.920
+from day zero just start simple just start keep your audio
+
+02:13:05.920 --> 02:13:09.000
+and video quality fine I mean like okay okay kind of for
+
+02:13:09.000 --> 02:13:12.100
+things right choose your genre right choose your genre
+
+02:13:12.100 --> 02:13:15.680
+choose your language Hindi English or whatsoever your
+
+02:13:15.680 --> 02:13:18.160
+original language is in which you would like to like you
+
+02:13:18.160 --> 02:13:22.220
+know create a video keep audio video quality good you can
+
+02:13:22.220 --> 02:13:25.680
+use mobile even I use mobile you know I have a tripod in
+
+02:13:25.680 --> 02:13:30.280
+front of me I can show you which I use for shooting or
+
+02:13:30.280 --> 02:13:36.060
+something so you just just use it started as simple as it is
+
+02:13:36.060 --> 02:13:40.400
+with consistency daily one video long shots whatsoever you
+
+02:13:40.400 --> 02:13:43.340
+can create create it and post it post it everywhere a
+
+02:13:43.340 --> 02:13:46.680
+YouTube Instagram LinkedIn Twitter tag everyone right tag
+
+02:13:46.680 --> 02:13:49.880
+everyone means literally everyone whatsoever guys one one
+
+02:13:49.880 --> 02:13:52.160
+thing I would like to tell you right see networking is
+
+02:13:52.160 --> 02:13:54.800
+important but yeah so whatever you're learning you are doing
+
+02:13:54.800 --> 02:13:57.800
+not doing just tag everyone so that you know your network
+
+02:13:57.800 --> 02:14:01.020
+will grow at least I mean like start with a random steps
+
+02:14:01.020 --> 02:14:01.520
+start with a random steps start with a random steps it's
+
+02:14:01.520 --> 02:14:04.820
+called start with a random steps start with the chaos and
+
+02:14:04.820 --> 02:14:07.760
+when things will start happening right believe me you will
+
+02:14:07.760 --> 02:14:12.080
+learn how to organize it but if you think that first I will
+
+02:14:12.080 --> 02:14:15.120
+organize and then I'll start believe me you will never be
+
+02:14:15.120 --> 02:14:17.280
+able to start and warm like personally speaking I'm telling
+
+02:14:17.280 --> 02:14:20.180
+you this right many of us actually failed in that particular
+
+02:14:20.180 --> 02:14:23.760
+loop many of us think that okay I will be organized I will
+
+02:14:23.760 --> 02:14:27.640
+do this then I will do this I mean no life doesn't works in
+
+02:14:27.640 --> 02:14:30.420
+that way right right no life doesn't work in that way life
+
+02:14:30.420 --> 02:14:33.140
+is works works in a very chaotic manner and everyone's life
+
+02:14:33.140 --> 02:14:37.620
+is very different right very chaotic so this is how the
+
+02:14:37.620 --> 02:14:40.140
+entire nature is so start with that chaos eventually you
+
+02:14:40.140 --> 02:14:43.600
+will be able to arrange it right so yeah that's my take on
+
+02:14:43.600 --> 02:14:47.020
+that so i think i'm able to give your answer what is the AI
+
+02:14:47.020 --> 02:14:49.300
+product engineering new course starting sir announcement
+
+02:14:49.300 --> 02:14:52.880
+wise i will be making announcement by 15th you can say i
+
+02:14:52.880 --> 02:14:54.960
+think this is what i said even in my induction session right
+
+02:14:54.960 --> 02:14:59.320
+15th it will start maybe by end of the month then if i'm
+
+02:14:59.320 --> 02:15:03.500
+announcing it on 15th as of now like we have made a we have
+
+02:15:03.500 --> 02:15:05.680
+not made announcement we have just listed this one tomorrow
+
+02:15:05.680 --> 02:15:09.720
+maybe i will be like announcing this agentic AI by Sachin
+
+02:15:09.720 --> 02:15:12.660
+again not this is not by me by Sachin but yeah Sachin is
+
+02:15:12.660 --> 02:15:17.940
+also a very like a refined mentor by the way how do we know
+
+02:15:17.940 --> 02:15:20.820
+the exact quota is remaining for a i think it shows you the
+
+02:15:20.820 --> 02:15:24.320
+number somewhere yeah if not just drop me a mail i'll ask
+
+02:15:24.320 --> 02:15:28.300
+him to do show that recording software editing and mic and
+
+02:15:28.300 --> 02:15:31.320
+other tools that you can suggest i have recently purchased
+
+02:15:31.320 --> 02:15:34.100
+mac for developing a related application what okay so
+
+02:15:34.100 --> 02:15:38.140
+recording software wise entire world is using like OBS right
+
+02:15:38.140 --> 02:15:42.260
+so you can try to use OBS OBS works in all the systems OBS
+
+02:15:42.640 --> 02:15:45.520
+basically for sorts as well as for a long format landscape
+
+02:15:45.520 --> 02:15:48.220
+videos you can you can try to use OBS you will be having all
+
+02:15:48.220 --> 02:15:51.280
+the control to manage your lighting effect and then editing
+
+02:15:51.280 --> 02:15:58.160
+and everything go with that yeah OBS is best mic wise so you
+
+02:15:58.160 --> 02:16:04.840
+can try to maybe use a DJI mic or movie like a low-cost boya
+
+02:16:04.840 --> 02:16:09.760
+mic Yati mic is there so i'm trying to use a Shure mic and
+
+02:16:09.760 --> 02:16:12.540
+then i have like a Rodecaster as well in front of me so
+
+02:16:12.540 --> 02:16:16.960
+which is like maybe i can show you that my like a setup wise
+
+02:16:16.960 --> 02:16:21.340
+so what what i'm like using for my sound and all but yeah i
+
+02:16:21.340 --> 02:16:23.560
+believe guys all of you should start youtube channel believe
+
+02:16:23.560 --> 02:16:27.800
+me you will enjoy right some topic so maybe i can i can show
+
+02:16:27.800 --> 02:16:32.240
+you so basically yeah so this rod podcaster i'm using it for
+
+02:16:32.240 --> 02:16:36.800
+my audio 4 channel i think it's a 6 or 8 channel right and
+
+02:16:36.800 --> 02:16:40.440
+then for recording generally i use my dslr which is here
+
+02:16:40.440 --> 02:16:46.700
+right a canon dslr and for like you know like this mic Shure
+
+02:16:46.700 --> 02:16:50.200
+mic which is connected to my Rodecaster and yeah dslr
+
+02:16:50.200 --> 02:16:55.660
+through a cam link coming into my like a cpu or machines and
+
+02:16:55.660 --> 02:16:55.800
+then i will show you how to use a dslr mic and then i will
+
+02:16:55.800 --> 02:16:56.480
+show you how to use a dslr mic and then this three screen
+
+02:16:56.480 --> 02:16:59.940
+and then obi setup so yeah that that's the setup i think you
+
+02:16:59.940 --> 02:17:03.540
+can try to create it otherwise just start with the basic
+
+02:17:03.540 --> 02:17:07.900
+setup Yati mic will be better also Yati i have used it for a
+
+02:17:07.900 --> 02:17:12.260
+very long time even for teaching so yeah it's very good this
+
+02:17:14.920 --> 02:17:18.420
+setup is set up after becoming rich no means you can set it
+
+02:17:18.420 --> 02:17:21.020
+up in a few days what happens is basically not after
+
+02:17:21.020 --> 02:17:22.960
+becoming rich that is not an expensive setup this setup
+
+02:17:22.960 --> 02:17:27.220
+costs 4 lakhs mixed together okay if you remove the system
+
+02:17:27.220 --> 02:17:28.420
+you remove the computer then it will not be okay otherwise
+
+02:17:28.420 --> 02:17:31.620
+if you have so much equipment so it's
+
+02:17:31.620 --> 02:17:40.480
+like you are able to monetize yourself because the ultimate
+
+02:17:40.480 --> 02:17:43.120
+goal is monetization whatsoever you are going to do it
+
+02:17:43.120 --> 02:17:47.820
+monetization is the ultimate goal for all of us why are you
+
+02:17:47.820 --> 02:17:50.180
+working hard? you are studying here, why are you doing it?
+
+02:17:50.220 --> 02:17:53.620
+you will get a good job, you will get a good salary right in
+
+02:17:53.620 --> 02:17:59.240
+the end, the motto is monetization so it's just like that
+
+02:17:59.240 --> 02:18:03.420
+when it starts happening in life and that will eventually
+
+02:18:03.420 --> 02:18:06.180
+happen maybe 4 months, 6 months, it will take a year it will
+
+02:18:06.180 --> 02:18:08.520
+happen it took us 8 years, we have been doing this for 8
+
+02:18:08.520 --> 02:18:15.400
+years so basically you will just go and buy it believe me if
+
+02:18:15.400 --> 02:18:17.500
+you don't spend it in other places, you will spend it there
+
+02:18:18.280 --> 02:18:24.540
+so who can join the agentic one with this batch so who can
+
+02:18:24.540 --> 02:18:27.220
+join the agentic one yeah anyone can join agentic those who
+
+02:18:27.220 --> 02:18:31.140
+would like to learn agentic AI simple Sanskrit and AI can
+
+02:18:31.140 --> 02:18:35.780
+explore something for YT Sanskrit and AI won't work there
+
+02:18:35.780 --> 02:18:39.360
+are very few people for it just do AI talk about the tools
+
+02:18:39.360 --> 02:18:44.520
+like talk about like all the latest let's say you are not
+
+02:18:44.520 --> 02:18:46.700
+going into a tech so many tools are being released daily
+
+02:18:46.700 --> 02:18:51.140
+keep telling about them and tag their founder believe me
+
+02:18:51.140 --> 02:18:54.720
+they will come and give you like some sponsorship you will
+
+02:18:54.720 --> 02:18:59.260
+get it it's very simple from India to the US to the UK to
+
+02:18:59.260 --> 02:19:01.260
+all across the world so many tools are being made of AI
+
+02:19:01.740 --> 02:19:05.420
+everyone needs a promotion right and let's suppose that you
+
+02:19:05.420 --> 02:19:07.660
+have started your own video no worries you have to tag their
+
+02:19:07.660 --> 02:19:10.160
+youtube channel their social you have to tag their founder
+
+02:19:10.160 --> 02:19:15.820
+on LinkedIn believe me if you do 5-10 some of them will come
+
+02:19:15.820 --> 02:19:19.600
+to you don't target the big ones the ones just started and
+
+02:19:19.600 --> 02:19:22.820
+so on the big ones won't come they will come to big youtube
+
+02:19:22.820 --> 02:19:26.220
+channels or big distributors and so on
+
+02:19:41.920 --> 02:19:48.480
+if we have some startup idea can we come to you as an
+
+02:19:48.480 --> 02:19:51.440
+investor maybe what is the process for that i have invested
+
+02:19:51.440 --> 02:19:54.700
+in couple of startup uh i keep on doing it uh but yeah not
+
+02:19:54.700 --> 02:19:58.040
+an idea on execution so i never believe in idea none of your
+
+02:19:58.040 --> 02:20:00.900
+idea is going to be new if someone comes and tell me their
+
+02:20:00.900 --> 02:20:05.800
+idea uh there are 100 people already there in the market who
+
+02:20:05.800 --> 02:20:11.300
+have done that right so in 2026 yeah in 20 2010 or something
+
+02:20:11.300 --> 02:20:16.240
+yes idea were new but in 2026 even if you are planning
+
+02:20:16.240 --> 02:20:19.920
+something for mars or moon believe me there are some 100
+
+02:20:19.920 --> 02:20:22.000
+startup in this entire world who have already planned or
+
+02:20:22.000 --> 02:20:25.320
+maybe they are way ahead of you in terms of execution i'm
+
+02:20:25.320 --> 02:20:27.920
+not talking about this planet earth i'm talking about mars
+
+02:20:27.920 --> 02:20:31.360
+and moon right so yeah never come with idea never go and
+
+02:20:31.360 --> 02:20:36.100
+propose idea to anyone build execute bring something then go
+
+02:20:36.100 --> 02:20:39.480
+and like you know talk about it i believe people will give
+
+02:20:39.480 --> 02:20:43.360
+you a value appreciation idea is having no value zero
+
+02:20:48.540 --> 02:20:54.420
+okay okay i think we are done for today's class uh see you
+
+02:20:54.420 --> 02:20:58.420
+again tomorrow same to you same time uh 4 p.m ist sunday
+
+02:20:58.420 --> 02:21:02.980
+right make sure that you are joining the classes on time and
+
+02:21:02.980 --> 02:21:07.840
+yeah so you are doing all the activities inside a class with
+
+02:21:07.840 --> 02:21:11.220
+that thank you so much everyone take care ai generalist
+
+02:21:11.220 --> 02:21:14.020
+course will be able to understand all the tech and tools and
+
+02:21:14.020 --> 02:21:17.340
+ai data science yes yeah yeah you will be able to understand
+
+02:21:17.340 --> 02:21:20.820
+so fine guys with that thank you so much take care and see
+
+02:21:20.820 --> 02:21:23.540
+you again tomorrow same time thank you everyone take care
+

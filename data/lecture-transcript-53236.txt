@@ -1,0 +1,4175 @@
+WEBVTT
+
+00:06:47.920 --> 00:06:50.920
+okay so hi everyone i believe i'm audible and visible guys
+
+00:06:50.920 --> 00:06:54.220
+so please confirm so that we can start inside
+
+00:07:00.840 --> 00:07:06.200
+your chat box okay fine so i'm not even visible fine now
+
+00:07:06.200 --> 00:07:08.680
+let's start with the class guys so in my previous class i
+
+00:07:08.680 --> 00:07:11.000
+was talking about some of the static concept and i talked
+
+00:07:11.000 --> 00:07:15.640
+about z stacks and t stacks right uh so basically this class
+
+00:07:15.640 --> 00:07:18.680
+is going to be a continuation of the same class so where we
+
+00:07:18.680 --> 00:07:20.520
+are going to talk about basically something called as
+
+00:07:20.520 --> 00:07:23.640
+hypothesis testing and then chi-square testing then there is
+
+00:07:23.640 --> 00:07:26.640
+something called as anova so one way anova two-way anova and
+
+00:07:26.640 --> 00:07:29.740
+then ab testing so these are the things that we are going to
+
+00:07:29.740 --> 00:07:33.500
+discuss which is a very very important concept for anyone
+
+00:07:33.500 --> 00:07:37.980
+and everyone to understand or to implement so many machine
+
+00:07:37.980 --> 00:07:42.000
+learning algorithm going forward so first of all let's try
+
+00:07:42.000 --> 00:07:46.080
+to understand guys that what is this hypothesis testing and
+
+00:07:46.080 --> 00:07:48.440
+how it is going to work hypothesis
+
+00:08:05.790 --> 00:08:08.850
+testing okay so basically what is this hypothesis testing
+
+00:08:08.850 --> 00:08:08.850
+okay so basically what is this hypothesis testing okay so
+
+00:08:08.850 --> 00:08:11.810
+basically is this hypothesis by the way uh in terms of
+
+00:08:11.810 --> 00:08:15.890
+definition so whenever we try to do any kind of
+
+00:08:15.890 --> 00:08:20.030
+experimentation or even in our real life right so we try to
+
+00:08:20.030 --> 00:08:23.390
+find out a probability that what is the probability uh you
+
+00:08:23.390 --> 00:08:27.190
+know today it is going to be a rain or what is the
+
+00:08:27.190 --> 00:08:30.490
+probability that you know i will be able to win this or that
+
+00:08:30.490 --> 00:08:32.690
+what is the probability that that that particular person
+
+00:08:32.690 --> 00:08:35.010
+will be able to win this lottery or election or something
+
+00:08:35.010 --> 00:08:38.870
+right so we keep on talking about these uh probabilities
+
+00:08:38.870 --> 00:08:42.630
+each and every time and that too in our day-to-day life
+
+00:08:42.630 --> 00:08:47.190
+right day-to-day life so in case of statistics basically so
+
+00:08:47.190 --> 00:08:51.630
+we try to find out an answer that is this thing is real
+
+00:08:51.630 --> 00:08:57.290
+right or is this things happened by any kind of a luck so in
+
+00:08:57.290 --> 00:08:59.850
+statistics also we do the exact similar kind of a thing that
+
+00:08:59.850 --> 00:09:04.830
+we do in our real life so here right so let's say i'm trying
+
+00:09:04.830 --> 00:09:08.730
+to flip a particular coin maybe uh 10 times so what i'm
+
+00:09:08.730 --> 00:09:11.590
+trying to do so i have flipped a coin flipped
+
+00:09:16.260 --> 00:09:21.620
+a coin let's say 10 times right out of 10 times so i have
+
+00:09:21.620 --> 00:09:23.880
+received eight times times
+
+00:09:26.920 --> 00:09:30.240
+i have received actually head right so i've received
+
+00:09:30.240 --> 00:09:33.160
+actually head over here now when i'm trying to receive this
+
+00:09:33.160 --> 00:09:36.520
+eight head out of 10 times which is massive right so there
+
+00:09:36.520 --> 00:09:39.840
+can be two possibilities over here so let's write down that
+
+00:09:50.880 --> 00:09:54.640
+possibility number two now possibility number one says that
+
+00:09:54.640 --> 00:09:58.560
+that you are trying to flip a coin 10 times and eight times
+
+00:09:58.560 --> 00:10:02.940
+you have received a head uh so basically the coin is fair
+
+00:10:02.940 --> 00:10:08.120
+and uh you know uh the coin is fair on the eight head came
+
+00:10:08.120 --> 00:10:15.180
+uh basically maybe by luck right and uh yeah so we can we
+
+00:10:15.180 --> 00:10:18.960
+can say that uh other other other way so we can try to say
+
+00:10:18.960 --> 00:10:23.340
+that that maybe coin is not fair right and it is biased
+
+00:10:23.340 --> 00:10:28.540
+towards a head right so here i can say that that maybe coin
+
+00:10:28.540 --> 00:10:43.340
+is quite is fair and all the eight heads came maybe not by
+
+00:10:43.340 --> 00:10:49.600
+luck not by luck as coin is fair right other person will
+
+00:10:49.600 --> 00:10:52.240
+come into picture and they will try to claim that that coin
+
+00:10:52.240 --> 00:10:56.040
+is not fair right and maybe it is biased towards a head
+
+00:10:56.040 --> 00:11:01.980
+means head is basically uh you know something uh or i can
+
+00:11:01.980 --> 00:11:05.800
+say it came by luck i think that will be a better statement
+
+00:11:05.800 --> 00:11:09.620
+in terms of flipping a coin right so it had came by luck so
+
+00:11:09.620 --> 00:11:12.700
+fine yeah so automatically it is coming i can say that that
+
+00:11:12.700 --> 00:11:19.060
+coin is not fair coin is not fair now at the end of the day
+
+00:11:19.060 --> 00:11:20.400
+either of this statement is going to be fair or it is not
+
+00:11:20.400 --> 00:11:21.920
+fair so i can say that that is going to be correct so both
+
+00:11:21.920 --> 00:11:24.320
+the statements can't be correct at a time so either
+
+00:11:24.320 --> 00:11:26.360
+possibility number one is going to be correct or maybe
+
+00:11:26.360 --> 00:11:28.760
+possibility number two is going to be correct in this
+
+00:11:28.760 --> 00:11:33.620
+particular situation now this is where the entire hypothesis
+
+00:11:33.620 --> 00:11:36.660
+things comes into picture so whenever we are going to do
+
+00:11:36.660 --> 00:11:39.180
+some sort of experimentation so there will be a possibility
+
+00:11:39.180 --> 00:11:42.600
+right there is a possibility and there will be a
+
+00:11:42.600 --> 00:11:45.520
+contradiction of that possibility means just an opposite of
+
+00:11:45.520 --> 00:11:49.180
+that possibilities so in the situation of like situation
+
+00:11:49.180 --> 00:11:53.180
+like this so in case of statistics we try to give a name so
+
+00:11:53.180 --> 00:11:56.980
+we try to say that that there is a term called as null
+
+00:11:56.980 --> 00:12:01.340
+hypothesis h naught so there is a term called as null
+
+00:12:02.720 --> 00:12:09.950
+hypothesis basically h naught and there is something called
+
+00:12:09.950 --> 00:12:14.410
+as alternate alternate hypothesis
+
+00:12:17.610 --> 00:12:22.750
+h1 you can try to give it as a name or as a symbol so null
+
+00:12:22.750 --> 00:12:25.670
+hypothesis is nothing but a kind of a situation so where
+
+00:12:26.310 --> 00:12:29.350
+anything is special is going to happen you have flipped a
+
+00:12:29.350 --> 00:12:32.630
+coin you have received a head or maybe a tail maybe alt and
+
+00:12:32.630 --> 00:12:36.110
+head or only one head doesn't matter at all but yeah so
+
+00:12:36.110 --> 00:12:39.210
+everything has happened in a natural manner the way it was
+
+00:12:39.210 --> 00:12:42.310
+supposed to be right so i have flipped a coin and it should
+
+00:12:42.310 --> 00:12:45.590
+give me head or tail fine so it has happened in that
+
+00:12:45.590 --> 00:12:48.670
+particular manner right it was not at all biased so nothing
+
+00:12:48.670 --> 00:12:52.010
+special has happened and those kind of a situation we always
+
+00:12:52.010 --> 00:12:55.550
+try to treat it as a null hypothesis so we try to label
+
+00:12:55.550 --> 00:12:56.390
+those kind of assumptions that we think need to do of a
+
+00:12:56.390 --> 00:13:00.490
+situation as h naught so here the possibility one that we
+
+00:13:00.490 --> 00:13:05.430
+have so we can easily label this possibility one as h naught
+
+00:13:05.430 --> 00:13:09.190
+in terms of hypothesis statistics right hypothesis
+
+00:13:09.190 --> 00:13:12.730
+statistics or we can say that that possibility one is
+
+00:13:12.730 --> 00:13:15.650
+basically a null hypothesis and possibility two which is
+
+00:13:15.650 --> 00:13:19.810
+nothing but a contra of possibility one so i can try to name
+
+00:13:19.810 --> 00:13:24.210
+it as a h1 right so there is a h naught and there is a h1
+
+00:13:24.210 --> 00:13:26.770
+and h naught saying that that okay fine so everything is
+
+00:13:26.770 --> 00:13:29.530
+going to happen in a way it was supposed to be and h1 is
+
+00:13:29.530 --> 00:13:33.250
+just an opposite of it uh the thing is that the fact is fact
+
+00:13:33.250 --> 00:13:36.910
+is that that either h naught is going to be true or h1 is
+
+00:13:36.910 --> 00:13:39.690
+going to be true both can't be true at any point of time
+
+00:13:39.690 --> 00:13:42.830
+that is not possible right that is not possible so what we
+
+00:13:42.830 --> 00:13:47.330
+try to do so we try to prove our null hypothesis right we
+
+00:13:47.330 --> 00:13:51.110
+try to prove our null hypothesis and if we are able to prove
+
+00:13:51.850 --> 00:13:56.910
+that null hypothesis is true then automatically your
+
+00:13:56.910 --> 00:14:01.650
+alternate hypothesis is going to be false right if i'm able
+
+00:14:01.650 --> 00:14:04.370
+to prove that somehow right in a different situation there
+
+00:14:04.370 --> 00:14:07.030
+is a different mechanism you will be able to find out so
+
+00:14:07.030 --> 00:14:10.550
+somehow if i'm able to prove that that my null hypothesis is
+
+00:14:10.550 --> 00:14:14.450
+true so automatically my alternate hypothesis is going to be
+
+00:14:14.450 --> 00:14:19.250
+false if i'm not able to do that in that situation my
+
+00:14:19.250 --> 00:14:23.110
+alternate hypothesis is going to be true if i'm not able to
+
+00:14:23.190 --> 00:14:26.350
+prove that null hypothesis is true in that situation
+
+00:14:26.350 --> 00:14:31.030
+alternate will be true automatically and based on this we
+
+00:14:31.030 --> 00:14:34.610
+try to take a lots and lots of statistical decision
+
+00:14:34.610 --> 00:14:38.270
+basically right lots of statistical decision we try to take
+
+00:14:38.270 --> 00:14:43.050
+it right so where there is something called as p value so p
+
+00:14:43.050 --> 00:14:47.470
+value like you know contributes in a significant manner and
+
+00:14:47.470 --> 00:14:51.890
+it helps us to decide that which one is true whether null
+
+00:14:51.890 --> 00:14:56.050
+hypothesis is true or whether alternate hypothesis is true
+
+00:14:56.050 --> 00:14:59.890
+right at any point of a time so here let's come to the p
+
+00:14:59.890 --> 00:15:03.230
+value part so p value you can say probability value
+
+00:15:03.230 --> 00:15:07.750
+probability value we try to find out right so what is the
+
+00:15:07.750 --> 00:15:10.750
+meaning of this p value so p value simply means that that if
+
+00:15:10.750 --> 00:15:14.070
+h naught which is nothing but a null hypothesis right is
+
+00:15:14.070 --> 00:15:20.710
+true what is a chance of getting this result by a luck this
+
+00:15:20.710 --> 00:15:24.410
+is what p value always try to demonstrate so let me write it
+
+00:15:24.410 --> 00:15:27.590
+down so once you will be able to solve couple of problems
+
+00:15:27.590 --> 00:15:30.810
+you will be able to understand it but yeah so it says that
+
+00:15:30.810 --> 00:15:37.810
+that if h which is my null hypothesis is true is true what
+
+00:15:37.810 --> 00:15:45.030
+is the chance chance of getting
+
+00:15:48.800 --> 00:15:50.980
+this result by
+
+00:15:53.380 --> 00:15:55.020
+any luck this
+
+00:15:57.230 --> 00:16:01.650
+is what p value try to talk about right so it's simple in
+
+00:16:01.650 --> 00:16:03.630
+the simple meaning if you would like to like break it down
+
+00:16:03.630 --> 00:16:07.110
+so you will be able to find out that if your p value is a
+
+00:16:07.110 --> 00:16:07.510
+small
+
+00:16:11.900 --> 00:16:14.360
+a small p value it
+
+00:16:17.240 --> 00:16:20.660
+simply means that that result is surprising
+
+00:16:23.000 --> 00:16:24.280
+and
+
+00:16:27.830 --> 00:16:35.780
+if you have a large p value large p value so in that
+
+00:16:35.780 --> 00:16:38.760
+situation result can happen by luck this
+
+00:16:47.720 --> 00:16:49.620
+is what it means but mathematically we will try to
+
+00:16:49.620 --> 00:16:52.540
+understand this one so in terms of like you know numbers if
+
+00:16:52.540 --> 00:16:54.780
+i have to represent so obviously p value will be in between
+
+00:16:54.780 --> 00:16:57.340
+zero to one so max to max one and then minimum is equal to
+
+00:16:57.340 --> 00:16:59.460
+zero this is where the probability value always try to
+
+00:16:59.460 --> 00:17:02.880
+fluctuate in between these two numbers so we can say that
+
+00:17:02.880 --> 00:17:06.100
+that for example just to prove this first case so if p value
+
+00:17:06.100 --> 00:17:10.040
+that we have so let's say p value right so we say that that
+
+00:17:10.040 --> 00:17:13.400
+we're gonna okay so p value is lesser than zero point zero
+
+00:17:13.400 --> 00:17:17.540
+five so in that case result is surprising and we can say
+
+00:17:17.540 --> 00:17:23.480
+that that we can reject the null hypothesis and when we are
+
+00:17:23.480 --> 00:17:26.440
+rejecting a null hypothesis by default your alternate is
+
+00:17:26.440 --> 00:17:29.900
+going to be true for null hypothesis kind of a situation so
+
+00:17:29.900 --> 00:17:33.160
+whatsoever statement is going to be right and we can say
+
+00:17:33.160 --> 00:17:36.500
+that that if p value and remember this one because based on
+
+00:17:36.500 --> 00:17:38.740
+this you are going to take a decision so more than zero
+
+00:17:38.740 --> 00:17:44.440
+point zero five or equal to i can say right so here fail to
+
+00:17:44.440 --> 00:17:51.380
+reject h not fail to reject h not means h one is false by
+
+00:17:51.380 --> 00:17:53.800
+default right alternate is going to be false and h not is
+
+00:17:53.800 --> 00:17:57.240
+going to be basically true in this particular situation so
+
+00:17:57.240 --> 00:18:00.100
+this is what you have to understand in terms of a null
+
+00:18:00.100 --> 00:18:03.260
+hypothesis in terms of an alternate hypothesis many of us
+
+00:18:03.260 --> 00:18:05.920
+may be able to understand it by five ten percent this is
+
+00:18:05.920 --> 00:18:08.300
+what i'm assuming many of us may be not able to understand
+
+00:18:08.300 --> 00:18:11.820
+that's completely okay for me right let's move ahead and
+
+00:18:11.820 --> 00:18:13.980
+let's try to see one of the examples so that your
+
+00:18:13.980 --> 00:18:16.340
+understanding will be clear we can go back and we can do the
+
+00:18:16.340 --> 00:18:22.020
+comparison okay so e x a m p l e now just try to understand
+
+00:18:22.020 --> 00:18:25.900
+it by this example so here what we have done so let's say
+
+00:18:25.900 --> 00:18:31.520
+like you know uh we are trying to basically uh like a flip a
+
+00:18:31.520 --> 00:18:34.560
+coin right so we have like a let's suppose a flipped a coin
+
+00:18:34.560 --> 00:18:38.100
+and uh yes so when we have flipped a coin so we have
+
+00:18:38.100 --> 00:18:40.960
+received we have received
+
+00:18:43.740 --> 00:18:53.860
+three heads in a row yeah three heads in a row okay so what
+
+00:18:53.860 --> 00:18:59.820
+is a chance of getting these three heads in a row uh in in
+
+00:18:59.820 --> 00:19:02.380
+terms of probability basically so what is the chance of
+
+00:19:02.380 --> 00:19:04.840
+getting three heads in a row in terms of probability guys
+
+00:19:04.840 --> 00:19:09.750
+anyone yes yeah
+
+00:19:11.960 --> 00:19:16.900
+so what is the chance of you know getting uh like a heads so
+
+00:19:16.900 --> 00:19:19.720
+let's suppose if i'm trying to flip a coin uh just for the
+
+00:19:19.720 --> 00:19:23.660
+very first time so what is the chance of getting head let's
+
+00:19:23.660 --> 00:19:26.380
+suppose if i'm flipping a coin only for one time what is the
+
+00:19:26.380 --> 00:19:29.720
+chance of getting head i think we all know 0.5 right 1 by 2
+
+00:19:29.720 --> 00:19:33.360
+so in three times when i'm when i'm trying to like a flip it
+
+00:19:33.360 --> 00:19:38.190
+three times what is the chance so i'm trying to do the same
+
+00:19:38.190 --> 00:19:40.850
+thing three times in a row what is the chance so can i say
+
+00:19:40.850 --> 00:19:45.850
+that that it is going to be 1 by 2 into 1 by 2 into 1 by 2
+
+00:19:45.850 --> 00:19:49.990
+is equals to what so it is going to be 1 by 8 is going to be
+
+00:19:49.990 --> 00:19:59.870
+0.125 yes 0.125 at the at any point of a time so okay so
+
+00:19:59.870 --> 00:20:03.890
+probability of getting these three heads in a row if i am
+
+00:20:03.890 --> 00:20:10.630
+trying to flip some of the coin is 0.125 now null hypothesis
+
+00:20:10.630 --> 00:20:14.450
+let's suppose if i'm going to build an alternate hypothesis
+
+00:20:14.450 --> 00:20:18.570
+i'm going to build null hypothesis says that that the coin
+
+00:20:18.570 --> 00:20:23.150
+flipping that you have done is fair right so it whatever it
+
+00:20:23.150 --> 00:20:25.150
+was supposed to happen in the way it was supposed to happen
+
+00:20:25.150 --> 00:20:28.210
+so it has happened in that particular manner alternate
+
+00:20:28.210 --> 00:20:31.930
+hypothesis says that that no it was not fair so maybe your
+
+00:20:31.930 --> 00:20:36.090
+coin was rigged maybe your coin was like giving all this
+
+00:20:36.090 --> 00:20:40.930
+head result all the time yes so null hypothesis says that
+
+00:20:40.930 --> 00:20:44.670
+that trial was or flipping was flipping
+
+00:20:47.200 --> 00:20:57.000
+was real you can say right and then it was not it was not so
+
+00:20:57.000 --> 00:21:02.260
+now based on this answer based on this result which
+
+00:21:02.260 --> 00:21:06.740
+hypothesis is going to be true is it going to be like a null
+
+00:21:06.740 --> 00:21:10.480
+hypothesis or is it going to be a alternate hypothesis h1
+
+00:21:10.480 --> 00:21:13.760
+what do you think guys now give me an answer in terms of
+
+00:21:13.760 --> 00:21:15.420
+hypothesis so
+
+00:21:17.910 --> 00:21:21.790
+g1 is saying alternate okay what about others and why do you
+
+00:21:21.790 --> 00:21:26.190
+think g1 like why do you think that that alternate or h1 is
+
+00:21:26.190 --> 00:21:30.690
+going to be true for this situation keith is saying null
+
+00:21:30.690 --> 00:21:31.790
+hypothesis okay so g1 is saying alternate okay so g1 is
+
+00:21:31.790 --> 00:21:34.450
+saying null hypothesis okay why do you think but what about
+
+00:21:34.450 --> 00:21:37.230
+others guys there are so many people right so why they are
+
+00:21:37.230 --> 00:21:44.440
+not answering so g1 is saying that p value is less than 0.5
+
+00:21:44.440 --> 00:21:48.520
+okay fine since keith is saying that it is also less than 0
+
+00:21:48.520 --> 00:21:51.940
+.5 but keith is saying that it's basically going to follow
+
+00:21:51.940 --> 00:21:55.200
+an alternate hypothesis g1 is saying i mean like it is going
+
+00:21:55.200 --> 00:21:56.020
+to follow basically
+
+00:21:58.840 --> 00:22:01.760
+not going to follow null hypothesis it's going to follow
+
+00:22:01.760 --> 00:22:05.620
+alternate hypothesis right again look into this slide once
+
+00:22:05.620 --> 00:22:10.840
+again now make a decision look into this one what is written
+
+00:22:10.840 --> 00:22:16.180
+so if p value is lesser than means if probability value is
+
+00:22:16.180 --> 00:22:22.980
+very very very very low right so in that situation right in
+
+00:22:22.980 --> 00:22:27.120
+that situation you reject a null hypothesis but if
+
+00:22:27.120 --> 00:22:31.680
+probability value is greater than 0.005 means if probability
+
+00:22:31.680 --> 00:22:36.700
+value is higher in that case you will not be able to reject
+
+00:22:36.700 --> 00:22:42.300
+the null hypothesis yes so can i say that that zero point
+
+00:22:42.300 --> 00:22:47.080
+now based on that value itself right so can i say that one
+
+00:22:47.080 --> 00:22:51.640
+two five is greater than 0.05 clearly
+
+00:22:53.760 --> 00:23:01.120
+yes the probability value is greater than 0.05 yes now if
+
+00:23:01.120 --> 00:23:04.340
+that is a case in that situation what decision you are going
+
+00:23:04.340 --> 00:23:11.520
+to take fail to reject a null h0 right so fail to reject
+
+00:23:11.520 --> 00:23:16.000
+null means what null hypothesis is true you are not able to
+
+00:23:16.000 --> 00:23:18.340
+prove that null hypothesis was false right null hypothesis
+
+00:23:18.340 --> 00:23:23.120
+is true it simply means that alternate is going to be false
+
+00:23:23.120 --> 00:23:26.760
+null is going to be true very very simple right very very
+
+00:23:26.760 --> 00:23:30.120
+simple so we are able to take a conclusion and yes i mean
+
+00:23:30.120 --> 00:23:33.080
+like calculation wise if you will see so we have taken one
+
+00:23:33.080 --> 00:23:33.680
+by two one by two one by two one by two one by two one by
+
+00:23:33.700 --> 00:23:36.800
+two one by two itself right we have taken one by two one by
+
+00:23:36.800 --> 00:23:40.740
+two one by two by the way so coin was not read by by the way
+
+00:23:40.740 --> 00:23:43.560
+i mean like even in terms of calculation even in terms of
+
+00:23:43.560 --> 00:23:46.840
+probability and yeah the value that we are able to get it is
+
+00:23:46.840 --> 00:23:52.020
+a like a fine i would say right fine okay now let's like you
+
+00:23:52.020 --> 00:23:57.860
+know uh do one thing yeah uh let's do one thing so here this
+
+00:23:57.860 --> 00:24:03.300
+time instead of three head in a row right let's say this is
+
+00:24:03.300 --> 00:24:06.720
+example number one uh i'm going to take this second example
+
+00:24:06.720 --> 00:24:16.140
+okay so you have five heads in a row you are getting so what
+
+00:24:16.140 --> 00:24:19.340
+is the probability probability will be one by two one by two
+
+00:24:19.340 --> 00:24:24.280
+one by two one by two one by two technically one by thirty
+
+00:24:24.280 --> 00:24:29.700
+two yes one by thirty two yeah you're going to get one by
+
+00:24:29.700 --> 00:24:32.920
+thirty two now what is the value so value is going to be
+
+00:24:32.920 --> 00:24:38.000
+zero point zero three two one something like that right so 0
+
+00:24:38.000 --> 00:24:45.540
+.031 i believe yeah 0.031 fine now my null hypothesis says
+
+00:24:45.540 --> 00:24:50.880
+that it is fair it is fair means coin is fair alternative
+
+00:24:50.880 --> 00:24:58.020
+saying that that it is not fair not fair now what is the
+
+00:24:58.020 --> 00:25:06.120
+case it is going to be this time yes so can i say that 0.031
+
+00:25:06.120 --> 00:25:15.300
+0.031 is lesser than 0.05 right so my p value is lesser than
+
+00:25:15.300 --> 00:25:17.860
+the probability value that i'm able to find out is
+
+00:25:17.860 --> 00:25:21.620
+technically lesser than 0.05 so reject the null hypothesis
+
+00:25:21.620 --> 00:25:26.180
+reject the null hypothesis it is fair so basically it is not
+
+00:25:26.180 --> 00:25:29.380
+fair so this time alternate hypothesis is going to be true
+
+00:25:29.380 --> 00:25:33.100
+and this looks like true because every time if you are
+
+00:25:33.100 --> 00:25:35.800
+getting head head head head head even after doing a toss
+
+00:25:35.800 --> 00:25:40.280
+like 50 times things are rigged right practically it is not
+
+00:25:40.280 --> 00:25:42.840
+possible right practically it is not possible and this is
+
+00:25:42.840 --> 00:25:45.360
+what we were trying to prove over here that if something
+
+00:25:45.360 --> 00:25:48.160
+three times if it is repeating it's completely fine maybe
+
+00:25:48.160 --> 00:25:51.200
+till four times it is going to be fine but five times six
+
+00:25:51.200 --> 00:25:56.500
+times eight times ten times infinite times in that situation
+
+00:25:56.500 --> 00:26:00.660
+so there will be a sense of doubt which is going to arise
+
+00:26:00.660 --> 00:26:03.900
+right everyone yes yes
+
+00:26:05.620 --> 00:26:07.840
+yes that is and this is what we are able to prove it
+
+00:26:07.840 --> 00:26:10.900
+mathematically this is how stats also works right with a
+
+00:26:10.900 --> 00:26:14.700
+human sentiment in parallel to it right so obviously if five
+
+00:26:14.700 --> 00:26:17.440
+times ten times i'm going to get i mean like head head head
+
+00:26:17.440 --> 00:26:22.620
+head head and that to continuously i mean like i'm going to
+
+00:26:22.620 --> 00:26:25.240
+like uh you know i'm not going to trust that system by the
+
+00:26:25.240 --> 00:26:27.880
+way right obviously there is something wrong with that
+
+00:26:27.880 --> 00:26:30.900
+particular system and the system like you know we should we
+
+00:26:30.900 --> 00:26:33.980
+should look into that particular system by the way yeah so
+
+00:26:33.980 --> 00:26:40.440
+this is how uh you basically find out yes okay now so this
+
+00:26:40.440 --> 00:26:43.760
+is uh basically hypothesis right this is what as a
+
+00:26:43.760 --> 00:26:47.260
+hypothesis you will be able to find out now let's try to
+
+00:26:47.260 --> 00:26:50.880
+like you know let's try to uh do more problem statement
+
+00:26:50.880 --> 00:26:55.020
+based on null hypothesis and i like alternate hypothesis and
+
+00:26:55.020 --> 00:26:59.020
+a p value so at least five problem statement let's try to
+
+00:26:59.020 --> 00:27:01.980
+solve yeah so with respect to like a null hypothesis
+
+00:27:01.980 --> 00:27:04.880
+alternate hypothesis and a p value with respect to all the
+
+00:27:04.880 --> 00:27:08.040
+scenario with uh in a detailed manner so that you know we'll
+
+00:27:08.040 --> 00:27:10.340
+be able to understand more and more about this null and
+
+00:27:10.340 --> 00:27:12.780
+alternate hypothesis so far i believe we are able to
+
+00:27:12.780 --> 00:27:18.890
+understand it yeah so causal is saying that we can reverse a
+
+00:27:18.890 --> 00:27:22.790
+sentence the null hypothesis so how to choose these uh like
+
+00:27:22.790 --> 00:27:25.290
+causal this is what i have mentioned so when i was talking
+
+00:27:25.290 --> 00:27:28.010
+about and this is a question which many people ask right in
+
+00:27:28.010 --> 00:27:31.910
+a like a day zero so whenever you are trying to build any
+
+00:27:31.910 --> 00:27:35.270
+kind of a null hypothesis it simply means that that you are
+
+00:27:35.270 --> 00:27:38.870
+going to take the original statement If I'm trying to flip a
+
+00:27:38.870 --> 00:27:41.910
+coin by default, what is going to be the original statement?
+
+00:27:42.150 --> 00:27:45.110
+Original statement is going to be or any statement given by
+
+00:27:45.110 --> 00:27:49.230
+someone, right? Original statement. So like a coin is going
+
+00:27:49.230 --> 00:27:52.210
+to be fair. That's a natural case, right? So the natural
+
+00:27:52.210 --> 00:27:56.090
+case, unbiased case is always going to be the null
+
+00:27:56.090 --> 00:27:59.630
+hypothesis. And then the reverse of it is going to be the
+
+00:27:59.630 --> 00:28:03.410
+alternate hypothesis. So this is how we try to build H0 and
+
+00:28:03.410 --> 00:28:07.090
+H0 at any point of time. Hope it makes sense to all of us.
+
+00:28:07.970 --> 00:28:08.290
+Yes.
+
+00:28:17.200 --> 00:28:17.460
+Okay.
+
+00:28:34.260 --> 00:28:37.240
+Now, so let's try to understand one more thing. So which is
+
+00:28:37.240 --> 00:28:40.120
+going to be very, very like, you know, crucial for all of
+
+00:28:40.120 --> 00:28:43.600
+you, right? At any point of a time. So there is something
+
+00:28:43.600 --> 00:28:46.160
+called as truth table or there is something called as
+
+00:28:46.160 --> 00:28:49.820
+basically like a hypothesis table, right? You must have seen
+
+00:28:49.820 --> 00:28:52.980
+that table multiple times, basically. So let's try to talk
+
+00:28:52.980 --> 00:28:56.160
+about that one. Yeah. And from there itself, you will be
+
+00:28:56.160 --> 00:28:58.940
+able to see something called as type one error and type two
+
+00:28:58.940 --> 00:29:04.280
+error. So let's say. There is a very famous table.
+
+00:29:07.340 --> 00:29:07.740
+Okay.
+
+00:30:40.430 --> 00:30:44.930
+So this is a table. You can try to look into this particular
+
+00:30:44.930 --> 00:30:48.870
+table in a different, a different manner, basically, right?
+
+00:30:48.930 --> 00:30:50.970
+Different, different manner. And with respect to hypothesis,
+
+00:30:51.170 --> 00:30:54.370
+you can try to establish your theory and based on that, you
+
+00:30:54.370 --> 00:30:56.830
+know, you can say which one is going to be correct, which
+
+00:30:56.830 --> 00:30:59.170
+one is going to be incorrect, or which one is going to be
+
+00:30:59.170 --> 00:31:01.230
+partially correct. All of those decisions, you will be able
+
+00:31:01.230 --> 00:31:04.290
+to take it with respect to this table. So let's say, and
+
+00:31:04.290 --> 00:31:06.710
+carefully try to understand it. In other. Other term, it's
+
+00:31:06.710 --> 00:31:10.570
+also called as confusion matrixes. So technically it's a bit
+
+00:31:10.570 --> 00:31:14.290
+confusing on a day zero, but believe me, it's not that
+
+00:31:14.290 --> 00:31:16.590
+confusing. It's a very logical, like a things that you all
+
+00:31:16.590 --> 00:31:20.070
+will be able to find out. Yeah. You all will be able to find
+
+00:31:20.070 --> 00:31:22.890
+out. Now, let's think in this way. So forget about this
+
+00:31:22.890 --> 00:31:25.350
+table because this table will be like, it is going to give
+
+00:31:25.350 --> 00:31:27.570
+you a little bit of pain in terms of understanding things.
+
+00:31:27.730 --> 00:31:32.010
+Right. So parallelly, I'm going to draw one more table over
+
+00:31:32.010 --> 00:31:37.310
+here and here. So I'm going to write. It may be a zero one
+
+00:31:37.310 --> 00:31:41.750
+and zero one. Yeah. True truth.
+
+00:31:45.140 --> 00:31:50.280
+And then experiment, let's say I have done fine. So let's
+
+00:31:50.280 --> 00:31:53.000
+look into this table and then you can tell me what is the
+
+00:31:53.000 --> 00:31:57.960
+number of which I should go and write. So let's say I have a
+
+00:31:57.960 --> 00:32:02.100
+truth over here on this label, as you can see on this
+
+00:32:02.100 --> 00:32:05.360
+particular rule and here. So I have basically
+
+00:32:05.360 --> 00:32:10.900
+experimentation. Yeah. Experimentation. Now, so I was
+
+00:32:10.900 --> 00:32:14.980
+expecting a zero thing in this manner. So I was expecting a
+
+00:32:14.980 --> 00:32:20.640
+zero and then I have received a zero. Yes, I have received a
+
+00:32:20.640 --> 00:32:23.940
+zero. So let's say I was trying to experiment. I was
+
+00:32:23.940 --> 00:32:26.460
+expecting that that anything which I'm doing, so I will
+
+00:32:26.460 --> 00:32:31.500
+receive a zero and I have received a zero. So can I say that
+
+00:32:31.500 --> 00:32:38.200
+that this is basically true? Yes. Yeah.
+
+00:32:48.600 --> 00:32:54.480
+Yes. So basically, I was expecting basically like a true and
+
+00:32:54.480 --> 00:32:58.620
+I have received true. So in that situation, I can say that
+
+00:32:58.620 --> 00:33:02.460
+that, OK, the final result is going to be true. So here in
+
+00:33:02.460 --> 00:33:05.560
+terms of the statistics, let's say I'm going to label zero,
+
+00:33:05.720 --> 00:33:15.760
+zero as false, fine and one as true, one as true. So let's
+
+00:33:15.760 --> 00:33:18.700
+look into this one. So here we have zero. We have received
+
+00:33:18.700 --> 00:33:22.840
+zero. So I was expecting false. So I was expecting that
+
+00:33:22.840 --> 00:33:25.740
+result is going to be false and I have received false.
+
+00:33:26.040 --> 00:33:29.880
+Right. So in this situation, I can say that it is going to
+
+00:33:29.880 --> 00:33:31.040
+be false positive.
+
+00:33:33.740 --> 00:33:39.400
+False positive. Yeah. False positive. So I was expecting
+
+00:33:39.400 --> 00:33:41.660
+false and I have received false. So it is going to be
+
+00:33:41.660 --> 00:33:47.420
+basically a false positive at any point of a time. Now, I
+
+00:33:47.420 --> 00:33:51.920
+was expecting basically true. And I have received. I have
+
+00:33:51.920 --> 00:33:55.260
+received false out of experiment. I have received false. So
+
+00:33:55.260 --> 00:34:00.360
+I was expecting true. Right. I was expecting true and I have
+
+00:34:00.360 --> 00:34:06.360
+received false in that situation. What I can say, guys. Yes.
+
+00:34:06.480 --> 00:34:09.360
+So I was expecting one and I have received basically zero,
+
+00:34:09.460 --> 00:34:13.720
+as you can see. Right. So here what I'm supposed to write.
+
+00:34:14.160 --> 00:34:17.860
+So I was expecting true. Yes, I was expecting basically
+
+00:34:17.860 --> 00:34:21.620
+true. But I have technically received. I have technically
+
+00:34:21.620 --> 00:34:26.120
+received false. Yes, so positive business is saying that,
+
+00:34:26.140 --> 00:34:32.320
+OK, fine, we can write like a positive false. OK. OK, fine.
+
+00:34:39.280 --> 00:34:43.160
+Yeah. OK, so a false positive false positive is this one.
+
+00:34:43.220 --> 00:34:45.360
+Right. So by default, I was expecting false and I have
+
+00:34:45.360 --> 00:34:49.220
+received false. So false and it's positive, basically. So I
+
+00:34:49.220 --> 00:34:52.180
+was expecting and I have basically received it. Right. So
+
+00:34:52.180 --> 00:34:57.780
+that is that is basically like, you know, sorry. Uh. My bad.
+
+00:34:57.960 --> 00:35:01.120
+It should not be false. So wherever I was expecting
+
+00:35:01.120 --> 00:35:04.140
+something and I have received something. So in that case, it
+
+00:35:04.140 --> 00:35:09.280
+is supposed to be true, guys. No. So here what I should
+
+00:35:09.280 --> 00:35:13.300
+write, I should write basically true negative.
+
+00:35:16.780 --> 00:35:19.540
+Again, that's the reason it's called a confusion matrix. I
+
+00:35:19.540 --> 00:35:23.580
+can just like, you know, interchange it. Let me draw this
+
+00:35:23.580 --> 00:35:25.400
+table once again.
+
+00:35:31.100 --> 00:35:34.860
+Every time even I get confused. OK. OK.
+
+00:35:38.420 --> 00:35:42.280
+So experimentation wise, one and zero and one and zero. So
+
+00:35:42.280 --> 00:35:47.880
+basically, this is my two result and this is my experimented
+
+00:35:47.880 --> 00:35:52.940
+result. OK, so now let's think in this way. I was expecting
+
+00:35:52.940 --> 00:35:57.640
+to expecting true and I have received basically true. So
+
+00:35:57.640 --> 00:35:59.960
+here it is going to be in case of whatsoever you were
+
+00:35:59.960 --> 00:36:01.760
+expecting and you have received it, it is going to be true.
+
+00:36:02.000 --> 00:36:05.980
+So true, positive. So true, I have received in a positive
+
+00:36:05.980 --> 00:36:06.280
+manner.
+
+00:36:09.960 --> 00:36:15.580
+Positive. I was expecting, you know, false basically. So I
+
+00:36:15.580 --> 00:36:18.000
+was expecting negative. I was expecting technically
+
+00:36:18.000 --> 00:36:24.760
+negative, but I have received a positive. Right. So here I
+
+00:36:24.760 --> 00:36:26.940
+can say I have received I have received what I have
+
+00:36:26.940 --> 00:36:34.230
+received. False. False. Positive. For example, so I went for
+
+00:36:34.230 --> 00:36:37.670
+like maybe let's suppose a corona test. Right. Corona test.
+
+00:36:37.850 --> 00:36:41.970
+So I was expecting that that I will not be having a corona
+
+00:36:41.970 --> 00:36:45.830
+in my corona test, but what happened? So maybe I have
+
+00:36:45.830 --> 00:36:48.970
+received it right or maybe I don't have a corona. But still,
+
+00:36:49.110 --> 00:36:52.870
+I have received in a report that you have a corona. In that
+
+00:36:52.870 --> 00:36:55.490
+situation, I can say that it's a false positive kind of a
+
+00:36:55.490 --> 00:36:58.310
+situation. I have a corona even in the report. It is showing
+
+00:36:58.310 --> 00:37:00.910
+me that I have a corona. In that case, it is a true positive
+
+00:37:00.910 --> 00:37:06.310
+now. So let's say I was expecting this one. I was expecting
+
+00:37:06.310 --> 00:37:09.890
+basically like, you know, true. But I have received what I
+
+00:37:09.890 --> 00:37:13.610
+have received false. So basically, I can say that that. So
+
+00:37:13.610 --> 00:37:18.630
+in in like in real, it was a true it was one. But I have
+
+00:37:18.630 --> 00:37:20.670
+received what I have received zero. So I have received
+
+00:37:20.670 --> 00:37:24.490
+false. False, negative, false,
+
+00:37:26.530 --> 00:37:28.870
+negative. So everything depends upon the outcome, I would
+
+00:37:28.870 --> 00:37:32.430
+say. I was expecting zero. I have received a zero. So in
+
+00:37:32.430 --> 00:37:36.470
+that case, I can say it's a true negative, true negative.
+
+00:37:39.410 --> 00:37:43.990
+OK, so this is basically like, you know, you can say it as a
+
+00:37:43.990 --> 00:37:46.490
+confusion matrix again and again, this matrix, we are going
+
+00:37:46.490 --> 00:37:49.990
+to use it with respect to all the classification algorithm
+
+00:37:49.990 --> 00:37:52.270
+and there is something called as precision. There is
+
+00:37:52.270 --> 00:37:55.230
+something called as recall. There is something called as F1
+
+00:37:55.230 --> 00:37:58.890
+score. So all of those scores, we will try to derive it from
+
+00:37:58.890 --> 00:38:02.490
+this matrix itself. So here we are actually talking about
+
+00:38:02.490 --> 00:38:04.890
+two class classifications. So we have two classes, one and
+
+00:38:04.890 --> 00:38:07.670
+zero. So in that sense, we are talking about means we have
+
+00:38:07.670 --> 00:38:10.370
+only two situations and we are trying to do a two situation
+
+00:38:10.370 --> 00:38:15.410
+comparison expectation versus the actual result. Right. So
+
+00:38:15.410 --> 00:38:17.730
+if I will be having like a three, three different different
+
+00:38:17.730 --> 00:38:20.690
+situation. Right. So in that situation, it is going to be
+
+00:38:20.690 --> 00:38:23.830
+three cross three. Let's stick to a two cross two as of now.
+
+00:38:23.910 --> 00:38:25.750
+So two situation itself. And we are trying to do a
+
+00:38:25.750 --> 00:38:28.370
+comparison with respect to that one. Now, if you will see
+
+00:38:28.370 --> 00:38:31.390
+here, right, if you will see here, you will be able to find
+
+00:38:31.390 --> 00:38:34.430
+out that we are into an exact similar kind of a situation,
+
+00:38:34.630 --> 00:38:37.970
+right? Similar kind of a situation. So H naught, let's say
+
+00:38:37.970 --> 00:38:42.310
+I'm labeling it as a one, right. And H naught one, HA, let's
+
+00:38:42.310 --> 00:38:47.510
+say, zero alternate. Right. So this is my expectation. This
+
+00:38:47.510 --> 00:38:50.430
+is going to represent my expectation and this is going to
+
+00:38:50.430 --> 00:38:54.530
+represent my findings. OK, fine. So I was expecting
+
+00:38:54.530 --> 00:38:58.930
+something like I was expecting some H0 is equal to true.
+
+00:38:59.070 --> 00:39:03.710
+Reject H0. No. So it's the reverse of this particular table,
+
+00:39:03.770 --> 00:39:10.410
+by the way. So this one is a reverse H0 true except H0. It
+
+00:39:10.410 --> 00:39:14.410
+should come here. Otherwise, we have to do this through this
+
+00:39:14.410 --> 00:39:18.010
+comparison. So either I have to redraw or maybe we can
+
+00:39:18.010 --> 00:39:22.090
+adjust with this one. OK, fine. Now, let's let's think in
+
+00:39:22.090 --> 00:39:24.670
+this manner, right. So because this is this is changed,
+
+00:39:24.810 --> 00:39:27.590
+right. As you can see, this is basically changed. This one
+
+00:39:27.590 --> 00:39:30.850
+is fine. One and zero. This is basically like a zero and
+
+00:39:30.850 --> 00:39:34.510
+one. So it's same thing, but written in a different place.
+
+00:39:34.830 --> 00:39:38.790
+So here, let's think about this. You are expecting H naught,
+
+00:39:38.970 --> 00:39:41.610
+right. You are expecting H naught means you are expecting
+
+00:39:41.610 --> 00:39:45.210
+you are expecting basically a null hypothesis. Right. This
+
+00:39:45.210 --> 00:39:50.090
+is true. But here you have received alternate hypothesis as
+
+00:39:50.090 --> 00:39:55.950
+a true. Right. So. In general, you are supposed to prove
+
+00:39:55.950 --> 00:40:01.090
+that null hypothesis is true, but eventually you ended up
+
+00:40:01.090 --> 00:40:04.150
+proving that that no null hypothesis is not true. You are
+
+00:40:04.150 --> 00:40:07.430
+rejecting the null hypothesis. Now, this kind of a situation
+
+00:40:07.430 --> 00:40:11.330
+is called as type one error. So type one error is basically
+
+00:40:11.330 --> 00:40:15.330
+a term you will be able to find out which is equivalent to a
+
+00:40:15.330 --> 00:40:19.570
+false negative, which is also called as false negative means
+
+00:40:19.570 --> 00:40:23.910
+I was expecting a positive result, but I have received what
+
+00:40:23.910 --> 00:40:27.370
+I have received a negative result. And that is technically
+
+00:40:27.370 --> 00:40:30.350
+called as in terms of stats. It's called as type one error.
+
+00:40:30.510 --> 00:40:36.210
+Right. So this is also called as type one. You can see it
+
+00:40:36.210 --> 00:40:41.150
+then here. So basically you were expecting a zero alternate
+
+00:40:41.150 --> 00:40:45.010
+hypothesis. Right. But you have received what? You have
+
+00:40:45.010 --> 00:40:50.130
+received except means one except null hypothesis. So that is
+
+00:40:50.130 --> 00:40:53.230
+something called as type two error. So here in this
+
+00:40:53.230 --> 00:40:55.870
+situation, you will be able to find out that this is called
+
+00:40:55.870 --> 00:41:00.410
+as type two kind of error. This is basically type two kind
+
+00:41:00.410 --> 00:41:05.630
+of error. So I was expecting negative. And, you know, I have
+
+00:41:05.630 --> 00:41:10.570
+received basically a positive or in real. So I had basically
+
+00:41:11.870 --> 00:41:15.330
+like a negative as a result. And I have received basically
+
+00:41:15.330 --> 00:41:19.510
+one. Now tell me one thing. And now you can try to do an
+
+00:41:19.510 --> 00:41:23.170
+interpretation. So I went for a testing, Corona testing,
+
+00:41:23.310 --> 00:41:28.790
+let's say I went for a Corona testing. So I don't have I do
+
+00:41:28.790 --> 00:41:31.130
+not have Corona,
+
+00:41:34.140 --> 00:41:40.160
+but in result. But in so in actual, I don't have a Corona,
+
+00:41:40.280 --> 00:41:43.800
+but in result, I have
+
+00:41:46.460 --> 00:41:54.740
+Corona. Corona, Corona. Now, in general, in actual, I don't
+
+00:41:54.740 --> 00:41:57.040
+have a Corona. I know that I have done already multiple
+
+00:41:57.040 --> 00:42:00.600
+testing and in one of the reports. So it is showing that
+
+00:42:00.600 --> 00:42:03.880
+that I have a Corona. Now, what kind of error is this?
+
+00:42:03.960 --> 00:42:06.440
+Because obviously it's an error, right? Obviously it's an
+
+00:42:06.440 --> 00:42:10.660
+error. Yes. So what kind of error is this? So I don't have a
+
+00:42:10.660 --> 00:42:13.560
+Corona, but yeah, so in result. So basically they are saying
+
+00:42:13.560 --> 00:42:17.980
+that that, you know, I have a Corona. So false positive.
+
+00:42:18.120 --> 00:42:21.120
+Yes. So false. Obviously it is trying to flag it as a
+
+00:42:21.120 --> 00:42:24.220
+positive. So technically it's basically what it's a type two
+
+00:42:24.220 --> 00:42:28.600
+error. So let's say I'm writing T2 kind of a error I have
+
+00:42:28.600 --> 00:42:38.160
+over here. OK, fine. Now, so I have Corona. I have. Corona.
+
+00:42:39.740 --> 00:42:47.820
+But in report, it's not been detected,
+
+00:42:50.660 --> 00:42:53.640
+what is the type of error that we have? So can I say that we
+
+00:42:53.640 --> 00:42:57.200
+have a type one error? Type one error means this error. So I
+
+00:42:57.200 --> 00:43:00.380
+have basically Corona, but it's detected that no, I don't
+
+00:43:00.380 --> 00:43:03.580
+have a Corona. Now, which type of error? Question is not
+
+00:43:03.580 --> 00:43:07.220
+like that question was not type one or type two. So what
+
+00:43:07.220 --> 00:43:13.360
+kind of error is like, you know, basically more significant
+
+00:43:13.360 --> 00:43:19.260
+error for me, a type one or type two in this situation. So
+
+00:43:19.260 --> 00:43:22.160
+what kind of error again, let me rephrase my entire problem
+
+00:43:22.160 --> 00:43:25.640
+statement. So what kind of error is more more dangerous to
+
+00:43:25.640 --> 00:43:31.340
+me? Is it a type one or is it a type two? Someone is saying
+
+00:43:31.340 --> 00:43:34.400
+that type two, most of you are saying type one. So can I say
+
+00:43:34.400 --> 00:43:37.680
+that type one error, just read out the statement. So in this
+
+00:43:37.680 --> 00:43:40.180
+situation, again, it is going to change the situation some
+
+00:43:40.180 --> 00:43:43.000
+time. But yeah, that's like, you know, try to generalize it.
+
+00:43:43.080 --> 00:43:46.820
+So can I say just by looking into this, that type one error
+
+00:43:46.820 --> 00:43:50.820
+is more dangerous because I have something something is
+
+00:43:50.820 --> 00:43:55.160
+already true, which has been established. But. System is not
+
+00:43:55.160 --> 00:43:59.140
+able to find out. Right. Let's say some like there is a
+
+00:43:59.140 --> 00:44:05.720
+person like a person is not guilty. In in actual, yes,
+
+00:44:05.860 --> 00:44:09.320
+person is not guilty, but what you are trying to say that
+
+00:44:09.320 --> 00:44:13.900
+yes, person is guilty. As compared to a different statement,
+
+00:44:14.100 --> 00:44:17.740
+so where person is guilty and you are not able to prove it.
+
+00:44:17.860 --> 00:44:19.960
+So can I say the very first situation is a dangerous
+
+00:44:19.960 --> 00:44:23.380
+situation, even in this situation, so I have a corona, but
+
+00:44:23.380 --> 00:44:25.640
+system is not able to detect. I actually have a corona
+
+00:44:25.640 --> 00:44:29.160
+system is not able to detect. In that situation, I will not
+
+00:44:29.160 --> 00:44:32.620
+do a medication and not go for medication. Right. And my
+
+00:44:32.620 --> 00:44:36.000
+situation will be even worse and worse in case of type two,
+
+00:44:36.040 --> 00:44:39.580
+at least. Right. In case of type type two, I don't have
+
+00:44:39.580 --> 00:44:42.460
+anything. But the system has detected that there is a corona
+
+00:44:42.460 --> 00:44:46.320
+maybe like, you know, as a false negative, so fine, not an
+
+00:44:46.320 --> 00:44:49.520
+issue at all. So false positive, it has detected. So not an
+
+00:44:49.520 --> 00:44:53.140
+issue at all. So fine, I'll start my treatment or maybe I'll
+
+00:44:53.140 --> 00:44:55.180
+go for retest tomorrow. Once again.
+
+00:44:58.130 --> 00:45:02.210
+Yes. Yeah. So type one type one error is always more
+
+00:45:02.210 --> 00:45:05.410
+dangerous as compared to a type two error. Even you can try
+
+00:45:05.410 --> 00:45:08.850
+to compare these things with a criminal proceeding. Right,
+
+00:45:08.910 --> 00:45:15.110
+so if there is someone who is not guilty, right, who is not
+
+00:45:15.110 --> 00:45:19.130
+guilty, but still you are trying to say that that person is
+
+00:45:19.130 --> 00:45:22.830
+guilty. As compared to I mean, like this is more dangerous
+
+00:45:22.830 --> 00:45:25.870
+situation as compared to a situation where a person is
+
+00:45:25.870 --> 00:45:31.910
+guilty. And it's not proven. Yes. Yeah. So this is this is
+
+00:45:31.910 --> 00:45:34.970
+how you can try to do a comparison, guys. And again, both of
+
+00:45:34.970 --> 00:45:37.330
+these are actually called as like confusion matrixes. So
+
+00:45:37.330 --> 00:45:39.930
+there will be two variables against two variables. We are
+
+00:45:39.930 --> 00:45:42.990
+trying to do a comparison. Right. And there are only four
+
+00:45:42.990 --> 00:45:45.730
+kind of a result which is possible over here. So either
+
+00:45:45.730 --> 00:45:48.130
+they're going to be like a false positive, false, negative,
+
+00:45:48.330 --> 00:45:50.970
+true positive, true negative, only these four things. And
+
+00:45:50.970 --> 00:45:54.130
+based on that, so we try to like, you know, drive a formula
+
+00:45:54.130 --> 00:45:57.990
+which is called as like, you know, accuracy matrixes, a
+
+00:45:57.990 --> 00:46:02.750
+precision, a recall, a F1 score. So the other four and even
+
+00:46:02.750 --> 00:46:05.690
+even more like things we try to derive it based on the exact
+
+00:46:05.690 --> 00:46:07.470
+same thing. So when we are going to solve the classification
+
+00:46:07.470 --> 00:46:10.210
+problem, exact same thing will come into picture and that
+
+00:46:10.210 --> 00:46:12.650
+too again and again and again. Right. It does the formula.
+
+00:46:12.770 --> 00:46:15.310
+But yes, this table comes into picture. So maybe you can
+
+00:46:15.310 --> 00:46:17.650
+just remember this particular table for now. That's it. I
+
+00:46:17.650 --> 00:46:21.870
+mean, more than that is not required. Yeah. OK. So this is
+
+00:46:21.870 --> 00:46:24.230
+somewhere, you know, you can say that it's a type one error
+
+00:46:24.230 --> 00:46:29.450
+or type two error that we have over here. So more or less
+
+00:46:29.450 --> 00:46:31.930
+hypothesis testing, we are able to understand a little bit.
+
+00:46:32.070 --> 00:46:36.010
+Now, let's try to understand basically something called as
+
+00:46:36.010 --> 00:46:39.050
+chi-square test. Yeah. There is a test that we try to do.
+
+00:46:41.710 --> 00:46:45.750
+It's called as chi-square, CHI chi
+
+00:46:48.820 --> 00:46:52.700
+-square test. Now we'll try to understand what is the
+
+00:46:52.700 --> 00:46:55.420
+meaning of this chi-square test and then how we do this,
+
+00:46:55.500 --> 00:46:57.860
+like, you know, chi-square test. Why do we do it? That's our
+
+00:46:57.860 --> 00:47:02.560
+very first point. We all have to understand. Right. So chi
+
+00:47:02.560 --> 00:47:06.680
+-square test is a test. We try to do it right or it will be
+
+00:47:06.680 --> 00:47:12.060
+basically used when data is in counts. Means data will be
+
+00:47:12.060 --> 00:47:15.520
+available as accounts, not as an average. That's a very,
+
+00:47:15.540 --> 00:47:19.900
+very first principle that chi-square always try to, like I
+
+00:47:19.900 --> 00:47:23.000
+say, that when data will be available in accounts, in
+
+00:47:23.000 --> 00:47:27.480
+numbers, not in terms of average mean, I would say so in
+
+00:47:27.480 --> 00:47:31.440
+that situation, so we can try to basically use a, you know,
+
+00:47:31.440 --> 00:47:34.800
+use a chi-square test to prove or to disapprove something.
+
+00:47:35.160 --> 00:47:38.660
+So, for example, like, you know, when you can try to count
+
+00:47:38.660 --> 00:47:42.220
+yes versus no, tea versus coffee, red versus blue versus
+
+00:47:42.220 --> 00:47:45.440
+green, Monday sale versus Tuesday sales versus Thursday
+
+00:47:45.440 --> 00:47:48.120
+sales, something like that. So in that situation, you will
+
+00:47:48.120 --> 00:47:52.300
+be able to use a chi-square testing. So whenever, I mean,
+
+00:47:52.320 --> 00:47:54.440
+like when you are not supposed to use it. So whenever we are
+
+00:47:54.440 --> 00:47:57.360
+talking about a mean, for example, like average marks,
+
+00:47:57.520 --> 00:48:01.660
+average salary, average price. Right. So in that kind of a
+
+00:48:01.660 --> 00:48:04.080
+situation, we should not use a chi-square test. When
+
+00:48:04.080 --> 00:48:06.480
+something is available as a count, only in that situation,
+
+00:48:06.700 --> 00:48:10.600
+we can try to use basically a chi-square test. Right. So the
+
+00:48:10.600 --> 00:48:15.220
+whole idea behind the chi-square test was simple. Right. So
+
+00:48:15.220 --> 00:48:18.860
+whenever we have to do a comparison, so again, one point is
+
+00:48:18.860 --> 00:48:22.920
+when chi-square test will be applicable, only where count is
+
+00:48:22.920 --> 00:48:28.240
+applicable, not where the average is. Right. Now, for what?
+
+00:48:28.540 --> 00:48:31.140
+That's the next question. For what we are going to use? A
+
+00:48:31.140 --> 00:48:35.020
+chi-square test, we are going to use a chi-square test to do
+
+00:48:35.020 --> 00:48:39.880
+a comparison between two things, let's say. Yeah. So there
+
+00:48:39.880 --> 00:48:42.320
+is something called as observed value and there is something
+
+00:48:42.320 --> 00:48:45.480
+called as expected value. So there is something called as
+
+00:48:47.820 --> 00:48:49.100
+observed
+
+00:48:50.860 --> 00:48:58.160
+value and there is something called as expected value. So in
+
+00:48:58.160 --> 00:49:01.000
+this situation, we are going to basically use a chi-square
+
+00:49:01.000 --> 00:49:05.320
+test. Its formula is again based on this observed value. So
+
+00:49:05.320 --> 00:49:09.260
+this is the symbol of a chi, yeah, kind of X, but yes, not
+
+00:49:09.260 --> 00:49:13.420
+exactly the X. So here it is going to be summation of, I
+
+00:49:13.420 --> 00:49:18.300
+would say, summation of observed value minus expected value
+
+00:49:18.300 --> 00:49:22.780
+square divided by expected value. This is what a chi-square
+
+00:49:22.780 --> 00:49:26.540
+formula is. So whenever you are going to do a comparison. So
+
+00:49:26.540 --> 00:49:28.420
+here O is nothing but observed count,
+
+00:49:32.340 --> 00:49:40.860
+observed count. And E is nothing but expected, expected
+
+00:49:42.640 --> 00:49:49.580
+count. Simple, right? Simple over here. So here, like this
+
+00:49:49.580 --> 00:49:51.760
+is where chi-square will be used. So whenever we have to do
+
+00:49:51.760 --> 00:49:54.640
+a comparison between two entities. But yes, whenever we are
+
+00:49:54.640 --> 00:49:56.880
+doing comparison, so obviously those entities must be
+
+00:49:56.880 --> 00:49:59.600
+available in terms of counts, in terms of numbers, not in
+
+00:49:59.600 --> 00:50:02.060
+terms of the averaging out. Then only you will be able to
+
+00:50:02.060 --> 00:50:04.660
+basically do it. Yeah, you will be able to do it. Otherwise
+
+00:50:04.660 --> 00:50:08.980
+you will not be able to do it. So here, basically,
+
+00:50:11.060 --> 00:50:13.760
+let's try to solve one problem statement and with the help
+
+00:50:13.760 --> 00:50:16.200
+of those problem statement, we'll try to use a chi-square
+
+00:50:16.200 --> 00:50:19.820
+and then actually you will be able to understand this, you
+
+00:50:19.820 --> 00:50:25.940
+know, chi-square, right? So here, right. So here what we can
+
+00:50:25.940 --> 00:50:28.500
+try to do, so we can try to take one example,
+
+00:50:31.750 --> 00:50:38.970
+example. So basically is a die, is a die.
+
+00:50:40.590 --> 00:50:45.110
+Yeah, this is what we are going to take it now here. So what
+
+00:50:45.110 --> 00:50:50.530
+happens basically? So. Basically, we are going to like, you
+
+00:50:50.530 --> 00:50:54.430
+know, use this die and we are going to basically check the
+
+00:50:54.430 --> 00:50:57.170
+fairness, right? We are going to basically check the
+
+00:50:57.170 --> 00:51:01.250
+fairness. So here someone has given me this particular table
+
+00:51:01.250 --> 00:51:04.930
+or someone has given me this particular data. So this data
+
+00:51:04.930 --> 00:51:09.200
+says that let's draw this data
+
+00:51:15.220 --> 00:51:16.500
+observed.
+
+00:51:20.130 --> 00:51:21.070
+Expected. Yes.
+
+00:51:29.290 --> 00:51:35.450
+So here what you're trying to do, so you are you have rolled
+
+00:51:38.390 --> 00:51:44.430
+a die. Let's say 60 times, 60
+
+00:51:46.990 --> 00:51:52.630
+times, and if die is going to be fair, right? So each number
+
+00:51:52.630 --> 00:51:55.090
+should come six times, right? Because there will be like a
+
+00:51:55.090 --> 00:51:57.970
+number one to six in a die. I believe we all have played
+
+00:51:57.970 --> 00:52:00.770
+good or something where we are going to be where we are
+
+00:52:00.770 --> 00:52:04.690
+using it in childhood. So 60 times. I have basically rolled
+
+00:52:04.690 --> 00:52:09.330
+a die. And if all the numbers are fair, right, so all the
+
+00:52:09.330 --> 00:52:12.670
+numbers are fair. So in that case, on an average, not
+
+00:52:12.670 --> 00:52:17.490
+exactly. I would say ten times, right. Ten times all the
+
+00:52:17.490 --> 00:52:20.630
+number should appear starting from one to six means one
+
+00:52:20.630 --> 00:52:22.830
+should appear ten times, two should appear ten times, three
+
+00:52:22.830 --> 00:52:26.770
+should appear ten times. So in this manner. Right. So let's
+
+00:52:26.770 --> 00:52:32.830
+say I'm writing a face over here. So one, two, three, four,
+
+00:52:34.290 --> 00:52:39.090
+five, six. OK, so every time ten times, one, ten times, two,
+
+00:52:39.170 --> 00:52:42.290
+ten times, three, ten times, four, ten times, five, ten
+
+00:52:42.290 --> 00:52:44.870
+times, six. This is my expectation. Right. This is my
+
+00:52:44.870 --> 00:52:47.990
+expectation. So I have rolled a die 60 times. My expectation
+
+00:52:47.990 --> 00:52:50.870
+that that, OK, finds on an average. I mean, like ten times
+
+00:52:50.870 --> 00:52:53.770
+one should appear. Ten times two should come. Ten times
+
+00:52:53.770 --> 00:52:55.770
+three should come. Ten times four should come. Ten times
+
+00:52:55.770 --> 00:52:59.730
+five should come. Ten times six should come. But when I have
+
+00:52:59.730 --> 00:53:03.210
+actually rolled it, so I have received eight times one. I
+
+00:53:03.210 --> 00:53:06.110
+have received twelve times two. I have received nine times
+
+00:53:06.110 --> 00:53:09.190
+three. I have received four times eleven. I have received
+
+00:53:09.190 --> 00:53:13.070
+ten times five. I have received six times basically ten. In
+
+00:53:13.070 --> 00:53:17.830
+total again 60. Right. So in total again going to be 60. So
+
+00:53:17.830 --> 00:53:22.590
+here the hypothesis, right. The hypothesis that I'm going to
+
+00:53:22.590 --> 00:53:25.430
+build, a null hypothesis that die is fair, which is a
+
+00:53:25.430 --> 00:53:33.330
+natural hypothesis. The die is fair. Right. So alternate
+
+00:53:33.330 --> 00:53:39.150
+will be automatically it's not fair. It's not fair. So
+
+00:53:39.150 --> 00:53:42.350
+either this is going to be true or this is going to be true.
+
+00:53:42.450 --> 00:53:44.790
+Either null is going to be true. Either alternate is going
+
+00:53:44.790 --> 00:53:47.530
+to be true. Both can't be true at any point of time. Right.
+
+00:53:47.570 --> 00:53:51.710
+Both can't be true at any point of time. OK, fine. Cool. So
+
+00:53:51.710 --> 00:53:54.870
+this is a problem statement which is given to me. Now there
+
+00:53:54.870 --> 00:53:57.070
+is an observed value and there is an expected value which
+
+00:53:57.070 --> 00:54:01.470
+has been given to me over here. Right. And then significance
+
+00:54:01.470 --> 00:54:03.930
+level. So every time. You will be able to see a significance
+
+00:54:03.930 --> 00:54:06.290
+label. And even in my last class, I talked about it. So
+
+00:54:06.290 --> 00:54:09.290
+significance label is basically zero point zero five. It
+
+00:54:09.290 --> 00:54:12.070
+simply means that that we allow five percent chance of
+
+00:54:12.070 --> 00:54:14.270
+making our mistakes. Five percent delta is allowed. Beyond
+
+00:54:14.270 --> 00:54:16.050
+that, it's not allowed. This is the meaning of this
+
+00:54:16.050 --> 00:54:19.830
+significance label that we have taken over here. OK, this is
+
+00:54:19.830 --> 00:54:23.170
+something that we have taken over here. Now, how we are
+
+00:54:23.170 --> 00:54:28.070
+going to either accept a null hypothesis or reject a null
+
+00:54:28.070 --> 00:54:31.970
+hypothesis. That's a question. Right. How we are going to
+
+00:54:31.970 --> 00:54:34.970
+accept a null hypothesis or how we are going to basically
+
+00:54:34.970 --> 00:54:38.770
+reject a null hypothesis. That's a question. And that is
+
+00:54:38.770 --> 00:54:42.670
+something that we have to answer. So either null is going to
+
+00:54:42.670 --> 00:54:47.210
+be true or either alternate is going to be true. So here we
+
+00:54:47.210 --> 00:54:53.390
+can try to use basically, you know, a chi square test. We
+
+00:54:53.390 --> 00:54:57.330
+can try to use basically a chi square test because here what
+
+00:54:57.330 --> 00:55:01.290
+we are trying to do. So we are basically, you know, trying
+
+00:55:01.290 --> 00:55:07.270
+to prove. Or you can say we are trying to do a comparison
+
+00:55:07.270 --> 00:55:10.590
+comparison between observed versus the expected one that
+
+00:55:10.590 --> 00:55:13.850
+this is my expectation and this is my observed value. So
+
+00:55:13.850 --> 00:55:16.510
+maybe we can try to use a chi square test and then
+
+00:55:16.510 --> 00:55:20.330
+eventually I can try to prove it a null or maybe I can I
+
+00:55:20.330 --> 00:55:22.410
+will not be able to prove it. So in that situation,
+
+00:55:22.570 --> 00:55:25.070
+alternate is going to be true. OK, let's start doing it.
+
+00:55:25.170 --> 00:55:29.090
+Yeah, let's start doing it. So here chi square simply says
+
+00:55:29.090 --> 00:55:32.050
+that that I have a formula observed minus expected squared
+
+00:55:32.050 --> 00:55:35.650
+divided by expectation. And here so observed value is given
+
+00:55:35.650 --> 00:55:38.550
+to me, expectation value is given to me. So I'll just go
+
+00:55:38.550 --> 00:55:41.870
+over there and then I'll try to apply it. So let's try to
+
+00:55:41.870 --> 00:55:44.390
+build a big table over here because a lot of calculation
+
+00:55:44.390 --> 00:55:45.170
+will be required.
+
+00:55:58.160 --> 00:56:02.840
+OK, so here phase, let's say phase one, two, three, four,
+
+00:56:03.040 --> 00:56:07.540
+five, six. Fine. Now observed value wise. So it was
+
+00:56:07.540 --> 00:56:12.100
+basically eight. It was like twelve. It was nine. It was
+
+00:56:12.100 --> 00:56:17.240
+eleven. It was ten. And ten. OK, fine. Now, expected value
+
+00:56:17.240 --> 00:56:20.240
+wise, what's expected value wise? Everything was ten. So I
+
+00:56:20.240 --> 00:56:25.260
+was expecting ten, ten, ten, ten. OK, fine. So here as per
+
+00:56:25.260 --> 00:56:28.680
+chi square, first of all, we have to find out observed minus
+
+00:56:28.680 --> 00:56:31.620
+expectation. So I have to find out basically this particular
+
+00:56:31.620 --> 00:56:36.460
+one, a numerator. Right. OK, so here eight minus ten
+
+00:56:36.460 --> 00:56:39.220
+observed minus this one. So it's going to be minus two. Then
+
+00:56:39.220 --> 00:56:41.680
+it is going to be basically twelve minus ten to nine minus
+
+00:56:41.680 --> 00:56:44.020
+ten is equal to minus one. Eleven minus ten is equal to one.
+
+00:56:44.100 --> 00:56:47.640
+Ten minus ten, zero. And it is going to be zero. Now you
+
+00:56:47.640 --> 00:56:50.880
+have to find out a square of this one. O minus E of a
+
+00:56:50.880 --> 00:56:54.400
+square. Right. So once you are going to do a square, so it
+
+00:56:54.400 --> 00:56:58.880
+is going to be four, four, one, one, zero, zero. OK, now you
+
+00:56:58.880 --> 00:57:03.060
+will be doing a square, a square divided by expectation. So
+
+00:57:03.060 --> 00:57:06.700
+it is going to be zero point four, a square divided by
+
+00:57:06.700 --> 00:57:09.520
+expectation. So this one is zero point four. Again, it is
+
+00:57:09.520 --> 00:57:12.240
+going to be zero point four, one by ten, zero point one. One
+
+00:57:12.240 --> 00:57:16.420
+by ten, zero point one, zero and zero. Now chi square is
+
+00:57:16.420 --> 00:57:20.240
+what chi is basically a summation summation of all of this
+
+00:57:20.240 --> 00:57:23.120
+summation. So what I will do, I'll just try to sum it up.
+
+00:57:23.200 --> 00:57:26.920
+I'll just try to do it. So chi square is going to be zero
+
+00:57:26.920 --> 00:57:30.920
+point four plus zero point four plus zero point one plus
+
+00:57:30.920 --> 00:57:36.840
+zero point one plus zero plus zero is equals to it is going
+
+00:57:36.840 --> 00:57:44.140
+to be one. OK, so chi square is. Equals to one chi square is
+
+00:57:44.140 --> 00:57:46.280
+equal to one. That's completely fine. It's something that we
+
+00:57:46.280 --> 00:57:51.300
+are able to get it. No, right now, basically.
+
+00:57:54.300 --> 00:57:57.420
+What is next, how we are going to accept because chi is
+
+00:57:57.420 --> 00:57:59.220
+something that we are able to calculate it, which is simple
+
+00:57:59.220 --> 00:58:02.640
+formula is given to me, I'm able to do a calculation. Right.
+
+00:58:02.640 --> 00:58:07.940
+I'm able to do a calculation. Now, how we will be able to
+
+00:58:07.940 --> 00:58:11.160
+accept or reject at the end of the day, these particular
+
+00:58:11.760 --> 00:58:16.620
+cases are do that you have to basically. Go to Google.
+
+00:58:19.820 --> 00:58:23.140
+And you have to basically search for this table called a chi
+
+00:58:23.140 --> 00:58:26.340
+square table. Yeah, chi distribution table. So there is a
+
+00:58:26.340 --> 00:58:29.940
+table just like, you know, Jada TV have seen. So in the
+
+00:58:29.940 --> 00:58:32.540
+similar manner, you will be able to see a chi square table
+
+00:58:32.540 --> 00:58:37.580
+as well. Fine. So here chi square table is given to you. And
+
+00:58:37.580 --> 00:58:40.160
+in chi square table, you will be able to find out a degree
+
+00:58:40.160 --> 00:58:43.800
+of freedom. Now, what is a meaning of degree of freedom? I
+
+00:58:43.800 --> 00:58:46.180
+believe I talked about it in my previous class with respect
+
+00:58:46.180 --> 00:58:52.220
+to a T value, I believe. Or T statistics. Yes. So what is
+
+00:58:52.220 --> 00:58:54.040
+the meaning of this one, guys?
+
+00:59:02.100 --> 00:59:03.660
+What is the meaning of degree of freedom?
+
+00:59:29.170 --> 00:59:33.490
+Yes, everyone. What is degree of freedom? So can I say that
+
+00:59:33.490 --> 00:59:35.890
+degree of freedom is always data minus one. So total number
+
+00:59:35.890 --> 00:59:38.410
+of data. Total number of data is what? Face is what? Six.
+
+00:59:38.510 --> 00:59:41.310
+Right. Six minus one. So our degree of freedom for this case
+
+00:59:41.310 --> 00:59:45.010
+is going to be five. As simple as that. This is what we have
+
+00:59:45.010 --> 00:59:48.570
+done. Right. So basically, to look into a chi square table,
+
+00:59:48.890 --> 00:59:51.970
+you need a degree of freedom. Without that, you can't look
+
+00:59:51.970 --> 00:59:54.610
+into table. Right. Degree of freedom. So on this side, there
+
+00:59:54.610 --> 00:59:58.610
+is a degree of freedom. Fine. So here, degree of freedom as
+
+00:59:58.610 --> 01:00:01.750
+per our use case is going to be data minus one. So total
+
+01:00:01.750 --> 01:00:03.990
+number of observation is basically six. Six minus one is
+
+01:00:03.990 --> 01:00:08.450
+going to be five. So let me write it down over here. So
+
+01:00:08.450 --> 01:00:10.150
+here, df
+
+01:00:14.980 --> 01:00:17.660
+is going to be, degree of freedom is going to be six minus
+
+01:00:17.660 --> 01:00:22.860
+one. Df is going to be five. OK, so six minus one is going
+
+01:00:22.860 --> 01:00:27.580
+to be basically five over here. Now, critical value. So what
+
+01:00:27.580 --> 01:00:30.260
+is a critical value that we have? So can I say that critical
+
+01:00:30.260 --> 01:00:34.340
+value alpha is going to be 0.05 means 5% of mistake. I can
+
+01:00:34.340 --> 01:00:38.540
+like, you know, observe and I can I can't say anything about
+
+01:00:38.540 --> 01:00:41.380
+it. But beyond that, yes, I'm going to raise my voice. So
+
+01:00:41.380 --> 01:00:44.240
+this is what our meaning of this alpha is. Alpha is like a 5
+
+01:00:44.240 --> 01:00:48.960
+% we have already taken. Right. OK, so here let's go there
+
+01:00:48.960 --> 01:00:52.800
+and let's look into. The chi-square value. So basically at
+
+01:00:52.800 --> 01:01:00.720
+alpha 0.05, right, alpha 0.05. Basically, what is a chi
+
+01:01:00.720 --> 01:01:06.210
+value that we should look into? Alpha 0.05 means which one
+
+01:01:06.210 --> 01:01:07.130
+I'm supposed to look into?
+
+01:01:11.250 --> 01:01:15.310
+Yes. So can I say that 0.05 means I should look into maybe
+
+01:01:15.310 --> 01:01:16.530
+this
+
+01:01:18.360 --> 01:01:20.060
+one or something else?
+
+01:01:42.760 --> 01:01:43.580
+Yes, everyone.
+
+01:01:49.390 --> 01:01:51.470
+Which one I'm supposed to look into? Someone is saying
+
+01:01:51.470 --> 01:01:54.490
+seven. Yeah, just just check the value. No, the value is
+
+01:01:54.490 --> 01:01:57.610
+already given to you. So we see our value is basically 0.05.
+
+01:01:57.790 --> 01:02:00.210
+So just try to find out that value inside the table. You
+
+01:02:00.210 --> 01:02:02.050
+have a table in front of you, right? You just have to look
+
+01:02:02.050 --> 01:02:04.590
+into row and column. So tell me what is the chi value, final
+
+01:02:04.590 --> 01:02:08.530
+chi value for this one, the final one only. So can I say
+
+01:02:08.530 --> 01:02:10.830
+that my degree of freedom is equal to five and then this,
+
+01:02:10.870 --> 01:02:13.930
+this, this, this, this, this, this, check this one. It's a 0
+
+01:02:13.930 --> 01:02:18.490
+.05 error value, right? And at the intersection of this one,
+
+01:02:18.530 --> 01:02:23.110
+what is the value that we are able to get? 11.070, right? 11
+
+01:02:23.110 --> 01:02:27.750
+.070 is the value that we are able to receive. So as per chi
+
+01:02:27.750 --> 01:02:33.270
+square table, our value is technically 11.070. Now, what
+
+01:02:33.270 --> 01:02:37.110
+does that mean? So our value is 11.070. Let me write it down
+
+01:02:37.110 --> 01:02:42.190
+over here inside this one. So chi value, chi value basically
+
+01:02:42.190 --> 01:02:45.970
+from table, right? Critical chi value could say like from
+
+01:02:45.970 --> 01:02:51.270
+table is 11.07, let's say. Our chi value is basically what?
+
+01:02:51.370 --> 01:02:56.610
+Our chi value is basically 1 and this from table, which is
+
+01:02:56.610 --> 01:03:02.970
+called as critical value is basically 11.7. So our chi value
+
+01:03:02.970 --> 01:03:09.530
+is lesser than I can say, a critical chi, critical value
+
+01:03:09.530 --> 01:03:12.150
+that we have received from the table for reference, let's
+
+01:03:12.150 --> 01:03:15.810
+say. So our value is less than very, very less, right? Very,
+
+01:03:15.890 --> 01:03:19.810
+very less as compared to a critical chi value. Now, if you
+
+01:03:19.810 --> 01:03:22.850
+will look into this chi table, it simply says that that this
+
+01:03:22.850 --> 01:03:26.610
+chi table is giving you this line, right? This line, you are
+
+01:03:26.610 --> 01:03:29.870
+falling within this line. You are falling basically within
+
+01:03:29.870 --> 01:03:32.870
+this particular line. Yeah, you're falling within this line.
+
+01:03:32.990 --> 01:03:37.550
+What does that mean? You're surpassing that line, right? So
+
+01:03:37.550 --> 01:03:40.330
+there is a boundary that has been given with this critical
+
+01:03:40.330 --> 01:03:43.110
+values. So you are surpassing that boundary line. You are
+
+01:03:43.110 --> 01:03:46.070
+within that boundary line in a layman term. What does that
+
+01:03:46.070 --> 01:03:50.840
+mean? Can I say that, that it simply means that that
+
+01:03:50.840 --> 01:03:53.320
+whatsoever assumption I have taken as a null hypothesis,
+
+01:03:53.720 --> 01:04:01.260
+that assumption is true, means my null is true. Could you
+
+01:04:01.260 --> 01:04:04.600
+please explain how you got 11.070? It's very simple, right?
+
+01:04:04.840 --> 01:04:08.100
+So just look into the chi distribution table. So what is
+
+01:04:08.100 --> 01:04:10.000
+your degree of freedom? Your degree of freedom is six minus
+
+01:04:10.000 --> 01:04:12.660
+one, five, six is a total number of data. You have six
+
+01:04:12.660 --> 01:04:16.340
+observation, you have. So six, five. And then what is my
+
+01:04:16.340 --> 01:04:20.700
+like a threshold range? I mean, like error rate range, 0.05,
+
+01:04:20.860 --> 01:04:24.280
+right? So just intersection of this. What is the number?
+
+01:04:24.380 --> 01:04:29.400
+This number, 11.070. As per the chi table. Very, very
+
+01:04:29.400 --> 01:04:34.360
+simple. So there is a boundary line at 11.070 that I have
+
+01:04:34.360 --> 01:04:37.520
+and I'm within this boundary line. I'm within this boundary
+
+01:04:37.520 --> 01:04:40.180
+line simply means that that whatsoever assumption, which I
+
+01:04:40.180 --> 01:04:42.980
+have taken as a null hypothesis. So my null hypothesis is
+
+01:04:42.980 --> 01:04:45.780
+true. The natural case is basically true. So here I can
+
+01:04:45.780 --> 01:04:50.540
+simply say that, that my objective, right? The die is fair.
+
+01:04:51.220 --> 01:04:53.740
+The observation and expectation that I have to die is fair.
+
+01:04:53.840 --> 01:04:56.460
+Even if you look into the numbers, right, it will look like
+
+01:04:56.460 --> 01:04:59.880
+that. It is fair. This, this much of delta, I mean, like it
+
+01:04:59.880 --> 01:05:02.800
+is not going in a biased manner. It's not like you were
+
+01:05:02.800 --> 01:05:06.660
+expecting average of 10, like, you know, one. It has given
+
+01:05:06.660 --> 01:05:09.580
+you one. I mean, like eight ones it has given you. Not like
+
+01:05:09.580 --> 01:05:12.780
+one ones or zero ones it has given you. So it doesn't looks
+
+01:05:12.780 --> 01:05:15.220
+like, like, you know, rigged one. It doesn't looks like, you
+
+01:05:15.220 --> 01:05:18.880
+know, biased one. It looks like a fair trial for me. Right.
+
+01:05:19.040 --> 01:05:22.060
+So this is what we are able to observe guys out of this one.
+
+01:05:22.200 --> 01:05:26.800
+Yes. Yeah. So we can say that, that yes, the coin is is
+
+01:05:26.800 --> 01:05:31.740
+completely like a fair. There is no issue with respect to
+
+01:05:31.740 --> 01:05:34.320
+this one.
+
+01:05:36.960 --> 01:05:40.220
+OK, let's solve one more problem. Yeah, let's solve one more
+
+01:05:40.220 --> 01:05:46.100
+problem. So here. Gender versus example.
+
+01:05:49.370 --> 01:05:51.950
+Yeah. So gender versus drinking preferences.
+
+01:06:01.660 --> 01:06:05.500
+Gender versus drinking preferences. Right. So let's say
+
+01:06:05.500 --> 01:06:12.880
+gender wise, we have men, we have women. Right. Right. And
+
+01:06:14.600 --> 01:06:19.040
+there is a data which I have collected. Right. So basically
+
+01:06:20.820 --> 01:06:25.700
+tea, coffee. Not not other way I'm talking about, by the
+
+01:06:25.700 --> 01:06:27.280
+way. Yeah, no,
+
+01:06:30.180 --> 01:06:34.560
+no. OK, so basically what we have done. So we have you know,
+
+01:06:34.560 --> 01:06:38.740
+we have done testing on, let's say, like, you know, men and
+
+01:06:38.740 --> 01:06:42.320
+women. And yeah, so basically we have captured some of the
+
+01:06:42.320 --> 01:06:47.760
+data. So tea wise. So 20 men drinks tea and then 30 women
+
+01:06:47.760 --> 01:06:52.860
+drinks like tea. This is the data total is basically 50. And
+
+01:06:52.860 --> 01:06:58.560
+then 30 men drinks coffee and 20 women drinks coffee in
+
+01:06:58.560 --> 01:07:02.080
+total. Again, it's going to be 15. Right. So total is going
+
+01:07:02.080 --> 01:07:07.080
+to be 50 over here. And in total we have 100. In total we
+
+01:07:07.080 --> 01:07:10.460
+have 100. So this is the expectation. This is the table that
+
+01:07:10.460 --> 01:07:16.020
+we have men and women. Right now. So I have to do some sort
+
+01:07:16.020 --> 01:07:19.100
+of investigation with respect to this particular data. Yes.
+
+01:07:20.280 --> 01:07:23.580
+So we we have to basically establish something over here
+
+01:07:23.580 --> 01:07:28.500
+that genders and drinks preference are independent. Yes.
+
+01:07:28.840 --> 01:07:33.280
+Once we have to establish that that three drinking
+
+01:07:33.280 --> 01:07:37.880
+preference and this genders are not related to each other,
+
+01:07:38.040 --> 01:07:41.480
+which is going to be the natural hypothesis. Right. So I'm
+
+01:07:41.480 --> 01:07:44.000
+trying to do let's say someone say to me and say that that
+
+01:07:44.000 --> 01:07:47.940
+no gender and, you know, drinking habits of tea and coffee
+
+01:07:47.940 --> 01:07:51.580
+is related. Right. No, but but I'll come and say that, no,
+
+01:07:51.720 --> 01:07:54.100
+this is not like, you know, related. This is pretty much
+
+01:07:54.100 --> 01:07:56.820
+independent. It's not related to each other at all. It's
+
+01:07:56.820 --> 01:08:00.980
+completely independent. So what I will try to rope it as a
+
+01:08:00.980 --> 01:08:07.120
+null hypothesis. I'll say that that gender and. Gender and
+
+01:08:07.120 --> 01:08:08.500
+drinking.
+
+01:08:13.670 --> 01:08:15.390
+Habits are independent.
+
+01:08:19.260 --> 01:08:21.900
+Right. This is going to be a natural call, by the way.
+
+01:08:21.960 --> 01:08:25.780
+Right. Everyone. Yes. This is going to be the natural one.
+
+01:08:25.840 --> 01:08:28.420
+Right. So if it is a natural one. So in that case, it will
+
+01:08:28.420 --> 01:08:33.260
+become automatically null hypothesis. Guys in chat. Yeah.
+
+01:08:33.660 --> 01:08:37.200
+Activities, activities required. Now, my alternate
+
+01:08:37.200 --> 01:08:39.260
+hypothesis, because this is going to be the natural one.
+
+01:08:39.300 --> 01:08:41.280
+Anyone will come and say that you can't do a comparison
+
+01:08:41.280 --> 01:08:43.600
+between everything. Right. So both things are independent.
+
+01:08:43.940 --> 01:08:47.460
+Right. That is going to be the natural call. Now the reverse
+
+01:08:47.460 --> 01:08:52.500
+of it. That gender and drink preference are related. So my
+
+01:08:52.500 --> 01:09:01.590
+alternate is going to be gender and drink preference are
+
+01:09:01.590 --> 01:09:06.890
+related. Related. And this is the data someone has given to
+
+01:09:06.890 --> 01:09:09.390
+me. Right. This is the data someone has given to me. So
+
+01:09:09.390 --> 01:09:12.430
+fine. Based on this data, either I have to reject the null
+
+01:09:12.430 --> 01:09:15.490
+hypothesis or I have to accept the null hypothesis. As
+
+01:09:15.490 --> 01:09:17.910
+simple as that. If null hypothesis is going to be false,
+
+01:09:17.990 --> 01:09:20.250
+then alternate will come into play. And vice versa. Right.
+
+01:09:20.370 --> 01:09:25.310
+OK. So here we are trying to do a comparison. Right. We are
+
+01:09:25.310 --> 01:09:28.410
+trying to do a comparison between like two things. One is
+
+01:09:28.410 --> 01:09:32.030
+gender versus a drinking habit. Right. So I think I can use
+
+01:09:32.030 --> 01:09:34.810
+a chi-square test because we have like, you know, like
+
+01:09:34.810 --> 01:09:38.830
+comparison and expectations over here. So let's let's try
+
+01:09:38.830 --> 01:09:46.310
+to, you know, basically like, you know, try to solve it, try
+
+01:09:46.310 --> 01:09:48.330
+to find out with the help of chi-square. Let's see how it
+
+01:09:48.330 --> 01:09:54.810
+happens. Right. So here men plus, you know, for like
+
+01:09:54.810 --> 01:09:58.690
+expected value is not given to you. Right. So here only
+
+01:09:58.690 --> 01:10:02.350
+observed value is given to you. So men in case of tea 20 and
+
+01:10:02.350 --> 01:10:06.530
+women 30, coffee 30 and women 20. Right. So observed value
+
+01:10:06.530 --> 01:10:10.150
+is only given to you. What should be the expected value?
+
+01:10:10.350 --> 01:10:13.630
+Right. What should be the expected value? So expected value
+
+01:10:13.630 --> 01:10:18.530
+means for tea, there are 50 experimentation, which has been
+
+01:10:18.530 --> 01:10:22.670
+done in total. Right. 20 men said, OK, like, you know, I
+
+01:10:22.670 --> 01:10:26.810
+love tea. And 30 women says that I love coffee in this
+
+01:10:26.810 --> 01:10:30.350
+experimentation. In this one, in this one, 30 men said that
+
+01:10:30.350 --> 01:10:34.370
+I love coffee. And then 20 men said that they love tea. So
+
+01:10:34.370 --> 01:10:37.310
+observed value is given to you. There is no expected value.
+
+01:10:37.470 --> 01:10:41.870
+What will be the expected value, guys? For tea, men, women,
+
+01:10:41.950 --> 01:10:44.370
+for coffee, men, women, what should be the expected value?
+
+01:10:48.440 --> 01:10:51.240
+Because to apply chi-square, I have to find out the expected
+
+01:10:51.240 --> 01:10:51.840
+value as well, right?
+
+01:10:56.130 --> 01:10:56.530
+Yes.
+
+01:11:00.820 --> 01:11:04.160
+So for tea, what is the expected value for men and women?
+
+01:11:04.260 --> 01:11:06.280
+And for coffee, what is the expected value for men and
+
+01:11:06.280 --> 01:11:09.280
+women? Sakshi is saying 25. Yes, that's correct. Right. So
+
+01:11:09.280 --> 01:11:11.880
+for tea, we have done experimentation on how many people, 50
+
+01:11:11.880 --> 01:11:15.900
+people, right? So 25 was supposed to be men and 25 was
+
+01:11:15.900 --> 01:11:19.600
+supposed to be women. But yeah, it's 20, 30, 25, 25. Right.
+
+01:11:19.820 --> 01:11:24.140
+That is the expected value. Fine. So here let's try to do a
+
+01:11:24.140 --> 01:11:26.940
+chi-square calculation, overall chi-square calculation. So
+
+01:11:26.940 --> 01:11:32.100
+chi-square calculation. So it is men, right, men, tea, and
+
+01:11:32.100 --> 01:11:34.040
+then men, coffee.
+
+01:11:38.040 --> 01:11:47.260
+Then women, tea, women, coffee. Fine. Let's do a math over
+
+01:11:47.260 --> 01:11:53.940
+here. So men tea, 20, right. So 20 is the observed value
+
+01:11:53.940 --> 01:11:59.860
+minus 25, expected value of a square divided by 25, right,
+
+01:11:59.900 --> 01:12:03.960
+divided by expected value. Then men, coffee. So 30 was the
+
+01:12:03.960 --> 01:12:08.300
+coffee, coffee minus 25 of a square divided by 25 once
+
+01:12:08.300 --> 01:12:15.060
+again. Then women tea. So 30 minus 25 of a square divided by
+
+01:12:15.060 --> 01:12:21.460
+25. Fine. And then women coffee. So 20 minus 25 of a square
+
+01:12:21.460 --> 01:12:25.780
+divided by 25. Fine. So this value is going to be 1, 1, 1,
+
+01:12:25.800 --> 01:12:29.460
+1. OK, so chi-square, if you are going to calculate. So 1
+
+01:12:29.460 --> 01:12:33.840
+plus 1 plus 1 plus 1. 1 is equals to 4. This is the chi
+
+01:12:33.840 --> 01:12:36.440
+-square. Yes, this is the chi-square that you will be able
+
+01:12:36.440 --> 01:12:39.620
+to find out. Now, this is the chi-square that you are able
+
+01:12:39.620 --> 01:12:42.980
+to get it from calculation. Now you have to do a comparison
+
+01:12:42.980 --> 01:12:46.500
+with the chi-square table. Now to look into the chi-square
+
+01:12:46.500 --> 01:12:49.020
+table, you need degree of freedom in a very, very first
+
+01:12:49.020 --> 01:12:51.680
+place, right. Degree of freedom you need in a very, very
+
+01:12:51.680 --> 01:12:55.500
+first place. So here this time, how I will be able to
+
+01:12:55.500 --> 01:12:57.840
+calculate a degree of freedom. So this time we have like,
+
+01:12:57.860 --> 01:13:01.260
+you know, two observations, gender and tea and coffee. By
+
+01:13:01.260 --> 01:13:05.040
+the way, right. So here this time, what we are going to do.
+
+01:13:05.280 --> 01:13:09.120
+So we are going to calculate in this situation. So degree of
+
+01:13:09.120 --> 01:13:15.540
+freedom will be calculated by row minus 1, column minus 1.
+
+01:13:16.100 --> 01:13:19.220
+So inside a row, men and women, column tea and coffee,
+
+01:13:19.340 --> 01:13:24.340
+right. So 2 row minus 1 and 2 column minus 1. So 2 minus 1,
+
+01:13:24.380 --> 01:13:27.580
+1. 2 minus 1, 1. Degree of freedom is going to be 1, right.
+
+01:13:27.800 --> 01:13:31.400
+This is going to be my degree of freedom. OK, now critical
+
+01:13:31.400 --> 01:13:36.300
+value. I am going to consider 5% error rate, 0.05. So degree
+
+01:13:36.300 --> 01:13:39.420
+of freedom 1, 0.05 error rate. What is the chi-square value?
+
+01:13:39.540 --> 01:13:42.400
+Let's try to observe it. So if you will come to this table.
+
+01:13:42.580 --> 01:13:46.440
+So degree of freedom 1 and then critical value at this. So 3
+
+01:13:46.440 --> 01:13:56.040
+.841, 3.841. So my line is basically 3.841. So here I can
+
+01:13:56.040 --> 01:14:05.460
+write down that chi-square critical, critical is 3. 841. And
+
+01:14:05.460 --> 01:14:09.660
+then the value that I'm able to find out is this one, right.
+
+01:14:09.760 --> 01:14:18.660
+4. So obviously 4 is greater than 3.841. 4 is greater than 3
+
+01:14:18.660 --> 01:14:24.320
+.841. Now, what will be your decision call, guys? What will
+
+01:14:24.320 --> 01:14:28.180
+be your decision? Accept anal hypothesis or reject it?
+
+01:14:34.360 --> 01:14:35.900
+Yes, accept or reject.
+
+01:14:39.100 --> 01:14:42.760
+Most of you are saying reject. I'm saying accept. So I'll go
+
+01:14:42.760 --> 01:14:45.300
+with the majority and obviously I'm going to reject it.
+
+01:14:45.360 --> 01:14:48.500
+Reason is very simple. See, again, this is where, you know,
+
+01:14:48.520 --> 01:14:51.980
+newcomers, you know, get confused. So it is giving you this
+
+01:14:51.980 --> 01:14:54.640
+table. This entire table is giving you, let's say, one line.
+
+01:14:54.860 --> 01:14:58.680
+Right. If something is within this line, accept it visually.
+
+01:14:58.880 --> 01:15:01.360
+Visually, it will help you out to remember. Otherwise, you
+
+01:15:01.360 --> 01:15:04.020
+know, lesser than greater than will always confuse you for
+
+01:15:04.020 --> 01:15:06.900
+your entire life. Right. So always think in this way. So
+
+01:15:06.900 --> 01:15:09.320
+this is going to give you some line. So let's say this line
+
+01:15:09.320 --> 01:15:13.220
+is basically 3.41. Right. So now you have your line from the
+
+01:15:13.220 --> 01:15:15.520
+calculation. So can I say that that line will come beyond
+
+01:15:15.520 --> 01:15:19.260
+this four? Yes. Yeah. I mean, like you have crossed the
+
+01:15:19.260 --> 01:15:23.180
+line. You know, if you have crossed the line means means
+
+01:15:24.620 --> 01:15:28.040
+what? Everyone in chat reject
+
+01:15:33.480 --> 01:15:36.640
+simple. Right. So if you cross the line. So in that case,
+
+01:15:36.740 --> 01:15:40.520
+null hypothesis is like rejected as simple as that. So maybe
+
+01:15:40.520 --> 01:15:45.000
+that will help you out in terms of building up memory. Yes.
+
+01:15:45.000 --> 01:15:48.340
+So rejected. So four is like beyond 3.81. So I'm rejecting
+
+01:15:48.340 --> 01:15:51.120
+the null hypothesis. It simply means that that alternate
+
+01:15:51.120 --> 01:15:54.540
+hypothesis is true. And what was the statement? Gender and
+
+01:15:54.540 --> 01:15:58.760
+drinks preference are related. Then as for the data, it
+
+01:15:58.760 --> 01:16:01.620
+looks like it's related. Maybe if I'm going to collect some
+
+01:16:01.620 --> 01:16:04.960
+other data, some other observation, my decision will change.
+
+01:16:05.100 --> 01:16:07.640
+But as per this data set, it looks like it's very much
+
+01:16:07.640 --> 01:16:11.340
+related. Like men, women, their affection towards teas and
+
+01:16:11.340 --> 01:16:15.380
+coffees over here. Right. So this is a chi-square test. So
+
+01:16:15.380 --> 01:16:17.820
+here we have to do a comparison between two things. So we
+
+01:16:17.820 --> 01:16:21.660
+have basically like used it. And yeah, so this is the result
+
+01:16:21.660 --> 01:16:27.720
+of a chi-square. Yes. OK. Now there is something called as
+
+01:16:27.720 --> 01:16:32.100
+right now, there is something called as, you know, ANOVA
+
+01:16:32.100 --> 01:16:34.740
+test, let's try to talk about that as well. Again, that
+
+01:16:34.740 --> 01:16:37.280
+based on hypothesis, chi-square also based on hypothesis.
+
+01:16:37.500 --> 01:16:41.620
+ANOVA is also based on hypothesis. A different kind of a
+
+01:16:41.620 --> 01:16:45.340
+test which has been used by a different situation. So a
+
+01:16:45.340 --> 01:16:46.780
+ANOVA.
+
+01:16:51.040 --> 01:16:55.800
+ANOVA test. In ANOVA, you will be able to find out there is
+
+01:16:55.800 --> 01:16:57.780
+something called as one way ANOVA. There is something called
+
+01:16:57.780 --> 01:17:00.580
+as two way ANOVA. Let's talk about one way ANOVA in a very,
+
+01:17:00.620 --> 01:17:02.980
+very first place. Right. Once you are able to understand one
+
+01:17:02.980 --> 01:17:07.800
+way, you can understand two way as well. So here, right. So
+
+01:17:07.800 --> 01:17:10.680
+to understand this ANOVA test, let's let's try to understand
+
+01:17:10.680 --> 01:17:14.500
+it in a simplest possible manner. Yeah. So suppose there are
+
+01:17:14.500 --> 01:17:16.400
+like, you know, multiple classes which is running inside
+
+01:17:16.400 --> 01:17:19.800
+Euron, multiple classes, multiple batches we are like, you
+
+01:17:19.800 --> 01:17:24.740
+know, trying to. I give. So in all the batches, let's say we
+
+01:17:24.740 --> 01:17:26.620
+are trying to use our different different method of
+
+01:17:26.620 --> 01:17:29.800
+teaching. So somewhere pure practical, somewhere theory,
+
+01:17:30.040 --> 01:17:32.180
+somewhere combination of practical and theory, something
+
+01:17:32.180 --> 01:17:36.720
+like that, we are trying to do it. OK, fine. So obviously,
+
+01:17:36.820 --> 01:17:39.860
+in all of these classes, we have a three different teachers,
+
+01:17:40.180 --> 01:17:43.320
+right, who is teaching the same thing, let's say generative
+
+01:17:43.320 --> 01:17:47.140
+AI, right. But the methods are basically different. So
+
+01:17:47.140 --> 01:17:49.540
+someone is using method A means just a theory, theory,
+
+01:17:49.540 --> 01:17:52.580
+theory. Someone is using like method B, practical,
+
+01:17:52.720 --> 01:17:56.360
+practical, practical. And someone is using method like a C.
+
+01:17:56.460 --> 01:17:59.960
+So theory plus practical, theory plus practical. OK, fine.
+
+01:18:01.040 --> 01:18:05.520
+Now, so all of them are using a basic three teachers, right,
+
+01:18:05.560 --> 01:18:09.600
+teaching the same subject and they are using three different
+
+01:18:09.600 --> 01:18:13.780
+different methods. Now, there are three things, right. And I
+
+01:18:13.780 --> 01:18:18.500
+have to basically find out that which method I have to
+
+01:18:18.500 --> 01:18:23.100
+basically find out that which method is the best method.
+
+01:18:23.480 --> 01:18:28.140
+Yeah, which method is basically the best method. So let's
+
+01:18:28.140 --> 01:18:33.780
+take some sort of numbers over here. Let's say. Method A,
+
+01:18:33.940 --> 01:18:35.100
+method
+
+01:18:37.340 --> 01:18:43.700
+B, method C. So three teachers, three different methods,
+
+01:18:43.980 --> 01:18:46.080
+they are trying to basically use it in their respective
+
+01:18:46.080 --> 01:18:52.880
+classes. Right, right. So again, obviously, if teachers are
+
+01:18:52.880 --> 01:18:55.540
+teaching, so we'll be expecting a marks, right. And in terms
+
+01:18:55.540 --> 01:18:58.360
+of marks only, we can try to evaluate it. Otherwise, we
+
+01:18:58.360 --> 01:19:00.820
+won't be able to evaluate it. So what you have done, you
+
+01:19:00.820 --> 01:19:03.900
+have picked three children from or four children, let's say,
+
+01:19:03.960 --> 01:19:08.840
+from, you know, class A, then class B, class C. And then you
+
+01:19:08.840 --> 01:19:11.680
+have checked their marks. What is the result that they are
+
+01:19:11.680 --> 01:19:16.220
+getting? So here, five, six, seven is the marks as per
+
+01:19:16.220 --> 01:19:20.280
+observation. Here, eight, nine, ten is the marks as per
+
+01:19:20.280 --> 01:19:24.300
+observation. And here people have or children have received
+
+01:19:24.300 --> 01:19:27.820
+eleven, twelve and thirteen marks as per the observation.
+
+01:19:29.020 --> 01:19:31.480
+Fine. Now, what do you think, guys? Just by looking into
+
+01:19:31.480 --> 01:19:33.520
+this result, which method is better?
+
+01:19:39.180 --> 01:19:44.380
+Yes. Which method is better? Marks is given to you for all
+
+01:19:44.380 --> 01:19:46.740
+this method A, B, C for three, three, three students, right,
+
+01:19:46.760 --> 01:19:48.940
+three from class A, three from class B, three from class C.
+
+01:19:49.200 --> 01:19:51.520
+All are learning the same subject, exactly the same subject.
+
+01:19:51.580 --> 01:19:53.660
+All of them are learning. They are nothing different. The
+
+01:19:53.660 --> 01:19:56.760
+method is only different. Yes. OK. Almost everyone has given
+
+01:19:56.760 --> 01:20:00.120
+me the same answer. Right. A C, method C. Everyone has given
+
+01:20:00.120 --> 01:20:03.180
+me the exact same answer. So, I mean, like, yes, based on
+
+01:20:03.180 --> 01:20:05.780
+your observation. So basically, you've just looked after the
+
+01:20:05.780 --> 01:20:07.920
+marks and you are saying that, OK, fine. So people are
+
+01:20:07.920 --> 01:20:12.840
+getting majority of better marks, actually, as compared to
+
+01:20:12.840 --> 01:20:16.300
+teacher A or method A, method B. So obviously my vote will
+
+01:20:16.300 --> 01:20:19.420
+go with the method C. OK, fine. Simple data. You all are
+
+01:20:19.420 --> 01:20:23.340
+able to observe it. Now, statistically, I have to prove
+
+01:20:23.340 --> 01:20:28.260
+maybe same thing, right, that all of these, like, the
+
+01:20:28.260 --> 01:20:34.160
+methods are different, right? Not just random variations.
+
+01:20:34.980 --> 01:20:38.820
+Method A is different. It is working in its own way. B is
+
+01:20:38.820 --> 01:20:41.640
+working in its own way. C is working in its own way. All of
+
+01:20:41.640 --> 01:20:44.700
+them are technically independent. And maybe which one is
+
+01:20:44.700 --> 01:20:47.320
+best, which one is not best. So this is something like we
+
+01:20:47.320 --> 01:20:54.240
+can try to, you know, establish it. So here we have to do a
+
+01:20:54.240 --> 01:20:56.920
+comparison, right? If I have to get into a conclusion, we
+
+01:20:56.920 --> 01:20:59.920
+have to do a comparison. So we have to do A versus B
+
+01:20:59.920 --> 01:21:03.520
+comparison. We have to do A versus C comparison. We have to
+
+01:21:03.520 --> 01:21:06.940
+do B versus C comparison, right? We have to do all of these
+
+01:21:06.940 --> 01:21:12.000
+comparison. And then only we will be able to get into all of
+
+01:21:12.000 --> 01:21:15.540
+these, like, conclusion. So we have multiple groups, more
+
+01:21:15.540 --> 01:21:19.620
+than two groups. In case of, like, two groups, I would have
+
+01:21:19.620 --> 01:21:21.700
+used something different. But, yeah, we have, like, more
+
+01:21:21.700 --> 01:21:25.280
+groups over here. And then between all of these groups, so
+
+01:21:25.280 --> 01:21:29.600
+we have to basically do a test. And then we have to reach
+
+01:21:29.600 --> 01:21:33.040
+out to the result. And this is where ANOVA comes into a
+
+01:21:33.040 --> 01:21:36.080
+picture. One test for all the groups, for all the
+
+01:21:36.080 --> 01:21:40.540
+comparison. So it is also called as acceptance or variance
+
+01:21:40.540 --> 01:21:45.100
+test. Yes. Acceptance of variance test. So it always try to
+
+01:21:45.100 --> 01:21:49.020
+do or it will always try to check. It will always try to do
+
+01:21:49.020 --> 01:21:53.120
+a comparison between the groups and within the groups. Means
+
+01:21:53.120 --> 01:21:57.240
+between method A as well as between method A and within
+
+01:21:57.240 --> 01:22:00.980
+method A. As well as between method A and method B. This is
+
+01:22:00.980 --> 01:22:03.700
+where significance of ANOVA comes into picture. So there is
+
+01:22:03.700 --> 01:22:06.800
+a term called as between and within. You all will be able to
+
+01:22:06.800 --> 01:22:10.060
+find out very soon now itself. Right. And this is where this
+
+01:22:10.060 --> 01:22:15.080
+ANOVA comes into picture. OK, fine. So here I have to build
+
+01:22:15.080 --> 01:22:18.100
+a hypothesis to start with. Right. To start with, I have to
+
+01:22:18.100 --> 01:22:21.780
+build technically a hypothesis. So I will say that my null
+
+01:22:21.780 --> 01:22:24.380
+hypothesis is going to be the natural hypothesis. Right.
+
+01:22:24.900 --> 01:22:29.820
+Kind of so. I will say that that all the methods are the
+
+01:22:29.820 --> 01:22:32.160
+same. I mean, like all this, like, you know, teaching
+
+01:22:32.160 --> 01:22:34.740
+methods are the same. So eventually they will get a similar
+
+01:22:34.740 --> 01:22:40.020
+kind of marks. So I will say that all the teaching methods
+
+01:22:43.600 --> 01:22:47.100
+are the same. My natural hypothesis, which will become
+
+01:22:47.100 --> 01:22:49.560
+eventually a null hypothesis. This is what I'm going to say
+
+01:22:49.560 --> 01:22:53.120
+over here. It simply means that that, you know, everyone is
+
+01:22:53.120 --> 01:22:56.780
+going to get equal marks. Right. It simply means I'm also
+
+01:22:56.780 --> 01:22:59.980
+trying to say, in other words, that average of, mean of or
+
+01:22:59.980 --> 01:23:05.740
+mu of A is sorry, mu of A is equal to mu of B is equal to mu
+
+01:23:05.740 --> 01:23:08.440
+of C. This is what I'm trying to say. In other words,
+
+01:23:08.480 --> 01:23:13.760
+hypothetically, OK, fine. My alternate says that that at
+
+01:23:13.760 --> 01:23:22.950
+least one is different. At least at least one is. Different,
+
+01:23:23.110 --> 01:23:26.530
+maybe C is different from A and B, B is different from A and
+
+01:23:26.530 --> 01:23:29.430
+C, A is different from B and C, at least one is different.
+
+01:23:29.530 --> 01:23:32.110
+Right. At least one one is different. My alternate
+
+01:23:32.110 --> 01:23:38.210
+hypothesis. Right. So here, basically, ANOVA is going to
+
+01:23:38.210 --> 01:23:41.810
+help me out to just prove or disapprove that all of them are
+
+01:23:41.810 --> 01:23:46.230
+same or not. Again, ANOVA never try to tell you that which
+
+01:23:46.230 --> 01:23:50.130
+one is different. No. A is different or B is different or C
+
+01:23:50.130 --> 01:23:52.930
+is different. No, ANOVA never tells you that. ANOVA always
+
+01:23:52.930 --> 01:23:57.390
+try to tell you that are they equal or they are not. Right.
+
+01:23:57.450 --> 01:24:00.030
+And based on that, you try to establish a null hypothesis or
+
+01:24:00.030 --> 01:24:05.110
+maybe an alternate hypothesis at any point. Yes. OK, now.
+
+01:24:06.890 --> 01:24:12.530
+So. Maybe we can try to basically, like, you know, establish
+
+01:24:12.530 --> 01:24:15.910
+it with respect to this formula and that there is a very
+
+01:24:15.910 --> 01:24:20.930
+long calculation we'll have to go through and then we will
+
+01:24:20.930 --> 01:24:25.210
+be able to basically establish it. Yeah. So till this point,
+
+01:24:25.310 --> 01:24:26.230
+are we able to understand?
+
+01:24:31.760 --> 01:24:35.520
+Yeah. Let's try to solve it. It's lengthy, but it's easy.
+
+01:24:35.640 --> 01:24:38.080
+It's calculation is not difficult at all. It's very, very
+
+01:24:38.080 --> 01:24:40.500
+lengthy. So within then there is something called as SS
+
+01:24:40.500 --> 01:24:43.480
+square summation of a square in between summation of a
+
+01:24:43.480 --> 01:24:47.900
+square within all those long tails like goes into one single
+
+01:24:47.900 --> 01:24:51.100
+conclusion that whether all the groups are same and all the
+
+01:24:51.100 --> 01:24:54.240
+groups are not same as simple as that, I mean, like apart
+
+01:24:54.240 --> 01:24:56.980
+from that, there is nothing. So group wise, whenever we have
+
+01:24:56.980 --> 01:24:59.240
+to do a comparison, we can go ahead with the ANOVA.
+
+01:25:11.500 --> 01:25:15.940
+OK, so let's do one thing. Let's start doing a math over
+
+01:25:15.940 --> 01:25:20.840
+here. So first of all, we have this data. Let's remember 5,
+
+01:25:20.960 --> 01:25:27.320
+7, 8, 9, 10, 11, 12, 13. OK, fine. So for method A. Method
+
+01:25:27.320 --> 01:25:31.700
+A, let's try to find out a mean. So 5 plus 6 plus 7 divided
+
+01:25:31.700 --> 01:25:35.640
+by 3 is equals to 6. Method B.
+
+01:25:39.410 --> 01:25:44.070
+Method B. So basically 8 plus 9
+
+01:25:46.440 --> 01:25:54.960
+plus 10 divided by 3 is equals to 9. Method C. 11 plus 12
+
+01:25:54.960 --> 01:26:00.840
+plus 13 divided by. 3 is equals to 12. OK, so average we are
+
+01:26:00.840 --> 01:26:03.040
+able to find out average 6, 9 and 12. This is the average
+
+01:26:03.040 --> 01:26:07.620
+that we are able to find out. OK, fine for the mean. Now, so
+
+01:26:07.620 --> 01:26:12.040
+this is between method A, B and C, right? There is something
+
+01:26:12.040 --> 01:26:14.560
+called as grand mean. So this is this was my step number
+
+01:26:14.560 --> 01:26:20.280
+one, let's say finding out the local group wise mean. Step
+
+01:26:20.280 --> 01:26:23.260
+one, step two, step
+
+01:26:26.500 --> 01:26:34.680
+two grand mean. Grand mean. Simply means that that 5 plus 6
+
+01:26:34.680 --> 01:26:41.100
+plus 7 plus 8 plus 9 plus 10 plus 11 plus 12 plus 13. The
+
+01:26:41.100 --> 01:26:45.840
+whole data divided by what? So 9 is going to be what? So it
+
+01:26:45.840 --> 01:26:50.480
+is going to be 9. So my grand mean is going to be 9. OK, now
+
+01:26:50.480 --> 01:26:54.080
+step three. Like I said, calculation is a bit lengthy, but
+
+01:26:54.080 --> 01:26:56.920
+yeah, very, very easy calculation. Step three. Step three.
+
+01:26:58.020 --> 01:27:01.380
+So step one between the groups, we are able to find out the
+
+01:27:01.380 --> 01:27:04.720
+mean average. Then the step two. So the grand mean we are
+
+01:27:04.720 --> 01:27:08.320
+able to find out a step three, right? Step three. So
+
+01:27:08.320 --> 01:27:11.300
+calculation between a group of variance. This is some
+
+01:27:11.300 --> 01:27:14.380
+variation we will be able to find out. So calculate,
+
+01:27:14.600 --> 01:27:18.880
+calculate between
+
+01:27:21.210 --> 01:27:23.010
+group variation.
+
+01:27:28.210 --> 01:27:31.270
+So there is something called a summation of a square between
+
+01:27:31.270 --> 01:27:35.350
+S, S, B. So summation of a square between means what? So
+
+01:27:35.350 --> 01:27:39.290
+summation of a square between simply means that there are
+
+01:27:39.290 --> 01:27:42.350
+three groups, right? And number of students in all these
+
+01:27:42.350 --> 01:27:45.590
+three groups are basically like a three, three and three. So
+
+01:27:45.590 --> 01:27:49.870
+here summation of a square says that between says that that
+
+01:27:49.870 --> 01:27:53.250
+N, which is nothing but like a three between the groups and
+
+01:27:53.250 --> 01:28:03.740
+then mean of group A minus the grand mean plus mean of group
+
+01:28:03.740 --> 01:28:10.360
+B minus a grand mean. Plus for this case, mean of group C
+
+01:28:10.360 --> 01:28:16.180
+minus grand mean. Yeah, this is something. So here mean we
+
+01:28:16.180 --> 01:28:19.160
+are able to find out. So for six, nine and twelve for group
+
+01:28:19.160 --> 01:28:21.480
+A, B and C and grand mean is what? Grand mean is basically
+
+01:28:21.480 --> 01:28:24.760
+nine. So and total number of like, you know, groups are a
+
+01:28:24.760 --> 01:28:29.740
+total number of elements in every like a number of groups.
+
+01:28:29.800 --> 01:28:33.260
+Every group is having three students. So three students. And
+
+01:28:33.260 --> 01:28:41.780
+then here. So six. Minus nine of a square for a. Plus nine
+
+01:28:41.780 --> 01:28:47.540
+minus nine of a square plus twelve minus nine of a square.
+
+01:28:47.760 --> 01:28:51.160
+OK, so after doing a math, you will be able to find out it
+
+01:28:51.160 --> 01:28:54.680
+is going to be fifty four. So summation of a square between
+
+01:28:54.680 --> 01:28:59.080
+between the groups is basically fifty four. This is what we
+
+01:28:59.080 --> 01:29:01.900
+are able to find out. So between a group variation, you can
+
+01:29:01.900 --> 01:29:05.560
+say, you know, it is going to be fifty four. So if you are
+
+01:29:05.560 --> 01:29:08.900
+able to find out. Between A, B and C. So in A, in B and C,
+
+01:29:08.940 --> 01:29:11.720
+also, we have to find out. So step four, step
+
+01:29:13.960 --> 01:29:24.750
+four, calculate within, calculate within group variance.
+
+01:29:26.770 --> 01:29:30.930
+Variation, you can say. So now for a method, A, we have
+
+01:29:30.930 --> 01:29:36.720
+three groups, right? Method A groups. So for method A mean
+
+01:29:36.720 --> 01:29:46.140
+is what? Six. So here data minus six of a square plus. data
+
+01:29:46.140 --> 01:29:51.620
+minus 6 of a square plus data third data minus 6 of a square
+
+01:29:51.620 --> 01:29:56.620
+eventually it is going to be 2 so for method a uh like you
+
+01:29:56.620 --> 01:30:01.240
+know this one summation of a square within is 6 for method b
+
+01:30:01.240 --> 01:30:10.340
+second group method b group number 2 so data minus its
+
+01:30:10.340 --> 01:30:15.780
+average square plus data minus its sorry 8 and then 9 right
+
+01:30:15.780 --> 01:30:26.810
+9 minus 9 square plus data so 10 minus 9 square is equals to
+
+01:30:26.810 --> 01:30:30.810
+if you do the math it will be 2 then method
+
+01:30:32.470 --> 01:30:39.170
+c third method so here uh data so 11 minus 12 of a square 11
+
+01:30:39.170 --> 01:30:45.630
+sorry 12 minus 12 of a square and then 13 minus 12 of a
+
+01:30:45.630 --> 01:30:48.530
+square so again even eventually it is going to be 2 so
+
+01:30:48.530 --> 01:30:52.630
+within the group we are able to like this so summation of a
+
+01:30:52.630 --> 01:30:55.650
+square summation of a square within is going to be what 2
+
+01:30:55.650 --> 01:31:01.090
+plus 2 plus 2 2 plus 2 plus 2 is equals to 6 so ssb between
+
+01:31:01.090 --> 01:31:03.290
+we are able to find out within we are able to find out
+
+01:31:03.290 --> 01:31:06.170
+method a method b method c summation of a square within is
+
+01:31:06.170 --> 01:31:08.710
+going to be 2 plus 2 plus 2 so within group variance
+
+01:31:08.710 --> 01:31:13.630
+variation is basically 6 okay so this is our next step so
+
+01:31:13.630 --> 01:31:19.630
+next step number 5 is what step number 5 is step number 5 is
+
+01:31:19.630 --> 01:31:22.730
+basically so find out a degree of freedom i think we all
+
+01:31:22.730 --> 01:31:25.510
+know degree of freedom right degree of freedom so again
+
+01:31:25.510 --> 01:31:28.330
+degree of freedom between the group and within the group
+
+01:31:28.330 --> 01:31:32.110
+this is what we are supposed to find out so total number of
+
+01:31:32.110 --> 01:31:34.390
+groups are basically like you know number of groups are
+
+01:31:34.390 --> 01:31:40.170
+basically 3 right uh total values are 9 basically right so
+
+01:31:40.170 --> 01:31:43.670
+between a group uh degree of freedom between
+
+01:31:46.480 --> 01:31:53.200
+group degree of freedom is uh going to be we have three
+
+01:31:53.200 --> 01:31:56.820
+groups minus one is going to be two within the group
+
+01:32:00.080 --> 01:32:04.160
+within group degree of freedom so we have like a nine data
+
+01:32:04.160 --> 01:32:07.760
+total line data into three groups so nine minus and we have
+
+01:32:07.760 --> 01:32:10.740
+three such groups so nine minus three is equal to six so
+
+01:32:10.740 --> 01:32:13.920
+this is basically uh between and within known it's not eight
+
+01:32:13.920 --> 01:32:16.860
+basically three groups right and then nine three minus one
+
+01:32:16.860 --> 01:32:19.160
+three minus one three minus one total is basically six right
+
+01:32:19.160 --> 01:32:24.320
+so okay fine so we are able to find out this one now once
+
+01:32:24.320 --> 01:32:27.120
+you are able to find out between and within then step number
+
+01:32:27.120 --> 01:32:31.680
+six a step number there are so many lengthy steps to find
+
+01:32:31.680 --> 01:32:34.560
+out this you know an over but that's fine so there is
+
+01:32:34.560 --> 01:32:39.580
+something called as mean square mean square square we tried
+
+01:32:39.580 --> 01:32:41.740
+to find out what is the mean square so there is something
+
+01:32:41.740 --> 01:32:46.540
+called as mean square between abc right and mean square
+
+01:32:46.540 --> 01:32:50.660
+within w so mean square between is nothing but summation of
+
+01:32:50.660 --> 01:32:53.980
+square to the square between divided by degree of freedom
+
+01:32:53.980 --> 01:32:59.040
+between yes so summation of a square if you remember between
+
+01:32:59.040 --> 01:33:06.120
+was 54 was 54 okay so here 54 and degree of freedom is what
+
+01:33:06.120 --> 01:33:12.060
+3 minus 1 which was 2 so it is going to be 27 then mean
+
+01:33:12.060 --> 01:33:16.920
+squared within right so summation of a square within so what
+
+01:33:16.920 --> 01:33:18.640
+is the summation of a square within summation of a square
+
+01:33:18.640 --> 01:33:22.540
+within is 6 right so basically 6 divided by degree of
+
+01:33:22.540 --> 01:33:25.600
+freedom degree of freedom is also 6 right so it is going to
+
+01:33:25.600 --> 01:33:31.800
+be 1 okay fine now step number 7 step number 7 so what we
+
+01:33:31.800 --> 01:33:38.620
+try to do so we try to find out f statistics f stats f stats
+
+01:33:38.620 --> 01:33:44.280
+says that that mean squared between divided by mean square
+
+01:33:44.280 --> 01:33:49.460
+within so 27 divided by 1 is equals to 27. This is the mean
+
+01:33:49.460 --> 01:33:52.540
+squared between. This is what we have to find out yes this
+
+01:33:52.540 --> 01:33:56.080
+is something that we have to basically find out now as per
+
+01:33:56.080 --> 01:33:59.400
+my calculation it was very simple calculation see every time
+
+01:33:59.400 --> 01:34:01.580
+within between within between within between so first
+
+01:34:01.580 --> 01:34:04.440
+average then summation of a square then mean squared in
+
+01:34:04.440 --> 01:34:07.440
+between degree of freedom only these steps we have followed
+
+01:34:07.440 --> 01:34:10.160
+nothing much so calculation wise it's not at all difficult
+
+01:34:10.160 --> 01:34:14.140
+it's a piece of cake right so if this is the final value
+
+01:34:14.140 --> 01:34:16.860
+right this is the final value that we are able to find out
+
+01:34:16.860 --> 01:34:20.840
+now we have to look into f table now there is a table called
+
+01:34:20.840 --> 01:34:23.640
+as f table so we have seen jet table we have seen t table we
+
+01:34:23.640 --> 01:34:27.220
+have seen chi table right now we will see f table as well
+
+01:34:27.220 --> 01:34:31.020
+now in f table right in f table as you are doing a group
+
+01:34:31.020 --> 01:34:36.040
+wise comparison between and within right so degree of
+
+01:34:36.040 --> 01:34:39.280
+freedom plays a crucial role so degree of freedom between
+
+01:34:39.280 --> 01:34:43.760
+was what between was basically 2 3 groups minus 1 degree of
+
+01:34:43.760 --> 01:34:47.860
+freedom within was what so total 6 right and significance
+
+01:34:47.860 --> 01:34:51.060
+label error rate. I'm going to consider as 0.5 is the error
+
+01:34:51.060 --> 01:34:55.560
+rate right so now based on these values you have to go and
+
+01:34:55.560 --> 01:34:59.340
+check you have to go and check what f table basically so
+
+01:34:59.340 --> 01:35:00.020
+fine go and check
+
+01:35:06.340 --> 01:35:12.360
+f distribution table so now look anywhere right you will be
+
+01:35:12.360 --> 01:35:17.200
+able to find out so degree of freedom of numerator degree of
+
+01:35:17.200 --> 01:35:20.660
+freedom of like you know denominator so now you have to like
+
+01:35:20.660 --> 01:35:26.380
+you know check that what is my degree of freedom. and plus
+
+01:35:26.380 --> 01:35:31.920
+alpha values alpha 0.05 0.01 alpha is basically 0.25 alpha
+
+01:35:31.920 --> 01:35:34.820
+is basically 0.05 so I will be looking into this table right
+
+01:35:34.820 --> 01:35:42.440
+0.05 table I will be looking into it and then here so what I
+
+01:35:42.440 --> 01:35:49.320
+will do so I will try to look into degree of freedom this
+
+01:35:52.390 --> 01:35:59.150
+one 5.14 yes because I had degree of freedom is equal to 6.4
+
+01:35:59.150 --> 01:36:02.310
+degrees of freedom. six of what so here it is already
+
+01:36:02.310 --> 01:36:06.270
+mentioned so like a degree of freedom n uh basically this
+
+01:36:06.270 --> 01:36:11.570
+columns are like a defining basically a numerator numerator
+
+01:36:11.570 --> 01:36:16.690
+is what between right and denominator is what within okay so
+
+01:36:16.690 --> 01:36:20.250
+fine so here within between so within was basically like a
+
+01:36:20.250 --> 01:36:25.350
+six so let me come down to this 0.05 and uh mark it down so
+
+01:36:25.350 --> 01:36:31.850
+it was six and uh between two right so it is going to be 5
+
+01:36:31.850 --> 01:36:36.090
+.14 so my f critical value this is called as what f critical
+
+01:36:36.090 --> 01:36:40.630
+right f critical so my f critical value is what my f
+
+01:36:40.630 --> 01:36:45.910
+critical value is technically 5.14 okay so my f critical
+
+01:36:45.910 --> 01:36:49.110
+value let me write down f
+
+01:36:51.590 --> 01:36:57.690
+critical is 5.14 and the f which i have received here right
+
+01:36:57.690 --> 01:37:06.710
+is 27 so 27 is greater than 5.14 now it's a verdict time
+
+01:37:06.710 --> 01:37:09.970
+reject the null or accept the null yes
+
+01:37:15.000 --> 01:37:16.800
+tell me my
+
+01:37:18.810 --> 01:37:23.830
+critical is 27 sorry my f value is 27 the value which i have
+
+01:37:23.830 --> 01:37:27.290
+received from the table is basically 5.14 reject or accept
+
+01:37:27.290 --> 01:37:31.790
+except i think now everyone have agreed and i believe
+
+01:37:31.790 --> 01:37:35.310
+everyone has learned bingo i'm happy that all of you are
+
+01:37:35.310 --> 01:37:38.730
+able to give me the 100 correct answer it simply means we
+
+01:37:38.730 --> 01:37:42.390
+all have learned today's class was successful right you all
+
+01:37:42.390 --> 01:37:46.510
+are able to understand so minus 27 so there is a line 5.14
+
+01:37:46.510 --> 01:37:50.290
+i'm going beyond that line way way beyond this line right so
+
+01:37:50.290 --> 01:37:56.410
+obviously like you know uh h naught will be rejected so
+
+01:37:56.410 --> 01:38:00.730
+whatsoever hypothesis that i have taken that hypothesis is
+
+01:38:00.730 --> 01:38:04.110
+technically wrong yeah that hypothesis is technically wrong
+
+01:38:04.110 --> 01:38:07.150
+so this is where like you know you have done a three group
+
+01:38:07.150 --> 01:38:11.950
+comparison method a b and c and then you are coming into the
+
+01:38:11.950 --> 01:38:16.090
+conclusion that whatsoever assumptions that you have taken
+
+01:38:16.090 --> 01:38:22.190
+over here right whatsoever that all the teaching methods are
+
+01:38:22.190 --> 01:38:25.610
+same right all the teaching methods are same in natural
+
+01:38:25.610 --> 01:38:30.690
+right no it's not same it's different and we are able to see
+
+01:38:30.690 --> 01:38:33.050
+the clear result method c is different that's the reason
+
+01:38:33.050 --> 01:38:35.930
+people are getting students are getting better result there
+
+01:38:35.930 --> 01:38:41.650
+as compared to any other one right so this alternate is
+
+01:38:41.650 --> 01:38:46.630
+going to be what true making sense guys all we able to learn
+
+01:38:46.630 --> 01:38:48.550
+understand null
+
+01:38:50.630 --> 01:38:55.650
+alternate anova chi all these things p values yes yeah easy
+
+01:38:55.650 --> 01:38:59.310
+right again no need to remember anything it's it's very like
+
+01:38:59.310 --> 01:39:02.510
+sorted things i mean easy to understand just you know you
+
+01:39:02.510 --> 01:39:04.550
+have to like go with the flow you just have to understand
+
+01:39:04.550 --> 01:39:08.410
+where you have to use what that's it yeah completely amazing
+
+01:39:08.410 --> 01:39:12.190
+amazing great so fine guys that's it for today's class
+
+01:39:12.190 --> 01:39:14.310
+nothing much if you have any question try to put up your
+
+01:39:14.310 --> 01:39:17.950
+question here or maybe you can you know uh raise your hand
+
+01:39:17.950 --> 01:39:18.950
+so
+
+01:39:21.860 --> 01:39:27.540
+let me name it so s t a t s what is the date today is 30th
+
+01:39:27.540 --> 01:39:35.020
+june the ai journalist badge right the ai journalist batch
+
+01:39:35.020 --> 01:39:39.240
+right i have saved it it will be shared inside your inside
+
+01:39:42.000 --> 01:39:44.660
+your uh dashboard okay
+
+01:39:46.860 --> 01:39:53.000
+uh please elaborate again how a false negative is okay utso
+
+01:39:53.000 --> 01:39:58.440
+have asked me a question that how false negative is uh you
+
+01:39:58.440 --> 01:40:03.860
+know dangerous any any idea based on my example itself yes
+
+01:40:03.860 --> 01:40:05.000
+yeah
+
+01:40:07.720 --> 01:40:10.560
+i think this is one of the important concept in the stats as
+
+01:40:10.560 --> 01:40:12.920
+well as you know medicine in a business or in a business
+
+01:40:12.920 --> 01:40:17.780
+also you will be able to find out that you know uh false
+
+01:40:17.780 --> 01:40:21.340
+negative is very very dangerous okay let
+
+01:40:27.290 --> 01:40:30.570
+me give you one example yes utso maybe it will help you out
+
+01:40:30.570 --> 01:40:34.990
+to understand so let's say uh there is no fire right that's
+
+01:40:34.990 --> 01:40:38.670
+one of the imagination you have alternate is what alternate
+
+01:40:38.670 --> 01:40:42.670
+there is a fire fine so fire no fire situation you are into
+
+01:40:42.670 --> 01:40:48.630
+it yes so uh basically uh case wise if i'll talk about case
+
+01:40:48.630 --> 01:40:53.310
+one so if no fire exists in that case alarm stay silent i
+
+01:40:53.310 --> 01:40:55.970
+mean like there should there's no alarm which it should like
+
+01:40:55.970 --> 01:41:02.930
+you know uh ring itself uh then uh basically uh no let's
+
+01:41:02.930 --> 01:41:08.050
+suppose like you know uh there is no fire but someone has
+
+01:41:08.050 --> 01:41:11.830
+pressed the alarm button what will happen there is no fire
+
+01:41:11.830 --> 01:41:15.510
+again just focus on my words for next two minutes yeah and
+
+01:41:15.510 --> 01:41:18.350
+answer my question you will be able to understand so there
+
+01:41:18.350 --> 01:41:23.210
+is no fire yeah there is no fire and alarm has been raised
+
+01:41:23.210 --> 01:41:28.090
+what situation it is type one error type two error
+
+01:41:31.340 --> 01:41:35.660
+false positive or false negative there
+
+01:41:37.610 --> 01:41:42.830
+is no fire right but alarm has been raised what you will say
+
+01:41:42.830 --> 01:41:47.090
+what you will call false positive or false negative okay
+
+01:41:47.090 --> 01:41:51.550
+everyone is saying that false positive okay fine false
+
+01:41:51.550 --> 01:41:56.750
+positive fine now come to the reverse situation situation
+
+01:41:56.750 --> 01:42:02.650
+number three there is a fire alarm was not raised what
+
+01:42:02.650 --> 01:42:10.040
+situation it is there is a fire yes there is a fire but no
+
+01:42:10.040 --> 01:42:14.680
+one have raised the alarm what is that can i say it's a yes
+
+01:42:17.920 --> 01:42:25.260
+it's a false negative right it's a false negative now which
+
+01:42:25.260 --> 01:42:28.060
+situation is more critical false positive or false negative
+
+01:42:35.110 --> 01:42:38.930
+no fire alarm is raised situation number one there are fire
+
+01:42:38.930 --> 01:42:41.430
+no alarm raised situation number two now out of these two
+
+01:42:41.430 --> 01:42:47.170
+which one is more dangerous can i say false negative yeah so
+
+01:42:47.170 --> 01:42:49.850
+also i think you are able to get your answer false negative
+
+01:42:49.850 --> 01:42:53.010
+now do a comparison with the medical cases with judiciaries
+
+01:42:53.010 --> 01:42:56.010
+you can say with the digital life i i think you will be able
+
+01:42:56.010 --> 01:42:58.530
+to relate more and more yeah that's what i said false
+
+01:42:58.530 --> 01:43:02.230
+negative is more dangerous situation so when something has
+
+01:43:02.230 --> 01:43:05.870
+happened happened actually but you are not able to or your
+
+01:43:05.870 --> 01:43:09.490
+system is not able to highlight it so that's a that
+
+01:43:09.490 --> 01:43:13.130
+situation is called as false negative kind of a situation
+
+01:43:13.130 --> 01:43:18.950
+right so that situation is okay so think in this way that
+
+01:43:18.950 --> 01:43:21.110
+something has happened something real has happened but
+
+01:43:21.110 --> 01:43:24.090
+system is not able to highlight it that situation is
+
+01:43:24.090 --> 01:43:27.590
+basically more a dangerous situation as compared to a
+
+01:43:27.590 --> 01:43:30.310
+situation where nothing has happened but still it's been
+
+01:43:30.310 --> 01:43:33.610
+highlighted okay let me give you another example corruption
+
+01:43:33.610 --> 01:43:40.070
+example corruption has happened no one have highlighted one
+
+01:43:40.070 --> 01:43:44.150
+situation corruption has not happened but still people are
+
+01:43:44.150 --> 01:43:48.890
+talking about it which one is the bad situation yes
+
+01:43:52.700 --> 01:43:57.320
+tell me again i'm going to reiterate myself right corruption
+
+01:43:57.320 --> 01:44:00.920
+has happened no one have highlighted one situation right
+
+01:44:00.920 --> 01:44:03.240
+situation number one let's say right let's name it as a
+
+01:44:03.240 --> 01:44:06.220
+situation number one corruption has not happened but still
+
+01:44:06.220 --> 01:44:08.120
+people have highlighted people are talking about it
+
+01:44:08.120 --> 01:44:10.660
+situation number two which one is more dangerous one or two
+
+01:44:10.660 --> 01:44:11.740
+okay
+
+01:44:13.980 --> 01:44:16.460
+now so we're saying first situation so i think you are able
+
+01:44:16.460 --> 01:44:18.780
+to understand that corruption has happened but no one is
+
+01:44:18.780 --> 01:44:21.540
+highlighting it that is more dangerous as compared to
+
+01:44:21.540 --> 01:44:24.440
+corruption has not happened but still we're talking about it
+
+01:44:24.440 --> 01:44:27.580
+means we are a healthy society right or maybe at least
+
+01:44:27.580 --> 01:44:29.660
+someone is raising so that you know in future it is not
+
+01:44:29.660 --> 01:44:33.660
+going to happen yeah i mean like disaster should not come so
+
+01:44:33.660 --> 01:44:37.920
+okay i can give you another i can give you like i mean like
+
+01:44:37.920 --> 01:44:42.640
+daily life thousands of other examples right that uh you
+
+01:44:42.640 --> 01:44:47.400
+know uh gen ai is important you are not learning or gen ai
+
+01:44:47.400 --> 01:44:49.640
+is not important i'm like a lot of example you can you can
+
+01:44:49.640 --> 01:44:53.840
+just on your own fine hope hope this class was like you know
+
+01:44:53.840 --> 01:44:58.520
+uh fruitful and all of you are able to learn something uh
+
+01:44:58.520 --> 01:45:01.140
+same tomorrow so we'll try to understand a couple of more
+
+01:45:01.140 --> 01:45:03.660
+mathematical concepts so tomorrow we'll discuss about
+
+01:45:03.660 --> 01:45:06.620
+something from algebra something from probability uh
+
+01:45:06.620 --> 01:45:10.220
+something from calculus those old school days things uh
+
+01:45:10.220 --> 01:45:13.040
+we'll try to understand uh some differential we'll try to
+
+01:45:13.040 --> 01:45:15.920
+understand some sort of a probability question we'll try to
+
+01:45:15.920 --> 01:45:20.700
+solve uh some algebraic stuff we'll try to learn yeah so
+
+01:45:20.700 --> 01:45:25.880
+yeah be ready i think tomorrow is a final match right for
+
+01:45:25.880 --> 01:45:28.540
+apl but i believe that is going to happen after our class
+
+01:45:28.540 --> 01:45:35.280
+yes so yeah i'm expecting that all of you are going to join
+
+01:45:35.280 --> 01:45:40.700
+the class otherwise you know since last two months many
+
+01:45:40.700 --> 01:45:43.000
+people are not joining class just because they were busy in
+
+01:45:43.000 --> 01:45:44.500
+a match so
+
+01:45:46.930 --> 01:45:51.230
+tomorrow chutti last week chutti thana already so can't give
+
+01:45:51.230 --> 01:45:55.310
+chutti again and again so last week i was like out for some
+
+01:45:55.310 --> 01:45:59.130
+personal reason so yeah i just like i have given a leave
+
+01:45:59.130 --> 01:46:01.870
+it's last sunday only sorry to be ahead of class so everyone
+
+01:46:01.870 --> 01:46:03.810
+thank you so much take care and see you again next week
+
+01:46:03.810 --> 01:46:05.650
+sorry tomorrow next class
+

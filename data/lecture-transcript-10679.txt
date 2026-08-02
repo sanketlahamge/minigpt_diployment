@@ -1,0 +1,3647 @@
+WEBVTT
+
+00:07:28.070 --> 00:07:31.150
+okay so hi everyone good afternoon i believe i'm audible and
+
+00:07:31.150 --> 00:07:36.610
+visible to all of you guys so if you can ping me inside a
+
+00:07:36.610 --> 00:07:41.170
+chat if i'm audible and visible to all of you okay so yeah i
+
+00:07:41.170 --> 00:07:43.210
+believe i'm audible and visible to all of you so let's start
+
+00:07:43.210 --> 00:07:47.070
+with the class guys and today we are going to basically talk
+
+00:07:47.070 --> 00:07:52.530
+about exception handling in python so yesterday you know i
+
+00:07:52.530 --> 00:07:55.250
+was talking about loops for loop and while loop we have
+
+00:07:55.250 --> 00:07:59.190
+discussed and then we were talking about basically a
+
+00:07:59.190 --> 00:08:02.050
+function so i think that discussion is also done and i have
+
+00:08:02.050 --> 00:08:04.750
+given you an assignment so i'm assuming that you all are
+
+00:08:04.750 --> 00:08:08.870
+working on that particular part now let's start with the
+
+00:08:08.870 --> 00:08:11.410
+exception handling a new chapter okay
+
+00:08:20.720 --> 00:08:23.160
+so this was the assignment and it's already available inside
+
+00:08:23.160 --> 00:08:26.720
+your material section so if you are going to download it you
+
+00:08:26.720 --> 00:08:29.240
+will be able to find out the assignment and yes you can
+
+00:08:29.240 --> 00:08:34.120
+start doing it you so hello hello everyone hello hello okay
+
+00:08:34.120 --> 00:08:38.040
+so here uh today we will try to understand we will try to
+
+00:08:38.040 --> 00:08:42.760
+learn exception handling so
+
+00:08:46.280 --> 00:08:49.460
+just open up your jupyter notebook and
+
+00:08:51.830 --> 00:08:55.310
+we can start coding it so basically this exception handling
+
+00:08:55.310 --> 00:08:58.610
+is again a concept you will be able to find out not just in
+
+00:08:58.610 --> 00:09:02.830
+python but in almost all the programming languages uh first
+
+00:09:02.830 --> 00:09:05.410
+of all let's try to understand that why exception handling
+
+00:09:05.410 --> 00:09:09.410
+comes into python right so here if i'm going to do something
+
+00:09:09.410 --> 00:09:13.450
+like 10 divided by zero so mathematically it's correct i
+
+00:09:13.450 --> 00:09:16.930
+would say so 10 divided by zero is not a incorrect statement
+
+00:09:16.930 --> 00:09:20.870
+but if i'm going to execute it inside python so python says
+
+00:09:20.870 --> 00:09:25.250
+that that basically it's a kind of a error for python and
+
+00:09:25.250 --> 00:09:29.970
+they have given this name as a zero division error so as per
+
+00:09:29.970 --> 00:09:35.050
+python it's a error but yes logically 10 divided by zero
+
+00:09:35.050 --> 00:09:36.410
+should give me infinite error so let's try to understand
+
+00:09:36.410 --> 00:09:39.050
+that so anything divided by zero should give me infinity as
+
+00:09:39.050 --> 00:09:42.670
+simple as that as per the arithmetic but yes it is a
+
+00:09:42.670 --> 00:09:47.210
+exception or it's a error over here now likewise so you will
+
+00:09:47.210 --> 00:09:50.190
+be able to find out many other situation many other scenario
+
+00:09:50.190 --> 00:09:57.030
+for example so if i'm going to like write input and if i'm
+
+00:09:57.030 --> 00:10:01.870
+going to ask a user that enter a number and let's suppose if
+
+00:10:01.870 --> 00:10:05.150
+i'm doing a typecasting of that particular entered number
+
+00:10:05.150 --> 00:10:06.410
+okay so if i'm going to type a number and let's suppose if
+
+00:10:06.410 --> 00:10:09.270
+i'm going to enter a number let's suppose i have entered
+
+00:10:09.270 --> 00:10:13.210
+three four five yes it is going to work well and it will be
+
+00:10:13.210 --> 00:10:16.630
+able to do a typecasting as well but let's say i have asked
+
+00:10:16.630 --> 00:10:20.790
+an user and user is not trying to enter a number but user is
+
+00:10:20.790 --> 00:10:23.750
+you know trying to enter some sort of a string over here and
+
+00:10:23.750 --> 00:10:26.690
+eventually i will not be able to convert it into a integer
+
+00:10:26.690 --> 00:10:30.150
+so in that situation it is going to give me an error saying
+
+00:10:30.150 --> 00:10:33.970
+that it's a value error and yes i was expecting something
+
+00:10:33.970 --> 00:10:36.390
+which i can convert but user is not going to be able to
+
+00:10:36.390 --> 00:10:36.590
+convert it into a integer so in that situation user have
+
+00:10:36.590 --> 00:10:40.270
+entered something which i'm not able to basically convert so
+
+00:10:40.270 --> 00:10:44.390
+again there is a error over here right now let's say i have
+
+00:10:44.390 --> 00:10:48.470
+a list and there is like a one two three uh which is
+
+00:10:48.470 --> 00:10:52.170
+available inside a list so list of zero if i'm going to
+
+00:10:52.170 --> 00:10:55.110
+write as we all know that that list is like i know stores
+
+00:10:55.110 --> 00:10:58.630
+all the data with respect to indexes so list of zero if i'm
+
+00:10:58.630 --> 00:11:01.790
+going to write so yeah that's completely fine but let's say
+
+00:11:01.790 --> 00:11:04.930
+if i'm writing list of maybe 10 so i'm trying to access
+
+00:11:04.930 --> 00:11:08.250
+something from 10th index is so in that situation it is
+
+00:11:08.250 --> 00:11:11.970
+going to give me index error so here we are getting index
+
+00:11:11.970 --> 00:11:14.810
+error here we are getting value error here we are getting
+
+00:11:14.810 --> 00:11:19.310
+zero division by error so yeah in some or other situation so
+
+00:11:19.310 --> 00:11:22.150
+i'm like trying to get some different different kind of a
+
+00:11:22.150 --> 00:11:25.090
+error right i'm trying to i'm able to get some sort of a
+
+00:11:25.090 --> 00:11:28.790
+different different kind of error now these kind of a
+
+00:11:28.790 --> 00:11:32.490
+situation can arrive even in a production system right even
+
+00:11:32.490 --> 00:11:34.730
+a system that you are going to host that you are going to
+
+00:11:34.730 --> 00:11:36.390
+deploy or a system that you are going to deploy that you are
+
+00:11:36.390 --> 00:11:39.970
+going to deploy that is going to serve my end user and at
+
+00:11:39.970 --> 00:11:43.690
+that point of a time so i should not like you know write a
+
+00:11:43.690 --> 00:11:47.770
+kind of a code so where it should go with the error because
+
+00:11:47.770 --> 00:11:51.090
+the the very simple thing is that that let's say if there
+
+00:11:51.090 --> 00:11:53.990
+will be an error right so let's say if i'm writing list
+
+00:11:53.990 --> 00:11:56.930
+index of 10 and after that i have written some printer
+
+00:11:56.930 --> 00:12:01.710
+statement right so here let's say if i'm going to execute it
+
+00:12:01.710 --> 00:12:04.450
+so you will be able to find out and you will be able to feel
+
+00:12:04.450 --> 00:12:11.590
+it over here that it is right so technically it is trying to
+
+00:12:11.590 --> 00:12:15.330
+execute this line of a code the very first line of a code
+
+00:12:15.330 --> 00:12:18.670
+that i have written so list of 10 and then eventually we are
+
+00:12:18.670 --> 00:12:23.750
+able to get a error right and it is not able to execute a
+
+00:12:23.750 --> 00:12:27.870
+very next line or whatsoever i am going to write after this
+
+00:12:27.870 --> 00:12:32.010
+so if we are getting an error here so it is not going to
+
+00:12:32.010 --> 00:12:37.290
+allow any piece of my code to get executed good or bad yeah
+
+00:12:37.290 --> 00:12:40.290
+wrong or right but yes it is not going to allow and that's a
+
+00:12:40.290 --> 00:12:43.430
+problem right so let's say if there will be an error and
+
+00:12:43.430 --> 00:12:46.550
+obviously we know that that code always runs in a sequential
+
+00:12:46.550 --> 00:12:49.990
+manner right it's not never runs in a random order but yeah
+
+00:12:49.990 --> 00:12:52.590
+it always runs in a sequential manner the way we are going
+
+00:12:52.590 --> 00:12:56.750
+to write it down so if there will be an error at line number
+
+00:12:56.750 --> 00:13:00.350
+one so whatsoever i have written in line number two or
+
+00:13:00.350 --> 00:13:04.470
+beyond this it is not going to execute it even though that
+
+00:13:04.470 --> 00:13:05.310
+piece of code is not going to be executed so it is not going
+
+00:13:05.310 --> 00:13:09.470
+to be executed right it is not going to be like it will not
+
+00:13:09.470 --> 00:13:13.330
+be executed and that's a big problem right that let's say i
+
+00:13:13.330 --> 00:13:16.950
+have written a big big system so where i have thousands and
+
+00:13:16.950 --> 00:13:20.950
+thousands of line of a code and if my code is going to break
+
+00:13:20.950 --> 00:13:24.550
+even at one single point it will not allow any other
+
+00:13:24.550 --> 00:13:27.950
+function or any other modules which i am going to write to
+
+00:13:27.950 --> 00:13:32.610
+get executed right that's a very very big problem and it's
+
+00:13:32.610 --> 00:13:35.310
+not like it will always happen because of a bug or something
+
+00:13:35.310 --> 00:13:36.130
+like that so it is not going to be like a buggy code no it's
+
+00:13:36.130 --> 00:13:38.510
+not like that right so basically code will give you a
+
+00:13:38.510 --> 00:13:40.930
+compile time issue itself so at the time of build you are
+
+00:13:40.930 --> 00:13:44.650
+going to fix it it may happen even though situation is going
+
+00:13:44.650 --> 00:13:46.690
+to be correct but yeah there is a possibility there is a
+
+00:13:46.690 --> 00:13:49.210
+chance that that because of some mistake because of some
+
+00:13:49.210 --> 00:13:53.750
+user wrong user input wrong data coming into my system so my
+
+00:13:53.750 --> 00:13:58.690
+code may break there could be a kind of a situation so how
+
+00:13:58.690 --> 00:14:02.510
+to prevent from or how to safeguard ourselves from that kind
+
+00:14:02.510 --> 00:14:05.310
+of a situation and this is where the chapter is going to be
+
+00:14:05.310 --> 00:14:08.030
+in the next chapter exception handling comes into picture so
+
+00:14:08.030 --> 00:14:10.170
+basically the chapter which we are going to learn that
+
+00:14:10.170 --> 00:14:14.050
+concept that we are going to learn so it's it's not just a
+
+00:14:14.050 --> 00:14:17.550
+concept i would say it's something that we all are supposed
+
+00:14:17.550 --> 00:14:20.730
+to implement today onwards so whenever we are writing a code
+
+00:14:20.730 --> 00:14:23.610
+whether we are writing a one line of a code or whether we
+
+00:14:23.610 --> 00:14:26.450
+are writing a 10 line of a code so whenever we are writing a
+
+00:14:26.450 --> 00:14:29.710
+code for a production grid system we have to accommodate
+
+00:14:29.710 --> 00:14:34.750
+exception handling so that my system should not break is it
+
+00:14:34.750 --> 00:14:38.870
+making sense to all of us yeah so why we are going to learn
+
+00:14:38.870 --> 00:14:43.970
+exception handling by the way yep everyone inside the chat
+
+00:14:43.970 --> 00:14:48.830
+yes so that that's a whole idea basically that's a whole
+
+00:14:48.830 --> 00:14:52.990
+idea behind this exception handling that it's the must and
+
+00:14:52.990 --> 00:14:56.150
+must to have piece of things inside your code basis so
+
+00:14:56.150 --> 00:14:59.390
+whenever you will start writing that code and guys yes try
+
+00:14:59.390 --> 00:15:03.870
+to participate i can see a very less conversation inside a
+
+00:15:03.870 --> 00:15:09.430
+group so do not you know join a class you know just like
+
+00:15:09.430 --> 00:15:15.910
+you're watching a movie but yeah okay fine now so how do we
+
+00:15:15.910 --> 00:15:19.150
+do a exception handling to do a exception handling inside
+
+00:15:19.150 --> 00:15:22.290
+python so there is some sort of a block which has been
+
+00:15:22.290 --> 00:15:26.010
+defined and it says that that whenever you are writing a
+
+00:15:26.010 --> 00:15:29.390
+code or wherever you feel like that your code is kind of a
+
+00:15:29.390 --> 00:15:32.630
+risky code which may generate some sort of issues in a
+
+00:15:32.630 --> 00:15:36.410
+future so what you can do you can try to use it a particular
+
+00:15:36.410 --> 00:15:39.850
+block and try to keep all of those codes inside that
+
+00:15:39.850 --> 00:15:43.070
+particular block and the name of that block is basically try
+
+00:15:43.070 --> 00:15:46.750
+block yeah name of that block is basically try block so it
+
+00:15:46.750 --> 00:15:50.270
+says that that you know try to keep all of your code inside
+
+00:15:50.270 --> 00:15:53.270
+a try block it's a convention that we all are supposed to
+
+00:15:53.270 --> 00:15:56.550
+follow without miss right whether you are writing one line
+
+00:15:56.550 --> 00:15:59.150
+of a code or maybe a 10 line of a code but yeah you are
+
+00:15:59.150 --> 00:16:02.210
+supposed to follow that particular convention so here it
+
+00:16:02.210 --> 00:16:04.870
+says that that try to keep each and everything inside a try
+
+00:16:04.870 --> 00:16:07.230
+block yeah so let's say if i have a code inside a try block
+
+00:16:07.250 --> 00:16:10.770
+if i'm writing n is equals to 10 by 0 right so i'll be
+
+00:16:10.770 --> 00:16:15.030
+keeping where i'll be keeping inside this try block now try
+
+00:16:15.030 --> 00:16:18.370
+block inside that so we are keeping basically a risky code
+
+00:16:18.370 --> 00:16:22.030
+the risky piece of the code i'm trying to keep it now if
+
+00:16:22.030 --> 00:16:25.390
+there will be an issue right if there will be an issue over
+
+00:16:25.390 --> 00:16:29.190
+here so obviously you have to create something or you have
+
+00:16:29.190 --> 00:16:33.050
+to assign someone who will be able to handle it right who
+
+00:16:33.050 --> 00:16:37.290
+will be able to handle that piece of the risk basically that
+
+00:16:37.290 --> 00:16:40.550
+will be generated by your code base and this is where there
+
+00:16:40.550 --> 00:16:44.510
+is a block called as except comes into picture and inside
+
+00:16:44.510 --> 00:16:47.650
+except what we do so let me remove this part i'll remove
+
+00:16:47.650 --> 00:16:51.270
+this one and i'll write like a super class exception over
+
+00:16:51.270 --> 00:16:55.050
+here so what it does so basically it is going to help you
+
+00:16:55.050 --> 00:16:59.270
+out in terms of resolving the issues in terms of basically
+
+00:16:59.270 --> 00:17:02.630
+not resolving the issue like error wise but yeah so in terms
+
+00:17:02.630 --> 00:17:06.190
+of handling it that it will not break the system it will not
+
+00:17:06.190 --> 00:17:09.750
+give you this things so it will not break the system so here
+
+00:17:09.750 --> 00:17:12.330
+what i have done so this is this is one line of a code which
+
+00:17:12.330 --> 00:17:15.710
+i feel like a risky piece of the code so i have like a
+
+00:17:15.710 --> 00:17:18.290
+written this code over here and then if there will be an
+
+00:17:18.290 --> 00:17:21.790
+issue here in this line to handle this i have created a
+
+00:17:21.790 --> 00:17:25.670
+except block and inside that so i'm trying to call a pre
+
+00:17:25.670 --> 00:17:28.250
+-built class this class is already available exception class
+
+00:17:28.250 --> 00:17:31.670
+is already available and yeah so you cannot divide by zero
+
+00:17:31.670 --> 00:17:33.890
+this is the kind of a message and then i'm printing e is
+
+00:17:33.890 --> 00:17:36.810
+nothing but alias for exception i have given so that it will
+
+00:17:36.810 --> 00:17:38.970
+be able to print the message you can directly call exception
+
+00:17:38.970 --> 00:17:43.590
+as well now execute it right now execute it so how this flow
+
+00:17:43.590 --> 00:17:47.730
+works actually so whenever there will be an issue and we
+
+00:17:47.730 --> 00:17:49.830
+know that there will be an issue over here right there will
+
+00:17:49.830 --> 00:17:52.730
+be an issue over here so this is basically a zero division
+
+00:17:52.730 --> 00:17:55.810
+by error right this is the exact issue so whenever there
+
+00:17:55.810 --> 00:17:59.130
+will be an issue inside this try block it will give a
+
+00:17:59.130 --> 00:18:02.490
+control to a accept block and say that that okay you handle
+
+00:18:02.490 --> 00:18:04.010
+it and yes it is
+
+00:18:07.250 --> 00:18:10.750
+so here it is trying to print basically uh you cannot divide
+
+00:18:10.750 --> 00:18:14.410
+by zero so it's coming from where it's coming from my this
+
+00:18:14.410 --> 00:18:17.970
+print statement and then this error right division by zero
+
+00:18:17.970 --> 00:18:21.130
+it's coming from where coming from e so basically it is
+
+00:18:21.130 --> 00:18:23.630
+trying to understand that okay fine so this issue belongs to
+
+00:18:23.630 --> 00:18:26.370
+division by zero so let's try to print this message so that
+
+00:18:26.370 --> 00:18:29.130
+my user will be notified my user will be aware about it
+
+00:18:29.130 --> 00:18:32.210
+basically right so that is something that we have done over
+
+00:18:32.210 --> 00:18:33.310
+here now what is
+
+00:18:37.250 --> 00:18:40.230
+this code has failed right now the advantage I will be able
+
+00:18:40.230 --> 00:18:43.170
+to get over here that that if I'm writing like something
+
+00:18:43.170 --> 00:18:47.470
+after this right if I'm writing something after this it is
+
+00:18:47.470 --> 00:18:52.990
+going to work it is not blocking the next line right whereas
+
+00:18:52.990 --> 00:18:57.590
+it was blocking yeah it was basically blocking before but
+
+00:18:57.590 --> 00:19:01.170
+here it's not trying to block the next line so whatsoever
+
+00:19:01.170 --> 00:19:05.150
+code I will write after this and obviously whatsoever code I
+
+00:19:05.150 --> 00:19:07.570
+have to write even after this I have to keep it inside try
+
+00:19:07.570 --> 00:19:10.030
+except try except try except so that it will be able to
+
+00:19:10.030 --> 00:19:13.010
+handle the things amicably right in an amicable manner it
+
+00:19:13.010 --> 00:19:16.390
+must be able to handle the things so very very simple right
+
+00:19:16.390 --> 00:19:19.090
+so risky piece of code keep it inside the try block and then
+
+00:19:19.090 --> 00:19:22.510
+try to handle it inside a accept block so that it can show
+
+00:19:22.510 --> 00:19:25.770
+the proper message and it should not block any further
+
+00:19:25.770 --> 00:19:28.970
+process any further piece of the code that I have written it
+
+00:19:28.970 --> 00:19:31.870
+should not block it now let's take an example of that itself
+
+00:19:31.870 --> 00:19:39.510
+so I have created a list okay fine now uh try try yeah and
+
+00:19:39.510 --> 00:19:44.530
+then list of 10 fine exception E fine and then after that
+
+00:19:44.530 --> 00:19:48.230
+let's try to write some sort of a print so yes there will be
+
+00:19:48.230 --> 00:19:52.090
+an error what error index out of range error I am able to
+
+00:19:52.090 --> 00:19:54.930
+print it yes I am able to print it and after that whatsoever
+
+00:19:54.930 --> 00:19:58.530
+line which I have written I am able to execute that piece of
+
+00:19:58.530 --> 00:20:02.410
+code as well yes I am able to execute that piece of code as
+
+00:20:02.410 --> 00:20:06.630
+well so as as as it will be able to receive a like a error
+
+00:20:07.250 --> 00:20:10.490
+it will try to ask like accept block that you can go and you
+
+00:20:10.490 --> 00:20:13.890
+can try to handle it it will handle and it is not going to
+
+00:20:13.890 --> 00:20:17.290
+block my further piece of the code that's a beauty of
+
+00:20:17.290 --> 00:20:23.630
+exception handling is it making sense guys yes that is the
+
+00:20:23.630 --> 00:20:27.970
+reason I told you so it's not a concept it's something which
+
+00:20:27.970 --> 00:20:30.530
+you should write even though someone is not asking you right
+
+00:20:30.530 --> 00:20:32.530
+let's suppose I have not asked you to do exception handling
+
+00:20:32.530 --> 00:20:37.330
+but no you should do it right in every piece of a code you
+
+00:20:37.330 --> 00:20:40.490
+should do it in some production grade system you are
+
+00:20:40.490 --> 00:20:43.930
+supposed to implement exceptions over here no one will be
+
+00:20:43.930 --> 00:20:46.710
+asking you that do exception handling no it's a standard
+
+00:20:46.710 --> 00:20:51.390
+right it's a standard that we use to follow across a coding
+
+00:20:51.390 --> 00:20:56.990
+environment okay so here we are able to understand try and
+
+00:20:56.990 --> 00:21:02.350
+accept okay fine now so apart from this try and accept you
+
+00:21:02.350 --> 00:21:06.350
+will be able to find out another block called as basically a
+
+00:21:06.350 --> 00:21:11.510
+finally block like using this piece of a code itself so
+
+00:21:14.580 --> 00:21:17.720
+there is another block you will be able to find out and
+
+00:21:17.720 --> 00:21:21.300
+which is called as finally block yeah which is called as
+
+00:21:21.300 --> 00:21:24.780
+basically finally block so what finally block does so
+
+00:21:24.780 --> 00:21:28.800
+basically finally block will try to execute itself every
+
+00:21:28.800 --> 00:21:32.820
+time even if there is a error right over here whatsoever
+
+00:21:32.820 --> 00:21:36.140
+piece of code i'm going to write inside a finally block it
+
+00:21:36.140 --> 00:21:42.700
+will be executed as simple as that so here uh there is like
+
+00:21:42.700 --> 00:21:46.560
+a error so yes it is able to handle it and this will always
+
+00:21:46.560 --> 00:21:49.320
+be printed so it is printing finally block as well even if
+
+00:21:49.320 --> 00:21:52.780
+i'm saying list of zero list of zero will not give me any
+
+00:21:52.780 --> 00:21:56.160
+error right so see there is no error and if there is no
+
+00:21:56.160 --> 00:21:58.720
+error so obviously it's not coming inside the except block
+
+00:21:58.720 --> 00:22:02.640
+right but still it is executing the finally block so finally
+
+00:22:02.640 --> 00:22:05.980
+block is something that will be executed for sure now what
+
+00:22:05.980 --> 00:22:09.220
+is the use case of this right so generally going forward
+
+00:22:09.220 --> 00:22:11.800
+when uh we'll try to understand database connectivity and
+
+00:22:11.800 --> 00:22:15.340
+all so generally we try to create a connection with respect
+
+00:22:15.340 --> 00:22:17.740
+to a database whether it's a sql whether it's a no sql
+
+00:22:17.740 --> 00:22:21.280
+whether it's a vector database right so we have to close a
+
+00:22:21.280 --> 00:22:24.400
+connection because there will be a limited number of allowed
+
+00:22:24.400 --> 00:22:27.640
+connection at a time right your database will provide a
+
+00:22:27.640 --> 00:22:31.300
+bandwidth so if i have opened up that connection i have to
+
+00:22:31.300 --> 00:22:33.940
+close that connection as well even though some operation has
+
+00:22:33.940 --> 00:22:36.480
+been like has failed or compromised in between but it will
+
+00:22:36.480 --> 00:22:36.480
+still be there so that's the use case of this right so
+
+00:22:36.480 --> 00:22:37.880
+generally going forward but yes i'm supposed to close that
+
+00:22:37.880 --> 00:22:41.180
+connection so when i'm like you know my code is not getting
+
+00:22:41.180 --> 00:22:44.540
+executed so in that situation i can try to use this finally
+
+00:22:44.540 --> 00:22:47.660
+block that for sure go and close that particular connection
+
+00:22:47.660 --> 00:22:50.540
+or let's suppose if i have to destroy some resources right
+
+00:22:50.540 --> 00:22:53.620
+let's suppose i have spent some resources and i'm trying to
+
+00:22:53.620 --> 00:22:56.540
+execute some sort of a code it is failing over there but
+
+00:22:56.540 --> 00:22:59.540
+yeah i have to destroy my resources so that piece of code
+
+00:22:59.540 --> 00:23:04.380
+will go where inside a finally so that your resource will be
+
+00:23:04.380 --> 00:23:07.400
+freed and yeah anyone any other process will be able to
+
+00:23:07.400 --> 00:23:10.040
+technically use it the meaning of finally block is very
+
+00:23:10.040 --> 00:23:14.080
+simple finally block will always execute in case of error or
+
+00:23:14.080 --> 00:23:17.820
+in case of no error in both the places apart from that you
+
+00:23:17.820 --> 00:23:20.760
+will be able to find out another block called as else block
+
+00:23:20.760 --> 00:23:25.320
+yeah now what else block does so basically else block will
+
+00:23:25.320 --> 00:23:29.800
+be executed let me keep it before finally otherwise it will
+
+00:23:29.800 --> 00:23:36.930
+not work yeah so else block will be executed when try block
+
+00:23:36.930 --> 00:23:40.150
+is going to be executed to execute itself successfully means
+
+00:23:40.150 --> 00:23:43.490
+whatsoever you have written inside a try block if it is able
+
+00:23:43.490 --> 00:23:47.010
+to execute itself successfully without any kind of error and
+
+00:23:47.010 --> 00:23:50.530
+then if you would like to do something right so for example
+
+00:23:50.530 --> 00:23:54.770
+after extracting a data from index zero you would like to
+
+00:23:54.770 --> 00:23:59.290
+extract a data maybe from index of one right let's say this
+
+00:23:59.290 --> 00:24:01.970
+is the task which i would like to perform so i would like to
+
+00:24:01.970 --> 00:24:05.950
+like you know extract a data from index one right only in
+
+00:24:05.950 --> 00:24:09.470
+one condition if this is getting successful so i can try to
+
+00:24:09.470 --> 00:24:11.710
+keep those piece of a code where those piece of a code
+
+00:24:11.710 --> 00:24:16.230
+inside a else block so now let's execute so see uh so this
+
+00:24:16.230 --> 00:24:19.010
+will be successful list of zero right it's a correct
+
+00:24:19.010 --> 00:24:22.250
+operation so it will not go inside this except block it will
+
+00:24:22.250 --> 00:24:25.550
+not throw any kind of error and here you will be able to see
+
+00:24:25.550 --> 00:24:29.510
+that that this is getting successful right so whatsoever we
+
+00:24:29.510 --> 00:24:32.710
+have written over here along with list of one which is two
+
+00:24:32.710 --> 00:24:35.870
+it is able to extract it is able to print it and then
+
+00:24:35.870 --> 00:24:39.850
+finally by default let's say it's failing right i have
+
+00:24:39.850 --> 00:24:42.630
+written list of 10 i know that list of 10 is going to give
+
+00:24:42.630 --> 00:24:45.350
+me index out of range exception right index out of range
+
+00:24:45.350 --> 00:24:48.710
+exception now so obviously if there will be an error it will
+
+00:24:48.710 --> 00:24:52.050
+fall inside except block except will try to handle it now in
+
+00:24:52.050 --> 00:24:55.190
+that situation else will not be executed yes finally will be
+
+00:24:55.190 --> 00:24:59.210
+executed let's execute so now see uh so basically there was
+
+00:24:59.210 --> 00:25:02.930
+a error it has handled it list index out of the range it is
+
+00:25:02.930 --> 00:25:07.630
+able to handle it and then right then it has not executed it
+
+00:25:07.630 --> 00:25:07.630
+will not be executed it will not be executed it will not be
+
+00:25:07.630 --> 00:25:09.350
+executed it will not be executed else block reason is very
+
+00:25:09.350 --> 00:25:13.430
+simple try has failed right so if it is going to fail else
+
+00:25:13.430 --> 00:25:16.490
+will not be executed if try is going to be successful then
+
+00:25:16.490 --> 00:25:19.210
+only else will be executed what whatever logic you are going
+
+00:25:19.210 --> 00:25:22.490
+to write right and then finally right so finally will be
+
+00:25:22.490 --> 00:25:25.170
+executed all the time in case of success in case of failure
+
+00:25:25.170 --> 00:25:28.430
+in both the situations so these are the major four block you
+
+00:25:28.430 --> 00:25:31.630
+will be able to encounter inside exception handling in
+
+00:25:31.630 --> 00:25:35.310
+python making sense guys everyone but
+
+00:25:37.550 --> 00:25:39.870
+am i coding i'm not doing it yeah you should do it actually
+
+00:25:39.890 --> 00:25:46.230
+yes uh can we give other calculation uh instead of text like
+
+00:25:46.230 --> 00:25:50.110
+except yeah didn't get that rahul what you are trying to say
+
+00:25:50.110 --> 00:25:54.110
+maybe you can try to reiterate how to know which exception
+
+00:25:54.110 --> 00:25:58.010
+to use will come to that point yeah try
+
+00:26:00.570 --> 00:26:03.250
+is true then it's not true i would say successful i mean
+
+00:26:03.250 --> 00:26:06.170
+like if i say true i mean like it's a boolean i mean like it
+
+00:26:06.170 --> 00:26:08.950
+doesn't work on boolean like if else or like your while loop
+
+00:26:08.950 --> 00:26:12.430
+yes but yes if try is going to be successful then it will be
+
+00:26:12.430 --> 00:26:14.870
+successful it will be executed if not it will not be
+
+00:26:14.870 --> 00:26:18.970
+executed finally it will execute always try we try to keep a
+
+00:26:18.970 --> 00:26:21.930
+risky code except it try to handle it if there will be a
+
+00:26:21.930 --> 00:26:27.700
+error but if i am not right finally keyword till other code
+
+00:26:27.700 --> 00:26:30.640
+running yeah so basically see this else block and this
+
+00:26:30.640 --> 00:26:34.380
+finally block is basically a non-mandatory block i have
+
+00:26:34.380 --> 00:26:36.800
+already shown you here right so here i have not used like
+
+00:26:36.800 --> 00:26:40.700
+you know uh like uh finally or i have not used an else block
+
+00:26:40.700 --> 00:26:43.680
+so try and accept is important mandatory block apart from
+
+00:26:43.680 --> 00:26:47.020
+that else and finally is optional so as per your need you
+
+00:26:47.020 --> 00:26:49.760
+will be using it as per your need you will not be using it
+
+00:26:49.760 --> 00:26:55.580
+as simple as that right okay so now moving ahead yeah
+
+00:26:57.720 --> 00:27:03.260
+so moving ahead now uh there can be right there can be a
+
+00:27:03.260 --> 00:27:06.000
+different different kind of a error which is which is
+
+00:27:06.000 --> 00:27:09.280
+basically possible right which is basically possible so now
+
+00:27:09.280 --> 00:27:13.200
+let me write down one scenario over here so i am going to
+
+00:27:13.200 --> 00:27:17.480
+write a code so where i will try to take a number from a
+
+00:27:17.480 --> 00:27:22.100
+user and then i will try to you know print this result so
+
+00:27:22.100 --> 00:27:28.400
+result is equals to result fine okay so now here uh let's
+
+00:27:28.400 --> 00:27:32.700
+say uh basically what i what i'm trying to do let me remove
+
+00:27:32.700 --> 00:27:35.460
+this piece of the code yeah
+
+00:27:38.080 --> 00:27:41.320
+so here i have written a piece of code so where it will ask
+
+00:27:41.320 --> 00:27:44.680
+an user to enter a number okay fine i'm going to i'll enter
+
+00:27:44.680 --> 00:27:51.240
+a number two okay good two now uh number is equal to two so
+
+00:27:51.240 --> 00:27:54.080
+result will be 10 divided by two so result is going to be
+
+00:27:54.080 --> 00:27:57.480
+five so i'm able to print it now there is no issue at all
+
+00:27:57.480 --> 00:28:01.840
+fine there is no issue at all now i'm going to execute it
+
+00:28:01.840 --> 00:28:05.220
+once again this time i will not enter a number although it
+
+00:28:05.220 --> 00:28:08.740
+is asking for it but i will enter sudh yeah i will enter
+
+00:28:08.740 --> 00:28:13.000
+sudh we know that that sudh can't get converted into an
+
+00:28:13.000 --> 00:28:16.800
+integer right so you can't convert sudh into an integer by
+
+00:28:16.800 --> 00:28:19.840
+the way there will be a typecasting error it will simply
+
+00:28:19.840 --> 00:28:23.000
+give you error okay now to handle the error i have already
+
+00:28:23.000 --> 00:28:26.300
+you know given an exception so it will be able to handle it
+
+00:28:26.300 --> 00:28:29.960
+so this time uh there was an error so it is asking me that
+
+00:28:29.960 --> 00:28:33.860
+please enter the valid number pool it is asking me to enter
+
+00:28:33.860 --> 00:28:37.660
+the valid number okay fine it is able to handle it now what
+
+00:28:37.660 --> 00:28:43.740
+i will do so i will try to you know enter a number zero yes
+
+00:28:43.740 --> 00:28:49.480
+i will try to enter a number zero now execute uh if this
+
+00:28:49.480 --> 00:28:53.320
+time it has my entire exception handling has failed why
+
+00:28:53.320 --> 00:28:58.140
+although i am using try and accept but still it has failed
+
+00:28:58.140 --> 00:28:59.260
+yes
+
+00:29:03.100 --> 00:29:04.320
+why
+
+00:29:06.180 --> 00:29:10.140
+what is the reason behind it so as you can see over here
+
+00:29:10.140 --> 00:29:15.420
+right as you can see over here that uh here number right so
+
+00:29:15.420 --> 00:29:19.480
+whenever user is going to enter any wrong value i am able to
+
+00:29:19.480 --> 00:29:20.720
+capture it so i am able to capture it so i am So there is a
+
+00:29:20.720 --> 00:29:24.080
+class called as value error. So exception is a superclass
+
+00:29:24.080 --> 00:29:27.460
+then there is a value error, there is a index out of range
+
+00:29:27.460 --> 00:29:30.560
+error so again that's a class available. There is something
+
+00:29:30.560 --> 00:29:34.300
+called as zero division error that is also available as a
+
+00:29:34.300 --> 00:29:38.580
+class inside a subclass of exceptions which is a superclass.
+
+00:29:38.980 --> 00:29:42.700
+So now here so I have handled value error that's completely
+
+00:29:42.700 --> 00:29:48.060
+fine. But this time there was no value error. This time
+
+00:29:48.060 --> 00:29:51.360
+actually it was a different error. So I have entered zero so
+
+00:29:51.360 --> 00:29:53.600
+number is equal to zero which is a valid input. It's
+
+00:29:53.600 --> 00:29:57.340
+completely fine valid input. But when it was trying to do 10
+
+00:29:57.340 --> 00:30:03.740
+by 0 here so it has failed here and yes it has failed and it
+
+00:30:03.740 --> 00:30:08.380
+has started looking for someone who can handle it. But there
+
+00:30:08.380 --> 00:30:12.080
+was no someone right. There was no one basically. There was
+
+00:30:12.080 --> 00:30:14.700
+no one who can handle this one because here I am trying to
+
+00:30:14.700 --> 00:30:18.900
+handle only a specific value error. So how to mitigate this
+
+00:30:18.900 --> 00:30:22.320
+situation? Any idea guys? How to mitigate this kind of a
+
+00:30:22.320 --> 00:30:22.620
+situation?
+
+00:30:28.120 --> 00:30:28.680
+Yes
+
+00:30:32.360 --> 00:30:38.240
+okay nested no. So basically I can try to write a superclass
+
+00:30:38.240 --> 00:30:43.880
+over here. So the part number one exception as e and yeah so
+
+00:30:43.880 --> 00:30:47.640
+maybe I can try to say that superclass I am writing I am
+
+00:30:47.640 --> 00:30:50.540
+just trying to call a superclass over here error
+
+00:30:53.780 --> 00:31:01.500
+message e fine. Now let's do it. Enter zero enter. Now it is
+
+00:31:01.500 --> 00:31:04.520
+able to handle and it is giving message what division by
+
+00:31:04.520 --> 00:31:07.540
+zero error. Yeah because this time it was a division by zero
+
+00:31:07.540 --> 00:31:11.920
+error. Execute I am entering a wrong value. It is able to do
+
+00:31:11.920 --> 00:31:15.280
+that as well. So invalid literal for integer with the base
+
+00:31:15.280 --> 00:31:18.620
+10 su dh. So now you can see that that when I have entered
+
+00:31:18.620 --> 00:31:21.640
+exception over here it is able to handle all kind of error
+
+00:31:21.640 --> 00:31:25.840
+right. Value error and zero division error both it was able
+
+00:31:25.840 --> 00:31:29.280
+to handle. So this is one. One of the solution I would say
+
+00:31:29.280 --> 00:31:36.260
+other solution is that that I can try to write maybe. Value
+
+00:31:36.260 --> 00:31:41.580
+error over here. So I have like you know I can I can I was
+
+00:31:41.580 --> 00:31:44.860
+thinking of that OK that will be a value error. So basically
+
+00:31:44.860 --> 00:31:48.920
+I have written value error to accept to handle it and then I
+
+00:31:48.920 --> 00:31:51.660
+have written even a zero division error. So both the error I
+
+00:31:51.660 --> 00:31:55.480
+am trying to write over here. So even in this way I will be
+
+00:31:55.480 --> 00:31:58.060
+able to handle the situation. Because. Here I have given
+
+00:31:58.060 --> 00:32:02.320
+both of these handlers right. So in case of value error I
+
+00:32:02.320 --> 00:32:04.920
+will be able to handle in case of zero division error I will
+
+00:32:04.920 --> 00:32:08.840
+be able to handle it. So I can go in a specific mode and I
+
+00:32:08.840 --> 00:32:12.340
+can write all kind of error which can arise right or I can
+
+00:32:12.340 --> 00:32:15.980
+go in a generic mode. So where I can write just a superclass
+
+00:32:15.980 --> 00:32:18.060
+exception because there are so many such kind of classes
+
+00:32:18.060 --> 00:32:21.400
+which is available. And yes as a new developer it's not
+
+00:32:21.400 --> 00:32:25.500
+possible to remember right and even your code base will
+
+00:32:25.500 --> 00:32:29.000
+become bigger and bigger and bigger. Right. So if ultimate
+
+00:32:29.000 --> 00:32:31.520
+purpose is to handle an error maybe you can try to go with
+
+00:32:31.520 --> 00:32:34.040
+the generic one although it's not advisable in a production
+
+00:32:34.040 --> 00:32:36.820
+grade system you have to like you know manually handle in
+
+00:32:36.820 --> 00:32:39.520
+this particular manner but still you can you can do that. So
+
+00:32:39.520 --> 00:32:44.220
+now here if I am going to enter SUBH yes handler will be
+
+00:32:44.220 --> 00:32:49.680
+value error yes error message. If I am going to execute once
+
+00:32:49.680 --> 00:32:53.980
+again input giving input as zero. So handler will be this
+
+00:32:53.980 --> 00:32:57.060
+one zero division error it is able to handle it. As simple
+
+00:32:57.060 --> 00:33:00.540
+as that. So either go in this manner or go in this manner.
+
+00:33:00.680 --> 00:33:02.740
+If you are writing exception which is a superclass then you
+
+00:33:02.740 --> 00:33:05.480
+don't have to write anything simple it will be able to like
+
+00:33:05.480 --> 00:33:10.060
+you know call the handler automatically and whatsoever is
+
+00:33:10.060 --> 00:33:13.360
+required whatsoever is required at any point of time. Making
+
+00:33:13.360 --> 00:33:15.000
+sense guys all of us.
+
+00:33:18.680 --> 00:33:22.280
+Yeah you can try to write a same piece of a code I would
+
+00:33:22.280 --> 00:33:25.960
+say. So let's say if I'm writing exception so I can write a
+
+00:33:25.960 --> 00:33:30.420
+same piece of a code. So except value error. I can try to
+
+00:33:30.420 --> 00:33:35.400
+write it down inside a bracket. Value error comma zero
+
+00:33:35.400 --> 00:33:39.800
+division error and again it is going to work. So again
+
+00:33:39.800 --> 00:33:44.560
+execute and then like write you know. So it depends upon me
+
+00:33:44.560 --> 00:33:47.980
+how I am writing it yeah. So I can write it separately I can
+
+00:33:47.980 --> 00:33:50.380
+try to write it inside the bracket. Again this is the
+
+00:33:50.380 --> 00:33:53.820
+separate one and then I can try to print the message over
+
+00:33:53.820 --> 00:33:57.000
+here. So either way whatsoever like pattern you are going to
+
+00:33:57.000 --> 00:33:59.240
+follow so you can try to write it down. You will be able to
+
+00:33:59.240 --> 00:34:00.420
+do the job.
+
+00:34:03.400 --> 00:34:06.980
+If exception can handle see it's the superclass right. So as
+
+00:34:06.980 --> 00:34:10.060
+a coding convention wise we should always go into a specific
+
+00:34:10.060 --> 00:34:13.060
+not into a generic. This is what people say but again no one
+
+00:34:13.060 --> 00:34:16.180
+is stopping you to just use like exception because if it is
+
+00:34:16.180 --> 00:34:18.680
+exception it's a superclass of all. So it understands all
+
+00:34:18.680 --> 00:34:20.480
+the other classes by default.
+
+00:34:24.870 --> 00:34:26.610
+Yeah okay now moving ahead.
+
+00:34:41.650 --> 00:34:44.290
+So yeah this you will be able to find out inside the
+
+00:34:44.290 --> 00:34:48.210
+exception handling guys and just just try to you know use
+
+00:34:48.210 --> 00:34:52.150
+it. All the time. Yes every time you have to use it so you
+
+00:34:52.150 --> 00:34:54.650
+can try to write like a try inside try you can write try
+
+00:34:54.650 --> 00:34:57.830
+inside except you can try to write try inside else you can
+
+00:34:57.830 --> 00:34:59.890
+try to write try block and try and accept block inside
+
+00:34:59.890 --> 00:35:02.450
+finally so wherever you want you can try to write it. It
+
+00:35:02.450 --> 00:35:05.590
+simply says that that wherever you have a suspicious code
+
+00:35:05.590 --> 00:35:08.850
+just try to write that particular block and it will be able
+
+00:35:08.850 --> 00:35:11.690
+to handle it. So anywhere you can try to write it without
+
+00:35:11.690 --> 00:35:16.070
+any kind of a limitation I would say yeah without any kind
+
+00:35:16.070 --> 00:35:16.850
+of a limitation.
+
+00:35:36.060 --> 00:35:38.880
+If we multiple except in a breaker at time only one will be
+
+00:35:38.880 --> 00:35:41.680
+executed yes because at a time only one error will happen
+
+00:35:41.680 --> 00:35:45.640
+only one error will occur right because in one line whenever
+
+00:35:45.640 --> 00:35:47.880
+there will be an error it will just jump to the except block
+
+00:35:47.880 --> 00:35:49.360
+only for that particular line.
+
+00:35:53.860 --> 00:35:59.060
+Okay so now in the same line right basically inside this
+
+00:35:59.060 --> 00:36:02.200
+exception handling so I would like to also talk about there
+
+00:36:02.200 --> 00:36:06.960
+is something called as logging right so let's say if we are
+
+00:36:06.960 --> 00:36:09.720
+getting some sort of error right. If we are trying to do
+
+00:36:09.720 --> 00:36:13.240
+some sort of a print that's completely fine if we are like
+
+00:36:13.240 --> 00:36:16.160
+you know working in a dev system or we are trying to learn
+
+00:36:16.160 --> 00:36:18.560
+something for example we are writing print over here right
+
+00:36:18.560 --> 00:36:20.680
+so what print will do print will try to print something in a
+
+00:36:20.680 --> 00:36:25.300
+console. Now again if I have to re-execute or recheck what
+
+00:36:25.300 --> 00:36:29.220
+has happened so again I have to re-execute the entire piece
+
+00:36:29.220 --> 00:36:32.820
+of the code I will not be having any kind of a storage so
+
+00:36:32.820 --> 00:36:36.760
+where I can see all the print right or whatsoever like error
+
+00:36:36.760 --> 00:36:40.220
+that it has generated or occurred. I will not be able to
+
+00:36:40.220 --> 00:36:44.080
+print that particular part. So keeping that in a mind there
+
+00:36:44.080 --> 00:36:47.800
+is something called as logging which comes into picture so
+
+00:36:47.800 --> 00:36:51.680
+where tag wise you will be able to log the information so
+
+00:36:51.680 --> 00:36:56.460
+that in future anyone can come and you know anyone will be
+
+00:36:56.460 --> 00:37:01.220
+able to basically use it right anyone will be able to use it
+
+00:37:01.220 --> 00:37:04.780
+and anyone will be able to basically check the entire system
+
+00:37:04.780 --> 00:37:08.780
+so this is where logging comes into picture. Log label. Log
+
+00:37:08.780 --> 00:37:12.120
+label comes into picture and as a again standard approach so
+
+00:37:12.120 --> 00:37:14.320
+whenever you are writing a system you should always
+
+00:37:14.320 --> 00:37:19.060
+implement a logging. So let's try to understand how logging
+
+00:37:19.060 --> 00:37:22.400
+actually works how I will be able to do a implementation of
+
+00:37:22.400 --> 00:37:25.700
+a logging how we can try to log each and everything in a
+
+00:37:25.700 --> 00:37:29.000
+file so where anyone can come even in the future and then
+
+00:37:29.000 --> 00:37:33.040
+they will be able to basically check it yeah. So let's go
+
+00:37:33.040 --> 00:37:39.060
+ahead with a logging module step by step manner. Yeah. So we
+
+00:37:39.060 --> 00:37:42.000
+are doing a print right so print means what so print will
+
+00:37:42.000 --> 00:37:44.580
+try to print something in console. Now if I am going to
+
+00:37:44.580 --> 00:37:47.440
+close this notebook and once again if I will try to like
+
+00:37:47.440 --> 00:37:50.280
+start it so I will have to connect with a kernel then again
+
+00:37:50.280 --> 00:37:53.860
+I have to reproduce each and everything. Now let's say my
+
+00:37:53.860 --> 00:37:56.860
+system is running and there are people who are using my
+
+00:37:56.860 --> 00:38:01.240
+system and obviously if there will be some error which will
+
+00:38:01.240 --> 00:38:04.640
+occur. Even though I am able to catch it even though I am
+
+00:38:04.640 --> 00:38:08.080
+able to handle it but still as a human as a developer. I
+
+00:38:08.080 --> 00:38:12.760
+must be able to preserve all those information in some file
+
+00:38:12.760 --> 00:38:15.860
+system as of now maybe in a file system going forward into a
+
+00:38:15.860 --> 00:38:18.980
+databases or maybe into S3 kind of a storage or drive kind
+
+00:38:18.980 --> 00:38:22.160
+of a storage right. I have to store it so that anyone can
+
+00:38:22.160 --> 00:38:25.120
+come and anyone will be able to investigate it even after a
+
+00:38:25.120 --> 00:38:27.740
+year of time right. So that's something called as logging.
+
+00:38:27.940 --> 00:38:31.480
+So in a production grade system generally we avoid writing a
+
+00:38:31.480 --> 00:38:34.580
+print kind of a statement. We don't do it right as of now
+
+00:38:34.580 --> 00:38:36.900
+it's fine right but in a production grade system we avoid
+
+00:38:36.900 --> 00:38:41.760
+writing a this one. Then what do we do right. So we try to
+
+00:38:41.760 --> 00:38:45.000
+do a logging. So there is a logging model you can try to
+
+00:38:45.000 --> 00:38:46.800
+import logging
+
+00:38:49.040 --> 00:38:53.620
+module we try to import and what we do. So we try to
+
+00:38:53.620 --> 00:38:58.860
+basically create a logging file. So logging dot basic
+
+00:38:58.860 --> 00:39:02.840
+configuration and we try to create a file a file where
+
+00:39:02.840 --> 00:39:06.260
+everything will be logged. Whatsoever information I want
+
+00:39:06.260 --> 00:39:09.260
+right. Whatsoever information I want. So wherever I am using
+
+00:39:09.260 --> 00:39:13.100
+print by the way yeah. So it will be logged. Forget about a
+
+00:39:13.100 --> 00:39:16.080
+log label for now I'll be talking about log label in some
+
+00:39:16.080 --> 00:39:19.680
+time. So it will do what so it will try to create basically
+
+00:39:19.680 --> 00:39:23.440
+a file for you right. So app dot log file it is going to
+
+00:39:23.440 --> 00:39:27.760
+create. Now if I'll go here so it has created some file
+
+00:39:27.760 --> 00:39:31.460
+called as app dot log. Okay app dot log it has created. So
+
+00:39:31.460 --> 00:39:34.240
+basic configuration file name app dot log it has created.
+
+00:39:34.560 --> 00:39:38.160
+Now what I can do. So I can start you know. Like you know
+
+00:39:38.160 --> 00:39:41.320
+storing the information inside this particular file.
+
+00:39:43.920 --> 00:39:50.620
+Logging dot info and this is an info message. Now what has
+
+00:39:50.620 --> 00:39:54.240
+happened. So once I'm going to execute this part if I'll go
+
+00:39:54.240 --> 00:39:58.600
+and check my file. So here you will be able to see that that
+
+00:39:58.600 --> 00:40:02.240
+those information is basically stored. Yeah. Those
+
+00:40:02.240 --> 00:40:05.300
+information is stored as of now it has not stored it. So
+
+00:40:05.300 --> 00:40:08.860
+I'll try to check. What is the issue but yeah it must have
+
+00:40:08.860 --> 00:40:12.780
+stored it. Log file it has created.
+
+00:40:24.900 --> 00:40:27.620
+Logging dot info what
+
+00:40:31.810 --> 00:40:37.190
+is a log label by the way. So by default the log label is a
+
+00:40:40.680 --> 00:40:42.960
+label is none. No
+
+00:40:53.100 --> 00:40:55.060
+still it
+
+00:41:00.980 --> 00:41:02.500
+should have stored by the way.
+
+00:41:07.780 --> 00:41:12.920
+Let me do one thing. Let me like restart my kernel. Sometime
+
+00:41:12.920 --> 00:41:16.340
+because of the kernel issue. So. It gives you an error.
+
+00:41:20.860 --> 00:41:25.520
+Now it's done. It was a kernel issue. Pretty much normal. So
+
+00:41:25.520 --> 00:41:30.420
+here you must be able to see that that you know this is an
+
+00:41:30.420 --> 00:41:34.760
+info message. This is an info message. So whatsoever I was
+
+00:41:34.760 --> 00:41:37.600
+trying to store. So I am able to store it. Right. I am able
+
+00:41:37.600 --> 00:41:40.780
+to store it. So instead of writing a print. Right. What I
+
+00:41:40.780 --> 00:41:43.080
+can do. I can try to go and I can say that.
+
+00:41:56.140 --> 00:41:59.040
+Something like this. Right. My name is Anshu. So as you can
+
+00:41:59.040 --> 00:42:01.820
+see my name is Anshu. It is able to store. So now this
+
+00:42:01.820 --> 00:42:04.620
+storage is happening inside a file. And let's suppose I am
+
+00:42:04.620 --> 00:42:07.880
+trying to keep a file in a local system as of now. Tomorrow
+
+00:42:07.880 --> 00:42:10.340
+I will try to you know host this particular file somewhere
+
+00:42:10.340 --> 00:42:13.520
+in a drive. Right. So over there everything will be stored.
+
+00:42:14.200 --> 00:42:18.840
+So here the whole purpose of using a logging. Again this is
+
+00:42:18.840 --> 00:42:21.500
+a standard approach. Right. Everywhere. So whenever you are
+
+00:42:21.500 --> 00:42:24.100
+writing a code. You should always do that. Without this you
+
+00:42:24.100 --> 00:42:27.020
+should not write the code. And print you should avoid. Print
+
+00:42:27.020 --> 00:42:30.020
+you should not basically write. So here. Technically you are
+
+00:42:30.020 --> 00:42:32.760
+able to see that. That logging.info. My name is Anshu. And
+
+00:42:32.760 --> 00:42:35.860
+yes it is able to store it over here. And that too with the
+
+00:42:35.860 --> 00:42:39.200
+info tag. I will be talking about the tag part. So there is
+
+00:42:39.200 --> 00:42:42.220
+something called as info, debug, warning, errors. All those
+
+00:42:42.220 --> 00:42:44.960
+tags. Comes into picture. I will be talking about that. And
+
+00:42:44.960 --> 00:42:48.220
+even their numbers. Right. Number range. I will be talking
+
+00:42:48.220 --> 00:42:51.460
+about that as well. But here the whole purpose is to store
+
+00:42:51.460 --> 00:42:55.000
+this into a file system. Now if it is available inside a
+
+00:42:55.000 --> 00:42:58.980
+file system. Even if I am going to restart my kernel. Even
+
+00:42:58.980 --> 00:43:02.900
+if I am going to close the entire system. Or close this VS
+
+00:43:02.900 --> 00:43:06.740
+code. Right. Or restart my entire system itself. Whenever I
+
+00:43:06.740 --> 00:43:10.520
+will come. I will be able to see this file. And inside this
+
+00:43:10.520 --> 00:43:14.720
+file. I will be able to see my information. Right. So that's
+
+00:43:14.720 --> 00:43:18.540
+a whole idea. Whereas in case of print. I will have to come.
+
+00:43:18.920 --> 00:43:21.760
+Restart the kernel. Reattach the kernel. And then I will
+
+00:43:21.760 --> 00:43:26.140
+have to re-execute it. Then only I will be able to produce
+
+00:43:26.140 --> 00:43:29.840
+something. But yes it is not possible in every situation. So
+
+00:43:29.840 --> 00:43:33.380
+when your application has been used by user. Right. So you
+
+00:43:33.380 --> 00:43:35.560
+have to log everything. Because it will be very difficult
+
+00:43:35.560 --> 00:43:39.880
+for you. To understand that why this error has happened. On
+
+00:43:39.880 --> 00:43:42.840
+which instances. What my customer. What my user have done.
+
+00:43:43.080 --> 00:43:47.560
+So logging is again one of the base concept. And in every
+
+00:43:47.560 --> 00:43:50.500
+standard system. Starting from AWS, Azure, GCP. Every
+
+00:43:50.500 --> 00:43:52.800
+standard system. You will be able to see that. That for
+
+00:43:52.800 --> 00:43:58.140
+every services it generates a log. Right. Everywhere. So
+
+00:43:58.140 --> 00:44:01.420
+doesn't matter which system you are using. Even now. For
+
+00:44:01.420 --> 00:44:04.000
+every click. For every activity. It is generating logs
+
+00:44:04.000 --> 00:44:06.620
+somewhere. It is getting stored. Right. And every standard
+
+00:44:06.620 --> 00:44:10.020
+system does that. So whenever you are writing a code. Your
+
+00:44:10.020 --> 00:44:13.100
+agent is writing a code. Cursor, cloud or something. Again
+
+00:44:13.100 --> 00:44:15.800
+you have to ask that. That mentally try to implement these
+
+00:44:15.800 --> 00:44:17.880
+particular things. Otherwise they will not implement it.
+
+00:44:18.400 --> 00:44:22.460
+Okay. So this is just a basic idea about the logging. Now
+
+00:44:22.460 --> 00:44:26.440
+let's go little bit deep inside a logging. Yeah. Little bit
+
+00:44:26.440 --> 00:44:31.760
+deep inside the logging now. So logging comes with different
+
+00:44:31.760 --> 00:44:35.920
+kind of
+
+00:44:35.920 --> 00:44:39.120
+things. So basically there is something called as debug.
+
+00:44:39.260 --> 00:44:41.440
+There is something called as info. There is something called
+
+00:44:41.440 --> 00:44:44.620
+as warning. There is something called as error. And there is
+
+00:44:44.620 --> 00:44:49.520
+something called as basically critical. So basically based
+
+00:44:49.520 --> 00:44:54.300
+on the hierarchy. Based on the hierarchy. So basically. So
+
+00:44:54.300 --> 00:44:58.380
+basically this log label has been defined. So let me write
+
+00:44:58.380 --> 00:45:02.460
+it down here. For understanding purpose. So like I said
+
+00:45:02.460 --> 00:45:07.210
+there is something called as debug. There is something
+
+00:45:07.210 --> 00:45:12.450
+called as info. There is something called as warning error
+
+00:45:17.730 --> 00:45:18.990
+critical.
+
+00:45:22.430 --> 00:45:26.870
+Now this is the hierarchy we use to follow. Number wise is
+
+00:45:26.870 --> 00:45:34.630
+given as 10,20,30,40 and 50. So this is just a waiting list.
+
+00:45:34.650 --> 00:45:38.470
+which has been given right so basically this is a low label
+
+00:45:38.470 --> 00:45:43.650
+a very very low level of like a log info label warning label
+
+00:45:43.650 --> 00:45:47.230
+error label critical label where system can crash. Now so
+
+00:45:47.230 --> 00:45:51.390
+whenever we try to write a code so we as a developer try to
+
+00:45:51.390 --> 00:45:54.750
+decide that that okay so this is the message which I am
+
+00:45:54.750 --> 00:45:58.850
+trying to store now what label of these messages are that
+
+00:45:58.850 --> 00:46:03.210
+technically depends upon us right depends upon us so we try
+
+00:46:03.210 --> 00:46:05.750
+to basically like you know identify it and we try to store
+
+00:46:05.750 --> 00:46:09.950
+it in that particular manner. Let me show you some examples
+
+00:46:09.950 --> 00:46:13.730
+for the understanding purpose right so let's say I am trying
+
+00:46:13.730 --> 00:46:16.810
+to implement this try accept kind of a things exception
+
+00:46:16.810 --> 00:46:18.750
+handling I am trying to do which is again a pretty much
+
+00:46:18.750 --> 00:46:22.650
+standard things you should do it and here so l of 10 I have
+
+00:46:22.650 --> 00:46:26.510
+written right l of 10 I have written now I am trying to call
+
+00:46:26.510 --> 00:46:31.630
+exception as e now inside the exception so obviously I have
+
+00:46:31.630 --> 00:46:35.990
+to store what I have to store the error message yeah error
+
+00:46:35.990 --> 00:46:39.090
+message so what I will be doing I will be calling logging
+
+00:46:39.090 --> 00:46:42.910
+dot error I will be calling what I will be calling basically
+
+00:46:42.910 --> 00:46:46.810
+logging dot error so whenever it will try to store a message
+
+00:46:46.810 --> 00:46:52.970
+basically it will try to give a tag so which tag error tag
+
+00:46:52.970 --> 00:46:58.350
+it will try to give let me do that execute now go here what
+
+00:46:58.350 --> 00:47:00.210
+is the tag it has given it has given the API of the because
+
+00:47:00.210 --> 00:47:00.990
+there is a tag we havesr a tag which is name automatically a
+
+00:47:00.990 --> 00:47:05.170
+error tag now because your system runs day and night let's
+
+00:47:05.170 --> 00:47:08.770
+say right production system and you will end up generating a
+
+00:47:08.770 --> 00:47:13.350
+millions of line of a log in one single day now you have to
+
+00:47:13.350 --> 00:47:16.970
+go and you know check every kind of a log it will be
+
+00:47:16.970 --> 00:47:19.850
+difficult so you will just go and check if there is a error
+
+00:47:19.850 --> 00:47:24.210
+log or not right but yes that error will come from where so
+
+00:47:24.210 --> 00:47:27.130
+at the time of writing a code it will be a developer's
+
+00:47:27.130 --> 00:47:30.830
+conscious decision that i'm trying to log what print means
+
+00:47:30.830 --> 00:47:33.890
+just do a print print something inside the console like no
+
+00:47:33.890 --> 00:47:36.390
+brainer kind of a things but here so you have to apply a
+
+00:47:36.390 --> 00:47:39.090
+little bit of brain you should decide that okay so here i'm
+
+00:47:39.090 --> 00:47:42.430
+trying to do a log in with which tag i'm supposed to do a
+
+00:47:42.430 --> 00:47:46.830
+logging and with that tag itself it is going to store the
+
+00:47:46.830 --> 00:47:50.570
+data or whatsoever it is right so whatsoever it is it is
+
+00:47:50.570 --> 00:47:53.910
+going to store it so here there was some error error
+
+00:47:53.910 --> 00:47:57.370
+occurred l was not defined so this was the actual error l is
+
+00:47:57.370 --> 00:48:02.270
+not defined right so it's not a index out of range error i
+
+00:48:02.270 --> 00:48:05.870
+have restarted my kernel twice so l is gone basically so l
+
+00:48:05.870 --> 00:48:09.050
+itself is not defined and because of that it is giving me an
+
+00:48:09.050 --> 00:48:12.850
+error and yeah so now i'm able to capture it let me try to
+
+00:48:12.850 --> 00:48:16.250
+define l over here right and this time it will try to store
+
+00:48:16.250 --> 00:48:21.010
+again this time what list index out of range once l is
+
+00:48:21.010 --> 00:48:24.450
+defined so yes it is trying to log it as a error as a simple
+
+00:48:24.450 --> 00:48:28.110
+as that now here let's say i'm trying to like you know store
+
+00:48:28.110 --> 00:48:37.300
+uh sorry login.info yeah and let's say i would like to store
+
+00:48:37.300 --> 00:48:42.420
+the entire list itself the entire list okay execute it it's
+
+00:49:09.170 --> 00:49:13.390
+a formatting issue yeah so it has stored basically my info
+
+00:49:13.390 --> 00:49:16.110
+and it has stored basically my list element as well so that
+
+00:49:16.110 --> 00:49:18.410
+anyone will be able to check what was the input which was
+
+00:49:18.410 --> 00:49:23.570
+given so i'm able to store also this one simple right now
+
+00:49:23.570 --> 00:49:30.290
+just again like you know look up look into this hierarchy
+
+00:49:30.290 --> 00:49:34.770
+debug info warning error and critical so here why this
+
+00:49:34.770 --> 00:49:38.070
+hierarchy is important so let's say i'm going to create
+
+00:49:38.070 --> 00:49:42.830
+logging dot basic configuration and this time so i'm going
+
+00:49:42.830 --> 00:49:46.430
+to create a file called as app1 last time was app this time
+
+00:49:46.430 --> 00:49:51.350
+app1.log file now there is something called as label and
+
+00:49:51.350 --> 00:49:55.050
+let's say if i have defined login label is equal to login
+
+00:49:55.050 --> 00:49:59.390
+error now what it will do and how it works right so
+
+00:49:59.390 --> 00:50:02.530
+basically when i'm trying to define that that you know label
+
+00:50:02.530 --> 00:50:08.150
+is a this label is a error right so what it will do
+
+00:50:08.150 --> 00:50:14.370
+automatically from starting from error in critical it will
+
+00:50:14.370 --> 00:50:18.450
+be able to log everything it will not be logging anything
+
+00:50:18.450 --> 00:50:24.290
+which belongs to debug info or warning tag so for example if
+
+00:50:24.290 --> 00:50:27.610
+if i will try to log now if i'm going to call login dot info
+
+00:50:27.610 --> 00:50:30.770
+i will not be able to see any information inside my file
+
+00:50:30.770 --> 00:50:33.250
+because what i have given i have defined my label that do
+
+00:50:33.250 --> 00:50:37.530
+not log everything right do not log everything so if i'm
+
+00:50:37.530 --> 00:50:41.190
+going to define info then info and below that it will log
+
+00:50:41.190 --> 00:50:43.890
+everything if i'm defining debug it will log each and
+
+00:50:43.890 --> 00:50:46.070
+everything so this is how this hierarchy actually works if
+
+00:50:46.070 --> 00:50:48.210
+i'm defining log label is equal to warning warning. So
+
+00:50:48.210 --> 00:50:51.250
+warning and below it will be able to log everything. It will
+
+00:50:51.250 --> 00:50:54.150
+never log info and debug even though if I am going to write
+
+00:50:54.150 --> 00:50:57.590
+it down inside the code. This is how this label of hierarchy
+
+00:50:57.590 --> 00:51:01.130
+is going to work. Let's do some sort of experiment right
+
+00:51:01.130 --> 00:51:05.450
+just to verify it. So here what I will do so I have defined
+
+00:51:05.450 --> 00:51:11.610
+a label is equals to error ok fine. Now log login dot dot
+
+00:51:11.610 --> 00:51:21.030
+info this is the info message from sudhanshu execute. Now
+
+00:51:21.030 --> 00:51:26.170
+let's go inside app1 app1 again
+
+00:51:33.050 --> 00:51:35.030
+confused ok.
+
+00:51:50.300 --> 00:51:53.620
+So app1 is created right and as you are able to see that
+
+00:51:53.620 --> 00:51:55.660
+that there is nothing which has been logged. The reason is
+
+00:51:55.660 --> 00:51:58.860
+very simple. I have basically defined label is equal to
+
+00:51:58.860 --> 00:52:05.360
+error. Now if I will go and do logging. Logging dot error
+
+00:52:05.360 --> 00:52:11.300
+now if I will go and check it has logged yeah. If I am going
+
+00:52:11.300 --> 00:52:15.520
+to define logging dot dot
+
+00:52:17.720 --> 00:52:25.070
+critical it will be able to log critical it is able to log
+
+00:52:25.070 --> 00:52:29.710
+error it is able to log but anything above error it will not
+
+00:52:29.710 --> 00:52:32.610
+be able to log it whether it is a debug tag whether it is a
+
+00:52:32.610 --> 00:52:35.890
+info tag or whether it is a warning tag. So this is the
+
+00:52:35.890 --> 00:52:39.310
+meaning of again a hierarchy basically right this is again a
+
+00:52:39.310 --> 00:52:41.930
+meaning of hierarchy. Like I said so it will be always a
+
+00:52:41.930 --> 00:52:45.470
+developer's conscious decision that what they would like to
+
+00:52:45.470 --> 00:52:47.930
+like a showcase and what kind of a things they are trying to
+
+00:52:47.930 --> 00:52:50.710
+log in. Accordingly they can try to choose the tag no one is
+
+00:52:50.710 --> 00:52:53.030
+going to ask you. If you are logging some sort of a
+
+00:52:53.030 --> 00:52:55.430
+information then information if you are doing something for
+
+00:52:55.430 --> 00:52:58.930
+debugging so you can use debugging. If you are giving some
+
+00:52:58.930 --> 00:53:01.390
+sort of a warning message to a user or to someone to
+
+00:53:01.390 --> 00:53:04.470
+developer then warning tag. If you are logging. Logging some
+
+00:53:04.470 --> 00:53:07.590
+sort of a error error if there is something very critical
+
+00:53:07.590 --> 00:53:09.430
+you are trying to log then you can go ahead with the
+
+00:53:09.430 --> 00:53:12.070
+critical. These are the different different tag and with
+
+00:53:12.070 --> 00:53:15.170
+respect to that tag it will be stored over here and with
+
+00:53:15.170 --> 00:53:17.690
+respect to that anyone an individual can come and they will
+
+00:53:17.690 --> 00:53:20.770
+be able to technically search about it. Making sense
+
+00:53:20.770 --> 00:53:24.750
+everyone guys yes the logging part yep
+
+00:53:29.130 --> 00:53:30.150
+okay
+
+00:53:35.400 --> 00:53:39.460
+not just that so basically let's say in my message right I
+
+00:53:39.460 --> 00:53:43.120
+would like to capture even a timestamp or some other things
+
+00:53:43.120 --> 00:53:45.960
+right. Timestamp I would like to capture inside my error
+
+00:53:45.960 --> 00:53:50.780
+messages. That can also be done let me clean my screen yeah
+
+00:53:50.780 --> 00:53:55.160
+so let's say inside my file I would like to even capture you
+
+00:53:55.160 --> 00:53:57.860
+know timestamp so when this was actually logged and all
+
+00:53:57.860 --> 00:54:03.940
+those things. So let me do it from fresh so import login
+
+00:54:03.940 --> 00:54:10.690
+yeah so import login and then app to file I am going to
+
+00:54:10.690 --> 00:54:13.990
+create and then label is debug the very first label I am
+
+00:54:13.990 --> 00:54:16.210
+trying to keep right. So that you can log every kind of a
+
+00:54:16.210 --> 00:54:19.770
+messages and then here's a format is what's a format is
+
+00:54:19.770 --> 00:54:24.010
+basically a label name message and then timestamp so this is
+
+00:54:24.010 --> 00:54:27.430
+the format I have given that okay so always try to you know
+
+00:54:27.430 --> 00:54:31.250
+do a logging by following this particular format so I can
+
+00:54:31.250 --> 00:54:35.310
+try to give it I can even try to define basically a date
+
+00:54:35.310 --> 00:54:38.610
+format so in which format you are supposed to keep our dates
+
+00:54:38.610 --> 00:54:42.070
+I can define purposely that particular part as well I can
+
+00:54:42.070 --> 00:54:46.150
+even try to define basically. A. Mode so it should be right
+
+00:54:46.150 --> 00:54:48.910
+mode remote whatsoever it is so I can try to define each and
+
+00:54:48.910 --> 00:54:51.790
+everything so many things I can try to define it now I have
+
+00:54:51.790 --> 00:54:55.670
+defined let me restart my kernel once again yeah just to
+
+00:54:55.670 --> 00:55:03.750
+implement this log now here what I will do logging logging
+
+00:55:07.720 --> 00:55:10.900
+this is a debug message right this
+
+00:55:15.060 --> 00:55:16.960
+is the info message this is the warning message error
+
+00:55:16.960 --> 00:55:17.300
+message
+
+00:55:20.020 --> 00:55:23.420
+this is the critical message execute. Now if I will go and
+
+00:55:23.420 --> 00:55:27.400
+check my app login. Log to file so here you will be able to
+
+00:55:27.400 --> 00:55:31.580
+see that that it is trying to capture even a timestamp and
+
+00:55:31.580 --> 00:55:34.200
+timestamp wise strictly I have given like you know the
+
+00:55:34.200 --> 00:55:36.400
+timestamp format so it is trying to capture in that
+
+00:55:36.400 --> 00:55:41.320
+particular format so date timestamp tag and the message
+
+00:55:41.320 --> 00:55:43.860
+whatsoever message I am trying to push so I am trying to
+
+00:55:43.860 --> 00:55:46.900
+capture each and everything so again this is how in real
+
+00:55:46.900 --> 00:55:50.280
+time every system almost every system right. So whatsoever
+
+00:55:50.280 --> 00:55:53.080
+system you are going to use databases cloud or something in
+
+00:55:53.080 --> 00:55:55.920
+real time industry right. You will be able to find out that
+
+00:55:55.920 --> 00:55:58.860
+that in that particular format so people like you know
+
+00:55:58.860 --> 00:56:02.100
+storing the logs so that any developer can go and then they
+
+00:56:02.100 --> 00:56:05.540
+can do a investiga thorough investigation and based on that
+
+00:56:05.540 --> 00:56:09.440
+they will be able to take a eventual decision making sense
+
+00:56:09.440 --> 00:56:15.840
+guys yeah so someone is saying that please share this piece
+
+00:56:15.840 --> 00:56:20.920
+of the code okay I am doing it now here it goes in your chat
+
+00:56:20.920 --> 00:56:26.080
+yeah already done fine everyone so it is basically done.
+
+00:56:26.080 --> 00:56:28.020
+This is basically a standard practice yes
+
+00:56:30.040 --> 00:56:32.240
+everyone someone
+
+00:57:00.970 --> 00:57:05.890
+is asking me that can we share the timestamp okay I have
+
+00:57:05.890 --> 00:57:10.270
+already shared time zone 2 so see when you are trying to
+
+00:57:10.270 --> 00:57:14.810
+create this file so in whatever basically like you know like
+
+00:57:14.810 --> 00:57:17.870
+a server will be available in whatsoever time zone so let's
+
+00:57:17.870 --> 00:57:21.870
+suppose if your server is available in IST time zone so it
+
+00:57:21.870 --> 00:57:25.430
+will try to log that time zone timing. If your. Servers. is
+
+00:57:25.430 --> 00:57:28.890
+available in a utc time zone so it will try to capture that
+
+00:57:28.890 --> 00:57:32.450
+particular part let me do one thing so let me like you know
+
+00:57:32.450 --> 00:57:36.950
+restart sorry uh remove this date format i would like to
+
+00:57:36.950 --> 00:57:41.270
+show you something so or maybe i can copy the same i'll
+
+00:57:41.270 --> 00:57:45.270
+change log file is equals to let's say three yeah so third
+
+00:57:45.270 --> 00:57:48.090
+log file i'm going to create and i will be removing this one
+
+00:57:48.090 --> 00:57:52.450
+so that you can see something different okay now let me
+
+00:57:52.450 --> 00:57:54.290
+restart the kernel okay
+
+00:57:58.450 --> 00:58:07.090
+now execute now here log file three yes so here log file
+
+00:58:07.090 --> 00:58:11.890
+basically a three uh so here uh you are you are able to see
+
+00:58:11.890 --> 00:58:15.730
+like you know a lot of uh are you able to see some some
+
+00:58:15.730 --> 00:58:19.330
+differences guys by the way this time yeah
+
+00:58:27.880 --> 00:58:31.740
+so this 918 even you are able to see some second second
+
+00:58:31.740 --> 00:58:34.840
+seconds right i think second was available before but yeah
+
+00:58:34.840 --> 00:58:35.780
+so
+
+00:58:38.560 --> 00:58:43.620
+you are able to see a second what is this 918 918 918 so
+
+00:58:45.640 --> 00:58:48.560
+it's it's basically a millisecond you are able to see this
+
+00:58:48.560 --> 00:58:52.920
+918 919 so it's basically a millisecond it is able to uh
+
+00:58:52.920 --> 00:58:57.440
+show it to me now let's say i just wanted to show you
+
+00:58:57.440 --> 00:58:59.240
+something yeah
+
+00:59:03.460 --> 00:59:11.440
+okay so here uh let's say tz so
+
+00:59:20.840 --> 00:59:24.620
+So there is a parameter called as a tz I can try to
+
+00:59:24.620 --> 00:59:28.260
+basically say and say that you know so basically this log is
+
+00:59:28.260 --> 00:59:31.720
+getting created from this particular time zone. So it will
+
+00:59:31.720 --> 00:59:35.320
+be able to store a time zone as well. So that is possible. I
+
+00:59:35.320 --> 00:59:37.380
+mean it is possible to store anything and everything
+
+00:59:37.380 --> 00:59:40.460
+technically. Yeah. So you can just try to choose a time zone
+
+00:59:40.460 --> 00:59:45.740
+UTC IST whatsoever and it is going to work accordingly for
+
+00:59:45.740 --> 00:59:49.480
+your particular piece of the code. Yeah. So this is all
+
+00:59:49.480 --> 00:59:52.960
+about this logging. So make this as a standard one. The
+
+00:59:52.960 --> 00:59:55.400
+exception handling that we have discussed and the logging
+
+00:59:55.400 --> 00:59:59.480
+that we have discussed. Now closing this. Now let's talk
+
+00:59:59.480 --> 01:00:04.380
+about you know module basically. Modules and packages. Yeah.
+
+01:00:04.580 --> 01:00:08.700
+So modules and packages. So generally people gets you know
+
+01:00:08.700 --> 01:00:12.560
+confused with respect to modules and with respect to
+
+01:00:12.560 --> 01:00:17.680
+packages inside of Python. Yeah. So generally you know in a
+
+01:00:17.680 --> 01:00:20.560
+very simple manner you can try to think that. That one
+
+01:00:20.560 --> 01:00:26.460
+single Python file right is one module and package means a
+
+01:00:26.460 --> 01:00:29.960
+bunch of it right a bunch of it. So I would like to show you
+
+01:00:29.960 --> 01:00:33.980
+some example. So so far we have been creating IP YNB file.
+
+01:00:34.180 --> 01:00:37.400
+Yeah. So far we have been creating IP YNB file. Now let's do
+
+01:00:37.400 --> 01:00:41.480
+one thing. So let's try to create one file called as py file
+
+01:00:41.480 --> 01:00:44.660
+because going forward you will be creating or writing a code
+
+01:00:44.660 --> 01:00:48.580
+in this manner. So math.py file I have created. Let's say.
+
+01:00:48.940 --> 01:00:52.480
+And then inside. That py file. So I have created maybe like
+
+01:00:52.480 --> 01:00:54.760
+you know some sort of a function. So maybe additional
+
+01:00:54.760 --> 01:00:58.380
+function and which is returning a plus b subtract function I
+
+01:00:58.380 --> 01:01:01.080
+have created then I have created basically a multiply
+
+01:01:01.080 --> 01:01:04.900
+function right then I have created let's suppose like a
+
+01:01:04.900 --> 01:01:07.340
+divide function. Yes.
+
+01:01:11.920 --> 01:01:15.020
+Okay. So divide function I have created. So these are some
+
+01:01:15.020 --> 01:01:18.000
+of the functions which I have created inside a math.py file.
+
+01:01:18.100 --> 01:01:21.180
+So these functions are already available. Then what I will
+
+01:01:21.180 --> 01:01:25.260
+do I will try to go and I will try to create. You know list
+
+01:01:25.260 --> 01:01:32.600
+processor dot py file I will try to create like I will try
+
+01:01:32.600 --> 01:01:35.440
+to write some sort of a code so where it will be able or
+
+01:01:35.440 --> 01:01:38.980
+some function so where it will be able to basically process
+
+01:01:38.980 --> 01:01:42.180
+some sort of a list right. So whenever you are going to pass
+
+01:01:42.180 --> 01:01:46.060
+something. So again so let's suppose there is a one function
+
+01:01:46.060 --> 01:01:52.400
+available over here. Now there is a list item.
+
+01:01:54.340 --> 01:01:57.680
+Count right. So this is one of the function I have created.
+
+01:01:58.120 --> 01:02:01.380
+Now there is a file called as math.py file there is
+
+01:02:01.380 --> 01:02:04.220
+something called as list processor dot py file which is
+
+01:02:04.220 --> 01:02:09.440
+available here in the same directory right now here I will
+
+01:02:09.440 --> 01:02:15.860
+start writing my own you know. Test dot py file now so in
+
+01:02:15.860 --> 01:02:19.640
+this test dot py file I have to use a function which I have
+
+01:02:19.640 --> 01:02:23.080
+created inside method or pipe file or this list processor
+
+01:02:23.080 --> 01:02:25.380
+dot py. There are some functions which are available already
+
+01:02:25.380 --> 01:02:29.440
+in math.pyfile and listProcessor.pyfile. What I want is that
+
+01:02:29.440 --> 01:02:34.280
+I would like to use it. Where? In test.pyfile. I don't want
+
+01:02:34.280 --> 01:02:37.000
+to rewrite, I don't want to recreate those things. I just
+
+01:02:37.000 --> 01:02:40.180
+wanted to use it. So how I will be able to use it by the
+
+01:02:40.180 --> 01:02:42.060
+way? Any idea?
+
+01:02:45.390 --> 01:02:50.090
+Yes? Any idea? So I can simply say, so there is a keyword
+
+01:02:50.090 --> 01:02:53.210
+called as import keyword. We have been using this import
+
+01:02:53.210 --> 01:02:59.570
+keyword as well. So I can try to call import math and then,
+
+01:02:59.730 --> 01:03:05.450
+so basically this math is a package, an inbuilt package
+
+01:03:05.450 --> 01:03:09.210
+which is already available by the way. So I should not give
+
+01:03:09.210 --> 01:03:12.010
+a package name as per that just to avoid a conflict. So
+
+01:03:12.010 --> 01:03:16.550
+let's say I am writing math sudh. So math sudh.pyfile I have
+
+01:03:16.550 --> 01:03:20.650
+created let's say. And here, so test file and let's say if I
+
+01:03:20.650 --> 01:03:24.110
+am saying math sudh. So now what will happen? So when I have
+
+01:03:24.110 --> 01:03:28.710
+written import math sudh over here, it will be able to
+
+01:03:28.710 --> 01:03:31.850
+import whatsoever is written inside this particular file
+
+01:03:31.850 --> 01:03:34.330
+automatically. I don't have to go and recreate those
+
+01:03:34.330 --> 01:03:39.550
+functions. So I can just call add. So basically add and then
+
+01:03:39.550 --> 01:03:46.790
+I can try to basically pass this data, 4 comma 5 and then I
+
+01:03:46.790 --> 01:03:55.050
+can try to print and I will be able to use it. I will be
+
+01:03:55.050 --> 01:03:57.950
+able to technically use it or I can write even in this
+
+01:03:57.950 --> 01:04:02.230
+manner. So math sudh.add, so technically it is referring to
+
+01:04:02.230 --> 01:04:04.750
+this particular add function. So it's going to this
+
+01:04:04.750 --> 01:04:07.690
+particular module and then from this particular module it is
+
+01:04:07.690 --> 01:04:10.510
+able to inherit this add. So you don't have to recreate.
+
+01:04:10.850 --> 01:04:15.350
+Same thing, so if I am going to import basically, import
+
+01:04:15.350 --> 01:04:21.090
+list processor, so whatsoever function which I have inside
+
+01:04:21.090 --> 01:04:25.290
+this one. So maybe I can show you. List processor. So
+
+01:04:25.290 --> 01:04:27.750
+whatsoever function I have already created, these two
+
+01:04:27.750 --> 01:04:31.730
+functions, list item count and process list. Process list,
+
+01:04:31.910 --> 01:04:35.570
+list item count. So both of these functions are now visible
+
+01:04:35.570 --> 01:04:39.310
+over here, right. Both of these functions. I don't have to
+
+01:04:39.310 --> 01:04:42.030
+go and write any of these functions. I can simply go and
+
+01:04:42.030 --> 01:04:46.210
+create it. So here this module and packages always helps me
+
+01:04:46.210 --> 01:04:50.450
+out in terms of structuring a particular code. So this is
+
+01:04:50.450 --> 01:04:53.490
+one way by which you can try to do an import. There is a
+
+01:04:53.490 --> 01:04:56.610
+other way as well. So here, other way wise, you can write
+
+01:04:56.610 --> 01:05:03.010
+from math sudh import what? Import only add function. So I
+
+01:05:03.010 --> 01:05:06.010
+can only import add function. So I don't want to import any
+
+01:05:06.010 --> 01:05:07.670
+other function. There are hundreds of functions which is
+
+01:05:07.670 --> 01:05:10.450
+possible. I am not importing any other function. So from
+
+01:05:10.450 --> 01:05:13.470
+this math sudh, I am trying to import what? I am trying to
+
+01:05:13.470 --> 01:05:16.770
+import only add function and then I can try to technically
+
+01:05:16.770 --> 01:05:23.170
+use this add function as per my will. Very, very simple. So
+
+01:05:23.170 --> 01:05:27.270
+from this module, from this math module, import what? Import
+
+01:05:27.270 --> 01:05:31.850
+only this particular function. I can try to import it even
+
+01:05:31.850 --> 01:05:38.030
+as an alias. So import I can write, import
+
+01:05:38.030 --> 01:05:46.470
+list processor as lp. This is the alias which I have given.
+
+01:05:46.570 --> 01:05:49.110
+So wherever I have to use list processor, so instead of
+
+01:05:49.110 --> 01:05:52.670
+writing this long name, I can just use lp.processlist and it
+
+01:05:52.670 --> 01:05:55.330
+will be called automatically. Whatsoever function that I
+
+01:05:55.330 --> 01:05:57.950
+have implemented, it will be simply called automatically
+
+01:05:57.950 --> 01:06:02.310
+over here. I can do an import even in different manner. So I
+
+01:06:02.310 --> 01:06:06.690
+can write math sudh write and instead of importing a divide
+
+01:06:06.690 --> 01:06:09.110
+or add or something, I can write import static. Import
+
+01:06:09.110 --> 01:06:12.290
+static means import everything. Whatsoever function
+
+01:06:12.290 --> 01:06:15.370
+implementation or classes are there going forward. So you
+
+01:06:15.370 --> 01:06:18.370
+will be able to technically import each and everything. Yes.
+
+01:06:18.730 --> 01:06:25.750
+So is it making sense guys? Yes. Yes. So this is module. I
+
+01:06:25.750 --> 01:06:29.190
+was just talking about the modules so far. So we have
+
+01:06:29.190 --> 01:06:32.730
+created our modules, math sudh and then list processor. Now
+
+01:06:32.730 --> 01:06:35.330
+let's talk about our packages. Let's talk about our
+
+01:06:35.330 --> 01:06:39.270
+packages. So here let's say I am going to create one folder,
+
+01:06:39.450 --> 01:06:45.110
+sudh pkg. So this is the package and inside that I am going
+
+01:06:45.110 --> 01:06:51.630
+to create a file. Let's say math underscore sudh dot py
+
+01:06:51.630 --> 01:06:56.530
+file. And then inside that again, I will be creating list
+
+01:06:56.530 --> 01:07:04.550
+underscore process dot py file. Yeah. So close everything.
+
+01:07:06.150 --> 01:07:09.190
+So this is a fresh new folder I have created, right? So the
+
+01:07:09.190 --> 01:07:12.530
+pkg as you can see, and inside this there are two files. So
+
+01:07:12.530 --> 01:07:14.950
+one is a math sudh dot py file and let's say I am going to
+
+01:07:14.950 --> 01:07:17.290
+create some sort of a function over here. So addition
+
+01:07:17.290 --> 01:07:20.250
+function I will be creating. So which is going to take some
+
+01:07:20.250 --> 01:07:25.550
+sort of argument. And then you know it is going to or maybe
+
+01:07:25.550 --> 01:07:28.790
+from that the old one I can just copy.
+
+01:07:33.290 --> 01:07:37.230
+Okay. And then copy.
+
+01:07:44.360 --> 01:07:49.400
+Okay. So now there is a list processor dot py file and there
+
+01:07:49.400 --> 01:07:52.800
+is a math sudh dot py file I have created. But where? Inside
+
+01:07:52.800 --> 01:07:55.940
+a particular folder I have created. Right. Inside a
+
+01:07:55.940 --> 01:07:58.400
+particular folder I have created and inside that there is a
+
+01:07:58.400 --> 01:08:01.000
+respective you know modules which is already available.
+
+01:08:01.260 --> 01:08:04.480
+Right. Fine. Respective model which is technically like
+
+01:08:04.480 --> 01:08:11.020
+available available to me. Now. Now let's say if I am going
+
+01:08:11.020 --> 01:08:16.100
+to create some file inside this folder. Right. Let's say
+
+01:08:16.100 --> 01:08:22.680
+test one dot py file. So I can try to write over here that
+
+01:08:22.680 --> 01:08:24.480
+from list
+
+01:08:28.360 --> 01:08:36.660
+process import this. Okay. Valid. From math sudh
+
+01:08:38.420 --> 01:08:42.940
+import this one. So this test one dot py file is available
+
+01:08:42.940 --> 01:08:46.380
+in the same folder. Right. Same sudh package folder it is
+
+01:08:46.380 --> 01:08:50.740
+available. So yes I am able to do a import. Yes I am able to
+
+01:08:50.740 --> 01:08:54.440
+do a import. But let's say we have this test dot py file.
+
+01:08:54.540 --> 01:08:57.380
+Now test dot py file is not available inside this folder as
+
+01:08:57.380 --> 01:08:59.480
+you can see. It is available where? It is available outside.
+
+01:09:00.180 --> 01:09:05.020
+Now. Now will I be able to call a exact same thing. Right.
+
+01:09:05.200 --> 01:09:09.300
+So let me delete math sudh from here. Even list processor
+
+01:09:09.300 --> 01:09:13.480
+from here. Right. So now these two are available here. Will
+
+01:09:13.480 --> 01:09:16.660
+I be able to call the exact same thing from outside.
+
+01:09:20.870 --> 01:09:23.430
+So people some people are saying no some people are saying
+
+01:09:23.430 --> 01:09:27.790
+yes. See again try to understand the problem. My files are
+
+01:09:27.790 --> 01:09:30.830
+available in this folder. Now this test dot py file from
+
+01:09:30.830 --> 01:09:33.730
+where I am trying to reach to this particular folder. Right.
+
+01:09:34.270 --> 01:09:39.450
+So it's like you know it's available inside this folder and
+
+01:09:39.450 --> 01:09:42.670
+the file from where I am trying to call it it's available
+
+01:09:42.670 --> 01:09:49.210
+outside. Yes. So will I be able to call it if not so if I
+
+01:09:49.210 --> 01:09:51.830
+wanted to access it how I should be able to access it.
+
+01:09:55.150 --> 01:10:00.230
+Yes. So see as you can see clearly that you know this test
+
+01:10:00.230 --> 01:10:03.510
+file is available outside. Right. Outside of this particular
+
+01:10:03.510 --> 01:10:09.230
+folder. Now inside this folder. I have this pack this module
+
+01:10:09.230 --> 01:10:11.830
+and I have this particular module right inside this
+
+01:10:11.830 --> 01:10:14.830
+particular folder. I have these two which is available and
+
+01:10:14.830 --> 01:10:17.590
+the file from which I am trying to call it it's technically
+
+01:10:17.590 --> 01:10:21.050
+available outside. So if this file is trying to access
+
+01:10:21.050 --> 01:10:24.770
+something so can I say logically that first of all it has to
+
+01:10:24.770 --> 01:10:28.290
+reach out to this folder. Right. And once it will be able to
+
+01:10:28.290 --> 01:10:31.370
+reach out to this folder then whatsoever is available inside
+
+01:10:31.370 --> 01:10:36.750
+this folder it must be able to access. Agree. Logically this
+
+01:10:36.750 --> 01:10:39.490
+is what should happen. Right. That first of all this file
+
+01:10:39.490 --> 01:10:42.770
+must be able to reach out to this folder and then only once
+
+01:10:42.770 --> 01:10:45.370
+you are inside this folder then only whatsoever is available
+
+01:10:45.370 --> 01:10:48.310
+inside this you must be able to access it. Right. So I think
+
+01:10:48.310 --> 01:10:54.150
+we should follow you know that kind of approach. Yeah. We
+
+01:10:54.150 --> 01:10:56.750
+should follow that kind of approach. So as you can see it is
+
+01:10:56.750 --> 01:10:59.470
+giving me an error and if I am going to hover my mouse you
+
+01:10:59.470 --> 01:11:03.450
+will be able to see that that import list folder could not
+
+01:11:03.450 --> 01:11:05.610
+be resolved. It is not able to understand where these files
+
+01:11:05.610 --> 01:11:08.970
+are technically where this technically this file is. So
+
+01:11:08.970 --> 01:11:11.070
+let's say if I am going to add I am just trying to like you
+
+01:11:11.070 --> 01:11:18.030
+know implement this approach. So SUDH right PKG dot. Now it
+
+01:11:18.030 --> 01:11:23.010
+became green. Now it is able to understand. Can I say that
+
+01:11:23.010 --> 01:11:27.230
+SUDH PKG list process. Similarly if I am going to write over
+
+01:11:27.230 --> 01:11:30.390
+here basically I am trying to give a direction and trying to
+
+01:11:30.390 --> 01:11:33.450
+give a path. Now it is able to understand. Now error is
+
+01:11:33.450 --> 01:11:36.450
+gone. Yeah. So first of all this file has to reach out to
+
+01:11:36.450 --> 01:11:39.250
+this folder and then from this folder everything is as it
+
+01:11:39.250 --> 01:11:41.870
+is. Right. So just go into that folder and then try to
+
+01:11:41.870 --> 01:11:44.950
+import try to do whatsoever you want. So this folder which I
+
+01:11:44.950 --> 01:11:47.850
+have created technically it's called as package. So inside
+
+01:11:47.850 --> 01:11:50.930
+one single package I am keeping multiple of my modules.
+
+01:11:54.220 --> 01:11:58.200
+Done everyone. So package I think just go after the name
+
+01:11:58.200 --> 01:12:01.540
+packet or like chips packet there will be like multiple
+
+01:12:01.540 --> 01:12:09.320
+chips same same same like similar to that. Yeah. And now so
+
+01:12:09.320 --> 01:12:12.180
+I can create my own package. Right. I can create my own
+
+01:12:12.180 --> 01:12:14.160
+package. I can give it to you that okay fine. I have written
+
+01:12:14.160 --> 01:12:18.260
+some classes some functions some agents. Use it. It will do
+
+01:12:18.260 --> 01:12:21.740
+what? Try to import it. Right. Like you will keep inside
+
+01:12:21.740 --> 01:12:24.080
+some folder and then you will try to go through that folder
+
+01:12:24.080 --> 01:12:27.540
+and from that folder whatsoever code someone has written you
+
+01:12:27.540 --> 01:12:31.280
+all will be able to access it. So I believe we are clear
+
+01:12:31.280 --> 01:12:33.900
+today with so many things. So we are clear with the
+
+01:12:33.900 --> 01:12:36.820
+exception handling. We are clear with basically. You know
+
+01:12:36.820 --> 01:12:40.180
+like
+
+01:12:40.180 --> 01:12:44.100
+a logging module and we are clear with packages and modules.
+
+01:12:46.150 --> 01:12:49.210
+Can we say package anything but yes exactly that is that
+
+01:12:49.210 --> 01:12:52.950
+package separate folder. Right. Package means what? Let's
+
+01:12:52.950 --> 01:12:55.190
+just consider that as a chips packet. Curcure chips packet.
+
+01:12:55.530 --> 01:12:58.970
+So there will be multiple curcures inside that. Right. So
+
+01:12:58.970 --> 01:13:02.570
+there will be multiple python file inside that package as
+
+01:13:02.570 --> 01:13:04.550
+simple as that. I mean like easy to remember easy to
+
+01:13:04.550 --> 01:13:06.990
+understand. I mean like nothing fancy. It's very simple
+
+01:13:06.990 --> 01:13:09.790
+concept. We are just talking about file management over
+
+01:13:09.790 --> 01:13:15.890
+here. Right. Okay. So all three things are clear guys
+
+01:13:15.890 --> 01:13:18.850
+exception handling logging modules and packages.
+
+01:13:21.810 --> 01:13:24.750
+So in which case we need to use models whenever you are
+
+01:13:24.750 --> 01:13:27.570
+doing a real time project. Right. So all the time you will
+
+01:13:27.570 --> 01:13:30.450
+have to use like a packages and modules. You can't keep
+
+01:13:30.450 --> 01:13:35.330
+everything in one single file or folder. Very soon we'll see
+
+01:13:35.330 --> 01:13:38.010
+that. But yeah. So packages and modules are very much
+
+01:13:38.010 --> 01:13:41.870
+important. Any question guys so far? Any question?
+
+01:13:47.370 --> 01:13:49.810
+Yes. Login package will be having logging related function.
+
+01:13:50.050 --> 01:13:52.230
+Database packages will be having database related functions.
+
+01:13:52.790 --> 01:13:55.370
+Right. A cloud package or infra package will be having infra
+
+01:13:55.370 --> 01:13:58.210
+related like you know all the modules and all the code
+
+01:13:58.210 --> 01:14:03.610
+bases. So likewise we do a development. How to access file
+
+01:14:03.610 --> 01:14:08.330
+outside the package. We are accessing it. Right. So test.py
+
+01:14:08.330 --> 01:14:10.630
+what it is trying to do. Reaching out to the folder and then
+
+01:14:10.630 --> 01:14:12.190
+inside the folder it is accessing. So yeah.
+
+01:14:17.030 --> 01:14:20.490
+Yes. So if you are using exception handling logging modules
+
+01:14:20.490 --> 01:14:24.350
+and packages properly then that is a base structure that is
+
+01:14:24.350 --> 01:14:27.250
+a bare minimum requirement for any development whether you
+
+01:14:27.250 --> 01:14:30.050
+are doing a small development or big development this is
+
+01:14:30.050 --> 01:14:32.070
+where the entire story actually starts.
+
+01:14:40.030 --> 01:14:44.750
+Okay. So hope all of us are able to learn something of this
+
+01:14:44.750 --> 01:14:47.790
+and obviously whatsoever we have discussed in today's class.
+
+01:14:48.290 --> 01:14:51.510
+It's something which is mandatory. Mandatory for all of us
+
+01:14:51.510 --> 01:14:57.330
+to implement it everywhere. Right. Everywhere. CloudAge
+
+01:14:57.330 --> 01:14:59.510
+generates all these things like log and packages. No.
+
+01:14:59.610 --> 01:15:02.710
+CloudAge will not do that. You have to ask it. You have to
+
+01:15:02.710 --> 01:15:05.610
+ask for it basically that this should be my project
+
+01:15:05.610 --> 01:15:08.350
+structure. So make sure that you are maintaining it unless
+
+01:15:08.350 --> 01:15:11.670
+and until you are not asking none of the AI system is going
+
+01:15:11.670 --> 01:15:14.610
+to do the job and that's the reason so you must be aware
+
+01:15:14.610 --> 01:15:15.270
+about it first.
+
+01:15:19.740 --> 01:15:22.160
+Yes. Making sense guys.
+
+01:15:32.520 --> 01:15:35.040
+Rahul is asking question when we are already inside a
+
+01:15:35.040 --> 01:15:39.580
+package then how we can access the outside package file.
+
+01:15:39.840 --> 01:15:43.300
+Okay so let's say there is a test.py file which I have
+
+01:15:43.300 --> 01:15:46.400
+written outside yeah this is outside and let's say this is
+
+01:15:46.400 --> 01:15:51.460
+my package. So here let's say I am writing some function so
+
+01:15:51.460 --> 01:16:00.350
+def sud name print yeah so print sudhanshu. So this is my
+
+01:16:00.350 --> 01:16:05.030
+like outside file. Yes. This is my outside file and then you
+
+01:16:05.030 --> 01:16:10.810
+know so inside this package test.1.py. So let's say I have
+
+01:16:10.810 --> 01:16:14.730
+to use something from this outside. So yes anyone who can
+
+01:16:14.730 --> 01:16:16.630
+help me out with that how
+
+01:16:20.820 --> 01:16:23.140
+we can like you know get into that one.
+
+01:16:34.670 --> 01:16:38.570
+My question is very simple the test.py file is actually
+
+01:16:38.570 --> 01:16:42.490
+outside. Test 1 is inside the package. Now from test 1 I am
+
+01:16:42.490 --> 01:16:45.890
+just doing a reverse right. So from test 1 I am trying to
+
+01:16:45.890 --> 01:16:50.590
+access something which is outside. Outside the folder. So
+
+01:16:50.590 --> 01:16:53.430
+someone is saying that folder name dot package name dot file
+
+01:16:53.430 --> 01:17:00.010
+name. Okay okay. How how this how test 1 will reach out to
+
+01:17:00.010 --> 01:17:00.270
+test.
+
+01:17:27.520 --> 01:17:28.460
+Any idea.
+
+01:17:41.620 --> 01:17:46.520
+Not possible since no package for test.py okay Bhaves is
+
+01:17:46.520 --> 01:17:51.460
+saying project based path fine need to give a back file okay
+
+01:17:51.460 --> 01:17:58.220
+okay okay. So it is possible actually right. It is possible.
+
+01:17:58.240 --> 01:18:00.440
+I mean like it's not a good approach. It is possible. So
+
+01:18:00.440 --> 01:18:03.900
+what do we try to do. So see now this test 1 which is a part
+
+01:18:03.900 --> 01:18:06.260
+of this so the package folder this test 1 has to reach out
+
+01:18:06.260 --> 01:18:10.020
+to outside package right outside basically right. So inside
+
+01:18:10.020 --> 01:18:12.280
+is possible right. If test would like to reach out to the
+
+01:18:12.280 --> 01:18:14.860
+test 1 we have seen that. So this is a way by which it will
+
+01:18:14.860 --> 01:18:17.820
+be able to like you know reach out. But if test 1 has to
+
+01:18:17.820 --> 01:18:20.740
+reach out to a test. So what we can do so we can try to
+
+01:18:20.740 --> 01:18:23.380
+basically set a path first so that it can try to go and
+
+01:18:23.380 --> 01:18:26.100
+check at that particular path. So there is something called
+
+01:18:26.100 --> 01:18:29.480
+as import SYS system. And then what we can do. So we can try
+
+01:18:29.480 --> 01:18:36.420
+to set a SYS dot path basically. And then we can try to like
+
+01:18:36.420 --> 01:18:39.220
+you know append this particular path d drive Python basic.
+
+01:18:39.340 --> 01:18:43.800
+So this is my root path right. This is my technically a root
+
+01:18:43.800 --> 01:18:47.320
+path. And then from there once I am able to like set this
+
+01:18:47.320 --> 01:18:51.920
+one which is like a root path by the way. Then I can say
+
+01:18:51.920 --> 01:18:59.370
+from test import so the name print it will work. Is it
+
+01:18:59.370 --> 01:19:02.630
+making sense. Guys how we can reach out. So technically it's
+
+01:19:02.630 --> 01:19:07.170
+possible to reach out. Now it will work because it will go
+
+01:19:07.170 --> 01:19:10.210
+to this path which is like Python basic and inside Python
+
+01:19:10.210 --> 01:19:12.990
+basic what is available test.py is available. At the end of
+
+01:19:12.990 --> 01:19:15.750
+the day see it's just a path concept right. If I am able to
+
+01:19:15.750 --> 01:19:19.270
+reach out to you I can basically consume. I can try to use
+
+01:19:19.270 --> 01:19:22.090
+you as simple as that right. So I am just trying to reach
+
+01:19:22.090 --> 01:19:24.770
+out to that path and then from there. So now this is not
+
+01:19:24.770 --> 01:19:28.130
+giving me error. See it's working right. It's working
+
+01:19:28.130 --> 01:19:33.130
+basically. Yeah. It is able to render it. So in this manner
+
+01:19:33.130 --> 01:19:35.990
+you can just do it. So it's just a path game by the way
+
+01:19:35.990 --> 01:19:38.970
+nothing else. If you are able to reach out to the particular
+
+01:19:38.970 --> 01:19:43.670
+file you can you can just execute it. Yeah any other
+
+01:19:43.670 --> 01:19:45.130
+question for me from this one.
+
+01:19:52.900 --> 01:19:56.920
+OK so if there is no question I don't want to start a new
+
+01:19:56.920 --> 01:19:59.640
+chapter already discussed so many things like in excel see
+
+01:19:59.640 --> 01:20:02.580
+we need to define the specific excel exactly yeah yeah see
+
+01:20:02.580 --> 01:20:05.280
+it's a computer like all these digital things are all about
+
+01:20:05.280 --> 01:20:09.600
+path and file accessibility. Can we use this through a
+
+01:20:09.600 --> 01:20:12.180
+production grade code. If you know the path then obviously
+
+01:20:12.180 --> 01:20:17.340
+it's a server path right. Generally we you know avoid doing
+
+01:20:17.340 --> 01:20:20.720
+that I mean like this structure is not good. So we always
+
+01:20:20.720 --> 01:20:22.900
+try to create our packages in a hierarchical manner so that
+
+01:20:22.900 --> 01:20:26.660
+you know we can flow in a downstream right not in upstream
+
+01:20:26.660 --> 01:20:28.660
+fashion.
+
+01:20:34.640 --> 01:20:38.900
+So fine everyone this is all about today's class basically
+
+01:20:38.900 --> 01:20:42.780
+three concept we have discussed. Exception logging and then
+
+01:20:42.780 --> 01:20:46.200
+like packages and modules which is basically a building
+
+01:20:46.200 --> 01:20:49.240
+block going forward for any code even if you are going to
+
+01:20:49.240 --> 01:20:52.120
+write a code or maybe cursor or cloud is going to write a
+
+01:20:52.120 --> 01:20:55.860
+code. So anyone in this class who is not aware about you
+
+01:20:55.860 --> 01:20:59.800
+know like how cursor cloud actually works and what and all
+
+01:20:59.800 --> 01:21:02.440
+tools are available how we can configure how we can set the
+
+01:21:02.440 --> 01:21:06.500
+rules basically or like skills how we can try to set it I'm
+
+01:21:06.500 --> 01:21:09.900
+just like looking for like you know overall I'm just trying
+
+01:21:09.900 --> 01:21:12.000
+to understand all of you. Guys yeah
+
+01:21:15.200 --> 01:21:21.740
+little not not too much not aware okay no not aware not much
+
+01:21:21.740 --> 01:21:26.420
+not an issue. So I'll be teaching you not just to use how to
+
+01:21:26.420 --> 01:21:28.920
+use a tool but I'll be also teaching you that how to use
+
+01:21:28.920 --> 01:21:31.260
+those things in an effective manner so that you can save a
+
+01:21:31.260 --> 01:21:34.720
+time you can save a tokens and then in a bare minimum amount
+
+01:21:34.720 --> 01:21:37.800
+of time you all will be able to complete the work complete
+
+01:21:37.800 --> 01:21:41.660
+the project basically so cloud cursor client and integrity
+
+01:21:41.660 --> 01:21:44.940
+with all these things. So I'll be like you know teaching you
+
+01:21:44.940 --> 01:21:48.440
+I don't worry so that back to back you will be able to
+
+01:21:48.440 --> 01:21:54.820
+create the projects. So okay I'm done for today guys three
+
+01:21:54.820 --> 01:21:57.540
+topic all this three topic has been discussed now if you
+
+01:21:57.540 --> 01:22:00.440
+have any questions so you can raise your hand or maybe you
+
+01:22:00.440 --> 01:22:03.520
+can like you know come inside chats yeah Selva has I think
+
+01:22:03.520 --> 01:22:07.000
+raised his hand yeah Selva go ahead hello can you hear me
+
+01:22:07.000 --> 01:22:11.780
+yeah I can hear you yeah so in the python notebook I'm not
+
+01:22:11.780 --> 01:22:16.080
+able to select the text. So I when I'm it is only selecting
+
+01:22:16.080 --> 01:22:21.680
+partially just just just to control a keep inside the get
+
+01:22:21.680 --> 01:22:26.680
+inside this all yeah and then I know a full code it is
+
+01:22:26.680 --> 01:22:30.300
+selecting but only a line that that's a like a notebook
+
+01:22:30.300 --> 01:22:33.020
+error basically notebook sometimes gives you an issue right
+
+01:22:33.020 --> 01:22:35.080
+okay that's a known thing actually that's the reason I told
+
+01:22:35.080 --> 01:22:39.020
+you the click and then control a it will work yeah and one
+
+01:22:39.020 --> 01:22:43.720
+more question so I'm doing a machine learning project so I'm
+
+01:22:43.720 --> 01:22:48.260
+testing hyperparameters so I'm doing like 20 30 iterations
+
+01:22:48.260 --> 01:22:52.980
+so I want to understand the how in github we can manage I
+
+01:22:52.980 --> 01:22:56.200
+think right I don't know how to manage that manage what
+
+01:22:56.840 --> 01:22:59.800
+different versions different versions of hyperparameters
+
+01:22:59.800 --> 01:23:03.340
+like iteration one with different hyperparameters no
+
+01:23:03.340 --> 01:23:06.080
+basically what what we do so you can try to use some sort of
+
+01:23:06.080 --> 01:23:08.320
+a tool called as ml flow kind of a tool so where you will be
+
+01:23:08.320 --> 01:23:12.740
+able to manage a worsening plus you have to manage a log.
+
+01:23:12.920 --> 01:23:17.040
+So, log that I have just right so as a log you can try to
+
+01:23:17.040 --> 01:23:19.560
+manage it that okay fine so in my previous run so this was
+
+01:23:19.560 --> 01:23:22.320
+the hyperparameter this is the result then in this next log
+
+01:23:22.320 --> 01:23:25.360
+so and then you will be doing a log comparison that's the
+
+01:23:25.360 --> 01:23:28.640
+second approach right one is or just try to use a logging
+
+01:23:28.640 --> 01:23:31.400
+approach which I have discussed today third one is integrate
+
+01:23:31.400 --> 01:23:35.180
+some database maybe a mongodb maybe a super base or maybe up
+
+01:23:35.180 --> 01:23:38.220
+some postgres db right okay just try to integrate it over
+
+01:23:38.220 --> 01:23:41.480
+there and then log inside a db so that you will be able to
+
+01:23:42.920 --> 01:23:45.300
+manage it over time with respect to a run that in run one so
+
+01:23:45.300 --> 01:23:47.980
+this is how we try to maintain those logs and then we do a
+
+01:23:47.980 --> 01:23:51.620
+comparison in real time okay okay and one one more question
+
+01:23:51.620 --> 01:23:56.160
+so I'm working on a time series data so when I'm computing
+
+01:23:56.160 --> 01:24:00.200
+this is a regression problem like a stock market curve so
+
+01:24:00.200 --> 01:24:04.160
+when I'm computing r square value it is not the prediction
+
+01:24:04.160 --> 01:24:07.640
+and the curves are very far away okay that means I should
+
+01:24:07.640 --> 01:24:11.720
+get a bad r square value however the r square is giving 0.9.
+
+01:24:11.720 --> 01:24:16.840
+so I heard that for like correlated data we should not use r
+
+01:24:16.840 --> 01:24:21.080
+square is that correct is it correct somewhat it's correct
+
+01:24:21.080 --> 01:24:23.880
+but again depends upon the data and what you are using which
+
+01:24:23.880 --> 01:24:29.240
+one you're using arima sarima no actually I'm using a stress
+
+01:24:29.240 --> 01:24:34.720
+strain curve it's a mechanical uh yeah yeah so basically I'm
+
+01:24:34.720 --> 01:24:38.900
+plotting that I'm trying to predict the curve actually so r
+
+01:24:38.900 --> 01:24:43.320
+square value it is showing 0.98. but there is a lot of gap
+
+01:24:43.320 --> 01:24:47.120
+between predicted and the test curve so r square is not
+
+01:24:47.120 --> 01:24:50.880
+correct i just wanted to check yes yeah yeah so in that case
+
+01:24:50.880 --> 01:24:55.400
+that is not correct yeah yeah thank you yeah thanks uh next
+
+01:24:55.400 --> 01:24:58.060
+one is ravni please go ahead with the question hi
+
+01:25:00.550 --> 01:25:04.330
+sir hope you can hear me yes ma'am yeah i can hear you so
+
+01:25:04.330 --> 01:25:07.130
+like while you were teaching the logging no maybe a very
+
+01:25:07.130 --> 01:25:10.950
+silly doubt but that app.log it was not getting created are
+
+01:25:10.950 --> 01:25:13.450
+we supposed to restart restart the restart the kernel i
+
+01:25:13.450 --> 01:25:19.490
+restarted but i neither could like find it so uh or maybe
+
+01:25:19.490 --> 01:25:22.010
+maybe like close the vs code and open it up because yeah
+
+01:25:22.010 --> 01:25:26.650
+that that is huge known issue by the way it happens okay no
+
+01:25:26.650 --> 01:25:29.450
+because i restarted the kernel i mean because if you write
+
+01:25:29.450 --> 01:25:31.690
+that code automatically it should appear right we are not
+
+01:25:31.690 --> 01:25:34.930
+going to create anything by on our own that log yeah
+
+01:25:34.930 --> 01:25:37.370
+basically we are not going to create if i'm writing a log
+
+01:25:37.370 --> 01:25:41.170
+code it should log it simple but yes uh restart the kernel
+
+01:25:41.170 --> 01:25:43.990
+or restart the vs code sometimes solve the problem okay
+
+01:25:43.990 --> 01:25:49.550
+thank you yeah yeah thanks okay so fine everyone uh if we
+
+01:25:49.550 --> 01:25:51.830
+don't have any kind of a question so let's try to close the
+
+01:25:51.830 --> 01:25:54.590
+class for today uh next week what i will be doing so next
+
+01:25:54.590 --> 01:25:58.630
+week we are going to talk about basically uh oops concept
+
+01:25:58.630 --> 01:26:01.950
+again very very important so classes objects inheritance
+
+01:26:01.950 --> 01:26:06.050
+polymorphism all of these things we'll be talking about uh
+
+01:26:06.050 --> 01:26:10.170
+along with that oops concept except for the kernel we are
+
+01:26:10.170 --> 01:26:10.170
+going to talk about the oops concept and then we are going
+
+01:26:10.170 --> 01:26:11.150
+to talk about system handling we have already discussed
+
+01:26:11.150 --> 01:26:16.230
+logging we have already discussed and uh yeah so if all
+
+01:26:16.230 --> 01:26:18.870
+those things are discussed packages and models also
+
+01:26:18.870 --> 01:26:25.070
+discussed so fine yeah so
+
+01:26:25.070 --> 01:26:27.790
+this is where you will again come closer to a one step
+
+01:26:27.790 --> 01:26:31.050
+closer to a industry grade so let us wrap up the
+
+01:26:31.050 --> 01:26:33.670
+authenticity issue so you uh i in this case you are
+
+01:26:33.670 --> 01:26:37.170
+interested about a reliability business or you are
+
+01:26:37.170 --> 01:26:40.290
+interested in business structure okay so that i think entire
+
+01:26:40.290 --> 01:26:42.990
+world doesn't matter whether using python or some other tech
+
+01:26:42.990 --> 01:26:47.970
+stack not possible right api is something which gives a
+
+01:26:47.970 --> 01:26:50.850
+power to any application that you are using even in your
+
+01:26:50.850 --> 01:26:54.270
+mobile device or desktop anywhere right so we'll be talking
+
+01:26:54.270 --> 01:26:57.810
+about apis we'll be talking about oops concept and we'll be
+
+01:26:57.810 --> 01:27:02.110
+talking about basically databases because without database
+
+01:27:02.110 --> 01:27:07.110
+again you can't create any system so fast api yes so fast
+
+01:27:07.110 --> 01:27:09.350
+api is something fast api is again a pocket package but yeah
+
+01:27:09.350 --> 01:27:13.410
+api is itself is having a lot of like a concept inside it so
+
+01:27:13.410 --> 01:27:16.430
+i'll be talking about that and real time we'll be testing
+
+01:27:16.430 --> 01:27:19.210
+all of these apis as well so starting from a creation of api
+
+01:27:19.210 --> 01:27:22.210
+and test an api so that will be the overall agenda guys oops
+
+01:27:22.210 --> 01:27:27.450
+api and databases for my next saturday and sunday and then
+
+01:27:27.450 --> 01:27:31.190
+we will start building some of the projects right by using
+
+01:27:31.190 --> 01:27:34.670
+all of these concepts api databases deployment github
+
+01:27:34.670 --> 01:27:37.790
+repository some of the cloud platform we'll try to mix each
+
+01:27:37.790 --> 01:27:40.810
+and everything and then we'll try to solve you a real
+
+01:27:40.810 --> 01:27:43.270
+problem we'll start with a small one but soon we'll get into
+
+01:27:43.270 --> 01:27:46.610
+a big big one right so this is where our project will be
+
+01:27:46.610 --> 01:27:49.530
+started so that's a like agenda for next like a two week i
+
+01:27:49.530 --> 01:27:52.690
+can say yeah so next week and the next week so find everyone
+
+01:27:52.690 --> 01:27:55.350
+with that hope all of you are enjoying it right anyone in
+
+01:27:55.350 --> 01:27:57.570
+this class who is not able to understand the concept facing
+
+01:27:57.570 --> 01:28:00.390
+difficulties maybe you can you can share your thoughts with
+
+01:28:00.390 --> 01:28:05.080
+me or we are good yeah
+
+01:28:08.760 --> 01:28:13.260
+we are good okay so if we are if we are good then we'll move
+
+01:28:13.260 --> 01:28:16.700
+in this particular manner yeah okay so fine everyone take
+
+01:28:16.700 --> 01:28:19.360
+care thank you and see you in the next class next saturday
+
+01:28:19.360 --> 01:28:21.300
+same time you
+

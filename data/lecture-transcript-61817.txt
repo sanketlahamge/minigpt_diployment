@@ -1,0 +1,4947 @@
+WEBVTT
+X-TIMESTAMP-MAP=MPEGTS:0,LOCAL:00:00:00.000
+
+00:00:00.000 --> 00:00:10.000
+ [BLANK_AUDIO]
+
+00:00:30.000 --> 00:00:40.000
+ [BLANK_AUDIO]
+
+00:01:00.000 --> 00:01:10.000
+ [BLANK_AUDIO]
+
+00:01:30.000 --> 00:01:40.000
+ [BLANK_AUDIO]
+
+00:02:00.000 --> 00:02:10.000
+ [BLANK_AUDIO]
+
+00:02:30.000 --> 00:02:40.000
+ [BLANK_AUDIO]
+
+00:03:00.000 --> 00:03:10.000
+ [BLANK_AUDIO]
+
+00:03:30.000 --> 00:03:40.000
+ [BLANK_AUDIO]
+
+00:04:00.000 --> 00:04:10.000
+ [BLANK_AUDIO]
+
+00:04:30.000 --> 00:04:40.000
+ [BLANK_AUDIO]
+
+00:05:00.000 --> 00:05:26.000
+ [BLANK_AUDIO]
+
+00:05:26.000 --> 00:05:28.000
+ Okay, so, hi everyone, good morning.
+
+00:05:28.000 --> 00:05:29.800
+ I believe I'm audible and visible to all of you guys.
+
+00:05:29.800 --> 00:05:32.160
+ So please confirm.
+
+00:05:32.160 --> 00:05:34.800
+ Naveen, good morning, Mithes, good morning.
+
+00:05:34.800 --> 00:05:38.800
+ Yes, I believe I'm audible to all of you.
+
+00:05:38.800 --> 00:05:43.800
+ So what about others, why they're not pinging inside a chat?
+
+00:05:43.800 --> 00:05:46.400
+ Okay, so let's start with the class, everyone.
+
+00:05:46.400 --> 00:05:51.000
+ So today I'll be talking about basically a neural network,
+
+00:05:51.000 --> 00:05:55.100
+ a kind of a neural network, I would say, which has been used widely inside a computer
+
+00:05:55.100 --> 00:06:00.600
+ vision and that neural network is basically a convolutional neural network.
+
+00:06:00.600 --> 00:06:04.600
+ So that's amazing architecture that we are going to discuss.
+
+00:06:04.600 --> 00:06:09.200
+ And yes, so if you are able to understand or if you will be able to understand this
+
+00:06:09.200 --> 00:06:14.000
+ convolutional network, then you will be able to understand almost all the network
+
+00:06:14.000 --> 00:06:18.600
+ which comes under or which falls under computer vision.
+
+00:06:18.600 --> 00:06:20.300
+ So shall we start, guys?
+
+00:06:20.300 --> 00:06:21.200
+ Shall we start, everyone?
+
+00:06:21.200 --> 00:06:32.900
+ Yes.
+
+00:06:32.900 --> 00:06:49.000
+ Okay, so let me share my screen.
+
+00:06:49.000 --> 00:06:59.000
+ [BLANK_AUDIO]
+
+00:07:19.000 --> 00:07:24.300
+ Fine, so my screen is visible, I believe.
+
+00:07:24.300 --> 00:07:27.600
+ And let's start with the convolutional neural network.
+
+00:07:27.600 --> 00:07:32.500
+ So I'll try to show you a couple of things over here so that it is going to give you
+
+00:07:32.500 --> 00:07:37.500
+ some sort of a heads up in terms of what this convolutional network is and
+
+00:07:37.500 --> 00:07:41.600
+ how technically these convolutional network is going to work.
+
+00:07:41.600 --> 00:07:47.600
+ So basically, guys, this convolutional network was designed to understand the images
+
+00:07:47.600 --> 00:07:51.700
+ because just the way we as a human being used to see something.
+
+00:07:51.700 --> 00:07:58.000
+ And then just by looking at something so we can recognize that this is Apple,
+
+00:07:58.000 --> 00:08:01.000
+ this is Orange, this is basically Anitha, this is basically Ganesh,
+
+00:08:01.000 --> 00:08:06.700
+ this is basically Swamendu and Sanket and anyone inside this class, let's say.
+
+00:08:06.700 --> 00:08:12.300
+ So obviously, we have all of us have a different kind of a feature.
+
+00:08:12.300 --> 00:08:15.900
+ So even if you are going to take a picture, so even inside a picture,
+
+00:08:15.900 --> 00:08:19.500
+ you will be able to identify a different human being, your friends and
+
+00:08:19.500 --> 00:08:22.300
+ families are different kind of objects, right?
+
+00:08:22.300 --> 00:08:24.100
+ We can recognize it easily.
+
+00:08:24.100 --> 00:08:28.600
+ This is how human brain or human neuron has been basically trained.
+
+00:08:28.600 --> 00:08:33.300
+ But how we can try to propagate a similar kind of properties or
+
+00:08:33.300 --> 00:08:38.000
+ how I will be able to build a neural network which is going to eventually
+
+00:08:38.000 --> 00:08:41.100
+ recognize something just as a human being, right?
+
+00:08:41.100 --> 00:08:42.500
+ This as a human being.
+
+00:08:42.500 --> 00:08:46.300
+ And this is where this computer vision segment which is a very, very big segment
+
+00:08:46.300 --> 00:08:50.500
+ and very advanced segment you will be able to find out comes into picture.
+
+00:08:50.500 --> 00:08:53.100
+ And it is having an application across a globe.
+
+00:08:53.100 --> 00:08:59.000
+ So again, one of the famous example you can say as a self-driving car, by the way,
+
+00:08:59.000 --> 00:09:03.400
+ even in case of finding out a tumor or identifying anything inside your X-ray
+
+00:09:03.400 --> 00:09:06.900
+ or MRI scan in terms of medical or healthcare.
+
+00:09:06.900 --> 00:09:11.600
+ So again, this can be used even in terms of preventing a traffic violation.
+
+00:09:11.600 --> 00:09:15.700
+ So this can be used basically even in terms of taking attendance or
+
+00:09:15.700 --> 00:09:21.100
+ maybe drone image analysis everywhere or maybe a satellite image analysis.
+
+00:09:21.100 --> 00:09:25.900
+ So everywhere in every segment, you can try to use this computer vision.
+
+00:09:25.900 --> 00:09:27.800
+ It's a very, very vast field.
+
+00:09:27.800 --> 00:09:33.400
+ Generally, after chat GPT, majority of us basically, we think that AI is
+
+00:09:33.400 --> 00:09:37.000
+ all about using chat GPT or maybe a cloud.
+
+00:09:37.000 --> 00:09:41.500
+ This is true basically for everyone out there, for a normal people, by the way.
+
+00:09:41.500 --> 00:09:44.200
+ Those who are not techies, those who are not techies.
+
+00:09:44.200 --> 00:09:49.500
+ But when we talk about a computer vision, it itself is a very, very useful or
+
+00:09:49.500 --> 00:09:55.300
+ I would say advanced field, which solves a lot and lots of problems for a human.
+
+00:09:55.300 --> 00:10:00.400
+ Because many things we can just see, we can just look at it and then we as a human
+
+00:10:00.400 --> 00:10:04.700
+ means we can try to basically understand or we can try to analyze it.
+
+00:10:04.700 --> 00:10:10.500
+ And this is where this entire convolutional neural network comes into picture.
+
+00:10:10.500 --> 00:10:17.100
+ So they said that the entire world is nothing but I mean most of the people
+
+00:10:17.100 --> 00:10:19.700
+ so can look at something and they can recognize.
+
+00:10:19.700 --> 00:10:24.100
+ So how I can try to build a similar kind of a feature with respect to a neural network?
+
+00:10:24.100 --> 00:10:27.500
+ So which will be able to do eventually a similar kind of a things and
+
+00:10:27.500 --> 00:10:31.400
+ which will be even try to recognize something at some point of a time.
+
+00:10:31.400 --> 00:10:34.100
+ So this is where this convolutional neural network comes into picture and
+
+00:10:34.100 --> 00:10:39.500
+ they said that okay, so let's try to follow a basic principle over here.
+
+00:10:39.500 --> 00:10:44.800
+ So let's say if I'm talking about a image, let me open up some of my image, right?
+
+00:10:44.800 --> 00:10:59.700
+ So let's say if I'm going to open up my image inside a paint.
+
+00:11:01.100 --> 00:11:06.200
+ So now if I'm going to hover my mouse anywhere on my screen, right?
+
+00:11:06.200 --> 00:11:07.700
+ Anywhere on my screen.
+
+00:11:07.700 --> 00:11:10.400
+ So you will be able to see here, right?
+
+00:11:10.400 --> 00:11:13.700
+ So right hand side bottom, just try to observe it.
+
+00:11:13.700 --> 00:11:15.800
+ You will be able to see some numbers, right?
+
+00:11:15.800 --> 00:11:17.300
+ You will be able to see some numbers.
+
+00:11:17.300 --> 00:11:20.800
+ So basically you will be able to see some sort of a pixels over there.
+
+00:11:20.800 --> 00:11:25.100
+ Plus here, so 1920 into like a 1080.
+
+00:11:25.100 --> 00:11:28.300
+ So you will be able to see over here the dimension of the image height
+
+00:11:28.300 --> 00:11:30.900
+ and the width of the images.
+
+00:11:30.900 --> 00:11:34.600
+ So everywhere, everywhere, even if I am going to enlarge it.
+
+00:11:34.600 --> 00:11:38.900
+ So everything is trying to represent one, one, one, one, one, one,
+
+00:11:38.900 --> 00:11:41.000
+ small, small, small, small pixels.
+
+00:11:41.000 --> 00:11:45.100
+ So so far, so forth, we have been talking about basically a structured data.
+
+00:11:45.100 --> 00:11:50.000
+ So where we had columns, which is which we were trying to call it as a feature.
+
+00:11:50.000 --> 00:11:52.000
+ And then we were having a rows.
+
+00:11:52.000 --> 00:11:56.700
+ You can think about an image in the similar manner, right?
+
+00:11:56.700 --> 00:12:00.000
+ You can think about an image in a similar manner.
+
+00:12:00.000 --> 00:12:02.800
+ So you can say that that height cross width, right?
+
+00:12:02.800 --> 00:12:05.700
+ So height cross width, basically, and here.
+
+00:12:05.700 --> 00:12:09.900
+ So height is nothing but maybe representing rows and then width is nothing
+
+00:12:09.900 --> 00:12:12.900
+ but this is representing basically a column or vice versa.
+
+00:12:12.900 --> 00:12:17.100
+ Depends upon the image that we are going to consider and how we are going to consider it.
+
+00:12:17.100 --> 00:12:21.000
+ So here, people said that that, okay, it is possible to, you know,
+
+00:12:21.000 --> 00:12:25.200
+ break down this entire image as a feature because neural network will
+
+00:12:25.200 --> 00:12:28.800
+ always be able to understand our relations, relations of what?
+
+00:12:28.800 --> 00:12:34.300
+ So relations of like, you know, maybe adjacent feature or maybe edges, maybe a color combinations
+
+00:12:34.300 --> 00:12:38.700
+ and many more things, same size, many things, which falls inside the images.
+
+00:12:38.700 --> 00:12:42.500
+ And if I'm going to extract those feature, a different, different kind of a feature,
+
+00:12:42.500 --> 00:12:46.200
+ for example, age, for example, a different kind of a color combinations,
+
+00:12:46.200 --> 00:12:49.700
+ or maybe a small or big object which exists inside the images,
+
+00:12:49.700 --> 00:12:53.000
+ if I'm able to extract all of these things in a best possible manner.
+
+00:12:53.000 --> 00:12:57.200
+ So maybe I can try to feed that data to a neural network, right?
+
+00:12:57.200 --> 00:13:00.600
+ And obviously, neural network will be able to understand the relations.
+
+00:13:00.600 --> 00:13:02.500
+ And if it will be able to understand the relations,
+
+00:13:02.500 --> 00:13:07.100
+ it will be able to do a recognition that what is there inside this image
+
+00:13:07.100 --> 00:13:09.400
+ or that particular images.
+
+00:13:09.400 --> 00:13:13.000
+ This is what the whole idea, the whole philosophy is.
+
+00:13:13.000 --> 00:13:15.800
+ Now, let me come to this siren explainer by the way, right?
+
+00:13:15.800 --> 00:13:17.300
+ Siren explainer by the way.
+
+00:13:17.300 --> 00:13:18.700
+ So here, what happens?
+
+00:13:18.700 --> 00:13:21.600
+ So whenever we talk about a colorful images, right?
+
+00:13:21.600 --> 00:13:26.100
+ So colorful images always comes with, so for example, this is my original image.
+
+00:13:26.100 --> 00:13:30.200
+ For example, this is the image of a cup, as you all are able to see it over here.
+
+00:13:30.200 --> 00:13:35.800
+ Now, so here, you will be able to see that, you know, every colorful images,
+
+00:13:35.800 --> 00:13:39.000
+ you can try to divide it into three channels,
+
+00:13:39.000 --> 00:13:41.000
+ means three layers by the way, right?
+
+00:13:41.000 --> 00:13:46.500
+ Three layers by the way, RGB, red channel, green channel and a blue channel.
+
+00:13:46.500 --> 00:13:48.000
+ You can try to divide it, basically.
+
+00:13:48.000 --> 00:13:50.400
+ You can try to divide it, basically, right?
+
+00:13:50.400 --> 00:13:53.000
+ Black and white images, there will be only one channel, right?
+
+00:13:53.000 --> 00:13:57.500
+ But if I'll talk about colorful images, so obviously there will be three channels
+
+00:13:57.500 --> 00:13:59.100
+ and we can try to divide it.
+
+00:13:59.100 --> 00:14:03.400
+ Now, once we are going to divide, so for example, this was my original cup.
+
+00:14:03.400 --> 00:14:05.500
+ Just follow my mouse cursor over here.
+
+00:14:05.500 --> 00:14:10.500
+ So this was my original cup and here, so let's say we are dividing it into three channels.
+
+00:14:10.500 --> 00:14:12.800
+ So now we are separating layer-wise, right?
+
+00:14:12.800 --> 00:14:15.900
+ So layer-wise, we have separated all of these images.
+
+00:14:15.900 --> 00:14:23.200
+ I can also give you some of these other examples or representation.
+
+00:14:23.200 --> 00:14:25.900
+ So maybe you can try to even look into this one, right?
+
+00:14:25.900 --> 00:14:26.600
+ This one.
+
+00:14:26.600 --> 00:14:28.700
+ So here we have an image of a car.
+
+00:14:28.700 --> 00:14:30.900
+ Now, very first part, what we are going to do.
+
+00:14:30.900 --> 00:14:38.400
+ So maybe we can try to basically divide all of these images into three channels, RGB, basically, right?
+
+00:14:38.400 --> 00:14:41.500
+ So red, green and blue, so in this three channel, we can try to divide it.
+
+00:14:41.500 --> 00:14:45.300
+ Now, once we are able to divide this entire image into a channel,
+
+00:14:45.300 --> 00:14:48.000
+ now our real work should start.
+
+00:14:48.000 --> 00:14:49.600
+ Real work should start means what?
+
+00:14:49.600 --> 00:14:53.300
+ So we have to extract a feature, right?
+
+00:14:53.300 --> 00:14:55.400
+ That's a primary objective.
+
+00:14:55.400 --> 00:14:59.600
+ It's not like, you know, the vertical one, you are going to take it directly as a feature
+
+00:14:59.600 --> 00:15:01.800
+ because it is not going to represent, right?
+
+00:15:01.800 --> 00:15:04.600
+ So what we are supposed to do, we have to extract a feature.
+
+00:15:04.600 --> 00:15:07.400
+ Now, whenever we talk about a feature, so I'm just trying to give you summary.
+
+00:15:07.400 --> 00:15:11.300
+ I'll derive each and everything, by the way, in mathematics as well.
+
+00:15:11.300 --> 00:15:18.700
+ So here, when we talk about a feature, so what could be a feature inside an image?
+
+00:15:18.700 --> 00:15:20.200
+ So feature could be an edge.
+
+00:15:20.200 --> 00:15:23.700
+ For example, this cup looks like a cup.
+
+00:15:23.700 --> 00:15:24.500
+ Why?
+
+00:15:24.500 --> 00:15:29.400
+ Because inside this image, a place where we are looking for a curve,
+
+00:15:29.400 --> 00:15:32.500
+ a place where we were looking for a red color or white color,
+
+00:15:32.500 --> 00:15:37.400
+ a place we were like, you know, looking for some sort of object or shape.
+
+00:15:37.400 --> 00:15:40.500
+ So each and everything is available inside this particular image.
+
+00:15:40.500 --> 00:15:43.400
+ And because of that, so we are able to recognize that, okay,
+
+00:15:43.400 --> 00:15:46.500
+ this is an image of a cup that we have.
+
+00:15:46.500 --> 00:15:52.900
+ So basically, I have to work in such a manner that I must be able to extract
+
+00:15:52.900 --> 00:15:57.100
+ all of those different, different, different, different kind of a feature.
+
+00:15:57.100 --> 00:16:01.600
+ Because if I'm able to extract all of those feature, then only I can feed those feature
+
+00:16:01.600 --> 00:16:05.700
+ to a neural network and then only, right?
+
+00:16:05.700 --> 00:16:09.500
+ Then only so I will be able to train the model.
+
+00:16:09.500 --> 00:16:12.600
+ And then only I will be able to do some sort of a prediction,
+
+00:16:12.600 --> 00:16:14.800
+ maybe classification going forward.
+
+00:16:14.800 --> 00:16:17.700
+ So we'll try to understand even a object detection.
+
+00:16:17.700 --> 00:16:19.100
+ So that was the whole idea.
+
+00:16:19.100 --> 00:16:25.100
+ So here, you will be able to see that, that, you know, whenever I'm going to click over here,
+
+00:16:25.100 --> 00:16:27.800
+ so it is trying to build something.
+
+00:16:27.800 --> 00:16:29.000
+ See, just like a printing, right?
+
+00:16:29.000 --> 00:16:34.500
+ So it is, and there is a box, the box, which is basically moving all together.
+
+00:16:34.500 --> 00:16:37.800
+ And then it is trying to extract something from this red,
+
+00:16:37.800 --> 00:16:42.000
+ something from this blue and something from this particular green.
+
+00:16:42.000 --> 00:16:45.700
+ So RGB, so here, so red, green, blue.
+
+00:16:45.700 --> 00:16:51.400
+ So from RGB, it is trying to extract something and then it is trying to build a new image.
+
+00:16:51.400 --> 00:16:52.800
+ It is trying to build a new image.
+
+00:16:52.800 --> 00:16:56.400
+ Again, if I'm going to click over here, so same thing, right?
+
+00:16:56.400 --> 00:17:00.800
+ Same thing, it is trying to take something from all of these layers.
+
+00:17:00.800 --> 00:17:04.400
+ And then it is trying to build a new image, right?
+
+00:17:04.400 --> 00:17:06.100
+ It is trying to build a new image.
+
+00:17:06.100 --> 00:17:10.700
+ Again, if I'm going to click over here, so you will be able to find out the exact same thing.
+
+00:17:10.700 --> 00:17:16.700
+ So it is trying to basically like take something from this three images and then it is trying to build something.
+
+00:17:16.700 --> 00:17:18.200
+ Now, this process, right?
+
+00:17:18.200 --> 00:17:21.400
+ This process is basically called as convolution.
+
+00:17:21.400 --> 00:17:23.200
+ Now, what is the meaning of convolution?
+
+00:17:23.200 --> 00:17:30.500
+ Convolution simply means that, that, you know, extracting some sort of a feature out of a particular image, right?
+
+00:17:30.500 --> 00:17:38.100
+ So I, and like I said, so obviously image is a combination of a edge color combination, some objects inside it.
+
+00:17:38.100 --> 00:17:43.600
+ So obviously what I will do, I'll try to extract all of these things one by one, one by one, one by one,
+
+00:17:43.600 --> 00:17:46.800
+ by using a different, different kind of a feature extractor.
+
+00:17:46.800 --> 00:17:49.000
+ And that is technically called as kernel over here.
+
+00:17:49.000 --> 00:17:50.800
+ So I'll be talking about kernel as well, right?
+
+00:17:50.800 --> 00:17:52.000
+ So I'll be talking about kernel as well.
+
+00:17:52.000 --> 00:17:58.000
+ So here we can see that there is a kernel and kernel is nothing but a kind of a number you will be able to find out.
+
+00:17:58.000 --> 00:18:01.400
+ Now just go to any layer. So convolution and then relu.
+
+00:18:01.400 --> 00:18:05.500
+ So basically we are trying to non-linearize the input information over here.
+
+00:18:05.500 --> 00:18:10.100
+ Then again, convolution, relu and pooling convolution, relu, convolution, relu.
+
+00:18:10.100 --> 00:18:14.000
+ And now if you will come to the last, right, if you will come to the last.
+
+00:18:14.000 --> 00:18:18.700
+ So here this is basically a cup and here.
+
+00:18:18.700 --> 00:18:21.400
+ So if I'll try to click on the prediction, right?
+
+00:18:21.400 --> 00:18:22.600
+ So click on the prediction.
+
+00:18:22.600 --> 00:18:27.100
+ So for example, where is my cup?
+
+00:18:27.100 --> 00:18:28.600
+ So cochlea expression.
+
+00:18:28.600 --> 00:18:29.200
+ Okay.
+
+00:18:29.200 --> 00:18:34.300
+ So here you will be able to see that that finally it is trying to give me some sort of a prediction.
+
+00:18:34.300 --> 00:18:39.700
+ Some sort of prediction that what is a possibility that it will be expression or cup, right?
+
+00:18:39.700 --> 00:18:41.100
+ It will be expression or cup.
+
+00:18:41.100 --> 00:18:44.300
+ So here we have a neural network, a flattened neural network,
+
+00:18:44.300 --> 00:18:53.500
+ which is helping me out in terms of basically identifying or in terms of basically detecting that what this object is going to be.
+
+00:18:53.500 --> 00:18:58.400
+ Out of this 10 different, different kind of an object which is given to me, let's say, right?
+
+00:18:58.400 --> 00:19:00.000
+ So this is where, right?
+
+00:19:00.000 --> 00:19:04.300
+ This is where this entire convolutional neural network comes into picture.
+
+00:19:04.300 --> 00:19:08.200
+ And here, so this is one of the best websites you will be able to see.
+
+00:19:08.200 --> 00:19:12.000
+ And I'm using this one, I think since last like a five, six year or even more.
+
+00:19:12.000 --> 00:19:18.800
+ So since this particular website exists, which is going to give you a very clear real time idea and understanding.
+
+00:19:18.800 --> 00:19:21.800
+ So once you will be able to understand this entire convolutional network,
+
+00:19:21.800 --> 00:19:28.500
+ then it is going to give you a complete understanding that how prediction is going to happen on each and every layer.
+
+00:19:28.500 --> 00:19:31.400
+ So now let's let me summarize this entire conversation.
+
+00:19:31.400 --> 00:19:35.500
+ So convolutionally, it's all about what all about extracting a feature,
+
+00:19:35.500 --> 00:19:42.500
+ a different kind of a feature from a particular image and then sending those features to a neural network.
+
+00:19:42.500 --> 00:19:44.500
+ That is something called as convolution.
+
+00:19:44.500 --> 00:19:46.400
+ A lot of things happens in between by the way.
+
+00:19:46.400 --> 00:19:48.000
+ So not just one or two things.
+
+00:19:48.000 --> 00:19:55.600
+ A lot of things happens in between this convolutional neural network and you are supposed to aware about all of these things at once.
+
+00:19:55.600 --> 00:19:57.400
+ So now let me open up again.
+
+00:19:57.400 --> 00:19:59.300
+ I would like to like to show you this website as well.
+
+00:19:59.300 --> 00:20:03.000
+ So this is also a very good amazing website you will be able to find out.
+
+00:20:03.000 --> 00:20:06.700
+ So in terms of visualization, but lesser than the CNN explainer, right?
+
+00:20:06.700 --> 00:20:07.600
+ Less than CNN explainer.
+
+00:20:07.600 --> 00:20:11.800
+ So here you will be able to like, let's say I'm like writing two over here.
+
+00:20:11.800 --> 00:20:19.700
+ So now it will be able to show you that how it is going to predict technically to a layer by layer, how things are going to happen.
+
+00:20:19.700 --> 00:20:24.700
+ So where convolution is happening, where pooling is happening, where it is sending the data to the neural network.
+
+00:20:24.700 --> 00:20:26.100
+ And then finally, what is the prediction?
+
+00:20:26.100 --> 00:20:28.200
+ It is able to do it, right?
+
+00:20:28.200 --> 00:20:33.900
+ So again, amazing website in terms of doing a visualization for a convolutional neural network layer by layer.
+
+00:20:33.900 --> 00:20:37.300
+ And even you can do a math, you can do a calculation by yourself.
+
+00:20:37.300 --> 00:20:39.300
+ That is also possible.
+
+00:20:39.300 --> 00:20:55.400
+ So now let me open up my scribble link and let's start talking about all of these things in a mathematical term.
+
+00:20:55.400 --> 00:21:18.000
+ Okay. So here, CNN, our full form is convolutional.
+
+00:21:26.000 --> 00:21:37.000
+ neural network, this is the full form of this CNN.
+
+00:21:37.000 --> 00:21:44.000
+ And basically, this has been used in terms of understanding the images or whatsoever you will be able to see.
+
+00:21:44.000 --> 00:21:47.200
+ So this is going to help you out in terms of understanding that.
+
+00:21:47.200 --> 00:21:53.500
+ Now, so how it is going to help you out in terms of understanding anything at any point of a time.
+
+00:21:53.500 --> 00:21:56.900
+ So as we all know that images are nothing but up pixels, right?
+
+00:21:56.900 --> 00:21:58.700
+ I have already shown you over here.
+
+00:21:58.700 --> 00:22:05.700
+ So for like, you know, every pixel, so you can just hover your mouse and then you will be able to understand what is the meaning of that particular pixel.
+
+00:22:05.700 --> 00:22:12.600
+ And even over here, so I have already like shown you that, you know, whenever you are going to take some sort of images.
+
+00:22:12.600 --> 00:22:19.600
+ So basically, any kind of a colorful images that you are going to consider, it will be having three channel red, green and blue RGB.
+
+00:22:19.600 --> 00:22:21.100
+ Basically, we used to see.
+
+00:22:21.100 --> 00:22:26.600
+ So now here, so what convolutional neural network does.
+
+00:22:26.600 --> 00:22:35.100
+ So first of all, it will try to extract some sort of a pattern because at the end of the day, computer never understands.
+
+00:22:35.100 --> 00:22:40.500
+ Computer never understands what is a pixels or what is a color, what is a shape.
+
+00:22:40.500 --> 00:22:42.900
+ Computer will never be able to understand.
+
+00:22:42.900 --> 00:22:46.200
+ Computer understands only one thing and that is a number.
+
+00:22:46.200 --> 00:22:50.800
+ And technically, every image is representation of a number.
+
+00:22:50.800 --> 00:22:55.800
+ Every segment of the image is technically a representation of a number.
+
+00:22:55.800 --> 00:22:57.500
+ So that I'm able to show you.
+
+00:22:57.500 --> 00:23:00.300
+ So you will be able to observe in my left hand side corner.
+
+00:23:00.300 --> 00:23:01.500
+ Are you able to see it, guys?
+
+00:23:01.500 --> 00:23:05.100
+ So if I'm hovering my mouse, my pixel values are changing.
+
+00:23:05.100 --> 00:23:12.500
+ Yes, are you able to see it left hand side corner?
+
+00:23:12.500 --> 00:23:13.600
+ Yes, yeah.
+
+00:23:13.600 --> 00:23:20.700
+ So technically, I'm trying to show you the image, but technically this is not just an image for a computer.
+
+00:23:20.700 --> 00:23:22.400
+ It's a matrix, basically.
+
+00:23:22.400 --> 00:23:26.700
+ It's a matrix or you can say it's basically a numbers.
+
+00:23:26.700 --> 00:23:31.400
+ So computer always understands what computer always understands a number at any point of a time.
+
+00:23:31.400 --> 00:23:36.700
+ Computer doesn't understand anything except the numbers at any time, right?
+
+00:23:36.700 --> 00:23:40.500
+ Computer never understands anything apart from these numbers.
+
+00:23:40.500 --> 00:23:43.300
+ So now this is what we want, right?
+
+00:23:43.300 --> 00:23:47.300
+ So now what is our responsibility and what we can do with these numbers?
+
+00:23:47.300 --> 00:23:53.300
+ So if these numbers combines together and numbers comes together and they are going to showcase
+
+00:23:53.300 --> 00:24:00.800
+ or they are going to give us a sense of an object, like we can recognize that this is me.
+
+00:24:00.800 --> 00:24:03.700
+ This is my kid or this is my dog or something, right?
+
+00:24:03.700 --> 00:24:12.000
+ So if we can, if number can come together in such a manner that if it can give me a sense of a presentation
+
+00:24:12.000 --> 00:24:15.300
+ of an object inside a particular image.
+
+00:24:15.300 --> 00:24:18.900
+ So obviously, we can try to segregate those numbers.
+
+00:24:18.900 --> 00:24:25.900
+ Obviously, we can try to maybe work on that number and then we can try to send those numbers to a neural network
+
+00:24:25.900 --> 00:24:32.900
+ where neural network will be able to learn and understand that what is representing this particular object.
+
+00:24:32.900 --> 00:24:37.300
+ And whenever it will see a similar kind of representation or similar kind of a pattern
+
+00:24:37.300 --> 00:24:40.400
+ because even we used to see the pattern, right?
+
+00:24:40.400 --> 00:24:45.100
+ So whenever it will be able to see the pattern for the next time in combination of the similar kind of a number
+
+00:24:45.100 --> 00:24:48.300
+ it will be able to tell you that, okay, fine, this is this, this is this, right?
+
+00:24:48.300 --> 00:24:51.100
+ So this is where the convolution neural network comes into picture,
+
+00:24:51.100 --> 00:24:55.700
+ which is going to help you out in terms of understanding all of these things.
+
+00:24:55.700 --> 00:24:58.800
+ Now, it is possible, right?
+
+00:24:58.800 --> 00:25:04.300
+ It is possible that we could have used a simple neural network,
+
+00:25:04.300 --> 00:25:08.600
+ the neural network that we have discussed so far where there will be input layer,
+
+00:25:08.600 --> 00:25:13.300
+ there will be a hidden layer and then it is going to send a data
+
+00:25:13.300 --> 00:25:15.700
+ and then it will be able to get the output.
+
+00:25:15.700 --> 00:25:19.100
+ This is the kind of a neural network that we have discussed so far.
+
+00:25:19.100 --> 00:25:20.900
+ So let's imagine in a manner.
+
+00:25:20.900 --> 00:25:26.600
+ So let's say we have an image and we have basically 100 cross 100, right?
+
+00:25:26.600 --> 00:25:28.500
+ 100 cross 100 is a dimension.
+
+00:25:28.500 --> 00:25:30.700
+ So 100 is a height and 100 is a width.
+
+00:25:30.700 --> 00:25:35.500
+ Means there are 100 pixels, 100 pixels, which is representing this, like a rose.
+
+00:25:35.500 --> 00:25:38.300
+ And then there are hundreds of columns, which is representing
+
+00:25:38.300 --> 00:25:42.300
+ and then this one single box is representing your one single pixel, right?
+
+00:25:42.300 --> 00:25:45.900
+ One single pixel, a particular pixel's value at particular point of a time.
+
+00:25:45.900 --> 00:25:47.800
+ It is going to represent, let's say.
+
+00:25:47.800 --> 00:25:53.000
+ So in this case, the total number of pixel will be 100 cross 100, right?
+
+00:25:53.000 --> 00:25:57.800
+ And eventually it is going to be 10,000 number of pixels.
+
+00:25:57.800 --> 00:26:03.100
+ Now, let's say if I have this image and we have an image with three layers.
+
+00:26:03.100 --> 00:26:07.100
+ So basically like a layer number one, let's say we have over here,
+
+00:26:07.100 --> 00:26:11.500
+ then we have a layer number two in this particular place, right?
+
+00:26:11.500 --> 00:26:14.000
+ So three layers because there will be three layers.
+
+00:26:14.000 --> 00:26:16.300
+ So layer number one, two, three, so likewise we have.
+
+00:26:16.300 --> 00:26:22.800
+ So in total, there will be 10,000 into three will be having 30,000 pixels, right?
+
+00:26:22.800 --> 00:26:28.600
+ 30,000 number of pixels I will be having, which is a huge in itself, right?
+
+00:26:28.600 --> 00:26:31.600
+ Which is a huge in itself, I would say.
+
+00:26:31.600 --> 00:26:35.700
+ So here, let's say if I'm trying to create a simple neural network,
+
+00:26:35.700 --> 00:26:40.300
+ this kind of a neural network and then in a first hidden layer itself.
+
+00:26:40.300 --> 00:26:43.400
+ So we have a 1000 neural neurons, right?
+
+00:26:43.400 --> 00:26:46.600
+ 1000 neurons inside a hidden layer.
+
+00:26:46.600 --> 00:26:51.700
+ So here in that, if I'm sending 30,000 data, if I'm sending 30,000 data,
+
+00:26:51.700 --> 00:26:53.800
+ means 30,000 input, right?
+
+00:26:53.800 --> 00:26:57.800
+ 30,000 input, so 30k input if I'm trying to send.
+
+00:26:57.800 --> 00:27:04.200
+ So in total, the number of weights, a number of combination of weights
+
+00:27:04.200 --> 00:27:07.000
+ that you will be able to find out is going to be what?
+
+00:27:07.000 --> 00:27:14.000
+ It's going to be 30,000, right? Into a thousand neurons into a hidden layer.
+
+00:27:14.000 --> 00:27:19.100
+ So in that case, it will be 3, 4, 0 and then another 3, 0.
+
+00:27:19.100 --> 00:27:24.300
+ So it is going to be technically 30 million number of weight.
+
+00:27:24.300 --> 00:27:30.800
+ I'm talking about 30 million trainable parameter just in one single layer, right?
+
+00:27:30.800 --> 00:27:34.500
+ 30 million trainable parameter just in one single layer.
+
+00:27:34.500 --> 00:27:40.700
+ And, you know, I'm just asking a neural network to understand this 30 million,
+
+00:27:40.700 --> 00:27:46.700
+ like, you know, at just this 30 million parameter, which is a huge task in itself,
+
+00:27:46.700 --> 00:27:50.900
+ which is going to be very, very slow, which is going to take lots of memory,
+
+00:27:50.900 --> 00:27:53.500
+ which is going to give you an overfitted result.
+
+00:27:53.500 --> 00:27:56.100
+ Means with the scene data, it is going to give you a good result.
+
+00:27:56.100 --> 00:28:00.000
+ But with the unseen data, it is not going to give you a great result, right?
+
+00:28:00.000 --> 00:28:07.000
+ And apart from that, right, above all, it will never be able to understand the images.
+
+00:28:07.000 --> 00:28:12.900
+ The reason is very simple because I have given the individual pixels as a 1, 1 data points, right?
+
+00:28:12.900 --> 00:28:15.000
+ 1, 1 data points, I have given that.
+
+00:28:15.000 --> 00:28:19.800
+ And likewise, there can be a trillion and trillions of a combination, which could be possible.
+
+00:28:19.800 --> 00:28:23.800
+ So I could have solved this problem, the image understanding problem,
+
+00:28:23.800 --> 00:28:29.000
+ even with respect to a simple neural network, it is going to work with the very, very basic images.
+
+00:28:29.000 --> 00:28:33.100
+ And like I said, it is going to give you an overfitted result.
+
+00:28:33.100 --> 00:28:38.100
+ Now, so even in this, but yes, I will end up training a lot of weights over here,
+
+00:28:38.100 --> 00:28:41.800
+ a 30 million parameter, which is like, and that too, just in one single layer.
+
+00:28:41.800 --> 00:28:44.900
+ So let's say if I'm going to increase the number of layers in that proportion,
+
+00:28:44.900 --> 00:28:46.300
+ it will keep on increasing.
+
+00:28:46.300 --> 00:28:50.700
+ So that many parameter I will have to basically train at the end of the day,
+
+00:28:50.700 --> 00:28:54.400
+ which is a compute intensive task, which is going to be very, very slow.
+
+00:28:54.400 --> 00:28:58.700
+ Plus result wise, there is no guarantee that it is going to work with the new image
+
+00:28:58.700 --> 00:29:02.000
+ or it is going to work with any unseen kind of a data.
+
+00:29:02.000 --> 00:29:03.800
+ That's a, that's a major problem.
+
+00:29:03.800 --> 00:29:07.600
+ So what and the problem is like we are giving single pixel.
+
+00:29:07.600 --> 00:29:11.700
+ So people have basically identified this particular problem and they said that
+
+00:29:11.700 --> 00:29:17.100
+ that the major problem over here is to extraction of the features.
+
+00:29:17.100 --> 00:29:20.100
+ Because here I'm just considering one single, single pixels,
+
+00:29:20.100 --> 00:29:22.400
+ which is not a great idea at all.
+
+00:29:22.400 --> 00:29:25.300
+ If I'm talking about maybe like, you know, image.
+
+00:29:25.300 --> 00:29:28.700
+ So obviously image is nothing, but it's a combination of a different, different kind
+
+00:29:28.700 --> 00:29:30.800
+ of a feature at the end of the day.
+
+00:29:30.800 --> 00:29:33.300
+ So if I will be able to extract, right?
+
+00:29:33.300 --> 00:29:37.600
+ If I will be able to extract all of those feature one by one, one by one,
+
+00:29:37.600 --> 00:29:41.200
+ one by one, one by one, then I can say that that yes,
+
+00:29:41.200 --> 00:29:47.100
+ I will be able to basically, you know, send those data to a neural network.
+
+00:29:47.100 --> 00:29:51.000
+ And then I can ask neural network to understand only those features.
+
+00:29:51.000 --> 00:29:53.900
+ That was the whole idea that people have proposed, right?
+
+00:29:53.900 --> 00:29:55.400
+ That people have proposed.
+
+00:29:55.400 --> 00:29:59.300
+ So now then this convolution things comes into picture
+
+00:29:59.300 --> 00:30:03.100
+ and then people have started talking about the convolution as a whole.
+
+00:30:03.100 --> 00:30:04.900
+ So what do they have proposed, right?
+
+00:30:04.900 --> 00:30:05.800
+ What do they have proposed?
+
+00:30:05.800 --> 00:30:07.900
+ So let me show you in this particular diagram.
+
+00:30:07.900 --> 00:30:13.300
+ So they proposed that, that okay, there is an image as you can see, right?
+
+00:30:13.300 --> 00:30:15.900
+ There is an image as we have over here.
+
+00:30:15.900 --> 00:30:19.600
+ So image of a car, which is available in front of me.
+
+00:30:19.600 --> 00:30:21.900
+ Now what we can do in theory.
+
+00:30:21.900 --> 00:30:27.700
+ So first of all, we can try to and let's say image size is 64 cross 64 cross 3.
+
+00:30:27.700 --> 00:30:30.800
+ 3 means width, sorry, depth basically, right?
+
+00:30:30.800 --> 00:30:32.700
+ On the Z axis, RGB.
+
+00:30:32.700 --> 00:30:37.600
+ So 64 cross 64 is a dimension of this particular image.
+
+00:30:37.600 --> 00:30:40.000
+ And likewise, we have three layers, right?
+
+00:30:40.000 --> 00:30:43.500
+ Layer number one, layer number two, layer number three, RGB, let's say.
+
+00:30:43.500 --> 00:30:47.800
+ So okay, let's talk about layer number one itself, only one layer.
+
+00:30:47.800 --> 00:30:48.700
+ Let's talk about that.
+
+00:30:48.700 --> 00:30:51.500
+ And if I'm going to consider a black and white image, right?
+
+00:30:51.500 --> 00:30:52.200
+ Black and white image.
+
+00:30:52.200 --> 00:30:54.000
+ So in that case, it is going to be very simple.
+
+00:30:54.000 --> 00:30:55.800
+ It is going to be only one layer.
+
+00:30:55.800 --> 00:31:00.200
+ So let's talk about layer number one only, layer number one only.
+
+00:31:00.200 --> 00:31:05.500
+ So it will be having size 64 cross 64, 64 cross 64.
+
+00:31:05.500 --> 00:31:13.200
+ What I will do, so I'll take this 64 cross 64 and then I will try to extract a feature out of it.
+
+00:31:13.200 --> 00:31:22.900
+ So maybe, maybe I'm going to target maybe like, you know, kind of basically simple edge.
+
+00:31:22.900 --> 00:31:26.000
+ So maybe just a edge I will try to extract.
+
+00:31:26.000 --> 00:31:28.100
+ So car will be having lots of edges, right?
+
+00:31:28.100 --> 00:31:29.700
+ Lots of edges over here.
+
+00:31:29.700 --> 00:31:32.300
+ So maybe I can try to extract just a edge.
+
+00:31:32.300 --> 00:31:35.000
+ Maybe I can try to capture a feature.
+
+00:31:35.000 --> 00:31:42.200
+ So wherever that feature is there, maybe this tree or maybe the, you know, edge of the tree I'll try to capture.
+
+00:31:42.200 --> 00:31:44.100
+ Maybe a pattern on a road.
+
+00:31:44.100 --> 00:31:49.200
+ So we have basically these patterns on a road that, you know, in between these two white lines,
+
+00:31:49.200 --> 00:31:51.100
+ there is a road where car can drive itself.
+
+00:31:51.100 --> 00:31:54.100
+ So maybe I can try to recognize only this particular pattern.
+
+00:31:54.100 --> 00:31:57.700
+ Maybe I can try to recognize the light of the car itself.
+
+00:31:57.700 --> 00:32:00.500
+ Maybe I can try to recognize a wheel of the car itself.
+
+00:32:00.500 --> 00:32:02.900
+ Maybe I can try to like, you know, extract a feature.
+
+00:32:02.900 --> 00:32:06.200
+ So which will recognize just a glass over here, right?
+
+00:32:06.200 --> 00:32:11.200
+ So in this manner, so if I can try to extract a different, different, different kind of a feature,
+
+00:32:11.200 --> 00:32:19.200
+ whatsoever feature which exists inside this images, I can train my neural network just on that particular feature.
+
+00:32:19.200 --> 00:32:22.500
+ Now this is where, so how we'll be able to extract those feature, right?
+
+00:32:22.500 --> 00:32:24.700
+ How we are going to extract those features.
+
+00:32:24.700 --> 00:32:26.200
+ So this is where, right?
+
+00:32:26.200 --> 00:32:30.500
+ This is where this kernel or filters comes into picture.
+
+00:32:30.500 --> 00:32:33.300
+ As you can see, kernels or filters comes into picture.
+
+00:32:33.300 --> 00:32:35.500
+ It says that that, okay, not an issue at all.
+
+00:32:35.500 --> 00:32:39.600
+ So what we can do, so maybe I can help you out in terms of extracting a feature.
+
+00:32:39.600 --> 00:32:42.000
+ So just try to take me, right?
+
+00:32:42.000 --> 00:32:50.600
+ Just try to take me and, you know, like take it in a such a manner that I'm going to represent one or the other feature at any point of a time.
+
+00:32:50.600 --> 00:32:55.200
+ So for example, this filter or this kernel, so this is going to represent one of the pattern.
+
+00:32:55.200 --> 00:33:00.000
+ Maybe I can take some other kernel and then that is going to represent something different, right?
+
+00:33:00.000 --> 00:33:01.200
+ Something different.
+
+00:33:01.200 --> 00:33:05.700
+ So I will help you out in terms of extracting this particular feature at any point of a time.
+
+00:33:05.700 --> 00:33:11.500
+ And then you can try to take as many kernels as possible, a different, different, different kind of kernels as possible.
+
+00:33:11.500 --> 00:33:15.700
+ And then with the help of that, you will be able to extract that particular feature.
+
+00:33:15.700 --> 00:33:19.600
+ Now I would like to come in this particular diagram.
+
+00:33:19.600 --> 00:33:22.100
+ So here, let's say I'm going to click here, right?
+
+00:33:22.100 --> 00:33:23.800
+ You will be able to see a kernel.
+
+00:33:23.800 --> 00:33:29.600
+ Now when I'm going to hover my mouse on a kernel, you will be able to see a number on top, kernel weights, right?
+
+00:33:29.600 --> 00:33:30.500
+ Kernel weights.
+
+00:33:30.500 --> 00:33:32.400
+ So basically it's a three cross three kernel.
+
+00:33:32.400 --> 00:33:37.300
+ Now, again, if I'm going to hover mouse over here, you will be able to see a different kernel over here, right?
+
+00:33:37.300 --> 00:33:39.100
+ Values are different by the way.
+
+00:33:39.100 --> 00:33:45.000
+ Now here, whenever I'm going to hover my mouse, you will be able to see a different kernel values in this particular place, right?
+
+00:33:45.000 --> 00:33:47.100
+ So here, right?
+
+00:33:47.100 --> 00:33:53.500
+ So again, if I'm going to click maybe like here, so here you will be able to see again the kernel, right?
+
+00:33:53.500 --> 00:33:56.100
+ A different kind of a kernel you will be able to find out.
+
+00:33:56.100 --> 00:33:59.200
+ Now here, again, a different kind of a kernel you will be able to find out.
+
+00:33:59.200 --> 00:34:01.800
+ Here you will be able to find out the different kernels.
+
+00:34:01.800 --> 00:34:06.100
+ So every kernel is different kernels are nothing but basically a filter, right?
+
+00:34:06.100 --> 00:34:08.600
+ So every filters are basically different.
+
+00:34:08.600 --> 00:34:13.800
+ We are just trying to apply those different, different, different, different kind of filters.
+
+00:34:13.800 --> 00:34:17.500
+ And then we are trying to extract only those feature.
+
+00:34:17.500 --> 00:34:18.300
+ That is the reason.
+
+00:34:18.300 --> 00:34:20.700
+ So when you will look at this layer, right?
+
+00:34:20.700 --> 00:34:22.200
+ The very first layer.
+
+00:34:22.200 --> 00:34:27.700
+ So it is trying to maybe recognize just this oranges kind of a color and a shape.
+
+00:34:27.700 --> 00:34:32.800
+ So here maybe it is trying to recognize just a blue is kind of a color and maybe it's same.
+
+00:34:32.800 --> 00:34:36.600
+ So here it is trying to recognize just as a overall shape.
+
+00:34:36.600 --> 00:34:39.300
+ The middle one is not like a visible blur.
+
+00:34:39.300 --> 00:34:41.800
+ So here again, it is trying to recognize something as a blur.
+
+00:34:41.800 --> 00:34:43.200
+ Here it is trying to recognize something as a blur.
+
+00:34:43.200 --> 00:34:48.200
+ So everyone, everyone is trying to understand a different, different, different things.
+
+00:34:48.200 --> 00:34:51.200
+ Now how it is able to understand a different, different, different things.
+
+00:34:51.200 --> 00:34:54.000
+ All thanks goes to kernel, a filter, right?
+
+00:34:54.000 --> 00:34:55.600
+ Because this is a responsibility of a filter.
+
+00:34:55.600 --> 00:35:02.800
+ It says that, that I will try to extract a different, different, different patterns from a particular images.
+
+00:35:02.800 --> 00:35:05.800
+ Now here how that calculation actually happens.
+
+00:35:05.800 --> 00:35:08.400
+ Let me show you that calculation as well.
+
+00:35:08.400 --> 00:35:11.400
+ So let's say we have a image.
+
+00:35:11.400 --> 00:35:14.400
+ I'm going to take one example, right?
+
+00:35:14.400 --> 00:35:29.000
+ So we have let's say a image and let's say we have one, two, three, four, five.
+
+00:35:29.000 --> 00:35:29.700
+ Okay.
+
+00:35:29.700 --> 00:35:39.900
+ So I'm going to take five cross five just for the calculation purpose.
+
+00:35:39.900 --> 00:35:40.500
+ Okay.
+
+00:35:40.500 --> 00:35:42.200
+ So we have this image.
+
+00:35:42.200 --> 00:35:43.800
+ Just imagine five cross five.
+
+00:35:43.800 --> 00:35:49.100
+ So over there we had 64 cross 64, but let's imagine five plus five image we have.
+
+00:35:49.100 --> 00:35:51.900
+ Now inside this image.
+
+00:35:51.900 --> 00:35:55.900
+ So let's say there is a pixel value which has been given to me.
+
+00:35:55.900 --> 00:36:08.100
+ So pixel value is one, zero, two, one, zero, one, two, one, one, one, zero, zero, one, two, three, one, eight, two, one, one, one, one, one, one, zero, zero.
+
+00:36:08.100 --> 00:36:11.800
+ So I have taken this number so that, you know, whenever I'm going to do a calculation.
+
+00:36:11.800 --> 00:36:14.300
+ So it is going to be a easy calculation for us, right?
+
+00:36:14.300 --> 00:36:19.700
+ Otherwise, you know, I can take like a real numbers and in that case, it is going to be a very tough calculation.
+
+00:36:19.700 --> 00:36:23.000
+ So this is my image of five cross five.
+
+00:36:23.000 --> 00:36:25.400
+ This image size is basically five cross five.
+
+00:36:25.400 --> 00:36:30.900
+ Now my responsibility is to extract a feature out of this particular image.
+
+00:36:30.900 --> 00:36:36.500
+ Now if I have to extract a feature, so obviously a different different kind of a filters, I can try to apply.
+
+00:36:36.500 --> 00:36:42.400
+ So generally, we can try to apply a filters of size three cross three, five cross five, seven cross seven and so on.
+
+00:36:42.400 --> 00:36:45.900
+ Three cross three is one of the ideal filter that you will be able to apply.
+
+00:36:45.900 --> 00:36:48.000
+ So let's say I'm going to consider.
+
+00:36:48.000 --> 00:36:53.300
+ So this is my actual original image, right?
+
+00:36:53.300 --> 00:36:55.600
+ Now I have to extract a feature.
+
+00:36:55.600 --> 00:37:00.500
+ So I'll try to apply filter or kernel.
+
+00:37:00.500 --> 00:37:02.000
+ Both are same actually.
+
+00:37:02.000 --> 00:37:15.600
+ So I will try to apply maybe you can say three cross three kernel, one, one, one, zero, zero, zero, one, one, one.
+
+00:37:15.600 --> 00:37:16.800
+ This is one of my kernel.
+
+00:37:16.800 --> 00:37:20.300
+ So which is like representing one pattern by the way.
+
+00:37:20.300 --> 00:37:22.500
+ So filter is representing one pattern.
+
+00:37:22.500 --> 00:37:28.400
+ So it will try to extract a particular different particular kind of a feature from this particular image.
+
+00:37:28.400 --> 00:37:33.300
+ Okay, and I'm considering that that my image is having only one layer.
+
+00:37:33.300 --> 00:37:36.800
+ Ideally, in case of RGB, so there will be multiple layers.
+
+00:37:36.800 --> 00:37:38.600
+ You will be able to find out three layers.
+
+00:37:38.600 --> 00:37:40.000
+ Technically, you will be able to find out.
+
+00:37:40.000 --> 00:37:44.800
+ But yeah, just for the understanding perspective, just for doing a sake of the calculation.
+
+00:37:44.800 --> 00:37:46.000
+ So we can think that, okay, fine.
+
+00:37:46.000 --> 00:37:49.900
+ So my image is having only one layer and then this is the kernel, which I'm going to apply.
+
+00:37:49.900 --> 00:37:56.900
+ Now how we are going to apply this filter, that is where conclusion happens and that is a meaning of a conclusion.
+
+00:37:56.900 --> 00:37:59.500
+ So what I will do, I'll take this box, right?
+
+00:37:59.500 --> 00:38:01.500
+ This box size is three cross three.
+
+00:38:01.500 --> 00:38:06.900
+ Now if I'm going to put this box, put this particular box over here.
+
+00:38:06.900 --> 00:38:12.700
+ So here I can say that that I can try to fit this particular kernel.
+
+00:38:12.700 --> 00:38:20.100
+ So just think in this panel that we are trying to take this filter and trying to put on my five cross five original images.
+
+00:38:20.100 --> 00:38:23.200
+ Now we are going to do a dot product.
+
+00:38:23.200 --> 00:38:25.900
+ Yeah, we are going to do a dot product.
+
+00:38:25.900 --> 00:38:39.600
+ And then after doing a dot product, we will try to basically build a new image or basically we'll try to build a new shape of the images.
+
+00:38:39.600 --> 00:38:45.800
+ So now if I'm going to do a dot product of this with this particular segment of the image, what is the value?
+
+00:38:45.800 --> 00:38:47.300
+ I will be able to get it guys.
+
+00:38:50.300 --> 00:38:50.900
+ Yes.
+
+00:38:55.900 --> 00:38:56.900
+ Yeah.
+
+00:39:09.900 --> 00:39:11.200
+ Yes, everyone.
+
+00:39:17.600 --> 00:39:19.300
+ So Sai is saying six.
+
+00:39:19.300 --> 00:39:19.800
+ How?
+
+00:39:26.900 --> 00:39:30.000
+ So what is the what is the dot product in a first place?
+
+00:39:30.000 --> 00:39:30.500
+ Tell me.
+
+00:39:44.500 --> 00:39:44.900
+ Yes.
+
+00:39:44.900 --> 00:39:54.700
+ Anyone if I'm going to apply this filter on this particular image sizing that one cross one and then like, you know, zero cross zero and then two cross one.
+
+00:39:54.700 --> 00:40:00.500
+ So yeah, just think that that we have an image and we are trying to, you know, just try to put this filter.
+
+00:40:00.500 --> 00:40:01.900
+ I mean, like on top of it.
+
+00:40:01.900 --> 00:40:04.300
+ So we had a blue and then on top of that.
+
+00:40:04.300 --> 00:40:09.700
+ So I just given a yellow over there and then I'm saying that that, you know, try to apply a dot product.
+
+00:40:09.700 --> 00:40:10.000
+ Okay.
+
+00:40:10.000 --> 00:40:13.500
+ So once you are going to apply a dot product, what will happen?
+
+00:40:13.500 --> 00:40:19.500
+ So one into one, zero into zero, two into one.
+
+00:40:19.500 --> 00:40:22.000
+ So let me write it down.
+
+00:40:22.000 --> 00:40:23.700
+ How does that probably look like?
+
+00:40:23.700 --> 00:40:38.200
+ So 1 into 1 plus 0 into 0 plus 2 into 1, 2 into 1 plus basically 1 into 1 plus 1 into
+
+00:40:38.200 --> 00:40:57.480
+ 0 plus 1 into 1 plus 0 into 1, 0 into 1 plus 0 into 0, 0 into 0 plus 1 into 1 into 1.
+
+00:40:57.480 --> 00:41:05.080
+ So 1, this will become 0, 2, so 3, then 4, then 5 and then 6.
+
+00:41:05.080 --> 00:41:10.440
+ So once you are going to apply this filter on top of this one, this is going to give
+
+00:41:10.440 --> 00:41:12.520
+ you basically 6.
+
+00:41:12.520 --> 00:41:15.560
+ This is basically going to give you 6 as a value.
+
+00:41:15.560 --> 00:41:19.640
+ Now so you are able to get 6 out of this conclusion.
+
+00:41:19.640 --> 00:41:23.060
+ Now so one type of the filter you are able to apply.
+
+00:41:23.060 --> 00:41:24.060
+ Now what are you going to do?
+
+00:41:24.060 --> 00:41:28.360
+ So you will try to sift this yellow box, means this is the yellow box, this filter is the
+
+00:41:28.360 --> 00:41:30.860
+ yellow box, so you will try to sift it.
+
+00:41:30.860 --> 00:41:32.440
+ So how you are going to sift it?
+
+00:41:32.440 --> 00:41:36.280
+ So basically you will try to sift, you can try to sift it by 1 unit, you can try to sift
+
+00:41:36.280 --> 00:41:41.660
+ it by 2 unit, you can try to sift it by 3 unit, basically which is called as strides.
+
+00:41:41.660 --> 00:41:45.760
+ So I can try to take 1 strides, 2 strides or maybe 3 strides or maybe more.
+
+00:41:45.760 --> 00:41:47.340
+ So what does that mean?
+
+00:41:47.340 --> 00:41:51.760
+ So I will try to basically sift this one maybe by 1 unit.
+
+00:41:51.760 --> 00:41:57.600
+ So now my box will sift on this direction and here, so we have an overlap.
+
+00:41:57.600 --> 00:41:58.600
+ We have an overlap.
+
+00:41:58.600 --> 00:42:02.840
+ So already I have captured this one in the previous but still I am going to capture it.
+
+00:42:02.840 --> 00:42:05.480
+ So I have just moved by 1 unit.
+
+00:42:05.480 --> 00:42:08.400
+ Now again I will try to do the exact same thing.
+
+00:42:08.400 --> 00:42:11.440
+ So what is the data I will be able to get?
+
+00:42:11.440 --> 00:42:20.680
+ So 1 into 0, 2 into 0, 0, 1 into 1, 1 and then there will be 1 into 1, 0 so 1 plus 2 plus
+
+00:42:20.680 --> 00:42:27.180
+ 2, 4 plus 6 I believe.
+
+00:42:27.180 --> 00:42:29.760
+ I think I will be able to get 6 again.
+
+00:42:29.760 --> 00:42:33.000
+ Now here, so now I am able to capture.
+
+00:42:33.000 --> 00:42:36.480
+ Now what I will do, I will try to again sift this one.
+
+00:42:36.480 --> 00:42:40.960
+ Again I have sifted this one in my right hand direction.
+
+00:42:40.960 --> 00:42:47.480
+ So again I will try to do a math, so 2 into 1, then 2 and then 0 into 1, 0 then 1 into
+
+00:42:47.480 --> 00:42:57.160
+ 1, so 2 plus 1 is equals to 3 and then 1 into 1, 4, 1 into 1, 5 and then here we have 3.
+
+00:42:57.160 --> 00:43:03.520
+ So 3, so it is going to be 8, let's say, yeah, it is going to be 8.
+
+00:43:03.520 --> 00:43:09.480
+ Now, so now I have exhausted all the options to move in my right hand direction, right,
+
+00:43:09.480 --> 00:43:11.360
+ right hand direction or width wise basically.
+
+00:43:11.360 --> 00:43:13.720
+ Now I can't move further width wise.
+
+00:43:13.720 --> 00:43:19.480
+ So now what I will do, I will start moving myself maybe next, like I will try to take
+
+00:43:19.480 --> 00:43:25.560
+ one step and then I will try to bring my filter over here, over here.
+
+00:43:25.560 --> 00:43:27.480
+ So 3 cross 3.
+
+00:43:27.480 --> 00:43:31.920
+ Again there is overlap, so now my green is representing a filter for the second layer.
+
+00:43:31.920 --> 00:43:37.760
+ So again I will try to do something, right, 3 times, so 1, 2, 3, so green will come here,
+
+00:43:37.760 --> 00:43:42.320
+ then green will come here and then eventually green will come here, right, green will come
+
+00:43:42.320 --> 00:43:43.320
+ here.
+
+00:43:43.320 --> 00:43:44.320
+ So all of these things will be captured.
+
+00:43:44.320 --> 00:43:46.880
+ So let's say I am going to capture 4, 5, 1.
+
+00:43:46.880 --> 00:43:51.560
+ I am not like calculating it, I have just written the random number over here, maybe you can
+
+00:43:51.560 --> 00:43:57.240
+ calculate the registration, then what we can do, so then we can again try to shift downwards,
+
+00:43:57.240 --> 00:44:02.400
+ so this time maybe like white is going to represent, right, white is going to represent
+
+00:44:02.400 --> 00:44:03.400
+ this one.
+
+00:44:03.400 --> 00:44:06.320
+ So again I will try to shift white 3 times.
+
+00:44:06.320 --> 00:44:10.800
+ I will try to shift white 3 times, yeah, I will try to shift white 3 times.
+
+00:44:10.800 --> 00:44:13.920
+ So let's say value is 2, 4, 1.
+
+00:44:13.920 --> 00:44:18.120
+ Now can I like move anything further?
+
+00:44:18.120 --> 00:44:23.640
+ Can I apply this filter like, you know, further on any places?
+
+00:44:23.640 --> 00:44:27.280
+ Now I am able to capture everything, right, so whatsoever was required and whatsoever
+
+00:44:27.280 --> 00:44:31.920
+ was there, so I am able to apply like, I am able to capture all the data.
+
+00:44:31.920 --> 00:44:37.320
+ So out of this 5 cross 5, what is the size of the image which I am able to build, can
+
+00:44:37.320 --> 00:44:43.400
+ I say 3 cross 3, after applying a filter I am able to build 3 cross 3 image.
+
+00:44:43.400 --> 00:44:49.720
+ So now this is my image and this image is representing, this image is a resultant of
+
+00:44:49.720 --> 00:44:50.720
+ this filter.
+
+00:44:50.720 --> 00:44:56.200
+ If I am going to change my filter, let's say instead of applying this filter, right,
+
+00:44:56.200 --> 00:45:02.680
+ I will try to apply maybe 0, 0, 0, 1, 1, 1, 1, 1, this is another filter, right.
+
+00:45:02.680 --> 00:45:07.600
+ So likewise I can have any number of a filter, different kind of a filter which can try to
+
+00:45:07.600 --> 00:45:12.440
+ help me out in terms of extracting a different kind of data or different kind of information.
+
+00:45:12.440 --> 00:45:16.560
+ So I will end up building such kind of a images.
+
+00:45:16.560 --> 00:45:21.320
+ So I can try to apply this filter, now coming back to this image.
+
+00:45:21.320 --> 00:45:27.760
+ So here, here, right, we are trying to apply a filter, fine, then we are trying to apply
+
+00:45:27.760 --> 00:45:29.360
+ a filter, fine.
+
+00:45:29.360 --> 00:45:33.320
+ So likewise can anyone tell me how many different different filters we are trying to apply over
+
+00:45:33.320 --> 00:45:35.520
+ here?
+
+00:45:35.520 --> 00:45:44.200
+ Yes, how many different different types of filters we are trying to apply over here?
+
+00:45:44.200 --> 00:45:56.240
+ In this first layer, yes, how many filters we are trying to apply?
+
+00:45:56.240 --> 00:46:05.920
+ So size saying 10, this is saying 10, so see here, whenever we are talking about like this,
+
+00:46:05.920 --> 00:46:11.400
+ this one basically, so you will be able to see that our original image size was 64 cross
+
+00:46:11.400 --> 00:46:12.960
+ 64 cross 3.
+
+00:46:12.960 --> 00:46:18.400
+ So we were having 3 layers, right, we were having technically 3 layers, means RGB, right,
+
+00:46:18.400 --> 00:46:21.760
+ RGB we were having, okay, that's cool.
+
+00:46:21.760 --> 00:46:26.280
+ Now, so we are trying to apply how many different different kind of a filter, so 10 different
+
+00:46:26.280 --> 00:46:29.800
+ different kind of a filters we are trying to apply and this is something that we are
+
+00:46:29.800 --> 00:46:35.080
+ able to like a build after applying 10 different different kind of a filter where every filter
+
+00:46:35.080 --> 00:46:38.600
+ is helping me out and not just that.
+
+00:46:38.600 --> 00:46:44.440
+ So here, you will be able to see that that as I have a 3D image, right, I had a 3D image.
+
+00:46:44.440 --> 00:46:48.440
+ So basically red, green and blue RGB images.
+
+00:46:48.440 --> 00:46:54.800
+ So for every layer, so for every layer, we have a filter for every layer, we have a filter.
+
+00:46:54.800 --> 00:46:59.920
+ So in that sense, if you are going to consider, so it will be 10 total, right, 10 features
+
+00:46:59.920 --> 00:47:01.880
+ extraction into three.
+
+00:47:01.880 --> 00:47:07.160
+ So I mean, like, you know, for every layer, so basically here, we say that that the filter
+
+00:47:07.160 --> 00:47:11.320
+ that we are trying to apply is actually 10, 10 number of filter.
+
+00:47:11.320 --> 00:47:18.080
+ But here, the filter that we have is a 3D filter, right, so instead of taking this flat,
+
+00:47:18.080 --> 00:47:22.320
+ this is basically a 1D filter or 2D filter, can I say that this is my 2D filter guys?
+
+00:47:22.320 --> 00:47:25.400
+ Yeah, we have only X and Y.
+
+00:47:25.400 --> 00:47:26.400
+ Can I say that?
+
+00:47:26.400 --> 00:47:29.160
+ Can I make a statement that this is my 2D filter that I'm trying to apply?
+
+00:47:29.160 --> 00:47:33.400
+ Okay, what if, if I will be having this kind of a filter, right?
+
+00:47:33.400 --> 00:47:41.240
+ So this kind of a filter basically, this kind of a filter.
+
+00:47:41.240 --> 00:47:44.280
+ So now this kind of a filter is representing all the layers.
+
+00:47:44.280 --> 00:47:49.880
+ So at a time, so it will try to apply on red layer, green layer, as well as on a blue layer
+
+00:47:49.880 --> 00:47:52.800
+ and 10 different different kind of a filters we will be having.
+
+00:47:52.800 --> 00:47:55.920
+ And this is what is happening over here with respect to this particular images.
+
+00:47:55.920 --> 00:47:59.040
+ So you must be able to see that that some, like it's a 3D filter.
+
+00:47:59.040 --> 00:48:03.200
+ So one layer by layer, layer by layer, it is going to apply and 10 such filters we are
+
+00:48:03.200 --> 00:48:07.960
+ going to apply and we are trying to extract a different kind of a information out of my
+
+00:48:07.960 --> 00:48:09.640
+ images, right?
+
+00:48:09.640 --> 00:48:12.400
+ So 10 different different layers and 10 different filters.
+
+00:48:12.400 --> 00:48:16.340
+ And this is the resultant value that I will be able to get it layer by layer, layer by
+
+00:48:16.340 --> 00:48:19.360
+ layer, layer by layer, layer by layer, very, very simple, right?
+
+00:48:19.360 --> 00:48:29.600
+ So now this process of applying a filter and extracting a feature is called as, yes, it's
+
+00:48:29.600 --> 00:48:42.240
+ called as, yes guys, applying the filters and extracting all of these things.
+
+00:48:42.240 --> 00:48:43.880
+ It's called as convolution.
+
+00:48:43.880 --> 00:48:47.720
+ So that is a meaning of a convolution by the way, I hope all of you are able to understand
+
+00:48:47.720 --> 00:48:51.600
+ that why it's called as convolutional neural network, right?
+
+00:48:51.600 --> 00:48:55.040
+ So this is the meaning of this convolutional neural network, okay?
+
+00:48:55.040 --> 00:48:59.840
+ Now, so once we are able to apply a filter, so again, it depends upon the architecture
+
+00:48:59.840 --> 00:49:00.840
+ by the way.
+
+00:49:00.840 --> 00:49:04.280
+ So it's not going to be like in generic in every architecture.
+
+00:49:04.280 --> 00:49:08.040
+ So let's say I have applied the filter, right?
+
+00:49:08.040 --> 00:49:14.000
+ But I would like to extract or I would like to capture some specific information, not
+
+00:49:14.000 --> 00:49:15.000
+ all the information.
+
+00:49:15.000 --> 00:49:20.120
+ So for example, so now we have 62 cross 62 and then 10 layers.
+
+00:49:20.120 --> 00:49:24.080
+ So maybe you can, you can imagine or you can think in this manner.
+
+00:49:24.080 --> 00:49:30.880
+ So all of this like images are flat up over here, but in real, let's say we have an image
+
+00:49:30.880 --> 00:49:33.040
+ and then we have 10 layers, right?
+
+00:49:33.040 --> 00:49:36.880
+ We have 10, I mean image after image, after image, after image, like a books, right?
+
+00:49:36.880 --> 00:49:38.800
+ So there will be page after page after page after page.
+
+00:49:38.800 --> 00:49:41.600
+ So there are 10 pages in that sense you can try to imagine.
+
+00:49:41.600 --> 00:49:45.680
+ So again, if you're going to collapse this entire thing, this entire information, only
+
+00:49:45.680 --> 00:49:48.400
+ in that case, you will be able to see that particular part.
+
+00:49:48.400 --> 00:49:54.560
+ Now here, so what we can do, so we can try to apply some sort of a non-linearization on
+
+00:49:54.560 --> 00:49:56.360
+ top of that.
+
+00:49:56.360 --> 00:50:00.120
+ And this is where we are trying to call a rectified linear unit.
+
+00:50:00.120 --> 00:50:03.760
+ Now what happens with rectified linear unit guys, yeah?
+
+00:50:03.760 --> 00:50:09.960
+ What happens with rectified linear unit?
+
+00:50:09.960 --> 00:50:13.840
+ I think in my last class I talked about it, last class itself.
+
+00:50:13.840 --> 00:50:17.200
+ So max, what is, what is a graph of this RLU?
+
+00:50:17.200 --> 00:50:21.520
+ So graph of RLU says that, that, you know, this one, I will always try to give for any
+
+00:50:21.520 --> 00:50:25.920
+ input X, I'll try to give positive input X, I'll always try to give you the max, right?
+
+00:50:25.920 --> 00:50:28.440
+ I'll always try to give you the max as simple as that.
+
+00:50:28.440 --> 00:50:32.640
+ And for negative, it is always going to be zero, means it is going to chop up the negative
+
+00:50:32.640 --> 00:50:36.780
+ values, by the way, by the way, like here, so you won't be able to find out the negative
+
+00:50:36.780 --> 00:50:41.400
+ value in our original images, but yes, when you are going to apply a filter, so if your
+
+00:50:41.400 --> 00:50:44.600
+ kernel is having some sort of a negative, so there is a possibility.
+
+00:50:44.600 --> 00:50:48.240
+ So here people said that, okay, fine, so we can try to apply maybe a rectified linear
+
+00:50:48.240 --> 00:50:53.520
+ unit over here, so which is going to extract, right, which is going to extract only the
+
+00:50:53.520 --> 00:50:57.200
+ important feature, not the negative one.
+
+00:50:57.200 --> 00:51:02.080
+ So for example, the mouse where I'm hovering, so you must be able to see max of zero to
+
+00:51:02.080 --> 00:51:08.360
+ minus of 0.25, the number is very small, I don't know whether you are able to see that,
+
+00:51:08.360 --> 00:51:10.840
+ it's minus of 29, yeah, minus of 29.
+
+00:51:10.840 --> 00:51:15.320
+ So max of zero and minus of 29 is going to be what, zero, means chopping off the negative
+
+00:51:15.320 --> 00:51:16.320
+ value, right?
+
+00:51:16.320 --> 00:51:22.640
+ So it is going to basically help you out to chop off those values, which is not significant
+
+00:51:22.640 --> 00:51:29.280
+ for me, which I'm not supposed to capture, for example, so here, just like, just look
+
+00:51:29.280 --> 00:51:30.360
+ at this particular image.
+
+00:51:30.360 --> 00:51:34.840
+ So what we have done, so we have applied a rectified linear unit, right, so it has chopped
+
+00:51:34.840 --> 00:51:36.640
+ off all the negative values.
+
+00:51:36.640 --> 00:51:42.120
+ So now this image is representing some sort of a blurry shape, maybe this is required
+
+00:51:42.120 --> 00:51:46.760
+ for my learning, right, and some like, you know, edges with a blueish color, right, this
+
+00:51:46.760 --> 00:51:48.240
+ is representing.
+
+00:51:48.240 --> 00:51:52.000
+ So obviously this is a feature which I was looking for and it is helping me out, right,
+
+00:51:52.000 --> 00:51:55.680
+ it is helping me out and calculation is very simple, we all know.
+
+00:51:55.680 --> 00:52:00.400
+ So what we have done, so we have applied a rectified linear unit on all the 10 layers
+
+00:52:00.400 --> 00:52:01.640
+ that we have extracted.
+
+00:52:01.640 --> 00:52:07.720
+ Now once this is done, right, once this is done, then again, we can do convolution, right,
+
+00:52:07.720 --> 00:52:12.040
+ then a feature of a feature we are trying to extract, right, feature of feature we are
+
+00:52:12.040 --> 00:52:13.040
+ trying to extract.
+
+00:52:13.040 --> 00:52:15.320
+ So again, same thing, nothing is going to be different, right.
+
+00:52:15.320 --> 00:52:20.040
+ So 10 kernels, 3D kernels we are going to apply, it's a 3D kernel, right, so 10 kernels
+
+00:52:20.040 --> 00:52:23.760
+ we are going to like, you know, apply everywhere and then this is going to help me out again
+
+00:52:23.760 --> 00:52:28.520
+ in terms of capturing some of the, some of the other features, by the way, yeah, some
+
+00:52:28.520 --> 00:52:29.920
+ of the other features.
+
+00:52:29.920 --> 00:52:33.600
+ So this time, like, it's going to be 10D kernel, by the way, yeah.
+
+00:52:33.600 --> 00:52:38.320
+ So we are going to apply on all the layers, right, all the layers and then it is going
+
+00:52:38.320 --> 00:52:41.360
+ to help me out in terms of capturing all the values.
+
+00:52:41.360 --> 00:52:45.000
+ Then again, we are trying to apply a rectified linear unit, right, so which is going to help
+
+00:52:45.000 --> 00:52:47.800
+ me out in terms of extracting the values.
+
+00:52:47.800 --> 00:52:50.800
+ Then what we do, right, then what we do.
+
+00:52:50.800 --> 00:52:55.160
+ So there is a term called as pooling, basically, then there is a term called as pooling.
+
+00:52:55.160 --> 00:52:57.160
+ Now what happens with respect to a pooling?
+
+00:52:57.160 --> 00:53:00.280
+ Let me explain you here, what happens with respect to pooling.
+
+00:53:00.280 --> 00:53:06.800
+ So now let's say I have this matrix, 3 cross 3, right, 3 cross 3.
+
+00:53:06.800 --> 00:53:12.960
+ So now there is a possibility that everyone is not going to contribute, you know, in a,
+
+00:53:12.960 --> 00:53:21.080
+ with a equal, I would say, capacity, maybe, just think about this numbers, right, this
+
+00:53:21.080 --> 00:53:24.720
+ numbers, these numbers are very close to each other, right, these numbers are very close
+
+00:53:24.720 --> 00:53:26.040
+ to each other.
+
+00:53:26.040 --> 00:53:31.720
+ So instead of maybe, you know, taking the 6, 6, 4, 5, even if I'm going to take just
+
+00:53:31.720 --> 00:53:37.160
+ a 6, 4, 5 is almost close, which is a maximum, right, maximum of all this 4.
+
+00:53:37.160 --> 00:53:38.640
+ Now I'll move here.
+
+00:53:38.640 --> 00:53:46.360
+ So you know, I can try to take maybe 8 from here, then I can move here, I can try to take,
+
+00:53:46.360 --> 00:53:50.880
+ I can try to take 4, 5, 2, 4, right, so 5 is a maximum.
+
+00:53:50.880 --> 00:53:56.680
+ And then I can try to take basically 5, 1, 4, 1, 1, right, so 5 from here.
+
+00:53:56.680 --> 00:54:02.360
+ So now this is my image, right, this is my image, which I will be able to form.
+
+00:54:02.360 --> 00:54:04.280
+ And my logic behind this one is very simple.
+
+00:54:04.280 --> 00:54:10.400
+ My logic says that, you know, let's try to take only those features or only those numbers
+
+00:54:10.400 --> 00:54:16.760
+ or only those pixels, which is max in nature, right, which is max in nature, so that I will
+
+00:54:16.760 --> 00:54:23.160
+ be able to, you know, get only those like significant features, maybe I should not consider all
+
+00:54:23.160 --> 00:54:29.120
+ of these things, like 1, 2 and all of these things I should not consider, because unnecessarily,
+
+00:54:29.120 --> 00:54:32.820
+ so here I have 3 cross 3, now here I have 2 cross 2.
+
+00:54:32.820 --> 00:54:38.360
+ So significantly, I am able to reduce, right, significantly, I am able to reduce the size
+
+00:54:38.360 --> 00:54:43.800
+ of, I would say, an image or data that we have to process, right, the data that we have
+
+00:54:43.800 --> 00:54:44.880
+ to process.
+
+00:54:44.880 --> 00:54:50.760
+ So this is something called as pooling, pooling, so pooling simply means that, you know, you
+
+00:54:50.760 --> 00:54:55.920
+ can take a pool of like a 2 cross 2, 3 cross 3, 4 cross 4, whatsoever you want, this is
+
+00:54:55.920 --> 00:54:58.880
+ basically, you can go and you can try to do an experimentation.
+
+00:54:58.880 --> 00:55:02.800
+ So they said that, that, you know, there is something called as max pooling, there is
+
+00:55:02.800 --> 00:55:06.040
+ something called as min, there is something called as average pooling, so likewise, there
+
+00:55:06.040 --> 00:55:09.400
+ are different, different kind of a pooling that you will be able to do it at any point
+
+00:55:09.400 --> 00:55:10.520
+ of a time.
+
+00:55:10.520 --> 00:55:16.320
+ So it simply says that, right, it simply says that, that, okay, so you are able to, you
+
+00:55:16.320 --> 00:55:20.960
+ know, do a pooling, that's like a completely fine, significantly, it is going to help you
+
+00:55:20.960 --> 00:55:25.520
+ out in terms of reducing the number of data that you are going to process.
+
+00:55:25.520 --> 00:55:28.400
+ Now this is what I would like to show you even over here.
+
+00:55:28.400 --> 00:55:30.200
+ So click on max pooling.
+
+00:55:30.200 --> 00:55:32.240
+ Now what is happening by the way?
+
+00:55:32.240 --> 00:55:38.560
+ So here, it is trying to like take 2 cross 2, 2 cross 2, 2 cross 2, 2 cross 2, right,
+
+00:55:38.560 --> 00:55:43.440
+ 2 cross 2, without overlap if you are going to take, so strides is equals to let's suppose
+
+00:55:43.440 --> 00:55:49.220
+ like, you know, 2, so means 2 pixels you are moving, then 2 cross 2, 2 cross 2.
+
+00:55:49.220 --> 00:55:55.840
+ So here, out of the 60 cross 60 images, straight forward, you are able to half the size of the
+
+00:55:55.840 --> 00:55:58.080
+ data that you have to process, right.
+
+00:55:58.080 --> 00:56:04.000
+ So from 60 cross 60, you are able to convert your images into 30 cross 30, you are just
+
+00:56:04.000 --> 00:56:06.720
+ considering the significant one.
+
+00:56:06.720 --> 00:56:07.800
+ Is it making sense guys?
+
+00:56:07.800 --> 00:56:10.120
+ What is the meaning of max pooling?
+
+00:56:10.120 --> 00:56:25.160
+ Yes, what is the meaning of a max pooling by the way?
+
+00:56:25.160 --> 00:56:27.600
+ So there can be max pooling, there can be average pooling.
+
+00:56:27.600 --> 00:56:29.440
+ There is something called as global average pooling.
+
+00:56:29.440 --> 00:56:30.920
+ There is something called as down sampling.
+
+00:56:30.920 --> 00:56:34.940
+ So all of these things you can try to do so that the kind of a data which I will have
+
+00:56:34.940 --> 00:56:37.360
+ to process, I can try to drill it down.
+
+00:56:37.360 --> 00:56:40.120
+ Now out of that, again, I'm trying to apply conclusion.
+
+00:56:40.120 --> 00:56:43.640
+ Same thing, right, same thing we are trying to do.
+
+00:56:43.640 --> 00:56:46.660
+ Then again, real you, right, then conclusion real you max pool.
+
+00:56:46.660 --> 00:56:52.520
+ So now I can try to design as many layers as possible for me, as many layers as possible
+
+00:56:52.520 --> 00:56:53.520
+ for me.
+
+00:56:53.520 --> 00:56:55.800
+ Now, there is a output layer.
+
+00:56:55.800 --> 00:57:00.120
+ Let me click on one of the output, which is going to show you the clear picture.
+
+00:57:00.120 --> 00:57:07.440
+ So once you are able to get this data, right, so just imagine we had 64 cross 64 cross
+
+00:57:07.440 --> 00:57:11.000
+ 3, that was the original image size that we have taken.
+
+00:57:11.000 --> 00:57:16.440
+ Now here, so if you will like, you know, over your mouse, 13 cross 13 cross 10, right, 13
+
+00:57:16.440 --> 00:57:17.440
+ cross 13 cross 10.
+
+00:57:17.440 --> 00:57:19.760
+ So one image is having 13 cross 13 cross.
+
+00:57:19.760 --> 00:57:26.440
+ So calculation wise, so total number of pixels 64 cross 64 cross 3.
+
+00:57:26.440 --> 00:57:31.160
+ So this was 12,288, this was a total number of pixel that we have been talking about.
+
+00:57:31.160 --> 00:57:32.920
+ Now here, how much data we have.
+
+00:57:32.920 --> 00:57:35.120
+ So 13 cross 13 cross 10.
+
+00:57:35.120 --> 00:57:40.520
+ So here we have basically 13 cross 13 cross 10.
+
+00:57:40.520 --> 00:57:47.560
+ Now 1690, significantly, we are able to reduce a number of pixels, right, that's part number
+
+00:57:47.560 --> 00:57:52.920
+ one, which was a problem with respect to a like, you know, using directly a neural network.
+
+00:57:52.920 --> 00:57:58.640
+ Part number two, we have achieved this point, right, we have we are able to achieve this
+
+00:57:58.640 --> 00:58:03.800
+ point, not just by like, you know, taking a pixels directly.
+
+00:58:03.800 --> 00:58:05.840
+ But what do we have done during this process?
+
+00:58:05.840 --> 00:58:09.880
+ We have applied a pooling, we have applied a non realization means just try to extract
+
+00:58:09.880 --> 00:58:10.880
+ a significant data.
+
+00:58:10.880 --> 00:58:11.880
+ That's the reason.
+
+00:58:11.880 --> 00:58:12.880
+ So we have used value.
+
+00:58:12.880 --> 00:58:16.200
+ You can try to use tangent 10 h as well, hyper tangent function, you can try to use sigmoid
+
+00:58:16.200 --> 00:58:18.120
+ as well instead of ReLU.
+
+00:58:18.120 --> 00:58:22.800
+ So ReLU is not a fixed one, by the way, nothing is fixed in this one, right, nothing is fixed.
+
+00:58:22.800 --> 00:58:23.800
+ So ReLU is not fixed.
+
+00:58:23.800 --> 00:58:27.180
+ You can take hyper tangent, you can try to take sigmoid, you can try to take leaky ReLU,
+
+00:58:27.180 --> 00:58:31.400
+ you can try to take maybe a Swiss over there, everything is going to work now.
+
+00:58:31.400 --> 00:58:38.120
+ So here we have, we have done all of these things plus we are right, we are trying to
+
+00:58:38.120 --> 00:58:40.400
+ extract a specialized feature.
+
+00:58:40.400 --> 00:58:43.840
+ Now just think about these features.
+
+00:58:43.840 --> 00:58:47.560
+ Some is representing just a spot, some is representing just a canvas, some is representing
+
+00:58:47.560 --> 00:58:51.280
+ some like a shape of it, some is representing just a blank canvas, some is representing
+
+00:58:51.280 --> 00:58:53.600
+ some dark sets of the cup.
+
+00:58:53.600 --> 00:58:57.760
+ So now these are the different, different, different, different, different, different
+
+00:58:57.760 --> 00:59:02.480
+ features we are trying to send, or these combinations we are trying to send.
+
+00:59:02.480 --> 00:59:08.640
+ And that too, the number of data is significantly reduced, right, similarly reduced.
+
+00:59:08.640 --> 00:59:13.520
+ Now what we are going to do, so in total data is 16,090.
+
+00:59:13.520 --> 00:59:19.640
+ Total 13 cross 13 cross 10, what I will do, I will try to flatten the data, for example,
+
+00:59:19.640 --> 00:59:28.200
+ so let's say we have, you know, this, why I'm drawing this, let me use my scribble link.
+
+00:59:28.200 --> 00:59:36.600
+ So let's say we have the 6855, right, 2 cross 2 images, what I will do, 6855, right.
+
+00:59:36.600 --> 00:59:43.440
+ So likewise, we have so many layers, 10 layers, let's say I have, so I will try to flatten
+
+00:59:43.440 --> 00:59:44.440
+ it.
+
+00:59:44.440 --> 00:59:48.400
+ Now that flatten is going to give you this one.
+
+00:59:48.400 --> 00:59:51.200
+ That flatten is going to give you this one, right.
+
+00:59:51.200 --> 00:59:54.000
+ Simple flattening, simple, simple philosophy, right.
+
+00:59:54.000 --> 00:59:57.320
+ So here, yeah, simple philosophy, 6855.
+
+00:59:57.320 --> 01:00:00.120
+ So we had 6855, this one, right.
+
+01:00:00.120 --> 01:00:01.640
+ So we have flattened this one.
+
+01:00:01.640 --> 01:00:04.800
+ So whatsoever number of layers that I will be having, so I'll try to flatten each and
+
+01:00:04.800 --> 01:00:05.800
+ everything.
+
+01:00:05.800 --> 01:00:09.960
+ And now I will try to send this flatten one, right.
+
+01:00:09.960 --> 01:00:16.480
+ Now I will try to send this flatten one, where inside a neural network, is it making sense
+
+01:00:16.480 --> 01:00:20.360
+ to all of us guys?
+
+01:00:20.360 --> 01:00:27.800
+ Yes, so now the neural network that we have discussed comes into picture.
+
+01:00:27.800 --> 01:00:30.160
+ So far we have not been doing a training, by the way.
+
+01:00:30.160 --> 01:00:34.960
+ So far, so this convolution, filter convolution, pooling convolution, really whatsoever we
+
+01:00:34.960 --> 01:00:36.560
+ have done layer by layer.
+
+01:00:36.560 --> 01:00:40.700
+ We have not even done a training at all, right.
+
+01:00:40.700 --> 01:00:42.640
+ We have not even done a training.
+
+01:00:42.640 --> 01:00:48.520
+ So here, now we are going to send it inside my layers, right, inside my, like, you know,
+
+01:00:48.520 --> 01:00:51.280
+ after flattening this data, so there will be a neural network.
+
+01:00:51.280 --> 01:00:55.160
+ So I can try to put up a neural network in between.
+
+01:00:55.160 --> 01:01:00.080
+ And then it is going to train itself, and then it is going to basically do some sort
+
+01:01:00.080 --> 01:01:06.040
+ of a prediction at any point of a time, one by one, one by one, one by one, right.
+
+01:01:06.040 --> 01:01:10.120
+ So, this is how, you know, then back propagation.
+
+01:01:10.120 --> 01:01:13.680
+ So then when neural network will come into picture, so whatsoever we have discussed with
+
+01:01:13.680 --> 01:01:18.000
+ respect to neural network, that principle or that philosophy is that layers will be
+
+01:01:18.000 --> 01:01:21.320
+ applicable over here.
+
+01:01:21.320 --> 01:01:24.840
+ Same thing you will be able to find out even in this one, right.
+
+01:01:24.840 --> 01:01:29.120
+ So there will be a flatter, right, so flattening, we are going to do it.
+
+01:01:29.120 --> 01:01:34.400
+ And then dense layer, dense layer means a hidden neurons you will be having, let's say,
+
+01:01:34.400 --> 01:01:36.520
+ and then there will be an output layer.
+
+01:01:36.520 --> 01:01:39.960
+ So we can try to use a softener function, so which can help me out in terms of doing
+
+01:01:39.960 --> 01:01:44.360
+ a multi-class classification, yeah, multi-class classification.
+
+01:01:44.360 --> 01:01:48.180
+ So this is basically layer number seven is what a fully connected dense layer.
+
+01:01:48.180 --> 01:01:49.760
+ So what is the meaning of this?
+
+01:01:49.760 --> 01:01:53.080
+ So every neuron in one layer connect to the neuron in the next layer.
+
+01:01:53.080 --> 01:01:57.600
+ So technically a hidden layer and neural network we are talking about in this one.
+
+01:01:57.600 --> 01:01:59.240
+ As simple as that.
+
+01:01:59.240 --> 01:02:03.560
+ So before that, we have been doing just a convolution pooling, convolution pooling, convolution pooling,
+
+01:02:03.560 --> 01:02:10.080
+ the whole purpose, the whole idea was very simple, extract as a refined feature as possible.
+
+01:02:10.080 --> 01:02:16.140
+ Because if I'm not able to extract a feature, my neural network will not be able to do anything.
+
+01:02:16.140 --> 01:02:23.800
+ So are you able to understand the whole philosophy behind a convolutional neural network guys?
+
+01:02:23.800 --> 01:02:30.320
+ Yes, so how this neural network is actually working, what is the core philosophy principle,
+
+01:02:30.320 --> 01:02:34.880
+ how it is extracting the feature, how it is sending those things inside a fully connected
+
+01:02:34.880 --> 01:02:36.960
+ layer after doing a flat earning.
+
+01:02:36.960 --> 01:02:41.200
+ And then finally it will try to do some sort of a prediction with the help of softmax.
+
+01:02:41.200 --> 01:02:46.480
+ And obviously in terms of learning, so it will try to technically do a backward propagation
+
+01:02:46.480 --> 01:02:58.760
+ and then it is going to do a learning at any point of time.
+
+01:02:58.760 --> 01:02:59.760
+ What is softmax?
+
+01:02:59.760 --> 01:03:01.680
+ I think I talked about that softmax function.
+
+01:03:01.680 --> 01:03:06.480
+ So softmax is basically this function, this probability function as you can see.
+
+01:03:06.480 --> 01:03:10.780
+ So let's say we have a multiple classes, we have a multiple classes.
+
+01:03:10.780 --> 01:03:13.680
+ So every classes is going to get some sort of output.
+
+01:03:13.680 --> 01:03:18.160
+ So softmax is going to tell you that out of like, let's say we have 10 classes.
+
+01:03:18.160 --> 01:03:20.740
+ So which class is having most probability?
+
+01:03:20.740 --> 01:03:22.760
+ So that class is going to be the prediction.
+
+01:03:22.760 --> 01:03:26.280
+ So softmax is basically being used for a multi-class classification.
+
+01:03:26.280 --> 01:03:35.960
+ It's a probability function, by the way, for multi-classes, that's it.
+
+01:03:35.960 --> 01:03:50.520
+ Okay, so now, so Keith is asking that fully connected dense layer means, fully connected
+
+01:03:50.520 --> 01:03:52.760
+ dense layer means hidden layer only, right?
+
+01:03:52.760 --> 01:03:55.760
+ Yes, that is going to be the hidden layer.
+
+01:03:55.760 --> 01:04:11.680
+ Okay, so with the help of, so here the dense layer that we are talking about, right?
+
+01:04:11.680 --> 01:04:16.280
+ So this can directly be an output layer, or it's possible, right?
+
+01:04:16.280 --> 01:04:21.920
+ It's basically possible that I can try to consider this dense layer as a hidden layer.
+
+01:04:21.920 --> 01:04:28.920
+ It's upon me how we are like, you know, going to consider this dense layer, basically.
+
+01:04:28.920 --> 01:04:32.320
+ Okay, so now let's do one thing.
+
+01:04:32.320 --> 01:04:34.720
+ So let's try to do some sort of a practical guys.
+
+01:04:34.720 --> 01:04:40.120
+ So this practical is going to give you basically a fully understanding an idea about how convolution
+
+01:04:40.120 --> 01:04:41.920
+ neural network is going to work.
+
+01:04:41.920 --> 01:04:47.720
+ So we can try to take some sort of, you know, a real time, basically, image, couple of images
+
+01:04:47.720 --> 01:04:50.080
+ we can try to consider.
+
+01:04:50.080 --> 01:04:57.200
+ Maybe some of the images which is available in my system, I can try to consider.
+
+01:04:57.200 --> 01:05:00.680
+ And then we can try to, you know, train.
+
+01:05:00.680 --> 01:05:05.640
+ And again, so here we are going to use basically a library called as TensorFlow.
+
+01:05:05.640 --> 01:05:10.680
+ So with the help of that, so we can try to build a small convolutional neural network.
+
+01:05:10.680 --> 01:05:14.760
+ And we can see all this convolutional pooling and then flattening.
+
+01:05:14.760 --> 01:05:17.400
+ And then final output may be in a practical manner.
+
+01:05:17.400 --> 01:05:24.960
+ So yeah, let's go ahead, let's try to do it.
+
+01:05:24.960 --> 01:05:32.760
+ So to do that, first of all, try to open up your VS code.
+
+01:05:32.760 --> 01:05:37.960
+ You can even try to use a collab, anything is fine.
+
+01:05:37.960 --> 01:05:52.040
+ Now here CNN, practical, same thing, whatever we have learned, we'll just try to apply the
+
+01:05:52.040 --> 01:05:52.840
+ exact same thing.
+
+01:06:07.960 --> 01:06:08.960
+ Okay.
+
+01:06:08.960 --> 01:06:09.960
+ So let's try to do this.
+
+01:06:09.960 --> 01:06:10.960
+ So let's try to do this.
+
+01:06:10.960 --> 01:06:11.960
+ So let's try to do this.
+
+01:06:11.960 --> 01:06:12.960
+ So let's try to do this.
+
+01:06:12.960 --> 01:06:13.960
+ So let's try to do this.
+
+01:06:13.960 --> 01:06:14.960
+ So let's try to do this.
+
+01:06:14.960 --> 01:06:15.960
+ So let's try to do this.
+
+01:06:15.960 --> 01:06:16.960
+ So let's try to do this.
+
+01:06:16.960 --> 01:06:17.960
+ So let's try to do this.
+
+01:06:17.960 --> 01:06:18.960
+ So let's try to do this.
+
+01:06:18.960 --> 01:06:19.960
+ So let's try to do this.
+
+01:06:19.960 --> 01:06:20.960
+ So let's try to do this.
+
+01:06:20.960 --> 01:06:21.960
+ So let's try to do this.
+
+01:06:21.960 --> 01:06:22.960
+ So let's try to do this.
+
+01:06:22.960 --> 01:06:23.960
+ So let's try to do this.
+
+01:06:23.960 --> 01:06:24.960
+ So let's try to do this.
+
+01:06:24.960 --> 01:06:25.960
+ So let's try to do this.
+
+01:06:25.960 --> 01:06:26.960
+ So let's try to do this.
+
+01:06:26.960 --> 01:06:27.960
+ So let's try to do this.
+
+01:06:27.960 --> 01:06:28.960
+ So let's try to do this.
+
+01:06:28.960 --> 01:06:29.960
+ So let's try to do this.
+
+01:06:29.960 --> 01:06:46.960
+ So let's try to do this.
+
+01:06:46.960 --> 01:06:47.960
+ So let's try to do this.
+
+01:06:47.960 --> 01:06:48.960
+ So let's try to do this.
+
+01:06:48.960 --> 01:06:49.960
+ So let's try to do this.
+
+01:06:49.960 --> 01:06:50.960
+ So let's try to do this.
+
+01:06:50.960 --> 01:06:51.960
+ So let's try to do this.
+
+01:06:51.960 --> 01:06:52.960
+ So let's try to do this.
+
+01:06:52.960 --> 01:06:53.960
+ So let's try to do this.
+
+01:06:53.960 --> 01:06:54.960
+ So let's try to do this.
+
+01:06:54.960 --> 01:06:55.960
+ So let's try to do this.
+
+01:06:55.960 --> 01:06:56.960
+ So let's try to do this.
+
+01:06:56.960 --> 01:06:57.960
+ So let's try to do this.
+
+01:06:57.960 --> 01:06:58.960
+ So let's try to do this.
+
+01:06:58.960 --> 01:06:59.960
+ So let's try to do this.
+
+01:06:59.960 --> 01:07:00.960
+ So let's try to do this.
+
+01:07:00.960 --> 01:07:01.960
+ So let's try to do this.
+
+01:07:01.960 --> 01:07:02.960
+ So let's try to do this.
+
+01:07:02.960 --> 01:07:03.960
+ So let's try to do this.
+
+01:07:03.960 --> 01:07:04.960
+ So let's try to do this.
+
+01:07:04.960 --> 01:07:05.960
+ So let's try to do this.
+
+01:07:05.960 --> 01:07:06.960
+ So let's try to do this.
+
+01:07:06.960 --> 01:07:07.960
+ So let's try to do this.
+
+01:07:07.960 --> 01:07:08.960
+ So let's try to do this.
+
+01:07:08.960 --> 01:07:09.960
+ So let's try to do this.
+
+01:07:09.960 --> 01:07:10.960
+ So let's try to do this.
+
+01:07:10.960 --> 01:07:11.960
+ So let's try to do this.
+
+01:07:11.960 --> 01:07:12.960
+ So let's try to do this.
+
+01:07:12.960 --> 01:07:13.960
+ So let's try to do this.
+
+01:07:13.960 --> 01:07:14.960
+ So let's try to do this.
+
+01:07:14.960 --> 01:07:15.960
+ So let's try to do this.
+
+01:07:15.960 --> 01:07:16.960
+ So let's try to do this.
+
+01:07:16.960 --> 01:07:17.960
+ So let's try to do this.
+
+01:07:17.960 --> 01:07:18.960
+ So let's try to do this.
+
+01:07:18.960 --> 01:07:19.960
+ So let's try to do this.
+
+01:07:19.960 --> 01:07:20.960
+ So let's try to do this.
+
+01:07:29.960 --> 01:07:30.960
+ Okay.
+
+01:07:30.960 --> 01:07:31.960
+ So fine, everyone.
+
+01:07:31.960 --> 01:07:38.960
+ Let's Naveen is asking CNN and a max pooling layer are fixed or these are varies based on
+
+01:07:38.960 --> 01:07:39.960
+ the images.
+
+01:07:39.960 --> 01:07:41.960
+ See, everything is a variable.
+
+01:07:41.960 --> 01:07:45.720
+ The number of time you can do a convolution, the number of time you can do a max pooling.
+
+01:07:45.720 --> 01:07:50.320
+ In which layer you can do a max pooling in which layer you should do a convolution or
+
+01:07:50.320 --> 01:07:52.000
+ you will not even do a max pooling.
+
+01:07:52.000 --> 01:07:54.520
+ You will not even try to apply a relu.
+
+01:07:54.520 --> 01:07:57.760
+ Everything is basically an experimental one, everything.
+
+01:07:57.760 --> 01:08:02.120
+ And then I'm going to introduce some of the network called as a Lee net, Alex net, which
+
+01:08:02.120 --> 01:08:07.560
+ is 16 rest net basically, then there is something called as dark net Google net.
+
+01:08:07.560 --> 01:08:12.640
+ So all of this network has been designed after doing a lot of experimentation and over there
+
+01:08:12.640 --> 01:08:13.640
+ what they have done.
+
+01:08:13.640 --> 01:08:15.920
+ So they have basically fixed the layers.
+
+01:08:15.920 --> 01:08:20.600
+ But as of now, when we are talking about a vanilla CNN, everything is under my control.
+
+01:08:20.600 --> 01:08:25.440
+ So I can decide, you know, what, what should be like, you know, the layers and what is
+
+01:08:25.440 --> 01:08:27.120
+ going to happen in what layer.
+
+01:08:27.120 --> 01:08:30.440
+ Everything is under my control.
+
+01:08:30.440 --> 01:08:36.660
+ Okay, guys, so let's do one thing.
+
+01:08:36.660 --> 01:08:39.120
+ So here we have created a folder.
+
+01:08:39.120 --> 01:08:41.960
+ So you have to maintain a particular folder structure.
+
+01:08:41.960 --> 01:08:48.640
+ So inside this folder, let's create a folder called as a data, a city data set, fine.
+
+01:08:48.640 --> 01:08:55.400
+ Now inside this folder, so let's say I'm going to keep, you know, a couple of images.
+
+01:08:55.400 --> 01:09:15.960
+ So inside this one, I can take, let me take some image in a real time.
+
+01:09:15.960 --> 01:09:45.880
+ Okay, so I have taken a couple of images.
+
+01:09:45.880 --> 01:09:48.840
+ Just now I'll be using that image itself.
+
+01:09:48.840 --> 01:10:18.160
+ So let me, you know, send all of these images so that I can use it.
+
+01:10:18.160 --> 01:10:40.480
+ Okay, so basically, I have sent some of these images to myself.
+
+01:10:40.480 --> 01:10:54.320
+ I'll be using that.
+
+01:10:54.320 --> 01:11:24.280
+ Okay, so let me show you the image which I'm going to take.
+
+01:11:24.280 --> 01:11:33.160
+ So I have taken just image of, you know, remote and then I have taken an image of nail cutter.
+
+01:11:33.160 --> 01:11:39.080
+ So many images I have taken image of my mouse I have taken by the way, and image of my like
+
+01:11:39.080 --> 01:11:43.200
+ you know, Mike I have let's say, I have taken right.
+
+01:11:43.200 --> 01:11:44.640
+ So multiple images.
+
+01:11:44.640 --> 01:11:48.440
+ So what I will do inside this data set folder, I'm going to create another folder.
+
+01:11:48.440 --> 01:11:52.120
+ So let's say nail cutter.
+
+01:11:52.120 --> 01:11:53.760
+ So this is one of the folder.
+
+01:11:53.760 --> 01:11:57.400
+ I'll be keeping all the images of nail cutter inside this one.
+
+01:11:57.400 --> 01:12:05.960
+ And then, you know, AC remote, let's say, and then I can try to take over here, I can
+
+01:12:05.960 --> 01:12:12.320
+ create another folder inside the data set, I can name it as a mouse.
+
+01:12:12.320 --> 01:12:16.280
+ And then another folder I can try to create.
+
+01:12:16.280 --> 01:12:19.600
+ And I can name it as a mic, right.
+
+01:12:19.600 --> 01:12:24.120
+ So inside a respective folders, I'm going to keep like, you know, respective images.
+
+01:12:24.120 --> 01:12:27.240
+ So let me do that.
+
+01:12:27.240 --> 01:12:31.360
+ So my mic, all the images will come here.
+
+01:12:31.360 --> 01:12:41.320
+ Then for my mouse, I'm keeping all the images here.
+
+01:12:41.320 --> 01:12:45.520
+ You can do a data collection in the similar manner.
+
+01:12:45.520 --> 01:12:52.160
+ And for the nail cutter, let's say I'm keeping all the images here.
+
+01:12:52.160 --> 01:13:08.920
+ And then for my AC remote, I can try to keep all the images inside.
+
+01:13:08.920 --> 01:13:09.920
+ Inside remote folder.
+
+01:13:09.920 --> 01:13:10.920
+ Okay.
+
+01:13:10.920 --> 01:13:15.360
+ So now inside my data set, I have four folders, Mike, I'm keeping couple of images as you
+
+01:13:15.360 --> 01:13:16.440
+ can see, right?
+
+01:13:16.440 --> 01:13:18.840
+ I'm keeping all of these images here.
+
+01:13:18.840 --> 01:13:22.460
+ Now inside this mouse, so I'm trying to keep like, you know, couple of images.
+
+01:13:22.460 --> 01:13:26.840
+ So inside my mouse folder, nail cutter, so I'm trying to keep like, you know, couple
+
+01:13:26.840 --> 01:13:28.360
+ of images here.
+
+01:13:28.360 --> 01:13:29.360
+ And then remote.
+
+01:13:29.360 --> 01:13:32.280
+ So I'm trying to keep couple of images there, right?
+
+01:13:32.280 --> 01:13:36.640
+ So now this is how I will be able to prepare my images or data set.
+
+01:13:36.640 --> 01:13:38.960
+ You can say I will be able to prepare.
+
+01:13:38.960 --> 01:13:42.480
+ Then we can try to write basically a Python file.
+
+01:13:42.480 --> 01:13:46.920
+ So let's say I'm going to write CNN dot pie file condition, you know, pie file, simple
+
+01:13:46.920 --> 01:13:47.920
+ file.
+
+01:13:47.920 --> 01:13:52.560
+ So here inside this one, I'm going to take, like, you know, I'm going to write all the
+
+01:13:52.560 --> 01:14:04.440
+ code, which is basically required at any point of a time before that what we can do.
+
+01:14:04.440 --> 01:14:08.260
+ So we have to technically, you know, do some sort of our installation so that everything
+
+01:14:08.260 --> 01:14:10.800
+ should work in a proper manner.
+
+01:14:10.800 --> 01:14:14.480
+ But before that, maybe we can try to, you know, create a virtual environment that would
+
+01:14:14.480 --> 01:14:15.480
+ be better.
+
+01:14:15.480 --> 01:14:16.480
+ Always.
+
+01:14:16.480 --> 01:14:23.880
+ So maybe I can try to call Python, iPhone M, V ENV and V ENV for this project, I'm going
+
+01:14:23.880 --> 01:14:26.760
+ to create a virtual environment, let's say.
+
+01:14:26.760 --> 01:14:30.520
+ So here what you are going to do is created how to activate this environment.
+
+01:14:30.520 --> 01:14:34.320
+ So to activate this environment, so I will go into V ENV scripts and then activate.
+
+01:14:34.320 --> 01:14:35.800
+ I'm going to call it.
+
+01:14:35.800 --> 01:14:44.680
+ So let's say I'm going here and then I'm just like, you know, V ENV slash capital SC, SCRIPT.
+
+01:14:44.680 --> 01:14:55.120
+ Inside that there is a activate command, activate SCRIPTS scripts.
+
+01:14:55.120 --> 01:14:58.180
+ So as you can see, my virtual environment has been activated very, very simple.
+
+01:14:58.180 --> 01:15:02.960
+ So I'm just trying to keep all this environment, like, you know, separate so that I will be
+
+01:15:02.960 --> 01:15:05.200
+ able to do the required installation.
+
+01:15:05.200 --> 01:15:06.880
+ Now what an all installation I'm supposed to do.
+
+01:15:06.880 --> 01:15:11.560
+ So first of all, pip install, right, T N S O R F L O W TensorFlow.
+
+01:15:11.560 --> 01:15:17.000
+ So TensorFlow is one that I have to install Matt plot live, maybe I can try to install
+
+01:15:17.000 --> 01:15:21.200
+ NumPy, I can try to install and maybe below I can try to install.
+
+01:15:21.200 --> 01:15:25.660
+ So these are the installation guys that we have to do it inside this particular environment.
+
+01:15:25.660 --> 01:15:27.880
+ So just do the installation, everyone.
+
+01:15:27.880 --> 01:15:40.840
+ I'm pinging you this command so yeah, I've just been you guys inside a chat.
+
+01:15:40.840 --> 01:15:43.280
+ So go ahead and do the installation.
+
+01:15:43.280 --> 01:15:45.960
+ So have you have you prepared your image?
+
+01:15:45.960 --> 01:15:48.720
+ Just just take like, you know, three different different four different different five different
+
+01:15:48.720 --> 01:15:53.880
+ different anything you want a different different kind of a classes of your choice.
+
+01:15:53.880 --> 01:15:54.880
+ Yes.
+
+01:15:54.880 --> 01:16:02.880
+ Yes, anyone who is doing it with me?
+
+01:16:02.880 --> 01:16:28.080
+ Yes, okay.
+
+01:16:28.080 --> 01:16:31.120
+ Okay, so it looks like, you know, all these things are already installed.
+
+01:16:31.120 --> 01:16:32.840
+ So looks like my environment is ready.
+
+01:16:32.840 --> 01:16:38.960
+ So I will be able to use TensorFlow now TensorFlow is one of the library, which has been created
+
+01:16:38.960 --> 01:16:40.460
+ by Google.
+
+01:16:40.460 --> 01:16:43.680
+ And then in a later stage, they have made it as a open source.
+
+01:16:43.680 --> 01:16:47.800
+ So which helps you out in terms of creating all of these neural network with ease by the
+
+01:16:47.800 --> 01:16:48.800
+ way.
+
+01:16:48.800 --> 01:16:51.440
+ So whatsoever, like, you know, neural network or whatever kind of a new network you have
+
+01:16:51.440 --> 01:16:52.440
+ to create.
+
+01:16:52.440 --> 01:16:56.120
+ So they have already given you a wrapper and you will be able to use it and you will be
+
+01:16:56.120 --> 01:17:00.680
+ able to create all of those layers with ease by the way.
+
+01:17:00.680 --> 01:17:04.760
+ This is one, apart from that, so there is another library called as pytorch, pytorch
+
+01:17:04.760 --> 01:17:07.360
+ is equivalent to a TensorFlow.
+
+01:17:07.360 --> 01:17:12.160
+ And pytorch is a library which has been created by Facebook and in a later stage for internal
+
+01:17:12.160 --> 01:17:16.400
+ purpose, they had created and then in a later stage, they have made it as an open source.
+
+01:17:16.400 --> 01:17:20.320
+ So you can try to use pytorch, you can try to use TensorFlow, both are the libraries
+
+01:17:20.320 --> 01:17:24.880
+ Pythonic libraries, by the way, TensorFlow always supports also supports a JavaScript.
+
+01:17:24.880 --> 01:17:26.880
+ I believe tensor.js is there.
+
+01:17:26.880 --> 01:17:31.560
+ So with the help of this, you will be able to technically, you know, do everything with
+
+01:17:31.560 --> 01:17:37.960
+ respect to a neural network deep learning computer vision, maybe like a new NLP or generating
+
+01:17:37.960 --> 01:17:42.600
+ VI also, if you're trying to create your own GPT kind of architecture, you will be able
+
+01:17:42.600 --> 01:17:43.840
+ to create it.
+
+01:17:43.840 --> 01:17:47.440
+ Okay, so now here, let me write a code.
+
+01:17:47.440 --> 01:18:05.880
+ So step by step, right, so from path live, basically, path live import.
+
+01:18:05.880 --> 01:18:09.560
+ So now I'll try to read all these images, which is there inside my data set folder.
+
+01:18:09.560 --> 01:18:12.440
+ So keeping that in mind, so I have basically used it.
+
+01:18:12.440 --> 01:18:14.520
+ Now rest of the input, I can try to do it.
+
+01:18:14.520 --> 01:18:20.640
+ So matplotlib, if I have to plot NumPy, so I think we all know for array matrix calculation,
+
+01:18:20.640 --> 01:18:24.320
+ TensorFlow I'm trying to import and TensorFlow Keras, Keras is basically a high level library
+
+01:18:24.320 --> 01:18:26.200
+ which is going to give me layers and models.
+
+01:18:26.200 --> 01:18:30.000
+ So these are the imports that you have to do it in a very, very first place.
+
+01:18:30.000 --> 01:18:33.240
+ And every time you will end up doing almost the similar kind of things.
+
+01:18:33.240 --> 01:18:39.120
+ Now once this is done, right, so once this is done, what we can do so we can try to read
+
+01:18:39.120 --> 01:18:42.120
+ basically a, you know, data set.
+
+01:18:42.120 --> 01:18:46.160
+ So data set is available where the data set is available inside my data set folder.
+
+01:18:46.160 --> 01:18:49.240
+ These are the four directory I've created with the name.
+
+01:18:49.240 --> 01:18:54.920
+ So here what we can do, so we can try to call basically like a p-a-t-h path, the import
+
+01:18:54.920 --> 01:18:59.000
+ that we have done and inside that so we can try to pass data set.
+
+01:18:59.000 --> 01:19:03.640
+ This is the folder name whatsoever folder name that you have given the main folder name.
+
+01:19:03.640 --> 01:19:05.560
+ So you can just try to give that one.
+
+01:19:05.560 --> 01:19:08.000
+ If you have given some different name, give that different name.
+
+01:19:08.000 --> 01:19:14.160
+ So data set, let's say underscore p-a-t-h.
+
+01:19:14.160 --> 01:19:15.760
+ This is the variable that I've created.
+
+01:19:15.760 --> 01:19:18.320
+ So which is going to read the data.
+
+01:19:18.320 --> 01:19:19.320
+ Okay.
+
+01:19:19.320 --> 01:19:26.240
+ Now here, so every image like, you know, will be having certain size.
+
+01:19:26.240 --> 01:19:31.240
+ So for example, if I'm going to show you one of my image.
+
+01:19:31.240 --> 01:19:33.480
+ So let's say I have a lot of images over here.
+
+01:19:33.480 --> 01:19:36.040
+ So if I'm going to show you one of these images.
+
+01:19:36.040 --> 01:19:45.160
+ So if I'll go and if I'll try to click on these properties here.
+
+01:19:45.160 --> 01:19:50.680
+ So you can try to see our details and detail wise, you will be able to see a dimension.
+
+01:19:50.680 --> 01:19:54.400
+ So dimension is what 960 into 1280.
+
+01:19:54.400 --> 01:19:56.760
+ So width and height, it is trying to represent.
+
+01:19:56.760 --> 01:20:02.080
+ So width is basically 960 pixel and height is basically 120 to a 2L 80 pixels, right?
+
+01:20:02.080 --> 01:20:03.640
+ 2L 80 pixels.
+
+01:20:03.640 --> 01:20:10.640
+ So this is basically a width and height of each and every images that we have over here.
+
+01:20:10.640 --> 01:20:15.560
+ So we can try to take a same width and height possible, right?
+
+01:20:15.560 --> 01:20:20.480
+ Or maybe we can try to resize because this image dimensions are very, very big.
+
+01:20:20.480 --> 01:20:26.300
+ So maybe we can try to basically resize the entire images in a smaller pixel.
+
+01:20:26.300 --> 01:20:30.800
+ So here, just for the ease, so maybe I can try to, you know, resize it.
+
+01:20:30.800 --> 01:20:37.800
+ So image, height and I'm going to give it for example 128, which I will be like able
+
+01:20:37.800 --> 01:20:41.240
+ to play with it in a later stage.
+
+01:20:41.240 --> 01:20:49.560
+ Image width is equals to let's say 128, this is something which I'm going to give.
+
+01:20:49.560 --> 01:20:54.080
+ Now, so here I can try to even define like a couple of things, right?
+
+01:20:54.080 --> 01:20:55.840
+ So couple of things basically.
+
+01:20:55.840 --> 01:20:59.480
+ So let's say there is something called as batch underscore S I Z E.
+
+01:20:59.480 --> 01:21:01.440
+ So batch size is another parameter.
+
+01:21:01.440 --> 01:21:05.000
+ I'll tell you what is the meaning of the batch size, by the way.
+
+01:21:05.000 --> 01:21:08.400
+ So let's say batch size is equal to 32, I'm going to give.
+
+01:21:08.400 --> 01:21:11.640
+ So here, batch size is nothing but a number of image.
+
+01:21:11.640 --> 01:21:15.760
+ It is going to process before it is going to do a backward propagation, right?
+
+01:21:15.760 --> 01:21:19.880
+ So number of like, you know, images, it will be able to process first and then it will try
+
+01:21:19.880 --> 01:21:23.280
+ to do a propagation where it is going to update the entire way.
+
+01:21:23.280 --> 01:21:25.000
+ That is something called as batch size.
+
+01:21:25.000 --> 01:21:27.960
+ Then there is another things which you will be able to find out again and again called
+
+01:21:27.960 --> 01:21:31.520
+ as epoch E P O C H epoch.
+
+01:21:31.520 --> 01:21:34.560
+ So again, I'm going to create an epoch variable and then let's say I'm going to give epoch
+
+01:21:34.560 --> 01:21:35.960
+ is equal to 15.
+
+01:21:35.960 --> 01:21:41.720
+ So epoch is nothing but number of times you are sending the whole data to a network, right?
+
+01:21:41.720 --> 01:21:44.600
+ So 15 times, let's suppose I'm going to send my whole data.
+
+01:21:44.600 --> 01:21:50.320
+ So in that case, 15, it can be 100, it can be 200, it can be 1000s as well depends, right?
+
+01:21:50.320 --> 01:21:52.000
+ So it depends.
+
+01:21:52.000 --> 01:21:58.120
+ So this is what I'm going to basically like a set as a variable, a couple of variables.
+
+01:21:58.120 --> 01:22:01.200
+ Many more things will come in between, right?
+
+01:22:01.200 --> 01:22:03.080
+ Many more things will come in between.
+
+01:22:03.080 --> 01:22:07.280
+ So here, first of all, what we can do, so we can try to load a data.
+
+01:22:07.280 --> 01:22:09.040
+ So these are the parameters that we have defined.
+
+01:22:09.040 --> 01:22:14.040
+ We can try to load a data from this particular folder, data set folder that we have defined.
+
+01:22:14.040 --> 01:22:17.880
+ So let's go ahead and let's try to load a data and to load a data.
+
+01:22:17.880 --> 01:22:22.000
+ I don't have to do much by the way because there is a TensorFlow library and I can try
+
+01:22:22.000 --> 01:22:27.320
+ to use it and by the help of that, I will be able to load a data with ease.
+
+01:22:27.320 --> 01:22:46.280
+ So TensorFlow.keras which is a helping library, utils, utils, utils.image_dataset_from_directory.
+
+01:22:46.280 --> 01:22:49.520
+ And now this function is already available, which is going to help you out in terms of
+
+01:22:49.520 --> 01:22:50.520
+ loading a data.
+
+01:22:50.520 --> 01:22:54.920
+ So now if I'm going to pass a data set path, it will be able to load a data.
+
+01:22:54.920 --> 01:22:57.080
+ Now here, so why we are using this function?
+
+01:22:57.080 --> 01:23:01.200
+ So because it will be able to understand that there is a data set folder, which is which
+
+01:23:01.200 --> 01:23:03.360
+ it will be able to get it from here.
+
+01:23:03.360 --> 01:23:07.600
+ And then it will be able to understand that there are the different, different folder which
+
+01:23:07.600 --> 01:23:08.600
+ is available.
+
+01:23:08.600 --> 01:23:11.880
+ Now this folder name that we have given, right?
+
+01:23:11.880 --> 01:23:15.800
+ Because we have a different kind of an image in a different folder slide.
+
+01:23:15.800 --> 01:23:20.760
+ So the folder name that we have given, so it is going to consider that folder name as
+
+01:23:20.760 --> 01:23:22.100
+ a class name.
+
+01:23:22.100 --> 01:23:25.520
+ We are solving classification problem, image classification problem.
+
+01:23:25.520 --> 01:23:28.120
+ So it is going to consider that as a class name.
+
+01:23:28.120 --> 01:23:30.000
+ This is what it means by the way, right?
+
+01:23:30.000 --> 01:23:34.240
+ So whatsoever data which is available inside the mic folder, class is going to be mic or
+
+01:23:34.240 --> 01:23:36.480
+ mouse or nil cutter or remote.
+
+01:23:36.480 --> 01:23:37.800
+ This is the, this is the reason.
+
+01:23:37.800 --> 01:23:41.920
+ So we are trying to use this utility library at the end of the day.
+
+01:23:41.920 --> 01:23:45.920
+ Now, so just like in a machine learning, so whenever we load a data, so we try to create
+
+01:23:45.920 --> 01:23:47.000
+ a train and test a split.
+
+01:23:47.000 --> 01:23:53.040
+ So here validation VALIDATIO1 validation underscore SPLIT, validation split.
+
+01:23:53.040 --> 01:23:56.000
+ So validation split is equal to let's say like 80s to 20.
+
+01:23:56.000 --> 01:23:59.400
+ I'm going to keep just like a machine learning, nothing new, right?
+
+01:23:59.400 --> 01:24:05.280
+ And then like 80% data, we can try to use it for the training.
+
+01:24:05.280 --> 01:24:13.080
+ It is equals to 80% I can write, 80% I can write over here, and then like, you know,
+
+01:24:13.080 --> 01:24:17.160
+ we have to resize the images, our image size is very, very big.
+
+01:24:17.160 --> 01:24:20.720
+ So let's say if I would like to like resize all the images.
+
+01:24:20.720 --> 01:24:24.040
+ So image underscore size is equals to we can try to give.
+
+01:24:24.040 --> 01:24:29.440
+ So whatsoever images you are going to keep, just try to, you know, convert that into 128
+
+01:24:29.440 --> 01:24:31.200
+ cross 128.
+
+01:24:31.200 --> 01:24:37.040
+ There is a possibility that we'll get some issues over here, we'll try to fix it in a
+
+01:24:37.040 --> 01:24:38.040
+ later stage.
+
+01:24:38.040 --> 01:24:39.040
+ Okay.
+
+01:24:39.040 --> 01:24:43.160
+ Now, so you have to define a batch size, right?
+
+01:24:43.160 --> 01:24:46.920
+ So before doing a backup propagation, so how many images should move?
+
+01:24:46.920 --> 01:24:57.360
+ So batch size is equals to batch size, so 32 that we have taken.
+
+01:24:57.360 --> 01:25:03.800
+ And then basically like, you know, label underscore mode, so we can try to give label mode is
+
+01:25:03.800 --> 01:25:05.040
+ equal to integer.
+
+01:25:05.040 --> 01:25:07.480
+ Now what this will do by the way, label mode.
+
+01:25:07.480 --> 01:25:11.480
+ So here we have multiple folders, Mike, mouse, nil-caternion mode.
+
+01:25:11.480 --> 01:25:14.560
+ So automatically it will try to do for a calculation purposes.
+
+01:25:14.560 --> 01:25:18.680
+ So let's say it will try to label this as a zero, this as one, this as two, this as three.
+
+01:25:18.680 --> 01:25:20.640
+ So in total four class we have, it is going to label.
+
+01:25:20.640 --> 01:25:23.560
+ So whenever zero, it will give us a prediction means Mike.
+
+01:25:23.560 --> 01:25:25.440
+ Whenever one, it will give us a prediction means mouse.
+
+01:25:25.440 --> 01:25:28.700
+ But two class, class number two, it is going to give us a prediction means nil-caternion.
+
+01:25:28.700 --> 01:25:30.240
+ Class three means remote.
+
+01:25:30.240 --> 01:25:32.240
+ So this is what we can try to take.
+
+01:25:32.240 --> 01:25:38.120
+ So automatically it will try to give a, like a numbers representation to a particular classes.
+
+01:25:38.120 --> 01:25:39.560
+ Okay.
+
+01:25:39.560 --> 01:25:43.480
+ So this is done, subset where is the issue?
+
+01:25:43.480 --> 01:26:04.200
+ So dataset path, okay.
+
+01:26:04.200 --> 01:26:09.920
+ Subset is equals to, let's say training.
+
+01:26:09.920 --> 01:26:14.720
+ Okay, fine.
+
+01:26:14.720 --> 01:26:18.800
+ So now this is going to keep my training data ready.
+
+01:26:18.800 --> 01:26:25.440
+ So maybe I can try to store it as a train dataset.
+
+01:26:25.440 --> 01:26:26.440
+ Train dataset.
+
+01:26:26.440 --> 01:26:27.440
+ Okay.
+
+01:26:27.440 --> 01:26:31.320
+ So let me ping you this.
+
+01:26:31.320 --> 01:26:32.480
+ My path is different guys.
+
+01:26:32.480 --> 01:26:36.920
+ So maybe you can try to like consider it according to your path.
+
+01:26:36.920 --> 01:26:41.200
+ So now here's the train dataset has been like, you know, prepared basically.
+
+01:26:41.200 --> 01:26:44.800
+ So similarly, we can try to prepare the validation dataset, right?
+
+01:26:44.800 --> 01:26:50.240
+ So now from the same, so there is a validation dataset, I'm able to prepare.
+
+01:26:50.240 --> 01:26:51.240
+ It's the same thing, right?
+
+01:26:51.240 --> 01:26:55.160
+ But we are just trying to like, you know, while it does a validation dataset.
+
+01:26:55.160 --> 01:27:00.720
+ Now, so you have to read a class name in a very, very first place.
+
+01:27:00.720 --> 01:27:04.400
+ So class name is what class underscore name is a variable, let's say I'm going to create
+
+01:27:04.400 --> 01:27:09.880
+ and class name is nothing but my train dataset, which is going to read data from the folder
+
+01:27:09.880 --> 01:27:12.320
+ dot class underscore name.
+
+01:27:12.320 --> 01:27:15.040
+ So it will be able to fetch class name automatically.
+
+01:27:15.040 --> 01:27:19.320
+ Now eventually you will be able to find out number of class.
+
+01:27:19.320 --> 01:27:21.400
+ So number of folder is equal to number of classes.
+
+01:27:21.400 --> 01:27:27.720
+ So length and then here length of basically class name variable if I'm going to pass.
+
+01:27:27.720 --> 01:27:29.800
+ So it will be able to give you number of classes.
+
+01:27:29.800 --> 01:27:34.520
+ So two in total four class we have four folder we have simply means that four folder, I'm
+
+01:27:34.520 --> 01:27:36.640
+ just doing it for the printing purposes.
+
+01:27:36.640 --> 01:27:46.680
+ So here, so class names are, let's say, and then here I'm trying to print it.
+
+01:27:46.680 --> 01:27:52.080
+ So class names are class name, you will be able to sit in a console and then print basically
+
+01:27:52.080 --> 01:28:03.000
+ number of classes, classes are number of class.
+
+01:28:03.000 --> 01:28:06.760
+ So I'm just doing it for the printing purposes so that you will be able to see it inside the
+
+01:28:06.760 --> 01:28:07.760
+ console.
+
+01:28:07.760 --> 01:28:08.760
+ Fine.
+
+01:28:08.760 --> 01:28:10.920
+ So let me bring you this as well.
+
+01:28:10.920 --> 01:28:11.920
+ Fine.
+
+01:28:11.920 --> 01:28:19.160
+ Now here, so once we are able to print it, so maybe you can just try to print it the way
+
+01:28:19.160 --> 01:28:24.920
+ you are looking for and then you can even do a visualization of your original images.
+
+01:28:24.920 --> 01:28:26.520
+ We'll try to do that.
+
+01:28:26.520 --> 01:28:27.520
+ We'll try to do that.
+
+01:28:27.520 --> 01:28:30.920
+ We'll try to come to that particular point as well.
+
+01:28:30.920 --> 01:28:35.080
+ Along with that, so you will be able to print or you will be able to basically showcase
+
+01:28:35.080 --> 01:28:40.600
+ many other things as well, you know, from the data set.
+
+01:28:40.600 --> 01:28:44.960
+ So for example, save of the images or maybe a label, all of these things you will be able
+
+01:28:44.960 --> 01:28:49.280
+ to showcase which I'll show you in a later stage.
+
+01:28:49.280 --> 01:28:54.240
+ So in a later stage, I'll try to show you those sample images and then how does that
+
+01:28:54.240 --> 01:28:59.360
+ look like and what and all things that we can try to do it with respect to those images
+
+01:28:59.360 --> 01:29:00.360
+ in a later stage.
+
+01:29:00.360 --> 01:29:01.680
+ Maybe I can try to show you.
+
+01:29:01.680 --> 01:29:09.200
+ But before that, so let's try to do some sort of a, you know, improvement on our data loading.
+
+01:29:09.200 --> 01:29:15.640
+ So that, you know, we can, we can try to even with a lower compute, I will be able to do
+
+01:29:15.640 --> 01:29:17.240
+ more things, right?
+
+01:29:17.240 --> 01:29:24.200
+ So there is something called as auto-tune and with the help of that, you will be able to
+
+01:29:24.200 --> 01:29:26.360
+ improve the performance.
+
+01:29:26.360 --> 01:29:27.360
+ You can use it.
+
+01:29:27.360 --> 01:29:28.360
+ You can leave it.
+
+01:29:28.360 --> 01:29:29.360
+ That depends upon you.
+
+01:29:29.360 --> 01:29:32.840
+ We can also go ahead with the data augmentation, right?
+
+01:29:32.840 --> 01:29:36.600
+ So basically you can try to augment the data set.
+
+01:29:36.600 --> 01:29:41.680
+ You can try to, and when, when it, like, when we talk about augmentation, right, it simply
+
+01:29:41.680 --> 01:29:45.440
+ means that, that, you know, flipping a data, rotating a data.
+
+01:29:45.440 --> 01:29:48.920
+ So with that, you will be able to create a multiple variation.
+
+01:29:48.920 --> 01:29:50.480
+ So I can do a auto-tune.
+
+01:29:50.480 --> 01:29:56.400
+ I can do a data augmentation, but everything is basically a subjective one.
+
+01:29:56.400 --> 01:29:57.400
+ It's not mandatory.
+
+01:29:57.400 --> 01:30:01.000
+ It's not necessary that every time you have to go and you have to do it.
+
+01:30:01.000 --> 01:30:06.080
+ If your performance is not good, then only you can try to do it.
+
+01:30:06.080 --> 01:30:10.280
+ So maybe for now we can skip this part in our next neural network, convolutional network.
+
+01:30:10.280 --> 01:30:12.120
+ Maybe I can try to show you those parts.
+
+01:30:12.120 --> 01:30:15.360
+ So let's go ahead and let's try to build a network first.
+
+01:30:15.360 --> 01:30:19.960
+ Yeah, let's go ahead and let's try to build a network first.
+
+01:30:19.960 --> 01:30:29.240
+ So here, once you will try to build a network, so you have to call model.sequential.
+
+01:30:29.240 --> 01:30:32.080
+ So here we have done the import of models, right?
+
+01:30:32.080 --> 01:30:33.080
+ So models.
+
+01:30:33.080 --> 01:30:34.080
+ So what do you have to call?
+
+01:30:34.080 --> 01:30:38.680
+ You have to call models. and then there is something called as sequential.
+
+01:30:38.680 --> 01:30:41.480
+ Sequential means there is a library which exists inside the TensorFlow.
+
+01:30:41.480 --> 01:30:44.720
+ So which is going to help you out in terms of creating a sequential network.
+
+01:30:44.720 --> 01:30:51.200
+ So layer after layer after layer, S-E-U-E-N-T-I-A-L-S, T-I-A-L, sequential.
+
+01:30:51.200 --> 01:30:56.840
+ Now inside this, you can define whatsoever you want and the way you basically want.
+
+01:30:56.840 --> 01:31:01.800
+ You can define each and everything layer by layer, layer by layer, layer by layer.
+
+01:31:01.800 --> 01:31:05.840
+ And yes, so in that manner it is going to perform.
+
+01:31:05.840 --> 01:31:10.240
+ In that manner, it is going to give you the things.
+
+01:31:10.240 --> 01:31:18.160
+ So here what we can do, so we can try to call bracket and then we can try to call something
+
+01:31:18.160 --> 01:31:23.480
+ called as layers.in.
+
+01:31:23.480 --> 01:31:32.080
+ Input aspects, it is showing me layers wise, it should show me INPUT input.
+
+01:31:32.080 --> 01:31:39.160
+ And then inside this, we can try to define basically shape of the image.
+
+01:31:39.160 --> 01:31:48.080
+ So shape of the image is nothing but image height, image width cross three.
+
+01:31:48.080 --> 01:31:52.280
+ So as we have a colorful images, so I can try to define this one.
+
+01:31:52.280 --> 01:31:59.080
+ And then I can try to define over here input.
+
+01:31:59.080 --> 01:32:09.040
+ So name is equals to image.
+
+01:32:09.040 --> 01:32:13.000
+ So now here, like I said, so what sequential will do, it will help you out in terms of
+
+01:32:13.000 --> 01:32:14.640
+ designing the layers.
+
+01:32:14.640 --> 01:32:18.560
+ So for example, here I have shown you, so these are nothing but a layers, right?
+
+01:32:18.560 --> 01:32:20.840
+ So everything is technically a layers.
+
+01:32:20.840 --> 01:32:22.560
+ Layer number one, layer number two.
+
+01:32:22.560 --> 01:32:24.800
+ So first of all, you are going to load the images.
+
+01:32:24.800 --> 01:32:27.120
+ Then you can design this particular layer.
+
+01:32:27.120 --> 01:32:28.680
+ Then this particular layer you can try to design.
+
+01:32:28.680 --> 01:32:32.680
+ So layer by layer, layer by layer in a sequential manner you are going to design.
+
+01:32:32.680 --> 01:32:35.680
+ So in a very first piece of the code, what I am trying to say, so I am trying to say
+
+01:32:35.680 --> 01:32:40.600
+ that that, okay, take an input and shape wise, so image height, image width, which is 128
+
+01:32:40.600 --> 01:32:46.880
+ cross 128 after reducing the size at the time of loading of the data itself, right?
+
+01:32:46.880 --> 01:32:49.740
+ And then name of that layer I am trying to give.
+
+01:32:49.740 --> 01:32:54.120
+ For example, so here someone has given a name, right, convolution underscore one underscore
+
+01:32:54.120 --> 01:32:55.120
+ one.
+
+01:32:55.120 --> 01:32:57.720
+ Similarly, I can try to give whatsoever name that I want.
+
+01:32:57.720 --> 01:33:04.080
+ It's like, you know, completely up to me, by the way, in terms of, you know, giving
+
+01:33:04.080 --> 01:33:07.160
+ this these names to it, basically.
+
+01:33:07.160 --> 01:33:09.480
+ So here, this is the layer.
+
+01:33:09.480 --> 01:33:12.520
+ And then what will be the data which will come in this layer.
+
+01:33:12.520 --> 01:33:16.680
+ So maybe I can try to pass training data over here.
+
+01:33:16.680 --> 01:33:18.940
+ So let's say I'm passing a train data set.
+
+01:33:18.940 --> 01:33:22.520
+ So this is one of the layer which I'm able to create.
+
+01:33:22.520 --> 01:33:25.960
+ Let me save that as a M O D L model.
+
+01:33:25.960 --> 01:33:26.960
+ Yep.
+
+01:33:26.960 --> 01:33:29.360
+ So I'm able to load the data.
+
+01:33:29.360 --> 01:33:32.880
+ And then I'm able to say that, okay, fine, this is the name of this layer.
+
+01:33:32.880 --> 01:33:36.400
+ This is the shape of the data which I'm trying to load.
+
+01:33:36.400 --> 01:33:43.400
+ Now once this particular part is done, so it will be able to load the data.
+
+01:33:43.400 --> 01:33:49.880
+ Now what we are going to do, so we are going to write a another layer, right, and likewise
+
+01:33:49.880 --> 01:33:54.080
+ we can keep on writing a different, different layer after layer after layer, we can keep
+
+01:33:54.080 --> 01:33:59.160
+ on writing as many as we want, basically, right, as many as we want, we can try to write
+
+01:33:59.160 --> 01:34:00.720
+ the layers.
+
+01:34:00.720 --> 01:34:05.200
+ So okay, this layer is done.
+
+01:34:05.200 --> 01:34:09.760
+ So this particular layer is done.
+
+01:34:09.760 --> 01:34:15.240
+ Now once this particular layer is done, so maybe we can try to come across a next layer
+
+01:34:15.240 --> 01:34:19.480
+ and then we can try to write something over there.
+
+01:34:19.480 --> 01:34:22.120
+ So let me do that guys.
+
+01:34:22.120 --> 01:34:32.000
+ So likewise, we can, let me concise it and then write it down so that it will be just
+
+01:34:32.000 --> 01:34:40.680
+ a copy-paste.
+
+01:35:02.000 --> 01:35:10.600
+.
+
+01:35:10.600 --> 01:35:16.480
+ So here, if we have to replicate the exact same thing, for example, my image size is
+
+01:35:16.480 --> 01:35:18.800
+ 128 cross 128 cross 3.
+
+01:35:18.800 --> 01:35:22.920
+ This is the image size that I have taken here, 64 cross 64 cross 3, that's completely okay.
+
+01:35:22.920 --> 01:35:26.160
+ Now what we will try to do, so we will try to design the exact same thing because our
+
+01:35:26.160 --> 01:35:29.680
+ image is following the same red channel, green channel and a blue channel.
+
+01:35:29.680 --> 01:35:35.600
+ So here what we can do, so we can try to take maybe 10 kernels and then we can try to take
+
+01:35:35.600 --> 01:35:39.720
+ a reluze over there, then we can try to do a convolution, then reluze, then pooling.
+
+01:35:39.720 --> 01:35:41.680
+ So similar things we can try to replicate, right?
+
+01:35:41.680 --> 01:35:46.560
+ So here we have like a 10 classes, we have a four classes, we have basically four folders.
+
+01:35:46.560 --> 01:35:51.280
+ So obviously, with respect to four folder, we will try to perform all of these operations.
+
+01:35:51.280 --> 01:35:57.160
+ Okay, fine, cool, so let's do it.
+
+01:35:57.160 --> 01:36:03.360
+ So here the very first sequential layer, that is something that we are able to design.
+
+01:36:03.360 --> 01:36:16.320
+ So now let's go ahead and let's try to basically, so here we have an image width, it's getting
+
+01:36:16.320 --> 01:36:29.880
+ bit complex and messy, yeah, it's bracket, then shape, input and then shape is equals
+
+01:36:29.880 --> 01:36:56.480
+ to bracket close, layers, dot, rescaling.
+
+01:36:56.480 --> 01:36:59.160
+ So I'll tell you why we are doing a rescaling.
+
+01:36:59.160 --> 01:37:05.040
+ So we can convert everything, it's kind of a normalization by the way.
+
+01:37:05.040 --> 01:37:15.440
+ So rescaling we can try to do it, then we can try to call layers, dot, convert 2D.
+
+01:37:15.440 --> 01:37:37.560
+ So here filters is equals to 32, kernel, size is equals to 3 cross 3, 3 cross 3 and then
+
+01:37:37.560 --> 01:37:50.800
+ active ACTI VAT IUN, activations is equals to value and then bracket close.
+
+01:37:50.800 --> 01:38:02.840
+ So one layer we have designed, then we can try to do maybe a pooling, layers, dot, max
+
+01:38:02.840 --> 01:38:07.280
+ pooling, kernel size is 3 cross 3 basically.
+
+01:38:07.280 --> 01:38:10.760
+ So here I have told you, right, so we are trying to apply the filter.
+
+01:38:10.760 --> 01:38:13.720
+ So what is the size of this filter, this one?
+
+01:38:13.720 --> 01:38:18.920
+ So size of this filter is technically 3 cross 3, right, and then how many such kind of filter
+
+01:38:18.920 --> 01:38:19.920
+ we are going to take.
+
+01:38:19.920 --> 01:38:24.520
+ So in my case, I'm taking 32 such kind of a filters by the way.
+
+01:38:24.520 --> 01:38:29.080
+ In this situation, so how many filter we had, so 10 filters we have, very simple.
+
+01:38:29.080 --> 01:38:33.440
+ So I can take 10, I can take 20, I can take whatsoever I want and then activation I think
+
+01:38:33.440 --> 01:38:34.840
+ we all know.
+
+01:38:34.840 --> 01:38:38.960
+ After that, so maybe we can try to call a max pooling, right?
+
+01:38:38.960 --> 01:38:45.480
+ So we can try to technically call the max pooling and max pooling 2D is actual name.
+
+01:38:45.480 --> 01:38:48.400
+ So max pooling 2D is actual name.
+
+01:38:48.400 --> 01:38:54.360
+ And then here, so we can try to call pool size.
+
+01:38:54.360 --> 01:38:57.960
+ So pool size is equals to 2 cross 2, let's say, so 2 cross 2 is something that we have
+
+01:38:57.960 --> 01:38:58.960
+ been using.
+
+01:38:58.960 --> 01:39:00.840
+ So 2 cross 2, okay.
+
+01:39:00.840 --> 01:39:03.960
+ So this is another layer that I have designed.
+
+01:39:03.960 --> 01:39:07.800
+ Now similarly, so I can try to do convolution.
+
+01:39:07.800 --> 01:39:16.000
+ So let me copy the same thing, convolution pooling convolution pooling convolution pooling
+
+01:39:16.000 --> 01:39:18.360
+ doesn't matter like how many layers we are going to create.
+
+01:39:18.360 --> 01:39:22.480
+ So I've just copy pasted copy pasted the exact same thing right again and again and again.
+
+01:39:22.480 --> 01:39:24.600
+ So let's say in our next convolution layer.
+
+01:39:24.600 --> 01:39:27.320
+ So this is my very first layer which I have designed.
+
+01:39:27.320 --> 01:39:31.000
+ And then on our next one, so maybe I would like to change the number of a filter.
+
+01:39:31.000 --> 01:39:32.320
+ So maybe I don't want 32.
+
+01:39:32.320 --> 01:39:33.640
+ I want maybe more.
+
+01:39:33.640 --> 01:39:38.600
+ I want 64 filters over here, right of size three cross three activation functions can
+
+01:39:38.600 --> 01:39:39.600
+ be same.
+
+01:39:39.600 --> 01:39:43.080
+ I can try to even make a changes over there, then I'll do a pooling over there.
+
+01:39:43.080 --> 01:39:49.040
+ Then here on this particular layer, so I want maybe more 128 number of filters I would like
+
+01:39:49.040 --> 01:39:53.800
+ to apply so that it can extract 128 kind of a feature out of it.
+
+01:39:53.800 --> 01:39:58.760
+ So likewise, I can try to create all of these layer as you can see, right?
+
+01:39:58.760 --> 01:40:01.800
+ As you can see all of these layers, I'm able to create it sequential layer.
+
+01:40:01.800 --> 01:40:04.360
+ I'm able to create it layer by layer, layer by layer.
+
+01:40:04.360 --> 01:40:08.680
+ And it depends upon me, like how I'm going to arrange all of these things in my way.
+
+01:40:08.680 --> 01:40:11.240
+ Now, once this is done, right?
+
+01:40:11.240 --> 01:40:14.880
+ Once this is basically done, then we can do what?
+
+01:40:14.880 --> 01:40:19.680
+ So after certain layers, so obviously we have to go ahead and we have to do a flattening
+
+01:40:19.680 --> 01:40:28.800
+ LAYRS layers dot flatten so that, you know, I can pass this data to a neural network if
+
+01:40:28.800 --> 01:40:32.280
+ LAYRS double TEN, flatten.
+
+01:40:32.280 --> 01:40:35.120
+ So here it is going to flatten the entire data, right?
+
+01:40:35.120 --> 01:40:41.960
+ So as per this image, as per this diagram, this layer flatten, right?
+
+01:40:41.960 --> 01:40:44.440
+ So flattening it is going to perform.
+
+01:40:44.440 --> 01:40:46.840
+ Once flattening will be done, then what we can do?
+
+01:40:46.840 --> 01:40:49.800
+ So we can try to design our dense layer, right?
+
+01:40:49.800 --> 01:40:51.800
+ Dense layer over here.
+
+01:40:51.800 --> 01:40:56.120
+ So dense layer can be my output layer directly or dense layer can be my layer of layers means
+
+01:40:56.120 --> 01:40:59.040
+ like a lot of hidden layers, I can try to put it over there.
+
+01:40:59.040 --> 01:41:02.640
+ So layer dot DE and SE dense.
+
+01:41:02.640 --> 01:41:11.520
+ And then here, so I can try to give units is equals to number of plus, let's say the
+
+01:41:11.520 --> 01:41:15.920
+ variable that we have taken and activation is equals to, so I'm just trying to create
+
+01:41:15.920 --> 01:41:19.680
+ my dense layer as a output layer, by the way.
+
+01:41:19.680 --> 01:41:27.520
+ So here I can try to write activation is equals to let's say soft max.
+
+01:41:27.520 --> 01:41:29.640
+ So multi-class property we have to find out.
+
+01:41:29.640 --> 01:41:32.400
+ So we can try to keep it in this particular manner.
+
+01:41:32.400 --> 01:41:38.440
+ So now everything will be done and then this entire neural network layer convolutional
+
+01:41:38.440 --> 01:41:41.520
+ network layer, we are able to create it.
+
+01:41:41.520 --> 01:41:44.840
+ If it will be able to give me a good result, then it's fine.
+
+01:41:44.840 --> 01:41:49.520
+ If not, I'll try to work on the layers because this is the network that I have designed.
+
+01:41:49.520 --> 01:41:51.800
+ This is the design of my network, by the way.
+
+01:41:51.800 --> 01:41:53.400
+ This is my actual model.
+
+01:41:53.400 --> 01:41:55.240
+ I will be able to even print this model.
+
+01:41:55.240 --> 01:41:56.840
+ I will be able to save this model.
+
+01:41:56.840 --> 01:41:59.360
+ I will be able to even show this model.
+
+01:41:59.360 --> 01:42:00.360
+ Okay.
+
+01:42:00.360 --> 01:42:01.360
+ Kernel size spelling is wrong.
+
+01:42:01.360 --> 01:42:02.360
+ Fine.
+
+01:42:02.360 --> 01:42:07.800
+ It was it will give me error anyhow.
+
+01:42:07.800 --> 01:42:09.800
+ It is any L, right?
+
+01:42:09.800 --> 01:42:10.800
+ Okay.
+
+01:42:10.800 --> 01:42:11.800
+ Kernel size.
+
+01:42:11.800 --> 01:42:23.360
+ Okay, fine, I just like rectified it.
+
+01:42:23.360 --> 01:42:25.080
+ So these are the layers I'm able to create.
+
+01:42:25.080 --> 01:42:26.560
+ I can even visualize this layer guys.
+
+01:42:26.560 --> 01:42:27.560
+ I'll show you.
+
+01:42:27.560 --> 01:42:32.480
+ There is a way by which I will be able to even show you this entire network.
+
+01:42:32.480 --> 01:42:36.120
+ The way I was trying to show you this network, right?
+
+01:42:36.120 --> 01:42:37.120
+ This one.
+
+01:42:37.120 --> 01:42:40.040
+ So I can try to show you the visualization of this network as well.
+
+01:42:40.040 --> 01:42:41.040
+ That is possible.
+
+01:42:41.040 --> 01:42:42.040
+ What is happening inside?
+
+01:42:42.040 --> 01:42:43.040
+ Which layer?
+
+01:42:43.040 --> 01:42:45.200
+ Everything is, means you can, you can try to calculate it.
+
+01:42:45.200 --> 01:42:47.240
+ So nothing is basically a black box.
+
+01:42:47.240 --> 01:42:51.400
+ Now here I can try to call model dot summary.
+
+01:42:51.400 --> 01:42:53.880
+ So it is going to show you layer by layer, layer by layer.
+
+01:42:53.880 --> 01:42:56.120
+ Basically this is what model or summary does.
+
+01:42:56.120 --> 01:42:58.240
+ Then we have to execute the model.
+
+01:42:58.240 --> 01:43:09.360
+ So basically to execute the model, I can try to call model dot, model dot, compile, compile.
+
+01:43:09.360 --> 01:43:10.800
+ Now to compile the model.
+
+01:43:10.800 --> 01:43:13.160
+ So basically a couple of things you have to give over here.
+
+01:43:13.160 --> 01:43:18.120
+ So you have to give optimizer, optimizer.
+
+01:43:18.120 --> 01:43:23.360
+ So what is the best optimizer I told you guys in last class?
+
+01:43:23.360 --> 01:43:26.360
+ Yes.
+
+01:43:26.360 --> 01:43:27.360
+ Adam optimizer.
+
+01:43:27.360 --> 01:43:28.360
+ Yeah.
+
+01:43:28.360 --> 01:43:31.440
+ So Adam optimizer is something and I think we all know what is the meaning of Adam optimizer
+
+01:43:31.440 --> 01:43:34.160
+ and what it actually does, right?
+
+01:43:34.160 --> 01:43:35.160
+ So Adam optimizer.
+
+01:43:35.160 --> 01:43:37.560
+ We have to have a loss function as well.
+
+01:43:37.560 --> 01:43:40.500
+ So that's, you know, optimizer is going to optimize based on the loss, right?
+
+01:43:40.500 --> 01:43:45.440
+ So we can try to use basically a sparse categorical cross entropy, which is going to work for
+
+01:43:45.440 --> 01:43:47.560
+ the multi-class as a loss function.
+
+01:43:47.560 --> 01:43:50.000
+ So loss function we are going to set, right?
+
+01:43:50.000 --> 01:43:54.320
+ And then we can try to set basically a matrix is equals to accuracy matrix.
+
+01:43:54.320 --> 01:43:59.040
+ So these are the things that we can try to set basically to compile the models without
+
+01:43:59.040 --> 01:44:01.760
+ that I will not be able to compile the model.
+
+01:44:01.760 --> 01:44:06.160
+ So once this things we are able to attach, which is nothing but the optimizer loss and
+
+01:44:06.160 --> 01:44:11.920
+ matrix so that we can do a bug propagation, I can simply call model.fit over here.
+
+01:44:11.920 --> 01:44:16.160
+ And once I'm going to call model.fit simple, try to pass what?
+
+01:44:16.160 --> 01:44:18.880
+ Try to pass a train data set.
+
+01:44:18.880 --> 01:44:19.880
+ Yeah.
+
+01:44:19.880 --> 01:44:23.440
+ And then try to pass basically epoch EpoCHS epoch.
+
+01:44:23.440 --> 01:44:24.640
+ So epoch is what?
+
+01:44:24.640 --> 01:44:27.640
+ So epoch is a number of times we are going to pass the whole data.
+
+01:44:27.640 --> 01:44:34.320
+ So we have already captured that inside the variable 15 I can try to play with that.
+
+01:44:34.320 --> 01:44:37.560
+ So this is going to basically run the model.
+
+01:44:37.560 --> 01:44:43.160
+ And then once model is going to run, I can try to call model.save and then I can try
+
+01:44:43.160 --> 01:44:51.320
+ to basically save my CNN, CNN, SUDH.KRAS.
+
+01:44:51.320 --> 01:44:54.280
+ So in a Keras format, I can try to save this model dot Keras format.
+
+01:44:54.280 --> 01:44:55.920
+ I can try to save the model.
+
+01:44:55.920 --> 01:45:09.600
+ And then I can try to print model training completed and we have saved it.
+
+01:45:09.600 --> 01:45:14.960
+ So this is the simplest possible implementation, I would say the simplest one.
+
+01:45:14.960 --> 01:45:18.680
+ There are a lot of things which will come in terms of doing a data augmentation in terms
+
+01:45:18.680 --> 01:45:23.360
+ of basically changing the scale of the data in terms of even implementing a checkpointing
+
+01:45:23.360 --> 01:45:28.600
+ in between the training, there are so many things, so many things, but this is the core.
+
+01:45:28.600 --> 01:45:33.240
+ This is the core and this is your network technically you are able to create it.
+
+01:45:33.240 --> 01:45:34.740
+ Now let's do one thing.
+
+01:45:34.740 --> 01:45:35.920
+ Let's do one thing.
+
+01:45:35.920 --> 01:45:41.680
+ So let's try to basically execute this one so that at least we can test it.
+
+01:45:41.680 --> 01:45:42.680
+ We can test it.
+
+01:45:42.680 --> 01:45:51.320
+ So to execute this one, very simple Python, CNN dot pi, execute.
+
+01:45:51.320 --> 01:45:54.960
+ If it is going to fail, obviously I'm going to fix it.
+
+01:45:54.960 --> 01:45:59.080
+ So value error, infusion validation, split and suffering the data, you must provide a
+
+01:45:59.080 --> 01:46:04.040
+ seed argument to make sure that there is no overlap between training and the validation
+
+01:46:04.040 --> 01:46:05.040
+ subset.
+
+01:46:05.040 --> 01:46:06.040
+ Okay, fine.
+
+01:46:06.040 --> 01:46:22.640
+ So this is a seed as a fixed value and data image part seed argument to make sure that
+
+01:46:22.640 --> 01:46:26.640
+ there is no overlap between the training and the validation set.
+
+01:46:26.640 --> 01:46:32.880
+ So here I have to provide it inside this one.
+
+01:46:32.880 --> 01:46:40.240
+ So let us add validation 20 subset image size, image height batch.
+
+01:46:40.240 --> 01:47:10.200
+ And then you can make sure that there is no overlap between the training and the validation
+
+01:47:10.200 --> 01:47:18.360
+ set.
+
+01:47:18.360 --> 01:47:26.240
+ So training data I have created here and it is telling me that I have to provide a seed
+
+01:47:26.240 --> 01:47:27.240
+ value as well.
+
+01:47:27.240 --> 01:47:36.000
+ So seed is equals to let's say I'm going to provide it as a some value one, two, three.
+
+01:47:36.000 --> 01:47:41.720
+ Now it should not give me an error.
+
+01:47:41.720 --> 01:48:01.840
+ Seed is not defined, seed is 123 line number 24, line number 2324, fine, one, two, three.
+
+01:48:01.840 --> 01:48:07.440
+ Perfect prefetch data set object has no attribute class name, do you know class names here,
+
+01:48:07.440 --> 01:48:11.040
+ it should be class names actually line number 31.
+
+01:48:11.040 --> 01:48:25.040
+ So line number 31 class names, fine.
+
+01:48:25.040 --> 01:48:32.000
+ Then it is giving me error zero computed output size would be zero or negative received input
+
+01:48:32.000 --> 01:48:39.760
+ to shape is none this this colon size is three cross three cross 32 to this one.
+
+01:48:39.760 --> 01:48:46.520
+ So model sequence.
+
+01:48:46.520 --> 01:48:49.040
+ So found 485 belonging to four classes.
+
+01:48:49.040 --> 01:48:52.720
+ So it is able to read my data number of classes are four.
+
+01:48:52.720 --> 01:48:56.680
+ So till that point it is working in line number 38.
+
+01:48:56.680 --> 01:49:10.360
+ So here it is giving me error and from here till here, okay, fine.
+
+01:49:10.360 --> 01:49:24.360
+ So received input shape is two cross two cross line number 25.
+
+01:49:40.360 --> 01:50:08.600
+, image height, image width, that's fine.
+
+01:50:08.600 --> 01:50:12.520
+ So let me fix this small issue guys, this is like something which always gives an issue
+
+01:50:12.520 --> 01:50:34.320
+ for the first time, because of the shape, okay, so this is saying done, so done with
+
+01:50:34.320 --> 01:50:57.320
+ the training.
+
+01:50:57.320 --> 01:51:05.840
+ Let me remove couple of layers, so flatten because I have added too many layers, so finally
+
+01:51:05.840 --> 01:51:20.200
+ my size is going to be very, very small.
+
+01:51:20.200 --> 01:51:29.720
+ Okay, so now training has started.
+
+01:51:29.720 --> 01:51:34.120
+ So I have given too many layers because of that it was showing me that problem.
+
+01:51:34.120 --> 01:51:39.320
+ Now as you can see, so my new network has worked and here so basically we have this
+
+01:51:39.320 --> 01:51:43.720
+ layer, then we have done convolution, then you can see we have a like a pooling we have
+
+01:51:43.720 --> 01:51:47.640
+ done, then we have done a convolution, then we have done pooling then convolution then
+
+01:51:47.640 --> 01:51:52.960
+ pooling and in this way then flattening we have done and then there was a dense layer.
+
+01:51:52.960 --> 01:51:58.080
+ So total number of parameter was 193604 and total number of trainable parameter is also
+
+01:51:58.080 --> 01:52:05.800
+ same, right, non-trainable parameter is this one and it ran for basically like a 15 epoch,
+
+01:52:05.800 --> 01:52:11.920
+ so 15 times it has passed the whole data and then here so my loss is basically my accuracy
+
+01:52:11.920 --> 01:52:20.180
+ is 82%, my loss is basically 0.27, fine, there is a loss, huge loss but still it's completely
+
+01:52:20.180 --> 01:52:22.520
+ fine, I'll try to tune it in a later stage.
+
+01:52:22.520 --> 01:52:28.280
+ So finally my model has been trained and then here so if I'll go and check, so this is the
+
+01:52:28.280 --> 01:52:34.320
+ Keras model I'm able to find out, right, this is the Keras model which is there with me.
+
+01:52:34.320 --> 01:52:39.600
+ So this is how training is going to happen guys and in a simplest possible manner, right,
+
+01:52:39.600 --> 01:52:44.280
+ in a simplest possible manner, you will be able to do a training.
+
+01:52:44.280 --> 01:52:49.960
+ So now training is like working, I'm able to get the model, so it's time for doing a
+
+01:52:49.960 --> 01:52:51.120
+ prediction.
+
+01:52:51.120 --> 01:52:55.560
+ So basically I can use this particular model and then I can try to do a prediction, not
+
+01:52:55.560 --> 01:53:00.800
+ just that, so I can even try to use this model, the physical file that we have and I can try
+
+01:53:00.800 --> 01:53:02.800
+ to do a visualization.
+
+01:53:02.800 --> 01:53:08.200
+ So let's try to find out that how we can do the same thing.
+
+01:53:08.200 --> 01:53:13.960
+ So very, very interesting, right, we are able to like train the models and the physical
+
+01:53:13.960 --> 01:53:17.280
+ file of this model is available.
+
+01:53:17.280 --> 01:53:22.400
+ So here I can just like call this model, I can try to pass this data and then after passing
+
+01:53:22.400 --> 01:53:27.440
+ the data, I will be able to get a prediction that it belongs to which class, this or that,
+
+01:53:27.440 --> 01:53:30.360
+ each and everything I will be able to get it.
+
+01:53:30.360 --> 01:53:34.520
+ So anyone who is able to do it, let me send you the whole code, I think it's not possible
+
+01:53:34.520 --> 01:53:37.520
+ to send whole the code base.
+
+01:53:37.520 --> 01:54:01.120
+ Let me send you half of it first, let's try and test it.
+
+01:54:01.120 --> 01:54:11.520
+ Let me send you the whole code base, let me send you half of it first, let me send you
+
+01:54:11.520 --> 01:54:20.920
+ the whole code base, let me send you the whole code base.
+
+01:54:20.920 --> 01:54:43.800
+ Okay, so this is done, right, this particular part is done.
+
+01:54:43.800 --> 01:54:47.520
+ Now we can go ahead and we can try to basically like, you know, do a prediction.
+
+01:54:47.520 --> 01:54:54.560
+ So maybe we can try to create a file called as predict dot, predict dot by file.
+
+01:54:54.560 --> 01:54:59.200
+ And then we can pass one of our own data set, which is going to be a little bit biased one,
+
+01:54:59.200 --> 01:55:01.640
+ but yeah, we can do a prediction with that.
+
+01:55:01.640 --> 01:55:08.840
+ So here what we can do, so we can try to import this library TensorFlow, and then we can try
+
+01:55:08.840 --> 01:55:18.680
+ to basically say that, that load a particular model, and then try to do a prediction.
+
+01:55:18.680 --> 01:55:33.640
+ So TensorFlow dot eras dot models dot load model, load model.
+
+01:55:33.640 --> 01:55:37.960
+ And then here, so we can try to pass a model path, by the way.
+
+01:55:37.960 --> 01:55:43.040
+ So my model path is, let me copy the path.
+
+01:55:43.040 --> 01:55:51.040
+ And this is my model path I have given.
+
+01:55:51.040 --> 01:55:58.560
+ So now it is going to read the model, the physical file that we have, once it is able
+
+01:55:58.560 --> 01:56:04.040
+ to read the model, so we can try to like, you know, pass a data, and then we can try
+
+01:56:04.040 --> 01:56:06.840
+ to basically do the prediction.
+
+01:56:06.840 --> 01:56:17.680
+ So here before that, so let me work on the class name first.
+
+01:56:17.680 --> 01:56:36.840
+ Let me write down in this manner, class name is fine after the class name.
+
+01:56:36.840 --> 01:56:41.800
+ So let me try to load the image.
+
+01:56:41.800 --> 01:56:55.280
+ So here, trust image path, let me take some image of Mike, so copy path, yeah, so we can
+
+01:56:55.280 --> 01:57:17.840
+ take this image path.
+
+01:57:17.840 --> 01:57:42.600
+ Image height 128 plus 128, I can try to give.
+
+01:57:42.600 --> 01:57:49.960
+ So this is done, this is going to my test image for one of the image.
+
+01:57:49.960 --> 01:57:58.280
+ Then we can try to convert this image to a array, because this array will go for the
+
+01:57:58.280 --> 01:57:59.280
+ prediction.
+
+01:57:59.280 --> 01:58:08.600
+ So image to array conversion will be done.
+
+01:58:08.600 --> 01:58:12.880
+ Then test image batch, so the other process guys by which we have to you know, convert
+
+01:58:12.880 --> 01:58:17.880
+ this entire things and then finally we can try to call the prediction.
+
+01:58:17.880 --> 01:58:20.080
+ So prediction is equal to model lot predict.
+
+01:58:20.080 --> 01:58:23.560
+ So basically model we are going to call the model that we have loaded.
+
+01:58:23.560 --> 01:58:27.680
+ And then here so predict is nothing but test image batch we are going to give.
+
+01:58:27.680 --> 01:58:37.520
+ So now it is going to give you the final prediction that it belongs to which basically a class.
+
+01:58:37.520 --> 01:58:44.640
+ And then we can try to print a probability and a confidence for a particular model.
+
+01:58:44.640 --> 01:58:49.200
+ And we can also try to print the confidence of all the other classes.
+
+01:58:49.200 --> 01:58:54.360
+ So let me run this one in a very first place.
+
+01:58:54.360 --> 01:59:04.000
+ So here, Python predict dot pi file, data set path is not defined somewhere there is
+
+01:59:04.000 --> 01:59:32.200
+ a variable of the dataset path, line number 11, okay, data set path.
+
+01:59:32.200 --> 01:59:37.000
+ So here it is telling me that prediction probability for Mike is 97%.
+
+01:59:37.000 --> 01:59:41.560
+ So as you can see over here, so I have passed a image of Mike.
+
+01:59:41.560 --> 01:59:43.400
+ This was the image of Mike.
+
+01:59:43.400 --> 01:59:48.680
+ And yes, and it is a very basic model which I have created and just imagine how accurate
+
+01:59:48.680 --> 01:59:49.680
+ it is.
+
+01:59:49.680 --> 01:59:57.120
+ So Mike 97% mouse 1.68% nail cutter 0.43% remote 0.02%.
+
+01:59:57.120 --> 01:59:58.760
+ So amazing, right?
+
+01:59:58.760 --> 02:00:04.680
+ So final prediction is equals to Mike as this is the highest one and successfully I am able
+
+02:00:04.680 --> 02:00:11.160
+ to build a model by the way, which can do a prediction for me.
+
+02:00:11.160 --> 02:00:12.920
+ Yes.
+
+02:00:12.920 --> 02:00:19.280
+ So now we are able to build a model so which can recognize a particular, you know, model
+
+02:00:19.280 --> 02:00:23.560
+ or which can, which can basically try to recognize the particular things inside a particular
+
+02:00:23.560 --> 02:00:28.600
+ images basically, right, in a best possible manner.
+
+02:00:28.600 --> 02:00:33.720
+ So anyone who is able to do it, guys, just, you know, change the class name, it will be
+
+02:00:33.720 --> 02:00:34.720
+ able to adopt automatically.
+
+02:00:34.720 --> 02:00:35.720
+ Yes.
+
+02:00:35.720 --> 02:00:39.160
+ So this is saying that yes, so it's amazing, right?
+
+02:00:39.160 --> 02:00:43.960
+ So now we are able to build a neural network so which can identify the images which can
+
+02:00:43.960 --> 02:00:51.960
+ classify the images just the way it is been done over here in this particular place.
+
+02:00:51.960 --> 02:00:57.640
+ So this is how easy it is and the way we have built this one single neural network layer
+
+02:00:57.640 --> 02:00:59.360
+ by layer, layer by layer.
+
+02:00:59.360 --> 02:01:05.360
+ So it's nothing actually coding wise, you will be able to find out that it's very, very
+
+02:01:05.360 --> 02:01:11.440
+ easy to do a implementation if you understand the theory, because it's just like a layer
+
+02:01:11.440 --> 02:01:16.040
+ by layer copy paste, copy paste, copy paste, try to put the values, try to do experimentation
+
+02:01:16.040 --> 02:01:18.760
+ with all of these values and then bingo.
+
+02:01:18.760 --> 02:01:38.300
+ Everything will be done, yeah, everything will be done.
+
+02:01:38.300 --> 02:01:52.720
+ So Nitesh is able to do it, apart from Nitesh, anyone else, guys?
+
+02:01:52.720 --> 02:01:55.900
+ Okay, so now I'll show you something again, amazing.
+
+02:01:55.900 --> 02:02:03.400
+ So there is a portal called as NETRN, NETRN, NETRN Visualizer.
+
+02:02:03.400 --> 02:02:07.400
+ So just try to search for NETRN Visualizer, you will be able to see something called as
+
+02:02:07.400 --> 02:02:09.580
+ NETRN.app.
+
+02:02:09.580 --> 02:02:12.700
+ So just do one thing, just upload your model.
+
+02:02:12.700 --> 02:02:20.600
+ So wherever your model is, so my model is available in this one, this dot Keras model.
+
+02:02:20.600 --> 02:02:25.060
+ Just try to upload your model inside the NETRN app and you will be able to visualize your
+
+02:02:25.060 --> 02:02:26.060
+ model.
+
+02:02:26.060 --> 02:02:30.780
+ So what is going inside the open, this layer, this layer, then what is your convolution that
+
+02:02:30.780 --> 02:02:32.580
+ you have created, right?
+
+02:02:32.580 --> 02:02:36.780
+ Then what is Max pooling, what is a convolution 2D again you are doing?
+
+02:02:36.780 --> 02:02:42.460
+ So everything in very detail, it is going to show it to you by the way, guys, everything
+
+02:02:42.460 --> 02:02:44.140
+ in very detail, right?
+
+02:02:44.140 --> 02:02:48.000
+ So this is something which can be used and again, what is the values?
+
+02:02:48.000 --> 02:02:53.180
+ So here you will be able to see all the values, right?
+
+02:02:53.180 --> 02:02:56.420
+ You will be able to see all these values when it is trying to do a math, when it is trying
+
+02:02:56.420 --> 02:02:57.420
+ to do a calculation.
+
+02:02:57.420 --> 02:03:00.140
+ After that, you will not be able to see the values, but here.
+
+02:03:00.140 --> 02:03:05.460
+ So as your model is available in a physical format now, you will be able to technically
+
+02:03:05.460 --> 02:03:11.420
+ see that what is a value of each and every layer and that too in a number.
+
+02:03:11.420 --> 02:03:15.820
+ So nothing is a black box when we say there is a calculation which is happening, when
+
+02:03:15.820 --> 02:03:19.220
+ we say there is a training which has been done and accordingly it is trying to give
+
+02:03:19.220 --> 02:03:25.580
+ you stuff like output or data, everything is calculatable, everything is something that
+
+02:03:25.580 --> 02:03:30.380
+ you can try to see it as a math or as a number makes sense.
+
+02:03:30.380 --> 02:03:36.340
+ So just try to open up your like a Neutron app and then inside that Keras and then inside
+
+02:03:36.340 --> 02:03:42.700
+ that, just upload the, inside the Neutron app, upload your model, that's it.
+
+02:03:42.700 --> 02:03:46.300
+ And then you will be able to expand all of these layer one by one, one by one and then
+
+02:03:46.300 --> 02:03:48.260
+ you will be able to see it.
+
+02:03:48.260 --> 02:03:52.980
+ So this is how amazing this entire things are, yeah?
+
+02:03:52.980 --> 02:03:57.700
+ So whether it's a kernel or whether it's a biases, everything will be pretty much visible
+
+02:03:57.700 --> 02:04:01.220
+ to all of you.
+
+02:04:01.220 --> 02:04:05.820
+ So this is it guys, this is all about a basic offer convolution neural network, right?
+
+02:04:05.820 --> 02:04:10.340
+ So tomorrow I will be talking about a recurrent neural network, another kind of a network
+
+02:04:10.340 --> 02:04:15.300
+ so which is actually been used with respect to a textual information.
+
+02:04:15.300 --> 02:04:20.460
+ So basically this convolution network is been used with respect to a image for a computer
+
+02:04:20.460 --> 02:04:25.700
+ vision but when we talk about basically something with respect to a natural language processing,
+
+02:04:25.700 --> 02:04:30.380
+ so at that point of time this network is not going to work, this is going to fail.
+
+02:04:30.380 --> 02:04:34.580
+ Very simple reason for that one is that it never remembers anything, right?
+
+02:04:34.580 --> 02:04:35.580
+ Never remembers anything.
+
+02:04:35.580 --> 02:04:40.620
+ So in terms of doing some sort of a textual prediction, so I need a model which can predict
+
+02:04:40.620 --> 02:04:43.220
+ basically a next line, next word, next sentences.
+
+02:04:43.220 --> 02:04:48.980
+ I need a model which can understand and which can even store in a memory that what I said
+
+02:04:48.980 --> 02:04:49.980
+ last time.
+
+02:04:49.980 --> 02:04:53.820
+ So there is something called as VPTT back propagation through time.
+
+02:04:53.820 --> 02:04:58.220
+ So that is something that we are going to understand in my tomorrow's class.
+
+02:04:58.220 --> 02:05:00.580
+ So fine everyone with that, thank you so much.
+
+02:05:00.580 --> 02:05:06.700
+ Any question for me guys, anyone, if there is no question then we'll wrap up the class.
+
+02:05:06.700 --> 02:05:13.620
+ Hope all of you have liked this class.
+
+02:05:13.620 --> 02:05:24.780
+ Yeah, I'm like you know bundling up each and everything, so you will be having each and
+
+02:05:24.780 --> 02:05:26.380
+ everything.
+
+02:05:26.380 --> 02:05:38.780
+ So I'm going to ask my team to upload that inside the portal.
+
+02:05:38.780 --> 02:05:56.820
+ Using my data set, okay, so CNN practical, fine.
+
+02:05:56.820 --> 02:05:58.620
+ So this will be uploaded guys inside your dashboard.
+
+02:05:58.620 --> 02:06:03.700
+ So once my team is going to upload the recording along with that same thing will be uploaded
+
+02:06:03.700 --> 02:06:09.260
+ and along with that, so I'll just ask them to you know put these links as well.
+
+02:06:09.260 --> 02:06:14.100
+ Maybe you can save this link for now so that you can use this link just to like play with
+
+02:06:14.100 --> 02:06:19.660
+ it just to like you know revise just to maybe understand these links are very much useful
+
+02:06:19.660 --> 02:06:22.900
+ even the drone app link I have already given to you.
+
+02:06:22.900 --> 02:06:32.660
+ So try to save that particular link as well.
+
+02:06:32.660 --> 02:06:42.660
+ Okay, so let me see.
+
+02:06:42.660 --> 02:06:57.500
+ Okay, fine, I just like a forwarded all these things to my team member and they're going
+
+02:06:57.500 --> 02:06:58.500
+ to upload it.
+
+02:06:58.500 --> 02:07:01.620
+ So with that, thank you so much everyone take care and see you again in my tomorrow's class
+
+02:07:01.620 --> 02:07:06.260
+ like I told you so tomorrow I'll be talking about a recurrent neural network which is
+
+02:07:06.260 --> 02:07:11.460
+ again another kind of a network which solves a text problem a problem sequential problem
+
+02:07:11.460 --> 02:07:16.180
+ again but yeah for text it is going to solve till then take care everyone bye bye.
+

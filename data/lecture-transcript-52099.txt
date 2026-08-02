@@ -1,0 +1,4622 @@
+WEBVTT
+
+00:05:14.740 --> 00:05:19.580
+okay so hi everyone i think i'm audible and visible to all
+
+00:05:19.580 --> 00:05:24.640
+of you guys uh yeah so good afternoon everyone okay
+
+00:05:29.920 --> 00:05:31.860
+so let's start so
+
+00:06:10.800 --> 00:06:13.280
+just a minute guys okay
+
+00:06:22.590 --> 00:06:25.090
+so i believe my screen is visible okay
+
+00:06:42.630 --> 00:06:46.030
+so last class guys we were talking about a list to pulse set
+
+00:06:46.030 --> 00:06:48.870
+and dictionary now in this session i'll be talking about uh
+
+00:06:48.870 --> 00:06:52.090
+if else statement and uh yeah so apart from that i'll be
+
+00:06:52.090 --> 00:06:55.990
+talking about loops as well so let's try to understand how
+
+00:06:55.990 --> 00:06:58.650
+we can try to write a if else kind of a statement and how we
+
+00:06:58.650 --> 00:07:01.650
+can try to write a uh like a for loop and the while loop
+
+00:07:01.650 --> 00:07:02.990
+basically uh
+
+00:07:11.880 --> 00:07:14.600
+where to submit the assignment so assignment is basically i
+
+00:07:14.600 --> 00:07:17.560
+have given to you so that you can self-evaluate and discuss
+
+00:07:17.560 --> 00:07:19.620
+amongst a group that's the reason so we have a group for
+
+00:07:19.620 --> 00:07:27.380
+that yeah okay so now new file and here so if a
+
+00:07:29.910 --> 00:07:32.590
+live else i
+
+00:07:35.060 --> 00:07:36.760
+p y and b file
+
+00:07:41.080 --> 00:07:43.380
+finally one so let's start talking about this if else kind
+
+00:07:43.380 --> 00:07:46.340
+of a block so as we have already seen a lot of like a data
+
+00:07:46.340 --> 00:07:49.540
+type and a lot of uh inbuilt data structure inside a python
+
+00:07:49.540 --> 00:07:52.880
+now in this class let's try to focus on conditional block so
+
+00:07:52.880 --> 00:07:57.200
+basically this if else elif kind of things uh comes inside a
+
+00:07:57.200 --> 00:07:59.960
+conditional block and you will be able to find out an
+
+00:07:59.960 --> 00:08:03.400
+implementation of this one not just in python but in almost
+
+00:08:03.400 --> 00:08:06.400
+all the programming languages because obviously you have to
+
+00:08:06.400 --> 00:08:09.680
+write a condition so based on the situation now to
+
+00:08:09.680 --> 00:08:12.020
+understand that in a layman manner so let me give you one
+
+00:08:12.020 --> 00:08:15.720
+example uh so even in our like a regular life regular life
+
+00:08:15.720 --> 00:08:18.740
+so we try to take a lot of decisions right uh we say if this
+
+00:08:18.740 --> 00:08:22.460
+is going to happen then i will do this so for example if i'm
+
+00:08:22.460 --> 00:08:27.460
+going to like wake up at 5 a.m so in that case maybe i'll
+
+00:08:27.460 --> 00:08:32.460
+try to go to a gym uh if i will be able to get this much of
+
+00:08:32.460 --> 00:08:35.920
+marks then i will be able to secure this particular marks uh
+
+00:08:35.920 --> 00:08:39.060
+if i'm able to crack this particular company then maybe i
+
+00:08:39.060 --> 00:08:42.020
+will be able to this much of package something like that so
+
+00:08:42.020 --> 00:08:46.140
+we all try to like a do on a daily basis by the way now
+
+00:08:46.140 --> 00:08:48.720
+similar kind of a statement you can try to implement even
+
+00:08:48.720 --> 00:08:52.840
+over here as simple as that so we are and again programming
+
+00:08:52.840 --> 00:08:55.940
+is all about you know replicating a real life scenario so
+
+00:08:55.940 --> 00:08:58.800
+similarly you can write a program so that program is going
+
+00:08:58.800 --> 00:09:02.220
+to check a condition and if that condition is going to be
+
+00:09:02.220 --> 00:09:05.080
+valid then it is going to do some sort of a task whatever
+
+00:09:05.080 --> 00:09:07.600
+task that you are going to write it is going to perform that
+
+00:09:07.600 --> 00:09:10.700
+particular task for example so here if i am going to write
+
+00:09:10.700 --> 00:09:14.460
+maybe a number n is equals to 10 right let's say i have
+
+00:09:14.460 --> 00:09:18.380
+written this variable greater this variable and i just
+
+00:09:18.380 --> 00:09:21.840
+wanted to check that this number is positive or this number
+
+00:09:21.840 --> 00:09:26.100
+is negative so maybe i can write a condition so if close
+
+00:09:27.630 --> 00:09:32.090
+this one yeah so maybe we can try to write a condition over
+
+00:09:32.090 --> 00:09:36.350
+there that if n is greater than 0 yeah if n is greater than
+
+00:09:36.350 --> 00:09:40.270
+0 then number is positive else we can try to write a number
+
+00:09:40.270 --> 00:09:44.310
+is not positive very very simple right so here just just try
+
+00:09:44.310 --> 00:09:47.750
+to focus on couple of these example and yeah so you all will
+
+00:09:47.750 --> 00:09:51.010
+be able to understand it easily so here what we have written
+
+00:09:51.010 --> 00:09:55.910
+so here we have written that that if so if is a reserved
+
+00:09:55.910 --> 00:09:59.390
+keyword exist inside the python so we are writing that that
+
+00:09:59.390 --> 00:10:02.750
+if this is going to happen it simply means that that this
+
+00:10:02.750 --> 00:10:06.590
+block checks for the condition to be true so if this is
+
+00:10:06.590 --> 00:10:10.090
+going to be true if this condition is going to be true then
+
+00:10:10.090 --> 00:10:14.750
+do this otherwise do this one else block right so we can try
+
+00:10:14.750 --> 00:10:17.190
+to even remove this else block if is going to work by the
+
+00:10:17.190 --> 00:10:20.910
+way so here it is going to check simply a condition that n
+
+00:10:20.910 --> 00:10:25.310
+so 10 right so 10 is greater than 0 yes it is true 10 is
+
+00:10:25.310 --> 00:10:27.970
+greater than 0 so if this is true whatsoever you have
+
+00:10:27.970 --> 00:10:31.070
+written inside the e block it will try to execute that
+
+00:10:31.070 --> 00:10:35.410
+particular part now so here if
+
+00:10:38.390 --> 00:10:41.270
+you are going to check even outside so let's say if i'm
+
+00:10:41.270 --> 00:10:44.310
+saying 10 is greater than 0 so what it is going to return it
+
+00:10:44.310 --> 00:10:46.910
+is going to return you true yeah we are just trying to check
+
+00:10:46.910 --> 00:10:51.050
+it is going to turn true so if elif else block works on this
+
+00:10:51.050 --> 00:10:54.150
+true false a boolean so if it is going to return true then
+
+00:10:54.150 --> 00:10:57.550
+this is going to happen otherwise that is going to happen so
+
+00:10:57.550 --> 00:11:01.490
+here else is a default one so if it is not going to satisfy
+
+00:11:01.490 --> 00:11:04.250
+any kind of a condition inside the e block then eventually
+
+00:11:04.250 --> 00:11:08.510
+it will fall into else block now so here whenever you are
+
+00:11:08.510 --> 00:11:11.850
+trying to write a if kind of a statement inside a python you
+
+00:11:11.850 --> 00:11:14.990
+have to make sure that you are trying to give a proper
+
+00:11:14.990 --> 00:11:17.930
+indentation in some other programming languages you will be
+
+00:11:17.930 --> 00:11:20.330
+able to find out that we are trying to maintain our
+
+00:11:20.330 --> 00:11:24.030
+indentation or block of the coding with the help of this
+
+00:11:24.030 --> 00:11:26.950
+right with the help of this curly bracket kind of things but
+
+00:11:26.950 --> 00:11:30.170
+in case of python it's a indentation by which you are
+
+00:11:30.170 --> 00:11:32.910
+supposed to maintain and you are supposed to manage and as a
+
+00:11:32.910 --> 00:11:36.230
+beginner many people make this kind of a mistake for example
+
+00:11:36.230 --> 00:11:39.210
+if i'm not giving this indentation now if i'll try to
+
+00:11:39.210 --> 00:11:43.070
+execute it this is basically a indentation error right so
+
+00:11:43.070 --> 00:11:46.030
+this particular piece of the code or this line is not
+
+00:11:46.030 --> 00:11:49.350
+properly aligned it is not able to understand that you know
+
+00:11:49.350 --> 00:11:53.110
+it is a part of which particular things or what it is
+
+00:11:53.110 --> 00:11:56.350
+supposed to perform over here so indentation is something
+
+00:11:56.350 --> 00:11:59.870
+that you have to do and yes you all will be able to get a
+
+00:11:59.870 --> 00:12:01.810
+control over the indentation once you are going to write
+
+00:12:01.810 --> 00:12:04.290
+couple of line of code then only you will be able to
+
+00:12:04.290 --> 00:12:08.370
+understand these things now let's say so, inside this
+
+00:12:08.370 --> 00:12:10.970
+conditional statement there is a if block there is a else
+
+00:12:10.970 --> 00:12:13.970
+block there is something called as elif block so let's say
+
+00:12:13.970 --> 00:12:16.610
+if i have to write a multiple conditions not just one single
+
+00:12:16.610 --> 00:12:19.790
+condition i have to basically write a multiple condition for
+
+00:12:19.790 --> 00:12:23.850
+example generally we give exams and we used to get a marks
+
+00:12:23.850 --> 00:12:29.610
+right so let's say marks is a variable and marks is 75 which
+
+00:12:29.610 --> 00:12:33.990
+i have received and i have to basically give a grade that if
+
+00:12:33.990 --> 00:12:37.010
+marks is more than basically 90 percent than i have received
+
+00:12:37.010 --> 00:12:37.010
+then i have to basically give a grade that if marks is more
+
+00:12:37.010 --> 00:12:37.950
+than basicallyажا if marks is more than ordered grade a if
+
+00:12:37.950 --> 00:12:42.350
+marks is more than 75 percent in that case grade b otherwise
+
+00:12:42.350 --> 00:12:45.250
+you will fall inside grade c let's suppose these are the
+
+00:12:45.250 --> 00:12:48.230
+something that we have to print so here we have to write a
+
+00:12:48.230 --> 00:12:51.150
+multiple condition not just one so what we can do we can try
+
+00:12:51.150 --> 00:12:54.910
+to write that if marks is greater than 90 print grade a and
+
+00:12:54.910 --> 00:12:58.730
+then elif so if i have to write another condition for the
+
+00:12:58.730 --> 00:13:01.230
+same blocks same piece of the code so i can try to use
+
+00:13:01.230 --> 00:13:04.510
+basically elif so where again i can write a condition so if
+
+00:13:04.510 --> 00:13:08.750
+marks is greater than 80 then grade b if marks is greater
+
+00:13:08.750 --> 00:13:14.090
+than 70, then grade C. Else, just try to give what? Try to
+
+00:13:14.090 --> 00:13:19.430
+give basically grade D. So here, I have given marks is equal
+
+00:13:19.430 --> 00:13:23.250
+to 75. Now execute it. So it is falling under grade C. So
+
+00:13:23.250 --> 00:13:25.550
+how execution is going to happen internally? So first of
+
+00:13:25.550 --> 00:13:28.610
+all, it will try to check a condition from top. And then it
+
+00:13:28.610 --> 00:13:32.150
+will come down. So here, it will try to check first of all
+
+00:13:32.150 --> 00:13:36.070
+marks, right? What is the value of marks? 75. So 75 is
+
+00:13:36.070 --> 00:13:39.390
+greater than equal to 90. Now it is going to return me
+
+00:13:39.390 --> 00:13:42.910
+false. So if it is false, it will not execute anything which
+
+00:13:42.910 --> 00:13:46.090
+is mentioned inside this block. Now it will go and check the
+
+00:13:46.090 --> 00:13:50.870
+next block. So marks is greater than 80. So 75 is greater
+
+00:13:50.870 --> 00:13:54.850
+than equal to 80 basically. Again, it is going to be false.
+
+00:13:54.990 --> 00:13:57.930
+So it is not going to execute anything that we have written
+
+00:13:57.930 --> 00:14:00.930
+inside this particular block. Then we will go and check a
+
+00:14:00.930 --> 00:14:03.890
+next block. If there is a next block, right? That marks is
+
+00:14:03.890 --> 00:14:05.930
+greater. That marks is greater than equal to 70. So here, it
+
+00:14:05.930 --> 00:14:09.050
+will try to check 75 is greater than equal to 70. Now this
+
+00:14:09.050 --> 00:14:13.410
+will give basically true. True, right? So now it will go
+
+00:14:13.410 --> 00:14:16.270
+inside this block and whatsoever logic or whatsoever
+
+00:14:16.270 --> 00:14:18.950
+statement that you have written, it will try to print it.
+
+00:14:19.030 --> 00:14:21.330
+And that is the reason it is trying to print what? Grade C,
+
+00:14:21.510 --> 00:14:24.730
+right? Because it is able to fall under this particular
+
+00:14:24.730 --> 00:14:27.510
+condition. So in a similar block, if I have to write a
+
+00:14:27.510 --> 00:14:29.870
+multiple condition, I can try to use what? I can try to use
+
+00:14:29.870 --> 00:14:33.270
+if, elif, elif and then default is else. If nothing is going
+
+00:14:33.270 --> 00:14:36.470
+to work, then in that case, else, I can try to use it. Now
+
+00:14:36.470 --> 00:14:42.490
+here, making sense guys? Yeah? Making sense? So try for 95.
+
+00:14:42.710 --> 00:14:46.510
+So fine, not an issue at all. 95 and grade A, as simple as
+
+00:14:46.510 --> 00:14:50.090
+that, right? So here, if I am giving 95 over here, very
+
+00:14:50.090 --> 00:14:54.510
+simple. So 95 is greater than equal to 90. So obviously,
+
+00:14:54.730 --> 00:14:57.510
+this condition is going to be true. If it is true, it will
+
+00:14:57.510 --> 00:15:00.530
+come inside this block and then it will try to execute it.
+
+00:15:00.650 --> 00:15:03.290
+So now I am able to get basically grade A. So wherever.
+
+00:15:03.290 --> 00:15:06.350
+Simple. It works on true and false conditions. So if this
+
+00:15:06.350 --> 00:15:10.030
+situation is going to be true, right? Then it will come
+
+00:15:10.030 --> 00:15:13.190
+inside a block. Otherwise, it will look for the another one,
+
+00:15:13.270 --> 00:15:16.010
+another one, another one. As simple as that. In this
+
+00:15:16.010 --> 00:15:18.430
+particular sequence, it will always move. Not in a random
+
+00:15:18.430 --> 00:15:21.370
+order. Always it will try to follow this particular sequence
+
+00:15:21.370 --> 00:15:25.950
+that we have mentioned inside the code block. Yeah? Now, so
+
+00:15:25.950 --> 00:15:29.650
+let's say, you know, if I have to make it dynamic, if I have
+
+00:15:29.650 --> 00:15:31.930
+to take an input from the user, I think we have already
+
+00:15:31.930 --> 00:15:34.330
+discussed about that. Input function in our previous class.
+
+00:15:34.570 --> 00:15:37.790
+So here what I can do, I can try to take an input from the
+
+00:15:37.790 --> 00:15:42.130
+user, right? So enter marks and then whatsoever marks user
+
+00:15:42.130 --> 00:15:45.050
+is going to enter. So we are going to convert that into an
+
+00:15:45.050 --> 00:15:47.510
+integer. We are going to typecast that into an integer.
+
+00:15:47.870 --> 00:15:50.670
+Because we all know that by default, input function takes
+
+00:15:50.670 --> 00:15:54.830
+anything as a string. So execute. Now marks, I can try to
+
+00:15:54.830 --> 00:15:58.770
+give 60 and then 60 means grade D. So it is not falling
+
+00:15:58.770 --> 00:16:01.390
+under this condition or this condition or this condition. So
+
+00:16:01.390 --> 00:16:03.690
+finally, it will come. It will come to else block and then
+
+00:16:03.690 --> 00:16:07.190
+it is going to print basically D. Now, you can't enter
+
+00:16:07.190 --> 00:16:09.650
+something like this, basically your name or my name, because
+
+00:16:09.650 --> 00:16:12.570
+we all know that, that we are doing a typecasting over here.
+
+00:16:12.830 --> 00:16:16.530
+And yes, to do a typecasting, data must be available in the
+
+00:16:16.530 --> 00:16:19.710
+format where I can convert. Otherwise, it will not be able
+
+00:16:19.710 --> 00:16:22.850
+to convert it. So eventually you will get a error over here,
+
+00:16:22.950 --> 00:16:27.090
+right? If I'm going to hit enter, I will be getting a error
+
+00:16:27.090 --> 00:16:29.510
+over here saying that no, I'm not able to convert this
+
+00:16:29.510 --> 00:16:32.030
+particular input that you have given to me. Very, very
+
+00:16:32.030 --> 00:16:34.670
+simple. Already discussed, I believe in my, like a previous
+
+00:16:34.670 --> 00:16:40.910
+session. So please check that out. Yeah. Now moving ahead
+
+00:16:40.910 --> 00:16:45.270
+with another example. So, you know, let's, let's try to take
+
+00:16:45.270 --> 00:16:48.150
+like a example. So where we can write a multiple condition.
+
+00:16:48.370 --> 00:16:53.370
+Yeah. So here, let's say, uh, I have maybe a number is
+
+00:16:53.370 --> 00:16:58.230
+equals to 15, right? Number is equals to 15. Let's say, and,
+
+00:16:58.290 --> 00:17:02.750
+uh, here, so I would like to basically check that. Uh,
+
+00:17:02.970 --> 00:17:08.170
+whether this 15 is divisible by, uh, three and five, both or
+
+00:17:08.170 --> 00:17:11.770
+not. Means I have tried two conditions altogether. Yeah. Two
+
+00:17:11.770 --> 00:17:14.830
+condition. So here I was writing only one condition, but
+
+00:17:14.830 --> 00:17:17.430
+it's possible to write, you know, any number of a condition
+
+00:17:17.430 --> 00:17:20.290
+you can, you can do that. So here, let's say if I have to
+
+00:17:20.290 --> 00:17:24.390
+write multiple condition, so what I can do if, and what I
+
+00:17:24.390 --> 00:17:28.330
+have to check whether this number is divisible by three or
+
+00:17:28.330 --> 00:17:32.070
+five or not three, five, both, right? So here I can try to
+
+00:17:32.070 --> 00:17:38.070
+write that. That number percentile three is equal, equal to
+
+00:17:38.070 --> 00:17:42.750
+zero and number percentile, uh, five is equal, equal to
+
+00:17:42.750 --> 00:17:48.550
+zero. So in that case, try to print that, uh, this number is
+
+00:17:48.550 --> 00:17:51.990
+divided by three and five, both. So maybe I have to do this
+
+00:17:51.990 --> 00:17:54.490
+kind of a checks and here I have written two condition.
+
+00:17:54.670 --> 00:17:57.490
+Yeah. Here I have written two condition and here I'm trying
+
+00:17:57.490 --> 00:18:00.630
+to mention, and now let's try to understand this particular
+
+00:18:00.630 --> 00:18:04.790
+part. So. Uh, what this percentile does, by the way, so it
+
+00:18:04.790 --> 00:18:07.590
+will try to do a new remainder. For example, if I'm writing,
+
+00:18:07.790 --> 00:18:12.750
+uh, five percentile two. So in that case, what will be the
+
+00:18:12.750 --> 00:18:18.810
+outcome guys? Five remainder two. So five divided by two,
+
+00:18:18.890 --> 00:18:21.850
+what will be the remainder? One. Simple, right? So this is
+
+00:18:21.850 --> 00:18:24.270
+what this remainder symbol comes into picture. Those who are
+
+00:18:24.270 --> 00:18:28.050
+not aware about it. So here number is 15, right? So it is
+
+00:18:28.050 --> 00:18:31.550
+going to check this condition and it is going to check this
+
+00:18:31.550 --> 00:18:33.890
+condition. This whole condition, this whole condition. It is
+
+00:18:33.890 --> 00:18:38.330
+going to check. So 15 percentile three, what will be the
+
+00:18:38.330 --> 00:18:43.510
+result? Zero. Yeah. 15 remainder three, zero. 15 remainder
+
+00:18:43.510 --> 00:18:47.450
+five again going to be zero. So this condition is going to
+
+00:18:47.450 --> 00:18:51.550
+be true and this condition is going to be true. Yeah. This
+
+00:18:51.550 --> 00:18:54.070
+condition is going to be true and this condition is going to
+
+00:18:54.070 --> 00:18:57.750
+be true. What about this whole condition? Because once this
+
+00:18:57.750 --> 00:19:00.910
+whole condition will be true, right? Once this whole
+
+00:19:00.910 --> 00:19:03.670
+condition will be true. true then only it will execute
+
+00:19:03.670 --> 00:19:08.050
+something that we have written inside the E block. So here
+
+00:19:08.050 --> 00:19:12.010
+we have used AND and if you remember in our childhood so we
+
+00:19:12.010 --> 00:19:16.490
+have gone through AND table OR table, let me draw that. So
+
+00:19:16.490 --> 00:19:22.770
+let's say we have A and B and then output and we are doing
+
+00:19:22.770 --> 00:19:26.510
+AND operation over here. We are doing let's suppose AND
+
+00:19:26.510 --> 00:19:33.270
+operation over here. So true, true, true, false, false,
+
+00:19:33.330 --> 00:19:38.010
+true, false, false. Now in case of true, true what is the
+
+00:19:38.010 --> 00:19:43.290
+outcome? In case of AND table, quickly everyone, in case of
+
+00:19:43.290 --> 00:19:50.370
+true, true, true, true, false, true, false, false, false,
+
+00:19:50.450 --> 00:19:58.240
+true, quickly false, false, false, false. So this is
+
+00:19:58.240 --> 00:20:01.500
+basically my AND table. Now here what is the situation? So
+
+00:20:01.500 --> 00:20:05.480
+true, true, AND right. So true, true. So true, true what?
+
+00:20:05.600 --> 00:20:08.520
+True. So eventually this whole condition is going to be
+
+00:20:08.520 --> 00:20:11.000
+what? Whole condition is going to be true. So that is the
+
+00:20:11.000 --> 00:20:13.680
+reason it will go inside this block and then it will try to
+
+00:20:13.680 --> 00:20:19.320
+execute it. As simple as that. Now similarly so there can be
+
+00:20:19.320 --> 00:20:23.760
+OR condition I can write. So here if any of these things are
+
+00:20:23.760 --> 00:20:27.600
+correct, OR condition, I can try to write over here. So OR
+
+00:20:27.600 --> 00:20:30.980
+means any of this condition. It will try to check and before
+
+00:20:30.980 --> 00:20:34.800
+that let us talk about a OR table. So how this OR table
+
+00:20:34.800 --> 00:20:43.590
+looks like. So in case of OR table, let us say input A, B
+
+00:20:43.590 --> 00:20:45.090
+and then output.
+
+00:20:47.790 --> 00:20:54.710
+So true, true, true, false, false, true, false, false. So
+
+00:20:54.710 --> 00:20:59.840
+yeah in case of OR table guys, true, true, true, true,
+
+00:20:59.840 --> 00:21:07.700
+false, true, false, true, false, true, true, false, false,
+
+00:21:07.860 --> 00:21:13.940
+false, right. So here this condition is true. This condition
+
+00:21:13.940 --> 00:21:17.900
+is also true for this particular data that we have given. So
+
+00:21:17.900 --> 00:21:20.860
+true, true. True, true what? True, true, true. So the whole
+
+00:21:20.860 --> 00:21:24.320
+situation become true and then I will be able to still get
+
+00:21:24.320 --> 00:21:29.920
+into this one. This particular if block basically. So
+
+00:21:29.920 --> 00:21:32.780
+likewise I can write any number of condition over here 10,
+
+00:21:32.800 --> 00:21:36.260
+20, 50 whatsoever I want. There is no limitation on that and
+
+00:21:36.260 --> 00:21:39.920
+then I will be able to write something if condition is true
+
+00:21:39.920 --> 00:21:43.440
+then it is going to execute it. So here basically what I can
+
+00:21:43.440 --> 00:21:50.220
+do, so maybe I can write over here that 20, right. So number
+
+00:21:50.220 --> 00:21:53.620
+is equal to 20. Now what is the outcome I will be able to
+
+00:21:53.620 --> 00:21:55.020
+get? Will I be able to get this print?
+
+00:21:58.370 --> 00:22:00.710
+I mean this print statement is not correct but will I be
+
+00:22:00.710 --> 00:22:05.980
+able to get this print? Yes print statement is not correct.
+
+00:22:06.060 --> 00:22:08.060
+I mean like 20 is not divisible by both. It is just a
+
+00:22:08.060 --> 00:22:10.660
+statement. It is just a string. Right. So don't focus on
+
+00:22:10.660 --> 00:22:13.540
+that. But yeah, will I be able to get this print, that's a
+
+00:22:13.540 --> 00:22:17.740
+question. Yes I will be able to get the print. I will be
+
+00:22:17.740 --> 00:22:19.880
+able to get the print. Maybe I have to like correct this
+
+00:22:19.880 --> 00:22:24.040
+one. So this number is either divisible
+
+00:22:26.280 --> 00:22:28.380
+by 3 or 5.
+
+00:22:31.660 --> 00:22:35.480
+Now this statement is correct. So as per this input data by
+
+00:22:35.480 --> 00:22:38.000
+the way. So here what it will do, it will try to check. So
+
+00:22:38.000 --> 00:22:40.460
+whether this number is divisible by this, it is going to
+
+00:22:40.460 --> 00:22:45.080
+give you false. Right. So this part is going to be false for
+
+00:22:45.080 --> 00:22:48.000
+me. This part is going to be false. Now it will try to check
+
+00:22:48.000 --> 00:22:50.560
+whether number is divisible by 5. This is going to give me
+
+00:22:50.560 --> 00:22:54.840
+true. So false true. False true. Final result, true. So
+
+00:22:54.840 --> 00:22:57.700
+eventually this entire block is going to be what, true. So
+
+00:22:57.700 --> 00:23:00.440
+whatsoever you have written inside this block, it is going
+
+00:23:00.440 --> 00:23:04.060
+to simply execute it. So just based on the condition it
+
+00:23:04.060 --> 00:23:07.080
+works, nothing else. You can write AND condition, OR
+
+00:23:07.080 --> 00:23:09.680
+condition, EXHORT condition, NOR condition, everything is
+
+00:23:09.680 --> 00:23:15.020
+going to work the way it was supposed to be. Fine. So here
+
+00:23:15.020 --> 00:23:19.620
+we have written this. Now let's try to look into some nested
+
+00:23:19.620 --> 00:23:24.760
+block. So if inside if inside a if kind of a block. So here
+
+00:23:24.760 --> 00:23:28.960
+maybe I can try to write some sort of a logging system kind
+
+00:23:28.960 --> 00:23:32.220
+of a logic. So whenever you go to any website, you try to do
+
+00:23:32.220 --> 00:23:39.360
+a login with password and ID. So here let's say username is
+
+00:23:39.360 --> 00:23:39.800
+a variable.
+
+00:23:44.610 --> 00:23:49.270
+Username. So let's say username is SUDH. Fine. And then
+
+00:23:49.270 --> 00:23:56.500
+password is basically is basically something like this. I'm
+
+00:23:56.500 --> 00:24:00.280
+going to give or maybe 1234 kind of things I'm going to give
+
+00:24:00.280 --> 00:24:04.460
+over here now. So I have to write maybe a nested block,
+
+00:24:04.560 --> 00:24:09.300
+right? That it should check username. If username is
+
+00:24:09.300 --> 00:24:12.440
+correct, then only it should check password. I mean, like
+
+00:24:12.440 --> 00:24:15.300
+you can write this kind of a condition as well. So where it
+
+00:24:15.300 --> 00:24:18.640
+is checking both together. But no, I wanted to write a
+
+00:24:18.640 --> 00:24:22.380
+condition in such a way that first check username. If
+
+00:24:22.380 --> 00:24:26.160
+username is incorrect, then don't even ask for the password.
+
+00:24:26.420 --> 00:24:30.320
+Don't even go and check the password. If username is like a
+
+00:24:30.320 --> 00:24:33.700
+correct, then go ahead and try to check the password. That's
+
+00:24:33.700 --> 00:24:37.020
+a condition I have. Otherwise in this situation, what it
+
+00:24:37.020 --> 00:24:39.980
+will do, it will try to validate both together. But I don't
+
+00:24:39.980 --> 00:24:44.060
+want that. So I'll remove this one. What I will do. So if.
+
+00:24:45.680 --> 00:24:50.900
+Username. Is equal equal to SUDH, right?
+
+00:24:54.250 --> 00:24:58.550
+And inside this one, I can try to write if password is equal
+
+00:24:58.550 --> 00:25:02.810
+equal to password is equal equal to 1234 login successful
+
+00:25:02.810 --> 00:25:07.270
+else try to say invalid login. So here just follow the
+
+00:25:07.270 --> 00:25:09.990
+indentation, just follow the indentation over here. So we
+
+00:25:09.990 --> 00:25:13.170
+are trying to do what? So we have written if and outer if
+
+00:25:13.170 --> 00:25:16.050
+basically, and we have written inner if and for inner if
+
+00:25:16.050 --> 00:25:19.230
+this is the code block for outer if. There is no else we
+
+00:25:19.230 --> 00:25:24.510
+have written. So if it is failing at a username check
+
+00:25:24.510 --> 00:25:28.630
+itself, so we can try to write invalid username. Yeah.
+
+00:25:28.810 --> 00:25:32.850
+Invalid username. If it is able to pass username, we can try
+
+00:25:32.850 --> 00:25:36.430
+to say invalid password. So maybe password is invalid. Okay.
+
+00:25:36.530 --> 00:25:40.610
+Fine. Now let me parameterize it. So I'll try to take input
+
+00:25:40.610 --> 00:25:45.470
+enter username and then I'll try to basically like, you
+
+00:25:45.470 --> 00:25:49.790
+know, enter password. So 1234. Now execute. So here
+
+00:25:49.790 --> 00:25:52.430
+username. Uh, so I'm going to give some random username,
+
+00:25:52.650 --> 00:25:54.090
+let's say, and
+
+00:25:57.390 --> 00:26:01.590
+a password wise. So some password I have given. So here the
+
+00:26:01.590 --> 00:26:05.190
+username, which I have given, it has failed at that label
+
+00:26:05.190 --> 00:26:08.990
+itself, username. It has failed at this label itself. So
+
+00:26:08.990 --> 00:26:12.850
+once it is going to fail at this particular label, once it
+
+00:26:12.850 --> 00:26:16.070
+is going to fail at this particular label, simple, it will
+
+00:26:16.070 --> 00:26:18.590
+never execute anything that you have written inside this
+
+00:26:18.590 --> 00:26:22.790
+particular blog. This is how if works, right? So if it has
+
+00:26:22.790 --> 00:26:25.330
+failed at this validation itself directly, it will come to
+
+00:26:25.330 --> 00:26:28.790
+the parallel block of this if where I have written else. So
+
+00:26:28.790 --> 00:26:31.050
+invalid username. So it is printing basically invalid
+
+00:26:31.050 --> 00:26:37.390
+username. Okay. Now let's try to run this again. So let's
+
+00:26:37.390 --> 00:26:39.950
+say I'm running this time and I'm going to give a valid
+
+00:26:39.950 --> 00:26:42.990
+username, S U D H password wise. I'm going to make it
+
+00:26:42.990 --> 00:26:46.610
+incorrect. So now it is telling me invalid password. So how
+
+00:26:46.610 --> 00:26:49.870
+it is working by the way. So first of all, it will try to
+
+00:26:49.870 --> 00:26:53.210
+check a username. And now this is true. If this is true, it
+
+00:26:53.210 --> 00:26:56.970
+will go here. Now here it will again try to check a password
+
+00:26:56.970 --> 00:27:00.610
+is correct or not. So password is incorrect. So eventually
+
+00:27:00.610 --> 00:27:03.750
+it will not execute this. It will come into else block, the
+
+00:27:03.750 --> 00:27:06.550
+inner one and then invalid password. So we are able to print
+
+00:27:06.550 --> 00:27:10.110
+what we are able to print invalid password. So in the
+
+00:27:10.110 --> 00:27:12.770
+simplest possible way, this block is running and yes, this
+
+00:27:12.770 --> 00:27:16.590
+block is able to do its job. Now let's execute once again.
+
+00:27:18.900 --> 00:27:22.960
+So here S U D H. And then password. Password is one, two,
+
+00:27:23.000 --> 00:27:26.920
+three, four, right? Now login successful. So username was
+
+00:27:26.920 --> 00:27:30.000
+incorrect and then like password was also correct. So
+
+00:27:30.000 --> 00:27:33.900
+successful login. I'm able to do it. So in this way we can
+
+00:27:33.900 --> 00:27:38.580
+try to write if inside, if inside, if inside, if or like if
+
+00:27:38.580 --> 00:27:42.640
+inside elif, if inside else block. So wherever I wanted to
+
+00:27:42.640 --> 00:27:46.360
+write a condition right till any hierarchy, I can do that.
+
+00:27:47.400 --> 00:27:52.720
+Make sense guys. Yep. Everyone
+
+00:27:55.280 --> 00:27:56.180
+easy. I believe.
+
+00:28:16.660 --> 00:28:19.580
+If you enter user name only, no, it will, it will ask me for
+
+00:28:19.580 --> 00:28:23.760
+the password. The next line is basically a password also. So
+
+00:28:23.760 --> 00:28:26.180
+it will not like a close the pop-up window.
+
+00:28:31.110 --> 00:28:36.450
+Okay. So if elif else block, we are able to understand it.
+
+00:28:36.630 --> 00:28:38.710
+So again, I'll, I'll give you a couple of like, you know,
+
+00:28:38.710 --> 00:28:41.630
+uh, example and I'll give you a couple of like, uh, you
+
+00:28:41.630 --> 00:28:44.150
+know, uh, practice questions. So just try to practice that
+
+00:28:44.150 --> 00:28:46.910
+your, if elif, all those things will be clear and it will be
+
+00:28:46.910 --> 00:28:50.670
+covered. It's very simple. But like condition, I'm in a day
+
+00:28:50.670 --> 00:28:53.010
+to day life condition. So we can try to write it by using if
+
+00:28:53.010 --> 00:28:58.150
+elif kind of a things. Now let's try to understand basically
+
+00:28:58.150 --> 00:29:02.450
+a for loop. Yeah. For loop.
+
+00:29:04.650 --> 00:29:08.370
+So how for loop is going to technically works. Let's try to
+
+00:29:08.370 --> 00:29:12.130
+understand that. So here in my last class, we have created a
+
+00:29:12.130 --> 00:29:15.850
+list, right? So let's say I'm creating a list over here and
+
+00:29:15.850 --> 00:29:18.570
+inside a list. So I'm trying to keep some sort of a data.
+
+00:29:18.710 --> 00:29:20.450
+This is my data, which is my data. Which is available inside
+
+00:29:20.450 --> 00:29:25.430
+the list. Now one by one, one by one, one by one, if I have
+
+00:29:25.430 --> 00:29:30.070
+to extract those data, so how I will be able to do it. Yeah.
+
+00:29:30.170 --> 00:29:32.310
+How I will be able to do it. So first of all, I have to
+
+00:29:32.310 --> 00:29:35.210
+extract one, then two, then three, then four, and then five,
+
+00:29:35.270 --> 00:29:39.450
+one by one. So maybe I can write a list of like, uh, you
+
+00:29:39.450 --> 00:29:42.790
+know, zero. I will be able to get the data list of basically
+
+00:29:42.790 --> 00:29:46.170
+one. I will be able to get the data with the help of
+
+00:29:46.170 --> 00:29:49.930
+indexing operation. I will be able to get the data. Okay.
+
+00:29:49.930 --> 00:29:53.390
+But one by one, one by one, one by one. What I want is that,
+
+00:29:53.430 --> 00:29:56.990
+that in an automated mode, one by one system should like
+
+00:29:56.990 --> 00:30:00.650
+scrap the data or bring the data from the given list from
+
+00:30:00.650 --> 00:30:03.530
+this particular list. So my system should bring all of these
+
+00:30:03.530 --> 00:30:06.730
+data. And then maybe if I would like to do some sort of
+
+00:30:06.730 --> 00:30:10.410
+operation, I can do that. So this is where a condition or
+
+00:30:10.410 --> 00:30:13.070
+loop condition loop comes into picture. So there are like a
+
+00:30:13.070 --> 00:30:15.250
+for loop and there is a while loop. I'll be talking about
+
+00:30:15.250 --> 00:30:19.630
+both. So here syntax wise. So for loop works in this manner.
+
+00:30:19.710 --> 00:30:24.190
+Okay. So for I in L basically, and then print, so let's say
+
+00:30:24.190 --> 00:30:28.670
+I'm printing I, now you will be able to find out that yes,
+
+00:30:28.750 --> 00:30:31.890
+it has started one, two, three, four, five, one by one, one
+
+00:30:31.890 --> 00:30:34.790
+by one sequentially. It is able to extract all of these data
+
+00:30:34.790 --> 00:30:37.690
+set. Now let's try to understand how it is actually working
+
+00:30:37.690 --> 00:30:41.670
+internally, right? The list is basically a iterable entity.
+
+00:30:41.830 --> 00:30:45.170
+You can iterate it. It rated wins. So from here you can go
+
+00:30:45.170 --> 00:30:48.530
+here, you can go here, you can go here, you can go here. And
+
+00:30:48.530 --> 00:30:52.590
+we all know that. That in case of list by default system,
+
+00:30:52.690 --> 00:30:57.250
+try to provide the indexes 0, 1, 2, 3, 4 forward indexes,
+
+00:30:57.250 --> 00:31:00.330
+right? Even a backward index is minus one, minus two, minus
+
+00:31:00.330 --> 00:31:03.550
+three, minus four, minus five. So forward indexes will be
+
+00:31:03.550 --> 00:31:06.670
+available as well as backward indexes will be available. Now
+
+00:31:06.670 --> 00:31:09.730
+what this for, for is basically a reserved keyword, by the
+
+00:31:09.730 --> 00:31:13.110
+way, this is a reserved keyword. I is nothing but I'm trying
+
+00:31:13.110 --> 00:31:16.370
+to create a local variable. So where I will bring the data,
+
+00:31:16.450 --> 00:31:19.270
+I'll try to store it and then I'll try to use it. You will
+
+00:31:19.270 --> 00:31:23.570
+be able to understand it in like a two, three minutes in L L
+
+00:31:23.570 --> 00:31:28.950
+is what my data. So here for I in L, so technically what it
+
+00:31:28.950 --> 00:31:32.750
+will do. So it will go to your L, which is a list by the
+
+00:31:32.750 --> 00:31:37.070
+way, right? It will go here and then it will start from the
+
+00:31:37.070 --> 00:31:41.490
+beginning from the zero indexes. So it will go first of all
+
+00:31:41.490 --> 00:31:46.570
+to this index and then extract a first value. Okay. It will
+
+00:31:46.570 --> 00:31:50.690
+try to keep it inside I. So now I is equal to what one. Now
+
+00:31:50.690 --> 00:31:53.550
+it will go inside a block and I have written print a
+
+00:31:53.550 --> 00:31:57.290
+statement that print I okay. So it is printing I over here
+
+00:31:57.290 --> 00:32:02.550
+one as of now I is equal to one. Then it will go to the next
+
+00:32:02.550 --> 00:32:06.090
+one, right? And extract that. So this is how loop works
+
+00:32:06.090 --> 00:32:08.990
+means it will never stop unless and until it is not going to
+
+00:32:08.990 --> 00:32:13.590
+exhaust the entire data. So it will go to the next one. Then
+
+00:32:13.590 --> 00:32:17.670
+I will become what? So I will become two. Now go inside.
+
+00:32:17.710 --> 00:32:20.930
+Okay. Extract this print two. So printing two. Then it will
+
+00:32:20.930 --> 00:32:24.310
+go and extract this three, right is loop, right for it's
+
+00:32:24.310 --> 00:32:27.290
+working for a loop. So we'll go inside this one. Now I will
+
+00:32:27.290 --> 00:32:30.490
+become what I will become three and then printing three,
+
+00:32:30.590 --> 00:32:34.630
+then we'll go here and then I will become what for printing
+
+00:32:34.630 --> 00:32:38.090
+four night will go here. I will become what? So I will
+
+00:32:38.090 --> 00:32:41.430
+become five. It is printing five. Then after this, there is
+
+00:32:41.430 --> 00:32:43.790
+no element which is available. And now for loop is aware
+
+00:32:43.790 --> 00:32:46.130
+about this, right for loop knows that that what is the
+
+00:32:46.130 --> 00:32:49.850
+length of the total data. So it will stop itself
+
+00:32:49.850 --> 00:32:53.150
+automatically. It will try to stop itself. So this is how in
+
+00:32:53.150 --> 00:32:56.470
+a simplest possible manner loop works. So what so able
+
+00:32:56.470 --> 00:33:00.570
+iterable data we have, right? So on every such kind of a
+
+00:33:00.570 --> 00:33:04.390
+data, you will be able to apply a for loop. So we'll see,
+
+00:33:04.410 --> 00:33:06.490
+we'll see a lot of like an example with respect to a for
+
+00:33:06.490 --> 00:33:09.650
+loop by the way. So here we have a list. I'm able to extract
+
+00:33:09.650 --> 00:33:14.270
+it. Okay. That's cool. Now let's say I have a string. So S
+
+00:33:14.270 --> 00:33:20.730
+is equals to S U D H. Okay. S U D H. Now someone is asking
+
+00:33:20.730 --> 00:33:23.650
+me that, can you please try to extract, uh, all of these,
+
+00:33:23.670 --> 00:33:29.370
+like, you know, um, character from this variable S. So yes,
+
+00:33:29.470 --> 00:33:33.490
+I can do that. Yeah. So S U D H separately, I have to
+
+00:33:33.490 --> 00:33:36.650
+extract, we know that that a string is a iterable object. So
+
+00:33:36.650 --> 00:33:40.510
+what I can do, I can write for I in S basically. So one by
+
+00:33:40.510 --> 00:33:43.810
+one, it will go and then print I. So S U D H, it is able to
+
+00:33:43.810 --> 00:33:48.690
+extract it. Very, very simple once again. Fine guys, making
+
+00:33:48.690 --> 00:33:49.730
+sense so far.
+
+00:33:57.090 --> 00:34:01.190
+Okay. Fine. Now, so for loop is able to extract this data.
+
+00:34:01.310 --> 00:34:03.550
+Now let's say we have a tuples, we discussed about the
+
+00:34:03.550 --> 00:34:05.710
+tuples and what is the difference between tuples and list by
+
+00:34:05.710 --> 00:34:08.610
+the way guys, what is the difference in tuples and list?
+
+00:34:15.330 --> 00:34:18.810
+Yeah. Tuple is not changeable. Basically it's a immutable
+
+00:34:18.810 --> 00:34:23.730
+entity. Yes. Tuple is basically a, Ganesh is saying mutable,
+
+00:34:23.810 --> 00:34:27.490
+no tuple is immutable. List is mutable. You can mutate list,
+
+00:34:27.590 --> 00:34:30.070
+but not tuple. Yeah. Yeah. That's what we have discussed.
+
+00:34:30.390 --> 00:34:33.610
+Okay. Fine. So we have a tuples, right? And now someone is
+
+00:34:33.610 --> 00:34:36.790
+saying that to try to extract the data. Uh, so yeah, I'm, I
+
+00:34:36.790 --> 00:34:40.470
+will be able to do that. So for I in T and then print I, so
+
+00:34:40.470 --> 00:34:43.590
+I'm able to print basically I, uh, basically whatever data
+
+00:34:43.590 --> 00:34:50.090
+that we have inside T and here I is not a reserved keyword
+
+00:34:50.090 --> 00:34:54.190
+by the way, for an in is a reserved keyword, not I, I can
+
+00:34:54.190 --> 00:35:00.990
+try to give my own name. Uh, so. So for S U D H in T print S
+
+00:35:00.990 --> 00:35:04.370
+U D H, it will be able to do the same job. So we can keep my
+
+00:35:04.370 --> 00:35:06.330
+name, your name doesn't matter at all. It's completely fine.
+
+00:35:06.510 --> 00:35:09.790
+Yeah. I is a local variable. So whenever it is trying to
+
+00:35:09.790 --> 00:35:12.970
+extract the data, it has to hold it somewhere so that it can
+
+00:35:12.970 --> 00:35:16.430
+use it for print or for any other operations. So this is
+
+00:35:16.430 --> 00:35:20.010
+where it is trying to hold this like a data one by one,
+
+00:35:20.030 --> 00:35:24.890
+which it is trying to extract it. Okay. So for loop is fine.
+
+00:35:25.250 --> 00:35:29.290
+No. So now let me, you know, uh, show you a lot of examples
+
+00:35:29.290 --> 00:35:36.970
+with respect to a for loop. So there is a function called as
+
+00:35:36.970 --> 00:35:40.950
+a range function. Now what it does, so range basically
+
+00:35:40.950 --> 00:35:45.130
+produces a data. So when I say range 10, so it is going to
+
+00:35:45.130 --> 00:35:48.970
+produce a data starting from zero till 10. Let's say if I,
+
+00:35:48.990 --> 00:35:52.110
+if I have to show you that how data, how, what kind of a
+
+00:35:52.110 --> 00:35:55.090
+data it has produced. So maybe I can convert that into a
+
+00:35:55.090 --> 00:36:01.210
+list. So it is starting from zero, going till 10, excluding
+
+00:36:01.210 --> 00:36:05.030
+upper bound and we'll try to give you the data. So starting
+
+00:36:05.030 --> 00:36:09.610
+from zero, going till 10, excluding 10 and then rest of the
+
+00:36:09.610 --> 00:36:12.250
+data, it will try to print. So basically it's a generative
+
+00:36:12.250 --> 00:36:15.770
+function, by the way, it generates a data. And again, more
+
+00:36:15.770 --> 00:36:19.110
+or less, it works like a indexing operation, sorry, slicing
+
+00:36:19.110 --> 00:36:25.510
+operation. So let's say I'm saying list of range of. Start.
+
+00:36:25.710 --> 00:36:32.730
+From. Five. And then go till 15. It will produce a data. So
+
+00:36:32.730 --> 00:36:36.810
+start from five and then go till 15. So 15 is the upper
+
+00:36:36.810 --> 00:36:41.030
+bound. Minus one. It will try to produce the data. Okay. Now
+
+00:36:41.030 --> 00:36:44.090
+here you can even try to give a jump that start from five,
+
+00:36:44.170 --> 00:36:47.430
+go till 15 and then do not produce all the data, just
+
+00:36:47.430 --> 00:36:51.410
+produce every second data means five, then seven, then nine,
+
+00:36:51.410 --> 00:36:57.110
+then 11, then 13 and then close. Yeah. So five, seven. One,
+
+00:36:57.110 --> 00:37:00.410
+nine, 11, 13. So this is what it will be able to produce it.
+
+00:37:00.470 --> 00:37:05.510
+It will be able to give you the data. Okay, fine. Now, if
+
+00:37:05.510 --> 00:37:09.350
+someone is telling you that, can you please try to print
+
+00:37:09.350 --> 00:37:16.010
+basically, you know, a table of two. Yes. Table of two. So
+
+00:37:16.010 --> 00:37:22.230
+two, then four, then like, you know, uh, uh, like, uh, uh,
+
+00:37:22.230 --> 00:37:24.910
+two into three, two into four, two into five, two into six,
+
+00:37:24.930 --> 00:37:27.510
+two into seven, two into eight. And also. so on right so
+
+00:37:27.510 --> 00:37:30.050
+starting from like a 2 till 20 you have to basically print
+
+00:37:30.050 --> 00:37:34.370
+it so let's do a table printing yeah so what i can do i can
+
+00:37:34.370 --> 00:37:42.430
+you know try to say that okay so for i in a range of let's
+
+00:37:42.430 --> 00:37:42.570
+say
+
+00:37:47.050 --> 00:37:52.110
+1 till 11 yeah so now it is going to produce a data starting
+
+00:37:52.110 --> 00:37:56.810
+from 1 till 10 we know that now i have to print a table so
+
+00:37:56.810 --> 00:37:59.610
+how my table will look like by the way so my table should
+
+00:37:59.610 --> 00:38:03.810
+look like 2 into 2 so 2 into 1 first of all then 2 into 2
+
+00:38:03.810 --> 00:38:08.550
+then 2 into 3 then 2 into 4 then 2 into 5
+
+00:38:15.830 --> 00:38:19.390
+and so on right and so on so this is how my tables are
+
+00:38:19.390 --> 00:38:23.570
+supposed to be look like yeah so here we have 2 2 2 2
+
+00:38:23.570 --> 00:38:27.110
+everywhere and here we have 1 2 3 4 5 6 and so on we have to
+
+00:38:27.110 --> 00:38:29.310
+increment it and then we have to multiply and then we have
+
+00:38:29.310 --> 00:38:32.870
+to showcase the result in this particular place okay so with
+
+00:38:32.870 --> 00:38:35.210
+the help of this for loop let's try to achieve that
+
+00:38:35.210 --> 00:38:38.410
+particular part as well so here we can write a print so
+
+00:38:38.410 --> 00:38:42.790
+print what so if i'm printing only i what will happen 1 2 3
+
+00:38:42.790 --> 00:38:46.890
+4 5 6 7 and 9 10 i'm able to print because it is trying to
+
+00:38:46.890 --> 00:38:49.950
+extract data from here and then it is printing it but no i
+
+00:38:49.950 --> 00:38:53.810
+don't want in that manner basically what i want so i want
+
+00:38:53.810 --> 00:39:03.050
+basically uh to print 2 into i fine now let's see so 2 into
+
+00:39:03.050 --> 00:39:08.830
+i so 2 4 6 8 10 12 14 16 18 and 20 so this is our final
+
+00:39:08.830 --> 00:39:12.510
+outcome i'm able to print it but maybe i'm looking for this
+
+00:39:12.510 --> 00:39:15.810
+kind of a structure as well yeah i'm looking for this kind
+
+00:39:15.810 --> 00:39:19.830
+of a structure as well so fine i can try to do one thing so
+
+00:39:19.830 --> 00:39:22.990
+i can try to maybe write some sort of a formatting over here
+
+00:39:22.990 --> 00:39:30.390
+so first it should show you uh like i know 2 and then let's
+
+00:39:30.390 --> 00:39:36.030
+say it is supposed to show you uh into not in this manner
+
+00:39:42.120 --> 00:39:46.380
+yeah in this manner so it is supposed to showcase so yeah
+
+00:39:46.380 --> 00:39:50.140
+i'm able to print 2 into 1 2 right and then like 2 into 2 2
+
+00:39:50.140 --> 00:39:54.720
+into 3 4 this one this one so i'm able to print the entire
+
+00:39:54.720 --> 00:39:57.660
+table the way i was like looking for right just with the
+
+00:39:57.660 --> 00:40:01.840
+help of this print statement so this is again a range which
+
+00:40:01.840 --> 00:40:05.500
+you can try to use to produce some sort of a data set in a
+
+00:40:05.500 --> 00:40:08.600
+any order you want with any kind of a jump size or anything
+
+00:40:08.600 --> 00:40:11.280
+but yeah i'm trying to teach you for loop so for loop is
+
+00:40:11.280 --> 00:40:14.320
+going to be simple means that that if entity is iterable it
+
+00:40:14.320 --> 00:40:17.100
+can go inside it and then it will be able to bring all the
+
+00:40:17.100 --> 00:40:22.220
+given data set okay now coming to again next example so
+
+00:40:22.220 --> 00:40:25.340
+let's say i have a list now if someone is telling you that
+
+00:40:25.340 --> 00:40:29.060
+you know try to create another list yeah try to create
+
+00:40:29.060 --> 00:40:33.620
+another list and inside that particular list you have to
+
+00:40:33.620 --> 00:40:39.520
+keep a square of every element means one of a square two of
+
+00:40:39.520 --> 00:40:41.280
+a square three of a square four of a square five of a square
+
+00:40:41.280 --> 00:40:41.440
+and then you have to keep a square of every element means
+
+00:40:41.440 --> 00:40:45.860
+five of a square right so that list should have 1 4 9 16 and
+
+00:40:45.860 --> 00:40:50.300
+25 that is something which i would like to like a do it okay
+
+00:40:50.300 --> 00:40:53.060
+let's do it so for i in i
+
+00:40:57.600 --> 00:41:04.220
+in l right and basically i have to create another list as
+
+00:41:04.220 --> 00:41:07.120
+simple as that so i have to return another list at the end
+
+00:41:07.120 --> 00:41:10.260
+of the day so what i will do i'll try to create l1 as a
+
+00:41:10.260 --> 00:41:13.580
+blank list let's say i've created l1 as a blank list and
+
+00:41:13.580 --> 00:41:20.300
+this for i in l do one thing l1 dot append this blank list
+
+00:41:20.300 --> 00:41:23.840
+dot append append what so whatever data you are getting
+
+00:41:23.840 --> 00:41:29.420
+square it and append it simple execute and then here is my
+
+00:41:29.420 --> 00:41:36.140
+l1 so here 1 4 9 16 25 square of this one so any operation i
+
+00:41:36.140 --> 00:41:40.980
+would like to perform on a extracted data i can perform very
+
+00:41:40.980 --> 00:41:44.540
+very simple yeah very very simple i will be able to perform
+
+00:41:44.540 --> 00:41:51.990
+it let's say i have a list i have a list and inside my list
+
+00:41:51.990 --> 00:41:53.590
+so i have like a lot of like a numbers
+
+00:41:57.780 --> 00:42:02.180
+which is available now if someone is asking me that you know
+
+00:42:02.180 --> 00:42:06.960
+try to go through this list and give me one list a final
+
+00:42:06.960 --> 00:42:13.360
+list right so where all the element must be divisible by two
+
+00:42:13.360 --> 00:42:16.800
+so i'm looking for all the even number i'm looking for all
+
+00:42:16.800 --> 00:42:20.120
+the even number out of this particular list yeah so that is
+
+00:42:20.120 --> 00:42:23.020
+my requirement means i have to write a condition to filter
+
+00:42:23.020 --> 00:42:27.920
+out a data out of this particular list okay i can do that as
+
+00:42:27.920 --> 00:42:33.360
+well so let's say i'm creating a blank list l1 and here so
+
+00:42:33.360 --> 00:42:37.780
+for i in l right so that you know i will keep on iterating
+
+00:42:37.780 --> 00:42:40.720
+over to it and then i can try to write a condition inside
+
+00:42:40.720 --> 00:42:43.540
+that recently we have learned condition right if condition
+
+00:42:43.540 --> 00:42:47.280
+so we can write a condition over here that if i the element
+
+00:42:47.280 --> 00:42:50.540
+that we are extracting is divisible by zero means divisible
+
+00:42:50.540 --> 00:42:53.880
+by two is equal equal to zero if it satisfies this condition
+
+00:42:53.880 --> 00:43:00.560
+do one thing in this blank list append otherwise do not
+
+00:43:00.560 --> 00:43:03.620
+append so if we know that that if this condition will be
+
+00:43:03.620 --> 00:43:06.960
+true then only it will perform this job otherwise it will
+
+00:43:06.960 --> 00:43:11.720
+not perform that job right so now if you will see your l1 we
+
+00:43:11.720 --> 00:43:16.360
+have all the even number odd number is been discarded yeah
+
+00:43:16.360 --> 00:43:20.120
+odd number has been discarded so those numbers which is not
+
+00:43:20.120 --> 00:43:23.980
+divisible by two it's been discarded automatically making
+
+00:43:23.980 --> 00:43:32.500
+sense guys to all of us yes making sense so basically if a
+
+00:43:32.500 --> 00:43:37.310
+statement inside a for loop we are trying to use it easy to
+
+00:43:37.310 --> 00:43:40.850
+understand so loop is nothing but whatever element we have
+
+00:43:40.850 --> 00:43:44.210
+as a iterable element so we can try to do it we can try to
+
+00:43:44.210 --> 00:43:48.090
+loop it and yeah so we can do whatsoever that we want yes
+
+00:43:53.180 --> 00:43:56.700
+we can also list even and odd both the list yeah you can
+
+00:43:56.700 --> 00:43:59.600
+even do that so let's say i'm trying to create maybe a l2
+
+00:43:59.600 --> 00:44:03.360
+over here right and inside l2 i will be storing our odd
+
+00:44:03.360 --> 00:44:06.880
+numbers inside l1 i will be storing this so this is a if
+
+00:44:06.880 --> 00:44:10.720
+condition i have written for this like filtering out odd
+
+00:44:10.720 --> 00:44:15.380
+number i will try to write else and append into l2 so i will
+
+00:44:15.380 --> 00:44:20.500
+be having now l1 as well as my l2 and inside l2 whatsoever
+
+00:44:20.500 --> 00:44:24.580
+number is not even it is available inside l2 i can do that
+
+00:44:24.580 --> 00:44:28.700
+as well so i mean depends upon my thought process right so
+
+00:44:28.700 --> 00:44:29.420
+whatsoever i have to do that so i will try to write l1 as
+
+00:44:29.420 --> 00:44:31.440
+well as my l2 i have to write it i can i can simply write it
+
+00:44:31.440 --> 00:44:37.960
+yeah okay so if else kind of a condition inside a for loop
+
+00:44:37.960 --> 00:44:42.180
+we are able to understand it now let's try to understand uh
+
+00:44:42.180 --> 00:44:45.220
+there is something called as break statement yeah so let's
+
+00:44:45.220 --> 00:44:49.480
+try to understand that particular part so let's say uh here
+
+00:44:53.860 --> 00:45:00.560
+for i in l so i'm able to print whatsoever element we have
+
+00:45:00.560 --> 00:45:04.960
+inside l right whatsoever in element inside the l i'm able
+
+00:45:04.960 --> 00:45:10.400
+to print it but let's say there is a situation so where i
+
+00:45:10.400 --> 00:45:15.540
+don't want to do anything right if i'm able to encounter a
+
+00:45:15.540 --> 00:45:19.660
+certain situation for example so for loop is going through
+
+00:45:19.660 --> 00:45:23.820
+the entire list this entire list for loop is going through
+
+00:45:23.820 --> 00:45:27.640
+entire list one by one and it will stop itself once it will
+
+00:45:27.640 --> 00:45:29.420
+reach here or it will end up here and it will stop itself
+
+00:45:29.420 --> 00:45:30.080
+once it will reach here and it will end up exhausting all
+
+00:45:30.080 --> 00:45:32.900
+the data as per the condition so then only it will try to
+
+00:45:32.900 --> 00:45:36.480
+stop itself otherwise it will explore now my situation is
+
+00:45:36.480 --> 00:45:40.740
+that that uh i don't want to you know go through this entire
+
+00:45:40.740 --> 00:45:48.520
+list if i'm going to encounter eight yeah if i have explored
+
+00:45:48.520 --> 00:45:52.900
+eight then it should not explore anything further it should
+
+00:45:52.900 --> 00:45:57.740
+terminate itself this is what i want so to do that there is
+
+00:45:57.740 --> 00:46:00.960
+a keyword called as a break keyword you will be able to find
+
+00:46:00.960 --> 00:46:05.980
+out so i can write a condition over here that that if i is
+
+00:46:05.980 --> 00:46:10.960
+equal equal to let's say eight in that case do one thing
+
+00:46:10.960 --> 00:46:16.820
+apply a break simple apply a break so you will be able to
+
+00:46:16.820 --> 00:46:21.080
+find out that the time it has encountered eight right the
+
+00:46:21.080 --> 00:46:25.940
+time it has encountered eight it has broken the entire loop
+
+00:46:25.940 --> 00:46:30.600
+based on this condition so if i is equal equal to eight so
+
+00:46:30.600 --> 00:46:34.660
+break it and then i'm trying to print i afterwards yeah i'm
+
+00:46:34.660 --> 00:46:37.300
+just trying to print i afterwards maybe i can try to print i
+
+00:46:37.300 --> 00:46:43.730
+before so that you will be able to see eight as well yeah so
+
+00:46:43.730 --> 00:46:47.270
+once it will encounter eight now it is stopping itself very
+
+00:46:47.270 --> 00:46:49.690
+very simple right so this is the meaning of a break break
+
+00:46:49.690 --> 00:46:54.350
+means break the entire loop very very simple yeah so this is
+
+00:46:54.350 --> 00:46:57.890
+the condition of the break for example uh there is a name
+
+00:46:57.890 --> 00:47:01.750
+let's say i have s u d h n and i have a name in s h u right
+
+00:47:01.750 --> 00:47:06.110
+so now here i just wanted to like you know break the loop
+
+00:47:06.110 --> 00:47:11.590
+when it is going to encounter a right when it is going to
+
+00:47:11.590 --> 00:47:16.430
+encounter a so i can write a condition for i in s basically
+
+00:47:16.430 --> 00:47:21.530
+if i is equal equal to a break
+
+00:47:23.960 --> 00:47:30.460
+it fine break it so now when it has encountered a it has
+
+00:47:30.460 --> 00:47:34.740
+broken the entire loop it is printing s u d h only so this
+
+00:47:34.740 --> 00:47:39.100
+is the meaning of a break by the way now like break you will
+
+00:47:39.100 --> 00:47:42.560
+be able to find out something called as continue just oppose
+
+00:47:42.560 --> 00:47:45.420
+it to a break you can say right and this break keyword will
+
+00:47:45.420 --> 00:47:50.100
+be using it like in multiple places by the way so here let's
+
+00:47:50.100 --> 00:47:56.520
+say i have a situation uh maybe i have like this list itself
+
+00:47:56.520 --> 00:48:01.120
+yeah i'll be considering this list itself so for i in list
+
+00:48:02.620 --> 00:48:08.320
+and here so i can write a condition that if i is equal equal
+
+00:48:08.320 --> 00:48:12.940
+to eight continue and then try to do some sort of a print
+
+00:48:12.940 --> 00:48:19.500
+over here print i so now you will be able to find out let me
+
+00:48:19.500 --> 00:48:26.120
+print here to show you the response so you will be able to
+
+00:48:26.120 --> 00:48:30.800
+see that that when there is uh you know i is equals to eight
+
+00:48:30.800 --> 00:48:34.860
+right when i is equals to eight when this is going to be
+
+00:48:34.860 --> 00:48:40.380
+true it will go inside a continue right and inside this
+
+00:48:40.380 --> 00:48:46.000
+entire list eight is missing after seven it was supposed to
+
+00:48:46.000 --> 00:48:49.460
+print eight but eight is missing over here a reason is very
+
+00:48:49.460 --> 00:48:52.680
+very simple because of this continue now how continue is
+
+00:48:52.680 --> 00:48:56.580
+behaving internally so whenever there will be i is equal to
+
+00:48:56.580 --> 00:48:59.360
+eight this situation is going to be true it will execute
+
+00:48:59.360 --> 00:49:02.480
+whatsoever i have written inside the block so basically i
+
+00:49:02.480 --> 00:49:05.500
+have written continue continue simply means that that do not
+
+00:49:05.500 --> 00:49:08.100
+execute let's say i have written 10 more line of a code here
+
+00:49:08.100 --> 00:49:11.580
+for example as of now print is written right so 10 more line
+
+00:49:11.580 --> 00:49:15.440
+of a code over here it will not execute all of this code
+
+00:49:15.440 --> 00:49:19.780
+what it will do whenever it will encounter this continue it
+
+00:49:19.780 --> 00:49:24.260
+will simply pass a control to a for loop that okay execute
+
+00:49:24.260 --> 00:49:28.380
+next very very simple this is how continue works means
+
+00:49:28.380 --> 00:49:32.000
+whenever i will encounter continue i will not execute
+
+00:49:32.000 --> 00:49:36.640
+anything which is after continue that is what it means right
+
+00:49:36.640 --> 00:49:40.080
+i am going to transfer a whole control to a loop and then
+
+00:49:40.080 --> 00:49:43.540
+like loop will try to run it in its own way so this is where
+
+00:49:43.540 --> 00:49:47.120
+guys this break and continue keyword comes into picture you
+
+00:49:47.120 --> 00:49:49.900
+will be using it multiple times while solving a real
+
+00:49:49.900 --> 00:49:57.480
+problems okay so this is this now so
+
+00:50:01.510 --> 00:50:03.990
+we know that that with list with tuple with a string for
+
+00:50:03.990 --> 00:50:09.130
+loop is going to work let's say i have a dictionary right we
+
+00:50:09.130 --> 00:50:11.570
+all know that that dictionary you know works with respect to
+
+00:50:11.570 --> 00:50:14.330
+key value key value pair we have created a dictionary a lot
+
+00:50:14.330 --> 00:50:19.470
+of dictionary we have created here if i will go so i will be
+
+00:50:19.470 --> 00:50:23.010
+able to see like a lot of dictionaries that we have already
+
+00:50:23.010 --> 00:50:23.470
+created
+
+00:50:32.430 --> 00:50:35.290
+okay so this is the dictionary that we have so
+
+00:50:37.880 --> 00:50:41.680
+using it from the like a previous class itself so this is
+
+00:50:41.680 --> 00:50:46.760
+the dictionary now basically i have to like you know a work
+
+00:50:46.760 --> 00:50:51.380
+on a dictionary i have to print all the keys one by one one
+
+00:50:51.380 --> 00:50:52.400
+by one one by one one one by one one by one one by one all
+
+00:50:52.400 --> 00:50:56.220
+the key with mobile mail subject marks courses address all
+
+00:50:56.220 --> 00:50:58.640
+of these things it is supposed to print so we all know that
+
+00:50:58.640 --> 00:51:03.480
+that d dot key is going to give me all the list of keys
+
+00:51:03.480 --> 00:51:06.420
+right dictionary list of keys it is going to give me so what
+
+00:51:06.420 --> 00:51:12.560
+i can do for i in d dot keys right and print keys so wouldsh
+
+00:51:12.560 --> 00:51:15.040
+haber enabled to print all the keys one by one by one and
+
+00:51:15.040 --> 00:51:19.300
+it's very simple i am able to access have to print all the
+
+00:51:19.300 --> 00:51:24.220
+values not just a key not an issue at all again for i in d
+
+00:51:24.220 --> 00:51:28.940
+dot values there is a function printed so now i'm able to
+
+00:51:28.940 --> 00:51:31.600
+print this value this value this value this value this value
+
+00:51:31.600 --> 00:51:36.380
+this value one by one let's say i would like to print a pair
+
+00:51:36.380 --> 00:51:40.380
+key value pair one by one one by one so not an issue for i
+
+00:51:40.380 --> 00:51:48.240
+in d dot items and i'm able to print basically key value key
+
+00:51:48.240 --> 00:51:53.640
+value key value key value key value key value yeah uh okay
+
+00:51:53.640 --> 00:51:59.620
+now so let's say someone is giving me a condition right
+
+00:51:59.620 --> 00:52:03.020
+someone is giving me a condition that there is a dictionary
+
+00:52:03.020 --> 00:52:10.260
+there is this dictionary i have now just do one thing so go
+
+00:52:10.260 --> 00:52:12.580
+to uh you know this
+
+00:52:16.070 --> 00:52:21.530
+courses and then try to print these two courses one by one
+
+00:52:21.530 --> 00:52:25.990
+individually try to print it okay fine try to extract all of
+
+00:52:25.990 --> 00:52:29.830
+these two courses individually not an issue i can i can do
+
+00:52:29.830 --> 00:52:33.130
+that right so there is a key called as courses you have to
+
+00:52:33.130 --> 00:52:36.270
+go there first and then you have to basically extract the
+
+00:52:36.270 --> 00:52:40.030
+courses okay let's do it so first of all let's go to a
+
+00:52:40.030 --> 00:52:44.550
+particular key course so i can write even i can do this in a
+
+00:52:44.550 --> 00:52:47.630
+multiple manner but yeah let's do it with a for loop so for
+
+00:52:47.630 --> 00:52:52.750
+i in d dot keys fine so now it will be able to extract all
+
+00:52:52.750 --> 00:52:56.490
+the keys and i have to extract the courses so i can write a
+
+00:52:56.490 --> 00:53:03.850
+condition over here that if i is equal equal to courses
+
+00:53:03.850 --> 00:53:08.950
+right then do what what what i'm what i'm supposed to do so
+
+00:53:08.950 --> 00:53:11.670
+then maybe try to print
+
+00:53:14.420 --> 00:53:16.240
+print what so
+
+00:53:20.400 --> 00:53:23.580
+then try to maybe uh print print
+
+00:53:25.730 --> 00:53:34.510
+print what so d of d of i so now it is going to print d of i
+
+00:53:34.510 --> 00:53:37.590
+so this particular data it is going to print d of i means d
+
+00:53:37.590 --> 00:53:40.770
+of courses right i means as of now courses inside this
+
+00:53:40.770 --> 00:53:46.270
+condition d of i now once this is done so i want individual
+
+00:53:46.270 --> 00:53:51.270
+courses i want this separately and i want this separately so
+
+00:53:51.270 --> 00:53:56.330
+now what i can do i can write a loop over here as we all
+
+00:53:56.330 --> 00:53:59.050
+know that that it has printed so i can try to write a loop
+
+00:53:59.050 --> 00:54:04.870
+over here that for i in d of i print i so now i am able to
+
+00:54:04.870 --> 00:54:09.730
+let me remove this print just to give you a clarity yeah so
+
+00:54:09.730 --> 00:54:13.250
+now i am able to print this score separately and this course
+
+00:54:13.250 --> 00:54:16.190
+separately very very simple so i am going to a key first
+
+00:54:16.190 --> 00:54:20.910
+then out of that so i am trying to extract this particular
+
+00:54:20.910 --> 00:54:25.010
+data right and then i am trying to loop it again so as you
+
+00:54:25.010 --> 00:54:29.030
+can see over here i am using a nested loop as well as i am
+
+00:54:29.030 --> 00:54:32.250
+trying to use our conditions over here so condition loop
+
+00:54:32.250 --> 00:54:34.810
+inside a loop all these things i am able to use it in a
+
+00:54:34.810 --> 00:54:38.250
+single places right and it's very logical right you don't
+
+00:54:38.250 --> 00:54:40.330
+have to think in a programming manner whenever you are
+
+00:54:40.330 --> 00:54:42.670
+trying to like you know write this kind of a code never
+
+00:54:42.670 --> 00:54:45.130
+think in a programming manner so just this is a dictionary
+
+00:54:45.130 --> 00:54:48.290
+first of all where i will go first of all i list the entire
+
+00:54:48.290 --> 00:54:52.370
+keys then i'll go here after going here it will give me this
+
+00:54:52.370 --> 00:54:56.130
+one now i'll try to iterate this one this is how you should
+
+00:54:56.130 --> 00:55:00.090
+think right approach wise and then you will be able to
+
+00:55:00.090 --> 00:55:06.090
+basically get the entire data set very very simple now so
+
+00:55:06.090 --> 00:55:14.530
+this is this making sense guys to all of us yes continue
+
+00:55:14.530 --> 00:55:22.280
+break loop inside loop if with loop all these things yeah so
+
+00:55:22.280 --> 00:55:24.800
+likewise depends upon you know like requirements you can
+
+00:55:24.800 --> 00:55:27.500
+keep on writing all these things now
+
+00:55:33.580 --> 00:55:36.520
+let's try to understand another kind of a loop called as
+
+00:55:36.520 --> 00:55:39.380
+while loop because i will be using again for loop and all
+
+00:55:39.380 --> 00:55:41.940
+those things many times many times means literally many
+
+00:55:41.940 --> 00:55:46.160
+times almost in every classes so now let's try to understand
+
+00:55:46.160 --> 00:55:50.280
+basically a while while
+
+00:55:55.660 --> 00:56:00.300
+loop so for loop we are able to understand now let's see so
+
+00:56:00.300 --> 00:56:04.100
+how while loop is like you know different so here let's say
+
+00:56:04.100 --> 00:56:09.240
+uh i have some values i is equals to uh five let's say okay
+
+00:56:09.240 --> 00:56:10.240
+so let's say i is equal to five let's say i is equal to five
+
+00:56:10.240 --> 00:56:16.280
+let's say okay or maybe like let's say zero okay now just
+
+00:56:16.280 --> 00:56:19.360
+like a e-fails condition so while loop works on the
+
+00:56:19.360 --> 00:56:23.700
+condition so it will keep on getting into a loop unless and
+
+00:56:23.700 --> 00:56:26.800
+until it is not going to falsify the condition or condition
+
+00:56:26.800 --> 00:56:30.720
+is not going to be false for example so here i is equals to
+
+00:56:30.720 --> 00:56:36.000
+zero now i'm going to write while i is lesser than this do
+
+00:56:36.000 --> 00:56:39.700
+this what is the meaning of this one let's try to understand
+
+00:56:39.700 --> 00:56:40.240
+this while i is less than this do this what is the meaning
+
+00:56:40.240 --> 00:56:41.840
+of this one let's try to understand this one by one so first
+
+00:56:41.840 --> 00:56:45.580
+of all i is equal to zero what while does it's basically a
+
+00:56:45.580 --> 00:56:50.420
+loop it works on this condition so unless and until this
+
+00:56:50.420 --> 00:56:54.620
+condition is not going to be false right this condition is
+
+00:56:54.620 --> 00:56:58.460
+not going to be false it will keep on executing whatsoever
+
+00:56:58.460 --> 00:57:03.660
+you have written inside the block as simple as that right so
+
+00:57:03.660 --> 00:57:07.320
+once this condition will become false it will not get into
+
+00:57:07.320 --> 00:57:10.860
+this execution or whatever whatever logic that you are going
+
+00:57:10.860 --> 00:57:15.100
+to write you can think in this manner yeah so here what
+
+00:57:15.100 --> 00:57:18.760
+system is trying to do so system is technically trying to
+
+00:57:18.760 --> 00:57:20.280
+check that
+
+00:57:22.100 --> 00:57:27.000
+while i is lesser than 5 what is the value of i 0 so 0
+
+00:57:27.000 --> 00:57:33.800
+lesser than 5 what it is true okay i'll go inside a body of
+
+00:57:33.800 --> 00:57:38.400
+while and print i so okay fine print 0 then what we are
+
+00:57:38.400 --> 00:57:42.900
+doing i is equal to i plus 1 so i is equal to i plus 1 so
+
+00:57:42.900 --> 00:57:46.220
+what is the current value of i 0 0 plus 1 is equal to 1 so
+
+00:57:46.220 --> 00:57:49.940
+next value of i is equal to 1 so again it will go to this
+
+00:57:49.940 --> 00:57:54.580
+one while and check the condition so 1 is lesser than 5
+
+00:57:54.580 --> 00:57:59.480
+again true yeah this condition is true so again print 1 and
+
+00:57:59.480 --> 00:58:03.760
+then incremented then again it will go back so 2 is lesser
+
+00:58:03.760 --> 00:58:08.860
+than 5 yes 2 is lesser than 5 so basically it's true so
+
+00:58:08.860 --> 00:58:11.700
+again execute this one and increment this one so now 2 will
+
+00:58:11.700 --> 00:58:18.120
+become 3 now it will go here 3 is lesser than 5 yes true 3
+
+00:58:18.120 --> 00:58:21.240
+is lesser than 5 then again print like a 3 and then
+
+00:58:21.240 --> 00:58:24.920
+incremented then again it will go here and then it will try
+
+00:58:24.920 --> 00:58:29.260
+to check 4 is lesser than 5 yes true so again go and execute
+
+00:58:29.260 --> 00:58:34.700
+it so again 5 right 5 will come so 5 is lesser than equal to
+
+00:58:34.700 --> 00:58:39.500
+5 no it's false right it's false so now break the loop and
+
+00:58:39.500 --> 00:58:44.340
+do not print 5 over here so this is how while loop is going
+
+00:58:44.340 --> 00:58:48.800
+to work so first it checks the condition if condition is
+
+00:58:48.800 --> 00:58:52.580
+true then go inside the body and execute it if condition is
+
+00:58:52.580 --> 00:58:56.160
+false then it is not going to do anything i can write
+
+00:58:56.160 --> 00:59:00.620
+directly over here so while true true true means always true
+
+00:59:00.620 --> 00:59:04.560
+yeah true means always true by the way and then if i'm
+
+00:59:04.560 --> 00:59:08.060
+writing print so what will happen guys to this one if i'm
+
+00:59:08.060 --> 00:59:12.900
+going to execute it while true i've written what will happen
+
+00:59:12.900 --> 00:59:14.400
+next yeah
+
+00:59:26.210 --> 00:59:30.110
+it will keep on writing right infinite loop it will go into
+
+00:59:30.110 --> 00:59:35.450
+the infinite loop by the way now i'll write break over here
+
+00:59:35.450 --> 00:59:37.070
+now what will happen i
+
+00:59:41.040 --> 00:59:43.260
+think now this time it will not go into an infinite loop
+
+00:59:43.260 --> 00:59:48.800
+only one time it will print and break it simple i think we
+
+00:59:48.800 --> 00:59:51.620
+have already discussed break so break is going to break the
+
+00:59:51.900 --> 00:59:56.460
+things as simple as that so yeah this is how you know like a
+
+00:59:56.460 --> 00:59:59.260
+while loop works so it checks the condition first and then
+
+00:59:59.260 --> 01:00:03.100
+uh it is you know go for the next one similarly you can try
+
+01:00:03.100 --> 01:00:07.400
+to use like you know a break and continue just the way we
+
+01:00:07.400 --> 01:00:10.160
+were using it inside a follow break means break immediately
+
+01:00:10.160 --> 01:00:14.000
+continue means skip whatsoever is there after this like
+
+01:00:14.000 --> 01:00:17.440
+after like a continue block and then just proceed with the
+
+01:00:17.440 --> 01:00:21.100
+looping yes can
+
+01:00:24.040 --> 01:00:28.180
+you give any real-time use case of infinite loop yeah i can
+
+01:00:28.180 --> 01:00:31.880
+give you a lot of real-time use case of infinite loop for
+
+01:00:31.880 --> 01:00:37.480
+example so we like you know think about like you know having
+
+01:00:37.480 --> 01:00:42.180
+a disciplined we all keep on taking a new resolution right
+
+01:00:42.180 --> 01:00:45.720
+but yeah we never fulfill it we keep on thinking that okay
+
+01:00:45.720 --> 01:00:48.480
+fine so i'll sit study and then i'll do a project we never
+
+01:00:48.480 --> 01:00:52.880
+do that we you know think that that okay fine so i'll try to
+
+01:00:52.880 --> 01:00:55.360
+acquire this skill i will try to complete this class then
+
+01:00:55.360 --> 01:00:58.200
+i'll build a project and then i will be able to get into a
+
+01:00:58.200 --> 01:01:01.380
+job we never does that very few people does that so many
+
+01:01:01.380 --> 01:01:03.780
+people you know works into an infinite loop so all these are
+
+01:01:03.780 --> 01:01:04.540
+real-time example
+
+01:01:08.720 --> 01:01:09.120
+yep
+
+01:01:14.850 --> 01:01:20.200
+of infinite loop we think that that i will not use my mobile
+
+01:01:20.200 --> 01:01:23.500
+for five hour or seven hour a day but still we use it we
+
+01:01:23.500 --> 01:01:25.680
+think that from tomorrow onwards i will try to you know
+
+01:01:25.680 --> 01:01:30.300
+reduce a social media or like you know like swipe left right
+
+01:01:30.300 --> 01:01:34.820
+kind of things but we yeah we never does that so
+
+01:01:36.830 --> 01:01:40.130
+most of us honestly speaking i think you will agree with
+
+01:01:40.130 --> 01:01:43.050
+that right guys yeah everyone i mean like see it's normal
+
+01:01:43.050 --> 01:01:48.050
+it's a human thing so yeah you can say yes so most of us are
+
+01:01:48.050 --> 01:01:52.050
+in these like a lot of infinite loops and somewhere because
+
+01:01:52.050 --> 01:01:55.050
+of these infinite loops we are not able to progress in our
+
+01:01:55.050 --> 01:02:02.350
+life so i think you should use this one break
+
+01:02:07.440 --> 01:02:10.040
+yeah social media to your own yeah it's a good choice at
+
+01:02:10.040 --> 01:02:12.260
+least you will at least learn something there are so many
+
+01:02:12.260 --> 01:02:16.240
+batches so many mentors like uh yeah so many classes at
+
+01:02:16.240 --> 01:02:18.820
+least if you are spending some time in a class even if your
+
+01:02:18.820 --> 01:02:22.420
+focus is not 100 because i know uh everyone's focus is not
+
+01:02:22.420 --> 01:02:26.200
+100 uh we as a teacher we are already aware about it but
+
+01:02:26.200 --> 01:02:30.180
+even if your focus will be 10 20 you will learn and then you
+
+01:02:30.180 --> 01:02:33.080
+will like you know go so at least you will be having some
+
+01:02:33.080 --> 01:02:35.660
+sense of satisfaction that okay i have learned something and
+
+01:02:35.660 --> 01:02:35.700
+i will be able to do it and i will be able to do something
+
+01:02:35.700 --> 01:02:38.880
+today i have you know implemented something today and i
+
+01:02:38.880 --> 01:02:42.620
+think yeah that's a sign of an improvement understood
+
+01:02:47.870 --> 01:02:51.670
+completely thank you okay fine
+
+01:02:53.680 --> 01:02:54.680
+uh
+
+01:03:03.930 --> 01:03:07.970
+so while loop is fine uh simple it take the condition and
+
+01:03:07.970 --> 01:03:10.890
+then if condition is true it will just uh go into it and
+
+01:03:10.890 --> 01:03:14.290
+then it will try to execute something yeah this is where
+
+01:03:14.290 --> 01:03:17.510
+while loop comes into picture now i can give you like
+
+01:03:17.510 --> 01:03:20.250
+hundreds of example guys but yeah as we are living into the
+
+01:03:20.250 --> 01:03:22.930
+age of ai and no one is going to write a code so i just want
+
+01:03:22.930 --> 01:03:26.150
+you to you know familiar with a lot of things uh but yeah
+
+01:03:26.150 --> 01:03:29.050
+not to like manually go and write i'll give you a couple of
+
+01:03:29.050 --> 01:03:31.870
+questions at the homework if you'll check my previous class
+
+01:03:31.870 --> 01:03:33.970
+i used to discuss you know hundreds of example for while
+
+01:03:33.970 --> 01:03:36.970
+loop hundreds of example for for e-fails all those lectures
+
+01:03:36.970 --> 01:03:39.410
+are already available on iran platform as well and others
+
+01:03:39.410 --> 01:03:43.710
+some other platforms but yeah i think now with practice you
+
+01:03:43.710 --> 01:03:46.950
+can do it if you are able to understand the sense of it now
+
+01:03:46.950 --> 01:03:57.110
+let's say functions dot i p y and b yeah so here let's talk
+
+01:03:57.110 --> 01:04:01.490
+about uh functions yeah so we all have seen that that there
+
+01:04:01.490 --> 01:04:04.190
+are so many inbuilt function we have discussed right lot of
+
+01:04:04.190 --> 01:04:06.390
+inbuilt function with the list with respect to list with
+
+01:04:06.390 --> 01:04:09.590
+respect to tuples with respect to you know uh like other
+
+01:04:09.590 --> 01:04:12.670
+functions length function type function range function print
+
+01:04:12.670 --> 01:04:15.930
+function these are the function inbuilt functions right that
+
+01:04:15.930 --> 01:04:20.470
+we have seen already now how to write our own function and
+
+01:04:20.470 --> 01:04:24.090
+what is the purpose of writing our own function so purpose
+
+01:04:24.090 --> 01:04:26.870
+of writing our own function is very simple if i have a
+
+01:04:26.870 --> 01:04:29.590
+custom business logic i have to go and i have to write my
+
+01:04:29.590 --> 01:04:34.610
+own function very very simple and second case is that that
+
+01:04:34.610 --> 01:04:40.850
+it increases a reusability of a code right so write once use
+
+01:04:40.850 --> 01:04:44.030
+as many times as you want and this is what you all will be
+
+01:04:44.030 --> 01:04:47.670
+doing it and as a part of modular coding modular programming
+
+01:04:47.670 --> 01:04:51.510
+so this is a very first baby step right if you have to write
+
+01:04:51.510 --> 01:04:55.170
+your own function then classes right a lot of things that
+
+01:04:55.170 --> 01:04:57.190
+will come into picture but first of all let's try to
+
+01:04:57.190 --> 01:05:00.870
+understand that how we can try to create our own function so
+
+01:05:00.870 --> 01:05:03.630
+there is a keyword called as def you will be able to find
+
+01:05:03.630 --> 01:05:07.370
+out mcp is also based on the function yeah technically uh in
+
+01:05:07.370 --> 01:05:10.570
+terms of gen ai it's called as tool calling and those tools
+
+01:05:10.570 --> 01:05:14.410
+are nothing but a function means invoke a database this that
+
+01:05:14.410 --> 01:05:16.790
+so technically it's a function please
+
+01:05:19.060 --> 01:05:22.200
+sir cloud code don't worry i'll discuss everything step by
+
+01:05:22.200 --> 01:05:23.940
+step yes what
+
+01:05:26.340 --> 01:05:29.700
+is mcp mcp model context protocol wait for those lectures
+
+01:05:29.700 --> 01:05:32.320
+otherwise there is another class gen ai classes where i have
+
+01:05:32.320 --> 01:05:35.940
+already like discussed i think there is a dedicated lectures
+
+01:05:35.940 --> 01:05:39.340
+uh i think self-paced course i have recorded when mcp was
+
+01:05:39.340 --> 01:05:42.600
+very new so that is also available and apart from that i
+
+01:05:42.600 --> 01:05:47.100
+have already discussed mcp 10 20 times in all my classes so
+
+01:05:48.610 --> 01:05:52.450
+here uh when we have to write our own function so there is a
+
+01:05:52.450 --> 01:05:55.790
+keyword called as def definition we start with that and then
+
+01:05:55.790 --> 01:05:58.210
+we try to write a name of the function let's say i'm writing
+
+01:05:58.210 --> 01:05:58.470
+function name of the function let's say i'm writing test
+
+01:05:58.470 --> 01:06:02.410
+over here bracket bracket nomenclature and then this is our
+
+01:06:02.410 --> 01:06:05.250
+test function so this is how you can write your own function
+
+01:06:05.250 --> 01:06:07.710
+by the way yeah this is how you can write your own function
+
+01:06:07.710 --> 01:06:11.950
+so simple def is a predefined keyword test my own function
+
+01:06:11.950 --> 01:06:14.810
+name you can give your own function name right bracket
+
+01:06:14.810 --> 01:06:17.930
+bracket colon and then print over here and this is going to
+
+01:06:17.930 --> 01:06:21.630
+my function now whenever i have to print this i don't have
+
+01:06:21.630 --> 01:06:23.650
+to write this print again and again what i will do i'll
+
+01:06:23.650 --> 01:06:27.650
+simply call test and then this is called as calling right so
+
+01:06:27.650 --> 01:06:30.390
+this is a function definition or defining the function and
+
+01:06:30.390 --> 01:06:33.610
+this is a calling so whenever i will call test right
+
+01:06:33.610 --> 01:06:37.750
+whenever i'll call test anywhere i will be able to execute
+
+01:06:37.750 --> 01:06:41.430
+that yeah i will be able to basically execute that one so
+
+01:06:41.430 --> 01:06:44.510
+this is where this concept of the function comes into
+
+01:06:44.510 --> 01:06:47.330
+picture which increases our usability so function can be
+
+01:06:47.330 --> 01:06:50.870
+simple complex depends upon the business logic okay
+
+01:06:54.480 --> 01:06:58.880
+so now uh here right let's
+
+01:07:05.830 --> 01:07:05.930
+say
+
+01:07:08.930 --> 01:07:11.450
+i'm writing my own function right again test one let's say
+
+01:07:11.450 --> 01:07:15.190
+and if i have to pass some sort of an input inside a
+
+01:07:15.190 --> 01:07:19.230
+function for example when you have been using this type
+
+01:07:19.230 --> 01:07:21.930
+function so you are trying to input something so that you
+
+01:07:21.930 --> 01:07:24.570
+will be able to check a type of it for example if i'm going
+
+01:07:24.570 --> 01:07:29.830
+to pass sudh it takes a type of this given data right and
+
+01:07:29.830 --> 01:07:32.890
+then it tells me that okay fine so this is the final output
+
+01:07:32.890 --> 01:07:36.370
+similarly so if i have to input something so i can try to
+
+01:07:36.370 --> 01:07:42.010
+declare that as a let's say i'm saying that as a a right and
+
+01:07:42.010 --> 01:07:47.690
+then print what so print basically this a so whatever input
+
+01:07:47.690 --> 01:07:50.970
+user is going to give while calling this function right so
+
+01:07:50.970 --> 01:07:54.530
+test one let's say i'm trying to call what test one and if
+
+01:07:54.530 --> 01:07:59.750
+i'm going to give my name sudh right sudh so it is printing
+
+01:07:59.750 --> 01:08:03.490
+what it is printing sudh and how it is going to work very
+
+01:08:03.490 --> 01:08:07.410
+simple so test one right it is taking one argument this is
+
+01:08:07.410 --> 01:08:09.890
+called an argument function argument i can give one two
+
+01:08:09.890 --> 01:08:13.310
+hundred whatsoever i want so this is a functional argument
+
+01:08:13.310 --> 01:08:17.610
+so here a now when i'm trying to call this function so i
+
+01:08:17.610 --> 01:08:20.450
+have to pass a value of a so how function will understand
+
+01:08:20.450 --> 01:08:24.310
+function understand that value of a is basically su dh as
+
+01:08:24.310 --> 01:08:27.450
+per this particular call and what we are doing with a we are
+
+01:08:27.450 --> 01:08:30.990
+printing it so it is trying to print it as simple as that
+
+01:08:30.990 --> 01:08:33.490
+now so
+
+01:08:39.090 --> 01:08:43.210
+print a now here so let's say i'm defining maybe a test two
+
+01:08:43.210 --> 01:08:47.630
+right and print a comma b maybe something like this i'm
+
+01:08:47.630 --> 01:08:51.430
+trying to pass over here then print a comma b fine so i can
+
+01:08:51.430 --> 01:08:55.470
+try to pass like as my number of argument as i want so a is
+
+01:08:55.470 --> 01:08:59.750
+equals to su d h and then b is equals to let's say i'm
+
+01:08:59.750 --> 01:09:03.450
+trying to pass some numbers not an issue so it will try to
+
+01:09:03.450 --> 01:09:06.390
+print as per the printer statement which i have given over
+
+01:09:06.390 --> 01:09:10.690
+there so a is equal to this b is equal to this let's say if
+
+01:09:10.690 --> 01:09:13.730
+i'm trying to call this test two and i'm not giving anything
+
+01:09:14.530 --> 01:09:17.310
+yeah i'm not giving anything so it will give you a complaint
+
+01:09:17.310 --> 01:09:20.330
+saying that that missing two required position argument a
+
+01:09:20.330 --> 01:09:23.170
+and b so why you are not giving me a value of a and b
+
+01:09:23.170 --> 01:09:28.370
+because nomenclature wise inside a test two you are supposed
+
+01:09:28.370 --> 01:09:31.610
+to pass this one you are supposed to pass basically a value
+
+01:09:31.610 --> 01:09:33.810
+of a and b which which you are not passing which is bad
+
+01:09:33.810 --> 01:09:38.030
+right so you have to basically pass those argument a and b
+
+01:09:38.030 --> 01:09:40.430
+then only it is going to work otherwise you will end up
+
+01:09:40.430 --> 01:09:44.630
+getting this kind of an error very very simple okay fine now
+
+01:09:44.630 --> 01:09:48.430
+let me create some functions for you right so let's say one
+
+01:09:48.430 --> 01:09:51.270
+more thing before that before getting into the actual
+
+01:09:51.270 --> 01:09:55.430
+function creation right so def and then let's say i'm
+
+01:09:55.430 --> 01:09:59.090
+creating a test function now i'm doing a print right i'm
+
+01:09:59.090 --> 01:10:04.710
+doing a print execute now tell me guys what is a return type
+
+01:10:04.710 --> 01:10:10.550
+of the print what is the return data type of print yes
+
+01:10:12.500 --> 01:10:17.640
+i think we talked about it in my previous class yes rahul is
+
+01:10:17.640 --> 01:10:21.980
+saying none some of you are saying a string wrong so
+
+01:10:28.060 --> 01:10:30.580
+yeah people are saying rajeev islam everyone is saying
+
+01:10:30.580 --> 01:10:34.540
+basically none exactly right return type of print is
+
+01:10:34.540 --> 01:10:38.240
+basically none can we do any kind of a primitive operation
+
+01:10:38.240 --> 01:10:43.770
+with a return that we have received from print can we do any
+
+01:10:43.770 --> 01:10:45.670
+primitive operation addition subtraction deletion
+
+01:10:45.670 --> 01:10:52.010
+concatenation anything no right we can't do that okay now so
+
+01:10:52.010 --> 01:10:58.850
+let's say def test and then it is taking a as a input right
+
+01:10:58.850 --> 01:11:05.210
+and you are trying to do pri anti print print of a right
+
+01:11:05.210 --> 01:11:09.190
+print of a fine so whenever you will call test let's say i'm
+
+01:11:09.190 --> 01:11:13.730
+passing my name over here it will print sudh now i would
+
+01:11:13.730 --> 01:11:17.650
+like to store this data so whatever data my function is
+
+01:11:17.650 --> 01:11:21.110
+giving me right whatever data which is sudh as per me as of
+
+01:11:21.110 --> 01:11:24.130
+now right so whatever data this is giving me i would like to
+
+01:11:24.130 --> 01:11:27.050
+store it so maybe i would like to store it inside a variable
+
+01:11:27.050 --> 01:11:33.930
+m let's say execute now if i'm going to print m okay so i'm
+
+01:11:33.930 --> 01:11:38.890
+just trying to call m by the way m so blank by the way none
+
+01:11:38.890 --> 01:11:44.110
+right let's say i'm trying to do m plus uh kumar i'm
+
+01:11:44.110 --> 01:11:47.310
+assuming that m must be having a suds execute now it is
+
+01:11:47.310 --> 01:11:50.270
+telling me that unsupported operand type none type and
+
+01:11:50.270 --> 01:11:53.510
+string your kumar is a string and m is what m is basically a
+
+01:11:53.510 --> 01:11:56.910
+none type means i have stored whatever function have
+
+01:11:56.910 --> 01:12:00.890
+returned i have stored that but still it's of no use for me
+
+01:12:00.890 --> 01:12:04.810
+yeah it's of no use for me by the way because it's a none
+
+01:12:04.810 --> 01:12:09.290
+type and with none type data i can't do anything so what is
+
+01:12:09.290 --> 01:12:11.570
+a solution guys what
+
+01:12:14.610 --> 01:12:16.850
+is the solution because if function is giving me something
+
+01:12:17.310 --> 01:12:22.350
+obviously i must be able to use it right typecast is it
+
+01:12:22.350 --> 01:12:26.430
+possible to do a typecast typecast none type typecast is it
+
+01:12:26.430 --> 01:12:32.950
+possible is it even possible yes is it even possible
+
+01:12:35.660 --> 01:12:41.260
+exactly no so you can't do typecast it will not work yes
+
+01:12:41.260 --> 01:12:45.980
+then what is the solution so here what we can do so def
+
+01:12:45.980 --> 01:12:50.000
+let's suppose test i'm writing right and yeah so it is going
+
+01:12:50.000 --> 01:12:55.560
+to take input as a let's say i instead of writing a print
+
+01:12:55.560 --> 01:12:58.220
+because print to print something into a console right there
+
+01:12:58.220 --> 01:13:02.120
+is a keyword called as return return a now what return does
+
+01:13:02.120 --> 01:13:05.080
+it will return as it is whatsoever data type will be having
+
+01:13:05.080 --> 01:13:08.200
+it will just return that very very simple right so we should
+
+01:13:08.200 --> 01:13:12.760
+not use print as a final outcome from the like a function we
+
+01:13:12.760 --> 01:13:17.060
+should use return i can test that now so test let's say i'm
+
+01:13:17.060 --> 01:13:20.380
+going to pass sudh okay fine now it is return return return
+
+01:13:20.380 --> 01:13:20.380
+return return return return return return return return
+
+01:13:20.380 --> 01:13:22.820
+return return returning me a string i can try to even check
+
+01:13:22.820 --> 01:13:26.520
+what is the type of this return so i will be able to check
+
+01:13:26.520 --> 01:13:30.460
+it's a str string it is returning right now i can try to
+
+01:13:30.460 --> 01:13:35.040
+store this data into m variable so whatever function is
+
+01:13:35.040 --> 01:13:39.340
+returning i am storing it inside the m right okay now m plus
+
+01:13:39.340 --> 01:13:47.560
+hi sudh hi i'm able to get it right yeah so now i'm able to
+
+01:13:47.560 --> 01:13:52.020
+do a primitive operation yes i'm able to do a primitive
+
+01:13:52.020 --> 01:13:56.300
+operation so print you should not use in terms of function
+
+01:13:56.300 --> 01:14:00.280
+you should use a return return will try to return our data
+
+01:14:00.280 --> 01:14:03.900
+as it is because with print is basically giving you a none
+
+01:14:03.900 --> 01:14:06.700
+type and with none type as i have already discussed even
+
+01:14:06.700 --> 01:14:10.400
+before in your previous classes so basically you will not be
+
+01:14:10.400 --> 01:14:13.080
+able to do any primitive operation so it's of no use for you
+
+01:14:13.080 --> 01:14:15.280
+you can just print it inside the console and that's it
+
+01:14:15.280 --> 01:14:20.360
+that's the only use yeah so okay now let's go ahead and
+
+01:14:20.360 --> 01:14:20.360
+let's do a primitive operation so let's do a primitive
+
+01:14:20.360 --> 01:14:20.920
+operation so let's do a primitive operation and write some
+
+01:14:20.920 --> 01:14:24.140
+of these like a function so let's say i would like to write
+
+01:14:24.140 --> 01:14:29.060
+a function so where anyone can go and anyone can use that
+
+01:14:29.060 --> 01:14:34.440
+function and check that whether the input number is positive
+
+01:14:34.440 --> 01:14:38.280
+or input number is not positive that is that is a kind of a
+
+01:14:38.280 --> 01:14:42.160
+scenario that's that's we have right so here i can write def
+
+01:14:42.160 --> 01:14:47.620
+check positive this is my own function someone will give
+
+01:14:47.620 --> 01:14:52.160
+input let's say some n right input input will be given now i
+
+01:14:52.160 --> 01:14:57.700
+can try to write a condition that if n is greater than n is
+
+01:14:57.700 --> 01:15:06.610
+greater than zero in that case return what positive yeah
+
+01:15:06.610 --> 01:15:11.270
+else return not positive execute so this is a simple
+
+01:15:11.270 --> 01:15:13.290
+function i have written i could have written this entire
+
+01:15:13.290 --> 01:15:15.770
+block even outside which which i have already done that
+
+01:15:15.770 --> 01:15:20.050
+right which i have already done but this function means now
+
+01:15:20.050 --> 01:15:22.530
+i don't have to write this again again and again and again i
+
+01:15:22.530 --> 01:15:26.830
+can simply call check positive pass the data and i will be
+
+01:15:26.830 --> 01:15:29.770
+able to get whether it's a positive or whether it's a
+
+01:15:29.770 --> 01:15:35.090
+negative minus 45 not positive yeah i will be able to get it
+
+01:15:35.090 --> 01:15:37.370
+so wherever i have to check whether it's a positive whether
+
+01:15:37.370 --> 01:15:41.510
+it's a negative simple right i can call this function pass
+
+01:15:41.510 --> 01:15:46.390
+the data my work will be done yeah so let's suppose i would
+
+01:15:46.390 --> 01:15:50.170
+like to create a function so which can check between two
+
+01:15:50.170 --> 01:15:54.150
+numbers that which one is maximum yeah which one is maximum
+
+01:15:54.150 --> 01:15:59.230
+so let's say x input this is the function i can try to
+
+01:15:59.230 --> 01:16:02.870
+create and yeah so it is going to take two data right two
+
+01:16:02.870 --> 01:16:10.130
+data so it will check if a is greater than b return a a is
+
+01:16:10.130 --> 01:16:14.610
+maximum otherwise return b b is maximum execute simple so
+
+01:16:14.610 --> 01:16:18.790
+max input i can pass three and four so it is trying to check
+
+01:16:18.790 --> 01:16:24.290
+three is greater than b no know return b 4 simple right so
+
+01:16:24.290 --> 01:16:27.330
+we are able to return it as simple as see function just
+
+01:16:27.330 --> 01:16:32.430
+think in this way uh like you know you there is a entity
+
+01:16:32.430 --> 01:16:35.770
+there is a machine right and there is a vending machine
+
+01:16:35.770 --> 01:16:38.870
+let's say right there is a vending machine you are trying to
+
+01:16:38.870 --> 01:16:42.350
+like you know give a money and then you are able to get
+
+01:16:42.350 --> 01:16:46.290
+maybe a chocolate a toffee right so you are giving input and
+
+01:16:46.290 --> 01:16:48.990
+then you are trying to like it is going to do some sort of
+
+01:16:48.990 --> 01:16:52.130
+you know magic inside this and then you will be able to get
+
+01:16:52.130 --> 01:16:55.030
+a result so that magic is basically a logic inside the
+
+01:16:55.030 --> 01:16:58.370
+function right so function takes input and then it is going
+
+01:16:58.370 --> 01:17:03.010
+to give you the output as simple as that so not not tough to
+
+01:17:03.010 --> 01:17:05.950
+understand in this way if you will try to understand it and
+
+01:17:05.950 --> 01:17:11.170
+again it is going to like you know uh you can we can try to
+
+01:17:11.170 --> 01:17:16.490
+understand that yeah okay so uh this is this now you can try
+
+01:17:16.490 --> 01:17:17.510
+to understand that yeah okay so uh this is this now so let's
+
+01:17:17.510 --> 01:17:22.390
+say i'm going to write a function so def test and here so
+
+01:17:22.390 --> 01:17:27.490
+i'm writing a comma b i can try to define a value of a over
+
+01:17:27.490 --> 01:17:31.230
+here i can say that that okay the default value of a is
+
+01:17:31.230 --> 01:17:35.050
+equals to 10 this is a default value setup right so default
+
+01:17:35.050 --> 01:17:37.830
+value of a is technically what default value of a is
+
+01:17:37.830 --> 01:17:42.990
+technically 10 for b i am not giving any values now return
+
+01:17:45.970 --> 01:17:50.730
+a comma b let's say i'm giving it right
+
+01:18:03.000 --> 01:18:06.840
+a non-default argument follow the default one convention
+
+01:18:06.840 --> 01:18:11.080
+wise this should be 10 yeah it will work now so value of b i
+
+01:18:11.080 --> 01:18:13.880
+have given b is equal to 10 so now if i'm going to call test
+
+01:18:13.880 --> 01:18:19.300
+basically and if i'm going to pass like a 4 so here 4 and 10
+
+01:18:19.300 --> 01:18:22.620
+it is printing so by default value of b is what by by
+
+01:18:22.620 --> 01:18:25.440
+default value of b is equal to 10 and what is the value of a
+
+01:18:25.440 --> 01:18:29.580
+4 so here there was two argument but i have given only one
+
+01:18:29.580 --> 01:18:32.360
+argument and it is working because default value was 10 and
+
+01:18:32.360 --> 01:18:35.500
+if i have basically set for up another argument over here
+
+01:18:35.500 --> 01:18:39.820
+now here i can call test again and then i can try to pass
+
+01:18:39.820 --> 01:18:45.120
+maybe like a 5 comma uh like you know 60 so here it will be
+
+01:18:45.120 --> 01:18:48.500
+able to overwrite the default value b was 10 but i have
+
+01:18:48.500 --> 01:18:52.020
+given 60 so now we will become what we will become 60 so
+
+01:18:52.020 --> 01:18:55.840
+it's not like if default value is given you can't give your
+
+01:18:55.840 --> 01:19:00.060
+value yes you can give your values as well that is possible
+
+01:19:00.060 --> 01:19:05.680
+right that is technically possible okay uh likewise there
+
+01:19:05.680 --> 01:19:10.860
+are a couple of more things so def and then like a test and
+
+01:19:10.860 --> 01:19:20.520
+let's say like you know i'm going to define a and then this
+
+01:19:20.520 --> 01:19:25.280
+manner okay so now this is called as notification let me let
+
+01:19:25.280 --> 01:19:30.720
+me show you this so test right uh here so test it was
+
+01:19:30.720 --> 01:19:32.080
+written right here so test it was written that that a should
+
+01:19:32.080 --> 01:19:35.740
+be integer a should be integer right b should be integer
+
+01:19:35.740 --> 01:19:40.080
+here a is equals to sudh i am going to give which is not an
+
+01:19:40.080 --> 01:19:43.400
+integer by the way and then b is equal to kumar i am giving
+
+01:19:43.400 --> 01:19:47.060
+a is equal to what sudh b is equal to kumar return what a
+
+01:19:47.060 --> 01:19:49.420
+plus b so in case of a string concatenation in case of
+
+01:19:49.420 --> 01:19:53.800
+numbers like numeric operation so test sudh kumar now let's
+
+01:19:53.800 --> 01:19:58.220
+try to execute it so the kumar it's working it simply means
+
+01:19:58.220 --> 01:20:03.960
+that that here when i'm trying to say that int int it's just
+
+01:20:03.960 --> 01:20:08.720
+a notification notification for whom for a user who is going
+
+01:20:08.720 --> 01:20:12.080
+to use my function that i'm expecting that you will put
+
+01:20:12.080 --> 01:20:16.140
+integer but it's not a foundation inside python it's not a
+
+01:20:16.140 --> 01:20:21.640
+foundation actually so this is just for a notification even
+
+01:20:21.640 --> 01:20:25.520
+if as you can see uh like i have given a notification that i
+
+01:20:25.520 --> 01:20:28.600
+have to enter integer i've entered basically string and it's
+
+01:20:28.600 --> 01:20:32.520
+fine there is no complaint about it right okay so this is
+
+01:20:32.520 --> 01:20:35.440
+just a notification that okay so always try to mention this
+
+01:20:35.440 --> 01:20:38.820
+these things and then this is a notification for the output
+
+01:20:38.820 --> 01:20:42.880
+again a notification so i i will give you this as output so
+
+01:20:42.880 --> 01:20:45.500
+whenever we try to write a standard function so just to
+
+01:20:45.500 --> 01:20:50.380
+notify a user let's say you are using my function right i
+
+01:20:50.380 --> 01:20:53.060
+have created the function so you will be confused that you
+
+01:20:53.060 --> 01:20:57.860
+have to enter what right for example so def test and then
+
+01:20:57.860 --> 01:21:02.600
+here so let's say i'm asking you to enter a and a should be
+
+01:21:02.600 --> 01:21:07.700
+list right a should be list and it should return list it
+
+01:21:07.700 --> 01:21:09.900
+should give you output as a list so this is the notification
+
+01:21:09.900 --> 01:21:13.220
+i have given to you right this is a notification and
+
+01:21:13.220 --> 01:21:16.420
+probably i will be writing a logic as per this kind of a
+
+01:21:16.420 --> 01:21:20.120
+data so this is a notification for the user and in all the
+
+01:21:20.120 --> 01:21:22.940
+standard pythonic function you will be able to see the
+
+01:21:22.940 --> 01:21:26.460
+notification but it's not a foundation like i said it's not
+
+01:21:26.460 --> 01:21:30.320
+a condition check by the way yeah now this is nothing but
+
+01:21:30.320 --> 01:21:34.060
+the function means what you will get as a output of the
+
+01:21:34.060 --> 01:21:37.300
+function means return basically so this always talks about
+
+01:21:37.300 --> 01:21:40.020
+in all the standard function again you will be able to see
+
+01:21:40.020 --> 01:21:44.860
+this arrow marks and then the output data yes it's kind of a
+
+01:21:44.860 --> 01:21:47.680
+placeholder in html yes you can you can think in that manner
+
+01:21:47.680 --> 01:21:50.860
+so just a notification i'm telling you that okay my function
+
+01:21:50.860 --> 01:21:54.840
+takes this kind of a data as a input and gives this kind of
+
+01:21:54.840 --> 01:21:59.120
+a data as a input okay simple so
+
+01:22:02.320 --> 01:22:04.360
+we have to use return whenever we use for exactly this kind
+
+01:22:04.360 --> 01:22:05.900
+of a data as a input okay so this is a notification yes yeah
+
+01:22:07.460 --> 01:22:12.920
+make sense guys about this notification into the function
+
+01:22:12.920 --> 01:22:15.220
+yeah okay
+
+01:22:23.990 --> 01:22:29.070
+fine so this is a notification now i can try to call test
+
+01:22:29.070 --> 01:22:32.090
+and then like you know bracket bracket now if i'm going to
+
+01:22:32.090 --> 01:22:36.230
+hover my mouse yeah so if i'm going to hover my mouse on
+
+01:22:36.230 --> 01:22:40.690
+this function so it's it's loading it should show you that
+
+01:22:40.690 --> 01:22:43.430
+notification that signature i don't know what's the issue
+
+01:22:43.430 --> 01:22:48.130
+with my kernel it's a kernel issue by the way so it's just
+
+01:22:48.130 --> 01:22:50.550
+showing me like loading but it's not showing me the exact
+
+01:22:50.550 --> 01:22:54.030
+thing so basically when you are going to hover right let's
+
+01:22:54.030 --> 01:22:56.730
+just write this one into in your system it will work by the
+
+01:22:56.730 --> 01:22:59.730
+way in your system it will show you the same signature that
+
+01:22:59.730 --> 01:23:02.810
+okay this is the type of the input and this is the type of
+
+01:23:02.810 --> 01:23:05.730
+the output it will show you do it guys do it it will show
+
+01:23:05.730 --> 01:23:08.830
+you just hold your mouse in my system it's like showing
+
+01:23:08.830 --> 01:23:10.030
+loading loading kind of things
+
+01:23:21.830 --> 01:23:25.650
+yeah okay so fine now data
+
+01:23:27.600 --> 01:23:31.400
+type should be same always no how it is same like where it
+
+01:23:31.400 --> 01:23:34.440
+is same it's like list right sometime i'm using a string
+
+01:23:34.440 --> 01:23:37.340
+sometime using integer sometime depends what what is the
+
+01:23:37.340 --> 01:23:40.960
+what is the purpose of the function i have to write yeah
+
+01:23:40.960 --> 01:23:46.120
+okay now so def and then let's say i'm writing another
+
+01:23:46.120 --> 01:23:52.140
+function test and then inside that triple quote right triple
+
+01:23:52.140 --> 01:23:58.560
+quote and here this is called as string right so this is
+
+01:23:58.560 --> 01:24:02.720
+called as doc string so this is called as doc string means
+
+01:24:02.720 --> 01:24:06.880
+what this function is doing what this function will do so
+
+01:24:06.880 --> 01:24:10.040
+all of these things you can try to write even like author
+
+01:24:10.040 --> 01:24:12.760
+name who have written this function so whatsoever story you
+
+01:24:12.760 --> 01:24:14.940
+would like to write down you can write it down so whenever
+
+01:24:14.940 --> 01:24:18.100
+someone is going to hover a mouse or like read the
+
+01:24:18.100 --> 01:24:20.360
+documentation they will be able to see that that okay what
+
+01:24:20.360 --> 01:24:23.880
+this function is doing very very simple right so this is
+
+01:24:23.880 --> 01:24:26.520
+called as doc string so here you can do any kind of a write
+
+01:24:26.520 --> 01:24:29.720
+up that okay function does this this this this is the author
+
+01:24:29.720 --> 01:24:34.620
+this is that you can try to write it down okay now moving
+
+01:24:34.620 --> 01:24:40.280
+ahead so let me show you some more part of the function so
+
+01:24:40.280 --> 01:24:45.460
+let's say we have a function called as test and yeah there
+
+01:24:45.460 --> 01:24:50.600
+is something called as steric of steric of args what does
+
+01:24:50.600 --> 01:24:53.880
+this means again in many function you will be able to find
+
+01:24:53.880 --> 01:25:00.380
+out the same thing yeah so let's say that that i have
+
+01:25:00.380 --> 01:25:05.860
+created a function called as test1 right and yeah so a comma
+
+01:25:05.860 --> 01:25:10.860
+b comma c comma d comma e right comma f now these are the
+
+01:25:10.860 --> 01:25:14.740
+data that you will be able to enter yeah these are the data
+
+01:25:14.740 --> 01:25:16.560
+that you will be able to enter i mean like these are the
+
+01:25:16.560 --> 01:25:20.660
+variable so you can enter a value for a then b then c then d
+
+01:25:20.660 --> 01:25:24.360
+then e and f yeah this is something that you can do it but
+
+01:25:25.940 --> 01:25:29.860
+Let's say I am trying to create a function so where in run
+
+01:25:29.860 --> 01:25:34.500
+time whenever someone is using that function they can try to
+
+01:25:34.500 --> 01:25:40.520
+input any data of any type. Then this function will crash.
+
+01:25:40.800 --> 01:25:44.600
+For example if I am like you know I
+
+01:25:47.420 --> 01:25:53.600
+have only 3 argument yeah 3 argument. So when I will call
+
+01:25:53.600 --> 01:25:58.260
+test1 I can only pass test1 so I can only pass value for a
+
+01:25:58.260 --> 01:26:02.400
+let's say 2 value for b 3 value for c 4 I can only pass this
+
+01:26:02.400 --> 01:26:05.900
+much right I can only pass this much value for a value for b
+
+01:26:05.900 --> 01:26:09.580
+value for c if I am going to call test1 and if I am going to
+
+01:26:09.580 --> 01:26:12.360
+pass value for a value for b value for c and another value
+
+01:26:12.360 --> 01:26:16.020
+right extra value it is not going to work right it will tell
+
+01:26:16.020 --> 01:26:19.200
+me that it takes only 3 positional argument but you have
+
+01:26:19.200 --> 01:26:22.920
+given 6 yeah but I have to create this kind of a function
+
+01:26:22.920 --> 01:26:27.020
+which should allow me you know to enter any kind of a data I
+
+01:26:27.020 --> 01:26:30.340
+want. And then. And then like process wise I will write the
+
+01:26:30.340 --> 01:26:33.920
+logic but yeah which should at least allow me to pass any
+
+01:26:33.920 --> 01:26:36.760
+kind of a data any number of the data I want of my choice.
+
+01:26:37.100 --> 01:26:42.840
+So in that situation your instead of writing this a b c d
+
+01:26:42.840 --> 01:26:47.300
+static static a r g s. So this is this static will do the
+
+01:26:47.300 --> 01:26:50.280
+magic by the way yeah. So let's say I have written this
+
+01:26:50.280 --> 01:26:54.300
+function like static static the actual magic will be done by
+
+01:26:54.300 --> 01:26:57.560
+static I will come to args as well so the actual magic will
+
+01:26:57.560 --> 01:27:01.340
+be done by static static what it does so test and then I can
+
+01:27:01.340 --> 01:27:04.020
+pass 2 comma 3 comma 4 comma 5 comma 6 worked
+
+01:27:36.600 --> 01:27:40.800
+my bad static double static means schedule args static yeah
+
+01:27:40.800 --> 01:27:44.220
+now it will work so see I have just given oh single static
+
+01:27:44.220 --> 01:27:47.480
+yeah my bad so I have given single static over here now
+
+01:27:47.480 --> 01:27:50.000
+single static means I can try to pass any number of data so
+
+01:27:50.000 --> 01:27:52.740
+I have passed this many data worked same function I will try
+
+01:27:52.740 --> 01:27:56.900
+to call I will try to pass one data work test I will try to
+
+01:27:56.900 --> 01:28:01.800
+pass maybe like 4 comma 5.5. 6 this my data worked so it is
+
+01:28:01.800 --> 01:28:05.660
+this simply means that that it is allowing you to take any
+
+01:28:05.660 --> 01:28:09.440
+kind of a data and any number of the data for example sudh I
+
+01:28:09.440 --> 01:28:12.740
+can try to pass over here I can try to pass maybe like you
+
+01:28:12.740 --> 01:28:15.720
+know some floating point number I am passing some list kind
+
+01:28:15.720 --> 01:28:19.200
+of a data over here yeah I am passing some sort of a list
+
+01:28:19.200 --> 01:28:23.500
+kind of a data over here it is going to work so this is
+
+01:28:23.500 --> 01:28:28.200
+going to return you a tuple tuple of all the data yeah this
+
+01:28:28.200 --> 01:28:30.560
+is basically a tuple. tuple of all the data it is going to
+
+01:28:30.560 --> 01:28:33.620
+return whether it is a one data two data or infinite data it
+
+01:28:33.620 --> 01:28:37.000
+is going to return you basically a tuple of all the data now
+
+01:28:37.000 --> 01:28:39.640
+as per the logic that you are going to write inside the
+
+01:28:39.640 --> 01:28:42.620
+function you can try to execute it and you can try to
+
+01:28:42.620 --> 01:28:47.240
+basically test it making sense guys so what will what we
+
+01:28:47.240 --> 01:28:49.360
+will have to do it when we have to pass maybe like a
+
+01:28:49.360 --> 01:28:52.900
+multiple data yeah okay
+
+01:28:54.950 --> 01:28:59.190
+a multiple data so this is what you have to do now let's say
+
+01:28:59.190 --> 01:29:04.210
+there is a you know def. test two I am going to create and
+
+01:29:04.210 --> 01:29:08.510
+let's say if I have to pass a data in a key value pair right
+
+01:29:08.510 --> 01:29:12.950
+key value pair so in that case a static static dw aux double
+
+01:29:12.950 --> 01:29:16.070
+static has been used here which I was using there so this
+
+01:29:16.070 --> 01:29:18.830
+double aesthetic means you can try to pass any number of
+
+01:29:18.830 --> 01:29:21.370
+data with key and value key and value key and value kind of
+
+01:29:21.370 --> 01:29:24.570
+things let me show you that part right so let's say I have
+
+01:29:24.570 --> 01:29:28.530
+written k w aux double static double static k w aux so here
+
+01:29:28.530 --> 01:29:34.810
+test two. Ok. Let's say I am writing name is equals to S-U-D
+
+01:29:34.810 --> 01:29:38.470
+-H, age is equal to 25, city is equal to Pune. Fine. It has
+
+01:29:38.470 --> 01:29:42.530
+taken all the data in which format? Dictionary format. Yeah.
+
+01:29:42.590 --> 01:29:45.750
+So double steric means dictionary format. Single steric
+
+01:29:45.750 --> 01:29:49.730
+means tuple format. All the data. Now you can ask me a
+
+01:29:49.730 --> 01:29:54.390
+question that does this args and KW args is a reserved
+
+01:29:54.390 --> 01:30:00.010
+keyword? Yes. Anyone? Does this args and KW args is a
+
+01:30:00.010 --> 01:30:05.790
+reserved keyword? The simple answer is big no. Yeah. So I
+
+01:30:05.790 --> 01:30:10.710
+can show you that. So def test and then single steric I have
+
+01:30:10.710 --> 01:30:14.830
+written and I will be writing my name. It will work. So call
+
+01:30:14.830 --> 01:30:19.410
+test, right? Pass some data. So I have not used args over
+
+01:30:19.410 --> 01:30:23.890
+here. It is working. So single steric means any number of
+
+01:30:23.890 --> 01:30:27.090
+data in a tuple format, you can pass it, right? Double
+
+01:30:27.090 --> 01:30:32.270
+steric. So again, def test one and then double steric.
+
+01:30:32.270 --> 01:30:34.970
+Double steric means key value, key value, key value. And I
+
+01:30:34.970 --> 01:30:38.630
+will be writing SUDH over here. Print SUDH. Now call test
+
+01:30:38.630 --> 01:30:42.430
+one anytime and then try to pass, you know, name is equals
+
+01:30:42.430 --> 01:30:46.930
+to this, this, this. It will work. So KW args or args is not
+
+01:30:46.930 --> 01:30:49.430
+a reserved keyword. You can give my name, your name. The
+
+01:30:49.430 --> 01:30:52.230
+actual magic has been done by single steric and double
+
+01:30:52.230 --> 01:30:59.060
+steric. Make sense, guys? Yeah. Everyone?
+
+01:31:08.380 --> 01:31:11.340
+Yeah. Yeah. Yeah. Yeah. Yeah. So yeah, these are like
+
+01:31:11.340 --> 01:31:15.380
+something that you should know and you should practice at
+
+01:31:15.380 --> 01:31:20.740
+least like a 50, 60 questions so that you all will be like,
+
+01:31:20.760 --> 01:31:25.620
+you know, ready with a list to pulse dictionary. And I would
+
+01:31:25.620 --> 01:31:28.360
+say KW args, args, everything.
+
+01:31:55.660 --> 01:31:58.280
+Is that what teaching Python on a very basic level? Yeah.
+
+01:31:59.580 --> 01:32:04.720
+Okay. So now it's time for the assignment. So last time also
+
+01:32:04.720 --> 01:32:07.440
+I have given you assignments. So now. Now it's our
+
+01:32:07.440 --> 01:32:10.580
+assignment time for this week assignment.
+
+01:32:14.800 --> 01:32:20.420
+What is like a day to day 11th, right? So 11th, April dot
+
+01:32:24.740 --> 01:32:28.160
+TXT, let's say in this format I'm giving you.
+
+01:32:31.210 --> 01:32:34.650
+So it will be a bit, uh, use, let's say.
+
+01:32:37.620 --> 01:32:39.380
+So again,
+
+01:32:41.510 --> 01:32:45.030
+guys, there are 70 question I have given to you night. Uh,
+
+01:32:45.250 --> 01:32:48.710
+so yeah, like basically a 70 question from a different
+
+01:32:48.710 --> 01:32:53.210
+segment. So basically based on e-fails. Right. Based on like
+
+01:32:53.210 --> 01:32:55.890
+a four loop, I've given you some questions and then based on
+
+01:32:55.890 --> 01:32:58.030
+the while loop, you will be able to find out some question
+
+01:32:58.030 --> 01:33:00.930
+and based on basically functions, you will be able to find
+
+01:33:00.930 --> 01:33:05.870
+out some question. Now this question is not there to test
+
+01:33:05.870 --> 01:33:10.010
+your memory. This question is not there to, you know, uh,
+
+01:33:10.230 --> 01:33:14.510
+uh, ask you to remember something. No, not at all. These
+
+01:33:14.510 --> 01:33:17.990
+questions are there just to make you comfortable with
+
+01:33:17.990 --> 01:33:20.990
+programming. Very, very simple, because like I said, very
+
+01:33:20.990 --> 01:33:23.050
+soon, you will. We'll start writing code with Claude and
+
+01:33:23.050 --> 01:33:25.630
+cursor, which I'll show you in class itself, which is a
+
+01:33:25.630 --> 01:33:28.550
+modern way of writing a code. But what we are trying to
+
+01:33:28.550 --> 01:33:31.850
+achieve here, we are trying to achieve, or we are trying to
+
+01:33:31.850 --> 01:33:35.570
+learn a basic syntaxes so that we'll be familiar with it. So
+
+01:33:35.570 --> 01:33:38.410
+try to solve this problem. Maybe use a little bit of AI. Now
+
+01:33:38.410 --> 01:33:42.370
+that's completely okay. Not like a complete AI because I
+
+01:33:42.370 --> 01:33:44.950
+will do this job in like 30 seconds of time. All 70
+
+01:33:44.950 --> 01:33:48.110
+questions, 30 seconds, it will be done. Yeah. But yeah, you
+
+01:33:48.110 --> 01:33:50.790
+will not end up learning anything. So at least for initial
+
+01:33:50.790 --> 01:33:54.990
+couple of class. Go in a manual mode, very soon, we'll go in
+
+01:33:54.990 --> 01:33:57.990
+an auto mode as well. Yeah. Very soon in a class itself,
+
+01:33:58.170 --> 01:34:01.490
+we'll adopt and we'll do a lot of work in auto mode. But
+
+01:34:01.490 --> 01:34:04.990
+before that, I just want you to, you know, make yourself
+
+01:34:04.990 --> 01:34:08.810
+comfortable with a programming, with the language, right? So
+
+01:34:08.810 --> 01:34:11.790
+that, you know, in a future, you will be able to understand
+
+01:34:11.790 --> 01:34:14.890
+a code generated by AI, and then you will be able to
+
+01:34:14.890 --> 01:34:17.630
+intervene. You will be able to orchestrate it in a better
+
+01:34:17.630 --> 01:34:21.670
+manner. So just to bring you on that label. So what? So
+
+01:34:21.670 --> 01:34:25.250
+where you can sit with AI, and then you can produce a code,
+
+01:34:25.390 --> 01:34:27.550
+you will be able to check each and every piece of the code,
+
+01:34:27.690 --> 01:34:31.490
+what is going inside a code a step by step, we are just
+
+01:34:31.490 --> 01:34:35.910
+trying to achieve that. Is it making sense guys to all of
+
+01:34:35.910 --> 01:34:41.070
+us? Yeah. So just to make you capable, I'm giving you
+
+01:34:41.070 --> 01:34:43.930
+assignment. So don't think that, no, I'm asking you to, you
+
+01:34:43.930 --> 01:34:46.350
+know, practice it so that you can go and like pass some
+
+01:34:46.350 --> 01:34:48.430
+exams. Someone is going to ask you an interview. Nowadays,
+
+01:34:48.530 --> 01:34:51.250
+no one is doing that. Yeah. So that's the whole purpose.
+
+01:34:51.250 --> 01:34:54.670
+Understand the purpose first before doing anything, someone
+
+01:34:54.670 --> 01:34:58.030
+is saying that for I in range print this, this, this is not
+
+01:34:58.030 --> 01:35:00.850
+working. Let me check. I in range one to 11 number is equal
+
+01:35:00.850 --> 01:35:04.210
+to two. You have kept number is inside a string. That's the
+
+01:35:04.210 --> 01:35:11.450
+only issue now, a number of number you are printing. And
+
+01:35:11.450 --> 01:35:16.010
+then there is a string. I is equal to answer. No, I don't
+
+01:35:16.010 --> 01:35:18.730
+work. Yeah. Now let's take it rectified.
+
+01:35:23.510 --> 01:35:31.450
+Okay. Done. Yep. Okay. So, uh, uh, uh, uh, uh, dot, uh,
+
+01:35:31.550 --> 01:35:34.470
+static and double static resolved if we're defined in a
+
+01:35:34.470 --> 01:35:38.090
+function. Yes. Yeah. So it automatically understands that
+
+01:35:38.090 --> 01:35:40.450
+you're talking about basically passing a data inside the
+
+01:35:40.450 --> 01:35:43.630
+function as a triple or as a key value pair. The static and
+
+01:35:43.630 --> 01:35:45.610
+double static, double static means key value pair. Single
+
+01:35:45.610 --> 01:35:51.270
+static means as a triple a number of data. Fine. Everyone.
+
+01:35:51.370 --> 01:35:55.450
+Yes. So now it's a question answer time. So if you have any
+
+01:35:55.450 --> 01:35:57.410
+kind of a question, if you have to discuss anything with us,
+
+01:35:57.410 --> 01:36:00.290
+we will do it. Let me, uh, what was the hand, raise your
+
+01:36:00.290 --> 01:36:03.370
+hand. And then I can answer. Otherwise I will be closing the
+
+01:36:03.370 --> 01:36:07.550
+class. Okay. So Ron is having a question yet. I'm go ahead.
+
+01:36:12.880 --> 01:36:14.300
+Yes. Um, please go ahead with the question.
+
+01:36:23.480 --> 01:36:25.280
+Anyone else? Okay. Yeah. Good.
+
+01:36:30.210 --> 01:36:31.850
+Hello. I'm audible guys to all of you.
+
+01:36:37.030 --> 01:36:42.350
+Yes. Okay. I'm audible. So maybe I don't know, like, what is
+
+01:36:42.350 --> 01:36:44.430
+the problem he's facing, but okay.
+
+01:36:47.710 --> 01:36:51.450
+Uh, so any other question guys, anything for me. Yeah. That
+
+01:36:51.450 --> 01:36:55.190
+you would like to discuss with me? No? Nothing? I would like
+
+01:36:55.190 --> 01:36:57.730
+to see your experience and test lead. I'm like planning to
+
+01:36:57.730 --> 01:37:00.190
+move into AI. Please suggest which neuron course I should
+
+01:37:00.190 --> 01:37:04.250
+focus on. So Ram, I think follow this track as of now. Yeah?
+
+01:37:04.530 --> 01:37:06.810
+Generalist. I think in three months itself we'll be able to
+
+01:37:06.810 --> 01:37:09.690
+do a lot of progress. So many progresses. Just focus on
+
+01:37:09.690 --> 01:37:14.570
+this. And then one project batch. That's my answer to you.
+
+01:37:16.270 --> 01:37:19.770
+Okay, so finally everyone. Looks like we all are good. I
+
+01:37:19.770 --> 01:37:22.850
+will ask team to, you know, upload this entire things inside
+
+01:37:22.850 --> 01:37:25.910
+your dashboard. Along with the assignment that will be
+
+01:37:25.910 --> 01:37:28.270
+available. Whatsoever we have discussed so far. Maybe you
+
+01:37:28.270 --> 01:37:29.710
+can go and check inside the dashboard. It's already
+
+01:37:29.710 --> 01:37:33.410
+available. So fine guys. With that, many models and
+
+01:37:33.410 --> 01:37:37.150
+applications are shifting to Rust from Java. Can you please
+
+01:37:37.150 --> 01:37:39.870
+tell more? Ah, it's not like that. It's just a hype created
+
+01:37:39.870 --> 01:37:40.790
+by some influencers.
+
+01:37:43.620 --> 01:37:49.680
+So, you know, internet is a very weird place. So 10 people
+
+01:37:49.680 --> 01:37:52.300
+will start talking. About something and then, you know,
+
+01:37:52.320 --> 01:37:54.240
+other 100 people will start talking about the same thing.
+
+01:37:54.660 --> 01:37:58.980
+Without doing a fact checking. So this is what this is what
+
+01:37:58.980 --> 01:38:01.520
+happens. So don't don't focus on those like things.
+
+01:38:05.620 --> 01:38:08.500
+Especially influencers. Who only do knowledge. So far they
+
+01:38:08.500 --> 01:38:11.020
+haven't made a single thing. But yes, they have told about
+
+01:38:11.020 --> 01:38:14.320
+the whole world. About the universe. So you will find a lot
+
+01:38:14.320 --> 01:38:16.880
+of people like this. Who don't make anything. Who don't
+
+01:38:16.880 --> 01:38:22.040
+write a code. But kindly use IG because it's all being in.
+
+01:38:22.120 --> 01:38:26.960
+What is this IG? Instagram? Thanks Anshu. This is class is
+
+01:38:26.960 --> 01:38:30.920
+entertaining. Yeah, I mean, like, depends upon you. I mean,
+
+01:38:30.940 --> 01:38:32.840
+like, if you're starting conversation, I'll start from my
+
+01:38:32.840 --> 01:38:37.760
+side. Instagram. So how I do to put them on Instagram use IG
+
+01:38:37.760 --> 01:38:41.360
+because it's overwhelming in Claude. Yeah, but so many of
+
+01:38:41.360 --> 01:38:46.960
+them use IG because it's all being in Claude. That part I
+
+01:38:46.960 --> 01:38:50.020
+was not able to understand. I understand. I'm be used to
+
+01:38:50.020 --> 01:38:52.940
+Instagram. I'm being that you follow. Because I've been.
+
+01:38:58.960 --> 01:39:01.720
+So what will cover in our next session? So I'll try to cover
+
+01:39:01.720 --> 01:39:05.300
+tomorrow like an exception handling and yeah. So package and
+
+01:39:05.300 --> 01:39:05.580
+modules.
+
+01:39:08.960 --> 01:39:11.460
+Instagram sir influencer giving wrong information. They are
+
+01:39:11.460 --> 01:39:14.860
+full of this kind of people. I mean, a few people, I mean,
+
+01:39:14.880 --> 01:39:16.860
+they don't have a shortage of knowledge. There are a lot of
+
+01:39:16.860 --> 01:39:18.520
+people who have a lot of knowledge. They have a lot of
+
+01:39:18.520 --> 01:39:22.810
+knowledge. So whoever has come to give knowledge, go and
+
+01:39:22.810 --> 01:39:26.210
+tell them that our own is not taking care of ourselves. What
+
+01:39:26.210 --> 01:39:27.250
+knowledge to take from others.
+
+01:39:30.750 --> 01:39:36.010
+You are a classmate of my brother. I don't know who was your
+
+01:39:36.010 --> 01:39:38.750
+brother. Who is your brother? Tell me this. First of all,
+
+01:39:40.160 --> 01:39:42.340
+Abhishek
+
+01:39:43.650 --> 01:39:46.970
+Rath. Yes, I remember. I know. I know. We are. We are. We
+
+01:39:46.970 --> 01:39:55.030
+were classmates. 2014 batch. I remember. Which application
+
+01:39:55.030 --> 01:39:58.550
+do you use for video editing? I'm learning DaVinci. I don't
+
+01:39:58.550 --> 01:40:01.670
+use any application so far. Like I've tried a couple of AI
+
+01:40:01.670 --> 01:40:05.530
+application. But now. I think video editing is not very
+
+01:40:05.530 --> 01:40:10.830
+good. You know, so I don't do video editing. Like you can
+
+01:40:10.830 --> 01:40:16.590
+see our YouTube. We push raw videos. I'm just waiting for AI
+
+01:40:16.590 --> 01:40:18.910
+to improve one day. Which I think will happen in three,
+
+01:40:19.050 --> 01:40:21.310
+four, six months. I'll be then using that.
+
+01:40:24.900 --> 01:40:28.200
+Open mic. I see your video. It's really amazing.
+
+01:40:32.780 --> 01:40:35.940
+What about data engineering stack? Will it be there? See,
+
+01:40:36.040 --> 01:40:39.640
+obviously it will be there. Everything will be there. See,
+
+01:40:39.720 --> 01:40:42.120
+nothing is going anywhere. Believe me, nothing is going
+
+01:40:42.120 --> 01:40:46.260
+anywhere. The way we have been developing or doing things,
+
+01:40:46.500 --> 01:40:49.960
+it has changed. But it's not like, you know, data
+
+01:40:49.960 --> 01:40:52.520
+engineering will be gone. Analytics will be gone. Or science
+
+01:40:52.520 --> 01:40:55.600
+will be gone. Or web development will be gone. Or like ops
+
+01:40:55.600 --> 01:40:59.200
+will be gone. Nothing is going anywhere. It's shifting,
+
+01:40:59.420 --> 01:41:03.620
+basically. So it's basically like a huge shift that we are
+
+01:41:03.620 --> 01:41:06.660
+going through. So where the way we used to handle, you know,
+
+01:41:06.660 --> 01:41:09.240
+all of these stacks, take a stack. The way we used to learn.
+
+01:41:09.240 --> 01:41:12.660
+Learn, implement, orchestrate, handle, and evolve. So
+
+01:41:12.660 --> 01:41:17.340
+basically that has changed a lot because of AI. There is a
+
+01:41:17.340 --> 01:41:20.200
+data. So obviously you need data engineering, a pipeline.
+
+01:41:20.660 --> 01:41:23.400
+You need a speed over there. A lot of things, right? So
+
+01:41:23.400 --> 01:41:27.200
+nothing is going anywhere. But if you are trying to do a
+
+01:41:27.200 --> 01:41:31.200
+preparation now, so you have to make sure that you are AI
+
+01:41:31.200 --> 01:41:35.620
+enabled. Simple. Because now even companies are asking that,
+
+01:41:35.620 --> 01:41:38.800
+you know, if you can use cloud or cursor or anti-gravity or
+
+01:41:38.800 --> 01:41:42.120
+something. And then develop it. Then I'm like taking you in.
+
+01:41:43.700 --> 01:41:50.580
+Just told you about AI so that we don't waste us. Sir, just
+
+01:41:50.580 --> 01:41:58.820
+told you about AI in IG. Okay, this is a good idea. I'll do
+
+01:41:58.820 --> 01:42:03.940
+it. How do you manage your time? Turning on system,
+
+01:42:04.160 --> 01:42:07.080
+operating yourself, and many more. Nothing, man. It's just
+
+01:42:07.080 --> 01:42:09.220
+work all day. I mean, I get up in the morning. I get up in
+
+01:42:09.220 --> 01:42:10.240
+the morning. I get up in the morning. You walk around here
+
+01:42:10.240 --> 01:42:14.240
+and there a little bit. I mean, like in society, a good walk
+
+01:42:14.240 --> 01:42:17.960
+or inside the house. And then like I used to play with my
+
+01:42:17.960 --> 01:42:22.860
+kids. And after that, like, that's it. Then we sit down at
+
+01:42:22.860 --> 01:42:24.860
+work. It's not over yet. And then at night.
+
+01:42:27.820 --> 01:42:33.220
+So I'm not a person who like love moving from one place to
+
+01:42:33.220 --> 01:42:36.060
+other places. So even the previous company that I had,
+
+01:42:36.160 --> 01:42:39.880
+right, the company which I sold. So like a purpose. I have
+
+01:42:39.880 --> 01:42:45.420
+established the office which is near to my house. And I
+
+01:42:45.420 --> 01:42:48.100
+don't go anywhere. Like, I don't like going out generally.
+
+01:42:48.320 --> 01:42:54.860
+So, you know, so I have 24 by 7. I don't travel much. I
+
+01:42:54.860 --> 01:42:57.840
+mean, I travel, but not in the city. If you want to go, you
+
+01:42:57.840 --> 01:43:00.000
+have to go straight outside the city. Like take a flight, go
+
+01:43:00.000 --> 01:43:04.540
+out of the country or go to some other city. So my lot of
+
+01:43:04.540 --> 01:43:08.700
+time is, you know, gets saved. I don't travel. I don't like.
+
+01:43:09.100 --> 01:43:13.540
+You know, go here and there. So I have like a 24 hour out of
+
+01:43:13.540 --> 01:43:17.380
+that eight hour of sleep. Remaining is 16 hours. Sleep is
+
+01:43:17.380 --> 01:43:22.080
+very important. Right. Timely sleep. So 16 hours. 16 hours
+
+01:43:22.080 --> 01:43:26.940
+is enough to do everything. If you have 16 hours, you can
+
+01:43:26.940 --> 01:43:31.600
+run 16 companies. Right now, only two are running. Any
+
+01:43:31.600 --> 01:43:34.160
+upcoming batches? Yeah, so many upcoming batches. So we
+
+01:43:34.160 --> 01:43:38.380
+have, you know, onboarded, I think, 12, 13 new mentors. They
+
+01:43:38.380 --> 01:43:42.760
+are very good. Very experienced one. You know, one of them
+
+01:43:42.760 --> 01:43:46.720
+are even from IIT Bombay. One of them are and even like a
+
+01:43:46.720 --> 01:43:50.220
+elder than me. Right. Elder than me. So they have like a 15,
+
+01:43:50.280 --> 01:43:52.500
+16 year of experience in teaching, research, everything.
+
+01:43:53.220 --> 01:43:55.980
+Then there is a mentor for cybersecurity who have written
+
+01:43:55.980 --> 01:43:58.380
+their own books. Likewise, we have onboarded a premium
+
+01:43:58.380 --> 01:44:02.020
+mentors this time. So if you are taking or your friends are
+
+01:44:02.020 --> 01:44:05.320
+taking something from a scalar or grad, right? Same mentor
+
+01:44:05.320 --> 01:44:08.080
+we are onboarding. So there you will get things for 2 lakhs.
+
+01:44:09.880 --> 01:44:15.380
+Here, 500 rupees per month. Mentor is the same. Okay, the
+
+01:44:15.380 --> 01:44:18.220
+one for whom you had to give 2 lakhs, the same education
+
+01:44:18.220 --> 01:44:22.160
+will be done here. That's it. Okay, so we have onboarded
+
+01:44:22.160 --> 01:44:24.560
+that kind of a premium mentor. They have come from there. A
+
+01:44:24.560 --> 01:44:29.240
+lot of them are simply learn and upgrade, UD Reika. We have
+
+01:44:29.240 --> 01:44:32.140
+onboarded them. It was going on since last two weeks. The
+
+01:44:32.140 --> 01:44:35.000
+team was doing that so that, you know, you can save 2 lakhs
+
+01:44:35.000 --> 01:44:41.420
+there. You can use it somewhere else. 3.5 lakhs have been
+
+01:44:41.420 --> 01:44:45.320
+done now. There is no benefit. There is no education. There
+
+01:44:45.320 --> 01:44:48.100
+is no education. See, even I used to get a lot of invite
+
+01:44:48.100 --> 01:44:50.780
+that you go here, study there. I can't go it because I have
+
+01:44:50.780 --> 01:44:55.700
+my own company. Right. So our cementries come there. Okay.
+
+01:44:55.840 --> 01:44:58.680
+This is how things are. You will be the same student after
+
+01:44:58.680 --> 01:45:02.160
+giving 3.5 lakhs. We will be the same teacher. Whether we
+
+01:45:02.160 --> 01:45:07.500
+are taking 1 lakh or 10 lakhs. Right. It's like a teacher
+
+01:45:07.500 --> 01:45:09.080
+student thing, right? EduTech is all about education. It's
+
+01:45:09.080 --> 01:45:14.080
+all about teacher-student things. Okay. Now they say that
+
+01:45:14.080 --> 01:45:16.680
+they will give you the certification and so on. So for that,
+
+01:45:16.740 --> 01:45:19.860
+you give the money. 2.5-3 lakhs. You will get the same
+
+01:45:19.860 --> 01:45:24.280
+amount. Which is being given here for 6,000 rupees. 6,000
+
+01:45:24.280 --> 01:45:28.080
+for a whole year. It's unlimited. Right. It means 500 rupees
+
+01:45:28.080 --> 01:45:31.800
+per month. You will get it after giving 2 lakhs. So we have
+
+01:45:31.800 --> 01:45:35.560
+a lot of people who have given 3 lakhs there. And then they
+
+01:45:35.560 --> 01:45:37.260
+are doing it here. They are getting the benefit from here.
+
+01:45:37.260 --> 01:45:40.000
+They are getting the transition from here. Because the
+
+01:45:40.000 --> 01:45:40.440
+education will be the same.
+
+01:45:46.170 --> 01:45:50.970
+We have done B.Tech for nothing, sir. This is correct. B
+
+01:45:50.970 --> 01:45:54.110
+.Tech is for nothing. B.Tech and MBA both. If you are not
+
+01:45:54.110 --> 01:45:56.850
+from premium college. Premium and super premium college.
+
+01:45:56.950 --> 01:46:01.130
+IITs and NITs. Triple IITs after that. IECs. Right. After
+
+01:46:01.130 --> 01:46:04.330
+that, B.Tech is for nothing. Really. For nothing. I mean
+
+01:46:04.330 --> 01:46:06.310
+like if you invest on yourself for 4 years out of 4 years.
+
+01:46:07.550 --> 01:46:11.750
+And then you will start doing something on your own. To
+
+01:46:11.750 --> 01:46:15.030
+reach out to the client, to make a personal brand. Believe
+
+01:46:15.030 --> 01:46:19.590
+me, within 4 years, you will have enough that you can retire
+
+01:46:19.590 --> 01:46:25.480
+for the rest of your life. That's practically possible. It
+
+01:46:25.480 --> 01:46:30.780
+was best and un-comparable. Yeah, thank you for that. This
+
+01:46:30.780 --> 01:46:33.020
+is really very helpful. Thank you so much for creating.
+
+01:46:33.220 --> 01:46:36.920
+Okay, it's a great community. I know and now you're on.
+
+01:46:37.580 --> 01:46:41.580
+Yeah, even community, right? So like we have allowed
+
+01:46:41.580 --> 01:46:44.520
+everyone to, you know, talk to everyone. Be into a group, do
+
+01:46:44.520 --> 01:46:48.260
+a networking. So no one is stopping you, basically. So do
+
+01:46:48.260 --> 01:46:51.440
+whatever you want. How do you approach the client? To
+
+01:46:51.440 --> 01:46:55.300
+approach the client, first of all, you have to showcase
+
+01:46:55.300 --> 01:46:58.500
+yourself. You have to make a showroom, right? If you go out
+
+01:46:58.500 --> 01:47:01.720
+to sell a car, you can't sell a car on the road, right? You
+
+01:47:01.720 --> 01:47:04.740
+have to make a showroom where people will come, experience
+
+01:47:04.740 --> 01:47:09.000
+different cars, see the comfort, see the mileage, take a
+
+01:47:09.000 --> 01:47:11.740
+test drive, and then eventually sale happens.
+
+01:47:15.090 --> 01:47:18.230
+That's what happens in life. You make your own showroom, you
+
+01:47:18.230 --> 01:47:20.610
+make a project, you make a portfolio. A good one, not a
+
+01:47:20.610 --> 01:47:25.230
+dummy. Not a website with a few pages, okay? A real problem
+
+01:47:25.230 --> 01:47:28.650
+-solving one. You will prepare a good demo for it. You will
+
+01:47:28.650 --> 01:47:30.670
+go and talk to four people, and you will talk about it
+
+01:47:30.670 --> 01:47:35.630
+daily, okay? For six months, let's assume. The journey after
+
+01:47:35.630 --> 01:47:37.670
+making it, I'm telling you. The journey after launching it.
+
+01:47:39.010 --> 01:47:42.750
+Then eventually you have to get a customer. That I can bet
+
+01:47:42.750 --> 01:47:49.800
+you. It won't happen overnight. Again, that's true. Any
+
+01:47:49.800 --> 01:47:52.240
+guidance for freshers? So yeah, start building and start
+
+01:47:52.240 --> 01:47:54.780
+learning things. Don't waste your time in XYZ things.
+
+01:47:55.040 --> 01:47:59.360
+Simple. And don't take advice from everyone, including me.
+
+01:48:00.760 --> 01:48:02.160
+Unless and until it's not required.
+
+01:48:09.020 --> 01:48:11.260
+That's why you're told to create. See, if you're not
+
+01:48:11.260 --> 01:48:16.700
+creating a brand, right? So believe me, you always try to
+
+01:48:16.700 --> 01:48:19.780
+follow actors, cricketers, politicians, right? And anyone,
+
+01:48:19.860 --> 01:48:20.840
+any influencers. But if you don't, you're not going to be
+
+01:48:20.840 --> 01:48:26.500
+successful. Why? Because somehow, you know, you are attached
+
+01:48:26.500 --> 01:48:30.520
+to them in such a way that you just wanted to maybe become
+
+01:48:30.520 --> 01:48:33.400
+them or whatsoever they are doing. You like it, right?
+
+01:48:33.740 --> 01:48:36.080
+Again, you don't follow everyone, right? So you just follow
+
+01:48:36.080 --> 01:48:38.960
+someone who is like aligning with your mindset. You're like
+
+01:48:38.960 --> 01:48:42.180
+a daily routine or something. You're like dislikes. So you
+
+01:48:42.180 --> 01:48:47.120
+just try to like follow that. Now, all of them have one
+
+01:48:47.120 --> 01:48:50.520
+thing in common, a branding, a poster branding. Whether it's
+
+01:48:50.520 --> 01:48:54.140
+a politician, right? Whether it's a, you know, like a
+
+01:48:54.140 --> 01:48:56.920
+company CEO, whether it's an actor, cricketer, everyone. And
+
+01:48:56.920 --> 01:49:00.780
+yeah, so they have created a brand on very, very big label.
+
+01:49:01.500 --> 01:49:05.760
+At least you can create a brand, your own brand, where at
+
+01:49:05.760 --> 01:49:11.560
+least 10,000 people can know you for your work. Right? And
+
+01:49:11.560 --> 01:49:14.260
+that will solve so many problems. Believe me. So start
+
+01:49:14.260 --> 01:49:17.500
+creating your brand. And this is, again, not going to happen
+
+01:49:17.500 --> 01:49:20.320
+overnight. You have to work maybe six months. Eight months.
+
+01:49:21.740 --> 01:49:25.700
+When I say work, I'm not saying that 16, 18, 20 hours. No.
+
+01:49:26.500 --> 01:49:29.740
+It's more about consistency and discipline than number of
+
+01:49:29.740 --> 01:49:33.580
+hours. Right? So 16 hours, 18 hours is not required. Two
+
+01:49:33.580 --> 01:49:37.440
+hours per day. I think that's more than enough. But yes, for
+
+01:49:37.440 --> 01:49:39.480
+a very, very long time with consistency.
+
+01:49:42.480 --> 01:49:44.720
+What will you learn in work and learn? Either business or
+
+01:49:44.720 --> 01:49:47.080
+data science. They don't teach you anything there. There's
+
+01:49:47.080 --> 01:49:53.240
+work there. Work and learn. I mean, work. Who will give you
+
+01:49:53.240 --> 01:49:55.140
+work? Our team will give you work. The client will give you
+
+01:49:55.140 --> 01:49:59.460
+work. You do the work. And then you will learn the work you
+
+01:49:59.460 --> 01:50:02.300
+are doing. That's the pattern there. They don't teach you
+
+01:50:02.300 --> 01:50:04.920
+anything there. There are a lot of internal KTs there. I
+
+01:50:04.920 --> 01:50:08.220
+think it's happening on Tuesday or Friday. That's the
+
+01:50:08.220 --> 01:50:10.580
+schedule of the team. It happens in any company. So they are
+
+01:50:10.580 --> 01:50:14.740
+the part of it. I have an idea of real estate. I'm going to
+
+01:50:14.740 --> 01:50:17.660
+buy a land. He can know who is the real owner because many
+
+01:50:17.660 --> 01:50:23.120
+sites, if you can give. Yeah. Try to build it. Try to market
+
+01:50:23.120 --> 01:50:30.900
+it. Yeah. So I think it should work. Okay, fine, everyone.
+
+01:50:30.980 --> 01:50:33.000
+So I think we had a very good, amazing discussion with all
+
+01:50:33.000 --> 01:50:37.360
+of you. Not just a discussion on Python, but yeah, apart
+
+01:50:37.360 --> 01:50:40.520
+from Python. Also, we had like a lot of things. So with
+
+01:50:40.520 --> 01:50:42.000
+that, thank you so much, everyone. Take care. See you again
+
+01:50:42.000 --> 01:50:45.700
+next class tomorrow. Same time. Thank you, everyone. Take
+
+01:50:45.700 --> 01:50:49.000
+care. And yes, please complete the assignment without using
+
+01:50:49.000 --> 01:50:49.460
+GPT.
+

@@ -1,0 +1,2825 @@
+WEBVTT
+
+00:05:04.460 --> 00:05:07.860
+okay so hi everyone uh good evening i believe i'm audible
+
+00:05:07.860 --> 00:05:11.320
+visible to all of you guys so please confirm okay
+
+00:05:15.930 --> 00:05:17.910
+so okay
+
+00:05:24.920 --> 00:05:27.040
+so fine guys let's start so
+
+00:05:29.340 --> 00:05:32.620
+basically in today's class we'll try to do a little bit of
+
+00:05:32.620 --> 00:05:36.480
+revision of all the mathematical concept which is required
+
+00:05:36.480 --> 00:05:40.220
+going forward to understand each and every machine learning
+
+00:05:40.220 --> 00:05:44.240
+and other concepts yeah so as per the syllabus because from
+
+00:05:44.240 --> 00:05:47.400
+next week onwards we are going to start with the algorithms
+
+00:05:47.400 --> 00:05:51.500
+so there are a couple of concept guys uh which we already
+
+00:05:51.500 --> 00:05:55.920
+know but maybe we are not able to recall it uh maybe we have
+
+00:05:55.920 --> 00:05:59.100
+like you know uh looked into those concept a couple of years
+
+00:05:59.100 --> 00:06:01.900
+back it's
+
+00:06:10.000 --> 00:06:12.880
+been a long long time so maybe we are not able to recall it
+
+00:06:12.880 --> 00:06:17.200
+so we'll try to recall all of these concepts so first of all
+
+00:06:17.200 --> 00:06:21.140
+one by one so let's try to recall a couple of concept uh
+
+00:06:21.140 --> 00:06:22.860
+which all of you guys are familiar with of you are going to
+
+00:06:22.860 --> 00:06:26.860
+encounter and some of these concepts are like a little bit a
+
+00:06:26.860 --> 00:06:31.220
+small or maybe a mid-level but not tough to understand so
+
+00:06:31.220 --> 00:06:34.360
+all of you will be able to understand it so here let's say
+
+00:06:34.360 --> 00:06:37.680
+generally we talk about a vector right so what is vector by
+
+00:06:37.680 --> 00:06:40.680
+the way so in a very simple meaning vector is nothing but
+
+00:06:40.680 --> 00:06:44.180
+and again and again you are going to see these terms called
+
+00:06:44.180 --> 00:06:47.680
+as vector right so vector is nothing but it's a list of
+
+00:06:47.680 --> 00:06:50.080
+numbers so we have already talked about a list in a python
+
+00:06:50.080 --> 00:06:51.820
+so just like that so let's start with a list of numbers so
+
+00:06:51.820 --> 00:06:51.820
+we have already talked about a list in a python so just like
+
+00:06:51.820 --> 00:06:54.760
+that so let's say if i have two comma three comma four so we
+
+00:06:54.760 --> 00:06:58.560
+can say that that this is basically a vector yes this is
+
+00:06:58.560 --> 00:07:01.560
+basically basically a vector in general so whenever we try
+
+00:07:01.560 --> 00:07:05.920
+to represent our data so let's say we have a data frame over
+
+00:07:05.920 --> 00:07:11.760
+here so where we have let's say a student student and then
+
+00:07:11.760 --> 00:07:18.020
+we have a study hour study hours and then we have attendance
+
+00:07:18.020 --> 00:07:19.320
+and
+
+00:07:21.690 --> 00:07:26.490
+then let's suppose we have a score score right so let's say
+
+00:07:26.490 --> 00:07:30.510
+student is a and then study hour is equals to five and then
+
+00:07:30.510 --> 00:07:33.770
+attendance is basically 80 percent and then the score is
+
+00:07:33.770 --> 00:07:37.410
+technically 70 percent so even when when you will try to
+
+00:07:37.410 --> 00:07:40.010
+represent this entire thing so maybe you can try to
+
+00:07:40.010 --> 00:07:43.930
+represent that that for student a this is the vector so five
+
+00:07:43.930 --> 00:07:47.590
+comma eighty comma seven so we are basically trying to
+
+00:07:47.590 --> 00:07:51.090
+represent a data in form of a data frame or maybe we can try
+
+00:07:51.090 --> 00:07:54.330
+to represent it even in this particular manner so let's say
+
+00:07:54.330 --> 00:07:54.330
+we have this vector here so the data frame or the data
+
+00:07:54.330 --> 00:07:54.330
+function of a data frame is a vector and that thing is also
+
+00:07:54.330 --> 00:07:58.470
+called as a vector so vector is nothing but a like a kind of
+
+00:07:58.470 --> 00:08:01.750
+a things kind of an entity so which will be having even a
+
+00:08:01.750 --> 00:08:05.410
+magnitude as well as which will be having a direction at any
+
+00:08:05.410 --> 00:08:09.350
+point of fun time now so whenever we'll be having a vector
+
+00:08:09.350 --> 00:08:12.190
+so how vector addition happens so let's say we have a vector
+
+00:08:12.190 --> 00:08:18.110
+a so 2 comma 3 and then vector b so basically we have like a
+
+00:08:24.210 --> 00:08:27.450
+b is equals to element two element addition position to
+
+00:08:27.450 --> 00:08:30.690
+position addition you will be doing it so two plus four
+
+00:08:30.690 --> 00:08:35.590
+right two plus four and then three plus one so it is going
+
+00:08:35.590 --> 00:08:38.390
+to be let's suppose six and it is going to be four so six
+
+00:08:38.390 --> 00:08:42.370
+comma four is going to be a plus b similarly so if you are
+
+00:08:42.370 --> 00:08:46.890
+trying to do uh scalar multiplications let's say you are
+
+00:08:46.890 --> 00:08:50.070
+trying to say that three a three a means you are trying to
+
+00:08:50.070 --> 00:08:54.130
+multiply three with a three is technically a scalar so if
+
+00:08:54.130 --> 00:08:59.530
+you are trying to do a scalar multiplication right so three
+
+00:09:00.870 --> 00:09:05.230
+so here you can try to say three into two is equals to six
+
+00:09:05.230 --> 00:09:09.110
+and three into three is equals to nine so a scalar and
+
+00:09:09.110 --> 00:09:11.670
+vector multiplication is going to be element by element
+
+00:09:11.670 --> 00:09:16.430
+multiplication as simple as that now if there is a vector so
+
+00:09:16.430 --> 00:09:20.930
+let's say a and b is a and if we have to do a dot product or
+
+00:09:20.930 --> 00:09:25.890
+multiply it right so a dot b is called as or dot product is
+
+00:09:25.890 --> 00:09:28.330
+basically called as vector multiplication vector to vector
+
+00:09:28.330 --> 00:09:31.350
+multiplication so in that situation again it is going to
+
+00:09:31.350 --> 00:09:34.190
+happen with respect to a position to position so it is going
+
+00:09:34.190 --> 00:09:39.990
+to be 2 comma 4 comma 3 cross 1 so 2 cross 4 is equals to 8
+
+00:09:39.990 --> 00:09:44.210
+3 cross 3 is equals to 1 so 8 comma 3 is a final like a
+
+00:09:44.210 --> 00:09:48.430
+answer and yeah so if i am doing this dot product there will
+
+00:09:48.430 --> 00:09:51.450
+be plus in between so 8 plus 3 is equals to 11 so finally i
+
+00:09:51.450 --> 00:09:58.890
+will be having 11 right so 2 into 4 and then 3 into 1 so 8
+
+00:09:58.890 --> 00:10:03.130
+plus 3 yes yeah so this dot product of a and b is going to
+
+00:10:03.130 --> 00:10:06.470
+be basically 11 this is what you will be able to find out as
+
+00:10:06.470 --> 00:10:10.170
+simple as that so this is how uh like you know vector
+
+00:10:10.170 --> 00:10:12.830
+multiplication is going to happen vector with scalar
+
+00:10:12.830 --> 00:10:15.830
+multiplication is going to happen similarly coming to the
+
+00:10:15.830 --> 00:10:18.670
+next point so there is something called as matrices and i
+
+00:10:18.670 --> 00:10:20.910
+believe we all have gone through this matrix concept in
+
+00:10:20.910 --> 00:10:27.430
+class 8 or 9th so m a t r i c e s in case of any question
+
+00:10:27.430 --> 00:10:30.230
+guys so put that question inside a chat box i'll try to
+
+00:10:30.230 --> 00:10:34.210
+answer yeah these concepts are technically like very easy
+
+00:10:34.210 --> 00:10:37.030
+i'm just trying to do a revision of this concept because
+
+00:10:37.030 --> 00:10:39.450
+from next class onwards when we will get into algorithms
+
+00:10:39.450 --> 00:10:44.010
+obviously we need all of these concepts yeah so matrix is
+
+00:10:44.010 --> 00:10:46.170
+nothing but you can say a table of a matrix and then you can
+
+00:10:46.170 --> 00:10:46.170
+say a table of a matrix and then you can say a table of a
+
+00:10:46.170 --> 00:10:49.710
+matrix for example if i'm going to create a matrix a so
+
+00:10:49.710 --> 00:10:53.490
+maybe i can try to represent it in this manner so two cross
+
+00:10:53.490 --> 00:10:57.950
+two matrix so one two three four now this is called as table
+
+00:10:57.950 --> 00:11:01.710
+of a numbers right so means uh multiple rows and multiple
+
+00:11:01.710 --> 00:11:05.090
+columns will be available rows means so these are basically
+
+00:11:05.090 --> 00:11:08.390
+a rows column means these are basically a column so matrix
+
+00:11:08.390 --> 00:11:10.750
+is nothing but a kind of entity where there will be multiple
+
+00:11:10.750 --> 00:11:14.250
+rows and multiple columns and again so in a tabular format
+
+00:11:14.250 --> 00:11:16.150
+you will be able to represent it and then you can say a
+
+00:11:16.150 --> 00:11:16.150
+table of a matrix and then you can say a table of a numbers
+
+00:11:16.170 --> 00:11:20.250
+so here i have taken only one student data right let's say
+
+00:11:20.250 --> 00:11:26.130
+i'm going to take multiple student data so i have a student
+
+00:11:26.130 --> 00:11:30.830
+student study hour attendance
+
+00:11:33.490 --> 00:11:34.970
+score
+
+00:11:36.860 --> 00:11:42.080
+score so there is a student a right so study hour is let's
+
+00:11:42.080 --> 00:11:44.960
+say five and then attendance is let's say eighty percent
+
+00:11:44.960 --> 00:11:48.020
+score is let's say seventy percent there is a student b
+
+00:11:48.020 --> 00:11:52.520
+let's suppose a study hour is six attendance is seventy and
+
+00:11:52.520 --> 00:11:55.920
+then like a score is let's say eighty five there is a
+
+00:11:55.920 --> 00:11:59.860
+student c so let's say study hour is like a two and then
+
+00:11:59.860 --> 00:12:02.860
+attendance is like a twenty percent and then a score is
+
+00:12:02.860 --> 00:12:07.080
+basically sixty yeah so now if i'm going to represent this
+
+00:12:07.080 --> 00:12:10.320
+entire things right if i'm going to represent this entire
+
+00:12:10.320 --> 00:12:14.180
+things so maybe i can try to represent this x of a student
+
+00:12:14.180 --> 00:12:17.400
+or matrix of a student maybe in this particular manner right
+
+00:12:17.400 --> 00:12:22.280
+so five six two five six two eighty seventy twenty eighty
+
+00:12:22.280 --> 00:12:28.680
+seventy twenty score seventy eighty five and then sixty
+
+00:12:28.680 --> 00:12:31.740
+right so this is a matrix which is representing what which
+
+00:12:31.740 --> 00:12:34.780
+is representing technically all of these data set a multiple
+
+00:12:34.780 --> 00:12:37.900
+data set means a multiple rows and multiple columns it is
+
+00:12:37.900 --> 00:12:41.800
+trying to represent ultimately uh whenever you are going to
+
+00:12:41.800 --> 00:12:46.020
+do any kind of operation with respect to uh basically like
+
+00:12:46.020 --> 00:12:50.300
+uh you know with respect to uh anything that you are going
+
+00:12:50.300 --> 00:12:52.220
+to do it in a machine learning or deep learning computer
+
+00:12:52.220 --> 00:12:55.720
+vision ultimately it is going to be a matrix multiplication
+
+00:12:55.720 --> 00:13:00.780
+every data get into a system in this particular manner we
+
+00:13:00.780 --> 00:13:04.620
+think as a data frame as a human but yes on a computer label
+
+00:13:04.620 --> 00:13:08.780
+so on a actual like a machine so matrix multiplication or
+
+00:13:08.780 --> 00:13:12.320
+matrix addition or matrix subtraction or matrix division all
+
+00:13:12.320 --> 00:13:15.820
+of these things happens frequently i would say not all but
+
+00:13:15.820 --> 00:13:18.720
+yes frequently so system always try to treat your data in a
+
+00:13:18.720 --> 00:13:22.760
+vector and matrices and on a very low level obviously 0 and
+
+00:13:22.760 --> 00:13:28.100
+1 binary so this is basically a matrix right now let's say
+
+00:13:28.100 --> 00:13:30.880
+we are trying to do a matrix to vector multiplication so
+
+00:13:30.880 --> 00:13:33.320
+let's say we have a matrix uh i'm going to take a simple
+
+00:13:33.320 --> 00:13:38.140
+example 1 2 3 and 4. this is matrix 2 cross 2 right so 2
+
+00:13:38.140 --> 00:13:42.180
+cross 2 matrices and then we have a vector let's say i have
+
+00:13:42.180 --> 00:13:49.340
+uh 5 and then i have a 6. so here like a 2 cross 2 2 row 2
+
+00:13:49.340 --> 00:13:53.720
+column so here we have 2 cross 1 as simple as that so 2
+
+00:13:53.720 --> 00:13:56.480
+cross 1. so as this one and this one is equal so yes
+
+00:13:56.480 --> 00:13:59.580
+multiplication is possible now whenever you are going to do
+
+00:13:59.580 --> 00:14:03.420
+a matrix multiplication so ax whenever you will try to
+
+00:14:03.420 --> 00:14:12.170
+perform so it is going to happen in this manner so 1 3 2 4
+
+00:14:12.170 --> 00:14:20.110
+and then 5 6 right so this will be multiplied by this one
+
+00:14:20.110 --> 00:14:23.770
+and again this will be multiplied by this one so this is
+
+00:14:23.770 --> 00:14:30.450
+going to be 1 cross 5 plus 2 cross 6 and
+
+00:14:33.360 --> 00:14:41.200
+it is going to be 3 cross 5 plus 4 cross 6. so 1 cross 5 is
+
+00:14:41.200 --> 00:14:45.480
+5 6 cross 2 is equals to 12 so it's going to be a 17 and
+
+00:14:45.480 --> 00:14:48.920
+then it is going to be uh 5 cross 3 is equal to 15 6 cross
+
+00:14:48.920 --> 00:14:55.450
+uh 24 so it is going to be 39. okay maybe uh let me check
+
+00:14:55.450 --> 00:15:00.390
+the dimension okay i
+
+00:15:03.140 --> 00:15:12.160
+think there is a issue so we are doing a of x so a of x a is
+
+00:15:12.160 --> 00:15:20.900
+2 cross 2 and then this is x is 2 cross 1 right so it should
+
+00:15:20.900 --> 00:15:26.480
+give me 2 cross 1 means 2 row 1 column okay yeah that's the
+
+00:15:26.480 --> 00:15:31.840
+reason so i have changed 3 and 4 and then here so even last
+
+00:15:31.840 --> 00:15:33.640
+time i made the exact same mistake
+
+00:15:36.730 --> 00:15:42.770
+so this with this one and this with this one so 1 cross 5
+
+00:15:42.770 --> 00:15:53.950
+plus 2 cross 6 3 cross 4 plus 4 cross 6 right so this is
+
+00:15:53.950 --> 00:15:59.730
+going to be 17 and 39 so this is going to be my 2 cross 1
+
+00:15:59.730 --> 00:16:02.810
+matrix is 2 row 1 column now i think it's correct right guys
+
+00:16:02.810 --> 00:16:06.920
+yes okay
+
+00:16:09.770 --> 00:16:12.370
+so matrix multiplication this is how you can do the matrix
+
+00:16:12.370 --> 00:16:18.330
+multiplication uh so to do a matrix multiplication column of
+
+00:16:18.330 --> 00:16:21.970
+first and row of second must be equal then you will be able
+
+00:16:21.970 --> 00:16:27.190
+to get matrix with this dimension very very simple right now
+
+00:16:27.190 --> 00:16:30.650
+moving ahead so there is something called as egan value and
+
+00:16:30.650 --> 00:16:33.210
+egan vector you will be able to find out in a matrix
+
+00:16:33.210 --> 00:16:37.230
+multiplication itself and we are going to uh like see this
+
+00:16:37.230 --> 00:16:40.570
+kind of egan value egan vector decomposition in a pca kind
+
+00:16:40.570 --> 00:16:42.430
+of things there is something called as principal component
+
+00:16:42.430 --> 00:16:46.090
+analysis and in that so we generally try to encounter egan
+
+00:16:46.090 --> 00:16:50.730
+value egan vector kind of things now what this says so let's
+
+00:16:50.730 --> 00:16:54.090
+talk about that first egan value in egan vector what is the
+
+00:16:54.090 --> 00:16:56.250
+meaning of egan value what is the meaning of egan vector
+
+00:16:56.790 --> 00:17:05.160
+very common term egan value and eigen vector
+
+00:17:07.530 --> 00:17:10.490
+we'll try to explain you in a very very simple manner so
+
+00:17:10.490 --> 00:17:14.150
+that you can remember for a very long time so here what
+
+00:17:14.150 --> 00:17:17.890
+happens so whenever we try to uh you know do a matrix
+
+00:17:17.890 --> 00:17:23.490
+transformations right so in that situation so matrix is
+
+00:17:23.490 --> 00:17:27.150
+going to change or vector is going to change its dimension
+
+00:17:27.150 --> 00:17:30.150
+whenever whenever we are going to do a transformation right
+
+00:17:30.150 --> 00:17:34.830
+but there are some special vector you will be able to see uh
+
+00:17:34.830 --> 00:17:40.690
+which is not going to change the direction they are
+
+00:17:40.690 --> 00:17:43.990
+compressed or they generally get compressed and this special
+
+00:17:43.990 --> 00:17:48.170
+kind of a vector where dimension direction is not going to
+
+00:17:48.170 --> 00:17:50.350
+change a special kind of vector where direction is actually
+
+00:17:50.350 --> 00:17:56.200
+not going to change but it is getting like a compressed or
+
+00:17:56.200 --> 00:17:59.320
+stressed in the same direction so technically that is called
+
+00:17:59.320 --> 00:18:04.720
+as egan vector right looks difficult to understand right so
+
+00:18:04.720 --> 00:18:07.840
+let's try to understand it in this particular manner so
+
+00:18:07.840 --> 00:18:11.300
+formula says that that there is a matrix a and then there is
+
+00:18:11.300 --> 00:18:16.500
+a vector v is equals to lambda into vector v yeah what is
+
+00:18:16.500 --> 00:18:20.420
+the meaning of this one so here let me write it down a is
+
+00:18:20.420 --> 00:18:25.160
+nothing but let's say i am considering it as a matrix matrix
+
+00:18:25.160 --> 00:18:27.760
+v is nothing but egan
+
+00:18:30.510 --> 00:18:34.670
+vector lambda is nothing but egan value egan
+
+00:18:37.200 --> 00:18:40.740
+value now this is basically a formula let's take an example
+
+00:18:40.740 --> 00:18:43.000
+because with the help of example it will be easy for you to
+
+00:18:43.000 --> 00:18:49.280
+understand so here a let's say i am considering 2 and 0 and
+
+00:18:49.280 --> 00:18:55.420
+then 0 and 3 okay so this is my a and let's say the we have
+
+00:18:55.420 --> 00:19:01.140
+a vector v vector v so which is basically 1 and 0 so we have
+
+00:19:01.140 --> 00:19:05.420
+a matrix a we have a vector v over here now if we are going
+
+00:19:05.420 --> 00:19:09.260
+to do a and v so a into v as per the matrix multiplication
+
+00:19:09.260 --> 00:19:15.460
+that we have done above right so it is going to be two zero
+
+00:19:15.460 --> 00:19:19.100
+simple multiply this with this and then this with this as
+
+00:19:19.100 --> 00:19:22.840
+simple as that you will be able to get two zero right you
+
+00:19:22.840 --> 00:19:26.400
+will be able to get two zero now if you will look into this
+
+00:19:26.400 --> 00:19:30.900
+two zero right which is a multiplication of a and v if you
+
+00:19:30.900 --> 00:19:34.440
+will look into this two zero you will be able to find out
+
+00:19:34.440 --> 00:19:39.940
+that this two zero vector is actually equal to this v vector
+
+00:19:39.940 --> 00:19:49.280
+can i say that but in terms of a direction can i say that
+
+00:19:49.280 --> 00:19:52.820
+that this vector a v which is a multiplication of a into v
+
+00:19:52.820 --> 00:19:58.400
+is the same as this vector v in terms of a direction right
+
+00:19:58.400 --> 00:20:03.400
+so it's only a matter of fact that that this vector is
+
+00:20:03.400 --> 00:20:08.080
+actually stressed stretched by what so just try to take out
+
+00:20:08.080 --> 00:20:11.840
+two and can i say that i can rewrite the same vector in this
+
+00:20:11.840 --> 00:20:15.620
+manner so this v is actually this particular vector right so
+
+00:20:15.620 --> 00:20:20.680
+we have two so two is a scalar quantity right two is a
+
+00:20:20.680 --> 00:20:24.000
+scalar quantity so we have just stretched it by two and this
+
+00:20:24.000 --> 00:20:26.780
+is the this is how where we are able to prove the formula
+
+00:20:26.780 --> 00:20:31.260
+that matrix a v is equals to lambda so what is the lambda
+
+00:20:31.260 --> 00:20:34.920
+value lambda is actually two right and then same vector
+
+00:20:34.920 --> 00:20:39.960
+right same vector one and zero so this is the formula we are
+
+00:20:39.960 --> 00:20:43.440
+able to prove it that matrix into vector v is equals to
+
+00:20:43.440 --> 00:20:47.980
+lambda into this one so this is basically a spatial vector i
+
+00:20:47.980 --> 00:20:51.080
+was talking about so v is what v is basically a spatial
+
+00:20:51.080 --> 00:20:55.500
+vector it's called as eigenvector lambda is what lambda is
+
+00:20:55.500 --> 00:20:59.860
+basically eigenvalue now where you are going to use it so
+
+00:20:59.860 --> 00:21:05.300
+wherever uh you don't want to right you don't want to change
+
+00:21:05.300 --> 00:21:09.560
+the actual property or direction of the vector you wanted to
+
+00:21:09.560 --> 00:21:13.460
+return you retain that particular part but you would like to
+
+00:21:13.460 --> 00:21:17.020
+stretch or compress means lambda right you would like to
+
+00:21:17.020 --> 00:21:17.340
+stretch or compress lambda right you would like to stretch
+
+00:21:17.340 --> 00:21:20.700
+and compress so if you have to convert a data so where
+
+00:21:20.700 --> 00:21:23.560
+technically we are going to use it so think in this manner
+
+00:21:23.560 --> 00:21:27.980
+yeah think in this manner a is my actual data right a is my
+
+00:21:27.980 --> 00:21:32.780
+actual data yes so basically whenever we have to represent
+
+00:21:32.780 --> 00:21:37.980
+my actual data in some other form right by using some other
+
+00:21:37.980 --> 00:21:43.040
+like you know vector where i don't want to lose the
+
+00:21:43.040 --> 00:21:45.940
+direction because this is the like significance of the
+
+00:21:45.940 --> 00:21:48.580
+vector that if you are not losing a direction it simply
+
+00:21:48.580 --> 00:21:52.640
+means that that you are able to retain your actual nature a
+
+00:21:52.640 --> 00:21:56.160
+property right maybe on you you are trying to stretch it or
+
+00:21:56.160 --> 00:21:58.100
+you are trying to like you know expand it that's completely
+
+00:21:58.100 --> 00:22:02.240
+fine but yeah you are not losing your actual property of the
+
+00:22:02.240 --> 00:22:05.280
+vector so this is where this you know this formula
+
+00:22:05.280 --> 00:22:07.680
+eigenvector and eigenvalue will come into picture so where
+
+00:22:07.680 --> 00:22:11.360
+we have to convert our data technically a into some other
+
+00:22:11.360 --> 00:22:14.920
+format and this is where you are going to use this one
+
+00:22:14.920 --> 00:22:19.540
+inside pcas right principal component analysis so where a
+
+00:22:19.540 --> 00:22:23.000
+large column a data where we have let's suppose 100 columns
+
+00:22:23.000 --> 00:22:26.320
+so how we can try to compress those data into two or three
+
+00:22:26.320 --> 00:22:29.080
+columns so that i don't have to go and you know train a
+
+00:22:29.080 --> 00:22:32.160
+model with hundreds of columns so this is where this
+
+00:22:32.160 --> 00:22:34.960
+eigenvector and eigenvalue comes into picture so you have to
+
+00:22:34.960 --> 00:22:39.000
+find out a spatial vector for example for this one we are
+
+00:22:39.000 --> 00:22:42.520
+able to find out a spatial vector one zero which is even and
+
+00:22:42.520 --> 00:22:45.920
+this spatial value this is called as eigenvalue we are able
+
+00:22:45.920 --> 00:22:47.200
+to find out a value of lambda and we are able to find out a
+
+00:22:47.200 --> 00:22:50.220
+value of lambda by which i will be able to represent my
+
+00:22:50.220 --> 00:22:54.520
+original matrix a very very simple so this is where this
+
+00:22:54.520 --> 00:22:58.780
+term has been actually used in machine learning use cases
+
+00:22:58.780 --> 00:23:01.580
+right and every time you will end up using it because
+
+00:23:01.580 --> 00:23:06.720
+direction is important right uh like a value is not that
+
+00:23:06.720 --> 00:23:09.780
+important yes so this helps us to reduce basically the
+
+00:23:09.780 --> 00:23:15.480
+dimension okay so this is this now let's move ahead right
+
+00:23:17.220 --> 00:23:21.380
+talk about a little bit of the calculus yeah so old concept
+
+00:23:21.380 --> 00:23:25.480
+i believe we all have learned that so let's say guys uh we
+
+00:23:25.480 --> 00:23:30.440
+have x is equals to or f of x y
+
+00:23:32.390 --> 00:23:37.810
+is equals to x square now if i'm going to ask you that what
+
+00:23:37.810 --> 00:23:42.810
+is dy by dx yeah what is dy by dx i
+
+00:23:48.760 --> 00:23:51.600
+believe we all know the answer right believe we all know the
+
+00:23:51.600 --> 00:23:55.960
+answer so basically dy by dx is nothing but going to be 2x
+
+00:23:55.960 --> 00:24:01.440
+so for anything in terms of calculus so f of x is x to the
+
+00:24:01.440 --> 00:24:05.880
+power n so it's derivative so rate of change of this with
+
+00:24:05.880 --> 00:24:12.020
+respect to x right is going to be n into x to the power n
+
+00:24:12.020 --> 00:24:15.100
+minus 1 so when you are trying to basically do a
+
+00:24:15.100 --> 00:24:19.380
+differentiation with respect to this one now can anyone tell
+
+00:24:19.380 --> 00:24:24.820
+me that what is the meaning of this dy by dx anyone what is
+
+00:24:24.820 --> 00:24:25.100
+the meaning of this dy by dx anyone what is the meaning of
+
+00:24:25.100 --> 00:24:26.320
+this dy by dx anyone what is the meaning layman meaning
+
+00:24:26.320 --> 00:24:29.480
+basically what is the meaning of derivative by the way so
+
+00:24:29.480 --> 00:24:32.160
+what you will be able to understand by finding out a
+
+00:24:32.160 --> 00:24:33.840
+derivative derivative
+
+00:24:36.310 --> 00:24:40.930
+means slope keith is saying okay what else rate of change
+
+00:24:40.930 --> 00:24:43.450
+fine yes it's the rate of change a
+
+00:24:49.340 --> 00:24:52.440
+rate of change with respect to a particular entity like x
+
+00:24:52.440 --> 00:24:54.660
+okay fine yeah
+
+00:24:57.380 --> 00:25:01.040
+so yes this is what it means right so it is technically a
+
+00:25:01.040 --> 00:25:04.500
+slope the way one thing is changing with respect to other
+
+00:25:04.500 --> 00:25:09.620
+right so here when i'm saying dy by dx so how y will change
+
+00:25:09.620 --> 00:25:14.080
+with respect to x so if x is moving if x is like a you know
+
+00:25:14.080 --> 00:25:17.260
+increasing or decreasing how y will increase and decrease
+
+00:25:17.260 --> 00:25:21.060
+yeah so this is what it is trying to represent so this value
+
+00:25:21.060 --> 00:25:24.040
+is something which is trying to represent how y is going to
+
+00:25:24.040 --> 00:25:29.180
+move when x is technically moving at the end of the day so
+
+00:25:29.180 --> 00:25:31.440
+somebody is saying that how much does y changes when x
+
+00:25:31.440 --> 00:25:34.360
+changes exactly that that that's what it means right so when
+
+00:25:34.360 --> 00:25:38.000
+one axis is changing one axis is moving then how other axes
+
+00:25:38.000 --> 00:25:42.020
+will move by what volume uh value by the way so this is what
+
+00:25:42.020 --> 00:25:45.100
+dy by dx always try to signifies and i believe we all have
+
+00:25:45.100 --> 00:25:49.460
+studied that since a childhood right now let's say y is
+
+00:25:49.460 --> 00:25:53.580
+equals to 2 what is our dy by dx yes
+
+00:25:57.290 --> 00:25:59.790
+what is dy by dx zero
+
+00:26:01.770 --> 00:26:07.110
+right zero why what is the reason so when i say right when i
+
+00:26:07.110 --> 00:26:11.490
+say y is equals to 2 right y is equals to 2 so this is my
+
+00:26:11.870 --> 00:26:16.070
+axis and this is my y axis this is my origin y is equal to 2
+
+00:26:16.070 --> 00:26:18.430
+means what let's say somewhere over here i'm trying to
+
+00:26:18.430 --> 00:26:22.470
+represent y is equals to 2 right y is equals to 2 now rate
+
+00:26:22.470 --> 00:26:26.270
+of change of y with respect to x why it is zero right
+
+00:26:26.270 --> 00:26:29.590
+because this is constant right this is constant doesn't even
+
+00:26:29.590 --> 00:26:32.850
+depends upon the x in a formula this is doesn't even depends
+
+00:26:32.850 --> 00:26:35.830
+upon the x so there is no moment of or there is no not even
+
+00:26:35.830 --> 00:26:38.950
+a question of moment of x so if there is no question of
+
+00:26:38.950 --> 00:26:41.850
+moment of x then how y is going to depend upon that and so
+
+00:26:41.850 --> 00:26:41.890
+this is my y axis this is my y axis this is my y axis and
+
+00:26:41.890 --> 00:26:44.110
+that's the reason so basically if there is a constant that
+
+00:26:44.110 --> 00:26:48.330
+you are trying to derive it is going to be basically with
+
+00:26:48.330 --> 00:26:51.010
+respect to a constant so it is always going to be zero right
+
+00:26:51.010 --> 00:26:58.330
+it is always going to be zero now now so this is called as
+
+00:26:58.330 --> 00:27:03.750
+this dy by dx that we are trying to write down dy by dx is
+
+00:27:03.750 --> 00:27:07.810
+called as what derivative right it's basically called as
+
+00:27:07.810 --> 00:27:09.450
+derivative derivative
+
+00:27:13.890 --> 00:27:16.850
+in physics chemistry mathematics or maybe in a machine
+
+00:27:16.850 --> 00:27:20.130
+learning you all are going to get this term again and again
+
+00:27:20.130 --> 00:27:22.550
+and again called as gradient gradient
+
+00:27:25.010 --> 00:27:28.330
+anyone who can tell me what is a difference between
+
+00:27:28.330 --> 00:27:31.230
+derivative and a gradient yes
+
+00:27:42.850 --> 00:27:43.690
+a
+
+00:27:46.500 --> 00:27:49.340
+difference between derivative and gradient or is it same
+
+00:27:49.340 --> 00:27:50.360
+yeah
+
+00:27:52.570 --> 00:27:57.790
+is it same so derivative is a slope of the curve okay okay
+
+00:27:57.790 --> 00:28:02.970
+but again i'm not able to understand even derivative is like
+
+00:28:02.970 --> 00:28:02.970
+a slope of the curve so derivative is a slope of the curve
+
+00:28:02.990 --> 00:28:06.670
+like a slope or tangent somehow yeah
+
+00:28:10.900 --> 00:28:15.200
+is it same or is it like a different derivative and gradient
+
+00:28:20.650 --> 00:28:24.130
+gradient can be multi-dimensional exactly that's a point
+
+00:28:24.130 --> 00:28:28.550
+actually see so whenever you say dy by dx so whenever you
+
+00:28:28.550 --> 00:28:32.450
+are trying to basically find out a changes with respect to
+
+00:28:32.450 --> 00:28:36.690
+one variable then in that case it's called as derivative for
+
+00:28:36.690 --> 00:28:39.070
+example here we are trying to find out the changes with
+
+00:28:39.070 --> 00:28:42.250
+respect to x right only one variable so in that situation
+
+00:28:42.250 --> 00:28:44.910
+what we can see we can say that okay fine it's a derivative
+
+00:28:44.910 --> 00:28:49.510
+but when we are trying to find out a derivative with respect
+
+00:28:49.510 --> 00:28:53.070
+to a multiple variable so in that situation it's technically
+
+00:28:53.070 --> 00:28:58.090
+called as gradient for example so let's say we have some a
+
+00:28:58.090 --> 00:29:01.910
+function which depends upon x and y so we have x square and
+
+00:29:01.910 --> 00:29:06.550
+we have y square okay fine now if i'm going to ask you df by
+
+00:29:06.550 --> 00:29:12.390
+dx what is the answer and if i'm going to ask you df by dy
+
+00:29:12.390 --> 00:29:15.370
+what is the answer tell me guys yes
+
+00:29:18.180 --> 00:29:20.220
+tell me yes
+
+00:29:32.610 --> 00:29:35.730
+so can i say that df by dx so this is going to be constant
+
+00:29:35.730 --> 00:29:39.210
+so it is going to be 2x and this is going to be my 2y right
+
+00:29:39.210 --> 00:29:44.090
+so here if i'm going to ask you that what is a derivative so
+
+00:29:44.090 --> 00:29:46.770
+this is derivative this is derivative but if i'm going to
+
+00:29:46.770 --> 00:29:49.430
+ask you that what is a gradient so gradient is nothing but
+
+00:29:49.430 --> 00:29:55.690
+so this one is going to be basically 2x and 2y this is my
+
+00:29:55.690 --> 00:29:59.990
+gradient so rate of change of this function with respect to
+
+00:29:59.990 --> 00:30:03.550
+x and with respect to y so with respect to both the axis we
+
+00:30:03.550 --> 00:30:06.150
+are trying to find out so this is what is called as gradient
+
+00:30:06.150 --> 00:30:10.550
+gradient means multi yeah multi as simple as that now there
+
+00:30:10.550 --> 00:30:13.090
+is something called as on the same line right there is
+
+00:30:13.090 --> 00:30:15.830
+something called as chain rule yeah so there is something
+
+00:30:15.830 --> 00:30:19.950
+called as chain rule and very important rule by the way all
+
+00:30:19.950 --> 00:30:22.210
+of you are going to see it from a next class onwards
+
+00:30:22.210 --> 00:30:26.230
+multiple times right multiple times over here so basically
+
+00:30:26.230 --> 00:30:30.130
+chain rule in a very simple term if i have to explain you so
+
+00:30:30.130 --> 00:30:35.630
+chain rule is basically will be used right when one function
+
+00:30:35.630 --> 00:30:39.970
+is inside a another function right means there is a function
+
+00:30:39.970 --> 00:30:43.770
+inside a function so in that situation we are going to use a
+
+00:30:43.770 --> 00:30:47.630
+chain rule to find out the derivative okay fine that's
+
+00:30:47.630 --> 00:30:51.330
+theory right so let's say i'm writing over here y is equals
+
+00:30:51.330 --> 00:30:59.230
+to 3x plus 2 of a square fine 3 plus 2 uh let's say uh this
+
+00:30:59.230 --> 00:31:03.170
+inner one i'm going to consider that as a function so let's
+
+00:31:03.170 --> 00:31:06.610
+suppose i'm going to name it as a u so u is equals to 3x
+
+00:31:06.610 --> 00:31:10.730
+plus 2 i can say y is equal to u square maybe i can
+
+00:31:10.730 --> 00:31:13.530
+represent in this manner u is equals to what 3x plus 2 this
+
+00:31:13.530 --> 00:31:17.810
+is the inner so u is again one function and then y is equals
+
+00:31:17.810 --> 00:31:23.370
+to u square is a another function so here what i can say so
+
+00:31:23.370 --> 00:31:26.890
+i can maybe like you know try to write down the derivative
+
+00:31:27.250 --> 00:31:34.990
+basically dy by dx dy by dx in this manner so dy by dx let's
+
+00:31:34.990 --> 00:31:42.110
+say y with respect to u so dy with respect to u and u with
+
+00:31:42.110 --> 00:31:45.710
+respect to x eventually if you will like you know cancel
+
+00:31:45.710 --> 00:31:50.230
+this out it will be dy by dx so my whole point over here is
+
+00:31:50.230 --> 00:31:54.610
+to that when there is a chance that you have a function
+
+00:31:54.610 --> 00:31:57.430
+inside a function that you can try to represent so whenever
+
+00:31:57.430 --> 00:32:00.750
+you have to find out a derivative you can try to find out
+
+00:32:00.750 --> 00:32:04.610
+derivative even in this particular manner which is going to
+
+00:32:04.610 --> 00:32:07.590
+be very very useful so first of all you will try to find out
+
+00:32:07.590 --> 00:32:12.510
+dy by du and dy dx so you are going to find out so now tell
+
+00:32:12.510 --> 00:32:17.290
+me guys what is dy by du what is dy by du can i say dy by du
+
+00:32:17.290 --> 00:32:23.210
+is nothing but 2u right and what is du by dx so u is what du
+
+00:32:23.210 --> 00:32:28.150
+by dx du by dx so can i say du by dx is nothing but 3 right
+
+00:32:28.150 --> 00:32:32.770
+three so it is going to be three into two six u yeah can i
+
+00:32:32.770 --> 00:32:39.040
+say it is going to be six u yes everyone yeah
+
+00:32:41.020 --> 00:32:47.440
+so fine in terms of u i am able to represent so dy by dx dy
+
+00:32:47.440 --> 00:32:53.820
+by dx is nothing but six and then what is my u so u is 3x
+
+00:32:53.820 --> 00:32:59.580
+plus 2 simple substitute it over here right so 3x so for x
+
+00:32:59.580 --> 00:33:02.560
+is equals to 2 if someone is telling me that what is dy by
+
+00:33:02.560 --> 00:33:07.000
+dx what will be the coordinate so 6 into 3 into 2 plus 2 is
+
+00:33:07.000 --> 00:33:09.920
+equal to 3 into 2 is equal to 6 plus 8 8 into 6 is equal to
+
+00:33:09.920 --> 00:33:15.200
+48 yeah so 48 is the answer if x is equal to 2 so how much y
+
+00:33:15.200 --> 00:33:19.900
+will change y will change 48 unit right 48 unit so this is
+
+00:33:19.900 --> 00:33:24.200
+something called as chain rule principle simple so if there
+
+00:33:24.200 --> 00:33:26.480
+is a function inside a function so i can try to take some
+
+00:33:26.480 --> 00:33:30.220
+other variable replace that function eventually in a later
+
+00:33:30.220 --> 00:33:32.400
+stage i mean i will try to replace it with the other
+
+00:33:32.400 --> 00:33:34.240
+functions yeah so
+
+00:33:39.360 --> 00:33:42.680
+this is basically called as guys chain rule from a very
+
+00:33:42.680 --> 00:33:46.400
+first class itself i am going to use this chain rule formula
+
+00:33:46.400 --> 00:33:52.280
+by the way yeah okay now you
+
+00:33:58.100 --> 00:34:02.460
+will be able to see uh again uh from next class onwards very
+
+00:34:02.460 --> 00:34:05.760
+common term called as gradient descent in a machine learning
+
+00:34:05.760 --> 00:34:09.340
+deep learning or in any kind of a learning gradient descent
+
+00:34:09.340 --> 00:34:12.200
+is something which has been used all the time right without
+
+00:34:12.200 --> 00:34:15.040
+gradient descent you are not going to study even a single
+
+00:34:15.040 --> 00:34:18.300
+algorithm more or less even neural network right uh even
+
+00:34:18.300 --> 00:34:20.840
+like this transform architecture anything anything depends
+
+00:34:20.840 --> 00:34:25.220
+upon actually a gradient descent what is the meaning of that
+
+00:34:25.220 --> 00:34:30.080
+right what is the meaning of that so a gradient descent
+
+00:34:30.080 --> 00:34:34.780
+simply means that i'm just going to explain you on a very
+
+00:34:34.780 --> 00:34:37.360
+high level today because next class we have to do a
+
+00:34:37.360 --> 00:34:40.080
+derivation we have to do a complete derivation by using the
+
+00:34:40.080 --> 00:34:44.500
+chain rule we'll try to derive it so if anything new you
+
+00:34:44.500 --> 00:34:47.960
+have to find out so anything new is nothing but anything old
+
+00:34:47.960 --> 00:34:53.480
+right anything old basically minus we try to take eta and
+
+00:34:53.480 --> 00:34:58.220
+then we try to basically take a rate of change of loss with
+
+00:34:58.220 --> 00:35:03.820
+respect to this entity so this is something which is coming
+
+00:35:03.820 --> 00:35:08.620
+from a gradient descent this is technically called as what
+
+00:35:08.620 --> 00:35:09.860
+gradient
+
+00:35:12.650 --> 00:35:15.830
+right and we have already seen that that what is the
+
+00:35:15.830 --> 00:35:18.550
+difference between gradient and derivative so gradient is
+
+00:35:18.550 --> 00:35:21.250
+nothing but it depends upon two factors or more factors
+
+00:35:21.250 --> 00:35:24.950
+right derivative is nothing but it depends upon only one
+
+00:35:24.950 --> 00:35:27.530
+factor so this is something that we have to learn and if you
+
+00:35:27.530 --> 00:35:29.830
+are able to understand this equation only this equation
+
+00:35:29.830 --> 00:35:32.910
+believe me more or less you will be able to understand and
+
+00:35:32.910 --> 00:35:36.610
+even explain the machine learning part right which we are
+
+00:35:36.610 --> 00:35:39.190
+going to do it in a immediate next saturday class it will
+
+00:35:39.190 --> 00:35:42.570
+take like a half an hour 45 minute of time just to explain
+
+00:35:42.570 --> 00:35:45.810
+you this concept but yes once you are able to understand
+
+00:35:45.810 --> 00:35:49.270
+this concept it simply means you will be able to understand
+
+00:35:49.270 --> 00:35:53.810
+how machine actually learns right any machines right how
+
+00:35:53.810 --> 00:35:57.210
+machines are actually going to learn so that will come into
+
+00:35:57.210 --> 00:36:01.410
+that kind of a discussion now moving ahead right moving
+
+00:36:01.410 --> 00:36:07.510
+ahead so let's talk about uh like you know probability again
+
+00:36:07.510 --> 00:36:09.330
+child concept probability
+
+00:36:11.470 --> 00:36:14.650
+i think we all know what is the meaning of probability so
+
+00:36:14.650 --> 00:36:16.970
+probability is nothing but number of favorable outcome
+
+00:36:16.970 --> 00:36:19.670
+divided by total possible outcome this is what is called as
+
+00:36:19.670 --> 00:36:24.390
+probability so probability for any event is nothing but
+
+00:36:24.390 --> 00:36:29.690
+number of number of possible
+
+00:36:31.360 --> 00:36:32.680
+outcomes
+
+00:36:34.530 --> 00:36:38.830
+divided by total okay
+
+00:36:41.200 --> 00:36:48.860
+sorry number of favorable outcome total outcomes possible
+
+00:36:48.860 --> 00:36:53.600
+let's say right very simple and we all know that it will
+
+00:36:53.600 --> 00:36:57.080
+range in between zero to one at the end of the day so beyond
+
+00:36:57.080 --> 00:37:00.520
+like below zero and beyond one it is never going to stretch
+
+00:37:00.520 --> 00:37:04.440
+itself so here if we are like you know tossing we are doing
+
+00:37:04.440 --> 00:37:09.800
+a toss so basically like probability of head i think we all
+
+00:37:09.800 --> 00:37:13.680
+know it's going to be one by two so there is a 50 chance or
+
+00:37:13.680 --> 00:37:16.660
+there is a 0.5 of probability that i will be able to get a
+
+00:37:16.660 --> 00:37:21.220
+head i will be able to get a tell same so dice i think dice
+
+00:37:21.220 --> 00:37:26.360
+example so if dice will be having one two three four five
+
+00:37:26.360 --> 00:37:29.620
+six so probability of getting any number one two three four
+
+00:37:29.620 --> 00:37:32.900
+so priority of getting any number is going to be one by six
+
+00:37:32.900 --> 00:37:35.940
+at any point of a time which is applicable for all of these
+
+00:37:35.940 --> 00:37:41.620
+numbers right for all of these numbers now so uh here this
+
+00:37:41.620 --> 00:37:45.840
+is where probability is right at the end of the day so here
+
+00:37:45.840 --> 00:37:49.440
+basically inside a probability you will be able to find out
+
+00:37:49.440 --> 00:37:52.840
+there is something called as probability distribution and
+
+00:37:52.840 --> 00:37:55.240
+there are different different distribution you will be able
+
+00:37:55.240 --> 00:38:01.580
+to find out so probability probability distribution
+
+00:38:05.670 --> 00:38:13.060
+right okay probability distribution so here if i'll talk
+
+00:38:13.060 --> 00:38:16.740
+about basically uh like a probability distribution so
+
+00:38:16.740 --> 00:38:19.940
+basically it always try to explain or it always try to tells
+
+00:38:19.940 --> 00:38:25.420
+us that what value a random variable can take and how
+
+00:38:25.420 --> 00:38:30.240
+basically like a chance or likelihood of getting one values
+
+00:38:30.240 --> 00:38:31.180
+with respect to the probability distribution so here if i
+
+00:38:31.180 --> 00:38:31.200
+talk about basically like a probability distribution or
+
+00:38:31.200 --> 00:38:34.780
+other values so in terms of dice as i have already mentioned
+
+00:38:34.780 --> 00:38:38.900
+so the likelihood of or chance of getting one is one by six
+
+00:38:38.900 --> 00:38:42.300
+two is one by six three by one by six one by six one by six
+
+00:38:42.300 --> 00:38:46.000
+one by six so in terms of probability distribution if i have
+
+00:38:46.000 --> 00:38:51.260
+to represent basically right relative distribution if i have
+
+00:38:51.260 --> 00:38:55.720
+to represent so one two three four five six it is going to
+
+00:38:55.720 --> 00:39:00.280
+be one by six one by six one by six one by six one by six
+
+00:39:00.280 --> 00:39:03.880
+one by six right this is going to be the probability
+
+00:39:03.880 --> 00:39:07.420
+distribution if you are going to do a addition of this one
+
+00:39:07.420 --> 00:39:11.640
+it is going to be one at the end of the day one by six so if
+
+00:39:11.640 --> 00:39:13.920
+you're going to combine all this distribution this is
+
+00:39:13.920 --> 00:39:16.600
+distribution distribution distribution distribution for all
+
+00:39:16.600 --> 00:39:21.200
+the possible event it is eventually going to be one right it
+
+00:39:21.200 --> 00:39:24.780
+is eventually going to be one so probability distribution is
+
+00:39:24.780 --> 00:39:30.360
+nothing but for one element or any element in like a in a
+
+00:39:30.360 --> 00:39:34.200
+particular what is a likelihood or what is the probability
+
+00:39:34.200 --> 00:39:38.640
+of its occurrence as simple as that now in the same line you
+
+00:39:38.640 --> 00:39:41.140
+will be able to find out a different different kind of a
+
+00:39:41.140 --> 00:39:44.200
+distribution let's talk about it because these time these
+
+00:39:44.200 --> 00:39:48.540
+things we will be like you know using it going forward so
+
+00:39:48.540 --> 00:39:50.320
+there is something called as Bernoulli's distribution
+
+00:39:50.320 --> 00:39:51.780
+Bernoulli's
+
+00:39:53.830 --> 00:39:56.870
+Bernoulli's distribution now
+
+00:40:02.440 --> 00:40:04.960
+what is the meaning of this Bernoulli's distribution and
+
+00:40:04.960 --> 00:40:07.980
+where this Bernoulli's distribution will be used so
+
+00:40:07.980 --> 00:40:10.160
+Bernoulli's distribution simply says that it's one of the
+
+00:40:10.160 --> 00:40:12.900
+simplest distribution by the way right out of all the
+
+00:40:12.900 --> 00:40:15.800
+distribution so Bernoulli's distribution says that that
+
+00:40:15.800 --> 00:40:19.740
+whenever there will be only two outcome only two right only
+
+00:40:19.740 --> 00:40:22.840
+two outcomes success failure yes no pass fail kind of things
+
+00:40:22.840 --> 00:40:26.840
+you know clicked not clicked kind of things so you can try
+
+00:40:26.840 --> 00:40:31.480
+to basically use me right you can try to basically use me
+
+00:40:31.480 --> 00:40:35.720
+and yeah so only one trial and two outcome kind of a
+
+00:40:35.720 --> 00:40:39.500
+situation right only one outcome one trial two outcome kind
+
+00:40:39.500 --> 00:40:42.320
+of a situation so this is where Bernoulli's distribution
+
+00:40:42.320 --> 00:40:46.720
+comes into picture so for example if I'm saying that that
+
+00:40:46.720 --> 00:40:52.400
+student has 70 percent chance that he or she is going to
+
+00:40:52.400 --> 00:40:56.300
+pass the exam fine he or she is going to pass the exam the
+
+00:40:56.300 --> 00:41:10.080
+student has student has 70 percent chance to pass the exam
+
+00:41:10.080 --> 00:41:12.980
+right so if this is the statement that I have so in that
+
+00:41:12.980 --> 00:41:18.040
+case probability of pass will be what 0.7 and eventually
+
+00:41:18.040 --> 00:41:23.220
+probability of fail is going to be what is going to be 0.30
+
+00:41:23.220 --> 00:41:27.780
+simple right 0.30 so this is what Bernoulli's distribution
+
+00:41:27.780 --> 00:41:31.940
+represent all the time and the simplest of all the existing
+
+00:41:31.940 --> 00:41:34.920
+distribution you will be able to find out then after
+
+00:41:34.920 --> 00:41:37.540
+Bernoulli's you should also know something called as
+
+00:41:37.540 --> 00:41:38.960
+binomial distribution you should also know something called
+
+00:41:38.960 --> 00:41:41.580
+as binomial distribution little bit tough formula wise
+
+00:41:41.580 --> 00:41:45.040
+binomial distribution
+
+00:41:49.460 --> 00:41:53.820
+now what this binomial distribution says right so binomial
+
+00:41:53.820 --> 00:41:59.500
+distribution says that that you are supposed to use me right
+
+00:41:59.500 --> 00:42:05.460
+when we repeat the Bernoulli's experiment multiple times so
+
+00:42:05.460 --> 00:42:09.580
+when we are going to repeat this experiment this experiment
+
+00:42:09.580 --> 00:42:12.940
+means two outcomes experiment right two outcome kind of
+
+00:42:12.940 --> 00:42:15.540
+experiment and then multiple times so in that case you can
+
+00:42:15.540 --> 00:42:20.880
+try to use me yeah for example if a coin has been tossed
+
+00:42:20.880 --> 00:42:24.920
+three times so we all know that if one time I'm tossing the
+
+00:42:24.920 --> 00:42:27.820
+coin head or tail only two outcome simply means it's a
+
+00:42:27.820 --> 00:42:32.220
+Bernoulli right Bernoulli two times again second times it's
+
+00:42:32.220 --> 00:42:34.120
+a Bernoulli third times again it's a Bernoulli so
+
+00:42:34.120 --> 00:42:37.520
+individually every time it is a Bernoulli but let's suppose
+
+00:42:37.520 --> 00:42:41.520
+if someone is asking you a question that out of these three
+
+00:42:41.520 --> 00:42:44.420
+times you have tossed the coin you are going what is the
+
+00:42:44.420 --> 00:42:50.620
+probability of getting exactly two head right two head then
+
+00:42:50.620 --> 00:42:55.100
+this binomial will come into picture yeah then so if
+
+00:42:55.100 --> 00:42:59.380
+individual event is in bernoulli in this nature the above
+
+00:42:59.380 --> 00:43:02.940
+one right two outcome is in nature but it is happening
+
+00:43:02.940 --> 00:43:05.760
+multiple times means bernoulli is happening multiple times
+
+00:43:05.760 --> 00:43:08.580
+and then out of that you have to find out the probability
+
+00:43:08.580 --> 00:43:12.240
+then what will who will come into picture binomial comes
+
+00:43:12.240 --> 00:43:15.440
+into picture is it making sense guys how to remember
+
+00:43:15.440 --> 00:43:18.860
+binomial and connection between bernoulli and binomial yes
+
+00:43:18.860 --> 00:43:24.860
+okay let's do it so here formula i am going to write so k
+
+00:43:24.860 --> 00:43:33.240
+times right so it's nothing but n of k p to the power k 1
+
+00:43:33.240 --> 00:43:38.120
+minus p to the power n minus k now what is the value meaning
+
+00:43:38.120 --> 00:43:43.980
+of this n so n is nothing but number of trials number of
+
+00:43:43.980 --> 00:43:55.060
+trials what is k so number of number of success and what is
+
+00:43:55.060 --> 00:44:00.790
+p p is nothing but probability of success probability of
+
+00:44:00.790 --> 00:44:07.530
+success okay fine now now let's talk about it yeah let's
+
+00:44:07.530 --> 00:44:13.590
+talk about it so here problem says that that coin is there
+
+00:44:13.770 --> 00:44:18.910
+right so i have tossed a coin three times fine i'm writing a
+
+00:44:18.910 --> 00:44:21.490
+problem statement so i have tossed
+
+00:44:25.970 --> 00:44:27.390
+a coin
+
+00:44:29.560 --> 00:44:38.220
+three times what is a probability that
+
+00:44:41.010 --> 00:44:44.930
+i will be getting
+
+00:44:47.950 --> 00:44:54.690
+head two times yes everyone yeah so let's talk about it so
+
+00:44:54.690 --> 00:44:55.030
+let's talk about it so let's talk about it so number of
+
+00:44:55.030 --> 00:44:58.870
+trial what is the value of n n is equal to three what is the
+
+00:44:58.870 --> 00:45:02.490
+number of success i'm looking for two so k is equal to
+
+00:45:02.490 --> 00:45:06.150
+basically what two what is our probability of success so
+
+00:45:06.150 --> 00:45:09.750
+what is our probability of getting head by the way 0.5 right
+
+00:45:09.750 --> 00:45:15.730
+so basically p is equal to 0.5 so we have n k and p now put
+
+00:45:15.730 --> 00:45:18.730
+those values over there and then you will be able to get it
+
+00:45:18.730 --> 00:45:26.130
+what is this n of k guys yes what is this n of k yes
+
+00:45:29.270 --> 00:45:30.530
+it's
+
+00:45:40.450 --> 00:45:42.710
+a permutation or combination yes
+
+00:45:47.250 --> 00:45:50.010
+is it a permutation or combination okay
+
+00:45:57.560 --> 00:46:01.780
+someone is saying combination someone is saying like uh find
+
+00:46:07.030 --> 00:46:09.870
+me the value this one find me the value find
+
+00:46:18.740 --> 00:46:24.620
+me the value guys for this one yes so majority of people are
+
+00:46:24.620 --> 00:46:26.540
+saying combination so yeah technically it's a combination
+
+00:46:26.540 --> 00:46:29.740
+and whenever you have to do a combination so let's say n of
+
+00:46:29.740 --> 00:46:33.040
+k so generally we write if you are going to break it down so
+
+00:46:33.040 --> 00:46:37.220
+it's n c k by the way and n c k is nothing but factorial of
+
+00:46:37.220 --> 00:46:43.580
+n divided by factorial of k n minus k factorial this is what
+
+00:46:43.580 --> 00:46:46.820
+it means so this is what this n of k or n c k you can say
+
+00:46:46.820 --> 00:46:49.900
+it's a combination right okay
+
+00:46:53.780 --> 00:46:57.240
+so now do it tell me what is the value quick
+
+00:46:59.700 --> 00:47:02.540
+guys everyone i believe you have a calculator in your mobile
+
+00:47:02.540 --> 00:47:03.680
+okay
+
+00:47:08.000 --> 00:47:11.980
+so g1 is saying that it's 0.37 so answer is going to be 0.37
+
+00:47:11.980 --> 00:47:15.580
+let me put that into a formula so formula wise p of success
+
+00:47:15.580 --> 00:47:16.180
+is equal to 0.37 so answer is going to be 0.37 so let me put
+
+00:47:16.180 --> 00:47:22.680
+that into a formula so it's going to be n of so basically
+
+00:47:22.680 --> 00:47:26.900
+three trial two success and then p to the power so basically
+
+00:47:26.900 --> 00:47:33.680
+0.5 to the power basically k 1 minus p basically 0.5 once
+
+00:47:33.680 --> 00:47:39.300
+again and then above to the power what n minus k so 3 minus
+
+00:47:39.300 --> 00:47:43.200
+k 3 minus k means 3 minus 2 is equals to 1 right now if you
+
+00:47:43.200 --> 00:47:48.180
+are going to do it in a 2 factorial 2 means what so 3
+
+00:47:48.180 --> 00:47:52.080
+factorial divided by 2 factorial 3 minus 2 1 factorial yeah
+
+00:47:52.080 --> 00:47:57.240
+1 factorial so what is 3 factorial 3 into 2 into 1 right and
+
+00:47:57.240 --> 00:48:00.000
+then 2 factorial so 2 into 1 cross cross so is equals to
+
+00:48:00.000 --> 00:48:05.580
+basically 3 into right 3 into 0.5 of a square is equals to 0
+
+00:48:05.580 --> 00:48:11.860
+.25 and then into 0.5 so technically it is going to be 0.375
+
+00:48:11.860 --> 00:48:19.240
+yeah this is the answer so there is a 0.375 probability or
+
+00:48:19.240 --> 00:48:23.700
+37.5 percent probability that you will be able to get two
+
+00:48:23.700 --> 00:48:32.780
+head in three trials make sense everyone yes
+
+00:48:35.820 --> 00:48:40.940
+good okay so i believe now we are able to understand this
+
+00:48:40.940 --> 00:48:44.940
+bernoulli's distribution and a binomial distribution how
+
+00:48:44.940 --> 00:48:48.640
+these two distributions are actually like connected with
+
+00:48:48.640 --> 00:48:51.880
+each other right then there is something called as normal
+
+00:48:51.880 --> 00:48:54.900
+distribution yeah i believe we all know the normal
+
+00:48:54.900 --> 00:48:58.280
+distribution normal okay
+
+00:49:03.820 --> 00:49:06.460
+so what is this guys normal distribution i believe we all
+
+00:49:06.460 --> 00:49:07.840
+have studied z
+
+00:49:10.970 --> 00:49:14.310
+is equal to data minus mean divided by standard
+
+00:49:17.510 --> 00:49:21.750
+deviation yeah so basically normal distribution is nothing
+
+00:49:21.750 --> 00:49:24.470
+but a bell-shaped curve and a standard normal distribution
+
+00:49:24.470 --> 00:49:28.270
+is again coming from normal distribution itself so where
+
+00:49:28.270 --> 00:49:29.470
+average
+
+00:49:32.130 --> 00:49:35.090
+is equal to zero standard deviation is equal to one right so
+
+00:49:35.090 --> 00:49:37.590
+this is something that we have already studied so many times
+
+00:49:37.590 --> 00:49:42.850
+fine then there is uh something called as uh you will be
+
+00:49:42.850 --> 00:49:48.700
+able to find out a base theorem coming from probability
+
+00:49:48.700 --> 00:49:50.260
+itself base
+
+00:49:52.630 --> 00:49:56.570
+theorem now what base theorem says let me write it down so
+
+00:49:56.570 --> 00:50:00.030
+probability of a when b has already happened is equals to
+
+00:50:00.030 --> 00:50:04.450
+probability of b when a has already happened into
+
+00:50:04.450 --> 00:50:08.810
+probability of a divided by there is a base algorithm we are
+
+00:50:08.810 --> 00:50:13.730
+going to study probability of b this is what a base theorem
+
+00:50:13.730 --> 00:50:20.550
+says so base theorem always helps us out in terms of update
+
+00:50:22.880 --> 00:50:25.920
+the probability when new information arrives this is where
+
+00:50:25.920 --> 00:50:28.420
+uh basically like uh you know this base theorem comes into
+
+00:50:28.420 --> 00:50:33.380
+picture it simply says that that probability of a happening
+
+00:50:33.380 --> 00:50:38.160
+right when b has already happened yeah b has already
+
+00:50:38.160 --> 00:50:40.240
+happened so this is what it means this is what it means when
+
+00:50:40.240 --> 00:50:40.420
+b has already happened so this is what it means this is how
+
+00:50:40.420 --> 00:50:43.580
+you read out this particular term so probability of a
+
+00:50:43.580 --> 00:50:47.320
+happening when b has already happened so probability of you
+
+00:50:47.320 --> 00:50:52.580
+know uh getting an admission into an iit right when i have
+
+00:50:52.580 --> 00:50:55.360
+already received this much of a score something like that
+
+00:50:55.360 --> 00:50:57.880
+right probability of happening one thing when something has
+
+00:50:57.880 --> 00:51:02.120
+already happened this comes under like a base theorem so
+
+00:51:02.120 --> 00:51:04.400
+whenever you will be having this kind of a situation so we
+
+00:51:04.400 --> 00:51:07.420
+are going to use a base theorem and then uh with the help of
+
+00:51:07.420 --> 00:51:12.640
+like you know that we are going to basically solve it yes so
+
+00:51:12.640 --> 00:51:17.720
+this is one of the theorem that you are supposed to know and
+
+00:51:17.720 --> 00:51:22.110
+you are supposed to understand base theorem is something
+
+00:51:22.110 --> 00:51:27.250
+that we have like a complete independent class on that so
+
+00:51:27.250 --> 00:51:30.770
+there is algorithm called as naive bias algorithm over there
+
+00:51:30.770 --> 00:51:35.170
+we are going to use this particular formula now in machine
+
+00:51:35.170 --> 00:51:38.490
+learning or in data science you will be able to find out
+
+00:51:38.490 --> 00:51:41.950
+another sum of the term so i think most of us are familiar
+
+00:51:41.950 --> 00:51:45.690
+with those term but yeah let's try to revise those terms so
+
+00:51:45.690 --> 00:51:52.170
+there is something called as entropy e-n-t-r-o-p-y i believe
+
+00:51:52.170 --> 00:51:54.610
+we all have studied this entropy term in chemistry
+
+00:51:57.810 --> 00:52:02.470
+yeah so maybe in terms of like gas so whenever entropy of
+
+00:52:02.470 --> 00:52:06.270
+gas gas is high or gas is low something like that i believe
+
+00:52:06.290 --> 00:52:09.730
+believe we all have studied right guys anyone who can tell
+
+00:52:09.730 --> 00:52:13.650
+me what is the meaning of entropy in a layman manner what is
+
+00:52:13.650 --> 00:52:16.090
+the actual meaning of those entropies in terms of chemistry
+
+00:52:16.090 --> 00:52:21.130
+itself you can tell me a measure of disorderness okay
+
+00:52:21.130 --> 00:52:25.350
+disorder randomness yes that's true yeah so basically
+
+00:52:25.350 --> 00:52:29.230
+entropy as people have already mentioned so it always try to
+
+00:52:29.230 --> 00:52:34.410
+measure the uncertainty right so how uncertain or how random
+
+00:52:34.410 --> 00:52:40.450
+this particular event is so if entropy is high it simply
+
+00:52:40.450 --> 00:52:43.970
+means that more randomness more uncertainty or more
+
+00:52:43.970 --> 00:52:49.530
+confusion yeah confusion if entropy is less then less
+
+00:52:49.530 --> 00:52:53.310
+confusion for example there are so many technology out there
+
+00:52:53.310 --> 00:52:57.170
+to understand to study so people comes to me and say that
+
+00:52:57.170 --> 00:53:00.810
+that i'm looking for a good life good job which technology?
+
+00:53:01.150 --> 00:53:05.710
+i'm supposed to study more options more confusion right
+
+00:53:05.710 --> 00:53:09.470
+let's say there is only one option learn ai and get into
+
+00:53:09.470 --> 00:53:15.010
+industry less option less confusion so this is how you can
+
+00:53:15.010 --> 00:53:18.990
+relate basically a entropy right formula wise entropy says
+
+00:53:18.990 --> 00:53:30.110
+that that negative of summation of p of x log of base 2 p of
+
+00:53:31.430 --> 00:53:36.290
+x so this is what uh like entropy term uh always try to
+
+00:53:36.290 --> 00:53:39.570
+represent let's try to solve one problem and with the help
+
+00:53:39.570 --> 00:53:43.130
+of one problem so let's try to you know uh understand it
+
+00:53:43.130 --> 00:53:46.030
+yeah so let's say i have a coin i'll take very simple
+
+00:53:46.030 --> 00:53:49.790
+example i have a coin i'm going to toss it right i'm going
+
+00:53:49.790 --> 00:53:53.070
+to toss it so what is the probability fair coin fair coin
+
+00:53:53.070 --> 00:53:55.890
+means equal possibility so what is the probability of
+
+00:53:55.890 --> 00:54:03.270
+getting head by default fair coin y 0.5 tail again 0.5 is
+
+00:54:03.270 --> 00:54:06.370
+the probability okay fine so
+
+00:54:08.320 --> 00:54:12.980
+head and tail now someone is going to ask you that what will
+
+00:54:12.980 --> 00:54:17.860
+be the entropy yeah what will be the entropy so what will be
+
+00:54:17.860 --> 00:54:21.200
+the entropy by the way so let's calculate the entropy first
+
+00:54:21.200 --> 00:54:26.020
+of all so what is the entropy of head and tail so here i can
+
+00:54:26.020 --> 00:54:30.060
+try to calculate that entropy of head is going to be minus
+
+00:54:30.060 --> 00:54:35.740
+of let's say i'm taking it outside uh 0.5 p of x by the way
+
+00:54:35.740 --> 00:54:41.900
+and then log of base 2 0.5 plus right we have this is for
+
+00:54:41.900 --> 00:54:46.840
+head let's say then for tail so same thing 0.5 log of 2
+
+00:54:46.840 --> 00:54:51.800
+because there are two events 0.5 yes so if you are going to
+
+00:54:51.800 --> 00:54:54.460
+do a math if you are going to do a calculation you will be
+
+00:54:54.460 --> 00:55:00.400
+able to find out that h is equals to one right one bit you
+
+00:55:00.400 --> 00:55:07.340
+can say right so basically this coin was fair means chances
+
+00:55:07.340 --> 00:55:10.440
+of getting head chances of getting tail both was equal it
+
+00:55:10.440 --> 00:55:15.940
+was a fair coin right so fair coin has a maximum uncertainty
+
+00:55:15.940 --> 00:55:17.500
+can
+
+00:55:19.550 --> 00:55:24.630
+i say that guys fair coin is having a maximum uncertainty
+
+00:55:24.630 --> 00:55:28.510
+can i say that its entropy is very very high yes
+
+00:55:31.070 --> 00:55:35.850
+fair coin will be having maximum uncertainty okay fine maybe
+
+00:55:35.850 --> 00:55:39.210
+some of you will not agree with me so let's do one thing
+
+00:55:39.210 --> 00:55:45.710
+yeah let's try to take unfair coin so probability of head is
+
+00:55:45.710 --> 00:55:49.910
+equals to 0.9 yeah this is the unfair coin by the way if
+
+00:55:49.910 --> 00:55:53.570
+probability of head is 0.9 i'm writing and probability of
+
+00:55:53.570 --> 00:55:59.530
+tail is equals to 0.1 right now if you will try to calculate
+
+00:55:59.530 --> 00:56:06.010
+the entropy so minus of taking it outside so 0.9 and log of
+
+00:56:06.010 --> 00:56:14.670
+base 2 0.9 is equal to 0.9 plus 0.1 log of base 2 0.1 right
+
+00:56:14.670 --> 00:56:20.610
+this one now if i'm going to calculate this entire things h
+
+00:56:20.610 --> 00:56:29.790
+is going to be 0.0469 69 so here entropy is less why entropy
+
+00:56:29.790 --> 00:56:34.050
+is less because we are very much certain that in majority of
+
+00:56:34.050 --> 00:56:38.590
+cases head is going to come from 0.9 means there is less
+
+00:56:38.590 --> 00:56:42.890
+randomness right less than i was like less uncertainty i can
+
+00:56:42.890 --> 00:56:45.970
+say let's guess work right let's guess work so i was pretty
+
+00:56:45.970 --> 00:56:49.530
+much certain that what i will be able to get as an outcome
+
+00:56:49.530 --> 00:56:54.870
+is it making sense guys everyone yeah the meaning of entropy
+
+00:56:54.870 --> 00:57:00.970
+by the way yes yes okay now there is an entropy term uh we
+
+00:57:00.970 --> 00:57:03.370
+will try to understand again and again and again i like
+
+00:57:03.370 --> 00:57:06.230
+we'll use it so we are trying we have already understood
+
+00:57:06.230 --> 00:57:09.690
+this thing now there is something called as cross entropy c
+
+00:57:09.690 --> 00:57:13.490
+r o double s cross entropy what is that let's try to
+
+00:57:13.490 --> 00:57:14.910
+understand so
+
+00:57:18.110 --> 00:57:20.710
+i believe we all are able to revise our childhood concepts
+
+00:57:20.710 --> 00:57:25.210
+right guys so cross entropy says that formula wise negative
+
+00:57:25.210 --> 00:57:37.290
+of summation of y i log of y i to the hat yeah so this y i
+
+00:57:37.290 --> 00:57:44.790
+is nothing but actual actual label and y hat is nothing but
+
+00:57:44.790 --> 00:57:46.490
+a predict predict
+
+00:57:50.430 --> 00:57:55.250
+predicted means prediction and then actual data so this was
+
+00:57:55.250 --> 00:57:58.410
+the actual data this was the like predicted data so what
+
+00:57:58.410 --> 00:58:01.570
+cross entropy does so cross entropy always try to measure
+
+00:58:01.570 --> 00:58:08.430
+that how bad our predicted probability is compared to actual
+
+00:58:08.430 --> 00:58:13.350
+in a simple manner right so let's say we are like uh you
+
+00:58:13.350 --> 00:58:16.910
+know there is actual value right and we are now predicting
+
+00:58:16.910 --> 00:58:21.170
+it predicting some values so for example today is a match
+
+00:58:21.170 --> 00:58:26.300
+right i think today is a final match finally like after two
+
+00:58:26.300 --> 00:58:30.440
+three months yeah who is who is playing like this this match
+
+00:58:30.440 --> 00:58:35.580
+is between which one which and which team okay gt versus rcb
+
+00:58:35.580 --> 00:58:39.260
+what is the gt rcb i know i live in bangalore right so this
+
+00:58:39.260 --> 00:58:43.040
+is long time what is the gt okay must be must be some okay
+
+00:58:43.040 --> 00:58:45.280
+must be must be some team oh we are right that's fine got it
+
+00:58:45.280 --> 00:58:47.440
+got it got it so yeah that's I mean, like there is a match,
+
+00:58:47.540 --> 00:58:52.860
+right? So let's say Gujarat is going to win or maybe RCB is
+
+00:58:52.860 --> 00:58:57.020
+going to win. It's fine. Whoever is going to win. So like,
+
+00:58:57.120 --> 00:58:59.940
+you know, so that will be the actual win and there is a
+
+00:58:59.940 --> 00:59:03.780
+prediction, right? So basically this cross entropy is going
+
+00:59:03.780 --> 00:59:07.600
+to measure or do a comparison between the actual and the
+
+00:59:07.600 --> 00:59:11.060
+predicted one. This is what cross entropy does, basically.
+
+00:59:11.220 --> 00:59:15.220
+So how it will always try to measure that how bad basically
+
+00:59:15.220 --> 00:59:21.000
+our prediction is, our probability is. IPL fever, sir. Yes,
+
+00:59:21.020 --> 00:59:23.340
+finally it is going to be over after two and three months.
+
+00:59:24.040 --> 00:59:26.320
+And I'm assuming that there is no major event which is
+
+00:59:26.320 --> 00:59:29.640
+coming, right? In a coming month. So people can focus in
+
+00:59:29.640 --> 00:59:30.600
+their life and study.
+
+00:59:36.970 --> 00:59:39.170
+Otherwise, everyone is just running after the entertainment
+
+00:59:39.170 --> 00:59:44.410
+since last two and three months. Oh, FIFA is coming. Fine. I
+
+00:59:44.410 --> 00:59:51.580
+mean... Yeah. At least the FIFA, right? It's the
+
+00:59:51.580 --> 00:59:57.580
+international, like a thing, game. AI layoff also. No, AI is
+
+00:59:57.580 --> 01:00:00.600
+layoff. Obviously, AI layoff will happen. You can't expect
+
+01:00:00.600 --> 01:00:03.180
+that that if you are not adopting things, you will be
+
+01:00:03.180 --> 01:00:07.080
+relevant into industry and industry will keep you. People
+
+01:00:07.080 --> 01:00:10.040
+are doing hiring as well. But yes, media, social media,
+
+01:00:10.160 --> 01:00:13.580
+everyone is trying to highlight just layoff. They are not
+
+01:00:13.580 --> 01:00:16.740
+highlighting the hiring terms. There are hiring, which is
+
+01:00:16.740 --> 01:00:20.580
+like going on in every organization. Because everyone is
+
+01:00:20.580 --> 01:00:23.600
+adopting AI, right? Now, if everyone is adopting AI, every
+
+01:00:23.600 --> 01:00:25.920
+small and big companies are adopting AI, obviously, they
+
+01:00:25.920 --> 01:00:29.700
+need people to implement that, right? They are firing
+
+01:00:29.700 --> 01:00:32.740
+because some set of people are not capable enough to adopt
+
+01:00:32.740 --> 01:00:36.320
+those things in majority of the situation, right? And again,
+
+01:00:36.420 --> 01:00:38.840
+the other reason is obviously cost cutting so that they can
+
+01:00:38.840 --> 01:00:41.800
+spend more on infra side. That's again a real story. I'm not
+
+01:00:41.800 --> 01:00:45.660
+denying that. But yeah, even hiring is going on. So be
+
+01:00:45.660 --> 01:00:49.480
+ready. So here, this cross entropy is going to do up. You
+
+01:00:49.480 --> 01:00:52.820
+know, prediction or measure, basically, your actual versus
+
+01:00:52.820 --> 01:00:56.160
+the predicted one. So how bad your prediction is, this is
+
+01:00:56.160 --> 01:01:05.580
+something that is going to measure. Yeah, okay. So there is
+
+01:01:05.580 --> 01:01:08.220
+something called as KL divergence. I would like to highlight
+
+01:01:08.220 --> 01:01:11.080
+over here. There is something called as term called as KL
+
+01:01:11.080 --> 01:01:12.640
+divergence. What it does.
+
+01:01:20.340 --> 01:01:23.460
+So KL divergence. So KL divergence basically compared to
+
+01:01:23.460 --> 01:01:27.760
+probability distribution. The cross entropy was measuring to
+
+01:01:27.760 --> 01:01:30.640
+probability. There are two predictions. So basically, like a
+
+01:01:30.640 --> 01:01:34.020
+predicted one versus the actual one. And how bad my
+
+01:01:34.020 --> 01:01:36.780
+prediction is. So here, this KL divergence basically
+
+01:01:36.780 --> 01:01:37.380
+compares
+
+01:01:40.080 --> 01:01:44.600
+compares to probability distribution.
+
+01:01:54.360 --> 01:02:01.000
+Yeah. So formula for the scale divergence is. Let's suppose
+
+01:02:01.000 --> 01:02:03.580
+P and Q is something we are comparing, which is a
+
+01:02:03.580 --> 01:02:09.700
+probability distribution. So summation of P of X of log.
+
+01:02:17.370 --> 01:02:22.510
+Yeah. So this is basically a formula for a KL divergence.
+
+01:02:22.950 --> 01:02:26.510
+Yes. So basically, it always tried to measure the
+
+01:02:26.510 --> 01:02:29.570
+distribution. Yeah. It always tried to like basically
+
+01:02:29.570 --> 01:02:34.490
+calculate that how these two distributions are like related
+
+01:02:34.490 --> 01:02:37.010
+to each other or how these two distributions are basically
+
+01:02:37.010 --> 01:02:43.110
+comparable to each other. Yes. So this is a KL divergence,
+
+01:02:43.210 --> 01:02:46.130
+guys. You want me to show some mathematical example on this?
+
+01:02:46.270 --> 01:02:51.890
+Yeah. I can do that, by the way. Yeah. Okay. So let's let me
+
+01:02:51.890 --> 01:02:55.150
+give you some example here. So there is a one distribution
+
+01:02:55.150 --> 01:03:01.690
+that I'm going to take. I'm going to call it as a true, true
+
+01:03:05.630 --> 01:03:11.390
+distribution. Fine. So there is a like a cat. And then there
+
+01:03:11.390 --> 01:03:17.130
+is a dog class. Fine. So probability of getting cat as a
+
+01:03:17.130 --> 01:03:20.370
+prediction is 0.7. Probability of getting dog as a
+
+01:03:20.370 --> 01:03:23.990
+prediction. Is 0.3. This is my true, true distribution
+
+01:03:23.990 --> 01:03:30.380
+probability distribution. Yes. Now predicted, predicted
+
+01:03:30.380 --> 01:03:31.680
+distribution.
+
+01:03:35.660 --> 01:03:40.280
+It says that that for cat, probability is basically
+
+01:03:40.280 --> 01:03:46.660
+prediction wise 0.6. And for dog, it's basically 0.4. So now
+
+01:03:46.660 --> 01:03:49.920
+I have to do a comparison between my true distribution and
+
+01:03:49.920 --> 01:03:52.540
+the predicted distribution. So this is where I can try to
+
+01:03:52.540 --> 01:03:57.020
+use basically this KL divergence formula. Right. So let's
+
+01:03:57.020 --> 01:04:03.720
+write it down. So D of KL divergent formula wise. So P of Q
+
+01:04:03.720 --> 01:04:08.640
+is equals to 0.7 log of.
+
+01:04:14.630 --> 01:04:28.330
+Yes. Log of 0.7 divided by 0.6 plus 0.3 log of 0.3 divided
+
+01:04:28.330 --> 01:04:29.930
+by 0.4.
+
+01:04:33.670 --> 01:04:40.940
+Right. So here we are trying to compare if you will see dog,
+
+01:04:41.100 --> 01:04:47.400
+dog, cat, cat. So 0.7 versus 0.6, 0.7 versus 0.6, 0.3 versus
+
+01:04:47.400 --> 01:04:51.680
+0.4, 0.3 versus 0.4. Simple, simple. Right. Cat, cat. So
+
+01:04:51.680 --> 01:04:54.840
+comparison true versus predicted, true versus predicted, and
+
+01:04:54.840 --> 01:04:59.520
+then 0.3 true versus predicted. Okay. Now here, answer wise,
+
+01:04:59.600 --> 01:05:02.140
+you will be able to get, if you're going to solve this
+
+01:05:02.140 --> 01:05:07.760
+entire problem. Right. You will be able to get a L
+
+01:05:07.760 --> 01:05:13.000
+divergence is equals to 0.0214.
+
+01:05:14.580 --> 01:05:19.940
+Yeah. So KL divergence is very, very small. So I can say
+
+01:05:19.940 --> 01:05:23.700
+that, that in this situation, when KL divergence is very,
+
+01:05:23.800 --> 01:05:26.920
+very small, it simply means that, that my true distribution
+
+01:05:26.920 --> 01:05:32.560
+is very, very close to my predicted distribution. Why say
+
+01:05:32.560 --> 01:05:35.200
+versa? My predicted distribution is very, very close to my
+
+01:05:35.200 --> 01:05:40.100
+true distribution, which looks like, obviously, because even
+
+01:05:40.100 --> 01:05:42.340
+if you will look into the data, it's very, very close,
+
+01:05:42.420 --> 01:05:45.540
+right? Very, very close. It's very, very close. Yeah. So
+
+01:05:45.540 --> 01:05:48.840
+it's not very far. If you are going to take a very extreme
+
+01:05:48.840 --> 01:05:52.460
+value, for example, cat is equal to 0.1 dog is equal to 0.9.
+
+01:05:52.520 --> 01:05:56.360
+Your KL divergence value is going to be explored. Right. It
+
+01:05:56.360 --> 01:05:59.560
+simply means that, that there is a huge difference between
+
+01:05:59.560 --> 01:06:05.740
+the predicted one and the actual one. So basically this
+
+01:06:05.740 --> 01:06:09.200
+formulas has been used to cross entropy or KL divergence
+
+01:06:09.200 --> 01:06:12.440
+formulas has been used. So when you try to train the
+
+01:06:12.440 --> 01:06:16.420
+algorithm and then you try to test the algorithm that, okay,
+
+01:06:16.440 --> 01:06:20.700
+how, like, you know, my, how good my prediction is done by
+
+01:06:20.700 --> 01:06:24.420
+my model done by my learning basically as compared to the
+
+01:06:24.420 --> 01:06:28.600
+expected one. Right. So this is one of the example. And this
+
+01:06:28.600 --> 01:06:33.160
+is the like KL divergence formula. So I hope I don't video.
+
+01:06:33.300 --> 01:06:36.580
+See, remember the term, right? Remember the term, like what
+
+01:06:36.580 --> 01:06:39.540
+KL divergence does, what cross entropy does, what is the
+
+01:06:39.540 --> 01:06:42.880
+meaning of a entropy? All of these things you should know,
+
+01:06:43.000 --> 01:06:46.460
+and you should remember it should be on your fingertips at
+
+01:06:46.460 --> 01:06:49.580
+any point of a time. If you are preparing for a data
+
+01:06:49.580 --> 01:06:52.480
+science, if you're preparing for the machine learning, not
+
+01:06:52.480 --> 01:06:55.080
+difficult to understand, right? Most of the things are
+
+01:06:55.080 --> 01:06:57.540
+coming from your ninth, 10th standard, or maybe eighth
+
+01:06:57.540 --> 01:06:58.640
+standard mathematics.
+
+01:07:01.210 --> 01:07:04.690
+Yeah. And there are not many terms by the way, right? Only
+
+01:07:04.690 --> 01:07:07.970
+this much. You have to remember only this much and some time
+
+01:07:07.970 --> 01:07:10.610
+from the start. And again, these terms will come into
+
+01:07:10.610 --> 01:07:14.330
+picture again and again and again. So you have to basically
+
+01:07:14.330 --> 01:07:17.790
+take care of that in this particular manner. Yeah. Okay. So
+
+01:07:17.790 --> 01:07:20.870
+fine, everyone. This is it. This is it from my side for
+
+01:07:20.870 --> 01:07:23.550
+today. So next week onwards, what I'm going to do, I'm going
+
+01:07:23.550 --> 01:07:26.750
+to start with the machine learning. So I'll try to teach you
+
+01:07:26.750 --> 01:07:30.470
+the core part. Now the algorithm part now, like a machine
+
+01:07:30.470 --> 01:07:32.530
+learning algorithm. What is that? Then linear regression
+
+01:07:32.530 --> 01:07:35.550
+with complete mathematical derivation. Complete means
+
+01:07:35.550 --> 01:07:39.810
+literally complete end to end chain rule derivation where so
+
+01:07:39.810 --> 01:07:43.510
+I will be like showing you the entire gradient descent,
+
+01:07:43.690 --> 01:07:47.450
+basically what it does and how machine actually when we say
+
+01:07:47.450 --> 01:07:50.150
+machine is learning, right? What is the meaning of it?
+
+01:07:50.370 --> 01:07:53.350
+Because everything can be converted into a mathematics and
+
+01:07:53.350 --> 01:07:57.110
+that mathematics is very interesting, not difficult to
+
+01:07:57.110 --> 01:07:59.950
+understand the way I'm going to explain you, right? So all
+
+01:07:59.950 --> 01:08:03.110
+of you will be able to. Understand it and all of you can
+
+01:08:03.110 --> 01:08:06.210
+like retain it for a very, very long time. Believe me.
+
+01:08:06.430 --> 01:08:11.650
+Right. So yeah. Any question for me, guys, anyone, please
+
+01:08:11.650 --> 01:08:14.370
+raise your hand or maybe you can try to put up your question
+
+01:08:14.370 --> 01:08:17.650
+inside a chat. Anything is fine. If there is no question,
+
+01:08:17.790 --> 01:08:20.850
+then we'll try to close the class for today. You can go
+
+01:08:20.850 --> 01:08:25.290
+watch your match and then come to the next class. So in this
+
+01:08:25.290 --> 01:08:27.550
+AI journalist program, we have a project. Yes, we do have a
+
+01:08:27.550 --> 01:08:30.810
+project. Microsoft. Microsoft have stopped using cloud
+
+01:08:30.810 --> 01:08:33.890
+because of over cost. What's your view on this? If you will
+
+01:08:33.890 --> 01:08:36.730
+dig deeper little bit apart from the news, right, that you
+
+01:08:36.730 --> 01:08:40.010
+have received over a social media. So Microsoft is itself is
+
+01:08:40.010 --> 01:08:42.930
+developing a model and basically they have a plan to replace
+
+01:08:43.550 --> 01:08:49.530
+this cloud model with their own model. Right. So, yeah, no
+
+01:08:51.640 --> 01:08:58.320
+one can leave AI guys. No one can leave AI. Believe me, no
+
+01:08:58.320 --> 01:09:03.000
+one can do a coding or do a work without AI. This is how
+
+01:09:03.000 --> 01:09:06.060
+like, you know, adoption has happened across the industry.
+
+01:09:06.260 --> 01:09:09.740
+Every industry. Right. If you're not using cloud, you will
+
+01:09:09.740 --> 01:09:12.200
+use codex. If you're not using codex, you will use some like
+
+01:09:12.200 --> 01:09:18.840
+a Gemini, Lama, Mistral, Minmax, Kiwi, Quinn, DeepSeq, but
+
+01:09:18.840 --> 01:09:23.180
+you will use it for sure. Are data science rules is
+
+01:09:23.180 --> 01:09:25.760
+shrinking as compared to the previous year? No, I think it's
+
+01:09:25.760 --> 01:09:30.800
+exploding. What about you on Super 30? Okay. So, yeah,
+
+01:09:30.900 --> 01:09:34.680
+you're on Super 30. Next batch is going to start basically
+
+01:09:34.680 --> 01:09:39.700
+from next 10th, basically. And the special thing about your
+
+01:09:39.700 --> 01:09:42.320
+own Super 30, if you will go and check, it's very simple.
+
+01:09:42.460 --> 01:09:46.360
+Let me show you its dashboard, by the way. Right. So inside
+
+01:09:46.360 --> 01:09:49.020
+its dashboard, you will be able to find out that it's not
+
+01:09:49.020 --> 01:09:52.720
+like a regular things we try to do over here. So here we try
+
+01:09:52.720 --> 01:09:56.720
+to do a live session. There is a KT session. There is a
+
+01:09:56.720 --> 01:09:59.620
+cross KT session. Plus there is an intrapreneurial kind of a
+
+01:09:59.620 --> 01:10:04.500
+session. Plus there is like, I'm just like making everyone
+
+01:10:04.500 --> 01:10:07.520
+as an influencer and a YouTuber. Right. So basically like,
+
+01:10:07.560 --> 01:10:09.640
+and you will be able to see it from next week onwards
+
+01:10:09.640 --> 01:10:13.860
+itself. You will be able to see it that the May batch
+
+01:10:13.860 --> 01:10:17.780
+people. So they have literally like, you know, improved
+
+01:10:17.780 --> 01:10:20.460
+themselves in an amazing way in terms of doing a
+
+01:10:20.460 --> 01:10:22.780
+presentation in terms of, you know, explaining the topics.
+
+01:10:23.200 --> 01:10:26.720
+So all of these things by force, plus there is a pod concept
+
+01:10:26.720 --> 01:10:30.320
+is there inside this like, you know, work and learn. Many,
+
+01:10:30.400 --> 01:10:32.260
+many things are actually there. Right. So many things are
+
+01:10:32.260 --> 01:10:34.960
+already there. So that, you know, they go, they do a cross
+
+01:10:34.960 --> 01:10:38.460
+KT to do a task together. They do an individual task as
+
+01:10:38.460 --> 01:10:42.100
+well. Plus I'm giving them a classes in a scheduled manner.
+
+01:10:42.320 --> 01:10:45.580
+So yeah, all these activities are going to happen. And if
+
+01:10:45.580 --> 01:10:48.480
+you would like to join, then join from this June. So every
+
+01:10:48.480 --> 01:10:52.520
+month 10, by the way. Yeah. So my he's already done. So you
+
+01:10:52.520 --> 01:10:56.040
+can't join my month, but yeah, June is coming. So you can
+
+01:10:56.040 --> 01:10:59.760
+try to join June if you want. Plus timing. So class timing
+
+01:10:59.760 --> 01:11:04.600
+will be basically for June. I have not decided yet for me.
+
+01:11:04.800 --> 01:11:08.660
+It's basically Monday, Tuesday and Friday. And then some
+
+01:11:08.660 --> 01:11:11.600
+session on Saturday and Sunday. I've used to take, it will
+
+01:11:11.600 --> 01:11:15.780
+be late evening or Saturday, Sunday. Yeah. That will be the
+
+01:11:15.780 --> 01:11:21.340
+timing. So which next goes on to completing this auto
+
+01:11:21.340 --> 01:11:23.580
+committing this first of all, complete this one. It will
+
+01:11:23.580 --> 01:11:26.920
+take time. I'm like, you're not going to complete it like
+
+01:11:26.920 --> 01:11:28.880
+soon. So yeah, I
+
+01:11:31.920 --> 01:11:35.060
+have a good amount of time. Then try to follow a generative
+
+01:11:35.060 --> 01:11:39.980
+AI. I think that will be better. Yes. Just follow generative
+
+01:11:39.980 --> 01:11:47.000
+AI. So generative AI 2.0 and generative AI 3.0 is going to
+
+01:11:47.000 --> 01:11:51.360
+come. If you are focusing more on deployment side. So that
+
+01:11:51.360 --> 01:11:54.660
+batch, I believe I'm going to start personally. This one
+
+01:11:54.660 --> 01:11:58.560
+DevOps MLOps from 21st of June. And then from 4th of July,
+
+01:11:58.720 --> 01:12:02.240
+Gen AI certification bootcamp, we are going to start where
+
+01:12:02.240 --> 01:12:06.720
+along with me. Sachin is also going to like teach in this
+
+01:12:06.720 --> 01:12:09.040
+class, in this batch, but in this one, only me.
+
+01:12:11.960 --> 01:12:16.540
+Yeah. Okay. So fine, everyone. I think I have answered all
+
+01:12:16.540 --> 01:12:18.720
+the questions. So with that, thank you so much, everyone.
+
+01:12:18.820 --> 01:12:22.720
+Take care. Enjoy your Sunday. See you again next Saturday.
+
+01:12:22.840 --> 01:12:25.300
+So next Saturday, we are going to start with the machine
+
+01:12:25.300 --> 01:12:28.760
+learning topic in your batch. Thank you everyone. Take care.
+
